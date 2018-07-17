@@ -1,1 +1,1 @@
-mkdir -p projects/bioinf_project/{dataset,general_scripts,bin}
+mkdir -p {dataset,general_scripts,bin}

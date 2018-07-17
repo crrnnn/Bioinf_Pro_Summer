@@ -12,18 +12,18 @@ from sklearn.feature_extraction import DictVectorizer
 # ids=[]
 # #seq=[]
 # #states=[]
-#mydict={}
-mydict1 ={}
-mydict2= {}
+mydict={}
+# mydict1 ={}
+# mydict2= {}
 
 filereader = open('jpred1.3line.txt','r')
 text = filereader.read().splitlines()
 
 for i in range (0, len(text), 3):
-    #mydict[text[i].lstrip ('>')] = [text[i+1], text[i+2]]
+    mydict[text[i].lstrip ('>')] = [text[i+1], text[i+2]]
     print (list(text[i+1]))
-    mydict1 [text[i].lstrip ('>')] = list(text[i+1])
-    mydict2 [text[i].lstrip ('>')] = text[i+2]
+    # mydict1 [text[i].lstrip ('>')] = list(text[i+1])
+    # mydict2 [text[i].lstrip ('>')] = text[i+2]
     # seq.append(text[i+1])
     # states.append(text[i+2])
 
@@ -42,7 +42,7 @@ set1 = []
 set2 = []
 set3 = []
 n = 0
-for i in mydict1:
+for i in mydict:
     if 0<= n <= 269:
         set1.append(i)
         #n=+1
@@ -55,7 +55,7 @@ for i in mydict1:
         set3.append(i)
     n+=1
 
-print (mydict1['d1a12a_'])
+print (mydict)
 # print ('set1:')
 # print (set1)
 # print ('set2:')
@@ -63,17 +63,16 @@ print (mydict1['d1a12a_'])
 # print ('set3:')
 # print (set3)
 
-## One hot encoding ##
+### One hot encoding ###
 
 
+## DictVectorizer didnt work, probably it takes only keys with a string, not values with a string ##
 
-
-
-v = DictVectorizer(sparse=False)
-D= [mydict1, mydict2]
-X = v.fit_transform(mydict1)
-
-print (X.shape)
+# v = DictVectorizer(sparse=False)
+# D= [mydict1, mydict2]
+# X = v.fit_transform(mydict1)
+#
+# print (X.shape)
 
 
 
