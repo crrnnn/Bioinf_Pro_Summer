@@ -1,4 +1,6 @@
 import numpy as np
+import more_itertools as mit
+import itertools as it
 from sklearn import svm
 from sklearn.preprocessing import OneHotEncoder
 #from sklearn.feature_extraction import DictVectorizer
@@ -16,8 +18,10 @@ mydict={}
 # mydict1 ={}
 # mydict2= {}
 
+
 filereader = open('small_test_data.txt','r')
 text = filereader.read().splitlines()
+
 
 for i in range (0, len(text), 3):
     mydict[text[i].lstrip ('>')] = [list(text[i+1]), list(text[i+2])]
@@ -82,20 +86,20 @@ states_dict= {}
 for i,j in enumerate (aa_list):
     aa_dict[j]=i
 
-print (aa_dict)
+#print (aa_dict)
 
 for i,j in enumerate (states_list):
     states_dict[j]=i
 
-print (states_dict)
+#print (states_dict)
 
 encode = OneHotEncoder(n_values=len(aa_list))
-
+#%%
 for i in mydict:
     for j in range (len(mydict [i][0])):
         mydict[i][0][j] = aa_dict[mydict[i][0][j]]
 
-        mydict[i][0][j] = encode.fit_transform(mydict [i][0][j]).toarray()
+        mydict[i][0][j] = encode.fit_transform(mydict [i][0][j]).toarray().reshape(21)
 
 
 for i in mydict:
@@ -103,20 +107,80 @@ for i in mydict:
         mydict[i][1][j] = states_dict[mydict[i][1][j]]
 
 
-
-print (mydict)
-
-
-
-
-
-
-
+#%%
+#print (mydict)
 
 # sliding window
+### window size of 19 or 21 gives the best results accourding to http://biomine.cs.vcu.edu/papers/CIBCB2006-1.pdf
+       
+window_size = 19
+pad = [np.zeros(shape=21)]
+padding = pad * int((window_size-1)/2)
 
-#https://stackoverflow.com/questions/8269916/what-is-sliding-window-algorithm-examples
+# for i in mydict:
+#     for j in range (len(mydict [i][0])):
+#         sliding_window =list(mit.stagger(mydict[i][0][j], offsets=(-8, 0, 8), longest=True,  fillvalue=0 ))
+#
+#
+# print (sliding_window)
+#%%
 
+#padded_aa_dict= {}
+for i in mydict:
+    padded_temp = padding
+    padded_temp = padded_temp + mydict[i][0]
+    padded_temp = padded_temp + padding
+    
+    mydict[i][0] = padded_temp
+
+#padded_aa_list = pad.extendlist(padded_aa_list).extendlist(pad)
+
+#windows_dict = {}
+for i in mydict:
+    
+
+    window_temp = list(mit.windowed(mydict[i][0], 19))
+    window_temp = [list(mit.flatten(i)) for i in window_temp]
+    mydict[i][0] = window_temp
+    
+    
+     
+#%%
+print(len(mydict[i][0]))
+
+#############################################################################
+
+from sklearn.svm import SVC
+from sklearn.model_selection import train_test_split
+
+X = []
+Y = []
+for i in mydict:
+    X.extend(mydict[i][0])
+    Y.extend(mydict[i][1])
+
+
+train_X, test_X, train_Y, test_Y = train_test_split(X, Y, train_size = 0.9 , shuffle=True)
+
+
+model = SVC(verbose=True)
+
+model.fit(train_X, train_Y)
+
+model.score
+
+model.score()
+
+model.score(train_X, train_Y)
+
+model.score(test_X, test_Y)
+
+
+
+
+
+# if __name__=="__main__":
+#  print (parser('jpred1.3line.txt'))
 
 
 
