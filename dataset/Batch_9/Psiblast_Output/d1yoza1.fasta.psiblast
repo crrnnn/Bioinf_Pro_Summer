@@ -1,0 +1,206 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1yoza1
+
+Length=111
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_O29321 Uncharacterized protein AF_0941 n=3 Tax=Archaeo...  214     3e-69
+  UniRef90_D2RDF9 Uncharacterized protein n=2 Tax=Archaeoglobus p...  63.2    2e-10
+  UniRef90_N0BJR6 Uncharacterized protein n=1 Tax=Archaeoglobus s...  50.1    8e-06
+  UniRef90_F2KTB1 Putative uncharacterized protein n=1 Tax=Archae...  43.5    0.003
+
+
+> UniRef90_O29321 Uncharacterized protein AF_0941 n=3 Tax=Archaeoglobus 
+fulgidus TaxID=2234 RepID=Y941_ARCFU
+Length=114
+
+ Score = 214 bits (545),  Expect = 3e-69, Method: Compositional matrix adjust.
+ Identities = 111/114 (97%), Positives = 111/114 (97%), Gaps = 3/114 (3%)
+
+Query  1    MLYINSFLDRMGEIIRGEKSVEEADKLLDQKNIFEMFRSDCEEILNLYKSGKAEKEEVQR  60
+            MLYINSFLDRMGEIIRGEKSVEEADKLLDQKNIFEMFRSDCEEILNLYKSGKAEKEEVQR
+Sbjct  1    MLYINSFLDRMGEIIRGEKSVEEADKLLDQKNIFEMFRSDCEEILNLYKSGKAEKEEVQR  60
+
+Query  61   NFYLLKTYVVSQLSIHFERLKEFAESKG---EKKLDPEVINEIALYIDRVEKEV  111
+            NFYLLKTYVVSQLSIHFERLKEFAESKG   EKKLDPEVINEIALYIDRVEKEV
+Sbjct  61   NFYLLKTYVVSQLSIHFERLKEFAESKGFKIEKKLDPEVINEIALYIDRVEKEV  114
+
+
+> UniRef90_D2RDF9 Uncharacterized protein n=2 Tax=Archaeoglobus 
+profundus TaxID=84156 RepID=D2RDF9_ARCPA
+Length=128
+
+ Score = 63.2 bits (152),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 34/88 (39%), Positives = 54/88 (61%), Gaps = 11/88 (13%)
+
+Query  1   MLYINSFLDRMGEIIRG--------EKSVEEADKLLDQKNIFEMFRSDCEEILNLYKSGK  52
+           M+Y N++L++MGE+++         EK+V+E   L D +NI EMFRSD E +++ +  G 
+Sbjct  1   MMYKNTYLEKMGELLKHVMDVANDIEKAVKE---LTDDENIKEMFRSDVEFVMDKFYGGD  57
+
+Query  53  AEKEEVQRNFYLLKTYVVSQLSIHFERL  80
+              EE   N  +LK Y +SQL  H++R+
+Sbjct  58  ITVEEALNNLSMLKIYAISQLDTHYKRI  85
+
+
+> UniRef90_N0BJR6 Uncharacterized protein n=1 Tax=Archaeoglobus 
+sulfaticallidus PM70-1 TaxID=387631 RepID=N0BJR6_9EURY
+Length=110
+
+ Score = 50.1 bits (118),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 37/112 (33%), Positives = 65/112 (58%), Gaps = 7/112 (6%)
+
+Query  1    MLYINSFLDRMGEIIRGEKSVEEADKLLDQKNIFEMFRSDCEEILNLYKSGKAEKEEVQR  60
+            M YINS+LDR+ E +   K  + AD+L+ +  I +MF  D + +   Y+  +  + + ++
+Sbjct  1    MEYINSYLDRLREFLVN-KDQKMADQLISEAKIEKMFIDDVKNVYEKYRKNEIAEVDAKK  59
+
+Query  61   NFYLLKTYVVSQLSIHFERLKEFAESKGEKK--LDPEVINEIALYI-DRVEK  109
+            N  LLK +VV+QL+    + K+  ES G++   +D EV+  I  +I D +E+
+Sbjct  60   NLDLLKVFVVTQLN---NKRKDVMESVGKQPEDIDGEVVKRIVEFIEDAIER  108
+
+
+> UniRef90_F2KTB1 Putative uncharacterized protein n=1 Tax=Archaeoglobus 
+veneficus (strain DSM 11195 / SNP6) TaxID=693661 RepID=F2KTB1_ARCVS
+Length=151
+
+ Score = 43.5 bits (101),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 27/87 (31%), Positives = 49/87 (56%), Gaps = 12/87 (14%)
+
+Query  3   YINSFLDRMGEIIRG----EKSVEEA--------DKLLDQKNIFEMFRSDCEEILNLYKS  50
+           Y N++L+++GE+++      K+V+EA          L D + + E+FR D E I++++ +
+Sbjct  5   YRNTYLEKVGELMKYCMELAKTVDEAMDDIKRVSKDLRDPERVAEIFRMDSEYIVHVFMA  64
+
+Query  51  GKAEKEEVQRNFYLLKTYVVSQLSIHF  77
+           G   +EE +     LK Y +SQL  H+
+Sbjct  65  GGMTEEEAEDCLKKLKVYALSQLQEHY  91
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.137    0.363    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 438668923680
+Results from round 2
+
+
+Query= d1yoza1
+
+Length=111
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_O29321 Uncharacterized protein AF_0941 n=3 Tax=Archaeo...  121     1e-32
+  UniRef90_N0BJR6 Uncharacterized protein n=1 Tax=Archaeoglobus s...  88.9    3e-20
+  UniRef90_D2RDF9 Uncharacterized protein n=2 Tax=Archaeoglobus p...  79.7    2e-16
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_O29321 Uncharacterized protein AF_0941 n=3 Tax=Archaeoglobus 
+fulgidus TaxID=2234 RepID=Y941_ARCFU
+Length=114
+
+ Score = 121 bits (303),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 111/114 (97%), Positives = 111/114 (97%), Gaps = 3/114 (3%)
+
+Query  1    MLYINSFLDRMGEIIRGEKSVEEADKLLDQKNIFEMFRSDCEEILNLYKSGKAEKEEVQR  60
+            MLYINSFLDRMGEIIRGEKSVEEADKLLDQKNIFEMFRSDCEEILNLYKSGKAEKEEVQR
+Sbjct  1    MLYINSFLDRMGEIIRGEKSVEEADKLLDQKNIFEMFRSDCEEILNLYKSGKAEKEEVQR  60
+
+Query  61   NFYLLKTYVVSQLSIHFERLKEFAESKG---EKKLDPEVINEIALYIDRVEKEV  111
+            NFYLLKTYVVSQLSIHFERLKEFAESKG   EKKLDPEVINEIALYIDRVEKEV
+Sbjct  61   NFYLLKTYVVSQLSIHFERLKEFAESKGFKIEKKLDPEVINEIALYIDRVEKEV  114
+
+
+> UniRef90_N0BJR6 Uncharacterized protein n=1 Tax=Archaeoglobus 
+sulfaticallidus PM70-1 TaxID=387631 RepID=N0BJR6_9EURY
+Length=110
+
+ Score = 88.9 bits (219),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 37/112 (33%), Positives = 65/112 (58%), Gaps = 7/112 (6%)
+
+Query  1    MLYINSFLDRMGEIIRGEKSVEEADKLLDQKNIFEMFRSDCEEILNLYKSGKAEKEEVQR  60
+            M YINS+LDR+ E +   K  + AD+L+ +  I +MF  D + +   Y+  +  + + ++
+Sbjct  1    MEYINSYLDRLREFLVN-KDQKMADQLISEAKIEKMFIDDVKNVYEKYRKNEIAEVDAKK  59
+
+Query  61   NFYLLKTYVVSQLSIHFERLKEFAESKGEKK--LDPEVINEIALYI-DRVEK  109
+            N  LLK +VV+QL+    + K+  ES G++   +D EV+  I  +I D +E+
+Sbjct  60   NLDLLKVFVVTQLN---NKRKDVMESVGKQPEDIDGEVVKRIVEFIEDAIER  108
+
+
+> UniRef90_D2RDF9 Uncharacterized protein n=2 Tax=Archaeoglobus 
+profundus TaxID=84156 RepID=D2RDF9_ARCPA
+Length=128
+
+ Score = 79.7 bits (195),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 32/95 (34%), Positives = 54/95 (57%), Gaps = 5/95 (5%)
+
+Query  1   MLYINSFLDRMGEIIRGEKSV-----EEADKLLDQKNIFEMFRSDCEEILNLYKSGKAEK  55
+           M+Y N++L++MGE+++    V     +   +L D +NI EMFRSD E +++ +  G    
+Sbjct  1   MMYKNTYLEKMGELLKHVMDVANDIEKAVKELTDDENIKEMFRSDVEFVMDKFYGGDITV  60
+
+Query  56  EEVQRNFYLLKTYVVSQLSIHFERLKEFAESKGEK  90
+           EE   N  +LK Y +SQL  H++R+ +  +    K
+Sbjct  61  EEALNNLSMLKIYAISQLDTHYKRILDVLDDLERK  95
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.326    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0418    0.140     1.90     42.6     43.6 
+
+Effective search space used: 438668923680
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

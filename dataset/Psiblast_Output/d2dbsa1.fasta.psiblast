@@ -1,0 +1,530 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d2dbsa1
+
+Length=80
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q5SGN2 Uncharacterized protein n=1 Tax=Thermus thermop...  152     7e-46
+  UniRef90_R4JCL1 Uncharacterized protein n=3 Tax=Thermus TaxID=2...  126     2e-35
+  UniRef90_B7AC56 Uncharacterized protein n=3 Tax=Thermus TaxID=2...  70.5    8e-14
+  UniRef90_UPI000362A9B8 hypothetical protein n=1 Tax=Thermus sco...  51.6    1e-06
+  UniRef90_R4JCL8 Uncharacterized protein n=1 Tax=Thermus sp. WG ...  43.5    8e-04
+
+
+> UniRef90_Q5SGN2 Uncharacterized protein n=1 Tax=Thermus thermophilus 
+(strain HB8 / ATCC 27634 / DSM 579) TaxID=300852 RepID=Q5SGN2_THET8
+Length=90
+
+ Score = 152 bits (385),  Expect = 7e-46, Method: Compositional matrix adjust.
+ Identities = 80/80 (100%), Positives = 80/80 (100%), Gaps = 0/80 (0%)
+
+Query  1   RLAELDGVLMQYLLEADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEGWPSVYA  60
+           RLAELDGVLMQYLLEADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEGWPSVYA
+Sbjct  7   RLAELDGVLMQYLLEADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEGWPSVYA  66
+
+Query  61  LFLQGRPIRLLLLGKEVEVA  80
+           LFLQGRPIRLLLLGKEVEVA
+Sbjct  67  LFLQGRPIRLLLLGKEVEVA  86
+
+
+> UniRef90_R4JCL1 Uncharacterized protein n=3 Tax=Thermus TaxID=270 
+RepID=R4JCL1_9DEIN
+Length=90
+
+ Score = 126 bits (316),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 66/80 (83%), Positives = 73/80 (91%), Gaps = 0/80 (0%)
+
+Query  1   RLAELDGVLMQYLLEADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEGWPSVYA  60
+           RLAELDG+LM +LLEA LL+ELP  YRLVLLPLDEPEVAA+ALAWA EAPNPEGWP VYA
+Sbjct  7   RLAELDGILMDHLLEAGLLQELPEAYRLVLLPLDEPEVAAKALAWAREAPNPEGWPLVYA  66
+
+Query  61  LFLQGRPIRLLLLGKEVEVA  80
+           LFL+GRP+RLLL G+EVEVA
+Sbjct  67  LFLEGRPVRLLLPGREVEVA  86
+
+
+> UniRef90_B7AC56 Uncharacterized protein n=3 Tax=Thermus TaxID=270 
+RepID=B7AC56_THEAQ
+Length=90
+
+ Score = 70.5 bits (171),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 46/62 (74%), Positives = 49/62 (79%), Gaps = 0/62 (0%)
+
+Query  1   RLAELDGVLMQYLLEADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEGWPSVYA  60
+           RLAELD +L + LLE  LL ELP  YRLV LPLDEPEVA +AL WA EAPNPEGWP VYA
+Sbjct  6   RLAELDAILTEELLEKGLLGELPEAYRLVPLPLDEPEVAQKALLWAHEAPNPEGWPLVYA  65
+
+Query  61  LF  62
+           LF
+Sbjct  66  LF  67
+
+
+> UniRef90_UPI000362A9B8 hypothetical protein n=1 Tax=Thermus scotoductus 
+TaxID=37636 RepID=UPI000362A9B8
+Length=90
+
+ Score = 51.6 bits (122),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 41/76 (54%), Positives = 50/76 (66%), Gaps = 1/76 (1%)
+
+Query  1   RLAELDGVLMQYLLEADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEGWPSVYA  60
+           R+ EL G +   LL+ +L   LP +YRLV+LPLDEP VAA ALA   +APNPE  P V+A
+Sbjct  9   RMQELYGRVHGVLLDLELAGRLPESYRLVILPLDEPGVAAYALA-VAQAPNPENLPLVHA  67
+
+Query  61  LFLQGRPIRLLLLGKE  76
+           LF +G    LLL G E
+Sbjct  68  LFWKGELQTLLLPGGE  83
+
+
+> UniRef90_R4JCL8 Uncharacterized protein n=1 Tax=Thermus sp. WG 
+TaxID=1312524 RepID=R4JCL8_9DEIN
+Length=92
+
+ Score = 43.5 bits (101),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 34/74 (46%), Positives = 43/74 (58%), Gaps = 2/74 (3%)
+
+Query  1   RLAELDGVLMQYLL-EADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEG-WPSV  58
+           RL EL+GV  + LL + +LL  LP  + LV++PLDEPE    AL     A   EG  P V
+Sbjct  8   RLGELEGVFRERLLGDPELLASLPERFVLVVMPLDEPEAMRVALEGLSRARTWEGEGPLV  67
+
+Query  59  YALFLQGRPIRLLL  72
+           YALF  G  + L+L
+Sbjct  68  YALFQGGGLLALVL  81
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.141    0.422    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 440279174645
+Results from round 2
+
+
+Query= d2dbsa1
+
+Length=80
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_R4JCL1 Uncharacterized protein n=3 Tax=Thermus TaxID=2...  106     1e-27
+  UniRef90_Q5SGN2 Uncharacterized protein n=1 Tax=Thermus thermop...  105     4e-27
+  UniRef90_UPI000362A9B8 hypothetical protein n=1 Tax=Thermus sco...  83.9    5e-19
+  UniRef90_R4JCL8 Uncharacterized protein n=1 Tax=Thermus sp. WG ...  78.9    5e-17
+  UniRef90_B7AC56 Uncharacterized protein n=3 Tax=Thermus TaxID=2...  70.5    9e-14
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_Q5SGM4 Uncharacterized protein n=3 Tax=Thermus thermop...  45.8    1e-04
+  UniRef90_UPI0005703E3F hypothetical protein n=1 Tax=Thermus amy...  43.1    0.001
+  UniRef90_UPI00035CE651 hypothetical protein n=1 Tax=Thermus osh...  42.3    0.002
+  UniRef90_UPI000410E998 hypothetical protein n=1 Tax=Meiothermus...  40.4    0.009
+
+
+> UniRef90_R4JCL1 Uncharacterized protein n=3 Tax=Thermus TaxID=270 
+RepID=R4JCL1_9DEIN
+Length=90
+
+ Score = 106 bits (265),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 66/80 (83%), Positives = 73/80 (91%), Gaps = 0/80 (0%)
+
+Query  1   RLAELDGVLMQYLLEADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEGWPSVYA  60
+           RLAELDG+LM +LLEA LL+ELP  YRLVLLPLDEPEVAA+ALAWA EAPNPEGWP VYA
+Sbjct  7   RLAELDGILMDHLLEAGLLQELPEAYRLVLLPLDEPEVAAKALAWAREAPNPEGWPLVYA  66
+
+Query  61  LFLQGRPIRLLLLGKEVEVA  80
+           LFL+GRP+RLLL G+EVEVA
+Sbjct  67  LFLEGRPVRLLLPGREVEVA  86
+
+
+> UniRef90_Q5SGN2 Uncharacterized protein n=1 Tax=Thermus thermophilus 
+(strain HB8 / ATCC 27634 / DSM 579) TaxID=300852 RepID=Q5SGN2_THET8
+Length=90
+
+ Score = 105 bits (261),  Expect = 4e-27, Method: Composition-based stats.
+ Identities = 80/80 (100%), Positives = 80/80 (100%), Gaps = 0/80 (0%)
+
+Query  1   RLAELDGVLMQYLLEADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEGWPSVYA  60
+           RLAELDGVLMQYLLEADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEGWPSVYA
+Sbjct  7   RLAELDGVLMQYLLEADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEGWPSVYA  66
+
+Query  61  LFLQGRPIRLLLLGKEVEVA  80
+           LFLQGRPIRLLLLGKEVEVA
+Sbjct  67  LFLQGRPIRLLLLGKEVEVA  86
+
+
+> UniRef90_UPI000362A9B8 hypothetical protein n=1 Tax=Thermus scotoductus 
+TaxID=37636 RepID=UPI000362A9B8
+Length=90
+
+ Score = 83.9 bits (206),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 41/76 (54%), Positives = 50/76 (66%), Gaps = 1/76 (1%)
+
+Query  1   RLAELDGVLMQYLLEADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEGWPSVYA  60
+           R+ EL G +   LL+ +L   LP +YRLV+LPLDEP VAA ALA   +APNPE  P V+A
+Sbjct  9   RMQELYGRVHGVLLDLELAGRLPESYRLVILPLDEPGVAAYALA-VAQAPNPENLPLVHA  67
+
+Query  61  LFLQGRPIRLLLLGKE  76
+           LF +G    LLL G E
+Sbjct  68  LFWKGELQTLLLPGGE  83
+
+
+> UniRef90_R4JCL8 Uncharacterized protein n=1 Tax=Thermus sp. WG 
+TaxID=1312524 RepID=R4JCL8_9DEIN
+Length=92
+
+ Score = 78.9 bits (193),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 34/79 (43%), Positives = 44/79 (56%), Gaps = 2/79 (3%)
+
+Query  1   RLAELDGVLMQYLL-EADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEG-WPSV  58
+           RL EL+GV  + LL + +LL  LP  + LV++PLDEPE    AL     A   EG  P V
+Sbjct  8   RLGELEGVFRERLLGDPELLASLPERFVLVVMPLDEPEAMRVALEGLSRARTWEGEGPLV  67
+
+Query  59  YALFLQGRPIRLLLLGKEV  77
+           YALF  G  + L+L    +
+Sbjct  68  YALFQGGGLLALVLPEGRL  86
+
+
+> UniRef90_B7AC56 Uncharacterized protein n=3 Tax=Thermus TaxID=270 
+RepID=B7AC56_THEAQ
+Length=90
+
+ Score = 70.5 bits (171),  Expect = 9e-14, Method: Composition-based stats.
+ Identities = 56/77 (73%), Positives = 61/77 (79%), Gaps = 0/77 (0%)
+
+Query  1   RLAELDGVLMQYLLEADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEGWPSVYA  60
+           RLAELD +L + LLE  LL ELP  YRLV LPLDEPEVA +AL WA EAPNPEGWP VYA
+Sbjct  6   RLAELDAILTEELLEKGLLGELPEAYRLVPLPLDEPEVAQKALLWAHEAPNPEGWPLVYA  65
+
+Query  61  LFLQGRPIRLLLLGKEV  77
+           LFL GRP+RLLL  +EV
+Sbjct  66  LFLGGRPLRLLLPEREV  82
+
+
+> UniRef90_Q5SGM4 Uncharacterized protein n=3 Tax=Thermus thermophilus 
+TaxID=274 RepID=Q5SGM4_THET8
+Length=90
+
+ Score = 45.8 bits (107),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 23/78 (29%), Positives = 36/78 (46%), Gaps = 3/78 (4%)
+
+Query  1   RLAELDGVLMQYLL-EADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEGWPSVY  59
+           R+  L G+ +++LL +  L   LP  + LV L   +PE+ A AL  A  +      P VY
+Sbjct  9   RIGRLHGLFVEHLLRDPGLREALPHPFVLVALDPSDPELMAYALEAAKRSAGE--GPMVY  66
+
+Query  60  ALFLQGRPIRLLLLGKEV  77
+           ALF       ++     +
+Sbjct  67  ALFQGEELRLIIAPEGPI  84
+
+
+> UniRef90_UPI0005703E3F hypothetical protein n=1 Tax=Thermus amyloliquefaciens 
+TaxID=1449080 RepID=UPI0005703E3F
+Length=89
+
+ Score = 43.1 bits (100),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 24/65 (37%), Positives = 33/65 (51%), Gaps = 4/65 (6%)
+
+Query  16  ADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEGWPSVYALFLQGRPIRLLLLGK  75
+            ++   LP +YRLV+L LD+PE    AL WA+        P +YAL  +GR   LL    
+Sbjct  26  PEITARLPQSYRLVVLLLDDPE----ALGWALGQGKAAEGPVIYALVREGRVEGLLTPEG  81
+
+Query  76  EVEVA  80
+            V + 
+Sbjct  82  PVALG  86
+
+
+> UniRef90_UPI00035CE651 hypothetical protein n=1 Tax=Thermus oshimai 
+TaxID=56957 RepID=UPI00035CE651
+Length=110
+
+ Score = 42.3 bits (98),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 23/83 (28%), Positives = 34/83 (41%), Gaps = 11/83 (13%)
+
+Query  6    DGVLMQYLLEADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEG-----------  54
+            D   M +L + +L   LP  + L +LPLD+ E    ALA                     
+Sbjct  22   DAFGMCFLEDPELFELLPERFVLHVLPLDDEEAGQVALAELPHLRKWSAEGEGPIAKLSP  81
+
+Query  55   WPSVYALFLQGRPIRLLLLGKEV  77
+            +    ALFL GR + ++L   +V
+Sbjct  82   YGLTQALFLGGRLVGVVLPEGKV  104
+
+
+> UniRef90_UPI000410E998 hypothetical protein n=1 Tax=Meiothermus 
+chliarophilus TaxID=52023 RepID=UPI000410E998
+Length=84
+
+ Score = 40.4 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 23/64 (36%), Positives = 34/64 (53%), Gaps = 3/64 (5%)
+
+Query  16  ADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEGWPSVYALFLQGRPIRLLLLGK  75
+           A++L +LP  ++LV + LD P   A AL    +  +P   P+VYAL    R + LL  G 
+Sbjct  20  AEVLEQLPERFQLVGIDLDYPRGLAAALQ---QPLDPAEGPAVYALVRGERLVALLTPGG  76
+
+Query  76  EVEV  79
+            + V
+Sbjct  77  GLGV  80
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.135    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0420    0.140     1.90     42.6     43.6 
+
+Effective search space used: 440279174645
+Results from round 3
+
+
+Query= d2dbsa1
+
+Length=80
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_R4JCL1 Uncharacterized protein n=3 Tax=Thermus TaxID=2...  90.9    1e-21
+  UniRef90_Q5SGN2 Uncharacterized protein n=1 Tax=Thermus thermop...  88.6    1e-20
+  UniRef90_Q5SGM4 Uncharacterized protein n=3 Tax=Thermus thermop...  73.9    4e-15
+  UniRef90_R4JCL8 Uncharacterized protein n=1 Tax=Thermus sp. WG ...  72.4    2e-14
+  UniRef90_UPI000362A9B8 hypothetical protein n=1 Tax=Thermus sco...  71.2    4e-14
+  UniRef90_UPI0005703E3F hypothetical protein n=1 Tax=Thermus amy...  65.1    9e-12
+  UniRef90_B7AC56 Uncharacterized protein n=3 Tax=Thermus TaxID=2...  63.5    4e-11
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI000410E998 hypothetical protein n=1 Tax=Meiothermus...  43.9    5e-04
+  UniRef90_A0A1J4S6D7 Uncharacterized protein n=1 Tax=Anaerolinea...  43.1    0.001
+  UniRef90_UPI00035CE651 hypothetical protein n=1 Tax=Thermus osh...  42.3    0.002
+  UniRef90_A0A160T445 Uncharacterized protein n=1 Tax=Ardenticate...  41.2    0.006
+
+
+> UniRef90_R4JCL1 Uncharacterized protein n=3 Tax=Thermus TaxID=270 
+RepID=R4JCL1_9DEIN
+Length=90
+
+ Score = 90.9 bits (224),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 66/80 (83%), Positives = 73/80 (91%), Gaps = 0/80 (0%)
+
+Query  1   RLAELDGVLMQYLLEADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEGWPSVYA  60
+           RLAELDG+LM +LLEA LL+ELP  YRLVLLPLDEPEVAA+ALAWA EAPNPEGWP VYA
+Sbjct  7   RLAELDGILMDHLLEAGLLQELPEAYRLVLLPLDEPEVAAKALAWAREAPNPEGWPLVYA  66
+
+Query  61  LFLQGRPIRLLLLGKEVEVA  80
+           LFL+GRP+RLLL G+EVEVA
+Sbjct  67  LFLEGRPVRLLLPGREVEVA  86
+
+
+> UniRef90_Q5SGN2 Uncharacterized protein n=1 Tax=Thermus thermophilus 
+(strain HB8 / ATCC 27634 / DSM 579) TaxID=300852 RepID=Q5SGN2_THET8
+Length=90
+
+ Score = 88.6 bits (218),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 80/80 (100%), Positives = 80/80 (100%), Gaps = 0/80 (0%)
+
+Query  1   RLAELDGVLMQYLLEADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEGWPSVYA  60
+           RLAELDGVLMQYLLEADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEGWPSVYA
+Sbjct  7   RLAELDGVLMQYLLEADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEGWPSVYA  66
+
+Query  61  LFLQGRPIRLLLLGKEVEVA  80
+           LFLQGRPIRLLLLGKEVEVA
+Sbjct  67  LFLQGRPIRLLLLGKEVEVA  86
+
+
+> UniRef90_Q5SGM4 Uncharacterized protein n=3 Tax=Thermus thermophilus 
+TaxID=274 RepID=Q5SGM4_THET8
+Length=90
+
+ Score = 73.9 bits (180),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 23/78 (29%), Positives = 36/78 (46%), Gaps = 3/78 (4%)
+
+Query  1   RLAELDGVLMQYLL-EADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEGWPSVY  59
+           R+  L G+ +++LL +  L   LP  + LV L   +PE+ A AL  A  +      P VY
+Sbjct  9   RIGRLHGLFVEHLLRDPGLREALPHPFVLVALDPSDPELMAYALEAAKRSAGE--GPMVY  66
+
+Query  60  ALFLQGRPIRLLLLGKEV  77
+           ALF       ++     +
+Sbjct  67  ALFQGEELRLIIAPEGPI  84
+
+
+> UniRef90_R4JCL8 Uncharacterized protein n=1 Tax=Thermus sp. WG 
+TaxID=1312524 RepID=R4JCL8_9DEIN
+Length=92
+
+ Score = 72.4 bits (176),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 34/79 (43%), Positives = 44/79 (56%), Gaps = 2/79 (3%)
+
+Query  1   RLAELDGVLMQYLL-EADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEG-WPSV  58
+           RL EL+GV  + LL + +LL  LP  + LV++PLDEPE    AL     A   EG  P V
+Sbjct  8   RLGELEGVFRERLLGDPELLASLPERFVLVVMPLDEPEAMRVALEGLSRARTWEGEGPLV  67
+
+Query  59  YALFLQGRPIRLLLLGKEV  77
+           YALF  G  + L+L    +
+Sbjct  68  YALFQGGGLLALVLPEGRL  86
+
+
+> UniRef90_UPI000362A9B8 hypothetical protein n=1 Tax=Thermus scotoductus 
+TaxID=37636 RepID=UPI000362A9B8
+Length=90
+
+ Score = 71.2 bits (173),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 41/76 (54%), Positives = 50/76 (66%), Gaps = 1/76 (1%)
+
+Query  1   RLAELDGVLMQYLLEADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEGWPSVYA  60
+           R+ EL G +   LL+ +L   LP +YRLV+LPLDEP VAA ALA   +APNPE  P V+A
+Sbjct  9   RMQELYGRVHGVLLDLELAGRLPESYRLVILPLDEPGVAAYALA-VAQAPNPENLPLVHA  67
+
+Query  61  LFLQGRPIRLLLLGKE  76
+           LF +G    LLL G E
+Sbjct  68  LFWKGELQTLLLPGGE  83
+
+
+> UniRef90_UPI0005703E3F hypothetical protein n=1 Tax=Thermus amyloliquefaciens 
+TaxID=1449080 RepID=UPI0005703E3F
+Length=89
+
+ Score = 65.1 bits (157),  Expect = 9e-12, Method: Composition-based stats.
+ Identities = 24/65 (37%), Positives = 33/65 (51%), Gaps = 4/65 (6%)
+
+Query  16  ADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEGWPSVYALFLQGRPIRLLLLGK  75
+            ++   LP +YRLV+L LD+PE    AL WA+        P +YAL  +GR   LL    
+Sbjct  26  PEITARLPQSYRLVVLLLDDPE----ALGWALGQGKAAEGPVIYALVREGRVEGLLTPEG  81
+
+Query  76  EVEVA  80
+            V + 
+Sbjct  82  PVALG  86
+
+
+> UniRef90_B7AC56 Uncharacterized protein n=3 Tax=Thermus TaxID=270 
+RepID=B7AC56_THEAQ
+Length=90
+
+ Score = 63.5 bits (153),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 56/80 (70%), Positives = 62/80 (78%), Gaps = 0/80 (0%)
+
+Query  1   RLAELDGVLMQYLLEADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEGWPSVYA  60
+           RLAELD +L + LLE  LL ELP  YRLV LPLDEPEVA +AL WA EAPNPEGWP VYA
+Sbjct  6   RLAELDAILTEELLEKGLLGELPEAYRLVPLPLDEPEVAQKALLWAHEAPNPEGWPLVYA  65
+
+Query  61  LFLQGRPIRLLLLGKEVEVA  80
+           LFL GRP+RLLL  +EV + 
+Sbjct  66  LFLGGRPLRLLLPEREVPLG  85
+
+
+> UniRef90_UPI000410E998 hypothetical protein n=1 Tax=Meiothermus 
+chliarophilus TaxID=52023 RepID=UPI000410E998
+Length=84
+
+ Score = 43.9 bits (102),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 23/64 (36%), Positives = 34/64 (53%), Gaps = 3/64 (5%)
+
+Query  16  ADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEGWPSVYALFLQGRPIRLLLLGK  75
+           A++L +LP  ++LV + LD P   A AL    +  +P   P+VYAL    R + LL  G 
+Sbjct  20  AEVLEQLPERFQLVGIDLDYPRGLAAALQ---QPLDPAEGPAVYALVRGERLVALLTPGG  76
+
+Query  76  EVEV  79
+            + V
+Sbjct  77  GLGV  80
+
+
+> UniRef90_A0A1J4S6D7 Uncharacterized protein n=1 Tax=Anaerolineae 
+bacterium CG1_02_58_13 TaxID=1805002 RepID=A0A1J4S6D7_9CHLR
+Length=90
+
+ Score = 43.1 bits (100),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 19/61 (31%), Positives = 33/61 (54%), Gaps = 2/61 (3%)
+
+Query  1   RLAELDGVLMQYLLE-ADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEGWPSVY  59
+           R   L G +M+Y+++   +   LP  + LV+LP D+PE++   L    +    +G P V+
+Sbjct  12  RNIRLTGKIMEYMIDHPRIFDVLPDDFELVILPEDDPEISQFNLDLLNKMGR-KGKPIVF  70
+
+Query  60  A  60
+           A
+Sbjct  71  A  71
+
+
+> UniRef90_UPI00035CE651 hypothetical protein n=1 Tax=Thermus oshimai 
+TaxID=56957 RepID=UPI00035CE651
+Length=110
+
+ Score = 42.3 bits (98),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 22/76 (29%), Positives = 31/76 (41%), Gaps = 11/76 (14%)
+
+Query  13   LLEADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPE---GWP--------SVYAL  61
+            L + +L   LP  + L +LPLD+ E    ALA              P           AL
+Sbjct  29   LEDPELFELLPERFVLHVLPLDDEEAGQVALAELPHLRKWSAEGEGPIAKLSPYGLTQAL  88
+
+Query  62   FLQGRPIRLLLLGKEV  77
+            FL GR + ++L   +V
+Sbjct  89   FLGGRLVGVVLPEGKV  104
+
+
+> UniRef90_A0A160T445 Uncharacterized protein n=1 Tax=Ardenticatena 
+sp. Cfx-K TaxID=1806508 RepID=A0A160T445_9CHLR
+Length=100
+
+ Score = 41.2 bits (95),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 23/57 (40%), Positives = 30/57 (53%), Gaps = 2/57 (4%)
+
+Query  5   LDGVLMQYLLE-ADLLRELPPTYRLVLLPLDEPEVAAQALAWAMEAPNPEGWPSVYA  60
+           L G +MQYLL+  DL   LP  + LV+LP D+PE+    L         E  P V+A
+Sbjct  19  LVGQIMQYLLDNPDLFDALPDDFELVVLPEDDPEMRLYNLELLDRYSIEEK-PVVFA  74
+
+
+
+Lambda      K        H        a         alpha
+   0.306    0.136    0.358    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0414    0.140     1.90     42.6     43.6 
+
+Effective search space used: 440279174645
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

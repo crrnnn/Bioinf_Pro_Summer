@@ -1,0 +1,462 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1irqa_
+
+Length=48
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q57468 Omega transcriptional repressor n=87 Tax=root T...  99.4    1e-25
+  UniRef90_UPI00067B3F2F MULTISPECIES: peptide-binding protein n=...  97.4    5e-25
+  UniRef90_A0A0D6DZZ0 Uncharacterized protein n=1 Tax=Lactococcus...  85.9    2e-20
+  UniRef90_R2R8E2 Uncharacterized protein n=1 Tax=Enterococcus ra...  82.0    6e-19
+  UniRef90_D1MAU3 AM6 n=48 Tax=root TaxID=1 RepID=D1MAU3_ENTFL        68.9    8e-14
+  UniRef90_A0A0T9GZQ7 Omega2 protein n=4 Tax=Lactobacillales TaxI...  68.6    9e-14
+  UniRef90_UPI00067D75B3 peptide-binding protein n=3 Tax=Streptoc...  68.9    1e-13
+  UniRef90_UPI0004A364E1 peptide-binding protein n=5 Tax=Lactobac...  68.6    1e-13
+  UniRef90_UPI000201ADF3 peptide-binding protein n=2 Tax=Lactobac...  67.4    3e-13
+  UniRef90_A4F5E2 Uncharacterized protein n=7 Tax=Firmicutes TaxI...  68.6    3e-12
+  UniRef90_UPI0005B8A091 peptide-binding protein n=1 Tax=Streptoc...  61.6    5e-11
+  UniRef90_UPI00025F4BA2 hypothetical protein n=1 Tax=Staphylococ...  48.1    6e-06
+  UniRef90_E8ZCY8 Omega transcriptional regulator n=1 Tax=Strepto...  44.3    2e-04
+  UniRef90_UPI0005CE7D9D peptide-binding protein n=1 Tax=Streptoc...  39.7    0.006
+  UniRef90_G7SED5 Omega transcriptional repressor n=8 Tax=Bacteri...  39.7    0.006
+  UniRef90_UPI0006ACA4D9 peptide-binding protein n=1 Tax=Streptoc...  39.7    0.008
+
+
+> UniRef90_Q57468 Omega transcriptional repressor n=87 Tax=root 
+TaxID=1 RepID=Q57468_STRPY
+Length=71
+
+ Score = 99.4 bits (246),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 48/48 (100%), Positives = 48/48 (100%), Gaps = 0/48 (0%)
+
+Query  1   IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  48
+           IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL
+Sbjct  24  IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  71
+
+
+> UniRef90_UPI00067B3F2F MULTISPECIES: peptide-binding protein 
+n=2 Tax=Bacilli TaxID=91061 RepID=UPI00067B3F2F
+Length=54
+
+ Score = 97.4 bits (241),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 47/48 (98%), Positives = 48/48 (100%), Gaps = 0/48 (0%)
+
+Query  1   IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  48
+           IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMD+ALEEYIRKYLPDKL
+Sbjct  7   IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDKALEEYIRKYLPDKL  54
+
+
+> UniRef90_A0A0D6DZZ0 Uncharacterized protein n=1 Tax=Lactococcus 
+piscium MKFS47 TaxID=297352 RepID=A0A0D6DZZ0_9LACT
+Length=69
+
+ Score = 85.9 bits (211),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 40/48 (83%), Positives = 45/48 (94%), Gaps = 0/48 (0%)
+
+Query  1   IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  48
+           I+GDKTVRVRADL HIIKIETAKNGGNVKE MD+ALEEY++KYLP +L
+Sbjct  22  IIGDKTVRVRADLWHIIKIETAKNGGNVKETMDKALEEYVQKYLPSEL  69
+
+
+> UniRef90_R2R8E2 Uncharacterized protein n=1 Tax=Enterococcus 
+raffinosus ATCC 49464 TaxID=1158602 RepID=R2R8E2_9ENTE
+Length=69
+
+ Score = 82.0 bits (201),  Expect = 6e-19, Method: Compositional matrix adjust.
+ Identities = 39/45 (87%), Positives = 42/45 (93%), Gaps = 0/45 (0%)
+
+Query  4   DKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  48
+           DKTVRVR DLH IIKI+TA+NGGNVKEVMD+ALEEYIRKYLP KL
+Sbjct  25  DKTVRVRGDLHQIIKIDTAQNGGNVKEVMDRALEEYIRKYLPGKL  69
+
+
+> UniRef90_D1MAU3 AM6 n=48 Tax=root TaxID=1 RepID=D1MAU3_ENTFL
+Length=77
+
+ Score = 68.9 bits (167),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 34/44 (77%), Positives = 37/44 (84%), Gaps = 0/44 (0%)
+
+Query  1   IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  44
+           IMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  22  IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  65
+
+
+> UniRef90_A0A0T9GZQ7 Omega2 protein n=4 Tax=Lactobacillales TaxID=186826 
+RepID=A0A0T9GZQ7_STREE
+Length=64
+
+ Score = 68.6 bits (166),  Expect = 9e-14, Method: Compositional matrix adjust.
+ Identities = 34/44 (77%), Positives = 37/44 (84%), Gaps = 0/44 (0%)
+
+Query  1   IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  44
+           IMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  9   IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  52
+
+
+> UniRef90_UPI00067D75B3 peptide-binding protein n=3 Tax=Streptococcus 
+pneumoniae TaxID=1313 RepID=UPI00067D75B3
+Length=86
+
+ Score = 68.9 bits (167),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 34/44 (77%), Positives = 37/44 (84%), Gaps = 0/44 (0%)
+
+Query  1   IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  44
+           IMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  21  IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  64
+
+
+> UniRef90_UPI0004A364E1 peptide-binding protein n=5 Tax=Lactobacillales 
+TaxID=186826 RepID=UPI0004A364E1
+Length=70
+
+ Score = 68.6 bits (166),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 34/44 (77%), Positives = 37/44 (84%), Gaps = 0/44 (0%)
+
+Query  1   IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  44
+           IMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  15  IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  58
+
+
+> UniRef90_UPI000201ADF3 peptide-binding protein n=2 Tax=Lactobacillales 
+TaxID=186826 RepID=UPI000201ADF3
+Length=68
+
+ Score = 67.4 bits (163),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 33/40 (83%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1   IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYI  40
+           IMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   +
+Sbjct  24  IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRRVL  63
+
+
+> UniRef90_A4F5E2 Uncharacterized protein n=7 Tax=Firmicutes TaxID=1239 
+RepID=A4F5E2_STREE
+Length=400
+
+ Score = 68.6 bits (166),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 34/44 (77%), Positives = 37/44 (84%), Gaps = 0/44 (0%)
+
+Query  1    IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  44
+            IMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  345  IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  388
+
+
+> UniRef90_UPI0005B8A091 peptide-binding protein n=1 Tax=Streptococcus 
+suis TaxID=1307 RepID=UPI0005B8A091
+Length=67
+
+ Score = 61.6 bits (148),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 30/41 (73%), Positives = 34/41 (83%), Gaps = 0/41 (0%)
+
+Query  4   DKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  44
+           +KTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  15  NKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  55
+
+
+> UniRef90_UPI00025F4BA2 hypothetical protein n=1 Tax=Staphylococcus 
+aureus TaxID=1280 RepID=UPI00025F4BA2
+Length=75
+
+ Score = 48.1 bits (113),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 19/39 (49%), Positives = 33/39 (85%), Gaps = 0/39 (0%)
+
+Query  5   KTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKY  43
+           K V++R + H+++K  TAKNGG++++++D+A+EEYI KY
+Sbjct  34  KPVKLRGEYHYLLKNYTAKNGGSIRDIVDKAVEEYIDKY  72
+
+
+> UniRef90_E8ZCY8 Omega transcriptional regulator n=1 Tax=Streptococcus 
+pneumoniae TaxID=1313 RepID=E8ZCY8_STREE
+Length=73
+
+ Score = 44.3 bits (103),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 21/32 (66%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  13  LHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  44
+           +HHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  1   MHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  32
+
+
+> UniRef90_UPI0005CE7D9D peptide-binding protein n=1 Tax=Streptococcus 
+suis TaxID=1307 RepID=UPI0005CE7D9D
+Length=52
+
+ Score = 39.7 bits (91),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 18/19 (95%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   IMGDKTVRVRADLHHIIKI  19
+           IMGDKTVRVRADLHHIIK 
+Sbjct  20  IMGDKTVRVRADLHHIIKF  38
+
+
+> UniRef90_G7SED5 Omega transcriptional repressor n=8 Tax=Bacteria 
+TaxID=2 RepID=G7SED5_STRSU
+Length=56
+
+ Score = 39.7 bits (91),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 18/19 (95%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   IMGDKTVRVRADLHHIIKI  19
+           IMGDKTVRVRADLHHIIK 
+Sbjct  24  IMGDKTVRVRADLHHIIKF  42
+
+
+> UniRef90_UPI0006ACA4D9 peptide-binding protein n=1 Tax=Streptococcus 
+suis TaxID=1307 RepID=UPI0006ACA4D9
+Length=71
+
+ Score = 39.7 bits (91),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 18/18 (100%), Positives = 18/18 (100%), Gaps = 0/18 (0%)
+
+Query  1   IMGDKTVRVRADLHHIIK  18
+           IMGDKTVRVRADLHHIIK
+Sbjct  24  IMGDKTVRVRADLHHIIK  41
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.138    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 452545296435
+Results from round 2
+
+
+Query= d1irqa_
+
+Length=48
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_Q57468 Omega transcriptional repressor n=87 Tax=root T...  76.5    8e-17
+  UniRef90_A0A0D6DZZ0 Uncharacterized protein n=1 Tax=Lactococcus...  74.6    5e-16
+  UniRef90_UPI00067B3F2F MULTISPECIES: peptide-binding protein n=...  73.8    6e-16
+  UniRef90_R2R8E2 Uncharacterized protein n=1 Tax=Enterococcus ra...  69.6    4e-14
+  UniRef90_A4F5E2 Uncharacterized protein n=7 Tax=Firmicutes TaxI...  72.3    2e-13
+  UniRef90_UPI0004A364E1 peptide-binding protein n=5 Tax=Lactobac...  65.0    2e-12
+  UniRef90_UPI00067D75B3 peptide-binding protein n=3 Tax=Streptoc...  64.6    5e-12
+  UniRef90_D1MAU3 AM6 n=48 Tax=root TaxID=1 RepID=D1MAU3_ENTFL        63.4    1e-11
+  UniRef90_A0A0T9GZQ7 Omega2 protein n=4 Tax=Lactobacillales TaxI...  61.9    3e-11
+  UniRef90_UPI000201ADF3 peptide-binding protein n=2 Tax=Lactobac...  60.3    2e-10
+  UniRef90_UPI00025F4BA2 hypothetical protein n=1 Tax=Staphylococ...  55.7    1e-08
+  UniRef90_UPI0005B8A091 peptide-binding protein n=1 Tax=Streptoc...  54.6    2e-08
+  UniRef90_E8ZCY8 Omega transcriptional regulator n=1 Tax=Strepto...  50.3    8e-07
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_Q57468 Omega transcriptional repressor n=87 Tax=root 
+TaxID=1 RepID=Q57468_STRPY
+Length=71
+
+ Score = 76.5 bits (187),  Expect = 8e-17, Method: Composition-based stats.
+ Identities = 48/48 (100%), Positives = 48/48 (100%), Gaps = 0/48 (0%)
+
+Query  1   IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  48
+           IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL
+Sbjct  24  IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  71
+
+
+> UniRef90_A0A0D6DZZ0 Uncharacterized protein n=1 Tax=Lactococcus 
+piscium MKFS47 TaxID=297352 RepID=A0A0D6DZZ0_9LACT
+Length=69
+
+ Score = 74.6 bits (182),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 40/48 (83%), Positives = 45/48 (94%), Gaps = 0/48 (0%)
+
+Query  1   IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  48
+           I+GDKTVRVRADL HIIKIETAKNGGNVKE MD+ALEEY++KYLP +L
+Sbjct  22  IIGDKTVRVRADLWHIIKIETAKNGGNVKETMDKALEEYVQKYLPSEL  69
+
+
+> UniRef90_UPI00067B3F2F MULTISPECIES: peptide-binding protein 
+n=2 Tax=Bacilli TaxID=91061 RepID=UPI00067B3F2F
+Length=54
+
+ Score = 73.8 bits (180),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 47/48 (98%), Positives = 48/48 (100%), Gaps = 0/48 (0%)
+
+Query  1   IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  48
+           IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMD+ALEEYIRKYLPDKL
+Sbjct  7   IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDKALEEYIRKYLPDKL  54
+
+
+> UniRef90_R2R8E2 Uncharacterized protein n=1 Tax=Enterococcus 
+raffinosus ATCC 49464 TaxID=1158602 RepID=R2R8E2_9ENTE
+Length=69
+
+ Score = 69.6 bits (169),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 39/45 (87%), Positives = 42/45 (93%), Gaps = 0/45 (0%)
+
+Query  4   DKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  48
+           DKTVRVR DLH IIKI+TA+NGGNVKEVMD+ALEEYIRKYLP KL
+Sbjct  25  DKTVRVRGDLHQIIKIDTAQNGGNVKEVMDRALEEYIRKYLPGKL  69
+
+
+> UniRef90_A4F5E2 Uncharacterized protein n=7 Tax=Firmicutes TaxID=1239 
+RepID=A4F5E2_STREE
+Length=400
+
+ Score = 72.3 bits (176),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 34/44 (77%), Positives = 37/44 (84%), Gaps = 0/44 (0%)
+
+Query  1    IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  44
+            IMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  345  IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  388
+
+
+> UniRef90_UPI0004A364E1 peptide-binding protein n=5 Tax=Lactobacillales 
+TaxID=186826 RepID=UPI0004A364E1
+Length=70
+
+ Score = 65.0 bits (157),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 34/44 (77%), Positives = 37/44 (84%), Gaps = 0/44 (0%)
+
+Query  1   IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  44
+           IMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  15  IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  58
+
+
+> UniRef90_UPI00067D75B3 peptide-binding protein n=3 Tax=Streptococcus 
+pneumoniae TaxID=1313 RepID=UPI00067D75B3
+Length=86
+
+ Score = 64.6 bits (156),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 34/44 (77%), Positives = 37/44 (84%), Gaps = 0/44 (0%)
+
+Query  1   IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  44
+           IMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  21  IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  64
+
+
+> UniRef90_D1MAU3 AM6 n=48 Tax=root TaxID=1 RepID=D1MAU3_ENTFL
+Length=77
+
+ Score = 63.4 bits (153),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 34/44 (77%), Positives = 37/44 (84%), Gaps = 0/44 (0%)
+
+Query  1   IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  44
+           IMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  22  IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  65
+
+
+> UniRef90_A0A0T9GZQ7 Omega2 protein n=4 Tax=Lactobacillales TaxID=186826 
+RepID=A0A0T9GZQ7_STREE
+Length=64
+
+ Score = 61.9 bits (149),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 34/44 (77%), Positives = 37/44 (84%), Gaps = 0/44 (0%)
+
+Query  1   IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  44
+           IMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  9   IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  52
+
+
+> UniRef90_UPI000201ADF3 peptide-binding protein n=2 Tax=Lactobacillales 
+TaxID=186826 RepID=UPI000201ADF3
+Length=68
+
+ Score = 60.3 bits (145),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 33/40 (83%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1   IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYI  40
+           IMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   +
+Sbjct  24  IMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRRVL  63
+
+
+> UniRef90_UPI00025F4BA2 hypothetical protein n=1 Tax=Staphylococcus 
+aureus TaxID=1280 RepID=UPI00025F4BA2
+Length=75
+
+ Score = 55.7 bits (133),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 19/39 (49%), Positives = 33/39 (85%), Gaps = 0/39 (0%)
+
+Query  5   KTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKY  43
+           K V++R + H+++K  TAKNGG++++++D+A+EEYI KY
+Sbjct  34  KPVKLRGEYHYLLKNYTAKNGGSIRDIVDKAVEEYIDKY  72
+
+
+> UniRef90_UPI0005B8A091 peptide-binding protein n=1 Tax=Streptococcus 
+suis TaxID=1307 RepID=UPI0005B8A091
+Length=67
+
+ Score = 54.6 bits (130),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 30/41 (73%), Positives = 34/41 (83%), Gaps = 0/41 (0%)
+
+Query  4   DKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  44
+           +KTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  15  NKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  55
+
+
+> UniRef90_E8ZCY8 Omega transcriptional regulator n=1 Tax=Streptococcus 
+pneumoniae TaxID=1313 RepID=E8ZCY8_STREE
+Length=73
+
+ Score = 50.3 bits (119),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 21/32 (66%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  13  LHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  44
+           +HHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  1   MHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  32
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.145    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0443    0.140     1.90     42.6     43.6 
+
+Effective search space used: 452545296435
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,2377 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1z8ua_
+
+Length=90
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q9NZD4 Alpha-hemoglobin-stabilizing protein n=16 Tax=S...  183     2e-57
+  UniRef90_UPI00075F98B7 PREDICTED: alpha-hemoglobin-stabilizing ...  177     5e-55
+  UniRef90_F6RED9 Uncharacterized protein n=2 Tax=Macaca mulatta ...  176     1e-54
+  UniRef90_A0A1D5RDT9 Uncharacterized protein n=3 Tax=Macaca TaxI...  176     2e-54
+  UniRef90_UPI000625582D PREDICTED: alpha-hemoglobin-stabilizing ...  171     6e-53
+  UniRef90_UPI0003F14395 PREDICTED: alpha-hemoglobin-stabilizing ...  147     2e-43
+  UniRef90_A0A091D6K8 Alpha-hemoglobin-stabilizing protein n=2 Ta...  145     1e-42
+  UniRef90_UPI00046BB852 PREDICTED: alpha-hemoglobin-stabilizing ...  144     2e-42
+  UniRef90_UPI00063FA74A PREDICTED: alpha-hemoglobin-stabilizing ...  144     2e-42
+  UniRef90_G1P6I0 Uncharacterized protein n=4 Tax=Myotis TaxID=94...  144     4e-42
+  UniRef90_H0VUX5 Uncharacterized protein n=1 Tax=Cavia porcellus...  143     7e-42
+  UniRef90_F6RTV5 Uncharacterized protein n=2 Tax=Equus TaxID=355...  143     8e-42
+  UniRef90_UPI000643A5AA PREDICTED: alpha-hemoglobin-stabilizing ...  142     2e-41
+  UniRef90_UPI0002C68338 PREDICTED: alpha-hemoglobin-stabilizing ...  141     3e-41
+  UniRef90_H0XCX0 Uncharacterized protein n=1 Tax=Otolemur garnet...  140     1e-40
+  UniRef90_UPI000333A431 PREDICTED: alpha-hemoglobin-stabilizing ...  139     2e-40
+  UniRef90_UPI0003F168FD PREDICTED: alpha-hemoglobin-stabilizing ...  139     2e-40
+  UniRef90_UPI000737DEC7 PREDICTED: alpha-hemoglobin-stabilizing ...  138     4e-40
+  UniRef90_M3W8I5 Uncharacterized protein n=3 Tax=Felidae TaxID=9...  138     7e-40
+  UniRef90_UPI00093EF38B UPI00093EF38B related cluster n=5 Tax=un...  140     7e-40
+  UniRef90_UPI0004D050C0 PREDICTED: alpha-hemoglobin-stabilizing ...  137     1e-39
+  UniRef90_UPI00018B8EBA PREDICTED: alpha-hemoglobin-stabilizing ...  137     1e-39
+  UniRef90_T0NQX3 Alpha-hemoglobin-stabilizing protein n=2 Tax=Ca...  137     4e-39
+  UniRef90_L9KTP8 Alpha-hemoglobin-stabilizing protein n=1 Tax=Tu...  135     5e-39
+  UniRef90_UPI0006507C25 PREDICTED: alpha-hemoglobin-stabilizing ...  135     5e-39
+  UniRef90_UPI00042C61AD PREDICTED: alpha-hemoglobin-stabilizing ...  139     7e-39
+  UniRef90_I3NEY4 Uncharacterized protein n=3 Tax=Marmotini TaxID...  135     9e-39
+  UniRef90_UPI00045E0029 PREDICTED: alpha-hemoglobin-stabilizing ...  135     1e-38
+  UniRef90_A0A1A6GB31 Uncharacterized protein n=1 Tax=Neotoma lep...  135     1e-38
+  UniRef90_UPI00063C15DE PREDICTED: alpha-hemoglobin-stabilizing ...  135     1e-38
+  UniRef90_E2RSC2 Uncharacterized protein n=1 Tax=Canis lupus fam...  134     3e-38
+  UniRef90_G3T391 Uncharacterized protein n=2 Tax=Loxodonta afric...  134     3e-38
+  UniRef90_UPI0004404B89 PREDICTED: alpha-hemoglobin-stabilizing ...  134     3e-38
+  UniRef90_Q865F8 Alpha-hemoglobin-stabilizing protein n=6 Tax=Bo...  133     4e-38
+  UniRef90_D2HTC9 Putative uncharacterized protein (Fragment) n=2...  133     7e-38
+  UniRef90_UPI00038F0495 PREDICTED: alpha-hemoglobin-stabilizing ...  132     1e-37
+  UniRef90_M3YIT3 Uncharacterized protein n=5 Tax=Caniformia TaxI...  132     2e-37
+  UniRef90_UPI0003EE1329 PREDICTED: alpha-hemoglobin-stabilizing ...  131     2e-37
+  UniRef90_W5PJ79 Uncharacterized protein n=4 Tax=Bovidae TaxID=9...  131     2e-37
+  UniRef90_UPI000944ECD5 UPI000944ECD5 related cluster n=1 Tax=un...  131     3e-37
+  UniRef90_G1TJ87 Uncharacterized protein n=1 Tax=Oryctolagus cun...  131     5e-37
+  UniRef90_UPI000441D92C PREDICTED: LOW QUALITY PROTEIN: alpha-he...  130     7e-37
+  UniRef90_UPI000333BEE0 PREDICTED: alpha-hemoglobin-stabilizing ...  129     2e-36
+  UniRef90_UPI0003F07A95 PREDICTED: alpha-hemoglobin-stabilizing ...  129     3e-36
+  UniRef90_I3LCF9 Uncharacterized protein n=1 Tax=Sus scrofa TaxI...  128     4e-36
+  UniRef90_UPI0004ED18CB PREDICTED: alpha-hemoglobin-stabilizing ...  127     2e-35
+  UniRef90_UPI00038BE661 PREDICTED: alpha-hemoglobin-stabilizing ...  126     4e-35
+  UniRef90_UPI00042A9E1B PREDICTED: alpha-hemoglobin-stabilizing ...  125     8e-35
+  UniRef90_UPI000812C14D UPI000812C14D related cluster n=1 Tax=un...  124     2e-34
+  UniRef90_UPI00032ADD14 PREDICTED: alpha-hemoglobin-stabilizing ...  124     2e-34
+  UniRef90_UPI000334541A PREDICTED: alpha-hemoglobin-stabilizing ...  123     4e-34
+  UniRef90_UPI00033178B5 PREDICTED: alpha-hemoglobin-stabilizing ...  123     4e-34
+  UniRef90_Q9CY02 Alpha-hemoglobin-stabilizing protein n=2 Tax=Mu...  123     5e-34
+  UniRef90_UPI000332FD84 PREDICTED: alpha-hemoglobin-stabilizing ...  123     7e-34
+  UniRef90_A9UMW3 Erythroid associated factor n=1 Tax=Rattus norv...  123     7e-34
+  UniRef90_A0A0P6JCU4 Alpha-hemoglobin-stabilizing protein n=2 Ta...  122     2e-33
+  UniRef90_G3IJS0 Alpha-hemoglobin-stabilizing protein n=1 Tax=Cr...  120     8e-33
+  UniRef90_UPI000443A14A PREDICTED: alpha-hemoglobin-stabilizing ...  118     5e-32
+  UniRef90_UPI0006616BF0 PREDICTED: alpha-hemoglobin-stabilizing ...  118     1e-31
+  UniRef90_UPI00062A5556 PREDICTED: alpha-hemoglobin-stabilizing ...  114     3e-30
+  UniRef90_UPI0007A6C142 UPI0007A6C142 related cluster n=2 Tax=un...  112     6e-30
+  UniRef90_UPI0003AE9037 PREDICTED: alpha-hemoglobin-stabilizing ...  112     1e-29
+  UniRef90_F7DP52 Uncharacterized protein n=1 Tax=Monodelphis dom...  110     3e-29
+  UniRef90_F1MER2 Alpha-hemoglobin-stabilizing protein n=1 Tax=Bo...  99.4    7e-25
+  UniRef90_G5BYB6 Alpha-hemoglobin-stabilizing protein n=1 Tax=He...  100     1e-24
+  UniRef90_G3WLQ8 Uncharacterized protein n=2 Tax=Sarcophilus har...  98.2    3e-24
+  UniRef90_F7EDV6 Uncharacterized protein n=2 Tax=Ornithorhynchus...  82.8    3e-18
+
+
+> UniRef90_Q9NZD4 Alpha-hemoglobin-stabilizing protein n=16 Tax=Simiiformes 
+TaxID=314293 RepID=AHSP_HUMAN
+Length=102
+
+ Score = 183 bits (464),  Expect = 2e-57, Method: Compositional matrix adjust.
+ Identities = 89/90 (99%), Positives = 89/90 (99%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALLKANKDLISAGLKEFSVLLNQQVFND LVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ
+Sbjct  2   ALLKANKDLISAGLKEFSVLLNQQVFNDPLVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           ERDKALQELRQELNTLANPFLAKYRDFLKS
+Sbjct  62  ERDKALQELRQELNTLANPFLAKYRDFLKS  91
+
+
+> UniRef90_UPI00075F98B7 PREDICTED: alpha-hemoglobin-stabilizing 
+protein isoform X2 n=1 Tax=Macaca fascicularis TaxID=9541 
+RepID=UPI00075F98B7
+Length=117
+
+ Score = 177 bits (449),  Expect = 5e-55, Method: Compositional matrix adjust.
+ Identities = 84/90 (93%), Positives = 87/90 (97%), Gaps = 0/90 (0%)
+
+Query  1    ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+            ALLKANKDLISAG +EF VLLNQQVFND L+SEEDMVTVVEDWMNFYINYYRQQVTGEPQ
+Sbjct  17   ALLKANKDLISAGRQEFGVLLNQQVFNDPLISEEDMVTVVEDWMNFYINYYRQQVTGEPQ  76
+
+Query  61   ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+            ERD+ALQELRQELNTLANPFLAKYRDFLKS
+Sbjct  77   ERDRALQELRQELNTLANPFLAKYRDFLKS  106
+
+
+> UniRef90_F6RED9 Uncharacterized protein n=2 Tax=Macaca mulatta 
+TaxID=9544 RepID=F6RED9_MACMU
+Length=121
+
+ Score = 176 bits (446),  Expect = 1e-54, Method: Compositional matrix adjust.
+ Identities = 84/90 (93%), Positives = 87/90 (97%), Gaps = 0/90 (0%)
+
+Query  1    ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+            ALLKANKDLISAG +EF VLLNQQVFND L+SEEDMVTVVEDWMNFYINYYRQQVTGEPQ
+Sbjct  21   ALLKANKDLISAGRQEFGVLLNQQVFNDPLISEEDMVTVVEDWMNFYINYYRQQVTGEPQ  80
+
+Query  61   ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+            ERD+ALQELRQELNTLANPFLAKYRDFLKS
+Sbjct  81   ERDRALQELRQELNTLANPFLAKYRDFLKS  110
+
+
+> UniRef90_A0A1D5RDT9 Uncharacterized protein n=3 Tax=Macaca TaxID=9539 
+RepID=A0A1D5RDT9_MACMU
+Length=102
+
+ Score = 176 bits (445),  Expect = 2e-54, Method: Compositional matrix adjust.
+ Identities = 84/90 (93%), Positives = 87/90 (97%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALLKANKDLISAG +EF VLLNQQVFND L+SEEDMVTVVEDWMNFYINYYRQQVTGEPQ
+Sbjct  2   ALLKANKDLISAGRQEFGVLLNQQVFNDPLISEEDMVTVVEDWMNFYINYYRQQVTGEPQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           ERD+ALQELRQELNTLANPFLAKYRDFLKS
+Sbjct  62  ERDRALQELRQELNTLANPFLAKYRDFLKS  91
+
+
+> UniRef90_UPI000625582D PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Aotus nancymaae TaxID=37293 RepID=UPI000625582D
+Length=102
+
+ Score = 171 bits (434),  Expect = 6e-53, Method: Compositional matrix adjust.
+ Identities = 82/90 (91%), Positives = 88/90 (98%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALLKANKDLISAGLKEF+VLLNQQVF+D L+SEEDM+TVVEDWMNFYINYYRQQVTGEPQ
+Sbjct  2   ALLKANKDLISAGLKEFNVLLNQQVFDDPLISEEDMLTVVEDWMNFYINYYRQQVTGEPQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           ERDKALQELRQELNTL +PFLAKYR+FLKS
+Sbjct  62  ERDKALQELRQELNTLIDPFLAKYREFLKS  91
+
+
+> UniRef90_UPI0003F14395 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=3 Tax=Pteropus TaxID=9401 RepID=UPI0003F14395
+Length=92
+
+ Score = 147 bits (371),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Identities = 71/90 (79%), Positives = 81/90 (90%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEF+VLLNQQVF D  +SEE MVTVV+DW+NFYI+YYRQQVTGE Q
+Sbjct  2   ALLQANKDLISTGMKEFNVLLNQQVFTDPPISEEAMVTVVDDWVNFYISYYRQQVTGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQELRQELNTL+  FLAKYR FLKS
+Sbjct  62  EQDRALQELRQELNTLSTHFLAKYRAFLKS  91
+
+
+> UniRef90_A0A091D6K8 Alpha-hemoglobin-stabilizing protein n=2 
+Tax=Fukomys damarensis TaxID=885580 RepID=A0A091D6K8_FUKDA
+Length=109
+
+ Score = 145 bits (366),  Expect = 1e-42, Method: Compositional matrix adjust.
+ Identities = 69/90 (77%), Positives = 82/90 (91%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEFSVLLNQQVFN  L++EEDMV VV+DW+N YINYYR+++TGE Q
+Sbjct  2   ALLQANKDLISMGMKEFSVLLNQQVFNYPLITEEDMVIVVDDWVNIYINYYRKRLTGEKQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQ+LRQEL TLANPFLAKY+ FLKS
+Sbjct  62  EQDRALQKLRQELKTLANPFLAKYKAFLKS  91
+
+
+> UniRef90_UPI00046BB852 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Eptesicus fuscus TaxID=29078 RepID=UPI00046BB852
+Length=92
+
+ Score = 144 bits (364),  Expect = 2e-42, Method: Compositional matrix adjust.
+ Identities = 69/90 (77%), Positives = 81/90 (90%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLISAG+KEF+ LLNQQVF +  VSEE MVT+V DW+NFY+NYYRQQ+TGE Q
+Sbjct  2   ALLQANKDLISAGMKEFNALLNQQVFTEPPVSEEAMVTIVNDWVNFYVNYYRQQMTGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+ +AL+ELRQELNTL+ PFLAKYRDFLKS
+Sbjct  62  EQAQALEELRQELNTLSVPFLAKYRDFLKS  91
+
+
+> UniRef90_UPI00063FA74A PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Propithecus coquereli TaxID=379532 RepID=UPI00063FA74A
+Length=98
+
+ Score = 144 bits (364),  Expect = 2e-42, Method: Compositional matrix adjust.
+ Identities = 70/90 (78%), Positives = 78/90 (87%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           A L+ NKDLIS G KEF+ LL QQVFND LVSEE MVTVV+DW+NFYINYYRQQVTGE +
+Sbjct  2   AFLQTNKDLISTGTKEFNALLKQQVFNDLLVSEEAMVTVVDDWINFYINYYRQQVTGEQE  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           ERD+ALQ+L+QELNTLAN FL KYR FLKS
+Sbjct  62  ERDRALQQLQQELNTLANNFLGKYRAFLKS  91
+
+
+> UniRef90_G1P6I0 Uncharacterized protein n=4 Tax=Myotis TaxID=9434 
+RepID=G1P6I0_MYOLU
+Length=102
+
+ Score = 144 bits (363),  Expect = 4e-42, Method: Compositional matrix adjust.
+ Identities = 69/90 (77%), Positives = 80/90 (89%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL ANKDLIS G+KEF+ LLNQQVF+D  VSEE MVT+V DW+NFYINYY+QQ+TGE Q
+Sbjct  2   ALLPANKDLISTGMKEFNALLNQQVFSDPPVSEEAMVTMVNDWVNFYINYYKQQMTGEEQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+AL+ELRQELNTL+ PFLAKYR FLKS
+Sbjct  62  EQDRALEELRQELNTLSVPFLAKYRAFLKS  91
+
+
+> UniRef90_H0VUX5 Uncharacterized protein n=1 Tax=Cavia porcellus 
+TaxID=10141 RepID=H0VUX5_CAVPO
+Length=102
+
+ Score = 143 bits (361),  Expect = 7e-42, Method: Compositional matrix adjust.
+ Identities = 66/90 (73%), Positives = 81/90 (90%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEF++LLNQQVF+  L++EED+V +V DW+N YINYYRQ+VTGE Q
+Sbjct  2   ALLQANKDLISVGMKEFNILLNQQVFDHPLIAEEDLVVIVNDWVNMYINYYRQRVTGEKQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQEL+QEL TLANPFLA+YR FLKS
+Sbjct  62  EQDRALQELQQELRTLANPFLARYRAFLKS  91
+
+
+> UniRef90_F6RTV5 Uncharacterized protein n=2 Tax=Equus TaxID=35510 
+RepID=F6RTV5_HORSE
+Length=92
+
+ Score = 143 bits (360),  Expect = 8e-42, Method: Compositional matrix adjust.
+ Identities = 69/90 (77%), Positives = 79/90 (88%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+AN+DLIS  +KEF+VLLNQQVF+D  VSEE MVTVV DW+NFYINYYR+QV GE Q
+Sbjct  2   ALLQANRDLISTAIKEFNVLLNQQVFSDPPVSEEAMVTVVNDWVNFYINYYRRQVVGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQELRQELN L+ PFLAKYR FLKS
+Sbjct  62  EKDRALQELRQELNILSAPFLAKYRAFLKS  91
+
+
+> UniRef90_UPI000643A5AA PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Microcebus murinus TaxID=30608 RepID=UPI000643A5AA
+Length=92
+
+ Score = 142 bits (357),  Expect = 2e-41, Method: Compositional matrix adjust.
+ Identities = 69/90 (77%), Positives = 79/90 (88%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ NKDLIS G+KEF+VLL QQVFND LVSEE MVTVV DWMN YINYY++QVTGE +
+Sbjct  2   ALLQTNKDLISTGMKEFNVLLKQQVFNDPLVSEEAMVTVVNDWMNLYINYYKRQVTGEQE  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQ+L+QELNTLAN FL KYR FLKS
+Sbjct  62  EQDRALQQLQQELNTLANNFLDKYRTFLKS  91
+
+
+> UniRef90_UPI0002C68338 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Ceratotherium simum simum TaxID=73337 RepID=UPI0002C68338
+Length=92
+
+ Score = 141 bits (356),  Expect = 3e-41, Method: Compositional matrix adjust.
+ Identities = 66/90 (73%), Positives = 82/90 (91%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLI+ G+KEF+VLLNQQVF+D  +SEE MVTV++DW+NFYINYY++Q+ GE Q
+Sbjct  2   ALLQANKDLIATGIKEFNVLLNQQVFSDPPISEEAMVTVLDDWVNFYINYYKEQMVGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQELRQELNTL+ PFLAKY+ FLKS
+Sbjct  62  EQDRALQELRQELNTLSAPFLAKYKAFLKS  91
+
+
+> UniRef90_H0XCX0 Uncharacterized protein n=1 Tax=Otolemur garnettii 
+TaxID=30611 RepID=H0XCX0_OTOGA
+Length=102
+
+ Score = 140 bits (353),  Expect = 1e-40, Method: Compositional matrix adjust.
+ Identities = 66/90 (73%), Positives = 82/90 (91%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+AN+DLISAG+KEF++LLNQQVFN+  VSEE M TVV DW+NFY+NYY++Q+TGE  
+Sbjct  2   ALLQANEDLISAGVKEFNILLNQQVFNEPFVSEEAMETVVNDWVNFYMNYYKKQMTGEQG  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E++KALQEL+Q+LN+LANPFLAKYR FLKS
+Sbjct  62  EQEKALQELKQKLNSLANPFLAKYRAFLKS  91
+
+
+> UniRef90_UPI000333A431 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Echinops telfairi TaxID=9371 RepID=UPI000333A431
+Length=92
+
+ Score = 139 bits (351),  Expect = 2e-40, Method: Compositional matrix adjust.
+ Identities = 65/90 (72%), Positives = 80/90 (89%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEF VLL+QQV  +  VSEEDM TVV+DW++FYINYYR +++G+PQ
+Sbjct  2   ALLQANKDLISTGMKEFRVLLDQQVIGNKSVSEEDMATVVDDWVSFYINYYRPRMSGDPQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQELR+ELNTLA+PFL KYR FLKS
+Sbjct  62  EQDRALQELRRELNTLAHPFLEKYRAFLKS  91
+
+
+> UniRef90_UPI0003F168FD PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Chrysochloris asiatica TaxID=185453 RepID=UPI0003F168FD
+Length=92
+
+ Score = 139 bits (351),  Expect = 2e-40, Method: Compositional matrix adjust.
+ Identities = 65/90 (72%), Positives = 77/90 (86%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ NKDLIS G+KEF VLLNQQV  D+ +SEEDM TVV+DW+N Y NYY+Q+VTGE +
+Sbjct  2   ALLQTNKDLISTGIKEFGVLLNQQVMPDSPISEEDMATVVDDWVNMYTNYYKQKVTGEQE  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQELRQEL  +ANPFLAKYR FLKS
+Sbjct  62  EKDRALQELRQELTAMANPFLAKYRLFLKS  91
+
+
+> UniRef90_UPI000737DEC7 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Vicugna pacos TaxID=30538 RepID=UPI000737DEC7
+Length=92
+
+ Score = 138 bits (348),  Expect = 4e-40, Method: Compositional matrix adjust.
+ Identities = 67/90 (74%), Positives = 76/90 (84%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ NKDLISAG+KEF  LLNQQVF+D L+SEE M TV  DW+NFYINYYRQQ+ GE Q
+Sbjct  2   ALLQTNKDLISAGIKEFKTLLNQQVFSDPLISEEAMETVANDWVNFYINYYRQQMVGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQELRQEL TLA  FL KYR+FLKS
+Sbjct  62  EQDRALQELRQELTTLAASFLDKYRNFLKS  91
+
+
+> UniRef90_M3W8I5 Uncharacterized protein n=3 Tax=Felidae TaxID=9681 
+RepID=M3W8I5_FELCA
+Length=91
+
+ Score = 138 bits (347),  Expect = 7e-40, Method: Compositional matrix adjust.
+ Identities = 65/90 (72%), Positives = 79/90 (88%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEF++LL+QQVF +  + EE MVT+V+DW+NFYINYYR QV GE Q
+Sbjct  2   ALLQANKDLISKGMKEFNILLDQQVFPNPSIPEEAMVTIVDDWVNFYINYYRTQVVGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+++ALQELRQELNTL+ PFLAKYR FLKS
+Sbjct  62  EQERALQELRQELNTLSAPFLAKYRAFLKS  91
+
+
+> UniRef90_UPI00093EF38B UPI00093EF38B related cluster n=5 Tax=unknown 
+TaxID= RepID=UPI00093EF38B
+Length=170
+
+ Score = 140 bits (353),  Expect = 7e-40, Method: Compositional matrix adjust.
+ Identities = 66/90 (73%), Positives = 77/90 (86%), Gaps = 0/90 (0%)
+
+Query  1    ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+            ALL+AN+DLIS G+KEF+VLLNQQVF D  +SEE MVTV++DW+NFY NYYRQ V GE Q
+Sbjct  78   ALLQANRDLISTGVKEFNVLLNQQVFTDPPISEEAMVTVLDDWVNFYTNYYRQHVVGEEQ  137
+
+Query  61   ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+            ERD+ALQELRQ+L+TL  PFL KYR FLKS
+Sbjct  138  ERDRALQELRQQLSTLCAPFLDKYRAFLKS  167
+
+
+> UniRef90_UPI0004D050C0 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Galeopterus variegatus TaxID=482537 RepID=UPI0004D050C0
+Length=92
+
+ Score = 137 bits (346),  Expect = 1e-39, Method: Compositional matrix adjust.
+ Identities = 65/90 (72%), Positives = 79/90 (88%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEF+ LLNQQVF+D L+SEE MVT+V DW++FYINYY QQ+TGE Q
+Sbjct  2   ALLQANKDLISTGMKEFNALLNQQVFSDPLISEEAMVTIVNDWISFYINYYEQQMTGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+++ALQE +Q+LNTLA PFL KYR FLKS
+Sbjct  62  EQERALQEFQQKLNTLAIPFLDKYRAFLKS  91
+
+
+> UniRef90_UPI00018B8EBA PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=unknown TaxID= RepID=UPI00018B8EBA
+Length=102
+
+ Score = 137 bits (346),  Expect = 1e-39, Method: Compositional matrix adjust.
+ Identities = 66/89 (74%), Positives = 78/89 (88%), Gaps = 0/89 (0%)
+
+Query  2   LLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQE  61
+           L++ANKDLIS G KEF+VLL+QQVF D L+SEE MV VV DW+NFYINYY+Q++TGE QE
+Sbjct  3   LIQANKDLISTGKKEFNVLLSQQVFGDPLISEEAMVIVVNDWINFYINYYKQKITGEQQE  62
+
+Query  62  RDKALQELRQELNTLANPFLAKYRDFLKS  90
+           +D ALQEL+QELNTLA+PFL KYR FLKS
+Sbjct  63  QDMALQELQQELNTLASPFLDKYRAFLKS  91
+
+
+> UniRef90_T0NQX3 Alpha-hemoglobin-stabilizing protein n=2 Tax=Camelus 
+ferus TaxID=419612 RepID=T0NQX3_CAMFR
+Length=141
+
+ Score = 137 bits (346),  Expect = 4e-39, Method: Compositional matrix adjust.
+ Identities = 66/90 (73%), Positives = 76/90 (84%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ NKDLISAG+KEF  LLNQQVF+D ++SEE M TV  DW+NFYINYYRQQ+ GE Q
+Sbjct  4   ALLQTNKDLISAGIKEFKTLLNQQVFSDPVISEEAMETVANDWVNFYINYYRQQMVGEQQ  63
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQELRQEL TLA  FL KYR+FLKS
+Sbjct  64  EQDRALQELRQELTTLAASFLDKYRNFLKS  93
+
+
+> UniRef90_L9KTP8 Alpha-hemoglobin-stabilizing protein n=1 Tax=Tupaia 
+chinensis TaxID=246437 RepID=L9KTP8_TUPCH
+Length=92
+
+ Score = 135 bits (341),  Expect = 5e-39, Method: Compositional matrix adjust.
+ Identities = 63/90 (70%), Positives = 78/90 (87%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ NKD+I+ G+K+FSVLL+QQVF++  +SEE MV VV DW+NFY+NYY QQVTGE Q
+Sbjct  2   ALLQVNKDIIATGMKKFSVLLDQQVFSEPPISEEAMVVVVNDWVNFYVNYYGQQVTGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+AL ELRQEL T+A+PFLAKYR FLKS
+Sbjct  62  EQDRALNELRQELTTMASPFLAKYRAFLKS  91
+
+
+> UniRef90_UPI0006507C25 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Dipodomys ordii TaxID=10020 RepID=UPI0006507C25
+Length=96
+
+ Score = 135 bits (341),  Expect = 5e-39, Method: Compositional matrix adjust.
+ Identities = 65/90 (72%), Positives = 75/90 (83%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL ANKDLIS G+KEFSVLLNQQVF D LVSE+DM  VV DWMN YINYY + V GEPQ
+Sbjct  2   ALLPANKDLISKGVKEFSVLLNQQVFEDPLVSEDDMEKVVNDWMNIYINYYSKHVVGEPQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D AL+EL+QEL +L++PFL KY+ FLKS
+Sbjct  62  EQDTALKELQQELKSLSSPFLDKYKTFLKS  91
+
+
+> UniRef90_UPI00042C61AD PREDICTED: alpha-hemoglobin-stabilizing 
+protein isoform X1 n=2 Tax=Physeter catodon TaxID=9755 RepID=UPI00042C61AD
+Length=211
+
+ Score = 139 bits (350),  Expect = 7e-39, Method: Compositional matrix adjust.
+ Identities = 66/90 (73%), Positives = 78/90 (87%), Gaps = 0/90 (0%)
+
+Query  1    ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+            ALL+ NKDLI+ G+KEF++LLNQQVF+D  V EE MVTVV DWMNFYINYYRQQ+ GE Q
+Sbjct  121  ALLQTNKDLIATGIKEFNILLNQQVFSDPAVPEEAMVTVVNDWMNFYINYYRQQMVGEQQ  180
+
+Query  61   ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+            E+DKA+QELRQEL+TL+  FL KYR+FLKS
+Sbjct  181  EQDKAVQELRQELDTLSVSFLDKYRNFLKS  210
+
+
+> UniRef90_I3NEY4 Uncharacterized protein n=3 Tax=Marmotini TaxID=337730 
+RepID=I3NEY4_ICTTR
+Length=100
+
+ Score = 135 bits (340),  Expect = 9e-39, Method: Compositional matrix adjust.
+ Identities = 63/90 (70%), Positives = 79/90 (88%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           A L++NKDLIS+G+KEF+VLLNQQVFND L+SEEDMVTVV+DW+NFY+NYY+Q + GE Q
+Sbjct  2   AHLQSNKDLISSGMKEFNVLLNQQVFNDPLISEEDMVTVVDDWVNFYVNYYKQHMKGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+  ALQEL+Q+L+ LA  FL KY+DFLKS
+Sbjct  62  EQVGALQELQQQLDILAKSFLVKYKDFLKS  91
+
+
+> UniRef90_UPI00045E0029 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Orycteropus afer afer TaxID=1230840 RepID=UPI00045E0029
+Length=93
+
+ Score = 135 bits (339),  Expect = 1e-38, Method: Compositional matrix adjust.
+ Identities = 67/91 (74%), Positives = 79/91 (87%), Gaps = 1/91 (1%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFN-DALVSEEDMVTVVEDWMNFYINYYRQQVTGEP  59
+           ALL+ NKDLIS G++EFS+LL+QQV   D  +SEE MVTVV+DW+NFYINYYRQ+VTGE 
+Sbjct  2   ALLQNNKDLISTGMREFSILLDQQVMAADNPISEEAMVTVVDDWVNFYINYYRQKVTGEQ  61
+
+Query  60  QERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           QE+++ALQELRQELNTLA PFL KYR FLKS
+Sbjct  62  QEQERALQELRQELNTLATPFLDKYRAFLKS  92
+
+
+> UniRef90_A0A1A6GB31 Uncharacterized protein n=1 Tax=Neotoma lepida 
+TaxID=56216 RepID=A0A1A6GB31_NEOLE
+Length=102
+
+ Score = 135 bits (340),  Expect = 1e-38, Method: Compositional matrix adjust.
+ Identities = 64/90 (71%), Positives = 76/90 (84%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           A  + NK+L+S G+KEF+VLLNQQVFND L+ EE MVTVV+DW+N YINYY++QV GE Q
+Sbjct  2   APFQTNKELVSTGIKEFNVLLNQQVFNDLLIPEESMVTVVDDWVNLYINYYKKQVLGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+DKALQELRQELNTL + FL KYR FLKS
+Sbjct  62  EQDKALQELRQELNTLGSQFLTKYRTFLKS  91
+
+
+> UniRef90_UPI00063C15DE PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Trichechus manatus latirostris TaxID=127582 
+RepID=UPI00063C15DE
+Length=92
+
+ Score = 135 bits (339),  Expect = 1e-38, Method: Compositional matrix adjust.
+ Identities = 62/90 (69%), Positives = 79/90 (88%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G++EF++LLNQQV +D  + EE MV VV+DW+NFY+NYYRQ++TGE +
+Sbjct  2   ALLQANKDLISTGMREFNILLNQQVMHDNPIPEEAMVIVVDDWVNFYVNYYRQKMTGEQE  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQEL+QELNTLA PFLAKY  FLK+
+Sbjct  62  EQDRALQELQQELNTLATPFLAKYSAFLKT  91
+
+
+> UniRef90_E2RSC2 Uncharacterized protein n=1 Tax=Canis lupus familiaris 
+TaxID=9615 RepID=E2RSC2_CANLF
+Length=92
+
+ Score = 134 bits (337),  Expect = 3e-38, Method: Compositional matrix adjust.
+ Identities = 64/90 (71%), Positives = 77/90 (86%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEF+VLLNQQVF +  + EE MVT+V DW+NFYINYYRQ++ GE Q
+Sbjct  2   ALLQANKDLISTGIKEFNVLLNQQVFPNPPIPEEAMVTMVNDWVNFYINYYRQKMVGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E++KALQEL+QELNTL+ PFL KYR FLK 
+Sbjct  62  EQEKALQELQQELNTLSAPFLEKYRAFLKH  91
+
+
+> UniRef90_G3T391 Uncharacterized protein n=2 Tax=Loxodonta africana 
+TaxID=9785 RepID=G3T391_LOXAF
+Length=102
+
+ Score = 134 bits (337),  Expect = 3e-38, Method: Compositional matrix adjust.
+ Identities = 64/87 (74%), Positives = 74/87 (85%), Gaps = 0/87 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEFS+LLNQQ   D  + EE MV VV DWM+FYINYYRQ++TGE Q
+Sbjct  2   ALLQANKDLISTGMKEFSILLNQQDMRDNPIPEEAMVIVVNDWMSFYINYYRQKMTGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDF  87
+           E+D+ALQEL+Q LNTLANPFL KYRDF
+Sbjct  62  EQDRALQELQQGLNTLANPFLTKYRDF  88
+
+
+> UniRef90_UPI0004404B89 PREDICTED: alpha-hemoglobin-stabilizing 
+protein isoform X2 n=3 Tax=Cetacea TaxID=9721 RepID=UPI0004404B89
+Length=102
+
+ Score = 134 bits (337),  Expect = 3e-38, Method: Compositional matrix adjust.
+ Identities = 64/89 (72%), Positives = 77/89 (87%), Gaps = 0/89 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ NKDLI+ G+KEF++LLNQQVF+D  V EE MVTVV DW+NFYINYYRQQ+ GE Q
+Sbjct  2   ALLQTNKDLIATGIKEFNILLNQQVFSDPAVPEEAMVTVVNDWVNFYINYYRQQMVGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLK  89
+           E+DKA+QELRQEL+TL+  FL KYR+FLK
+Sbjct  62  EQDKAVQELRQELDTLSASFLDKYRNFLK  90
+
+
+> UniRef90_Q865F8 Alpha-hemoglobin-stabilizing protein n=6 Tax=Bovidae 
+TaxID=9895 RepID=AHSP_BOVIN
+Length=92
+
+ Score = 133 bits (335),  Expect = 4e-38, Method: Compositional matrix adjust.
+ Identities = 62/90 (69%), Positives = 78/90 (87%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           AL++ NKDLIS G+KEF++LLNQQVF+D  +SEE MVTVV DW++FYINYY++Q++GE  
+Sbjct  2   ALIQTNKDLISKGIKEFNILLNQQVFSDPAISEEAMVTVVNDWVSFYINYYKKQLSGEQD  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+DKALQE RQELNTL+  FL KYR+FLKS
+Sbjct  62  EQDKALQEFRQELNTLSASFLDKYRNFLKS  91
+
+
+> UniRef90_D2HTC9 Putative uncharacterized protein (Fragment) n=2 
+Tax=Ailuropoda melanoleuca TaxID=9646 RepID=D2HTC9_AILME
+Length=91
+
+ Score = 133 bits (334),  Expect = 7e-38, Method: Compositional matrix adjust.
+ Identities = 64/90 (71%), Positives = 76/90 (84%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEF+VLLNQQVF +  V EE MVT+VEDW+NFYINYYR Q+ GE Q
+Sbjct  2   ALLQANKDLISTGMKEFNVLLNQQVFPNPPVPEEAMVTMVEDWVNFYINYYRTQMVGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E++ AL+EL+QELN L+ PFL KYR FLKS
+Sbjct  62  EQESALRELQQELNALSAPFLVKYRAFLKS  91
+
+
+> UniRef90_UPI00038F0495 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Chinchilla lanigera TaxID=34839 RepID=UPI00038F0495
+Length=102
+
+ Score = 132 bits (333),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 61/90 (68%), Positives = 78/90 (87%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEF+VLLNQQVF++ L++EEDMV +V+DWMN Y+N+Y Q++ GE +
+Sbjct  2   ALLQANKDLISTGMKEFNVLLNQQVFDNPLITEEDMVVIVDDWMNIYLNFYGQRMAGEKE  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+DKALQE ++EL  LANPFL KYR FLKS
+Sbjct  62  EQDKALQEFQRELKALANPFLDKYRAFLKS  91
+
+
+> UniRef90_M3YIT3 Uncharacterized protein n=5 Tax=Caniformia TaxID=379584 
+RepID=M3YIT3_MUSPF
+Length=92
+
+ Score = 132 bits (331),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 63/90 (70%), Positives = 77/90 (86%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEF+VLLNQQVF +  + EE MVT+V+DW+NFYINYYR+Q+ GE Q
+Sbjct  2   ALLQANKDLISTGMKEFNVLLNQQVFPNPPLPEEAMVTMVDDWVNFYINYYRKQMVGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+++ALQEL QEL TL+ PFL KYR FLKS
+Sbjct  62  EQERALQELEQELRTLSAPFLTKYRAFLKS  91
+
+
+> UniRef90_UPI0003EE1329 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Leptonychotes weddellii TaxID=9713 RepID=UPI0003EE1329
+Length=92
+
+ Score = 131 bits (330),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 61/90 (68%), Positives = 80/90 (89%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEF+VLLNQQVF++  + EE MVT+V+DW++FYINYYR+Q+ GE Q
+Sbjct  2   ALLQANKDLISTGMKEFNVLLNQQVFSNPPIPEEAMVTMVDDWVDFYINYYRKQMVGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+++ALQEL+QELN L+ PFLAKY+ FLK+
+Sbjct  62  EQERALQELQQELNILSAPFLAKYKAFLKT  91
+
+
+> UniRef90_W5PJ79 Uncharacterized protein n=4 Tax=Bovidae TaxID=9895 
+RepID=W5PJ79_SHEEP
+Length=92
+
+ Score = 131 bits (330),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 60/90 (67%), Positives = 78/90 (87%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           AL++ NKDLIS G+KEF++LLNQQVF+D  +SEE MVTVV DW++FYINYY++Q++GE Q
+Sbjct  2   ALIQTNKDLISKGIKEFNILLNQQVFSDPAISEEAMVTVVNDWVSFYINYYKKQLSGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ LQE RQEL+TL+  FL KYR+FLKS
+Sbjct  62  EQDRVLQEFRQELDTLSASFLEKYRNFLKS  91
+
+
+> UniRef90_UPI000944ECD5 UPI000944ECD5 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000944ECD5
+Length=92
+
+ Score = 131 bits (330),  Expect = 3e-37, Method: Compositional matrix adjust.
+ Identities = 62/90 (69%), Positives = 76/90 (84%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEF+VLLNQQVF D  ++EE MVTV++DW+NFY+NYYRQQV GE Q
+Sbjct  2   ALLQANKDLISTGMKEFNVLLNQQVFTDPPITEEAMVTVMDDWVNFYLNYYRQQVVGEEQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+A+QEL Q+L  L  PFL KY+ FLKS
+Sbjct  62  EQDRAVQELGQQLRRLCAPFLDKYKAFLKS  91
+
+
+> UniRef90_G1TJ87 Uncharacterized protein n=1 Tax=Oryctolagus cuniculus 
+TaxID=9986 RepID=G1TJ87_RABIT
+Length=102
+
+ Score = 131 bits (329),  Expect = 5e-37, Method: Compositional matrix adjust.
+ Identities = 65/90 (72%), Positives = 75/90 (83%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL  NKDLIS GLKEF+VLLNQQVF+D L+S+E M TV++DW+N Y+NYYRQQ+TGE Q
+Sbjct  2   ALLPTNKDLISMGLKEFNVLLNQQVFSDPLLSQEAMQTVLDDWVNLYVNYYRQQMTGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E DKAL+ELR ELN LA PFL KY  FLKS
+Sbjct  62  ELDKALEELRLELNGLAKPFLNKYSVFLKS  91
+
+
+> UniRef90_UPI000441D92C PREDICTED: LOW QUALITY PROTEIN: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Lipotes vexillifer TaxID=118797 
+RepID=UPI000441D92C
+Length=102
+
+ Score = 130 bits (328),  Expect = 7e-37, Method: Compositional matrix adjust.
+ Identities = 60/90 (67%), Positives = 79/90 (88%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ NKDLI+ G+KEF++LLNQQVF+  +V EEDM+TVV DW+NFYI+YYRQQ+ GE Q
+Sbjct  2   ALLQTNKDLIATGMKEFNILLNQQVFSGPVVPEEDMMTVVNDWVNFYISYYRQQMVGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+A+QELRQ+L+TL+  FL KYR+FL+S
+Sbjct  62  EQDEAVQELRQQLDTLSASFLDKYRNFLRS  91
+
+
+> UniRef90_UPI000333BEE0 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Octodon degus TaxID=10160 RepID=UPI000333BEE0
+Length=102
+
+ Score = 129 bits (325),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 61/90 (68%), Positives = 76/90 (84%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEF++LLNQQVF+  L++ EDM  +V+DWMN YIN+YR ++TG+ Q
+Sbjct  2   ALLQANKDLISVGMKEFNILLNQQVFDFPLITAEDMKVMVDDWMNMYINFYRPRMTGDKQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D ALQEL+ EL TLANPFL KYR FLKS
+Sbjct  62  EQDTALQELQSELKTLANPFLDKYRAFLKS  91
+
+
+> UniRef90_UPI0003F07A95 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Elephantulus edwardii TaxID=28737 RepID=UPI0003F07A95
+Length=92
+
+ Score = 129 bits (323),  Expect = 3e-36, Method: Compositional matrix adjust.
+ Identities = 60/90 (67%), Positives = 77/90 (86%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL++NKDLIS G+KEF+ LLNQQV +   + EE MVTVV+DW+NFY+NYYRQ++TGE +
+Sbjct  2   ALLQSNKDLISTGMKEFNTLLNQQVMSKQPIPEEAMVTVVDDWVNFYVNYYRQKMTGEQE  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+++ALQEL+Q+LNTL  PFL KYR FLKS
+Sbjct  62  EQERALQELQQQLNTLTIPFLDKYRAFLKS  91
+
+
+> UniRef90_I3LCF9 Uncharacterized protein n=1 Tax=Sus scrofa TaxID=9823 
+RepID=I3LCF9_PIG
+Length=91
+
+ Score = 128 bits (322),  Expect = 4e-36, Method: Compositional matrix adjust.
+ Identities = 60/90 (67%), Positives = 77/90 (86%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL  N+DLISAG+KEF++LLNQQVF++  + EE MVTVV DWM+ Y+NYY++++ GE +
+Sbjct  2   ALLPTNQDLISAGIKEFNILLNQQVFSEPAIPEEAMVTVVNDWMDLYLNYYKKKMVGEQE  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+DKALQELRQELNTL+  FL KYR+FLKS
+Sbjct  62  EQDKALQELRQELNTLSASFLDKYRNFLKS  91
+
+
+> UniRef90_UPI0004ED18CB PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Nannospalax galili TaxID=1026970 RepID=UPI0004ED18CB
+Length=100
+
+ Score = 127 bits (318),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 61/90 (68%), Positives = 74/90 (82%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           AL + N+DLISAG KEF+ LLNQQVFN+ LVSEEDM TVV+DW+N Y  YY++ + G  Q
+Sbjct  2   ALFQTNEDLISAGKKEFNGLLNQQVFNEPLVSEEDMKTVVDDWVNLYTTYYKKHLVGAQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQELR+ELNTL + FLAKYR FLKS
+Sbjct  62  EQDRALQELREELNTLGSHFLAKYRAFLKS  91
+
+
+> UniRef90_UPI00038BE661 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Microtus ochrogaster TaxID=79684 RepID=UPI00038BE661
+Length=102
+
+ Score = 126 bits (316),  Expect = 4e-35, Method: Compositional matrix adjust.
+ Identities = 59/90 (66%), Positives = 73/90 (81%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           A  + NK+LIS G+KEF+VLLNQQVF+D L+ EE MVTVV+DW+N YINYY+  V GE Q
+Sbjct  2   APFQTNKELISTGIKEFNVLLNQQVFDDPLIPEESMVTVVDDWVNLYINYYKNHVLGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+DKALQEL+QEL+TL + FL KYR  LK+
+Sbjct  62  EKDKALQELQQELSTLGSQFLTKYRTILKT  91
+
+
+> UniRef90_UPI00042A9E1B PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Peromyscus maniculatus bairdii TaxID=230844 
+RepID=UPI00042A9E1B
+Length=99
+
+ Score = 125 bits (314),  Expect = 8e-35, Method: Compositional matrix adjust.
+ Identities = 58/86 (67%), Positives = 74/86 (86%), Gaps = 0/86 (0%)
+
+Query  5   ANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQERDK  64
+            NK+LISAG+KEF+VLLNQQVF+D L+ EE+MVTVV+DW+  Y NYY++Q+ GE QE+D+
+Sbjct  6   TNKELISAGIKEFNVLLNQQVFDDPLIPEENMVTVVDDWVKLYTNYYKKQMLGEQQEQDR  65
+
+Query  65  ALQELRQELNTLANPFLAKYRDFLKS  90
+           ALQEL+QEL+TL + FL KYR FLKS
+Sbjct  66  ALQELQQELSTLGSQFLTKYRTFLKS  91
+
+
+> UniRef90_UPI000812C14D UPI000812C14D related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000812C14D
+Length=92
+
+ Score = 124 bits (310),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 67/90 (74%), Positives = 81/90 (90%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ NKDLIS G+K+F+VLLNQQVF+D  V EE MVT+V+DW+NFYINYYRQQV GE Q
+Sbjct  2   ALLQTNKDLISTGMKKFNVLLNQQVFSDPPVPEEAMVTMVDDWVNFYINYYRQQVVGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQEL+QELNTL++PFLAKYR FL+S
+Sbjct  62  EQDRALQELQQELNTLSSPFLAKYRAFLQS  91
+
+
+> UniRef90_UPI00032ADD14 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Ochotona princeps TaxID=9978 RepID=UPI00032ADD14
+Length=102
+
+ Score = 124 bits (311),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 60/90 (67%), Positives = 71/90 (79%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL ANKDLI  G KEF+VLLNQQV  D  +SEE M  V++DW+N Y NYY+ Q+TGE Q
+Sbjct  2   ALLPANKDLICTGKKEFNVLLNQQVLGDPFLSEEAMEIVLDDWVNLYANYYKPQLTGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQEL++EL  LA PFL KYRDFLKS
+Sbjct  62  EQDRALQELQRELKELAKPFLHKYRDFLKS  91
+
+
+> UniRef90_UPI000334541A PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Condylura cristata TaxID=143302 RepID=UPI000334541A
+Length=92
+
+ Score = 123 bits (309),  Expect = 4e-34, Method: Compositional matrix adjust.
+ Identities = 56/90 (62%), Positives = 72/90 (80%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ NKDLIS  +KEF+ LL QQ+F D  + EE M T+ +DW+NFY+NYYRQQVTGE Q
+Sbjct  2   ALLQDNKDLISKAIKEFNTLLGQQIFPDPPIPEEAMETIAQDWVNFYVNYYRQQVTGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D  L+ELRQ+LN L+ PF+AKY+ FLK+
+Sbjct  62  EQDMTLKELRQQLNILSTPFVAKYKAFLKT  91
+
+
+> UniRef90_UPI00033178B5 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Sorex araneus TaxID=42254 RepID=UPI00033178B5
+Length=91
+
+ Score = 123 bits (308),  Expect = 4e-34, Method: Compositional matrix adjust.
+ Identities = 57/88 (65%), Positives = 73/88 (83%), Gaps = 0/88 (0%)
+
+Query  3   LKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQER  62
+           L+ NKDLIS G+KEF++LL+QQVF D  + EE M T+V+DW+N YINYY+ Q+TGE QE+
+Sbjct  3   LQDNKDLISKGIKEFNILLDQQVFPDPPIPEEAMATIVDDWVNLYINYYKLQMTGEQQEQ  62
+
+Query  63  DKALQELRQELNTLANPFLAKYRDFLKS  90
+           D+ALQELRQEL TL+ PF+ KY+ FLKS
+Sbjct  63  DQALQELRQELTTLSAPFVDKYKAFLKS  90
+
+
+> UniRef90_Q9CY02 Alpha-hemoglobin-stabilizing protein n=2 Tax=Mus 
+musculus TaxID=10090 RepID=AHSP_MOUSE
+Length=102
+
+ Score = 123 bits (309),  Expect = 5e-34, Method: Compositional matrix adjust.
+ Identities = 57/90 (63%), Positives = 74/90 (82%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           A  ++NKDLIS G+KEF+VLL+QQVF+D L+SEEDMV VV DW+N Y NYY++ V GE +
+Sbjct  2   APFQSNKDLISTGIKEFNVLLDQQVFDDPLISEEDMVIVVHDWVNLYTNYYKKLVHGEQE  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+A+ E +QEL+TL + FLAKYR FLKS
+Sbjct  62  EQDRAMTEFQQELSTLGSQFLAKYRTFLKS  91
+
+
+> UniRef90_UPI000332FD84 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Jaculus jaculus TaxID=51337 RepID=UPI000332FD84
+Length=102
+
+ Score = 123 bits (308),  Expect = 7e-34, Method: Compositional matrix adjust.
+ Identities = 58/89 (65%), Positives = 75/89 (84%), Gaps = 0/89 (0%)
+
+Query  2   LLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQE  61
+           + + NKDLIS G+KEF+VLL+QQVFN+ LVS+EDM  +V DW+  Y+NYYR+ +TGE Q+
+Sbjct  3   VFRTNKDLISRGVKEFNVLLSQQVFNEPLVSDEDMEIMVGDWVKLYLNYYRKHMTGEQQQ  62
+
+Query  62  RDKALQELRQELNTLANPFLAKYRDFLKS  90
+           +D ALQEL+QELNTL+N FLAKYR FL+S
+Sbjct  63  QDSALQELQQELNTLSNHFLAKYRVFLES  91
+
+
+> UniRef90_A9UMW3 Erythroid associated factor n=1 Tax=Rattus norvegicus 
+TaxID=10116 RepID=A9UMW3_RAT
+Length=102
+
+ Score = 123 bits (308),  Expect = 7e-34, Method: Compositional matrix adjust.
+ Identities = 59/90 (66%), Positives = 74/90 (82%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           A  ++NKDLIS G+KEF+VLL+QQVF+D L+ EEDM TVV DW+N YINYY++ V GE Q
+Sbjct  2   APFQSNKDLISTGIKEFNVLLDQQVFDDPLMPEEDMKTVVNDWVNLYINYYKKHVLGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D AL+EL+QEL+TL + FLAKYR  LKS
+Sbjct  62  EQDGALKELQQELSTLGSQFLAKYRIILKS  91
+
+
+> UniRef90_A0A0P6JCU4 Alpha-hemoglobin-stabilizing protein n=2 
+Tax=Heterocephalus glaber TaxID=10181 RepID=A0A0P6JCU4_HETGA
+Length=102
+
+ Score = 122 bits (305),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 67/90 (74%), Positives = 82/90 (91%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLI+ G+KEFSVLLNQQVFN  L++EEDMV VV+DW+N YINYYR+++TGE Q
+Sbjct  2   ALLQANKDLIALGMKEFSVLLNQQVFNYPLITEEDMVVVVDDWVNIYINYYRKRLTGEKQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           ++D+ALQELRQEL TLA+PFLAKYR FL+S
+Sbjct  62  DQDRALQELRQELKTLASPFLAKYRAFLES  91
+
+
+> UniRef90_G3IJS0 Alpha-hemoglobin-stabilizing protein n=1 Tax=Cricetulus 
+griseus TaxID=10029 RepID=G3IJS0_CRIGR
+Length=102
+
+ Score = 120 bits (301),  Expect = 8e-33, Method: Compositional matrix adjust.
+ Identities = 58/90 (64%), Positives = 72/90 (80%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           A  + NK+LIS G+K+F+VLL QQVF+D L+ EE+MVTVV DW+N YINYY+  V G+ Q
+Sbjct  2   APFQTNKELISEGIKQFNVLLGQQVFDDPLIPEENMVTVVNDWVNLYINYYKPLVFGKQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+DKALQEL+QELNTL + FL KYR  LKS
+Sbjct  62  EQDKALQELQQELNTLGSQFLTKYRTILKS  91
+
+
+> UniRef90_UPI000443A14A PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Erinaceus europaeus TaxID=9365 RepID=UPI000443A14A
+Length=92
+
+ Score = 118 bits (295),  Expect = 5e-32, Method: Compositional matrix adjust.
+ Identities = 54/90 (60%), Positives = 70/90 (78%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           A L+ NKDLI+ G+KEF+ LL+QQVF+   VSEEDMV +V+DWM+ Y NYY  Q+TGE Q
+Sbjct  2   AHLQTNKDLIAKGIKEFTALLDQQVFSHPFVSEEDMVVIVKDWMDLYTNYYTNQLTGECQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D ALQELR+ +  L+ PFL KYR+ +KS
+Sbjct  62  EKDMALQELREGMLALSEPFLDKYREHIKS  91
+
+
+> UniRef90_UPI0006616BF0 PREDICTED: alpha-hemoglobin-stabilizing 
+protein isoform X1 n=2 Tax=Mesocricetus auratus TaxID=10036 
+RepID=UPI0006616BF0
+Length=131
+
+ Score = 118 bits (296),  Expect = 1e-31, Method: Compositional matrix adjust.
+ Identities = 56/90 (62%), Positives = 71/90 (79%), Gaps = 0/90 (0%)
+
+Query  1    ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+            A  + N++LIS G+K+F+VLL+QQVF+D L+ EE MVTVV+DW+N YINYY+  V G  Q
+Sbjct  31   APFQTNEELISTGIKQFNVLLDQQVFSDPLIPEEGMVTVVDDWVNLYINYYKPLVLGGQQ  90
+
+Query  61   ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+            E+DK LQEL+QEL TL + FL KYR FLKS
+Sbjct  91   EQDKTLQELQQELKTLGSQFLTKYRTFLKS  120
+
+
+> UniRef90_UPI00062A5556 PREDICTED: alpha-hemoglobin-stabilizing 
+protein isoform X1 n=2 Tax=Dasypus novemcinctus TaxID=9361 
+RepID=UPI00062A5556
+Length=130
+
+ Score = 114 bits (286),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 52/90 (58%), Positives = 71/90 (79%), Gaps = 0/90 (0%)
+
+Query  1    ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+            ALL+ANKDLIS  ++EFS+LLNQQ      +SE+ M  +V+DW+N YI++YR ++TGE Q
+Sbjct  33   ALLQANKDLISKAMREFSILLNQQEPTQLPISEDAMAVIVDDWVNLYISHYRPKMTGEQQ  92
+
+Query  61   ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+            E+++A+QEL+QEL  LANPFL KYR FL +
+Sbjct  93   EQNRAVQELQQELTALANPFLIKYRAFLNT  122
+
+
+> UniRef90_UPI0007A6C142 UPI0007A6C142 related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI0007A6C142
+Length=92
+
+ Score = 112 bits (281),  Expect = 6e-30, Method: Compositional matrix adjust.
+ Identities = 61/90 (68%), Positives = 77/90 (86%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL ANK LIS G+KEF+ LLNQQVF++  +SEEDM+TVV DW+ FYI+YYRQQ+ GE Q
+Sbjct  2   ALLPANKALISTGMKEFNALLNQQVFSEPPISEEDMLTVVNDWVKFYIDYYRQQMMGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+AL+EL++ELNTLA PFL KY+ FL+S
+Sbjct  62  EQDRALEELQKELNTLAIPFLDKYKAFLRS  91
+
+
+> UniRef90_UPI0003AE9037 PREDICTED: alpha-hemoglobin-stabilizing 
+protein, partial n=1 Tax=Sus scrofa TaxID=9823 RepID=UPI0003AE9037
+Length=130
+
+ Score = 112 bits (281),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 51/80 (64%), Positives = 68/80 (85%), Gaps = 0/80 (0%)
+
+Query  11   SAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQERDKALQELR  70
+            + G+KEF++LLNQQVF++  + EE MVTVV DWM+ Y+NYY++++ GE +E+DKALQELR
+Sbjct  50   AKGIKEFNILLNQQVFSEPAIPEEAMVTVVNDWMDLYLNYYKKKMVGEQEEQDKALQELR  109
+
+Query  71   QELNTLANPFLAKYRDFLKS  90
+            QELNTL+  FL KYR+FLKS
+Sbjct  110  QELNTLSASFLDKYRNFLKS  129
+
+
+> UniRef90_F7DP52 Uncharacterized protein n=1 Tax=Monodelphis domestica 
+TaxID=13616 RepID=F7DP52_MONDO
+Length=91
+
+ Score = 110 bits (276),  Expect = 3e-29, Method: Compositional matrix adjust.
+ Identities = 47/88 (53%), Positives = 77/88 (88%), Gaps = 0/88 (0%)
+
+Query  3   LKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQER  62
+           L++N+D+IS+ ++EF+ LLNQQ F  A++SE+DMVT+V+DWMN+Y++++ Q+++G+ QE+
+Sbjct  3   LQSNQDVISSAMQEFNKLLNQQDFTYAVISEKDMVTIVDDWMNYYLSFFSQKMSGDQQEQ  62
+
+Query  63  DKALQELRQELNTLANPFLAKYRDFLKS  90
+           ++A+Q+L++EL + ANPFL KYR FLKS
+Sbjct  63  ERAMQKLQEELRSSANPFLDKYRAFLKS  90
+
+
+> UniRef90_F1MER2 Alpha-hemoglobin-stabilizing protein n=1 Tax=Bos 
+taurus TaxID=9913 RepID=F1MER2_BOVIN
+Length=78
+
+ Score = 99.4 bits (246),  Expect = 7e-25, Method: Compositional matrix adjust.
+ Identities = 46/67 (69%), Positives = 57/67 (85%), Gaps = 0/67 (0%)
+
+Query  24  QVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQERDKALQELRQELNTLANPFLAK  83
+           QVF+D  +SEE MVTVV DW++FYINYY++Q++GE  E+DKALQE RQELNTL+  FL K
+Sbjct  1   QVFSDPAISEEAMVTVVNDWVSFYINYYKKQLSGEQDEQDKALQEFRQELNTLSASFLDK  60
+
+Query  84  YRDFLKS  90
+           YR+FLKS
+Sbjct  61  YRNFLKS  67
+
+
+> UniRef90_G5BYB6 Alpha-hemoglobin-stabilizing protein n=1 Tax=Heterocephalus 
+glaber TaxID=10181 RepID=G5BYB6_HETGA
+Length=115
+
+ Score = 100 bits (248),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 61/103 (59%), Positives = 77/103 (75%), Gaps = 13/103 (13%)
+
+Query  1    ALLKANKDLISAGLKEF-------------SVLLNQQVFNDALVSEEDMVTVVEDWMNFY  47
+            ALL+ANKDLI+ G+KEF             S   + QVFN  L++EEDMV VV+DW+N Y
+Sbjct  2    ALLQANKDLIALGMKEFPADYSDMLESHSLSPASHPQVFNYPLITEEDMVVVVDDWVNIY  61
+
+Query  48   INYYRQQVTGEPQERDKALQELRQELNTLANPFLAKYRDFLKS  90
+            INYYR+++TGE Q++D+ALQELRQEL TLA+PFLAKYR  L+S
+Sbjct  62   INYYRKRLTGEKQDQDRALQELRQELKTLASPFLAKYRACLES  104
+
+
+> UniRef90_G3WLQ8 Uncharacterized protein n=2 Tax=Sarcophilus harrisii 
+TaxID=9305 RepID=G3WLQ8_SARHA
+Length=90
+
+ Score = 98.2 bits (243),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 43/83 (52%), Positives = 67/83 (81%), Gaps = 0/83 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL++N+D+IS+ ++EFS LL+QQ F     SE DMVT+V+DW+ FY++YY +++TG  Q
+Sbjct  2   ALLQSNQDVISSAMQEFSKLLDQQEFTKPAFSETDMVTIVDDWIKFYLSYYSKKMTGNEQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAK  83
+           E+++A+Q+L++EL T A+PFL K
+Sbjct  62  EQERAMQKLQEELRTSASPFLDK  84
+
+
+> UniRef90_F7EDV6 Uncharacterized protein n=2 Tax=Ornithorhynchus 
+anatinus TaxID=9258 RepID=F7EDV6_ORNAN
+Length=104
+
+ Score = 82.8 bits (203),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 38/89 (43%), Positives = 61/89 (69%), Gaps = 1/89 (1%)
+
+Query  3   LKANKDLISAGLKEFSVLLNQQVFNDAL-VSEEDMVTVVEDWMNFYINYYRQQVTGEPQE  61
+           L +N+D+I++ +  F  LLNQQVF+  + +  E M  +V DW+ FYI+Y+  ++ G+ QE
+Sbjct  4   LHSNQDVINSAMAAFQALLNQQVFSPQIPIPMEAMKIIVRDWIEFYISYFAPKLRGDRQE  63
+
+Query  62  RDKALQELRQELNTLANPFLAKYRDFLKS  90
+           R++A ++L + L  +A PFL KYRDFL +
+Sbjct  64  RERAQEDLWETLQAIARPFLDKYRDFLNA  92
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.133    0.368    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 441251147550
+Results from round 2
+
+
+Query= d1z8ua_
+
+Length=90
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_UPI00042C61AD PREDICTED: alpha-hemoglobin-stabilizing ...  185     8e-57
+  UniRef90_UPI00093EF38B UPI00093EF38B related cluster n=5 Tax=un...  177     3e-54
+  UniRef90_G1P6I0 Uncharacterized protein n=4 Tax=Myotis TaxID=94...  171     1e-52
+  UniRef90_UPI00075F98B7 PREDICTED: alpha-hemoglobin-stabilizing ...  170     3e-52
+  UniRef90_UPI0003F14395 PREDICTED: alpha-hemoglobin-stabilizing ...  168     6e-52
+  UniRef90_F6RED9 Uncharacterized protein n=2 Tax=Macaca mulatta ...  169     9e-52
+  UniRef90_T0NQX3 Alpha-hemoglobin-stabilizing protein n=2 Tax=Ca...  169     9e-52
+  UniRef90_Q9NZD4 Alpha-hemoglobin-stabilizing protein n=16 Tax=S...  168     2e-51
+  UniRef90_A0A091D6K8 Alpha-hemoglobin-stabilizing protein n=2 Ta...  167     3e-51
+  UniRef90_A0A1D5RDT9 Uncharacterized protein n=3 Tax=Macaca TaxI...  166     8e-51
+  UniRef90_F6RTV5 Uncharacterized protein n=2 Tax=Equus TaxID=355...  165     1e-50
+  UniRef90_M3W8I5 Uncharacterized protein n=3 Tax=Felidae TaxID=9...  164     2e-50
+  UniRef90_UPI0002C68338 PREDICTED: alpha-hemoglobin-stabilizing ...  164     2e-50
+  UniRef90_M3YIT3 Uncharacterized protein n=5 Tax=Caniformia TaxI...  164     4e-50
+  UniRef90_UPI0004404B89 PREDICTED: alpha-hemoglobin-stabilizing ...  164     4e-50
+  UniRef90_E2RSC2 Uncharacterized protein n=1 Tax=Canis lupus fam...  162     2e-49
+  UniRef90_UPI000625582D PREDICTED: alpha-hemoglobin-stabilizing ...  163     2e-49
+  UniRef90_H0VUX5 Uncharacterized protein n=1 Tax=Cavia porcellus...  162     2e-49
+  UniRef90_UPI00018B8EBA PREDICTED: alpha-hemoglobin-stabilizing ...  162     4e-49
+  UniRef90_UPI0003EE1329 PREDICTED: alpha-hemoglobin-stabilizing ...  161     4e-49
+  UniRef90_UPI0006616BF0 PREDICTED: alpha-hemoglobin-stabilizing ...  162     5e-49
+  UniRef90_D2HTC9 Putative uncharacterized protein (Fragment) n=2...  160     2e-48
+  UniRef90_UPI00063C15DE PREDICTED: alpha-hemoglobin-stabilizing ...  159     2e-48
+  UniRef90_UPI000944ECD5 UPI000944ECD5 related cluster n=1 Tax=un...  159     2e-48
+  UniRef90_UPI00038F0495 PREDICTED: alpha-hemoglobin-stabilizing ...  159     3e-48
+  UniRef90_UPI000333A431 PREDICTED: alpha-hemoglobin-stabilizing ...  159     3e-48
+  UniRef90_L9KTP8 Alpha-hemoglobin-stabilizing protein n=1 Tax=Tu...  159     3e-48
+  UniRef90_UPI0004D050C0 PREDICTED: alpha-hemoglobin-stabilizing ...  159     3e-48
+  UniRef90_H0XCX0 Uncharacterized protein n=1 Tax=Otolemur garnet...  159     4e-48
+  UniRef90_UPI00046BB852 PREDICTED: alpha-hemoglobin-stabilizing ...  159     5e-48
+  UniRef90_UPI000333BEE0 PREDICTED: alpha-hemoglobin-stabilizing ...  158     8e-48
+  UniRef90_Q865F8 Alpha-hemoglobin-stabilizing protein n=6 Tax=Bo...  157     2e-47
+  UniRef90_UPI000737DEC7 PREDICTED: alpha-hemoglobin-stabilizing ...  156     3e-47
+  UniRef90_UPI000441D92C PREDICTED: LOW QUALITY PROTEIN: alpha-he...  157     3e-47
+  UniRef90_UPI000643A5AA PREDICTED: alpha-hemoglobin-stabilizing ...  156     3e-47
+  UniRef90_UPI00045E0029 PREDICTED: alpha-hemoglobin-stabilizing ...  156     4e-47
+  UniRef90_UPI0003F168FD PREDICTED: alpha-hemoglobin-stabilizing ...  156     5e-47
+  UniRef90_UPI0003F07A95 PREDICTED: alpha-hemoglobin-stabilizing ...  156     7e-47
+  UniRef90_I3LCF9 Uncharacterized protein n=1 Tax=Sus scrofa TaxI...  155     1e-46
+  UniRef90_A9UMW3 Erythroid associated factor n=1 Tax=Rattus norv...  155     1e-46
+  UniRef90_UPI00033178B5 PREDICTED: alpha-hemoglobin-stabilizing ...  155     1e-46
+  UniRef90_Q9CY02 Alpha-hemoglobin-stabilizing protein n=2 Tax=Mu...  155     2e-46
+  UniRef90_UPI00038BE661 PREDICTED: alpha-hemoglobin-stabilizing ...  154     2e-46
+  UniRef90_W5PJ79 Uncharacterized protein n=4 Tax=Bovidae TaxID=9...  154     3e-46
+  UniRef90_I3NEY4 Uncharacterized protein n=3 Tax=Marmotini TaxID...  154     3e-46
+  UniRef90_UPI0004ED18CB PREDICTED: alpha-hemoglobin-stabilizing ...  154     4e-46
+  UniRef90_A0A1A6GB31 Uncharacterized protein n=1 Tax=Neotoma lep...  154     5e-46
+  UniRef90_UPI00042A9E1B PREDICTED: alpha-hemoglobin-stabilizing ...  153     8e-46
+  UniRef90_UPI0006507C25 PREDICTED: alpha-hemoglobin-stabilizing ...  152     2e-45
+  UniRef90_G3T391 Uncharacterized protein n=2 Tax=Loxodonta afric...  151     4e-45
+  UniRef90_UPI00063FA74A PREDICTED: alpha-hemoglobin-stabilizing ...  151     5e-45
+  UniRef90_UPI00032ADD14 PREDICTED: alpha-hemoglobin-stabilizing ...  151     7e-45
+  UniRef90_UPI0003AE9037 PREDICTED: alpha-hemoglobin-stabilizing ...  151     1e-44
+  UniRef90_UPI00062A5556 PREDICTED: alpha-hemoglobin-stabilizing ...  150     3e-44
+  UniRef90_G3IJS0 Alpha-hemoglobin-stabilizing protein n=1 Tax=Cr...  149     3e-44
+  UniRef90_UPI000812C14D UPI000812C14D related cluster n=1 Tax=un...  149     4e-44
+  UniRef90_G1TJ87 Uncharacterized protein n=1 Tax=Oryctolagus cun...  149     5e-44
+  UniRef90_UPI000332FD84 PREDICTED: alpha-hemoglobin-stabilizing ...  147     1e-43
+  UniRef90_UPI000334541A PREDICTED: alpha-hemoglobin-stabilizing ...  146     6e-43
+  UniRef90_UPI000443A14A PREDICTED: alpha-hemoglobin-stabilizing ...  143     7e-42
+  UniRef90_UPI0007A6C142 UPI0007A6C142 related cluster n=2 Tax=un...  140     8e-41
+  UniRef90_A0A0P6JCU4 Alpha-hemoglobin-stabilizing protein n=2 Ta...  135     1e-38
+  UniRef90_F7DP52 Uncharacterized protein n=1 Tax=Monodelphis dom...  131     4e-37
+  UniRef90_F1MER2 Alpha-hemoglobin-stabilizing protein n=1 Tax=Bo...  122     8e-34
+  UniRef90_G3WLQ8 Uncharacterized protein n=2 Tax=Sarcophilus har...  122     1e-33
+  UniRef90_F7EDV6 Uncharacterized protein n=2 Tax=Ornithorhynchus...  122     1e-33
+  UniRef90_G5BYB6 Alpha-hemoglobin-stabilizing protein n=1 Tax=He...  120     1e-32
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_UPI00042C61AD PREDICTED: alpha-hemoglobin-stabilizing 
+protein isoform X1 n=2 Tax=Physeter catodon TaxID=9755 RepID=UPI00042C61AD
+Length=211
+
+ Score = 185 bits (470),  Expect = 8e-57, Method: Composition-based stats.
+ Identities = 66/90 (73%), Positives = 78/90 (87%), Gaps = 0/90 (0%)
+
+Query  1    ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+            ALL+ NKDLI+ G+KEF++LLNQQVF+D  V EE MVTVV DWMNFYINYYRQQ+ GE Q
+Sbjct  121  ALLQTNKDLIATGIKEFNILLNQQVFSDPAVPEEAMVTVVNDWMNFYINYYRQQMVGEQQ  180
+
+Query  61   ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+            E+DKA+QELRQEL+TL+  FL KYR+FLKS
+Sbjct  181  EQDKAVQELRQELDTLSVSFLDKYRNFLKS  210
+
+
+> UniRef90_UPI00093EF38B UPI00093EF38B related cluster n=5 Tax=unknown 
+TaxID= RepID=UPI00093EF38B
+Length=170
+
+ Score = 177 bits (450),  Expect = 3e-54, Method: Composition-based stats.
+ Identities = 66/90 (73%), Positives = 77/90 (86%), Gaps = 0/90 (0%)
+
+Query  1    ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+            ALL+AN+DLIS G+KEF+VLLNQQVF D  +SEE MVTV++DW+NFY NYYRQ V GE Q
+Sbjct  78   ALLQANRDLISTGVKEFNVLLNQQVFTDPPISEEAMVTVLDDWVNFYTNYYRQHVVGEEQ  137
+
+Query  61   ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+            ERD+ALQELRQ+L+TL  PFL KYR FLKS
+Sbjct  138  ERDRALQELRQQLSTLCAPFLDKYRAFLKS  167
+
+
+> UniRef90_G1P6I0 Uncharacterized protein n=4 Tax=Myotis TaxID=9434 
+RepID=G1P6I0_MYOLU
+Length=102
+
+ Score = 171 bits (433),  Expect = 1e-52, Method: Composition-based stats.
+ Identities = 69/90 (77%), Positives = 80/90 (89%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL ANKDLIS G+KEF+ LLNQQVF+D  VSEE MVT+V DW+NFYINYY+QQ+TGE Q
+Sbjct  2   ALLPANKDLISTGMKEFNALLNQQVFSDPPVSEEAMVTMVNDWVNFYINYYKQQMTGEEQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+AL+ELRQELNTL+ PFLAKYR FLKS
+Sbjct  62  EQDRALEELRQELNTLSVPFLAKYRAFLKS  91
+
+
+> UniRef90_UPI00075F98B7 PREDICTED: alpha-hemoglobin-stabilizing 
+protein isoform X2 n=1 Tax=Macaca fascicularis TaxID=9541 
+RepID=UPI00075F98B7
+Length=117
+
+ Score = 170 bits (432),  Expect = 3e-52, Method: Composition-based stats.
+ Identities = 84/90 (93%), Positives = 87/90 (97%), Gaps = 0/90 (0%)
+
+Query  1    ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+            ALLKANKDLISAG +EF VLLNQQVFND L+SEEDMVTVVEDWMNFYINYYRQQVTGEPQ
+Sbjct  17   ALLKANKDLISAGRQEFGVLLNQQVFNDPLISEEDMVTVVEDWMNFYINYYRQQVTGEPQ  76
+
+Query  61   ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+            ERD+ALQELRQELNTLANPFLAKYRDFLKS
+Sbjct  77   ERDRALQELRQELNTLANPFLAKYRDFLKS  106
+
+
+> UniRef90_UPI0003F14395 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=3 Tax=Pteropus TaxID=9401 RepID=UPI0003F14395
+Length=92
+
+ Score = 168 bits (427),  Expect = 6e-52, Method: Composition-based stats.
+ Identities = 71/90 (79%), Positives = 81/90 (90%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEF+VLLNQQVF D  +SEE MVTVV+DW+NFYI+YYRQQVTGE Q
+Sbjct  2   ALLQANKDLISTGMKEFNVLLNQQVFTDPPISEEAMVTVVDDWVNFYISYYRQQVTGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQELRQELNTL+  FLAKYR FLKS
+Sbjct  62  EQDRALQELRQELNTLSTHFLAKYRAFLKS  91
+
+
+> UniRef90_F6RED9 Uncharacterized protein n=2 Tax=Macaca mulatta 
+TaxID=9544 RepID=F6RED9_MACMU
+Length=121
+
+ Score = 169 bits (429),  Expect = 9e-52, Method: Composition-based stats.
+ Identities = 84/90 (93%), Positives = 87/90 (97%), Gaps = 0/90 (0%)
+
+Query  1    ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+            ALLKANKDLISAG +EF VLLNQQVFND L+SEEDMVTVVEDWMNFYINYYRQQVTGEPQ
+Sbjct  21   ALLKANKDLISAGRQEFGVLLNQQVFNDPLISEEDMVTVVEDWMNFYINYYRQQVTGEPQ  80
+
+Query  61   ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+            ERD+ALQELRQELNTLANPFLAKYRDFLKS
+Sbjct  81   ERDRALQELRQELNTLANPFLAKYRDFLKS  110
+
+
+> UniRef90_T0NQX3 Alpha-hemoglobin-stabilizing protein n=2 Tax=Camelus 
+ferus TaxID=419612 RepID=T0NQX3_CAMFR
+Length=141
+
+ Score = 169 bits (430),  Expect = 9e-52, Method: Composition-based stats.
+ Identities = 66/90 (73%), Positives = 76/90 (84%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ NKDLISAG+KEF  LLNQQVF+D ++SEE M TV  DW+NFYINYYRQQ+ GE Q
+Sbjct  4   ALLQTNKDLISAGIKEFKTLLNQQVFSDPVISEEAMETVANDWVNFYINYYRQQMVGEQQ  63
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQELRQEL TLA  FL KYR+FLKS
+Sbjct  64  EQDRALQELRQELTTLAASFLDKYRNFLKS  93
+
+
+> UniRef90_Q9NZD4 Alpha-hemoglobin-stabilizing protein n=16 Tax=Simiiformes 
+TaxID=314293 RepID=AHSP_HUMAN
+Length=102
+
+ Score = 168 bits (425),  Expect = 2e-51, Method: Composition-based stats.
+ Identities = 89/90 (99%), Positives = 89/90 (99%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALLKANKDLISAGLKEFSVLLNQQVFND LVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ
+Sbjct  2   ALLKANKDLISAGLKEFSVLLNQQVFNDPLVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           ERDKALQELRQELNTLANPFLAKYRDFLKS
+Sbjct  62  ERDKALQELRQELNTLANPFLAKYRDFLKS  91
+
+
+> UniRef90_A0A091D6K8 Alpha-hemoglobin-stabilizing protein n=2 
+Tax=Fukomys damarensis TaxID=885580 RepID=A0A091D6K8_FUKDA
+Length=109
+
+ Score = 167 bits (424),  Expect = 3e-51, Method: Composition-based stats.
+ Identities = 69/90 (77%), Positives = 82/90 (91%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEFSVLLNQQVFN  L++EEDMV VV+DW+N YINYYR+++TGE Q
+Sbjct  2   ALLQANKDLISMGMKEFSVLLNQQVFNYPLITEEDMVIVVDDWVNIYINYYRKRLTGEKQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQ+LRQEL TLANPFLAKY+ FLKS
+Sbjct  62  EQDRALQKLRQELKTLANPFLAKYKAFLKS  91
+
+
+> UniRef90_A0A1D5RDT9 Uncharacterized protein n=3 Tax=Macaca TaxID=9539 
+RepID=A0A1D5RDT9_MACMU
+Length=102
+
+ Score = 166 bits (421),  Expect = 8e-51, Method: Composition-based stats.
+ Identities = 84/90 (93%), Positives = 87/90 (97%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALLKANKDLISAG +EF VLLNQQVFND L+SEEDMVTVVEDWMNFYINYYRQQVTGEPQ
+Sbjct  2   ALLKANKDLISAGRQEFGVLLNQQVFNDPLISEEDMVTVVEDWMNFYINYYRQQVTGEPQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           ERD+ALQELRQELNTLANPFLAKYRDFLKS
+Sbjct  62  ERDRALQELRQELNTLANPFLAKYRDFLKS  91
+
+
+> UniRef90_F6RTV5 Uncharacterized protein n=2 Tax=Equus TaxID=35510 
+RepID=F6RTV5_HORSE
+Length=92
+
+ Score = 165 bits (419),  Expect = 1e-50, Method: Composition-based stats.
+ Identities = 69/90 (77%), Positives = 79/90 (88%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+AN+DLIS  +KEF+VLLNQQVF+D  VSEE MVTVV DW+NFYINYYR+QV GE Q
+Sbjct  2   ALLQANRDLISTAIKEFNVLLNQQVFSDPPVSEEAMVTVVNDWVNFYINYYRRQVVGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQELRQELN L+ PFLAKYR FLKS
+Sbjct  62  EKDRALQELRQELNILSAPFLAKYRAFLKS  91
+
+
+> UniRef90_M3W8I5 Uncharacterized protein n=3 Tax=Felidae TaxID=9681 
+RepID=M3W8I5_FELCA
+Length=91
+
+ Score = 164 bits (417),  Expect = 2e-50, Method: Composition-based stats.
+ Identities = 65/90 (72%), Positives = 79/90 (88%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEF++LL+QQVF +  + EE MVT+V+DW+NFYINYYR QV GE Q
+Sbjct  2   ALLQANKDLISKGMKEFNILLDQQVFPNPSIPEEAMVTIVDDWVNFYINYYRTQVVGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+++ALQELRQELNTL+ PFLAKYR FLKS
+Sbjct  62  EQERALQELRQELNTLSAPFLAKYRAFLKS  91
+
+
+> UniRef90_UPI0002C68338 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Ceratotherium simum simum TaxID=73337 RepID=UPI0002C68338
+Length=92
+
+ Score = 164 bits (417),  Expect = 2e-50, Method: Composition-based stats.
+ Identities = 66/90 (73%), Positives = 82/90 (91%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLI+ G+KEF+VLLNQQVF+D  +SEE MVTV++DW+NFYINYY++Q+ GE Q
+Sbjct  2   ALLQANKDLIATGIKEFNVLLNQQVFSDPPISEEAMVTVLDDWVNFYINYYKEQMVGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQELRQELNTL+ PFLAKY+ FLKS
+Sbjct  62  EQDRALQELRQELNTLSAPFLAKYKAFLKS  91
+
+
+> UniRef90_M3YIT3 Uncharacterized protein n=5 Tax=Caniformia TaxID=379584 
+RepID=M3YIT3_MUSPF
+Length=92
+
+ Score = 164 bits (415),  Expect = 4e-50, Method: Composition-based stats.
+ Identities = 63/90 (70%), Positives = 77/90 (86%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEF+VLLNQQVF +  + EE MVT+V+DW+NFYINYYR+Q+ GE Q
+Sbjct  2   ALLQANKDLISTGMKEFNVLLNQQVFPNPPLPEEAMVTMVDDWVNFYINYYRKQMVGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+++ALQEL QEL TL+ PFL KYR FLKS
+Sbjct  62  EQERALQELEQELRTLSAPFLTKYRAFLKS  91
+
+
+> UniRef90_UPI0004404B89 PREDICTED: alpha-hemoglobin-stabilizing 
+protein isoform X2 n=3 Tax=Cetacea TaxID=9721 RepID=UPI0004404B89
+Length=102
+
+ Score = 164 bits (416),  Expect = 4e-50, Method: Composition-based stats.
+ Identities = 64/89 (72%), Positives = 77/89 (87%), Gaps = 0/89 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ NKDLI+ G+KEF++LLNQQVF+D  V EE MVTVV DW+NFYINYYRQQ+ GE Q
+Sbjct  2   ALLQTNKDLIATGIKEFNILLNQQVFSDPAVPEEAMVTVVNDWVNFYINYYRQQMVGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLK  89
+           E+DKA+QELRQEL+TL+  FL KYR+FLK
+Sbjct  62  EQDKAVQELRQELDTLSASFLDKYRNFLK  90
+
+
+> UniRef90_E2RSC2 Uncharacterized protein n=1 Tax=Canis lupus familiaris 
+TaxID=9615 RepID=E2RSC2_CANLF
+Length=92
+
+ Score = 162 bits (411),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 64/89 (72%), Positives = 77/89 (87%), Gaps = 0/89 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEF+VLLNQQVF +  + EE MVT+V DW+NFYINYYRQ++ GE Q
+Sbjct  2   ALLQANKDLISTGIKEFNVLLNQQVFPNPPIPEEAMVTMVNDWVNFYINYYRQKMVGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLK  89
+           E++KALQEL+QELNTL+ PFL KYR FLK
+Sbjct  62  EQEKALQELQQELNTLSAPFLEKYRAFLK  90
+
+
+> UniRef90_UPI000625582D PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Aotus nancymaae TaxID=37293 RepID=UPI000625582D
+Length=102
+
+ Score = 163 bits (412),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 82/90 (91%), Positives = 88/90 (98%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALLKANKDLISAGLKEF+VLLNQQVF+D L+SEEDM+TVVEDWMNFYINYYRQQVTGEPQ
+Sbjct  2   ALLKANKDLISAGLKEFNVLLNQQVFDDPLISEEDMLTVVEDWMNFYINYYRQQVTGEPQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           ERDKALQELRQELNTL +PFLAKYR+FLKS
+Sbjct  62  ERDKALQELRQELNTLIDPFLAKYREFLKS  91
+
+
+> UniRef90_H0VUX5 Uncharacterized protein n=1 Tax=Cavia porcellus 
+TaxID=10141 RepID=H0VUX5_CAVPO
+Length=102
+
+ Score = 162 bits (411),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 66/90 (73%), Positives = 81/90 (90%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEF++LLNQQVF+  L++EED+V +V DW+N YINYYRQ+VTGE Q
+Sbjct  2   ALLQANKDLISVGMKEFNILLNQQVFDHPLIAEEDLVVIVNDWVNMYINYYRQRVTGEKQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQEL+QEL TLANPFLA+YR FLKS
+Sbjct  62  EQDRALQELQQELRTLANPFLARYRAFLKS  91
+
+
+> UniRef90_UPI00018B8EBA PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=unknown TaxID= RepID=UPI00018B8EBA
+Length=102
+
+ Score = 162 bits (410),  Expect = 4e-49, Method: Composition-based stats.
+ Identities = 66/89 (74%), Positives = 78/89 (88%), Gaps = 0/89 (0%)
+
+Query  2   LLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQE  61
+           L++ANKDLIS G KEF+VLL+QQVF D L+SEE MV VV DW+NFYINYY+Q++TGE QE
+Sbjct  3   LIQANKDLISTGKKEFNVLLSQQVFGDPLISEEAMVIVVNDWINFYINYYKQKITGEQQE  62
+
+Query  62  RDKALQELRQELNTLANPFLAKYRDFLKS  90
+           +D ALQEL+QELNTLA+PFL KYR FLKS
+Sbjct  63  QDMALQELQQELNTLASPFLDKYRAFLKS  91
+
+
+> UniRef90_UPI0003EE1329 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Leptonychotes weddellii TaxID=9713 RepID=UPI0003EE1329
+Length=92
+
+ Score = 161 bits (409),  Expect = 4e-49, Method: Composition-based stats.
+ Identities = 61/90 (68%), Positives = 80/90 (89%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEF+VLLNQQVF++  + EE MVT+V+DW++FYINYYR+Q+ GE Q
+Sbjct  2   ALLQANKDLISTGMKEFNVLLNQQVFSNPPIPEEAMVTMVDDWVDFYINYYRKQMVGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+++ALQEL+QELN L+ PFLAKY+ FLK+
+Sbjct  62  EQERALQELQQELNILSAPFLAKYKAFLKT  91
+
+
+> UniRef90_UPI0006616BF0 PREDICTED: alpha-hemoglobin-stabilizing 
+protein isoform X1 n=2 Tax=Mesocricetus auratus TaxID=10036 
+RepID=UPI0006616BF0
+Length=131
+
+ Score = 162 bits (411),  Expect = 5e-49, Method: Composition-based stats.
+ Identities = 56/90 (62%), Positives = 71/90 (79%), Gaps = 0/90 (0%)
+
+Query  1    ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+            A  + N++LIS G+K+F+VLL+QQVF+D L+ EE MVTVV+DW+N YINYY+  V G  Q
+Sbjct  31   APFQTNEELISTGIKQFNVLLDQQVFSDPLIPEEGMVTVVDDWVNLYINYYKPLVLGGQQ  90
+
+Query  61   ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+            E+DK LQEL+QEL TL + FL KYR FLKS
+Sbjct  91   EQDKTLQELQQELKTLGSQFLTKYRTFLKS  120
+
+
+> UniRef90_D2HTC9 Putative uncharacterized protein (Fragment) n=2 
+Tax=Ailuropoda melanoleuca TaxID=9646 RepID=D2HTC9_AILME
+Length=91
+
+ Score = 160 bits (405),  Expect = 2e-48, Method: Composition-based stats.
+ Identities = 64/90 (71%), Positives = 76/90 (84%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEF+VLLNQQVF +  V EE MVT+VEDW+NFYINYYR Q+ GE Q
+Sbjct  2   ALLQANKDLISTGMKEFNVLLNQQVFPNPPVPEEAMVTMVEDWVNFYINYYRTQMVGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E++ AL+EL+QELN L+ PFL KYR FLKS
+Sbjct  62  EQESALRELQQELNALSAPFLVKYRAFLKS  91
+
+
+> UniRef90_UPI00063C15DE PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Trichechus manatus latirostris TaxID=127582 
+RepID=UPI00063C15DE
+Length=92
+
+ Score = 159 bits (404),  Expect = 2e-48, Method: Composition-based stats.
+ Identities = 62/90 (69%), Positives = 79/90 (88%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G++EF++LLNQQV +D  + EE MV VV+DW+NFY+NYYRQ++TGE +
+Sbjct  2   ALLQANKDLISTGMREFNILLNQQVMHDNPIPEEAMVIVVDDWVNFYVNYYRQKMTGEQE  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQEL+QELNTLA PFLAKY  FLK+
+Sbjct  62  EQDRALQELQQELNTLATPFLAKYSAFLKT  91
+
+
+> UniRef90_UPI000944ECD5 UPI000944ECD5 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000944ECD5
+Length=92
+
+ Score = 159 bits (404),  Expect = 2e-48, Method: Composition-based stats.
+ Identities = 62/90 (69%), Positives = 76/90 (84%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEF+VLLNQQVF D  ++EE MVTV++DW+NFY+NYYRQQV GE Q
+Sbjct  2   ALLQANKDLISTGMKEFNVLLNQQVFTDPPITEEAMVTVMDDWVNFYLNYYRQQVVGEEQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+A+QEL Q+L  L  PFL KY+ FLKS
+Sbjct  62  EQDRAVQELGQQLRRLCAPFLDKYKAFLKS  91
+
+
+> UniRef90_UPI00038F0495 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Chinchilla lanigera TaxID=34839 RepID=UPI00038F0495
+Length=102
+
+ Score = 159 bits (404),  Expect = 3e-48, Method: Composition-based stats.
+ Identities = 61/90 (68%), Positives = 78/90 (87%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEF+VLLNQQVF++ L++EEDMV +V+DWMN Y+N+Y Q++ GE +
+Sbjct  2   ALLQANKDLISTGMKEFNVLLNQQVFDNPLITEEDMVVIVDDWMNIYLNFYGQRMAGEKE  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+DKALQE ++EL  LANPFL KYR FLKS
+Sbjct  62  EQDKALQEFQRELKALANPFLDKYRAFLKS  91
+
+
+> UniRef90_UPI000333A431 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Echinops telfairi TaxID=9371 RepID=UPI000333A431
+Length=92
+
+ Score = 159 bits (403),  Expect = 3e-48, Method: Composition-based stats.
+ Identities = 65/90 (72%), Positives = 80/90 (89%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEF VLL+QQV  +  VSEEDM TVV+DW++FYINYYR +++G+PQ
+Sbjct  2   ALLQANKDLISTGMKEFRVLLDQQVIGNKSVSEEDMATVVDDWVSFYINYYRPRMSGDPQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQELR+ELNTLA+PFL KYR FLKS
+Sbjct  62  EQDRALQELRRELNTLAHPFLEKYRAFLKS  91
+
+
+> UniRef90_L9KTP8 Alpha-hemoglobin-stabilizing protein n=1 Tax=Tupaia 
+chinensis TaxID=246437 RepID=L9KTP8_TUPCH
+Length=92
+
+ Score = 159 bits (403),  Expect = 3e-48, Method: Composition-based stats.
+ Identities = 63/90 (70%), Positives = 78/90 (87%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ NKD+I+ G+K+FSVLL+QQVF++  +SEE MV VV DW+NFY+NYY QQVTGE Q
+Sbjct  2   ALLQVNKDIIATGMKKFSVLLDQQVFSEPPISEEAMVVVVNDWVNFYVNYYGQQVTGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+AL ELRQEL T+A+PFLAKYR FLKS
+Sbjct  62  EQDRALNELRQELTTMASPFLAKYRAFLKS  91
+
+
+> UniRef90_UPI0004D050C0 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Galeopterus variegatus TaxID=482537 RepID=UPI0004D050C0
+Length=92
+
+ Score = 159 bits (403),  Expect = 3e-48, Method: Composition-based stats.
+ Identities = 65/90 (72%), Positives = 79/90 (88%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEF+ LLNQQVF+D L+SEE MVT+V DW++FYINYY QQ+TGE Q
+Sbjct  2   ALLQANKDLISTGMKEFNALLNQQVFSDPLISEEAMVTIVNDWISFYINYYEQQMTGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+++ALQE +Q+LNTLA PFL KYR FLKS
+Sbjct  62  EQERALQEFQQKLNTLAIPFLDKYRAFLKS  91
+
+
+> UniRef90_H0XCX0 Uncharacterized protein n=1 Tax=Otolemur garnettii 
+TaxID=30611 RepID=H0XCX0_OTOGA
+Length=102
+
+ Score = 159 bits (403),  Expect = 4e-48, Method: Composition-based stats.
+ Identities = 66/90 (73%), Positives = 82/90 (91%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+AN+DLISAG+KEF++LLNQQVFN+  VSEE M TVV DW+NFY+NYY++Q+TGE  
+Sbjct  2   ALLQANEDLISAGVKEFNILLNQQVFNEPFVSEEAMETVVNDWVNFYMNYYKKQMTGEQG  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E++KALQEL+Q+LN+LANPFLAKYR FLKS
+Sbjct  62  EQEKALQELKQKLNSLANPFLAKYRAFLKS  91
+
+
+> UniRef90_UPI00046BB852 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Eptesicus fuscus TaxID=29078 RepID=UPI00046BB852
+Length=92
+
+ Score = 159 bits (402),  Expect = 5e-48, Method: Composition-based stats.
+ Identities = 69/90 (77%), Positives = 81/90 (90%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLISAG+KEF+ LLNQQVF +  VSEE MVT+V DW+NFY+NYYRQQ+TGE Q
+Sbjct  2   ALLQANKDLISAGMKEFNALLNQQVFTEPPVSEEAMVTIVNDWVNFYVNYYRQQMTGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+ +AL+ELRQELNTL+ PFLAKYRDFLKS
+Sbjct  62  EQAQALEELRQELNTLSVPFLAKYRDFLKS  91
+
+
+> UniRef90_UPI000333BEE0 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Octodon degus TaxID=10160 RepID=UPI000333BEE0
+Length=102
+
+ Score = 158 bits (401),  Expect = 8e-48, Method: Composition-based stats.
+ Identities = 61/90 (68%), Positives = 76/90 (84%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEF++LLNQQVF+  L++ EDM  +V+DWMN YIN+YR ++TG+ Q
+Sbjct  2   ALLQANKDLISVGMKEFNILLNQQVFDFPLITAEDMKVMVDDWMNMYINFYRPRMTGDKQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D ALQEL+ EL TLANPFL KYR FLKS
+Sbjct  62  EQDTALQELQSELKTLANPFLDKYRAFLKS  91
+
+
+> UniRef90_Q865F8 Alpha-hemoglobin-stabilizing protein n=6 Tax=Bovidae 
+TaxID=9895 RepID=AHSP_BOVIN
+Length=92
+
+ Score = 157 bits (398),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 62/90 (69%), Positives = 78/90 (87%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           AL++ NKDLIS G+KEF++LLNQQVF+D  +SEE MVTVV DW++FYINYY++Q++GE  
+Sbjct  2   ALIQTNKDLISKGIKEFNILLNQQVFSDPAISEEAMVTVVNDWVSFYINYYKKQLSGEQD  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+DKALQE RQELNTL+  FL KYR+FLKS
+Sbjct  62  EQDKALQEFRQELNTLSASFLDKYRNFLKS  91
+
+
+> UniRef90_UPI000737DEC7 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Vicugna pacos TaxID=30538 RepID=UPI000737DEC7
+Length=92
+
+ Score = 156 bits (396),  Expect = 3e-47, Method: Composition-based stats.
+ Identities = 67/90 (74%), Positives = 76/90 (84%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ NKDLISAG+KEF  LLNQQVF+D L+SEE M TV  DW+NFYINYYRQQ+ GE Q
+Sbjct  2   ALLQTNKDLISAGIKEFKTLLNQQVFSDPLISEEAMETVANDWVNFYINYYRQQMVGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQELRQEL TLA  FL KYR+FLKS
+Sbjct  62  EQDRALQELRQELTTLAASFLDKYRNFLKS  91
+
+
+> UniRef90_UPI000441D92C PREDICTED: LOW QUALITY PROTEIN: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Lipotes vexillifer TaxID=118797 
+RepID=UPI000441D92C
+Length=102
+
+ Score = 157 bits (397),  Expect = 3e-47, Method: Composition-based stats.
+ Identities = 60/90 (67%), Positives = 79/90 (88%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ NKDLI+ G+KEF++LLNQQVF+  +V EEDM+TVV DW+NFYI+YYRQQ+ GE Q
+Sbjct  2   ALLQTNKDLIATGMKEFNILLNQQVFSGPVVPEEDMMTVVNDWVNFYISYYRQQMVGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+A+QELRQ+L+TL+  FL KYR+FL+S
+Sbjct  62  EQDEAVQELRQQLDTLSASFLDKYRNFLRS  91
+
+
+> UniRef90_UPI000643A5AA PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Microcebus murinus TaxID=30608 RepID=UPI000643A5AA
+Length=92
+
+ Score = 156 bits (396),  Expect = 3e-47, Method: Composition-based stats.
+ Identities = 69/90 (77%), Positives = 79/90 (88%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ NKDLIS G+KEF+VLL QQVFND LVSEE MVTVV DWMN YINYY++QVTGE +
+Sbjct  2   ALLQTNKDLISTGMKEFNVLLKQQVFNDPLVSEEAMVTVVNDWMNLYINYYKRQVTGEQE  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQ+L+QELNTLAN FL KYR FLKS
+Sbjct  62  EQDRALQQLQQELNTLANNFLDKYRTFLKS  91
+
+
+> UniRef90_UPI00045E0029 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Orycteropus afer afer TaxID=1230840 RepID=UPI00045E0029
+Length=93
+
+ Score = 156 bits (396),  Expect = 4e-47, Method: Composition-based stats.
+ Identities = 67/91 (74%), Positives = 79/91 (87%), Gaps = 1/91 (1%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFN-DALVSEEDMVTVVEDWMNFYINYYRQQVTGEP  59
+           ALL+ NKDLIS G++EFS+LL+QQV   D  +SEE MVTVV+DW+NFYINYYRQ+VTGE 
+Sbjct  2   ALLQNNKDLISTGMREFSILLDQQVMAADNPISEEAMVTVVDDWVNFYINYYRQKVTGEQ  61
+
+Query  60  QERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           QE+++ALQELRQELNTLA PFL KYR FLKS
+Sbjct  62  QEQERALQELRQELNTLATPFLDKYRAFLKS  92
+
+
+> UniRef90_UPI0003F168FD PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Chrysochloris asiatica TaxID=185453 RepID=UPI0003F168FD
+Length=92
+
+ Score = 156 bits (395),  Expect = 5e-47, Method: Composition-based stats.
+ Identities = 65/90 (72%), Positives = 77/90 (86%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ NKDLIS G+KEF VLLNQQV  D+ +SEEDM TVV+DW+N Y NYY+Q+VTGE +
+Sbjct  2   ALLQTNKDLISTGIKEFGVLLNQQVMPDSPISEEDMATVVDDWVNMYTNYYKQKVTGEQE  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQELRQEL  +ANPFLAKYR FLKS
+Sbjct  62  EKDRALQELRQELTAMANPFLAKYRLFLKS  91
+
+
+> UniRef90_UPI0003F07A95 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Elephantulus edwardii TaxID=28737 RepID=UPI0003F07A95
+Length=92
+
+ Score = 156 bits (394),  Expect = 7e-47, Method: Composition-based stats.
+ Identities = 60/90 (67%), Positives = 77/90 (86%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL++NKDLIS G+KEF+ LLNQQV +   + EE MVTVV+DW+NFY+NYYRQ++TGE +
+Sbjct  2   ALLQSNKDLISTGMKEFNTLLNQQVMSKQPIPEEAMVTVVDDWVNFYVNYYRQKMTGEQE  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+++ALQEL+Q+LNTL  PFL KYR FLKS
+Sbjct  62  EQERALQELQQQLNTLTIPFLDKYRAFLKS  91
+
+
+> UniRef90_I3LCF9 Uncharacterized protein n=1 Tax=Sus scrofa TaxID=9823 
+RepID=I3LCF9_PIG
+Length=91
+
+ Score = 155 bits (393),  Expect = 1e-46, Method: Composition-based stats.
+ Identities = 60/90 (67%), Positives = 77/90 (86%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL  N+DLISAG+KEF++LLNQQVF++  + EE MVTVV DWM+ Y+NYY++++ GE +
+Sbjct  2   ALLPTNQDLISAGIKEFNILLNQQVFSEPAIPEEAMVTVVNDWMDLYLNYYKKKMVGEQE  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+DKALQELRQELNTL+  FL KYR+FLKS
+Sbjct  62  EQDKALQELRQELNTLSASFLDKYRNFLKS  91
+
+
+> UniRef90_A9UMW3 Erythroid associated factor n=1 Tax=Rattus norvegicus 
+TaxID=10116 RepID=A9UMW3_RAT
+Length=102
+
+ Score = 155 bits (393),  Expect = 1e-46, Method: Composition-based stats.
+ Identities = 59/90 (66%), Positives = 74/90 (82%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           A  ++NKDLIS G+KEF+VLL+QQVF+D L+ EEDM TVV DW+N YINYY++ V GE Q
+Sbjct  2   APFQSNKDLISTGIKEFNVLLDQQVFDDPLMPEEDMKTVVNDWVNLYINYYKKHVLGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D AL+EL+QEL+TL + FLAKYR  LKS
+Sbjct  62  EQDGALKELQQELSTLGSQFLAKYRIILKS  91
+
+
+> UniRef90_UPI00033178B5 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Sorex araneus TaxID=42254 RepID=UPI00033178B5
+Length=91
+
+ Score = 155 bits (392),  Expect = 1e-46, Method: Composition-based stats.
+ Identities = 57/88 (65%), Positives = 73/88 (83%), Gaps = 0/88 (0%)
+
+Query  3   LKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQER  62
+           L+ NKDLIS G+KEF++LL+QQVF D  + EE M T+V+DW+N YINYY+ Q+TGE QE+
+Sbjct  3   LQDNKDLISKGIKEFNILLDQQVFPDPPIPEEAMATIVDDWVNLYINYYKLQMTGEQQEQ  62
+
+Query  63  DKALQELRQELNTLANPFLAKYRDFLKS  90
+           D+ALQELRQEL TL+ PF+ KY+ FLKS
+Sbjct  63  DQALQELRQELTTLSAPFVDKYKAFLKS  90
+
+
+> UniRef90_Q9CY02 Alpha-hemoglobin-stabilizing protein n=2 Tax=Mus 
+musculus TaxID=10090 RepID=AHSP_MOUSE
+Length=102
+
+ Score = 155 bits (392),  Expect = 2e-46, Method: Composition-based stats.
+ Identities = 57/90 (63%), Positives = 74/90 (82%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           A  ++NKDLIS G+KEF+VLL+QQVF+D L+SEEDMV VV DW+N Y NYY++ V GE +
+Sbjct  2   APFQSNKDLISTGIKEFNVLLDQQVFDDPLISEEDMVIVVHDWVNLYTNYYKKLVHGEQE  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+A+ E +QEL+TL + FLAKYR FLKS
+Sbjct  62  EQDRAMTEFQQELSTLGSQFLAKYRTFLKS  91
+
+
+> UniRef90_UPI00038BE661 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Microtus ochrogaster TaxID=79684 RepID=UPI00038BE661
+Length=102
+
+ Score = 154 bits (391),  Expect = 2e-46, Method: Composition-based stats.
+ Identities = 59/90 (66%), Positives = 73/90 (81%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           A  + NK+LIS G+KEF+VLLNQQVF+D L+ EE MVTVV+DW+N YINYY+  V GE Q
+Sbjct  2   APFQTNKELISTGIKEFNVLLNQQVFDDPLIPEESMVTVVDDWVNLYINYYKNHVLGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+DKALQEL+QEL+TL + FL KYR  LK+
+Sbjct  62  EKDKALQELQQELSTLGSQFLTKYRTILKT  91
+
+
+> UniRef90_W5PJ79 Uncharacterized protein n=4 Tax=Bovidae TaxID=9895 
+RepID=W5PJ79_SHEEP
+Length=92
+
+ Score = 154 bits (390),  Expect = 3e-46, Method: Composition-based stats.
+ Identities = 60/90 (67%), Positives = 78/90 (87%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           AL++ NKDLIS G+KEF++LLNQQVF+D  +SEE MVTVV DW++FYINYY++Q++GE Q
+Sbjct  2   ALIQTNKDLISKGIKEFNILLNQQVFSDPAISEEAMVTVVNDWVSFYINYYKKQLSGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ LQE RQEL+TL+  FL KYR+FLKS
+Sbjct  62  EQDRVLQEFRQELDTLSASFLEKYRNFLKS  91
+
+
+> UniRef90_I3NEY4 Uncharacterized protein n=3 Tax=Marmotini TaxID=337730 
+RepID=I3NEY4_ICTTR
+Length=100
+
+ Score = 154 bits (391),  Expect = 3e-46, Method: Composition-based stats.
+ Identities = 63/90 (70%), Positives = 79/90 (88%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           A L++NKDLIS+G+KEF+VLLNQQVFND L+SEEDMVTVV+DW+NFY+NYY+Q + GE Q
+Sbjct  2   AHLQSNKDLISSGMKEFNVLLNQQVFNDPLISEEDMVTVVDDWVNFYVNYYKQHMKGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+  ALQEL+Q+L+ LA  FL KY+DFLKS
+Sbjct  62  EQVGALQELQQQLDILAKSFLVKYKDFLKS  91
+
+
+> UniRef90_UPI0004ED18CB PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Nannospalax galili TaxID=1026970 RepID=UPI0004ED18CB
+Length=100
+
+ Score = 154 bits (390),  Expect = 4e-46, Method: Composition-based stats.
+ Identities = 61/90 (68%), Positives = 74/90 (82%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           AL + N+DLISAG KEF+ LLNQQVFN+ LVSEEDM TVV+DW+N Y  YY++ + G  Q
+Sbjct  2   ALFQTNEDLISAGKKEFNGLLNQQVFNEPLVSEEDMKTVVDDWVNLYTTYYKKHLVGAQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQELR+ELNTL + FLAKYR FLKS
+Sbjct  62  EQDRALQELREELNTLGSHFLAKYRAFLKS  91
+
+
+> UniRef90_A0A1A6GB31 Uncharacterized protein n=1 Tax=Neotoma lepida 
+TaxID=56216 RepID=A0A1A6GB31_NEOLE
+Length=102
+
+ Score = 154 bits (389),  Expect = 5e-46, Method: Composition-based stats.
+ Identities = 64/90 (71%), Positives = 76/90 (84%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           A  + NK+L+S G+KEF+VLLNQQVFND L+ EE MVTVV+DW+N YINYY++QV GE Q
+Sbjct  2   APFQTNKELVSTGIKEFNVLLNQQVFNDLLIPEESMVTVVDDWVNLYINYYKKQVLGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+DKALQELRQELNTL + FL KYR FLKS
+Sbjct  62  EQDKALQELRQELNTLGSQFLTKYRTFLKS  91
+
+
+> UniRef90_UPI00042A9E1B PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Peromyscus maniculatus bairdii TaxID=230844 
+RepID=UPI00042A9E1B
+Length=99
+
+ Score = 153 bits (387),  Expect = 8e-46, Method: Composition-based stats.
+ Identities = 59/90 (66%), Positives = 75/90 (83%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           A    NK+LISAG+KEF+VLLNQQVF+D L+ EE+MVTVV+DW+  Y NYY++Q+ GE Q
+Sbjct  2   APFLTNKELISAGIKEFNVLLNQQVFDDPLIPEENMVTVVDDWVKLYTNYYKKQMLGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQEL+QEL+TL + FL KYR FLKS
+Sbjct  62  EQDRALQELQQELSTLGSQFLTKYRTFLKS  91
+
+
+> UniRef90_UPI0006507C25 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Dipodomys ordii TaxID=10020 RepID=UPI0006507C25
+Length=96
+
+ Score = 152 bits (384),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 65/90 (72%), Positives = 75/90 (83%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL ANKDLIS G+KEFSVLLNQQVF D LVSE+DM  VV DWMN YINYY + V GEPQ
+Sbjct  2   ALLPANKDLISKGVKEFSVLLNQQVFEDPLVSEDDMEKVVNDWMNIYINYYSKHVVGEPQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D AL+EL+QEL +L++PFL KY+ FLKS
+Sbjct  62  EQDTALKELQQELKSLSSPFLDKYKTFLKS  91
+
+
+> UniRef90_G3T391 Uncharacterized protein n=2 Tax=Loxodonta africana 
+TaxID=9785 RepID=G3T391_LOXAF
+Length=102
+
+ Score = 151 bits (383),  Expect = 4e-45, Method: Composition-based stats.
+ Identities = 64/87 (74%), Positives = 74/87 (85%), Gaps = 0/87 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLIS G+KEFS+LLNQQ   D  + EE MV VV DWM+FYINYYRQ++TGE Q
+Sbjct  2   ALLQANKDLISTGMKEFSILLNQQDMRDNPIPEEAMVIVVNDWMSFYINYYRQKMTGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDF  87
+           E+D+ALQEL+Q LNTLANPFL KYRDF
+Sbjct  62  EQDRALQELQQGLNTLANPFLTKYRDF  88
+
+
+> UniRef90_UPI00063FA74A PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Propithecus coquereli TaxID=379532 RepID=UPI00063FA74A
+Length=98
+
+ Score = 151 bits (382),  Expect = 5e-45, Method: Composition-based stats.
+ Identities = 70/90 (78%), Positives = 78/90 (87%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           A L+ NKDLIS G KEF+ LL QQVFND LVSEE MVTVV+DW+NFYINYYRQQVTGE +
+Sbjct  2   AFLQTNKDLISTGTKEFNALLKQQVFNDLLVSEEAMVTVVDDWINFYINYYRQQVTGEQE  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           ERD+ALQ+L+QELNTLAN FL KYR FLKS
+Sbjct  62  ERDRALQQLQQELNTLANNFLGKYRAFLKS  91
+
+
+> UniRef90_UPI00032ADD14 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Ochotona princeps TaxID=9978 RepID=UPI00032ADD14
+Length=102
+
+ Score = 151 bits (381),  Expect = 7e-45, Method: Composition-based stats.
+ Identities = 60/90 (67%), Positives = 71/90 (79%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL ANKDLI  G KEF+VLLNQQV  D  +SEE M  V++DW+N Y NYY+ Q+TGE Q
+Sbjct  2   ALLPANKDLICTGKKEFNVLLNQQVLGDPFLSEEAMEIVLDDWVNLYANYYKPQLTGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQEL++EL  LA PFL KYRDFLKS
+Sbjct  62  EQDRALQELQRELKELAKPFLHKYRDFLKS  91
+
+
+> UniRef90_UPI0003AE9037 PREDICTED: alpha-hemoglobin-stabilizing 
+protein, partial n=1 Tax=Sus scrofa TaxID=9823 RepID=UPI0003AE9037
+Length=130
+
+ Score = 151 bits (382),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 51/80 (64%), Positives = 68/80 (85%), Gaps = 0/80 (0%)
+
+Query  11   SAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQERDKALQELR  70
+            + G+KEF++LLNQQVF++  + EE MVTVV DWM+ Y+NYY++++ GE +E+DKALQELR
+Sbjct  50   AKGIKEFNILLNQQVFSEPAIPEEAMVTVVNDWMDLYLNYYKKKMVGEQEEQDKALQELR  109
+
+Query  71   QELNTLANPFLAKYRDFLKS  90
+            QELNTL+  FL KYR+FLKS
+Sbjct  110  QELNTLSASFLDKYRNFLKS  129
+
+
+> UniRef90_UPI00062A5556 PREDICTED: alpha-hemoglobin-stabilizing 
+protein isoform X1 n=2 Tax=Dasypus novemcinctus TaxID=9361 
+RepID=UPI00062A5556
+Length=130
+
+ Score = 150 bits (380),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 52/90 (58%), Positives = 71/90 (79%), Gaps = 0/90 (0%)
+
+Query  1    ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+            ALL+ANKDLIS  ++EFS+LLNQQ      +SE+ M  +V+DW+N YI++YR ++TGE Q
+Sbjct  33   ALLQANKDLISKAMREFSILLNQQEPTQLPISEDAMAVIVDDWVNLYISHYRPKMTGEQQ  92
+
+Query  61   ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+            E+++A+QEL+QEL  LANPFL KYR FL +
+Sbjct  93   EQNRAVQELQQELTALANPFLIKYRAFLNT  122
+
+
+> UniRef90_G3IJS0 Alpha-hemoglobin-stabilizing protein n=1 Tax=Cricetulus 
+griseus TaxID=10029 RepID=G3IJS0_CRIGR
+Length=102
+
+ Score = 149 bits (377),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 58/90 (64%), Positives = 72/90 (80%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           A  + NK+LIS G+K+F+VLL QQVF+D L+ EE+MVTVV DW+N YINYY+  V G+ Q
+Sbjct  2   APFQTNKELISEGIKQFNVLLGQQVFDDPLIPEENMVTVVNDWVNLYINYYKPLVFGKQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+DKALQEL+QELNTL + FL KYR  LKS
+Sbjct  62  EQDKALQELQQELNTLGSQFLTKYRTILKS  91
+
+
+> UniRef90_UPI000812C14D UPI000812C14D related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000812C14D
+Length=92
+
+ Score = 149 bits (376),  Expect = 4e-44, Method: Composition-based stats.
+ Identities = 67/90 (74%), Positives = 81/90 (90%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ NKDLIS G+K+F+VLLNQQVF+D  V EE MVT+V+DW+NFYINYYRQQV GE Q
+Sbjct  2   ALLQTNKDLISTGMKKFNVLLNQQVFSDPPVPEEAMVTMVDDWVNFYINYYRQQVVGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+ALQEL+QELNTL++PFLAKYR FL+S
+Sbjct  62  EQDRALQELQQELNTLSSPFLAKYRAFLQS  91
+
+
+> UniRef90_G1TJ87 Uncharacterized protein n=1 Tax=Oryctolagus cuniculus 
+TaxID=9986 RepID=G1TJ87_RABIT
+Length=102
+
+ Score = 149 bits (376),  Expect = 5e-44, Method: Composition-based stats.
+ Identities = 65/90 (72%), Positives = 75/90 (83%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL  NKDLIS GLKEF+VLLNQQVF+D L+S+E M TV++DW+N Y+NYYRQQ+TGE Q
+Sbjct  2   ALLPTNKDLISMGLKEFNVLLNQQVFSDPLLSQEAMQTVLDDWVNLYVNYYRQQMTGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E DKAL+ELR ELN LA PFL KY  FLKS
+Sbjct  62  ELDKALEELRLELNGLAKPFLNKYSVFLKS  91
+
+
+> UniRef90_UPI000332FD84 PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Jaculus jaculus TaxID=51337 RepID=UPI000332FD84
+Length=102
+
+ Score = 147 bits (373),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 58/89 (65%), Positives = 75/89 (84%), Gaps = 0/89 (0%)
+
+Query  2   LLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQE  61
+           + + NKDLIS G+KEF+VLL+QQVFN+ LVS+EDM  +V DW+  Y+NYYR+ +TGE Q+
+Sbjct  3   VFRTNKDLISRGVKEFNVLLSQQVFNEPLVSDEDMEIMVGDWVKLYLNYYRKHMTGEQQQ  62
+
+Query  62  RDKALQELRQELNTLANPFLAKYRDFLKS  90
+           +D ALQEL+QELNTL+N FLAKYR FL+S
+Sbjct  63  QDSALQELQQELNTLSNHFLAKYRVFLES  91
+
+
+> UniRef90_UPI000334541A PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Condylura cristata TaxID=143302 RepID=UPI000334541A
+Length=92
+
+ Score = 146 bits (368),  Expect = 6e-43, Method: Composition-based stats.
+ Identities = 56/90 (62%), Positives = 72/90 (80%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ NKDLIS  +KEF+ LL QQ+F D  + EE M T+ +DW+NFY+NYYRQQVTGE Q
+Sbjct  2   ALLQDNKDLISKAIKEFNTLLGQQIFPDPPIPEEAMETIAQDWVNFYVNYYRQQVTGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D  L+ELRQ+LN L+ PF+AKY+ FLK+
+Sbjct  62  EQDMTLKELRQQLNILSTPFVAKYKAFLKT  91
+
+
+> UniRef90_UPI000443A14A PREDICTED: alpha-hemoglobin-stabilizing 
+protein n=1 Tax=Erinaceus europaeus TaxID=9365 RepID=UPI000443A14A
+Length=92
+
+ Score = 143 bits (361),  Expect = 7e-42, Method: Composition-based stats.
+ Identities = 54/90 (60%), Positives = 70/90 (78%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           A L+ NKDLI+ G+KEF+ LL+QQVF+   VSEEDMV +V+DWM+ Y NYY  Q+TGE Q
+Sbjct  2   AHLQTNKDLIAKGIKEFTALLDQQVFSHPFVSEEDMVVIVKDWMDLYTNYYTNQLTGECQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D ALQELR+ +  L+ PFL KYR+ +KS
+Sbjct  62  EKDMALQELREGMLALSEPFLDKYREHIKS  91
+
+
+> UniRef90_UPI0007A6C142 UPI0007A6C142 related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI0007A6C142
+Length=92
+
+ Score = 140 bits (354),  Expect = 8e-41, Method: Composition-based stats.
+ Identities = 61/90 (68%), Positives = 77/90 (86%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL ANK LIS G+KEF+ LLNQQVF++  +SEEDM+TVV DW+ FYI+YYRQQ+ GE Q
+Sbjct  2   ALLPANKALISTGMKEFNALLNQQVFSEPPISEEDMLTVVNDWVKFYIDYYRQQMMGEQQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           E+D+AL+EL++ELNTLA PFL KY+ FL+S
+Sbjct  62  EQDRALEELQKELNTLAIPFLDKYKAFLRS  91
+
+
+> UniRef90_A0A0P6JCU4 Alpha-hemoglobin-stabilizing protein n=2 
+Tax=Heterocephalus glaber TaxID=10181 RepID=A0A0P6JCU4_HETGA
+Length=102
+
+ Score = 135 bits (340),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 67/90 (74%), Positives = 82/90 (91%), Gaps = 0/90 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL+ANKDLI+ G+KEFSVLLNQQVFN  L++EEDMV VV+DW+N YINYYR+++TGE Q
+Sbjct  2   ALLQANKDLIALGMKEFSVLLNQQVFNYPLITEEDMVVVVDDWVNIYINYYRKRLTGEKQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           ++D+ALQELRQEL TLA+PFLAKYR FL+S
+Sbjct  62  DQDRALQELRQELKTLASPFLAKYRAFLES  91
+
+
+> UniRef90_F7DP52 Uncharacterized protein n=1 Tax=Monodelphis domestica 
+TaxID=13616 RepID=F7DP52_MONDO
+Length=91
+
+ Score = 131 bits (329),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 47/88 (53%), Positives = 77/88 (88%), Gaps = 0/88 (0%)
+
+Query  3   LKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQER  62
+           L++N+D+IS+ ++EF+ LLNQQ F  A++SE+DMVT+V+DWMN+Y++++ Q+++G+ QE+
+Sbjct  3   LQSNQDVISSAMQEFNKLLNQQDFTYAVISEKDMVTIVDDWMNYYLSFFSQKMSGDQQEQ  62
+
+Query  63  DKALQELRQELNTLANPFLAKYRDFLKS  90
+           ++A+Q+L++EL + ANPFL KYR FLKS
+Sbjct  63  ERAMQKLQEELRSSANPFLDKYRAFLKS  90
+
+
+> UniRef90_F1MER2 Alpha-hemoglobin-stabilizing protein n=1 Tax=Bos 
+taurus TaxID=9913 RepID=F1MER2_BOVIN
+Length=78
+
+ Score = 122 bits (306),  Expect = 8e-34, Method: Composition-based stats.
+ Identities = 46/67 (69%), Positives = 57/67 (85%), Gaps = 0/67 (0%)
+
+Query  24  QVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQERDKALQELRQELNTLANPFLAK  83
+           QVF+D  +SEE MVTVV DW++FYINYY++Q++GE  E+DKALQE RQELNTL+  FL K
+Sbjct  1   QVFSDPAISEEAMVTVVNDWVSFYINYYKKQLSGEQDEQDKALQEFRQELNTLSASFLDK  60
+
+Query  84  YRDFLKS  90
+           YR+FLKS
+Sbjct  61  YRNFLKS  67
+
+
+> UniRef90_G3WLQ8 Uncharacterized protein n=2 Tax=Sarcophilus harrisii 
+TaxID=9305 RepID=G3WLQ8_SARHA
+Length=90
+
+ Score = 122 bits (306),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 43/83 (52%), Positives = 67/83 (81%), Gaps = 0/83 (0%)
+
+Query  1   ALLKANKDLISAGLKEFSVLLNQQVFNDALVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+           ALL++N+D+IS+ ++EFS LL+QQ F     SE DMVT+V+DW+ FY++YY +++TG  Q
+Sbjct  2   ALLQSNQDVISSAMQEFSKLLDQQEFTKPAFSETDMVTIVDDWIKFYLSYYSKKMTGNEQ  61
+
+Query  61  ERDKALQELRQELNTLANPFLAK  83
+           E+++A+Q+L++EL T A+PFL K
+Sbjct  62  EQERAMQKLQEELRTSASPFLDK  84
+
+
+> UniRef90_F7EDV6 Uncharacterized protein n=2 Tax=Ornithorhynchus 
+anatinus TaxID=9258 RepID=F7EDV6_ORNAN
+Length=104
+
+ Score = 122 bits (307),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 38/90 (42%), Positives = 60/90 (67%), Gaps = 1/90 (1%)
+
+Query  2   LLKANKDLISAGLKEFSVLLNQQVFNDA-LVSEEDMVTVVEDWMNFYINYYRQQVTGEPQ  60
+            L +N+D+I++ +  F  LLNQQVF+    +  E M  +V DW+ FYI+Y+  ++ G+ Q
+Sbjct  3   PLHSNQDVINSAMAAFQALLNQQVFSPQIPIPMEAMKIIVRDWIEFYISYFAPKLRGDRQ  62
+
+Query  61  ERDKALQELRQELNTLANPFLAKYRDFLKS  90
+           ER++A ++L + L  +A PFL KYRDFL +
+Sbjct  63  ERERAQEDLWETLQAIARPFLDKYRDFLNA  92
+
+
+> UniRef90_G5BYB6 Alpha-hemoglobin-stabilizing protein n=1 Tax=Heterocephalus 
+glaber TaxID=10181 RepID=G5BYB6_HETGA
+Length=115
+
+ Score = 120 bits (301),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 61/103 (59%), Positives = 77/103 (75%), Gaps = 13/103 (13%)
+
+Query  1    ALLKANKDLISAGLKEF-------------SVLLNQQVFNDALVSEEDMVTVVEDWMNFY  47
+            ALL+ANKDLI+ G+KEF             S   + QVFN  L++EEDMV VV+DW+N Y
+Sbjct  2    ALLQANKDLIALGMKEFPADYSDMLESHSLSPASHPQVFNYPLITEEDMVVVVDDWVNIY  61
+
+Query  48   INYYRQQVTGEPQERDKALQELRQELNTLANPFLAKYRDFLKS  90
+            INYYR+++TGE Q++D+ALQELRQEL TLA+PFLAKYR  L+S
+Sbjct  62   INYYRKRLTGEKQDQDRALQELRQELKTLASPFLAKYRACLES  104
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.164    0.550    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0506    0.140     1.90     42.6     43.6 
+
+Effective search space used: 441251147550
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

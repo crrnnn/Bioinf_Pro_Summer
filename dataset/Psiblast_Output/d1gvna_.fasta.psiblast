@@ -1,0 +1,1626 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1gvna_
+
+Length=87
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q57231 Antitoxin epsilon n=57 Tax=Bacteria TaxID=2 Rep...  169     2e-52
+  UniRef90_Q9AL01 Antitoxin epsilon 1 n=32 Tax=root TaxID=1 RepID...  140     5e-41
+  UniRef90_A0A0Z8F2R6 Epsilon-antitoxin n=1 Tax=Streptococcus sui...  125     3e-35
+  UniRef90_U3N9H6 Uncharacterized protein n=2 Tax=Bacteria TaxID=...  118     2e-32
+  UniRef90_UPI00068EB19C antitoxin n=2 Tax=Terrabacteria group Ta...  117     5e-32
+  UniRef90_R2RVH2 Epsilon-antitoxin n=1 Tax=Enterococcus raffinos...  109     5e-29
+  UniRef90_A0A0D6E0N2 Antitoxin epsilon n=1 Tax=Lactococcus pisci...  106     2e-27
+  UniRef90_A0A0M9FEW5 Antitoxin n=1 Tax=Streptococcus suis TaxID=...  96.3    6e-24
+  UniRef90_A0A1F0TVD0 Antitoxin epsilon n=1 Tax=Staphylococcus sp...  90.9    1e-21
+  UniRef90_Q93NB3 Antitoxin epsilon n=18 Tax=Bacilli TaxID=91061 ...  90.9    2e-21
+  UniRef90_A0A059N2B1 Putative epsilon-antitoxin (Fragment) n=1 T...  89.7    3e-21
+  UniRef90_R2RYY6 Uncharacterized protein n=1 Tax=Enterococcus pa...  79.0    7e-17
+  UniRef90_A0A1A7V8S8 Antitoxin epsilon n=2 Tax=Carnobacterium di...  76.3    7e-16
+  UniRef90_UPI0001C4E884 epsilon antitoxin n=1 Tax=Listeria seeli...  72.8    2e-14
+  UniRef90_A0A0Z8JLK9 Bacterial epsilon antitoxin n=1 Tax=Strepto...  69.3    2e-13
+  UniRef90_S0KL36 Uncharacterized protein n=1 Tax=Enterococcus di...  69.3    3e-13
+  UniRef90_A0A0M8Q2T7 Uncharacterized protein n=1 Tax=Bacillus de...  68.2    8e-13
+  UniRef90_D7WVZ8 Uncharacterized protein n=1 Tax=Lysinibacillus ...  68.2    1e-12
+  UniRef90_UPI00071746D5 hypothetical protein n=1 Tax=Bacillus fa...  66.6    3e-12
+  UniRef90_A0A0C2XT72 Uncharacterized protein n=3 Tax=Bacillus Ta...  67.0    6e-12
+  UniRef90_U2INL5 Epsilon-antitoxin n=9 Tax=Lactobacillaceae TaxI...  64.7    2e-11
+  UniRef90_UPI000342243A MULTISPECIES: epsilon antitoxin n=1 Tax=...  63.5    5e-11
+  UniRef90_UPI00083C9A8E UPI00083C9A8E related cluster n=1 Tax=un...  62.8    8e-11
+  UniRef90_E8LH29 Putative epsilon-antitoxin n=1 Tax=Phascolarcto...  63.9    2e-10
+  UniRef90_A0A0M1Z5K7 Uncharacterized protein n=1 Tax=Enterococcu...  60.1    3e-10
+  UniRef90_UPI0008D93B01 UPI0008D93B01 related cluster n=1 Tax=un...  61.2    4e-10
+  UniRef90_R8I256 Uncharacterized protein n=1 Tax=Bacillus cereus...  58.5    4e-09
+  UniRef90_UPI000596D72D hypothetical protein n=1 Tax=Bacillus ba...  55.5    4e-08
+  UniRef90_UPI0007055C42 hypothetical protein n=1 Tax=Lactobacill...  52.8    5e-07
+
+
+> UniRef90_Q57231 Antitoxin epsilon n=57 Tax=Bacteria TaxID=2 RepID=EATX_STRPY
+Length=90
+
+ Score = 169 bits (429),  Expect = 2e-52, Method: Compositional matrix adjust.
+ Identities = 87/87 (100%), Positives = 87/87 (100%), Gaps = 0/87 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS
+Sbjct  3   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  62
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEKV  87
+           LEELQAVHEYWRSMNRYSKQVLNKEKV
+Sbjct  63  LEELQAVHEYWRSMNRYSKQVLNKEKV  89
+
+
+> UniRef90_Q9AL01 Antitoxin epsilon 1 n=32 Tax=root TaxID=1 RepID=EATX1_ENTFL
+Length=90
+
+ Score = 140 bits (354),  Expect = 5e-41, Method: Compositional matrix adjust.
+ Identities = 69/87 (79%), Positives = 80/87 (92%), Gaps = 0/87 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           VTYEKTFEIEIINELSASVYNRVLNYVLNHEL+  +++LLEVNLLNQL++A+ V+LF   
+Sbjct  3   VTYEKTFEIEIINELSASVYNRVLNYVLNHELDTKNTRLLEVNLLNQLEVAQEVDLFQQP  62
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEKV  87
+            EELQA+HEYWRSMN+YSKQ+LNKEKV
+Sbjct  63  FEELQAIHEYWRSMNQYSKQILNKEKV  89
+
+
+> UniRef90_A0A0Z8F2R6 Epsilon-antitoxin n=1 Tax=Streptococcus suis 
+TaxID=1307 RepID=A0A0Z8F2R6_STRSU
+Length=76
+
+ Score = 125 bits (315),  Expect = 3e-35, Method: Compositional matrix adjust.
+ Identities = 65/66 (98%), Positives = 65/66 (98%), Gaps = 0/66 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS
+Sbjct  3   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  62
+
+Query  61  LEELQA  66
+           LEELQ 
+Sbjct  63  LEELQT  68
+
+
+> UniRef90_U3N9H6 Uncharacterized protein n=2 Tax=Bacteria TaxID=2 
+RepID=U3N9H6_9BACT
+Length=61
+
+ Score = 118 bits (295),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  28  LNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLEELQAVHEYWRSMNRYSKQVLNKEKV  87
+           +NHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLEELQAVHEYWRSMNRYSKQVLNKEKV
+Sbjct  1   MNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLEELQAVHEYWRSMNRYSKQVLNKEKV  60
+
+
+> UniRef90_UPI00068EB19C antitoxin n=2 Tax=Terrabacteria group 
+TaxID=1783272 RepID=UPI00068EB19C
+Length=78
+
+ Score = 117 bits (294),  Expect = 5e-32, Method: Compositional matrix adjust.
+ Identities = 57/77 (74%), Positives = 69/77 (90%), Gaps = 0/77 (0%)
+
+Query  11  IINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLEELQAVHEY  70
+           +INELSASVYNRVLNYVLNHEL+  +++LLEVNLLNQL++A+ V+LF    EELQA+HEY
+Sbjct  1   MINELSASVYNRVLNYVLNHELDTKNTRLLEVNLLNQLEVAQEVDLFQQPFEELQAIHEY  60
+
+Query  71  WRSMNRYSKQVLNKEKV  87
+           WRSMN+YSKQ+L KEKV
+Sbjct  61  WRSMNQYSKQILTKEKV  77
+
+
+> UniRef90_R2RVH2 Epsilon-antitoxin n=1 Tax=Enterococcus raffinosus 
+ATCC 49464 TaxID=1158602 RepID=R2RVH2_9ENTE
+Length=66
+
+ Score = 109 bits (272),  Expect = 5e-29, Method: Compositional matrix adjust.
+ Identities = 55/64 (86%), Positives = 63/64 (98%), Gaps = 0/64 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           ++YEKTFEIEIINELSASVYNRVLNYVLNHEL+ +++QLLEVNLLNQLKLAKRVNLF+YS
+Sbjct  3   ISYEKTFEIEIINELSASVYNRVLNYVLNHELDTDNTQLLEVNLLNQLKLAKRVNLFEYS  62
+
+Query  61  LEEL  64
+           L+EL
+Sbjct  63  LDEL  66
+
+
+> UniRef90_A0A0D6E0N2 Antitoxin epsilon n=1 Tax=Lactococcus piscium 
+MKFS47 TaxID=297352 RepID=A0A0D6E0N2_9LACT
+Length=90
+
+ Score = 106 bits (264),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 52/85 (61%), Positives = 70/85 (82%), Gaps = 0/85 (0%)
+
+Query  3   YEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLE  62
+           YEKT++IEIINE S++VYNRVLNYVLNHELN  D  ++E NLLNQL++A+ V+LF  S +
+Sbjct  5   YEKTYQIEIINEFSSTVYNRVLNYVLNHELNTKDMTIVESNLLNQLEVAQEVDLFKQSAD  64
+
+Query  63  ELQAVHEYWRSMNRYSKQVLNKEKV  87
+           EL+A+  YW +M+ YSK++L K+KV
+Sbjct  65  ELKAIDGYWIAMDLYSKKLLIKQKV  89
+
+
+> UniRef90_A0A0M9FEW5 Antitoxin n=1 Tax=Streptococcus suis TaxID=1307 
+RepID=A0A0M9FEW5_STRSU
+Length=54
+
+ Score = 96.3 bits (238),  Expect = 6e-24, Method: Compositional matrix adjust.
+ Identities = 50/50 (100%), Positives = 50/50 (100%), Gaps = 0/50 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKL  50
+           VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKL
+Sbjct  3   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKL  52
+
+
+> UniRef90_A0A1F0TVD0 Antitoxin epsilon n=1 Tax=Staphylococcus 
+sp. HMSC072E01 TaxID=1739457 RepID=A0A1F0TVD0_9STAP
+Length=87
+
+ Score = 90.9 bits (224),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 46/78 (59%), Positives = 61/78 (78%), Gaps = 0/78 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YEKTFEIEIINE SAS+Y ++LNYVLN+EL+KND   L+ NLL QL    +++LF  S
+Sbjct  3   LDYEKTFEIEIINEFSASIYAKMLNYVLNNELDKNDLTNLQTNLLKQLSSMNQIDLFKLS  62
+
+Query  61  LEELQAVHEYWRSMNRYS  78
+           LEEL+A HEY R++ +Y+
+Sbjct  63  LEELKAHHEYLRNIKKYA  80
+
+
+> UniRef90_Q93NB3 Antitoxin epsilon n=18 Tax=Bacilli TaxID=91061 
+RepID=EATX_LACLL
+Length=87
+
+ Score = 90.9 bits (224),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 44/79 (56%), Positives = 62/79 (78%), Gaps = 0/79 (0%)
+
+Query  3   YEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLE  62
+           Y KTFEIEIINE  +++++++LNYVLN+EL+K+DS  L+ NLLNQL    ++NLF  SLE
+Sbjct  5   YRKTFEIEIINEFQSAIHSKMLNYVLNNELDKSDSTNLQTNLLNQLSNMNQINLFKLSLE  64
+
+Query  63  ELQAVHEYWRSMNRYSKQV  81
+           EL+A HEY RS+ +Y+  +
+Sbjct  65  ELEAYHEYLRSIKKYADSI  83
+
+
+> UniRef90_A0A059N2B1 Putative epsilon-antitoxin (Fragment) n=1 
+Tax=Enterococcus faecalis 918 TaxID=1338519 RepID=A0A059N2B1_ENTFL
+Length=73
+
+ Score = 89.7 bits (221),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 42/61 (69%), Positives = 54/61 (89%), Gaps = 0/61 (0%)
+
+Query  27  VLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLEELQAVHEYWRSMNRYSKQVLNKEK  86
+           +LNHEL+  +++LLEVNLLNQL++A+ V+LF    EELQA+HEYWRSMN+YSKQ+LNKEK
+Sbjct  12  LLNHELDTKNTRLLEVNLLNQLEVAQEVDLFQQPFEELQAIHEYWRSMNQYSKQILNKEK  71
+
+Query  87  V  87
+           V
+Sbjct  72  V  72
+
+
+> UniRef90_R2RYY6 Uncharacterized protein n=1 Tax=Enterococcus 
+pallens ATCC BAA-351 TaxID=1158607 RepID=R2RYY6_9ENTE
+Length=91
+
+ Score = 79.0 bits (193),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 38/87 (44%), Positives = 61/87 (70%), Gaps = 0/87 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YEKTF+IE +NE S +VYNRVL YV+NH++++ +   L   LL+QLK   ++NLF+ S
+Sbjct  1   MDYEKTFKIESLNEFSRNVYNRVLRYVVNHQIDRQNKNDLYAELLDQLKGMLQMNLFEMS  60
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEKV  87
+           + +L  V  YW +M+ Y+K + +++ V
+Sbjct  61  MSDLAKVESYWNAMDVYTKSITDQKAV  87
+
+
+> UniRef90_A0A1A7V8S8 Antitoxin epsilon n=2 Tax=Carnobacterium 
+divergens TaxID=2748 RepID=A0A1A7V8S8_CARDV
+Length=88
+
+ Score = 76.3 bits (186),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 36/83 (43%), Positives = 57/83 (69%), Gaps = 0/83 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           V YEKT +IE++NE S +VYNR+L Y++NH++++ + + L V LLNQ K   ++N F+ S
+Sbjct  5   VEYEKTLKIELLNEFSNNVYNRLLRYIINHQIDRQNKKDLYVVLLNQFKGMMQINFFEMS  64
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLN  83
+           +E+L     YW  M+ Y+K + N
+Sbjct  65  MEDLVKAEAYWNMMDVYTKSITN  87
+
+
+> UniRef90_UPI0001C4E884 epsilon antitoxin n=1 Tax=Listeria seeligeri 
+TaxID=1640 RepID=UPI0001C4E884
+Length=91
+
+ Score = 72.8 bits (177),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 36/87 (41%), Positives = 57/87 (66%), Gaps = 0/87 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YEKTF++E +NE S +VYNRVL YV+NH++++ +   L   LL+QLK   ++NLF   
+Sbjct  1   MDYEKTFKVESLNEFSRNVYNRVLRYVVNHQIDRQNKNDLSAELLDQLKGMLKMNLFKML  60
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEKV  87
+           + +L  V  YW  M+  +K + +K+ V
+Sbjct  61  INDLAKVESYWNMMDVCTKSITDKKSV  87
+
+
+> UniRef90_A0A0Z8JLK9 Bacterial epsilon antitoxin n=1 Tax=Streptococcus 
+suis TaxID=1307 RepID=A0A0Z8JLK9_STRSU
+Length=50
+
+ Score = 69.3 bits (168),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 34/34 (100%), Positives = 34/34 (100%), Gaps = 0/34 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNK  34
+           VTYEKTFEIEIINELSASVYNRVLNYVLNHELNK
+Sbjct  3   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNK  36
+
+
+> UniRef90_S0KL36 Uncharacterized protein n=1 Tax=Enterococcus 
+dispar ATCC 51266 TaxID=1139219 RepID=S0KL36_9ENTE
+Length=93
+
+ Score = 69.3 bits (168),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 36/87 (41%), Positives = 57/87 (66%), Gaps = 1/87 (1%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YE T +IEIINE S  +YNR+LNY+LN+ ++KN S L    +L+ L+    ++LF Y+
+Sbjct  5   IDYELTAKIEIINEFSYGIYNRLLNYILNNGIDKNGSNLYSA-ILSTLRRMLSIDLFSYN  63
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEKV  87
+             EL  +  YW++MN+Y  ++ +K K 
+Sbjct  64  RGELDKMLIYWKNMNQYINEITDKVKT  90
+
+
+> UniRef90_A0A0M8Q2T7 Uncharacterized protein n=1 Tax=Bacillus 
+decisifrondis TaxID=380630 RepID=A0A0M8Q2T7_9BACI
+Length=91
+
+ Score = 68.2 bits (165),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 34/85 (40%), Positives = 55/85 (65%), Gaps = 0/85 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YE+ F+IEI+NE +  VYNR+LN+VLN+ +++ D       LL+Q      ++LF+ S
+Sbjct  5   LNYEQAFKIEILNEFANGVYNRLLNFVLNNGMDRQDKNKFYNVLLDQFVEMLDLDLFEMS  64
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKE  85
+            EEL+ +  YW +MN Y K++  K+
+Sbjct  65  FEELEVLDGYWTNMNSYIKEITKKK  89
+
+
+> UniRef90_D7WVZ8 Uncharacterized protein n=1 Tax=Lysinibacillus 
+fusiformis ZC1 TaxID=714961 RepID=D7WVZ8_9BACI
+Length=91
+
+ Score = 68.2 bits (165),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 39/86 (45%), Positives = 54/86 (63%), Gaps = 1/86 (1%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YE+TF+IE++NE S  VY R+LN++L + ++KNDS    V+LL Q      V+LF  S
+Sbjct  5   LNYEQTFKIEVLNEFSNGVYARLLNFILKNGVDKNDSNNFYVSLLQQFSEMLNVDLFKMS  64
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEK  86
+             EL  V  YW +MN Y K +  KEK
+Sbjct  65  NVELDNVKSYWENMNDYIKGI-TKEK  89
+
+
+> UniRef90_UPI00071746D5 hypothetical protein n=1 Tax=Bacillus 
+farraginis TaxID=254757 RepID=UPI00071746D5
+Length=91
+
+ Score = 66.6 bits (161),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 38/86 (44%), Positives = 55/86 (64%), Gaps = 1/86 (1%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YE TF+IE++NE S +V+ R+LN+VL   +++ND++    NLL+QL     VNLF  +
+Sbjct  5   LNYEHTFKIELLNEFSNNVHARLLNFVLKKGIDQNDNKNFYANLLHQLSEMLNVNLFKMT  64
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEK  86
+            EEL     YW +MN Y K +  KEK
+Sbjct  65  HEELDNARTYWENMNNYIKGIT-KEK  89
+
+
+> UniRef90_A0A0C2XT72 Uncharacterized protein n=3 Tax=Bacillus 
+TaxID=55087 RepID=A0A0C2XT72_BACBA
+Length=130
+
+ Score = 67.0 bits (162),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 32/81 (40%), Positives = 54/81 (67%), Gaps = 0/81 (0%)
+
+Query  1    VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+            + Y+KTF+IEI+NE +  VY+R+L++VLN+ +++ D       LL+Q      +NLF  S
+Sbjct  48   LDYDKTFKIEILNEFANGVYSRLLSFVLNNGMDRQDKNNPYNVLLDQFVEMLDINLFKMS  107
+
+Query  61   LEELQAVHEYWRSMNRYSKQV  81
+             EEL+ +  YW+ MN+Y +++
+Sbjct  108  FEELEVLEGYWKHMNKYIREI  128
+
+
+> UniRef90_U2INL5 Epsilon-antitoxin n=9 Tax=Lactobacillaceae TaxID=33958 
+RepID=U2INL5_LACFE
+Length=90
+
+ Score = 64.7 bits (156),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 32/85 (38%), Positives = 55/85 (65%), Gaps = 0/85 (0%)
+
+Query  3   YEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLE  62
+           Y++T++ EI+ E ++S+Y +V+N V++ ELN +D     V L++QL  AK V +  +SL 
+Sbjct  5   YQQTYKKEILTEFASSIYAKVVNLVVDQELNIHDESHFLVKLMHQLGDAKLVIMDAHSLG  64
+
+Query  63  ELQAVHEYWRSMNRYSKQVLNKEKV  87
+           EL+ +  YW++MN +   +  K KV
+Sbjct  65  ELETIQAYWQAMNNFIDSLPTKSKV  89
+
+
+> UniRef90_UPI000342243A MULTISPECIES: epsilon antitoxin n=1 Tax=Lactobacillus 
+TaxID=1578 RepID=UPI000342243A
+Length=86
+
+ Score = 63.5 bits (153),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 33/79 (42%), Positives = 54/79 (68%), Gaps = 0/79 (0%)
+
+Query  3   YEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLE  62
+           Y++T++ EI+ E ++SVY +V+N V+ H+LN +D     V+L++QL  AK      +SLE
+Sbjct  5   YQQTYKEEILVEFASSVYAQVVNLVVEHKLNIHDENHFLVHLMHQLGDAKLAITDAHSLE  64
+
+Query  63  ELQAVHEYWRSMNRYSKQV  81
+           EL+   EYW++MN Y K++
+Sbjct  65  ELETTQEYWQTMNEYVKRL  83
+
+
+> UniRef90_UPI00083C9A8E UPI00083C9A8E related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00083C9A8E
+Length=85
+
+ Score = 62.8 bits (151),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 31/79 (39%), Positives = 49/79 (62%), Gaps = 0/79 (0%)
+
+Query  3   YEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLE  62
+           Y+KT +IE++NE S  V+ R+LN+VL + ++  +       LLNQ      +NLF  S E
+Sbjct  5   YDKTLKIEVLNEFSNGVHARLLNFVLKNGMDPQEKNNFYSTLLNQFAEMIDLNLFKMSFE  64
+
+Query  63  ELQAVHEYWRSMNRYSKQV  81
+           EL+ +  YW++MN Y K++
+Sbjct  65  ELEVLEGYWKNMNNYIKEI  83
+
+
+> UniRef90_E8LH29 Putative epsilon-antitoxin n=1 Tax=Phascolarctobacterium 
+succinatutens YIT 12067 TaxID=626939 RepID=E8LH29_9FIRM
+Length=245
+
+ Score = 63.9 bits (154),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 32/40 (80%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  28  LNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLEELQAV  67
+           +NHELNKNDSQLLEVNLLNQLKLAKRVNLFD  L  +  V
+Sbjct  1   MNHELNKNDSQLLEVNLLNQLKLAKRVNLFDIKLRVVPLV  40
+
+
+> UniRef90_A0A0M1Z5K7 Uncharacterized protein n=1 Tax=Enterococcus 
+faecalis EnGen0065 TaxID=1151186 RepID=A0A0M1Z5K7_ENTFL
+Length=37
+
+ Score = 60.1 bits (144),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 30/34 (88%), Positives = 31/34 (91%), Gaps = 0/34 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNK  34
+           VTYEKTFEIEIINELSASVYNRVLNYVLN  + K
+Sbjct  3   VTYEKTFEIEIINELSASVYNRVLNYVLNGSVAK  36
+
+
+> UniRef90_UPI0008D93B01 UPI0008D93B01 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008D93B01
+Length=85
+
+ Score = 61.2 bits (147),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 31/75 (41%), Positives = 42/75 (56%), Gaps = 0/75 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           V YEK   IEI+ E  + VY   LN VL   L  +D    +  LL QLK  +R++LF   
+Sbjct  3   VQYEKVQLIEILTEFISGVYGIQLNKVLKQGLETDDKSTFDGVLLQQLKAVRRIDLFQKD  62
+
+Query  61  LEELQAVHEYWRSMN  75
+           + ELQ +  YW++MN
+Sbjct  63  MAELQQIKAYWQAMN  77
+
+
+> UniRef90_R8I256 Uncharacterized protein n=1 Tax=Bacillus cereus 
+BAG1O-1 TaxID=1053167 RepID=R8I256_BACCE
+Length=91
+
+ Score = 58.5 bits (140),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 30/81 (37%), Positives = 49/81 (60%), Gaps = 0/81 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YE TF+IE++NELS  V+ R+LN+V+   ++  +++     LL Q      V+LF  +
+Sbjct  5   MDYEHTFKIELLNELSNRVHARLLNFVIKKGIDSTNNKNFYACLLEQFSEMLNVDLFKMT  64
+
+Query  61  LEELQAVHEYWRSMNRYSKQV  81
+            EEL+  H YW  MN  +K++
+Sbjct  65  NEELENAHSYWEKMNNLTKEI  85
+
+
+> UniRef90_UPI000596D72D hypothetical protein n=1 Tax=Bacillus 
+badius TaxID=1455 RepID=UPI000596D72D
+Length=75
+
+ Score = 55.5 bits (132),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 27/73 (37%), Positives = 46/73 (63%), Gaps = 0/73 (0%)
+
+Query  9   IEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLEELQAVH  68
+           + I+NE +  VY+R+LN+VLN+ +++ D       LL+Q      +NLF  S EEL+ + 
+Sbjct  1   MAILNEFANGVYSRLLNFVLNNGMDRQDKNNPYNVLLDQFVEMLDINLFKMSFEELEVLE  60
+
+Query  69  EYWRSMNRYSKQV  81
+            YW+ MN+Y +++
+Sbjct  61  GYWKHMNKYIREI  73
+
+
+> UniRef90_UPI0007055C42 hypothetical protein n=1 Tax=Lactobacillus 
+acidipiscis TaxID=89059 RepID=UPI0007055C42
+Length=90
+
+ Score = 52.8 bits (125),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 25/79 (32%), Positives = 47/79 (59%), Gaps = 0/79 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + Y+KT++IE++NE + SVY +V+N  +  +L   D     + L+ Q +    ++LF  S
+Sbjct  3   LDYKKTYKIELLNEFANSVYAKVVNLAIQQDLTPADENHFLIKLIEQFEEMLNLDLFKQS  62
+
+Query  61  LEELQAVHEYWRSMNRYSK  79
+           + EL  +  YW +M +Y++
+Sbjct  63  MAELDDLMAYWENMKKYAE  81
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.130    0.351    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 445987836750
+Results from round 2
+
+
+Query= d1gvna_
+
+Length=87
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A0C2XT72 Uncharacterized protein n=3 Tax=Bacillus Ta...  105     2e-26
+  UniRef90_Q9AL01 Antitoxin epsilon 1 n=32 Tax=root TaxID=1 RepID...  100     2e-25
+  UniRef90_Q57231 Antitoxin epsilon n=57 Tax=Bacteria TaxID=2 Rep...  99.7    6e-25
+  UniRef90_A0A0M8Q2T7 Uncharacterized protein n=1 Tax=Bacillus de...  99.3    1e-24
+  UniRef90_U2INL5 Epsilon-antitoxin n=9 Tax=Lactobacillaceae TaxI...  99.3    1e-24
+  UniRef90_R2RYY6 Uncharacterized protein n=1 Tax=Enterococcus pa...  97.4    5e-24
+  UniRef90_D7WVZ8 Uncharacterized protein n=1 Tax=Lysinibacillus ...  97.4    6e-24
+  UniRef90_UPI00083C9A8E UPI00083C9A8E related cluster n=1 Tax=un...  95.0    4e-23
+  UniRef90_UPI00071746D5 hypothetical protein n=1 Tax=Bacillus fa...  95.0    4e-23
+  UniRef90_UPI0001C4E884 epsilon antitoxin n=1 Tax=Listeria seeli...  93.1    2e-22
+  UniRef90_R8I256 Uncharacterized protein n=1 Tax=Bacillus cereus...  91.2    1e-21
+  UniRef90_A0A0D6E0N2 Antitoxin epsilon n=1 Tax=Lactococcus pisci...  90.8    2e-21
+  UniRef90_S0KL36 Uncharacterized protein n=1 Tax=Enterococcus di...  90.0    4e-21
+  UniRef90_UPI000342243A MULTISPECIES: epsilon antitoxin n=1 Tax=...  88.9    9e-21
+  UniRef90_A0A1A7V8S8 Antitoxin epsilon n=2 Tax=Carnobacterium di...  88.9    1e-20
+  UniRef90_UPI000596D72D hypothetical protein n=1 Tax=Bacillus ba...  88.5    1e-20
+  UniRef90_UPI0007055C42 hypothetical protein n=1 Tax=Lactobacill...  88.1    2e-20
+  UniRef90_UPI00068EB19C antitoxin n=2 Tax=Terrabacteria group Ta...  87.3    3e-20
+  UniRef90_Q93NB3 Antitoxin epsilon n=18 Tax=Bacilli TaxID=91061 ...  83.1    1e-18
+  UniRef90_UPI0008D93B01 UPI0008D93B01 related cluster n=1 Tax=un...  82.3    3e-18
+  UniRef90_A0A1F0TVD0 Antitoxin epsilon n=1 Tax=Staphylococcus sp...  81.9    5e-18
+  UniRef90_A0A0Z8F2R6 Epsilon-antitoxin n=1 Tax=Streptococcus sui...  73.5    6e-15
+  UniRef90_R2RVH2 Epsilon-antitoxin n=1 Tax=Enterococcus raffinos...  68.5    4e-13
+  UniRef90_A0A059N2B1 Putative epsilon-antitoxin (Fragment) n=1 T...  67.7    9e-13
+  UniRef90_U3N9H6 Uncharacterized protein n=2 Tax=Bacteria TaxID=...  65.4    6e-12
+  UniRef90_A0A0M9FEW5 Antitoxin n=1 Tax=Streptococcus suis TaxID=...  58.1    3e-09
+  UniRef90_E8LH29 Putative epsilon-antitoxin n=1 Tax=Phascolarcto...  51.9    4e-06
+  UniRef90_A0A0Z8JLK9 Bacterial epsilon antitoxin n=1 Tax=Strepto...  45.7    9e-05
+  UniRef90_A0A0M1Z5K7 Uncharacterized protein n=1 Tax=Enterococcu...  45.4    1e-04
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_V5XTF5 Uncharacterized protein n=1 Tax=Enterococcus mu...  66.2    5e-12
+  UniRef90_A0A0R1XD73 Uncharacterized protein n=1 Tax=Lactobacill...  61.9    1e-10
+  UniRef90_UPI0006D779DB hypothetical protein n=1 Tax=Paenibacill...  46.1    1e-04
+
+
+> UniRef90_A0A0C2XT72 Uncharacterized protein n=3 Tax=Bacillus 
+TaxID=55087 RepID=A0A0C2XT72_BACBA
+Length=130
+
+ Score = 105 bits (261),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 32/83 (39%), Positives = 54/83 (65%), Gaps = 0/83 (0%)
+
+Query  1    VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+            + Y+KTF+IEI+NE +  VY+R+L++VLN+ +++ D       LL+Q      +NLF  S
+Sbjct  48   LDYDKTFKIEILNEFANGVYSRLLSFVLNNGMDRQDKNNPYNVLLDQFVEMLDINLFKMS  107
+
+Query  61   LEELQAVHEYWRSMNRYSKQVLN  83
+             EEL+ +  YW+ MN+Y +++  
+Sbjct  108  FEELEVLEGYWKHMNKYIREITK  130
+
+
+> UniRef90_Q9AL01 Antitoxin epsilon 1 n=32 Tax=root TaxID=1 RepID=EATX1_ENTFL
+Length=90
+
+ Score = 100 bits (250),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 69/87 (79%), Positives = 80/87 (92%), Gaps = 0/87 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           VTYEKTFEIEIINELSASVYNRVLNYVLNHEL+  +++LLEVNLLNQL++A+ V+LF   
+Sbjct  3   VTYEKTFEIEIINELSASVYNRVLNYVLNHELDTKNTRLLEVNLLNQLEVAQEVDLFQQP  62
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEKV  87
+            EELQA+HEYWRSMN+YSKQ+LNKEKV
+Sbjct  63  FEELQAIHEYWRSMNQYSKQILNKEKV  89
+
+
+> UniRef90_Q57231 Antitoxin epsilon n=57 Tax=Bacteria TaxID=2 RepID=EATX_STRPY
+Length=90
+
+ Score = 99.7 bits (247),  Expect = 6e-25, Method: Composition-based stats.
+ Identities = 87/87 (100%), Positives = 87/87 (100%), Gaps = 0/87 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS
+Sbjct  3   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  62
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEKV  87
+           LEELQAVHEYWRSMNRYSKQVLNKEKV
+Sbjct  63  LEELQAVHEYWRSMNRYSKQVLNKEKV  89
+
+
+> UniRef90_A0A0M8Q2T7 Uncharacterized protein n=1 Tax=Bacillus 
+decisifrondis TaxID=380630 RepID=A0A0M8Q2T7_9BACI
+Length=91
+
+ Score = 99.3 bits (246),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 34/85 (40%), Positives = 55/85 (65%), Gaps = 0/85 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YE+ F+IEI+NE +  VYNR+LN+VLN+ +++ D       LL+Q      ++LF+ S
+Sbjct  5   LNYEQAFKIEILNEFANGVYNRLLNFVLNNGMDRQDKNKFYNVLLDQFVEMLDLDLFEMS  64
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKE  85
+            EEL+ +  YW +MN Y K++  K+
+Sbjct  65  FEELEVLDGYWTNMNSYIKEITKKK  89
+
+
+> UniRef90_U2INL5 Epsilon-antitoxin n=9 Tax=Lactobacillaceae TaxID=33958 
+RepID=U2INL5_LACFE
+Length=90
+
+ Score = 99.3 bits (246),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 32/87 (37%), Positives = 56/87 (64%), Gaps = 0/87 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + Y++T++ EI+ E ++S+Y +V+N V++ ELN +D     V L++QL  AK V +  +S
+Sbjct  3   LDYQQTYKKEILTEFASSIYAKVVNLVVDQELNIHDESHFLVKLMHQLGDAKLVIMDAHS  62
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEKV  87
+           L EL+ +  YW++MN +   +  K KV
+Sbjct  63  LGELETIQAYWQAMNNFIDSLPTKSKV  89
+
+
+> UniRef90_R2RYY6 Uncharacterized protein n=1 Tax=Enterococcus 
+pallens ATCC BAA-351 TaxID=1158607 RepID=R2RYY6_9ENTE
+Length=91
+
+ Score = 97.4 bits (241),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 38/87 (44%), Positives = 61/87 (70%), Gaps = 0/87 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YEKTF+IE +NE S +VYNRVL YV+NH++++ +   L   LL+QLK   ++NLF+ S
+Sbjct  1   MDYEKTFKIESLNEFSRNVYNRVLRYVVNHQIDRQNKNDLYAELLDQLKGMLQMNLFEMS  60
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEKV  87
+           + +L  V  YW +M+ Y+K + +++ V
+Sbjct  61  MSDLAKVESYWNAMDVYTKSITDQKAV  87
+
+
+> UniRef90_D7WVZ8 Uncharacterized protein n=1 Tax=Lysinibacillus 
+fusiformis ZC1 TaxID=714961 RepID=D7WVZ8_9BACI
+Length=91
+
+ Score = 97.4 bits (241),  Expect = 6e-24, Method: Composition-based stats.
+ Identities = 36/86 (42%), Positives = 53/86 (62%), Gaps = 0/86 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YE+TF+IE++NE S  VY R+LN++L + ++KNDS    V+LL Q      V+LF  S
+Sbjct  5   LNYEQTFKIEVLNEFSNGVYARLLNFILKNGVDKNDSNNFYVSLLQQFSEMLNVDLFKMS  64
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEK  86
+             EL  V  YW +MN Y K +  ++ 
+Sbjct  65  NVELDNVKSYWENMNDYIKGITKEKS  90
+
+
+> UniRef90_UPI00083C9A8E UPI00083C9A8E related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00083C9A8E
+Length=85
+
+ Score = 95.0 bits (235),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 31/80 (39%), Positives = 49/80 (61%), Gaps = 0/80 (0%)
+
+Query  2   TYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSL  61
+            Y+KT +IE++NE S  V+ R+LN+VL + ++  +       LLNQ      +NLF  S 
+Sbjct  4   DYDKTLKIEVLNEFSNGVHARLLNFVLKNGMDPQEKNNFYSTLLNQFAEMIDLNLFKMSF  63
+
+Query  62  EELQAVHEYWRSMNRYSKQV  81
+           EEL+ +  YW++MN Y K++
+Sbjct  64  EELEVLEGYWKNMNNYIKEI  83
+
+
+> UniRef90_UPI00071746D5 hypothetical protein n=1 Tax=Bacillus 
+farraginis TaxID=254757 RepID=UPI00071746D5
+Length=91
+
+ Score = 95.0 bits (235),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 35/86 (41%), Positives = 54/86 (63%), Gaps = 0/86 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YE TF+IE++NE S +V+ R+LN+VL   +++ND++    NLL+QL     VNLF  +
+Sbjct  5   LNYEHTFKIELLNEFSNNVHARLLNFVLKKGIDQNDNKNFYANLLHQLSEMLNVNLFKMT  64
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEK  86
+            EEL     YW +MN Y K +  ++ 
+Sbjct  65  HEELDNARTYWENMNNYIKGITKEKS  90
+
+
+> UniRef90_UPI0001C4E884 epsilon antitoxin n=1 Tax=Listeria seeligeri 
+TaxID=1640 RepID=UPI0001C4E884
+Length=91
+
+ Score = 93.1 bits (230),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 36/87 (41%), Positives = 57/87 (66%), Gaps = 0/87 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YEKTF++E +NE S +VYNRVL YV+NH++++ +   L   LL+QLK   ++NLF   
+Sbjct  1   MDYEKTFKVESLNEFSRNVYNRVLRYVVNHQIDRQNKNDLSAELLDQLKGMLKMNLFKML  60
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEKV  87
+           + +L  V  YW  M+  +K + +K+ V
+Sbjct  61  INDLAKVESYWNMMDVCTKSITDKKSV  87
+
+
+> UniRef90_R8I256 Uncharacterized protein n=1 Tax=Bacillus cereus 
+BAG1O-1 TaxID=1053167 RepID=R8I256_BACCE
+Length=91
+
+ Score = 91.2 bits (225),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 30/86 (35%), Positives = 50/86 (58%), Gaps = 0/86 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YE TF+IE++NELS  V+ R+LN+V+   ++  +++     LL Q      V+LF  +
+Sbjct  5   MDYEHTFKIELLNELSNRVHARLLNFVIKKGIDSTNNKNFYACLLEQFSEMLNVDLFKMT  64
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEK  86
+            EEL+  H YW  MN  +K++   + 
+Sbjct  65  NEELENAHSYWEKMNNLTKEITKDKS  90
+
+
+> UniRef90_A0A0D6E0N2 Antitoxin epsilon n=1 Tax=Lactococcus piscium 
+MKFS47 TaxID=297352 RepID=A0A0D6E0N2_9LACT
+Length=90
+
+ Score = 90.8 bits (224),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 52/87 (60%), Positives = 71/87 (82%), Gaps = 0/87 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YEKT++IEIINE S++VYNRVLNYVLNHELN  D  ++E NLLNQL++A+ V+LF  S
+Sbjct  3   LNYEKTYQIEIINEFSSTVYNRVLNYVLNHELNTKDMTIVESNLLNQLEVAQEVDLFKQS  62
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEKV  87
+            +EL+A+  YW +M+ YSK++L K+KV
+Sbjct  63  ADELKAIDGYWIAMDLYSKKLLIKQKV  89
+
+
+> UniRef90_S0KL36 Uncharacterized protein n=1 Tax=Enterococcus 
+dispar ATCC 51266 TaxID=1139219 RepID=S0KL36_9ENTE
+Length=93
+
+ Score = 90.0 bits (222),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 36/87 (41%), Positives = 57/87 (66%), Gaps = 1/87 (1%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YE T +IEIINE S  +YNR+LNY+LN+ ++KN S L    +L+ L+    ++LF Y+
+Sbjct  5   IDYELTAKIEIINEFSYGIYNRLLNYILNNGIDKNGSNLYSA-ILSTLRRMLSIDLFSYN  63
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEKV  87
+             EL  +  YW++MN+Y  ++ +K K 
+Sbjct  64  RGELDKMLIYWKNMNQYINEITDKVKT  90
+
+
+> UniRef90_UPI000342243A MULTISPECIES: epsilon antitoxin n=1 Tax=Lactobacillus 
+TaxID=1578 RepID=UPI000342243A
+Length=86
+
+ Score = 88.9 bits (219),  Expect = 9e-21, Method: Composition-based stats.
+ Identities = 33/81 (41%), Positives = 55/81 (68%), Gaps = 0/81 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + Y++T++ EI+ E ++SVY +V+N V+ H+LN +D     V+L++QL  AK      +S
+Sbjct  3   LDYQQTYKEEILVEFASSVYAQVVNLVVEHKLNIHDENHFLVHLMHQLGDAKLAITDAHS  62
+
+Query  61  LEELQAVHEYWRSMNRYSKQV  81
+           LEEL+   EYW++MN Y K++
+Sbjct  63  LEELETTQEYWQTMNEYVKRL  83
+
+
+> UniRef90_A0A1A7V8S8 Antitoxin epsilon n=2 Tax=Carnobacterium 
+divergens TaxID=2748 RepID=A0A1A7V8S8_CARDV
+Length=88
+
+ Score = 88.9 bits (219),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 36/83 (43%), Positives = 57/83 (69%), Gaps = 0/83 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           V YEKT +IE++NE S +VYNR+L Y++NH++++ + + L V LLNQ K   ++N F+ S
+Sbjct  5   VEYEKTLKIELLNEFSNNVYNRLLRYIINHQIDRQNKKDLYVVLLNQFKGMMQINFFEMS  64
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLN  83
+           +E+L     YW  M+ Y+K + N
+Sbjct  65  MEDLVKAEAYWNMMDVYTKSITN  87
+
+
+> UniRef90_UPI000596D72D hypothetical protein n=1 Tax=Bacillus 
+badius TaxID=1455 RepID=UPI000596D72D
+Length=75
+
+ Score = 88.5 bits (218),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 27/75 (36%), Positives = 46/75 (61%), Gaps = 0/75 (0%)
+
+Query  9   IEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLEELQAVH  68
+           + I+NE +  VY+R+LN+VLN+ +++ D       LL+Q      +NLF  S EEL+ + 
+Sbjct  1   MAILNEFANGVYSRLLNFVLNNGMDRQDKNNPYNVLLDQFVEMLDINLFKMSFEELEVLE  60
+
+Query  69  EYWRSMNRYSKQVLN  83
+            YW+ MN+Y +++  
+Sbjct  61  GYWKHMNKYIREITK  75
+
+
+> UniRef90_UPI0007055C42 hypothetical protein n=1 Tax=Lactobacillus 
+acidipiscis TaxID=89059 RepID=UPI0007055C42
+Length=90
+
+ Score = 88.1 bits (217),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 26/87 (30%), Positives = 49/87 (56%), Gaps = 0/87 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + Y+KT++IE++NE + SVY +V+N  +  +L   D     + L+ Q +    ++LF  S
+Sbjct  3   LDYKKTYKIELLNEFANSVYAKVVNLAIQQDLTPADENHFLIKLIEQFEEMLNLDLFKQS  62
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEKV  87
+           + EL  +  YW +M +Y++ +     V
+Sbjct  63  MAELDDLMAYWENMKKYAENLETSSSV  89
+
+
+> UniRef90_UPI00068EB19C antitoxin n=2 Tax=Terrabacteria group 
+TaxID=1783272 RepID=UPI00068EB19C
+Length=78
+
+ Score = 87.3 bits (215),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 57/77 (74%), Positives = 69/77 (90%), Gaps = 0/77 (0%)
+
+Query  11  IINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLEELQAVHEY  70
+           +INELSASVYNRVLNYVLNHEL+  +++LLEVNLLNQL++A+ V+LF    EELQA+HEY
+Sbjct  1   MINELSASVYNRVLNYVLNHELDTKNTRLLEVNLLNQLEVAQEVDLFQQPFEELQAIHEY  60
+
+Query  71  WRSMNRYSKQVLNKEKV  87
+           WRSMN+YSKQ+L KEKV
+Sbjct  61  WRSMNQYSKQILTKEKV  77
+
+
+> UniRef90_Q93NB3 Antitoxin epsilon n=18 Tax=Bacilli TaxID=91061 
+RepID=EATX_LACLL
+Length=87
+
+ Score = 83.1 bits (204),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 44/82 (54%), Positives = 63/82 (77%), Gaps = 0/82 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + Y KTFEIEIINE  +++++++LNYVLN+EL+K+DS  L+ NLLNQL    ++NLF  S
+Sbjct  3   LDYRKTFEIEIINEFQSAIHSKMLNYVLNNELDKSDSTNLQTNLLNQLSNMNQINLFKLS  62
+
+Query  61  LEELQAVHEYWRSMNRYSKQVL  82
+           LEEL+A HEY RS+ +Y+  + 
+Sbjct  63  LEELEAYHEYLRSIKKYADSIT  84
+
+
+> UniRef90_UPI0008D93B01 UPI0008D93B01 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008D93B01
+Length=85
+
+ Score = 82.3 bits (202),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 31/80 (39%), Positives = 43/80 (54%), Gaps = 0/80 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           V YEK   IEI+ E  + VY   LN VL   L  +D    +  LL QLK  +R++LF   
+Sbjct  3   VQYEKVQLIEILTEFISGVYGIQLNKVLKQGLETDDKSTFDGVLLQQLKAVRRIDLFQKD  62
+
+Query  61  LEELQAVHEYWRSMNRYSKQ  80
+           + ELQ +  YW++MN    +
+Sbjct  63  MAELQQIKAYWQAMNELVSR  82
+
+
+> UniRef90_A0A1F0TVD0 Antitoxin epsilon n=1 Tax=Staphylococcus 
+sp. HMSC072E01 TaxID=1739457 RepID=A0A1F0TVD0_9STAP
+Length=87
+
+ Score = 81.9 bits (201),  Expect = 5e-18, Method: Composition-based stats.
+ Identities = 46/85 (54%), Positives = 63/85 (74%), Gaps = 0/85 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YEKTFEIEIINE SAS+Y ++LNYVLN+EL+KND   L+ NLL QL    +++LF  S
+Sbjct  3   LDYEKTFEIEIINEFSASIYAKMLNYVLNNELDKNDLTNLQTNLLKQLSSMNQIDLFKLS  62
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKE  85
+           LEEL+A HEY R++ +Y+  +   +
+Sbjct  63  LEELKAHHEYLRNIKKYADIITRTK  87
+
+
+> UniRef90_A0A0Z8F2R6 Epsilon-antitoxin n=1 Tax=Streptococcus suis 
+TaxID=1307 RepID=A0A0Z8F2R6_STRSU
+Length=76
+
+ Score = 73.5 bits (179),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 65/66 (98%), Positives = 65/66 (98%), Gaps = 0/66 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS
+Sbjct  3   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  62
+
+Query  61  LEELQA  66
+           LEELQ 
+Sbjct  63  LEELQT  68
+
+
+> UniRef90_R2RVH2 Epsilon-antitoxin n=1 Tax=Enterococcus raffinosus 
+ATCC 49464 TaxID=1158602 RepID=R2RVH2_9ENTE
+Length=66
+
+ Score = 68.5 bits (166),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 55/64 (86%), Positives = 63/64 (98%), Gaps = 0/64 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           ++YEKTFEIEIINELSASVYNRVLNYVLNHEL+ +++QLLEVNLLNQLKLAKRVNLF+YS
+Sbjct  3   ISYEKTFEIEIINELSASVYNRVLNYVLNHELDTDNTQLLEVNLLNQLKLAKRVNLFEYS  62
+
+Query  61  LEEL  64
+           L+EL
+Sbjct  63  LDEL  66
+
+
+> UniRef90_A0A059N2B1 Putative epsilon-antitoxin (Fragment) n=1 
+Tax=Enterococcus faecalis 918 TaxID=1338519 RepID=A0A059N2B1_ENTFL
+Length=73
+
+ Score = 67.7 bits (164),  Expect = 9e-13, Method: Composition-based stats.
+ Identities = 42/61 (69%), Positives = 54/61 (89%), Gaps = 0/61 (0%)
+
+Query  27  VLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLEELQAVHEYWRSMNRYSKQVLNKEK  86
+           +LNHEL+  +++LLEVNLLNQL++A+ V+LF    EELQA+HEYWRSMN+YSKQ+LNKEK
+Sbjct  12  LLNHELDTKNTRLLEVNLLNQLEVAQEVDLFQQPFEELQAIHEYWRSMNQYSKQILNKEK  71
+
+Query  87  V  87
+           V
+Sbjct  72  V  72
+
+
+> UniRef90_V5XTF5 Uncharacterized protein n=1 Tax=Enterococcus 
+mundtii QU 25 TaxID=1300150 RepID=V5XTF5_ENTMU
+Length=83
+
+ Score = 66.2 bits (160),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 24/83 (29%), Positives = 39/83 (47%), Gaps = 0/83 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YE+T  IE +NE S  +  R++ Y+    +  +      V L  Q K    +NLF  S
+Sbjct  1   MNYEQTERIESLNEFSKGITARLIAYLSKENIPIDTPNNFYVLLYQQFKEMLNLNLFSLS  60
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLN  83
+             +L+ V +YW+ MN     +  
+Sbjct  61  DTDLKRVEQYWQKMNDLVSDISK  83
+
+
+> UniRef90_U3N9H6 Uncharacterized protein n=2 Tax=Bacteria TaxID=2 
+RepID=U3N9H6_9BACT
+Length=61
+
+ Score = 65.4 bits (158),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  28  LNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLEELQAVHEYWRSMNRYSKQVLNKEKV  87
+           +NHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLEELQAVHEYWRSMNRYSKQVLNKEKV
+Sbjct  1   MNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLEELQAVHEYWRSMNRYSKQVLNKEKV  60
+
+
+> UniRef90_A0A0R1XD73 Uncharacterized protein n=1 Tax=Lactobacillus 
+acidipiscis DSM 15836 TaxID=1423716 RepID=A0A0R1XD73_9LACO
+Length=66
+
+ Score = 61.9 bits (149),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 15/65 (23%), Positives = 31/65 (48%), Gaps = 0/65 (0%)
+
+Query  23  VLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLEELQAVHEYWRSMNRYSKQVL  82
+           ++N  +  +L   D     + L+ Q +    ++LF  S+ EL  +  YW +M +Y++ + 
+Sbjct  1   MVNLAIQQDLTPADENHFLIKLIEQFEEMLNLDLFKQSMAELDDLMAYWENMKKYAENLE  60
+
+Query  83  NKEKV  87
+               V
+Sbjct  61  TSSSV  65
+
+
+> UniRef90_A0A0M9FEW5 Antitoxin n=1 Tax=Streptococcus suis TaxID=1307 
+RepID=A0A0M9FEW5_STRSU
+Length=54
+
+ Score = 58.1 bits (139),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 49/49 (100%), Positives = 49/49 (100%), Gaps = 0/49 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLK  49
+           VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLK
+Sbjct  3   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLK  51
+
+
+> UniRef90_E8LH29 Putative epsilon-antitoxin n=1 Tax=Phascolarctobacterium 
+succinatutens YIT 12067 TaxID=626939 RepID=E8LH29_9FIRM
+Length=245
+
+ Score = 51.9 bits (123),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 35/60 (58%), Positives = 38/60 (63%), Gaps = 0/60 (0%)
+
+Query  28  LNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLEELQAVHEYWRSMNRYSKQVLNKEKV  87
+           +NHELNKNDSQLLEVNLLNQLKLAKRVNLFD  L  +  V          +     K KV
+Sbjct  1   MNHELNKNDSQLLEVNLLNQLKLAKRVNLFDIKLRVVPLVQYVLDKAKENTSYCPKKVKV  60
+
+
+> UniRef90_A0A0Z8JLK9 Bacterial epsilon antitoxin n=1 Tax=Streptococcus 
+suis TaxID=1307 RepID=A0A0Z8JLK9_STRSU
+Length=50
+
+ Score = 45.7 bits (107),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 34/35 (97%), Positives = 34/35 (97%), Gaps = 0/35 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKN  35
+           VTYEKTFEIEIINELSASVYNRVLNYVLNHELNK 
+Sbjct  3   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKK  37
+
+
+> UniRef90_UPI0006D779DB hypothetical protein n=1 Tax=Paenibacillus 
+ihumii TaxID=687436 RepID=UPI0006D779DB
+Length=91
+
+ Score = 46.1 bits (108),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 23/85 (27%), Positives = 40/85 (47%), Gaps = 2/85 (2%)
+
+Query  2   TYE-KTFEIEIINELSASVYNRVLNYVLNHELNKND-SQLLEVNLLNQLKLAKRVNLFDY  59
+            YE K   I ++ E S SV    L ++     N  + S+        +L     ++LF  
+Sbjct  7   DYENKIPRISVLQEFSWSVAGSYLRFLKGTGENIEEVSKPFYRQFKRELDQMLMIDLFKL  66
+
+Query  60  SLEELQAVHEYWRSMNRYSKQVLNK  84
+           S+EEL  + +YW+S+N   ++  +K
+Sbjct  67  SIEELDNLLDYWKSVNELIEKFKSK  91
+
+
+> UniRef90_A0A0M1Z5K7 Uncharacterized protein n=1 Tax=Enterococcus 
+faecalis EnGen0065 TaxID=1151186 RepID=A0A0M1Z5K7_ENTFL
+Length=37
+
+ Score = 45.4 bits (106),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 30/34 (88%), Positives = 31/34 (91%), Gaps = 0/34 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNK  34
+           VTYEKTFEIEIINELSASVYNRVLNYVLN  + K
+Sbjct  3   VTYEKTFEIEIINELSASVYNRVLNYVLNGSVAK  36
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.142    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0437    0.140     1.90     42.6     43.6 
+
+Effective search space used: 445987836750
+Results from round 3
+
+
+Query= d1gvna_
+
+Length=87
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A0C2XT72 Uncharacterized protein n=3 Tax=Bacillus Ta...  100     1e-24
+  UniRef90_D7WVZ8 Uncharacterized protein n=1 Tax=Lysinibacillus ...  96.6    1e-23
+  UniRef90_A0A0M8Q2T7 Uncharacterized protein n=1 Tax=Bacillus de...  95.0    4e-23
+  UniRef90_UPI00071746D5 hypothetical protein n=1 Tax=Bacillus fa...  94.2    7e-23
+  UniRef90_U2INL5 Epsilon-antitoxin n=9 Tax=Lactobacillaceae TaxI...  93.9    1e-22
+  UniRef90_R2RYY6 Uncharacterized protein n=1 Tax=Enterococcus pa...  93.5    2e-22
+  UniRef90_Q9AL01 Antitoxin epsilon 1 n=32 Tax=root TaxID=1 RepID...  93.1    3e-22
+  UniRef90_Q57231 Antitoxin epsilon n=57 Tax=Bacteria TaxID=2 Rep...  92.3    5e-22
+  UniRef90_UPI00083C9A8E UPI00083C9A8E related cluster n=1 Tax=un...  91.9    5e-22
+  UniRef90_R8I256 Uncharacterized protein n=1 Tax=Bacillus cereus...  91.2    1e-21
+  UniRef90_UPI0001C4E884 epsilon antitoxin n=1 Tax=Listeria seeli...  89.2    7e-21
+  UniRef90_UPI0007055C42 hypothetical protein n=1 Tax=Lactobacill...  87.7    3e-20
+  UniRef90_UPI000342243A MULTISPECIES: epsilon antitoxin n=1 Tax=...  86.2    9e-20
+  UniRef90_UPI000596D72D hypothetical protein n=1 Tax=Bacillus ba...  85.0    2e-19
+  UniRef90_S0KL36 Uncharacterized protein n=1 Tax=Enterococcus di...  85.4    3e-19
+  UniRef90_A0A1A7V8S8 Antitoxin epsilon n=2 Tax=Carnobacterium di...  84.6    4e-19
+  UniRef90_A0A0D6E0N2 Antitoxin epsilon n=1 Tax=Lactococcus pisci...  84.6    5e-19
+  UniRef90_V5XTF5 Uncharacterized protein n=1 Tax=Enterococcus mu...  82.3    3e-18
+  UniRef90_UPI0008D93B01 UPI0008D93B01 related cluster n=1 Tax=un...  80.8    1e-17
+  UniRef90_UPI00068EB19C antitoxin n=2 Tax=Terrabacteria group Ta...  80.0    2e-17
+  UniRef90_A0A1F0TVD0 Antitoxin epsilon n=1 Tax=Staphylococcus sp...  79.6    3e-17
+  UniRef90_Q93NB3 Antitoxin epsilon n=18 Tax=Bacilli TaxID=91061 ...  79.2    5e-17
+  UniRef90_UPI0006D779DB hypothetical protein n=1 Tax=Paenibacill...  71.5    5e-14
+  UniRef90_A0A0Z8F2R6 Epsilon-antitoxin n=1 Tax=Streptococcus sui...  69.2    3e-13
+  UniRef90_R2RVH2 Epsilon-antitoxin n=1 Tax=Enterococcus raffinos...  64.6    1e-11
+  UniRef90_A0A0R1XD73 Uncharacterized protein n=1 Tax=Lactobacill...  62.7    6e-11
+  UniRef90_A0A059N2B1 Putative epsilon-antitoxin (Fragment) n=1 T...  61.5    2e-10
+  UniRef90_U3N9H6 Uncharacterized protein n=2 Tax=Bacteria TaxID=...  59.6    1e-09
+  UniRef90_E8LH29 Putative epsilon-antitoxin n=1 Tax=Phascolarcto...  60.0    4e-09
+  UniRef90_A0A0M9FEW5 Antitoxin n=1 Tax=Streptococcus suis TaxID=...  54.6    5e-08
+  UniRef90_A0A0Z8JLK9 Bacterial epsilon antitoxin n=1 Tax=Strepto...  43.4    8e-04
+  UniRef90_A0A0M1Z5K7 Uncharacterized protein n=1 Tax=Enterococcu...  42.6    0.001
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_A0A0C2XT72 Uncharacterized protein n=3 Tax=Bacillus 
+TaxID=55087 RepID=A0A0C2XT72_BACBA
+Length=130
+
+ Score = 100 bits (248),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 32/83 (39%), Positives = 54/83 (65%), Gaps = 0/83 (0%)
+
+Query  1    VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+            + Y+KTF+IEI+NE +  VY+R+L++VLN+ +++ D       LL+Q      +NLF  S
+Sbjct  48   LDYDKTFKIEILNEFANGVYSRLLSFVLNNGMDRQDKNNPYNVLLDQFVEMLDINLFKMS  107
+
+Query  61   LEELQAVHEYWRSMNRYSKQVLN  83
+             EEL+ +  YW+ MN+Y +++  
+Sbjct  108  FEELEVLEGYWKHMNKYIREITK  130
+
+
+> UniRef90_D7WVZ8 Uncharacterized protein n=1 Tax=Lysinibacillus 
+fusiformis ZC1 TaxID=714961 RepID=D7WVZ8_9BACI
+Length=91
+
+ Score = 96.6 bits (239),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 36/86 (42%), Positives = 53/86 (62%), Gaps = 0/86 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YE+TF+IE++NE S  VY R+LN++L + ++KNDS    V+LL Q      V+LF  S
+Sbjct  5   LNYEQTFKIEVLNEFSNGVYARLLNFILKNGVDKNDSNNFYVSLLQQFSEMLNVDLFKMS  64
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEK  86
+             EL  V  YW +MN Y K +  ++ 
+Sbjct  65  NVELDNVKSYWENMNDYIKGITKEKS  90
+
+
+> UniRef90_A0A0M8Q2T7 Uncharacterized protein n=1 Tax=Bacillus 
+decisifrondis TaxID=380630 RepID=A0A0M8Q2T7_9BACI
+Length=91
+
+ Score = 95.0 bits (235),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 34/85 (40%), Positives = 55/85 (65%), Gaps = 0/85 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YE+ F+IEI+NE +  VYNR+LN+VLN+ +++ D       LL+Q      ++LF+ S
+Sbjct  5   LNYEQAFKIEILNEFANGVYNRLLNFVLNNGMDRQDKNKFYNVLLDQFVEMLDLDLFEMS  64
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKE  85
+            EEL+ +  YW +MN Y K++  K+
+Sbjct  65  FEELEVLDGYWTNMNSYIKEITKKK  89
+
+
+> UniRef90_UPI00071746D5 hypothetical protein n=1 Tax=Bacillus 
+farraginis TaxID=254757 RepID=UPI00071746D5
+Length=91
+
+ Score = 94.2 bits (233),  Expect = 7e-23, Method: Composition-based stats.
+ Identities = 35/86 (41%), Positives = 54/86 (63%), Gaps = 0/86 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YE TF+IE++NE S +V+ R+LN+VL   +++ND++    NLL+QL     VNLF  +
+Sbjct  5   LNYEHTFKIELLNEFSNNVHARLLNFVLKKGIDQNDNKNFYANLLHQLSEMLNVNLFKMT  64
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEK  86
+            EEL     YW +MN Y K +  ++ 
+Sbjct  65  HEELDNARTYWENMNNYIKGITKEKS  90
+
+
+> UniRef90_U2INL5 Epsilon-antitoxin n=9 Tax=Lactobacillaceae TaxID=33958 
+RepID=U2INL5_LACFE
+Length=90
+
+ Score = 93.9 bits (232),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 32/87 (37%), Positives = 56/87 (64%), Gaps = 0/87 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + Y++T++ EI+ E ++S+Y +V+N V++ ELN +D     V L++QL  AK V +  +S
+Sbjct  3   LDYQQTYKKEILTEFASSIYAKVVNLVVDQELNIHDESHFLVKLMHQLGDAKLVIMDAHS  62
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEKV  87
+           L EL+ +  YW++MN +   +  K KV
+Sbjct  63  LGELETIQAYWQAMNNFIDSLPTKSKV  89
+
+
+> UniRef90_R2RYY6 Uncharacterized protein n=1 Tax=Enterococcus 
+pallens ATCC BAA-351 TaxID=1158607 RepID=R2RYY6_9ENTE
+Length=91
+
+ Score = 93.5 bits (231),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 38/87 (44%), Positives = 61/87 (70%), Gaps = 0/87 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YEKTF+IE +NE S +VYNRVL YV+NH++++ +   L   LL+QLK   ++NLF+ S
+Sbjct  1   MDYEKTFKIESLNEFSRNVYNRVLRYVVNHQIDRQNKNDLYAELLDQLKGMLQMNLFEMS  60
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEKV  87
+           + +L  V  YW +M+ Y+K + +++ V
+Sbjct  61  MSDLAKVESYWNAMDVYTKSITDQKAV  87
+
+
+> UniRef90_Q9AL01 Antitoxin epsilon 1 n=32 Tax=root TaxID=1 RepID=EATX1_ENTFL
+Length=90
+
+ Score = 93.1 bits (230),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 69/87 (79%), Positives = 80/87 (92%), Gaps = 0/87 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           VTYEKTFEIEIINELSASVYNRVLNYVLNHEL+  +++LLEVNLLNQL++A+ V+LF   
+Sbjct  3   VTYEKTFEIEIINELSASVYNRVLNYVLNHELDTKNTRLLEVNLLNQLEVAQEVDLFQQP  62
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEKV  87
+            EELQA+HEYWRSMN+YSKQ+LNKEKV
+Sbjct  63  FEELQAIHEYWRSMNQYSKQILNKEKV  89
+
+
+> UniRef90_Q57231 Antitoxin epsilon n=57 Tax=Bacteria TaxID=2 RepID=EATX_STRPY
+Length=90
+
+ Score = 92.3 bits (228),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 87/87 (100%), Positives = 87/87 (100%), Gaps = 0/87 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS
+Sbjct  3   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  62
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEKV  87
+           LEELQAVHEYWRSMNRYSKQVLNKEKV
+Sbjct  63  LEELQAVHEYWRSMNRYSKQVLNKEKV  89
+
+
+> UniRef90_UPI00083C9A8E UPI00083C9A8E related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00083C9A8E
+Length=85
+
+ Score = 91.9 bits (227),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 31/82 (38%), Positives = 49/82 (60%), Gaps = 0/82 (0%)
+
+Query  2   TYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSL  61
+            Y+KT +IE++NE S  V+ R+LN+VL + ++  +       LLNQ      +NLF  S 
+Sbjct  4   DYDKTLKIEVLNEFSNGVHARLLNFVLKNGMDPQEKNNFYSTLLNQFAEMIDLNLFKMSF  63
+
+Query  62  EELQAVHEYWRSMNRYSKQVLN  83
+           EEL+ +  YW++MN Y K++  
+Sbjct  64  EELEVLEGYWKNMNNYIKEIAK  85
+
+
+> UniRef90_R8I256 Uncharacterized protein n=1 Tax=Bacillus cereus 
+BAG1O-1 TaxID=1053167 RepID=R8I256_BACCE
+Length=91
+
+ Score = 91.2 bits (225),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 30/86 (35%), Positives = 50/86 (58%), Gaps = 0/86 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YE TF+IE++NELS  V+ R+LN+V+   ++  +++     LL Q      V+LF  +
+Sbjct  5   MDYEHTFKIELLNELSNRVHARLLNFVIKKGIDSTNNKNFYACLLEQFSEMLNVDLFKMT  64
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEK  86
+            EEL+  H YW  MN  +K++   + 
+Sbjct  65  NEELENAHSYWEKMNNLTKEITKDKS  90
+
+
+> UniRef90_UPI0001C4E884 epsilon antitoxin n=1 Tax=Listeria seeligeri 
+TaxID=1640 RepID=UPI0001C4E884
+Length=91
+
+ Score = 89.2 bits (220),  Expect = 7e-21, Method: Composition-based stats.
+ Identities = 36/87 (41%), Positives = 57/87 (66%), Gaps = 0/87 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YEKTF++E +NE S +VYNRVL YV+NH++++ +   L   LL+QLK   ++NLF   
+Sbjct  1   MDYEKTFKVESLNEFSRNVYNRVLRYVVNHQIDRQNKNDLSAELLDQLKGMLKMNLFKML  60
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEKV  87
+           + +L  V  YW  M+  +K + +K+ V
+Sbjct  61  INDLAKVESYWNMMDVCTKSITDKKSV  87
+
+
+> UniRef90_UPI0007055C42 hypothetical protein n=1 Tax=Lactobacillus 
+acidipiscis TaxID=89059 RepID=UPI0007055C42
+Length=90
+
+ Score = 87.7 bits (216),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 26/87 (30%), Positives = 49/87 (56%), Gaps = 0/87 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + Y+KT++IE++NE + SVY +V+N  +  +L   D     + L+ Q +    ++LF  S
+Sbjct  3   LDYKKTYKIELLNEFANSVYAKVVNLAIQQDLTPADENHFLIKLIEQFEEMLNLDLFKQS  62
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEKV  87
+           + EL  +  YW +M +Y++ +     V
+Sbjct  63  MAELDDLMAYWENMKKYAENLETSSSV  89
+
+
+> UniRef90_UPI000342243A MULTISPECIES: epsilon antitoxin n=1 Tax=Lactobacillus 
+TaxID=1578 RepID=UPI000342243A
+Length=86
+
+ Score = 86.2 bits (212),  Expect = 9e-20, Method: Composition-based stats.
+ Identities = 33/81 (41%), Positives = 55/81 (68%), Gaps = 0/81 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + Y++T++ EI+ E ++SVY +V+N V+ H+LN +D     V+L++QL  AK      +S
+Sbjct  3   LDYQQTYKEEILVEFASSVYAQVVNLVVEHKLNIHDENHFLVHLMHQLGDAKLAITDAHS  62
+
+Query  61  LEELQAVHEYWRSMNRYSKQV  81
+           LEEL+   EYW++MN Y K++
+Sbjct  63  LEELETTQEYWQTMNEYVKRL  83
+
+
+> UniRef90_UPI000596D72D hypothetical protein n=1 Tax=Bacillus 
+badius TaxID=1455 RepID=UPI000596D72D
+Length=75
+
+ Score = 85.0 bits (209),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 27/75 (36%), Positives = 46/75 (61%), Gaps = 0/75 (0%)
+
+Query  9   IEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLEELQAVH  68
+           + I+NE +  VY+R+LN+VLN+ +++ D       LL+Q      +NLF  S EEL+ + 
+Sbjct  1   MAILNEFANGVYSRLLNFVLNNGMDRQDKNNPYNVLLDQFVEMLDINLFKMSFEELEVLE  60
+
+Query  69  EYWRSMNRYSKQVLN  83
+            YW+ MN+Y +++  
+Sbjct  61  GYWKHMNKYIREITK  75
+
+
+> UniRef90_S0KL36 Uncharacterized protein n=1 Tax=Enterococcus 
+dispar ATCC 51266 TaxID=1139219 RepID=S0KL36_9ENTE
+Length=93
+
+ Score = 85.4 bits (210),  Expect = 3e-19, Method: Composition-based stats.
+ Identities = 36/87 (41%), Positives = 57/87 (66%), Gaps = 1/87 (1%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YE T +IEIINE S  +YNR+LNY+LN+ ++KN S  L   +L+ L+    ++LF Y+
+Sbjct  5   IDYELTAKIEIINEFSYGIYNRLLNYILNNGIDKNGSN-LYSAILSTLRRMLSIDLFSYN  63
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEKV  87
+             EL  +  YW++MN+Y  ++ +K K 
+Sbjct  64  RGELDKMLIYWKNMNQYINEITDKVKT  90
+
+
+> UniRef90_A0A1A7V8S8 Antitoxin epsilon n=2 Tax=Carnobacterium 
+divergens TaxID=2748 RepID=A0A1A7V8S8_CARDV
+Length=88
+
+ Score = 84.6 bits (208),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 36/83 (43%), Positives = 57/83 (69%), Gaps = 0/83 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           V YEKT +IE++NE S +VYNR+L Y++NH++++ + + L V LLNQ K   ++N F+ S
+Sbjct  5   VEYEKTLKIELLNEFSNNVYNRLLRYIINHQIDRQNKKDLYVVLLNQFKGMMQINFFEMS  64
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLN  83
+           +E+L     YW  M+ Y+K + N
+Sbjct  65  MEDLVKAEAYWNMMDVYTKSITN  87
+
+
+> UniRef90_A0A0D6E0N2 Antitoxin epsilon n=1 Tax=Lactococcus piscium 
+MKFS47 TaxID=297352 RepID=A0A0D6E0N2_9LACT
+Length=90
+
+ Score = 84.6 bits (208),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 52/87 (60%), Positives = 71/87 (82%), Gaps = 0/87 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YEKT++IEIINE S++VYNRVLNYVLNHELN  D  ++E NLLNQL++A+ V+LF  S
+Sbjct  3   LNYEKTYQIEIINEFSSTVYNRVLNYVLNHELNTKDMTIVESNLLNQLEVAQEVDLFKQS  62
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKEKV  87
+            +EL+A+  YW +M+ YSK++L K+KV
+Sbjct  63  ADELKAIDGYWIAMDLYSKKLLIKQKV  89
+
+
+> UniRef90_V5XTF5 Uncharacterized protein n=1 Tax=Enterococcus 
+mundtii QU 25 TaxID=1300150 RepID=V5XTF5_ENTMU
+Length=83
+
+ Score = 82.3 bits (202),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 24/83 (29%), Positives = 39/83 (47%), Gaps = 0/83 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YE+T  IE +NE S  +  R++ Y+    +  +      V L  Q K    +NLF  S
+Sbjct  1   MNYEQTERIESLNEFSKGITARLIAYLSKENIPIDTPNNFYVLLYQQFKEMLNLNLFSLS  60
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLN  83
+             +L+ V +YW+ MN     +  
+Sbjct  61  DTDLKRVEQYWQKMNDLVSDISK  83
+
+
+> UniRef90_UPI0008D93B01 UPI0008D93B01 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008D93B01
+Length=85
+
+ Score = 80.8 bits (198),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 31/80 (39%), Positives = 43/80 (54%), Gaps = 0/80 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           V YEK   IEI+ E  + VY   LN VL   L  +D    +  LL QLK  +R++LF   
+Sbjct  3   VQYEKVQLIEILTEFISGVYGIQLNKVLKQGLETDDKSTFDGVLLQQLKAVRRIDLFQKD  62
+
+Query  61  LEELQAVHEYWRSMNRYSKQ  80
+           + ELQ +  YW++MN    +
+Sbjct  63  MAELQQIKAYWQAMNELVSR  82
+
+
+> UniRef90_UPI00068EB19C antitoxin n=2 Tax=Terrabacteria group 
+TaxID=1783272 RepID=UPI00068EB19C
+Length=78
+
+ Score = 80.0 bits (196),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 57/77 (74%), Positives = 69/77 (90%), Gaps = 0/77 (0%)
+
+Query  11  IINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLEELQAVHEY  70
+           +INELSASVYNRVLNYVLNHEL+  +++LLEVNLLNQL++A+ V+LF    EELQA+HEY
+Sbjct  1   MINELSASVYNRVLNYVLNHELDTKNTRLLEVNLLNQLEVAQEVDLFQQPFEELQAIHEY  60
+
+Query  71  WRSMNRYSKQVLNKEKV  87
+           WRSMN+YSKQ+L KEKV
+Sbjct  61  WRSMNQYSKQILTKEKV  77
+
+
+> UniRef90_A0A1F0TVD0 Antitoxin epsilon n=1 Tax=Staphylococcus 
+sp. HMSC072E01 TaxID=1739457 RepID=A0A1F0TVD0_9STAP
+Length=87
+
+ Score = 79.6 bits (195),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 46/85 (54%), Positives = 63/85 (74%), Gaps = 0/85 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + YEKTFEIEIINE SAS+Y ++LNYVLN+EL+KND   L+ NLL QL    +++LF  S
+Sbjct  3   LDYEKTFEIEIINEFSASIYAKMLNYVLNNELDKNDLTNLQTNLLKQLSSMNQIDLFKLS  62
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNKE  85
+           LEEL+A HEY R++ +Y+  +   +
+Sbjct  63  LEELKAHHEYLRNIKKYADIITRTK  87
+
+
+> UniRef90_Q93NB3 Antitoxin epsilon n=18 Tax=Bacilli TaxID=91061 
+RepID=EATX_LACLL
+Length=87
+
+ Score = 79.2 bits (194),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 44/84 (52%), Positives = 63/84 (75%), Gaps = 0/84 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           + Y KTFEIEIINE  +++++++LNYVLN+EL+K+DS  L+ NLLNQL    ++NLF  S
+Sbjct  3   LDYRKTFEIEIINEFQSAIHSKMLNYVLNNELDKSDSTNLQTNLLNQLSNMNQINLFKLS  62
+
+Query  61  LEELQAVHEYWRSMNRYSKQVLNK  84
+           LEEL+A HEY RS+ +Y+  +   
+Sbjct  63  LEELEAYHEYLRSIKKYADSITRT  86
+
+
+> UniRef90_UPI0006D779DB hypothetical protein n=1 Tax=Paenibacillus 
+ihumii TaxID=687436 RepID=UPI0006D779DB
+Length=91
+
+ Score = 71.5 bits (174),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 23/85 (27%), Positives = 40/85 (47%), Gaps = 2/85 (2%)
+
+Query  2   TYE-KTFEIEIINELSASVYNRVLNYVLNHELNKND-SQLLEVNLLNQLKLAKRVNLFDY  59
+            YE K   I ++ E S SV    L ++     N  + S+        +L     ++LF  
+Sbjct  7   DYENKIPRISVLQEFSWSVAGSYLRFLKGTGENIEEVSKPFYRQFKRELDQMLMIDLFKL  66
+
+Query  60  SLEELQAVHEYWRSMNRYSKQVLNK  84
+           S+EEL  + +YW+S+N   ++  +K
+Sbjct  67  SIEELDNLLDYWKSVNELIEKFKSK  91
+
+
+> UniRef90_A0A0Z8F2R6 Epsilon-antitoxin n=1 Tax=Streptococcus suis 
+TaxID=1307 RepID=A0A0Z8F2R6_STRSU
+Length=76
+
+ Score = 69.2 bits (168),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 65/66 (98%), Positives = 65/66 (98%), Gaps = 0/66 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS
+Sbjct  3   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  62
+
+Query  61  LEELQA  66
+           LEELQ 
+Sbjct  63  LEELQT  68
+
+
+> UniRef90_R2RVH2 Epsilon-antitoxin n=1 Tax=Enterococcus raffinosus 
+ATCC 49464 TaxID=1158602 RepID=R2RVH2_9ENTE
+Length=66
+
+ Score = 64.6 bits (156),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 55/64 (86%), Positives = 63/64 (98%), Gaps = 0/64 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYS  60
+           ++YEKTFEIEIINELSASVYNRVLNYVLNHEL+ +++QLLEVNLLNQLKLAKRVNLF+YS
+Sbjct  3   ISYEKTFEIEIINELSASVYNRVLNYVLNHELDTDNTQLLEVNLLNQLKLAKRVNLFEYS  62
+
+Query  61  LEEL  64
+           L+EL
+Sbjct  63  LDEL  66
+
+
+> UniRef90_A0A0R1XD73 Uncharacterized protein n=1 Tax=Lactobacillus 
+acidipiscis DSM 15836 TaxID=1423716 RepID=A0A0R1XD73_9LACO
+Length=66
+
+ Score = 62.7 bits (151),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 15/65 (23%), Positives = 31/65 (48%), Gaps = 0/65 (0%)
+
+Query  23  VLNYVLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLEELQAVHEYWRSMNRYSKQVL  82
+           ++N  +  +L   D     + L+ Q +    ++LF  S+ EL  +  YW +M +Y++ + 
+Sbjct  1   MVNLAIQQDLTPADENHFLIKLIEQFEEMLNLDLFKQSMAELDDLMAYWENMKKYAENLE  60
+
+Query  83  NKEKV  87
+               V
+Sbjct  61  TSSSV  65
+
+
+> UniRef90_A0A059N2B1 Putative epsilon-antitoxin (Fragment) n=1 
+Tax=Enterococcus faecalis 918 TaxID=1338519 RepID=A0A059N2B1_ENTFL
+Length=73
+
+ Score = 61.5 bits (148),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 42/61 (69%), Positives = 54/61 (89%), Gaps = 0/61 (0%)
+
+Query  27  VLNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLEELQAVHEYWRSMNRYSKQVLNKEK  86
+           +LNHEL+  +++LLEVNLLNQL++A+ V+LF    EELQA+HEYWRSMN+YSKQ+LNKEK
+Sbjct  12  LLNHELDTKNTRLLEVNLLNQLEVAQEVDLFQQPFEELQAIHEYWRSMNQYSKQILNKEK  71
+
+Query  87  V  87
+           V
+Sbjct  72  V  72
+
+
+> UniRef90_U3N9H6 Uncharacterized protein n=2 Tax=Bacteria TaxID=2 
+RepID=U3N9H6_9BACT
+Length=61
+
+ Score = 59.6 bits (143),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  28  LNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLEELQAVHEYWRSMNRYSKQVLNKEKV  87
+           +NHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLEELQAVHEYWRSMNRYSKQVLNKEKV
+Sbjct  1   MNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLEELQAVHEYWRSMNRYSKQVLNKEKV  60
+
+
+> UniRef90_E8LH29 Putative epsilon-antitoxin n=1 Tax=Phascolarctobacterium 
+succinatutens YIT 12067 TaxID=626939 RepID=E8LH29_9FIRM
+Length=245
+
+ Score = 60.0 bits (144),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 35/60 (58%), Positives = 38/60 (63%), Gaps = 0/60 (0%)
+
+Query  28  LNHELNKNDSQLLEVNLLNQLKLAKRVNLFDYSLEELQAVHEYWRSMNRYSKQVLNKEKV  87
+           +NHELNKNDSQLLEVNLLNQLKLAKRVNLFD  L  +  V          +     K KV
+Sbjct  1   MNHELNKNDSQLLEVNLLNQLKLAKRVNLFDIKLRVVPLVQYVLDKAKENTSYCPKKVKV  60
+
+
+> UniRef90_A0A0M9FEW5 Antitoxin n=1 Tax=Streptococcus suis TaxID=1307 
+RepID=A0A0M9FEW5_STRSU
+Length=54
+
+ Score = 54.6 bits (130),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 49/49 (100%), Positives = 49/49 (100%), Gaps = 0/49 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLK  49
+           VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLK
+Sbjct  3   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKNDSQLLEVNLLNQLK  51
+
+
+> UniRef90_A0A0Z8JLK9 Bacterial epsilon antitoxin n=1 Tax=Streptococcus 
+suis TaxID=1307 RepID=A0A0Z8JLK9_STRSU
+Length=50
+
+ Score = 43.4 bits (101),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 34/35 (97%), Positives = 34/35 (97%), Gaps = 0/35 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKN  35
+           VTYEKTFEIEIINELSASVYNRVLNYVLNHELNK 
+Sbjct  3   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNKK  37
+
+
+> UniRef90_A0A0M1Z5K7 Uncharacterized protein n=1 Tax=Enterococcus 
+faecalis EnGen0065 TaxID=1151186 RepID=A0A0M1Z5K7_ENTFL
+Length=37
+
+ Score = 42.6 bits (99),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 30/34 (88%), Positives = 31/34 (91%), Gaps = 0/34 (0%)
+
+Query  1   VTYEKTFEIEIINELSASVYNRVLNYVLNHELNK  34
+           VTYEKTFEIEIINELSASVYNRVLNYVLN  + K
+Sbjct  3   VTYEKTFEIEIINELSASVYNRVLNYVLNGSVAK  36
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.145    0.395    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0441    0.140     1.90     42.6     43.6 
+
+Effective search space used: 445987836750
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,1921 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1s7za_
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P03775 Overcome classical restriction gp0.3 n=20 Tax=P...  213     7e-69
+  UniRef90_I6Q9X8 Protein 0.3 n=1 Tax=Yersinia phage YpP-Y TaxID=...  208     2e-65
+  UniRef90_I6Q9P6 Protein 0.3 n=4 Tax=Yersinia phage phiA1122 Tax...  194     2e-61
+  UniRef90_B3VD30 Gp0.3 n=14 Tax=T7virus TaxID=110456 RepID=B3VD3...  182     2e-56
+  UniRef90_A0A193GYY9 Protein kinase n=4 Tax=Podoviridae TaxID=10...  173     5e-53
+  UniRef90_Q8LTV4 0.3 protein (Fragment) n=10 Tax=Enterobacteria ...  171     2e-52
+  UniRef90_Q7Y5R4 Gp5 n=1 Tax=Enterobacteria phage SP6 TaxID=1949...  154     1e-45
+  UniRef90_M1E358 Uncharacterized protein n=2 Tax=unclassified Sp...  145     5e-42
+  UniRef90_I6QAF6 Protein 0.3 n=1 Tax=Yersinia phage YpsP-G TaxID...  128     9e-36
+  UniRef90_K4FBP3 Uncharacterized protein n=2 Tax=root TaxID=1 Re...  124     1e-33
+  UniRef90_B3VCS5 Gp0.3 n=3 Tax=Podoviridae TaxID=10744 RepID=B3V...  104     2e-26
+  UniRef90_W6PPE9 Predicted antirestriction protein n=1 Tax=Citro...  104     3e-26
+  UniRef90_Q2WC28 Gp3 protein n=2 Tax=Sp6virus TaxID=542837 RepID...  103     9e-26
+  UniRef90_Q3YK01 Antirestriction protein n=1 Tax=Enterobacteria ...  102     5e-25
+  UniRef90_A0A172JGC5 Antirestriction protein n=1 Tax=Citrobacter...  101     3e-24
+  UniRef90_A0A0U3E5P2 Protein kinase n=1 Tax=Klebsiella phage vB_...  98.2    9e-24
+  UniRef90_W6PUN0 Predicted antirestriction protein n=1 Tax=Citro...  95.5    8e-23
+  UniRef90_K4PB04 Uncharacterized protein n=1 Tax=Stenotrophomona...  96.3    2e-22
+  UniRef90_A0A0P0IXN4 Protein kinase n=1 Tax=Klebsiella phage vB_...  93.6    6e-22
+  UniRef90_F8R4P7 Ocr protein n=1 Tax=Enterobacteria phage K30 Ta...  93.6    6e-22
+  UniRef90_A0A1J0MF91 Ocr protein n=1 Tax=Pectobacterium phage PP...  92.0    2e-21
+  UniRef90_A0A0E3JJA7 Protein kinase n=1 Tax=Enterobacter phage E...  88.6    1e-20
+  UniRef90_A0A1A8YFG8 Phage protein kinase n=1 Tax=Escherichia ph...  91.3    1e-20
+  UniRef90_A0A0E3JQD0 Protein kinase n=1 Tax=Enterobacter phage E...  83.6    1e-18
+  UniRef90_B4YQI0 Putative uncharacterized protein n=1 Tax=Morgan...  67.0    8e-12
+  UniRef90_A0A192Y9X1 Uncharacterized protein n=1 Tax=Morganella ...  61.2    1e-09
+  UniRef90_A0A0F9KGY4 Uncharacterized protein n=1 Tax=marine sedi...  47.8    6e-05
+  UniRef90_A0A0F9AXY8 Uncharacterized protein n=1 Tax=marine sedi...  47.0    9e-05
+  UniRef90_A0A0F8ZDN8 Uncharacterized protein n=1 Tax=marine sedi...  43.1    0.002
+  UniRef90_A0A0F9D8I2 Uncharacterized protein n=1 Tax=marine sedi...  42.7    0.003
+  UniRef90_A0A0F9FD56 Uncharacterized protein (Fragment) n=1 Tax=...  41.6    0.006
+  UniRef90_A0A0W0WBS9 DNA mimic ocr n=1 Tax=Legionella maceachern...  42.0    0.006
+
+
+> UniRef90_P03775 Overcome classical restriction gp0.3 n=20 Tax=Podoviridae 
+TaxID=10744 RepID=OCR_BPT7
+Length=117
+
+ Score = 213 bits (543),  Expect = 7e-69, Method: Compositional matrix adjust.
+ Identities = 106/106 (100%), Positives = 106/106 (100%), Gaps = 0/106 (0%)
+
+Query  1    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+            MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE
+Sbjct  6    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  65
+
+Query  61   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEVEE  106
+            FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEVEE
+Sbjct  66   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEVEE  111
+
+
+> UniRef90_I6Q9X8 Protein 0.3 n=1 Tax=Yersinia phage YpP-Y TaxID=1176766 
+RepID=I6Q9X8_9CAUD
+Length=228
+
+ Score = 208 bits (530),  Expect = 2e-65, Method: Compositional matrix adjust.
+ Identities = 100/104 (96%), Positives = 103/104 (99%), Gaps = 0/104 (0%)
+
+Query  1    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+            MTY NVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAAD+A+PHYY+DIFSVMASEGIDLE
+Sbjct  6    MTYKNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADSAIPHYYSDIFSVMASEGIDLE  65
+
+Query  61   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEV  104
+            FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEV
+Sbjct  66   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEV  109
+
+
+> UniRef90_I6Q9P6 Protein 0.3 n=4 Tax=Yersinia phage phiA1122 TaxID=227720 
+RepID=I6Q9P6_9CAUD
+Length=120
+
+ Score = 194 bits (494),  Expect = 2e-61, Method: Compositional matrix adjust.
+ Identities = 94/98 (96%), Positives = 97/98 (99%), Gaps = 0/98 (0%)
+
+Query  1    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+            MTY NVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAAD+A+PHYY+DIFSVMASEGIDLE
+Sbjct  6    MTYKNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADSAIPHYYSDIFSVMASEGIDLE  65
+
+Query  61   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN  98
+            FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN
+Sbjct  66   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN  103
+
+
+> UniRef90_B3VD30 Gp0.3 n=14 Tax=T7virus TaxID=110456 RepID=B3VD30_9CAUD
+Length=116
+
+ Score = 182 bits (461),  Expect = 2e-56, Method: Compositional matrix adjust.
+ Identities = 90/95 (95%), Positives = 91/95 (96%), Gaps = 0/95 (0%)
+
+Query  1   MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+           MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIH AADNAVPHYY+DIFSVMASEGI  E
+Sbjct  6   MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHEAADNAVPHYYSDIFSVMASEGIYHE  65
+
+Query  61  FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAED  95
+           FEDSGLMPDTKDV RILQARIYEQLTIDLWEDAED
+Sbjct  66  FEDSGLMPDTKDVTRILQARIYEQLTIDLWEDAED  100
+
+
+> UniRef90_A0A193GYY9 Protein kinase n=4 Tax=Podoviridae TaxID=10744 
+RepID=A0A193GYY9_9CAUD
+Length=121
+
+ Score = 173 bits (438),  Expect = 5e-53, Method: Compositional matrix adjust.
+ Identities = 85/98 (87%), Positives = 89/98 (91%), Gaps = 0/98 (0%)
+
+Query  1    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+            MTY+NVF HAYEML ENIRYDD RDTD L DAIH AAD+AVPHYY+DIFSVMAS+GIDLE
+Sbjct  6    MTYSNVFAHAYEMLNENIRYDDTRDTDGLSDAIHEAADSAVPHYYSDIFSVMASDGIDLE  65
+
+Query  61   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN  98
+            FEDSGLMPDTKDV  ILQARIYEQLTIDLWE AEDLLN
+Sbjct  66   FEDSGLMPDTKDVTCILQARIYEQLTIDLWEKAEDLLN  103
+
+
+> UniRef90_Q8LTV4 0.3 protein (Fragment) n=10 Tax=Enterobacteria 
+phage T7 TaxID=10760 RepID=Q8LTV4_BPT7
+Length=95
+
+ Score = 171 bits (432),  Expect = 2e-52, Method: Compositional matrix adjust.
+ Identities = 83/90 (92%), Positives = 86/90 (96%), Gaps = 0/90 (0%)
+
+Query  1   MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+           +TYNNVFDHAYEMLKENIRYDDI DT+DL+DAIHMA DNAVPHYYADIFSVMASEGID E
+Sbjct  6   ITYNNVFDHAYEMLKENIRYDDICDTNDLYDAIHMAVDNAVPHYYADIFSVMASEGIDFE  65
+
+Query  61  FEDSGLMPDTKDVIRILQARIYEQLTIDLW  90
+           FEDS LMPDTKDVIRILQARIYEQLTIDLW
+Sbjct  66  FEDSDLMPDTKDVIRILQARIYEQLTIDLW  95
+
+
+> UniRef90_Q7Y5R4 Gp5 n=1 Tax=Enterobacteria phage SP6 TaxID=194966 
+RepID=Q7Y5R4_BPSP6
+Length=119
+
+ Score = 154 bits (389),  Expect = 1e-45, Method: Compositional matrix adjust.
+ Identities = 76/98 (78%), Positives = 88/98 (90%), Gaps = 0/98 (0%)
+
+Query  1    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+            MTY++V++HAY +LKE IRYDD+R+ DDL D IH AA NAVPH+YADIFSVMAS+GIDLE
+Sbjct  6    MTYSDVYNHAYGLLKEYIRYDDVRNEDDLSDKIHEAAGNAVPHWYADIFSVMASDGIDLE  65
+
+Query  61   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN  98
+            F+DSGLMPDTKDV  ILQARI+EQLTIDL+ DAEDLLN
+Sbjct  66   FDDSGLMPDTKDVTYILQARIHEQLTIDLYGDAEDLLN  103
+
+
+> UniRef90_M1E358 Uncharacterized protein n=2 Tax=unclassified 
+Sp6likevirus TaxID=979725 RepID=M1E358_9CAUD
+Length=118
+
+ Score = 145 bits (365),  Expect = 5e-42, Method: Compositional matrix adjust.
+ Identities = 73/98 (74%), Positives = 81/98 (83%), Gaps = 0/98 (0%)
+
+Query  1    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+            MTY NV++HAY +L E IRY+D+RD D+  D IH AADNAVP YY DIFSVMAS GID E
+Sbjct  6    MTYANVYNHAYSLLDEYIRYEDVRDYDEATDKIHEAADNAVPVYYKDIFSVMASGGIDHE  65
+
+Query  61   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN  98
+            FEDSGL+PDTKDV RILQARIYEQLTIDL+E   DLLN
+Sbjct  66   FEDSGLIPDTKDVTRILQARIYEQLTIDLYEVVADLLN  103
+
+
+> UniRef90_I6QAF6 Protein 0.3 n=1 Tax=Yersinia phage YpsP-G TaxID=1176767 
+RepID=I6QAF6_9CAUD
+Length=84
+
+ Score = 128 bits (321),  Expect = 9e-36, Method: Compositional matrix adjust.
+ Identities = 61/64 (95%), Positives = 64/64 (100%), Gaps = 0/64 (0%)
+
+Query  35  MAADNAVPHYYADIFSVMASEGIDLEFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAE  94
+           MAAD+A+PHYY+DIFSVMASEGIDLEFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAE
+Sbjct  1   MAADSAIPHYYSDIFSVMASEGIDLEFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAE  60
+
+Query  95  DLLN  98
+           DLLN
+Sbjct  61  DLLN  64
+
+
+> UniRef90_K4FBP3 Uncharacterized protein n=2 Tax=root TaxID=1 
+RepID=K4FBP3_9CAUD
+Length=118
+
+ Score = 124 bits (310),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 65/106 (61%), Positives = 79/106 (75%), Gaps = 0/106 (0%)
+
+Query  1    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+            MTY+ V++ A+  L E I  D I   D+ HDAIH  AD+ VP YYADIFSVMASEGID  
+Sbjct  6    MTYSQVYNTAHAALVERIWDDAIDCIDNAHDAIHEVADSTVPIYYADIFSVMASEGIDHF  65
+
+Query  61   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEVEE  106
+            FEDSGLMPDTKDV  +LQARIYEQLTIDL E  +D+++ Y++  E+
+Sbjct  66   FEDSGLMPDTKDVTVVLQARIYEQLTIDLRERVQDMIDAYIDSAED  111
+
+
+> UniRef90_B3VCS5 Gp0.3 n=3 Tax=Podoviridae TaxID=10744 RepID=B3VCS5_9CAUD
+Length=110
+
+ Score = 104 bits (260),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 51/78 (65%), Positives = 59/78 (76%), Gaps = 0/78 (0%)
+
+Query  12  EMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEFEDSGLMPDTK  71
+           E   E I+YD I + DD HDA+H   D  VPHYY +IF+VMA++GID EFEDSGLMPDTK
+Sbjct  17  EAFNERIQYDKIAEGDDYHDALHEVVDGQVPHYYHEIFTVMAADGIDHEFEDSGLMPDTK  76
+
+Query  72  DVIRILQARIYEQLTIDL  89
+           DV RILQARIYE L  D+
+Sbjct  77  DVTRILQARIYEALYNDV  94
+
+
+> UniRef90_W6PPE9 Predicted antirestriction protein n=1 Tax=Citrobacter 
+phage CR44b TaxID=1455075 RepID=W6PPE9_9CAUD
+Length=114
+
+ Score = 104 bits (260),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 51/89 (57%), Positives = 62/89 (70%), Gaps = 0/89 (0%)
+
+Query  1   MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+             Y  +     E   E I+YD+I + DD HDA+    D  VPHYY +IF+VMA++GIDLE
+Sbjct  6   FAYYELLASTVEAFNERIQYDEIAEGDDYHDALQEVVDGQVPHYYHEIFTVMAADGIDLE  65
+
+Query  61  FEDSGLMPDTKDVIRILQARIYEQLTIDL  89
+           FEDSGLMP+TKDV RILQARIYE L  D+
+Sbjct  66  FEDSGLMPETKDVTRILQARIYEALYNDV  94
+
+
+> UniRef90_Q2WC28 Gp3 protein n=2 Tax=Sp6virus TaxID=542837 RepID=Q2WC28_BPK1E
+Length=108
+
+ Score = 103 bits (256),  Expect = 9e-26, Method: Compositional matrix adjust.
+ Identities = 50/93 (54%), Positives = 68/93 (73%), Gaps = 0/93 (0%)
+
+Query  2   TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEF  61
+            Y N+     E   E I+YD+IR+ DD  DA+H   D+ VP YY++IF+VMA++GID+EF
+Sbjct  7   AYYNLLAATVEAFNERIQYDEIREGDDYSDALHEVVDSNVPVYYSEIFTVMAADGIDIEF  66
+
+Query  62  EDSGLMPDTKDVIRILQARIYEQLTIDLWEDAE  94
+           ED+GL+PDTKDV +ILQARIYE L  D+  D++
+Sbjct  67  EDAGLIPDTKDVTKILQARIYESLYNDVPNDSD  99
+
+
+> UniRef90_Q3YK01 Antirestriction protein n=1 Tax=Enterobacteria 
+phage K1F TaxID=344021 RepID=Q3YK01_BPK1F
+Length=169
+
+ Score = 102 bits (255),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 50/83 (60%), Positives = 62/83 (75%), Gaps = 0/83 (0%)
+
+Query  12  EMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEFEDSGLMPDTK  71
+           E+  E I+YD+I + DD  DA+H   D  VPHYY +IF+VMA++GID EFEDSGLMP+TK
+Sbjct  17  ELFNERIQYDEITEGDDYSDALHEVVDGQVPHYYHEIFTVMAADGIDHEFEDSGLMPETK  76
+
+Query  72  DVIRILQARIYEQLTIDLWEDAE  94
+           DV RILQARIYE L  D+   +E
+Sbjct  77  DVTRILQARIYEALYNDVSNSSE  99
+
+
+> UniRef90_A0A172JGC5 Antirestriction protein n=1 Tax=Citrobacter 
+phage SH3 TaxID=1805466 RepID=A0A172JGC5_9CAUD
+Length=169
+
+ Score = 101 bits (251),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 49/78 (63%), Positives = 60/78 (77%), Gaps = 0/78 (0%)
+
+Query  12  EMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEFEDSGLMPDTK  71
+           +   E I+YD I++ DD  DA+H   D+ VPHYY +IF+VMA++GID EFEDSGLMPDTK
+Sbjct  17  KAFNERIQYDGIQEDDDYSDALHEVVDSQVPHYYHEIFTVMAADGIDHEFEDSGLMPDTK  76
+
+Query  72  DVIRILQARIYEQLTIDL  89
+           DV RILQARIYE L  D+
+Sbjct  77  DVTRILQARIYEALYNDV  94
+
+
+> UniRef90_A0A0U3E5P2 Protein kinase n=1 Tax=Klebsiella phage vB_KpnP_IME205 
+TaxID=1770232 RepID=A0A0U3E5P2_9CAUD
+Length=112
+
+ Score = 98.2 bits (243),  Expect = 9e-24, Method: Compositional matrix adjust.
+ Identities = 46/82 (56%), Positives = 60/82 (73%), Gaps = 0/82 (0%)
+
+Query  12  EMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEFEDSGLMPDTK  71
+           ++  E I+YD++ + DD  DA+H   D  VPHYY++IF VMA++GID EF DSGL+PDTK
+Sbjct  17  KLFNERIQYDELTENDDWSDALHEVVDGQVPHYYSEIFMVMAADGIDFEFNDSGLIPDTK  76
+
+Query  72  DVIRILQARIYEQLTIDLWEDA  93
+           DV RI QARIYE L  D+  D+
+Sbjct  77  DVSRICQARIYEALYNDVSNDS  98
+
+
+> UniRef90_W6PUN0 Predicted antirestriction protein n=1 Tax=Citrobacter 
+phage CR8 TaxID=1455076 RepID=W6PUN0_9CAUD
+Length=111
+
+ Score = 95.5 bits (236),  Expect = 8e-23, Method: Compositional matrix adjust.
+ Identities = 47/84 (56%), Positives = 61/84 (73%), Gaps = 0/84 (0%)
+
+Query  10  AYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEFEDSGLMPD  69
+           A +   E I+YD I + D+ HDA+H   D+ VPHYY++IF+VMA++GID EFEDSGLMP+
+Sbjct  15  AVKAFNERIQYDQIAEGDEYHDALHEVVDDYVPHYYSEIFTVMAADGIDHEFEDSGLMPE  74
+
+Query  70  TKDVIRILQARIYEQLTIDLWEDA  93
+           + DV  ILQARIYE L  D+  D 
+Sbjct  75  SMDVTVILQARIYEALYNDVQNDC  98
+
+
+> UniRef90_K4PB04 Uncharacterized protein n=1 Tax=Stenotrophomonas 
+phage IME15 TaxID=1239382 RepID=K4PB04_9CAUD
+Length=173
+
+ Score = 96.3 bits (238),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 47/82 (57%), Positives = 60/82 (73%), Gaps = 0/82 (0%)
+
+Query  12  EMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEFEDSGLMPDTK  71
+           E   E I+ D + +  D HDA+H   D  VPHYY +IF+VMA++GID+EF+D+GLMPDTK
+Sbjct  17  EAFNERIQEDQLTEHHDYHDALHEVVDRMVPHYYWEIFTVMAADGIDVEFDDAGLMPDTK  76
+
+Query  72  DVIRILQARIYEQLTIDLWEDA  93
+           DV RILQARIYE L  D+  D+
+Sbjct  77  DVTRILQARIYEALYNDVPSDS  98
+
+
+> UniRef90_A0A0P0IXN4 Protein kinase n=1 Tax=Klebsiella phage vB_Kp1 
+TaxID=1701804 RepID=A0A0P0IXN4_9CAUD
+Length=115
+
+ Score = 93.6 bits (231),  Expect = 6e-22, Method: Compositional matrix adjust.
+ Identities = 45/82 (55%), Positives = 61/82 (74%), Gaps = 0/82 (0%)
+
+Query  12  EMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEFEDSGLMPDTK  71
+           E+  + I+ D++ + DD  DA+H   D  VPHYY++IF+VMA++GID EF+DSGL+PDTK
+Sbjct  17  ELFNDRIQQDELTEDDDWSDALHEVVDGQVPHYYSEIFTVMAADGIDHEFDDSGLIPDTK  76
+
+Query  72  DVIRILQARIYEQLTIDLWEDA  93
+           DV RI QARIYE L  D+  D+
+Sbjct  77  DVSRICQARIYEALYNDVSNDS  98
+
+
+> UniRef90_F8R4P7 Ocr protein n=1 Tax=Enterobacteria phage K30 
+TaxID=1041524 RepID=F8R4P7_9CAUD
+Length=116
+
+ Score = 93.6 bits (231),  Expect = 6e-22, Method: Compositional matrix adjust.
+ Identities = 47/88 (53%), Positives = 63/88 (72%), Gaps = 0/88 (0%)
+
+Query  12   EMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEFEDSGLMPDTK  71
+            E   E+I+YD + + DD +DA+H   D+ VPHYY +IF+VMA++GID EF+DS L+PDTK
+Sbjct  17   EAFNEHIQYDKLTEDDDWYDALHEVVDSHVPHYYHEIFTVMAADGIDHEFDDSDLIPDTK  76
+
+Query  72   DVIRILQARIYEQLTIDLWEDAEDLLNE  99
+            DV RI QARIYE L  D+  D+  +  E
+Sbjct  77   DVSRICQARIYEALYNDILNDSRVIWCE  104
+
+
+> UniRef90_A0A1J0MF91 Ocr protein n=1 Tax=Pectobacterium phage 
+PP74 TaxID=1916101 RepID=A0A1J0MF91_9CAUD
+Length=115
+
+ Score = 92.0 bits (227),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 47/82 (57%), Positives = 56/82 (68%), Gaps = 0/82 (0%)
+
+Query  12  EMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEFEDSGLMPDTK  71
+           E   E I+ D +   DD +DA+H   DN VPHYY +IF+VMA++GID  FEDSGLMPDT 
+Sbjct  17  EAFNERIQADKLTQDDDGYDALHEVVDNNVPHYYHEIFTVMAADGIDHAFEDSGLMPDTN  76
+
+Query  72  DVIRILQARIYEQLTIDLWEDA  93
+           DV  ILQARIYE L  D+  D 
+Sbjct  77  DVTVILQARIYEALWNDVLNDC  98
+
+
+> UniRef90_A0A0E3JJA7 Protein kinase n=1 Tax=Enterobacter phage 
+E-4 TaxID=1636315 RepID=A0A0E3JJA7_9CAUD
+Length=65
+
+ Score = 88.6 bits (218),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 43/47 (91%), Positives = 44/47 (94%), Gaps = 0/47 (0%)
+
+Query  52  MASEGIDLEFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN  98
+           MAS+GIDLEFEDSGLMPDTKDV  ILQARIYEQLTIDLWE AEDLLN
+Sbjct  1   MASDGIDLEFEDSGLMPDTKDVTSILQARIYEQLTIDLWEKAEDLLN  47
+
+
+> UniRef90_A0A1A8YFG8 Phage protein kinase n=1 Tax=Escherichia 
+phage LM33_P1 TaxID=1788294 RepID=A0A1A8YFG8_9CAUD
+Length=167
+
+ Score = 91.3 bits (225),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 45/78 (58%), Positives = 56/78 (72%), Gaps = 0/78 (0%)
+
+Query  12  EMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEFEDSGLMPDTK  71
+           E   E I+YD +   DD   A+H   D  VPHYY +IF+VMA++GID EFEDSG++P+TK
+Sbjct  17  EAFIERIQYDHLTQDDDYSAALHEVVDGQVPHYYHEIFTVMAADGIDNEFEDSGMIPETK  76
+
+Query  72  DVIRILQARIYEQLTIDL  89
+           DV RILQARIYE L  D+
+Sbjct  77  DVTRILQARIYEALYNDV  94
+
+
+> UniRef90_A0A0E3JQD0 Protein kinase n=1 Tax=Enterobacter phage 
+E-4 TaxID=1636315 RepID=A0A0E3JQD0_9CAUD
+Length=55
+
+ Score = 83.6 bits (205),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 40/48 (83%), Positives = 43/48 (90%), Gaps = 0/48 (0%)
+
+Query  1   MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADI  48
+           MTY+NVF HAYEML ENIRYDDIRDTD L DAIH AAD+AVPHYY+DI
+Sbjct  6   MTYSNVFAHAYEMLNENIRYDDIRDTDGLGDAIHEAADSAVPHYYSDI  53
+
+
+> UniRef90_B4YQI0 Putative uncharacterized protein n=1 Tax=Morganella 
+phage MmP1 TaxID=526118 RepID=B4YQI0_9CAUD
+Length=120
+
+ Score = 67.0 bits (162),  Expect = 8e-12, Method: Compositional matrix adjust.
+ Identities = 46/106 (43%), Positives = 64/106 (60%), Gaps = 2/106 (2%)
+
+Query  2    TYNNVFDHAYEMLKENIR--YDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDL  59
+            T+N ++  A E L+  IR  +    D DD+ D IH  AD+ VP Y  D+F+V A  GI  
+Sbjct  3    TFNELYASAKEDLEAAIRELHVTDTDDDDIRDRIHEIADSNVPIYNGDVFAVFADGGISY  62
+
+Query  60   EFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEVE  105
+            E +DSGL+    DV+ IL+ RIYE+L   L+ D ED +  Y+EE+E
+Sbjct  63   EMDDSGLIEGVTDVLHILRVRIYEELINCLYGDLEDCVTAYVEELE  108
+
+
+> UniRef90_A0A192Y9X1 Uncharacterized protein n=1 Tax=Morganella 
+phage vB_MmoP_MP2 TaxID=1852627 RepID=A0A192Y9X1_9CAUD
+Length=126
+
+ Score = 61.2 bits (147),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 42/106 (40%), Positives = 64/106 (60%), Gaps = 2/106 (2%)
+
+Query  2    TYNNVFDHAYEMLKENIR--YDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDL  59
+            TYN + D A + LK+ IR  +      DD+ D I+   + A+P+   +IF V A  GI  
+Sbjct  3    TYNELLDTARDELKDAIRELHVTDERDDDIRDRIYEIIEGAMPYANHEIFEVFAGNGISY  62
+
+Query  60   EFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEVE  105
+            + +D+GL+    DVI IL+ RIYE+L+ DL+ +  DL+ EY +E+E
+Sbjct  63   QMDDNGLIEGCTDVIEILKMRIYEELSNDLYGELSDLIQEYNDELE  108
+
+
+> UniRef90_A0A0F9KGY4 Uncharacterized protein n=1 Tax=marine sediment 
+metagenome TaxID=412755 RepID=A0A0F9KGY4_9ZZZZ
+Length=138
+
+ Score = 47.8 bits (112),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 37/109 (34%), Positives = 54/109 (50%), Gaps = 7/109 (6%)
+
+Query  2    TYNNVFDHAYEMLKENIRY--DDIRDT---DDLHDAIHMAADNAVPHYYADIFSVMA--S  54
+            T     D A E L+E +    DD       ++ HD IH  AD +VP Y A + +V A  +
+Sbjct  4    TLQVCIDGALEELRERVAQCEDDANRLVFLNEPHDTIHEIADGSVPVYNATLLAVAAESN  63
+
+Query  55   EGIDLEFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEE  103
+            E   LE E       T   I I+ A I+E +  +LWE+A+ +++E  EE
+Sbjct  64   EVALLEPEIGPAFDGTPTPINIIAANIFEAIKAELWEEAQRIVDEMEEE  112
+
+
+> UniRef90_A0A0F9AXY8 Uncharacterized protein n=1 Tax=marine sediment 
+metagenome TaxID=412755 RepID=A0A0F9AXY8_9ZZZZ
+Length=109
+
+ Score = 47.0 bits (110),  Expect = 9e-05, Method: Compositional matrix adjust.
+ Identities = 34/95 (36%), Positives = 46/95 (48%), Gaps = 4/95 (4%)
+
+Query  1   MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMA--SEGID  58
+           +T   + + A E  +E     D  D  + HDAIH  AD AVP Y  D+  + A  S GI 
+Sbjct  6   LTLAGIIEGAIETFREGYDPADF-DQGEPHDAIHEVADGAVPVYNYDLLQLAADLSNGIA  64
+
+Query  59  LEFEDSGLMPD-TKDVIRILQARIYEQLTIDLWED  92
+           L   + G   D T   I I+ A +YE +   LWE+
+Sbjct  65  LAEPEIGPAFDGTPTPINIIAANVYEAVEAALWEE  99
+
+
+> UniRef90_A0A0F8ZDN8 Uncharacterized protein n=1 Tax=marine sediment 
+metagenome TaxID=412755 RepID=A0A0F8ZDN8_9ZZZZ
+Length=111
+
+ Score = 43.1 bits (100),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 24/84 (29%), Positives = 46/84 (55%), Gaps = 4/84 (5%)
+
+Query  19   RYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEFEDSGLMP---DTKDVIR  75
+            R  D +D  + HD+IH  AD++VP Y  D+   +A++ ++L      L P    +   + 
+Sbjct  19   RAKDNKDETEPHDSIHEIADSSVPVYTGDLLQ-LAADNLELATAKPELGPAFDGSPTPVN  77
+
+Query  76   ILQARIYEQLTIDLWEDAEDLLNE  99
+            I+ A ++E +   LWE+ +++ +E
+Sbjct  78   IVAANVFEAIEAGLWEEWKEIESE  101
+
+
+> UniRef90_A0A0F9D8I2 Uncharacterized protein n=1 Tax=marine sediment 
+metagenome TaxID=412755 RepID=A0A0F9D8I2_9ZZZZ
+Length=105
+
+ Score = 42.7 bits (99),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 34/95 (36%), Positives = 48/95 (51%), Gaps = 6/95 (6%)
+
+Query  2   TYNNVFDHAYEMLKENIRYDDIRDTDDLHD-AIHMAADNAVPHYYADIFSVMA--SEGID  58
+           T  ++ D A + L+E  +  D  D D  HD A+H  AD AVP Y  D+  + A  S G+ 
+Sbjct  3   TLQDIIDGAVDELREWCK--DNPDGDPTHDGALHEFADGAVPTYNYDLLQLAAELSNGLA  60
+
+Query  59  LEFEDSGLMPD-TKDVIRILQARIYEQLTIDLWED  92
+           L   + G   D T   I I+ A +YE +   LWE+
+Sbjct  61  LTEPEIGPAFDGTPTPINIIAANVYEAVEAALWEE  95
+
+
+> UniRef90_A0A0F9FD56 Uncharacterized protein (Fragment) n=1 Tax=marine 
+sediment metagenome TaxID=412755 RepID=A0A0F9FD56_9ZZZZ
+Length=104
+
+ Score = 41.6 bits (96),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 34/100 (34%), Positives = 48/100 (48%), Gaps = 9/100 (9%)
+
+Query  2   TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEF  61
+           T  ++ D A + L+E  +  D  D D   +AIH  A+ AVP Y +D+   MA   IDL  
+Sbjct  4   TLRDIIDIARDELREQCK--DSPDFDPTDEAIHEIANGAVPVYISDLME-MAVNDIDLAM  60
+
+Query  62  EDSGLMP---DTKDVIRILQARIYEQLTIDL---WEDAED  95
+               L P    T   + I+ A +YE +T  L   WE  +D
+Sbjct  61  ATPELGPAFDGTPTPVNIIAANVYEAVTAALYVEWETIKD  100
+
+
+> UniRef90_A0A0W0WBS9 DNA mimic ocr n=1 Tax=Legionella maceachernii 
+TaxID=466 RepID=A0A0W0WBS9_9GAMM
+Length=121
+
+ Score = 42.0 bits (97),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 28/106 (26%), Positives = 55/106 (52%), Gaps = 6/106 (6%)
+
+Query  4    NNVFDHAYEMLKENIRYDDIRD------TDDLHDAIHMAADNAVPHYYADIFSVMASEGI  57
+            NN++    E L+ +I  D+++D       D L D+     D  +P YY+D+  ++A    
+Sbjct  11   NNLYSSIKERLEWHISNDELKDMTRDEVIDSLEDSRFEIIDGELPIYYSDMAKLLAENTN  70
+
+Query  58   DLEFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEE  103
+                +D G++P   +V  I+ A ++E L+ + ++ A D ++E + E
+Sbjct  71   FATVDDEGILPKNPNVWDIITASVHEFLSGEFYQLACDAVDELIPE  116
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.137    0.393    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 447089704480
+Results from round 2
+
+
+Query= d1s7za_
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_I6Q9X8 Protein 0.3 n=1 Tax=Yersinia phage YpP-Y TaxID=...  161     4e-47
+  UniRef90_A0A193GYY9 Protein kinase n=4 Tax=Podoviridae TaxID=10...  133     2e-37
+  UniRef90_P03775 Overcome classical restriction gp0.3 n=20 Tax=P...  132     6e-37
+  UniRef90_I6Q9P6 Protein 0.3 n=4 Tax=Yersinia phage phiA1122 Tax...  132     7e-37
+  UniRef90_B3VD30 Gp0.3 n=14 Tax=T7virus TaxID=110456 RepID=B3VD3...  127     4e-35
+  UniRef90_Q7Y5R4 Gp5 n=1 Tax=Enterobacteria phage SP6 TaxID=1949...  124     6e-34
+  UniRef90_B3VCS5 Gp0.3 n=3 Tax=Podoviridae TaxID=10744 RepID=B3V...  122     3e-33
+  UniRef90_K4FBP3 Uncharacterized protein n=2 Tax=root TaxID=1 Re...  121     8e-33
+  UniRef90_Q8LTV4 0.3 protein (Fragment) n=10 Tax=Enterobacteria ...  120     8e-33
+  UniRef90_A0A0U3E5P2 Protein kinase n=1 Tax=Klebsiella phage vB_...  121     9e-33
+  UniRef90_A0A172JGC5 Antirestriction protein n=1 Tax=Citrobacter...  122     1e-32
+  UniRef90_Q3YK01 Antirestriction protein n=1 Tax=Enterobacteria ...  121     3e-32
+  UniRef90_W6PPE9 Predicted antirestriction protein n=1 Tax=Citro...  118     7e-32
+  UniRef90_M1E358 Uncharacterized protein n=2 Tax=unclassified Sp...  118     1e-31
+  UniRef90_F8R4P7 Ocr protein n=1 Tax=Enterobacteria phage K30 Ta...  117     3e-31
+  UniRef90_A0A1A8YFG8 Phage protein kinase n=1 Tax=Escherichia ph...  118     3e-31
+  UniRef90_A0A0P0IXN4 Protein kinase n=1 Tax=Klebsiella phage vB_...  117     4e-31
+  UniRef90_A0A1J0MF91 Ocr protein n=1 Tax=Pectobacterium phage PP...  115     2e-30
+  UniRef90_K4PB04 Uncharacterized protein n=1 Tax=Stenotrophomona...  116     4e-30
+  UniRef90_Q2WC28 Gp3 protein n=2 Tax=Sp6virus TaxID=542837 RepID...  113     1e-29
+  UniRef90_W6PUN0 Predicted antirestriction protein n=1 Tax=Citro...  108     1e-27
+  UniRef90_A0A0F9KGY4 Uncharacterized protein n=1 Tax=marine sedi...  98.9    9e-24
+  UniRef90_A0A192Y9X1 Uncharacterized protein n=1 Tax=Morganella ...  96.2    7e-23
+  UniRef90_B4YQI0 Putative uncharacterized protein n=1 Tax=Morgan...  94.3    3e-22
+  UniRef90_I6QAF6 Protein 0.3 n=1 Tax=Yersinia phage YpsP-G TaxID...  90.1    5e-21
+  UniRef90_A0A0F9AXY8 Uncharacterized protein n=1 Tax=marine sedi...  88.5    4e-20
+  UniRef90_A0A0E3JJA7 Protein kinase n=1 Tax=Enterobacter phage E...  67.3    2e-12
+  UniRef90_A0A0E3JQD0 Protein kinase n=1 Tax=Enterobacter phage E...  65.8    6e-12
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A0F9D8I2 Uncharacterized protein n=1 Tax=marine sedi...  76.2    2e-15
+  UniRef90_A0A0F8ZDN8 Uncharacterized protein n=1 Tax=marine sedi...  71.2    2e-13
+  UniRef90_A0A0F9FD56 Uncharacterized protein (Fragment) n=1 Tax=...  61.6    7e-10
+  UniRef90_A0A0F8X6M6 Uncharacterized protein n=1 Tax=marine sedi...  62.0    9e-10
+  UniRef90_A0A0F9GYG8 Uncharacterized protein n=1 Tax=marine sedi...  58.1    1e-08
+  UniRef90_A0A0F9STN1 Uncharacterized protein n=1 Tax=marine sedi...  57.3    2e-08
+  UniRef90_A0A0W0WBS9 DNA mimic ocr n=1 Tax=Legionella maceachern...  53.1    9e-07
+  UniRef90_UPI00037AD552 hypothetical protein n=1 Tax=Mariprofund...  45.8    2e-04
+  UniRef90_A0A0F8WHQ4 Uncharacterized protein (Fragment) n=1 Tax=...  45.4    3e-04
+
+
+> UniRef90_I6Q9X8 Protein 0.3 n=1 Tax=Yersinia phage YpP-Y TaxID=1176766 
+RepID=I6Q9X8_9CAUD
+Length=228
+
+ Score = 161 bits (408),  Expect = 4e-47, Method: Composition-based stats.
+ Identities = 100/104 (96%), Positives = 103/104 (99%), Gaps = 0/104 (0%)
+
+Query  1    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+            MTY NVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAAD+A+PHYY+DIFSVMASEGIDLE
+Sbjct  6    MTYKNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADSAIPHYYSDIFSVMASEGIDLE  65
+
+Query  61   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEV  104
+            FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEV
+Sbjct  66   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEV  109
+
+
+> UniRef90_A0A193GYY9 Protein kinase n=4 Tax=Podoviridae TaxID=10744 
+RepID=A0A193GYY9_9CAUD
+Length=121
+
+ Score = 133 bits (335),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 85/98 (87%), Positives = 89/98 (91%), Gaps = 0/98 (0%)
+
+Query  1    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+            MTY+NVF HAYEML ENIRYDD RDTD L DAIH AAD+AVPHYY+DIFSVMAS+GIDLE
+Sbjct  6    MTYSNVFAHAYEMLNENIRYDDTRDTDGLSDAIHEAADSAVPHYYSDIFSVMASDGIDLE  65
+
+Query  61   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN  98
+            FEDSGLMPDTKDV  ILQARIYEQLTIDLWE AEDLLN
+Sbjct  66   FEDSGLMPDTKDVTCILQARIYEQLTIDLWEKAEDLLN  103
+
+
+> UniRef90_P03775 Overcome classical restriction gp0.3 n=20 Tax=Podoviridae 
+TaxID=10744 RepID=OCR_BPT7
+Length=117
+
+ Score = 132 bits (331),  Expect = 6e-37, Method: Composition-based stats.
+ Identities = 98/98 (100%), Positives = 98/98 (100%), Gaps = 0/98 (0%)
+
+Query  1    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+            MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE
+Sbjct  6    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  65
+
+Query  61   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN  98
+            FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN
+Sbjct  66   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN  103
+
+
+> UniRef90_I6Q9P6 Protein 0.3 n=4 Tax=Yersinia phage phiA1122 TaxID=227720 
+RepID=I6Q9P6_9CAUD
+Length=120
+
+ Score = 132 bits (331),  Expect = 7e-37, Method: Composition-based stats.
+ Identities = 94/98 (96%), Positives = 97/98 (99%), Gaps = 0/98 (0%)
+
+Query  1    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+            MTY NVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAAD+A+PHYY+DIFSVMASEGIDLE
+Sbjct  6    MTYKNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADSAIPHYYSDIFSVMASEGIDLE  65
+
+Query  61   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN  98
+            FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN
+Sbjct  66   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN  103
+
+
+> UniRef90_B3VD30 Gp0.3 n=14 Tax=T7virus TaxID=110456 RepID=B3VD30_9CAUD
+Length=116
+
+ Score = 127 bits (319),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 90/95 (95%), Positives = 91/95 (96%), Gaps = 0/95 (0%)
+
+Query  1   MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+           MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIH AADNAVPHYY+DIFSVMASEGI  E
+Sbjct  6   MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHEAADNAVPHYYSDIFSVMASEGIYHE  65
+
+Query  61  FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAED  95
+           FEDSGLMPDTKDV RILQARIYEQLTIDLWEDAED
+Sbjct  66  FEDSGLMPDTKDVTRILQARIYEQLTIDLWEDAED  100
+
+
+> UniRef90_Q7Y5R4 Gp5 n=1 Tax=Enterobacteria phage SP6 TaxID=194966 
+RepID=Q7Y5R4_BPSP6
+Length=119
+
+ Score = 124 bits (312),  Expect = 6e-34, Method: Composition-based stats.
+ Identities = 76/98 (78%), Positives = 88/98 (90%), Gaps = 0/98 (0%)
+
+Query  1    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+            MTY++V++HAY +LKE IRYDD+R+ DDL D IH AA NAVPH+YADIFSVMAS+GIDLE
+Sbjct  6    MTYSDVYNHAYGLLKEYIRYDDVRNEDDLSDKIHEAAGNAVPHWYADIFSVMASDGIDLE  65
+
+Query  61   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN  98
+            F+DSGLMPDTKDV  ILQARI+EQLTIDL+ DAEDLLN
+Sbjct  66   FDDSGLMPDTKDVTYILQARIHEQLTIDLYGDAEDLLN  103
+
+
+> UniRef90_B3VCS5 Gp0.3 n=3 Tax=Podoviridae TaxID=10744 RepID=B3VCS5_9CAUD
+Length=110
+
+ Score = 122 bits (306),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 55/104 (53%), Positives = 69/104 (66%), Gaps = 0/104 (0%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEF  61
+             Y ++     E   E I+YD I + DD HDA+H   D  VPHYY +IF+VMA++GID EF
+Sbjct  7    AYYDLLAATVEAFNERIQYDKIAEGDDYHDALHEVVDGQVPHYYHEIFTVMAADGIDHEF  66
+
+Query  62   EDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEVE  105
+            EDSGLMPDTKDV RILQARIYE L  D+   ++ +  E  E+ E
+Sbjct  67   EDSGLMPDTKDVTRILQARIYEALYNDVSNSSDVVWFEPEEDCE  110
+
+
+> UniRef90_K4FBP3 Uncharacterized protein n=2 Tax=root TaxID=1 
+RepID=K4FBP3_9CAUD
+Length=118
+
+ Score = 121 bits (304),  Expect = 8e-33, Method: Composition-based stats.
+ Identities = 65/106 (61%), Positives = 79/106 (75%), Gaps = 0/106 (0%)
+
+Query  1    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+            MTY+ V++ A+  L E I  D I   D+ HDAIH  AD+ VP YYADIFSVMASEGID  
+Sbjct  6    MTYSQVYNTAHAALVERIWDDAIDCIDNAHDAIHEVADSTVPIYYADIFSVMASEGIDHF  65
+
+Query  61   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEVEE  106
+            FEDSGLMPDTKDV  +LQARIYEQLTIDL E  +D+++ Y++  E+
+Sbjct  66   FEDSGLMPDTKDVTVVLQARIYEQLTIDLRERVQDMIDAYIDSAED  111
+
+
+> UniRef90_Q8LTV4 0.3 protein (Fragment) n=10 Tax=Enterobacteria 
+phage T7 TaxID=10760 RepID=Q8LTV4_BPT7
+Length=95
+
+ Score = 120 bits (302),  Expect = 8e-33, Method: Composition-based stats.
+ Identities = 83/90 (92%), Positives = 86/90 (96%), Gaps = 0/90 (0%)
+
+Query  1   MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+           +TYNNVFDHAYEMLKENIRYDDI DT+DL+DAIHMA DNAVPHYYADIFSVMASEGID E
+Sbjct  6   ITYNNVFDHAYEMLKENIRYDDICDTNDLYDAIHMAVDNAVPHYYADIFSVMASEGIDFE  65
+
+Query  61  FEDSGLMPDTKDVIRILQARIYEQLTIDLW  90
+           FEDS LMPDTKDVIRILQARIYEQLTIDLW
+Sbjct  66  FEDSDLMPDTKDVIRILQARIYEQLTIDLW  95
+
+
+> UniRef90_A0A0U3E5P2 Protein kinase n=1 Tax=Klebsiella phage vB_KpnP_IME205 
+TaxID=1770232 RepID=A0A0U3E5P2_9CAUD
+Length=112
+
+ Score = 121 bits (303),  Expect = 9e-33, Method: Composition-based stats.
+ Identities = 47/96 (49%), Positives = 64/96 (67%), Gaps = 0/96 (0%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEF  61
+             Y ++     ++  E I+YD++ + DD  DA+H   D  VPHYY++IF VMA++GID EF
+Sbjct  7    AYYDLVAATVKLFNERIQYDELTENDDWSDALHEVVDGQVPHYYSEIFMVMAADGIDFEF  66
+
+Query  62   EDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLL  97
+             DSGL+PDTKDV RI QARIYE L  D+  D+  + 
+Sbjct  67   NDSGLIPDTKDVSRICQARIYEALYNDVSNDSGVIW  102
+
+
+> UniRef90_A0A172JGC5 Antirestriction protein n=1 Tax=Citrobacter 
+phage SH3 TaxID=1805466 RepID=A0A172JGC5_9CAUD
+Length=169
+
+ Score = 122 bits (307),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 53/104 (51%), Positives = 68/104 (65%), Gaps = 0/104 (0%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEF  61
+             Y  +     +   E I+YD I++ DD  DA+H   D+ VPHYY +IF+VMA++GID EF
+Sbjct  7    AYYELLAATVKAFNERIQYDGIQEDDDYSDALHEVVDSQVPHYYHEIFTVMAADGIDHEF  66
+
+Query  62   EDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEVE  105
+            EDSGLMPDTKDV RILQARIYE L  D+   ++ +  E  E  E
+Sbjct  67   EDSGLMPDTKDVTRILQARIYEALYNDVSNSSDVVWFEVEESDE  110
+
+
+> UniRef90_Q3YK01 Antirestriction protein n=1 Tax=Enterobacteria 
+phage K1F TaxID=344021 RepID=Q3YK01_BPK1F
+Length=169
+
+ Score = 121 bits (304),  Expect = 3e-32, Method: Composition-based stats.
+ Identities = 51/96 (53%), Positives = 65/96 (68%), Gaps = 0/96 (0%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEF  61
+             Y  +     E+  E I+YD+I + DD  DA+H   D  VPHYY +IF+VMA++GID EF
+Sbjct  7    AYYELLAATVELFNERIQYDEITEGDDYSDALHEVVDGQVPHYYHEIFTVMAADGIDHEF  66
+
+Query  62   EDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLL  97
+            EDSGLMP+TKDV RILQARIYE L  D+   +E + 
+Sbjct  67   EDSGLMPETKDVTRILQARIYEALYNDVSNSSEVVW  102
+
+
+> UniRef90_W6PPE9 Predicted antirestriction protein n=1 Tax=Citrobacter 
+phage CR44b TaxID=1455075 RepID=W6PPE9_9CAUD
+Length=114
+
+ Score = 118 bits (297),  Expect = 7e-32, Method: Composition-based stats.
+ Identities = 55/106 (52%), Positives = 68/106 (64%), Gaps = 0/106 (0%)
+
+Query  1    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+              Y  +     E   E I+YD+I + DD HDA+    D  VPHYY +IF+VMA++GIDLE
+Sbjct  6    FAYYELLASTVEAFNERIQYDEIAEGDDYHDALQEVVDGQVPHYYHEIFTVMAADGIDLE  65
+
+Query  61   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEVEE  106
+            FEDSGLMP+TKDV RILQARIYE L  D+   +  +  E  E  EE
+Sbjct  66   FEDSGLMPETKDVTRILQARIYEALYNDVSNSSHIVWFEAEESDEE  111
+
+
+> UniRef90_M1E358 Uncharacterized protein n=2 Tax=unclassified 
+Sp6likevirus TaxID=979725 RepID=M1E358_9CAUD
+Length=118
+
+ Score = 118 bits (296),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 73/98 (74%), Positives = 81/98 (83%), Gaps = 0/98 (0%)
+
+Query  1    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+            MTY NV++HAY +L E IRY+D+RD D+  D IH AADNAVP YY DIFSVMAS GID E
+Sbjct  6    MTYANVYNHAYSLLDEYIRYEDVRDYDEATDKIHEAADNAVPVYYKDIFSVMASGGIDHE  65
+
+Query  61   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN  98
+            FEDSGL+PDTKDV RILQARIYEQLTIDL+E   DLLN
+Sbjct  66   FEDSGLIPDTKDVTRILQARIYEQLTIDLYEVVADLLN  103
+
+
+> UniRef90_F8R4P7 Ocr protein n=1 Tax=Enterobacteria phage K30 
+TaxID=1041524 RepID=F8R4P7_9CAUD
+Length=116
+
+ Score = 117 bits (293),  Expect = 3e-31, Method: Composition-based stats.
+ Identities = 48/98 (49%), Positives = 65/98 (66%), Gaps = 0/98 (0%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEF  61
+             Y  +     E   E+I+YD + + DD +DA+H   D+ VPHYY +IF+VMA++GID EF
+Sbjct  7    AYYELLAATVEAFNEHIQYDKLTEDDDWYDALHEVVDSHVPHYYHEIFTVMAADGIDHEF  66
+
+Query  62   EDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNE  99
+            +DS L+PDTKDV RI QARIYE L  D+  D+  +  E
+Sbjct  67   DDSDLIPDTKDVSRICQARIYEALYNDILNDSRVIWCE  104
+
+
+> UniRef90_A0A1A8YFG8 Phage protein kinase n=1 Tax=Escherichia 
+phage LM33_P1 TaxID=1788294 RepID=A0A1A8YFG8_9CAUD
+Length=167
+
+ Score = 118 bits (297),  Expect = 3e-31, Method: Composition-based stats.
+ Identities = 46/96 (48%), Positives = 60/96 (63%), Gaps = 0/96 (0%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEF  61
+             Y  +     E   E I+YD +   DD   A+H   D  VPHYY +IF+VMA++GID EF
+Sbjct  7    AYYELLAATVEAFIERIQYDHLTQDDDYSAALHEVVDGQVPHYYHEIFTVMAADGIDNEF  66
+
+Query  62   EDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLL  97
+            EDSG++P+TKDV RILQARIYE L  D+    + + 
+Sbjct  67   EDSGMIPETKDVTRILQARIYEALYNDVSNSLDVVW  102
+
+
+> UniRef90_A0A0P0IXN4 Protein kinase n=1 Tax=Klebsiella phage vB_Kp1 
+TaxID=1701804 RepID=A0A0P0IXN4_9CAUD
+Length=115
+
+ Score = 117 bits (292),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 46/96 (48%), Positives = 65/96 (68%), Gaps = 0/96 (0%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEF  61
+             Y ++     E+  + I+ D++ + DD  DA+H   D  VPHYY++IF+VMA++GID EF
+Sbjct  7    AYYDLLAATIELFNDRIQQDELTEDDDWSDALHEVVDGQVPHYYSEIFTVMAADGIDHEF  66
+
+Query  62   EDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLL  97
+            +DSGL+PDTKDV RI QARIYE L  D+  D+  + 
+Sbjct  67   DDSGLIPDTKDVSRICQARIYEALYNDVSNDSGIIW  102
+
+
+> UniRef90_A0A1J0MF91 Ocr protein n=1 Tax=Pectobacterium phage 
+PP74 TaxID=1916101 RepID=A0A1J0MF91_9CAUD
+Length=115
+
+ Score = 115 bits (288),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 48/96 (50%), Positives = 60/96 (63%), Gaps = 0/96 (0%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEF  61
+             Y ++     E   E I+ D +   DD +DA+H   DN VPHYY +IF+VMA++GID  F
+Sbjct  7    AYYDLVAATVEAFNERIQADKLTQDDDGYDALHEVVDNNVPHYYHEIFTVMAADGIDHAF  66
+
+Query  62   EDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLL  97
+            EDSGLMPDT DV  ILQARIYE L  D+  D   + 
+Sbjct  67   EDSGLMPDTNDVTVILQARIYEALWNDVLNDCGLVW  102
+
+
+> UniRef90_K4PB04 Uncharacterized protein n=1 Tax=Stenotrophomonas 
+phage IME15 TaxID=1239382 RepID=K4PB04_9CAUD
+Length=173
+
+ Score = 116 bits (290),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 48/92 (52%), Positives = 62/92 (67%), Gaps = 0/92 (0%)
+
+Query  2   TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEF  61
+            Y  +     E   E I+ D + +  D HDA+H   D  VPHYY +IF+VMA++GID+EF
+Sbjct  7   AYYELLAATVEAFNERIQEDQLTEHHDYHDALHEVVDRMVPHYYWEIFTVMAADGIDVEF  66
+
+Query  62  EDSGLMPDTKDVIRILQARIYEQLTIDLWEDA  93
+           +D+GLMPDTKDV RILQARIYE L  D+  D+
+Sbjct  67  DDAGLMPDTKDVTRILQARIYEALYNDVPSDS  98
+
+
+> UniRef90_Q2WC28 Gp3 protein n=2 Tax=Sp6virus TaxID=542837 RepID=Q2WC28_BPK1E
+Length=108
+
+ Score = 113 bits (282),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 53/102 (52%), Positives = 72/102 (71%), Gaps = 0/102 (0%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEF  61
+             Y N+     E   E I+YD+IR+ DD  DA+H   D+ VP YY++IF+VMA++GID+EF
+Sbjct  7    AYYNLLAATVEAFNERIQYDEIREGDDYSDALHEVVDSNVPVYYSEIFTVMAADGIDIEF  66
+
+Query  62   EDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEE  103
+            ED+GL+PDTKDV +ILQARIYE L  D+  D++ +  E  EE
+Sbjct  67   EDAGLIPDTKDVTKILQARIYESLYNDVPNDSDVVWYEDEEE  108
+
+
+> UniRef90_W6PUN0 Predicted antirestriction protein n=1 Tax=Citrobacter 
+phage CR8 TaxID=1455076 RepID=W6PUN0_9CAUD
+Length=111
+
+ Score = 108 bits (269),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 52/105 (50%), Positives = 69/105 (66%), Gaps = 0/105 (0%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEF  61
+             Y  +   A +   E I+YD I + D+ HDA+H   D+ VPHYY++IF+VMA++GID EF
+Sbjct  7    AYYKLVADAVKAFNERIQYDQIAEGDEYHDALHEVVDDYVPHYYSEIFTVMAADGIDHEF  66
+
+Query  62   EDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEVEE  106
+            EDSGLMP++ DV  ILQARIYE L  D+  D   +  E  EE +E
+Sbjct  67   EDSGLMPESMDVTVILQARIYEALYNDVQNDCGLVWYEAEEEDDE  111
+
+
+> UniRef90_A0A0F9KGY4 Uncharacterized protein n=1 Tax=marine sediment 
+metagenome TaxID=412755 RepID=A0A0F9KGY4_9ZZZZ
+Length=138
+
+ Score = 98.9 bits (245),  Expect = 9e-24, Method: Composition-based stats.
+ Identities = 37/112 (33%), Positives = 55/112 (49%), Gaps = 7/112 (6%)
+
+Query  2    TYNNVFDHAYEMLKENIRY--DDIRDT---DDLHDAIHMAADNAVPHYYADIFSVMA--S  54
+            T     D A E L+E +    DD       ++ HD IH  AD +VP Y A + +V A  +
+Sbjct  4    TLQVCIDGALEELRERVAQCEDDANRLVFLNEPHDTIHEIADGSVPVYNATLLAVAAESN  63
+
+Query  55   EGIDLEFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEVEE  106
+            E   LE E       T   I I+ A I+E +  +LWE+A+ +++E  EE  +
+Sbjct  64   EVALLEPEIGPAFDGTPTPINIIAANIFEAIKAELWEEAQRIVDEMEEEQSD  115
+
+
+> UniRef90_A0A192Y9X1 Uncharacterized protein n=1 Tax=Morganella 
+phage vB_MmoP_MP2 TaxID=1852627 RepID=A0A192Y9X1_9CAUD
+Length=126
+
+ Score = 96.2 bits (238),  Expect = 7e-23, Method: Composition-based stats.
+ Identities = 42/107 (39%), Positives = 65/107 (61%), Gaps = 2/107 (2%)
+
+Query  2    TYNNVFDHAYEMLKENIR--YDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDL  59
+            TYN + D A + LK+ IR  +      DD+ D I+   + A+P+   +IF V A  GI  
+Sbjct  3    TYNELLDTARDELKDAIRELHVTDERDDDIRDRIYEIIEGAMPYANHEIFEVFAGNGISY  62
+
+Query  60   EFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEVEE  106
+            + +D+GL+    DVI IL+ RIYE+L+ DL+ +  DL+ EY +E+E+
+Sbjct  63   QMDDNGLIEGCTDVIEILKMRIYEELSNDLYGELSDLIQEYNDELED  109
+
+
+> UniRef90_B4YQI0 Putative uncharacterized protein n=1 Tax=Morganella 
+phage MmP1 TaxID=526118 RepID=B4YQI0_9CAUD
+Length=120
+
+ Score = 94.3 bits (233),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 46/107 (43%), Positives = 65/107 (61%), Gaps = 2/107 (2%)
+
+Query  2    TYNNVFDHAYEMLKENIR--YDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDL  59
+            T+N ++  A E L+  IR  +    D DD+ D IH  AD+ VP Y  D+F+V A  GI  
+Sbjct  3    TFNELYASAKEDLEAAIRELHVTDTDDDDIRDRIHEIADSNVPIYNGDVFAVFADGGISY  62
+
+Query  60   EFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEVEE  106
+            E +DSGL+    DV+ IL+ RIYE+L   L+ D ED +  Y+EE+E+
+Sbjct  63   EMDDSGLIEGVTDVLHILRVRIYEELINCLYGDLEDCVTAYVEELED  109
+
+
+> UniRef90_I6QAF6 Protein 0.3 n=1 Tax=Yersinia phage YpsP-G TaxID=1176767 
+RepID=I6QAF6_9CAUD
+Length=84
+
+ Score = 90.1 bits (222),  Expect = 5e-21, Method: Composition-based stats.
+ Identities = 61/64 (95%), Positives = 64/64 (100%), Gaps = 0/64 (0%)
+
+Query  35  MAADNAVPHYYADIFSVMASEGIDLEFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAE  94
+           MAAD+A+PHYY+DIFSVMASEGIDLEFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAE
+Sbjct  1   MAADSAIPHYYSDIFSVMASEGIDLEFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAE  60
+
+Query  95  DLLN  98
+           DLLN
+Sbjct  61  DLLN  64
+
+
+> UniRef90_A0A0F9AXY8 Uncharacterized protein n=1 Tax=marine sediment 
+metagenome TaxID=412755 RepID=A0A0F9AXY8_9ZZZZ
+Length=109
+
+ Score = 88.5 bits (218),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 35/105 (33%), Positives = 47/105 (45%), Gaps = 4/105 (4%)
+
+Query  1    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMA--SEGID  58
+            +T   + + A E  +E     D  D  + HDAIH  AD AVP Y  D+  + A  S GI 
+Sbjct  6    LTLAGIIEGAIETFREGYDPADF-DQGEPHDAIHEVADGAVPVYNYDLLQLAADLSNGIA  64
+
+Query  59   L-EFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLE  102
+            L E E       T   I I+ A +YE +   LWE+      E  +
+Sbjct  65   LAEPEIGPAFDGTPTPINIIAANVYEAVEAALWEEWRRAQEERED  109
+
+
+> UniRef90_A0A0F9D8I2 Uncharacterized protein n=1 Tax=marine sediment 
+metagenome TaxID=412755 RepID=A0A0F9D8I2_9ZZZZ
+Length=105
+
+ Score = 76.2 bits (186),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 35/105 (33%), Positives = 48/105 (46%), Gaps = 6/105 (6%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHD-AIHMAADNAVPHYYADIFSVMA--SEGID  58
+            T  ++ D A + L+E     D  D D  HD A+H  AD AVP Y  D+  + A  S G+ 
+Sbjct  3    TLQDIIDGAVDELRE--WCKDNPDGDPTHDGALHEFADGAVPTYNYDLLQLAAELSNGLA  60
+
+Query  59   L-EFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLE  102
+            L E E       T   I I+ A +YE +   LWE+      E  +
+Sbjct  61   LTEPEIGPAFDGTPTPINIIAANVYEAVEAALWEEWRRAQKERED  105
+
+
+> UniRef90_A0A0F8ZDN8 Uncharacterized protein n=1 Tax=marine sediment 
+metagenome TaxID=412755 RepID=A0A0F8ZDN8_9ZZZZ
+Length=111
+
+ Score = 71.2 bits (173),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 27/108 (25%), Positives = 52/108 (48%), Gaps = 5/108 (5%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASE--GIDL  59
+            +   +   A E L+   +  D +D  + HD+IH  AD++VP Y  D+  + A        
+Sbjct  4    SLYEIIKLAREELRGRAK--DNKDETEPHDSIHEIADSSVPVYTGDLLQLAADNLELATA  61
+
+Query  60   EFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLE-EVEE  106
+            + E       +   + I+ A ++E +   LWE+ +++ +E  + E+EE
+Sbjct  62   KPELGPAFDGSPTPVNIVAANVFEAIEAGLWEEWKEIESEREDAELEE  109
+
+
+> UniRef90_A0A0E3JJA7 Protein kinase n=1 Tax=Enterobacter phage 
+E-4 TaxID=1636315 RepID=A0A0E3JJA7_9CAUD
+Length=65
+
+ Score = 67.3 bits (163),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 43/47 (91%), Positives = 44/47 (94%), Gaps = 0/47 (0%)
+
+Query  52  MASEGIDLEFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN  98
+           MAS+GIDLEFEDSGLMPDTKDV  ILQARIYEQLTIDLWE AEDLLN
+Sbjct  1   MASDGIDLEFEDSGLMPDTKDVTSILQARIYEQLTIDLWEKAEDLLN  47
+
+
+> UniRef90_A0A0E3JQD0 Protein kinase n=1 Tax=Enterobacter phage 
+E-4 TaxID=1636315 RepID=A0A0E3JQD0_9CAUD
+Length=55
+
+ Score = 65.8 bits (159),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 40/48 (83%), Positives = 43/48 (90%), Gaps = 0/48 (0%)
+
+Query  1   MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADI  48
+           MTY+NVF HAYEML ENIRYDDIRDTD L DAIH AAD+AVPHYY+DI
+Sbjct  6   MTYSNVFAHAYEMLNENIRYDDIRDTDGLGDAIHEAADSAVPHYYSDI  53
+
+
+> UniRef90_A0A0F9FD56 Uncharacterized protein (Fragment) n=1 Tax=marine 
+sediment metagenome TaxID=412755 RepID=A0A0F9FD56_9ZZZZ
+Length=104
+
+ Score = 61.6 bits (148),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 33/104 (32%), Positives = 50/104 (48%), Gaps = 6/104 (6%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE-  60
+            T  ++ D A + L+E  +  D  D D   +AIH  A+ AVP Y +D+   MA   IDL  
+Sbjct  4    TLRDIIDIARDELRE--QCKDSPDFDPTDEAIHEIANGAVPVYISDLME-MAVNDIDLAM  60
+
+Query  61   --FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLE  102
+               E       T   + I+ A +YE +T  L+ + E + +E  E
+Sbjct  61   ATPELGPAFDGTPTPVNIIAANVYEAVTAALYVEWETIKDEREE  104
+
+
+> UniRef90_A0A0F8X6M6 Uncharacterized protein n=1 Tax=marine sediment 
+metagenome TaxID=412755 RepID=A0A0F8X6M6_9ZZZZ
+Length=201
+
+ Score = 62.0 bits (149),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 21/93 (23%), Positives = 37/93 (40%), Gaps = 4/93 (4%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMAS--EGIDL  59
+            T   +     + ++E  +  ++ +     D +   AD  VP Y  +I  V A   +   L
+Sbjct  95   TLYGLERGVRDEVRERSK--ELLEDVCPEDTLTEIADGWVPIYTYNILQVAADNMDMATL  152
+
+Query  60   EFEDSGLMPDTKDVIRILQARIYEQLTIDLWED  92
+            E E       T   I I+ A IY+ L    +++
+Sbjct  153  EPELGPAFDGTPTPINIIAANIYKALNAAAFKE  185
+
+
+> UniRef90_A0A0F9GYG8 Uncharacterized protein n=1 Tax=marine sediment 
+metagenome TaxID=412755 RepID=A0A0F9GYG8_9ZZZZ
+Length=122
+
+ Score = 58.1 bits (139),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 25/103 (24%), Positives = 42/103 (41%), Gaps = 4/103 (4%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMAS--EGIDL  59
+            T   +       ++E  + +++++     D I    D  VP Y   I  V A   +   L
+Sbjct  3    TLYELERSIRAEVQE--KAEELKEATYPEDLITEMVDGWVPIYNGQILEVAADSMDMAIL  60
+
+Query  60   EFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLE  102
+            E E       T   I I+ A IYE L +  +++ +D+ N   E
+Sbjct  61   EPELGPAFDGTPTPINIIAANIYETLQVAAFDEWDDIANASTE  103
+
+
+> UniRef90_A0A0F9STN1 Uncharacterized protein n=1 Tax=marine sediment 
+metagenome TaxID=412755 RepID=A0A0F9STN1_9ZZZZ
+Length=97
+
+ Score = 57.3 bits (137),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 21/91 (23%), Positives = 39/91 (43%), Gaps = 5/91 (5%)
+
+Query  3   YNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMA--SEGIDLE  60
+              + + A + LKE ++     D D   D +   AD++VP YY+D+  + +  ++    E
+Sbjct  5   LQEILNDALDELKERMKDYPDEDAD---DVVSEIADSSVPVYYSDLLKLASGCNDLATAE  61
+
+Query  61  FEDSGLMPDTKDVIRILQARIYEQLTIDLWE  91
+            E           + I+ A +YE +   L  
+Sbjct  62  PECGPAFDGKPTPVNIIAANVYEAVDQHLRN  92
+
+
+> UniRef90_A0A0W0WBS9 DNA mimic ocr n=1 Tax=Legionella maceachernii 
+TaxID=466 RepID=A0A0W0WBS9_9GAMM
+Length=121
+
+ Score = 53.1 bits (126),  Expect = 9e-07, Method: Composition-based stats.
+ Identities = 28/107 (26%), Positives = 55/107 (51%), Gaps = 6/107 (6%)
+
+Query  3    YNNVFDHAYEMLKENIRYDDIRD------TDDLHDAIHMAADNAVPHYYADIFSVMASEG  56
+             NN++    E L+ +I  D+++D       D L D+     D  +P YY+D+  ++A   
+Sbjct  10   LNNLYSSIKERLEWHISNDELKDMTRDEVIDSLEDSRFEIIDGELPIYYSDMAKLLAENT  69
+
+Query  57   IDLEFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEE  103
+                 +D G++P   +V  I+ A ++E L+ + ++ A D ++E + E
+Sbjct  70   NFATVDDEGILPKNPNVWDIITASVHEFLSGEFYQLACDAVDELIPE  116
+
+
+> UniRef90_UPI00037AD552 hypothetical protein n=1 Tax=Mariprofundus 
+ferrooxydans TaxID=314344 RepID=UPI00037AD552
+Length=109
+
+ Score = 45.8 bits (107),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 25/106 (24%), Positives = 44/106 (42%), Gaps = 10/106 (9%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEF  61
+            T + +   A + L+ N         D   D +H  AD AVP Y + +F +  +     E 
+Sbjct  5    TLSQIIQDAKDELEANY-----ESYDYPEDLVHELADAAVPIYNSHLFELATANPELAEE  59
+
+Query  62   EDSGL-----MPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLE  102
+             + G             IRI+   +YE+++ +L +   +L +E  E
+Sbjct  60   GELGPASGSNFSGAPMAIRIIAGSVYERISDELHQHLLELQHEQFE  105
+
+
+> UniRef90_A0A0F8WHQ4 Uncharacterized protein (Fragment) n=1 Tax=marine 
+sediment metagenome TaxID=412755 RepID=A0A0F8WHQ4_9ZZZZ
+Length=72
+
+ Score = 45.4 bits (106),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 11/57 (19%), Positives = 24/57 (42%), Gaps = 2/57 (4%)
+
+Query  42  PHYYADIFSVMASEG--IDLEFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDL  96
+           P Y +D+ +  + +      E E       +   + I+ +  YE +   L+E+ + L
+Sbjct  1   PIYTSDLLTAASQDNSLATDEPEIGPAWDGSPTPVNIISSNFYEAVRQALYEETQRL  57
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.138    0.354    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0426    0.140     1.90     42.6     43.6 
+
+Effective search space used: 447089704480
+Results from round 3
+
+
+Query= d1s7za_
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_I6Q9X8 Protein 0.3 n=1 Tax=Yersinia phage YpP-Y TaxID=...  141     3e-39
+  UniRef90_B3VCS5 Gp0.3 n=3 Tax=Podoviridae TaxID=10744 RepID=B3V...  118     1e-31
+  UniRef90_A0A193GYY9 Protein kinase n=4 Tax=Podoviridae TaxID=10...  118     2e-31
+  UniRef90_P03775 Overcome classical restriction gp0.3 n=20 Tax=P...  116     7e-31
+  UniRef90_I6Q9P6 Protein 0.3 n=4 Tax=Yersinia phage phiA1122 Tax...  116     9e-31
+  UniRef90_A0A172JGC5 Antirestriction protein n=1 Tax=Citrobacter...  117     1e-30
+  UniRef90_A0A0U3E5P2 Protein kinase n=1 Tax=Klebsiella phage vB_...  114     4e-30
+  UniRef90_W6PPE9 Predicted antirestriction protein n=1 Tax=Citro...  113     7e-30
+  UniRef90_B3VD30 Gp0.3 n=14 Tax=T7virus TaxID=110456 RepID=B3VD3...  113     9e-30
+  UniRef90_Q3YK01 Antirestriction protein n=1 Tax=Enterobacteria ...  112     8e-29
+  UniRef90_A0A1A8YFG8 Phage protein kinase n=1 Tax=Escherichia ph...  112     1e-28
+  UniRef90_Q7Y5R4 Gp5 n=1 Tax=Enterobacteria phage SP6 TaxID=1949...  110     2e-28
+  UniRef90_A0A0P0IXN4 Protein kinase n=1 Tax=Klebsiella phage vB_...  110     3e-28
+  UniRef90_F8R4P7 Ocr protein n=1 Tax=Enterobacteria phage K30 Ta...  108     6e-28
+  UniRef90_Q8LTV4 0.3 protein (Fragment) n=10 Tax=Enterobacteria ...  108     6e-28
+  UniRef90_A0A1J0MF91 Ocr protein n=1 Tax=Pectobacterium phage PP...  108     9e-28
+  UniRef90_K4FBP3 Uncharacterized protein n=2 Tax=root TaxID=1 Re...  108     1e-27
+  UniRef90_Q2WC28 Gp3 protein n=2 Tax=Sp6virus TaxID=542837 RepID...  107     2e-27
+  UniRef90_M1E358 Uncharacterized protein n=2 Tax=unclassified Sp...  107     3e-27
+  UniRef90_W6PUN0 Predicted antirestriction protein n=1 Tax=Citro...  105     1e-26
+  UniRef90_K4PB04 Uncharacterized protein n=1 Tax=Stenotrophomona...  105     4e-26
+  UniRef90_A0A0F9AXY8 Uncharacterized protein n=1 Tax=marine sedi...  97.0    2e-23
+  UniRef90_A0A0F9D8I2 Uncharacterized protein n=1 Tax=marine sedi...  96.6    3e-23
+  UniRef90_A0A0F9KGY4 Uncharacterized protein n=1 Tax=marine sedi...  97.4    3e-23
+  UniRef90_A0A0F8ZDN8 Uncharacterized protein n=1 Tax=marine sedi...  92.8    1e-21
+  UniRef90_A0A0F8X6M6 Uncharacterized protein n=1 Tax=marine sedi...  93.1    5e-21
+  UniRef90_A0A0W0WBS9 DNA mimic ocr n=1 Tax=Legionella maceachern...  88.5    6e-20
+  UniRef90_A0A0F9GYG8 Uncharacterized protein n=1 Tax=marine sedi...  87.4    2e-19
+  UniRef90_A0A0F9FD56 Uncharacterized protein (Fragment) n=1 Tax=...  86.2    3e-19
+  UniRef90_A0A192Y9X1 Uncharacterized protein n=1 Tax=Morganella ...  86.2    5e-19
+  UniRef90_B4YQI0 Putative uncharacterized protein n=1 Tax=Morgan...  84.7    2e-18
+  UniRef90_A0A0F9STN1 Uncharacterized protein n=1 Tax=marine sedi...  78.9    1e-16
+  UniRef90_I6QAF6 Protein 0.3 n=1 Tax=Yersinia phage YpsP-G TaxID...  78.5    2e-16
+  UniRef90_UPI00037AD552 hypothetical protein n=1 Tax=Mariprofund...  78.9    2e-16
+  UniRef90_A0A0E3JQD0 Protein kinase n=1 Tax=Enterobacter phage E...  61.2    3e-10
+  UniRef90_A0A0F8WHQ4 Uncharacterized protein (Fragment) n=1 Tax=...  60.4    1e-09
+  UniRef90_A0A0E3JJA7 Protein kinase n=1 Tax=Enterobacter phage E...  56.9    1e-08
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI000913D8E7 UPI000913D8E7 related cluster n=1 Tax=un...  50.4    7e-06
+  UniRef90_A0A1B1IR84 Uncharacterized protein n=1 Tax=uncultured ...  46.2    2e-04
+  UniRef90_A0A0F8YK78 Uncharacterized protein n=1 Tax=marine sedi...  40.8    0.009
+
+
+> UniRef90_I6Q9X8 Protein 0.3 n=1 Tax=Yersinia phage YpP-Y TaxID=1176766 
+RepID=I6Q9X8_9CAUD
+Length=228
+
+ Score = 141 bits (355),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 100/104 (96%), Positives = 103/104 (99%), Gaps = 0/104 (0%)
+
+Query  1    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+            MTY NVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAAD+A+PHYY+DIFSVMASEGIDLE
+Sbjct  6    MTYKNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADSAIPHYYSDIFSVMASEGIDLE  65
+
+Query  61   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEV  104
+            FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEV
+Sbjct  66   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEV  109
+
+
+> UniRef90_B3VCS5 Gp0.3 n=3 Tax=Podoviridae TaxID=10744 RepID=B3VCS5_9CAUD
+Length=110
+
+ Score = 118 bits (295),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 55/104 (53%), Positives = 69/104 (66%), Gaps = 0/104 (0%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEF  61
+             Y ++     E   E I+YD I + DD HDA+H   D  VPHYY +IF+VMA++GID EF
+Sbjct  7    AYYDLLAATVEAFNERIQYDKIAEGDDYHDALHEVVDGQVPHYYHEIFTVMAADGIDHEF  66
+
+Query  62   EDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEVE  105
+            EDSGLMPDTKDV RILQARIYE L  D+   ++ +  E  E+ E
+Sbjct  67   EDSGLMPDTKDVTRILQARIYEALYNDVSNSSDVVWFEPEEDCE  110
+
+
+> UniRef90_A0A193GYY9 Protein kinase n=4 Tax=Podoviridae TaxID=10744 
+RepID=A0A193GYY9_9CAUD
+Length=121
+
+ Score = 118 bits (295),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 85/98 (87%), Positives = 89/98 (91%), Gaps = 0/98 (0%)
+
+Query  1    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+            MTY+NVF HAYEML ENIRYDD RDTD L DAIH AAD+AVPHYY+DIFSVMAS+GIDLE
+Sbjct  6    MTYSNVFAHAYEMLNENIRYDDTRDTDGLSDAIHEAADSAVPHYYSDIFSVMASDGIDLE  65
+
+Query  61   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN  98
+            FEDSGLMPDTKDV  ILQARIYEQLTIDLWE AEDLLN
+Sbjct  66   FEDSGLMPDTKDVTCILQARIYEQLTIDLWEKAEDLLN  103
+
+
+> UniRef90_P03775 Overcome classical restriction gp0.3 n=20 Tax=Podoviridae 
+TaxID=10744 RepID=OCR_BPT7
+Length=117
+
+ Score = 116 bits (291),  Expect = 7e-31, Method: Composition-based stats.
+ Identities = 98/98 (100%), Positives = 98/98 (100%), Gaps = 0/98 (0%)
+
+Query  1    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+            MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE
+Sbjct  6    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  65
+
+Query  61   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN  98
+            FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN
+Sbjct  66   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN  103
+
+
+> UniRef90_I6Q9P6 Protein 0.3 n=4 Tax=Yersinia phage phiA1122 TaxID=227720 
+RepID=I6Q9P6_9CAUD
+Length=120
+
+ Score = 116 bits (290),  Expect = 9e-31, Method: Composition-based stats.
+ Identities = 94/98 (96%), Positives = 97/98 (99%), Gaps = 0/98 (0%)
+
+Query  1    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+            MTY NVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAAD+A+PHYY+DIFSVMASEGIDLE
+Sbjct  6    MTYKNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADSAIPHYYSDIFSVMASEGIDLE  65
+
+Query  61   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN  98
+            FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN
+Sbjct  66   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN  103
+
+
+> UniRef90_A0A172JGC5 Antirestriction protein n=1 Tax=Citrobacter 
+phage SH3 TaxID=1805466 RepID=A0A172JGC5_9CAUD
+Length=169
+
+ Score = 117 bits (294),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 53/104 (51%), Positives = 68/104 (65%), Gaps = 0/104 (0%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEF  61
+             Y  +     +   E I+YD I++ DD  DA+H   D+ VPHYY +IF+VMA++GID EF
+Sbjct  7    AYYELLAATVKAFNERIQYDGIQEDDDYSDALHEVVDSQVPHYYHEIFTVMAADGIDHEF  66
+
+Query  62   EDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEVE  105
+            EDSGLMPDTKDV RILQARIYE L  D+   ++ +  E  E  E
+Sbjct  67   EDSGLMPDTKDVTRILQARIYEALYNDVSNSSDVVWFEVEESDE  110
+
+
+> UniRef90_A0A0U3E5P2 Protein kinase n=1 Tax=Klebsiella phage vB_KpnP_IME205 
+TaxID=1770232 RepID=A0A0U3E5P2_9CAUD
+Length=112
+
+ Score = 114 bits (285),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 47/97 (48%), Positives = 64/97 (66%), Gaps = 0/97 (0%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEF  61
+             Y ++     ++  E I+YD++ + DD  DA+H   D  VPHYY++IF VMA++GID EF
+Sbjct  7    AYYDLVAATVKLFNERIQYDELTENDDWSDALHEVVDGQVPHYYSEIFMVMAADGIDFEF  66
+
+Query  62   EDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN  98
+             DSGL+PDTKDV RI QARIYE L  D+  D+  +  
+Sbjct  67   NDSGLIPDTKDVSRICQARIYEALYNDVSNDSGVIWF  103
+
+
+> UniRef90_W6PPE9 Predicted antirestriction protein n=1 Tax=Citrobacter 
+phage CR44b TaxID=1455075 RepID=W6PPE9_9CAUD
+Length=114
+
+ Score = 113 bits (284),  Expect = 7e-30, Method: Composition-based stats.
+ Identities = 55/106 (52%), Positives = 68/106 (64%), Gaps = 0/106 (0%)
+
+Query  1    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+              Y  +     E   E I+YD+I + DD HDA+    D  VPHYY +IF+VMA++GIDLE
+Sbjct  6    FAYYELLASTVEAFNERIQYDEIAEGDDYHDALQEVVDGQVPHYYHEIFTVMAADGIDLE  65
+
+Query  61   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEVEE  106
+            FEDSGLMP+TKDV RILQARIYE L  D+   +  +  E  E  EE
+Sbjct  66   FEDSGLMPETKDVTRILQARIYEALYNDVSNSSHIVWFEAEESDEE  111
+
+
+> UniRef90_B3VD30 Gp0.3 n=14 Tax=T7virus TaxID=110456 RepID=B3VD30_9CAUD
+Length=116
+
+ Score = 113 bits (283),  Expect = 9e-30, Method: Composition-based stats.
+ Identities = 90/95 (95%), Positives = 91/95 (96%), Gaps = 0/95 (0%)
+
+Query  1   MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+           MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIH AADNAVPHYY+DIFSVMASEGI  E
+Sbjct  6   MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHEAADNAVPHYYSDIFSVMASEGIYHE  65
+
+Query  61  FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAED  95
+           FEDSGLMPDTKDV RILQARIYEQLTIDLWEDAED
+Sbjct  66  FEDSGLMPDTKDVTRILQARIYEQLTIDLWEDAED  100
+
+
+> UniRef90_Q3YK01 Antirestriction protein n=1 Tax=Enterobacteria 
+phage K1F TaxID=344021 RepID=Q3YK01_BPK1F
+Length=169
+
+ Score = 112 bits (281),  Expect = 8e-29, Method: Composition-based stats.
+ Identities = 51/97 (53%), Positives = 65/97 (67%), Gaps = 0/97 (0%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEF  61
+             Y  +     E+  E I+YD+I + DD  DA+H   D  VPHYY +IF+VMA++GID EF
+Sbjct  7    AYYELLAATVELFNERIQYDEITEGDDYSDALHEVVDGQVPHYYHEIFTVMAADGIDHEF  66
+
+Query  62   EDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN  98
+            EDSGLMP+TKDV RILQARIYE L  D+   +E +  
+Sbjct  67   EDSGLMPETKDVTRILQARIYEALYNDVSNSSEVVWF  103
+
+
+> UniRef90_A0A1A8YFG8 Phage protein kinase n=1 Tax=Escherichia 
+phage LM33_P1 TaxID=1788294 RepID=A0A1A8YFG8_9CAUD
+Length=167
+
+ Score = 112 bits (279),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 46/97 (47%), Positives = 60/97 (62%), Gaps = 0/97 (0%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEF  61
+             Y  +     E   E I+YD +   DD   A+H   D  VPHYY +IF+VMA++GID EF
+Sbjct  7    AYYELLAATVEAFIERIQYDHLTQDDDYSAALHEVVDGQVPHYYHEIFTVMAADGIDNEF  66
+
+Query  62   EDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN  98
+            EDSG++P+TKDV RILQARIYE L  D+    + +  
+Sbjct  67   EDSGMIPETKDVTRILQARIYEALYNDVSNSLDVVWF  103
+
+
+> UniRef90_Q7Y5R4 Gp5 n=1 Tax=Enterobacteria phage SP6 TaxID=194966 
+RepID=Q7Y5R4_BPSP6
+Length=119
+
+ Score = 110 bits (275),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 76/98 (78%), Positives = 88/98 (90%), Gaps = 0/98 (0%)
+
+Query  1    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+            MTY++V++HAY +LKE IRYDD+R+ DDL D IH AA NAVPH+YADIFSVMAS+GIDLE
+Sbjct  6    MTYSDVYNHAYGLLKEYIRYDDVRNEDDLSDKIHEAAGNAVPHWYADIFSVMASDGIDLE  65
+
+Query  61   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN  98
+            F+DSGLMPDTKDV  ILQARI+EQLTIDL+ DAEDLLN
+Sbjct  66   FDDSGLMPDTKDVTYILQARIHEQLTIDLYGDAEDLLN  103
+
+
+> UniRef90_A0A0P0IXN4 Protein kinase n=1 Tax=Klebsiella phage vB_Kp1 
+TaxID=1701804 RepID=A0A0P0IXN4_9CAUD
+Length=115
+
+ Score = 110 bits (274),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 46/97 (47%), Positives = 65/97 (67%), Gaps = 0/97 (0%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEF  61
+             Y ++     E+  + I+ D++ + DD  DA+H   D  VPHYY++IF+VMA++GID EF
+Sbjct  7    AYYDLLAATIELFNDRIQQDELTEDDDWSDALHEVVDGQVPHYYSEIFTVMAADGIDHEF  66
+
+Query  62   EDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN  98
+            +DSGL+PDTKDV RI QARIYE L  D+  D+  +  
+Sbjct  67   DDSGLIPDTKDVSRICQARIYEALYNDVSNDSGIIWY  103
+
+
+> UniRef90_F8R4P7 Ocr protein n=1 Tax=Enterobacteria phage K30 
+TaxID=1041524 RepID=F8R4P7_9CAUD
+Length=116
+
+ Score = 108 bits (271),  Expect = 6e-28, Method: Composition-based stats.
+ Identities = 48/99 (48%), Positives = 65/99 (66%), Gaps = 0/99 (0%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEF  61
+             Y  +     E   E+I+YD + + DD +DA+H   D+ VPHYY +IF+VMA++GID EF
+Sbjct  7    AYYELLAATVEAFNEHIQYDKLTEDDDWYDALHEVVDSHVPHYYHEIFTVMAADGIDHEF  66
+
+Query  62   EDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEY  100
+            +DS L+PDTKDV RI QARIYE L  D+  D+  +  E 
+Sbjct  67   DDSDLIPDTKDVSRICQARIYEALYNDILNDSRVIWCEQ  105
+
+
+> UniRef90_Q8LTV4 0.3 protein (Fragment) n=10 Tax=Enterobacteria 
+phage T7 TaxID=10760 RepID=Q8LTV4_BPT7
+Length=95
+
+ Score = 108 bits (269),  Expect = 6e-28, Method: Composition-based stats.
+ Identities = 83/90 (92%), Positives = 86/90 (96%), Gaps = 0/90 (0%)
+
+Query  1   MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+           +TYNNVFDHAYEMLKENIRYDDI DT+DL+DAIHMA DNAVPHYYADIFSVMASEGID E
+Sbjct  6   ITYNNVFDHAYEMLKENIRYDDICDTNDLYDAIHMAVDNAVPHYYADIFSVMASEGIDFE  65
+
+Query  61  FEDSGLMPDTKDVIRILQARIYEQLTIDLW  90
+           FEDS LMPDTKDVIRILQARIYEQLTIDLW
+Sbjct  66  FEDSDLMPDTKDVIRILQARIYEQLTIDLW  95
+
+
+> UniRef90_A0A1J0MF91 Ocr protein n=1 Tax=Pectobacterium phage 
+PP74 TaxID=1916101 RepID=A0A1J0MF91_9CAUD
+Length=115
+
+ Score = 108 bits (270),  Expect = 9e-28, Method: Composition-based stats.
+ Identities = 48/97 (49%), Positives = 60/97 (62%), Gaps = 0/97 (0%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEF  61
+             Y ++     E   E I+ D +   DD +DA+H   DN VPHYY +IF+VMA++GID  F
+Sbjct  7    AYYDLVAATVEAFNERIQADKLTQDDDGYDALHEVVDNNVPHYYHEIFTVMAADGIDHAF  66
+
+Query  62   EDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN  98
+            EDSGLMPDT DV  ILQARIYE L  D+  D   +  
+Sbjct  67   EDSGLMPDTNDVTVILQARIYEALWNDVLNDCGLVWY  103
+
+
+> UniRef90_K4FBP3 Uncharacterized protein n=2 Tax=root TaxID=1 
+RepID=K4FBP3_9CAUD
+Length=118
+
+ Score = 108 bits (270),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 65/106 (61%), Positives = 79/106 (75%), Gaps = 0/106 (0%)
+
+Query  1    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+            MTY+ V++ A+  L E I  D I   D+ HDAIH  AD+ VP YYADIFSVMASEGID  
+Sbjct  6    MTYSQVYNTAHAALVERIWDDAIDCIDNAHDAIHEVADSTVPIYYADIFSVMASEGIDHF  65
+
+Query  61   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEVEE  106
+            FEDSGLMPDTKDV  +LQARIYEQLTIDL E  +D+++ Y++  E+
+Sbjct  66   FEDSGLMPDTKDVTVVLQARIYEQLTIDLRERVQDMIDAYIDSAED  111
+
+
+> UniRef90_Q2WC28 Gp3 protein n=2 Tax=Sp6virus TaxID=542837 RepID=Q2WC28_BPK1E
+Length=108
+
+ Score = 107 bits (267),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 53/102 (52%), Positives = 72/102 (71%), Gaps = 0/102 (0%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEF  61
+             Y N+     E   E I+YD+IR+ DD  DA+H   D+ VP YY++IF+VMA++GID+EF
+Sbjct  7    AYYNLLAATVEAFNERIQYDEIREGDDYSDALHEVVDSNVPVYYSEIFTVMAADGIDIEF  66
+
+Query  62   EDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEE  103
+            ED+GL+PDTKDV +ILQARIYE L  D+  D++ +  E  EE
+Sbjct  67   EDAGLIPDTKDVTKILQARIYESLYNDVPNDSDVVWYEDEEE  108
+
+
+> UniRef90_M1E358 Uncharacterized protein n=2 Tax=unclassified 
+Sp6likevirus TaxID=979725 RepID=M1E358_9CAUD
+Length=118
+
+ Score = 107 bits (267),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 73/98 (74%), Positives = 81/98 (83%), Gaps = 0/98 (0%)
+
+Query  1    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+            MTY NV++HAY +L E IRY+D+RD D+  D IH AADNAVP YY DIFSVMAS GID E
+Sbjct  6    MTYANVYNHAYSLLDEYIRYEDVRDYDEATDKIHEAADNAVPVYYKDIFSVMASGGIDHE  65
+
+Query  61   FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN  98
+            FEDSGL+PDTKDV RILQARIYEQLTIDL+E   DLLN
+Sbjct  66   FEDSGLIPDTKDVTRILQARIYEQLTIDLYEVVADLLN  103
+
+
+> UniRef90_W6PUN0 Predicted antirestriction protein n=1 Tax=Citrobacter 
+phage CR8 TaxID=1455076 RepID=W6PUN0_9CAUD
+Length=111
+
+ Score = 105 bits (262),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 52/105 (50%), Positives = 69/105 (66%), Gaps = 0/105 (0%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEF  61
+             Y  +   A +   E I+YD I + D+ HDA+H   D+ VPHYY++IF+VMA++GID EF
+Sbjct  7    AYYKLVADAVKAFNERIQYDQIAEGDEYHDALHEVVDDYVPHYYSEIFTVMAADGIDHEF  66
+
+Query  62   EDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEVEE  106
+            EDSGLMP++ DV  ILQARIYE L  D+  D   +  E  EE +E
+Sbjct  67   EDSGLMPESMDVTVILQARIYEALYNDVQNDCGLVWYEAEEEDDE  111
+
+
+> UniRef90_K4PB04 Uncharacterized protein n=1 Tax=Stenotrophomonas 
+phage IME15 TaxID=1239382 RepID=K4PB04_9CAUD
+Length=173
+
+ Score = 105 bits (263),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 48/93 (52%), Positives = 62/93 (67%), Gaps = 0/93 (0%)
+
+Query  2   TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEF  61
+            Y  +     E   E I+ D + +  D HDA+H   D  VPHYY +IF+VMA++GID+EF
+Sbjct  7   AYYELLAATVEAFNERIQEDQLTEHHDYHDALHEVVDRMVPHYYWEIFTVMAADGIDVEF  66
+
+Query  62  EDSGLMPDTKDVIRILQARIYEQLTIDLWEDAE  94
+           +D+GLMPDTKDV RILQARIYE L  D+  D+ 
+Sbjct  67  DDAGLMPDTKDVTRILQARIYEALYNDVPSDSG  99
+
+
+> UniRef90_A0A0F9AXY8 Uncharacterized protein n=1 Tax=marine sediment 
+metagenome TaxID=412755 RepID=A0A0F9AXY8_9ZZZZ
+Length=109
+
+ Score = 97.0 bits (240),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 31/105 (30%), Positives = 43/105 (41%), Gaps = 4/105 (4%)
+
+Query  1    MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMAS---EGI  57
+            +T   + + A E  +E     D  D  + HDAIH  AD AVP Y  D+  + A       
+Sbjct  6    LTLAGIIEGAIETFREGYDPADF-DQGEPHDAIHEVADGAVPVYNYDLLQLAADLSNGIA  64
+
+Query  58   DLEFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLE  102
+              E E       T   I I+ A +YE +   LWE+      E  +
+Sbjct  65   LAEPEIGPAFDGTPTPINIIAANVYEAVEAALWEEWRRAQEERED  109
+
+
+> UniRef90_A0A0F9D8I2 Uncharacterized protein n=1 Tax=marine sediment 
+metagenome TaxID=412755 RepID=A0A0F9D8I2_9ZZZZ
+Length=105
+
+ Score = 96.6 bits (239),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 32/105 (30%), Positives = 44/105 (42%), Gaps = 6/105 (6%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHD-AIHMAADNAVPHYYADIFSVMAS---EGI  57
+            T  ++ D A + L+E     D  D D  HD A+H  AD AVP Y  D+  + A       
+Sbjct  3    TLQDIIDGAVDELRE--WCKDNPDGDPTHDGALHEFADGAVPTYNYDLLQLAAELSNGLA  60
+
+Query  58   DLEFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLE  102
+              E E       T   I I+ A +YE +   LWE+      E  +
+Sbjct  61   LTEPEIGPAFDGTPTPINIIAANVYEAVEAALWEEWRRAQKERED  105
+
+
+> UniRef90_A0A0F9KGY4 Uncharacterized protein n=1 Tax=marine sediment 
+metagenome TaxID=412755 RepID=A0A0F9KGY4_9ZZZZ
+Length=138
+
+ Score = 97.4 bits (241),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 36/112 (32%), Positives = 56/112 (50%), Gaps = 7/112 (6%)
+
+Query  2    TYNNVFDHAYEMLKENI-RYDDIRD----TDDLHDAIHMAADNAVPHYYADIFSVMAS--  54
+            T     D A E L+E + + +D  +     ++ HD IH  AD +VP Y A + +V A   
+Sbjct  4    TLQVCIDGALEELRERVAQCEDDANRLVFLNEPHDTIHEIADGSVPVYNATLLAVAAESN  63
+
+Query  55   EGIDLEFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEVEE  106
+            E   LE E       T   I I+ A I+E +  +LWE+A+ +++E  EE  +
+Sbjct  64   EVALLEPEIGPAFDGTPTPINIIAANIFEAIKAELWEEAQRIVDEMEEEQSD  115
+
+
+> UniRef90_A0A0F8ZDN8 Uncharacterized protein n=1 Tax=marine sediment 
+metagenome TaxID=412755 RepID=A0A0F8ZDN8_9ZZZZ
+Length=111
+
+ Score = 92.8 bits (229),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 27/108 (25%), Positives = 52/108 (48%), Gaps = 5/108 (5%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEG--IDL  59
+            +   +   A E L+   +  D +D  + HD+IH  AD++VP Y  D+  + A        
+Sbjct  4    SLYEIIKLAREELRGRAK--DNKDETEPHDSIHEIADSSVPVYTGDLLQLAADNLELATA  61
+
+Query  60   EFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLE-EVEE  106
+            + E       +   + I+ A ++E +   LWE+ +++ +E  + E+EE
+Sbjct  62   KPELGPAFDGSPTPVNIVAANVFEAIEAGLWEEWKEIESEREDAELEE  109
+
+
+> UniRef90_A0A0F8X6M6 Uncharacterized protein n=1 Tax=marine sediment 
+metagenome TaxID=412755 RepID=A0A0F8X6M6_9ZZZZ
+Length=201
+
+ Score = 93.1 bits (230),  Expect = 5e-21, Method: Composition-based stats.
+ Identities = 21/97 (22%), Positives = 38/97 (39%), Gaps = 4/97 (4%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMAS--EGIDL  59
+            T   +     + ++E  +  ++ +     D +   AD  VP Y  +I  V A   +   L
+Sbjct  95   TLYGLERGVRDEVRERSK--ELLEDVCPEDTLTEIADGWVPIYTYNILQVAADNMDMATL  152
+
+Query  60   EFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDL  96
+            E E       T   I I+ A IY+ L    +++   +
+Sbjct  153  EPELGPAFDGTPTPINIIAANIYKALNAAAFKEWAKV  189
+
+
+> UniRef90_A0A0W0WBS9 DNA mimic ocr n=1 Tax=Legionella maceachernii 
+TaxID=466 RepID=A0A0W0WBS9_9GAMM
+Length=121
+
+ Score = 88.5 bits (218),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 28/107 (26%), Positives = 55/107 (51%), Gaps = 6/107 (6%)
+
+Query  3    YNNVFDHAYEMLKENIRYDDIRD------TDDLHDAIHMAADNAVPHYYADIFSVMASEG  56
+             NN++    E L+ +I  D+++D       D L D+     D  +P YY+D+  ++A   
+Sbjct  10   LNNLYSSIKERLEWHISNDELKDMTRDEVIDSLEDSRFEIIDGELPIYYSDMAKLLAENT  69
+
+Query  57   IDLEFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEE  103
+                 +D G++P   +V  I+ A ++E L+ + ++ A D ++E + E
+Sbjct  70   NFATVDDEGILPKNPNVWDIITASVHEFLSGEFYQLACDAVDELIPE  116
+
+
+> UniRef90_A0A0F9GYG8 Uncharacterized protein n=1 Tax=marine sediment 
+metagenome TaxID=412755 RepID=A0A0F9GYG8_9ZZZZ
+Length=122
+
+ Score = 87.4 bits (215),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 25/103 (24%), Positives = 42/103 (41%), Gaps = 4/103 (4%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMAS--EGIDL  59
+            T   +       ++E  + +++++     D I    D  VP Y   I  V A   +   L
+Sbjct  3    TLYELERSIRAEVQE--KAEELKEATYPEDLITEMVDGWVPIYNGQILEVAADSMDMAIL  60
+
+Query  60   EFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLE  102
+            E E       T   I I+ A IYE L +  +++ +D+ N   E
+Sbjct  61   EPELGPAFDGTPTPINIIAANIYETLQVAAFDEWDDIANASTE  103
+
+
+> UniRef90_A0A0F9FD56 Uncharacterized protein (Fragment) n=1 Tax=marine 
+sediment metagenome TaxID=412755 RepID=A0A0F9FD56_9ZZZZ
+Length=104
+
+ Score = 86.2 bits (212),  Expect = 3e-19, Method: Composition-based stats.
+ Identities = 28/103 (27%), Positives = 48/103 (47%), Gaps = 4/103 (4%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASE--GIDL  59
+            T  ++ D A + L+E  +  D  D D   +AIH  A+ AVP Y +D+  +  ++      
+Sbjct  4    TLRDIIDIARDELRE--QCKDSPDFDPTDEAIHEIANGAVPVYISDLMEMAVNDIDLAMA  61
+
+Query  60   EFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLE  102
+              E       T   + I+ A +YE +T  L+ + E + +E  E
+Sbjct  62   TPELGPAFDGTPTPVNIIAANVYEAVTAALYVEWETIKDEREE  104
+
+
+> UniRef90_A0A192Y9X1 Uncharacterized protein n=1 Tax=Morganella 
+phage vB_MmoP_MP2 TaxID=1852627 RepID=A0A192Y9X1_9CAUD
+Length=126
+
+ Score = 86.2 bits (212),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 42/107 (39%), Positives = 65/107 (61%), Gaps = 2/107 (2%)
+
+Query  2    TYNNVFDHAYEMLKENIR--YDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDL  59
+            TYN + D A + LK+ IR  +      DD+ D I+   + A+P+   +IF V A  GI  
+Sbjct  3    TYNELLDTARDELKDAIRELHVTDERDDDIRDRIYEIIEGAMPYANHEIFEVFAGNGISY  62
+
+Query  60   EFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEVEE  106
+            + +D+GL+    DVI IL+ RIYE+L+ DL+ +  DL+ EY +E+E+
+Sbjct  63   QMDDNGLIEGCTDVIEILKMRIYEELSNDLYGELSDLIQEYNDELED  109
+
+
+> UniRef90_B4YQI0 Putative uncharacterized protein n=1 Tax=Morganella 
+phage MmP1 TaxID=526118 RepID=B4YQI0_9CAUD
+Length=120
+
+ Score = 84.7 bits (208),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 46/107 (43%), Positives = 65/107 (61%), Gaps = 2/107 (2%)
+
+Query  2    TYNNVFDHAYEMLKENIR--YDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDL  59
+            T+N ++  A E L+  IR  +    D DD+ D IH  AD+ VP Y  D+F+V A  GI  
+Sbjct  3    TFNELYASAKEDLEAAIRELHVTDTDDDDIRDRIHEIADSNVPIYNGDVFAVFADGGISY  62
+
+Query  60   EFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLEEVEE  106
+            E +DSGL+    DV+ IL+ RIYE+L   L+ D ED +  Y+EE+E+
+Sbjct  63   EMDDSGLIEGVTDVLHILRVRIYEELINCLYGDLEDCVTAYVEELED  109
+
+
+> UniRef90_A0A0F9STN1 Uncharacterized protein n=1 Tax=marine sediment 
+metagenome TaxID=412755 RepID=A0A0F9STN1_9ZZZZ
+Length=97
+
+ Score = 78.9 bits (193),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 21/96 (22%), Positives = 40/96 (42%), Gaps = 5/96 (5%)
+
+Query  3   YNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMA--SEGIDLE  60
+              + + A + LKE ++     D D   D +   AD++VP YY+D+  + +  ++    E
+Sbjct  5   LQEILNDALDELKERMKDYPDEDAD---DVVSEIADSSVPVYYSDLLKLASGCNDLATAE  61
+
+Query  61  FEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDL  96
+            E           + I+ A +YE +   L      +
+Sbjct  62  PECGPAFDGKPTPVNIIAANVYEAVDQHLRNYLSAI  97
+
+
+> UniRef90_I6QAF6 Protein 0.3 n=1 Tax=Yersinia phage YpsP-G TaxID=1176767 
+RepID=I6QAF6_9CAUD
+Length=84
+
+ Score = 78.5 bits (192),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 61/64 (95%), Positives = 64/64 (100%), Gaps = 0/64 (0%)
+
+Query  35  MAADNAVPHYYADIFSVMASEGIDLEFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAE  94
+           MAAD+A+PHYY+DIFSVMASEGIDLEFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAE
+Sbjct  1   MAADSAIPHYYSDIFSVMASEGIDLEFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAE  60
+
+Query  95  DLLN  98
+           DLLN
+Sbjct  61  DLLN  64
+
+
+> UniRef90_UPI00037AD552 hypothetical protein n=1 Tax=Mariprofundus 
+ferrooxydans TaxID=314344 RepID=UPI00037AD552
+Length=109
+
+ Score = 78.9 bits (193),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 25/106 (24%), Positives = 44/106 (42%), Gaps = 10/106 (9%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEF  61
+            T + +   A + L+ N         D   D +H  AD AVP Y + +F +  +     E 
+Sbjct  5    TLSQIIQDAKDELEANY-----ESYDYPEDLVHELADAAVPIYNSHLFELATANPELAEE  59
+
+Query  62   EDSGL-----MPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEYLE  102
+             + G             IRI+   +YE+++ +L +   +L +E  E
+Sbjct  60   GELGPASGSNFSGAPMAIRIIAGSVYERISDELHQHLLELQHEQFE  105
+
+
+> UniRef90_A0A0E3JQD0 Protein kinase n=1 Tax=Enterobacter phage 
+E-4 TaxID=1636315 RepID=A0A0E3JQD0_9CAUD
+Length=55
+
+ Score = 61.2 bits (147),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 40/48 (83%), Positives = 43/48 (90%), Gaps = 0/48 (0%)
+
+Query  1   MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADI  48
+           MTY+NVF HAYEML ENIRYDDIRDTD L DAIH AAD+AVPHYY+DI
+Sbjct  6   MTYSNVFAHAYEMLNENIRYDDIRDTDGLGDAIHEAADSAVPHYYSDI  53
+
+
+> UniRef90_A0A0F8WHQ4 Uncharacterized protein (Fragment) n=1 Tax=marine 
+sediment metagenome TaxID=412755 RepID=A0A0F8WHQ4_9ZZZZ
+Length=72
+
+ Score = 60.4 bits (145),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 11/57 (19%), Positives = 24/57 (42%), Gaps = 2/57 (4%)
+
+Query  42  PHYYADIFSVMASEG--IDLEFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDL  96
+           P Y +D+ +  + +      E E       +   + I+ +  YE +   L+E+ + L
+Sbjct  1   PIYTSDLLTAASQDNSLATDEPEIGPAWDGSPTPVNIISSNFYEAVRQALYEETQRL  57
+
+
+> UniRef90_A0A0E3JJA7 Protein kinase n=1 Tax=Enterobacter phage 
+E-4 TaxID=1636315 RepID=A0A0E3JJA7_9CAUD
+Length=65
+
+ Score = 56.9 bits (136),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 43/47 (91%), Positives = 44/47 (94%), Gaps = 0/47 (0%)
+
+Query  52  MASEGIDLEFEDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLN  98
+           MAS+GIDLEFEDSGLMPDTKDV  ILQARIYEQLTIDLWE AEDLLN
+Sbjct  1   MASDGIDLEFEDSGLMPDTKDVTSILQARIYEQLTIDLWEKAEDLLN  47
+
+
+> UniRef90_UPI000913D8E7 UPI000913D8E7 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000913D8E7
+Length=107
+
+ Score = 50.4 bits (119),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 24/107 (22%), Positives = 42/107 (39%), Gaps = 12/107 (11%)
+
+Query  2    TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDL--  59
+            T   V ++A     E        + +   D I   AD++VP YY  I  +  S+   +  
+Sbjct  4    TIQQVIENAKAEFIE-----QQSNYEYPEDLIAEIADSSVPFYYNQIAEIAQSDIALMLD  58
+
+Query  60   EFEDSGLMPDT-----KDVIRILQARIYEQLTIDLWEDAEDLLNEYL  101
+            E E      D         +  + A IYE++  +L+E   ++ N+  
+Sbjct  59   EPELGAASGDNFRGMENTPVAYIAANIYERVQQELFELLYEIQNQRE  105
+
+
+> UniRef90_A0A1B1IR84 Uncharacterized protein n=1 Tax=uncultured 
+Mediterranean phage uvDeep-CGR2-KM24-C165 TaxID=1868686 RepID=A0A1B1IR84_9VIRU
+Length=101
+
+ Score = 46.2 bits (108),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 14/85 (16%), Positives = 33/85 (39%), Gaps = 5/85 (6%)
+
+Query  1   MTYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLE  60
+           +    +  +  + L      D+ ++  +  D ++   D+ +P Y  D   +   +     
+Sbjct  5   INMYQLEKNLIDELN-----DNKKEILENEDLLYEYVDSHIPVYNYDRLQLACDDLWLGY  59
+
+Query  61  FEDSGLMPDTKDVIRILQARIYEQL  85
+             +SG+     +   I+   IYE+L
+Sbjct  60  PSESGISEGCDNAYDIIAHNIYEKL  84
+
+
+> UniRef90_A0A0F8YK78 Uncharacterized protein n=1 Tax=marine sediment 
+metagenome TaxID=412755 RepID=A0A0F8YK78_9ZZZZ
+Length=67
+
+ Score = 40.8 bits (94),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 20/99 (20%), Positives = 30/99 (30%), Gaps = 36/99 (36%)
+
+Query  2   TYNNVFDHAYEMLKENIRYDDIRDTDDLHDAIHMAADNAVPHYYADIFSVMASEGIDLEF  61
+           T  ++ D A + L+E        D     +AIH  AD  VP Y                 
+Sbjct  3   TLRDIIDGARDELRE--WCKFETDRGPPDEAIHEIADGVVPIYT----------------  44
+
+Query  62  EDSGLMPDTKDVIRILQARIYEQLTIDLWEDAEDLLNEY  100
+                              +YE +   L+E+ E +  E 
+Sbjct  45  ------------------NVYEAVETALYEEWETIKEER  65
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.140    0.350    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0423    0.140     1.90     42.6     43.6 
+
+Effective search space used: 447089704480
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

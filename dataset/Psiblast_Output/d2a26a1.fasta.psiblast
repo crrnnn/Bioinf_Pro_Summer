@@ -1,0 +1,3570 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d2a26a1
+
+Length=47
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_B4DFD3 cDNA FLJ57914, moderately similar to Calcyclin-...  91.3    7e-22
+  UniRef90_Q9HB71-2 Isoform 2 of Calcyclin-binding protein n=1 Ta...  89.4    1e-21
+  UniRef90_Q9HB71 Calcyclin-binding protein n=63 Tax=Eutheria Tax...  89.7    2e-20
+  UniRef90_UPI000533EE02 PREDICTED: LOW QUALITY PROTEIN: calcycli...  89.0    3e-20
+  UniRef90_M1EGU4 Calcyclin binding protein (Fragment) n=1 Tax=Mu...  82.4    8e-18
+  UniRef90_A0A0N8ESL5 Calcyclin-binding protein isoform 2 n=2 Tax...  81.6    2e-17
+  UniRef90_L9JEU3 Calcyclin-binding protein n=1 Tax=Tupaia chinen...  80.1    3e-17
+  UniRef90_UPI00077DEE37 UPI00077DEE37 related cluster n=1 Tax=un...  78.6    4e-17
+  UniRef90_UPI00032AFCF5 PREDICTED: calcyclin-binding protein n=1...  80.5    4e-17
+  UniRef90_J9P4U8 Uncharacterized protein n=3 Tax=Canis lupus fam...  82.0    4e-17
+  UniRef90_UPI00067BF9A2 PREDICTED: calcyclin-binding protein iso...  80.1    4e-17
+  UniRef90_L9JEE4 Calcyclin-binding protein n=1 Tax=Tupaia chinen...  77.0    5e-17
+  UniRef90_G5C951 Calcyclin-binding protein n=1 Tax=Heterocephalu...  79.3    6e-17
+  UniRef90_A0A0A6YY29 Calcyclin-binding protein (Fragment) n=2 Ta...  78.2    7e-17
+  UniRef90_L9KXD4 Calcyclin-binding protein n=1 Tax=Tupaia chinen...  77.4    8e-17
+  UniRef90_L9L4C1 Calcyclin-binding protein n=1 Tax=Tupaia chinen...  78.6    9e-17
+  UniRef90_UPI0007A6D541 UPI0007A6D541 related cluster n=1 Tax=un...  78.2    2e-16
+  UniRef90_H0XMX3 Uncharacterized protein n=1 Tax=Otolemur garnet...  78.2    3e-16
+  UniRef90_G5ALL1 Calcyclin-binding protein n=1 Tax=Heterocephalu...  77.8    3e-16
+  UniRef90_H0XY33 Uncharacterized protein n=2 Tax=Otolemur garnet...  78.2    3e-16
+  UniRef90_M3Y0C3 Uncharacterized protein n=25 Tax=Eutheria TaxID...  78.2    3e-16
+  UniRef90_UPI00042BC7B6 PREDICTED: calcyclin-binding protein n=3...  77.8    4e-16
+  UniRef90_H0VLZ7 Uncharacterized protein n=10 Tax=Boreoeutheria ...  77.4    4e-16
+  UniRef90_W5PW38 Uncharacterized protein (Fragment) n=6 Tax=Laur...  77.4    5e-16
+  UniRef90_L9JK83 Calcyclin-binding protein n=1 Tax=Tupaia chinen...  75.5    8e-16
+  UniRef90_L9KLQ3 Lymphocyte antigen 6H n=1 Tax=Tupaia chinensis ...  79.0    9e-16
+  UniRef90_UPI00062AC80D PREDICTED: calcyclin-binding protein-lik...  76.3    1e-15
+  UniRef90_Q6AYK6 Calcyclin-binding protein n=5 Tax=Eutheria TaxI...  76.3    2e-15
+  UniRef90_A0A091DEU9 Calcyclin-binding protein n=2 Tax=Fukomys d...  75.9    2e-15
+  UniRef90_G1SLM1 Uncharacterized protein n=3 Tax=Boreoeutheria T...  75.1    3e-15
+  UniRef90_UPI00038E9A30 PREDICTED: calcyclin-binding protein-lik...  74.3    6e-15
+  UniRef90_G1LRK9 Uncharacterized protein n=1 Tax=Ailuropoda mela...  70.9    9e-14
+  UniRef90_G5BFD5 Calcyclin-binding protein n=1 Tax=Heterocephalu...  70.5    1e-13
+  UniRef90_F6QF42 Uncharacterized protein n=1 Tax=Ornithorhynchus...  70.5    2e-13
+  UniRef90_L9L525 Calcyclin-binding protein n=1 Tax=Tupaia chinen...  68.6    3e-13
+  UniRef90_UPI00069711DA PREDICTED: calcyclin-binding protein-lik...  68.2    8e-13
+  UniRef90_UPI0004434593 PREDICTED: calcyclin-binding protein n=1...  68.6    3e-12
+  UniRef90_F6SVZ6 Uncharacterized protein n=1 Tax=Monodelphis dom...  67.0    8e-12
+  UniRef90_A0A091E8K7 Calcyclin-binding protein n=1 Tax=Fukomys d...  63.5    1e-11
+  UniRef90_UPI00062AB642 PREDICTED: calcyclin-binding protein-lik...  65.5    1e-11
+  UniRef90_G3WJ33 Uncharacterized protein n=1 Tax=Sarcophilus har...  64.7    2e-11
+  UniRef90_UPI00062A8A73 PREDICTED: calcyclin-binding protein-lik...  62.8    8e-11
+  UniRef90_A0A151MIL9 Calcyclin-binding protein n=5 Tax=Alligator...  62.8    1e-10
+  UniRef90_G5C9U6 Calcyclin-binding protein n=1 Tax=Heterocephalu...  59.7    2e-10
+  UniRef90_G3WJ32 Uncharacterized protein (Fragment) n=2 Tax=Sarc...  61.2    3e-10
+  UniRef90_B5FZV8 Putative calcyclin binding protein n=1 Tax=Taen...  60.5    4e-10
+  UniRef90_UPI000854B221 UPI000854B221 related cluster n=1 Tax=un...  60.5    7e-10
+  UniRef90_F6YV35 Uncharacterized protein n=5 Tax=Xenopus TaxID=2...  59.7    1e-09
+  UniRef90_E1BQN9 Uncharacterized protein n=28 Tax=Aves TaxID=878...  57.0    1e-08
+  UniRef90_UPI000549C0D1 PREDICTED: calcyclin-binding protein n=1...  56.2    1e-08
+  UniRef90_UPI00074FF02A PREDICTED: calcyclin-binding protein n=1...  56.2    2e-08
+  UniRef90_V8PH06 Calcyclin-binding protein n=8 Tax=Serpentes Tax...  55.8    3e-08
+  UniRef90_A0A091T3E2 Calcyclin-binding protein (Fragment) n=10 T...  53.9    1e-07
+  UniRef90_UPI00051F0104 PREDICTED: calcyclin-binding protein n=1...  54.7    1e-07
+  UniRef90_UPI000520F54D PREDICTED: calcyclin-binding protein-lik...  53.1    2e-07
+  UniRef90_UPI000529AC50 PREDICTED: calcyclin-binding protein n=1...  53.5    3e-07
+  UniRef90_G1MTC7 Uncharacterized protein (Fragment) n=9 Tax=Aves...  52.8    4e-07
+  UniRef90_A0A0P7V760 Calcyclin-binding protein-like (Fragment) n...  52.4    5e-07
+  UniRef90_UPI00042C1D67 PREDICTED: calcyclin-binding protein n=1...  52.0    9e-07
+  UniRef90_K7G9C2 Uncharacterized protein n=4 Tax=Cryptodira TaxI...  51.6    1e-06
+  UniRef90_A0A093HEC9 Calcyclin-binding protein (Fragment) n=2 Ta...  51.2    2e-06
+  UniRef90_A0A091I2B9 Calcyclin-binding protein (Fragment) n=24 T...  50.8    2e-06
+  UniRef90_A0A091DNT8 Sorting nexin-2 n=1 Tax=Fukomys damarensis ...  50.8    3e-06
+  UniRef90_U3I6T9 Uncharacterized protein n=4 Tax=Anatidae TaxID=...  48.1    2e-05
+  UniRef90_A0A0E9X3I6 Uncharacterized protein n=1 Tax=Anguilla an...  47.8    4e-05
+  UniRef90_C3Z811 Putative uncharacterized protein n=1 Tax=Branch...  47.4    1e-04
+  UniRef90_A0A0Q3X7J5 Uncharacterized protein n=1 Tax=Amazona aes...  47.0    2e-04
+  UniRef90_W5M3A3 Uncharacterized protein n=1 Tax=Lepisosteus ocu...  45.8    2e-04
+  UniRef90_A0A1B0FNW9 Uncharacterized protein n=6 Tax=Glossina Ta...  43.1    0.002
+  UniRef90_UPI0007AC5EE0 UPI0007AC5EE0 related cluster n=9 Tax=un...  42.0    0.005
+  UniRef90_UPI0009481F39 UPI0009481F39 related cluster n=1 Tax=un...  42.7    0.006
+  UniRef90_A0A1I8PX44 Uncharacterized protein n=1 Tax=Stomoxys ca...  41.6    0.006
+
+
+> UniRef90_B4DFD3 cDNA FLJ57914, moderately similar to Calcyclin-binding 
+protein n=1 Tax=Homo sapiens TaxID=9606 RepID=B4DFD3_HUMAN
+Length=131
+
+ Score = 91.3 bits (225),  Expect = 7e-22, Method: Compositional matrix adjust.
+ Identities = 47/47 (100%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK
+Sbjct  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+
+
+> UniRef90_Q9HB71-2 Isoform 2 of Calcyclin-binding protein n=1 
+Tax=Homo sapiens TaxID=9606 RepID=Q9HB71-2
+Length=80
+
+ Score = 89.4 bits (220),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 47/47 (100%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK
+Sbjct  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+
+
+> UniRef90_Q9HB71 Calcyclin-binding protein n=63 Tax=Eutheria TaxID=9347 
+RepID=CYBP_HUMAN
+Length=228
+
+ Score = 89.7 bits (221),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 47/47 (100%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK
+Sbjct  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+
+
+> UniRef90_UPI000533EE02 PREDICTED: LOW QUALITY PROTEIN: calcyclin-binding 
+protein n=1 Tax=Saimiri boliviensis boliviensis 
+TaxID=39432 RepID=UPI000533EE02
+Length=228
+
+ Score = 89.0 bits (219),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MASEELQKDLEEVKVLLEKATRKR+RDALTAEKSKIETEIKNKMQQK
+Sbjct  1   MASEELQKDLEEVKVLLEKATRKRIRDALTAEKSKIETEIKNKMQQK  47
+
+
+> UniRef90_M1EGU4 Calcyclin binding protein (Fragment) n=1 Tax=Mustela 
+putorius furo TaxID=9669 RepID=M1EGU4_MUSPF
+Length=252
+
+ Score = 82.4 bits (202),  Expect = 8e-18, Method: Compositional matrix adjust.
+ Identities = 45/49 (92%), Positives = 46/49 (94%), Gaps = 2/49 (4%)
+
+Query  1    MAS--EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            MAS  EELQKDLEEVKVLLEK +RKRVRDALTAEKSKIETEIKNKMQQK
+Sbjct  66   MASALEELQKDLEEVKVLLEKTSRKRVRDALTAEKSKIETEIKNKMQQK  114
+
+
+> UniRef90_A0A0N8ESL5 Calcyclin-binding protein isoform 2 n=2 Tax=Heterocephalus 
+glaber TaxID=10181 RepID=A0A0N8ESL5_HETGA
+Length=230
+
+ Score = 81.6 bits (200),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 45/49 (92%), Positives = 46/49 (94%), Gaps = 2/49 (4%)
+
+Query  1   MAS--EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MAS  EELQ DLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNK+QQK
+Sbjct  1   MASALEELQNDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKVQQK  49
+
+
+> UniRef90_L9JEU3 Calcyclin-binding protein n=1 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L9JEU3_TUPCH
+Length=177
+
+ Score = 80.1 bits (196),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 45/49 (92%), Positives = 45/49 (92%), Gaps = 2/49 (4%)
+
+Query  1   MAS--EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MAS  EELQKDLEEVKVLLEK TRKRV DALTAEKSKIETEIKNKMQQK
+Sbjct  1   MASTVEELQKDLEEVKVLLEKVTRKRVPDALTAEKSKIETEIKNKMQQK  49
+
+
+> UniRef90_UPI00077DEE37 UPI00077DEE37 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00077DEE37
+Length=115
+
+ Score = 78.6 bits (192),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 42/49 (86%), Positives = 45/49 (92%), Gaps = 2/49 (4%)
+
+Query  1   MAS--EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MAS  EELQKDLEEVKVLL+K TRKRVRD LT+EKSKIETE+KNKMQQK
+Sbjct  1   MASTLEELQKDLEEVKVLLDKTTRKRVRDTLTSEKSKIETEMKNKMQQK  49
+
+
+> UniRef90_UPI00032AFCF5 PREDICTED: calcyclin-binding protein n=1 
+Tax=Ochotona princeps TaxID=9978 RepID=UPI00032AFCF5
+Length=226
+
+ Score = 80.5 bits (197),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 41/46 (89%), Positives = 45/46 (98%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQKDLEEVKVLLEK+TRKRVRDALTAEK+KIETE++NKMQQK
+Sbjct  4   ALEELQKDLEEVKVLLEKSTRKRVRDALTAEKAKIETEVRNKMQQK  49
+
+
+> UniRef90_J9P4U8 Uncharacterized protein n=3 Tax=Canis lupus familiaris 
+TaxID=9615 RepID=J9P4U8_CANLF
+Length=379
+
+ Score = 82.0 bits (201),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 45/49 (92%), Positives = 45/49 (92%), Gaps = 2/49 (4%)
+
+Query  1    MAS--EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            MAS  EELQKDLEEVKVLLEKA RKRVRDALT EKSKIETEIKNKMQQK
+Sbjct  150  MASALEELQKDLEEVKVLLEKANRKRVRDALTVEKSKIETEIKNKMQQK  198
+
+
+> UniRef90_UPI00067BF9A2 PREDICTED: calcyclin-binding protein isoform 
+X2 n=4 Tax=Boreoeutheria TaxID=1437010 RepID=UPI00067BF9A2
+Length=191
+
+ Score = 80.1 bits (196),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 43/49 (88%), Positives = 46/49 (94%), Gaps = 2/49 (4%)
+
+Query  1   MAS--EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MAS  EELQKDLE+VKV+LEK TRKRVRDALT+EKSKIETEIKNKMQQK
+Sbjct  1   MASALEELQKDLEDVKVVLEKCTRKRVRDALTSEKSKIETEIKNKMQQK  49
+
+
+> UniRef90_L9JEE4 Calcyclin-binding protein n=1 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L9JEE4_TUPCH
+Length=64
+
+ Score = 77.0 bits (188),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 43/47 (91%), Positives = 45/47 (96%), Gaps = 2/47 (4%)
+
+Query  1   MAS--EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQ  45
+           MAS  EELQKDLEEVKVLLEKATRKRVRDALTAEKSKI+TEIKNK+Q
+Sbjct  18  MASTLEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIKTEIKNKIQ  64
+
+
+> UniRef90_G5C951 Calcyclin-binding protein n=1 Tax=Heterocephalus 
+glaber TaxID=10181 RepID=G5C951_HETGA
+Length=182
+
+ Score = 79.3 bits (194),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 44/49 (90%), Positives = 46/49 (94%), Gaps = 2/49 (4%)
+
+Query  1   MAS--EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MAS  EELQKDLEEVKVLLEKATRKRV+DALTAEKS IETEIKNK+QQK
+Sbjct  1   MASALEELQKDLEEVKVLLEKATRKRVQDALTAEKSNIETEIKNKVQQK  49
+
+
+> UniRef90_A0A0A6YY29 Calcyclin-binding protein (Fragment) n=2 
+Tax=Muroidea TaxID=337687 RepID=A0A0A6YY29_MOUSE
+Length=135
+
+ Score = 78.2 bits (191),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 42/49 (86%), Positives = 46/49 (94%), Gaps = 2/49 (4%)
+
+Query  1   MAS--EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MAS  EELQKDLEEVKVLLEK+TRKR+RD LT+EKSKIETE+KNKMQQK
+Sbjct  1   MASVLEELQKDLEEVKVLLEKSTRKRLRDTLTSEKSKIETELKNKMQQK  49
+
+
+> UniRef90_L9KXD4 Calcyclin-binding protein n=1 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L9KXD4_TUPCH
+Length=110
+
+ Score = 77.4 bits (189),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 42/49 (86%), Positives = 44/49 (90%), Gaps = 2/49 (4%)
+
+Query  1    MAS--EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            MAS  EELQKDLEEVKVLLEKATRK+VRDALTA+K  IET IKNKMQQK
+Sbjct  54   MASTTEELQKDLEEVKVLLEKATRKKVRDALTAKKPNIETPIKNKMQQK  102
+
+
+> UniRef90_L9L4C1 Calcyclin-binding protein n=1 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L9L4C1_TUPCH
+Length=167
+
+ Score = 78.6 bits (192),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 41/44 (93%), Positives = 42/44 (95%), Gaps = 0/44 (0%)
+
+Query  4   EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           EELQKDLEEVKVLLEKATRKRV D LTAEKSKIETEIKNKM+QK
+Sbjct  6   EELQKDLEEVKVLLEKATRKRVHDVLTAEKSKIETEIKNKMEQK  49
+
+
+> UniRef90_UPI0007A6D541 UPI0007A6D541 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007A6D541
+Length=228
+
+ Score = 78.2 bits (191),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 40/46 (87%), Positives = 43/46 (93%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            SEELQKDLEEVK+LLEKAT K++RDALTAEKSKIETE KNKMQQK
+Sbjct  3   VSEELQKDLEEVKILLEKATMKKIRDALTAEKSKIETETKNKMQQK  48
+
+
+> UniRef90_H0XMX3 Uncharacterized protein n=1 Tax=Otolemur garnettii 
+TaxID=30611 RepID=H0XMX3_OTOGA
+Length=229
+
+ Score = 78.2 bits (191),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 43/49 (88%), Positives = 45/49 (92%), Gaps = 2/49 (4%)
+
+Query  1   MAS--EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MAS  EELQKDLEE KVLLEKATRKRV DALTAEKSKIETEIKN++QQK
+Sbjct  1   MASTLEELQKDLEEAKVLLEKATRKRVHDALTAEKSKIETEIKNQVQQK  49
+
+
+> UniRef90_G5ALL1 Calcyclin-binding protein n=1 Tax=Heterocephalus 
+glaber TaxID=10181 RepID=G5ALL1_HETGA
+Length=198
+
+ Score = 77.8 bits (190),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 43/49 (88%), Positives = 46/49 (94%), Gaps = 2/49 (4%)
+
+Query  1   MAS--EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MAS  EELQ DLEEVKVLLEKATRKRV+DALTAEKSKI+TEIKNK+QQK
+Sbjct  1   MASALEELQNDLEEVKVLLEKATRKRVQDALTAEKSKIKTEIKNKVQQK  49
+
+
+> UniRef90_H0XY33 Uncharacterized protein n=2 Tax=Otolemur garnettii 
+TaxID=30611 RepID=H0XY33_OTOGA
+Length=236
+
+ Score = 78.2 bits (191),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 44/49 (90%), Positives = 45/49 (92%), Gaps = 2/49 (4%)
+
+Query  1   MAS--EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MAS  EELQKD EE KVLLEKATRKRVRDALTAEKSKI+TEIKNKMQQK
+Sbjct  1   MASALEELQKDREEAKVLLEKATRKRVRDALTAEKSKIKTEIKNKMQQK  49
+
+
+> UniRef90_M3Y0C3 Uncharacterized protein n=25 Tax=Eutheria TaxID=9347 
+RepID=M3Y0C3_MUSPF
+Length=232
+
+ Score = 78.2 bits (191),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 40/43 (93%), Positives = 42/43 (98%), Gaps = 0/43 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +LQKDLEEVKVLLEK +RKRVRDALTAEKSKIETEIKNKMQQK
+Sbjct  9   QLQKDLEEVKVLLEKTSRKRVRDALTAEKSKIETEIKNKMQQK  51
+
+
+> UniRef90_UPI00042BC7B6 PREDICTED: calcyclin-binding protein n=3 
+Tax=Eutheria TaxID=9347 RepID=UPI00042BC7B6
+Length=247
+
+ Score = 77.8 bits (190),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 40/43 (93%), Positives = 42/43 (98%), Gaps = 0/43 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +LQKDLEEVKVLLEKATRKRVRDALT EKSKIETEIKNK+QQK
+Sbjct  24  QLQKDLEEVKVLLEKATRKRVRDALTTEKSKIETEIKNKVQQK  66
+
+
+> UniRef90_H0VLZ7 Uncharacterized protein n=10 Tax=Boreoeutheria 
+TaxID=1437010 RepID=H0VLZ7_CAVPO
+Length=230
+
+ Score = 77.4 bits (189),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 40/46 (87%), Positives = 41/46 (89%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            S +LQ DLEEVK LLEKATRKRVRDALTAEK KIETEIKNKMQQK
+Sbjct  4   VSTQLQNDLEEVKTLLEKATRKRVRDALTAEKCKIETEIKNKMQQK  49
+
+
+> UniRef90_W5PW38 Uncharacterized protein (Fragment) n=6 Tax=Laurasiatheria 
+TaxID=314145 RepID=W5PW38_SHEEP
+Length=230
+
+ Score = 77.4 bits (189),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 40/43 (93%), Positives = 42/43 (98%), Gaps = 0/43 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +LQKDLEEVKVLLEKATRKRVRDALTAEKSKIE E+KNKMQQK
+Sbjct  7   QLQKDLEEVKVLLEKATRKRVRDALTAEKSKIEIEMKNKMQQK  49
+
+
+> UniRef90_L9JK83 Calcyclin-binding protein n=1 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L9JK83_TUPCH
+Length=136
+
+ Score = 75.5 bits (184),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 43/49 (88%), Positives = 45/49 (92%), Gaps = 3/49 (6%)
+
+Query  1   MAS--EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MAS  EELQKDLE VKV+LEKATRKRVRDALTAE+ KIETEIKNKMQQK
+Sbjct  1   MASTVEELQKDLE-VKVILEKATRKRVRDALTAERFKIETEIKNKMQQK  48
+
+
+> UniRef90_L9KLQ3 Lymphocyte antigen 6H n=1 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L9KLQ3_TUPCH
+Length=465
+
+ Score = 79.0 bits (193),  Expect = 9e-16, Method: Composition-based stats.
+ Identities = 38/44 (86%), Positives = 42/44 (95%), Gaps = 0/44 (0%)
+
+Query  4    EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            +ELQK+LEEVKVLLEKATRKRVRDALTAE S IETEI+N+MQQK
+Sbjct  102  QELQKELEEVKVLLEKATRKRVRDALTAENSDIETEIENQMQQK  145
+
+
+> UniRef90_UPI00062AC80D PREDICTED: calcyclin-binding protein-like 
+n=1 Tax=Octodon degus TaxID=10160 RepID=UPI00062AC80D
+Length=230
+
+ Score = 76.3 bits (186),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 42/49 (86%), Positives = 42/49 (86%), Gaps = 2/49 (4%)
+
+Query  1   MAS--EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MAS  EELQ DLEEVK LLEKA RKRVRD LT EKSKIETEIKNKMQQK
+Sbjct  1   MASALEELQNDLEEVKALLEKAPRKRVRDTLTVEKSKIETEIKNKMQQK  49
+
+
+> UniRef90_Q6AYK6 Calcyclin-binding protein n=5 Tax=Eutheria TaxID=9347 
+RepID=CYBP_RAT
+Length=229
+
+ Score = 76.3 bits (186),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 41/49 (84%), Positives = 45/49 (92%), Gaps = 2/49 (4%)
+
+Query  1   MAS--EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MAS  EELQKDLEEVKVLLEK+TRKR+RD LT EKSKIETE++NKMQQK
+Sbjct  1   MASALEELQKDLEEVKVLLEKSTRKRLRDTLTNEKSKIETELRNKMQQK  49
+
+
+> UniRef90_A0A091DEU9 Calcyclin-binding protein n=2 Tax=Fukomys 
+damarensis TaxID=885580 RepID=A0A091DEU9_FUKDA
+Length=292
+
+ Score = 75.9 bits (185),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 39/42 (93%), Positives = 40/42 (95%), Gaps = 0/42 (0%)
+
+Query  6    LQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            LQ DLEEVKVLLEKATRKRVRD LTAEKSKIETEIKNK+QQK
+Sbjct  70   LQNDLEEVKVLLEKATRKRVRDTLTAEKSKIETEIKNKVQQK  111
+
+
+> UniRef90_G1SLM1 Uncharacterized protein n=3 Tax=Boreoeutheria 
+TaxID=1437010 RepID=G1SLM1_RABIT
+Length=227
+
+ Score = 75.1 bits (183),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 38/47 (81%), Positives = 42/47 (89%), Gaps = 0/47 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +  E+LQKDLEEVK LLEK TRKR+ DALTAEKSKIETEIKNK+QQK
+Sbjct  1   LTVEQLQKDLEEVKALLEKTTRKRIHDALTAEKSKIETEIKNKVQQK  47
+
+
+> UniRef90_UPI00038E9A30 PREDICTED: calcyclin-binding protein-like 
+n=1 Tax=Chinchilla lanigera TaxID=34839 RepID=UPI00038E9A30
+Length=230
+
+ Score = 74.3 bits (181),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 41/49 (84%), Positives = 42/49 (86%), Gaps = 2/49 (4%)
+
+Query  1   MAS--EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MAS  EELQ DLEEVKVLL+KAT KRVRDAL  EKSKIETEIKNKMQ K
+Sbjct  1   MASALEELQNDLEEVKVLLDKATGKRVRDALIVEKSKIETEIKNKMQHK  49
+
+
+> UniRef90_G1LRK9 Uncharacterized protein n=1 Tax=Ailuropoda melanoleuca 
+TaxID=9646 RepID=G1LRK9_AILME
+Length=203
+
+ Score = 70.9 bits (172),  Expect = 9e-14, Method: Compositional matrix adjust.
+ Identities = 39/47 (83%), Positives = 41/47 (87%), Gaps = 0/47 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +A +ELQKDLEEVKVLLEKATRKRV DAL  EKSKI TEIK KMQQK
+Sbjct  3   LALKELQKDLEEVKVLLEKATRKRVCDALMVEKSKIRTEIKKKMQQK  49
+
+
+> UniRef90_G5BFD5 Calcyclin-binding protein n=1 Tax=Heterocephalus 
+glaber TaxID=10181 RepID=G5BFD5_HETGA
+Length=186
+
+ Score = 70.5 bits (171),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 40/49 (82%), Positives = 41/49 (84%), Gaps = 2/49 (4%)
+
+Query  1   MASE--ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MAS   E Q DLEEVK LLEKATRKRV DA TAEKSKIETEIKNK+QQK
+Sbjct  1   MASALGESQNDLEEVKALLEKATRKRVWDAPTAEKSKIETEIKNKVQQK  49
+
+
+> UniRef90_F6QF42 Uncharacterized protein n=1 Tax=Ornithorhynchus 
+anatinus TaxID=9258 RepID=F6QF42_ORNAN
+Length=229
+
+ Score = 70.5 bits (171),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 37/44 (84%), Positives = 39/44 (89%), Gaps = 0/44 (0%)
+
+Query  4   EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           EE QKDLEEVK LLEK TRKRVRD LTAEK K+E+EIKNKMQQK
+Sbjct  6   EEHQKDLEEVKKLLEKVTRKRVRDVLTAEKGKLESEIKNKMQQK  49
+
+
+> UniRef90_L9L525 Calcyclin-binding protein n=1 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L9L525_TUPCH
+Length=127
+
+ Score = 68.6 bits (166),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 35/44 (80%), Positives = 38/44 (86%), Gaps = 0/44 (0%)
+
+Query  4   EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           EELQKD EEVK L+ KAT+KRV +A T EKSKIETEIKNKMQQK
+Sbjct  31  EELQKDQEEVKALVGKATKKRVHNAFTIEKSKIETEIKNKMQQK  74
+
+
+> UniRef90_UPI00069711DA PREDICTED: calcyclin-binding protein-like 
+n=1 Tax=Chinchilla lanigera TaxID=34839 RepID=UPI00069711DA
+Length=208
+
+ Score = 68.2 bits (165),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 38/49 (78%), Positives = 40/49 (82%), Gaps = 2/49 (4%)
+
+Query  1   MAS--EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MAS  EELQ DL EVK LLEKATRKRV D+LTA KSK E EIKNKMQ+K
+Sbjct  1   MASALEELQNDLGEVKALLEKATRKRVHDSLTAGKSKTEIEIKNKMQRK  49
+
+
+> UniRef90_UPI0004434593 PREDICTED: calcyclin-binding protein n=1 
+Tax=Monodelphis domestica TaxID=13616 RepID=UPI0004434593
+Length=403
+
+ Score = 68.6 bits (166),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 37/46 (80%), Positives = 41/46 (89%), Gaps = 0/46 (0%)
+
+Query  2    ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            A EEL+KDLEEVK LL KATRKRVRD LTAEKSK+ETEIK+K +QK
+Sbjct  178  ALEELRKDLEEVKELLGKATRKRVRDVLTAEKSKLETEIKHKTKQK  223
+
+
+> UniRef90_F6SVZ6 Uncharacterized protein n=1 Tax=Monodelphis domestica 
+TaxID=13616 RepID=F6SVZ6_MONDO
+Length=330
+
+ Score = 67.0 bits (162),  Expect = 8e-12, Method: Compositional matrix adjust.
+ Identities = 36/46 (78%), Positives = 40/46 (87%), Gaps = 0/46 (0%)
+
+Query  2    ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            A  EL+KDLEEVK LL KATRKRVRD LTAEKSK+ETEIK+K +QK
+Sbjct  105  APGELRKDLEEVKELLGKATRKRVRDVLTAEKSKLETEIKHKTKQK  150
+
+
+> UniRef90_A0A091E8K7 Calcyclin-binding protein n=1 Tax=Fukomys 
+damarensis TaxID=885580 RepID=A0A091E8K7_FUKDA
+Length=81
+
+ Score = 63.5 bits (153),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 37/49 (76%), Positives = 40/49 (82%), Gaps = 2/49 (4%)
+
+Query  1   MAS--EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MAS  EELQ  LEEVK+LLEKAT+ RV DALTAEK  IE EIK+KMQQK
+Sbjct  1   MASALEELQNYLEEVKLLLEKATKIRVHDALTAEKFNIEREIKSKMQQK  49
+
+
+> UniRef90_UPI00062AB642 PREDICTED: calcyclin-binding protein-like 
+n=1 Tax=Octodon degus TaxID=10160 RepID=UPI00062AB642
+Length=264
+
+ Score = 65.5 bits (158),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 35/45 (78%), Positives = 39/45 (87%), Gaps = 0/45 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQ  46
+           A EELQ DLEEVK LLEKATRK +R+ L+AEKSKIETEIKNK +Q
+Sbjct  37  ALEELQDDLEEVKALLEKATRKSLRETLSAEKSKIETEIKNKTRQ  81
+
+
+> UniRef90_G3WJ33 Uncharacterized protein n=1 Tax=Sarcophilus harrisii 
+TaxID=9305 RepID=G3WJ33_SARHA
+Length=227
+
+ Score = 64.7 bits (156),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 35/47 (74%), Positives = 39/47 (83%), Gaps = 0/47 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MA   L+KDLEEVK LL KATRKRVRD LTAEKSK+E EIK+K +QK
+Sbjct  1   MAHRTLRKDLEEVKDLLGKATRKRVRDVLTAEKSKLEAEIKHKTKQK  47
+
+
+> UniRef90_UPI00062A8A73 PREDICTED: calcyclin-binding protein-like 
+n=1 Tax=Octodon degus TaxID=10160 RepID=UPI00062A8A73
+Length=209
+
+ Score = 62.8 bits (151),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 32/35 (91%), Positives = 32/35 (91%), Gaps = 0/35 (0%)
+
+Query  13  VKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           VK LLEKATRKRVRD LT EKSKIETEIKNKMQQK
+Sbjct  15  VKALLEKATRKRVRDTLTVEKSKIETEIKNKMQQK  49
+
+
+> UniRef90_A0A151MIL9 Calcyclin-binding protein n=5 Tax=Alligator 
+TaxID=8495 RepID=A0A151MIL9_ALLMI
+Length=222
+
+ Score = 62.8 bits (151),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 34/46 (74%), Positives = 37/46 (80%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQKDLEEVK LL KATRKR++D L AEK KIETEIKN+   K
+Sbjct  4   AREELQKDLEEVKELLNKATRKRIQDVLMAEKHKIETEIKNQPGPK  49
+
+
+> UniRef90_G5C9U6 Calcyclin-binding protein n=1 Tax=Heterocephalus 
+glaber TaxID=10181 RepID=G5C9U6_HETGA
+Length=72
+
+ Score = 59.7 bits (143),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 30/33 (91%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+
+Query  15  VLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +LLEKATRKRVRDALTAEKSKI+TEIKNK+QQK
+Sbjct  1   MLLEKATRKRVRDALTAEKSKIKTEIKNKVQQK  33
+
+
+> UniRef90_G3WJ32 Uncharacterized protein (Fragment) n=2 Tax=Sarcophilus 
+harrisii TaxID=9305 RepID=G3WJ32_SARHA
+Length=229
+
+ Score = 61.2 bits (147),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 33/44 (75%), Positives = 39/44 (89%), Gaps = 0/44 (0%)
+
+Query  4   EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           ++L+KDLEEVK LL KATRKRVRD LTAEKSK+E EIK+K +QK
+Sbjct  6   QKLRKDLEEVKDLLGKATRKRVRDVLTAEKSKLEAEIKHKTKQK  49
+
+
+> UniRef90_B5FZV8 Putative calcyclin binding protein n=1 Tax=Taeniopygia 
+guttata TaxID=59729 RepID=B5FZV8_TAEGU
+Length=157
+
+ Score = 60.5 bits (145),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 33/47 (70%), Positives = 36/47 (77%), Gaps = 0/47 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +A EELQKDLEEVK LL  ATRKRVRD L AEK K+E EIKN+   K
+Sbjct  13  VAREELQKDLEEVKELLTNATRKRVRDVLVAEKQKLELEIKNQPPPK  59
+
+
+> UniRef90_UPI000854B221 UPI000854B221 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000854B221
+Length=227
+
+ Score = 60.5 bits (145),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 32/43 (74%), Positives = 35/43 (81%), Gaps = 0/43 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           E QKDLEEVK LLEKATRKRVRD L  E+ K+ETEI NK QQ+
+Sbjct  7   EFQKDLEEVKQLLEKATRKRVRDVLFVEQRKLETEIANKRQQQ  49
+
+
+> UniRef90_F6YV35 Uncharacterized protein n=5 Tax=Xenopus TaxID=262014 
+RepID=F6YV35_XENTR
+Length=227
+
+ Score = 59.7 bits (143),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 32/44 (73%), Positives = 36/44 (82%), Gaps = 0/44 (0%)
+
+Query  4   EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +ELQKDLEEVK LLEKATRKRVRD L  E+ K+ETEI  K QQ+
+Sbjct  6   QELQKDLEEVKQLLEKATRKRVRDVLFVEQRKLETEISTKQQQQ  49
+
+
+> UniRef90_E1BQN9 Uncharacterized protein n=28 Tax=Aves TaxID=8782 
+RepID=E1BQN9_CHICK
+Length=221
+
+ Score = 57.0 bits (136),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 31/42 (74%), Positives = 34/42 (81%), Gaps = 0/42 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNK  43
+           A EELQKDLEEVK LL KATRKR+RD L  EK K+E EIKN+
+Sbjct  4   AREELQKDLEEVKELLAKATRKRLRDVLMMEKHKLELEIKNQ  45
+
+
+> UniRef90_UPI000549C0D1 PREDICTED: calcyclin-binding protein n=1 
+Tax=Meleagris gallopavo TaxID=9103 RepID=UPI000549C0D1
+Length=146
+
+ Score = 56.2 bits (134),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 30/40 (75%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  4   EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNK  43
+           EELQKDLEEVK LL KATRKR+RD L  EK K+E EIKN+
+Sbjct  6   EELQKDLEEVKELLAKATRKRLRDVLMMEKHKLELEIKNQ  45
+
+
+> UniRef90_UPI00074FF02A PREDICTED: calcyclin-binding protein n=1 
+Tax=Gekko japonicus TaxID=146911 RepID=UPI00074FF02A
+Length=218
+
+ Score = 56.2 bits (134),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 30/44 (68%), Positives = 36/44 (82%), Gaps = 0/44 (0%)
+
+Query  4   EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           EELQKDLEEVK LL+KA+RKR+ D L AEK+K+E EIKN+   K
+Sbjct  2   EELQKDLEEVKELLKKASRKRIHDVLLAEKNKLEKEIKNQPPPK  45
+
+
+> UniRef90_V8PH06 Calcyclin-binding protein n=8 Tax=Serpentes TaxID=8570 
+RepID=V8PH06_OPHHA
+Length=218
+
+ Score = 55.8 bits (133),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 30/39 (77%), Positives = 33/39 (85%), Gaps = 0/39 (0%)
+
+Query  4   EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKN  42
+           EELQKDLEEVK LL+ ATRKR+ D L AEK+KIE EIKN
+Sbjct  2   EELQKDLEEVKELLKTATRKRIYDFLLAEKNKIEREIKN  40
+
+
+> UniRef90_A0A091T3E2 Calcyclin-binding protein (Fragment) n=10 
+Tax=Neognathae TaxID=8825 RepID=A0A091T3E2_9AVES
+Length=163
+
+ Score = 53.9 bits (128),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 29/43 (67%), Positives = 33/43 (77%), Gaps = 0/43 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +LQKDLEEVK LL KATRKR+RD L  EK K+E EIKN+   K
+Sbjct  1   QLQKDLEEVKELLTKATRKRLRDVLMTEKHKLELEIKNQPPPK  43
+
+
+> UniRef90_UPI00051F0104 PREDICTED: calcyclin-binding protein n=1 
+Tax=Egretta garzetta TaxID=188379 RepID=UPI00051F0104
+Length=238
+
+ Score = 54.7 bits (130),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 30/42 (71%), Positives = 32/42 (76%), Gaps = 0/42 (0%)
+
+Query  6   LQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           LQKDLEEVK LL KATRKRVRD L  EK K+E EIKN+   K
+Sbjct  25  LQKDLEEVKELLTKATRKRVRDVLMTEKHKLELEIKNQPAPK  66
+
+
+> UniRef90_UPI000520F54D PREDICTED: calcyclin-binding protein-like 
+n=1 Tax=Gavia stellata TaxID=37040 RepID=UPI000520F54D
+Length=132
+
+ Score = 53.1 bits (126),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 28/38 (74%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  6   LQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNK  43
+           LQKDLEEVK LL KATRKR+RD L  EK K+E EIKN+
+Sbjct  36  LQKDLEEVKELLTKATRKRLRDVLMTEKHKLELEIKNQ  73
+
+
+> UniRef90_UPI000529AC50 PREDICTED: calcyclin-binding protein n=1 
+Tax=Colius striatus TaxID=57412 RepID=UPI000529AC50
+Length=239
+
+ Score = 53.5 bits (127),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 29/42 (69%), Positives = 32/42 (76%), Gaps = 0/42 (0%)
+
+Query  6   LQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           LQKDLEEVK LL KATRKR+RD L  EK K+E EIKN+   K
+Sbjct  26  LQKDLEEVKELLAKATRKRLRDVLMTEKQKLELEIKNQPPPK  67
+
+
+> UniRef90_G1MTC7 Uncharacterized protein (Fragment) n=9 Tax=Aves 
+TaxID=8782 RepID=G1MTC7_MELGA
+Length=224
+
+ Score = 52.8 bits (125),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 28/39 (72%), Positives = 32/39 (82%), Gaps = 0/39 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNK  43
+           +LQKDLEEVK LL KATRKR+RD L  EK K+E EIKN+
+Sbjct  10  QLQKDLEEVKELLAKATRKRLRDVLMMEKHKLELEIKNQ  48
+
+
+> UniRef90_A0A0P7V760 Calcyclin-binding protein-like (Fragment) 
+n=2 Tax=Scleropages formosus TaxID=113540 RepID=A0A0P7V760_9TELE
+Length=219
+
+ Score = 52.4 bits (124),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 27/43 (63%), Positives = 35/43 (81%), Gaps = 0/43 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +L+ DL+EVK LLEK+TR+R+RD L+ E+ KIETEI  K QQK
+Sbjct  3   QLESDLQEVKSLLEKSTRRRLRDVLSQEQKKIETEIALKWQQK  45
+
+
+> UniRef90_UPI00042C1D67 PREDICTED: calcyclin-binding protein n=1 
+Tax=Chelonia mydas TaxID=8469 RepID=UPI00042C1D67
+Length=223
+
+ Score = 52.0 bits (123),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 28/42 (67%), Positives = 32/42 (76%), Gaps = 0/42 (0%)
+
+Query  6    LQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            L+KDLEEVK LL+KATRKR  D L AEK K+E EIKN+   K
+Sbjct  61   LEKDLEEVKELLKKATRKRTHDVLMAEKYKLEIEIKNQPPPK  102
+
+
+> UniRef90_K7G9C2 Uncharacterized protein n=4 Tax=Cryptodira TaxID=8464 
+RepID=K7G9C2_PELSI
+Length=217
+
+ Score = 51.6 bits (122),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 27/38 (71%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKN  42
+           +L+KDLEEVK L++KATRKRV D L AEK K+E EIKN
+Sbjct  2   QLEKDLEEVKELMKKATRKRVYDILIAEKYKLEMEIKN  39
+
+
+> UniRef90_A0A093HEC9 Calcyclin-binding protein (Fragment) n=2 
+Tax=Struthio camelus australis TaxID=441894 RepID=A0A093HEC9_STRCA
+Length=216
+
+ Score = 51.2 bits (121),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 27/43 (63%), Positives = 32/43 (74%), Gaps = 0/43 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +LQKDLEEVK LL K TRKR+RD L  EK K+E E+KN+   K
+Sbjct  1   QLQKDLEEVKELLTKTTRKRLRDVLMTEKHKLEIELKNQPPPK  43
+
+
+> UniRef90_A0A091I2B9 Calcyclin-binding protein (Fragment) n=24 
+Tax=Neognathae TaxID=8825 RepID=A0A091I2B9_CALAN
+Length=215
+
+ Score = 50.8 bits (120),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 27/43 (63%), Positives = 32/43 (74%), Gaps = 0/43 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +LQKDLEE+K LL K TRKR+RD L  EK +IE EIKN+   K
+Sbjct  1   QLQKDLEEIKELLLKTTRKRLRDVLMTEKYRIELEIKNQPPPK  43
+
+
+> UniRef90_A0A091DNT8 Sorting nexin-2 n=1 Tax=Fukomys damarensis 
+TaxID=885580 RepID=A0A091DNT8_FUKDA
+Length=238
+
+ Score = 50.8 bits (120),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 25/32 (78%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  2    ASEELQKDLEEVKVLLEKATRKRVRDALTAEK  33
+            A EE+Q DLEEVK+LLEK TRKR+ DALTAEK
+Sbjct  204  ALEEMQNDLEEVKLLLEKNTRKRIHDALTAEK  235
+
+
+> UniRef90_U3I6T9 Uncharacterized protein n=4 Tax=Anatidae TaxID=8830 
+RepID=U3I6T9_ANAPL
+Length=218
+
+ Score = 48.1 bits (113),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 26/41 (63%), Positives = 31/41 (76%), Gaps = 0/41 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNK  43
+           + +L KDLEEVK LL K TRKR+RD L  EK K+E EIKN+
+Sbjct  4   ANQLLKDLEEVKELLVKVTRKRLRDVLLTEKHKLELEIKNQ  44
+
+
+> UniRef90_A0A0E9X3I6 Uncharacterized protein n=1 Tax=Anguilla 
+anguilla TaxID=7936 RepID=A0A0E9X3I6_ANGAN
+Length=228
+
+ Score = 47.8 bits (112),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 25/43 (58%), Positives = 32/43 (74%), Gaps = 0/43 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +L+ DL+E+  LLEK+ RKRV+D LT EK K+E EI  K QQK
+Sbjct  9   QLESDLQEINFLLEKSDRKRVQDVLTQEKKKVEREIALKQQQK  51
+
+
+> UniRef90_C3Z811 Putative uncharacterized protein n=1 Tax=Branchiostoma 
+floridae TaxID=7739 RepID=C3Z811_BRAFL
+Length=638
+
+ Score = 47.4 bits (111),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 23/39 (59%), Positives = 33/39 (85%), Gaps = 0/39 (0%)
+
+Query  4   EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKN  42
+           EELQ DL+E++ LLE++TR+RV+ ALT EK +I+TEI +
+Sbjct  5   EELQADLQEIERLLEQSTRERVKKALTLEKGRIQTEITD  43
+
+
+> UniRef90_A0A0Q3X7J5 Uncharacterized protein n=1 Tax=Amazona aestiva 
+TaxID=12930 RepID=A0A0Q3X7J5_AMAAE
+Length=615
+
+ Score = 47.0 bits (110),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 26/42 (62%), Positives = 29/42 (69%), Gaps = 0/42 (0%)
+
+Query  6    LQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            L KDLEEV  LL K TRKR+RD L  EK K+E EIKN+   K
+Sbjct  402  LLKDLEEVNELLAKTTRKRLRDVLMTEKHKLELEIKNQPPPK  443
+
+
+> UniRef90_W5M3A3 Uncharacterized protein n=1 Tax=Lepisosteus oculatus 
+TaxID=7918 RepID=W5M3A3_LEPOC
+Length=227
+
+ Score = 45.8 bits (107),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 25/42 (60%), Positives = 32/42 (76%), Gaps = 0/42 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQ  46
+           +L+ DL+EVK LLE A RKR++D LTAE+ K+E EI  K QQ
+Sbjct  9   QLESDLKEVKSLLEIAERKRIQDVLTAEQKKLEREITAKQQQ  50
+
+
+> UniRef90_A0A1B0FNW9 Uncharacterized protein n=6 Tax=Glossina 
+TaxID=44049 RepID=A0A1B0FNW9_GLOMM
+Length=215
+
+ Score = 43.1 bits (100),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 24/42 (57%), Positives = 32/42 (76%), Gaps = 0/42 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKN  42
+           M+ EEL+KD EE+  LL +ATRKRV+DAL   K++I+ EI N
+Sbjct  1   MSIEELRKDSEELTKLLGEATRKRVKDALVKAKAEIDREIVN  42
+
+
+> UniRef90_UPI0007AC5EE0 UPI0007AC5EE0 related cluster n=9 Tax=unknown 
+TaxID= RepID=UPI0007AC5EE0
+Length=230
+
+ Score = 42.0 bits (97),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 22/42 (52%), Positives = 29/42 (69%), Gaps = 0/42 (0%)
+
+Query  6   LQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           L+ D +E+  LLEK  R+R+RD LT E+ KIE E+  K QQK
+Sbjct  13  LESDFKEITSLLEKCERQRLRDVLTQEQKKIEKELAQKRQQK  54
+
+
+> UniRef90_UPI0009481F39 UPI0009481F39 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009481F39
+Length=626
+
+ Score = 42.7 bits (99),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 21/39 (54%), Positives = 32/39 (82%), Gaps = 0/39 (0%)
+
+Query  4   EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKN  42
+           +EL+ DL+E++ LLE+A R+RV+ ALT EK +I+TEI +
+Sbjct  5   QELRADLQEIERLLEQARRERVKKALTLEKGRIQTEITD  43
+
+
+> UniRef90_A0A1I8PX44 Uncharacterized protein n=1 Tax=Stomoxys 
+calcitrans TaxID=35570 RepID=A0A1I8PX44_STOCA
+Length=226
+
+ Score = 41.6 bits (96),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 22/40 (55%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKN  42
+           +EEL+KD EE+  LL +ATRKRV+DAL   K++++ EI N
+Sbjct  4   AEELRKDSEEICKLLAEATRKRVKDALVKAKAEVDREIVN  43
+
+
+
+Lambda      K        H        a         alpha
+   0.303    0.119    0.275    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 435784359530
+Results from round 2
+
+
+Query= d2a26a1
+
+Length=47
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_J9P4U8 Uncharacterized protein n=3 Tax=Canis lupus fam...  89.5    5e-20
+  UniRef90_L9KLQ3 Lymphocyte antigen 6H n=1 Tax=Tupaia chinensis ...  90.7    5e-20
+  UniRef90_B4DFD3 cDNA FLJ57914, moderately similar to Calcyclin-...  86.5    5e-20
+  UniRef90_M1EGU4 Calcyclin binding protein (Fragment) n=1 Tax=Mu...  84.1    2e-18
+  UniRef90_UPI0004434593 PREDICTED: calcyclin-binding protein n=1...  83.8    9e-18
+  UniRef90_Q9HB71 Calcyclin-binding protein n=63 Tax=Eutheria Tax...  79.5    1e-16
+  UniRef90_L9JK83 Calcyclin-binding protein n=1 Tax=Tupaia chinen...  77.6    1e-16
+  UniRef90_A0A0N8ESL5 Calcyclin-binding protein isoform 2 n=2 Tax...  78.8    2e-16
+  UniRef90_UPI00077DEE37 UPI00077DEE37 related cluster n=1 Tax=un...  76.4    2e-16
+  UniRef90_UPI000533EE02 PREDICTED: LOW QUALITY PROTEIN: calcycli...  78.4    2e-16
+  UniRef90_H0XMX3 Uncharacterized protein n=1 Tax=Otolemur garnet...  78.0    3e-16
+  UniRef90_UPI00042BC7B6 PREDICTED: calcyclin-binding protein n=3...  78.4    3e-16
+  UniRef90_L9KXD4 Calcyclin-binding protein n=1 Tax=Tupaia chinen...  76.1    3e-16
+  UniRef90_H0VLZ7 Uncharacterized protein n=10 Tax=Boreoeutheria ...  77.6    4e-16
+  UniRef90_G1SLM1 Uncharacterized protein n=3 Tax=Boreoeutheria T...  77.6    5e-16
+  UniRef90_UPI00062AC80D PREDICTED: calcyclin-binding protein-lik...  77.6    5e-16
+  UniRef90_UPI00032AFCF5 PREDICTED: calcyclin-binding protein n=1...  77.2    5e-16
+  UniRef90_A0A091DEU9 Calcyclin-binding protein n=2 Tax=Fukomys d...  77.6    6e-16
+  UniRef90_G5ALL1 Calcyclin-binding protein n=1 Tax=Heterocephalu...  76.1    1e-15
+  UniRef90_UPI00038E9A30 PREDICTED: calcyclin-binding protein-lik...  75.7    2e-15
+  UniRef90_L9L4C1 Calcyclin-binding protein n=1 Tax=Tupaia chinen...  74.5    3e-15
+  UniRef90_W5PW38 Uncharacterized protein (Fragment) n=6 Tax=Laur...  75.3    3e-15
+  UniRef90_M3Y0C3 Uncharacterized protein n=25 Tax=Eutheria TaxID...  75.3    3e-15
+  UniRef90_UPI0007A6D541 UPI0007A6D541 related cluster n=1 Tax=un...  74.9    4e-15
+  UniRef90_UPI00069711DA PREDICTED: calcyclin-binding protein-lik...  74.5    5e-15
+  UniRef90_H0XY33 Uncharacterized protein n=2 Tax=Otolemur garnet...  74.5    6e-15
+  UniRef90_L9L525 Calcyclin-binding protein n=1 Tax=Tupaia chinen...  72.2    1e-14
+  UniRef90_B5FZV8 Putative calcyclin binding protein n=1 Tax=Taen...  73.0    1e-14
+  UniRef90_UPI00067BF9A2 PREDICTED: calcyclin-binding protein iso...  73.0    2e-14
+  UniRef90_Q6AYK6 Calcyclin-binding protein n=5 Tax=Eutheria TaxI...  73.0    2e-14
+  UniRef90_F6SVZ6 Uncharacterized protein n=1 Tax=Monodelphis dom...  73.7    2e-14
+  UniRef90_G5C951 Calcyclin-binding protein n=1 Tax=Heterocephalu...  72.2    3e-14
+  UniRef90_F6QF42 Uncharacterized protein n=1 Tax=Ornithorhynchus...  71.8    6e-14
+  UniRef90_A0A0A6YY29 Calcyclin-binding protein (Fragment) n=2 Ta...  70.7    6e-14
+  UniRef90_A0A151MIL9 Calcyclin-binding protein n=5 Tax=Alligator...  71.4    8e-14
+  UniRef90_UPI00062AB642 PREDICTED: calcyclin-binding protein-lik...  71.4    9e-14
+  UniRef90_G1LRK9 Uncharacterized protein n=1 Tax=Ailuropoda mela...  70.3    2e-13
+  UniRef90_UPI000549C0D1 PREDICTED: calcyclin-binding protein n=1...  69.1    2e-13
+  UniRef90_G5BFD5 Calcyclin-binding protein n=1 Tax=Heterocephalu...  69.1    4e-13
+  UniRef90_L9JEU3 Calcyclin-binding protein n=1 Tax=Tupaia chinen...  67.6    1e-12
+  UniRef90_E1BQN9 Uncharacterized protein n=28 Tax=Aves TaxID=878...  67.2    2e-12
+  UniRef90_Q9HB71-2 Isoform 2 of Calcyclin-binding protein n=1 Ta...  65.3    3e-12
+  UniRef90_UPI00051F0104 PREDICTED: calcyclin-binding protein n=1...  66.8    3e-12
+  UniRef90_G3WJ33 Uncharacterized protein n=1 Tax=Sarcophilus har...  66.4    4e-12
+  UniRef90_UPI000529AC50 PREDICTED: calcyclin-binding protein n=1...  66.4    4e-12
+  UniRef90_UPI00042C1D67 PREDICTED: calcyclin-binding protein n=1...  66.4    5e-12
+  UniRef90_UPI000520F54D PREDICTED: calcyclin-binding protein-lik...  63.3    3e-11
+  UniRef90_A0A093HEC9 Calcyclin-binding protein (Fragment) n=2 Ta...  64.1    3e-11
+  UniRef90_G1MTC7 Uncharacterized protein (Fragment) n=9 Tax=Aves...  64.1    3e-11
+  UniRef90_A0A091E8K7 Calcyclin-binding protein n=1 Tax=Fukomys d...  62.2    3e-11
+  UniRef90_UPI00074FF02A PREDICTED: calcyclin-binding protein n=1...  63.7    4e-11
+  UniRef90_G3WJ32 Uncharacterized protein (Fragment) n=2 Tax=Sarc...  63.3    6e-11
+  UniRef90_A0A091I2B9 Calcyclin-binding protein (Fragment) n=24 T...  63.0    6e-11
+  UniRef90_F6YV35 Uncharacterized protein n=5 Tax=Xenopus TaxID=2...  63.0    7e-11
+  UniRef90_A0A091T3E2 Calcyclin-binding protein (Fragment) n=10 T...  62.6    8e-11
+  UniRef90_UPI00062A8A73 PREDICTED: calcyclin-binding protein-lik...  61.8    2e-10
+  UniRef90_A0A091DNT8 Sorting nexin-2 n=1 Tax=Fukomys damarensis ...  61.8    2e-10
+  UniRef90_V8PH06 Calcyclin-binding protein n=8 Tax=Serpentes Tax...  61.4    3e-10
+  UniRef90_UPI000854B221 UPI000854B221 related cluster n=1 Tax=un...  60.6    4e-10
+  UniRef90_U3I6T9 Uncharacterized protein n=4 Tax=Anatidae TaxID=...  60.6    5e-10
+  UniRef90_A0A0Q3X7J5 Uncharacterized protein n=1 Tax=Amazona aes...  61.4    2e-09
+  UniRef90_K7G9C2 Uncharacterized protein n=4 Tax=Cryptodira TaxI...  58.7    2e-09
+  UniRef90_C3Z811 Putative uncharacterized protein n=1 Tax=Branch...  59.1    1e-08
+  UniRef90_G5C9U6 Calcyclin-binding protein n=1 Tax=Heterocephalu...  54.5    2e-08
+  UniRef90_L9JEE4 Calcyclin-binding protein n=1 Tax=Tupaia chinen...  53.7    4e-08
+  UniRef90_A0A0P7V760 Calcyclin-binding protein-like (Fragment) n...  55.3    4e-08
+  UniRef90_A0A0E9X3I6 Uncharacterized protein n=1 Tax=Anguilla an...  51.8    1e-06
+  UniRef90_W5M3A3 Uncharacterized protein n=1 Tax=Lepisosteus ocu...  49.9    5e-06
+  UniRef90_A0A1B0FNW9 Uncharacterized protein n=6 Tax=Glossina Ta...  47.2    5e-05
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI0009481F39 UPI0009481F39 related cluster n=1 Tax=un...  55.6    2e-07
+  UniRef90_L9JDG0 Pumilio like protein 2 n=2 Tax=Boreoeutheria Ta...  48.3    8e-05
+  UniRef90_UPI0007DB7457 UPI0007DB7457 related cluster n=1 Tax=un...  47.2    9e-05
+  UniRef90_A0A1I8PX44 Uncharacterized protein n=1 Tax=Stomoxys ca...  46.4    1e-04
+  UniRef90_UPI0007AC5EE0 UPI0007AC5EE0 related cluster n=9 Tax=un...  46.4    1e-04
+  UniRef90_B5X9E1 Calcyclin-binding protein n=3 Tax=Salmoninae Ta...  45.6    2e-04
+  UniRef90_A0A1I8M6C9 Uncharacterized protein n=2 Tax=Musca domes...  45.2    3e-04
+  UniRef90_C1BVY9 Calcyclin-binding protein n=1 Tax=Esox lucius T...  45.2    3e-04
+  UniRef90_UPI000703E441 PREDICTED: calcyclin-binding protein iso...  46.4    3e-04
+  UniRef90_C1BIK0 Calcyclin-binding protein n=1 Tax=Osmerus morda...  44.5    5e-04
+  UniRef90_A0A0L0C1U4 Uncharacterized protein n=1 Tax=Lucilia cup...  44.5    6e-04
+  UniRef90_G1KQM7 Uncharacterized protein (Fragment) n=1 Tax=Anol...  43.3    0.002
+  UniRef90_A0A0S7HHJ2 CYBP n=1 Tax=Poeciliopsis prolifica TaxID=1...  41.8    0.002
+  UniRef90_A0A0P5MF19 Calcyclin-binding protein n=3 Tax=Daphnia m...  42.2    0.003
+  UniRef90_A0A0P5QVC4 Calcyclin-binding protein (Fragment) n=1 Ta...  42.5    0.003
+  UniRef90_Q1WCC9 Calcyclin binding protein (Fragment) n=1 Tax=Ic...  41.0    0.003
+  UniRef90_A0A1B6H7D3 Uncharacterized protein n=1 Tax=Homalodisca...  41.8    0.005
+  UniRef90_UPI000440FAEC PREDICTED: calcyclin-binding protein n=1...  41.4    0.005
+  UniRef90_W5K3L6 Uncharacterized protein n=1 Tax=Astyanax mexica...  41.4    0.006
+  UniRef90_M4AN10 Uncharacterized protein n=5 Tax=Poeciliinae Tax...  41.8    0.006
+  UniRef90_UPI000718F6E4 PREDICTED: calcyclin-binding protein n=2...  41.8    0.006
+  UniRef90_UPI000719B8ED PREDICTED: calcyclin-binding protein-lik...  41.4    0.007
+  UniRef90_E3TFP1 Calcyclin-binding protein n=2 Tax=Ictalurus Tax...  41.4    0.007
+  UniRef90_A0A034VKJ9 Calcyclin-binding protein n=8 Tax=Endoptery...  41.0    0.010
+  UniRef90_U5ENM9 Putative calcyclin-binding protein cacybp n=1 T...  41.0    0.010
+
+
+> UniRef90_J9P4U8 Uncharacterized protein n=3 Tax=Canis lupus familiaris 
+TaxID=9615 RepID=J9P4U8_CANLF
+Length=379
+
+ Score = 89.5 bits (221),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 43/46 (93%), Positives = 43/46 (93%), Gaps = 0/46 (0%)
+
+Query  2    ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            A EELQKDLEEVKVLLEKA RKRVRDALT EKSKIETEIKNKMQQK
+Sbjct  153  ALEELQKDLEEVKVLLEKANRKRVRDALTVEKSKIETEIKNKMQQK  198
+
+
+> UniRef90_L9KLQ3 Lymphocyte antigen 6H n=1 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L9KLQ3_TUPCH
+Length=465
+
+ Score = 90.7 bits (224),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 38/44 (86%), Positives = 42/44 (95%), Gaps = 0/44 (0%)
+
+Query  4    EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            +ELQK+LEEVKVLLEKATRKRVRDALTAE S IETEI+N+MQQK
+Sbjct  102  QELQKELEEVKVLLEKATRKRVRDALTAENSDIETEIENQMQQK  145
+
+
+> UniRef90_B4DFD3 cDNA FLJ57914, moderately similar to Calcyclin-binding 
+protein n=1 Tax=Homo sapiens TaxID=9606 RepID=B4DFD3_HUMAN
+Length=131
+
+ Score = 86.5 bits (213),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 47/47 (100%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK
+Sbjct  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+
+
+> UniRef90_M1EGU4 Calcyclin binding protein (Fragment) n=1 Tax=Mustela 
+putorius furo TaxID=9669 RepID=M1EGU4_MUSPF
+Length=252
+
+ Score = 84.1 bits (207),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 43/46 (93%), Positives = 44/46 (96%), Gaps = 0/46 (0%)
+
+Query  2    ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            A EELQKDLEEVKVLLEK +RKRVRDALTAEKSKIETEIKNKMQQK
+Sbjct  69   ALEELQKDLEEVKVLLEKTSRKRVRDALTAEKSKIETEIKNKMQQK  114
+
+
+> UniRef90_UPI0004434593 PREDICTED: calcyclin-binding protein n=1 
+Tax=Monodelphis domestica TaxID=13616 RepID=UPI0004434593
+Length=403
+
+ Score = 83.8 bits (206),  Expect = 9e-18, Method: Composition-based stats.
+ Identities = 37/46 (80%), Positives = 41/46 (89%), Gaps = 0/46 (0%)
+
+Query  2    ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            A EEL+KDLEEVK LL KATRKRVRD LTAEKSK+ETEIK+K +QK
+Sbjct  178  ALEELRKDLEEVKELLGKATRKRVRDVLTAEKSKLETEIKHKTKQK  223
+
+
+> UniRef90_Q9HB71 Calcyclin-binding protein n=63 Tax=Eutheria TaxID=9347 
+RepID=CYBP_HUMAN
+Length=228
+
+ Score = 79.5 bits (195),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 47/47 (100%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK
+Sbjct  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+
+
+> UniRef90_L9JK83 Calcyclin-binding protein n=1 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L9JK83_TUPCH
+Length=136
+
+ Score = 77.6 bits (190),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 40/44 (91%), Positives = 42/44 (95%), Gaps = 1/44 (2%)
+
+Query  4   EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           EELQKDL EVKV+LEKATRKRVRDALTAE+ KIETEIKNKMQQK
+Sbjct  6   EELQKDL-EVKVILEKATRKRVRDALTAERFKIETEIKNKMQQK  48
+
+
+> UniRef90_A0A0N8ESL5 Calcyclin-binding protein isoform 2 n=2 Tax=Heterocephalus 
+glaber TaxID=10181 RepID=A0A0N8ESL5_HETGA
+Length=230
+
+ Score = 78.8 bits (193),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 43/46 (93%), Positives = 44/46 (96%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQ DLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNK+QQK
+Sbjct  4   ALEELQNDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKVQQK  49
+
+
+> UniRef90_UPI00077DEE37 UPI00077DEE37 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00077DEE37
+Length=115
+
+ Score = 76.4 bits (187),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 39/46 (85%), Positives = 42/46 (91%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             EELQKDLEEVKVLL+K TRKRVRD LT+EKSKIETE+KNKMQQK
+Sbjct  4   TLEELQKDLEEVKVLLDKTTRKRVRDTLTSEKSKIETEMKNKMQQK  49
+
+
+> UniRef90_UPI000533EE02 PREDICTED: LOW QUALITY PROTEIN: calcyclin-binding 
+protein n=1 Tax=Saimiri boliviensis boliviensis 
+TaxID=39432 RepID=UPI000533EE02
+Length=228
+
+ Score = 78.4 bits (192),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MASEELQKDLEEVKVLLEKATRKR+RDALTAEKSKIETEIKNKMQQK
+Sbjct  1   MASEELQKDLEEVKVLLEKATRKRIRDALTAEKSKIETEIKNKMQQK  47
+
+
+> UniRef90_H0XMX3 Uncharacterized protein n=1 Tax=Otolemur garnettii 
+TaxID=30611 RepID=H0XMX3_OTOGA
+Length=229
+
+ Score = 78.0 bits (191),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 40/46 (87%), Positives = 42/46 (91%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             EELQKDLEE KVLLEKATRKRV DALTAEKSKIETEIKN++QQK
+Sbjct  4   TLEELQKDLEEAKVLLEKATRKRVHDALTAEKSKIETEIKNQVQQK  49
+
+
+> UniRef90_UPI00042BC7B6 PREDICTED: calcyclin-binding protein n=3 
+Tax=Eutheria TaxID=9347 RepID=UPI00042BC7B6
+Length=247
+
+ Score = 78.4 bits (192),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 40/43 (93%), Positives = 42/43 (98%), Gaps = 0/43 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +LQKDLEEVKVLLEKATRKRVRDALT EKSKIETEIKNK+QQK
+Sbjct  24  QLQKDLEEVKVLLEKATRKRVRDALTTEKSKIETEIKNKVQQK  66
+
+
+> UniRef90_L9KXD4 Calcyclin-binding protein n=1 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L9KXD4_TUPCH
+Length=110
+
+ Score = 76.1 bits (186),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 39/46 (85%), Positives = 42/46 (91%), Gaps = 0/46 (0%)
+
+Query  2    ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             +EELQKDLEEVKVLLEKATRK+VRDALTA+K  IET IKNKMQQK
+Sbjct  57   TTEELQKDLEEVKVLLEKATRKKVRDALTAKKPNIETPIKNKMQQK  102
+
+
+> UniRef90_H0VLZ7 Uncharacterized protein n=10 Tax=Boreoeutheria 
+TaxID=1437010 RepID=H0VLZ7_CAVPO
+Length=230
+
+ Score = 77.6 bits (190),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 40/46 (87%), Positives = 41/46 (89%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            S +LQ DLEEVK LLEKATRKRVRDALTAEK KIETEIKNKMQQK
+Sbjct  4   VSTQLQNDLEEVKTLLEKATRKRVRDALTAEKCKIETEIKNKMQQK  49
+
+
+> UniRef90_G1SLM1 Uncharacterized protein n=3 Tax=Boreoeutheria 
+TaxID=1437010 RepID=G1SLM1_RABIT
+Length=227
+
+ Score = 77.6 bits (190),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 38/47 (81%), Positives = 42/47 (89%), Gaps = 0/47 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +  E+LQKDLEEVK LLEK TRKR+ DALTAEKSKIETEIKNK+QQK
+Sbjct  1   LTVEQLQKDLEEVKALLEKTTRKRIHDALTAEKSKIETEIKNKVQQK  47
+
+
+> UniRef90_UPI00062AC80D PREDICTED: calcyclin-binding protein-like 
+n=1 Tax=Octodon degus TaxID=10160 RepID=UPI00062AC80D
+Length=230
+
+ Score = 77.6 bits (190),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 40/46 (87%), Positives = 40/46 (87%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQ DLEEVK LLEKA RKRVRD LT EKSKIETEIKNKMQQK
+Sbjct  4   ALEELQNDLEEVKALLEKAPRKRVRDTLTVEKSKIETEIKNKMQQK  49
+
+
+> UniRef90_UPI00032AFCF5 PREDICTED: calcyclin-binding protein n=1 
+Tax=Ochotona princeps TaxID=9978 RepID=UPI00032AFCF5
+Length=226
+
+ Score = 77.2 bits (189),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 41/46 (89%), Positives = 45/46 (98%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQKDLEEVKVLLEK+TRKRVRDALTAEK+KIETE++NKMQQK
+Sbjct  4   ALEELQKDLEEVKVLLEKSTRKRVRDALTAEKAKIETEVRNKMQQK  49
+
+
+> UniRef90_A0A091DEU9 Calcyclin-binding protein n=2 Tax=Fukomys 
+damarensis TaxID=885580 RepID=A0A091DEU9_FUKDA
+Length=292
+
+ Score = 77.6 bits (190),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 39/43 (91%), Positives = 41/43 (95%), Gaps = 0/43 (0%)
+
+Query  5    ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            +LQ DLEEVKVLLEKATRKRVRD LTAEKSKIETEIKNK+QQK
+Sbjct  69   KLQNDLEEVKVLLEKATRKRVRDTLTAEKSKIETEIKNKVQQK  111
+
+
+> UniRef90_G5ALL1 Calcyclin-binding protein n=1 Tax=Heterocephalus 
+glaber TaxID=10181 RepID=G5ALL1_HETGA
+Length=198
+
+ Score = 76.1 bits (186),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 41/46 (89%), Positives = 44/46 (96%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQ DLEEVKVLLEKATRKRV+DALTAEKSKI+TEIKNK+QQK
+Sbjct  4   ALEELQNDLEEVKVLLEKATRKRVQDALTAEKSKIKTEIKNKVQQK  49
+
+
+> UniRef90_UPI00038E9A30 PREDICTED: calcyclin-binding protein-like 
+n=1 Tax=Chinchilla lanigera TaxID=34839 RepID=UPI00038E9A30
+Length=230
+
+ Score = 75.7 bits (185),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 39/46 (85%), Positives = 40/46 (87%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQ DLEEVKVLL+KAT KRVRDAL  EKSKIETEIKNKMQ K
+Sbjct  4   ALEELQNDLEEVKVLLDKATGKRVRDALIVEKSKIETEIKNKMQHK  49
+
+
+> UniRef90_L9L4C1 Calcyclin-binding protein n=1 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L9L4C1_TUPCH
+Length=167
+
+ Score = 74.5 bits (182),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 41/47 (87%), Positives = 43/47 (91%), Gaps = 0/47 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +  EELQKDLEEVKVLLEKATRKRV D LTAEKSKIETEIKNKM+QK
+Sbjct  3   LTLEELQKDLEEVKVLLEKATRKRVHDVLTAEKSKIETEIKNKMEQK  49
+
+
+> UniRef90_W5PW38 Uncharacterized protein (Fragment) n=6 Tax=Laurasiatheria 
+TaxID=314145 RepID=W5PW38_SHEEP
+Length=230
+
+ Score = 75.3 bits (184),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 40/43 (93%), Positives = 42/43 (98%), Gaps = 0/43 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +LQKDLEEVKVLLEKATRKRVRDALTAEKSKIE E+KNKMQQK
+Sbjct  7   QLQKDLEEVKVLLEKATRKRVRDALTAEKSKIEIEMKNKMQQK  49
+
+
+> UniRef90_M3Y0C3 Uncharacterized protein n=25 Tax=Eutheria TaxID=9347 
+RepID=M3Y0C3_MUSPF
+Length=232
+
+ Score = 75.3 bits (184),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 40/43 (93%), Positives = 42/43 (98%), Gaps = 0/43 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +LQKDLEEVKVLLEK +RKRVRDALTAEKSKIETEIKNKMQQK
+Sbjct  9   QLQKDLEEVKVLLEKTSRKRVRDALTAEKSKIETEIKNKMQQK  51
+
+
+> UniRef90_UPI0007A6D541 UPI0007A6D541 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007A6D541
+Length=228
+
+ Score = 74.9 bits (183),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 40/46 (87%), Positives = 43/46 (93%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            SEELQKDLEEVK+LLEKAT K++RDALTAEKSKIETE KNKMQQK
+Sbjct  3   VSEELQKDLEEVKILLEKATMKKIRDALTAEKSKIETETKNKMQQK  48
+
+
+> UniRef90_UPI00069711DA PREDICTED: calcyclin-binding protein-like 
+n=1 Tax=Chinchilla lanigera TaxID=34839 RepID=UPI00069711DA
+Length=208
+
+ Score = 74.5 bits (182),  Expect = 5e-15, Method: Composition-based stats.
+ Identities = 36/46 (78%), Positives = 38/46 (83%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQ DL EVK LLEKATRKRV D+LTA KSK E EIKNKMQ+K
+Sbjct  4   ALEELQNDLGEVKALLEKATRKRVHDSLTAGKSKTEIEIKNKMQRK  49
+
+
+> UniRef90_H0XY33 Uncharacterized protein n=2 Tax=Otolemur garnettii 
+TaxID=30611 RepID=H0XY33_OTOGA
+Length=236
+
+ Score = 74.5 bits (182),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 42/46 (91%), Positives = 43/46 (93%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQKD EE KVLLEKATRKRVRDALTAEKSKI+TEIKNKMQQK
+Sbjct  4   ALEELQKDREEAKVLLEKATRKRVRDALTAEKSKIKTEIKNKMQQK  49
+
+
+> UniRef90_L9L525 Calcyclin-binding protein n=1 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L9L525_TUPCH
+Length=127
+
+ Score = 72.2 bits (176),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 35/46 (76%), Positives = 38/46 (83%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             EELQKD EEVK L+ KAT+KRV +A T EKSKIETEIKNKMQQK
+Sbjct  29  TLEELQKDQEEVKALVGKATKKRVHNAFTIEKSKIETEIKNKMQQK  74
+
+
+> UniRef90_B5FZV8 Putative calcyclin binding protein n=1 Tax=Taeniopygia 
+guttata TaxID=59729 RepID=B5FZV8_TAEGU
+Length=157
+
+ Score = 73.0 bits (178),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 33/47 (70%), Positives = 36/47 (77%), Gaps = 0/47 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +A EELQKDLEEVK LL  ATRKRVRD L AEK K+E EIKN+   K
+Sbjct  13  VAREELQKDLEEVKELLTNATRKRVRDVLVAEKQKLELEIKNQPPPK  59
+
+
+> UniRef90_UPI00067BF9A2 PREDICTED: calcyclin-binding protein isoform 
+X2 n=4 Tax=Boreoeutheria TaxID=1437010 RepID=UPI00067BF9A2
+Length=191
+
+ Score = 73.0 bits (178),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 41/46 (89%), Positives = 44/46 (96%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQKDLE+VKV+LEK TRKRVRDALT+EKSKIETEIKNKMQQK
+Sbjct  4   ALEELQKDLEDVKVVLEKCTRKRVRDALTSEKSKIETEIKNKMQQK  49
+
+
+> UniRef90_Q6AYK6 Calcyclin-binding protein n=5 Tax=Eutheria TaxID=9347 
+RepID=CYBP_RAT
+Length=229
+
+ Score = 73.0 bits (178),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 39/46 (85%), Positives = 43/46 (93%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQKDLEEVKVLLEK+TRKR+RD LT EKSKIETE++NKMQQK
+Sbjct  4   ALEELQKDLEEVKVLLEKSTRKRLRDTLTNEKSKIETELRNKMQQK  49
+
+
+> UniRef90_F6SVZ6 Uncharacterized protein n=1 Tax=Monodelphis domestica 
+TaxID=13616 RepID=F6SVZ6_MONDO
+Length=330
+
+ Score = 73.7 bits (180),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 36/46 (78%), Positives = 40/46 (87%), Gaps = 0/46 (0%)
+
+Query  2    ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            A  EL+KDLEEVK LL KATRKRVRD LTAEKSK+ETEIK+K +QK
+Sbjct  105  APGELRKDLEEVKELLGKATRKRVRDVLTAEKSKLETEIKHKTKQK  150
+
+
+> UniRef90_G5C951 Calcyclin-binding protein n=1 Tax=Heterocephalus 
+glaber TaxID=10181 RepID=G5C951_HETGA
+Length=182
+
+ Score = 72.2 bits (176),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 42/46 (91%), Positives = 44/46 (96%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQKDLEEVKVLLEKATRKRV+DALTAEKS IETEIKNK+QQK
+Sbjct  4   ALEELQKDLEEVKVLLEKATRKRVQDALTAEKSNIETEIKNKVQQK  49
+
+
+> UniRef90_F6QF42 Uncharacterized protein n=1 Tax=Ornithorhynchus 
+anatinus TaxID=9258 RepID=F6QF42_ORNAN
+Length=229
+
+ Score = 71.8 bits (175),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 37/46 (80%), Positives = 39/46 (85%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             EE QKDLEEVK LLEK TRKRVRD LTAEK K+E+EIKNKMQQK
+Sbjct  4   TLEEHQKDLEEVKKLLEKVTRKRVRDVLTAEKGKLESEIKNKMQQK  49
+
+
+> UniRef90_A0A0A6YY29 Calcyclin-binding protein (Fragment) n=2 
+Tax=Muroidea TaxID=337687 RepID=A0A0A6YY29_MOUSE
+Length=135
+
+ Score = 70.7 bits (172),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 39/46 (85%), Positives = 43/46 (93%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             EELQKDLEEVKVLLEK+TRKR+RD LT+EKSKIETE+KNKMQQK
+Sbjct  4   VLEELQKDLEEVKVLLEKSTRKRLRDTLTSEKSKIETELKNKMQQK  49
+
+
+> UniRef90_A0A151MIL9 Calcyclin-binding protein n=5 Tax=Alligator 
+TaxID=8495 RepID=A0A151MIL9_ALLMI
+Length=222
+
+ Score = 71.4 bits (174),  Expect = 8e-14, Method: Composition-based stats.
+ Identities = 34/46 (74%), Positives = 37/46 (80%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQKDLEEVK LL KATRKR++D L AEK KIETEIKN+   K
+Sbjct  4   AREELQKDLEEVKELLNKATRKRIQDVLMAEKHKIETEIKNQPGPK  49
+
+
+> UniRef90_UPI00062AB642 PREDICTED: calcyclin-binding protein-like 
+n=1 Tax=Octodon degus TaxID=10160 RepID=UPI00062AB642
+Length=264
+
+ Score = 71.4 bits (174),  Expect = 9e-14, Method: Composition-based stats.
+ Identities = 35/46 (76%), Positives = 40/46 (87%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQ DLEEVK LLEKATRK +R+ L+AEKSKIETEIKNK +Q+
+Sbjct  37  ALEELQDDLEEVKALLEKATRKSLRETLSAEKSKIETEIKNKTRQE  82
+
+
+> UniRef90_G1LRK9 Uncharacterized protein n=1 Tax=Ailuropoda melanoleuca 
+TaxID=9646 RepID=G1LRK9_AILME
+Length=203
+
+ Score = 70.3 bits (171),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 39/47 (83%), Positives = 41/47 (87%), Gaps = 0/47 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +A +ELQKDLEEVKVLLEKATRKRV DAL  EKSKI TEIK KMQQK
+Sbjct  3   LALKELQKDLEEVKVLLEKATRKRVCDALMVEKSKIRTEIKKKMQQK  49
+
+
+> UniRef90_UPI000549C0D1 PREDICTED: calcyclin-binding protein n=1 
+Tax=Meleagris gallopavo TaxID=9103 RepID=UPI000549C0D1
+Length=146
+
+ Score = 69.1 bits (168),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 31/46 (67%), Positives = 34/46 (74%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             EELQKDLEEVK LL KATRKR+RD L  EK K+E EIKN+   K
+Sbjct  4   VREELQKDLEEVKELLAKATRKRLRDVLMMEKHKLELEIKNQPLPK  49
+
+
+> UniRef90_G5BFD5 Calcyclin-binding protein n=1 Tax=Heterocephalus 
+glaber TaxID=10181 RepID=G5BFD5_HETGA
+Length=186
+
+ Score = 69.1 bits (168),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 38/46 (83%), Positives = 39/46 (85%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A  E Q DLEEVK LLEKATRKRV DA TAEKSKIETEIKNK+QQK
+Sbjct  4   ALGESQNDLEEVKALLEKATRKRVWDAPTAEKSKIETEIKNKVQQK  49
+
+
+> UniRef90_L9JEU3 Calcyclin-binding protein n=1 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L9JEU3_TUPCH
+Length=177
+
+ Score = 67.6 bits (164),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 42/44 (95%), Positives = 42/44 (95%), Gaps = 0/44 (0%)
+
+Query  4   EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           EELQKDLEEVKVLLEK TRKRV DALTAEKSKIETEIKNKMQQK
+Sbjct  6   EELQKDLEEVKVLLEKVTRKRVPDALTAEKSKIETEIKNKMQQK  49
+
+
+> UniRef90_E1BQN9 Uncharacterized protein n=28 Tax=Aves TaxID=8782 
+RepID=E1BQN9_CHICK
+Length=221
+
+ Score = 67.2 bits (163),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 32/46 (70%), Positives = 35/46 (76%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQKDLEEVK LL KATRKR+RD L  EK K+E EIKN+   K
+Sbjct  4   AREELQKDLEEVKELLAKATRKRLRDVLMMEKHKLELEIKNQPLPK  49
+
+
+> UniRef90_Q9HB71-2 Isoform 2 of Calcyclin-binding protein n=1 
+Tax=Homo sapiens TaxID=9606 RepID=Q9HB71-2
+Length=80
+
+ Score = 65.3 bits (158),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 47/47 (100%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK
+Sbjct  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+
+
+> UniRef90_UPI00051F0104 PREDICTED: calcyclin-binding protein n=1 
+Tax=Egretta garzetta TaxID=188379 RepID=UPI00051F0104
+Length=238
+
+ Score = 66.8 bits (162),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 30/42 (71%), Positives = 32/42 (76%), Gaps = 0/42 (0%)
+
+Query  6   LQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           LQKDLEEVK LL KATRKRVRD L  EK K+E EIKN+   K
+Sbjct  25  LQKDLEEVKELLTKATRKRVRDVLMTEKHKLELEIKNQPAPK  66
+
+
+> UniRef90_G3WJ33 Uncharacterized protein n=1 Tax=Sarcophilus harrisii 
+TaxID=9305 RepID=G3WJ33_SARHA
+Length=227
+
+ Score = 66.4 bits (161),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 35/47 (74%), Positives = 39/47 (83%), Gaps = 0/47 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MA   L+KDLEEVK LL KATRKRVRD LTAEKSK+E EIK+K +QK
+Sbjct  1   MAHRTLRKDLEEVKDLLGKATRKRVRDVLTAEKSKLEAEIKHKTKQK  47
+
+
+> UniRef90_UPI000529AC50 PREDICTED: calcyclin-binding protein n=1 
+Tax=Colius striatus TaxID=57412 RepID=UPI000529AC50
+Length=239
+
+ Score = 66.4 bits (161),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 29/42 (69%), Positives = 32/42 (76%), Gaps = 0/42 (0%)
+
+Query  6   LQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           LQKDLEEVK LL KATRKR+RD L  EK K+E EIKN+   K
+Sbjct  26  LQKDLEEVKELLAKATRKRLRDVLMTEKQKLELEIKNQPPPK  67
+
+
+> UniRef90_UPI00042C1D67 PREDICTED: calcyclin-binding protein n=1 
+Tax=Chelonia mydas TaxID=8469 RepID=UPI00042C1D67
+Length=223
+
+ Score = 66.4 bits (161),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 28/44 (64%), Positives = 33/44 (75%), Gaps = 0/44 (0%)
+
+Query  4    EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            + L+KDLEEVK LL+KATRKR  D L AEK K+E EIKN+   K
+Sbjct  59   QRLEKDLEEVKELLKKATRKRTHDVLMAEKYKLEIEIKNQPPPK  102
+
+
+> UniRef90_UPI000520F54D PREDICTED: calcyclin-binding protein-like 
+n=1 Tax=Gavia stellata TaxID=37040 RepID=UPI000520F54D
+Length=132
+
+ Score = 63.3 bits (153),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 28/42 (67%), Positives = 32/42 (76%), Gaps = 0/42 (0%)
+
+Query  6   LQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           LQKDLEEVK LL KATRKR+RD L  EK K+E EIKN+   +
+Sbjct  36  LQKDLEEVKELLTKATRKRLRDVLMTEKHKLELEIKNQPPPR  77
+
+
+> UniRef90_A0A093HEC9 Calcyclin-binding protein (Fragment) n=2 
+Tax=Struthio camelus australis TaxID=441894 RepID=A0A093HEC9_STRCA
+Length=216
+
+ Score = 64.1 bits (155),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 27/43 (63%), Positives = 32/43 (74%), Gaps = 0/43 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +LQKDLEEVK LL K TRKR+RD L  EK K+E E+KN+   K
+Sbjct  1   QLQKDLEEVKELLTKTTRKRLRDVLMTEKHKLEIELKNQPPPK  43
+
+
+> UniRef90_G1MTC7 Uncharacterized protein (Fragment) n=9 Tax=Aves 
+TaxID=8782 RepID=G1MTC7_MELGA
+Length=224
+
+ Score = 64.1 bits (155),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 29/44 (66%), Positives = 34/44 (77%), Gaps = 0/44 (0%)
+
+Query  4   EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           ++LQKDLEEVK LL KATRKR+RD L  EK K+E EIKN+   K
+Sbjct  9   KQLQKDLEEVKELLAKATRKRLRDVLMMEKHKLELEIKNQPLPK  52
+
+
+> UniRef90_A0A091E8K7 Calcyclin-binding protein n=1 Tax=Fukomys 
+damarensis TaxID=885580 RepID=A0A091E8K7_FUKDA
+Length=81
+
+ Score = 62.2 bits (150),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 35/46 (76%), Positives = 38/46 (83%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQ  LEEVK+LLEKAT+ RV DALTAEK  IE EIK+KMQQK
+Sbjct  4   ALEELQNYLEEVKLLLEKATKIRVHDALTAEKFNIEREIKSKMQQK  49
+
+
+> UniRef90_UPI00074FF02A PREDICTED: calcyclin-binding protein n=1 
+Tax=Gekko japonicus TaxID=146911 RepID=UPI00074FF02A
+Length=218
+
+ Score = 63.7 bits (154),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 30/44 (68%), Positives = 36/44 (82%), Gaps = 0/44 (0%)
+
+Query  4   EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           EELQKDLEEVK LL+KA+RKR+ D L AEK+K+E EIKN+   K
+Sbjct  2   EELQKDLEEVKELLKKASRKRIHDVLLAEKNKLEKEIKNQPPPK  45
+
+
+> UniRef90_G3WJ32 Uncharacterized protein (Fragment) n=2 Tax=Sarcophilus 
+harrisii TaxID=9305 RepID=G3WJ32_SARHA
+Length=229
+
+ Score = 63.3 bits (153),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 33/45 (73%), Positives = 39/45 (87%), Gaps = 0/45 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            ++L+KDLEEVK LL KATRKRVRD LTAEKSK+E EIK+K +QK
+Sbjct  5   LQKLRKDLEEVKDLLGKATRKRVRDVLTAEKSKLEAEIKHKTKQK  49
+
+
+> UniRef90_A0A091I2B9 Calcyclin-binding protein (Fragment) n=24 
+Tax=Neognathae TaxID=8825 RepID=A0A091I2B9_CALAN
+Length=215
+
+ Score = 63.0 bits (152),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 27/43 (63%), Positives = 32/43 (74%), Gaps = 0/43 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +LQKDLEE+K LL K TRKR+RD L  EK +IE EIKN+   K
+Sbjct  1   QLQKDLEEIKELLLKTTRKRLRDVLMTEKYRIELEIKNQPPPK  43
+
+
+> UniRef90_F6YV35 Uncharacterized protein n=5 Tax=Xenopus TaxID=262014 
+RepID=F6YV35_XENTR
+Length=227
+
+ Score = 63.0 bits (152),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 32/46 (70%), Positives = 36/46 (78%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             +ELQKDLEEVK LLEKATRKRVRD L  E+ K+ETEI  K QQ+
+Sbjct  4   VLQELQKDLEEVKQLLEKATRKRVRDVLFVEQRKLETEISTKQQQQ  49
+
+
+> UniRef90_A0A091T3E2 Calcyclin-binding protein (Fragment) n=10 
+Tax=Neognathae TaxID=8825 RepID=A0A091T3E2_9AVES
+Length=163
+
+ Score = 62.6 bits (151),  Expect = 8e-11, Method: Composition-based stats.
+ Identities = 29/43 (67%), Positives = 33/43 (77%), Gaps = 0/43 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +LQKDLEEVK LL KATRKR+RD L  EK K+E EIKN+   K
+Sbjct  1   QLQKDLEEVKELLTKATRKRLRDVLMTEKHKLELEIKNQPPPK  43
+
+
+> UniRef90_UPI00062A8A73 PREDICTED: calcyclin-binding protein-like 
+n=1 Tax=Octodon degus TaxID=10160 RepID=UPI00062A8A73
+Length=209
+
+ Score = 61.8 bits (149),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 32/35 (91%), Positives = 32/35 (91%), Gaps = 0/35 (0%)
+
+Query  13  VKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           VK LLEKATRKRVRD LT EKSKIETEIKNKMQQK
+Sbjct  15  VKALLEKATRKRVRDTLTVEKSKIETEIKNKMQQK  49
+
+
+> UniRef90_A0A091DNT8 Sorting nexin-2 n=1 Tax=Fukomys damarensis 
+TaxID=885580 RepID=A0A091DNT8_FUKDA
+Length=238
+
+ Score = 61.8 bits (149),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 25/32 (78%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  2    ASEELQKDLEEVKVLLEKATRKRVRDALTAEK  33
+            A EE+Q DLEEVK+LLEK TRKR+ DALTAEK
+Sbjct  204  ALEEMQNDLEEVKLLLEKNTRKRIHDALTAEK  235
+
+
+> UniRef90_V8PH06 Calcyclin-binding protein n=8 Tax=Serpentes TaxID=8570 
+RepID=V8PH06_OPHHA
+Length=218
+
+ Score = 61.4 bits (148),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 31/44 (70%), Positives = 34/44 (77%), Gaps = 0/44 (0%)
+
+Query  4   EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           EELQKDLEEVK LL+ ATRKR+ D L AEK+KIE EIKN    K
+Sbjct  2   EELQKDLEEVKELLKTATRKRIYDFLLAEKNKIEREIKNLQPLK  45
+
+
+> UniRef90_UPI000854B221 UPI000854B221 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000854B221
+Length=227
+
+ Score = 60.6 bits (146),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 33/46 (72%), Positives = 36/46 (78%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A  E QKDLEEVK LLEKATRKRVRD L  E+ K+ETEI NK QQ+
+Sbjct  4   ALLEFQKDLEEVKQLLEKATRKRVRDVLFVEQRKLETEIANKRQQQ  49
+
+
+> UniRef90_U3I6T9 Uncharacterized protein n=4 Tax=Anatidae TaxID=8830 
+RepID=U3I6T9_ANAPL
+Length=218
+
+ Score = 60.6 bits (146),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 27/45 (60%), Positives = 32/45 (71%), Gaps = 0/45 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           + +L KDLEEVK LL K TRKR+RD L  EK K+E EIKN+   K
+Sbjct  4   ANQLLKDLEEVKELLVKVTRKRLRDVLLTEKHKLELEIKNQPLPK  48
+
+
+> UniRef90_A0A0Q3X7J5 Uncharacterized protein n=1 Tax=Amazona aestiva 
+TaxID=12930 RepID=A0A0Q3X7J5_AMAAE
+Length=615
+
+ Score = 61.4 bits (148),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 26/43 (60%), Positives = 30/43 (70%), Gaps = 0/43 (0%)
+
+Query  5    ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            +L KDLEEV  LL K TRKR+RD L  EK K+E EIKN+   K
+Sbjct  401  KLLKDLEEVNELLAKTTRKRLRDVLMTEKHKLELEIKNQPPPK  443
+
+
+> UniRef90_K7G9C2 Uncharacterized protein n=4 Tax=Cryptodira TaxID=8464 
+RepID=K7G9C2_PELSI
+Length=217
+
+ Score = 58.7 bits (141),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 28/43 (65%), Positives = 33/43 (77%), Gaps = 0/43 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +L+KDLEEVK L++KATRKRV D L AEK K+E EIKN    K
+Sbjct  2   QLEKDLEEVKELMKKATRKRVYDILIAEKYKLEMEIKNLPAIK  44
+
+
+> UniRef90_C3Z811 Putative uncharacterized protein n=1 Tax=Branchiostoma 
+floridae TaxID=7739 RepID=C3Z811_BRAFL
+Length=638
+
+ Score = 59.1 bits (142),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 23/40 (58%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKN  42
+            EELQ DL+E++ LLE++TR+RV+ ALT EK +I+TEI +
+Sbjct  4   LEELQADLQEIERLLEQSTRERVKKALTLEKGRIQTEITD  43
+
+
+> UniRef90_G5C9U6 Calcyclin-binding protein n=1 Tax=Heterocephalus 
+glaber TaxID=10181 RepID=G5C9U6_HETGA
+Length=72
+
+ Score = 54.5 bits (130),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 30/32 (94%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+
+Query  16  LLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           LLEKATRKRVRDALTAEKSKI+TEIKNK+QQK
+Sbjct  2   LLEKATRKRVRDALTAEKSKIKTEIKNKVQQK  33
+
+
+> UniRef90_L9JEE4 Calcyclin-binding protein n=1 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L9JEE4_TUPCH
+Length=64
+
+ Score = 53.7 bits (128),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 40/44 (91%), Positives = 42/44 (95%), Gaps = 0/44 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQ  45
+             EELQKDLEEVKVLLEKATRKRVRDALTAEKSKI+TEIKNK+Q
+Sbjct  21  TLEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIKTEIKNKIQ  64
+
+
+> UniRef90_A0A0P7V760 Calcyclin-binding protein-like (Fragment) 
+n=2 Tax=Scleropages formosus TaxID=113540 RepID=A0A0P7V760_9TELE
+Length=219
+
+ Score = 55.3 bits (132),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 27/43 (63%), Positives = 35/43 (81%), Gaps = 0/43 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +L+ DL+EVK LLEK+TR+R+RD L+ E+ KIETEI  K QQK
+Sbjct  3   QLESDLQEVKSLLEKSTRRRLRDVLSQEQKKIETEIALKWQQK  45
+
+
+> UniRef90_UPI0009481F39 UPI0009481F39 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009481F39
+Length=626
+
+ Score = 55.6 bits (133),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 21/40 (53%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKN  42
+            +EL+ DL+E++ LLE+A R+RV+ ALT EK +I+TEI +
+Sbjct  4   LQELRADLQEIERLLEQARRERVKKALTLEKGRIQTEITD  43
+
+
+> UniRef90_A0A0E9X3I6 Uncharacterized protein n=1 Tax=Anguilla 
+anguilla TaxID=7936 RepID=A0A0E9X3I6_ANGAN
+Length=228
+
+ Score = 51.8 bits (123),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 25/43 (58%), Positives = 32/43 (74%), Gaps = 0/43 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +L+ DL+E+  LLEK+ RKRV+D LT EK K+E EI  K QQK
+Sbjct  9   QLESDLQEINFLLEKSDRKRVQDVLTQEKKKVEREIALKQQQK  51
+
+
+> UniRef90_W5M3A3 Uncharacterized protein n=1 Tax=Lepisosteus oculatus 
+TaxID=7918 RepID=W5M3A3_LEPOC
+Length=227
+
+ Score = 49.9 bits (118),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 25/42 (60%), Positives = 32/42 (76%), Gaps = 0/42 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQ  46
+           +L+ DL+EVK LLE A RKR++D LTAE+ K+E EI  K QQ
+Sbjct  9   QLESDLKEVKSLLEIAERKRIQDVLTAEQKKLEREITAKQQQ  50
+
+
+> UniRef90_A0A1B0FNW9 Uncharacterized protein n=6 Tax=Glossina 
+TaxID=44049 RepID=A0A1B0FNW9_GLOMM
+Length=215
+
+ Score = 47.2 bits (111),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 24/42 (57%), Positives = 32/42 (76%), Gaps = 0/42 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKN  42
+           M+ EEL+KD EE+  LL +ATRKRV+DAL   K++I+ EI N
+Sbjct  1   MSIEELRKDSEELTKLLGEATRKRVKDALVKAKAEIDREIVN  42
+
+
+> UniRef90_L9JDG0 Pumilio like protein 2 n=2 Tax=Boreoeutheria 
+TaxID=1437010 RepID=L9JDG0_TUPCH
+Length=870
+
+ Score = 48.3 bits (114),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 19/22 (86%), Positives = 19/22 (86%), Gaps = 0/22 (0%)
+
+Query  2    ASEELQKDLEEVKVLLEKATRK  23
+              EELQKDLEEVK LLEKATRK
+Sbjct  718  TLEELQKDLEEVKALLEKATRK  739
+
+
+> UniRef90_UPI0007DB7457 UPI0007DB7457 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007DB7457
+Length=307
+
+ Score = 47.2 bits (111),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 20/31 (65%), Positives = 25/31 (81%), Gaps = 0/31 (0%)
+
+Query  1    MASEELQKDLEEVKVLLEKATRKRVRDALTA  31
+            +  EELQKDLEEVK LL+KA+RKR+ D L +
+Sbjct  89   LEMEELQKDLEEVKELLQKASRKRLNDVLLS  119
+
+
+> UniRef90_A0A1I8PX44 Uncharacterized protein n=1 Tax=Stomoxys 
+calcitrans TaxID=35570 RepID=A0A1I8PX44_STOCA
+Length=226
+
+ Score = 46.4 bits (109),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 22/40 (55%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKN  42
+           +EEL+KD EE+  LL +ATRKRV+DAL   K++++ EI N
+Sbjct  4   AEELRKDSEEICKLLAEATRKRVKDALVKAKAEVDREIVN  43
+
+
+> UniRef90_UPI0007AC5EE0 UPI0007AC5EE0 related cluster n=9 Tax=unknown 
+TaxID= RepID=UPI0007AC5EE0
+Length=230
+
+ Score = 46.4 bits (109),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 22/42 (52%), Positives = 29/42 (69%), Gaps = 0/42 (0%)
+
+Query  6   LQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           L+ D +E+  LLEK  R+R+RD LT E+ KIE E+  K QQK
+Sbjct  13  LESDFKEITSLLEKCERQRLRDVLTQEQKKIEKELAQKRQQK  54
+
+
+> UniRef90_B5X9E1 Calcyclin-binding protein n=3 Tax=Salmoninae 
+TaxID=504568 RepID=B5X9E1_SALSA
+Length=239
+
+ Score = 45.6 bits (107),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 22/45 (49%), Positives = 29/45 (64%), Gaps = 0/45 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             +L+ DL+E+  LLEK+ R RV+D L  E+ KIE EI  K  QK
+Sbjct  7   INQLETDLQEIASLLEKSERTRVQDVLKLEQKKIEKEISVKRHQK  51
+
+
+> UniRef90_A0A1I8M6C9 Uncharacterized protein n=2 Tax=Musca domestica 
+TaxID=7370 RepID=A0A1I8M6C9_MUSDO
+Length=226
+
+ Score = 45.2 bits (106),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 22/41 (54%), Positives = 30/41 (73%), Gaps = 0/41 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKN  42
+            +EEL+KD EE   LL +ATRKRV+DAL   K++++ EI N
+Sbjct  3   TAEELRKDSEEFSKLLAEATRKRVKDALVKAKAELDREIVN  43
+
+
+> UniRef90_C1BVY9 Calcyclin-binding protein n=1 Tax=Esox lucius 
+TaxID=8010 RepID=C1BVY9_ESOLU
+Length=230
+
+ Score = 45.2 bits (106),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 21/44 (48%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQ  46
+             +L+ DL+E+   LEK+ R+RV+D L  E+ KIE EI  K QQ
+Sbjct  8   INQLESDLQEISNFLEKSERQRVQDVLILEQKKIEKEISFKRQQ  51
+
+
+> UniRef90_UPI000703E441 PREDICTED: calcyclin-binding protein isoform 
+X1 n=1 Tax=Pelodiscus sinensis TaxID=13735 RepID=UPI000703E441
+Length=751
+
+ Score = 46.4 bits (109),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 19/31 (61%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  17  LEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           ++KATRKRV D L AEK K+E EIKN    K
+Sbjct  1   MKKATRKRVYDILIAEKYKLEMEIKNLPAIK  31
+
+
+> UniRef90_C1BIK0 Calcyclin-binding protein n=1 Tax=Osmerus mordax 
+TaxID=8014 RepID=C1BIK0_OSMMO
+Length=225
+
+ Score = 44.5 bits (104),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 22/45 (49%), Positives = 29/45 (64%), Gaps = 0/45 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             +L+ DL E+  LLEKA R+R++D L  EK K+E EI  K  QK
+Sbjct  7   INQLEADLLEISNLLEKAERERIQDVLKQEKKKVEREISAKRLQK  51
+
+
+> UniRef90_A0A0L0C1U4 Uncharacterized protein n=1 Tax=Lucilia cuprina 
+TaxID=7375 RepID=A0A0L0C1U4_LUCCU
+Length=226
+
+ Score = 44.5 bits (104),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 21/40 (53%), Positives = 30/40 (75%), Gaps = 0/40 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEI  40
+           M+ EEL+KD EE   LL +ATR+RV+DAL   K++++ EI
+Sbjct  1   MSIEELRKDSEEFTKLLSEATRQRVKDALIHAKAEVDREI  40
+
+
+> UniRef90_G1KQM7 Uncharacterized protein (Fragment) n=1 Tax=Anolis 
+carolinensis TaxID=28377 RepID=G1KQM7_ANOCA
+Length=221
+
+ Score = 43.3 bits (101),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 18/27 (67%), Positives = 23/27 (85%), Gaps = 0/27 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTA  31
+           +LQKDLEEVK LL+KA+RKR+ D L +
+Sbjct  7   QLQKDLEEVKELLQKASRKRLNDVLLS  33
+
+
+> UniRef90_A0A0S7HHJ2 CYBP n=1 Tax=Poeciliopsis prolifica TaxID=188132 
+RepID=A0A0S7HHJ2_9TELE
+Length=142
+
+ Score = 41.8 bits (97),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 21/43 (49%), Positives = 31/43 (72%), Gaps = 0/43 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +L+ DL+E+  LLEK+ RKRV+D L  E+ K+E E+  K QQ+
+Sbjct  9   QLEADLQELSSLLEKSERKRVQDILQQEQKKVEKELATKRQQQ  51
+
+
+> UniRef90_A0A0P5MF19 Calcyclin-binding protein n=3 Tax=Daphnia 
+magna TaxID=35525 RepID=A0A0P5MF19_9CRUS
+Length=188
+
+ Score = 42.2 bits (98),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 17/44 (39%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQ  45
+             +EL+ D++E+K L + ATR+ V+D L  E  ++ETEI  +++
+Sbjct  4   TIDELRADVDELKKLTDLATRQSVKDVLGLETRRLETEISLQLK  47
+
+
+> UniRef90_A0A0P5QVC4 Calcyclin-binding protein (Fragment) n=1 
+Tax=Daphnia magna TaxID=35525 RepID=A0A0P5QVC4_9CRUS
+Length=226
+
+ Score = 42.5 bits (99),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 17/44 (39%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQ  45
+             +EL+ D++E+K L + ATR+ V+D L  E  ++ETEI  +++
+Sbjct  44  TIDELRADVDELKKLTDLATRQSVKDVLGLETRRLETEISLQLK  87
+
+
+> UniRef90_Q1WCC9 Calcyclin binding protein (Fragment) n=1 Tax=Ictalurus 
+punctatus TaxID=7998 RepID=Q1WCC9_ICTPU
+Length=114
+
+ Score = 41.0 bits (95),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 21/42 (50%), Positives = 30/42 (71%), Gaps = 0/42 (0%)
+
+Query  6   LQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           L+ DL+EV  LLE + R+RV+D L+ E+ KIE E+  K QQ+
+Sbjct  10  LESDLKEVTRLLEMSERQRVQDLLSQEQKKIEKELAQKQQQR  51
+
+
+> UniRef90_A0A1B6H7D3 Uncharacterized protein n=1 Tax=Homalodisca 
+liturata TaxID=320908 RepID=A0A1B6H7D3_9HEMI
+Length=225
+
+ Score = 41.8 bits (97),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 19/44 (43%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQ  46
+            EEL+ D+EE+  LL ++TR++ +D LT E  K++TEI    +Q
+Sbjct  5   LEELKSDVEELNKLLSQSTRQKCKDILTLEIRKVQTEISRLQEQ  48
+
+
+> UniRef90_UPI000440FAEC PREDICTED: calcyclin-binding protein n=1 
+Tax=Astyanax mexicanus TaxID=7994 RepID=UPI000440FAEC
+Length=183
+
+ Score = 41.4 bits (96),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 19/42 (45%), Positives = 27/42 (64%), Gaps = 0/42 (0%)
+
+Query  6   LQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           L+ DL+EV  +LE     RVR+ L+ EK KIE E+K K  ++
+Sbjct  10  LEADLQEVTRVLELCESSRVREVLSQEKQKIEKELKQKQSRR  51
+
+
+> UniRef90_W5K3L6 Uncharacterized protein n=1 Tax=Astyanax mexicanus 
+TaxID=7994 RepID=W5K3L6_ASTMX
+Length=215
+
+ Score = 41.4 bits (96),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 19/42 (45%), Positives = 27/42 (64%), Gaps = 0/42 (0%)
+
+Query  6   LQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           L+ DL+EV  +LE     RVR+ L+ EK KIE E+K K  ++
+Sbjct  10  LEADLQEVTRVLELCESSRVREVLSQEKQKIEKELKQKQSRR  51
+
+
+> UniRef90_M4AN10 Uncharacterized protein n=5 Tax=Poeciliinae TaxID=586240 
+RepID=M4AN10_XIPMA
+Length=227
+
+ Score = 41.8 bits (97),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 21/43 (49%), Positives = 31/43 (72%), Gaps = 0/43 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +L+ DL+E+  LLEK+ RKRV+D L  E+ K+E E+  K QQ+
+Sbjct  9   QLEADLQELSSLLEKSERKRVQDILQQEQKKVEKELATKRQQQ  51
+
+
+> UniRef90_UPI000718F6E4 PREDICTED: calcyclin-binding protein n=2 
+Tax=Polistes TaxID=7456 RepID=UPI000718F6E4
+Length=227
+
+ Score = 41.8 bits (97),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 17/38 (45%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEI  40
+           SEEL+ D+EE+   L++ATR +V+D L+ E  +++TE+
+Sbjct  5   SEELKLDIEELNAFLQQATRSKVKDILSLEIRRLQTEV  42
+
+
+> UniRef90_UPI000719B8ED PREDICTED: calcyclin-binding protein-like 
+n=1 Tax=Priapulus caudatus TaxID=37621 RepID=UPI000719B8ED
+Length=237
+
+ Score = 41.4 bits (96),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 20/37 (54%), Positives = 27/37 (73%), Gaps = 0/37 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIK  41
+           EL+ D+E++K LLE ATR RV+D L    +K+ETEI 
+Sbjct  7   ELRLDVEQLKGLLETATRNRVKDLLVLNIAKLETEIT  43
+
+
+> UniRef90_E3TFP1 Calcyclin-binding protein n=2 Tax=Ictalurus TaxID=7997 
+RepID=E3TFP1_ICTPU
+Length=227
+
+ Score = 41.4 bits (96),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 20/42 (48%), Positives = 29/42 (69%), Gaps = 0/42 (0%)
+
+Query  6   LQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           L+ DL+EV  LLE   R+RV+D L+ E+ KI+ E+  K QQ+
+Sbjct  10  LESDLKEVTRLLEMCERQRVQDLLSQEQKKIKKELAQKQQQR  51
+
+
+> UniRef90_A0A034VKJ9 Calcyclin-binding protein n=8 Tax=Endopterygota 
+TaxID=33392 RepID=A0A034VKJ9_BACDO
+Length=223
+
+ Score = 41.0 bits (95),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 21/48 (44%), Positives = 32/48 (67%), Gaps = 1/48 (2%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKN-KMQQK  47
+           M+ EEL +D  E+   L +ATR RVR+ L   K+++E EI N +M+Q+
+Sbjct  1   MSFEELLQDAGELSRFLGEATRPRVRNVLLQAKAEVEKEIVNLEMKQR  48
+
+
+> UniRef90_U5ENM9 Putative calcyclin-binding protein cacybp n=1 
+Tax=Corethrella appendiculata TaxID=1370023 RepID=U5ENM9_9DIPT
+Length=233
+
+ Score = 41.0 bits (95),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 21/39 (54%), Positives = 30/39 (77%), Gaps = 0/39 (0%)
+
+Query  4   EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKN  42
+           EEL KD+EE+K+L EKA R+R ++ L  E+ K+ETE+ N
+Sbjct  7   EELTKDIEELKLLEEKACRQRSKNLLLIERRKLETELIN  45
+
+
+
+Lambda      K        H        a         alpha
+   0.304    0.154    0.449    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0477    0.140     1.90     42.6     43.6 
+
+Effective search space used: 435784359530
+Results from round 3
+
+
+Query= d2a26a1
+
+Length=47
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_J9P4U8 Uncharacterized protein n=3 Tax=Canis lupus fam...  86.1    1e-18
+  UniRef90_L9KLQ3 Lymphocyte antigen 6H n=1 Tax=Tupaia chinensis ...  86.1    2e-18
+  UniRef90_B4DFD3 cDNA FLJ57914, moderately similar to Calcyclin-...  79.5    2e-17
+  UniRef90_M1EGU4 Calcyclin binding protein (Fragment) n=1 Tax=Mu...  80.3    5e-17
+  UniRef90_UPI0004434593 PREDICTED: calcyclin-binding protein n=1...  80.7    1e-16
+  UniRef90_UPI00077DEE37 UPI00077DEE37 related cluster n=1 Tax=un...  74.1    2e-15
+  UniRef90_H0XMX3 Uncharacterized protein n=1 Tax=Otolemur garnet...  75.3    3e-15
+  UniRef90_L9JK83 Calcyclin-binding protein n=1 Tax=Tupaia chinen...  73.7    4e-15
+  UniRef90_A0A0N8ESL5 Calcyclin-binding protein isoform 2 n=2 Tax...  74.5    5e-15
+  UniRef90_UPI00042BC7B6 PREDICTED: calcyclin-binding protein n=3...  74.5    6e-15
+  UniRef90_G1SLM1 Uncharacterized protein n=3 Tax=Boreoeutheria T...  74.1    7e-15
+  UniRef90_L9KXD4 Calcyclin-binding protein n=1 Tax=Tupaia chinen...  72.6    8e-15
+  UniRef90_UPI00062AC80D PREDICTED: calcyclin-binding protein-lik...  74.1    9e-15
+  UniRef90_UPI00032AFCF5 PREDICTED: calcyclin-binding protein n=1...  73.7    9e-15
+  UniRef90_L9L4C1 Calcyclin-binding protein n=1 Tax=Tupaia chinen...  72.2    2e-14
+  UniRef90_Q9HB71 Calcyclin-binding protein n=63 Tax=Eutheria Tax...  72.6    2e-14
+  UniRef90_UPI00038E9A30 PREDICTED: calcyclin-binding protein-lik...  72.6    2e-14
+  UniRef90_G5ALL1 Calcyclin-binding protein n=1 Tax=Heterocephalu...  72.2    3e-14
+  UniRef90_A0A091DEU9 Calcyclin-binding protein n=2 Tax=Fukomys d...  73.0    3e-14
+  UniRef90_H0VLZ7 Uncharacterized protein n=10 Tax=Boreoeutheria ...  72.6    3e-14
+  UniRef90_M3Y0C3 Uncharacterized protein n=25 Tax=Eutheria TaxID...  72.2    4e-14
+  UniRef90_UPI000533EE02 PREDICTED: LOW QUALITY PROTEIN: calcycli...  71.8    5e-14
+  UniRef90_W5PW38 Uncharacterized protein (Fragment) n=6 Tax=Laur...  71.8    5e-14
+  UniRef90_L9L525 Calcyclin-binding protein n=1 Tax=Tupaia chinen...  70.3    8e-14
+  UniRef90_UPI00069711DA PREDICTED: calcyclin-binding protein-lik...  71.0    1e-13
+  UniRef90_H0XY33 Uncharacterized protein n=2 Tax=Otolemur garnet...  71.0    1e-13
+  UniRef90_Q6AYK6 Calcyclin-binding protein n=5 Tax=Eutheria TaxI...  69.9    2e-13
+  UniRef90_F6QF42 Uncharacterized protein n=1 Tax=Ornithorhynchus...  69.5    3e-13
+  UniRef90_UPI0007A6D541 UPI0007A6D541 related cluster n=1 Tax=un...  69.5    3e-13
+  UniRef90_G5C951 Calcyclin-binding protein n=1 Tax=Heterocephalu...  69.1    4e-13
+  UniRef90_UPI00067BF9A2 PREDICTED: calcyclin-binding protein iso...  68.7    5e-13
+  UniRef90_B5FZV8 Putative calcyclin binding protein n=1 Tax=Taen...  68.3    5e-13
+  UniRef90_F6SVZ6 Uncharacterized protein n=1 Tax=Monodelphis dom...  69.9    5e-13
+  UniRef90_A0A0A6YY29 Calcyclin-binding protein (Fragment) n=2 Ta...  66.8    1e-12
+  UniRef90_A0A151MIL9 Calcyclin-binding protein n=5 Tax=Alligator...  67.2    2e-12
+  UniRef90_UPI00062AB642 PREDICTED: calcyclin-binding protein-lik...  67.6    2e-12
+  UniRef90_G1LRK9 Uncharacterized protein n=1 Tax=Ailuropoda mela...  66.8    3e-12
+  UniRef90_G5BFD5 Calcyclin-binding protein n=1 Tax=Heterocephalu...  66.4    3e-12
+  UniRef90_UPI000549C0D1 PREDICTED: calcyclin-binding protein n=1...  65.6    5e-12
+  UniRef90_L9JEU3 Calcyclin-binding protein n=1 Tax=Tupaia chinen...  64.5    2e-11
+  UniRef90_UPI00051F0104 PREDICTED: calcyclin-binding protein n=1...  64.1    3e-11
+  UniRef90_E1BQN9 Uncharacterized protein n=28 Tax=Aves TaxID=878...  63.3    5e-11
+  UniRef90_UPI00042C1D67 PREDICTED: calcyclin-binding protein n=1...  62.9    7e-11
+  UniRef90_UPI000529AC50 PREDICTED: calcyclin-binding protein n=1...  62.9    8e-11
+  UniRef90_G3WJ33 Uncharacterized protein n=1 Tax=Sarcophilus har...  62.2    1e-10
+  UniRef90_G1MTC7 Uncharacterized protein (Fragment) n=9 Tax=Aves...  61.4    2e-10
+  UniRef90_UPI00074FF02A PREDICTED: calcyclin-binding protein n=1...  61.0    3e-10
+  UniRef90_Q9HB71-2 Isoform 2 of Calcyclin-binding protein n=1 Ta...  59.5    4e-10
+  UniRef90_A0A093HEC9 Calcyclin-binding protein (Fragment) n=2 Ta...  61.0    4e-10
+  UniRef90_A0A091E8K7 Calcyclin-binding protein n=1 Tax=Fukomys d...  59.5    4e-10
+  UniRef90_G3WJ32 Uncharacterized protein (Fragment) n=2 Tax=Sarc...  61.0    4e-10
+  UniRef90_F6YV35 Uncharacterized protein n=5 Tax=Xenopus TaxID=2...  60.6    5e-10
+  UniRef90_A0A091I2B9 Calcyclin-binding protein (Fragment) n=24 T...  60.3    6e-10
+  UniRef90_UPI000520F54D PREDICTED: calcyclin-binding protein-lik...  59.1    1e-09
+  UniRef90_A0A091T3E2 Calcyclin-binding protein (Fragment) n=10 T...  59.1    1e-09
+  UniRef90_V8PH06 Calcyclin-binding protein n=8 Tax=Serpentes Tax...  59.1    2e-09
+  UniRef90_A0A091DNT8 Sorting nexin-2 n=1 Tax=Fukomys damarensis ...  59.5    2e-09
+  UniRef90_U3I6T9 Uncharacterized protein n=4 Tax=Anatidae TaxID=...  58.7    3e-09
+  UniRef90_K7G9C2 Uncharacterized protein n=4 Tax=Cryptodira TaxI...  58.3    3e-09
+  UniRef90_UPI000854B221 UPI000854B221 related cluster n=1 Tax=un...  58.3    3e-09
+  UniRef90_UPI00062A8A73 PREDICTED: calcyclin-binding protein-lik...  57.9    4e-09
+  UniRef90_C3Z811 Putative uncharacterized protein n=1 Tax=Branch...  58.7    2e-08
+  UniRef90_A0A0Q3X7J5 Uncharacterized protein n=1 Tax=Amazona aes...  58.3    2e-08
+  UniRef90_UPI0009481F39 UPI0009481F39 related cluster n=1 Tax=un...  56.8    8e-08
+  UniRef90_A0A0P7V760 Calcyclin-binding protein-like (Fragment) n...  54.1    1e-07
+  UniRef90_G5C9U6 Calcyclin-binding protein n=1 Tax=Heterocephalu...  51.4    3e-07
+  UniRef90_L9JEE4 Calcyclin-binding protein n=1 Tax=Tupaia chinen...  50.2    1e-06
+  UniRef90_A0A0E9X3I6 Uncharacterized protein n=1 Tax=Anguilla an...  51.8    1e-06
+  UniRef90_C1BVY9 Calcyclin-binding protein n=1 Tax=Esox lucius T...  50.6    3e-06
+  UniRef90_B5X9E1 Calcyclin-binding protein n=3 Tax=Salmoninae Ta...  50.6    3e-06
+  UniRef90_W5M3A3 Uncharacterized protein n=1 Tax=Lepisosteus ocu...  49.9    6e-06
+  UniRef90_C1BIK0 Calcyclin-binding protein n=1 Tax=Osmerus morda...  49.5    8e-06
+  UniRef90_UPI0007AC5EE0 UPI0007AC5EE0 related cluster n=9 Tax=un...  48.7    2e-05
+  UniRef90_A0A1I8PX44 Uncharacterized protein n=1 Tax=Stomoxys ca...  47.2    5e-05
+  UniRef90_UPI0007DB7457 UPI0007DB7457 related cluster n=1 Tax=un...  47.2    8e-05
+  UniRef90_A0A1B0FNW9 Uncharacterized protein n=6 Tax=Glossina Ta...  46.4    9e-05
+  UniRef90_A0A0L0C1U4 Uncharacterized protein n=1 Tax=Lucilia cup...  46.4    1e-04
+  UniRef90_A0A1I8M6C9 Uncharacterized protein n=2 Tax=Musca domes...  46.0    1e-04
+  UniRef90_L9JDG0 Pumilio like protein 2 n=2 Tax=Boreoeutheria Ta...  47.5    1e-04
+  UniRef90_UPI000703E441 PREDICTED: calcyclin-binding protein iso...  46.8    2e-04
+  UniRef90_G1KQM7 Uncharacterized protein (Fragment) n=1 Tax=Anol...  42.1    0.004
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A0S7HHJ2 CYBP n=1 Tax=Poeciliopsis prolifica TaxID=1...  42.5    8e-04
+  UniRef90_M4AN10 Uncharacterized protein n=5 Tax=Poeciliinae Tax...  43.3    0.002
+  UniRef90_A0A1B6H7D3 Uncharacterized protein n=1 Tax=Homalodisca...  43.3    0.002
+  UniRef90_Q1WCC9 Calcyclin binding protein (Fragment) n=1 Tax=Ic...  41.4    0.002
+  UniRef90_A0A1B6MMV3 Uncharacterized protein n=1 Tax=Graphocepha...  42.9    0.002
+  UniRef90_UPI00054B492C PREDICTED: calcyclin-binding protein iso...  42.9    0.002
+  UniRef90_A0A0P5QVC4 Calcyclin-binding protein (Fragment) n=1 Ta...  42.9    0.002
+  UniRef90_I3JUC0 Uncharacterized protein n=5 Tax=Pseudocrenilabr...  42.9    0.002
+  UniRef90_E3TFP1 Calcyclin-binding protein n=2 Tax=Ictalurus Tax...  42.9    0.002
+  UniRef90_UPI000440FAEC PREDICTED: calcyclin-binding protein n=1...  42.1    0.002
+  UniRef90_A0A0P5MF19 Calcyclin-binding protein n=3 Tax=Daphnia m...  42.1    0.003
+  UniRef90_W5K3L6 Uncharacterized protein n=1 Tax=Astyanax mexica...  42.5    0.003
+  UniRef90_UPI00064520C0 PREDICTED: calcyclin-binding protein n=1...  41.4    0.004
+  UniRef90_UPI000497B056 PREDICTED: calcyclin-binding protein n=2...  42.1    0.004
+  UniRef90_UPI00055188AF PREDICTED: calcyclin-binding protein n=1...  41.8    0.005
+  UniRef90_B0S6K3 Calcyclin binding protein n=2 Tax=Danio rerio T...  41.8    0.005
+  UniRef90_A0A0P5FD98 Calcyclin-binding protein n=4 Tax=Daphnia m...  41.4    0.009
+  UniRef90_UPI0008144DD0 UPI0008144DD0 related cluster n=1 Tax=un...  41.0    0.009
+  UniRef90_A0A0P5IY63 Calcyclin-binding protein n=14 Tax=Daphnia ...  41.0    0.010
+
+
+> UniRef90_J9P4U8 Uncharacterized protein n=3 Tax=Canis lupus familiaris 
+TaxID=9615 RepID=J9P4U8_CANLF
+Length=379
+
+ Score = 86.1 bits (212),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 43/46 (93%), Positives = 43/46 (93%), Gaps = 0/46 (0%)
+
+Query  2    ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            A EELQKDLEEVKVLLEKA RKRVRDALT EKSKIETEIKNKMQQK
+Sbjct  153  ALEELQKDLEEVKVLLEKANRKRVRDALTVEKSKIETEIKNKMQQK  198
+
+
+> UniRef90_L9KLQ3 Lymphocyte antigen 6H n=1 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L9KLQ3_TUPCH
+Length=465
+
+ Score = 86.1 bits (212),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 38/44 (86%), Positives = 42/44 (95%), Gaps = 0/44 (0%)
+
+Query  4    EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            +ELQK+LEEVKVLLEKATRKRVRDALTAE S IETEI+N+MQQK
+Sbjct  102  QELQKELEEVKVLLEKATRKRVRDALTAENSDIETEIENQMQQK  145
+
+
+> UniRef90_B4DFD3 cDNA FLJ57914, moderately similar to Calcyclin-binding 
+protein n=1 Tax=Homo sapiens TaxID=9606 RepID=B4DFD3_HUMAN
+Length=131
+
+ Score = 79.5 bits (195),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 47/47 (100%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK
+Sbjct  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+
+
+> UniRef90_M1EGU4 Calcyclin binding protein (Fragment) n=1 Tax=Mustela 
+putorius furo TaxID=9669 RepID=M1EGU4_MUSPF
+Length=252
+
+ Score = 80.3 bits (197),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 43/46 (93%), Positives = 44/46 (96%), Gaps = 0/46 (0%)
+
+Query  2    ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            A EELQKDLEEVKVLLEK +RKRVRDALTAEKSKIETEIKNKMQQK
+Sbjct  69   ALEELQKDLEEVKVLLEKTSRKRVRDALTAEKSKIETEIKNKMQQK  114
+
+
+> UniRef90_UPI0004434593 PREDICTED: calcyclin-binding protein n=1 
+Tax=Monodelphis domestica TaxID=13616 RepID=UPI0004434593
+Length=403
+
+ Score = 80.7 bits (198),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 37/46 (80%), Positives = 41/46 (89%), Gaps = 0/46 (0%)
+
+Query  2    ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            A EEL+KDLEEVK LL KATRKRVRD LTAEKSK+ETEIK+K +QK
+Sbjct  178  ALEELRKDLEEVKELLGKATRKRVRDVLTAEKSKLETEIKHKTKQK  223
+
+
+> UniRef90_UPI00077DEE37 UPI00077DEE37 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00077DEE37
+Length=115
+
+ Score = 74.1 bits (181),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 39/46 (85%), Positives = 42/46 (91%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             EELQKDLEEVKVLL+K TRKRVRD LT+EKSKIETE+KNKMQQK
+Sbjct  4   TLEELQKDLEEVKVLLDKTTRKRVRDTLTSEKSKIETEMKNKMQQK  49
+
+
+> UniRef90_H0XMX3 Uncharacterized protein n=1 Tax=Otolemur garnettii 
+TaxID=30611 RepID=H0XMX3_OTOGA
+Length=229
+
+ Score = 75.3 bits (184),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 40/46 (87%), Positives = 42/46 (91%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             EELQKDLEE KVLLEKATRKRV DALTAEKSKIETEIKN++QQK
+Sbjct  4   TLEELQKDLEEAKVLLEKATRKRVHDALTAEKSKIETEIKNQVQQK  49
+
+
+> UniRef90_L9JK83 Calcyclin-binding protein n=1 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L9JK83_TUPCH
+Length=136
+
+ Score = 73.7 bits (180),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 40/46 (87%), Positives = 42/46 (91%), Gaps = 1/46 (2%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             EELQKDL EVKV+LEKATRKRVRDALTAE+ KIETEIKNKMQQK
+Sbjct  4   TVEELQKDL-EVKVILEKATRKRVRDALTAERFKIETEIKNKMQQK  48
+
+
+> UniRef90_A0A0N8ESL5 Calcyclin-binding protein isoform 2 n=2 Tax=Heterocephalus 
+glaber TaxID=10181 RepID=A0A0N8ESL5_HETGA
+Length=230
+
+ Score = 74.5 bits (182),  Expect = 5e-15, Method: Composition-based stats.
+ Identities = 43/46 (93%), Positives = 44/46 (96%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQ DLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNK+QQK
+Sbjct  4   ALEELQNDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKVQQK  49
+
+
+> UniRef90_UPI00042BC7B6 PREDICTED: calcyclin-binding protein n=3 
+Tax=Eutheria TaxID=9347 RepID=UPI00042BC7B6
+Length=247
+
+ Score = 74.5 bits (182),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 40/46 (87%), Positives = 42/46 (91%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+              +LQKDLEEVKVLLEKATRKRVRDALT EKSKIETEIKNK+QQK
+Sbjct  21  VLTQLQKDLEEVKVLLEKATRKRVRDALTTEKSKIETEIKNKVQQK  66
+
+
+> UniRef90_G1SLM1 Uncharacterized protein n=3 Tax=Boreoeutheria 
+TaxID=1437010 RepID=G1SLM1_RABIT
+Length=227
+
+ Score = 74.1 bits (181),  Expect = 7e-15, Method: Composition-based stats.
+ Identities = 38/47 (81%), Positives = 42/47 (89%), Gaps = 0/47 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +  E+LQKDLEEVK LLEK TRKR+ DALTAEKSKIETEIKNK+QQK
+Sbjct  1   LTVEQLQKDLEEVKALLEKTTRKRIHDALTAEKSKIETEIKNKVQQK  47
+
+
+> UniRef90_L9KXD4 Calcyclin-binding protein n=1 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L9KXD4_TUPCH
+Length=110
+
+ Score = 72.6 bits (177),  Expect = 8e-15, Method: Composition-based stats.
+ Identities = 39/46 (85%), Positives = 42/46 (91%), Gaps = 0/46 (0%)
+
+Query  2    ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             +EELQKDLEEVKVLLEKATRK+VRDALTA+K  IET IKNKMQQK
+Sbjct  57   TTEELQKDLEEVKVLLEKATRKKVRDALTAKKPNIETPIKNKMQQK  102
+
+
+> UniRef90_UPI00062AC80D PREDICTED: calcyclin-binding protein-like 
+n=1 Tax=Octodon degus TaxID=10160 RepID=UPI00062AC80D
+Length=230
+
+ Score = 74.1 bits (181),  Expect = 9e-15, Method: Composition-based stats.
+ Identities = 40/46 (87%), Positives = 40/46 (87%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQ DLEEVK LLEKA RKRVRD LT EKSKIETEIKNKMQQK
+Sbjct  4   ALEELQNDLEEVKALLEKAPRKRVRDTLTVEKSKIETEIKNKMQQK  49
+
+
+> UniRef90_UPI00032AFCF5 PREDICTED: calcyclin-binding protein n=1 
+Tax=Ochotona princeps TaxID=9978 RepID=UPI00032AFCF5
+Length=226
+
+ Score = 73.7 bits (180),  Expect = 9e-15, Method: Composition-based stats.
+ Identities = 41/46 (89%), Positives = 45/46 (98%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQKDLEEVKVLLEK+TRKRVRDALTAEK+KIETE++NKMQQK
+Sbjct  4   ALEELQKDLEEVKVLLEKSTRKRVRDALTAEKAKIETEVRNKMQQK  49
+
+
+> UniRef90_L9L4C1 Calcyclin-binding protein n=1 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L9L4C1_TUPCH
+Length=167
+
+ Score = 72.2 bits (176),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 41/47 (87%), Positives = 43/47 (91%), Gaps = 0/47 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +  EELQKDLEEVKVLLEKATRKRV D LTAEKSKIETEIKNKM+QK
+Sbjct  3   LTLEELQKDLEEVKVLLEKATRKRVHDVLTAEKSKIETEIKNKMEQK  49
+
+
+> UniRef90_Q9HB71 Calcyclin-binding protein n=63 Tax=Eutheria TaxID=9347 
+RepID=CYBP_HUMAN
+Length=228
+
+ Score = 72.6 bits (177),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 47/47 (100%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK
+Sbjct  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+
+
+> UniRef90_UPI00038E9A30 PREDICTED: calcyclin-binding protein-like 
+n=1 Tax=Chinchilla lanigera TaxID=34839 RepID=UPI00038E9A30
+Length=230
+
+ Score = 72.6 bits (177),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 39/46 (85%), Positives = 40/46 (87%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQ DLEEVKVLL+KAT KRVRDAL  EKSKIETEIKNKMQ K
+Sbjct  4   ALEELQNDLEEVKVLLDKATGKRVRDALIVEKSKIETEIKNKMQHK  49
+
+
+> UniRef90_G5ALL1 Calcyclin-binding protein n=1 Tax=Heterocephalus 
+glaber TaxID=10181 RepID=G5ALL1_HETGA
+Length=198
+
+ Score = 72.2 bits (176),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 41/46 (89%), Positives = 44/46 (96%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQ DLEEVKVLLEKATRKRV+DALTAEKSKI+TEIKNK+QQK
+Sbjct  4   ALEELQNDLEEVKVLLEKATRKRVQDALTAEKSKIKTEIKNKVQQK  49
+
+
+> UniRef90_A0A091DEU9 Calcyclin-binding protein n=2 Tax=Fukomys 
+damarensis TaxID=885580 RepID=A0A091DEU9_FUKDA
+Length=292
+
+ Score = 73.0 bits (178),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 39/43 (91%), Positives = 41/43 (95%), Gaps = 0/43 (0%)
+
+Query  5    ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            +LQ DLEEVKVLLEKATRKRVRD LTAEKSKIETEIKNK+QQK
+Sbjct  69   KLQNDLEEVKVLLEKATRKRVRDTLTAEKSKIETEIKNKVQQK  111
+
+
+> UniRef90_H0VLZ7 Uncharacterized protein n=10 Tax=Boreoeutheria 
+TaxID=1437010 RepID=H0VLZ7_CAVPO
+Length=230
+
+ Score = 72.6 bits (177),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 39/43 (91%), Positives = 40/43 (93%), Gaps = 0/43 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +LQ DLEEVK LLEKATRKRVRDALTAEK KIETEIKNKMQQK
+Sbjct  7   QLQNDLEEVKTLLEKATRKRVRDALTAEKCKIETEIKNKMQQK  49
+
+
+> UniRef90_M3Y0C3 Uncharacterized protein n=25 Tax=Eutheria TaxID=9347 
+RepID=M3Y0C3_MUSPF
+Length=232
+
+ Score = 72.2 bits (176),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 40/46 (87%), Positives = 42/46 (91%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+              +LQKDLEEVKVLLEK +RKRVRDALTAEKSKIETEIKNKMQQK
+Sbjct  6   VLTQLQKDLEEVKVLLEKTSRKRVRDALTAEKSKIETEIKNKMQQK  51
+
+
+> UniRef90_UPI000533EE02 PREDICTED: LOW QUALITY PROTEIN: calcyclin-binding 
+protein n=1 Tax=Saimiri boliviensis boliviensis 
+TaxID=39432 RepID=UPI000533EE02
+Length=228
+
+ Score = 71.8 bits (175),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MASEELQKDLEEVKVLLEKATRKR+RDALTAEKSKIETEIKNKMQQK
+Sbjct  1   MASEELQKDLEEVKVLLEKATRKRIRDALTAEKSKIETEIKNKMQQK  47
+
+
+> UniRef90_W5PW38 Uncharacterized protein (Fragment) n=6 Tax=Laurasiatheria 
+TaxID=314145 RepID=W5PW38_SHEEP
+Length=230
+
+ Score = 71.8 bits (175),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 40/45 (89%), Positives = 42/45 (93%), Gaps = 0/45 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             +LQKDLEEVKVLLEKATRKRVRDALTAEKSKIE E+KNKMQQK
+Sbjct  5   LTQLQKDLEEVKVLLEKATRKRVRDALTAEKSKIEIEMKNKMQQK  49
+
+
+> UniRef90_L9L525 Calcyclin-binding protein n=1 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L9L525_TUPCH
+Length=127
+
+ Score = 70.3 bits (171),  Expect = 8e-14, Method: Composition-based stats.
+ Identities = 35/46 (76%), Positives = 38/46 (83%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             EELQKD EEVK L+ KAT+KRV +A T EKSKIETEIKNKMQQK
+Sbjct  29  TLEELQKDQEEVKALVGKATKKRVHNAFTIEKSKIETEIKNKMQQK  74
+
+
+> UniRef90_UPI00069711DA PREDICTED: calcyclin-binding protein-like 
+n=1 Tax=Chinchilla lanigera TaxID=34839 RepID=UPI00069711DA
+Length=208
+
+ Score = 71.0 bits (173),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 36/46 (78%), Positives = 38/46 (83%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQ DL EVK LLEKATRKRV D+LTA KSK E EIKNKMQ+K
+Sbjct  4   ALEELQNDLGEVKALLEKATRKRVHDSLTAGKSKTEIEIKNKMQRK  49
+
+
+> UniRef90_H0XY33 Uncharacterized protein n=2 Tax=Otolemur garnettii 
+TaxID=30611 RepID=H0XY33_OTOGA
+Length=236
+
+ Score = 71.0 bits (173),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 42/46 (91%), Positives = 43/46 (93%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQKD EE KVLLEKATRKRVRDALTAEKSKI+TEIKNKMQQK
+Sbjct  4   ALEELQKDREEAKVLLEKATRKRVRDALTAEKSKIKTEIKNKMQQK  49
+
+
+> UniRef90_Q6AYK6 Calcyclin-binding protein n=5 Tax=Eutheria TaxID=9347 
+RepID=CYBP_RAT
+Length=229
+
+ Score = 69.9 bits (170),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 39/46 (85%), Positives = 43/46 (93%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQKDLEEVKVLLEK+TRKR+RD LT EKSKIETE++NKMQQK
+Sbjct  4   ALEELQKDLEEVKVLLEKSTRKRLRDTLTNEKSKIETELRNKMQQK  49
+
+
+> UniRef90_F6QF42 Uncharacterized protein n=1 Tax=Ornithorhynchus 
+anatinus TaxID=9258 RepID=F6QF42_ORNAN
+Length=229
+
+ Score = 69.5 bits (169),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 37/46 (80%), Positives = 39/46 (85%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             EE QKDLEEVK LLEK TRKRVRD LTAEK K+E+EIKNKMQQK
+Sbjct  4   TLEEHQKDLEEVKKLLEKVTRKRVRDVLTAEKGKLESEIKNKMQQK  49
+
+
+> UniRef90_UPI0007A6D541 UPI0007A6D541 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007A6D541
+Length=228
+
+ Score = 69.5 bits (169),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 39/44 (89%), Positives = 42/44 (95%), Gaps = 0/44 (0%)
+
+Query  4   EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           EELQKDLEEVK+LLEKAT K++RDALTAEKSKIETE KNKMQQK
+Sbjct  5   EELQKDLEEVKILLEKATMKKIRDALTAEKSKIETETKNKMQQK  48
+
+
+> UniRef90_G5C951 Calcyclin-binding protein n=1 Tax=Heterocephalus 
+glaber TaxID=10181 RepID=G5C951_HETGA
+Length=182
+
+ Score = 69.1 bits (168),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 42/46 (91%), Positives = 44/46 (96%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQKDLEEVKVLLEKATRKRV+DALTAEKS IETEIKNK+QQK
+Sbjct  4   ALEELQKDLEEVKVLLEKATRKRVQDALTAEKSNIETEIKNKVQQK  49
+
+
+> UniRef90_UPI00067BF9A2 PREDICTED: calcyclin-binding protein isoform 
+X2 n=4 Tax=Boreoeutheria TaxID=1437010 RepID=UPI00067BF9A2
+Length=191
+
+ Score = 68.7 bits (167),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 41/46 (89%), Positives = 44/46 (96%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQKDLE+VKV+LEK TRKRVRDALT+EKSKIETEIKNKMQQK
+Sbjct  4   ALEELQKDLEDVKVVLEKCTRKRVRDALTSEKSKIETEIKNKMQQK  49
+
+
+> UniRef90_B5FZV8 Putative calcyclin binding protein n=1 Tax=Taeniopygia 
+guttata TaxID=59729 RepID=B5FZV8_TAEGU
+Length=157
+
+ Score = 68.3 bits (166),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 33/47 (70%), Positives = 36/47 (77%), Gaps = 0/47 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +A EELQKDLEEVK LL  ATRKRVRD L AEK K+E EIKN+   K
+Sbjct  13  VAREELQKDLEEVKELLTNATRKRVRDVLVAEKQKLELEIKNQPPPK  59
+
+
+> UniRef90_F6SVZ6 Uncharacterized protein n=1 Tax=Monodelphis domestica 
+TaxID=13616 RepID=F6SVZ6_MONDO
+Length=330
+
+ Score = 69.9 bits (170),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 35/43 (81%), Positives = 39/43 (91%), Gaps = 0/43 (0%)
+
+Query  5    ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            EL+KDLEEVK LL KATRKRVRD LTAEKSK+ETEIK+K +QK
+Sbjct  108  ELRKDLEEVKELLGKATRKRVRDVLTAEKSKLETEIKHKTKQK  150
+
+
+> UniRef90_A0A0A6YY29 Calcyclin-binding protein (Fragment) n=2 
+Tax=Muroidea TaxID=337687 RepID=A0A0A6YY29_MOUSE
+Length=135
+
+ Score = 66.8 bits (162),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 39/46 (85%), Positives = 43/46 (93%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             EELQKDLEEVKVLLEK+TRKR+RD LT+EKSKIETE+KNKMQQK
+Sbjct  4   VLEELQKDLEEVKVLLEKSTRKRLRDTLTSEKSKIETELKNKMQQK  49
+
+
+> UniRef90_A0A151MIL9 Calcyclin-binding protein n=5 Tax=Alligator 
+TaxID=8495 RepID=A0A151MIL9_ALLMI
+Length=222
+
+ Score = 67.2 bits (163),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 34/46 (74%), Positives = 37/46 (80%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQKDLEEVK LL KATRKR++D L AEK KIETEIKN+   K
+Sbjct  4   AREELQKDLEEVKELLNKATRKRIQDVLMAEKHKIETEIKNQPGPK  49
+
+
+> UniRef90_UPI00062AB642 PREDICTED: calcyclin-binding protein-like 
+n=1 Tax=Octodon degus TaxID=10160 RepID=UPI00062AB642
+Length=264
+
+ Score = 67.6 bits (164),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 35/46 (76%), Positives = 40/46 (87%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQ DLEEVK LLEKATRK +R+ L+AEKSKIETEIKNK +Q+
+Sbjct  37  ALEELQDDLEEVKALLEKATRKSLRETLSAEKSKIETEIKNKTRQE  82
+
+
+> UniRef90_G1LRK9 Uncharacterized protein n=1 Tax=Ailuropoda melanoleuca 
+TaxID=9646 RepID=G1LRK9_AILME
+Length=203
+
+ Score = 66.8 bits (162),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 39/47 (83%), Positives = 41/47 (87%), Gaps = 0/47 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +A +ELQKDLEEVKVLLEKATRKRV DAL  EKSKI TEIK KMQQK
+Sbjct  3   LALKELQKDLEEVKVLLEKATRKRVCDALMVEKSKIRTEIKKKMQQK  49
+
+
+> UniRef90_G5BFD5 Calcyclin-binding protein n=1 Tax=Heterocephalus 
+glaber TaxID=10181 RepID=G5BFD5_HETGA
+Length=186
+
+ Score = 66.4 bits (161),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 38/46 (83%), Positives = 39/46 (85%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A  E Q DLEEVK LLEKATRKRV DA TAEKSKIETEIKNK+QQK
+Sbjct  4   ALGESQNDLEEVKALLEKATRKRVWDAPTAEKSKIETEIKNKVQQK  49
+
+
+> UniRef90_UPI000549C0D1 PREDICTED: calcyclin-binding protein n=1 
+Tax=Meleagris gallopavo TaxID=9103 RepID=UPI000549C0D1
+Length=146
+
+ Score = 65.6 bits (159),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 31/44 (70%), Positives = 34/44 (77%), Gaps = 0/44 (0%)
+
+Query  4   EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           EELQKDLEEVK LL KATRKR+RD L  EK K+E EIKN+   K
+Sbjct  6   EELQKDLEEVKELLAKATRKRLRDVLMMEKHKLELEIKNQPLPK  49
+
+
+> UniRef90_L9JEU3 Calcyclin-binding protein n=1 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L9JEU3_TUPCH
+Length=177
+
+ Score = 64.5 bits (156),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 42/46 (91%), Positives = 42/46 (91%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             EELQKDLEEVKVLLEK TRKRV DALTAEKSKIETEIKNKMQQK
+Sbjct  4   TVEELQKDLEEVKVLLEKVTRKRVPDALTAEKSKIETEIKNKMQQK  49
+
+
+> UniRef90_UPI00051F0104 PREDICTED: calcyclin-binding protein n=1 
+Tax=Egretta garzetta TaxID=188379 RepID=UPI00051F0104
+Length=238
+
+ Score = 64.1 bits (155),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 30/45 (67%), Positives = 32/45 (71%), Gaps = 0/45 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+              LQKDLEEVK LL KATRKRVRD L  EK K+E EIKN+   K
+Sbjct  22  LRGLQKDLEEVKELLTKATRKRVRDVLMTEKHKLELEIKNQPAPK  66
+
+
+> UniRef90_E1BQN9 Uncharacterized protein n=28 Tax=Aves TaxID=8782 
+RepID=E1BQN9_CHICK
+Length=221
+
+ Score = 63.3 bits (153),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 32/46 (70%), Positives = 35/46 (76%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQKDLEEVK LL KATRKR+RD L  EK K+E EIKN+   K
+Sbjct  4   AREELQKDLEEVKELLAKATRKRLRDVLMMEKHKLELEIKNQPLPK  49
+
+
+> UniRef90_UPI00042C1D67 PREDICTED: calcyclin-binding protein n=1 
+Tax=Chelonia mydas TaxID=8469 RepID=UPI00042C1D67
+Length=223
+
+ Score = 62.9 bits (152),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 28/44 (64%), Positives = 33/44 (75%), Gaps = 0/44 (0%)
+
+Query  4    EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            + L+KDLEEVK LL+KATRKR  D L AEK K+E EIKN+   K
+Sbjct  59   QRLEKDLEEVKELLKKATRKRTHDVLMAEKYKLEIEIKNQPPPK  102
+
+
+> UniRef90_UPI000529AC50 PREDICTED: calcyclin-binding protein n=1 
+Tax=Colius striatus TaxID=57412 RepID=UPI000529AC50
+Length=239
+
+ Score = 62.9 bits (152),  Expect = 8e-11, Method: Composition-based stats.
+ Identities = 29/42 (69%), Positives = 32/42 (76%), Gaps = 0/42 (0%)
+
+Query  6   LQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           LQKDLEEVK LL KATRKR+RD L  EK K+E EIKN+   K
+Sbjct  26  LQKDLEEVKELLAKATRKRLRDVLMTEKQKLELEIKNQPPPK  67
+
+
+> UniRef90_G3WJ33 Uncharacterized protein n=1 Tax=Sarcophilus harrisii 
+TaxID=9305 RepID=G3WJ33_SARHA
+Length=227
+
+ Score = 62.2 bits (150),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 35/47 (74%), Positives = 39/47 (83%), Gaps = 0/47 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MA   L+KDLEEVK LL KATRKRVRD LTAEKSK+E EIK+K +QK
+Sbjct  1   MAHRTLRKDLEEVKDLLGKATRKRVRDVLTAEKSKLEAEIKHKTKQK  47
+
+
+> UniRef90_G1MTC7 Uncharacterized protein (Fragment) n=9 Tax=Aves 
+TaxID=8782 RepID=G1MTC7_MELGA
+Length=224
+
+ Score = 61.4 bits (148),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 29/46 (63%), Positives = 34/46 (74%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             ++LQKDLEEVK LL KATRKR+RD L  EK K+E EIKN+   K
+Sbjct  7   VVKQLQKDLEEVKELLAKATRKRLRDVLMMEKHKLELEIKNQPLPK  52
+
+
+> UniRef90_UPI00074FF02A PREDICTED: calcyclin-binding protein n=1 
+Tax=Gekko japonicus TaxID=146911 RepID=UPI00074FF02A
+Length=218
+
+ Score = 61.0 bits (147),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 30/45 (67%), Positives = 36/45 (80%), Gaps = 0/45 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            EELQKDLEEVK LL+KA+RKR+ D L AEK+K+E EIKN+   K
+Sbjct  1   MEELQKDLEEVKELLKKASRKRIHDVLLAEKNKLEKEIKNQPPPK  45
+
+
+> UniRef90_Q9HB71-2 Isoform 2 of Calcyclin-binding protein n=1 
+Tax=Homo sapiens TaxID=9606 RepID=Q9HB71-2
+Length=80
+
+ Score = 59.5 bits (143),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 47/47 (100%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK
+Sbjct  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+
+
+> UniRef90_A0A093HEC9 Calcyclin-binding protein (Fragment) n=2 
+Tax=Struthio camelus australis TaxID=441894 RepID=A0A093HEC9_STRCA
+Length=216
+
+ Score = 61.0 bits (147),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 27/43 (63%), Positives = 32/43 (74%), Gaps = 0/43 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +LQKDLEEVK LL K TRKR+RD L  EK K+E E+KN+   K
+Sbjct  1   QLQKDLEEVKELLTKTTRKRLRDVLMTEKHKLEIELKNQPPPK  43
+
+
+> UniRef90_A0A091E8K7 Calcyclin-binding protein n=1 Tax=Fukomys 
+damarensis TaxID=885580 RepID=A0A091E8K7_FUKDA
+Length=81
+
+ Score = 59.5 bits (143),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 35/46 (76%), Positives = 38/46 (83%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A EELQ  LEEVK+LLEKAT+ RV DALTAEK  IE EIK+KMQQK
+Sbjct  4   ALEELQNYLEEVKLLLEKATKIRVHDALTAEKFNIEREIKSKMQQK  49
+
+
+> UniRef90_G3WJ32 Uncharacterized protein (Fragment) n=2 Tax=Sarcophilus 
+harrisii TaxID=9305 RepID=G3WJ32_SARHA
+Length=229
+
+ Score = 61.0 bits (147),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 33/45 (73%), Positives = 39/45 (87%), Gaps = 0/45 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            ++L+KDLEEVK LL KATRKRVRD LTAEKSK+E EIK+K +QK
+Sbjct  5   LQKLRKDLEEVKDLLGKATRKRVRDVLTAEKSKLEAEIKHKTKQK  49
+
+
+> UniRef90_F6YV35 Uncharacterized protein n=5 Tax=Xenopus TaxID=262014 
+RepID=F6YV35_XENTR
+Length=227
+
+ Score = 60.6 bits (146),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 32/46 (70%), Positives = 36/46 (78%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             +ELQKDLEEVK LLEKATRKRVRD L  E+ K+ETEI  K QQ+
+Sbjct  4   VLQELQKDLEEVKQLLEKATRKRVRDVLFVEQRKLETEISTKQQQQ  49
+
+
+> UniRef90_A0A091I2B9 Calcyclin-binding protein (Fragment) n=24 
+Tax=Neognathae TaxID=8825 RepID=A0A091I2B9_CALAN
+Length=215
+
+ Score = 60.3 bits (145),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 27/43 (63%), Positives = 32/43 (74%), Gaps = 0/43 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +LQKDLEE+K LL K TRKR+RD L  EK +IE EIKN+   K
+Sbjct  1   QLQKDLEEIKELLLKTTRKRLRDVLMTEKYRIELEIKNQPPPK  43
+
+
+> UniRef90_UPI000520F54D PREDICTED: calcyclin-binding protein-like 
+n=1 Tax=Gavia stellata TaxID=37040 RepID=UPI000520F54D
+Length=132
+
+ Score = 59.1 bits (142),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 28/42 (67%), Positives = 32/42 (76%), Gaps = 0/42 (0%)
+
+Query  6   LQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           LQKDLEEVK LL KATRKR+RD L  EK K+E EIKN+   +
+Sbjct  36  LQKDLEEVKELLTKATRKRLRDVLMTEKHKLELEIKNQPPPR  77
+
+
+> UniRef90_A0A091T3E2 Calcyclin-binding protein (Fragment) n=10 
+Tax=Neognathae TaxID=8825 RepID=A0A091T3E2_9AVES
+Length=163
+
+ Score = 59.1 bits (142),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 29/43 (67%), Positives = 33/43 (77%), Gaps = 0/43 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +LQKDLEEVK LL KATRKR+RD L  EK K+E EIKN+   K
+Sbjct  1   QLQKDLEEVKELLTKATRKRLRDVLMTEKHKLELEIKNQPPPK  43
+
+
+> UniRef90_V8PH06 Calcyclin-binding protein n=8 Tax=Serpentes TaxID=8570 
+RepID=V8PH06_OPHHA
+Length=218
+
+ Score = 59.1 bits (142),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 31/45 (69%), Positives = 34/45 (76%), Gaps = 0/45 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            EELQKDLEEVK LL+ ATRKR+ D L AEK+KIE EIKN    K
+Sbjct  1   MEELQKDLEEVKELLKTATRKRIYDFLLAEKNKIEREIKNLQPLK  45
+
+
+> UniRef90_A0A091DNT8 Sorting nexin-2 n=1 Tax=Fukomys damarensis 
+TaxID=885580 RepID=A0A091DNT8_FUKDA
+Length=238
+
+ Score = 59.5 bits (143),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 25/32 (78%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  2    ASEELQKDLEEVKVLLEKATRKRVRDALTAEK  33
+            A EE+Q DLEEVK+LLEK TRKR+ DALTAEK
+Sbjct  204  ALEEMQNDLEEVKLLLEKNTRKRIHDALTAEK  235
+
+
+> UniRef90_U3I6T9 Uncharacterized protein n=4 Tax=Anatidae TaxID=8830 
+RepID=U3I6T9_ANAPL
+Length=218
+
+ Score = 58.7 bits (141),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 27/44 (61%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  4   EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            +L KDLEEVK LL K TRKR+RD L  EK K+E EIKN+   K
+Sbjct  5   NQLLKDLEEVKELLVKVTRKRLRDVLLTEKHKLELEIKNQPLPK  48
+
+
+> UniRef90_K7G9C2 Uncharacterized protein n=4 Tax=Cryptodira TaxID=8464 
+RepID=K7G9C2_PELSI
+Length=217
+
+ Score = 58.3 bits (140),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 28/43 (65%), Positives = 33/43 (77%), Gaps = 0/43 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           +L+KDLEEVK L++KATRKRV D L AEK K+E EIKN    K
+Sbjct  2   QLEKDLEEVKELMKKATRKRVYDILIAEKYKLEMEIKNLPAIK  44
+
+
+> UniRef90_UPI000854B221 UPI000854B221 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000854B221
+Length=227
+
+ Score = 58.3 bits (140),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 33/46 (72%), Positives = 36/46 (78%), Gaps = 0/46 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           A  E QKDLEEVK LLEKATRKRVRD L  E+ K+ETEI NK QQ+
+Sbjct  4   ALLEFQKDLEEVKQLLEKATRKRVRDVLFVEQRKLETEIANKRQQQ  49
+
+
+> UniRef90_UPI00062A8A73 PREDICTED: calcyclin-binding protein-like 
+n=1 Tax=Octodon degus TaxID=10160 RepID=UPI00062A8A73
+Length=209
+
+ Score = 57.9 bits (139),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 32/35 (91%), Positives = 32/35 (91%), Gaps = 0/35 (0%)
+
+Query  13  VKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           VK LLEKATRKRVRD LT EKSKIETEIKNKMQQK
+Sbjct  15  VKALLEKATRKRVRDTLTVEKSKIETEIKNKMQQK  49
+
+
+> UniRef90_C3Z811 Putative uncharacterized protein n=1 Tax=Branchiostoma 
+floridae TaxID=7739 RepID=C3Z811_BRAFL
+Length=638
+
+ Score = 58.7 bits (141),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 23/40 (58%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKN  42
+            EELQ DL+E++ LLE++TR+RV+ ALT EK +I+TEI +
+Sbjct  4   LEELQADLQEIERLLEQSTRERVKKALTLEKGRIQTEITD  43
+
+
+> UniRef90_A0A0Q3X7J5 Uncharacterized protein n=1 Tax=Amazona aestiva 
+TaxID=12930 RepID=A0A0Q3X7J5_AMAAE
+Length=615
+
+ Score = 58.3 bits (140),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 26/43 (60%), Positives = 30/43 (70%), Gaps = 0/43 (0%)
+
+Query  5    ELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            +L KDLEEV  LL K TRKR+RD L  EK K+E EIKN+   K
+Sbjct  401  KLLKDLEEVNELLAKTTRKRLRDVLMTEKHKLELEIKNQPPPK  443
+
+
+> UniRef90_UPI0009481F39 UPI0009481F39 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009481F39
+Length=626
+
+ Score = 56.8 bits (136),  Expect = 8e-08, Method: Composition-based stats.
+ Identities = 21/40 (53%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKN  42
+            +EL+ DL+E++ LLE+A R+RV+ ALT EK +I+TEI +
+Sbjct  4   LQELRADLQEIERLLEQARRERVKKALTLEKGRIQTEITD  43
+
+
+> UniRef90_A0A0P7V760 Calcyclin-binding protein-like (Fragment) 
+n=2 Tax=Scleropages formosus TaxID=113540 RepID=A0A0P7V760_9TELE
+Length=219
+
+ Score = 54.1 bits (129),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 27/45 (60%), Positives = 35/45 (78%), Gaps = 0/45 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             +L+ DL+EVK LLEK+TR+R+RD L+ E+ KIETEI  K QQK
+Sbjct  1   ISQLESDLQEVKSLLEKSTRRRLRDVLSQEQKKIETEIALKWQQK  45
+
+
+> UniRef90_G5C9U6 Calcyclin-binding protein n=1 Tax=Heterocephalus 
+glaber TaxID=10181 RepID=G5C9U6_HETGA
+Length=72
+
+ Score = 51.4 bits (122),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 30/32 (94%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+
+Query  16  LLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           LLEKATRKRVRDALTAEKSKI+TEIKNK+QQK
+Sbjct  2   LLEKATRKRVRDALTAEKSKIKTEIKNKVQQK  33
+
+
+> UniRef90_L9JEE4 Calcyclin-binding protein n=1 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L9JEE4_TUPCH
+Length=64
+
+ Score = 50.2 bits (119),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 40/44 (91%), Positives = 42/44 (95%), Gaps = 0/44 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQ  45
+             EELQKDLEEVKVLLEKATRKRVRDALTAEKSKI+TEIKNK+Q
+Sbjct  21  TLEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIKTEIKNKIQ  64
+
+
+> UniRef90_A0A0E9X3I6 Uncharacterized protein n=1 Tax=Anguilla 
+anguilla TaxID=7936 RepID=A0A0E9X3I6_ANGAN
+Length=228
+
+ Score = 51.8 bits (123),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 25/45 (56%), Positives = 32/45 (71%), Gaps = 0/45 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             +L+ DL+E+  LLEK+ RKRV+D LT EK K+E EI  K QQK
+Sbjct  7   ISQLESDLQEINFLLEKSDRKRVQDVLTQEKKKVEREIALKQQQK  51
+
+
+> UniRef90_C1BVY9 Calcyclin-binding protein n=1 Tax=Esox lucius 
+TaxID=8010 RepID=C1BVY9_ESOLU
+Length=230
+
+ Score = 50.6 bits (120),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 21/44 (48%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQ  46
+             +L+ DL+E+   LEK+ R+RV+D L  E+ KIE EI  K QQ
+Sbjct  8   INQLESDLQEISNFLEKSERQRVQDVLILEQKKIEKEISFKRQQ  51
+
+
+> UniRef90_B5X9E1 Calcyclin-binding protein n=3 Tax=Salmoninae 
+TaxID=504568 RepID=B5X9E1_SALSA
+Length=239
+
+ Score = 50.6 bits (120),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 22/45 (49%), Positives = 29/45 (64%), Gaps = 0/45 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             +L+ DL+E+  LLEK+ R RV+D L  E+ KIE EI  K  QK
+Sbjct  7   INQLETDLQEIASLLEKSERTRVQDVLKLEQKKIEKEISVKRHQK  51
+
+
+> UniRef90_W5M3A3 Uncharacterized protein n=1 Tax=Lepisosteus oculatus 
+TaxID=7918 RepID=W5M3A3_LEPOC
+Length=227
+
+ Score = 49.9 bits (118),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 25/44 (57%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQ  46
+             +L+ DL+EVK LLE A RKR++D LTAE+ K+E EI  K QQ
+Sbjct  7   ISQLESDLKEVKSLLEIAERKRIQDVLTAEQKKLEREITAKQQQ  50
+
+
+> UniRef90_C1BIK0 Calcyclin-binding protein n=1 Tax=Osmerus mordax 
+TaxID=8014 RepID=C1BIK0_OSMMO
+Length=225
+
+ Score = 49.5 bits (117),  Expect = 8e-06, Method: Composition-based stats.
+ Identities = 22/45 (49%), Positives = 29/45 (64%), Gaps = 0/45 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             +L+ DL E+  LLEKA R+R++D L  EK K+E EI  K  QK
+Sbjct  7   INQLEADLLEISNLLEKAERERIQDVLKQEKKKVEREISAKRLQK  51
+
+
+> UniRef90_UPI0007AC5EE0 UPI0007AC5EE0 related cluster n=9 Tax=unknown 
+TaxID= RepID=UPI0007AC5EE0
+Length=230
+
+ Score = 48.7 bits (115),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 22/42 (52%), Positives = 29/42 (69%), Gaps = 0/42 (0%)
+
+Query  6   LQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           L+ D +E+  LLEK  R+R+RD LT E+ KIE E+  K QQK
+Sbjct  13  LESDFKEITSLLEKCERQRLRDVLTQEQKKIEKELAQKRQQK  54
+
+
+> UniRef90_A0A1I8PX44 Uncharacterized protein n=1 Tax=Stomoxys 
+calcitrans TaxID=35570 RepID=A0A1I8PX44_STOCA
+Length=226
+
+ Score = 47.2 bits (111),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 22/39 (56%), Positives = 30/39 (77%), Gaps = 0/39 (0%)
+
+Query  4   EELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKN  42
+           EEL+KD EE+  LL +ATRKRV+DAL   K++++ EI N
+Sbjct  5   EELRKDSEEICKLLAEATRKRVKDALVKAKAEVDREIVN  43
+
+
+> UniRef90_UPI0007DB7457 UPI0007DB7457 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007DB7457
+Length=307
+
+ Score = 47.2 bits (111),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 20/31 (65%), Positives = 25/31 (81%), Gaps = 0/31 (0%)
+
+Query  1    MASEELQKDLEEVKVLLEKATRKRVRDALTA  31
+            +  EELQKDLEEVK LL+KA+RKR+ D L +
+Sbjct  89   LEMEELQKDLEEVKELLQKASRKRLNDVLLS  119
+
+
+> UniRef90_A0A1B0FNW9 Uncharacterized protein n=6 Tax=Glossina 
+TaxID=44049 RepID=A0A1B0FNW9_GLOMM
+Length=215
+
+ Score = 46.4 bits (109),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 24/42 (57%), Positives = 32/42 (76%), Gaps = 0/42 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKN  42
+           M+ EEL+KD EE+  LL +ATRKRV+DAL   K++I+ EI N
+Sbjct  1   MSIEELRKDSEELTKLLGEATRKRVKDALVKAKAEIDREIVN  42
+
+
+> UniRef90_A0A0L0C1U4 Uncharacterized protein n=1 Tax=Lucilia cuprina 
+TaxID=7375 RepID=A0A0L0C1U4_LUCCU
+Length=226
+
+ Score = 46.4 bits (109),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 21/40 (53%), Positives = 30/40 (75%), Gaps = 0/40 (0%)
+
+Query  1   MASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEI  40
+           M+ EEL+KD EE   LL +ATR+RV+DAL   K++++ EI
+Sbjct  1   MSIEELRKDSEEFTKLLSEATRQRVKDALIHAKAEVDREI  40
+
+
+> UniRef90_A0A1I8M6C9 Uncharacterized protein n=2 Tax=Musca domestica 
+TaxID=7370 RepID=A0A1I8M6C9_MUSDO
+Length=226
+
+ Score = 46.0 bits (108),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 22/41 (54%), Positives = 30/41 (73%), Gaps = 0/41 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKN  42
+            +EEL+KD EE   LL +ATRKRV+DAL   K++++ EI N
+Sbjct  3   TAEELRKDSEEFSKLLAEATRKRVKDALVKAKAELDREIVN  43
+
+
+> UniRef90_L9JDG0 Pumilio like protein 2 n=2 Tax=Boreoeutheria 
+TaxID=1437010 RepID=L9JDG0_TUPCH
+Length=870
+
+ Score = 47.5 bits (112),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 19/22 (86%), Positives = 19/22 (86%), Gaps = 0/22 (0%)
+
+Query  2    ASEELQKDLEEVKVLLEKATRK  23
+              EELQKDLEEVK LLEKATRK
+Sbjct  718  TLEELQKDLEEVKALLEKATRK  739
+
+
+> UniRef90_UPI000703E441 PREDICTED: calcyclin-binding protein isoform 
+X1 n=1 Tax=Pelodiscus sinensis TaxID=13735 RepID=UPI000703E441
+Length=751
+
+ Score = 46.8 bits (110),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 19/31 (61%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  17  LEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           ++KATRKRV D L AEK K+E EIKN    K
+Sbjct  1   MKKATRKRVYDILIAEKYKLEMEIKNLPAIK  31
+
+
+> UniRef90_A0A0S7HHJ2 CYBP n=1 Tax=Poeciliopsis prolifica TaxID=188132 
+RepID=A0A0S7HHJ2_9TELE
+Length=142
+
+ Score = 42.5 bits (99),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 21/45 (47%), Positives = 31/45 (69%), Gaps = 0/45 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             +L+ DL+E+  LLEK+ RKRV+D L  E+ K+E E+  K QQ+
+Sbjct  7   ITQLEADLQELSSLLEKSERKRVQDILQQEQKKVEKELATKRQQQ  51
+
+
+> UniRef90_M4AN10 Uncharacterized protein n=5 Tax=Poeciliinae TaxID=586240 
+RepID=M4AN10_XIPMA
+Length=227
+
+ Score = 43.3 bits (101),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 21/45 (47%), Positives = 31/45 (69%), Gaps = 0/45 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             +L+ DL+E+  LLEK+ RKRV+D L  E+ K+E E+  K QQ+
+Sbjct  7   ITQLEADLQELSSLLEKSERKRVQDILQQEQKKVEKELATKRQQQ  51
+
+
+> UniRef90_A0A1B6H7D3 Uncharacterized protein n=1 Tax=Homalodisca 
+liturata TaxID=320908 RepID=A0A1B6H7D3_9HEMI
+Length=225
+
+ Score = 43.3 bits (101),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 19/44 (43%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQ  46
+            EEL+ D+EE+  LL ++TR++ +D LT E  K++TEI    +Q
+Sbjct  5   LEELKSDVEELNKLLSQSTRQKCKDILTLEIRKVQTEISRLQEQ  48
+
+
+> UniRef90_Q1WCC9 Calcyclin binding protein (Fragment) n=1 Tax=Ictalurus 
+punctatus TaxID=7998 RepID=Q1WCC9_ICTPU
+Length=114
+
+ Score = 41.4 bits (96),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 21/42 (50%), Positives = 30/42 (71%), Gaps = 0/42 (0%)
+
+Query  6   LQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           L+ DL+EV  LLE + R+RV+D L+ E+ KIE E+  K QQ+
+Sbjct  10  LESDLKEVTRLLEMSERQRVQDLLSQEQKKIEKELAQKQQQR  51
+
+
+> UniRef90_A0A1B6MMV3 Uncharacterized protein n=1 Tax=Graphocephala 
+atropunctata TaxID=36148 RepID=A0A1B6MMV3_9HEMI
+Length=225
+
+ Score = 42.9 bits (100),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 18/44 (41%), Positives = 28/44 (64%), Gaps = 0/44 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQ  46
+             EL+ D+EE+  LL ++TR++ +D L+ E  KI+TEI     Q
+Sbjct  5   INELKSDVEELNKLLAQSTRQKSKDVLSLEIRKIQTEISRLQDQ  48
+
+
+> UniRef90_UPI00054B492C PREDICTED: calcyclin-binding protein isoform 
+X1 n=2 Tax=Larimichthys crocea TaxID=215358 RepID=UPI00054B492C
+Length=229
+
+ Score = 42.9 bits (100),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 20/45 (44%), Positives = 31/45 (69%), Gaps = 0/45 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             +L+ D++E+  LLEK+ RKRV++ L  E+ K+E E+  K QQK
+Sbjct  7   INQLEADMQELGSLLEKSERKRVQELLKQEQKKVEKELAAKRQQK  51
+
+
+> UniRef90_A0A0P5QVC4 Calcyclin-binding protein (Fragment) n=1 
+Tax=Daphnia magna TaxID=35525 RepID=A0A0P5QVC4_9CRUS
+Length=226
+
+ Score = 42.9 bits (100),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 17/44 (39%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQ  45
+             +EL+ D++E+K L + ATR+ V+D L  E  ++ETEI  +++
+Sbjct  44  TIDELRADVDELKKLTDLATRQSVKDVLGLETRRLETEISLQLK  87
+
+
+> UniRef90_I3JUC0 Uncharacterized protein n=5 Tax=Pseudocrenilabrinae 
+TaxID=318546 RepID=I3JUC0_ORENI
+Length=227
+
+ Score = 42.9 bits (100),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 23/45 (51%), Positives = 31/45 (69%), Gaps = 0/45 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+            ++L+ DL E+  LLEKA RKRV+D L  E+ K+E E+  K QQK
+Sbjct  7   IKQLEADLLELGSLLEKAERKRVQDLLKQEQKKVEKELAAKRQQK  51
+
+
+> UniRef90_E3TFP1 Calcyclin-binding protein n=2 Tax=Ictalurus TaxID=7997 
+RepID=E3TFP1_ICTPU
+Length=227
+
+ Score = 42.9 bits (100),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 20/42 (48%), Positives = 29/42 (69%), Gaps = 0/42 (0%)
+
+Query  6   LQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           L+ DL+EV  LLE   R+RV+D L+ E+ KI+ E+  K QQ+
+Sbjct  10  LESDLKEVTRLLEMCERQRVQDLLSQEQKKIKKELAQKQQQR  51
+
+
+> UniRef90_UPI000440FAEC PREDICTED: calcyclin-binding protein n=1 
+Tax=Astyanax mexicanus TaxID=7994 RepID=UPI000440FAEC
+Length=183
+
+ Score = 42.1 bits (98),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 19/42 (45%), Positives = 27/42 (64%), Gaps = 0/42 (0%)
+
+Query  6   LQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           L+ DL+EV  +LE     RVR+ L+ EK KIE E+K K  ++
+Sbjct  10  LEADLQEVTRVLELCESSRVREVLSQEKQKIEKELKQKQSRR  51
+
+
+> UniRef90_A0A0P5MF19 Calcyclin-binding protein n=3 Tax=Daphnia 
+magna TaxID=35525 RepID=A0A0P5MF19_9CRUS
+Length=188
+
+ Score = 42.1 bits (98),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 17/44 (39%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQ  45
+             +EL+ D++E+K L + ATR+ V+D L  E  ++ETEI  +++
+Sbjct  4   TIDELRADVDELKKLTDLATRQSVKDVLGLETRRLETEISLQLK  47
+
+
+> UniRef90_W5K3L6 Uncharacterized protein n=1 Tax=Astyanax mexicanus 
+TaxID=7994 RepID=W5K3L6_ASTMX
+Length=215
+
+ Score = 42.5 bits (99),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 19/42 (45%), Positives = 27/42 (64%), Gaps = 0/42 (0%)
+
+Query  6   LQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+           L+ DL+EV  +LE     RVR+ L+ EK KIE E+K K  ++
+Sbjct  10  LEADLQEVTRVLELCESSRVREVLSQEKQKIEKELKQKQSRR  51
+
+
+> UniRef90_UPI00064520C0 PREDICTED: calcyclin-binding protein n=1 
+Tax=Fundulus heteroclitus TaxID=8078 RepID=UPI00064520C0
+Length=158
+
+ Score = 41.4 bits (96),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 18/41 (44%), Positives = 29/41 (71%), Gaps = 0/41 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNK  43
+             +L+ DL+E+  LLEKA RKR+++ L  E+ K+E E+ +K
+Sbjct  7   ISQLEADLQELSSLLEKAERKRLQELLKQEQKKVEKELASK  47
+
+
+> UniRef90_G1KQM7 Uncharacterized protein (Fragment) n=1 Tax=Anolis 
+carolinensis TaxID=28377 RepID=G1KQM7_ANOCA
+Length=221
+
+ Score = 42.1 bits (98),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 18/27 (67%), Positives = 23/27 (85%), Gaps = 0/27 (0%)
+
+Query  5   ELQKDLEEVKVLLEKATRKRVRDALTA  31
+           +LQKDLEEVK LL+KA+RKR+ D L +
+Sbjct  7   QLQKDLEEVKELLQKASRKRLNDVLLS  33
+
+
+> UniRef90_UPI000497B056 PREDICTED: calcyclin-binding protein n=2 
+Tax=Stegastes partitus TaxID=144197 RepID=UPI000497B056
+Length=227
+
+ Score = 42.1 bits (98),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 21/45 (47%), Positives = 31/45 (69%), Gaps = 0/45 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             +L+ DL+E+  LLEKA R RV++ L  E+ K+E E+ +K QQK
+Sbjct  7   INQLEADLQELGSLLEKAERNRVQELLKQEQKKVEKELASKRQQK  51
+
+
+> UniRef90_UPI00055188AF PREDICTED: calcyclin-binding protein n=1 
+Tax=Notothenia coriiceps TaxID=8208 RepID=UPI00055188AF
+Length=230
+
+ Score = 41.8 bits (97),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 21/45 (47%), Positives = 29/45 (64%), Gaps = 0/45 (0%)
+
+Query  3   SEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQK  47
+             +L+ DL E+  LLEKA RKR ++ L  E+ K+E E+  K QQK
+Sbjct  7   INQLEADLVELGSLLEKAERKRAQELLQQEQKKVEKELAVKRQQK  51
+
+
+> UniRef90_B0S6K3 Calcyclin binding protein n=2 Tax=Danio rerio 
+TaxID=7955 RepID=B0S6K3_DANRE
+Length=227
+
+ Score = 41.8 bits (97),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 19/36 (53%), Positives = 25/36 (69%), Gaps = 0/36 (0%)
+
+Query  6   LQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIK  41
+           L+ DL+E+  L EK  R+RVRD LT E+ KIE E+ 
+Sbjct  10  LESDLKEITSLQEKCERQRVRDILTQEQKKIEKELA  45
+
+
+> UniRef90_A0A0P5FD98 Calcyclin-binding protein n=4 Tax=Daphnia 
+magna TaxID=35525 RepID=A0A0P5FD98_9CRUS
+Length=262
+
+ Score = 41.4 bits (96),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 17/44 (39%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQ  45
+             +EL+ D++E+K L + ATR+ V+D L  E  ++ETEI  +++
+Sbjct  4   TIDELRADVDELKKLTDLATRQSVKDVLGLETRRLETEISLQLK  47
+
+
+> UniRef90_UPI0008144DD0 UPI0008144DD0 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008144DD0
+Length=226
+
+ Score = 41.0 bits (95),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 19/41 (46%), Positives = 25/41 (61%), Gaps = 0/41 (0%)
+
+Query  6   LQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQQ  46
+           L+ DL+EV  LL     KRV+D L+ E+ KIE E+  K  Q
+Sbjct  10  LENDLKEVTRLLGLCESKRVQDVLSQEQKKIEKELSQKRLQ  50
+
+
+> UniRef90_A0A0P5IY63 Calcyclin-binding protein n=14 Tax=Daphnia 
+TaxID=6668 RepID=A0A0P5IY63_9CRUS
+Length=244
+
+ Score = 41.0 bits (95),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/44 (39%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  2   ASEELQKDLEEVKVLLEKATRKRVRDALTAEKSKIETEIKNKMQ  45
+             +EL+ D++E+K L + ATR+ V+D L  E  ++ETEI  +++
+Sbjct  4   TIDELRADVDELKKLTDLATRQSVKDVLGLETRRLETEISLQLK  47
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.155    0.448    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0480    0.140     1.90     42.6     43.6 
+
+Effective search space used: 435784359530
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

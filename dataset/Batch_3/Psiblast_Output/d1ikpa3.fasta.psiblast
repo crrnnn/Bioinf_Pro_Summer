@@ -1,0 +1,485 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1ikpa3
+
+Length=143
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P11439 Exotoxin A n=271 Tax=Gammaproteobacteria TaxID=...  284     2e-89
+  UniRef90_K1JNX2 Uncharacterized protein n=22 Tax=Aeromonadaceae...  163     3e-44
+  UniRef90_A0A0W0AX19 Exotoxin n=3 Tax=Aeromonas TaxID=642 RepID=...  159     8e-43
+  UniRef90_A0A0X8GM05 Uncharacterized protein n=1 Tax=Janthinobac...  102     3e-22
+  UniRef90_A0A0J6NSS9 Uncharacterized protein n=4 Tax=Chromobacte...  100     1e-21
+  UniRef90_T0PG59 Exotoxin A (Fragment) n=1 Tax=Aeromonas salmoni...  96.3    5e-21
+  UniRef90_T0P5W3 Exotoxin A n=1 Tax=Aeromonas salmonicida subsp....  68.9    3e-11
+  UniRef90_A0A0N9X392 Truncated cholix toxin n=1 Tax=Vibrio chole...  68.9    7e-11
+  UniRef90_Q5EK40 Cholix toxin n=87 Tax=Vibrio cholerae TaxID=666...  66.6    6e-10
+  UniRef90_E9JRT6 Cholix toxin (Fragment) n=4 Tax=Vibrio cholerae...  63.9    3e-09
+
+
+> UniRef90_P11439 Exotoxin A n=271 Tax=Gammaproteobacteria TaxID=1236 
+RepID=TOXA_PSEAE
+Length=638
+
+ Score = 284 bits (726),  Expect = 2e-89, Method: Compositional matrix adjust.
+ Identities = 141/143 (99%), Positives = 142/143 (99%), Gaps = 0/143 (0%)
+
+Query  1    EGGSLAALTAHQACHLPLETFTRHRQPRGAEQLEQCGYPVQRLVALYLAARLSWNQVDQV  60
+            EGGSLAALTAHQACHLPLETFTRHRQPRG EQLEQCGYPVQRLVALYLAARLSWNQVDQV
+Sbjct  277  EGGSLAALTAHQACHLPLETFTRHRQPRGWEQLEQCGYPVQRLVALYLAARLSWNQVDQV  336
+
+Query  61   IRNALASPGSGGDLGEAIREQPEQARLALTLAAAESERFVRQGTGNDEAGAANADVVSLT  120
+            IRNALASPGSGGDLGEAIREQPEQARLALTLAAAESERFVRQGTGNDEAGAA+ADVVSLT
+Sbjct  337  IRNALASPGSGGDLGEAIREQPEQARLALTLAAAESERFVRQGTGNDEAGAASADVVSLT  396
+
+Query  121  CPVAAGECAGPADSGDALLERNY  143
+            CPVAAGECAGPADSGDALLERNY
+Sbjct  397  CPVAAGECAGPADSGDALLERNY  419
+
+
+> UniRef90_K1JNX2 Uncharacterized protein n=22 Tax=Aeromonadaceae 
+TaxID=84642 RepID=K1JNX2_AERHY
+Length=639
+
+ Score = 163 bits (412),  Expect = 3e-44, Method: Compositional matrix adjust.
+ Identities = 86/149 (58%), Positives = 102/149 (68%), Gaps = 6/149 (4%)
+
+Query  1    EGGSLAALTAHQACHLPLETFTRHRQPRGAEQLEQCGYPVQRLVALYLAARLSWNQVDQV  60
+            +G  LAALT HQ C +PLE+  R RQPRG E+L QCGYPV  LV LYL  RL W+Q+D V
+Sbjct  277  KGDGLAALTTHQVCAIPLESLARSRQPRGWEELSQCGYPVHNLVTLYLLTRLPWSQLDTV  336
+
+Query  61   IRNALA--SPGSG----GDLGEAIREQPEQARLALTLAAAESERFVRQGTGNDEAGAANA  114
+            I  ALA  +P  G    G L +AIRE P QARLAL++AAA+S+ F  Q  GN +  AA+A
+Sbjct  337  ITQALANTTPEDGSTPRGQLAQAIRENPAQARLALSMAAAQSDAFSHQQAGNSQEQAASA  396
+
+Query  115  DVVSLTCPVAAGECAGPADSGDALLERNY  143
+            DVV+LTCP A   C  PADS DAL ER+Y
+Sbjct  397  DVVNLTCPAADLNCLAPADSADALQERDY  425
+
+
+> UniRef90_A0A0W0AX19 Exotoxin n=3 Tax=Aeromonas TaxID=642 RepID=A0A0W0AX19_AERSA
+Length=639
+
+ Score = 159 bits (401),  Expect = 8e-43, Method: Compositional matrix adjust.
+ Identities = 82/149 (55%), Positives = 101/149 (68%), Gaps = 6/149 (4%)
+
+Query  1    EGGSLAALTAHQACHLPLETFTRHRQPRGAEQLEQCGYPVQRLVALYLAARLSWNQVDQV  60
+            +  SLAALT HQ C +PLE   R RQPRG E+L QCGYPV  L+ LY+  RL W+Q+D V
+Sbjct  277  KADSLAALTTHQVCAIPLEALARSRQPRGWEELSQCGYPVHNLITLYVLTRLPWSQLDSV  336
+
+Query  61   IRNALA--SPGSG----GDLGEAIREQPEQARLALTLAAAESERFVRQGTGNDEAGAANA  114
+            I  AL+  +P  G    G L +AIRE P QARLALT+A+A+S+ F RQ   N +  AA+A
+Sbjct  337  IAQALSHTTPEDGSTPRGQLAQAIRENPAQARLALTMASAQSDAFTRQHADNTQEQAASA  396
+
+Query  115  DVVSLTCPVAAGECAGPADSGDALLERNY  143
+            DVV+LTCP A   C  PADS +AL ER+Y
+Sbjct  397  DVVNLTCPAADLNCLSPADSANALQERDY  425
+
+
+> UniRef90_A0A0X8GM05 Uncharacterized protein n=1 Tax=Janthinobacterium 
+sp. B9-8 TaxID=1236179 RepID=A0A0X8GM05_9BURK
+Length=668
+
+ Score = 102 bits (253),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 60/148 (41%), Positives = 83/148 (56%), Gaps = 9/148 (6%)
+
+Query  4    SLAALTAHQACHLPLETFTRHRQPRGAEQLEQCGYPVQRLVALYLAARLSWNQVDQVIRN  63
+            +L AL+AH+ C +PLE+  R RQPRG E+L  CG+ V+ +V LY+A RLS+++  QV+ +
+Sbjct  317  ALGALSAHRVCGIPLESLARSRQPRGWEELSACGFRVENIVGLYIATRLSFDRFRQVVED  376
+
+Query  64   ALAS-PGSGG-------DLGEAIREQPEQARLALTLAAAESERFVRQGTGNDEAGAANAD  115
+             + S P SG         LG  +RE PE AR  L  A A    +     G+    A  AD
+Sbjct  377  LIHSRPVSGAQDPVALEQLGSVVRETPELAREGLAEAEARLNAYRANHPGSSADDAQRAD  436
+
+Query  116  VVSLTCPVAAGECAGPADSGDALLERNY  143
+            V+SLTCP  +  C  P D+  A + R Y
+Sbjct  437  VLSLTCPADSAPCNAP-DAAGAHVNREY  463
+
+
+> UniRef90_A0A0J6NSS9 Uncharacterized protein n=4 Tax=Chromobacterium 
+TaxID=535 RepID=A0A0J6NSS9_9NEIS
+Length=617
+
+ Score = 100 bits (248),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 61/149 (41%), Positives = 84/149 (56%), Gaps = 9/149 (6%)
+
+Query  3    GSLAALTAHQACHLPLETFTRHRQPRGAEQLEQCGYPVQRLVALYLAARLSWNQVDQVIR  62
+             +L AL+AH+ C +PLE+  R RQPRG E+L  CG+ V+ +V LY+A RLS+++  QV+ 
+Sbjct  264  NALGALSAHRVCGIPLESLARSRQPRGWEELSACGFRVENIVGLYIATRLSFDRFRQVVD  323
+
+Query  63   NALAS-PGSG-------GDLGEAIREQPEQARLALTLAAAESERFVRQGTGNDEAGAANA  114
+            + + S P SG         LG A+RE PE AR  L  A A    +     G     A  A
+Sbjct  324  DLIHSRPVSGAQDPEALAQLGTAVRETPEMAREGLAEAEARLNAYRANHAGASADDAQRA  383
+
+Query  115  DVVSLTCPVAAGECAGPADSGDALLERNY  143
+            DV+SLTCP  +  CA  A++  A + R Y
+Sbjct  384  DVLSLTCPADSEPCAA-ANADGAHVNREY  411
+
+
+> UniRef90_T0PG59 Exotoxin A (Fragment) n=1 Tax=Aeromonas salmonicida 
+subsp. pectinolytica 34mel TaxID=1324960 RepID=T0PG59_AERSA
+Length=316
+
+ Score = 96.3 bits (238),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 54/99 (55%), Positives = 67/99 (68%), Gaps = 6/99 (6%)
+
+Query  51   RLSWNQVDQVIRNALA--SPGSG----GDLGEAIREQPEQARLALTLAAAESERFVRQGT  104
+            RL W+Q+D VI  AL+  +P  G    G L +AIRE P QARLALT+AAA+S+ F RQ  
+Sbjct  4    RLPWSQLDSVIAQALSHTTPEEGSTPRGQLAQAIRENPAQARLALTMAAAQSDAFTRQHA  63
+
+Query  105  GNDEAGAANADVVSLTCPVAAGECAGPADSGDALLERNY  143
+             N +  AA+ADVV+LTCP A   C  PADS +AL ER+Y
+Sbjct  64   DNTQEQAASADVVNLTCPAADLNCLSPADSANALQERDY  102
+
+
+> UniRef90_T0P5W3 Exotoxin A n=1 Tax=Aeromonas salmonicida subsp. 
+pectinolytica 34mel TaxID=1324960 RepID=T0P5W3_AERSA
+Length=327
+
+ Score = 68.9 bits (167),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 29/52 (56%), Positives = 35/52 (67%), Gaps = 0/52 (0%)
+
+Query  1    EGGSLAALTAHQACHLPLETFTRHRQPRGAEQLEQCGYPVQRLVALYLAARL  52
+            +  SLAALT HQ C +PLE   R RQPRG E+L QCGYPV  L+ LY+   +
+Sbjct  262  KADSLAALTTHQVCAIPLEALARSRQPRGWEELSQCGYPVHNLITLYILMHI  313
+
+
+> UniRef90_A0A0N9X392 Truncated cholix toxin n=1 Tax=Vibrio cholerae 
+TaxID=666 RepID=A0A0N9X392_VIBCL
+Length=548
+
+ Score = 68.9 bits (167),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 49/150 (33%), Positives = 70/150 (47%), Gaps = 10/150 (7%)
+
+Query  1    EGGSLAALTAHQACHLPLETFTRHRQPRGAEQLEQCGYPVQRLVALYLAARLSWNQVDQV  60
+            +  ++ AL AH+ C +PLET  R R+PR      QC Y  Q +V+L+LA R+ ++ +D V
+Sbjct  287  KKNAMEALAAHRVCGVPLETLARGRKPRDLTDDLQCAYQAQNIVSLFLATRILFSHLDSV  346
+
+Query  61   IRNAL--ASPGSG---GDLGEAIREQPEQARLALTLAAAESERFVRQGTG----NDEAGA  111
+                L    P       DL       P      LT+A      +V +  G       AGA
+Sbjct  347  FTLNLDEQEPEVAERLTDLRRINENNPGMVTQVLTIARQIYNDYVTEHPGLTPEQTSAGA  406
+
+Query  112  ANADVVSLTCPVAAGEC-AGPADSGDALLE  140
+              AD++SL CP A G C A  +D  +  +E
+Sbjct  407  QAADILSLLCPDADGSCVASNSDQANINIE  436
+
+
+> UniRef90_Q5EK40 Cholix toxin n=87 Tax=Vibrio cholerae TaxID=666 
+RepID=CHXA_VIBCL
+Length=666
+
+ Score = 66.6 bits (161),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 44/138 (32%), Positives = 63/138 (46%), Gaps = 9/138 (7%)
+
+Query  1    EGGSLAALTAHQACHLPLETFTRHRQPRGAEQLEQCGYPVQRLVALYLAARLSWNQVDQV  60
+            +G +++AL AH+ C +PLET  R R+PR       C Y  Q +V+L++A R+ ++ +D V
+Sbjct  297  KGNAMSALAAHRVCGVPLETLARSRKPRDLTDDLSCAYQAQNIVSLFVATRILFSHLDSV  356
+
+Query  61   IRNAL--ASPGSG---GDLGEAIREQPEQARLALTLAAAESERFVRQGTG----NDEAGA  111
+                L    P       DL       P      LT+A      +V    G       AGA
+Sbjct  357  FTLNLDEQEPEVAERLSDLRRINENNPGMVTQVLTVARQIYNDYVTHHPGLTPEQTSAGA  416
+
+Query  112  ANADVVSLTCPVAAGECA  129
+              AD++SL CP A   C 
+Sbjct  417  QAADILSLFCPDADKSCV  434
+
+
+> UniRef90_E9JRT6 Cholix toxin (Fragment) n=4 Tax=Vibrio cholerae 
+TaxID=666 RepID=E9JRT6_VIBCL
+Length=577
+
+ Score = 63.9 bits (154),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 42/140 (30%), Positives = 64/140 (46%), Gaps = 13/140 (9%)
+
+Query  1    EGGSLAALTAHQACHLPLETFTRHRQPRGAEQLEQCGYPVQRLVALYLAARLSWNQVDQV  60
+            +  ++ AL AH+ C +PLET  R R+PR       C Y  Q++V+L+LA R+ +  +D +
+Sbjct  245  KKNAMEALAAHRVCGVPLETLARSRKPRDLPDDLSCAYNAQQIVSLFLATRILFTHIDSI  304
+
+Query  61   IRNALASPGSGGDLGEAIRE-------QPEQARLALTLAAAESERFVRQGTG----NDEA  109
+                L   G   ++ E + +        P      LT+A      +V    G       A
+Sbjct  305  F--TLNLDGQEPEVAERLDDLRRINENNPGMVIQVLTVARQIYNDYVTHHPGLTPEQTSA  362
+
+Query  110  GAANADVVSLTCPVAAGECA  129
+            GA  AD++SL CP A   C 
+Sbjct  363  GAQAADILSLFCPDADKSCV  382
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.130    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 440451620100
+Results from round 2
+
+
+Query= d1ikpa3
+
+Length=143
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A0W0AX19 Exotoxin n=3 Tax=Aeromonas TaxID=642 RepID=...  221     2e-65
+  UniRef90_K1JNX2 Uncharacterized protein n=22 Tax=Aeromonadaceae...  218     3e-64
+  UniRef90_P11439 Exotoxin A n=271 Tax=Gammaproteobacteria TaxID=...  213     1e-62
+  UniRef90_A0A0X8GM05 Uncharacterized protein n=1 Tax=Janthinobac...  208     1e-60
+  UniRef90_A0A0J6NSS9 Uncharacterized protein n=4 Tax=Chromobacte...  206     4e-60
+  UniRef90_A0A0N9X392 Truncated cholix toxin n=1 Tax=Vibrio chole...  203     3e-59
+  UniRef90_Q5EK40 Cholix toxin n=87 Tax=Vibrio cholerae TaxID=666...  203     1e-58
+  UniRef90_E9JRT6 Cholix toxin (Fragment) n=4 Tax=Vibrio cholerae...  198     4e-57
+  UniRef90_T0PG59 Exotoxin A (Fragment) n=1 Tax=Aeromonas salmoni...  129     2e-33
+  UniRef90_T0P5W3 Exotoxin A n=1 Tax=Aeromonas salmonicida subsp....  101     9e-23
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_A0A0W0AX19 Exotoxin n=3 Tax=Aeromonas TaxID=642 RepID=A0A0W0AX19_AERSA
+Length=639
+
+ Score = 221 bits (562),  Expect = 2e-65, Method: Composition-based stats.
+ Identities = 82/149 (55%), Positives = 101/149 (68%), Gaps = 6/149 (4%)
+
+Query  1    EGGSLAALTAHQACHLPLETFTRHRQPRGAEQLEQCGYPVQRLVALYLAARLSWNQVDQV  60
+            +  SLAALT HQ C +PLE   R RQPRG E+L QCGYPV  L+ LY+  RL W+Q+D V
+Sbjct  277  KADSLAALTTHQVCAIPLEALARSRQPRGWEELSQCGYPVHNLITLYVLTRLPWSQLDSV  336
+
+Query  61   IRNALA--SPGSG----GDLGEAIREQPEQARLALTLAAAESERFVRQGTGNDEAGAANA  114
+            I  AL+  +P  G    G L +AIRE P QARLALT+A+A+S+ F RQ   N +  AA+A
+Sbjct  337  IAQALSHTTPEDGSTPRGQLAQAIRENPAQARLALTMASAQSDAFTRQHADNTQEQAASA  396
+
+Query  115  DVVSLTCPVAAGECAGPADSGDALLERNY  143
+            DVV+LTCP A   C  PADS +AL ER+Y
+Sbjct  397  DVVNLTCPAADLNCLSPADSANALQERDY  425
+
+
+> UniRef90_K1JNX2 Uncharacterized protein n=22 Tax=Aeromonadaceae 
+TaxID=84642 RepID=K1JNX2_AERHY
+Length=639
+
+ Score = 218 bits (554),  Expect = 3e-64, Method: Composition-based stats.
+ Identities = 86/149 (58%), Positives = 102/149 (68%), Gaps = 6/149 (4%)
+
+Query  1    EGGSLAALTAHQACHLPLETFTRHRQPRGAEQLEQCGYPVQRLVALYLAARLSWNQVDQV  60
+            +G  LAALT HQ C +PLE+  R RQPRG E+L QCGYPV  LV LYL  RL W+Q+D V
+Sbjct  277  KGDGLAALTTHQVCAIPLESLARSRQPRGWEELSQCGYPVHNLVTLYLLTRLPWSQLDTV  336
+
+Query  61   IRNALA--SPGSG----GDLGEAIREQPEQARLALTLAAAESERFVRQGTGNDEAGAANA  114
+            I  ALA  +P  G    G L +AIRE P QARLAL++AAA+S+ F  Q  GN +  AA+A
+Sbjct  337  ITQALANTTPEDGSTPRGQLAQAIRENPAQARLALSMAAAQSDAFSHQQAGNSQEQAASA  396
+
+Query  115  DVVSLTCPVAAGECAGPADSGDALLERNY  143
+            DVV+LTCP A   C  PADS DAL ER+Y
+Sbjct  397  DVVNLTCPAADLNCLAPADSADALQERDY  425
+
+
+> UniRef90_P11439 Exotoxin A n=271 Tax=Gammaproteobacteria TaxID=1236 
+RepID=TOXA_PSEAE
+Length=638
+
+ Score = 213 bits (542),  Expect = 1e-62, Method: Composition-based stats.
+ Identities = 141/143 (99%), Positives = 142/143 (99%), Gaps = 0/143 (0%)
+
+Query  1    EGGSLAALTAHQACHLPLETFTRHRQPRGAEQLEQCGYPVQRLVALYLAARLSWNQVDQV  60
+            EGGSLAALTAHQACHLPLETFTRHRQPRG EQLEQCGYPVQRLVALYLAARLSWNQVDQV
+Sbjct  277  EGGSLAALTAHQACHLPLETFTRHRQPRGWEQLEQCGYPVQRLVALYLAARLSWNQVDQV  336
+
+Query  61   IRNALASPGSGGDLGEAIREQPEQARLALTLAAAESERFVRQGTGNDEAGAANADVVSLT  120
+            IRNALASPGSGGDLGEAIREQPEQARLALTLAAAESERFVRQGTGNDEAGAA+ADVVSLT
+Sbjct  337  IRNALASPGSGGDLGEAIREQPEQARLALTLAAAESERFVRQGTGNDEAGAASADVVSLT  396
+
+Query  121  CPVAAGECAGPADSGDALLERNY  143
+            CPVAAGECAGPADSGDALLERNY
+Sbjct  397  CPVAAGECAGPADSGDALLERNY  419
+
+
+> UniRef90_A0A0X8GM05 Uncharacterized protein n=1 Tax=Janthinobacterium 
+sp. B9-8 TaxID=1236179 RepID=A0A0X8GM05_9BURK
+Length=668
+
+ Score = 208 bits (530),  Expect = 1e-60, Method: Composition-based stats.
+ Identities = 60/151 (40%), Positives = 84/151 (56%), Gaps = 9/151 (6%)
+
+Query  1    EGGSLAALTAHQACHLPLETFTRHRQPRGAEQLEQCGYPVQRLVALYLAARLSWNQVDQV  60
+            +  +L AL+AH+ C +PLE+  R RQPRG E+L  CG+ V+ +V LY+A RLS+++  QV
+Sbjct  314  KENALGALSAHRVCGIPLESLARSRQPRGWEELSACGFRVENIVGLYIATRLSFDRFRQV  373
+
+Query  61   IRNALAS-PGSGG-------DLGEAIREQPEQARLALTLAAAESERFVRQGTGNDEAGAA  112
+            + + + S P SG         LG  +RE PE AR  L  A A    +     G+    A 
+Sbjct  374  VEDLIHSRPVSGAQDPVALEQLGSVVRETPELAREGLAEAEARLNAYRANHPGSSADDAQ  433
+
+Query  113  NADVVSLTCPVAAGECAGPADSGDALLERNY  143
+             ADV+SLTCP  +  C  P D+  A + R Y
+Sbjct  434  RADVLSLTCPADSAPCNAP-DAAGAHVNREY  463
+
+
+> UniRef90_A0A0J6NSS9 Uncharacterized protein n=4 Tax=Chromobacterium 
+TaxID=535 RepID=A0A0J6NSS9_9NEIS
+Length=617
+
+ Score = 206 bits (524),  Expect = 4e-60, Method: Composition-based stats.
+ Identities = 59/151 (39%), Positives = 84/151 (56%), Gaps = 9/151 (6%)
+
+Query  1    EGGSLAALTAHQACHLPLETFTRHRQPRGAEQLEQCGYPVQRLVALYLAARLSWNQVDQV  60
+            +  +L AL+AH+ C +PLE+  R RQPRG E+L  CG+ V+ +V LY+A RLS+++  QV
+Sbjct  262  KENALGALSAHRVCGIPLESLARSRQPRGWEELSACGFRVENIVGLYIATRLSFDRFRQV  321
+
+Query  61   IRNALAS--------PGSGGDLGEAIREQPEQARLALTLAAAESERFVRQGTGNDEAGAA  112
+            + + + S        P +   LG A+RE PE AR  L  A A    +     G     A 
+Sbjct  322  VDDLIHSRPVSGAQDPEALAQLGTAVRETPEMAREGLAEAEARLNAYRANHAGASADDAQ  381
+
+Query  113  NADVVSLTCPVAAGECAGPADSGDALLERNY  143
+             ADV+SLTCP  +  CA  A++  A + R Y
+Sbjct  382  RADVLSLTCPADSEPCAA-ANADGAHVNREY  411
+
+
+> UniRef90_A0A0N9X392 Truncated cholix toxin n=1 Tax=Vibrio cholerae 
+TaxID=666 RepID=A0A0N9X392_VIBCL
+Length=548
+
+ Score = 203 bits (515),  Expect = 3e-59, Method: Composition-based stats.
+ Identities = 49/150 (33%), Positives = 70/150 (47%), Gaps = 10/150 (7%)
+
+Query  1    EGGSLAALTAHQACHLPLETFTRHRQPRGAEQLEQCGYPVQRLVALYLAARLSWNQVDQV  60
+            +  ++ AL AH+ C +PLET  R R+PR      QC Y  Q +V+L+LA R+ ++ +D V
+Sbjct  287  KKNAMEALAAHRVCGVPLETLARGRKPRDLTDDLQCAYQAQNIVSLFLATRILFSHLDSV  346
+
+Query  61   IRNAL--ASPGSG---GDLGEAIREQPEQARLALTLAAAESERFVRQGTG----NDEAGA  111
+                L    P       DL       P      LT+A      +V +  G       AGA
+Sbjct  347  FTLNLDEQEPEVAERLTDLRRINENNPGMVTQVLTIARQIYNDYVTEHPGLTPEQTSAGA  406
+
+Query  112  ANADVVSLTCPVAAGEC-AGPADSGDALLE  140
+              AD++SL CP A G C A  +D  +  +E
+Sbjct  407  QAADILSLLCPDADGSCVASNSDQANINIE  436
+
+
+> UniRef90_Q5EK40 Cholix toxin n=87 Tax=Vibrio cholerae TaxID=666 
+RepID=CHXA_VIBCL
+Length=666
+
+ Score = 203 bits (516),  Expect = 1e-58, Method: Composition-based stats.
+ Identities = 47/150 (31%), Positives = 68/150 (45%), Gaps = 10/150 (7%)
+
+Query  1    EGGSLAALTAHQACHLPLETFTRHRQPRGAEQLEQCGYPVQRLVALYLAARLSWNQVDQV  60
+            +G +++AL AH+ C +PLET  R R+PR       C Y  Q +V+L++A R+ ++ +D V
+Sbjct  297  KGNAMSALAAHRVCGVPLETLARSRKPRDLTDDLSCAYQAQNIVSLFVATRILFSHLDSV  356
+
+Query  61   IRNAL--ASPGSG---GDLGEAIREQPEQARLALTLAAAESERFVRQGTG----NDEAGA  111
+                L    P       DL       P      LT+A      +V    G       AGA
+Sbjct  357  FTLNLDEQEPEVAERLSDLRRINENNPGMVTQVLTVARQIYNDYVTHHPGLTPEQTSAGA  416
+
+Query  112  ANADVVSLTCPVAAGEC-AGPADSGDALLE  140
+              AD++SL CP A   C A   D  +  +E
+Sbjct  417  QAADILSLFCPDADKSCVASNNDQANINIE  446
+
+
+> UniRef90_E9JRT6 Cholix toxin (Fragment) n=4 Tax=Vibrio cholerae 
+TaxID=666 RepID=E9JRT6_VIBCL
+Length=577
+
+ Score = 198 bits (502),  Expect = 4e-57, Method: Composition-based stats.
+ Identities = 46/150 (31%), Positives = 67/150 (45%), Gaps = 10/150 (7%)
+
+Query  1    EGGSLAALTAHQACHLPLETFTRHRQPRGAEQLEQCGYPVQRLVALYLAARLSWNQVDQV  60
+            +  ++ AL AH+ C +PLET  R R+PR       C Y  Q++V+L+LA R+ +  +D +
+Sbjct  245  KKNAMEALAAHRVCGVPLETLARSRKPRDLPDDLSCAYNAQQIVSLFLATRILFTHIDSI  304
+
+Query  61   IRNAL--ASPGSG---GDLGEAIREQPEQARLALTLAAAESERFVRQGTG----NDEAGA  111
+                L    P       DL       P      LT+A      +V    G       AGA
+Sbjct  305  FTLNLDGQEPEVAERLDDLRRINENNPGMVIQVLTVARQIYNDYVTHHPGLTPEQTSAGA  364
+
+Query  112  ANADVVSLTCPVAAGEC-AGPADSGDALLE  140
+              AD++SL CP A   C A  +D  +  +E
+Sbjct  365  QAADILSLFCPDADKSCVASNSDQANINIE  394
+
+
+> UniRef90_T0PG59 Exotoxin A (Fragment) n=1 Tax=Aeromonas salmonicida 
+subsp. pectinolytica 34mel TaxID=1324960 RepID=T0PG59_AERSA
+Length=316
+
+ Score = 129 bits (325),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 54/101 (53%), Positives = 67/101 (66%), Gaps = 6/101 (6%)
+
+Query  49   AARLSWNQVDQVIRNALA--SPGSG----GDLGEAIREQPEQARLALTLAAAESERFVRQ  102
+              RL W+Q+D VI  AL+  +P  G    G L +AIRE P QARLALT+AAA+S+ F RQ
+Sbjct  2    LTRLPWSQLDSVIAQALSHTTPEEGSTPRGQLAQAIRENPAQARLALTMAAAQSDAFTRQ  61
+
+Query  103  GTGNDEAGAANADVVSLTCPVAAGECAGPADSGDALLERNY  143
+               N +  AA+ADVV+LTCP A   C  PADS +AL ER+Y
+Sbjct  62   HADNTQEQAASADVVNLTCPAADLNCLSPADSANALQERDY  102
+
+
+> UniRef90_T0P5W3 Exotoxin A n=1 Tax=Aeromonas salmonicida subsp. 
+pectinolytica 34mel TaxID=1324960 RepID=T0P5W3_AERSA
+Length=327
+
+ Score = 101 bits (250),  Expect = 9e-23, Method: Composition-based stats.
+ Identities = 31/62 (50%), Positives = 38/62 (61%), Gaps = 1/62 (2%)
+
+Query  1    EGGSLAALTAHQACHLPLETFTRHRQPRGAEQLEQCGYPVQRLVALYLAARLSWNQVDQV  60
+            +  SLAALT HQ C +PLE   R RQPRG E+L QCGYPV  L+ LY+   +     D+ 
+Sbjct  262  KADSLAALTTHQVCAIPLEALARSRQPRGWEELSQCGYPVHNLITLYILMHIP-THGDRS  320
+
+Query  61   IR  62
+            I 
+Sbjct  321  IT  322
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.124    0.326    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0380    0.140     1.90     42.6     43.6 
+
+Effective search space used: 440451620100
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

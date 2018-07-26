@@ -1,0 +1,1247 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1kafa_
+
+Length=108
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P22915 Middle transcription regulatory protein motA n=...  219     6e-70
+  UniRef90_A0A0K1Y544 Uncharacterized protein n=4 Tax=unclassifie...  130     2e-35
+  UniRef90_M1EAS7 Activator of middle period transcription n=5 Ta...  123     3e-32
+  UniRef90_E5DI00 Activator of middle period transcription n=3 Ta...  122     6e-32
+  UniRef90_A0A0A0YQI8 Activator of middle transcription n=1 Tax=C...  118     2e-30
+  UniRef90_Q56EC9 MotA n=2 Tax=Myoviridae TaxID=10662 RepID=Q56EC...  75.9    2e-14
+  UniRef90_A0A192YAA5 Activator of middle transcription n=1 Tax=M...  73.2    1e-13
+  UniRef90_A0A0G2SSN1 Activator of middle transcription n=1 Tax=P...  70.1    1e-12
+  UniRef90_D9I6I5 MotA activator of middle period transcription n...  66.2    3e-11
+  UniRef90_I7LHB8 Phage transcriptional regulator of middle promo...  65.1    9e-11
+  UniRef90_A0A0B6VSW4 Activator of middle period transcription n=...  58.2    3e-08
+  UniRef90_E5EZ21 MotA activator of middle period transcription n...  57.4    4e-08
+  UniRef90_G3MUJ6 Activator of middle period transcription n=1 Ta...  57.0    4e-08
+  UniRef90_J7I561 Transcriptional regulator of middle promoters n...  57.0    7e-08
+  UniRef90_A8R9P6 MotA activator of middle period transcription n...  56.6    1e-07
+  UniRef90_A0A023W6X3 Activator of middle period transcription n=...  55.1    3e-07
+  UniRef90_A0A0A0Q0Z1 Activator of middle period transcription n=...  52.8    3e-06
+  UniRef90_E5E4L7 MotA activator of middle period transcription n...  48.9    7e-05
+  UniRef90_A0A0A7HH52 Transcription factor n=5 Tax=Sp18virus TaxI...  48.1    1e-04
+  UniRef90_Q19CD8 Activator of middle promoters n=1 Tax=Aeromonas...  45.4    0.001
+  UniRef90_I3WVY4 Activator of middle period transcription n=1 Ta...  42.7    0.010
+
+
+> UniRef90_P22915 Middle transcription regulatory protein motA 
+n=44 Tax=Viruses TaxID=10239 RepID=MOTA_BPT4
+Length=211
+
+ Score = 219 bits (558),  Expect = 6e-70, Method: Compositional matrix adjust.
+ Identities = 107/107 (100%), Positives = 107/107 (100%), Gaps = 0/107 (0%)
+
+Query  2    EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFG  61
+            EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFG
+Sbjct  105  EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFG  164
+
+Query  62   YKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVASEL  108
+            YKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVASEL
+Sbjct  165  YKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVASEL  211
+
+
+> UniRef90_A0A0K1Y544 Uncharacterized protein n=4 Tax=unclassified 
+Myoviridae TaxID=196896 RepID=A0A0K1Y544_9CAUD
+Length=214
+
+ Score = 130 bits (328),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 62/108 (57%), Positives = 80/108 (74%), Gaps = 2/108 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDK--NGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIF  60
+            +T DM E KDLM+KLL +  +   LK++ +YRSNY+A+LEKRT GIR+ E+NN G  RIF
+Sbjct  107  LTEDMNEHKDLMMKLLGEMEDILPLKELTVYRSNYIAVLEKRTFGIRSLEVNNKGTFRIF  166
+
+Query  61   GYKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVASEL  108
+            GYK+ E H + FTD+GMSC++A  GN YLDI R+AENIE +I    EL
+Sbjct  167  GYKISEEHQKHFTDLGMSCRVAATGNTYLDIARTAENIETIIRSIKEL  214
+
+
+> UniRef90_M1EAS7 Activator of middle period transcription n=5 
+Tax=Myoviridae TaxID=10662 RepID=M1EAS7_9CAUD
+Length=214
+
+ Score = 123 bits (308),  Expect = 3e-32, Method: Compositional matrix adjust.
+ Identities = 59/102 (58%), Positives = 77/102 (75%), Gaps = 2/102 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNG--FVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIF  60
+            IT DME DKD M++LL      F +KK+++YRSN++A+LEKRT GIR+FE++N GN RI 
+Sbjct  107  ITGDMEADKDFMMELLGTKEELFKIKKLDVYRSNFIAVLEKRTFGIRSFEVSNKGNFRIS  166
+
+Query  61   GYKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVI  102
+            GYKM E  ++ F D+GM  K +KNGNVYLDI R+ ENIE +I
+Sbjct  167  GYKMTEEQVKHFEDLGMIAKHSKNGNVYLDIVRTQENIETII  208
+
+
+> UniRef90_E5DI00 Activator of middle period transcription n=3 
+Tax=Tevenvirinae TaxID=1198136 RepID=E5DI00_9CAUD
+Length=214
+
+ Score = 122 bits (305),  Expect = 6e-32, Method: Compositional matrix adjust.
+ Identities = 59/108 (55%), Positives = 79/108 (73%), Gaps = 2/108 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDK--NGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIF  60
+            IT  ME DK+LM+++L    N F +KK+++YRSN++A+LEKRT GIR+FE++N GN RI 
+Sbjct  107  ITDQMEADKNLMMEILATKDNLFTIKKLDVYRSNFIAVLEKRTFGIRSFEVSNKGNFRIS  166
+
+Query  61   GYKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVASEL  108
+            GYKM E  ++ F D+GM  K +KNGNVYLDI R+ ENIE +I     L
+Sbjct  167  GYKMTEEQVKHFEDLGMVAKHSKNGNVYLDIPRTQENIENIIHAVDTL  214
+
+
+> UniRef90_A0A0A0YQI8 Activator of middle transcription n=1 Tax=Citrobacter 
+phage Moon TaxID=1540095 RepID=A0A0A0YQI8_9CAUD
+Length=214
+
+ Score = 118 bits (295),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 55/102 (54%), Positives = 77/102 (75%), Gaps = 2/102 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNG--FVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIF  60
+            IT +ME DKD M+++L      F +KK+ +YRSN++A+LEKRT GIR+FE++N GN RI 
+Sbjct  107  ITGEMESDKDFMMEVLATKEELFKIKKLNVYRSNFIAVLEKRTFGIRSFEVSNKGNFRIS  166
+
+Query  61   GYKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVI  102
+            GYKM +  ++ F D+GM+ K +KNGN+YLDI R+ ENIE +I
+Sbjct  167  GYKMTDSQVKHFEDLGMTAKHSKNGNIYLDIARTEENIENII  208
+
+
+> UniRef90_Q56EC9 MotA n=2 Tax=Myoviridae TaxID=10662 RepID=Q56EC9_9CAUD
+Length=217
+
+ Score = 75.9 bits (185),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 44/105 (42%), Positives = 63/105 (60%), Gaps = 3/105 (3%)
+
+Query  2    EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRT-NGIRNFEINNNGNMRIF  60
+            EIT++M    + +  L+++N   LK VEIYR NY  I  KRT  G R FE+ NNG  RIF
+Sbjct  110  EITAEMTGLMEKISALVEEN-IGLKAVEIYRQNYQIIFSKRTAEGYRKFEVLNNGKFRIF  168
+
+Query  61   GYKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVA  105
+            GYK+ E  ++ F  +G   K+    N Y+DI+++  NI  V+ +A
+Sbjct  169  GYKVAEDKLEAFRQVGAEIKVG-GSNTYIDIEQNEVNIAKVMQIA  212
+
+
+> UniRef90_A0A192YAA5 Activator of middle transcription n=1 Tax=Morganella 
+phage vB_MmoM_MP1 TaxID=1852628 RepID=A0A192YAA5_9CAUD
+Length=191
+
+ Score = 73.2 bits (178),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 41/105 (39%), Positives = 66/105 (63%), Gaps = 4/105 (4%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFGY  62
+            ++  M  D D+  ++++++  V K V + RSN    L KR NG+R FEI + G +RIFGY
+Sbjct  87   VSDKMWADADMFKEIIEEHTSV-KTVSVDRSNVDLKLTKRYNGVRLFEIRHAGTIRIFGY  145
+
+Query  63   KMMEHHIQKFTDIGMSCKIAKNG-NVYLDIKRSAENIEAVITVAS  106
+            K+ E  +QKF D+G   K+  NG N Y+D+K S EN++ ++ + +
+Sbjct  146  KVTEELLQKFIDVGAEVKV--NGSNSYIDLKTSKENMQLMVNLVA  188
+
+
+> UniRef90_A0A0G2SSN1 Activator of middle transcription n=1 Tax=Proteus 
+phage vB_PmiM_Pm5461 TaxID=1636250 RepID=A0A0G2SSN1_9CAUD
+Length=201
+
+ Score = 70.1 bits (170),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 40/98 (41%), Positives = 56/98 (57%), Gaps = 1/98 (1%)
+
+Query  8    EEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFGYKMMEH  67
+            EE      K  + + F +K +   RSN    LEKR NGIR FE+ + G MR+FGYK+ E 
+Sbjct  104  EEMTKFAEKFKEISPFAIKGIFENRSNLELRLEKRVNGIRQFEVRHKGEMRVFGYKLSEE  163
+
+Query  68   HIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVA  105
+             ++K+  IG + K  K  N Y+DIK + EN+  VI  +
+Sbjct  164  LVEKYKSIGATVKF-KGNNYYVDIKLTEENMIKVIEAS  200
+
+
+> UniRef90_D9I6I5 MotA activator of middle period transcription 
+n=1 Tax=Acinetobacter virus 133 TaxID=279006 RepID=D9I6I5_9CAUD
+Length=187
+
+ Score = 66.2 bits (160),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 40/95 (42%), Positives = 55/95 (58%), Gaps = 1/95 (1%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFGY  62
+            + S  EE KD  L+ + K  F +K V I RSNYL  L+KRT G+R FE  + G+ RIF Y
+Sbjct  92   VNSAQEEFKDYTLERVSK-FFEVKDVIIDRSNYLVRLKKRTKGVRQFECMHKGDFRIFAY  150
+
+Query  63   KMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAEN  97
+            ++ E+  +     GM+ K   + N Y DIK + EN
+Sbjct  151  QVPENMHRALIKAGMTFKRGASNNAYYDIKCTNEN  185
+
+
+> UniRef90_I7LHB8 Phage transcriptional regulator of middle promoters 
+n=2 Tax=Tg1virus TaxID=1921704 RepID=I7LHB8_9CAUD
+Length=220
+
+ Score = 65.1 bits (157),  Expect = 9e-11, Method: Compositional matrix adjust.
+ Identities = 34/82 (41%), Positives = 51/82 (62%), Gaps = 1/82 (1%)
+
+Query  23   FVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFGYKMMEHHIQKFTDIGMSCKIA  82
+            F +K ++  RSN    + K ++GIR  E+     +RIFGY M E   +KFTD+G + KI 
+Sbjct  137  FDVKGIDENRSNLEVKINKCSHGIRQVEVRRADMIRIFGYNMSEEFAKKFTDVGFTSKIG  196
+
+Query  83   KNGNVYLDIKRSAENIEAVITV  104
+               N+YLDI  ++ENI+ +I+V
+Sbjct  197  -GKNIYLDIATTSENIQTLISV  217
+
+
+> UniRef90_A0A0B6VSW4 Activator of middle period transcription 
+n=2 Tax=unclassified Myoviridae TaxID=196896 RepID=A0A0B6VSW4_9CAUD
+Length=210
+
+ Score = 58.2 bits (139),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 34/89 (38%), Positives = 51/89 (57%), Gaps = 2/89 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFGY  62
+            +TS+M E  +L+  L++ +   +K++   RSN    L KRT GIR FE+  +G +RIFGY
+Sbjct  107  VTSEMTEMAELVKSLIE-DRIEVKEIAENRSNLEVRLAKRTLGIRQFEVRRDGTLRIFGY  165
+
+Query  63   KMMEHHIQKFTDIGMSCKIAKNG-NVYLD  90
+             M +   + FT +G   K    G N Y+D
+Sbjct  166  NMKDADAKVFTSLGYETKFKVGGKNTYID  194
+
+
+> UniRef90_E5EZ21 MotA activator of middle period transcription 
+n=1 Tax=Acinetobacter phage Ac42 TaxID=762660 RepID=E5EZ21_9CAUD
+Length=193
+
+ Score = 57.4 bits (137),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 39/102 (38%), Positives = 58/102 (57%), Gaps = 8/102 (8%)
+
+Query  2    EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFG  61
+            E+ S  E+ K+++     ++ F +K++  Y SN+   L+KRT GIR FE+ N+   R+FG
+Sbjct  95   ELESLAEQAKEIV-----ESKFEVKEMVTYCSNFHIKLKKRTLGIRQFELTNSNKFRVFG  149
+
+Query  62   YKMMEHHIQKFTDIGMSCKIAKNG-NVYLDIKRSAENIEAVI  102
+            Y M +   +K   +G   K  K G N+YLD   S E IE VI
+Sbjct  150  YNMDDSIAKKLESLGAVVK--KGGSNIYLDFDLSKEIIETVI  189
+
+
+> UniRef90_G3MUJ6 Activator of middle period transcription n=1 
+Tax=Enterobacteria phage Bp7 TaxID=1052121 RepID=G3MUJ6_9CAUD
+Length=141
+
+ Score = 57.0 bits (136),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 30/75 (40%), Positives = 40/75 (53%), Gaps = 1/75 (1%)
+
+Query  32   RSNYLAILEKRTNGIRNFEINNNGNMRIFGYKMMEHHIQKFTDIGMSCKIAKNG-NVYLD  90
+            RSN      KRTNGIR  E+  +G MRIFGY M +   Q FT + +  KI   G N Y+D
+Sbjct  65   RSNLEVRFAKRTNGIRQIEVRRDGMMRIFGYNMTDKEKQVFTSLNLDVKIKTGGKNTYID  124
+
+Query  91   IKRSAENIEAVITVA  105
+             +  +  +   +T A
+Sbjct  125  FQNVSSEVIKTVTNA  139
+
+
+> UniRef90_J7I561 Transcriptional regulator of middle promoters 
+n=5 Tax=Myoviridae TaxID=10662 RepID=J7I561_9CAUD
+Length=218
+
+ Score = 57.0 bits (136),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 40/99 (40%), Positives = 54/99 (55%), Gaps = 4/99 (4%)
+
+Query  2    EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKR-TNGIRNFEINNNGNMRIF  60
+            EIT +M ++ +L+ +LL   G   K+  I R NY   L KR  +G R FEI N G  RI 
+Sbjct  111  EITVEMTKNIELVERLLSNLGIEHKQAVINRQNYEITLNKRHADGYRKFEILNRGIFRIV  170
+
+Query  61   GYKMMEHHIQKFTDIGMSCKIAKN-GNVYLDIKRSAENI  98
+            GYK+ E  I  F  +G  C+I +   N Y+DI  +  NI
+Sbjct  171  GYKVSEEIINNFKTLG--CEIKQGPANCYIDITANENNI  207
+
+
+> UniRef90_A8R9P6 MotA activator of middle period transcription 
+n=7 Tax=Tevenvirinae TaxID=1198136 RepID=A8R9P6_9CAUD
+Length=210
+
+ Score = 56.6 bits (135),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 32/72 (44%), Positives = 41/72 (57%), Gaps = 2/72 (3%)
+
+Query  32   RSNYLAILEKRTNGIRNFEINNNGNMRIFGYKMMEHHIQKFTDIGMSCKIAKNG-NVYLD  90
+            RSN      KRTNGIR  E+  +G MRIFGY M +   Q FT + +  KI   G N Y+D
+Sbjct  135  RSNIEVRFAKRTNGIRQIEVRRDGMMRIFGYNMTDKEKQVFTSLNLDVKIKTGGKNTYID  194
+
+Query  91   IKR-SAENIEAV  101
+             +  S+E I+ V
+Sbjct  195  FQNVSSEVIKTV  206
+
+
+> UniRef90_A0A023W6X3 Activator of middle period transcription 
+n=1 Tax=Serratia phage PS2 TaxID=1481112 RepID=A0A023W6X3_9CAUD
+Length=215
+
+ Score = 55.1 bits (131),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 34/108 (31%), Positives = 58/108 (54%), Gaps = 2/108 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRT-NGIRNFEINNNGNMRIFG  61
+            +T+DM+   + + K +++     K +E YRSN    L KR  +G+R FE+ N G  RIFG
+Sbjct  105  VTADMKATAESIKKRVEELDVETKDIETYRSNLWVTLTKRAKSGVRKFEVLNKGMFRIFG  164
+
+Query  62   YKMMEHHIQKF-TDIGMSCKIAKNGNVYLDIKRSAENIEAVITVASEL  108
+            YK+    +     +   + K A +GN Y+D+  + + I  V+ +  E+
+Sbjct  165  YKVRTELLDILKAECEATVKEATSGNCYIDMPLTEDVINFVLNIDKEI  212
+
+
+> UniRef90_A0A0A0Q0Z1 Activator of middle period transcription 
+n=1 Tax=Pectobacterium bacteriophage PM2 TaxID=1429794 RepID=A0A0A0Q0Z1_9CAUD
+Length=213
+
+ Score = 52.8 bits (125),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 36/103 (35%), Positives = 54/103 (52%), Gaps = 2/103 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFGY  62
+            +T  M+   +   KLL      +K++   RSN    L KRT GIR  EI  +G++RIFGY
+Sbjct  107  VTESMQIFAEFTEKLLKSIDIEVKEIAENRSNLEIRLTKRTKGIRQIEIRRDGSIRIFGY  166
+
+Query  63   KMMEHHIQKFTDIGMSCKIAKNG-NVYLDIKR-SAENIEAVIT  103
+             M E   + F+++         G N+Y+D K  + E I+A I+
+Sbjct  167  NMDETFAKSFSEVSPEFTTKIGGKNIYIDCKNITNEIIQATIS  209
+
+
+> UniRef90_E5E4L7 MotA activator of middle period transcription 
+n=1 Tax=Acinetobacter phage Acj61 TaxID=760732 RepID=E5E4L7_9CAUD
+Length=213
+
+ Score = 48.9 bits (115),  Expect = 7e-05, Method: Compositional matrix adjust.
+ Identities = 32/101 (32%), Positives = 50/101 (50%), Gaps = 2/101 (2%)
+
+Query  2    EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFG  61
+            EI   ME  KD  L+ L  +   +K   + RSN+L +  KR + +   EI N G +R+ G
+Sbjct  108  EIHECMEAFKDFALEYL-TDKIEVKNTVVDRSNFLILFAKRISSVGALEIKNKGEVRVVG  166
+
+Query  62   YKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVI  102
+             K  +  ++K   IGM  +       Y DI+ + +NI  +I
+Sbjct  167  RKPSDKVVEKLASIGMKYR-QTPAQTYFDIECTEDNIVNII  206
+
+
+> UniRef90_A0A0A7HH52 Transcription factor n=5 Tax=Sp18virus TaxID=1913654 
+RepID=A0A0A7HH52_9CAUD
+Length=202
+
+ Score = 48.1 bits (113),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 30/102 (29%), Positives = 53/102 (52%), Gaps = 2/102 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFGY  62
+            +T +ME   + + + L   G   K +   RSN L +  KR   ++  ++  +G +R+  Y
+Sbjct  101  VTDEMEATAEYIKEQLLSIGIDFKSISEDRSN-LIVKFKRVKTLKQIDVRRDGQIRVHAY  159
+
+Query  63   KMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITV  104
+               +  +++FTD+G S K+    N Y+D   S ENI+ VI +
+Sbjct  160  NTEQKIVKQFTDVGFSVKVG-GLNTYIDNHMSTENIQHVINI  200
+
+
+> UniRef90_Q19CD8 Activator of middle promoters n=1 Tax=Aeromonas 
+virus 25 TaxID=233894 RepID=Q19CD8_9CAUD
+Length=218
+
+ Score = 45.4 bits (106),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 35/99 (35%), Positives = 46/99 (46%), Gaps = 4/99 (4%)
+
+Query  2    EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRT-NGIRNFEINNNGNMRIF  60
+            EIT +M +   L       +     +  I R NY   L   T +G R FEI N G  RI 
+Sbjct  111  EITVEMTKISSLSSDCCPTSVSSTSQAVINRQNYEITLNNATRDGYRKFEILNRGIFRIV  170
+
+Query  61   GYKMMEHHIQKFTDIGMSCKIAKN-GNVYLDIKRSAENI  98
+            GYK+ E  I  F  +G  C+I +   N Y+DI  +  NI
+Sbjct  171  GYKVSEEIINNFKTLG--CEIKQGPANCYIDITANENNI  207
+
+
+> UniRef90_I3WVY4 Activator of middle period transcription n=1 
+Tax=Acinetobacter phage ZZ1 TaxID=1049283 RepID=I3WVY4_9CAUD
+Length=207
+
+ Score = 42.7 bits (99),  Expect = 0.010, Method: Compositional matrix adjust.
+ Identities = 24/71 (34%), Positives = 34/71 (48%), Gaps = 0/71 (0%)
+
+Query  32   RSNYLAILEKRTNGIRNFEINNNGNMRIFGYKMMEHHIQKFTDIGMSCKIAKNGNVYLDI  91
+            RSN      KR  GI + EI N   +RI   K  E  ++ F  IGM          Y+D+
+Sbjct  128  RSNLFVHFTKRLKGIASIEIRNADLLRISIRKPEEGQVEYFKTIGMVVHKVTPTVTYMDL  187
+
+Query  92   KRSAENIEAVI  102
+             R+ EN+E ++
+Sbjct  188  PRTMENLEILV  198
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.371    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 443721392160
+Results from round 2
+
+
+Query= d1kafa_
+
+Length=108
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P22915 Middle transcription regulatory protein motA n=...  126     2e-33
+  UniRef90_M1EAS7 Activator of middle period transcription n=5 Ta...  116     7e-30
+  UniRef90_E5DI00 Activator of middle period transcription n=3 Ta...  116     9e-30
+  UniRef90_A0A0K1Y544 Uncharacterized protein n=4 Tax=unclassifie...  114     6e-29
+  UniRef90_A0A0A0YQI8 Activator of middle transcription n=1 Tax=C...  113     1e-28
+  UniRef90_A0A192YAA5 Activator of middle transcription n=1 Tax=M...  107     2e-26
+  UniRef90_I7LHB8 Phage transcriptional regulator of middle promo...  107     3e-26
+  UniRef90_A0A0B6VSW4 Activator of middle period transcription n=...  103     5e-25
+  UniRef90_D9I6I5 MotA activator of middle period transcription n...  102     2e-24
+  UniRef90_A0A0G2SSN1 Activator of middle transcription n=1 Tax=P...  101     5e-24
+  UniRef90_A0A0A7HH52 Transcription factor n=5 Tax=Sp18virus TaxI...  100     6e-24
+  UniRef90_E5EZ21 MotA activator of middle period transcription n...  99.7    2e-23
+  UniRef90_A0A023W6X3 Activator of middle period transcription n=...  100     2e-23
+  UniRef90_E5E4L7 MotA activator of middle period transcription n...  99.7    2e-23
+  UniRef90_A0A0A0Q0Z1 Activator of middle period transcription n=...  99.3    3e-23
+  UniRef90_G3MUJ6 Activator of middle period transcription n=1 Ta...  93.2    1e-21
+  UniRef90_J7I561 Transcriptional regulator of middle promoters n...  94.7    2e-21
+  UniRef90_A8R9P6 MotA activator of middle period transcription n...  93.2    6e-21
+  UniRef90_Q56EC9 MotA n=2 Tax=Myoviridae TaxID=10662 RepID=Q56EC...  93.2    7e-21
+  UniRef90_Q19CD8 Activator of middle promoters n=1 Tax=Aeromonas...  90.1    9e-20
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A088FRI4 Middle transcription regulator n=11 Tax=Vir...  84.7    8e-18
+  UniRef90_E5EQ31 MotA activator of middle period transcription n...  73.1    1e-13
+  UniRef90_I3WVY4 Activator of middle period transcription n=1 Ta...  66.6    3e-11
+
+
+> UniRef90_P22915 Middle transcription regulatory protein motA 
+n=44 Tax=Viruses TaxID=10239 RepID=MOTA_BPT4
+Length=211
+
+ Score = 126 bits (316),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 107/107 (100%), Positives = 107/107 (100%), Gaps = 0/107 (0%)
+
+Query  2    EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFG  61
+            EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFG
+Sbjct  105  EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFG  164
+
+Query  62   YKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVASEL  108
+            YKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVASEL
+Sbjct  165  YKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVASEL  211
+
+
+> UniRef90_M1EAS7 Activator of middle period transcription n=5 
+Tax=Myoviridae TaxID=10662 RepID=M1EAS7_9CAUD
+Length=214
+
+ Score = 116 bits (291),  Expect = 7e-30, Method: Composition-based stats.
+ Identities = 60/108 (56%), Positives = 78/108 (72%), Gaps = 2/108 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNG--FVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIF  60
+            IT DME DKD M++LL      F +KK+++YRSN++A+LEKRT GIR+FE++N GN RI 
+Sbjct  107  ITGDMEADKDFMMELLGTKEELFKIKKLDVYRSNFIAVLEKRTFGIRSFEVSNKGNFRIS  166
+
+Query  61   GYKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVASEL  108
+            GYKM E  ++ F D+GM  K +KNGNVYLDI R+ ENIE +I     L
+Sbjct  167  GYKMTEEQVKHFEDLGMIAKHSKNGNVYLDIVRTQENIETIINSVDTL  214
+
+
+> UniRef90_E5DI00 Activator of middle period transcription n=3 
+Tax=Tevenvirinae TaxID=1198136 RepID=E5DI00_9CAUD
+Length=214
+
+ Score = 116 bits (291),  Expect = 9e-30, Method: Composition-based stats.
+ Identities = 58/108 (54%), Positives = 78/108 (72%), Gaps = 2/108 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNG--FVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIF  60
+            IT  ME DK+LM+++L      F +KK+++YRSN++A+LEKRT GIR+FE++N GN RI 
+Sbjct  107  ITDQMEADKNLMMEILATKDNLFTIKKLDVYRSNFIAVLEKRTFGIRSFEVSNKGNFRIS  166
+
+Query  61   GYKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVASEL  108
+            GYKM E  ++ F D+GM  K +KNGNVYLDI R+ ENIE +I     L
+Sbjct  167  GYKMTEEQVKHFEDLGMVAKHSKNGNVYLDIPRTQENIENIIHAVDTL  214
+
+
+> UniRef90_A0A0K1Y544 Uncharacterized protein n=4 Tax=unclassified 
+Myoviridae TaxID=196896 RepID=A0A0K1Y544_9CAUD
+Length=214
+
+ Score = 114 bits (285),  Expect = 6e-29, Method: Composition-based stats.
+ Identities = 62/108 (57%), Positives = 80/108 (74%), Gaps = 2/108 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDK--NGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIF  60
+            +T DM E KDLM+KLL +  +   LK++ +YRSNY+A+LEKRT GIR+ E+NN G  RIF
+Sbjct  107  LTEDMNEHKDLMMKLLGEMEDILPLKELTVYRSNYIAVLEKRTFGIRSLEVNNKGTFRIF  166
+
+Query  61   GYKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVASEL  108
+            GYK+ E H + FTD+GMSC++A  GN YLDI R+AENIE +I    EL
+Sbjct  167  GYKISEEHQKHFTDLGMSCRVAATGNTYLDIARTAENIETIIRSIKEL  214
+
+
+> UniRef90_A0A0A0YQI8 Activator of middle transcription n=1 Tax=Citrobacter 
+phage Moon TaxID=1540095 RepID=A0A0A0YQI8_9CAUD
+Length=214
+
+ Score = 113 bits (283),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 56/108 (52%), Positives = 78/108 (72%), Gaps = 2/108 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNG--FVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIF  60
+            IT +ME DKD M+++L      F +KK+ +YRSN++A+LEKRT GIR+FE++N GN RI 
+Sbjct  107  ITGEMESDKDFMMEVLATKEELFKIKKLNVYRSNFIAVLEKRTFGIRSFEVSNKGNFRIS  166
+
+Query  61   GYKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVASEL  108
+            GYKM +  ++ F D+GM+ K +KNGN+YLDI R+ ENIE +I     L
+Sbjct  167  GYKMTDSQVKHFEDLGMTAKHSKNGNIYLDIARTEENIENIINSVDTL  214
+
+
+> UniRef90_A0A192YAA5 Activator of middle transcription n=1 Tax=Morganella 
+phage vB_MmoM_MP1 TaxID=1852628 RepID=A0A192YAA5_9CAUD
+Length=191
+
+ Score = 107 bits (267),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 38/104 (37%), Positives = 64/104 (62%), Gaps = 2/104 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFGY  62
+            ++  M  D D+  ++++++   +K V + RSN    L KR NG+R FEI + G +RIFGY
+Sbjct  87   VSDKMWADADMFKEIIEEHT-SVKTVSVDRSNVDLKLTKRYNGVRLFEIRHAGTIRIFGY  145
+
+Query  63   KMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVAS  106
+            K+ E  +QKF D+G   K+    N Y+D+K S EN++ ++ + +
+Sbjct  146  KVTEELLQKFIDVGAEVKVN-GSNSYIDLKTSKENMQLMVNLVA  188
+
+
+> UniRef90_I7LHB8 Phage transcriptional regulator of middle promoters 
+n=2 Tax=Tg1virus TaxID=1921704 RepID=I7LHB8_9CAUD
+Length=220
+
+ Score = 107 bits (267),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 37/104 (36%), Positives = 60/104 (58%), Gaps = 1/104 (1%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFGY  62
+            +T  M+   + +   L++  F +K ++  RSN    + K ++GIR  E+     +RIFGY
+Sbjct  117  VTDTMQAFAETIKLGLEELDFDVKGIDENRSNLEVKINKCSHGIRQVEVRRADMIRIFGY  176
+
+Query  63   KMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVAS  106
+             M E   +KFTD+G + KI    N+YLDI  ++ENI+ +I+V  
+Sbjct  177  NMSEEFAKKFTDVGFTSKIG-GKNIYLDIATTSENIQTLISVLK  219
+
+
+> UniRef90_A0A0B6VSW4 Activator of middle period transcription 
+n=2 Tax=unclassified Myoviridae TaxID=196896 RepID=A0A0B6VSW4_9CAUD
+Length=210
+
+ Score = 103 bits (258),  Expect = 5e-25, Method: Composition-based stats.
+ Identities = 36/104 (35%), Positives = 57/104 (55%), Gaps = 2/104 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFGY  62
+            +TS+M E  +L+  L+ ++   +K++   RSN    L KRT GIR FE+  +G +RIFGY
+Sbjct  107  VTSEMTEMAELVKSLI-EDRIEVKEIAENRSNLEVRLAKRTLGIRQFEVRRDGTLRIFGY  165
+
+Query  63   KMMEHHIQKFTDIGMSCKIAKNG-NVYLDIKRSAENIEAVITVA  105
+             M +   + FT +G   K    G N Y+D     +++  +I  A
+Sbjct  166  NMKDADAKVFTSLGYETKFKVGGKNTYIDFPNVTKDMITIIANA  209
+
+
+> UniRef90_D9I6I5 MotA activator of middle period transcription 
+n=1 Tax=Acinetobacter virus 133 TaxID=279006 RepID=D9I6I5_9CAUD
+Length=187
+
+ Score = 102 bits (253),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 40/95 (42%), Positives = 55/95 (58%), Gaps = 1/95 (1%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFGY  62
+            + S  EE KD  L+ + K  F +K V I RSNYL  L+KRT G+R FE  + G+ RIF Y
+Sbjct  92   VNSAQEEFKDYTLERVSK-FFEVKDVIIDRSNYLVRLKKRTKGVRQFECMHKGDFRIFAY  150
+
+Query  63   KMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAEN  97
+            ++ E+  +     GM+ K   + N Y DIK + EN
+Sbjct  151  QVPENMHRALIKAGMTFKRGASNNAYYDIKCTNEN  185
+
+
+> UniRef90_A0A0G2SSN1 Activator of middle transcription n=1 Tax=Proteus 
+phage vB_PmiM_Pm5461 TaxID=1636250 RepID=A0A0G2SSN1_9CAUD
+Length=201
+
+ Score = 101 bits (251),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 38/104 (37%), Positives = 59/104 (57%), Gaps = 4/104 (4%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFGY  62
+            +T +M +  +   ++   + F +K +   RSN    LEKR NGIR FE+ + G MR+FGY
+Sbjct  102  VTEEMTKFAEKFKEI---SPFAIKGIFENRSNLELRLEKRVNGIRQFEVRHKGEMRVFGY  158
+
+Query  63   KMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVAS  106
+            K+ E  ++K+  IG + K     N Y+DIK + EN+  VI  + 
+Sbjct  159  KLSEELVEKYKSIGATVKFK-GNNYYVDIKLTEENMIKVIEASK  201
+
+
+> UniRef90_A0A0A7HH52 Transcription factor n=5 Tax=Sp18virus TaxID=1913654 
+RepID=A0A0A7HH52_9CAUD
+Length=202
+
+ Score = 100 bits (250),  Expect = 6e-24, Method: Composition-based stats.
+ Identities = 29/104 (28%), Positives = 52/104 (50%), Gaps = 2/104 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFGY  62
+            +T +ME   + + + L   G   K +   RSN +    KR   ++  ++  +G +R+  Y
+Sbjct  101  VTDEMEATAEYIKEQLLSIGIDFKSISEDRSNLIVKF-KRVKTLKQIDVRRDGQIRVHAY  159
+
+Query  63   KMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVAS  106
+               +  +++FTD+G S K+    N Y+D   S ENI+ VI +  
+Sbjct  160  NTEQKIVKQFTDVGFSVKVG-GLNTYIDNHMSTENIQHVINILK  202
+
+
+> UniRef90_E5EZ21 MotA activator of middle period transcription 
+n=1 Tax=Acinetobacter phage Ac42 TaxID=762660 RepID=E5EZ21_9CAUD
+Length=193
+
+ Score = 99.7 bits (247),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 36/103 (35%), Positives = 57/103 (55%), Gaps = 2/103 (2%)
+
+Query  2    EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFG  61
+            EI+ ++E   +   +++ ++ F +K++  Y SN+   L+KRT GIR FE+ N+   R+FG
+Sbjct  91   EISPELESLAEQAKEIV-ESKFEVKEMVTYCSNFHIKLKKRTLGIRQFELTNSNKFRVFG  149
+
+Query  62   YKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITV  104
+            Y M +   +K   +G   K     N+YLD   S E IE VI  
+Sbjct  150  YNMDDSIAKKLESLGAVVKKG-GSNIYLDFDLSKEIIETVINS  191
+
+
+> UniRef90_A0A023W6X3 Activator of middle period transcription 
+n=1 Tax=Serratia phage PS2 TaxID=1481112 RepID=A0A023W6X3_9CAUD
+Length=215
+
+ Score = 100 bits (248),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 34/108 (31%), Positives = 57/108 (53%), Gaps = 2/108 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTN-GIRNFEINNNGNMRIFG  61
+            +T+DM+   + + K +++     K +E YRSN    L KR   G+R FE+ N G  RIFG
+Sbjct  105  VTADMKATAESIKKRVEELDVETKDIETYRSNLWVTLTKRAKSGVRKFEVLNKGMFRIFG  164
+
+Query  62   YKMMEHHIQKFT-DIGMSCKIAKNGNVYLDIKRSAENIEAVITVASEL  108
+            YK+    +     +   + K A +GN Y+D+  + + I  V+ +  E+
+Sbjct  165  YKVRTELLDILKAECEATVKEATSGNCYIDMPLTEDVINFVLNIDKEI  212
+
+
+> UniRef90_E5E4L7 MotA activator of middle period transcription 
+n=1 Tax=Acinetobacter phage Acj61 TaxID=760732 RepID=E5E4L7_9CAUD
+Length=213
+
+ Score = 99.7 bits (247),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 33/106 (31%), Positives = 51/106 (48%), Gaps = 2/106 (2%)
+
+Query  2    EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFG  61
+            EI   ME  KD  L+ L  +   +K   + RSN+L +  KR + +   EI N G +R+ G
+Sbjct  108  EIHECMEAFKDFALEYL-TDKIEVKNTVVDRSNFLILFAKRISSVGALEIKNKGEVRVVG  166
+
+Query  62   YKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVASE  107
+             K  +  ++K   IGM  +       Y DI+ + +NI  +I    E
+Sbjct  167  RKPSDKVVEKLASIGMKYR-QTPAQTYFDIECTEDNIVNIIDALIE  211
+
+
+> UniRef90_A0A0A0Q0Z1 Activator of middle period transcription 
+n=1 Tax=Pectobacterium bacteriophage PM2 TaxID=1429794 RepID=A0A0A0Q0Z1_9CAUD
+Length=213
+
+ Score = 99.3 bits (246),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 36/107 (34%), Positives = 56/107 (52%), Gaps = 2/107 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFGY  62
+            +T  M+   +   KLL      +K++   RSN    L KRT GIR  EI  +G++RIFGY
+Sbjct  107  VTESMQIFAEFTEKLLKSIDIEVKEIAENRSNLEIRLTKRTKGIRQIEIRRDGSIRIFGY  166
+
+Query  63   KMMEHHIQKFTDIGMSCKIAKNG-NVYLDIKR-SAENIEAVITVASE  107
+             M E   + F+++         G N+Y+D K  + E I+A I+  ++
+Sbjct  167  NMDETFAKSFSEVSPEFTTKIGGKNIYIDCKNITNEIIQATISHIAK  213
+
+
+> UniRef90_G3MUJ6 Activator of middle period transcription n=1 
+Tax=Enterobacteria phage Bp7 TaxID=1052121 RepID=G3MUJ6_9CAUD
+Length=141
+
+ Score = 93.2 bits (230),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 35/104 (34%), Positives = 54/104 (52%), Gaps = 2/104 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFGY  62
+            +T +M    D +  LL ++   ++++   RSN      KRTNGIR  E+  +G MRIFGY
+Sbjct  37   VTPEMVTLADEVKALL-EDRIEIREIAENRSNLEVRFAKRTNGIRQIEVRRDGMMRIFGY  95
+
+Query  63   KMMEHHIQKFTDIGMSCKIAKNG-NVYLDIKRSAENIEAVITVA  105
+             M +   Q FT + +  KI   G N Y+D +  +  +   +T A
+Sbjct  96   NMTDKEKQVFTSLNLDVKIKTGGKNTYIDFQNVSSEVIKTVTNA  139
+
+
+> UniRef90_J7I561 Transcriptional regulator of middle promoters 
+n=5 Tax=Myoviridae TaxID=10662 RepID=J7I561_9CAUD
+Length=218
+
+ Score = 94.7 bits (234),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 39/103 (38%), Positives = 53/103 (51%), Gaps = 2/103 (2%)
+
+Query  2    EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKR-TNGIRNFEINNNGNMRIF  60
+            EIT +M ++ +L+ +LL   G   K+  I R NY   L KR  +G R FEI N G  RI 
+Sbjct  111  EITVEMTKNIELVERLLSNLGIEHKQAVINRQNYEITLNKRHADGYRKFEILNRGIFRIV  170
+
+Query  61   GYKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVIT  103
+            GYK+ E  I  F  +G   K     N Y+DI  +  NI  ++ 
+Sbjct  171  GYKVSEEIINNFKTLGCEIKQG-PANCYIDITANENNIVRLME  212
+
+
+> UniRef90_A8R9P6 MotA activator of middle period transcription 
+n=7 Tax=Tevenvirinae TaxID=1198136 RepID=A8R9P6_9CAUD
+Length=210
+
+ Score = 93.2 bits (230),  Expect = 6e-21, Method: Composition-based stats.
+ Identities = 35/104 (34%), Positives = 54/104 (52%), Gaps = 2/104 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFGY  62
+            +T +M    D +  LL ++   ++++   RSN      KRTNGIR  E+  +G MRIFGY
+Sbjct  107  VTPEMVVLADEVKSLL-EDRIEIREIAENRSNIEVRFAKRTNGIRQIEVRRDGMMRIFGY  165
+
+Query  63   KMMEHHIQKFTDIGMSCKIAKNG-NVYLDIKRSAENIEAVITVA  105
+             M +   Q FT + +  KI   G N Y+D +  +  +   +T A
+Sbjct  166  NMTDKEKQVFTSLNLDVKIKTGGKNTYIDFQNVSSEVIKTVTNA  209
+
+
+> UniRef90_Q56EC9 MotA n=2 Tax=Myoviridae TaxID=10662 RepID=Q56EC9_9CAUD
+Length=217
+
+ Score = 93.2 bits (230),  Expect = 7e-21, Method: Composition-based stats.
+ Identities = 44/105 (42%), Positives = 63/105 (60%), Gaps = 3/105 (3%)
+
+Query  2    EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRT-NGIRNFEINNNGNMRIF  60
+            EIT++M    + +  L+++N   LK VEIYR NY  I  KRT  G R FE+ NNG  RIF
+Sbjct  110  EITAEMTGLMEKISALVEEN-IGLKAVEIYRQNYQIIFSKRTAEGYRKFEVLNNGKFRIF  168
+
+Query  61   GYKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVA  105
+            GYK+ E  ++ F  +G   K+    N Y+DI+++  NI  V+ +A
+Sbjct  169  GYKVAEDKLEAFRQVGAEIKVG-GSNTYIDIEQNEVNIAKVMQIA  212
+
+
+> UniRef90_Q19CD8 Activator of middle promoters n=1 Tax=Aeromonas 
+virus 25 TaxID=233894 RepID=Q19CD8_9CAUD
+Length=218
+
+ Score = 90.1 bits (222),  Expect = 9e-20, Method: Composition-based stats.
+ Identities = 34/103 (33%), Positives = 45/103 (44%), Gaps = 2/103 (2%)
+
+Query  2    EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRT-NGIRNFEINNNGNMRIF  60
+            EIT +M +   L       +     +  I R NY   L   T +G R FEI N G  RI 
+Sbjct  111  EITVEMTKISSLSSDCCPTSVSSTSQAVINRQNYEITLNNATRDGYRKFEILNRGIFRIV  170
+
+Query  61   GYKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVIT  103
+            GYK+ E  I  F  +G   K     N Y+DI  +  NI  ++ 
+Sbjct  171  GYKVSEEIINNFKTLGCEIKQG-PANCYIDITANENNIVRLME  212
+
+
+> UniRef90_A0A088FRI4 Middle transcription regulator n=11 Tax=Viruses 
+TaxID=10239 RepID=A0A088FRI4_9CAUD
+Length=210
+
+ Score = 84.7 bits (208),  Expect = 8e-18, Method: Composition-based stats.
+ Identities = 31/104 (30%), Positives = 50/104 (48%), Gaps = 2/104 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFGY  62
+            +T +M E  + + + + K+   +K++   RSN      KR  GIR  EI  +G +RIF Y
+Sbjct  107  VTPEMHELANFVFENI-KDKVEVKEIGENRSNLEVRFAKRVLGIRQIEIRRDGALRIFAY  165
+
+Query  63   KMMEHHIQKFTDIGMSCKIAKNGN-VYLDIKRSAENIEAVITVA  105
+             M E   + FT +    KI   G   Y+D    ++ I  ++T  
+Sbjct  166  NMSETESKLFTSLENDVKIKIGGKYTYIDFPNVSKEIITLVTNV  209
+
+
+> UniRef90_E5EQ31 MotA activator of middle period transcription 
+n=1 Tax=Acinetobacter phage Acj9 TaxID=760939 RepID=E5EQ31_9CAUD
+Length=206
+
+ Score = 73.1 bits (178),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 30/104 (29%), Positives = 50/104 (48%), Gaps = 2/104 (2%)
+
+Query  2    EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFG  61
+            EIT DM   KD  ++ + +    LK     RSN+L + +K   G+   EI N   +R+  
+Sbjct  100  EITEDMISIKDFAVEYI-EGKVELKGTHEDRSNFLILFKKGIKGLGCIEIKNKPEIRVCI  158
+
+Query  62   YKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVA  105
+             K  +  I+ F+ IGM  +       Y D+ +S +N++ +I   
+Sbjct  159  RKASKEAIELFSSIGMKYR-ETPAQTYFDMPKSHDNVKLLIDTI  201
+
+
+> UniRef90_I3WVY4 Activator of middle period transcription n=1 
+Tax=Acinetobacter phage ZZ1 TaxID=1049283 RepID=I3WVY4_9CAUD
+Length=207
+
+ Score = 66.6 bits (161),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 29/104 (28%), Positives = 43/104 (41%), Gaps = 0/104 (0%)
+
+Query  2    EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFG  61
+            +I  +M E       +L+ N          RSN      KR  GI + EI N   +RI  
+Sbjct  98   KINDEMLEMVSRTFAMLENNIDTKPDYTEDRSNLFVHFTKRLKGIASIEIRNADLLRISI  157
+
+Query  62   YKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVA  105
+             K  E  ++ F  IGM          Y+D+ R+ EN+E ++   
+Sbjct  158  RKPEEGQVEYFKTIGMVVHKVTPTVTYMDLPRTMENLEILVNAV  201
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.137    0.351    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0419    0.140     1.90     42.6     43.6 
+
+Effective search space used: 443721392160
+Results from round 3
+
+
+Query= d1kafa_
+
+Length=108
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P22915 Middle transcription regulatory protein motA n=...  126     2e-33
+  UniRef90_E5DI00 Activator of middle period transcription n=3 Ta...  123     1e-32
+  UniRef90_M1EAS7 Activator of middle period transcription n=5 Ta...  123     3e-32
+  UniRef90_A0A0A0YQI8 Activator of middle transcription n=1 Tax=C...  120     5e-31
+  UniRef90_A0A0K1Y544 Uncharacterized protein n=4 Tax=unclassifie...  119     6e-31
+  UniRef90_I7LHB8 Phage transcriptional regulator of middle promo...  116     9e-30
+  UniRef90_A0A192YAA5 Activator of middle transcription n=1 Tax=M...  115     9e-30
+  UniRef90_A0A0B6VSW4 Activator of middle period transcription n=...  114     6e-29
+  UniRef90_E5EZ21 MotA activator of middle period transcription n...  110     2e-27
+  UniRef90_A0A0G2SSN1 Activator of middle transcription n=1 Tax=P...  108     8e-27
+  UniRef90_E5E4L7 MotA activator of middle period transcription n...  107     3e-26
+  UniRef90_G3MUJ6 Activator of middle period transcription n=1 Ta...  104     5e-26
+  UniRef90_A0A0A0Q0Z1 Activator of middle period transcription n=...  106     6e-26
+  UniRef90_J7I561 Transcriptional regulator of middle promoters n...  106     9e-26
+  UniRef90_A0A0A7HH52 Transcription factor n=5 Tax=Sp18virus TaxI...  105     1e-25
+  UniRef90_D9I6I5 MotA activator of middle period transcription n...  105     1e-25
+  UniRef90_A0A023W6X3 Activator of middle period transcription n=...  105     3e-25
+  UniRef90_A0A088FRI4 Middle transcription regulator n=11 Tax=Vir...  104     4e-25
+  UniRef90_I3WVY4 Activator of middle period transcription n=1 Ta...  103     6e-25
+  UniRef90_A8R9P6 MotA activator of middle period transcription n...  103     7e-25
+  UniRef90_E5EQ31 MotA activator of middle period transcription n...  102     1e-24
+  UniRef90_Q19CD8 Activator of middle promoters n=1 Tax=Aeromonas...  101     5e-24
+  UniRef90_Q56EC9 MotA n=2 Tax=Myoviridae TaxID=10662 RepID=Q56EC...  99.3    4e-23
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_P22915 Middle transcription regulatory protein motA 
+n=44 Tax=Viruses TaxID=10239 RepID=MOTA_BPT4
+Length=211
+
+ Score = 126 bits (316),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 107/107 (100%), Positives = 107/107 (100%), Gaps = 0/107 (0%)
+
+Query  2    EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFG  61
+            EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFG
+Sbjct  105  EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFG  164
+
+Query  62   YKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVASEL  108
+            YKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVASEL
+Sbjct  165  YKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVASEL  211
+
+
+> UniRef90_E5DI00 Activator of middle period transcription n=3 
+Tax=Tevenvirinae TaxID=1198136 RepID=E5DI00_9CAUD
+Length=214
+
+ Score = 123 bits (310),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 58/108 (54%), Positives = 78/108 (72%), Gaps = 2/108 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNG--FVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIF  60
+            IT  ME DK+LM+++L      F +KK+++YRSN++A+LEKRT GIR+FE++N GN RI 
+Sbjct  107  ITDQMEADKNLMMEILATKDNLFTIKKLDVYRSNFIAVLEKRTFGIRSFEVSNKGNFRIS  166
+
+Query  61   GYKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVASEL  108
+            GYKM E  ++ F D+GM  K +KNGNVYLDI R+ ENIE +I     L
+Sbjct  167  GYKMTEEQVKHFEDLGMVAKHSKNGNVYLDIPRTQENIENIIHAVDTL  214
+
+
+> UniRef90_M1EAS7 Activator of middle period transcription n=5 
+Tax=Myoviridae TaxID=10662 RepID=M1EAS7_9CAUD
+Length=214
+
+ Score = 123 bits (308),  Expect = 3e-32, Method: Composition-based stats.
+ Identities = 60/108 (56%), Positives = 78/108 (72%), Gaps = 2/108 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNG--FVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIF  60
+            IT DME DKD M++LL      F +KK+++YRSN++A+LEKRT GIR+FE++N GN RI 
+Sbjct  107  ITGDMEADKDFMMELLGTKEELFKIKKLDVYRSNFIAVLEKRTFGIRSFEVSNKGNFRIS  166
+
+Query  61   GYKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVASEL  108
+            GYKM E  ++ F D+GM  K +KNGNVYLDI R+ ENIE +I     L
+Sbjct  167  GYKMTEEQVKHFEDLGMIAKHSKNGNVYLDIVRTQENIETIINSVDTL  214
+
+
+> UniRef90_A0A0A0YQI8 Activator of middle transcription n=1 Tax=Citrobacter 
+phage Moon TaxID=1540095 RepID=A0A0A0YQI8_9CAUD
+Length=214
+
+ Score = 120 bits (300),  Expect = 5e-31, Method: Composition-based stats.
+ Identities = 56/108 (52%), Positives = 78/108 (72%), Gaps = 2/108 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNG--FVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIF  60
+            IT +ME DKD M+++L      F +KK+ +YRSN++A+LEKRT GIR+FE++N GN RI 
+Sbjct  107  ITGEMESDKDFMMEVLATKEELFKIKKLNVYRSNFIAVLEKRTFGIRSFEVSNKGNFRIS  166
+
+Query  61   GYKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVASEL  108
+            GYKM +  ++ F D+GM+ K +KNGN+YLDI R+ ENIE +I     L
+Sbjct  167  GYKMTDSQVKHFEDLGMTAKHSKNGNIYLDIARTEENIENIINSVDTL  214
+
+
+> UniRef90_A0A0K1Y544 Uncharacterized protein n=4 Tax=unclassified 
+Myoviridae TaxID=196896 RepID=A0A0K1Y544_9CAUD
+Length=214
+
+ Score = 119 bits (299),  Expect = 6e-31, Method: Composition-based stats.
+ Identities = 62/108 (57%), Positives = 80/108 (74%), Gaps = 2/108 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDK--NGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIF  60
+            +T DM E KDLM+KLL +  +   LK++ +YRSNY+A+LEKRT GIR+ E+NN G  RIF
+Sbjct  107  LTEDMNEHKDLMMKLLGEMEDILPLKELTVYRSNYIAVLEKRTFGIRSLEVNNKGTFRIF  166
+
+Query  61   GYKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVASEL  108
+            GYK+ E H + FTD+GMSC++A  GN YLDI R+AENIE +I    EL
+Sbjct  167  GYKISEEHQKHFTDLGMSCRVAATGNTYLDIARTAENIETIIRSIKEL  214
+
+
+> UniRef90_I7LHB8 Phage transcriptional regulator of middle promoters 
+n=2 Tax=Tg1virus TaxID=1921704 RepID=I7LHB8_9CAUD
+Length=220
+
+ Score = 116 bits (291),  Expect = 9e-30, Method: Composition-based stats.
+ Identities = 37/104 (36%), Positives = 60/104 (58%), Gaps = 1/104 (1%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFGY  62
+            +T  M+   + +   L++  F +K ++  RSN    + K ++GIR  E+     +RIFGY
+Sbjct  117  VTDTMQAFAETIKLGLEELDFDVKGIDENRSNLEVKINKCSHGIRQVEVRRADMIRIFGY  176
+
+Query  63   KMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVAS  106
+             M E   +KFTD+G + KI    N+YLDI  ++ENI+ +I+V  
+Sbjct  177  NMSEEFAKKFTDVGFTSKIG-GKNIYLDIATTSENIQTLISVLK  219
+
+
+> UniRef90_A0A192YAA5 Activator of middle transcription n=1 Tax=Morganella 
+phage vB_MmoM_MP1 TaxID=1852628 RepID=A0A192YAA5_9CAUD
+Length=191
+
+ Score = 115 bits (289),  Expect = 9e-30, Method: Composition-based stats.
+ Identities = 38/104 (37%), Positives = 64/104 (62%), Gaps = 2/104 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFGY  62
+            ++  M  D D+  ++++++   +K V + RSN    L KR NG+R FEI + G +RIFGY
+Sbjct  87   VSDKMWADADMFKEIIEEHT-SVKTVSVDRSNVDLKLTKRYNGVRLFEIRHAGTIRIFGY  145
+
+Query  63   KMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVAS  106
+            K+ E  +QKF D+G   K+    N Y+D+K S EN++ ++ + +
+Sbjct  146  KVTEELLQKFIDVGAEVKVN-GSNSYIDLKTSKENMQLMVNLVA  188
+
+
+> UniRef90_A0A0B6VSW4 Activator of middle period transcription 
+n=2 Tax=unclassified Myoviridae TaxID=196896 RepID=A0A0B6VSW4_9CAUD
+Length=210
+
+ Score = 114 bits (285),  Expect = 6e-29, Method: Composition-based stats.
+ Identities = 36/104 (35%), Positives = 57/104 (55%), Gaps = 2/104 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFGY  62
+            +TS+M E  +L+  L+ ++   +K++   RSN    L KRT GIR FE+  +G +RIFGY
+Sbjct  107  VTSEMTEMAELVKSLI-EDRIEVKEIAENRSNLEVRLAKRTLGIRQFEVRRDGTLRIFGY  165
+
+Query  63   KMMEHHIQKFTDIGMSCKIAKNG-NVYLDIKRSAENIEAVITVA  105
+             M +   + FT +G   K    G N Y+D     +++  +I  A
+Sbjct  166  NMKDADAKVFTSLGYETKFKVGGKNTYIDFPNVTKDMITIIANA  209
+
+
+> UniRef90_E5EZ21 MotA activator of middle period transcription 
+n=1 Tax=Acinetobacter phage Ac42 TaxID=762660 RepID=E5EZ21_9CAUD
+Length=193
+
+ Score = 110 bits (274),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 36/104 (35%), Positives = 57/104 (55%), Gaps = 2/104 (2%)
+
+Query  2    EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFG  61
+            EI+ ++E   +   +++ ++ F +K++  Y SN+   L+KRT GIR FE+ N+   R+FG
+Sbjct  91   EISPELESLAEQAKEIV-ESKFEVKEMVTYCSNFHIKLKKRTLGIRQFELTNSNKFRVFG  149
+
+Query  62   YKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVA  105
+            Y M +   +K   +G   K     N+YLD   S E IE VI   
+Sbjct  150  YNMDDSIAKKLESLGAVVKKG-GSNIYLDFDLSKEIIETVINSL  192
+
+
+> UniRef90_A0A0G2SSN1 Activator of middle transcription n=1 Tax=Proteus 
+phage vB_PmiM_Pm5461 TaxID=1636250 RepID=A0A0G2SSN1_9CAUD
+Length=201
+
+ Score = 108 bits (270),  Expect = 8e-27, Method: Composition-based stats.
+ Identities = 38/104 (37%), Positives = 59/104 (57%), Gaps = 4/104 (4%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFGY  62
+            +T +M +  +   ++   + F +K +   RSN    LEKR NGIR FE+ + G MR+FGY
+Sbjct  102  VTEEMTKFAEKFKEI---SPFAIKGIFENRSNLELRLEKRVNGIRQFEVRHKGEMRVFGY  158
+
+Query  63   KMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVAS  106
+            K+ E  ++K+  IG + K     N Y+DIK + EN+  VI  + 
+Sbjct  159  KLSEELVEKYKSIGATVKFK-GNNYYVDIKLTEENMIKVIEASK  201
+
+
+> UniRef90_E5E4L7 MotA activator of middle period transcription 
+n=1 Tax=Acinetobacter phage Acj61 TaxID=760732 RepID=E5E4L7_9CAUD
+Length=213
+
+ Score = 107 bits (267),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 33/106 (31%), Positives = 51/106 (48%), Gaps = 2/106 (2%)
+
+Query  2    EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFG  61
+            EI   ME  KD  L+ L  +   +K   + RSN+L +  KR + +   EI N G +R+ G
+Sbjct  108  EIHECMEAFKDFALEYL-TDKIEVKNTVVDRSNFLILFAKRISSVGALEIKNKGEVRVVG  166
+
+Query  62   YKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVASE  107
+             K  +  ++K   IGM  +       Y DI+ + +NI  +I    E
+Sbjct  167  RKPSDKVVEKLASIGMKYRQ-TPAQTYFDIECTEDNIVNIIDALIE  211
+
+
+> UniRef90_G3MUJ6 Activator of middle period transcription n=1 
+Tax=Enterobacteria phage Bp7 TaxID=1052121 RepID=G3MUJ6_9CAUD
+Length=141
+
+ Score = 104 bits (260),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 35/104 (34%), Positives = 54/104 (52%), Gaps = 2/104 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFGY  62
+            +T +M    D +  LL ++   ++++   RSN      KRTNGIR  E+  +G MRIFGY
+Sbjct  37   VTPEMVTLADEVKALL-EDRIEIREIAENRSNLEVRFAKRTNGIRQIEVRRDGMMRIFGY  95
+
+Query  63   KMMEHHIQKFTDIGMSCKIAKNG-NVYLDIKRSAENIEAVITVA  105
+             M +   Q FT + +  KI   G N Y+D +  +  +   +T A
+Sbjct  96   NMTDKEKQVFTSLNLDVKIKTGGKNTYIDFQNVSSEVIKTVTNA  139
+
+
+> UniRef90_A0A0A0Q0Z1 Activator of middle period transcription 
+n=1 Tax=Pectobacterium bacteriophage PM2 TaxID=1429794 RepID=A0A0A0Q0Z1_9CAUD
+Length=213
+
+ Score = 106 bits (265),  Expect = 6e-26, Method: Composition-based stats.
+ Identities = 36/107 (34%), Positives = 56/107 (52%), Gaps = 2/107 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFGY  62
+            +T  M+   +   KLL      +K++   RSN    L KRT GIR  EI  +G++RIFGY
+Sbjct  107  VTESMQIFAEFTEKLLKSIDIEVKEIAENRSNLEIRLTKRTKGIRQIEIRRDGSIRIFGY  166
+
+Query  63   KMMEHHIQKFTDIGMSCKIAKNG-NVYLDIKR-SAENIEAVITVASE  107
+             M E   + F+++         G N+Y+D K  + E I+A I+  ++
+Sbjct  167  NMDETFAKSFSEVSPEFTTKIGGKNIYIDCKNITNEIIQATISHIAK  213
+
+
+> UniRef90_J7I561 Transcriptional regulator of middle promoters 
+n=5 Tax=Myoviridae TaxID=10662 RepID=J7I561_9CAUD
+Length=218
+
+ Score = 106 bits (264),  Expect = 9e-26, Method: Composition-based stats.
+ Identities = 39/106 (37%), Positives = 53/106 (50%), Gaps = 2/106 (2%)
+
+Query  2    EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKR-TNGIRNFEINNNGNMRIF  60
+            EIT +M ++ +L+ +LL   G   K+  I R NY   L KR  +G R FEI N G  RI 
+Sbjct  111  EITVEMTKNIELVERLLSNLGIEHKQAVINRQNYEITLNKRHADGYRKFEILNRGIFRIV  170
+
+Query  61   GYKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVAS  106
+            GYK+ E  I  F  +G   K     N Y+DI  +  NI  ++    
+Sbjct  171  GYKVSEEIINNFKTLGCEIKQG-PANCYIDITANENNIVRLMEEIQ  215
+
+
+> UniRef90_A0A0A7HH52 Transcription factor n=5 Tax=Sp18virus TaxID=1913654 
+RepID=A0A0A7HH52_9CAUD
+Length=202
+
+ Score = 105 bits (263),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 29/104 (28%), Positives = 52/104 (50%), Gaps = 2/104 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFGY  62
+            +T +ME   + + + L   G   K +   RSN +    KR   ++  ++  +G +R+  Y
+Sbjct  101  VTDEMEATAEYIKEQLLSIGIDFKSISEDRSNLIVKF-KRVKTLKQIDVRRDGQIRVHAY  159
+
+Query  63   KMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVAS  106
+               +  +++FTD+G S K+    N Y+D   S ENI+ VI +  
+Sbjct  160  NTEQKIVKQFTDVGFSVKVG-GLNTYIDNHMSTENIQHVINILK  202
+
+
+> UniRef90_D9I6I5 MotA activator of middle period transcription 
+n=1 Tax=Acinetobacter virus 133 TaxID=279006 RepID=D9I6I5_9CAUD
+Length=187
+
+ Score = 105 bits (261),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 40/95 (42%), Positives = 55/95 (58%), Gaps = 1/95 (1%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFGY  62
+            + S  EE KD  L+ + K  F +K V I RSNYL  L+KRT G+R FE  + G+ RIF Y
+Sbjct  92   VNSAQEEFKDYTLERVSK-FFEVKDVIIDRSNYLVRLKKRTKGVRQFECMHKGDFRIFAY  150
+
+Query  63   KMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAEN  97
+            ++ E+  +     GM+ K   + N Y DIK + EN
+Sbjct  151  QVPENMHRALIKAGMTFKRGASNNAYYDIKCTNEN  185
+
+
+> UniRef90_A0A023W6X3 Activator of middle period transcription 
+n=1 Tax=Serratia phage PS2 TaxID=1481112 RepID=A0A023W6X3_9CAUD
+Length=215
+
+ Score = 105 bits (261),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 34/108 (31%), Positives = 57/108 (53%), Gaps = 2/108 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTN-GIRNFEINNNGNMRIFG  61
+            +T+DM+   + + K +++     K +E YRSN    L KR   G+R FE+ N G  RIFG
+Sbjct  105  VTADMKATAESIKKRVEELDVETKDIETYRSNLWVTLTKRAKSGVRKFEVLNKGMFRIFG  164
+
+Query  62   YKMMEHHIQKFT-DIGMSCKIAKNGNVYLDIKRSAENIEAVITVASEL  108
+            YK+    +     +   + K A +GN Y+D+  + + I  V+ +  E+
+Sbjct  165  YKVRTELLDILKAECEATVKEATSGNCYIDMPLTEDVINFVLNIDKEI  212
+
+
+> UniRef90_A0A088FRI4 Middle transcription regulator n=11 Tax=Viruses 
+TaxID=10239 RepID=A0A088FRI4_9CAUD
+Length=210
+
+ Score = 104 bits (259),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 31/104 (30%), Positives = 50/104 (48%), Gaps = 2/104 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFGY  62
+            +T +M E  + + + + K+   +K++   RSN      KR  GIR  EI  +G +RIF Y
+Sbjct  107  VTPEMHELANFVFENI-KDKVEVKEIGENRSNLEVRFAKRVLGIRQIEIRRDGALRIFAY  165
+
+Query  63   KMMEHHIQKFTDIGMSCKIAKNGN-VYLDIKRSAENIEAVITVA  105
+             M E   + FT +    KI   G   Y+D    ++ I  ++T  
+Sbjct  166  NMSETESKLFTSLENDVKIKIGGKYTYIDFPNVSKEIITLVTNV  209
+
+
+> UniRef90_I3WVY4 Activator of middle period transcription n=1 
+Tax=Acinetobacter phage ZZ1 TaxID=1049283 RepID=I3WVY4_9CAUD
+Length=207
+
+ Score = 103 bits (258),  Expect = 6e-25, Method: Composition-based stats.
+ Identities = 29/106 (27%), Positives = 44/106 (42%), Gaps = 0/106 (0%)
+
+Query  2    EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFG  61
+            +I  +M E       +L+ N          RSN      KR  GI + EI N   +RI  
+Sbjct  98   KINDEMLEMVSRTFAMLENNIDTKPDYTEDRSNLFVHFTKRLKGIASIEIRNADLLRISI  157
+
+Query  62   YKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVASE  107
+             K  E  ++ F  IGM          Y+D+ R+ EN+E ++    +
+Sbjct  158  RKPEEGQVEYFKTIGMVVHKVTPTVTYMDLPRTMENLEILVNAVIK  203
+
+
+> UniRef90_A8R9P6 MotA activator of middle period transcription 
+n=7 Tax=Tevenvirinae TaxID=1198136 RepID=A8R9P6_9CAUD
+Length=210
+
+ Score = 103 bits (257),  Expect = 7e-25, Method: Composition-based stats.
+ Identities = 35/104 (34%), Positives = 54/104 (52%), Gaps = 2/104 (2%)
+
+Query  3    ITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFGY  62
+            +T +M    D +  LL ++   ++++   RSN      KRTNGIR  E+  +G MRIFGY
+Sbjct  107  VTPEMVVLADEVKSLL-EDRIEIREIAENRSNIEVRFAKRTNGIRQIEVRRDGMMRIFGY  165
+
+Query  63   KMMEHHIQKFTDIGMSCKIAKNG-NVYLDIKRSAENIEAVITVA  105
+             M +   Q FT + +  KI   G N Y+D +  +  +   +T A
+Sbjct  166  NMTDKEKQVFTSLNLDVKIKTGGKNTYIDFQNVSSEVIKTVTNA  209
+
+
+> UniRef90_E5EQ31 MotA activator of middle period transcription 
+n=1 Tax=Acinetobacter phage Acj9 TaxID=760939 RepID=E5EQ31_9CAUD
+Length=206
+
+ Score = 102 bits (255),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 30/106 (28%), Positives = 50/106 (47%), Gaps = 2/106 (2%)
+
+Query  2    EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRTNGIRNFEINNNGNMRIFG  61
+            EIT DM   KD  ++ + +    LK     RSN+L + +K   G+   EI N   +R+  
+Sbjct  100  EITEDMISIKDFAVEYI-EGKVELKGTHEDRSNFLILFKKGIKGLGCIEIKNKPEIRVCI  158
+
+Query  62   YKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVASE  107
+             K  +  I+ F+ IGM  +       Y D+ +S +N++ +I     
+Sbjct  159  RKASKEAIELFSSIGMKYR-ETPAQTYFDMPKSHDNVKLLIDTIVT  203
+
+
+> UniRef90_Q19CD8 Activator of middle promoters n=1 Tax=Aeromonas 
+virus 25 TaxID=233894 RepID=Q19CD8_9CAUD
+Length=218
+
+ Score = 101 bits (252),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 34/106 (32%), Positives = 45/106 (42%), Gaps = 2/106 (2%)
+
+Query  2    EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRT-NGIRNFEINNNGNMRIF  60
+            EIT +M +   L       +     +  I R NY   L   T +G R FEI N G  RI 
+Sbjct  111  EITVEMTKISSLSSDCCPTSVSSTSQAVINRQNYEITLNNATRDGYRKFEILNRGIFRIV  170
+
+Query  61   GYKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVAS  106
+            GYK+ E  I  F  +G   K     N Y+DI  +  NI  ++    
+Sbjct  171  GYKVSEEIINNFKTLGCEIKQG-PANCYIDITANENNIVRLMEEIQ  215
+
+
+> UniRef90_Q56EC9 MotA n=2 Tax=Myoviridae TaxID=10662 RepID=Q56EC9_9CAUD
+Length=217
+
+ Score = 99.3 bits (246),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 44/105 (42%), Positives = 63/105 (60%), Gaps = 3/105 (3%)
+
+Query  2    EITSDMEEDKDLMLKLLDKNGFVLKKVEIYRSNYLAILEKRT-NGIRNFEINNNGNMRIF  60
+            EIT++M    + +  L+++N   LK VEIYR NY  I  KRT  G R FE+ NNG  RIF
+Sbjct  110  EITAEMTGLMEKISALVEEN-IGLKAVEIYRQNYQIIFSKRTAEGYRKFEVLNNGKFRIF  168
+
+Query  61   GYKMMEHHIQKFTDIGMSCKIAKNGNVYLDIKRSAENIEAVITVA  105
+            GYK+ E  ++ F  +G   K+    N Y+DI+++  NI  V+ +A
+Sbjct  169  GYKVAEDKLEAFRQVGAEIKVG-GSNTYIDIEQNEVNIAKVMQIA  212
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.144    0.390    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0441    0.140     1.90     42.6     43.6 
+
+Effective search space used: 443721392160
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

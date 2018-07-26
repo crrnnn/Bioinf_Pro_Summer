@@ -1,0 +1,3553 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1o75a3
+
+Length=191
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P29723 Putative DD-carboxypeptidase TP_0574 n=7 Tax=Tr...  381     9e-129
+  UniRef90_A0A174A0X0 47 kDa membrane antigen n=2 Tax=Sarcina ven...  150     2e-39 
+  UniRef90_C0B694 LPXTG-motif cell wall anchor domain protein n=3...  65.1    5e-09 
+  UniRef90_A0A1C6BTJ0 47 kDa membrane antigen n=3 Tax=Firmicutes ...  62.0    3e-08 
+  UniRef90_R7C694 Fibronectin type III domain n=1 Tax=Clostridium...  62.0    3e-08 
+  UniRef90_A0A1C5SZA8 47 kDa membrane antigen n=1 Tax=uncultured ...  60.8    9e-08 
+  UniRef90_A0A1C6AUH4 47 kDa membrane antigen n=1 Tax=uncultured ...  59.3    3e-07 
+  UniRef90_D4J7K9 Uncharacterized protein n=1 Tax=Coprococcus cat...  58.9    4e-07 
+  UniRef90_A0A174ADM3 47 kDa membrane antigen n=3 Tax=Coprococcus...  57.8    9e-07 
+  UniRef90_C0EWB8 Fibronectin type III domain protein n=7 Tax=Eub...  56.2    3e-06 
+  UniRef90_R6L581 Bacterial group 2 Ig-like protein n=1 Tax=Blaut...  56.2    3e-06 
+  UniRef90_D4MVX7 Fibronectin type III domain n=4 Tax=Anaerostipe...  55.8    3e-06 
+  UniRef90_R7EAA9 Uncharacterized protein n=1 Tax=Roseburia sp. C...  55.5    6e-06 
+  UniRef90_A0A174ZYH4 47 kDa membrane antigen n=6 Tax=Clostridial...  54.7    8e-06 
+  UniRef90_R6M590 Fibronectin type III domain n=1 Tax=Clostridium...  53.5    2e-05 
+  UniRef90_R5S9W5 Fibronectin type III domain n=1 Tax=Clostridium...  53.1    2e-05 
+  UniRef90_R7ISI0 LPXTG-motif cell wall anchor domain protein n=1...  53.1    3e-05 
+  UniRef90_R6V2K1 FMN-binding domain n=1 Tax=Firmicutes bacterium...  52.8    4e-05 
+  UniRef90_B0P041 Fibronectin type III domain protein n=6 Tax=Clo...  52.4    5e-05 
+  UniRef90_R6BNT1 LPXTG-motif cell wall anchor domain protein n=3...  51.2    1e-04 
+  UniRef90_UPI00041CC482 hypothetical protein n=1 Tax=Dorea longi...  51.2    1e-04 
+  UniRef90_R5N214 Bacterial surface proteins containing Ig-like d...  50.8    1e-04 
+  UniRef90_A0A174L7G9 47 kDa membrane antigen n=1 Tax=Blautia obe...  50.8    2e-04 
+  UniRef90_A0A1C5NNJ4 47 kDa membrane antigen n=1 Tax=uncultured ...  49.7    4e-04 
+  UniRef90_R7NKY5 Bacterial group 2 Ig-like protein n=1 Tax=Eubac...  49.3    5e-04 
+  UniRef90_A5ZN84 Bacterial group 2 Ig-like protein n=4 Tax=Clost...  49.3    5e-04 
+  UniRef90_C4Z2X1 Uncharacterized protein n=4 Tax=Eubacterium Tax...  48.5    8e-04 
+  UniRef90_A0A173W3J4 47 kDa membrane antigen n=5 Tax=Dorea longi...  48.5    0.001 
+  UniRef90_R7I128 Uncharacterized protein n=1 Tax=Clostridium sp....  47.8    0.002 
+  UniRef90_U2PJ02 Uncharacterized protein (Fragment) n=3 Tax=Clos...  47.8    0.002 
+  UniRef90_A0A174Y1P4 47 kDa membrane antigen n=5 Tax=Clostridial...  47.4    0.003 
+  UniRef90_R6K306 Uncharacterized protein n=1 Tax=Eubacterium sp....  46.6    0.004 
+  UniRef90_D4LKL3 Bacterial surface proteins containing Ig-like d...  46.2    0.007 
+
+
+> UniRef90_P29723 Putative DD-carboxypeptidase TP_0574 n=7 Tax=Treponema 
+TaxID=157 RepID=TA47_TREPA
+Length=434
+
+ Score = 381 bits (978),  Expect = 9e-129, Method: Compositional matrix adjust.
+ Identities = 190/200 (95%), Positives = 190/200 (95%), Gaps = 9/200 (5%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRDVLLA---------DLDAGMFDAVSRATHGHGAFRQQ  51
+            ET YGYATLSYADYWAGELGQSRDVLLA         DLDAGMFDAVSRATHGHGAFRQQ
+Sbjct  26   ETHYGYATLSYADYWAGELGQSRDVLLAGNAEADRAGDLDAGMFDAVSRATHGHGAFRQQ  85
+
+Query  52   FQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVE  111
+            FQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVE
+Sbjct  86   FQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVE  145
+
+Query  112  GAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVEDSRVTENT  171
+            GAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVEDSRVTENT
+Sbjct  146  GAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVEDSRVTENT  205
+
+Query  172  NGLKTMLTEDSFSARKVSSM  191
+            NGLKTMLTEDSFSARKVSSM
+Sbjct  206  NGLKTMLTEDSFSARKVSSM  225
+
+
+> UniRef90_A0A174A0X0 47 kDa membrane antigen n=2 Tax=Sarcina ventriculi 
+TaxID=1267 RepID=A0A174A0X0_SARVE
+Length=465
+
+ Score = 150 bits (379),  Expect = 2e-39, Method: Compositional matrix adjust.
+ Identities = 88/199 (44%), Positives = 118/199 (59%), Gaps = 15/199 (8%)
+
+Query  4    YGYATLSYADYWAGELGQSRDVLLADLD---------AGMFDAVSRATHGHGAFRQQFQY  54
+            YGYA LSYA YWAGEL +S + L    D         AGMFDAV+RAT  HG +RQQFQY
+Sbjct  52   YGYAPLSYAQYWAGELDKSVEELSKSSDKTDSEGVNDAGMFDAVTRATAKHGIYRQQFQY  111
+
+Query  55   AVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEGAV  114
+             VEV GEKV+S +  E+  G++  +Y TD + T+ V   ASF  +  +G I    V+  V
+Sbjct  112  IVEVTGEKVISSEVVEE-NGKETTKYTTDSNDTQTVTVQASFDGVDSEGTITTAPVDDNV  170
+
+Query  115  ALADRASSFMV----DSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVEDSRVTEN  170
+               D +S F +     + +YK+   KV G   +PVA+P ++   AKE   FVEDS V+ +
+Sbjct  171  VFEDASSIFTIGEGDSATQYKVAEYKVLGFNNIPVAIPSDMVDSAKEN-GFVEDSNVSSD  229
+
+Query  171  TNGLKTMLTEDSFSARKVS  189
+            T GLKTM ++ ++ ARK S
+Sbjct  230  TYGLKTMNSDGTYGARKTS  248
+
+
+> UniRef90_C0B694 LPXTG-motif cell wall anchor domain protein n=3 
+Tax=Coprococcus TaxID=33042 RepID=C0B694_9FIRM
+Length=1706
+
+ Score = 65.1 bits (157),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 68/222 (31%), Positives = 94/222 (42%), Gaps = 58/222 (26%)
+
+Query  1    ETSYGYATLSYADYWA-------GELGQSRDV-LLADLDAGMFDAVSRATHGHGAFRQQF  52
+            E SY Y  +S+++YWA       G+ G S DV    + D G FDAV+RAT  HG  R  F
+Sbjct  667  EYSYVYVGMSWSEYWAKEGVYAAGDTGSSSDVDSRNEYDKGAFDAVTRATANHGLHRGSF  726
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRK-KWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVE  111
+            Q +  +           ED+ G K +  Y        M   S   +   ED +  F A +
+Sbjct  727  QCSAVI-----------EDTNGNKYELAYWNADGKAVMSDGSVYTRSTNEDKKAVFTAED  775
+
+Query  112  GAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED-------  164
+            G        SSF+    +YK+T     G+K+VPV V        +E++  VE+       
+Sbjct  776  G--------SSFI--QADYKVT-----GIKYVPVKVKTADLNALQEEYAVVENGGTLSGG  820
+
+Query  165  ------------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                        + VT NTNGLKT   +D    +FS R   S
+Sbjct  821  FSENQLQSYTAIADVTPNTNGLKTAEKQDDGSFTFSERTTGS  862
+
+
+> UniRef90_A0A1C6BTJ0 47 kDa membrane antigen n=3 Tax=Firmicutes 
+TaxID=1239 RepID=A0A1C6BTJ0_9FIRM
+Length=659
+
+ Score = 62.0 bits (149),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 63/222 (28%), Positives = 93/222 (42%), Gaps = 58/222 (26%)
+
+Query  1    ETSYGYATLSYADYWAGEL------GQSRDVLLA--DLDAGMFDAVSRATHGHGAFRQQF  52
+            E +Y Y  L++A+YWA E         S DVL +  + D G +D V+RAT  HG  R  +
+Sbjct  43   EWTYCYVGLTWAEYWAHEDVYNAGDASSSDVLDSKKESDKGGYDVVTRATAKHGLHRGSY  102
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +          T D+ G+   EY+                   +DG+  +     
+Sbjct  103  QCMATIF---------TTDADGKTGPEYK--------------VSHWSDDGKTIYLTDGS  139
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+            +V+      +   +   Y +++ +V G+K+VPVAV        K K+  VE+        
+Sbjct  140  SVSW--NKGNITDNGNTYTMSHYEVSGIKYVPVAVKTSQLNDLKAKYQVVENGGTLTGGY  197
+
+Query  165  -----------SRVTENTNGLKTMLTED-----SFSARKVSS  190
+                       + VT NTNGLKT  TE+     SFSARK  S
+Sbjct  198  SEVNLSAYTATANVTANTNGLKTA-TENSDGTFSFSARKTGS  238
+
+
+> UniRef90_R7C694 Fibronectin type III domain n=1 Tax=Clostridium 
+sp. CAG:62 TaxID=1262828 RepID=R7C694_9CLOT
+Length=587
+
+ Score = 62.0 bits (149),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 65/208 (31%), Positives = 86/208 (41%), Gaps = 66/208 (32%)
+
+Query  3    SYGYATLSYADYWAGELGQSRDVLLAD----------------LDAGMFDAVSRATHGHG  46
+            +Y YA L++A+YWA E     DV L D                LD G FDAVSRAT  HG
+Sbjct  44   TYLYADLNWAEYWAAE-----DVYLKDGKNMTDSNETEDARGELDKGAFDAVSRATTNHG  98
+
+Query  47   AFRQQFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIK  106
+              R  FQ    +  +   + Q    S     WE + D         + SF     DG+ K
+Sbjct  99   LHRGSFQCDAVITAD---NGQNYPVSY----WEQDKDK--------NQSF--YTTDGQ-K  140
+
+Query  107  FEAVEGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--  164
+                +G + L D +++        K+ N  V G+K+VPVAV        K K+  VE+  
+Sbjct  141  IGYAKGVMTLPDASTT--------KVVNYTVTGIKYVPVAVKTADLQDFKSKYKVVENGE  192
+
+Query  165  -----------------SRVTENTNGLK  175
+                             + VTENTNGLK
+Sbjct  193  KLVGGYSENALSSYEETASVTENTNGLK  220
+
+
+> UniRef90_A0A1C5SZA8 47 kDa membrane antigen n=1 Tax=uncultured 
+Clostridium sp. TaxID=59620 RepID=A0A1C5SZA8_9CLOT
+Length=1752
+
+ Score = 60.8 bits (146),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 67/219 (31%), Positives = 90/219 (41%), Gaps = 71/219 (32%)
+
+Query  1    ETSYGYATLSYADYWAGELGQ------SRDVLLA--DLDAGMFDAVSRATHGHGAFRQQF  52
+            E SY Y  +++A+YWA E  Q      S DVL +  + D G FDAV+RAT  HG  R  F
+Sbjct  704  EYSYVYVGMTWAEYWANEGVQNAGSTASSDVLDSHNEYDKGAFDAVTRATTNHGLHRGSF  763
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +         ET D +      Y  D ++                    F   +G
+Sbjct  764  QCNAVI---------ETNDGQSY-NLAYWKDKTI--------------------FVTTDG  793
+
+Query  113  A-VALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED-------  164
+              VA+ D  S+     ++YK+T     G+K+VPV V        KEK+  VE+       
+Sbjct  794  QEVAIGDIKSNI----KDYKVT-----GLKYVPVKVKTADLSALKEKYAVVENGGTLRGG  844
+
+Query  165  ------------SRVTENTNGLKTMLTEDS----FSARK  187
+                        + VT+NTNGLK     D     FSARK
+Sbjct  845  YGEGNLSSYEVTANVTDNTNGLKEAAKNDDGSFVFSARK  883
+
+
+> UniRef90_A0A1C6AUH4 47 kDa membrane antigen n=1 Tax=uncultured 
+Roseburia sp. TaxID=512314 RepID=A0A1C6AUH4_9FIRM
+Length=1086
+
+ Score = 59.3 bits (142),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 71/226 (31%), Positives = 93/226 (41%), Gaps = 74/226 (33%)
+
+Query  4    YGYATLSYADYWAGELGQSRDVLLA----------------DLDAGMFDAVSRATHGHGA  47
+            Y YA LS+A+YW  E     +V LA                + D G FD VSRAT  HG 
+Sbjct  580  YVYAALSWAEYWEAE-----NVYLAPDSTMTSASDEVDERGEADKGAFDVVSRATTNHGL  634
+
+Query  48   FRQQFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKF  107
+             R  FQ           S     D+ G K +E         +V A  S        EI F
+Sbjct  635  HRGSFQ-----------SDTIIYDTDG-KSYEISYWKDKNTIVLADGS--------EIGF  674
+
+Query  108  EAVEGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED---  164
+            +  +G +  AD  ++ M   + Y     +V G+K+VPVAV         EK+H VE+   
+Sbjct  675  D--KGTITAADGKTAVM---DHY-----EVKGLKYVPVAVKETDYAAFCEKYHVVENGDM  724
+
+Query  165  ----------------SRVTENTNGLKTML-TED---SFSARKVSS  190
+                            + V++ TNGLKT+   ED   SFSARK  S
+Sbjct  725  LYGGYEEVNLKSYSVEAEVSDTTNGLKTVSKNEDGSFSFSARKNGS  770
+
+
+> UniRef90_D4J7K9 Uncharacterized protein n=1 Tax=Coprococcus catus 
+GD/7 TaxID=717962 RepID=D4J7K9_9FIRM
+Length=1779
+
+ Score = 58.9 bits (141),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 65/216 (30%), Positives = 91/216 (42%), Gaps = 59/216 (27%)
+
+Query  3    SYGYATLSYADYWA-------GELGQSRDVLLAD-LDAGMFDAVSRATHGHGAFRQQFQY  54
+            +Y YA LS+A+YWA       G+   S +  L D  D G FD V+RAT  HG  R  FQ 
+Sbjct  732  TYVYAGLSWAEYWAAEGVQAAGDASSSNEYDLRDEYDKGAFDTVTRATANHGLHRGSFQ-  790
+
+Query  55   AVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEGAV  114
+              +V+        E E+ +  K   ++++   TK V        L +  EI F    G +
+Sbjct  791  CTDVI--------EAENGKEYKISYWKSEGKTTKAV--------LTDGSEITFN--RGTI  832
+
+Query  115  ALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED----------  164
+              AD  ++        K+T   V G+K+VPV V  +     K K+  VE+          
+Sbjct  833  TEADGTTT--------KLTKHHVTGLKYVPVKVAKDDYEAFKAKYDVVENGGTLSGGFSE  884
+
+Query  165  ----------SRVTENTNGLKTMLTED----SFSAR  186
+                      + VT  TNGLKT         SFSA+
+Sbjct  885  NKLSSYNGLEAEVTAATNGLKTATKNSDGSFSFSAK  920
+
+
+> UniRef90_A0A174ADM3 47 kDa membrane antigen n=3 Tax=Coprococcus 
+comes TaxID=410072 RepID=A0A174ADM3_9FIRM
+Length=1700
+
+ Score = 57.8 bits (138),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 65/225 (29%), Positives = 92/225 (41%), Gaps = 69/225 (31%)
+
+Query  1    ETSYGYATLSYADYWAGE------------LGQSRDVLLADLDAGMFDAVSRATHGHGAF  48
+            E SY Y  +S+A+YWA E            +  SRD    + D G FD V+RAT  HG  
+Sbjct  662  EYSYVYVGMSWAEYWANEGVYNAGSIEASDVKDSRD----EYDKGAFDTVTRATTNHGLH  717
+
+Query  49   RQQFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFE  108
+            R  FQ    +           ED+ G+K +          +       Q +  DG   + 
+Sbjct  718  RGSFQCTAVI-----------EDTEGKKHY----------LSHWEGKDQAVMTDG-TTYT  755
+
+Query  109  AVEGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED----  164
+              +G V  A   SSF    ++Y++T     G+K+VPV +        KEK+  VE+    
+Sbjct  756  YAKG-VFTAKNGSSFT--QKDYEVT-----GLKYVPVKIRTADLNSLKEKYTVVENGGEL  807
+
+Query  165  ---------------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                           + VT NTNGLKT   ++    +FSAR   S
+Sbjct  808  IGGYGENQLKSYKTIADVTANTNGLKTAEKQEDGSFAFSARTTGS  852
+
+
+> UniRef90_C0EWB8 Fibronectin type III domain protein n=7 Tax=Eubacterium 
+TaxID=1730 RepID=C0EWB8_9FIRM
+Length=1083
+
+ Score = 56.2 bits (134),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 58/201 (29%), Positives = 79/201 (39%), Gaps = 59/201 (29%)
+
+Query  4    YGYATLSYADYWAGE----LGQSRDVLLADL----DAGMFDAVSRATHGHGAFRQQFQYA  55
+            Y YA L++A+YW  E     G +     AD     D G FDAV+RAT  HG  R  +Q  
+Sbjct  50   YCYAGLTWAEYWKAEGVWAAGDTTSSDTADSHGEKDKGAFDAVTRATANHGLHRGSYQCT  109
+
+Query  56   VEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEGAVA  115
+              + GEK           G     + TD +   +            +GE K     GA+ 
+Sbjct  110  AIIEGEK-----------GTYNISHWTDANTAILT-----------NGE-KITFTRGAIK  146
+
+Query  116  LADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVEDS----------  165
+             +D     M D         KV+G+K+VPVAV        K K+  VE++          
+Sbjct  147  TSDGTEDTMKD--------YKVYGLKYVPVAVKSSDFEAFKAKYSVVENNGTLIGGYGEK  198
+
+Query  166  ----------RVTENTNGLKT  176
+                       V ++TNGLKT
+Sbjct  199  NLQAYNNVTASVDKDTNGLKT  219
+
+
+> UniRef90_R6L581 Bacterial group 2 Ig-like protein n=1 Tax=Blautia 
+sp. CAG:237 TaxID=1262755 RepID=R6L581_9FIRM
+Length=1238
+
+ Score = 56.2 bits (134),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 67/217 (31%), Positives = 86/217 (40%), Gaps = 62/217 (29%)
+
+Query  1    ETSYGYATLSYADYWA-------GELGQSRDV-LLADLDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA L++A YWA       G+   S D     + D G FD V+RAT  HG  R  F
+Sbjct  541  EYKYVYAGLTWAQYWAAEGVYAAGDATASADKDTRGEADLGAFDTVTRATTNHGLHRGSF  600
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    + GEK         S     WE ++    T   +A+ S       G + FE    
+Sbjct  601  QTTAIIKGEK--------GSYAVSYWEGQSTVVFTDGTKATYS------RGTLTFE----  642
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+                 D  +  M+D E        V G+K+VPV V        K+ +  VE+        
+Sbjct  643  -----DGTTDEMLDYE--------VSGLKYVPVKVKTSDYEDFKKAYTVVENDGTLVGGY  689
+
+Query  165  -----------SRVTENTNGLKTML-TED---SFSAR  186
+                       + VT NTNGLKT    ED   SFSAR
+Sbjct  690  GEFNLQSYNLTADVTANTNGLKTATKNEDGTFSFSAR  726
+
+
+> UniRef90_D4MVX7 Fibronectin type III domain n=4 Tax=Anaerostipes 
+hadrus TaxID=649756 RepID=D4MVX7_ANAHA
+Length=584
+
+ Score = 55.8 bits (133),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 56/204 (27%), Positives = 82/204 (40%), Gaps = 57/204 (28%)
+
+Query  4    YGYATLSYADYWAGE------LGQSRDVLLA--DLDAGMFDAVSRATHGHGAFRQQFQYA  55
+            Y YA L++ +YWA E         S D L +  +LD G +DAV+RAT  HG  R  FQ  
+Sbjct  48   YCYAGLTWNEYWASEGVYAAGNDSSSDTLDSHNELDNGGYDAVTRATTNHGLHRGSFQCI  107
+
+Query  56   VEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIK-----FEAV  110
+              +     ++ Q +        WE                 Q  G DG++       + V
+Sbjct  108  TTIYTTDGIAYQISN-------WE-----------------QVKGSDGKVTATYLHLKDV  143
+
+Query  111  EGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVEDS-----  165
+            EG V   ++ +    D+   K+ +  V G+K+VPV V        K K+  VE++     
+Sbjct  144  EGRVTF-NKGTLTFADNSTKKMDHYSVSGIKYVPVKVKASDYNDFKAKYSVVENNGTLIG  202
+
+Query  166  --------------RVTENTNGLK  175
+                           VT +TNGLK
+Sbjct  203  GYTEGVLSSYKTSANVTASTNGLK  226
+
+
+> UniRef90_R7EAA9 Uncharacterized protein n=1 Tax=Roseburia sp. 
+CAG:471 TaxID=1262948 RepID=R7EAA9_9FIRM
+Length=1646
+
+ Score = 55.5 bits (132),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 62/221 (28%), Positives = 89/221 (40%), Gaps = 60/221 (27%)
+
+Query  1    ETSYGYATLSYADYWAGE----LGQSRDVLLADL----DAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA +++A+YWA E     G S      D     D G FDAV+RAT  HG  R  F
+Sbjct  666  EYKYVYAAMTWAEYWAAEGVQAAGDSSSSSELDTRNEADKGAFDAVTRATANHGLHRGSF  725
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q  V V+        E E+ +  +   +  D     +   +           IKF     
+Sbjct  726  Q-CVAVI--------EAENGKTYEVSHWSADGKEITLTNGNV----------IKF-----  761
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+                 +R      D    K+ + +V G+K+VPV V         +K++ VE+        
+Sbjct  762  -----NRGEITDTDGTITKLKDYEVTGLKYVPVKVASADYEAFCQKYNVVENGGELVGGY  816
+
+Query  165  -----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                       + VTE TNGLKT+  ++    SFSAR+  S
+Sbjct  817  GENKLAAYSVKANVTEATNGLKTVTKDEKGNFSFSARQAGS  857
+
+
+> UniRef90_A0A174ZYH4 47 kDa membrane antigen n=6 Tax=Clostridiales 
+TaxID=186802 RepID=A0A174ZYH4_9FIRM
+Length=1189
+
+ Score = 54.7 bits (130),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 68/220 (31%), Positives = 87/220 (40%), Gaps = 66/220 (30%)
+
+Query  1    ETSYGYATLSYADYWAGELGQ------SRDV--LLADLDAGMFDAVSRATHGHGAFRQQF  52
+            E +Y Y  LS+A+YWA E  Q      S D      + D G FD V+RAT  HG  R  F
+Sbjct  652  EYTYAYVGLSWAEYWAAENVQAAGNTSSSDAKDSKGESDKGAFDTVTRATVNHGLHRGSF  711
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRK-KWEYETDPSVTKMVRASA-SFQDLGEDGEIKFEAV  110
+            Q    +  E            G++   EY TD +   +   S  +F      GEI  E+ 
+Sbjct  712  QCNAVIKAE-----------NGKEYAVEYWTDGTTAVLTDGSKITFN----RGEITEES-  755
+
+Query  111  EGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED------  164
+             GA                 K+T   V G+K+VPV V        K  +  +E+      
+Sbjct  756  -GATT---------------KMTEYDVLGLKYVPVKVKTSDLDALKASYRVIENGSELAG  799
+
+Query  165  --------------SRVTENTNGLKTML-TED---SFSAR  186
+                          + VTENTNGLKT    ED   SFSAR
+Sbjct  800  GYSEKNLVSYTGLVANVTENTNGLKTATKNEDGSFSFSAR  839
+
+
+> UniRef90_R6M590 Fibronectin type III domain n=1 Tax=Clostridium 
+sp. CAG:253 TaxID=1262785 RepID=R6M590_9CLOT
+Length=534
+
+ Score = 53.5 bits (127),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 63/222 (28%), Positives = 86/222 (39%), Gaps = 63/222 (28%)
+
+Query  3    SYGYATLSYADYWAGE-LGQSRDVLLAD----------LDAGMFDAVSRATHGHGAFRQQ  51
+            +Y YA L++  YWA E +    D  + D          +D G FDAVSRAT  HG  R  
+Sbjct  37   TYLYAGLTWDQYWAAENIYLQSDKAMTDSNTEADARGEMDKGAFDAVSRATTNHGLHRGS  96
+
+Query  52   FQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVE  111
+            +Q    + GE                     D S   +   SA       DG+  +    
+Sbjct  97   YQCDAVIYGE---------------------DGSEFDVSHWSA-------DGKTLYLTDG  128
+
+Query  112  GAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED-------  164
+              VA A + +    D  + K+   KV G+K+VPVAV        K+ +  VE+       
+Sbjct  129  TDVAYA-KGTITKADGTQTKLKEYKVTGLKYVPVAVKTSELDDFKKTYKVVENDGELVGG  187
+
+Query  165  ------------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                        + VT +TNGLKT   E      FSARK  +
+Sbjct  188  YSEMNLSAYDLKANVTADTNGLKTATEEKDGTFKFSARKTGT  229
+
+
+> UniRef90_R5S9W5 Fibronectin type III domain n=1 Tax=Clostridium 
+sp. CAG:122 TaxID=1262773 RepID=R5S9W5_9CLOT
+Length=532
+
+ Score = 53.1 bits (126),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 61/222 (27%), Positives = 86/222 (39%), Gaps = 63/222 (28%)
+
+Query  3    SYGYATLSYADYWAGE---LGQSRDVLLAD--------LDAGMFDAVSRATHGHGAFRQQ  51
+            +Y YA L++  YW  E   L  ++ +  A+        LD G FDAVSRAT  HG  R  
+Sbjct  36   TYLYAGLTWDQYWDAEDIYLQSTKSMTDANTEADARGELDKGAFDAVSRATTNHGLHRGS  95
+
+Query  52   FQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVE  111
+            +Q    + GE                     D S   +   SA       DG+  +   +
+Sbjct  96   YQCDTVIYGE---------------------DGSEFNVSHWSA-------DGKTLY-LTD  126
+
+Query  112  GAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED-------  164
+            G      + +    D  + K+   KV G+K+VPVAV        K+ +  VE+       
+Sbjct  127  GTSVSYSKGTITKADGSQTKLKEYKVTGLKYVPVAVKTSELSDFKKIYKVVENDGELAGG  186
+
+Query  165  ------------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                        + VT NTNGLKT   +      FSARK  +
+Sbjct  187  YSEMNLSAYDLKADVTANTNGLKTAAEQKDGTFKFSARKTGN  228
+
+
+> UniRef90_R7ISI0 LPXTG-motif cell wall anchor domain protein n=1 
+Tax=Roseburia sp. CAG:303 TaxID=1262944 RepID=R7ISI0_9FIRM
+Length=1114
+
+ Score = 53.1 bits (126),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 54/202 (27%), Positives = 80/202 (40%), Gaps = 58/202 (29%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRDV--------LLADLDAGMFDAVSRATHGHGAFRQQF  52
+            E +Y YA L+Y +Y+A E  Q+ D            + D G FDAV+RAT  HG  R  F
+Sbjct  155  EYTYVYAELTYDEYYAAEPVQNGDSAESSDETDTRGEYDKGAFDAVTRATTNHGLHRGSF  214
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q AV +                     Y+T+ +V         ++  G DG+      +G
+Sbjct  215  QSAVVI---------------------YDTEGNV---------YEAAGWDGKNTIILTDG  244
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+                 DR  +  +  E   +   +V G K++PVAV        K ++  VE+        
+Sbjct  245  TTVGFDRG-TITIGEETKTMAGYEVTGFKYIPVAVKTSDYEEFKNQYKVVENGETLFGGF  303
+
+Query  165  -----------SRVTENTNGLK  175
+                       + VT +TNGLK
+Sbjct  304  SEVNLSAYSETAEVTADTNGLK  325
+
+
+> UniRef90_R6V2K1 FMN-binding domain n=1 Tax=Firmicutes bacterium 
+CAG:227 TaxID=1263010 RepID=R6V2K1_9FIRM
+Length=1306
+
+ Score = 52.8 bits (125),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 65/222 (29%), Positives = 87/222 (39%), Gaps = 63/222 (28%)
+
+Query  4    YGYATLSYADYWAGE---------LGQSRDVL--LADLDAGMFDAVSRATHGHGAFRQQF  52
+            Y YA LS+A+YWA E         L  S DV     +LD G FD VSRAT  HG  R  +
+Sbjct  659  YVYAGLSWAEYWASEGVYLAEGSNLASSSDVADKKGELDKGAFDTVSRATTNHGLHRGSY  718
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGE-IKFEAVE  111
+            Q    +                     Y+TD     +   ++S + +  DG  I F   +
+Sbjct  719  QCTAVI---------------------YDTDGKEYPVSYWNSSSEAVLTDGSVITFN--K  755
+
+Query  112  GAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPH-----------------ELKGI  154
+            G +   +  +      ++Y     +V G+K+VPV V                    L G 
+Sbjct  756  GTITYNENGTEKTATMKDY-----EVKGIKYVPVKVKTADYDEFCKKYQVVENAGTLAGG  810
+
+Query  155  AKEKF--HFVEDSRVTENTNGLK-TMLTED---SFSARKVSS  190
+              EK    + E + VTE TNGLK     ED   SF AR   S
+Sbjct  811  FTEKNLQAYTETAEVTEKTNGLKEATKNEDGSFSFGARATGS  852
+
+
+> UniRef90_B0P041 Fibronectin type III domain protein n=6 Tax=Clostridiales 
+TaxID=186802 RepID=B0P041_9CLOT
+Length=676
+
+ Score = 52.4 bits (124),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 60/218 (28%), Positives = 90/218 (41%), Gaps = 56/218 (26%)
+
+Query  1    ETSYGYATLSYADYWAGE-LGQSRDVLLADL-------DAGMFDAVSRATHGHGAFRQQF  52
+            E +Y Y  L++A+YWA E +  + D   +D+       D G +D V+RAT  HG  R  F
+Sbjct  46   EWTYCYVGLTWAEYWANEGVYNANDTSSSDVEDSHYEKDKGGYDVVTRATTNHGLHRGSF  105
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q      G  V+   E + S G  K E+              S     +DG+  +++   
+Sbjct  106  Q------GNAVI---EAKASDGTIK-EF--------------SVSHWSKDGKKFYQSSTD  141
+
+Query  113  AVALADRASSFM-VDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED-------  164
+            A  ++    +    D  +YK+T+ +V G K+VPV V        K     VE+       
+Sbjct  142  ATGVSYAKGTITDTDGTQYKLTSYEVKGTKYVPVKVKTTDLDALKANHTVVENGGTLVGG  201
+
+Query  165  ------------SRVTENTNGLKTMLTEDS----FSAR  186
+                        + VT NT GLKT   ++     FSAR
+Sbjct  202  YGENQLKSYQKTANVTANTYGLKTATKQEDGSFIFSAR  239
+
+
+> UniRef90_R6BNT1 LPXTG-motif cell wall anchor domain protein n=3 
+Tax=Firmicutes TaxID=1239 RepID=R6BNT1_9FIRM
+Length=579
+
+ Score = 51.2 bits (121),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 67/241 (28%), Positives = 99/241 (41%), Gaps = 85/241 (35%)
+
+Query  4    YGYATLSYADYWAGELGQSRDVLLA----------------DLDAGMFDAVSRATHGHGA  47
+            Y YA+L +A+YW     Q+ +V LA                + D G FD V+RAT  HG 
+Sbjct  40   YVYASLDWAEYW-----QNENVYLASGSTLKSSSEEADARGEYDKGAFDVVTRATKNHGL  94
+
+Query  48   FRQQFQY----------AVEV---LGEKVLSKQET-EDSRGRKKWEYETDPSVTKMVRAS  93
+             R  FQ           A E+     E+V +K E  +D+  +  +   TD S  +  + +
+Sbjct  95   HRGSFQCDAVIRDTDGKAYEISYWTSEEVSAKDENGQDTTKKVVYAVLTDGSKIQFDKGT  154
+
+Query  94   ASFQDLGEDGEIKFEAVEGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKG  153
+             ++    E+GE K              ++ M D E        V G+K+VPVAV  E   
+Sbjct  155  ITYT---ENGETK--------------TATMEDYE--------VKGIKYVPVAVKTEDYA  189
+
+Query  154  IAKEKFHFVED-------------------SRVTENTNGLKTMLTED-----SFSARKVS  189
+               +K+   ED                   + VT +TNGLK + T++     SF+ARK  
+Sbjct  190  DFCKKYSVTEDASAIEGGYTENALKAYTKTAEVTADTNGLK-VATKNADGTYSFAARKTG  248
+
+Query  190  S  190
+            S
+Sbjct  249  S  249
+
+
+> UniRef90_UPI00041CC482 hypothetical protein n=1 Tax=Dorea longicatena 
+TaxID=88431 RepID=UPI00041CC482
+Length=1017
+
+ Score = 51.2 bits (121),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 64/222 (29%), Positives = 87/222 (39%), Gaps = 62/222 (28%)
+
+Query  1    ETSYGYATLSYADYWAGE----LGQSRDVLLADL----DAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA LS+A+YWA E     G S      D     D G FD V+RAT  HG  R  +
+Sbjct  224  EYKYVYAGLSWAEYWAAEGVQAAGDSSSSGKLDTKGESDKGAFDVVTRATVNHGLHRGSY  283
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q A  +         E E+ +      YE    V+  + +  +   L +   I F     
+Sbjct  284  QCAATI---------EAENGK-----SYE----VSYWIDSKTAV--LTDGKTITF-----  318
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHE------------------LKGI  154
+                 DR +    D    K+T   V G+K+VPV V  E                    G 
+Sbjct  319  -----DRGAITEEDGTTTKMTKYDVTGLKYVPVKVATEDYEAFCKAYKVVENGGELAGGF  373
+
+Query  155  AKEKFHFVE--DSRVTENTNGLKTMLTED----SFSARKVSS  190
+            A+ K    +   ++VT +TNGLKT         SFSA+K  +
+Sbjct  374  AENKLQSYKGLKAKVTADTNGLKTATKNADGTFSFSAKKTGT  415
+
+
+> UniRef90_R5N214 Bacterial surface proteins containing Ig-like 
+domains n=3 Tax=Clostridiales TaxID=186802 RepID=R5N214_9FIRM
+Length=733
+
+ Score = 50.8 bits (120),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 53/177 (30%), Positives = 80/177 (45%), Gaps = 38/177 (21%)
+
+Query  1    ETSYGYATLSYADYWAGE-LGQSRDVLLAD-------LDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA L++A+YWA E +  + D   ++       LD G FD V+RAT  HG  R  F
+Sbjct  117  EYQYVYAGLTWAEYWASEGVYAAGDTTSSEELDGHKELDKGAFDTVTRATTNHGLHRGSF  176
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    ++ E        + SR      Y   P  T + R +    D      + F+  +G
+Sbjct  177  QTETTIVAE--------DGSR------Y---PIATWVDRNTIKLTD---GKTVGFK--KG  214
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVEDSRVTE  169
+             +  AD  +   VD + Y     +V+G+K+VPVAV  E      +K++ V +  V E
+Sbjct  215  TITKADGTT---VDMDHY-----EVYGLKYVPVAVRTEDYAAFCQKYNVVTNDGVLE  263
+
+
+> UniRef90_A0A174L7G9 47 kDa membrane antigen n=1 Tax=Blautia obeum 
+TaxID=40520 RepID=A0A174L7G9_9FIRM
+Length=959
+
+ Score = 50.8 bits (120),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 63/227 (28%), Positives = 95/227 (42%), Gaps = 69/227 (30%)
+
+Query  3    SYGYATLSYADYWAGE-LGQSRDVLLAD-------LDAGMFDAVSRATHGHGAFRQQFQY  54
+            SY YA L++ +YW+ E +  + +V  +D        D G FDAV+RAT  HG  R  +Q 
+Sbjct  371  SYVYAGLTWGEYWSQESVTAAGNVSGSDEKDSHNESDTGAFDAVTRATTNHGLHRGSYQC  430
+
+Query  55   AVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEGAV  114
+               +   +  + Q          W+  T+P +T                       +G V
+Sbjct  431  MATIYTTEGNAYQ-------LSYWKSSTEPVLT-----------------------DGTV  460
+
+Query  115  AL---ADR----ASSFMVD-SEEYKITNVKVHGMKFVPVAVPHE----------------  150
+            A+   ADR     +S  V+   +  + +  V G+K+VPV V  E                
+Sbjct  461  AIWTPADRKTGTPASIQVNGGAKESLDHYAVTGIKYVPVQVKAEDYADFAAKYPVVKNGE  520
+
+Query  151  --LKGIAKEKFH-FVEDSRVTENTNGLKTML-TED---SFSARKVSS  190
+              + G ++     + E + VT NTNGLKT+   ED   SFSARK  +
+Sbjct  521  TLVGGFSENNLKAYRETANVTVNTNGLKTVTKNEDGSFSFSARKTGT  567
+
+
+> UniRef90_A0A1C5NNJ4 47 kDa membrane antigen n=1 Tax=uncultured 
+Blautia sp. TaxID=765821 RepID=A0A1C5NNJ4_9FIRM
+Length=810
+
+ Score = 49.7 bits (117),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 52/177 (29%), Positives = 80/177 (45%), Gaps = 38/177 (21%)
+
+Query  1    ETSYGYATLSYADYWAGE-LGQSRDVLLAD-------LDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA L++A+YWA E +  + D   ++       LD G FD V+RAT  HG  R  F
+Sbjct  117  EYQYVYAGLTWAEYWASEGVYAAGDTTSSEELDGHKELDKGAFDTVTRATTNHGLHRGSF  176
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    ++ E        + SR      Y   P  T + + +    D      + F+  +G
+Sbjct  177  QTETTIVAE--------DGSR------Y---PIATWVNQNTIKLTD---GKTVGFK--KG  214
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVEDSRVTE  169
+             +  AD  +   VD + Y     +V+G+K+VPVAV  E      +K++ V +  V E
+Sbjct  215  TITKADGTT---VDMDHY-----EVYGLKYVPVAVRTEDYAAFCQKYNVVTNDGVLE  263
+
+
+> UniRef90_R7NKY5 Bacterial group 2 Ig-like protein n=1 Tax=Eubacterium 
+sp. CAG:581 TaxID=1262890 RepID=R7NKY5_9FIRM
+Length=630
+
+ Score = 49.3 bits (116),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 52/208 (25%), Positives = 84/208 (40%), Gaps = 64/208 (31%)
+
+Query  3    SYGYATLSYADYWAGE--------LGQSRDVLLA--DLDAGMFDAVSRATHGHGAFRQQF  52
+            +Y +A L++ +YW  E           S DVL +  + D G FD VSRAT  HG  R  F
+Sbjct  43   TYVFAGLTWDEYWKSEGVYVADNNWTASSDVLDSHNEYDKGAFDVVSRATTNHGLHRGSF  102
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKK------WEYETDPSVTKMVRASASFQDLGEDGEIK  106
+            Q + +++           D+ G +K      W  E + +V  +           +DG   
+Sbjct  103  QCSTDIVA---------TDADGNEKIFTISYWTKEDNKTVLVL-----------KDGSKI  142
+
+Query  107  FEAVEGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--  164
+             +  +G          F  ++  Y + +  V GMK++PVAV ++     + K+  V+   
+Sbjct  143  TDYAKG---------KFTYNNVAYTMAHYYVKGMKYIPVAVKNDDLADFESKYTVVKSGE  193
+
+Query  165  -----------------SRVTENTNGLK  175
+                             + + ENTNGLK
+Sbjct  194  AVEGGYSEGVLSSYSLKANLDENTNGLK  221
+
+
+> UniRef90_A5ZN84 Bacterial group 2 Ig-like protein n=4 Tax=Clostridiales 
+TaxID=186802 RepID=A5ZN84_9FIRM
+Length=1126
+
+ Score = 49.3 bits (116),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 62/227 (27%), Positives = 94/227 (41%), Gaps = 69/227 (30%)
+
+Query  3    SYGYATLSYADYWAGE-LGQSRDVLLAD-------LDAGMFDAVSRATHGHGAFRQQFQY  54
+            SY YA L++ +YW+ E +  + +V  +D        D G FDAV+RAT  HG  R  +Q 
+Sbjct  538  SYVYAGLTWGEYWSQESVTAAGNVSGSDEKDSHNESDTGAFDAVTRATTNHGLHRGSYQC  597
+
+Query  55   AVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEGAV  114
+               +   +  + Q          W+  T+P +                        +G V
+Sbjct  598  MATIYTTEGNAYQ-------LSYWKSSTEPVL-----------------------ADGTV  627
+
+Query  115  AL---ADR----ASSFMVD-SEEYKITNVKVHGMKFVPVAVPHE----------------  150
+            A+   ADR     +S  V+   +  + +  V G+K+VPV V  E                
+Sbjct  628  AIWTPADRKTGTPASIQVNGGAKESLDHYAVTGIKYVPVQVKAEDYADFAAKYPVVKNGE  687
+
+Query  151  --LKGIAKEKFH-FVEDSRVTENTNGLKTML-TED---SFSARKVSS  190
+              + G ++     + E + VT NTNGLKT+   ED   SFSARK  +
+Sbjct  688  ILVGGFSENNLKAYSETANVTVNTNGLKTVTKNEDGSFSFSARKTGT  734
+
+
+> UniRef90_C4Z2X1 Uncharacterized protein n=4 Tax=Eubacterium TaxID=1730 
+RepID=C4Z2X1_EUBE2
+Length=485
+
+ Score = 48.5 bits (114),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 58/221 (26%), Positives = 93/221 (42%), Gaps = 60/221 (27%)
+
+Query  1    ETSYGYATLSYADYWAGE-LGQSRDVLLAD-------LDAGMFDAVSRATHGHGAFRQQF  52
+            E SY YA L++ +YWA E +  + DV  ++        D G FD V+RAT  HG  R  +
+Sbjct  36   EYSYVYAGLTWQEYWANEGVYNAGDVTSSNEKDTHGEYDKGAFDTVTRATTNHGLHRGSY  95
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q          ++  +TED    +   + +D    +M+        L +  ++ +    G
+Sbjct  96   Q---------CMATIDTEDGNKYELAGWSSDGK--QMI--------LTDGTQLSYN--RG  134
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHE------------------LKGI  154
+             +  AD ++S        K+++ +V G+K+VPV V                       G 
+Sbjct  135  TITNADGSTS--------KVSSYEVTGIKYVPVKVKTSDLADFEQHYRVVKNGEKLYGGF  186
+
+Query  155  AKEKFHFVE-DSRVTENTNGLKTMLTED----SFSARKVSS  190
+             + K    E  + V  +TNGLKT +       SFSAR+  S
+Sbjct  187  GENKLSSYEYTAAVNADTNGLKTAVKNADGTYSFSARQTGS  227
+
+
+> UniRef90_A0A173W3J4 47 kDa membrane antigen n=5 Tax=Dorea longicatena 
+TaxID=88431 RepID=A0A173W3J4_9FIRM
+Length=1275
+
+ Score = 48.5 bits (114),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 61/224 (27%), Positives = 81/224 (36%), Gaps = 66/224 (29%)
+
+Query  1    ETSYGYATLSYADYWAGE----LGQSRDVLLADL----DAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA LS+A+YWA E     G S      D     D G FD V+RAT  HG  R  +
+Sbjct  224  EYKYVYAGLSWAEYWAAEGVQAAGDSSSSSELDTKGEPDKGAFDVVTRATVNHGLHRGSY  283
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWE--YETDPSVTKMVRASASFQDLGEDGEIKFEAV  110
+            Q    +  E              K +E  Y TD     +                     
+Sbjct  284  QCVATIEAE------------NGKSYEVLYWTDSKTAVL--------------------T  311
+
+Query  111  EGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHE------------------LK  152
+            +G     DR +    D    K+T   V G+K+VPV V  E                    
+Sbjct  312  DGKTITFDRGAITEEDGTTTKMTKYDVTGLKYVPVKVATEDYEAFCKAYKVVENGGELAG  371
+
+Query  153  GIAKEKFHFVE--DSRVTENTNGLKTMLTED----SFSARKVSS  190
+            G A+ K    +   ++VT +TNGLKT         SFSA++  +
+Sbjct  372  GFAENKLQSYKGLKAKVTADTNGLKTATKNADGTFSFSAKETGT  415
+
+
+> UniRef90_R7I128 Uncharacterized protein n=1 Tax=Clostridium sp. 
+CAG:411 TaxID=1262802 RepID=R7I128_9CLOT
+Length=599
+
+ Score = 47.8 bits (112),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 53/204 (26%), Positives = 78/204 (38%), Gaps = 56/204 (27%)
+
+Query  1    ETSYGYATLSYADYWAGE---------LGQSRDV-LLADLDAGMFDAVSRATHGHGAFRQ  50
+            E  Y YA +S+A YW  E         +  S  V    + D G FDAVSRAT  HG  R 
+Sbjct  44   EYEYVYAGISWAQYWESEGIYLSGTNMVASSSAVDTRGESDKGAFDAVSRATTNHGIHRG  103
+
+Query  51   QFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAV  110
+             FQ    + GE              K ++  T  S +++V        L +   + F   
+Sbjct  104  SFQCNTTIYGED------------GKTFDVSTWKSASELV--------LTDGSTVGFN--  141
+
+Query  111  EGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHE------------------LK  152
+            +G +   +         + Y +T     G+K+VPVAV                     + 
+Sbjct  142  KGTITYTENGQEKTTTMKNYNVT-----GIKYVPVAVKKSDYEAFAAQYPVVSNAGILVG  196
+
+Query  153  GIAKEKF-HFVEDSRVTENTNGLK  175
+            G ++     + + + VT NTNGLK
+Sbjct  197  GYSETNLASYQKTAAVTANTNGLK  220
+
+
+> UniRef90_U2PJ02 Uncharacterized protein (Fragment) n=3 Tax=Clostridiales 
+TaxID=186802 RepID=U2PJ02_EUBRA
+Length=1113
+
+ Score = 47.8 bits (112),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 56/221 (25%), Positives = 91/221 (41%), Gaps = 56/221 (25%)
+
+Query  1    ETSYGYATLSYADYWAGELGQ------SRDVL--LADLDAGMFDAVSRATHGHGAFRQQF  52
+            E +Y YA++ YA+Y+A E  Q      S DV+    + D G FD V+RAT  HG  R  F
+Sbjct  580  EYTYVYASVPYAEYYANEDVQNAGSAASSDVMDTNGEYDKGAFDTVTRATANHGLHRGSF  639
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q  V +                     Y+TD +  + +  +     +  +G+   +A + 
+Sbjct  640  QQDVVI---------------------YDTDGNTYEPISWTDGNTAILSNGKTLVKASDR  678
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+            A  +    ++  VD +     +  + G+K+VPV V  +     K  +   E+        
+Sbjct  679  ATGI----TTLTVDGKTSTYDHYVIKGIKYVPVKVKSKNLEAFKAAYSVTENGETLSGGY  734
+
+Query  165  -----------SRVTENTNGLKTM-LTED---SFSARKVSS  190
+                       + V +NTNGLK + L  D   SFSA +  +
+Sbjct  735  SENNLKSYTAVADVNKNTNGLKKVSLNADGTFSFSAAQTGT  775
+
+
+> UniRef90_A0A174Y1P4 47 kDa membrane antigen n=5 Tax=Clostridiales 
+TaxID=186802 RepID=A0A174Y1P4_9FIRM
+Length=1131
+
+ Score = 47.4 bits (111),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 31/73 (42%), Positives = 39/73 (53%), Gaps = 9/73 (12%)
+
+Query  1    ETSYGYATLSYADYW-------AGELGQSRDV-LLADLDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA+L++A+YW       AG    S +     + D G FDAVSRAT  HG  R  F
+Sbjct  550  ENVYVYASLAWAEYWSSEDVYNAGSTASSEEKDRRGESDLGAFDAVSRATANHGLHRGSF  609
+
+Query  53   QYAVEVLGEKVLS  65
+            Q A+ VL  K +S
+Sbjct  610  Q-AIAVLNGKTVS  621
+
+
+> UniRef90_R6K306 Uncharacterized protein n=1 Tax=Eubacterium sp. 
+CAG:252 TaxID=1262887 RepID=R6K306_9FIRM
+Length=519
+
+ Score = 46.6 bits (109),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 62/219 (28%), Positives = 88/219 (40%), Gaps = 64/219 (29%)
+
+Query  3    SYGYATLSYADYWAGE------LGQSRDVL--LADLDAGMFDAVSRATHGHGAFRQQFQY  54
+            +Y YA LS+ +YW  E        QS DV     + D G FD VSRAT+ HG  R  FQ 
+Sbjct  38   TYVYAGLSWEEYWNAEGVYNASNTQSSDVKDDHGEYDKGGFDTVSRATYNHGLHRGSFQC  97
+
+Query  55   AVEVLGEKVLSKQETEDSRGRK----KWEYETDPSVTKMVRASASFQDLGEDGEIKFEAV  110
+               +            D+ G+      W  E D +V K+V        L +  +  + + 
+Sbjct  98   EAVIF-----------DTEGKTYDVAYWTSE-DKAV-KLV--------LTDGSKCTYNSK  136
+
+Query  111  EGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED------  164
+               +  AD  ++  +D  E       V G+K+VPV V        K K++ VE+      
+Sbjct  137  AKTLTFAD-GTTVTLDHYE-------VKGLKYVPVKVKTSDYEDFKSKYNVVENGGTLEG  188
+
+Query  165  -------------SRVTENTNGLKTMLTED----SFSAR  186
+                         + VT +TNGLK  + E     SF AR
+Sbjct  189  GYTENNLKAYSETAEVTADTNGLKEAVKEADGTYSFGAR  227
+
+
+> UniRef90_D4LKL3 Bacterial surface proteins containing Ig-like 
+domains n=4 Tax=Clostridiales TaxID=186802 RepID=D4LKL3_9FIRM
+Length=748
+
+ Score = 46.2 bits (108),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 44/175 (25%), Positives = 68/175 (39%), Gaps = 37/175 (21%)
+
+Query  1    ETSYGYATLSYADYWAGE----LGQSRDVLLAD----LDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA L++ +YWA E     G +      D     D G FD V+RAT  HG  R  +
+Sbjct  131  EYQYVYAGLTWGEYWAAEGVYAAGDTSSSEEKDSHSEFDTGAFDTVTRATANHGLHRGSY  190
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    ++ E                             R   S+    ED        +G
+Sbjct  191  QTEATIIAE--------------------------DGTRFDVSYW---EDKGSTLYLTDG  221
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVEDSRV  167
+            +    +R S    D + Y + + +++G+K+VPVAV         +K++ V+D  V
+Sbjct  222  SKVKWNRGSITTEDGKTYTMDHYEIYGLKYVPVAVKTADFADFCKKYNVVQDGAV  276
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.128    0.358    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 548631775380
+Results from round 2
+
+
+Query= d1o75a3
+
+Length=191
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P29723 Putative DD-carboxypeptidase TP_0574 n=7 Tax=Tr...  245     6e-76
+  UniRef90_C4Z2X1 Uncharacterized protein n=4 Tax=Eubacterium Tax...  167     1e-45
+  UniRef90_R6M590 Fibronectin type III domain n=1 Tax=Clostridium...  167     2e-45
+  UniRef90_A0A174A0X0 47 kDa membrane antigen n=2 Tax=Sarcina ven...  165     4e-45
+  UniRef90_A0A1C6BTJ0 47 kDa membrane antigen n=3 Tax=Firmicutes ...  164     8e-44
+  UniRef90_UPI00041CC482 hypothetical protein n=1 Tax=Dorea longi...  165     2e-43
+  UniRef90_A0A173W3J4 47 kDa membrane antigen n=5 Tax=Dorea longi...  164     8e-43
+  UniRef90_R7EAA9 Uncharacterized protein n=1 Tax=Roseburia sp. C...  164     9e-43
+  UniRef90_R6V2K1 FMN-binding domain n=1 Tax=Firmicutes bacterium...  163     2e-42
+  UniRef90_R5S9W5 Fibronectin type III domain n=1 Tax=Clostridium...  158     4e-42
+  UniRef90_A0A174ADM3 47 kDa membrane antigen n=3 Tax=Coprococcus...  161     1e-41
+  UniRef90_A0A1C6AUH4 47 kDa membrane antigen n=1 Tax=uncultured ...  160     1e-41
+  UniRef90_D4MVX7 Fibronectin type III domain n=4 Tax=Anaerostipe...  156     4e-41
+  UniRef90_C0B694 LPXTG-motif cell wall anchor domain protein n=3...  158     8e-41
+  UniRef90_D4J7K9 Uncharacterized protein n=1 Tax=Coprococcus cat...  158     1e-40
+  UniRef90_A0A174ZYH4 47 kDa membrane antigen n=6 Tax=Clostridial...  156     3e-40
+  UniRef90_R6BNT1 LPXTG-motif cell wall anchor domain protein n=3...  153     4e-40
+  UniRef90_R7ISI0 LPXTG-motif cell wall anchor domain protein n=1...  156     4e-40
+  UniRef90_B0P041 Fibronectin type III domain protein n=6 Tax=Clo...  152     2e-39
+  UniRef90_R6L581 Bacterial group 2 Ig-like protein n=1 Tax=Blaut...  154     3e-39
+  UniRef90_R7C694 Fibronectin type III domain n=1 Tax=Clostridium...  150     4e-39
+  UniRef90_A5ZN84 Bacterial group 2 Ig-like protein n=4 Tax=Clost...  153     6e-39
+  UniRef90_A0A174L7G9 47 kDa membrane antigen n=1 Tax=Blautia obe...  152     8e-39
+  UniRef90_R7NKY5 Bacterial group 2 Ig-like protein n=1 Tax=Eubac...  149     1e-38
+  UniRef90_R7I128 Uncharacterized protein n=1 Tax=Clostridium sp....  149     1e-38
+  UniRef90_A0A1C5SZA8 47 kDa membrane antigen n=1 Tax=uncultured ...  151     3e-38
+  UniRef90_C0EWB8 Fibronectin type III domain protein n=7 Tax=Eub...  148     1e-37
+  UniRef90_R5N214 Bacterial surface proteins containing Ig-like d...  141     2e-35
+  UniRef90_A0A1C5NNJ4 47 kDa membrane antigen n=1 Tax=uncultured ...  140     9e-35
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A173RIU5 47 kDa membrane antigen n=1 Tax=[Ruminococc...  155     1e-39
+  UniRef90_D4K7F6 Uncharacterized protein n=3 Tax=Faecalibacteriu...  147     2e-38
+  UniRef90_R6K306 Uncharacterized protein n=1 Tax=Eubacterium sp....  146     1e-37
+  UniRef90_A0A1C6I4P7 47 kDa membrane antigen n=1 Tax=uncultured ...  148     4e-37
+  UniRef90_A0A0D0RGI1 TWA4_scaffold00001, whole genome shotgun se...  147     6e-37
+  UniRef90_G1WM41 Uncharacterized protein n=2 Tax=Dorea TaxID=189...  144     9e-36
+  UniRef90_D4LKL3 Bacterial surface proteins containing Ig-like d...  141     2e-35
+  UniRef90_A0A174KJ69 47 kDa membrane antigen n=1 Tax=Fusicatenib...  143     3e-35
+  UniRef90_A0A1C5ZA72 47 kDa membrane antigen n=1 Tax=uncultured ...  142     3e-35
+  UniRef90_A0A174GGJ7 47 kDa membrane antigen n=3 Tax=Lachnospira...  142     4e-35
+  UniRef90_UPI0009307B17 UPI0009307B17 related cluster n=1 Tax=un...  141     6e-35
+  UniRef90_C6J9H7 Uncharacterized protein n=9 Tax=Clostridiales T...  137     3e-34
+  UniRef90_D4LQB5 Bacterial surface proteins containing Ig-like d...  137     1e-33
+  UniRef90_UPI0003134C17 hypothetical protein n=1 Tax=Ruminococcu...  135     1e-33
+  UniRef90_A0A1C5ZC46 47 kDa membrane antigen n=1 Tax=uncultured ...  132     7e-32
+  UniRef90_U2PJ02 Uncharacterized protein (Fragment) n=3 Tax=Clos...  131     1e-31
+  UniRef90_A0A1C6I313 Endo-1,4-beta-xylanase A n=1 Tax=uncultured...  118     8e-27
+  UniRef90_A0A174Y1P4 47 kDa membrane antigen n=5 Tax=Clostridial...  116     3e-26
+  UniRef90_R7FCJ1 Fibronectin type III domain protein n=1 Tax=Rum...  114     7e-26
+  UniRef90_R5UYY2 Bacterial group 2 Ig-like protein n=1 Tax=Rumin...  113     3e-25
+  UniRef90_R6AYB7 Putative polysaccharide lyase n=1 Tax=Roseburia...  109     6e-24
+  UniRef90_U2KAE3 Dockerin type I repeat-containing domain protei...  108     2e-23
+  UniRef90_C7G566 FMN-binding domain protein n=2 Tax=Roseburia in...  68.7    2e-11
+  UniRef90_C7G565 Uncharacterized protein n=3 Tax=Roseburia intes...  65.3    2e-09
+
+
+> UniRef90_P29723 Putative DD-carboxypeptidase TP_0574 n=7 Tax=Treponema 
+TaxID=157 RepID=TA47_TREPA
+Length=434
+
+ Score = 245 bits (626),  Expect = 6e-76, Method: Composition-based stats.
+ Identities = 189/200 (95%), Positives = 189/200 (95%), Gaps = 9/200 (5%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRDVLL---------ADLDAGMFDAVSRATHGHGAFRQQ  51
+            ET YGYATLSYADYWAGELGQSRDVLL          DLDAGMFDAVSRATHGHGAFRQQ
+Sbjct  26   ETHYGYATLSYADYWAGELGQSRDVLLAGNAEADRAGDLDAGMFDAVSRATHGHGAFRQQ  85
+
+Query  52   FQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVE  111
+            FQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVE
+Sbjct  86   FQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVE  145
+
+Query  112  GAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVEDSRVTENT  171
+            GAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVEDSRVTENT
+Sbjct  146  GAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVEDSRVTENT  205
+
+Query  172  NGLKTMLTEDSFSARKVSSM  191
+            NGLKTMLTEDSFSARKVSSM
+Sbjct  206  NGLKTMLTEDSFSARKVSSM  225
+
+
+> UniRef90_C4Z2X1 Uncharacterized protein n=4 Tax=Eubacterium TaxID=1730 
+RepID=C4Z2X1_EUBE2
+Length=485
+
+ Score = 167 bits (423),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 53/221 (24%), Positives = 86/221 (39%), Gaps = 60/221 (27%)
+
+Query  1    ETSYGYATLSYADYWAGE-LGQSRDVLLA-------DLDAGMFDAVSRATHGHGAFRQQF  52
+            E SY YA L++ +YWA E +  + DV  +       + D G FD V+RAT  HG  R  +
+Sbjct  36   EYSYVYAGLTWQEYWANEGVYNAGDVTSSNEKDTHGEYDKGAFDTVTRATTNHGLHRGSY  95
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +         +TED    +   + +D     +                     +G
+Sbjct  96   QCMATI---------DTEDGNKYELAGWSSDGKQMIL--------------------TDG  126
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+                 +R +    D    K+++ +V G+K+VPV V        ++ +  V++        
+Sbjct  127  TQLSYNRGTITNADGSTSKVSSYEVTGIKYVPVKVKTSDLADFEQHYRVVKNGEKLYGGF  186
+
+Query  165  -----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                       + V  +TNGLKT +       SFSAR+  S
+Sbjct  187  GENKLSSYEYTAAVNADTNGLKTAVKNADGTYSFSARQTGS  227
+
+
+> UniRef90_R6M590 Fibronectin type III domain n=1 Tax=Clostridium 
+sp. CAG:253 TaxID=1262785 RepID=R6M590_9CLOT
+Length=534
+
+ Score = 167 bits (423),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 59/224 (26%), Positives = 84/224 (38%), Gaps = 63/224 (28%)
+
+Query  1    ETSYGYATLSYADYWAGEL-----------GQSRDVLLADLDAGMFDAVSRATHGHGAFR  49
+            + +Y YA L++  YWA E              +      ++D G FDAVSRAT  HG  R
+Sbjct  35   DYTYLYAGLTWDQYWAAENIYLQSDKAMTDSNTEADARGEMDKGAFDAVSRATTNHGLHR  94
+
+Query  50   QQFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEA  109
+              +Q    + GE                     D S   +   SA       DG+  +  
+Sbjct  95   GSYQCDAVIYGE---------------------DGSEFDVSHWSA-------DGKTLY-L  125
+
+Query  110  VEGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED-----  164
+             +G      + +    D  + K+   KV G+K+VPVAV        K+ +  VE+     
+Sbjct  126  TDGTDVAYAKGTITKADGTQTKLKEYKVTGLKYVPVAVKTSELDDFKKTYKVVENDGELV  185
+
+Query  165  --------------SRVTENTNGLKTMLTEDS----FSARKVSS  190
+                          + VT +TNGLKT   E      FSARK  +
+Sbjct  186  GGYSEMNLSAYDLKANVTADTNGLKTATEEKDGTFKFSARKTGT  229
+
+
+> UniRef90_A0A174A0X0 47 kDa membrane antigen n=2 Tax=Sarcina ventriculi 
+TaxID=1267 RepID=A0A174A0X0_SARVE
+Length=465
+
+ Score = 165 bits (418),  Expect = 4e-45, Method: Composition-based stats.
+ Identities = 87/201 (43%), Positives = 117/201 (58%), Gaps = 15/201 (7%)
+
+Query  2    TSYGYATLSYADYWAGELGQSRDVLLADLDA---------GMFDAVSRATHGHGAFRQQF  52
+              YGYA LSYA YWAGEL +S + L    D          GMFDAV+RAT  HG +RQQF
+Sbjct  50   YVYGYAPLSYAQYWAGELDKSVEELSKSSDKTDSEGVNDAGMFDAVTRATAKHGIYRQQF  109
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            QY VEV GEKV+S +  E+  G++  +Y TD + T+ V   ASF  +  +G I    V+ 
+Sbjct  110  QYIVEVTGEKVISSEVVEE-NGKETTKYTTDSNDTQTVTVQASFDGVDSEGTITTAPVDD  168
+
+Query  113  AVALADRASSFMV----DSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVEDSRVT  168
+             V   D +S F +     + +YK+   KV G   +PVA+P ++   AKE   FVEDS V+
+Sbjct  169  NVVFEDASSIFTIGEGDSATQYKVAEYKVLGFNNIPVAIPSDMVDSAKEN-GFVEDSNVS  227
+
+Query  169  ENTNGLKTMLTEDSFSARKVS  189
+             +T GLKTM ++ ++ ARK S
+Sbjct  228  SDTYGLKTMNSDGTYGARKTS  248
+
+
+> UniRef90_A0A1C6BTJ0 47 kDa membrane antigen n=3 Tax=Firmicutes 
+TaxID=1239 RepID=A0A1C6BTJ0_9FIRM
+Length=659
+
+ Score = 164 bits (414),  Expect = 8e-44, Method: Composition-based stats.
+ Identities = 61/221 (28%), Positives = 89/221 (40%), Gaps = 56/221 (25%)
+
+Query  1    ETSYGYATLSYADYWAGEL------GQSRDVLLA--DLDAGMFDAVSRATHGHGAFRQQF  52
+            E +Y Y  L++A+YWA E         S DVL +  + D G +D V+RAT  HG  R  +
+Sbjct  43   EWTYCYVGLTWAEYWAHEDVYNAGDASSSDVLDSKKESDKGGYDVVTRATAKHGLHRGSY  102
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +          T D+ G+   EY                    +DG+  +     
+Sbjct  103  QCMATIF---------TTDADGKTGPEY--------------KVSHWSDDGKTIYLTDGS  139
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+            +V+      +   +   Y +++ +V G+K+VPVAV        K K+  VE+        
+Sbjct  140  SVSW--NKGNITDNGNTYTMSHYEVSGIKYVPVAVKTSQLNDLKAKYQVVENGGTLTGGY  197
+
+Query  165  -----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                       + VT NTNGLKT         SFSARK  S
+Sbjct  198  SEVNLSAYTATANVTANTNGLKTATENSDGTFSFSARKTGS  238
+
+
+> UniRef90_UPI00041CC482 hypothetical protein n=1 Tax=Dorea longicatena 
+TaxID=88431 RepID=UPI00041CC482
+Length=1017
+
+ Score = 165 bits (416),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 59/222 (27%), Positives = 81/222 (36%), Gaps = 62/222 (28%)
+
+Query  1    ETSYGYATLSYADYWAGE----LGQSRDV----LLADLDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA LS+A+YWA E     G S          + D G FD V+RAT  HG  R  +
+Sbjct  224  EYKYVYAGLSWAEYWAAEGVQAAGDSSSSGKLDTKGESDKGAFDVVTRATVNHGLHRGSY  283
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q A  +  E   S + +          Y  D     +                     +G
+Sbjct  284  QCAATIEAENGKSYEVS----------YWIDSKTAVL--------------------TDG  313
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+                 DR +    D    K+T   V G+K+VPV V  E      + +  VE+        
+Sbjct  314  KTITFDRGAITEEDGTTTKMTKYDVTGLKYVPVKVATEDYEAFCKAYKVVENGGELAGGF  373
+
+Query  165  ------------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                        ++VT +TNGLKT         SFSA+K  +
+Sbjct  374  AENKLQSYKGLKAKVTADTNGLKTATKNADGTFSFSAKKTGT  415
+
+
+> UniRef90_A0A173W3J4 47 kDa membrane antigen n=5 Tax=Dorea longicatena 
+TaxID=88431 RepID=A0A173W3J4_9FIRM
+Length=1275
+
+ Score = 164 bits (414),  Expect = 8e-43, Method: Composition-based stats.
+ Identities = 58/222 (26%), Positives = 80/222 (36%), Gaps = 62/222 (28%)
+
+Query  1    ETSYGYATLSYADYWAGE----LGQSRDV----LLADLDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA LS+A+YWA E     G S          + D G FD V+RAT  HG  R  +
+Sbjct  224  EYKYVYAGLSWAEYWAAEGVQAAGDSSSSSELDTKGEPDKGAFDVVTRATVNHGLHRGSY  283
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +  E   S +            Y TD     +                     +G
+Sbjct  284  QCVATIEAENGKSYEVL----------YWTDSKTAVL--------------------TDG  313
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+                 DR +    D    K+T   V G+K+VPV V  E      + +  VE+        
+Sbjct  314  KTITFDRGAITEEDGTTTKMTKYDVTGLKYVPVKVATEDYEAFCKAYKVVENGGELAGGF  373
+
+Query  165  ------------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                        ++VT +TNGLKT         SFSA++  +
+Sbjct  374  AENKLQSYKGLKAKVTADTNGLKTATKNADGTFSFSAKETGT  415
+
+
+> UniRef90_R7EAA9 Uncharacterized protein n=1 Tax=Roseburia sp. 
+CAG:471 TaxID=1262948 RepID=R7EAA9_9FIRM
+Length=1646
+
+ Score = 164 bits (415),  Expect = 9e-43, Method: Composition-based stats.
+ Identities = 58/221 (26%), Positives = 85/221 (38%), Gaps = 60/221 (27%)
+
+Query  1    ETSYGYATLSYADYWAGE----LGQSRDV----LLADLDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA +++A+YWA E     G S          + D G FDAV+RAT  HG  R  F
+Sbjct  666  EYKYVYAAMTWAEYWAAEGVQAAGDSSSSSELDTRNEADKGAFDAVTRATANHGLHRGSF  725
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +         E E+ +  +   +  D     +                      G
+Sbjct  726  QCVAVI---------EAENGKTYEVSHWSADGKEITLTN--------------------G  756
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+             V   +R      D    K+ + +V G+K+VPV V         +K++ VE+        
+Sbjct  757  NVIKFNRGEITDTDGTITKLKDYEVTGLKYVPVKVASADYEAFCQKYNVVENGGELVGGY  816
+
+Query  165  -----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                       + VTE TNGLKT+  ++    SFSAR+  S
+Sbjct  817  GENKLAAYSVKANVTEATNGLKTVTKDEKGNFSFSARQAGS  857
+
+
+> UniRef90_R6V2K1 FMN-binding domain n=1 Tax=Firmicutes bacterium 
+CAG:227 TaxID=1263010 RepID=R6V2K1_9FIRM
+Length=1306
+
+ Score = 163 bits (412),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 58/224 (26%), Positives = 85/224 (38%), Gaps = 61/224 (27%)
+
+Query  1    ETSYGYATLSYADYWAGE---------LGQSRDVLL--ADLDAGMFDAVSRATHGHGAFR  49
+            +  Y YA LS+A+YWA E         L  S DV     +LD G FD VSRAT  HG  R
+Sbjct  656  KYKYVYAGLSWAEYWASEGVYLAEGSNLASSSDVADKKGELDKGAFDTVSRATTNHGLHR  715
+
+Query  50   QQFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEA  109
+              +Q    +                     Y+TD     +   ++S + +  DG +    
+Sbjct  716  GSYQCTAVI---------------------YDTDGKEYPVSYWNSSSEAVLTDGSV-ITF  753
+
+Query  110  VEGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED-----  164
+             +G +   +  +          + + +V G+K+VPV V         +K+  VE+     
+Sbjct  754  NKGTITYNENGTEKTA-----TMKDYEVKGIKYVPVKVKTADYDEFCKKYQVVENAGTLA  808
+
+Query  165  --------------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                          + VTE TNGLK     +    SF AR   S
+Sbjct  809  GGFTEKNLQAYTETAEVTEKTNGLKEATKNEDGSFSFGARATGS  852
+
+
+> UniRef90_R5S9W5 Fibronectin type III domain n=1 Tax=Clostridium 
+sp. CAG:122 TaxID=1262773 RepID=R5S9W5_9CLOT
+Length=532
+
+ Score = 158 bits (400),  Expect = 4e-42, Method: Composition-based stats.
+ Identities = 59/224 (26%), Positives = 83/224 (37%), Gaps = 63/224 (28%)
+
+Query  1    ETSYGYATLSYADYWAGEL-----------GQSRDVLLADLDAGMFDAVSRATHGHGAFR  49
+            + +Y YA L++  YW  E              +      +LD G FDAVSRAT  HG  R
+Sbjct  34   DYTYLYAGLTWDQYWDAEDIYLQSTKSMTDANTEADARGELDKGAFDAVSRATTNHGLHR  93
+
+Query  50   QQFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEA  109
+              +Q    + GE                     D S   +   SA       DG+  +  
+Sbjct  94   GSYQCDTVIYGE---------------------DGSEFNVSHWSA-------DGKTLY-L  124
+
+Query  110  VEGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED-----  164
+             +G      + +    D  + K+   KV G+K+VPVAV        K+ +  VE+     
+Sbjct  125  TDGTSVSYSKGTITKADGSQTKLKEYKVTGLKYVPVAVKTSELSDFKKIYKVVENDGELA  184
+
+Query  165  --------------SRVTENTNGLKTMLTEDS----FSARKVSS  190
+                          + VT NTNGLKT   +      FSARK  +
+Sbjct  185  GGYSEMNLSAYDLKADVTANTNGLKTAAEQKDGTFKFSARKTGN  228
+
+
+> UniRef90_A0A174ADM3 47 kDa membrane antigen n=3 Tax=Coprococcus 
+comes TaxID=410072 RepID=A0A174ADM3_9FIRM
+Length=1700
+
+ Score = 161 bits (407),  Expect = 1e-41, Method: Composition-based stats.
+ Identities = 57/221 (26%), Positives = 83/221 (38%), Gaps = 61/221 (28%)
+
+Query  1    ETSYGYATLSYADYWAGELG------QSRDVLLA--DLDAGMFDAVSRATHGHGAFRQQF  52
+            E SY Y  +S+A+YWA E        ++ DV  +  + D G FD V+RAT  HG  R  F
+Sbjct  662  EYSYVYVGMSWAEYWANEGVYNAGSIEASDVKDSRDEYDKGAFDTVTRATTNHGLHRGSF  721
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +                      +T+     +       Q +  DG   +   +G
+Sbjct  722  QCTAVIE---------------------DTEGKKHYLSHWEGKDQAVMTDGT-TYTYAKG  759
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+                 + +S    D         +V G+K+VPV +        KEK+  VE+        
+Sbjct  760  VFTAKNGSSFTQKD--------YEVTGLKYVPVKIRTADLNSLKEKYTVVENGGELIGGY  811
+
+Query  165  -----------SRVTENTNGLKTMLTEDS----FSARKVSS  190
+                       + VT NTNGLKT   ++     FSAR   S
+Sbjct  812  GENQLKSYKTIADVTANTNGLKTAEKQEDGSFAFSARTTGS  852
+
+
+> UniRef90_A0A1C6AUH4 47 kDa membrane antigen n=1 Tax=uncultured 
+Roseburia sp. TaxID=512314 RepID=A0A1C6AUH4_9FIRM
+Length=1086
+
+ Score = 160 bits (405),  Expect = 1e-41, Method: Composition-based stats.
+ Identities = 57/223 (26%), Positives = 84/223 (38%), Gaps = 64/223 (29%)
+
+Query  2    TSYGYATLSYADYWAGEL---------GQSRDVLL--ADLDAGMFDAVSRATHGHGAFRQ  50
+              Y YA LS+A+YW  E            + D +    + D G FD VSRAT  HG  R 
+Sbjct  578  YKYVYAALSWAEYWEAENVYLAPDSTMTSASDEVDERGEADKGAFDVVSRATTNHGLHRG  637
+
+Query  51   QFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAV  110
+             FQ    +      S + +          Y  D +   +                     
+Sbjct  638  SFQSDTIIYDTDGKSYEIS----------YWKDKNTIVL--------------------A  667
+
+Query  111  EGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED------  164
+            +G+    D+ +    D +   + + +V G+K+VPVAV         EK+H VE+      
+Sbjct  668  DGSEIGFDKGTITAADGKTAVMDHYEVKGLKYVPVAVKETDYAAFCEKYHVVENGDMLYG  727
+
+Query  165  -------------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                         + V++ TNGLKT+   +    SFSARK  S
+Sbjct  728  GYEEVNLKSYSVEAEVSDTTNGLKTVSKNEDGSFSFSARKNGS  770
+
+
+> UniRef90_D4MVX7 Fibronectin type III domain n=4 Tax=Anaerostipes 
+hadrus TaxID=649756 RepID=D4MVX7_ANAHA
+Length=584
+
+ Score = 156 bits (393),  Expect = 4e-41, Method: Composition-based stats.
+ Identities = 53/221 (24%), Positives = 81/221 (37%), Gaps = 51/221 (23%)
+
+Query  1    ETSYGYATLSYADYWAGE------LGQSRDVLLA--DLDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA L++ +YWA E         S D L +  +LD G +DAV+RAT  HG  R  F
+Sbjct  45   EYVYCYAGLTWNEYWASEGVYAAGNDSSSDTLDSHNELDNGGYDAVTRATTNHGLHRGSF  104
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +     ++ Q +                 +     +        +G + F     
+Sbjct  105  QCITTIYTTDGIAYQISN----------WEQVKGSDGKVTATYLHLKDVEGRVTFN----  150
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+                  + +    D+   K+ +  V G+K+VPV V        K K+  VE+        
+Sbjct  151  ------KGTLTFADNSTKKMDHYSVSGIKYVPVKVKASDYNDFKAKYSVVENNGTLIGGY  204
+
+Query  165  -----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                       + VT +TNGLK  +       SF AR   +
+Sbjct  205  TEGVLSSYKTSANVTASTNGLKEAVKGSDGSFSFKARTTGT  245
+
+
+> UniRef90_C0B694 LPXTG-motif cell wall anchor domain protein n=3 
+Tax=Coprococcus TaxID=33042 RepID=C0B694_9FIRM
+Length=1706
+
+ Score = 158 bits (400),  Expect = 8e-41, Method: Composition-based stats.
+ Identities = 64/222 (29%), Positives = 89/222 (40%), Gaps = 58/222 (26%)
+
+Query  1    ETSYGYATLSYADYWA-------GELGQSRDV-LLADLDAGMFDAVSRATHGHGAFRQQF  52
+            E SY Y  +S+++YWA       G+ G S DV    + D G FDAV+RAT  HG  R  F
+Sbjct  667  EYSYVYVGMSWSEYWAKEGVYAAGDTGSSSDVDSRNEYDKGAFDAVTRATANHGLHRGSF  726
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKK-WEYETDPSVTKMVRASASFQDLGEDGEIKFEAVE  111
+            Q +  +           ED+ G K    Y        M   S   +   ED +  F A +
+Sbjct  727  QCSAVI-----------EDTNGNKYELAYWNADGKAVMSDGSVYTRSTNEDKKAVFTAED  775
+
+Query  112  GAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED-------  164
+            G+  +                 + KV G+K+VPV V        +E++  VE+       
+Sbjct  776  GSSFIQ---------------ADYKVTGIKYVPVKVKTADLNALQEEYAVVENGGTLSGG  820
+
+Query  165  ------------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                        + VT NTNGLKT   +D    +FS R   S
+Sbjct  821  FSENQLQSYTAIADVTPNTNGLKTAEKQDDGSFTFSERTTGS  862
+
+
+> UniRef90_D4J7K9 Uncharacterized protein n=1 Tax=Coprococcus catus 
+GD/7 TaxID=717962 RepID=D4J7K9_9FIRM
+Length=1779
+
+ Score = 158 bits (398),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 58/221 (26%), Positives = 86/221 (39%), Gaps = 59/221 (27%)
+
+Query  2    TSYGYATLSYADYWAGE-LGQSRDVLLA-------DLDAGMFDAVSRATHGHGAFRQQFQ  53
+             +Y YA LS+A+YWA E +  + D   +       + D G FD V+RAT  HG  R  FQ
+Sbjct  731  YTYVYAGLSWAEYWAAEGVQAAGDASSSNEYDLRDEYDKGAFDTVTRATANHGLHRGSFQ  790
+
+Query  54   YAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEGA  113
+                +         E E+ +  K   ++++   TK V                    +G+
+Sbjct  791  CTDVI---------EAENGKEYKISYWKSEGKTTKAV------------------LTDGS  823
+
+Query  114  VALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED---------  164
+                +R +    D    K+T   V G+K+VPV V  +     K K+  VE+         
+Sbjct  824  EITFNRGTITEADGTTTKLTKHHVTGLKYVPVKVAKDDYEAFKAKYDVVENGGTLSGGFS  883
+
+Query  165  -----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                       + VT  TNGLKT         SFSA+   +
+Sbjct  884  ENKLSSYNGLEAEVTAATNGLKTATKNSDGSFSFSAKAAGT  924
+
+
+> UniRef90_A0A174ZYH4 47 kDa membrane antigen n=6 Tax=Clostridiales 
+TaxID=186802 RepID=A0A174ZYH4_9FIRM
+Length=1189
+
+ Score = 156 bits (395),  Expect = 3e-40, Method: Composition-based stats.
+ Identities = 58/218 (27%), Positives = 77/218 (35%), Gaps = 62/218 (28%)
+
+Query  1    ETSYGYATLSYADYWAGEL------GQSRDV--LLADLDAGMFDAVSRATHGHGAFRQQF  52
+            E +Y Y  LS+A+YWA E         S D      + D G FD V+RAT  HG  R  F
+Sbjct  652  EYTYAYVGLSWAEYWAAENVQAAGNTSSSDAKDSKGESDKGAFDTVTRATVNHGLHRGSF  711
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +  E                 EY TD +   +                     +G
+Sbjct  712  QCNAVIKAENGKEYAV----------EYWTDGTTAVL--------------------TDG  741
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+            +    +R           K+T   V G+K+VPV V        K  +  +E+        
+Sbjct  742  SKITFNRGEITEESGATTKMTEYDVLGLKYVPVKVKTSDLDALKASYRVIENGSELAGGY  801
+
+Query  165  ------------SRVTENTNGLKTMLTED----SFSAR  186
+                        + VTENTNGLKT    +    SFSAR
+Sbjct  802  SEKNLVSYTGLVANVTENTNGLKTATKNEDGSFSFSAR  839
+
+
+> UniRef90_R6BNT1 LPXTG-motif cell wall anchor domain protein n=3 
+Tax=Firmicutes TaxID=1239 RepID=R6BNT1_9FIRM
+Length=579
+
+ Score = 153 bits (386),  Expect = 4e-40, Method: Composition-based stats.
+ Identities = 56/224 (25%), Positives = 87/224 (39%), Gaps = 45/224 (20%)
+
+Query  1    ETSYGYATLSYADYWAGE---------LGQSRDVLL--ADLDAGMFDAVSRATHGHGAFR  49
+            +  Y YA+L +A+YW  E         L  S +      + D G FD V+RAT  HG  R
+Sbjct  37   DYKYVYASLDWAEYWQNENVYLASGSTLKSSSEEADARGEYDKGAFDVVTRATKNHGLHR  96
+
+Query  50   QQFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEA  109
+              FQ    +      + + +  +      + E     TK       +  L +  +I+F+ 
+Sbjct  97   GSFQCDAVIRDTDGKAYEISYWTSEEVSAKDENGQDTTK----KVVYAVLTDGSKIQFD-  151
+
+Query  110  VEGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED-----  164
+             +G +   +   +     E+      +V G+K+VPVAV  E      +K+   ED     
+Sbjct  152  -KGTITYTENGETKTATMED-----YEVKGIKYVPVAVKTEDYADFCKKYSVTEDASAIE  205
+
+Query  165  --------------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                          + VT +TNGLK          SF+ARK  S
+Sbjct  206  GGYTENALKAYTKTAEVTADTNGLKVATKNADGTYSFAARKTGS  249
+
+
+> UniRef90_R7ISI0 LPXTG-motif cell wall anchor domain protein n=1 
+Tax=Roseburia sp. CAG:303 TaxID=1262944 RepID=R7ISI0_9FIRM
+Length=1114
+
+ Score = 156 bits (393),  Expect = 4e-40, Method: Composition-based stats.
+ Identities = 57/221 (26%), Positives = 86/221 (39%), Gaps = 62/221 (28%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRDV--------LLADLDAGMFDAVSRATHGHGAFRQQF  52
+            E +Y YA L+Y +Y+A E  Q+ D            + D G FDAV+RAT  HG  R  F
+Sbjct  155  EYTYVYAELTYDEYYAAEPVQNGDSAESSDETDTRGEYDKGAFDAVTRATTNHGLHRGSF  214
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q AV +                     Y+T+ +V         ++  G DG+      +G
+Sbjct  215  QSAVVI---------------------YDTEGNV---------YEAAGWDGKNTIILTDG  244
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+                 DR +   +  E   +   +V G K++PVAV        K ++  VE+        
+Sbjct  245  TTVGFDRGT-ITIGEETKTMAGYEVTGFKYIPVAVKTSDYEEFKNQYKVVENGETLFGGF  303
+
+Query  165  -----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                       + VT +TNGLK  +       SF  R+  +
+Sbjct  304  SEVNLSAYSETAEVTADTNGLKEAVKNSDGTFSFGERQTGT  344
+
+
+> UniRef90_A0A173RIU5 47 kDa membrane antigen n=1 Tax=[Ruminococcus] 
+torques TaxID=33039 RepID=A0A173RIU5_9FIRM
+Length=1171
+
+ Score = 155 bits (390),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 59/221 (27%), Positives = 81/221 (37%), Gaps = 58/221 (26%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRDVLLA--------DLDAGMFDAVSRATHGHGAFRQQF  52
+            +  Y YA L++A+YWA E  Q+     +        + D G FD V+RAT  HG  R  F
+Sbjct  157  KYVYCYAGLTWAEYWAAEGVQAAGSTASSSEKDSHNESDKGAFDTVTRATANHGLHRGSF  216
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    V  E+                              + S+   GE+ +      +G
+Sbjct  217  QCNAIVETEEG--------------------------TTLNLSYWKTGENNQQIAVMTDG  250
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+                      F  D    K+ + KV G+KFVPV V        K K+   E+        
+Sbjct  251  T-EYNYNKGVFTKDGTTLKLKDYKVTGLKFVPVKVKESDYEAFKAKYTVYENGSDLKGGF  309
+
+Query  165  -----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                       + VTENTNGLKT+        SFSAR   +
+Sbjct  310  GEGNLNTIDETADVTENTNGLKTVTKNADGSFSFSARATGT  350
+
+
+> UniRef90_B0P041 Fibronectin type III domain protein n=6 Tax=Clostridiales 
+TaxID=186802 RepID=B0P041_9CLOT
+Length=676
+
+ Score = 152 bits (383),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 53/220 (24%), Positives = 84/220 (38%), Gaps = 56/220 (25%)
+
+Query  1    ETSYGYATLSYADYWAGE-LGQSRDVLLADL-------DAGMFDAVSRATHGHGAFRQQF  52
+            E +Y Y  L++A+YWA E +  + D   +D+       D G +D V+RAT  HG  R  F
+Sbjct  46   EWTYCYVGLTWAEYWANEGVYNANDTSSSDVEDSHYEKDKGGYDVVTRATTNHGLHRGSF  105
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +                        +   +       S     +DG+  +++   
+Sbjct  106  QGNAVI------------------------EAKASDGTIKEFSVSHWSKDGKKFYQSSTD  141
+
+Query  113  AVALAD-RASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED-------  164
+            A  ++  + +    D  +YK+T+ +V G K+VPV V        K     VE+       
+Sbjct  142  ATGVSYAKGTITDTDGTQYKLTSYEVKGTKYVPVKVKTTDLDALKANHTVVENGGTLVGG  201
+
+Query  165  ------------SRVTENTNGLKTMLTEDS----FSARKV  188
+                        + VT NT GLKT   ++     FSAR  
+Sbjct  202  YGENQLKSYQKTANVTANTYGLKTATKQEDGSFIFSARSN  241
+
+
+> UniRef90_R6L581 Bacterial group 2 Ig-like protein n=1 Tax=Blautia 
+sp. CAG:237 TaxID=1262755 RepID=R6L581_9FIRM
+Length=1238
+
+ Score = 154 bits (388),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 57/221 (26%), Positives = 81/221 (37%), Gaps = 62/221 (28%)
+
+Query  1    ETSYGYATLSYADYWAGE-LGQSRDVL-------LADLDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA L++A YWA E +  + D           + D G FD V+RAT  HG  R  F
+Sbjct  541  EYKYVYAGLTWAQYWAAEGVYAAGDATASADKDTRGEADLGAFDTVTRATTNHGLHRGSF  600
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    + GEK                                S+     +G+      +G
+Sbjct  601  QTTAIIKGEKG-------------------------------SYAVSYWEGQSTVVFTDG  629
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+              A   R +    D    ++ + +V G+K+VPV V        K+ +  VE+        
+Sbjct  630  TKATYSRGTLTFEDGTTDEMLDYEVSGLKYVPVKVKTSDYEDFKKAYTVVENDGTLVGGY  689
+
+Query  165  -----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                       + VT NTNGLKT    +    SFSAR   +
+Sbjct  690  GEFNLQSYNLTADVTANTNGLKTATKNEDGTFSFSARANGT  730
+
+
+> UniRef90_R7C694 Fibronectin type III domain n=1 Tax=Clostridium 
+sp. CAG:62 TaxID=1262828 RepID=R7C694_9CLOT
+Length=587
+
+ Score = 150 bits (379),  Expect = 4e-39, Method: Composition-based stats.
+ Identities = 57/223 (26%), Positives = 83/223 (37%), Gaps = 60/223 (27%)
+
+Query  2    TSYGYATLSYADYWAGEL-----------GQSRDVLLADLDAGMFDAVSRATHGHGAFRQ  50
+             +Y YA L++A+YWA E                +    +LD G FDAVSRAT  HG  R 
+Sbjct  43   YTYLYADLNWAEYWAAEDVYLKDGKNMTDSNETEDARGELDKGAFDAVSRATTNHGLHRG  102
+
+Query  51   QFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAV  110
+             FQ    +  +   +   +        WE + D + +                   F   
+Sbjct  103  SFQCDAVITADNGQNYPVS-------YWEQDKDKNQS-------------------FYTT  136
+
+Query  111  EGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED------  164
+            +G      +    + D+   K+ N  V G+K+VPVAV        K K+  VE+      
+Sbjct  137  DGQKIGYAKGVMTLPDASTTKVVNYTVTGIKYVPVAVKTADLQDFKSKYKVVENGEKLVG  196
+
+Query  165  -------------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                         + VTENTNGLK    +     +F  RK  +
+Sbjct  197  GYSENALSSYEETASVTENTNGLKIAAKQADGSYTFGKRKTGT  239
+
+
+> UniRef90_A5ZN84 Bacterial group 2 Ig-like protein n=4 Tax=Clostridiales 
+TaxID=186802 RepID=A5ZN84_9FIRM
+Length=1126
+
+ Score = 153 bits (385),  Expect = 6e-39, Method: Composition-based stats.
+ Identities = 54/220 (25%), Positives = 86/220 (39%), Gaps = 53/220 (24%)
+
+Query  2    TSYGYATLSYADYWAGE-LGQSRDVLLAD-------LDAGMFDAVSRATHGHGAFRQQFQ  53
+             SY YA L++ +YW+ E +  + +V  +D        D G FDAV+RAT  HG  R  +Q
+Sbjct  537  YSYVYAGLTWGEYWSQESVTAAGNVSGSDEKDSHNESDTGAFDAVTRATTNHGLHRGSYQ  596
+
+Query  54   YAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEGA  113
+                +                     Y T+ +  ++    +S + +  DG +        
+Sbjct  597  CMATI---------------------YTTEGNAYQLSYWKSSTEPVLADGTVAIWTPADR  635
+
+Query  114  VALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED---------  164
+                   S  +    +  + +  V G+K+VPV V  E       K+  V++         
+Sbjct  636  KTGTPA-SIQVNGGAKESLDHYAVTGIKYVPVQVKAEDYADFAAKYPVVKNGEILVGGFS  694
+
+Query  165  ----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                      + VT NTNGLKT+   +    SFSARK  +
+Sbjct  695  ENNLKAYSETANVTVNTNGLKTVTKNEDGSFSFSARKTGT  734
+
+
+> UniRef90_A0A174L7G9 47 kDa membrane antigen n=1 Tax=Blautia obeum 
+TaxID=40520 RepID=A0A174L7G9_9FIRM
+Length=959
+
+ Score = 152 bits (383),  Expect = 8e-39, Method: Composition-based stats.
+ Identities = 55/219 (25%), Positives = 85/219 (39%), Gaps = 53/219 (24%)
+
+Query  3    SYGYATLSYADYWAGE-LGQSRDVLLAD-------LDAGMFDAVSRATHGHGAFRQQFQY  54
+            SY YA L++ +YW+ E +  + +V  +D        D G FDAV+RAT  HG  R  +Q 
+Sbjct  371  SYVYAGLTWGEYWSQESVTAAGNVSGSDEKDSHNESDTGAFDAVTRATTNHGLHRGSYQC  430
+
+Query  55   AVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEGAV  114
+               +                     Y T+ +  ++    +S + +  DG +         
+Sbjct  431  MATI---------------------YTTEGNAYQLSYWKSSTEPVLTDGTVAIWTPADRK  469
+
+Query  115  ALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFV------------  162
+                  S  +    +  + +  V G+K+VPV V  E       K+  V            
+Sbjct  470  TGTPA-SIQVNGGAKESLDHYAVTGIKYVPVQVKAEDYADFAAKYPVVKNGETLVGGFSE  528
+
+Query  163  -------EDSRVTENTNGLKTMLTED----SFSARKVSS  190
+                   E + VT NTNGLKT+   +    SFSARK  +
+Sbjct  529  NNLKAYRETANVTVNTNGLKTVTKNEDGSFSFSARKTGT  567
+
+
+> UniRef90_R7NKY5 Bacterial group 2 Ig-like protein n=1 Tax=Eubacterium 
+sp. CAG:581 TaxID=1262890 RepID=R7NKY5_9FIRM
+Length=630
+
+ Score = 149 bits (376),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 53/223 (24%), Positives = 84/223 (38%), Gaps = 56/223 (25%)
+
+Query  1    ETSYGYATLSYADYWAGE--------LGQSRDVLLA--DLDAGMFDAVSRATHGHGAFRQ  50
+            + +Y +A L++ +YW  E           S DVL +  + D G FD VSRAT  HG  R 
+Sbjct  41   DYTYVFAGLTWDEYWKSEGVYVADNNWTASSDVLDSHNEYDKGAFDVVSRATTNHGLHRG  100
+
+Query  51   QFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAV  110
+             FQ + +++          + +       Y T                  ED +      
+Sbjct  101  SFQCSTDIVATD------ADGNEKIFTISYWT-----------------KEDNKTVLVLK  137
+
+Query  111  EGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED------  164
+            +G+         F  ++  Y + +  V GMK++PVAV ++     + K+  V+       
+Sbjct  138  DGSKITDYAKGKFTYNNVAYTMAHYYVKGMKYIPVAVKNDDLADFESKYTVVKSGEAVEG  197
+
+Query  165  -------------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                         + + ENTNGLK          SFS R V +
+Sbjct  198  GYSEGVLSSYSLKANLDENTNGLKYAEKNTDGTYSFSQRNVGT  240
+
+
+> UniRef90_R7I128 Uncharacterized protein n=1 Tax=Clostridium sp. 
+CAG:411 TaxID=1262802 RepID=R7I128_9CLOT
+Length=599
+
+ Score = 149 bits (375),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 51/223 (23%), Positives = 72/223 (32%), Gaps = 60/223 (27%)
+
+Query  1    ETSYGYATLSYADYWAGE----------LGQSRDVLLADLDAGMFDAVSRATHGHGAFRQ  50
+            E  Y YA +S+A YW  E             S      + D G FDAVSRAT  HG  R 
+Sbjct  44   EYEYVYAGISWAQYWESEGIYLSGTNMVASSSAVDTRGESDKGAFDAVSRATTNHGIHRG  103
+
+Query  51   QFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAV  110
+             FQ    + GE                     D     +    ++ + +  DG       
+Sbjct  104  SFQCNTTIYGE---------------------DGKTFDVSTWKSASELVLTDGS-TVGFN  141
+
+Query  111  EGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED------  164
+            +G +   +             + N  V G+K+VPVAV          ++  V +      
+Sbjct  142  KGTITYTENGQEKT-----TTMKNYNVTGIKYVPVAVKKSDYEAFAAQYPVVSNAGILVG  196
+
+Query  165  -------------SRVTENTNGLKTMLTEDS----FSARKVSS  190
+                         + VT NTNGLK    +      F  R   +
+Sbjct  197  GYSETNLASYQKTAAVTANTNGLKVAEKQADGTFKFGKRATGT  239
+
+
+> UniRef90_D4K7F6 Uncharacterized protein n=3 Tax=Faecalibacterium 
+prausnitzii TaxID=853 RepID=D4K7F6_9FIRM
+Length=438
+
+ Score = 147 bits (371),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 49/220 (22%), Positives = 78/220 (35%), Gaps = 59/220 (27%)
+
+Query  1    ETSYGYATLSYADYWAGE-LGQSRDVLLA-------DLDAGMFDAVSRATHGHGAFRQQF  52
+            + +Y YA L++ +YWA E +  +     +       + D G FDAVSRAT  HG  R  F
+Sbjct  44   KYTYLYAALTWDEYWANEKVYAAGSTAASAQLDSHEEQDLGAFDAVSRATVNHGLHRGSF  103
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +  +   S                             +     +DG+  +   +G
+Sbjct  104  QSTAVIYAKDGSSY----------------------------TVSHWSDDGKTIY-LADG  134
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+                 +R +    D    ++ + +V G K+VPV V          K+  VE+        
+Sbjct  135  TTVGWNRGTITKADGSTVQMDHYEVLGTKYVPVRVATSDLADFCSKYTVVENGGQLVGGY  194
+
+Query  165  -----------SRVTENTNGLKTMLTED---SFSARKVSS  190
+                       + V +NTNGLK         +FSA    +
+Sbjct  195  SEKNLTAYTLTAAVDKNTNGLKYAAKSGDGYTFSAAHNGT  234
+
+
+> UniRef90_A0A1C5SZA8 47 kDa membrane antigen n=1 Tax=uncultured 
+Clostridium sp. TaxID=59620 RepID=A0A1C5SZA8_9CLOT
+Length=1752
+
+ Score = 151 bits (381),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 63/219 (29%), Positives = 82/219 (37%), Gaps = 69/219 (32%)
+
+Query  1    ETSYGYATLSYADYWAGELGQ------SRDVLLA--DLDAGMFDAVSRATHGHGAFRQQF  52
+            E SY Y  +++A+YWA E  Q      S DVL +  + D G FDAV+RAT  HG  R  F
+Sbjct  704  EYSYVYVGMTWAEYWANEGVQNAGSTASSDVLDSHNEYDKGAFDAVTRATTNHGLHRGSF  763
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +      S              Y  D ++                          
+Sbjct  764  QCNAVIETNDGQSY----------NLAYWKDKTIFVTTDGQE------------------  795
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+             VA+ D  S+         I + KV G+K+VPV V        KEK+  VE+        
+Sbjct  796  -VAIGDIKSN---------IKDYKVTGLKYVPVKVKTADLSALKEKYAVVENGGTLRGGY  845
+
+Query  165  -----------SRVTENTNGLKTMLTEDS----FSARKV  188
+                       + VT+NTNGLK     D     FSARK 
+Sbjct  846  GEGNLSSYEVTANVTDNTNGLKEAAKNDDGSFVFSARKN  884
+
+
+> UniRef90_R6K306 Uncharacterized protein n=1 Tax=Eubacterium sp. 
+CAG:252 TaxID=1262887 RepID=R6K306_9FIRM
+Length=519
+
+ Score = 146 bits (367),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 54/221 (24%), Positives = 85/221 (38%), Gaps = 56/221 (25%)
+
+Query  1    ETSYGYATLSYADYWAGE------LGQSRDVLL--ADLDAGMFDAVSRATHGHGAFRQQF  52
+            + +Y YA LS+ +YW  E        QS DV     + D G FD VSRAT+ HG  R  F
+Sbjct  36   DYTYVYAGLSWEEYWNAEGVYNASNTQSSDVKDDHGEYDKGGFDTVSRATYNHGLHRGSF  95
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +   +  +              + ++    K+V        L +  +  + +   
+Sbjct  96   QCEAVIFDTEGKTYDVAY---------WTSEDKAVKLV--------LTDGSKCTYNSKAK  138
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+             +  AD  +          + + +V G+K+VPV V        K K++ VE+        
+Sbjct  139  TLTFADGTTVT--------LDHYEVKGLKYVPVKVKTSDYEDFKSKYNVVENGGTLEGGY  190
+
+Query  165  -----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                       + VT +TNGLK  + E     SF AR   +
+Sbjct  191  TENNLKAYSETAEVTADTNGLKEAVKEADGTYSFGARINGT  231
+
+
+> UniRef90_C0EWB8 Fibronectin type III domain protein n=7 Tax=Eubacterium 
+TaxID=1730 RepID=C0EWB8_9FIRM
+Length=1083
+
+ Score = 148 bits (374),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 57/222 (26%), Positives = 85/222 (38%), Gaps = 63/222 (28%)
+
+Query  1    ETSYGYATLSYADYWAGE-LGQSRDVLLADL-------DAGMFDAVSRATHGHGAFRQQF  52
+            +  Y YA L++A+YW  E +  + D   +D        D G FDAV+RAT  HG  R  +
+Sbjct  47   DYVYCYAGLTWAEYWKAEGVWAAGDTTSSDTADSHGEKDKGAFDAVTRATANHGLHRGSY  106
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    + GEK           G     + TD +   +              +I F     
+Sbjct  107  QCTAIIEGEK-----------GTYNISHWTDANTAILTNGE----------KITFT----  141
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+                  R +    D  E  + + KV+G+K+VPVAV        K K+  VE+        
+Sbjct  142  ------RGAIKTSDGTEDTMKDYKVYGLKYVPVAVKSSDFEAFKAKYSVVENNGTLIGGY  195
+
+Query  165  ------------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                        + V ++TNGLKT   +     +F+ R   S
+Sbjct  196  GEKNLQAYNNVTASVDKDTNGLKTAEKQSDGSFTFTQRSNGS  237
+
+
+> UniRef90_A0A1C6I4P7 47 kDa membrane antigen n=1 Tax=uncultured 
+Blautia sp. TaxID=765821 RepID=A0A1C6I4P7_9FIRM
+Length=1631
+
+ Score = 148 bits (372),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 51/221 (23%), Positives = 76/221 (34%), Gaps = 71/221 (32%)
+
+Query  1    ETSYGYATLSYADYWAGE----LGQSRDVL----LADLDAGMFDAVSRATHGHGAFRQQF  52
+            +  Y YA L++A+YWA E     G S          + D G FD V+RAT  HG  R  F
+Sbjct  664  KYKYVYAGLTWAEYWAQEGVQAAGDSSSSSELDNKNEYDKGAFDTVTRATTNHGLHRGSF  723
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +                     Y  D     +   +     +  DG         
+Sbjct  724  QCNATI---------------------YMKDGKSYDVAYYTGVTTAVLTDG---------  753
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+                        ++  +  I +  V G+K+VPV V  E      + +  V++        
+Sbjct  754  ----------TTLNYNKNDIDHYVVTGLKYVPVKVKSEDYEAFCQNYAVVKNGEKLSGGY  803
+
+Query  165  ------------SRVTENTNGLKTMLTED---SFSARKVSS  190
+                        + VT++TNGLKT+       SFSAR   +
+Sbjct  804  SESSLKNYTNLTAAVTKDTNGLKTVTKNGDSFSFSARTTGT  844
+
+
+> UniRef90_A0A0D0RGI1 TWA4_scaffold00001, whole genome shotgun 
+sequence n=1 Tax=Lachnospiraceae bacterium TWA4 TaxID=1392836 
+RepID=A0A0D0RGI1_9FIRM
+Length=1241
+
+ Score = 147 bits (370),  Expect = 6e-37, Method: Composition-based stats.
+ Identities = 48/220 (22%), Positives = 75/220 (34%), Gaps = 60/220 (27%)
+
+Query  2    TSYGYATLSYADYWAGE-LGQSRDVLLAD-------LDAGMFDAVSRATHGHGAFRQQFQ  53
+              Y YA L++ +YW  E +  + +   +         D G FD V+RAT  HG  R  FQ
+Sbjct  621  YKYVYAGLTWDEYWKSEGVYAAGNASSSSERDSRDEADKGGFDVVTRATKNHGLHRGSFQ  680
+
+Query  54   YAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEGA  113
+                +            D    K   +  D                          V+G+
+Sbjct  681  SIATIY---------DTDGNSYKVLSWSKDGK--------------------TINLVDGS  711
+
+Query  114  VALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED---------  164
+                 + +    D     +   +V G+K+VPV V         +K+   E+         
+Sbjct  712  SIGWSKGTITKSDGTTSTMKYYEVSGIKYVPVKVKEADYEEFAKKYQVTENAGSLTGGYS  771
+
+Query  165  ----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                      ++VT++TNGLKT         SFSAR+  +
+Sbjct  772  ENQLKAYVKTAKVTKDTNGLKTATKNADGSFSFSARETGT  811
+
+
+> UniRef90_G1WM41 Uncharacterized protein n=2 Tax=Dorea TaxID=189330 
+RepID=G1WM41_9FIRM
+Length=1268
+
+ Score = 144 bits (362),  Expect = 9e-36, Method: Composition-based stats.
+ Identities = 54/221 (24%), Positives = 74/221 (33%), Gaps = 69/221 (31%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRDVL--------LADLDAGMFDAVSRATHGHGAFRQQF  52
+            + +Y YA LS+++YWA E   +              + D G FD V+RAT  HG  R  F
+Sbjct  673  DYTYVYAGLSWSEYWASEGVLAAGSTESSEELDSRGEADKGAFDVVTRATTNHGLHRGSF  732
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +  +   +              Y  D                    E+ F  V+ 
+Sbjct  733  QCTAVIETKDGTTY----------NLAYWKDKDTFVTTDGQ----------EVAFANVKA  772
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+             +                   + KV G+K+VPV V        KEK+  VE         
+Sbjct  773  NI------------------KDYKVTGLKYVPVKVKTSDYEAFKEKYTIVEKDGTLAGGY  814
+
+Query  165  -----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                       + VTENTNGLKT         SFS R   +
+Sbjct  815  GEVNLKSYTAAADVTENTNGLKTATKNADGTFSFSERANGT  855
+
+
+> UniRef90_R5N214 Bacterial surface proteins containing Ig-like 
+domains n=3 Tax=Clostridiales TaxID=186802 RepID=R5N214_9FIRM
+Length=733
+
+ Score = 141 bits (355),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 50/220 (23%), Positives = 78/220 (35%), Gaps = 60/220 (27%)
+
+Query  1    ETSYGYATLSYADYWAGE-LGQSRDVLLAD-------LDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA L++A+YWA E +  + D   ++       LD G FD V+RAT  HG  R  F
+Sbjct  117  EYQYVYAGLTWAEYWASEGVYAAGDTTSSEELDGHKELDKGAFDTVTRATTNHGLHRGSF  176
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    ++ E                                              +  +G
+Sbjct  177  QTETTIVAEDGSRYPIATWVDRN------------------------------TIKLTDG  206
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVEDSRVTE---  169
+                  + +    D     + + +V+G+K+VPVAV  E      +K++ V +  V E   
+Sbjct  207  KTVGFKKGTITKADGTTVDMDHYEVYGLKYVPVAVRTEDYAAFCQKYNVVTNDGVLEGGY  266
+
+Query  170  ----------------NTNGLKTMLTED---SFSARKVSS  190
+                            +TNGLK  +      +F ARK  +
+Sbjct  267  GEVQLSAYTATAAVTADTNGLKYAVKNGDSFTFEARKTGA  306
+
+
+> UniRef90_D4LKL3 Bacterial surface proteins containing Ig-like 
+domains n=4 Tax=Clostridiales TaxID=186802 RepID=D4LKL3_9FIRM
+Length=748
+
+ Score = 141 bits (355),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 51/219 (23%), Positives = 82/219 (37%), Gaps = 60/219 (27%)
+
+Query  1    ETSYGYATLSYADYWAGE-LGQSRDVLLAD-------LDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA L++ +YWA E +  + D   ++        D G FD V+RAT  HG  R  +
+Sbjct  131  EYQYVYAGLTWGEYWAAEGVYAAGDTSSSEEKDSHSEFDTGAFDTVTRATANHGLHRGSY  190
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    ++ E                     D +   +           ED        +G
+Sbjct  191  QTEATIIAE---------------------DGTRFDVSYW--------EDKGSTLYLTDG  221
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+            +    +R S    D + Y + + +++G+K+VPVAV         +K++ V+D        
+Sbjct  222  SKVKWNRGSITTEDGKTYTMDHYEIYGLKYVPVAVKTADFADFCKKYNVVQDGAVLSGGY  281
+
+Query  165  ------------SRVTENTNGLKTMLTED---SFSARKV  188
+                        + V   TNGLK         +F+ARK 
+Sbjct  282  SENNLQYYKGLVADVNAQTNGLKYAEKNGDGFTFTARKS  320
+
+
+> UniRef90_A0A174KJ69 47 kDa membrane antigen n=1 Tax=Fusicatenibacter 
+saccharivorans TaxID=1150298 RepID=A0A174KJ69_9FIRM
+Length=1563
+
+ Score = 143 bits (359),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 56/221 (25%), Positives = 83/221 (38%), Gaps = 72/221 (33%)
+
+Query  2    TSYGYATLSYADYWAGELGQS------RDVLLA--DLDAGMFDAVSRATHGHGAFRQQFQ  53
+              Y YA L++A+YWA E  Q+       D   +  + D G FD V+RAT  HG  R  FQ
+Sbjct  678  YKYVYAGLTWAEYWAAEGVQAAGSDAGSDETDSREESDKGAFDVVTRATTNHGLHRGSFQ  737
+
+Query  54   YAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEGA  113
+             A  +                     Y  D +   +   +A+   +  +GE         
+Sbjct  738  CAATI---------------------YMKDGTTYDVAYYTAATTAVLTNGE---------  767
+
+Query  114  VALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED---------  164
+                       V  ++ +I + +V G+K+VPV V  +      +K+  VE+         
+Sbjct  768  ----------TVTYDKSQIDHYEVKGLKYVPVKVSEDDYEDFCKKYVVVENGGTLSGGFS  817
+
+Query  165  -----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                       + VTENTNGLK  +       SFSA    S
+Sbjct  818  ENKLQSYTGLVADVTENTNGLKIAVKNADGSFSFSAGTTGS  858
+
+
+> UniRef90_A0A1C5ZA72 47 kDa membrane antigen n=1 Tax=uncultured 
+Ruminococcus sp. TaxID=165186 RepID=A0A1C5ZA72_9FIRM
+Length=1197
+
+ Score = 142 bits (358),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 53/220 (24%), Positives = 77/220 (35%), Gaps = 65/220 (30%)
+
+Query  1    ETSYGYATLSYADYWAGE-LGQSRDVL-------LADLDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA L++  YWA E + ++ +           + D G FDAV+RAT  HG  R  F
+Sbjct  586  EYKYVYAGLTWEQYWASEGVYEATNTSASEDKDRRGESDMGGFDAVTRATANHGLHRGSF  645
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    V                     Y+ +     +         +  DG       +G
+Sbjct  646  QTMATV---------------------YDANGKTYALAGWKDKTTMILTDGS-TVSCSKG  683
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+             +   D             +T  KV G+K++PV V        K+ F  VE+        
+Sbjct  684  KINGID-------------VTEYKVTGLKYIPVKVKTADYDAFKKAFKVVENGEKLFGGY  730
+
+Query  165  -----------SRVTENTNGLKTMLTED---SFSARKVSS  190
+                       + V  NTNGLKT   +    +FSAR   +
+Sbjct  731  AENNLSAYEETAEVNANTNGLKTATKDGDTFTFSARANGT  770
+
+
+> UniRef90_A0A174GGJ7 47 kDa membrane antigen n=3 Tax=Lachnospiraceae 
+TaxID=186803 RepID=A0A174GGJ7_9FIRM
+Length=1615
+
+ Score = 142 bits (357),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 56/221 (25%), Positives = 83/221 (38%), Gaps = 72/221 (33%)
+
+Query  2    TSYGYATLSYADYWAGELGQS------RDVLLA--DLDAGMFDAVSRATHGHGAFRQQFQ  53
+              Y YA L++A+YWA E  Q+       D   +  + D G FD V+RAT  HG  R  FQ
+Sbjct  678  YKYVYAGLTWAEYWAAEGVQAAGSDAGSDETDSREESDKGAFDVVTRATTNHGLHRGSFQ  737
+
+Query  54   YAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEGA  113
+             A  +                     Y  D +   +   +A+   +  +GE         
+Sbjct  738  CAATI---------------------YMKDGTTYDVAYYTAATTAVLTNGE---------  767
+
+Query  114  VALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED---------  164
+                       V  ++ +I + +V G+K+VPV V  +      +K+  VE+         
+Sbjct  768  ----------TVTYDKSQIDHYEVKGLKYVPVKVSEDDYEDFCKKYVVVENGGTLSGGFS  817
+
+Query  165  -----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                       + VTENTNGLK  +       SFSA    S
+Sbjct  818  ENKLQSYTGLVADVTENTNGLKIAVKNADGSFSFSAGTTGS  858
+
+
+> UniRef90_UPI0009307B17 UPI0009307B17 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009307B17
+Length=1281
+
+ Score = 141 bits (355),  Expect = 6e-35, Method: Composition-based stats.
+ Identities = 53/220 (24%), Positives = 77/220 (35%), Gaps = 65/220 (30%)
+
+Query  1    ETSYGYATLSYADYWAGE-LGQSRDVL-------LADLDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA L++  YWA E + ++ +           + D G FDAV+RAT  HG  R  F
+Sbjct  591  EYKYVYAGLTWEQYWASEGVYEATNTSASEDKDRRGESDMGGFDAVTRATANHGLHRGSF  650
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    V                     Y+ +     +         +  DG       +G
+Sbjct  651  QTMATV---------------------YDANGKTYALAGWKDKTTMILTDGS-TVSCSKG  688
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+             +   D             +T  KV G+K++PV V        K+ F  VE+        
+Sbjct  689  KINGID-------------VTEYKVTGLKYIPVKVKTADYDAFKKAFKVVENGEKLFGGY  735
+
+Query  165  -----------SRVTENTNGLKTMLTED---SFSARKVSS  190
+                       + V  NTNGLKT   +    +FSAR   +
+Sbjct  736  AENNLSAYEETAEVNANTNGLKTATKDGDTFTFSARANGT  775
+
+
+> UniRef90_A0A1C5NNJ4 47 kDa membrane antigen n=1 Tax=uncultured 
+Blautia sp. TaxID=765821 RepID=A0A1C5NNJ4_9FIRM
+Length=810
+
+ Score = 140 bits (351),  Expect = 9e-35, Method: Composition-based stats.
+ Identities = 50/220 (23%), Positives = 79/220 (36%), Gaps = 60/220 (27%)
+
+Query  1    ETSYGYATLSYADYWAGE-LGQSRDVLLAD-------LDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA L++A+YWA E +  + D   ++       LD G FD V+RAT  HG  R  F
+Sbjct  117  EYQYVYAGLTWAEYWASEGVYAAGDTTSSEELDGHKELDKGAFDTVTRATTNHGLHRGSF  176
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    ++ E                                          +   +  +G
+Sbjct  177  QTETTIVAEDGSRYPIA------------------------------TWVNQNTIKLTDG  206
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVEDSRVTE---  169
+                  + +    D     + + +V+G+K+VPVAV  E      +K++ V +  V E   
+Sbjct  207  KTVGFKKGTITKADGTTVDMDHYEVYGLKYVPVAVRTEDYAAFCQKYNVVTNDGVLEGGY  266
+
+Query  170  ----------------NTNGLKTMLTED---SFSARKVSS  190
+                            +TNGLK  +      +F ARK  +
+Sbjct  267  GEVQLSAYTATAAVTADTNGLKYAVKNGDSFTFEARKTGA  306
+
+
+> UniRef90_C6J9H7 Uncharacterized protein n=9 Tax=Clostridiales 
+TaxID=186802 RepID=C6J9H7_9FIRM
+Length=629
+
+ Score = 137 bits (344),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 51/220 (23%), Positives = 79/220 (36%), Gaps = 58/220 (26%)
+
+Query  2    TSYGYATLSYADYWAGE-LGQSRDVLLA-------DLDAGMFDAVSRATHGHGAFRQQFQ  53
+              Y YA L++A YWA E +  + +           +LD G FD V+RAT  HG  R  +Q
+Sbjct  83   YKYVYAGLTWAQYWASEGVYNAANTASNGTKDSHDELDKGGFDTVTRATVNHGLHRGSYQ  142
+
+Query  54   YAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEGA  113
+                +                     Y+ +    ++   +++   +  DG          
+Sbjct  143  CEAIM---------------------YDKNGGSYEISYWTSANDAVLTDGTTV------K  175
+
+Query  114  VALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED---------  164
+            +   +R      D    +  +  V G+K+VPVAV  E     K +F  VED         
+Sbjct  176  LNQPERGQITKADGSVAEFDHYSVVGLKYVPVAVKAEDYEAFKSQFKIVEDGSTIAGGFG  235
+
+Query  165  ----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                      + VT  TNGLK  +       +F AR   +
+Sbjct  236  ENNLQSYSAVADVTAETNGLKEAVKGSDGTFTFKARTNGT  275
+
+
+> UniRef90_D4LQB5 Bacterial surface proteins containing Ig-like 
+domains n=1 Tax=Blautia obeum A2-162 TaxID=657314 RepID=D4LQB5_9FIRM
+Length=1199
+
+ Score = 137 bits (345),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 51/220 (23%), Positives = 76/220 (35%), Gaps = 65/220 (30%)
+
+Query  1    ETSYGYATLSYADYWAGE-LGQSRDVL-------LADLDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA L++  +WA E + ++ +           + D G FDAV+RAT  HG  R  F
+Sbjct  588  EYKYVYAGLTWDQFWASEGVYEATNTSASEDKDRRGESDMGGFDAVTRATANHGLHRGSF  647
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    V                     Y+ +    ++         +  DG       +G
+Sbjct  648  QTMATV---------------------YDVNGKSYELAGWKDKTTMILTDG-NTVSCSKG  685
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+             +  AD             +    V G+K++PV V        K+ F  VE+        
+Sbjct  686  KINGAD-------------VAEYTVTGLKYIPVKVKTADYDAFKKAFKVVENGEKLFGGY  732
+
+Query  165  -----------SRVTENTNGLKTMLTED---SFSARKVSS  190
+                       + V  NTNGLKT        +FSAR   +
+Sbjct  733  AENNLSAYEETAEVNANTNGLKTATKTADGFTFSARANGT  772
+
+
+> UniRef90_UPI0003134C17 hypothetical protein n=1 Tax=Ruminococcus 
+sp. JC304 TaxID=1095771 RepID=UPI0003134C17
+Length=629
+
+ Score = 135 bits (339),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 47/220 (21%), Positives = 75/220 (34%), Gaps = 58/220 (26%)
+
+Query  2    TSYGYATLSYADYWAGELGQSRDVLLA--------DLDAGMFDAVSRATHGHGAFRQQFQ  53
+              Y YA L++  YWA E   +     +        + D G FD V+RAT  HG  R  +Q
+Sbjct  84   YKYVYAGLTWEQYWASEGVYNASNTSSNATADGHRETDKGGFDTVTRATVNHGLHRGSYQ  143
+
+Query  54   YAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEGA  113
+                +                     Y+ +    ++   +++   +  DG          
+Sbjct  144  CEAVM---------------------YDKNGGSYEISYWTSANDAVLTDGTTV------K  176
+
+Query  114  VALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED---------  164
+            +   +R      D    +  +  + G+K+VPVAV        K +F  VED         
+Sbjct  177  LNQPERGQITKADGSVVEFDHYTIVGLKYVPVAVKAADYEAFKSQFKVVEDGSTVAGGFG  236
+
+Query  165  ----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                      + VT  TNGLK  +       +F AR   +
+Sbjct  237  EKNLQSYSAVADVTAETNGLKEAVKGSDGTFTFKARANGT  276
+
+
+> UniRef90_A0A1C5ZC46 47 kDa membrane antigen n=1 Tax=uncultured 
+Blautia sp. TaxID=765821 RepID=A0A1C5ZC46_9FIRM
+Length=1077
+
+ Score = 132 bits (332),  Expect = 7e-32, Method: Composition-based stats.
+ Identities = 54/221 (24%), Positives = 78/221 (35%), Gaps = 63/221 (29%)
+
+Query  1    ETSYGYATLSYADYWAGEL--------GQSRDVLLADLDAGMFDAVSRATHGHGAFRQQF  52
+            E SY Y  L++++YWA E           +      + D G FD V+RAT  HG  R  F
+Sbjct  496  EWSYMYVGLTWSEYWANEGVYMAGSTEANAETDDRDEHDKGAFDTVTRATVNHGLHRGSF  555
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +                     Y TD     +   SA                +G
+Sbjct  556  QCTTVI---------------------YTTDGKTFPVQSWSADGG--------TMNLTDG  586
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKF--HFVED------  164
+            +     R      +     +    V+G+K+VPV V +E     K  +    VE+      
+Sbjct  587  SSVGYKRGVITDAEGSHI-LKEYDVYGLKYVPVKVNNEDLEAFKAAYGSKIVENGAAMSG  645
+
+Query  165  -------------SRVTENTNGLKTMLTED----SFSARKV  188
+                         + VTENTNGLKT + ++    +FSAR  
+Sbjct  646  GYGEMKLSAYTATATVTENTNGLKTAVLQENGSFAFSARNN  686
+
+
+> UniRef90_U2PJ02 Uncharacterized protein (Fragment) n=3 Tax=Clostridiales 
+TaxID=186802 RepID=U2PJ02_EUBRA
+Length=1113
+
+ Score = 131 bits (330),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 54/221 (24%), Positives = 89/221 (40%), Gaps = 56/221 (25%)
+
+Query  1    ETSYGYATLSYADYWAGELGQ------SRDVLL--ADLDAGMFDAVSRATHGHGAFRQQF  52
+            E +Y YA++ YA+Y+A E  Q      S DV+    + D G FD V+RAT  HG  R  F
+Sbjct  580  EYTYVYASVPYAEYYANEDVQNAGSAASSDVMDTNGEYDKGAFDTVTRATANHGLHRGSF  639
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q  V +                     Y+TD +  + +  +     +  +G+   +A + 
+Sbjct  640  QQDVVI---------------------YDTDGNTYEPISWTDGNTAILSNGKTLVKASDR  678
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+            A  +    ++  VD +     +  + G+K+VPV V  +     K  +   E+        
+Sbjct  679  ATGI----TTLTVDGKTSTYDHYVIKGIKYVPVKVKSKNLEAFKAAYSVTENGETLSGGY  734
+
+Query  165  -----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                       + V +NTNGLK +        SFSA +  +
+Sbjct  735  SENNLKSYTAVADVNKNTNGLKKVSLNADGTFSFSAAQTGT  775
+
+
+> UniRef90_A0A1C6I313 Endo-1,4-beta-xylanase A n=1 Tax=uncultured 
+Butyricicoccus sp. TaxID=1193532 RepID=A0A1C6I313_9CLOT
+Length=1306
+
+ Score = 118 bits (294),  Expect = 8e-27, Method: Composition-based stats.
+ Identities = 50/221 (23%), Positives = 73/221 (33%), Gaps = 71/221 (32%)
+
+Query  1    ETSYGYATLSYADYWAGE--------LGQSRDVLLA--DLDAGMFDAVSRATHGHGAFRQ  50
+            E  Y YA + Y +YW  E             D L    + D G FDAVSRAT  HG  R 
+Sbjct  818  EHIYAYAAVPYDEYWQSEGVYLSGSKWDVGSDALDGHKEYDKGAFDAVSRATSNHGLHRG  877
+
+Query  51   QFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAV  110
+             FQ +V +          T+D+         TD         +                 
+Sbjct  878  SFQQSVVIH---------TKDNDKDYYPVAWTDGDNFVDADGN-----------------  911
+
+Query  111  EGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED------  164
+                           +  E  I + K+ G+K+VPV V         +++   ++      
+Sbjct  912  -------------TYNKNEINIDSYKITGIKYVPVKVSSSDFVDFCKQYTVTQNGETLQG  958
+
+Query  165  -------------SRVTENTNGLKTMLTED---SFSARKVS  189
+                         + V ++TNGLK +  +D   SF  RK  
+Sbjct  959  GFSEFNLNAYTAVAAVDKDTNGLKEVTKDDSLFSFGPRKTG  999
+
+
+> UniRef90_A0A174Y1P4 47 kDa membrane antigen n=5 Tax=Clostridiales 
+TaxID=186802 RepID=A0A174Y1P4_9FIRM
+Length=1131
+
+ Score = 116 bits (289),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 50/221 (23%), Positives = 75/221 (34%), Gaps = 75/221 (34%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRDVL--------LADLDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA+L++A+YW+ E   +              + D G FDAVSRAT  HG  R  F
+Sbjct  550  ENVYVYASLAWAEYWSSEDVYNAGSTASSEEKDRRGESDLGAFDAVSRATANHGLHRGSF  609
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    + G+                                 +      DG+  +   +G
+Sbjct  610  QAIAVLNGK---------------------------------TVSHWSADGKTVY-YADG  635
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+               + +R            +T   V G+K+VPV +         E    V++        
+Sbjct  636  TSEVFNRN----------NVTGYTVTGLKYVPVEIKRADLAAFAESHAIVKNGGQLIGGY  685
+
+Query  165  -----------SRVTENTNGLKTMLT--EDSF--SARKVSS  190
+                       + VT NTNGLK      + SF   AR+  +
+Sbjct  686  GEKELKSYEAVANVTANTNGLKKATKAEDGSFVIGARQNGT  726
+
+
+> UniRef90_R7FCJ1 Fibronectin type III domain protein n=1 Tax=Ruminococcus 
+sp. CAG:330 TaxID=1262954 RepID=R7FCJ1_9FIRM
+Length=884
+
+ Score = 114 bits (286),  Expect = 7e-26, Method: Composition-based stats.
+ Identities = 49/226 (22%), Positives = 72/226 (32%), Gaps = 71/226 (31%)
+
+Query  1    ETSYGYATLSYADYWAGE-------------LGQSRDVLLADLDAGMFDAVSRATHGHGA  47
+            +  Y YA L++A+YW  E                +      + D G +DAV+RAT  HG 
+Sbjct  37   DYVYCYAALTWAEYWQNEGVYLDDAADGDLGASSTEKDTHGEYDLGAYDAVTRATSNHGL  96
+
+Query  48   FRQQFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKF  107
+             R  +Q  V+V   +  +   T   +                                  
+Sbjct  97   HRGSYQCTVKVYDTEGNAYDYTGKGQDESV------------------------------  126
+
+Query  108  EAVEGAVALADRASSFMVDSEEYKITNVKVH-GMKFVPVAVPHELKGIAKEKFHFVEDSR  166
+                  V   +  +   V+ E     +  V+ G K+VPVAVP +     KE +   E+  
+Sbjct  127  ----DVVKNGNGGADITVNGEVAGTYDHSVNVGPKYVPVAVPADEYEAFKEAYTVYENGD  182
+
+Query  167  -------------------VTENTNGLKTMLTEDS----FSARKVS  189
+                               V  NT GLKT   +      FS R  S
+Sbjct  183  TITGGYTEKNLVNINETVSVDANTPGLKTAEKDADGTFQFSKRSTS  228
+
+
+> UniRef90_R5UYY2 Bacterial group 2 Ig-like protein n=1 Tax=Ruminococcus 
+sp. CAG:254 TaxID=1262953 RepID=R5UYY2_9FIRM
+Length=867
+
+ Score = 113 bits (281),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 50/223 (22%), Positives = 74/223 (33%), Gaps = 72/223 (32%)
+
+Query  1    ETSYGYATLSYADYWAGE-------------LGQSRDVLLADLDAGMFDAVSRATHGHGA  47
+            +  Y  A LS+A+YW  E                +      + D G +D V+RAT  HG 
+Sbjct  35   DYVYCAAALSWAEYWEQEGVFLSDDANGDWTAESADSDTRGESDLGAYDTVTRATSNHGL  94
+
+Query  48   FRQQFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKF  107
+             R  +Q  V+V      +   T    G                                 
+Sbjct  95   HRGSYQCTVKVYDTDGNAYDYTGKGNGESV------------------------------  124
+
+Query  108  EAVEGAVALADRASSFMVDSEEY-KITNVKVHGMKFVPVAVPHELKGIAKEKFHFVEDS-  165
+                  V   D  +   VD +E     +  + G K+VPVAVP  L    K+K+  +E+  
+Sbjct  125  -----DVVKGDNGTMITVDGKEVGTYDHSMILGPKYVPVAVPASLYDDFKQKYSVLENGD  179
+
+Query  166  ------------------RVTENTNGLKTMLTED----SFSAR  186
+                               V+ NT+GLKT+   +    +FS R
+Sbjct  180  SMVGGYTEKNLVAINETVDVSANTDGLKTVSQNEDGTYTFSKR  222
+
+
+> UniRef90_R6AYB7 Putative polysaccharide lyase n=1 Tax=Roseburia 
+intestinalis CAG:13 TaxID=1263104 RepID=R6AYB7_9FIRM
+Length=766
+
+ Score = 109 bits (271),  Expect = 6e-24, Method: Composition-based stats.
+ Identities = 49/195 (25%), Positives = 72/195 (37%), Gaps = 64/195 (33%)
+
+Query  16   AGELGQSRDVLLADLDAGMFDAVSRATHGHGAFRQQFQYAVEVLGEKVLSKQETEDSRGR  75
+            A   G S  +  A+LD G FD VSRAT  HG  R  +Q   E+                 
+Sbjct  152  AVNAGVSVCLCSAELDMGAFDTVSRATTNHGLHRGSYQCTSEIT----------------  195
+
+Query  76   KKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEGAVALADRASSFMVDSEEYKITNV  135
+                 + D +  K+   + +   +  +GE                       ++ +I + 
+Sbjct  196  -----KKDGTKLKVTYYTGAATGVLTNGEAF-------------------SYDKNEIESY  231
+
+Query  136  KVHGMKFVPVAVPHELKGIAKEKFHFVED--------------------SRVTENTNGLK  175
+             V G+K+VPV V  E     K  +  VE+                    + VTENTNGLK
+Sbjct  232  VVTGLKYVPVKVKTEDYEAFKAAYTVVENGSTLSGGFSEENLKNYTDLVAEVTENTNGLK  291
+
+Query  176  TMLTED----SFSAR  186
+            T+   +    SF+AR
+Sbjct  292  TVTQNEDGSFSFAAR  306
+
+
+> UniRef90_U2KAE3 Dockerin type I repeat-containing domain protein 
+n=2 Tax=Ruminococcus callidus TaxID=40519 RepID=U2KAE3_9FIRM
+Length=892
+
+ Score = 108 bits (268),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 48/226 (21%), Positives = 76/226 (34%), Gaps = 70/226 (31%)
+
+Query  1    ETSYGYATLSYADYWAGE-------------LGQSRDVLLADLDAGMFDAVSRATHGHGA  47
+            +  Y  A+L++A+YW  E                +      + D G +DAV+RAT  HG 
+Sbjct  49   DYVYCAASLTWAEYWENEGVYLDSAADGNWEASSADADSHGETDLGAYDAVTRATSNHGL  108
+
+Query  48   FRQQFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKF  107
+             R  +Q  V+V   +  S   T   +                                  
+Sbjct  109  HRGSYQCTVKVFDTEGNSYDYTGRGQN---------------------------------  135
+
+Query  108  EAVEGAVALADRASSFMVDSEEYKITNVKV-HGMKFVPVAVPHELKGIAKEKFHFVEDS-  165
+            E+V+         ++ MVD +     +  V  G K+VPVAVP       K+ +   E+  
+Sbjct  136  ESVDVVSNRDAGTTTVMVDGKAAGAYDHSVIVGPKYVPVAVPAADYEDFKKAYTVYENGT  195
+
+Query  166  ------------------RVTENTNGLKTMLTEDS----FSARKVS  189
+                              +V  NT+G+K    ++     FS R  S
+Sbjct  196  EVKGGYTEKNLVNIDEEIQVDANTSGIKVAEKQEDGTFQFSKRSTS  241
+
+
+> UniRef90_C7G566 FMN-binding domain protein n=2 Tax=Roseburia 
+intestinalis TaxID=166486 RepID=C7G566_9FIRM
+Length=218
+
+ Score = 68.7 bits (166),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 21/52 (40%), Positives = 27/52 (52%), Gaps = 0/52 (0%)
+
+Query  16   AGELGQSRDVLLADLDAGMFDAVSRATHGHGAFRQQFQYAVEVLGEKVLSKQ  67
+            A   G S  +  A+LD G FD VSRAT  HG  R  +Q   E+  + V S +
+Sbjct  156  AVNAGVSVCLCSAELDMGAFDTVSRATTNHGLHRGSYQCTSEITKKMVQSSK  207
+
+
+> UniRef90_C7G565 Uncharacterized protein n=3 Tax=Roseburia intestinalis 
+TaxID=166486 RepID=C7G565_9FIRM
+Length=553
+
+ Score = 65.3 bits (157),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 26/87 (30%), Positives = 38/87 (44%), Gaps = 24/87 (28%)
+
+Query  124  MVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED-------------------  164
+                ++ +I +  V G+K+VPV V  E     K  +  VE+                   
+Sbjct  7    TFSYDKNEIESYVVTGLKYVPVKVKTEDYEAFKAAYTVVENGSTLSGGFSEENLKNYTDL  66
+
+Query  165  -SRVTENTNGLKTMLTED----SFSAR  186
+             + VTENTNGLKT+   +    SF+AR
+Sbjct  67   VAEVTENTNGLKTVTQNEDGSFSFAAR  93
+
+
+
+Lambda      K        H        a         alpha
+   0.303    0.117    0.354    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0361    0.140     1.90     42.6     43.6 
+
+Effective search space used: 548631775380
+Results from round 3
+
+
+Query= d1o75a3
+
+Length=191
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P29723 Putative DD-carboxypeptidase TP_0574 n=7 Tax=Tr...  211     9e-63
+  UniRef90_R6M590 Fibronectin type III domain n=1 Tax=Clostridium...  177     6e-49
+  UniRef90_UPI00041CC482 hypothetical protein n=1 Tax=Dorea longi...  180     2e-48
+  UniRef90_C4Z2X1 Uncharacterized protein n=4 Tax=Eubacterium Tax...  174     4e-48
+  UniRef90_A0A1C6AUH4 47 kDa membrane antigen n=1 Tax=uncultured ...  178     6e-48
+  UniRef90_D4K7F6 Uncharacterized protein n=3 Tax=Faecalibacteriu...  172     7e-48
+  UniRef90_A0A173W3J4 47 kDa membrane antigen n=5 Tax=Dorea longi...  178     9e-48
+  UniRef90_R7EAA9 Uncharacterized protein n=1 Tax=Roseburia sp. C...  175     1e-46
+  UniRef90_R6BNT1 LPXTG-motif cell wall anchor domain protein n=3...  170     3e-46
+  UniRef90_D4MVX7 Fibronectin type III domain n=4 Tax=Anaerostipe...  170     3e-46
+  UniRef90_R6L581 Bacterial group 2 Ig-like protein n=1 Tax=Blaut...  172     1e-45
+  UniRef90_R6V2K1 FMN-binding domain n=1 Tax=Firmicutes bacterium...  172     1e-45
+  UniRef90_R5S9W5 Fibronectin type III domain n=1 Tax=Clostridium...  168     2e-45
+  UniRef90_A0A173RIU5 47 kDa membrane antigen n=1 Tax=[Ruminococc...  171     2e-45
+  UniRef90_D4J7K9 Uncharacterized protein n=1 Tax=Coprococcus cat...  171     2e-45
+  UniRef90_R7C694 Fibronectin type III domain n=1 Tax=Clostridium...  166     9e-45
+  UniRef90_A0A174ZYH4 47 kDa membrane antigen n=6 Tax=Clostridial...  169     1e-44
+  UniRef90_A5ZN84 Bacterial group 2 Ig-like protein n=4 Tax=Clost...  168     2e-44
+  UniRef90_A0A174L7G9 47 kDa membrane antigen n=1 Tax=Blautia obe...  168     2e-44
+  UniRef90_C0EWB8 Fibronectin type III domain protein n=7 Tax=Eub...  168     3e-44
+  UniRef90_R7ISI0 LPXTG-motif cell wall anchor domain protein n=1...  167     4e-44
+  UniRef90_R6K306 Uncharacterized protein n=1 Tax=Eubacterium sp....  163     4e-44
+  UniRef90_R7I128 Uncharacterized protein n=1 Tax=Clostridium sp....  164     4e-44
+  UniRef90_C6J9H7 Uncharacterized protein n=9 Tax=Clostridiales T...  164     5e-44
+  UniRef90_A0A174ADM3 47 kDa membrane antigen n=3 Tax=Coprococcus...  168     6e-44
+  UniRef90_UPI0003134C17 hypothetical protein n=1 Tax=Ruminococcu...  164     7e-44
+  UniRef90_A0A1C6I4P7 47 kDa membrane antigen n=1 Tax=uncultured ...  167     7e-44
+  UniRef90_R5N214 Bacterial surface proteins containing Ig-like d...  164     8e-44
+  UniRef90_D4LKL3 Bacterial surface proteins containing Ig-like d...  164     1e-43
+  UniRef90_A0A0D0RGI1 TWA4_scaffold00001, whole genome shotgun se...  166     1e-43
+  UniRef90_A0A1C6BTJ0 47 kDa membrane antigen n=3 Tax=Firmicutes ...  162     3e-43
+  UniRef90_A0A1C5NNJ4 47 kDa membrane antigen n=1 Tax=uncultured ...  163     5e-43
+  UniRef90_A0A174A0X0 47 kDa membrane antigen n=2 Tax=Sarcina ven...  159     1e-42
+  UniRef90_R7NKY5 Bacterial group 2 Ig-like protein n=1 Tax=Eubac...  160     1e-42
+  UniRef90_A0A1C5ZA72 47 kDa membrane antigen n=1 Tax=uncultured ...  162     4e-42
+  UniRef90_C0B694 LPXTG-motif cell wall anchor domain protein n=3...  162     4e-42
+  UniRef90_G1WM41 Uncharacterized protein n=2 Tax=Dorea TaxID=189...  161     7e-42
+  UniRef90_UPI0009307B17 UPI0009307B17 related cluster n=1 Tax=un...  161     9e-42
+  UniRef90_B0P041 Fibronectin type III domain protein n=6 Tax=Clo...  157     2e-41
+  UniRef90_A0A174KJ69 47 kDa membrane antigen n=1 Tax=Fusicatenib...  159     5e-41
+  UniRef90_A0A174GGJ7 47 kDa membrane antigen n=3 Tax=Lachnospira...  158     8e-41
+  UniRef90_D4LQB5 Bacterial surface proteins containing Ig-like d...  158     1e-40
+  UniRef90_A0A1C5SZA8 47 kDa membrane antigen n=1 Tax=uncultured ...  158     2e-40
+  UniRef90_A0A1C5ZC46 47 kDa membrane antigen n=1 Tax=uncultured ...  152     8e-39
+  UniRef90_U2PJ02 Uncharacterized protein (Fragment) n=3 Tax=Clos...  151     1e-38
+  UniRef90_R7FCJ1 Fibronectin type III domain protein n=1 Tax=Rum...  143     1e-35
+  UniRef90_U2KAE3 Dockerin type I repeat-containing domain protei...  139     1e-34
+  UniRef90_R5UYY2 Bacterial group 2 Ig-like protein n=1 Tax=Rumin...  139     1e-34
+  UniRef90_A0A1C6I313 Endo-1,4-beta-xylanase A n=1 Tax=uncultured...  135     9e-33
+  UniRef90_A0A174Y1P4 47 kDa membrane antigen n=5 Tax=Clostridial...  130     4e-31
+  UniRef90_R6AYB7 Putative polysaccharide lyase n=1 Tax=Roseburia...  126     8e-30
+  UniRef90_C7G566 FMN-binding domain protein n=2 Tax=Roseburia in...  77.2    3e-14
+  UniRef90_C7G565 Uncharacterized protein n=3 Tax=Roseburia intes...  73.3    6e-12
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_R6QBP8 Possible S-layer protein n=1 Tax=Eubacterium sp...  46.4    0.005
+
+
+> UniRef90_P29723 Putative DD-carboxypeptidase TP_0574 n=7 Tax=Treponema 
+TaxID=157 RepID=TA47_TREPA
+Length=434
+
+ Score = 211 bits (537),  Expect = 9e-63, Method: Composition-based stats.
+ Identities = 188/200 (94%), Positives = 188/200 (94%), Gaps = 9/200 (5%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRDVL---------LADLDAGMFDAVSRATHGHGAFRQQ  51
+            ET YGYATLSYADYWAGELGQSRDVL           DLDAGMFDAVSRATHGHGAFRQQ
+Sbjct  26   ETHYGYATLSYADYWAGELGQSRDVLLAGNAEADRAGDLDAGMFDAVSRATHGHGAFRQQ  85
+
+Query  52   FQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVE  111
+            FQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVE
+Sbjct  86   FQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVE  145
+
+Query  112  GAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVEDSRVTENT  171
+            GAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVEDSRVTENT
+Sbjct  146  GAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVEDSRVTENT  205
+
+Query  172  NGLKTMLTEDSFSARKVSSM  191
+            NGLKTMLTEDSFSARKVSSM
+Sbjct  206  NGLKTMLTEDSFSARKVSSM  225
+
+
+> UniRef90_R6M590 Fibronectin type III domain n=1 Tax=Clostridium 
+sp. CAG:253 TaxID=1262785 RepID=R6M590_9CLOT
+Length=534
+
+ Score = 177 bits (448),  Expect = 6e-49, Method: Composition-based stats.
+ Identities = 55/224 (25%), Positives = 80/224 (36%), Gaps = 63/224 (28%)
+
+Query  1    ETSYGYATLSYADYWAGEL-----------GQSRDVLLADLDAGMFDAVSRATHGHGAFR  49
+            + +Y YA L++  YWA E              +      ++D G FDAVSRAT  HG  R
+Sbjct  35   DYTYLYAGLTWDQYWAAENIYLQSDKAMTDSNTEADARGEMDKGAFDAVSRATTNHGLHR  94
+
+Query  50   QQFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEA  109
+              +Q    + GE       +                                DG+  +  
+Sbjct  95   GSYQCDAVIYGEDGSEFDVS----------------------------HWSADGKTLY-L  125
+
+Query  110  VEGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED-----  164
+             +G      + +    D  + K+   KV G+K+VPVAV        K+ +  VE+     
+Sbjct  126  TDGTDVAYAKGTITKADGTQTKLKEYKVTGLKYVPVAVKTSELDDFKKTYKVVENDGELV  185
+
+Query  165  --------------SRVTENTNGLKTMLTEDS----FSARKVSS  190
+                          + VT +TNGLKT   E      FSARK  +
+Sbjct  186  GGYSEMNLSAYDLKANVTADTNGLKTATEEKDGTFKFSARKTGT  229
+
+
+> UniRef90_UPI00041CC482 hypothetical protein n=1 Tax=Dorea longicatena 
+TaxID=88431 RepID=UPI00041CC482
+Length=1017
+
+ Score = 180 bits (455),  Expect = 2e-48, Method: Composition-based stats.
+ Identities = 58/222 (26%), Positives = 81/222 (36%), Gaps = 62/222 (28%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRDVLL--------ADLDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA LS+A+YWA E  Q+              + D G FD V+RAT  HG  R  +
+Sbjct  224  EYKYVYAGLSWAEYWAAEGVQAAGDSSSSGKLDTKGESDKGAFDVVTRATVNHGLHRGSY  283
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q A  +  E   S + +          Y  D     +                     +G
+Sbjct  284  QCAATIEAENGKSYEVS----------YWIDSKTAVL--------------------TDG  313
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+                 DR +    D    K+T   V G+K+VPV V  E      + +  VE+        
+Sbjct  314  KTITFDRGAITEEDGTTTKMTKYDVTGLKYVPVKVATEDYEAFCKAYKVVENGGELAGGF  373
+
+Query  165  ------------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                        ++VT +TNGLKT         SFSA+K  +
+Sbjct  374  AENKLQSYKGLKAKVTADTNGLKTATKNADGTFSFSAKKTGT  415
+
+
+> UniRef90_C4Z2X1 Uncharacterized protein n=4 Tax=Eubacterium TaxID=1730 
+RepID=C4Z2X1_EUBE2
+Length=485
+
+ Score = 174 bits (440),  Expect = 4e-48, Method: Composition-based stats.
+ Identities = 49/221 (22%), Positives = 79/221 (36%), Gaps = 60/221 (27%)
+
+Query  1    ETSYGYATLSYADYWAGEL--------GQSRDVLLADLDAGMFDAVSRATHGHGAFRQQF  52
+            E SY YA L++ +YWA E           +      + D G FD V+RAT  HG  R  +
+Sbjct  36   EYSYVYAGLTWQEYWANEGVYNAGDVTSSNEKDTHGEYDKGAFDTVTRATTNHGLHRGSY  95
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +  E     +            + +D     +                     +G
+Sbjct  96   QCMATIDTEDGNKYELAG---------WSSDGKQMIL--------------------TDG  126
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+                 +R +    D    K+++ +V G+K+VPV V        ++ +  V++        
+Sbjct  127  TQLSYNRGTITNADGSTSKVSSYEVTGIKYVPVKVKTSDLADFEQHYRVVKNGEKLYGGF  186
+
+Query  165  -----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                       + V  +TNGLKT +       SFSAR+  S
+Sbjct  187  GENKLSSYEYTAAVNADTNGLKTAVKNADGTYSFSARQTGS  227
+
+
+> UniRef90_A0A1C6AUH4 47 kDa membrane antigen n=1 Tax=uncultured 
+Roseburia sp. TaxID=512314 RepID=A0A1C6AUH4_9FIRM
+Length=1086
+
+ Score = 178 bits (451),  Expect = 6e-48, Method: Composition-based stats.
+ Identities = 57/223 (26%), Positives = 83/223 (37%), Gaps = 64/223 (29%)
+
+Query  2    TSYGYATLSYADYWAGEL---------GQSRDVL--LADLDAGMFDAVSRATHGHGAFRQ  50
+              Y YA LS+A+YW  E            + D +    + D G FD VSRAT  HG  R 
+Sbjct  578  YKYVYAALSWAEYWEAENVYLAPDSTMTSASDEVDERGEADKGAFDVVSRATTNHGLHRG  637
+
+Query  51   QFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAV  110
+             FQ    +      S + +          Y  D                    +      
+Sbjct  638  SFQSDTIIYDTDGKSYEIS----------YWKD--------------------KNTIVLA  667
+
+Query  111  EGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED------  164
+            +G+    D+ +    D +   + + +V G+K+VPVAV         EK+H VE+      
+Sbjct  668  DGSEIGFDKGTITAADGKTAVMDHYEVKGLKYVPVAVKETDYAAFCEKYHVVENGDMLYG  727
+
+Query  165  -------------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                         + V++ TNGLKT+   +    SFSARK  S
+Sbjct  728  GYEEVNLKSYSVEAEVSDTTNGLKTVSKNEDGSFSFSARKNGS  770
+
+
+> UniRef90_D4K7F6 Uncharacterized protein n=3 Tax=Faecalibacterium 
+prausnitzii TaxID=853 RepID=D4K7F6_9FIRM
+Length=438
+
+ Score = 172 bits (436),  Expect = 7e-48, Method: Composition-based stats.
+ Identities = 50/220 (23%), Positives = 77/220 (35%), Gaps = 59/220 (27%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRDVLLA--------DLDAGMFDAVSRATHGHGAFRQQF  52
+            + +Y YA L++ +YWA E   +     A        + D G FDAVSRAT  HG  R  F
+Sbjct  44   KYTYLYAALTWDEYWANEKVYAAGSTAASAQLDSHEEQDLGAFDAVSRATVNHGLHRGSF  103
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +  +   S   +                               +DG+  +   +G
+Sbjct  104  QSTAVIYAKDGSSYTVS----------------------------HWSDDGKTIY-LADG  134
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+                 +R +    D    ++ + +V G K+VPV V          K+  VE+        
+Sbjct  135  TTVGWNRGTITKADGSTVQMDHYEVLGTKYVPVRVATSDLADFCSKYTVVENGGQLVGGY  194
+
+Query  165  -----------SRVTENTNGLKTMLTED---SFSARKVSS  190
+                       + V +NTNGLK         +FSA    +
+Sbjct  195  SEKNLTAYTLTAAVDKNTNGLKYAAKSGDGYTFSAAHNGT  234
+
+
+> UniRef90_A0A173W3J4 47 kDa membrane antigen n=5 Tax=Dorea longicatena 
+TaxID=88431 RepID=A0A173W3J4_9FIRM
+Length=1275
+
+ Score = 178 bits (451),  Expect = 9e-48, Method: Composition-based stats.
+ Identities = 57/222 (26%), Positives = 80/222 (36%), Gaps = 62/222 (28%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRDVLL--------ADLDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA LS+A+YWA E  Q+              + D G FD V+RAT  HG  R  +
+Sbjct  224  EYKYVYAGLSWAEYWAAEGVQAAGDSSSSSELDTKGEPDKGAFDVVTRATVNHGLHRGSY  283
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +  E   S +            Y TD     +                     +G
+Sbjct  284  QCVATIEAENGKSYEVL----------YWTDSKTAVL--------------------TDG  313
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+                 DR +    D    K+T   V G+K+VPV V  E      + +  VE+        
+Sbjct  314  KTITFDRGAITEEDGTTTKMTKYDVTGLKYVPVKVATEDYEAFCKAYKVVENGGELAGGF  373
+
+Query  165  ------------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                        ++VT +TNGLKT         SFSA++  +
+Sbjct  374  AENKLQSYKGLKAKVTADTNGLKTATKNADGTFSFSAKETGT  415
+
+
+> UniRef90_R7EAA9 Uncharacterized protein n=1 Tax=Roseburia sp. 
+CAG:471 TaxID=1262948 RepID=R7EAA9_9FIRM
+Length=1646
+
+ Score = 175 bits (444),  Expect = 1e-46, Method: Composition-based stats.
+ Identities = 57/221 (26%), Positives = 84/221 (38%), Gaps = 60/221 (27%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRDV--------LLADLDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA +++A+YWA E  Q+              + D G FDAV+RAT  HG  R  F
+Sbjct  666  EYKYVYAAMTWAEYWAAEGVQAAGDSSSSSELDTRNEADKGAFDAVTRATANHGLHRGSF  725
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +  E   + + +                                DG+       G
+Sbjct  726  QCVAVIEAENGKTYEVS----------------------------HWSADGKE-ITLTNG  756
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+             V   +R      D    K+ + +V G+K+VPV V         +K++ VE+        
+Sbjct  757  NVIKFNRGEITDTDGTITKLKDYEVTGLKYVPVKVASADYEAFCQKYNVVENGGELVGGY  816
+
+Query  165  -----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                       + VTE TNGLKT+  ++    SFSAR+  S
+Sbjct  817  GENKLAAYSVKANVTEATNGLKTVTKDEKGNFSFSARQAGS  857
+
+
+> UniRef90_R6BNT1 LPXTG-motif cell wall anchor domain protein n=3 
+Tax=Firmicutes TaxID=1239 RepID=R6BNT1_9FIRM
+Length=579
+
+ Score = 170 bits (430),  Expect = 3e-46, Method: Composition-based stats.
+ Identities = 52/227 (23%), Positives = 82/227 (36%), Gaps = 51/227 (22%)
+
+Query  1    ETSYGYATLSYADYWAGEL-----------GQSRDVLLADLDAGMFDAVSRATHGHGAFR  49
+            +  Y YA+L +A+YW  E                     + D G FD V+RAT  HG  R
+Sbjct  37   DYKYVYASLDWAEYWQNENVYLASGSTLKSSSEEADARGEYDKGAFDVVTRATKNHGLHR  96
+
+Query  50   QQFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEA  109
+              FQ    +      + + +  +      + E     TK V  +                
+Sbjct  97   GSFQCDAVIRDTDGKAYEISYWTSEEVSAKDENGQDTTKKVVYAV--------------L  142
+
+Query  110  VEGAVALADRASSFMVDS---EEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--  164
+             +G+    D+ +    ++   +   + + +V G+K+VPVAV  E      +K+   ED  
+Sbjct  143  TDGSKIQFDKGTITYTENGETKTATMEDYEVKGIKYVPVAVKTEDYADFCKKYSVTEDAS  202
+
+Query  165  -----------------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                             + VT +TNGLK          SF+ARK  S
+Sbjct  203  AIEGGYTENALKAYTKTAEVTADTNGLKVATKNADGTYSFAARKTGS  249
+
+
+> UniRef90_D4MVX7 Fibronectin type III domain n=4 Tax=Anaerostipes 
+hadrus TaxID=649756 RepID=D4MVX7_ANAHA
+Length=584
+
+ Score = 170 bits (430),  Expect = 3e-46, Method: Composition-based stats.
+ Identities = 50/221 (23%), Positives = 79/221 (36%), Gaps = 51/221 (23%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRD--------VLLADLDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA L++ +YWA E   +              +LD G +DAV+RAT  HG  R  F
+Sbjct  45   EYVYCYAGLTWNEYWASEGVYAAGNDSSSDTLDSHNELDNGGYDAVTRATTNHGLHRGSF  104
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +     ++ Q +                 +     +        +G + F     
+Sbjct  105  QCITTIYTTDGIAYQISN----------WEQVKGSDGKVTATYLHLKDVEGRVTF-----  149
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+                 ++ +    D+   K+ +  V G+K+VPV V        K K+  VE+        
+Sbjct  150  -----NKGTLTFADNSTKKMDHYSVSGIKYVPVKVKASDYNDFKAKYSVVENNGTLIGGY  204
+
+Query  165  -----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                       + VT +TNGLK  +       SF AR   +
+Sbjct  205  TEGVLSSYKTSANVTASTNGLKEAVKGSDGSFSFKARTTGT  245
+
+
+> UniRef90_R6L581 Bacterial group 2 Ig-like protein n=1 Tax=Blautia 
+sp. CAG:237 TaxID=1262755 RepID=R6L581_9FIRM
+Length=1238
+
+ Score = 172 bits (436),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 56/221 (25%), Positives = 79/221 (36%), Gaps = 62/221 (28%)
+
+Query  1    ETSYGYATLSYADYWAGELG--------QSRDVLLADLDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA L++A YWA E           +      + D G FD V+RAT  HG  R  F
+Sbjct  541  EYKYVYAGLTWAQYWAAEGVYAAGDATASADKDTRGEADLGAFDTVTRATTNHGLHRGSF  600
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    + GEK                                S+     +G+      +G
+Sbjct  601  QTTAIIKGEKG-------------------------------SYAVSYWEGQSTVVFTDG  629
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+              A   R +    D    ++ + +V G+K+VPV V        K+ +  VE+        
+Sbjct  630  TKATYSRGTLTFEDGTTDEMLDYEVSGLKYVPVKVKTSDYEDFKKAYTVVENDGTLVGGY  689
+
+Query  165  -----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                       + VT NTNGLKT    +    SFSAR   +
+Sbjct  690  GEFNLQSYNLTADVTANTNGLKTATKNEDGTFSFSARANGT  730
+
+
+> UniRef90_R6V2K1 FMN-binding domain n=1 Tax=Firmicutes bacterium 
+CAG:227 TaxID=1263010 RepID=R6V2K1_9FIRM
+Length=1306
+
+ Score = 172 bits (435),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 57/224 (25%), Positives = 83/224 (37%), Gaps = 61/224 (27%)
+
+Query  1    ETSYGYATLSYADYWAGELG---------QSRDVLL--ADLDAGMFDAVSRATHGHGAFR  49
+            +  Y YA LS+A+YWA E            S DV     +LD G FD VSRAT  HG  R
+Sbjct  656  KYKYVYAGLSWAEYWASEGVYLAEGSNLASSSDVADKKGELDKGAFDTVSRATTNHGLHR  715
+
+Query  50   QQFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEA  109
+              +Q    +                     Y+TD     +   ++S + +  DG      
+Sbjct  716  GSYQCTAVI---------------------YDTDGKEYPVSYWNSSSEAVLTDGS-VITF  753
+
+Query  110  VEGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED-----  164
+             +G +   +  +          + + +V G+K+VPV V         +K+  VE+     
+Sbjct  754  NKGTITYNENGTEKTA-----TMKDYEVKGIKYVPVKVKTADYDEFCKKYQVVENAGTLA  808
+
+Query  165  --------------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                          + VTE TNGLK     +    SF AR   S
+Sbjct  809  GGFTEKNLQAYTETAEVTEKTNGLKEATKNEDGSFSFGARATGS  852
+
+
+> UniRef90_R5S9W5 Fibronectin type III domain n=1 Tax=Clostridium 
+sp. CAG:122 TaxID=1262773 RepID=R5S9W5_9CLOT
+Length=532
+
+ Score = 168 bits (424),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 55/224 (25%), Positives = 79/224 (35%), Gaps = 63/224 (28%)
+
+Query  1    ETSYGYATLSYADYWAGEL-----------GQSRDVLLADLDAGMFDAVSRATHGHGAFR  49
+            + +Y YA L++  YW  E              +      +LD G FDAVSRAT  HG  R
+Sbjct  34   DYTYLYAGLTWDQYWDAEDIYLQSTKSMTDANTEADARGELDKGAFDAVSRATTNHGLHR  93
+
+Query  50   QQFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEA  109
+              +Q    + GE       +                                DG+  +  
+Sbjct  94   GSYQCDTVIYGEDGSEFNVS----------------------------HWSADGKTLY-L  124
+
+Query  110  VEGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED-----  164
+             +G      + +    D  + K+   KV G+K+VPVAV        K+ +  VE+     
+Sbjct  125  TDGTSVSYSKGTITKADGSQTKLKEYKVTGLKYVPVAVKTSELSDFKKIYKVVENDGELA  184
+
+Query  165  --------------SRVTENTNGLKTMLTEDS----FSARKVSS  190
+                          + VT NTNGLKT   +      FSARK  +
+Sbjct  185  GGYSEMNLSAYDLKADVTANTNGLKTAAEQKDGTFKFSARKTGN  228
+
+
+> UniRef90_A0A173RIU5 47 kDa membrane antigen n=1 Tax=[Ruminococcus] 
+torques TaxID=33039 RepID=A0A173RIU5_9FIRM
+Length=1171
+
+ Score = 171 bits (434),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 59/221 (27%), Positives = 82/221 (37%), Gaps = 58/221 (26%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRD--------VLLADLDAGMFDAVSRATHGHGAFRQQF  52
+            +  Y YA L++A+YWA E  Q+              + D G FD V+RAT  HG  R  F
+Sbjct  157  KYVYCYAGLTWAEYWAAEGVQAAGSTASSSEKDSHNESDKGAFDTVTRATANHGLHRGSF  216
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    V  E+                              + S+   GE+ +      +G
+Sbjct  217  QCNAIVETEEG--------------------------TTLNLSYWKTGENNQQIAVMTDG  250
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+                 ++   F  D    K+ + KV G+KFVPV V        K K+   E+        
+Sbjct  251  TEYNYNKG-VFTKDGTTLKLKDYKVTGLKFVPVKVKESDYEAFKAKYTVYENGSDLKGGF  309
+
+Query  165  -----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                       + VTENTNGLKT+        SFSAR   +
+Sbjct  310  GEGNLNTIDETADVTENTNGLKTVTKNADGSFSFSARATGT  350
+
+
+> UniRef90_D4J7K9 Uncharacterized protein n=1 Tax=Coprococcus catus 
+GD/7 TaxID=717962 RepID=D4J7K9_9FIRM
+Length=1779
+
+ Score = 171 bits (434),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 56/221 (25%), Positives = 83/221 (38%), Gaps = 59/221 (27%)
+
+Query  2    TSYGYATLSYADYWAGELGQSRDVLLA--------DLDAGMFDAVSRATHGHGAFRQQFQ  53
+             +Y YA LS+A+YWA E  Q+     +        + D G FD V+RAT  HG  R  FQ
+Sbjct  731  YTYVYAGLSWAEYWAAEGVQAAGDASSSNEYDLRDEYDKGAFDTVTRATANHGLHRGSFQ  790
+
+Query  54   YAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEGA  113
+                +  E     + +          ++++   TK V                    +G+
+Sbjct  791  CTDVIEAENGKEYKISY---------WKSEGKTTKAV------------------LTDGS  823
+
+Query  114  VALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED---------  164
+                +R +    D    K+T   V G+K+VPV V  +     K K+  VE+         
+Sbjct  824  EITFNRGTITEADGTTTKLTKHHVTGLKYVPVKVAKDDYEAFKAKYDVVENGGTLSGGFS  883
+
+Query  165  -----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                       + VT  TNGLKT         SFSA+   +
+Sbjct  884  ENKLSSYNGLEAEVTAATNGLKTATKNSDGSFSFSAKAAGT  924
+
+
+> UniRef90_R7C694 Fibronectin type III domain n=1 Tax=Clostridium 
+sp. CAG:62 TaxID=1262828 RepID=R7C694_9CLOT
+Length=587
+
+ Score = 166 bits (420),  Expect = 9e-45, Method: Composition-based stats.
+ Identities = 55/223 (25%), Positives = 80/223 (36%), Gaps = 60/223 (27%)
+
+Query  2    TSYGYATLSYADYWAGEL-----------GQSRDVLLADLDAGMFDAVSRATHGHGAFRQ  50
+             +Y YA L++A+YWA E                +    +LD G FDAVSRAT  HG  R 
+Sbjct  43   YTYLYADLNWAEYWAAEDVYLKDGKNMTDSNETEDARGELDKGAFDAVSRATTNHGLHRG  102
+
+Query  51   QFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAV  110
+             FQ    +  +   +   +   + +                          D    F   
+Sbjct  103  SFQCDAVITADNGQNYPVSYWEQDK--------------------------DKNQSFYTT  136
+
+Query  111  EGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED------  164
+            +G      +    + D+   K+ N  V G+K+VPVAV        K K+  VE+      
+Sbjct  137  DGQKIGYAKGVMTLPDASTTKVVNYTVTGIKYVPVAVKTADLQDFKSKYKVVENGEKLVG  196
+
+Query  165  -------------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                         + VTENTNGLK    +     +F  RK  +
+Sbjct  197  GYSENALSSYEETASVTENTNGLKIAAKQADGSYTFGKRKTGT  239
+
+
+> UniRef90_A0A174ZYH4 47 kDa membrane antigen n=6 Tax=Clostridiales 
+TaxID=186802 RepID=A0A174ZYH4_9FIRM
+Length=1189
+
+ Score = 169 bits (427),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 57/220 (26%), Positives = 77/220 (35%), Gaps = 62/220 (28%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRDVLL--------ADLDAGMFDAVSRATHGHGAFRQQF  52
+            E +Y Y  LS+A+YWA E  Q+              + D G FD V+RAT  HG  R  F
+Sbjct  652  EYTYAYVGLSWAEYWAAENVQAAGNTSSSDAKDSKGESDKGAFDTVTRATVNHGLHRGSF  711
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +  E                 EY TD +   +                     +G
+Sbjct  712  QCNAVIKAENGKEYAV----------EYWTDGTTAVL--------------------TDG  741
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+            +    +R           K+T   V G+K+VPV V        K  +  +E+        
+Sbjct  742  SKITFNRGEITEESGATTKMTEYDVLGLKYVPVKVKTSDLDALKASYRVIENGSELAGGY  801
+
+Query  165  ------------SRVTENTNGLKTMLTED----SFSARKV  188
+                        + VTENTNGLKT    +    SFSAR  
+Sbjct  802  SEKNLVSYTGLVANVTENTNGLKTATKNEDGSFSFSARVN  841
+
+
+> UniRef90_A5ZN84 Bacterial group 2 Ig-like protein n=4 Tax=Clostridiales 
+TaxID=186802 RepID=A5ZN84_9FIRM
+Length=1126
+
+ Score = 168 bits (426),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 53/220 (24%), Positives = 83/220 (38%), Gaps = 53/220 (24%)
+
+Query  2    TSYGYATLSYADYWAGELGQSRD--------VLLADLDAGMFDAVSRATHGHGAFRQQFQ  53
+             SY YA L++ +YW+ E   +              + D G FDAV+RAT  HG  R  +Q
+Sbjct  537  YSYVYAGLTWGEYWSQESVTAAGNVSGSDEKDSHNESDTGAFDAVTRATTNHGLHRGSYQ  596
+
+Query  54   YAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEGA  113
+                +                     Y T+ +  ++    +S + +  DG +        
+Sbjct  597  CMATI---------------------YTTEGNAYQLSYWKSSTEPVLADGTVAIWTPADR  635
+
+Query  114  VALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED---------  164
+                  AS  +    +  + +  V G+K+VPV V  E       K+  V++         
+Sbjct  636  KTGTP-ASIQVNGGAKESLDHYAVTGIKYVPVQVKAEDYADFAAKYPVVKNGEILVGGFS  694
+
+Query  165  ----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                      + VT NTNGLKT+   +    SFSARK  +
+Sbjct  695  ENNLKAYSETANVTVNTNGLKTVTKNEDGSFSFSARKTGT  734
+
+
+> UniRef90_A0A174L7G9 47 kDa membrane antigen n=1 Tax=Blautia obeum 
+TaxID=40520 RepID=A0A174L7G9_9FIRM
+Length=959
+
+ Score = 168 bits (424),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 53/219 (24%), Positives = 83/219 (38%), Gaps = 53/219 (24%)
+
+Query  3    SYGYATLSYADYWAGELGQSRD--------VLLADLDAGMFDAVSRATHGHGAFRQQFQY  54
+            SY YA L++ +YW+ E   +              + D G FDAV+RAT  HG  R  +Q 
+Sbjct  371  SYVYAGLTWGEYWSQESVTAAGNVSGSDEKDSHNESDTGAFDAVTRATTNHGLHRGSYQC  430
+
+Query  55   AVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEGAV  114
+               +                     Y T+ +  ++    +S + +  DG +         
+Sbjct  431  MATI---------------------YTTEGNAYQLSYWKSSTEPVLTDGTVAIWTPADRK  469
+
+Query  115  ALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED----------  164
+                 AS  +    +  + +  V G+K+VPV V  E       K+  V++          
+Sbjct  470  TGTP-ASIQVNGGAKESLDHYAVTGIKYVPVQVKAEDYADFAAKYPVVKNGETLVGGFSE  528
+
+Query  165  ---------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                     + VT NTNGLKT+   +    SFSARK  +
+Sbjct  529  NNLKAYRETANVTVNTNGLKTVTKNEDGSFSFSARKTGT  567
+
+
+> UniRef90_C0EWB8 Fibronectin type III domain protein n=7 Tax=Eubacterium 
+TaxID=1730 RepID=C0EWB8_9FIRM
+Length=1083
+
+ Score = 168 bits (424),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 52/222 (23%), Positives = 80/222 (36%), Gaps = 63/222 (28%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRDVL--------LADLDAGMFDAVSRATHGHGAFRQQF  52
+            +  Y YA L++A+YW  E   +              + D G FDAV+RAT  HG  R  +
+Sbjct  47   DYVYCYAGLTWAEYWKAEGVWAAGDTTSSDTADSHGEKDKGAFDAVTRATANHGLHRGSY  106
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    + GEK                          +   + +   +  +GE        
+Sbjct  107  QCTAIIEGEKG----------------------TYNISHWTDANTAILTNGE--------  136
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+                  R +    D  E  + + KV+G+K+VPVAV        K K+  VE+        
+Sbjct  137  -KITFTRGAIKTSDGTEDTMKDYKVYGLKYVPVAVKSSDFEAFKAKYSVVENNGTLIGGY  195
+
+Query  165  ------------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                        + V ++TNGLKT   +     +F+ R   S
+Sbjct  196  GEKNLQAYNNVTASVDKDTNGLKTAEKQSDGSFTFTQRSNGS  237
+
+
+> UniRef90_R7ISI0 LPXTG-motif cell wall anchor domain protein n=1 
+Tax=Roseburia sp. CAG:303 TaxID=1262944 RepID=R7ISI0_9FIRM
+Length=1114
+
+ Score = 167 bits (423),  Expect = 4e-44, Method: Composition-based stats.
+ Identities = 54/221 (24%), Positives = 80/221 (36%), Gaps = 62/221 (28%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRD--------VLLADLDAGMFDAVSRATHGHGAFRQQF  52
+            E +Y YA L+Y +Y+A E  Q+ D            + D G FDAV+RAT  HG  R  F
+Sbjct  155  EYTYVYAELTYDEYYAAEPVQNGDSAESSDETDTRGEYDKGAFDAVTRATTNHGLHRGSF  214
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q AV +   +    +                                G DG+      +G
+Sbjct  215  QSAVVIYDTEGNVYEAA------------------------------GWDGKNTIILTDG  244
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+                 DR +   +  E   +   +V G K++PVAV        K ++  VE+        
+Sbjct  245  TTVGFDRGTIT-IGEETKTMAGYEVTGFKYIPVAVKTSDYEEFKNQYKVVENGETLFGGF  303
+
+Query  165  -----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                       + VT +TNGLK  +       SF  R+  +
+Sbjct  304  SEVNLSAYSETAEVTADTNGLKEAVKNSDGTFSFGERQTGT  344
+
+
+> UniRef90_R6K306 Uncharacterized protein n=1 Tax=Eubacterium sp. 
+CAG:252 TaxID=1262887 RepID=R6K306_9FIRM
+Length=519
+
+ Score = 163 bits (413),  Expect = 4e-44, Method: Composition-based stats.
+ Identities = 50/223 (22%), Positives = 78/223 (35%), Gaps = 60/223 (27%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRDVL--------LADLDAGMFDAVSRATHGHGAFRQQF  52
+            + +Y YA LS+ +YW  E   +              + D G FD VSRAT+ HG  R  F
+Sbjct  36   DYTYVYAGLSWEEYWNAEGVYNASNTQSSDVKDDHGEYDKGGFDTVSRATYNHGLHRGSF  95
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +   +  +      +                            ED  +K    +G
+Sbjct  96   QCEAVIFDTEGKTYDVAYWT---------------------------SEDKAVKLVLTDG  128
+
+Query  113  AVALAD--RASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED------  164
+            +    +    +    D     + + +V G+K+VPV V        K K++ VE+      
+Sbjct  129  SKCTYNSKAKTLTFADGTTVTLDHYEVKGLKYVPVKVKTSDYEDFKSKYNVVENGGTLEG  188
+
+Query  165  -------------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                         + VT +TNGLK  + E     SF AR   +
+Sbjct  189  GYTENNLKAYSETAEVTADTNGLKEAVKEADGTYSFGARINGT  231
+
+
+> UniRef90_R7I128 Uncharacterized protein n=1 Tax=Clostridium sp. 
+CAG:411 TaxID=1262802 RepID=R7I128_9CLOT
+Length=599
+
+ Score = 164 bits (415),  Expect = 4e-44, Method: Composition-based stats.
+ Identities = 51/223 (23%), Positives = 73/223 (33%), Gaps = 60/223 (27%)
+
+Query  1    ETSYGYATLSYADYWAGE----------LGQSRDVLLADLDAGMFDAVSRATHGHGAFRQ  50
+            E  Y YA +S+A YW  E             S      + D G FDAVSRAT  HG  R 
+Sbjct  44   EYEYVYAGISWAQYWESEGIYLSGTNMVASSSAVDTRGESDKGAFDAVSRATTNHGIHRG  103
+
+Query  51   QFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAV  110
+             FQ    + GE                     D     +    ++ + +  DG       
+Sbjct  104  SFQCNTTIYGE---------------------DGKTFDVSTWKSASELVLTDGS-TVGFN  141
+
+Query  111  EGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED------  164
+            +G +   +         +   + N  V G+K+VPVAV          ++  V +      
+Sbjct  142  KGTITYTENGQE-----KTTTMKNYNVTGIKYVPVAVKKSDYEAFAAQYPVVSNAGILVG  196
+
+Query  165  -------------SRVTENTNGLKTMLTEDS----FSARKVSS  190
+                         + VT NTNGLK    +      F  R   +
+Sbjct  197  GYSETNLASYQKTAAVTANTNGLKVAEKQADGTFKFGKRATGT  239
+
+
+> UniRef90_C6J9H7 Uncharacterized protein n=9 Tax=Clostridiales 
+TaxID=186802 RepID=C6J9H7_9FIRM
+Length=629
+
+ Score = 164 bits (415),  Expect = 5e-44, Method: Composition-based stats.
+ Identities = 51/220 (23%), Positives = 76/220 (35%), Gaps = 58/220 (26%)
+
+Query  2    TSYGYATLSYADYWAGE--------LGQSRDVLLADLDAGMFDAVSRATHGHGAFRQQFQ  53
+              Y YA L++A YWA E                  +LD G FD V+RAT  HG  R  +Q
+Sbjct  83   YKYVYAGLTWAQYWASEGVYNAANTASNGTKDSHDELDKGGFDTVTRATVNHGLHRGSYQ  142
+
+Query  54   YAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEGA  113
+                +                     Y+ +    ++   +++   +  DG          
+Sbjct  143  CEAIM---------------------YDKNGGSYEISYWTSANDAVLTDGTTV------K  175
+
+Query  114  VALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED---------  164
+            +   +R      D    +  +  V G+K+VPVAV  E     K +F  VED         
+Sbjct  176  LNQPERGQITKADGSVAEFDHYSVVGLKYVPVAVKAEDYEAFKSQFKIVEDGSTIAGGFG  235
+
+Query  165  ----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                      + VT  TNGLK  +       +F AR   +
+Sbjct  236  ENNLQSYSAVADVTAETNGLKEAVKGSDGTFTFKARTNGT  275
+
+
+> UniRef90_A0A174ADM3 47 kDa membrane antigen n=3 Tax=Coprococcus 
+comes TaxID=410072 RepID=A0A174ADM3_9FIRM
+Length=1700
+
+ Score = 168 bits (424),  Expect = 6e-44, Method: Composition-based stats.
+ Identities = 51/221 (23%), Positives = 78/221 (35%), Gaps = 61/221 (28%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRD--------VLLADLDAGMFDAVSRATHGHGAFRQQF  52
+            E SY Y  +S+A+YWA E   +              + D G FD V+RAT  HG  R  F
+Sbjct  662  EYSYVYVGMSWAEYWANEGVYNAGSIEASDVKDSRDEYDKGAFDTVTRATTNHGLHRGSF  721
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +                      +T+     +            +G+ +    +G
+Sbjct  722  QCTAVIE---------------------DTEGKKHYLSHW---------EGKDQAVMTDG  751
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+                  +      +   +   + +V G+K+VPV +        KEK+  VE+        
+Sbjct  752  TTYTYAKGVFTAKNGSSFTQKDYEVTGLKYVPVKIRTADLNSLKEKYTVVENGGELIGGY  811
+
+Query  165  -----------SRVTENTNGLKTMLTEDS----FSARKVSS  190
+                       + VT NTNGLKT   ++     FSAR   S
+Sbjct  812  GENQLKSYKTIADVTANTNGLKTAEKQEDGSFAFSARTTGS  852
+
+
+> UniRef90_UPI0003134C17 hypothetical protein n=1 Tax=Ruminococcus 
+sp. JC304 TaxID=1095771 RepID=UPI0003134C17
+Length=629
+
+ Score = 164 bits (414),  Expect = 7e-44, Method: Composition-based stats.
+ Identities = 47/220 (21%), Positives = 75/220 (34%), Gaps = 58/220 (26%)
+
+Query  2    TSYGYATLSYADYWAGELGQSRDVLLA--------DLDAGMFDAVSRATHGHGAFRQQFQ  53
+              Y YA L++  YWA E   +     +        + D G FD V+RAT  HG  R  +Q
+Sbjct  84   YKYVYAGLTWEQYWASEGVYNASNTSSNATADGHRETDKGGFDTVTRATVNHGLHRGSYQ  143
+
+Query  54   YAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEGA  113
+                +                     Y+ +    ++   +++   +  DG          
+Sbjct  144  CEAVM---------------------YDKNGGSYEISYWTSANDAVLTDGTTV------K  176
+
+Query  114  VALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED---------  164
+            +   +R      D    +  +  + G+K+VPVAV        K +F  VED         
+Sbjct  177  LNQPERGQITKADGSVVEFDHYTIVGLKYVPVAVKAADYEAFKSQFKVVEDGSTVAGGFG  236
+
+Query  165  ----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                      + VT  TNGLK  +       +F AR   +
+Sbjct  237  EKNLQSYSAVADVTAETNGLKEAVKGSDGTFTFKARANGT  276
+
+
+> UniRef90_A0A1C6I4P7 47 kDa membrane antigen n=1 Tax=uncultured 
+Blautia sp. TaxID=765821 RepID=A0A1C6I4P7_9FIRM
+Length=1631
+
+ Score = 167 bits (423),  Expect = 7e-44, Method: Composition-based stats.
+ Identities = 50/221 (23%), Positives = 77/221 (35%), Gaps = 71/221 (32%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRDVLLA--------DLDAGMFDAVSRATHGHGAFRQQF  52
+            +  Y YA L++A+YWA E  Q+     +        + D G FD V+RAT  HG  R  F
+Sbjct  664  KYKYVYAGLTWAEYWAQEGVQAAGDSSSSSELDNKNEYDKGAFDTVTRATTNHGLHRGSF  723
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +                     Y  D     +   +     +  DG         
+Sbjct  724  QCNATI---------------------YMKDGKSYDVAYYTGVTTAVLTDG---------  753
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+                        ++  +  I +  V G+K+VPV V  E      + +  V++        
+Sbjct  754  ----------TTLNYNKNDIDHYVVTGLKYVPVKVKSEDYEAFCQNYAVVKNGEKLSGGY  803
+
+Query  165  ------------SRVTENTNGLKTMLTED---SFSARKVSS  190
+                        + VT++TNGLKT+       SFSAR   +
+Sbjct  804  SESSLKNYTNLTAAVTKDTNGLKTVTKNGDSFSFSARTTGT  844
+
+
+> UniRef90_R5N214 Bacterial surface proteins containing Ig-like 
+domains n=3 Tax=Clostridiales TaxID=186802 RepID=R5N214_9FIRM
+Length=733
+
+ Score = 164 bits (415),  Expect = 8e-44, Method: Composition-based stats.
+ Identities = 49/220 (22%), Positives = 76/220 (35%), Gaps = 60/220 (27%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRDVLLA--------DLDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA L++A+YWA E   +     +        +LD G FD V+RAT  HG  R  F
+Sbjct  117  EYQYVYAGLTWAEYWASEGVYAAGDTTSSEELDGHKELDKGAFDTVTRATTNHGLHRGSF  176
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    ++ E                                              +  +G
+Sbjct  177  QTETTIVAEDGSRYPIATWVD------------------------------RNTIKLTDG  206
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVEDSRVTE---  169
+                  + +    D     + + +V+G+K+VPVAV  E      +K++ V +  V E   
+Sbjct  207  KTVGFKKGTITKADGTTVDMDHYEVYGLKYVPVAVRTEDYAAFCQKYNVVTNDGVLEGGY  266
+
+Query  170  ----------------NTNGLKTMLTED---SFSARKVSS  190
+                            +TNGLK  +      +F ARK  +
+Sbjct  267  GEVQLSAYTATAAVTADTNGLKYAVKNGDSFTFEARKTGA  306
+
+
+> UniRef90_D4LKL3 Bacterial surface proteins containing Ig-like 
+domains n=4 Tax=Clostridiales TaxID=186802 RepID=D4LKL3_9FIRM
+Length=748
+
+ Score = 164 bits (415),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 49/219 (22%), Positives = 78/219 (36%), Gaps = 60/219 (27%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRDVLLA--------DLDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA L++ +YWA E   +     +        + D G FD V+RAT  HG  R  +
+Sbjct  131  EYQYVYAGLTWGEYWAAEGVYAAGDTSSSEEKDSHSEFDTGAFDTVTRATANHGLHRGSY  190
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    ++ E       +                               ED        +G
+Sbjct  191  QTEATIIAEDGTRFDVSYW-----------------------------EDKGSTLYLTDG  221
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+            +    +R S    D + Y + + +++G+K+VPVAV         +K++ V+D        
+Sbjct  222  SKVKWNRGSITTEDGKTYTMDHYEIYGLKYVPVAVKTADFADFCKKYNVVQDGAVLSGGY  281
+
+Query  165  ------------SRVTENTNGLKTMLTED---SFSARKV  188
+                        + V   TNGLK         +F+ARK 
+Sbjct  282  SENNLQYYKGLVADVNAQTNGLKYAEKNGDGFTFTARKS  320
+
+
+> UniRef90_A0A0D0RGI1 TWA4_scaffold00001, whole genome shotgun 
+sequence n=1 Tax=Lachnospiraceae bacterium TWA4 TaxID=1392836 
+RepID=A0A0D0RGI1_9FIRM
+Length=1241
+
+ Score = 166 bits (420),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 48/220 (22%), Positives = 73/220 (33%), Gaps = 60/220 (27%)
+
+Query  2    TSYGYATLSYADYWAGELGQSRDVLLAD--------LDAGMFDAVSRATHGHGAFRQQFQ  53
+              Y YA L++ +YW  E   +     +          D G FD V+RAT  HG  R  FQ
+Sbjct  621  YKYVYAGLTWDEYWKSEGVYAAGNASSSSERDSRDEADKGGFDVVTRATKNHGLHRGSFQ  680
+
+Query  54   YAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEGA  113
+                +      S          K   +  D                          V+G+
+Sbjct  681  SIATIYDTDGNSY---------KVLSWSKDGK--------------------TINLVDGS  711
+
+Query  114  VALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED---------  164
+                 + +    D     +   +V G+K+VPV V         +K+   E+         
+Sbjct  712  SIGWSKGTITKSDGTTSTMKYYEVSGIKYVPVKVKEADYEEFAKKYQVTENAGSLTGGYS  771
+
+Query  165  ----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                      ++VT++TNGLKT         SFSAR+  +
+Sbjct  772  ENQLKAYVKTAKVTKDTNGLKTATKNADGSFSFSARETGT  811
+
+
+> UniRef90_A0A1C6BTJ0 47 kDa membrane antigen n=3 Tax=Firmicutes 
+TaxID=1239 RepID=A0A1C6BTJ0_9FIRM
+Length=659
+
+ Score = 162 bits (410),  Expect = 3e-43, Method: Composition-based stats.
+ Identities = 57/221 (26%), Positives = 88/221 (40%), Gaps = 56/221 (25%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRDVLLA--------DLDAGMFDAVSRATHGHGAFRQQF  52
+            E +Y Y  L++A+YWA E   +     +        + D G +D V+RAT  HG  R  +
+Sbjct  43   EWTYCYVGLTWAEYWAHEDVYNAGDASSSDVLDSKKESDKGGYDVVTRATAKHGLHRGSY  102
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +          T D+ G+   EY                    +DG+  +   +G
+Sbjct  103  QCMATIF---------TTDADGKTGPEY--------------KVSHWSDDGKTIY-LTDG  138
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+            +    ++ +    +   Y +++ +V G+K+VPVAV        K K+  VE+        
+Sbjct  139  SSVSWNKGNITD-NGNTYTMSHYEVSGIKYVPVAVKTSQLNDLKAKYQVVENGGTLTGGY  197
+
+Query  165  -----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                       + VT NTNGLKT         SFSARK  S
+Sbjct  198  SEVNLSAYTATANVTANTNGLKTATENSDGTFSFSARKTGS  238
+
+
+> UniRef90_A0A1C5NNJ4 47 kDa membrane antigen n=1 Tax=uncultured 
+Blautia sp. TaxID=765821 RepID=A0A1C5NNJ4_9FIRM
+Length=810
+
+ Score = 163 bits (411),  Expect = 5e-43, Method: Composition-based stats.
+ Identities = 49/220 (22%), Positives = 77/220 (35%), Gaps = 60/220 (27%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRDVLLA--------DLDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA L++A+YWA E   +     +        +LD G FD V+RAT  HG  R  F
+Sbjct  117  EYQYVYAGLTWAEYWASEGVYAAGDTTSSEELDGHKELDKGAFDTVTRATTNHGLHRGSF  176
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    ++ E                                          +   +  +G
+Sbjct  177  QTETTIVAEDGSRYPIATWVN------------------------------QNTIKLTDG  206
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVEDSRVTE---  169
+                  + +    D     + + +V+G+K+VPVAV  E      +K++ V +  V E   
+Sbjct  207  KTVGFKKGTITKADGTTVDMDHYEVYGLKYVPVAVRTEDYAAFCQKYNVVTNDGVLEGGY  266
+
+Query  170  ----------------NTNGLKTMLTED---SFSARKVSS  190
+                            +TNGLK  +      +F ARK  +
+Sbjct  267  GEVQLSAYTATAAVTADTNGLKYAVKNGDSFTFEARKTGA  306
+
+
+> UniRef90_A0A174A0X0 47 kDa membrane antigen n=2 Tax=Sarcina ventriculi 
+TaxID=1267 RepID=A0A174A0X0_SARVE
+Length=465
+
+ Score = 159 bits (401),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 87/201 (43%), Positives = 117/201 (58%), Gaps = 15/201 (7%)
+
+Query  2    TSYGYATLSYADYWAGELGQSRDVLLADLDA---------GMFDAVSRATHGHGAFRQQF  52
+              YGYA LSYA YWAGEL +S + L    D          GMFDAV+RAT  HG +RQQF
+Sbjct  50   YVYGYAPLSYAQYWAGELDKSVEELSKSSDKTDSEGVNDAGMFDAVTRATAKHGIYRQQF  109
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            QY VEV GEKV+S +  E+  G++  +Y TD + T+ V   ASF  +  +G I    V+ 
+Sbjct  110  QYIVEVTGEKVISSEVVEE-NGKETTKYTTDSNDTQTVTVQASFDGVDSEGTITTAPVDD  168
+
+Query  113  AVALADRASSFMV----DSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVEDSRVT  168
+             V   D +S F +     + +YK+   KV G   +PVA+P ++   AKE   FVEDS V+
+Sbjct  169  NVVFEDASSIFTIGEGDSATQYKVAEYKVLGFNNIPVAIPSDMVDSAKEN-GFVEDSNVS  227
+
+Query  169  ENTNGLKTMLTEDSFSARKVS  189
+             +T GLKTM ++ ++ ARK S
+Sbjct  228  SDTYGLKTMNSDGTYGARKTS  248
+
+
+> UniRef90_R7NKY5 Bacterial group 2 Ig-like protein n=1 Tax=Eubacterium 
+sp. CAG:581 TaxID=1262890 RepID=R7NKY5_9FIRM
+Length=630
+
+ Score = 160 bits (405),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 50/223 (22%), Positives = 80/223 (36%), Gaps = 56/223 (25%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRD----------VLLADLDAGMFDAVSRATHGHGAFRQ  50
+            + +Y +A L++ +YW  E     D              + D G FD VSRAT  HG  R 
+Sbjct  41   DYTYVFAGLTWDEYWKSEGVYVADNNWTASSDVLDSHNEYDKGAFDVVSRATTNHGLHRG  100
+
+Query  51   QFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAV  110
+             FQ + +++          + +       Y T                  ED +      
+Sbjct  101  SFQCSTDIVATD------ADGNEKIFTISYWT-----------------KEDNKTVLVLK  137
+
+Query  111  EGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED------  164
+            +G+         F  ++  Y + +  V GMK++PVAV ++     + K+  V+       
+Sbjct  138  DGSKITDYAKGKFTYNNVAYTMAHYYVKGMKYIPVAVKNDDLADFESKYTVVKSGEAVEG  197
+
+Query  165  -------------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                         + + ENTNGLK          SFS R V +
+Sbjct  198  GYSEGVLSSYSLKANLDENTNGLKYAEKNTDGTYSFSQRNVGT  240
+
+
+> UniRef90_A0A1C5ZA72 47 kDa membrane antigen n=1 Tax=uncultured 
+Ruminococcus sp. TaxID=165186 RepID=A0A1C5ZA72_9FIRM
+Length=1197
+
+ Score = 162 bits (409),  Expect = 4e-42, Method: Composition-based stats.
+ Identities = 50/220 (23%), Positives = 70/220 (32%), Gaps = 65/220 (30%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRDVL--------LADLDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA L++  YWA E                  + D G FDAV+RAT  HG  R  F
+Sbjct  586  EYKYVYAGLTWEQYWASEGVYEATNTSASEDKDRRGESDMGGFDAVTRATANHGLHRGSF  645
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    V      +                                      +      +G
+Sbjct  646  QTMATVYDANGKTYALAGWKD------------------------------KTTMILTDG  675
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+            +     +     +D     +T  KV G+K++PV V        K+ F  VE+        
+Sbjct  676  STVSCSKGKINGID-----VTEYKVTGLKYIPVKVKTADYDAFKKAFKVVENGEKLFGGY  730
+
+Query  165  -----------SRVTENTNGLKTMLTED---SFSARKVSS  190
+                       + V  NTNGLKT   +    +FSAR   +
+Sbjct  731  AENNLSAYEETAEVNANTNGLKTATKDGDTFTFSARANGT  770
+
+
+> UniRef90_C0B694 LPXTG-motif cell wall anchor domain protein n=3 
+Tax=Coprococcus TaxID=33042 RepID=C0B694_9FIRM
+Length=1706
+
+ Score = 162 bits (410),  Expect = 4e-42, Method: Composition-based stats.
+ Identities = 56/221 (25%), Positives = 81/221 (37%), Gaps = 56/221 (25%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRDVL--------LADLDAGMFDAVSRATHGHGAFRQQF  52
+            E SY Y  +S+++YWA E   +              + D G FDAV+RAT  HG  R  F
+Sbjct  667  EYSYVYVGMSWSEYWAKEGVYAAGDTGSSSDVDSRNEYDKGAFDAVTRATANHGLHRGSF  726
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q +  +        +            Y        M   S   +   ED +  F A +G
+Sbjct  727  QCSAVIEDTNGNKYELA----------YWNADGKAVMSDGSVYTRSTNEDKKAVFTAEDG  776
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+            +  +                 + KV G+K+VPV V        +E++  VE+        
+Sbjct  777  SSFIQ---------------ADYKVTGIKYVPVKVKTADLNALQEEYAVVENGGTLSGGF  821
+
+Query  165  -----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                       + VT NTNGLKT   +D    +FS R   S
+Sbjct  822  SENQLQSYTAIADVTPNTNGLKTAEKQDDGSFTFSERTTGS  862
+
+
+> UniRef90_G1WM41 Uncharacterized protein n=2 Tax=Dorea TaxID=189330 
+RepID=G1WM41_9FIRM
+Length=1268
+
+ Score = 161 bits (407),  Expect = 7e-42, Method: Composition-based stats.
+ Identities = 54/221 (24%), Positives = 74/221 (33%), Gaps = 69/221 (31%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRD--------VLLADLDAGMFDAVSRATHGHGAFRQQF  52
+            + +Y YA LS+++YWA E   +              + D G FD V+RAT  HG  R  F
+Sbjct  673  DYTYVYAGLSWSEYWASEGVLAAGSTESSEELDSRGEADKGAFDVVTRATTNHGLHRGSF  732
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +  +   +              Y  D                    +  F   +G
+Sbjct  733  QCTAVIETKDGTTY----------NLAYWKD--------------------KDTFVTTDG  762
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+                            +  I + KV G+K+VPV V        KEK+  VE         
+Sbjct  763  QEVAFAN--------VKANIKDYKVTGLKYVPVKVKTSDYEAFKEKYTIVEKDGTLAGGY  814
+
+Query  165  -----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                       + VTENTNGLKT         SFS R   +
+Sbjct  815  GEVNLKSYTAAADVTENTNGLKTATKNADGTFSFSERANGT  855
+
+
+> UniRef90_UPI0009307B17 UPI0009307B17 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009307B17
+Length=1281
+
+ Score = 161 bits (406),  Expect = 9e-42, Method: Composition-based stats.
+ Identities = 50/220 (23%), Positives = 70/220 (32%), Gaps = 65/220 (30%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRDVL--------LADLDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA L++  YWA E                  + D G FDAV+RAT  HG  R  F
+Sbjct  591  EYKYVYAGLTWEQYWASEGVYEATNTSASEDKDRRGESDMGGFDAVTRATANHGLHRGSF  650
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    V      +                                      +      +G
+Sbjct  651  QTMATVYDANGKTYALAGWKD------------------------------KTTMILTDG  680
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+            +     +     +D     +T  KV G+K++PV V        K+ F  VE+        
+Sbjct  681  STVSCSKGKINGID-----VTEYKVTGLKYIPVKVKTADYDAFKKAFKVVENGEKLFGGY  735
+
+Query  165  -----------SRVTENTNGLKTMLTED---SFSARKVSS  190
+                       + V  NTNGLKT   +    +FSAR   +
+Sbjct  736  AENNLSAYEETAEVNANTNGLKTATKDGDTFTFSARANGT  775
+
+
+> UniRef90_B0P041 Fibronectin type III domain protein n=6 Tax=Clostridiales 
+TaxID=186802 RepID=B0P041_9CLOT
+Length=676
+
+ Score = 157 bits (396),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 50/220 (23%), Positives = 80/220 (36%), Gaps = 56/220 (25%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRDVLLA--------DLDAGMFDAVSRATHGHGAFRQQF  52
+            E +Y Y  L++A+YWA E   + +   +        + D G +D V+RAT  HG  R  F
+Sbjct  46   EWTYCYVGLTWAEYWANEGVYNANDTSSSDVEDSHYEKDKGGYDVVTRATTNHGLHRGSF  105
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEA-VE  111
+            Q    +                        +   +       S     +DG+  +++  +
+Sbjct  106  QGNAVI------------------------EAKASDGTIKEFSVSHWSKDGKKFYQSSTD  141
+
+Query  112  GAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED-------  164
+                   + +    D  +YK+T+ +V G K+VPV V        K     VE+       
+Sbjct  142  ATGVSYAKGTITDTDGTQYKLTSYEVKGTKYVPVKVKTTDLDALKANHTVVENGGTLVGG  201
+
+Query  165  ------------SRVTENTNGLKTMLTEDS----FSARKV  188
+                        + VT NT GLKT   ++     FSAR  
+Sbjct  202  YGENQLKSYQKTANVTANTYGLKTATKQEDGSFIFSARSN  241
+
+
+> UniRef90_A0A174KJ69 47 kDa membrane antigen n=1 Tax=Fusicatenibacter 
+saccharivorans TaxID=1150298 RepID=A0A174KJ69_9FIRM
+Length=1563
+
+ Score = 159 bits (401),  Expect = 5e-41, Method: Composition-based stats.
+ Identities = 55/221 (25%), Positives = 81/221 (37%), Gaps = 72/221 (33%)
+
+Query  2    TSYGYATLSYADYWAGELGQSRD--------VLLADLDAGMFDAVSRATHGHGAFRQQFQ  53
+              Y YA L++A+YWA E  Q+              + D G FD V+RAT  HG  R  FQ
+Sbjct  678  YKYVYAGLTWAEYWAAEGVQAAGSDAGSDETDSREESDKGAFDVVTRATTNHGLHRGSFQ  737
+
+Query  54   YAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEGA  113
+             A  +                     Y  D +   +   +A+   +  +GE         
+Sbjct  738  CAATI---------------------YMKDGTTYDVAYYTAATTAVLTNGE---------  767
+
+Query  114  VALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED---------  164
+                       V  ++ +I + +V G+K+VPV V  +      +K+  VE+         
+Sbjct  768  ----------TVTYDKSQIDHYEVKGLKYVPVKVSEDDYEDFCKKYVVVENGGTLSGGFS  817
+
+Query  165  -----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                       + VTENTNGLK  +       SFSA    S
+Sbjct  818  ENKLQSYTGLVADVTENTNGLKIAVKNADGSFSFSAGTTGS  858
+
+
+> UniRef90_A0A174GGJ7 47 kDa membrane antigen n=3 Tax=Lachnospiraceae 
+TaxID=186803 RepID=A0A174GGJ7_9FIRM
+Length=1615
+
+ Score = 158 bits (400),  Expect = 8e-41, Method: Composition-based stats.
+ Identities = 55/221 (25%), Positives = 81/221 (37%), Gaps = 72/221 (33%)
+
+Query  2    TSYGYATLSYADYWAGELGQSRD--------VLLADLDAGMFDAVSRATHGHGAFRQQFQ  53
+              Y YA L++A+YWA E  Q+              + D G FD V+RAT  HG  R  FQ
+Sbjct  678  YKYVYAGLTWAEYWAAEGVQAAGSDAGSDETDSREESDKGAFDVVTRATTNHGLHRGSFQ  737
+
+Query  54   YAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEGA  113
+             A  +                     Y  D +   +   +A+   +  +GE         
+Sbjct  738  CAATI---------------------YMKDGTTYDVAYYTAATTAVLTNGE---------  767
+
+Query  114  VALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED---------  164
+                       V  ++ +I + +V G+K+VPV V  +      +K+  VE+         
+Sbjct  768  ----------TVTYDKSQIDHYEVKGLKYVPVKVSEDDYEDFCKKYVVVENGGTLSGGFS  817
+
+Query  165  -----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                       + VTENTNGLK  +       SFSA    S
+Sbjct  818  ENKLQSYTGLVADVTENTNGLKIAVKNADGSFSFSAGTTGS  858
+
+
+> UniRef90_D4LQB5 Bacterial surface proteins containing Ig-like 
+domains n=1 Tax=Blautia obeum A2-162 TaxID=657314 RepID=D4LQB5_9FIRM
+Length=1199
+
+ Score = 158 bits (398),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 48/220 (22%), Positives = 66/220 (30%), Gaps = 65/220 (30%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRDVL--------LADLDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA L++  +WA E                  + D G FDAV+RAT  HG  R  F
+Sbjct  588  EYKYVYAGLTWDQFWASEGVYEATNTSASEDKDRRGESDMGGFDAVTRATANHGLHRGSF  647
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    V      S +                                    +      +G
+Sbjct  648  QTMATVYDVNGKSYELAGWKD------------------------------KTTMILTDG  677
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+                  +      D     +    V G+K++PV V        K+ F  VE+        
+Sbjct  678  NTVSCSKGKINGAD-----VAEYTVTGLKYIPVKVKTADYDAFKKAFKVVENGEKLFGGY  732
+
+Query  165  -----------SRVTENTNGLKTMLTED---SFSARKVSS  190
+                       + V  NTNGLKT        +FSAR   +
+Sbjct  733  AENNLSAYEETAEVNANTNGLKTATKTADGFTFSARANGT  772
+
+
+> UniRef90_A0A1C5SZA8 47 kDa membrane antigen n=1 Tax=uncultured 
+Clostridium sp. TaxID=59620 RepID=A0A1C5SZA8_9CLOT
+Length=1752
+
+ Score = 158 bits (398),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 55/219 (25%), Positives = 74/219 (34%), Gaps = 69/219 (32%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRD--------VLLADLDAGMFDAVSRATHGHGAFRQQF  52
+            E SY Y  +++A+YWA E  Q+              + D G FDAV+RAT  HG  R  F
+Sbjct  704  EYSYVYVGMTWAEYWANEGVQNAGSTASSDVLDSHNEYDKGAFDAVTRATTNHGLHRGSF  763
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +      S              Y  D ++                          
+Sbjct  764  QCNAVIETNDGQSY----------NLAYWKDKTIFVTTD---------------------  792
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+                        +   +  I + KV G+K+VPV V        KEK+  VE+        
+Sbjct  793  -------GQEVAIGDIKSNIKDYKVTGLKYVPVKVKTADLSALKEKYAVVENGGTLRGGY  845
+
+Query  165  -----------SRVTENTNGLKTMLTEDS----FSARKV  188
+                       + VT+NTNGLK     D     FSARK 
+Sbjct  846  GEGNLSSYEVTANVTDNTNGLKEAAKNDDGSFVFSARKN  884
+
+
+> UniRef90_A0A1C5ZC46 47 kDa membrane antigen n=1 Tax=uncultured 
+Blautia sp. TaxID=765821 RepID=A0A1C5ZC46_9FIRM
+Length=1077
+
+ Score = 152 bits (383),  Expect = 8e-39, Method: Composition-based stats.
+ Identities = 54/221 (24%), Positives = 78/221 (35%), Gaps = 63/221 (29%)
+
+Query  1    ETSYGYATLSYADYWAGELG--------QSRDVLLADLDAGMFDAVSRATHGHGAFRQQF  52
+            E SY Y  L++++YWA E           +      + D G FD V+RAT  HG  R  F
+Sbjct  496  EWSYMYVGLTWSEYWANEGVYMAGSTEANAETDDRDEHDKGAFDTVTRATVNHGLHRGSF  555
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    +                     Y TD     +   SA                +G
+Sbjct  556  QCTTVI---------------------YTTDGKTFPVQSWSADGG--------TMNLTDG  586
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKF--HFVED------  164
+            +     R      +     +    V+G+K+VPV V +E     K  +    VE+      
+Sbjct  587  SSVGYKRGVITDAEGSHI-LKEYDVYGLKYVPVKVNNEDLEAFKAAYGSKIVENGAAMSG  645
+
+Query  165  -------------SRVTENTNGLKTMLTED----SFSARKV  188
+                         + VTENTNGLKT + ++    +FSAR  
+Sbjct  646  GYGEMKLSAYTATATVTENTNGLKTAVLQENGSFAFSARNN  686
+
+
+> UniRef90_U2PJ02 Uncharacterized protein (Fragment) n=3 Tax=Clostridiales 
+TaxID=186802 RepID=U2PJ02_EUBRA
+Length=1113
+
+ Score = 151 bits (382),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 51/221 (23%), Positives = 86/221 (39%), Gaps = 56/221 (25%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRD--------VLLADLDAGMFDAVSRATHGHGAFRQQF  52
+            E +Y YA++ YA+Y+A E  Q+              + D G FD V+RAT  HG  R  F
+Sbjct  580  EYTYVYASVPYAEYYANEDVQNAGSAASSDVMDTNGEYDKGAFDTVTRATANHGLHRGSF  639
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q  V +                     Y+TD +  + +  +     +  +G+   +A + 
+Sbjct  640  QQDVVI---------------------YDTDGNTYEPISWTDGNTAILSNGKTLVKASDR  678
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+            A  +    ++  VD +     +  + G+K+VPV V  +     K  +   E+        
+Sbjct  679  ATGI----TTLTVDGKTSTYDHYVIKGIKYVPVKVKSKNLEAFKAAYSVTENGETLSGGY  734
+
+Query  165  -----------SRVTENTNGLKTMLTED----SFSARKVSS  190
+                       + V +NTNGLK +        SFSA +  +
+Sbjct  735  SENNLKSYTAVADVNKNTNGLKKVSLNADGTFSFSAAQTGT  775
+
+
+> UniRef90_R7FCJ1 Fibronectin type III domain protein n=1 Tax=Ruminococcus 
+sp. CAG:330 TaxID=1262954 RepID=R7FCJ1_9FIRM
+Length=884
+
+ Score = 143 bits (359),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 49/226 (22%), Positives = 71/226 (31%), Gaps = 71/226 (31%)
+
+Query  1    ETSYGYATLSYADYWAGE-------------LGQSRDVLLADLDAGMFDAVSRATHGHGA  47
+            +  Y YA L++A+YW  E                +      + D G +DAV+RAT  HG 
+Sbjct  37   DYVYCYAALTWAEYWQNEGVYLDDAADGDLGASSTEKDTHGEYDLGAYDAVTRATSNHGL  96
+
+Query  48   FRQQFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKF  107
+             R  +Q  V+V   +  +   T   +                                  
+Sbjct  97   HRGSYQCTVKVYDTEGNAYDYTGKGQDESV------------------------------  126
+
+Query  108  EAVEGAVALADRASSFMVDSEEYKITNVKV-HGMKFVPVAVPHELKGIAKEKFHFVEDSR  166
+                  V   +  +   V+ E     +  V  G K+VPVAVP +     KE +   E+  
+Sbjct  127  ----DVVKNGNGGADITVNGEVAGTYDHSVNVGPKYVPVAVPADEYEAFKEAYTVYENGD  182
+
+Query  167  -------------------VTENTNGLKTMLTEDS----FSARKVS  189
+                               V  NT GLKT   +      FS R  S
+Sbjct  183  TITGGYTEKNLVNINETVSVDANTPGLKTAEKDADGTFQFSKRSTS  228
+
+
+> UniRef90_U2KAE3 Dockerin type I repeat-containing domain protein 
+n=2 Tax=Ruminococcus callidus TaxID=40519 RepID=U2KAE3_9FIRM
+Length=892
+
+ Score = 139 bits (351),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 48/226 (21%), Positives = 76/226 (34%), Gaps = 70/226 (31%)
+
+Query  1    ETSYGYATLSYADYWAGE-------------LGQSRDVLLADLDAGMFDAVSRATHGHGA  47
+            +  Y  A+L++A+YW  E                +      + D G +DAV+RAT  HG 
+Sbjct  49   DYVYCAASLTWAEYWENEGVYLDSAADGNWEASSADADSHGETDLGAYDAVTRATSNHGL  108
+
+Query  48   FRQQFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKF  107
+             R  +Q  V+V   +  S   T   +                                  
+Sbjct  109  HRGSYQCTVKVFDTEGNSYDYTGRGQN---------------------------------  135
+
+Query  108  EAVEGAVALADRASSFMVDSEEYKITNVKV-HGMKFVPVAVPHELKGIAKEKFHFVEDS-  165
+            E+V+         ++ MVD +     +  V  G K+VPVAVP       K+ +   E+  
+Sbjct  136  ESVDVVSNRDAGTTTVMVDGKAAGAYDHSVIVGPKYVPVAVPAADYEDFKKAYTVYENGT  195
+
+Query  166  ------------------RVTENTNGLKTMLTEDS----FSARKVS  189
+                              +V  NT+G+K    ++     FS R  S
+Sbjct  196  EVKGGYTEKNLVNIDEEIQVDANTSGIKVAEKQEDGTFQFSKRSTS  241
+
+
+> UniRef90_R5UYY2 Bacterial group 2 Ig-like protein n=1 Tax=Ruminococcus 
+sp. CAG:254 TaxID=1262953 RepID=R5UYY2_9FIRM
+Length=867
+
+ Score = 139 bits (351),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 50/224 (22%), Positives = 74/224 (33%), Gaps = 72/224 (32%)
+
+Query  1    ETSYGYATLSYADYWAGELG-------------QSRDVLLADLDAGMFDAVSRATHGHGA  47
+            +  Y  A LS+A+YW  E                +      + D G +D V+RAT  HG 
+Sbjct  35   DYVYCAAALSWAEYWEQEGVFLSDDANGDWTAESADSDTRGESDLGAYDTVTRATSNHGL  94
+
+Query  48   FRQQFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKF  107
+             R  +Q  V+V      +   T    G                                 
+Sbjct  95   HRGSYQCTVKVYDTDGNAYDYTGKGNGESV------------------------------  124
+
+Query  108  EAVEGAVALADRASSFMVDSEEY-KITNVKVHGMKFVPVAVPHELKGIAKEKFHFVEDS-  165
+                  V   D  +   VD +E     +  + G K+VPVAVP  L    K+K+  +E+  
+Sbjct  125  -----DVVKGDNGTMITVDGKEVGTYDHSMILGPKYVPVAVPASLYDDFKQKYSVLENGD  179
+
+Query  166  ------------------RVTENTNGLKTMLTED----SFSARK  187
+                               V+ NT+GLKT+   +    +FS R 
+Sbjct  180  SMVGGYTEKNLVAINETVDVSANTDGLKTVSQNEDGTYTFSKRA  223
+
+
+> UniRef90_A0A1C6I313 Endo-1,4-beta-xylanase A n=1 Tax=uncultured 
+Butyricicoccus sp. TaxID=1193532 RepID=A0A1C6I313_9CLOT
+Length=1306
+
+ Score = 135 bits (339),  Expect = 9e-33, Method: Composition-based stats.
+ Identities = 50/221 (23%), Positives = 73/221 (33%), Gaps = 71/221 (32%)
+
+Query  1    ETSYGYATLSYADYWAGE--------LGQSRDVLLA--DLDAGMFDAVSRATHGHGAFRQ  50
+            E  Y YA + Y +YW  E             D L    + D G FDAVSRAT  HG  R 
+Sbjct  818  EHIYAYAAVPYDEYWQSEGVYLSGSKWDVGSDALDGHKEYDKGAFDAVSRATSNHGLHRG  877
+
+Query  51   QFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAV  110
+             FQ +V +          T+D+         TD         +                 
+Sbjct  878  SFQQSVVIH---------TKDNDKDYYPVAWTDGDNFVDADGN-----------------  911
+
+Query  111  EGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED------  164
+                           +  E  I + K+ G+K+VPV V         +++   ++      
+Sbjct  912  -------------TYNKNEINIDSYKITGIKYVPVKVSSSDFVDFCKQYTVTQNGETLQG  958
+
+Query  165  -------------SRVTENTNGLKTMLTED---SFSARKVS  189
+                         + V ++TNGLK +  +D   SF  RK  
+Sbjct  959  GFSEFNLNAYTAVAAVDKDTNGLKEVTKDDSLFSFGPRKTG  999
+
+
+> UniRef90_A0A174Y1P4 47 kDa membrane antigen n=5 Tax=Clostridiales 
+TaxID=186802 RepID=A0A174Y1P4_9FIRM
+Length=1131
+
+ Score = 130 bits (326),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 50/221 (23%), Positives = 75/221 (34%), Gaps = 75/221 (34%)
+
+Query  1    ETSYGYATLSYADYWAGELGQSRDVL--------LADLDAGMFDAVSRATHGHGAFRQQF  52
+            E  Y YA+L++A+YW+ E   +              + D G FDAVSRAT  HG  R  F
+Sbjct  550  ENVYVYASLAWAEYWSSEDVYNAGSTASSEEKDRRGESDLGAFDAVSRATANHGLHRGSF  609
+
+Query  53   QYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEG  112
+            Q    + G+                                 +      DG+  +   +G
+Sbjct  610  QAIAVLNGK---------------------------------TVSHWSADGKTVY-YADG  635
+
+Query  113  AVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED--------  164
+               + +R            +T   V G+K+VPV +         E    V++        
+Sbjct  636  TSEVFNR----------NNVTGYTVTGLKYVPVEIKRADLAAFAESHAIVKNGGQLIGGY  685
+
+Query  165  -----------SRVTENTNGLKTMLT--EDSF--SARKVSS  190
+                       + VT NTNGLK      + SF   AR+  +
+Sbjct  686  GEKELKSYEAVANVTANTNGLKKATKAEDGSFVIGARQNGT  726
+
+
+> UniRef90_R6AYB7 Putative polysaccharide lyase n=1 Tax=Roseburia 
+intestinalis CAG:13 TaxID=1263104 RepID=R6AYB7_9FIRM
+Length=766
+
+ Score = 126 bits (315),  Expect = 8e-30, Method: Composition-based stats.
+ Identities = 49/197 (25%), Positives = 72/197 (37%), Gaps = 64/197 (32%)
+
+Query  16   AGELGQSRDVLLADLDAGMFDAVSRATHGHGAFRQQFQYAVEVLGEKVLSKQETEDSRGR  75
+            A   G S  +  A+LD G FD VSRAT  HG  R  +Q   E+                 
+Sbjct  152  AVNAGVSVCLCSAELDMGAFDTVSRATTNHGLHRGSYQCTSEIT----------------  195
+
+Query  76   KKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEGAVALADRASSFMVDSEEYKITNV  135
+                 + D +  K+   + +   +  +GE                       ++ +I + 
+Sbjct  196  -----KKDGTKLKVTYYTGAATGVLTNGEAF-------------------SYDKNEIESY  231
+
+Query  136  KVHGMKFVPVAVPHELKGIAKEKFHFVED--------------------SRVTENTNGLK  175
+             V G+K+VPV V  E     K  +  VE+                    + VTENTNGLK
+Sbjct  232  VVTGLKYVPVKVKTEDYEAFKAAYTVVENGSTLSGGFSEENLKNYTDLVAEVTENTNGLK  291
+
+Query  176  TMLTED----SFSARKV  188
+            T+   +    SF+AR  
+Sbjct  292  TVTQNEDGSFSFAARVN  308
+
+
+> UniRef90_C7G566 FMN-binding domain protein n=2 Tax=Roseburia 
+intestinalis TaxID=166486 RepID=C7G566_9FIRM
+Length=218
+
+ Score = 77.2 bits (188),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 21/52 (40%), Positives = 27/52 (52%), Gaps = 0/52 (0%)
+
+Query  16   AGELGQSRDVLLADLDAGMFDAVSRATHGHGAFRQQFQYAVEVLGEKVLSKQ  67
+            A   G S  +  A+LD G FD VSRAT  HG  R  +Q   E+  + V S +
+Sbjct  156  AVNAGVSVCLCSAELDMGAFDTVSRATTNHGLHRGSYQCTSEITKKMVQSSK  207
+
+
+> UniRef90_C7G565 Uncharacterized protein n=3 Tax=Roseburia intestinalis 
+TaxID=166486 RepID=C7G565_9FIRM
+Length=553
+
+ Score = 73.3 bits (178),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 26/89 (29%), Positives = 38/89 (43%), Gaps = 24/89 (27%)
+
+Query  124  MVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVED-------------------  164
+                ++ +I +  V G+K+VPV V  E     K  +  VE+                   
+Sbjct  7    TFSYDKNEIESYVVTGLKYVPVKVKTEDYEAFKAAYTVVENGSTLSGGFSEENLKNYTDL  66
+
+Query  165  -SRVTENTNGLKTMLTED----SFSARKV  188
+             + VTENTNGLKT+   +    SF+AR  
+Sbjct  67   VAEVTENTNGLKTVTQNEDGSFSFAARVN  95
+
+
+> UniRef90_R6QBP8 Possible S-layer protein n=1 Tax=Eubacterium 
+sp. CAG:274 TaxID=1262888 RepID=R6QBP8_9FIRM
+Length=900
+
+ Score = 46.4 bits (108),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 34/149 (23%), Positives = 48/149 (32%), Gaps = 31/149 (21%)
+
+Query  2    TSYGYATLSYADYWAGE---------------------------LGQSRDV----LLADL  30
+              +   TL+Y +YW  E                             QS +       AD 
+Sbjct  333  YKFARKTLTYGEYWYAETSDGFNGTFSTEFAKNGTVAEIPDSYTATQSANDKYAATGADT  392
+
+Query  31   DAGMFDAVSRATHGHGAFRQQFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMV  90
+            DAGM+DAVSRAT G+G  R  F  AV  L         +   +          P   K  
+Sbjct  393  DAGMYDAVSRATTGYGLGRLSFTQAVNALNSNGEMAPFSSSIKYENGAYTVVRPDNAKAD  452
+
+Query  91   RASASFQDLGEDGEIKFEAVEGAVALADR  119
+                   + G +G+I    ++  V    +
+Sbjct  453  FGYDGSSNRGSNGKITATGIKDVVVAVSK  481
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.120    0.368    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0364    0.140     1.90     42.6     43.6 
+
+Effective search space used: 548631775380
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

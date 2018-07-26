@@ -1,0 +1,2167 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1he1a_
+
+Length=135
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q51449 ADP-ribosyltransferase toxin AexT n=70 Tax=Pseu...  258     1e-81
+  UniRef90_Q51451 Exoenzyme S n=13 Tax=Pseudomonadales TaxID=7227...  258     1e-81
+  UniRef90_A0A0A8RAP1 ADP-ribosyltransferase toxin AexT n=124 Tax...  176     3e-50
+  UniRef90_A6YCJ6 AexT n=3 Tax=Aeromonas TaxID=642 RepID=A6YCJ6_A...  138     4e-36
+  UniRef90_A0A1C2KW94 ADP-ribosyltransferase n=16 Tax=Aeromonas T...  137     1e-35
+  UniRef90_A0FKE4 AexT n=10 Tax=Aeromonas TaxID=642 RepID=A0FKE4_...  131     1e-33
+  UniRef90_A0A0T6UH61 ADP-ribosyltransferase n=5 Tax=Aeromonas al...  105     7e-24
+  UniRef90_A0A023EC35 Putative ADP-ribosyltransferase toxin AexT ...  100     4e-23
+  UniRef90_A0A0T6U319 ADP-ribosyltransferase n=14 Tax=Aeromonas T...  103     4e-23
+  UniRef90_Q93Q17 ADP-ribosyltransferase toxin AexT n=6 Tax=Aerom...  101     1e-22
+  UniRef90_UPI000463F21D UPI000463F21D related cluster n=1 Tax=un...  75.5    8e-15
+  UniRef90_D0Z4Z3 ADP-ribosyltransferase toxin aexT (Exoenzyme T)...  64.3    2e-09
+  UniRef90_A0A0H2MQJ6 ADP-ribosyltransferase n=3 Tax=Vibrio TaxID...  61.2    3e-08
+  UniRef90_S5NII6 Type III secretion injected virulence protein(Y...  56.6    4e-07
+  UniRef90_UPI00075FDB4D hypothetical protein n=1 Tax=Burkholderi...  53.1    1e-05
+  UniRef90_UPI0006820CD9 hypothetical protein n=1 Tax=Grimontia h...  48.1    2e-04
+  UniRef90_A0A0M1V124 Outer membrane virulence protein YopE n=3 T...  45.8    7e-04
+  UniRef90_A0A0F5B9E5 Pathogenicity island 1 effector protein Stp...  47.4    0.001
+  UniRef90_A0A0H7DTI2 Outer membrane virulence protein yopE n=14 ...  46.2    0.001
+  UniRef90_V1HR49 Pathogenicity island 1 effector protein StpP n=...  47.0    0.001
+  UniRef90_P31493 Outer membrane virulence protein YopE n=57 Tax=...  45.4    0.002
+  UniRef90_UPI000513651B UPI000513651B related cluster n=1 Tax=un...  45.4    0.003
+  UniRef90_UPI00068DA9F0 pathogenicity island 1 effector protein ...  44.3    0.009
+
+
+> UniRef90_Q51449 ADP-ribosyltransferase toxin AexT n=70 Tax=Pseudomonadaceae 
+TaxID=135621 RepID=Q51449_PSEAI
+Length=453
+
+ Score = 258 bits (659),  Expect = 1e-81, Method: Compositional matrix adjust.
+ Identities = 134/134 (100%), Positives = 134/134 (100%), Gaps = 0/134 (0%)
+
+Query  2    SSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGI  61
+            SSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGI
+Sbjct  96   SSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGI  155
+
+Query  62   RAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMS  121
+            RAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMS
+Sbjct  156  RAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMS  215
+
+Query  122  EVALLRQAVESEVS  135
+            EVALLRQAVESEVS
+Sbjct  216  EVALLRQAVESEVS  229
+
+
+> UniRef90_Q51451 Exoenzyme S n=13 Tax=Pseudomonadales TaxID=72274 
+RepID=Q51451_PSEAI
+Length=453
+
+ Score = 258 bits (659),  Expect = 1e-81, Method: Compositional matrix adjust.
+ Identities = 134/134 (100%), Positives = 134/134 (100%), Gaps = 0/134 (0%)
+
+Query  2    SSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGI  61
+            SSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGI
+Sbjct  96   SSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGI  155
+
+Query  62   RAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMS  121
+            RAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMS
+Sbjct  156  RAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMS  215
+
+Query  122  EVALLRQAVESEVS  135
+            EVALLRQAVESEVS
+Sbjct  216  EVALLRQAVESEVS  229
+
+
+> UniRef90_A0A0A8RAP1 ADP-ribosyltransferase toxin AexT n=124 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A0A8RAP1_PSEAI
+Length=457
+
+ Score = 176 bits (447),  Expect = 3e-50, Method: Compositional matrix adjust.
+ Identities = 95/128 (74%), Positives = 107/128 (84%), Gaps = 0/128 (0%)
+
+Query  7    FKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQ  66
+             KQM+LQ+ALP+TL GL KASELATLT E LA++H+RLASGDGALRSL+TAL GIR GS+
+Sbjct  104  IKQMMLQKALPLTLGGLGKASELATLTAERLAKDHTRLASGDGALRSLATALVGIRDGSR  163
+
+Query  67   VEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALL  126
+            +E SR QA RLLE+S+ GIALQQWGT GGAASQ VL ASPE  REI  QLH VM +VALL
+Sbjct  164  IEASRTQAARLLEQSVRGIALQQWGTAGGAASQHVLSASPEQLREIAVQLHAVMDKVALL  223
+
+Query  127  RQAVESEV  134
+            R AVESEV
+Sbjct  224  RHAVESEV  231
+
+
+> UniRef90_A6YCJ6 AexT n=3 Tax=Aeromonas TaxID=642 RepID=A6YCJ6_AERHY
+Length=428
+
+ Score = 138 bits (348),  Expect = 4e-36, Method: Compositional matrix adjust.
+ Identities = 73/128 (57%), Positives = 97/128 (76%), Gaps = 0/128 (0%)
+
+Query  8    KQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQV  67
+            K+++LQQALP TL GLDKASEL ++  E L ++H+RLA+G+GALRSL+T+L GIR GS  
+Sbjct  101  KRLLLQQALPFTLSGLDKASELNSINAEQLGQDHARLATGNGALRSLATSLIGIRDGSMR  160
+
+Query  68   EESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALLR  127
+            +ES+  A  LLE  I GI LQQWGT G   ++LV  A+PEL +E   QLH VM+EVA L+
+Sbjct  161  QESQTLAAGLLEHPIAGIPLQQWGTVGSKVTELVASATPELLQEAMSQLHAVMAEVADLQ  220
+
+Query  128  QAVESEVS  135
+            +AV++EV+
+Sbjct  221  RAVKAEVA  228
+
+
+> UniRef90_A0A1C2KW94 ADP-ribosyltransferase n=16 Tax=Aeromonas 
+TaxID=642 RepID=A0A1C2KW94_AERHY
+Length=513
+
+ Score = 137 bits (346),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 71/128 (55%), Positives = 98/128 (77%), Gaps = 0/128 (0%)
+
+Query  8    KQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQV  67
+            K+++LQ+ALP TL GLDKASEL  +  + L +EH+RLA+G+GALRSL+T+L GI+ GS  
+Sbjct  101  KRLLLQKALPFTLGGLDKASELNNIDAQQLGQEHARLATGNGALRSLATSLNGIKDGSMR  160
+
+Query  68   EESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALLR  127
+            +ES+  A  LLER I GI LQQWGT GG  ++L+ +A+PE  +E   QLH VM+EVA L+
+Sbjct  161  QESQTLAAGLLERPIAGIPLQQWGTVGGKVTELIANATPEQLQEAMSQLHAVMAEVADLQ  220
+
+Query  128  QAVESEVS  135
+            +AV++EV+
+Sbjct  221  RAVKAEVA  228
+
+
+> UniRef90_A0FKE4 AexT n=10 Tax=Aeromonas TaxID=642 RepID=A0FKE4_9GAMM
+Length=453
+
+ Score = 131 bits (330),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 72/127 (57%), Positives = 93/127 (73%), Gaps = 0/127 (0%)
+
+Query  8    KQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQV  67
+            K++ LQ+ALP TL  LDK SEL ++  E L ++H+ LA+G+GALRSL TAL+GIR GS++
+Sbjct  101  KRLFLQKALPYTLSALDKTSELKSINAEQLRKDHTTLATGNGALRSLVTALSGIRDGSKI  160
+
+Query  68   EESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALLR  127
+            E +  QA RLLE ++GGIALQQWGTTG  AS+ V  A+ E   E+   L+ +M EVA LR
+Sbjct  161  EATTHQAARLLELNLGGIALQQWGTTGRQASEWVSSATQEQLGEVAAGLNDLMHEVAQLR  220
+
+Query  128  QAVESEV  134
+             AVESEV
+Sbjct  221  YAVESEV  227
+
+
+> UniRef90_A0A0T6UH61 ADP-ribosyltransferase n=5 Tax=Aeromonas 
+allosaccharophila TaxID=656 RepID=A0A0T6UH61_9GAMM
+Length=509
+
+ Score = 105 bits (262),  Expect = 7e-24, Method: Compositional matrix adjust.
+ Identities = 58/129 (45%), Positives = 83/129 (64%), Gaps = 0/129 (0%)
+
+Query  7    FKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQ  66
+             ++++ Q A   +L G  KA  L  +T E L ++H+ LA+G+G LRSL TAL  +  GSQ
+Sbjct  98   LQRLMKQAAFGSSLGGFAKADVLHNITAEQLGKDHTTLATGNGPLRSLCTALQAVVVGSQ  157
+
+Query  67   VEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALL  126
+              + R  A  LL R I GI LQQWGT GG  ++L+ +A+PEL +E   QLH  M EVA L
+Sbjct  158  QPQLRELAAGLLARPIAGIPLQQWGTVGGKVTELLANATPELLQEAMSQLHTAMGEVADL  217
+
+Query  127  RQAVESEVS  135
+            ++AV++E++
+Sbjct  218  QRAVKAEIA  226
+
+
+> UniRef90_A0A023EC35 Putative ADP-ribosyltransferase toxin AexT 
+n=1 Tax=Aeromonas salmonicida subsp. masoucida NBRC 13784 
+TaxID=1216980 RepID=A0A023EC35_AERSA
+Length=264
+
+ Score = 100 bits (250),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 58/129 (45%), Positives = 80/129 (62%), Gaps = 0/129 (0%)
+
+Query  7    FKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQ  66
+             ++++ Q A   +L G  KA  L  +T E L ++H+ LA+G+G LRSL TAL  +  GSQ
+Sbjct  98   LQRLMKQAAFGSSLGGFAKADVLNNITGEQLGKDHASLATGNGPLRSLCTALQAVVIGSQ  157
+
+Query  67   VEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALL  126
+              + R  A  L  R I GI LQQWGT GG  ++L+  A PEL +E   QLH  M EVA L
+Sbjct  158  QPQLRELATGLQARPIAGIPLQQWGTVGGKVTKLLTSAPPELLKEAMSQLHTAMGEVADL  217
+
+Query  127  RQAVESEVS  135
+            ++AV++EV+
+Sbjct  218  QRAVKAEVA  226
+
+
+> UniRef90_A0A0T6U319 ADP-ribosyltransferase n=14 Tax=Aeromonas 
+TaxID=642 RepID=A0A0T6U319_9GAMM
+Length=512
+
+ Score = 103 bits (256),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 60/135 (44%), Positives = 84/135 (62%), Gaps = 0/135 (0%)
+
+Query  1    ASSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAG  60
+            A+S    ++++ Q A   +L G  KA  L  +  E L +EH+ LA+G+G LRSL TAL  
+Sbjct  92   ATSPEDLQRLMKQAAFGSSLGGFAKADVLNNIAAEQLGKEHATLATGNGPLRSLCTALQA  151
+
+Query  61   IRAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVM  120
+            +  GS+  + R  A  LL R I GI LQQWGT GG A+ L+  A+PEL +E   QLH  M
+Sbjct  152  VVIGSEQPQLRELAAGLLARPIAGIPLQQWGTVGGKATDLLASATPELLQEAMSQLHTAM  211
+
+Query  121  SEVALLRQAVESEVS  135
+             EVA L++AV++E++
+Sbjct  212  GEVADLQRAVKAEIA  226
+
+
+> UniRef90_Q93Q17 ADP-ribosyltransferase toxin AexT n=6 Tax=Aeromonas 
+salmonicida TaxID=645 RepID=AEXT_AERSA
+Length=475
+
+ Score = 101 bits (252),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 58/129 (45%), Positives = 81/129 (63%), Gaps = 0/129 (0%)
+
+Query  7    FKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQ  66
+             ++++ Q A   +L G  KA  L  +T E L ++H+ LA+G+G LRSL TAL  +  GSQ
+Sbjct  98   LQRLMKQAAFGSSLGGFAKADVLNNITGEQLGKDHASLATGNGPLRSLCTALQAVVIGSQ  157
+
+Query  67   VEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALL  126
+              + R  A  LL R I GI LQQWG+ GG  ++L+  A PEL +E   QLH  M EVA L
+Sbjct  158  QPQLRELATGLLARPIAGIPLQQWGSVGGKVTELLTSAPPELLKEAMSQLHTAMGEVADL  217
+
+Query  127  RQAVESEVS  135
+            ++AV++EV+
+Sbjct  218  QRAVKAEVA  226
+
+
+> UniRef90_UPI000463F21D UPI000463F21D related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000463F21D
+Length=106
+
+ Score = 75.5 bits (184),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 41/61 (67%), Positives = 47/61 (77%), Gaps = 0/61 (0%)
+
+Query  72   IQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALLRQAVE  131
+            ++  RLL  ++GGIALQQW TTG A SQLVL ASPE R EI D+L +V SEVA LRQAVE
+Sbjct  34   LEVARLLGLNLGGIALQQWRTTGAAVSQLVLGASPEQRGEIVDRLRRVASEVAPLRQAVE  93
+
+Query  132  S  132
+            S
+Sbjct  94   S  94
+
+
+> UniRef90_D0Z4Z3 ADP-ribosyltransferase toxin aexT (Exoenzyme 
+T) n=2 Tax=Vibrionaceae TaxID=641 RepID=D0Z4Z3_PHODD
+Length=514
+
+ Score = 64.3 bits (155),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 42/117 (36%), Positives = 65/117 (56%), Gaps = 5/117 (4%)
+
+Query  15   ALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEESRIQA  74
+            AL  +LKGL +   L++L  E L ++H  LA+ +GALRS  TAL  IR     E  +  A
+Sbjct  108  ALKESLKGLTQLDNLSSLDGESLKQQHRELATNNGALRSTVTALQAIRLFG-TETQKTTA  166
+
+Query  75   GRLLERSIGGIALQQWGTTGGA----ASQLVLDASPELRREITDQLHQVMSEVALLR  127
+              +L   +GG   QQW TTG      AS  + +AS E  +  +D+++Q+  +++ L+
+Sbjct  167  NSILSDMVGGRPFQQWATTGSGEAKDASTFLNEASSEELQAASDKINQLSVQISKLK  223
+
+
+> UniRef90_A0A0H2MQJ6 ADP-ribosyltransferase n=3 Tax=Vibrio TaxID=662 
+RepID=A0A0H2MQJ6_9VIBR
+Length=513
+
+ Score = 61.2 bits (147),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 41/118 (35%), Positives = 69/118 (58%), Gaps = 7/118 (6%)
+
+Query  15   ALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIR-AGSQVEESRIQ  73
+            AL  +L GL +   L++L  E L ++H  LA+ +GALRS  TAL  I+  G++ ++S   
+Sbjct  107  ALKESLNGLTQLDTLSSLDGESLKQQHRELATNNGALRSTVTALQTIKLFGTEAQKSA--  164
+
+Query  74   AGRLLERSIGGIALQQWGTTGGA----ASQLVLDASPELRREITDQLHQVMSEVALLR  127
+            A  +L  ++GG   QQW TTG      A+  + DAS E  +  +D+++Q+  +++ L+
+Sbjct  165  AINILSDTVGGQPFQQWATTGSGEAKDAATFLNDASSEELQAASDKINQLSVQISKLK  222
+
+
+> UniRef90_S5NII6 Type III secretion injected virulence protein(YopHtyrosine 
+phosphatase of FAK and p130cas prevents phagocytosis) 
+n=3 Tax=Salmonella bongori TaxID=54736 RepID=S5NII6_SALBN
+Length=299
+
+ Score = 56.6 bits (135),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 35/121 (29%), Positives = 59/121 (49%), Gaps = 1/121 (1%)
+
+Query  11   VLQQALPMTLKGLDKA-SELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEE  69
+            V QQ L +T+ GL+K   EL  +    L      +ASG+G LR L T L  +    +   
+Sbjct  155  VKQQLLTITINGLNKVIPELENVDETSLRENFLDMASGNGPLRKLMTNLHNLNLIPEANR  214
+
+Query  70   SRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALLRQA  129
+              + A +L    +G     QWGT GG  ++ +  AS +   +  +++H + +E+  +R A
+Sbjct  215  LNVYAIKLKNMQVGVAPFSQWGTNGGEVAKWINGASEQELGQAVNRIHAITNELKNIRNA  274
+
+Query  130  V  130
+            +
+Sbjct  275  L  275
+
+
+> UniRef90_UPI00075FDB4D hypothetical protein n=1 Tax=Burkholderia 
+ubonensis TaxID=101571 RepID=UPI00075FDB4D
+Length=484
+
+ Score = 53.1 bits (126),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 41/108 (38%), Positives = 56/108 (52%), Gaps = 13/108 (12%)
+
+Query  19   TLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTA---LAGIRAGSQVEESRIQAG  75
+            +L+G+ KA  L TL+   L   +  LASG GALRSL T    LA IR  + V E  +Q  
+Sbjct  131  SLQGIGKADLLKTLSGSNLQENYEALASGSGALRSLLTGLDDLAAIRGLTGVPEF-VQTL  189
+
+Query  76   RLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEV  123
+            R ++  +GG+   +WGTTGG            L+R   DQL Q  + +
+Sbjct  190  RNVQ--VGGMPFSEWGTTGGKVEAW-------LQRATQDQLDQAATRI  228
+
+
+> UniRef90_UPI0006820CD9 hypothetical protein n=1 Tax=Grimontia 
+hollisae TaxID=673 RepID=UPI0006820CD9
+Length=210
+
+ Score = 48.1 bits (113),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 34/104 (33%), Positives = 54/104 (52%), Gaps = 12/104 (12%)
+
+Query  20   LKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEESRIQ--AGRL  77
+            L GL++A        E    +   LASG+G+LR++ TAL GI   SQ  + +++  A +L
+Sbjct  99   LSGLNRALRAGKFDAETFKDQFDALASGNGSLRTMVTALQGI---SQFTQGQMKENADKL  155
+
+Query  78   LERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMS  121
+            L   I G+   Q+GT  G A  L+  AS        +++ Q++S
+Sbjct  156  LSTDILGVKFSQFGTCSGPALALLSSASK-------NEMEQIIS  192
+
+
+> UniRef90_A0A0M1V124 Outer membrane virulence protein YopE n=3 
+Tax=Yersinia TaxID=444888 RepID=A0A0M1V124_YERPE
+Length=154
+
+ Score = 45.8 bits (107),  Expect = 7e-04, Method: Compositional matrix adjust.
+ Identities = 27/76 (36%), Positives = 39/76 (51%), Gaps = 5/76 (7%)
+
+Query  28   ELATLTPEGLAREHSRLASGDGALRSLSTALAGIR--AGSQVEESRIQAGRLLERSIGGI  85
+            +L +L  E L + H + A+G G LR   T   G+    G +++    +A  +L   + GI
+Sbjct  55   QLNSLDAEMLQKNHDQFATGSGPLRGSITQCQGLMQFCGGELQA---EASAILNTPVCGI  111
+
+Query  86   ALQQWGTTGGAASQLV  101
+               QWGT GGAAS  V
+Sbjct  112  PFSQWGTIGGAASAYV  127
+
+
+> UniRef90_A0A0F5B9E5 Pathogenicity island 1 effector protein StpP 
+n=3 Tax=Salmonella enterica subsp. salamae TaxID=59202 RepID=A0A0F5B9E5_SALCE
+Length=524
+
+ Score = 47.4 bits (111),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 33/124 (27%), Positives = 58/124 (47%), Gaps = 1/124 (1%)
+
+Query  10   MVLQQALPMTLKGL-DKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVE  68
+            MV +Q L + LKGL D   EL  +    L      +AS +G+LR L T L  + +  + +
+Sbjct  146  MVKKQLLDIALKGLNDVIPELENIDGNRLRENFPEMASNNGSLRKLMTNLQNLNSVPEAK  205
+
+Query  69   ESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALLRQ  128
+            +    A  L    +G     QWGT GG  ++ +  AS +   +   ++  +  E+ ++  
+Sbjct  206  QLNGYAITLKNIQVGVAPFSQWGTNGGEVARWIDKASNQELTQAAKKIQAITQELKIIAA  265
+
+Query  129  AVES  132
+             +E+
+Sbjct  266  GLEN  269
+
+
+> UniRef90_A0A0H7DTI2 Outer membrane virulence protein yopE n=14 
+Tax=Vibrio cholerae TaxID=666 RepID=A0A0H7DTI2_VIBCL
+Length=204
+
+ Score = 46.2 bits (108),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 30/104 (29%), Positives = 49/104 (47%), Gaps = 1/104 (1%)
+
+Query  22   GLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEESRIQAGRLLERS  81
+            GL +A        +        L   +G+LR++ T L GI      +   I A  +L+  
+Sbjct  95   GLQRAIRSERFELDNFKSNFPYLTVANGSLRTIVTGLKGIVEFDDGQMKDI-AKEILDTQ  153
+
+Query  82   IGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVAL  125
+            I G+   Q+GT  G+A  LV +AS +  + I   L+++  +VAL
+Sbjct  154  ICGVPFSQFGTCSGSARDLVANASYQQEKIIIKHLNELFEKVAL  197
+
+
+> UniRef90_V1HR49 Pathogenicity island 1 effector protein StpP 
+n=1 Tax=Salmonella enterica subsp. indica serovar 6,14,25:z10:1,(2),7 
+str. 1121 TaxID=1173950 RepID=V1HR49_SALCE
+Length=535
+
+ Score = 47.0 bits (110),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 32/121 (26%), Positives = 56/121 (46%), Gaps = 1/121 (1%)
+
+Query  13   QQALPMTLKGLDKA-SELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEESR  71
+            Q  L + L GL +   +L  +    L     ++ASG G LRSL T L  +    + +   
+Sbjct  161  QHLLDIALNGLKRTIPQLEEVDGNSLRENFKKMASGSGTLRSLMTNLQNLNKIPEAKPLN  220
+
+Query  72   IQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALLRQAVE  131
+              A  L    +G     QWGT+GG   + +  AS +   +   ++H +++E+  +R  +E
+Sbjct  221  DYAETLTNIQVGVARFSQWGTSGGEVEKWIGKASSQELTQAAKKIHIIVNELKNIRTELE  280
+
+Query  132  S  132
+            +
+Sbjct  281  N  281
+
+
+> UniRef90_P31493 Outer membrane virulence protein YopE n=57 Tax=Yersinia 
+TaxID=444888 RepID=YOPE_YERPE
+Length=219
+
+ Score = 45.4 bits (106),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 27/76 (36%), Positives = 39/76 (51%), Gaps = 5/76 (7%)
+
+Query  28   ELATLTPEGLAREHSRLASGDGALRSLSTALAGIR--AGSQVEESRIQAGRLLERSIGGI  85
+            +L +L  E L + H + A+G G LR   T   G+    G +++    +A  +L   + GI
+Sbjct  120  QLNSLDAEMLQKNHDQFATGSGPLRGSITQCQGLMQFCGGELQA---EASAILNTPVCGI  176
+
+Query  86   ALQQWGTTGGAASQLV  101
+               QWGT GGAAS  V
+Sbjct  177  PFSQWGTIGGAASAYV  192
+
+
+> UniRef90_UPI000513651B UPI000513651B related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000513651B
+Length=300
+
+ Score = 45.4 bits (106),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 33/92 (36%), Positives = 50/92 (54%), Gaps = 4/92 (4%)
+
+Query  44   LASGDGALRSLSTALAGI-RAGSQVEESRIQAGRLLERSIGGIALQQWGT--TGGAASQL  100
+            LA+G+G LRSL TA  G+ +     + +R+    LL+R IGGI   Q+GT  T G A Q 
+Sbjct  164  LATGNGCLRSLMTAAQGVAQYSGNADIARV-VRTLLDRQIGGIPFSQFGTCSTTGGAVQW  222
+
+Query  101  VLDASPELRREITDQLHQVMSEVALLRQAVES  132
+            + +AS +      D + Q+  +   L Q ++S
+Sbjct  223  IKNASQDDLEGAADVIRQIAGDFEQLFQNIKS  254
+
+
+> UniRef90_UPI00068DA9F0 pathogenicity island 1 effector protein 
+StpP n=1 Tax=Salmonella bongori TaxID=54736 RepID=UPI00068DA9F0
+Length=524
+
+ Score = 44.3 bits (103),  Expect = 0.009, Method: Compositional matrix adjust.
+ Identities = 30/109 (28%), Positives = 48/109 (44%), Gaps = 1/109 (1%)
+
+Query  16   LPMTLKGLDKA-SELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEESRIQA  74
+            L +T+ GL+K   EL  +    L +    +ASG+G LR L T L  +    + ++     
+Sbjct  153  LTITINGLNKVIPELENVDATSLRKNFLDMASGNGLLRKLMTNLQNLNKIPEAKQINDYV  212
+
+Query  75   GRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEV  123
+              L    IG     QWGT GG   + +  AS     +   ++H +  E+
+Sbjct  213  TTLKNIQIGAGRFSQWGTCGGVVERWIDKASTHELTQAVKKIHGIAKEL  261
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.126    0.328    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 441111173475
+Results from round 2
+
+
+Query= d1he1a_
+
+Length=135
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A0T6UH61 ADP-ribosyltransferase n=5 Tax=Aeromonas al...  164     3e-45
+  UniRef90_Q93Q17 ADP-ribosyltransferase toxin AexT n=6 Tax=Aerom...  164     3e-45
+  UniRef90_Q51449 ADP-ribosyltransferase toxin AexT n=70 Tax=Pseu...  162     9e-45
+  UniRef90_Q51451 Exoenzyme S n=13 Tax=Pseudomonadales TaxID=7227...  162     9e-45
+  UniRef90_A0A0T6U319 ADP-ribosyltransferase n=14 Tax=Aeromonas T...  161     3e-44
+  UniRef90_A0A023EC35 Putative ADP-ribosyltransferase toxin AexT ...  155     8e-44
+  UniRef90_A0A1C2KW94 ADP-ribosyltransferase n=16 Tax=Aeromonas T...  160     1e-43
+  UniRef90_A6YCJ6 AexT n=3 Tax=Aeromonas TaxID=642 RepID=A6YCJ6_A...  153     1e-41
+  UniRef90_A0FKE4 AexT n=10 Tax=Aeromonas TaxID=642 RepID=A0FKE4_...  153     2e-41
+  UniRef90_A0A0A8RAP1 ADP-ribosyltransferase toxin AexT n=124 Tax...  152     3e-41
+  UniRef90_S5NII6 Type III secretion injected virulence protein(Y...  146     6e-40
+  UniRef90_A0A0F5B9E5 Pathogenicity island 1 effector protein Stp...  146     9e-39
+  UniRef90_V1HR49 Pathogenicity island 1 effector protein StpP n=...  144     5e-38
+  UniRef90_A0A0H7DTI2 Outer membrane virulence protein yopE n=14 ...  118     3e-30
+  UniRef90_D0Z4Z3 ADP-ribosyltransferase toxin aexT (Exoenzyme T)...  118     2e-28
+  UniRef90_UPI00075FDB4D hypothetical protein n=1 Tax=Burkholderi...  113     5e-27
+  UniRef90_A0A0H2MQJ6 ADP-ribosyltransferase n=3 Tax=Vibrio TaxID...  113     8e-27
+  UniRef90_UPI0006820CD9 hypothetical protein n=1 Tax=Grimontia h...  107     5e-26
+  UniRef90_A0A0M1V124 Outer membrane virulence protein YopE n=3 T...  95.2    8e-22
+  UniRef90_P31493 Outer membrane virulence protein YopE n=57 Tax=...  93.6    1e-20
+  UniRef90_UPI000463F21D UPI000463F21D related cluster n=1 Tax=un...  74.0    3e-14
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_P74873 Secreted effector protein SptP n=172 Tax=Salmon...  136     4e-35
+  UniRef90_A9MF96 Uncharacterized protein n=6 Tax=Salmonella chol...  133     4e-35
+  UniRef90_G5LSR7 Effector protein SptP n=2 Tax=Salmonella enteri...  135     5e-35
+  UniRef90_V2ICR3 Pathogenicity island 1 effector protein StpP n=...  134     4e-34
+  UniRef90_UPI0006207FE5 pathogenicity island 1 effector protein ...  131     2e-33
+  UniRef90_G5PRV7 Effector protein SptP n=2 Tax=Salmonella enteri...  129     3e-33
+  UniRef90_UPI00068DA9F0 pathogenicity island 1 effector protein ...  127     6e-32
+  UniRef90_V1HG80 Uncharacterized protein n=4 Tax=Salmonella chol...  121     2e-30
+  UniRef90_W3YCC4 Virulence determinant n=3 Tax=Providencia alcal...  94.0    1e-19
+  UniRef90_H7C8H7 Uncharacterized protein n=1 Tax=Providencia alc...  91.3    1e-18
+  UniRef90_UPI000513651B UPI000513651B related cluster n=1 Tax=un...  83.2    1e-16
+  UniRef90_UPI00071AB462 UPI00071AB462 related cluster n=3 Tax=Sa...  84.8    2e-16
+  UniRef90_F9S7A1 Uncharacterized protein (Fragment) n=1 Tax=Vibr...  80.1    3e-16
+  UniRef90_UPI00093B08DE UPI00093B08DE related cluster n=1 Tax=un...  80.5    2e-15
+  UniRef90_UPI00071AB92A UPI00071AB92A related cluster n=1 Tax=un...  75.1    1e-13
+  UniRef90_UPI0005142D33 UPI0005142D33 related cluster n=2 Tax=Sa...  74.4    2e-13
+  UniRef90_D6IDH0 Predicted protein n=1 Tax=Escherichia coli B185...  72.8    7e-13
+  UniRef90_UPI00092D6623 UPI00092D6623 related cluster n=3 Tax=Es...  64.0    2e-09
+  UniRef90_T8ZQA0 Uncharacterized protein n=1 Tax=Escherichia col...  51.6    4e-06
+
+
+> UniRef90_A0A0T6UH61 ADP-ribosyltransferase n=5 Tax=Aeromonas 
+allosaccharophila TaxID=656 RepID=A0A0T6UH61_9GAMM
+Length=509
+
+ Score = 164 bits (416),  Expect = 3e-45, Method: Composition-based stats.
+ Identities = 60/135 (44%), Positives = 85/135 (63%), Gaps = 0/135 (0%)
+
+Query  1    ASSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAG  60
+            A S    ++++ Q A   +L G  KA  L  +T E L ++H+ LA+G+G LRSL TAL  
+Sbjct  92   AVSPEDLQRLMKQAAFGSSLGGFAKADVLHNITAEQLGKDHTTLATGNGPLRSLCTALQA  151
+
+Query  61   IRAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVM  120
+            +  GSQ  + R  A  LL R I GI LQQWGT GG  ++L+ +A+PEL +E   QLH  M
+Sbjct  152  VVVGSQQPQLRELAAGLLARPIAGIPLQQWGTVGGKVTELLANATPELLQEAMSQLHTAM  211
+
+Query  121  SEVALLRQAVESEVS  135
+             EVA L++AV++E++
+Sbjct  212  GEVADLQRAVKAEIA  226
+
+
+> UniRef90_Q93Q17 ADP-ribosyltransferase toxin AexT n=6 Tax=Aeromonas 
+salmonicida TaxID=645 RepID=AEXT_AERSA
+Length=475
+
+ Score = 164 bits (414),  Expect = 3e-45, Method: Composition-based stats.
+ Identities = 60/135 (44%), Positives = 83/135 (61%), Gaps = 0/135 (0%)
+
+Query  1    ASSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAG  60
+            A S    ++++ Q A   +L G  KA  L  +T E L ++H+ LA+G+G LRSL TAL  
+Sbjct  92   AVSPEDLQRLMKQAAFGSSLGGFAKADVLNNITGEQLGKDHASLATGNGPLRSLCTALQA  151
+
+Query  61   IRAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVM  120
+            +  GSQ  + R  A  LL R I GI LQQWG+ GG  ++L+  A PEL +E   QLH  M
+Sbjct  152  VVIGSQQPQLRELATGLLARPIAGIPLQQWGSVGGKVTELLTSAPPELLKEAMSQLHTAM  211
+
+Query  121  SEVALLRQAVESEVS  135
+             EVA L++AV++EV+
+Sbjct  212  GEVADLQRAVKAEVA  226
+
+
+> UniRef90_Q51449 ADP-ribosyltransferase toxin AexT n=70 Tax=Pseudomonadaceae 
+TaxID=135621 RepID=Q51449_PSEAI
+Length=453
+
+ Score = 162 bits (410),  Expect = 9e-45, Method: Composition-based stats.
+ Identities = 134/134 (100%), Positives = 134/134 (100%), Gaps = 0/134 (0%)
+
+Query  2    SSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGI  61
+            SSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGI
+Sbjct  96   SSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGI  155
+
+Query  62   RAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMS  121
+            RAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMS
+Sbjct  156  RAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMS  215
+
+Query  122  EVALLRQAVESEVS  135
+            EVALLRQAVESEVS
+Sbjct  216  EVALLRQAVESEVS  229
+
+
+> UniRef90_Q51451 Exoenzyme S n=13 Tax=Pseudomonadales TaxID=72274 
+RepID=Q51451_PSEAI
+Length=453
+
+ Score = 162 bits (410),  Expect = 9e-45, Method: Composition-based stats.
+ Identities = 134/134 (100%), Positives = 134/134 (100%), Gaps = 0/134 (0%)
+
+Query  2    SSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGI  61
+            SSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGI
+Sbjct  96   SSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGI  155
+
+Query  62   RAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMS  121
+            RAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMS
+Sbjct  156  RAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMS  215
+
+Query  122  EVALLRQAVESEVS  135
+            EVALLRQAVESEVS
+Sbjct  216  EVALLRQAVESEVS  229
+
+
+> UniRef90_A0A0T6U319 ADP-ribosyltransferase n=14 Tax=Aeromonas 
+TaxID=642 RepID=A0A0T6U319_9GAMM
+Length=512
+
+ Score = 161 bits (408),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 60/135 (44%), Positives = 84/135 (62%), Gaps = 0/135 (0%)
+
+Query  1    ASSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAG  60
+            A+S    ++++ Q A   +L G  KA  L  +  E L +EH+ LA+G+G LRSL TAL  
+Sbjct  92   ATSPEDLQRLMKQAAFGSSLGGFAKADVLNNIAAEQLGKEHATLATGNGPLRSLCTALQA  151
+
+Query  61   IRAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVM  120
+            +  GS+  + R  A  LL R I GI LQQWGT GG A+ L+  A+PEL +E   QLH  M
+Sbjct  152  VVIGSEQPQLRELAAGLLARPIAGIPLQQWGTVGGKATDLLASATPELLQEAMSQLHTAM  211
+
+Query  121  SEVALLRQAVESEVS  135
+             EVA L++AV++E++
+Sbjct  212  GEVADLQRAVKAEIA  226
+
+
+> UniRef90_A0A023EC35 Putative ADP-ribosyltransferase toxin AexT 
+n=1 Tax=Aeromonas salmonicida subsp. masoucida NBRC 13784 
+TaxID=1216980 RepID=A0A023EC35_AERSA
+Length=264
+
+ Score = 155 bits (392),  Expect = 8e-44, Method: Composition-based stats.
+ Identities = 60/135 (44%), Positives = 82/135 (61%), Gaps = 0/135 (0%)
+
+Query  1    ASSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAG  60
+            A S    ++++ Q A   +L G  KA  L  +T E L ++H+ LA+G+G LRSL TAL  
+Sbjct  92   AVSPEDLQRLMKQAAFGSSLGGFAKADVLNNITGEQLGKDHASLATGNGPLRSLCTALQA  151
+
+Query  61   IRAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVM  120
+            +  GSQ  + R  A  L  R I GI LQQWGT GG  ++L+  A PEL +E   QLH  M
+Sbjct  152  VVIGSQQPQLRELATGLQARPIAGIPLQQWGTVGGKVTKLLTSAPPELLKEAMSQLHTAM  211
+
+Query  121  SEVALLRQAVESEVS  135
+             EVA L++AV++EV+
+Sbjct  212  GEVADLQRAVKAEVA  226
+
+
+> UniRef90_A0A1C2KW94 ADP-ribosyltransferase n=16 Tax=Aeromonas 
+TaxID=642 RepID=A0A1C2KW94_AERHY
+Length=513
+
+ Score = 160 bits (404),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 72/133 (54%), Positives = 99/133 (74%), Gaps = 0/133 (0%)
+
+Query  3    SAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIR  62
+            S    K+++LQ+ALP TL GLDKASEL  +  + L +EH+RLA+G+GALRSL+T+L GI+
+Sbjct  96   SLADQKRLLLQKALPFTLGGLDKASELNNIDAQQLGQEHARLATGNGALRSLATSLNGIK  155
+
+Query  63   AGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSE  122
+             GS  +ES+  A  LLER I GI LQQWGT GG  ++L+ +A+PE  +E   QLH VM+E
+Sbjct  156  DGSMRQESQTLAAGLLERPIAGIPLQQWGTVGGKVTELIANATPEQLQEAMSQLHAVMAE  215
+
+Query  123  VALLRQAVESEVS  135
+            VA L++AV++EV+
+Sbjct  216  VADLQRAVKAEVA  228
+
+
+> UniRef90_A6YCJ6 AexT n=3 Tax=Aeromonas TaxID=642 RepID=A6YCJ6_AERHY
+Length=428
+
+ Score = 153 bits (387),  Expect = 1e-41, Method: Composition-based stats.
+ Identities = 73/128 (57%), Positives = 97/128 (76%), Gaps = 0/128 (0%)
+
+Query  8    KQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQV  67
+            K+++LQQALP TL GLDKASEL ++  E L ++H+RLA+G+GALRSL+T+L GIR GS  
+Sbjct  101  KRLLLQQALPFTLSGLDKASELNSINAEQLGQDHARLATGNGALRSLATSLIGIRDGSMR  160
+
+Query  68   EESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALLR  127
+            +ES+  A  LLE  I GI LQQWGT G   ++LV  A+PEL +E   QLH VM+EVA L+
+Sbjct  161  QESQTLAAGLLEHPIAGIPLQQWGTVGSKVTELVASATPELLQEAMSQLHAVMAEVADLQ  220
+
+Query  128  QAVESEVS  135
+            +AV++EV+
+Sbjct  221  RAVKAEVA  228
+
+
+> UniRef90_A0FKE4 AexT n=10 Tax=Aeromonas TaxID=642 RepID=A0FKE4_9GAMM
+Length=453
+
+ Score = 153 bits (387),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 73/132 (55%), Positives = 94/132 (71%), Gaps = 0/132 (0%)
+
+Query  3    SAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIR  62
+            S    K++ LQ+ALP TL  LDK SEL ++  E L ++H+ LA+G+GALRSL TAL+GIR
+Sbjct  96   SMADQKRLFLQKALPYTLSALDKTSELKSINAEQLRKDHTTLATGNGALRSLVTALSGIR  155
+
+Query  63   AGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSE  122
+             GS++E +  QA RLLE ++GGIALQQWGTTG  AS+ V  A+ E   E+   L+ +M E
+Sbjct  156  DGSKIEATTHQAARLLELNLGGIALQQWGTTGRQASEWVSSATQEQLGEVAAGLNDLMHE  215
+
+Query  123  VALLRQAVESEV  134
+            VA LR AVESEV
+Sbjct  216  VAQLRYAVESEV  227
+
+
+> UniRef90_A0A0A8RAP1 ADP-ribosyltransferase toxin AexT n=124 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A0A8RAP1_PSEAI
+Length=457
+
+ Score = 152 bits (385),  Expect = 3e-41, Method: Composition-based stats.
+ Identities = 95/129 (74%), Positives = 107/129 (83%), Gaps = 0/129 (0%)
+
+Query  6    VFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGS  65
+              KQM+LQ+ALP+TL GL KASELATLT E LA++H+RLASGDGALRSL+TAL GIR GS
+Sbjct  103  EIKQMMLQKALPLTLGGLGKASELATLTAERLAKDHTRLASGDGALRSLATALVGIRDGS  162
+
+Query  66   QVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVAL  125
+            ++E SR QA RLLE+S+ GIALQQWGT GGAASQ VL ASPE  REI  QLH VM +VAL
+Sbjct  163  RIEASRTQAARLLEQSVRGIALQQWGTAGGAASQHVLSASPEQLREIAVQLHAVMDKVAL  222
+
+Query  126  LRQAVESEV  134
+            LR AVESEV
+Sbjct  223  LRHAVESEV  231
+
+
+> UniRef90_S5NII6 Type III secretion injected virulence protein(YopHtyrosine 
+phosphatase of FAK and p130cas prevents phagocytosis) 
+n=3 Tax=Salmonella bongori TaxID=54736 RepID=S5NII6_SALBN
+Length=299
+
+ Score = 146 bits (368),  Expect = 6e-40, Method: Composition-based stats.
+ Identities = 35/121 (29%), Positives = 59/121 (49%), Gaps = 1/121 (1%)
+
+Query  11   VLQQALPMTLKGLDKA-SELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEE  69
+            V QQ L +T+ GL+K   EL  +    L      +ASG+G LR L T L  +    +   
+Sbjct  155  VKQQLLTITINGLNKVIPELENVDETSLRENFLDMASGNGPLRKLMTNLHNLNLIPEANR  214
+
+Query  70   SRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALLRQA  129
+              + A +L    +G     QWGT GG  ++ +  AS +   +  +++H + +E+  +R A
+Sbjct  215  LNVYAIKLKNMQVGVAPFSQWGTNGGEVAKWINGASEQELGQAVNRIHAITNELKNIRNA  274
+
+Query  130  V  130
+            +
+Sbjct  275  L  275
+
+
+> UniRef90_A0A0F5B9E5 Pathogenicity island 1 effector protein StpP 
+n=3 Tax=Salmonella enterica subsp. salamae TaxID=59202 RepID=A0A0F5B9E5_SALCE
+Length=524
+
+ Score = 146 bits (369),  Expect = 9e-39, Method: Composition-based stats.
+ Identities = 33/124 (27%), Positives = 58/124 (47%), Gaps = 1/124 (1%)
+
+Query  10   MVLQQALPMTLKGL-DKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVE  68
+            MV +Q L + LKGL D   EL  +    L      +AS +G+LR L T L  + +  + +
+Sbjct  146  MVKKQLLDIALKGLNDVIPELENIDGNRLRENFPEMASNNGSLRKLMTNLQNLNSVPEAK  205
+
+Query  69   ESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALLRQ  128
+            +    A  L    +G     QWGT GG  ++ +  AS +   +   ++  +  E+ ++  
+Sbjct  206  QLNGYAITLKNIQVGVAPFSQWGTNGGEVARWIDKASNQELTQAAKKIQAITQELKIIAA  265
+
+Query  129  AVES  132
+             +E+
+Sbjct  266  GLEN  269
+
+
+> UniRef90_V1HR49 Pathogenicity island 1 effector protein StpP 
+n=1 Tax=Salmonella enterica subsp. indica serovar 6,14,25:z10:1,(2),7 
+str. 1121 TaxID=1173950 RepID=V1HR49_SALCE
+Length=535
+
+ Score = 144 bits (364),  Expect = 5e-38, Method: Composition-based stats.
+ Identities = 32/123 (26%), Positives = 57/123 (46%), Gaps = 1/123 (1%)
+
+Query  11   VLQQALPMTLKGLDKA-SELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEE  69
+            + Q  L + L GL +   +L  +    L     ++ASG G LRSL T L  +    + + 
+Sbjct  159  MKQHLLDIALNGLKRTIPQLEEVDGNSLRENFKKMASGSGTLRSLMTNLQNLNKIPEAKP  218
+
+Query  70   SRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALLRQA  129
+                A  L    +G     QWGT+GG   + +  AS +   +   ++H +++E+  +R  
+Sbjct  219  LNDYAETLTNIQVGVARFSQWGTSGGEVEKWIGKASSQELTQAAKKIHIIVNELKNIRTE  278
+
+Query  130  VES  132
+            +E+
+Sbjct  279  LEN  281
+
+
+> UniRef90_P74873 Secreted effector protein SptP n=172 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=SPTP_SALTY
+Length=543
+
+ Score = 136 bits (343),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 32/121 (26%), Positives = 51/121 (42%), Gaps = 1/121 (1%)
+
+Query  12   LQQALPMTLKGLDKA-SELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEES  70
+             Q  L + LKGL +   +L  +    L      +ASG+G LRSL T L  +    + ++ 
+Sbjct  168  KQPLLDIALKGLKRTLPQLEQMDGNSLRENFQEMASGNGPLRSLMTNLQNLNKIPEAKQL  227
+
+Query  71   RIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALLRQAV  130
+                  L    +G     QWGT GG   + V  AS     +   ++H +  E+  +   +
+Sbjct  228  NDYVTTLTNIQVGVARFSQWGTCGGEVERWVDKASTHELTQAVKKIHVIAKELKNVTAEL  287
+
+Query  131  E  131
+            E
+Sbjct  288  E  288
+
+
+> UniRef90_A9MF96 Uncharacterized protein n=6 Tax=Salmonella choleraesuis 
+TaxID=28901 RepID=A9MF96_SALAR
+Length=280
+
+ Score = 133 bits (334),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 30/128 (23%), Positives = 58/128 (45%), Gaps = 1/128 (1%)
+
+Query  6    VFKQMVLQQALPMTLKGLDKA-SELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAG  64
+             F   + Q  L + L G+ +A  +L  +    L +    +ASG+G LR+L T L  +   
+Sbjct  143  DFGTGMTQLLLDIALNGVKRAIPQLEKVDGNSLRKNFREMASGNGPLRTLMTNLQNLSLV  202
+
+Query  65   SQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVA  124
+             +V++    A  L    +G     QWGT GG  ++ +  AS +       ++  ++ ++ 
+Sbjct  203  PEVKQLNDYAINLKNIQVGTAPFSQWGTCGGEVARWIDKASDQELTLAAKKIQVIVEKLK  262
+
+Query  125  LLRQAVES  132
+             +   +E+
+Sbjct  263  YVATELEN  270
+
+
+> UniRef90_G5LSR7 Effector protein SptP n=2 Tax=Salmonella enterica 
+I TaxID=59201 RepID=G5LSR7_SALET
+Length=388
+
+ Score = 135 bits (339),  Expect = 5e-35, Method: Composition-based stats.
+ Identities = 32/121 (26%), Positives = 52/121 (43%), Gaps = 1/121 (1%)
+
+Query  12   LQQALPMTLKGLDKA-SELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEES  70
+             Q  L + LKGL +   +L  +    L      +ASG+G LRSL T L  +    + ++ 
+Sbjct  13   KQPLLDIALKGLKRTLPQLEQMDGNSLRENFQEMASGNGPLRSLMTNLQNLNKIPEAKQL  72
+
+Query  71   RIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALLRQAV  130
+            +     L    +G     QWGT GG   + V  AS     +   ++H +  E+  +   +
+Sbjct  73   KDYVTTLTNIQVGVARFSQWGTCGGEVERWVDKASTHELTQAVKKIHVIAKELKNVTAEL  132
+
+Query  131  E  131
+            E
+Sbjct  133  E  133
+
+
+> UniRef90_V2ICR3 Pathogenicity island 1 effector protein StpP 
+n=6 Tax=Salmonella choleraesuis TaxID=28901 RepID=V2ICR3_SALDZ
+Length=536
+
+ Score = 134 bits (336),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 31/123 (25%), Positives = 54/123 (44%), Gaps = 1/123 (1%)
+
+Query  11   VLQQALPMTLKGLDKA-SELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEE  69
+            + Q  L + L GL  A  +L  +    L      +ASG G LRSL T L  +    + ++
+Sbjct  159  MKQHLLDIALNGLKSAIPQLEQMDGNKLRENFQEMASGSGTLRSLMTNLRNLNKIPEAKQ  218
+
+Query  70   SRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALLRQA  129
+                A  L    +G     QWGT+GG   + +  AS +   +   ++  + +E+  +   
+Sbjct  219  LNDYAVTLTNIQVGVARFSQWGTSGGEVEKWIGKASSQELTQAAKKIQAITNELKNVTTE  278
+
+Query  130  VES  132
+            +E+
+Sbjct  279  LEN  281
+
+
+> UniRef90_UPI0006207FE5 pathogenicity island 1 effector protein 
+StpP n=2 Tax=Salmonella choleraesuis TaxID=28901 RepID=UPI0006207FE5
+Length=568
+
+ Score = 131 bits (330),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 32/121 (26%), Positives = 50/121 (41%), Gaps = 1/121 (1%)
+
+Query  12   LQQALPMTLKGLDKA-SELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEES  70
+             Q  L + LKGL +   +L  +    L      +ASG+G LRSL T L  +    + ++ 
+Sbjct  168  KQPLLDIALKGLKRTIPQLEQMDGNSLRENFQEMASGNGPLRSLMTNLQSLNKIPEAKQL  227
+
+Query  71   RIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALLRQAV  130
+                  L    IG     QWGT GG   + +  AS     +   ++H +  E+  +    
+Sbjct  228  NDYVTTLKNIQIGADRFSQWGTCGGEVERWIDKASTHELTQAVKKIHVIAKELKNVTAEF  287
+
+Query  131  E  131
+            E
+Sbjct  288  E  288
+
+
+> UniRef90_G5PRV7 Effector protein SptP n=2 Tax=Salmonella enterica 
+subsp. enterica serovar Mississippi str. A4-633 TaxID=913080 
+RepID=G5PRV7_SALET
+Length=321
+
+ Score = 129 bits (323),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 32/121 (26%), Positives = 51/121 (42%), Gaps = 1/121 (1%)
+
+Query  12   LQQALPMTLKGLDKA-SELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEES  70
+             Q  L + LKGL +   +L  +  + L      +ASG+G LR L T L  +    + ++ 
+Sbjct  168  KQPLLDIALKGLKRTIPQLEQMDGDSLRENFQEMASGNGPLRLLMTNLQSLNKIPEAKQL  227
+
+Query  71   RIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALLRQAV  130
+                  L    IG     QWGT GG   + V  AS     +   ++H +  E+  +   +
+Sbjct  228  NDYVTTLKNIQIGADRFSQWGTCGGEVERWVDKASTHELTQAVKKIHVIAKELKNVTAEL  287
+
+Query  131  E  131
+            E
+Sbjct  288  E  288
+
+
+> UniRef90_UPI00068DA9F0 pathogenicity island 1 effector protein 
+StpP n=1 Tax=Salmonella bongori TaxID=54736 RepID=UPI00068DA9F0
+Length=524
+
+ Score = 127 bits (319),  Expect = 6e-32, Method: Composition-based stats.
+ Identities = 34/123 (28%), Positives = 54/123 (44%), Gaps = 2/123 (2%)
+
+Query  11   VLQQAL-PMTLKGLDKA-SELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVE  68
+            V QQ L  +T+ GL+K   EL  +    L +    +ASG+G LR L T L  +    + +
+Sbjct  147  VKQQLLLTITINGLNKVIPELENVDATSLRKNFLDMASGNGLLRKLMTNLQNLNKIPEAK  206
+
+Query  69   ESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALLRQ  128
+            +       L    IG     QWGT GG   + +  AS     +   ++H +  E+  +  
+Sbjct  207  QINDYVTTLKNIQIGAGRFSQWGTCGGVVERWIDKASTHELTQAVKKIHGIAKELKNVTA  266
+
+Query  129  AVE  131
+             +E
+Sbjct  267  ELE  269
+
+
+> UniRef90_V1HG80 Uncharacterized protein n=4 Tax=Salmonella choleraesuis 
+TaxID=28901 RepID=V1HG80_SALHO
+Length=293
+
+ Score = 121 bits (303),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 30/129 (23%), Positives = 57/129 (44%), Gaps = 1/129 (1%)
+
+Query  5    VVFKQMVLQQALPMTLKGLDKA-SELATLTPEGLAREHSRLASGDGALRSLSTALAGIRA  63
+            V    +  Q  L + + GL +   +L  +  + L      ++SG+GALRSL T L  ++ 
+Sbjct  155  VDADALKTQMLLEIAVNGLKRTIPQLEKVDGKSLRENFHAMSSGNGALRSLMTNLTNLKY  214
+
+Query  64   GSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEV  123
+              + ++    A +L    +G     QWGT GG  ++ +  AS +        +  ++ EV
+Sbjct  215  IPEAKQLNDDAIKLKGIPVGVALFSQWGTNGGEVAKWIDKASDQELTLAAKSIQAIIKEV  274
+
+Query  124  ALLRQAVES  132
+              +   + +
+Sbjct  275  QKIATELSN  283
+
+
+> UniRef90_A0A0H7DTI2 Outer membrane virulence protein yopE n=14 
+Tax=Vibrio cholerae TaxID=666 RepID=A0A0H7DTI2_VIBCL
+Length=204
+
+ Score = 118 bits (296),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 34/120 (28%), Positives = 54/120 (45%), Gaps = 3/120 (3%)
+
+Query  15   ALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEESRIQA  74
+            A      GL +A        +        L   +G+LR++ T L GI      +   I A
+Sbjct  88   ARDSAFLGLQRAIRSERFELDNFKSNFPYLTVANGSLRTIVTGLKGIVEFDDGQMKDI-A  146
+
+Query  75   GRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALLRQAVESEV  134
+              +L+  I G+   Q+GT  G+A  LV +AS +  + I   L+++  +VAL    V +EV
+Sbjct  147  KEILDTQICGVPFSQFGTCSGSARDLVANASYQQEKIIIKHLNELFEKVAL--HLVGAEV  204
+
+
+> UniRef90_D0Z4Z3 ADP-ribosyltransferase toxin aexT (Exoenzyme 
+T) n=2 Tax=Vibrionaceae TaxID=641 RepID=D0Z4Z3_PHODD
+Length=514
+
+ Score = 118 bits (295),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 42/124 (34%), Positives = 68/124 (55%), Gaps = 5/124 (4%)
+
+Query  11   VLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEES  70
+            + + AL  +LKGL +   L++L  E L ++H  LA+ +GALRS  TAL  IR     E  
+Sbjct  104  MGKIALKESLKGLTQLDNLSSLDGESLKQQHRELATNNGALRSTVTALQAIRLFG-TETQ  162
+
+Query  71   RIQAGRLLERSIGGIALQQWGTTGGA----ASQLVLDASPELRREITDQLHQVMSEVALL  126
+            +  A  +L   +GG   QQW TTG      AS  + +AS E  +  +D+++Q+  +++ L
+Sbjct  163  KTTANSILSDMVGGRPFQQWATTGSGEAKDASTFLNEASSEELQAASDKINQLSVQISKL  222
+
+Query  127  RQAV  130
+            +  +
+Sbjct  223  KDEL  226
+
+
+> UniRef90_UPI00075FDB4D hypothetical protein n=1 Tax=Burkholderia 
+ubonensis TaxID=101571 RepID=UPI00075FDB4D
+Length=484
+
+ Score = 113 bits (283),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 35/125 (28%), Positives = 59/125 (47%), Gaps = 0/125 (0%)
+
+Query  7    FKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQ  66
+                + +  +  +L+G+ KA  L TL+   L   +  LASG GALRSL T L  + A   
+Sbjct  119  LASTLEKTTIDNSLQGIGKADLLKTLSGSNLQENYEALASGSGALRSLLTGLDDLAAIRG  178
+
+Query  67   VEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALL  126
+            +         L    +GG+   +WGTTGG     +  A+ +   +   ++ ++ SE+  L
+Sbjct  179  LTGVPEFVQTLRNVQVGGMPFSEWGTTGGKVEAWLQRATQDQLDQAATRIREIASELPEL  238
+
+Query  127  RQAVE  131
+             +A +
+Sbjct  239  SRAAQ  243
+
+
+> UniRef90_A0A0H2MQJ6 ADP-ribosyltransferase n=3 Tax=Vibrio TaxID=662 
+RepID=A0A0H2MQJ6_9VIBR
+Length=513
+
+ Score = 113 bits (283),  Expect = 8e-27, Method: Composition-based stats.
+ Identities = 40/124 (32%), Positives = 68/124 (55%), Gaps = 5/124 (4%)
+
+Query  11   VLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEES  70
+            + + AL  +L GL +   L++L  E L ++H  LA+ +GALRS  TAL  I+     E  
+Sbjct  103  MGKVALKESLNGLTQLDTLSSLDGESLKQQHRELATNNGALRSTVTALQTIKLFG-TEAQ  161
+
+Query  71   RIQAGRLLERSIGGIALQQWGTTGGA----ASQLVLDASPELRREITDQLHQVMSEVALL  126
+            +  A  +L  ++GG   QQW TTG      A+  + DAS E  +  +D+++Q+  +++ L
+Sbjct  162  KSAAINILSDTVGGQPFQQWATTGSGEAKDAATFLNDASSEELQAASDKINQLSVQISKL  221
+
+Query  127  RQAV  130
+            +  +
+Sbjct  222  KGEL  225
+
+
+> UniRef90_UPI0006820CD9 hypothetical protein n=1 Tax=Grimontia 
+hollisae TaxID=673 RepID=UPI0006820CD9
+Length=210
+
+ Score = 107 bits (268),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 35/123 (28%), Positives = 56/123 (46%), Gaps = 5/123 (4%)
+
+Query  1    ASSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAG  60
+            A      + +  + A    L GL++A        E    +   LASG+G+LR++ TAL G
+Sbjct  84   APKTSDVRALAREAA----LSGLNRALRAGKFDAETFKDQFDALASGNGSLRTMVTALQG  139
+
+Query  61   IRAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVM  120
+            I   +Q +  +  A +LL   I G+   Q+GT  G A  L+  AS     +I   ++ + 
+Sbjct  140  ISQFTQGQM-KENADKLLSTDILGVKFSQFGTCSGPALALLSSASKNEMEQIISIINAIY  198
+
+Query  121  SEV  123
+              V
+Sbjct  199  GIV  201
+
+
+> UniRef90_A0A0M1V124 Outer membrane virulence protein YopE n=3 
+Tax=Yersinia TaxID=444888 RepID=A0A0M1V124_YERPE
+Length=154
+
+ Score = 95.2 bits (235),  Expect = 8e-22, Method: Composition-based stats.
+ Identities = 30/99 (30%), Positives = 47/99 (47%), Gaps = 3/99 (3%)
+
+Query  28   ELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEESRIQAGRLLERSIGGIAL  87
+            +L +L  E L + H + A+G G LR   T   G+      E  + +A  +L   + GI  
+Sbjct  55   QLNSLDAEMLQKNHDQFATGSGPLRGSITQCQGLMQFCGGE-LQAEASAILNTPVCGIPF  113
+
+Query  88   QQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALL  126
+             QWGT GGAAS  V  AS     +  +++  +  ++  L
+Sbjct  114  SQWGTIGGAASAYV--ASGVDLTQAANEIKGLAQQMQKL  150
+
+
+> UniRef90_P31493 Outer membrane virulence protein YopE n=57 Tax=Yersinia 
+TaxID=444888 RepID=YOPE_YERPE
+Length=219
+
+ Score = 93.6 bits (231),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 30/99 (30%), Positives = 47/99 (47%), Gaps = 3/99 (3%)
+
+Query  28   ELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEESRIQAGRLLERSIGGIAL  87
+            +L +L  E L + H + A+G G LR   T   G+      E  + +A  +L   + GI  
+Sbjct  120  QLNSLDAEMLQKNHDQFATGSGPLRGSITQCQGLMQFCGGE-LQAEASAILNTPVCGIPF  178
+
+Query  88   QQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALL  126
+             QWGT GGAAS  V  AS     +  +++  +  ++  L
+Sbjct  179  SQWGTIGGAASAYV--ASGVDLTQAANEIKGLAQQMQKL  215
+
+
+> UniRef90_W3YCC4 Virulence determinant n=3 Tax=Providencia alcalifaciens 
+TaxID=126385 RepID=W3YCC4_9GAMM
+Length=563
+
+ Score = 94.0 bits (232),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 33/129 (26%), Positives = 57/129 (44%), Gaps = 0/129 (0%)
+
+Query  2    SSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGI  61
+            ++     + + Q AL   L  L +  EL  L+ + L  ++S+L+ G GALR+L T L  +
+Sbjct  175  NTVEALAKNIQQAALASALTSLTRIEELQKLSGQELQTKYSKLSEGSGALRTLQTLLTNL  234
+
+Query  62   RAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMS  121
+               S +         L    +G     QWGTTG +    V  AS        +++  +  
+Sbjct  235  SNLSGIPGMEEFQNTLKSVLVGNSPFSQWGTTGSSVEAWVNSASHNDLSLAAERIQGITK  294
+
+Query  122  EVALLRQAV  130
+            +V  L++ +
+Sbjct  295  DVMALKEKL  303
+
+
+> UniRef90_H7C8H7 Uncharacterized protein n=1 Tax=Providencia alcalifaciens 
+TaxID=126385 RepID=H7C8H7_9GAMM
+Length=562
+
+ Score = 91.3 bits (225),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 31/129 (24%), Positives = 57/129 (44%), Gaps = 0/129 (0%)
+
+Query  2    SSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGI  61
+            ++     + + Q  L   L  L +   L  L+ + L  ++S+L+ G GALR+L T L  +
+Sbjct  175  NTVEALAKNLQQATLASALTSLTRIECLLNLSGQELQTKYSQLSEGGGALRTLQTLLTNL  234
+
+Query  62   RAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMS  121
+             + S +         +    +GG+   QWGT GG     V  AS        +++  +  
+Sbjct  235  SSLSGISGMEEFQNTMKSIQVGGMEFSQWGTIGGDVEAWVNSASHSELSLAAERIQGITK  294
+
+Query  122  EVALLRQAV  130
+            +V  L++ +
+Sbjct  295  DVMALKEKL  303
+
+
+> UniRef90_UPI000513651B UPI000513651B related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000513651B
+Length=300
+
+ Score = 83.2 bits (204),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 39/121 (32%), Positives = 57/121 (47%), Gaps = 4/121 (3%)
+
+Query  15   ALPMTLKGLDK-ASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEESRIQ  73
+            A  ++LK L   A +   +T   L      LA+G+G LRSL TA  G+   S   +    
+Sbjct  135  AYDISLKELGLFAQKAKMITGSELK-NIETLATGNGCLRSLMTAAQGVAQYSGNADIARV  193
+
+Query  74   AGRLLERSIGGIALQQWGTTG--GAASQLVLDASPELRREITDQLHQVMSEVALLRQAVE  131
+               LL+R IGGI   Q+GT    G A Q + +AS +      D + Q+  +   L Q ++
+Sbjct  194  VRTLLDRQIGGIPFSQFGTCSTTGGAVQWIKNASQDDLEGAADVIRQIAGDFEQLFQNIK  253
+
+Query  132  S  132
+            S
+Sbjct  254  S  254
+
+
+> UniRef90_UPI00071AB462 UPI00071AB462 related cluster n=3 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=UPI00071AB462
+Length=549
+
+ Score = 84.8 bits (208),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 33/113 (29%), Positives = 53/113 (47%), Gaps = 4/113 (4%)
+
+Query  24   DKASELATLTPEGLA--REHSRLASGDGALRSLSTALAGIRAGSQVEESRIQAGRLLERS  81
+             K  ++ ++  + L   +    LA+GDG LRSL TA  G+   +   +       LL   
+Sbjct  198  QKTRDVKSINGQDLKNLKHFKALATGDGHLRSLMTAAQGVAQFTDNPDITKAIQTLLNVH  257
+
+Query  82   IGGIALQQWGTTG--GAASQLVLDASPELRREITDQLHQVMSEVALLRQAVES  132
+            IGGI   Q+GT    G A+Q V  AS +   +  D + ++  +   L Q ++S
+Sbjct  258  IGGIPFLQFGTYAMDGGAAQWVKTASQKELNDAADMMRKIAGDFEKLLQNIKS  310
+
+
+> UniRef90_F9S7A1 Uncharacterized protein (Fragment) n=1 Tax=Vibrio 
+ichthyoenteri ATCC 700023 TaxID=870968 RepID=F9S7A1_9VIBR
+Length=147
+
+ Score = 80.1 bits (196),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 27/92 (29%), Positives = 44/92 (48%), Gaps = 1/92 (1%)
+
+Query  13   QQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEESRI  72
+            Q  L     G+++A      T E L  +   LA+ +G+LR+++T L G+      +  R 
+Sbjct  57   QIGLNSAFMGIERALNCELFTAESLKIDFRGLATNNGSLRAMATGLQGLVQFGDCKTQR-  115
+
+Query  73   QAGRLLERSIGGIALQQWGTTGGAASQLVLDA  104
+             A  LL + I  I   Q+GT  G A++ +  A
+Sbjct  116  LAEELLNKQIQSIPFSQFGTYSGVAAERIATA  147
+
+
+> UniRef90_UPI00093B08DE UPI00093B08DE related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00093B08DE
+Length=344
+
+ Score = 80.5 bits (197),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 32/105 (30%), Positives = 49/105 (47%), Gaps = 4/105 (4%)
+
+Query  32   LTPEGLA--REHSRLASGDGALRSLSTALAGIRAGSQVEESRIQAGRLLERSIGGIALQQ  89
+            +  + L   +    LA+GDG LRSL TA  G+   +   +       LL   IGGI   Q
+Sbjct  1    MNGQDLKNLKHFKALATGDGHLRSLMTAAQGVAQFTDNPDITKAIQTLLNVHIGGIPFLQ  60
+
+Query  90   WGTTG--GAASQLVLDASPELRREITDQLHQVMSEVALLRQAVES  132
+            +GT    G A+Q V  AS +   +  D + ++  +   L Q ++S
+Sbjct  61   FGTYAMDGGAAQWVKTASQKELNDAADMMRKIAGDFEKLLQNIKS  105
+
+
+> UniRef90_UPI000463F21D UPI000463F21D related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000463F21D
+Length=106
+
+ Score = 74.0 bits (180),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 41/61 (67%), Positives = 47/61 (77%), Gaps = 0/61 (0%)
+
+Query  72   IQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALLRQAVE  131
+            ++  RLL  ++GGIALQQW TTG A SQLVL ASPE R EI D+L +V SEVA LRQAVE
+Sbjct  34   LEVARLLGLNLGGIALQQWRTTGAAVSQLVLGASPEQRGEIVDRLRRVASEVAPLRQAVE  93
+
+Query  132  S  132
+            S
+Sbjct  94   S  94
+
+
+> UniRef90_UPI00071AB92A UPI00071AB92A related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00071AB92A
+Length=304
+
+ Score = 75.1 bits (183),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 33/120 (28%), Positives = 51/120 (43%), Gaps = 4/120 (3%)
+
+Query  15   ALPMTLKGLDK-ASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEESRIQ  73
+            A  ++LK L     +   +T   L      LA+G+G LRSL TA  G+   S   +    
+Sbjct  139  AYDISLKELGLFVQKAKMITGSELK-NIETLATGNGCLRSLMTAAQGVAQFSGNADIAEA  197
+
+Query  74   AGRLLERSIGGIALQQWGTTG--GAASQLVLDASPELRREITDQLHQVMSEVALLRQAVE  131
+               LL+  IGGI   Q+GT    G A + V +AS          +  +  +   L + ++
+Sbjct  198  VRILLDVQIGGIPFSQFGTCSTTGGAVEWVKNASQNDLEGAAGVIRGIARDFEQLLKNIK  257
+
+
+> UniRef90_UPI0005142D33 UPI0005142D33 related cluster n=2 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=UPI0005142D33
+Length=304
+
+ Score = 74.4 bits (181),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 34/120 (28%), Positives = 53/120 (44%), Gaps = 4/120 (3%)
+
+Query  15   ALPMTLKGLDK-ASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEESRIQ  73
+            A  ++LK L   A +   +T   L      LA+G+G LRSL TA  G+   S   +    
+Sbjct  139  AYDLSLKELGLFAQKAKMITGSELK-NIETLATGNGCLRSLMTAAQGVAQCSGSADIAEA  197
+
+Query  74   AGRLLERSIGGIALQQWGTTG--GAASQLVLDASPELRREITDQLHQVMSEVALLRQAVE  131
+               LL+  IGGI   Q+GT    G A + V +AS          +  +  +   L ++++
+Sbjct  198  VRTLLDVQIGGIPFSQFGTCSTTGGAVEWVKNASQNDLEGAAGVIRGIARDFEQLLKSIK  257
+
+
+> UniRef90_D6IDH0 Predicted protein n=1 Tax=Escherichia coli B185 
+TaxID=550676 RepID=D6IDH0_ECOLX
+Length=306
+
+ Score = 72.8 bits (177),  Expect = 7e-13, Method: Composition-based stats.
+ Identities = 33/120 (28%), Positives = 58/120 (48%), Gaps = 5/120 (4%)
+
+Query  17   PMTLKGLDK-ASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEESRIQAG  75
+              +L  L   A ++  +T   L      LA+G+G LRSL TA  G+   S   +      
+Sbjct  141  DTSLNQLGLFAQKVKMITGSELK-NIETLATGNGCLRSLMTAAHGVAQFSGNADITKAVE  199
+
+Query  76   RLLERSIGGIALQQWG---TTGGAASQLVLDASPELRREITDQLHQVMSEVALLRQAVES  132
+             LL+  +G I   Q+G   TT G++ Q + +AS +   +  + + +V  ++ LL Q +++
+Sbjct  200  TLLDIRVGNIPFSQFGTYTTTEGSSVQWIQNASQDDLEKAAEVIRRVAGDLELLFQNIKN  259
+
+
+> UniRef90_UPI00092D6623 UPI00092D6623 related cluster n=3 Tax=Escherichia 
+TaxID=561 RepID=UPI00092D6623
+Length=333
+
+ Score = 64.0 bits (154),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 25/90 (28%), Positives = 38/90 (42%), Gaps = 2/90 (2%)
+
+Query  45   ASGDGALRSLSTALAGIRAGSQVEESRIQAGRLLERSIGGIALQQWGTTG--GAASQLVL  102
+             +  G LRSL  A   +   +   +       LL   IGGI   Q+G     G A Q V 
+Sbjct  11   TTDKGCLRSLMMAAQRVAQFTDNPDITKAIQTLLNVHIGGIPFSQFGANAMDGRAVQWVK  70
+
+Query  103  DASPELRREITDQLHQVMSEVALLRQAVES  132
+            +AS +      D + ++ S+   L Q ++S
+Sbjct  71   NASKKELNYAADMMRKIASDFEKLLQNIKS  100
+
+
+> UniRef90_T8ZQA0 Uncharacterized protein n=1 Tax=Escherichia coli 
+UMEA 3200-1 TaxID=1281213 RepID=T8ZQA0_ECOLX
+Length=117
+
+ Score = 51.6 bits (122),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 26/94 (28%), Positives = 36/94 (38%), Gaps = 6/94 (6%)
+
+Query  17   PMTLKGLDK-ASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEESRIQAG  75
+              +LK LD  A +   +T   L        +  G LRSL  A   +   +   +      
+Sbjct  26   DTSLKELDLFARKAKEITGRELKNIE---TTDKGCLRSLMMAAQRVAQFTDNPDITKAIQ  82
+
+Query  76   RLLERSIGGIALQQWGTTG--GAASQLVLDASPE  107
+             LL   IGGI   Q+G     G A + V  AS +
+Sbjct  83   TLLNVHIGGIPFSQFGANAMDGRAVKWVKKASKK  116
+
+
+
+Lambda      K        H        a         alpha
+   0.306    0.132    0.318    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0404    0.140     1.90     42.6     43.6 
+
+Effective search space used: 441111173475
+Results from round 3
+
+
+Query= d1he1a_
+
+Length=135
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_G5LSR7 Effector protein SptP n=2 Tax=Salmonella enteri...  166     6e-47
+  UniRef90_P74873 Secreted effector protein SptP n=172 Tax=Salmon...  167     2e-46
+  UniRef90_A9MF96 Uncharacterized protein n=6 Tax=Salmonella chol...  162     3e-46
+  UniRef90_V1HR49 Pathogenicity island 1 effector protein StpP n=...  167     4e-46
+  UniRef90_Q93Q17 ADP-ribosyltransferase toxin AexT n=6 Tax=Aerom...  162     1e-44
+  UniRef90_A0A0F5B9E5 Pathogenicity island 1 effector protein Stp...  162     2e-44
+  UniRef90_A0A0T6UH61 ADP-ribosyltransferase n=5 Tax=Aeromonas al...  162     2e-44
+  UniRef90_G5PRV7 Effector protein SptP n=2 Tax=Salmonella enteri...  157     6e-44
+  UniRef90_UPI0006207FE5 pathogenicity island 1 effector protein ...  161     7e-44
+  UniRef90_A0A023EC35 Putative ADP-ribosyltransferase toxin AexT ...  154     3e-43
+  UniRef90_V2ICR3 Pathogenicity island 1 effector protein StpP n=...  159     4e-43
+  UniRef90_A0A0T6U319 ADP-ribosyltransferase n=14 Tax=Aeromonas T...  157     1e-42
+  UniRef90_A0A1C2KW94 ADP-ribosyltransferase n=16 Tax=Aeromonas T...  157     1e-42
+  UniRef90_S5NII6 Type III secretion injected virulence protein(Y...  153     2e-42
+  UniRef90_UPI00068DA9F0 pathogenicity island 1 effector protein ...  156     3e-42
+  UniRef90_A0FKE4 AexT n=10 Tax=Aeromonas TaxID=642 RepID=A0FKE4_...  153     2e-41
+  UniRef90_V1HG80 Uncharacterized protein n=4 Tax=Salmonella chol...  149     3e-41
+  UniRef90_UPI000513651B UPI000513651B related cluster n=1 Tax=un...  148     1e-40
+  UniRef90_UPI00075FDB4D hypothetical protein n=1 Tax=Burkholderi...  149     5e-40
+  UniRef90_A6YCJ6 AexT n=3 Tax=Aeromonas TaxID=642 RepID=A6YCJ6_A...  148     1e-39
+  UniRef90_Q51449 ADP-ribosyltransferase toxin AexT n=70 Tax=Pseu...  148     1e-39
+  UniRef90_Q51451 Exoenzyme S n=13 Tax=Pseudomonadales TaxID=7227...  148     1e-39
+  UniRef90_A0A0A8RAP1 ADP-ribosyltransferase toxin AexT n=124 Tax...  146     6e-39
+  UniRef90_W3YCC4 Virulence determinant n=3 Tax=Providencia alcal...  146     1e-38
+  UniRef90_UPI00071AB462 UPI00071AB462 related cluster n=3 Tax=Sa...  146     2e-38
+  UniRef90_H7C8H7 Uncharacterized protein n=1 Tax=Providencia alc...  146     2e-38
+  UniRef90_UPI00071AB92A UPI00071AB92A related cluster n=1 Tax=un...  141     6e-38
+  UniRef90_D6IDH0 Predicted protein n=1 Tax=Escherichia coli B185...  139     3e-37
+  UniRef90_UPI00093B08DE UPI00093B08DE related cluster n=1 Tax=un...  139     1e-36
+  UniRef90_UPI0005142D33 UPI0005142D33 related cluster n=2 Tax=Sa...  134     3e-35
+  UniRef90_UPI0006820CD9 hypothetical protein n=1 Tax=Grimontia h...  128     5e-34
+  UniRef90_A0A0H7DTI2 Outer membrane virulence protein yopE n=14 ...  123     5e-32
+  UniRef90_UPI00092D6623 UPI00092D6623 related cluster n=3 Tax=Es...  123     5e-31
+  UniRef90_D0Z4Z3 ADP-ribosyltransferase toxin aexT (Exoenzyme T)...  124     6e-31
+  UniRef90_A0A0H2MQJ6 ADP-ribosyltransferase n=3 Tax=Vibrio TaxID...  120     2e-29
+  UniRef90_A0A0M1V124 Outer membrane virulence protein YopE n=3 T...  113     6e-29
+  UniRef90_P31493 Outer membrane virulence protein YopE n=57 Tax=...  112     1e-27
+  UniRef90_F9S7A1 Uncharacterized protein (Fragment) n=1 Tax=Vibr...  106     3e-26
+  UniRef90_T8ZQA0 Uncharacterized protein n=1 Tax=Escherichia col...  103     3e-25
+  UniRef90_UPI000463F21D UPI000463F21D related cluster n=1 Tax=un...  73.9    3e-14
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_G5LSR7 Effector protein SptP n=2 Tax=Salmonella enterica 
+I TaxID=59201 RepID=G5LSR7_SALET
+Length=388
+
+ Score = 166 bits (421),  Expect = 6e-47, Method: Composition-based stats.
+ Identities = 33/132 (25%), Positives = 53/132 (40%), Gaps = 1/132 (1%)
+
+Query  1    ASSAVVFKQMVLQQALPMTLKGLDKA-SELATLTPEGLAREHSRLASGDGALRSLSTALA  59
+            A           Q  L + LKGL +   +L  +    L      +ASG+G LRSL T L 
+Sbjct  2    AEKNNDVGAESKQPLLDIALKGLKRTLPQLEQMDGNSLRENFQEMASGNGPLRSLMTNLQ  61
+
+Query  60   GIRAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQV  119
+             +    + ++ +     L    +G     QWGT GG   + V  AS     +   ++H +
+Sbjct  62   NLNKIPEAKQLKDYVTTLTNIQVGVARFSQWGTCGGEVERWVDKASTHELTQAVKKIHVI  121
+
+Query  120  MSEVALLRQAVE  131
+              E+  +   +E
+Sbjct  122  AKELKNVTAELE  133
+
+
+> UniRef90_P74873 Secreted effector protein SptP n=172 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=SPTP_SALTY
+Length=543
+
+ Score = 167 bits (424),  Expect = 2e-46, Method: Composition-based stats.
+ Identities = 33/132 (25%), Positives = 52/132 (39%), Gaps = 1/132 (1%)
+
+Query  1    ASSAVVFKQMVLQQALPMTLKGLDKA-SELATLTPEGLAREHSRLASGDGALRSLSTALA  59
+            A           Q  L + LKGL +   +L  +    L      +ASG+G LRSL T L 
+Sbjct  157  AEKNNDVGAESKQPLLDIALKGLKRTLPQLEQMDGNSLRENFQEMASGNGPLRSLMTNLQ  216
+
+Query  60   GIRAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQV  119
+             +    + ++       L    +G     QWGT GG   + V  AS     +   ++H +
+Sbjct  217  NLNKIPEAKQLNDYVTTLTNIQVGVARFSQWGTCGGEVERWVDKASTHELTQAVKKIHVI  276
+
+Query  120  MSEVALLRQAVE  131
+              E+  +   +E
+Sbjct  277  AKELKNVTAELE  288
+
+
+> UniRef90_A9MF96 Uncharacterized protein n=6 Tax=Salmonella choleraesuis 
+TaxID=28901 RepID=A9MF96_SALAR
+Length=280
+
+ Score = 162 bits (409),  Expect = 3e-46, Method: Composition-based stats.
+ Identities = 30/128 (23%), Positives = 58/128 (45%), Gaps = 1/128 (1%)
+
+Query  6    VFKQMVLQQALPMTLKGLDKA-SELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAG  64
+             F   + Q  L + L G+ +A  +L  +    L +    +ASG+G LR+L T L  +   
+Sbjct  143  DFGTGMTQLLLDIALNGVKRAIPQLEKVDGNSLRKNFREMASGNGPLRTLMTNLQNLSLV  202
+
+Query  65   SQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVA  124
+             +V++    A  L    +G     QWGT GG  ++ +  AS +       ++  ++ ++ 
+Sbjct  203  PEVKQLNDYAINLKNIQVGTAPFSQWGTCGGEVARWIDKASDQELTLAAKKIQVIVEKLK  262
+
+Query  125  LLRQAVES  132
+             +   +E+
+Sbjct  263  YVATELEN  270
+
+
+> UniRef90_V1HR49 Pathogenicity island 1 effector protein StpP 
+n=1 Tax=Salmonella enterica subsp. indica serovar 6,14,25:z10:1,(2),7 
+str. 1121 TaxID=1173950 RepID=V1HR49_SALCE
+Length=535
+
+ Score = 167 bits (423),  Expect = 4e-46, Method: Composition-based stats.
+ Identities = 32/128 (25%), Positives = 57/128 (45%), Gaps = 1/128 (1%)
+
+Query  6    VFKQMVLQQALPMTLKGLDKA-SELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAG  64
+                 + Q  L + L GL +   +L  +    L     ++ASG G LRSL T L  +   
+Sbjct  154  DVDAGMKQHLLDIALNGLKRTIPQLEEVDGNSLRENFKKMASGSGTLRSLMTNLQNLNKI  213
+
+Query  65   SQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVA  124
+             + +     A  L    +G     QWGT+GG   + +  AS +   +   ++H +++E+ 
+Sbjct  214  PEAKPLNDYAETLTNIQVGVARFSQWGTSGGEVEKWIGKASSQELTQAAKKIHIIVNELK  273
+
+Query  125  LLRQAVES  132
+             +R  +E+
+Sbjct  274  NIRTELEN  281
+
+
+> UniRef90_Q93Q17 ADP-ribosyltransferase toxin AexT n=6 Tax=Aeromonas 
+salmonicida TaxID=645 RepID=AEXT_AERSA
+Length=475
+
+ Score = 162 bits (409),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 60/135 (44%), Positives = 83/135 (61%), Gaps = 0/135 (0%)
+
+Query  1    ASSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAG  60
+            A S    ++++ Q A   +L G  KA  L  +T E L ++H+ LA+G+G LRSL TAL  
+Sbjct  92   AVSPEDLQRLMKQAAFGSSLGGFAKADVLNNITGEQLGKDHASLATGNGPLRSLCTALQA  151
+
+Query  61   IRAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVM  120
+            +  GSQ  + R  A  LL R I GI LQQWG+ GG  ++L+  A PEL +E   QLH  M
+Sbjct  152  VVIGSQQPQLRELATGLLARPIAGIPLQQWGSVGGKVTELLTSAPPELLKEAMSQLHTAM  211
+
+Query  121  SEVALLRQAVESEVS  135
+             EVA L++AV++EV+
+Sbjct  212  GEVADLQRAVKAEVA  226
+
+
+> UniRef90_A0A0F5B9E5 Pathogenicity island 1 effector protein StpP 
+n=3 Tax=Salmonella enterica subsp. salamae TaxID=59202 RepID=A0A0F5B9E5_SALCE
+Length=524
+
+ Score = 162 bits (411),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 33/124 (27%), Positives = 58/124 (47%), Gaps = 1/124 (1%)
+
+Query  10   MVLQQALPMTLKGL-DKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVE  68
+            MV +Q L + LKGL D   EL  +    L      +AS +G+LR L T L  + +  + +
+Sbjct  146  MVKKQLLDIALKGLNDVIPELENIDGNRLRENFPEMASNNGSLRKLMTNLQNLNSVPEAK  205
+
+Query  69   ESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALLRQ  128
+            +    A  L    +G     QWGT GG  ++ +  AS +   +   ++  +  E+ ++  
+Sbjct  206  QLNGYAITLKNIQVGVAPFSQWGTNGGEVARWIDKASNQELTQAAKKIQAITQELKIIAA  265
+
+Query  129  AVES  132
+             +E+
+Sbjct  266  GLEN  269
+
+
+> UniRef90_A0A0T6UH61 ADP-ribosyltransferase n=5 Tax=Aeromonas 
+allosaccharophila TaxID=656 RepID=A0A0T6UH61_9GAMM
+Length=509
+
+ Score = 162 bits (410),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 60/135 (44%), Positives = 85/135 (63%), Gaps = 0/135 (0%)
+
+Query  1    ASSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAG  60
+            A S    ++++ Q A   +L G  KA  L  +T E L ++H+ LA+G+G LRSL TAL  
+Sbjct  92   AVSPEDLQRLMKQAAFGSSLGGFAKADVLHNITAEQLGKDHTTLATGNGPLRSLCTALQA  151
+
+Query  61   IRAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVM  120
+            +  GSQ  + R  A  LL R I GI LQQWGT GG  ++L+ +A+PEL +E   QLH  M
+Sbjct  152  VVVGSQQPQLRELAAGLLARPIAGIPLQQWGTVGGKVTELLANATPELLQEAMSQLHTAM  211
+
+Query  121  SEVALLRQAVESEVS  135
+             EVA L++AV++E++
+Sbjct  212  GEVADLQRAVKAEIA  226
+
+
+> UniRef90_G5PRV7 Effector protein SptP n=2 Tax=Salmonella enterica 
+subsp. enterica serovar Mississippi str. A4-633 TaxID=913080 
+RepID=G5PRV7_SALET
+Length=321
+
+ Score = 157 bits (397),  Expect = 6e-44, Method: Composition-based stats.
+ Identities = 32/127 (25%), Positives = 51/127 (40%), Gaps = 1/127 (1%)
+
+Query  6    VFKQMVLQQALPMTLKGLDKA-SELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAG  64
+                   Q  L + LKGL +   +L  +  + L      +ASG+G LR L T L  +   
+Sbjct  162  DVGAESKQPLLDIALKGLKRTIPQLEQMDGDSLRENFQEMASGNGPLRLLMTNLQSLNKI  221
+
+Query  65   SQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVA  124
+             + ++       L    IG     QWGT GG   + V  AS     +   ++H +  E+ 
+Sbjct  222  PEAKQLNDYVTTLKNIQIGADRFSQWGTCGGEVERWVDKASTHELTQAVKKIHVIAKELK  281
+
+Query  125  LLRQAVE  131
+             +   +E
+Sbjct  282  NVTAELE  288
+
+
+> UniRef90_UPI0006207FE5 pathogenicity island 1 effector protein 
+StpP n=2 Tax=Salmonella choleraesuis TaxID=28901 RepID=UPI0006207FE5
+Length=568
+
+ Score = 161 bits (407),  Expect = 7e-44, Method: Composition-based stats.
+ Identities = 32/127 (25%), Positives = 50/127 (39%), Gaps = 1/127 (1%)
+
+Query  6    VFKQMVLQQALPMTLKGLDKA-SELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAG  64
+                   Q  L + LKGL +   +L  +    L      +ASG+G LRSL T L  +   
+Sbjct  162  DVGAESKQPLLDIALKGLKRTIPQLEQMDGNSLRENFQEMASGNGPLRSLMTNLQSLNKI  221
+
+Query  65   SQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVA  124
+             + ++       L    IG     QWGT GG   + +  AS     +   ++H +  E+ 
+Sbjct  222  PEAKQLNDYVTTLKNIQIGADRFSQWGTCGGEVERWIDKASTHELTQAVKKIHVIAKELK  281
+
+Query  125  LLRQAVE  131
+             +    E
+Sbjct  282  NVTAEFE  288
+
+
+> UniRef90_A0A023EC35 Putative ADP-ribosyltransferase toxin AexT 
+n=1 Tax=Aeromonas salmonicida subsp. masoucida NBRC 13784 
+TaxID=1216980 RepID=A0A023EC35_AERSA
+Length=264
+
+ Score = 154 bits (388),  Expect = 3e-43, Method: Composition-based stats.
+ Identities = 60/135 (44%), Positives = 82/135 (61%), Gaps = 0/135 (0%)
+
+Query  1    ASSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAG  60
+            A S    ++++ Q A   +L G  KA  L  +T E L ++H+ LA+G+G LRSL TAL  
+Sbjct  92   AVSPEDLQRLMKQAAFGSSLGGFAKADVLNNITGEQLGKDHASLATGNGPLRSLCTALQA  151
+
+Query  61   IRAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVM  120
+            +  GSQ  + R  A  L  R I GI LQQWGT GG  ++L+  A PEL +E   QLH  M
+Sbjct  152  VVIGSQQPQLRELATGLQARPIAGIPLQQWGTVGGKVTKLLTSAPPELLKEAMSQLHTAM  211
+
+Query  121  SEVALLRQAVESEVS  135
+             EVA L++AV++EV+
+Sbjct  212  GEVADLQRAVKAEVA  226
+
+
+> UniRef90_V2ICR3 Pathogenicity island 1 effector protein StpP 
+n=6 Tax=Salmonella choleraesuis TaxID=28901 RepID=V2ICR3_SALDZ
+Length=536
+
+ Score = 159 bits (401),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 31/128 (24%), Positives = 54/128 (42%), Gaps = 1/128 (1%)
+
+Query  6    VFKQMVLQQALPMTLKGLDKA-SELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAG  64
+                 + Q  L + L GL  A  +L  +    L      +ASG G LRSL T L  +   
+Sbjct  154  DVGAEMKQHLLDIALNGLKSAIPQLEQMDGNKLRENFQEMASGSGTLRSLMTNLRNLNKI  213
+
+Query  65   SQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVA  124
+             + ++    A  L    +G     QWGT+GG   + +  AS +   +   ++  + +E+ 
+Sbjct  214  PEAKQLNDYAVTLTNIQVGVARFSQWGTSGGEVEKWIGKASSQELTQAAKKIQAITNELK  273
+
+Query  125  LLRQAVES  132
+             +   +E+
+Sbjct  274  NVTTELEN  281
+
+
+> UniRef90_A0A0T6U319 ADP-ribosyltransferase n=14 Tax=Aeromonas 
+TaxID=642 RepID=A0A0T6U319_9GAMM
+Length=512
+
+ Score = 157 bits (398),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 60/135 (44%), Positives = 84/135 (62%), Gaps = 0/135 (0%)
+
+Query  1    ASSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAG  60
+            A+S    ++++ Q A   +L G  KA  L  +  E L +EH+ LA+G+G LRSL TAL  
+Sbjct  92   ATSPEDLQRLMKQAAFGSSLGGFAKADVLNNIAAEQLGKEHATLATGNGPLRSLCTALQA  151
+
+Query  61   IRAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVM  120
+            +  GS+  + R  A  LL R I GI LQQWGT GG A+ L+  A+PEL +E   QLH  M
+Sbjct  152  VVIGSEQPQLRELAAGLLARPIAGIPLQQWGTVGGKATDLLASATPELLQEAMSQLHTAM  211
+
+Query  121  SEVALLRQAVESEVS  135
+             EVA L++AV++E++
+Sbjct  212  GEVADLQRAVKAEIA  226
+
+
+> UniRef90_A0A1C2KW94 ADP-ribosyltransferase n=16 Tax=Aeromonas 
+TaxID=642 RepID=A0A1C2KW94_AERHY
+Length=513
+
+ Score = 157 bits (397),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 72/133 (54%), Positives = 99/133 (74%), Gaps = 0/133 (0%)
+
+Query  3    SAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIR  62
+            S    K+++LQ+ALP TL GLDKASEL  +  + L +EH+RLA+G+GALRSL+T+L GI+
+Sbjct  96   SLADQKRLLLQKALPFTLGGLDKASELNNIDAQQLGQEHARLATGNGALRSLATSLNGIK  155
+
+Query  63   AGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSE  122
+             GS  +ES+  A  LLER I GI LQQWGT GG  ++L+ +A+PE  +E   QLH VM+E
+Sbjct  156  DGSMRQESQTLAAGLLERPIAGIPLQQWGTVGGKVTELIANATPEQLQEAMSQLHAVMAE  215
+
+Query  123  VALLRQAVESEVS  135
+            VA L++AV++EV+
+Sbjct  216  VADLQRAVKAEVA  228
+
+
+> UniRef90_S5NII6 Type III secretion injected virulence protein(YopHtyrosine 
+phosphatase of FAK and p130cas prevents phagocytosis) 
+n=3 Tax=Salmonella bongori TaxID=54736 RepID=S5NII6_SALBN
+Length=299
+
+ Score = 153 bits (386),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 35/128 (27%), Positives = 59/128 (46%), Gaps = 1/128 (1%)
+
+Query  5    VVFKQMVLQQALPMTLKGLDK-ASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRA  63
+                  V QQ L +T+ GL+K   EL  +    L      +ASG+G LR L T L  +  
+Sbjct  149  SDPHTEVKQQLLTITINGLNKVIPELENVDETSLRENFLDMASGNGPLRKLMTNLHNLNL  208
+
+Query  64   GSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEV  123
+              +     + A +L    +G     QWGT GG  ++ +  AS +   +  +++H + +E+
+Sbjct  209  IPEANRLNVYAIKLKNMQVGVAPFSQWGTNGGEVAKWINGASEQELGQAVNRIHAITNEL  268
+
+Query  124  ALLRQAVE  131
+              +R A+ 
+Sbjct  269  KNIRNALG  276
+
+
+> UniRef90_UPI00068DA9F0 pathogenicity island 1 effector protein 
+StpP n=1 Tax=Salmonella bongori TaxID=54736 RepID=UPI00068DA9F0
+Length=524
+
+ Score = 156 bits (394),  Expect = 3e-42, Method: Composition-based stats.
+ Identities = 32/121 (26%), Positives = 52/121 (43%), Gaps = 1/121 (1%)
+
+Query  12   LQQALPMTLKGLDK-ASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEES  70
+             Q  L +T+ GL+K   EL  +    L +    +ASG+G LR L T L  +    + ++ 
+Sbjct  149  QQLLLTITINGLNKVIPELENVDATSLRKNFLDMASGNGLLRKLMTNLQNLNKIPEAKQI  208
+
+Query  71   RIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALLRQAV  130
+                  L    IG     QWGT GG   + +  AS     +   ++H +  E+  +   +
+Sbjct  209  NDYVTTLKNIQIGAGRFSQWGTCGGVVERWIDKASTHELTQAVKKIHGIAKELKNVTAEL  268
+
+Query  131  E  131
+            E
+Sbjct  269  E  269
+
+
+> UniRef90_A0FKE4 AexT n=10 Tax=Aeromonas TaxID=642 RepID=A0FKE4_9GAMM
+Length=453
+
+ Score = 153 bits (387),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 73/132 (55%), Positives = 94/132 (71%), Gaps = 0/132 (0%)
+
+Query  3    SAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIR  62
+            S    K++ LQ+ALP TL  LDK SEL ++  E L ++H+ LA+G+GALRSL TAL+GIR
+Sbjct  96   SMADQKRLFLQKALPYTLSALDKTSELKSINAEQLRKDHTTLATGNGALRSLVTALSGIR  155
+
+Query  63   AGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSE  122
+             GS++E +  QA RLLE ++GGIALQQWGTTG  AS+ V  A+ E   E+   L+ +M E
+Sbjct  156  DGSKIEATTHQAARLLELNLGGIALQQWGTTGRQASEWVSSATQEQLGEVAAGLNDLMHE  215
+
+Query  123  VALLRQAVESEV  134
+            VA LR AVESEV
+Sbjct  216  VAQLRYAVESEV  227
+
+
+> UniRef90_V1HG80 Uncharacterized protein n=4 Tax=Salmonella choleraesuis 
+TaxID=28901 RepID=V1HG80_SALHO
+Length=293
+
+ Score = 149 bits (377),  Expect = 3e-41, Method: Composition-based stats.
+ Identities = 30/129 (23%), Positives = 57/129 (44%), Gaps = 1/129 (1%)
+
+Query  5    VVFKQMVLQQALPMTLKGLDKA-SELATLTPEGLAREHSRLASGDGALRSLSTALAGIRA  63
+            V    +  Q  L + + GL +   +L  +  + L      ++SG+GALRSL T L  ++ 
+Sbjct  155  VDADALKTQMLLEIAVNGLKRTIPQLEKVDGKSLRENFHAMSSGNGALRSLMTNLTNLKY  214
+
+Query  64   GSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEV  123
+              + ++    A +L    +G     QWGT GG  ++ +  AS +        +  ++ EV
+Sbjct  215  IPEAKQLNDDAIKLKGIPVGVALFSQWGTNGGEVAKWIDKASDQELTLAAKSIQAIIKEV  274
+
+Query  124  ALLRQAVES  132
+              +   + +
+Sbjct  275  QKIATELSN  283
+
+
+> UniRef90_UPI000513651B UPI000513651B related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000513651B
+Length=300
+
+ Score = 148 bits (373),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 40/134 (30%), Positives = 60/134 (45%), Gaps = 4/134 (3%)
+
+Query  2    SSAVVFKQMVLQQALPMTLKGLDK-ASELATLTPEGLAREHSRLASGDGALRSLSTALAG  60
+             S+        + A  ++LK L   A +   +T   L      LA+G+G LRSL TA  G
+Sbjct  122  PSSSDKAGGFAEVAYDISLKELGLFAQKAKMITGSELK-NIETLATGNGCLRSLMTAAQG  180
+
+Query  61   IRAGSQVEESRIQAGRLLERSIGGIALQQWGTTG--GAASQLVLDASPELRREITDQLHQ  118
+            +   S   +       LL+R IGGI   Q+GT    G A Q + +AS +      D + Q
+Sbjct  181  VAQYSGNADIARVVRTLLDRQIGGIPFSQFGTCSTTGGAVQWIKNASQDDLEGAADVIRQ  240
+
+Query  119  VMSEVALLRQAVES  132
+            +  +   L Q ++S
+Sbjct  241  IAGDFEQLFQNIKS  254
+
+
+> UniRef90_UPI00075FDB4D hypothetical protein n=1 Tax=Burkholderia 
+ubonensis TaxID=101571 RepID=UPI00075FDB4D
+Length=484
+
+ Score = 149 bits (377),  Expect = 5e-40, Method: Composition-based stats.
+ Identities = 35/129 (27%), Positives = 60/129 (47%), Gaps = 0/129 (0%)
+
+Query  3    SAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIR  62
+            +       + +  +  +L+G+ KA  L TL+   L   +  LASG GALRSL T L  + 
+Sbjct  115  TMQTLASTLEKTTIDNSLQGIGKADLLKTLSGSNLQENYEALASGSGALRSLLTGLDDLA  174
+
+Query  63   AGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSE  122
+            A   +         L    +GG+   +WGTTGG     +  A+ +   +   ++ ++ SE
+Sbjct  175  AIRGLTGVPEFVQTLRNVQVGGMPFSEWGTTGGKVEAWLQRATQDQLDQAATRIREIASE  234
+
+Query  123  VALLRQAVE  131
+            +  L +A +
+Sbjct  235  LPELSRAAQ  243
+
+
+> UniRef90_A6YCJ6 AexT n=3 Tax=Aeromonas TaxID=642 RepID=A6YCJ6_AERHY
+Length=428
+
+ Score = 148 bits (373),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 74/133 (56%), Positives = 98/133 (74%), Gaps = 0/133 (0%)
+
+Query  3    SAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIR  62
+            S    K+++LQQALP TL GLDKASEL ++  E L ++H+RLA+G+GALRSL+T+L GIR
+Sbjct  96   SLAEQKRLLLQQALPFTLSGLDKASELNSINAEQLGQDHARLATGNGALRSLATSLIGIR  155
+
+Query  63   AGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSE  122
+             GS  +ES+  A  LLE  I GI LQQWGT G   ++LV  A+PEL +E   QLH VM+E
+Sbjct  156  DGSMRQESQTLAAGLLEHPIAGIPLQQWGTVGSKVTELVASATPELLQEAMSQLHAVMAE  215
+
+Query  123  VALLRQAVESEVS  135
+            VA L++AV++EV+
+Sbjct  216  VADLQRAVKAEVA  228
+
+
+> UniRef90_Q51449 ADP-ribosyltransferase toxin AexT n=70 Tax=Pseudomonadaceae 
+TaxID=135621 RepID=Q51449_PSEAI
+Length=453
+
+ Score = 148 bits (374),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 134/134 (100%), Positives = 134/134 (100%), Gaps = 0/134 (0%)
+
+Query  2    SSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGI  61
+            SSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGI
+Sbjct  96   SSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGI  155
+
+Query  62   RAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMS  121
+            RAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMS
+Sbjct  156  RAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMS  215
+
+Query  122  EVALLRQAVESEVS  135
+            EVALLRQAVESEVS
+Sbjct  216  EVALLRQAVESEVS  229
+
+
+> UniRef90_Q51451 Exoenzyme S n=13 Tax=Pseudomonadales TaxID=72274 
+RepID=Q51451_PSEAI
+Length=453
+
+ Score = 148 bits (374),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 134/134 (100%), Positives = 134/134 (100%), Gaps = 0/134 (0%)
+
+Query  2    SSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGI  61
+            SSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGI
+Sbjct  96   SSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGI  155
+
+Query  62   RAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMS  121
+            RAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMS
+Sbjct  156  RAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMS  215
+
+Query  122  EVALLRQAVESEVS  135
+            EVALLRQAVESEVS
+Sbjct  216  EVALLRQAVESEVS  229
+
+
+> UniRef90_A0A0A8RAP1 ADP-ribosyltransferase toxin AexT n=124 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A0A8RAP1_PSEAI
+Length=457
+
+ Score = 146 bits (369),  Expect = 6e-39, Method: Composition-based stats.
+ Identities = 95/129 (74%), Positives = 107/129 (83%), Gaps = 0/129 (0%)
+
+Query  6    VFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGS  65
+              KQM+LQ+ALP+TL GL KASELATLT E LA++H+RLASGDGALRSL+TAL GIR GS
+Sbjct  103  EIKQMMLQKALPLTLGGLGKASELATLTAERLAKDHTRLASGDGALRSLATALVGIRDGS  162
+
+Query  66   QVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVAL  125
+            ++E SR QA RLLE+S+ GIALQQWGT GGAASQ VL ASPE  REI  QLH VM +VAL
+Sbjct  163  RIEASRTQAARLLEQSVRGIALQQWGTAGGAASQHVLSASPEQLREIAVQLHAVMDKVAL  222
+
+Query  126  LRQAVESEV  134
+            LR AVESEV
+Sbjct  223  LRHAVESEV  231
+
+
+> UniRef90_W3YCC4 Virulence determinant n=3 Tax=Providencia alcalifaciens 
+TaxID=126385 RepID=W3YCC4_9GAMM
+Length=563
+
+ Score = 146 bits (369),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 33/129 (26%), Positives = 57/129 (44%), Gaps = 0/129 (0%)
+
+Query  2    SSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGI  61
+            ++     + + Q AL   L  L +  EL  L+ + L  ++S+L+ G GALR+L T L  +
+Sbjct  175  NTVEALAKNIQQAALASALTSLTRIEELQKLSGQELQTKYSKLSEGSGALRTLQTLLTNL  234
+
+Query  62   RAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMS  121
+               S +         L    +G     QWGTTG +    V  AS        +++  +  
+Sbjct  235  SNLSGIPGMEEFQNTLKSVLVGNSPFSQWGTTGSSVEAWVNSASHNDLSLAAERIQGITK  294
+
+Query  122  EVALLRQAV  130
+            +V  L++ +
+Sbjct  295  DVMALKEKL  303
+
+
+> UniRef90_UPI00071AB462 UPI00071AB462 related cluster n=3 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=UPI00071AB462
+Length=549
+
+ Score = 146 bits (368),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 37/125 (30%), Positives = 58/125 (46%), Gaps = 5/125 (4%)
+
+Query  13   QQALPMTLKGL-DKASELATLTPEGLA--REHSRLASGDGALRSLSTALAGIRAGSQVEE  69
+            + A    LK L  K  ++ ++  + L   +    LA+GDG LRSL TA  G+   +   +
+Sbjct  186  RMAYEGCLKNLEQKTRDVKSINGQDLKNLKHFKALATGDGHLRSLMTAAQGVAQFTDNPD  245
+
+Query  70   SRIQAGRLLERSIGGIALQQWGTTG--GAASQLVLDASPELRREITDQLHQVMSEVALLR  127
+                   LL   IGGI   Q+GT    G A+Q V  AS +   +  D + ++  +   L 
+Sbjct  246  ITKAIQTLLNVHIGGIPFLQFGTYAMDGGAAQWVKTASQKELNDAADMMRKIAGDFEKLL  305
+
+Query  128  QAVES  132
+            Q ++S
+Sbjct  306  QNIKS  310
+
+
+> UniRef90_H7C8H7 Uncharacterized protein n=1 Tax=Providencia alcalifaciens 
+TaxID=126385 RepID=H7C8H7_9GAMM
+Length=562
+
+ Score = 146 bits (368),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 31/129 (24%), Positives = 57/129 (44%), Gaps = 0/129 (0%)
+
+Query  2    SSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGI  61
+            ++     + + Q  L   L  L +   L  L+ + L  ++S+L+ G GALR+L T L  +
+Sbjct  175  NTVEALAKNLQQATLASALTSLTRIECLLNLSGQELQTKYSQLSEGGGALRTLQTLLTNL  234
+
+Query  62   RAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMS  121
+             + S +         +    +GG+   QWGT GG     V  AS        +++  +  
+Sbjct  235  SSLSGISGMEEFQNTMKSIQVGGMEFSQWGTIGGDVEAWVNSASHSELSLAAERIQGITK  294
+
+Query  122  EVALLRQAV  130
+            +V  L++ +
+Sbjct  295  DVMALKEKL  303
+
+
+> UniRef90_UPI00071AB92A UPI00071AB92A related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00071AB92A
+Length=304
+
+ Score = 141 bits (355),  Expect = 6e-38, Method: Composition-based stats.
+ Identities = 33/130 (25%), Positives = 52/130 (40%), Gaps = 4/130 (3%)
+
+Query  5    VVFKQMVLQQALPMTLKGLDK-ASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRA  63
+                    + A  ++LK L     +   +T   L      LA+G+G LRSL TA  G+  
+Sbjct  129  SDKAGGFAEVAYDISLKELGLFVQKAKMITGSELK-NIETLATGNGCLRSLMTAAQGVAQ  187
+
+Query  64   GSQVEESRIQAGRLLERSIGGIALQQWGTTG--GAASQLVLDASPELRREITDQLHQVMS  121
+             S   +       LL+  IGGI   Q+GT    G A + V +AS          +  +  
+Sbjct  188  FSGNADIAEAVRILLDVQIGGIPFSQFGTCSTTGGAVEWVKNASQNDLEGAAGVIRGIAR  247
+
+Query  122  EVALLRQAVE  131
+            +   L + ++
+Sbjct  248  DFEQLLKNIK  257
+
+
+> UniRef90_D6IDH0 Predicted protein n=1 Tax=Escherichia coli B185 
+TaxID=550676 RepID=D6IDH0_ECOLX
+Length=306
+
+ Score = 139 bits (350),  Expect = 3e-37, Method: Composition-based stats.
+ Identities = 34/134 (25%), Positives = 61/134 (46%), Gaps = 5/134 (4%)
+
+Query  3    SAVVFKQMVLQQALPMTLKGLDK-ASELATLTPEGLAREHSRLASGDGALRSLSTALAGI  61
+            S         + +   +L  L   A ++  +T   L      LA+G+G LRSL TA  G+
+Sbjct  127  SLSDKASEFTKISYDTSLNQLGLFAQKVKMITGSELK-NIETLATGNGCLRSLMTAAHGV  185
+
+Query  62   RAGSQVEESRIQAGRLLERSIGGIALQQWG---TTGGAASQLVLDASPELRREITDQLHQ  118
+               S   +       LL+  +G I   Q+G   TT G++ Q + +AS +   +  + + +
+Sbjct  186  AQFSGNADITKAVETLLDIRVGNIPFSQFGTYTTTEGSSVQWIQNASQDDLEKAAEVIRR  245
+
+Query  119  VMSEVALLRQAVES  132
+            V  ++ LL Q +++
+Sbjct  246  VAGDLELLFQNIKN  259
+
+
+> UniRef90_UPI00093B08DE UPI00093B08DE related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00093B08DE
+Length=344
+
+ Score = 139 bits (349),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 32/105 (30%), Positives = 49/105 (47%), Gaps = 4/105 (4%)
+
+Query  32   LTPEGLA--REHSRLASGDGALRSLSTALAGIRAGSQVEESRIQAGRLLERSIGGIALQQ  89
+            +  + L   +    LA+GDG LRSL TA  G+   +   +       LL   IGGI   Q
+Sbjct  1    MNGQDLKNLKHFKALATGDGHLRSLMTAAQGVAQFTDNPDITKAIQTLLNVHIGGIPFLQ  60
+
+Query  90   WGTTG--GAASQLVLDASPELRREITDQLHQVMSEVALLRQAVES  132
+            +GT    G A+Q V  AS +   +  D + ++  +   L Q ++S
+Sbjct  61   FGTYAMDGGAAQWVKTASQKELNDAADMMRKIAGDFEKLLQNIKS  105
+
+
+> UniRef90_UPI0005142D33 UPI0005142D33 related cluster n=2 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=UPI0005142D33
+Length=304
+
+ Score = 134 bits (337),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 34/130 (26%), Positives = 54/130 (42%), Gaps = 4/130 (3%)
+
+Query  5    VVFKQMVLQQALPMTLKGLDK-ASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRA  63
+                    + A  ++LK L   A +   +T   L      LA+G+G LRSL TA  G+  
+Sbjct  129  SDKAGGAAEIAYDLSLKELGLFAQKAKMITGSELK-NIETLATGNGCLRSLMTAAQGVAQ  187
+
+Query  64   GSQVEESRIQAGRLLERSIGGIALQQWGTTG--GAASQLVLDASPELRREITDQLHQVMS  121
+             S   +       LL+  IGGI   Q+GT    G A + V +AS          +  +  
+Sbjct  188  CSGSADIAEAVRTLLDVQIGGIPFSQFGTCSTTGGAVEWVKNASQNDLEGAAGVIRGIAR  247
+
+Query  122  EVALLRQAVE  131
+            +   L ++++
+Sbjct  248  DFEQLLKSIK  257
+
+
+> UniRef90_UPI0006820CD9 hypothetical protein n=1 Tax=Grimontia 
+hollisae TaxID=673 RepID=UPI0006820CD9
+Length=210
+
+ Score = 128 bits (322),  Expect = 5e-34, Method: Composition-based stats.
+ Identities = 37/134 (28%), Positives = 60/134 (45%), Gaps = 7/134 (5%)
+
+Query  1    ASSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAG  60
+            A      + +  + A    L GL++A        E    +   LASG+G+LR++ TAL G
+Sbjct  84   APKTSDVRALAREAA----LSGLNRALRAGKFDAETFKDQFDALASGNGSLRTMVTALQG  139
+
+Query  61   IRAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVM  120
+            I   +Q  + +  A +LL   I G+   Q+GT  G A  L+  AS     +I   ++ + 
+Sbjct  140  ISQFTQG-QMKENADKLLSTDILGVKFSQFGTCSGPALALLSSASKNEMEQIISIINAIY  198
+
+Query  121  SEVALLRQAVESEV  134
+              V      + +EV
+Sbjct  199  GIVP--THLIGTEV  210
+
+
+> UniRef90_A0A0H7DTI2 Outer membrane virulence protein yopE n=14 
+Tax=Vibrio cholerae TaxID=666 RepID=A0A0H7DTI2_VIBCL
+Length=204
+
+ Score = 123 bits (308),  Expect = 5e-32, Method: Composition-based stats.
+ Identities = 34/124 (27%), Positives = 55/124 (44%), Gaps = 3/124 (2%)
+
+Query  11   VLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEES  70
+            V   A      GL +A        +        L   +G+LR++ T L GI       + 
+Sbjct  84   VRLVARDSAFLGLQRAIRSERFELDNFKSNFPYLTVANGSLRTIVTGLKGIVEFDDG-QM  142
+
+Query  71   RIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALLRQAV  130
+            +  A  +L+  I G+   Q+GT  G+A  LV +AS +  + I   L+++  +VAL    V
+Sbjct  143  KDIAKEILDTQICGVPFSQFGTCSGSARDLVANASYQQEKIIIKHLNELFEKVAL--HLV  200
+
+Query  131  ESEV  134
+             +EV
+Sbjct  201  GAEV  204
+
+
+> UniRef90_UPI00092D6623 UPI00092D6623 related cluster n=3 Tax=Escherichia 
+TaxID=561 RepID=UPI00092D6623
+Length=333
+
+ Score = 123 bits (309),  Expect = 5e-31, Method: Composition-based stats.
+ Identities = 27/103 (26%), Positives = 41/103 (40%), Gaps = 5/103 (5%)
+
+Query  32   LTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEESRIQAGRLLERSIGGIALQQWG  91
+            +T   L        +  G LRSL  A   +   +   +       LL   IGGI   Q+G
+Sbjct  1    MTGRELKNIE---TTDKGCLRSLMMAAQRVAQFTDNPDITKAIQTLLNVHIGGIPFSQFG  57
+
+Query  92   TTG--GAASQLVLDASPELRREITDQLHQVMSEVALLRQAVES  132
+                 G A Q V +AS +      D + ++ S+   L Q ++S
+Sbjct  58   ANAMDGRAVQWVKNASKKELNYAADMMRKIASDFEKLLQNIKS  100
+
+
+> UniRef90_D0Z4Z3 ADP-ribosyltransferase toxin aexT (Exoenzyme 
+T) n=2 Tax=Vibrionaceae TaxID=641 RepID=D0Z4Z3_PHODD
+Length=514
+
+ Score = 124 bits (312),  Expect = 6e-31, Method: Composition-based stats.
+ Identities = 42/124 (34%), Positives = 68/124 (55%), Gaps = 5/124 (4%)
+
+Query  11   VLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEES  70
+            + + AL  +LKGL +   L++L  E L ++H  LA+ +GALRS  TAL  IR     E  
+Sbjct  104  MGKIALKESLKGLTQLDNLSSLDGESLKQQHRELATNNGALRSTVTALQAIRLF-GTETQ  162
+
+Query  71   RIQAGRLLERSIGGIALQQWGTTGGA----ASQLVLDASPELRREITDQLHQVMSEVALL  126
+            +  A  +L   +GG   QQW TTG      AS  + +AS E  +  +D+++Q+  +++ L
+Sbjct  163  KTTANSILSDMVGGRPFQQWATTGSGEAKDASTFLNEASSEELQAASDKINQLSVQISKL  222
+
+Query  127  RQAV  130
+            +  +
+Sbjct  223  KDEL  226
+
+
+> UniRef90_A0A0H2MQJ6 ADP-ribosyltransferase n=3 Tax=Vibrio TaxID=662 
+RepID=A0A0H2MQJ6_9VIBR
+Length=513
+
+ Score = 120 bits (301),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 40/124 (32%), Positives = 68/124 (55%), Gaps = 5/124 (4%)
+
+Query  11   VLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEES  70
+            + + AL  +L GL +   L++L  E L ++H  LA+ +GALRS  TAL  I+     E  
+Sbjct  103  MGKVALKESLNGLTQLDTLSSLDGESLKQQHRELATNNGALRSTVTALQTIKLF-GTEAQ  161
+
+Query  71   RIQAGRLLERSIGGIALQQWGTTGGA----ASQLVLDASPELRREITDQLHQVMSEVALL  126
+            +  A  +L  ++GG   QQW TTG      A+  + DAS E  +  +D+++Q+  +++ L
+Sbjct  162  KSAAINILSDTVGGQPFQQWATTGSGEAKDAATFLNDASSEELQAASDKINQLSVQISKL  221
+
+Query  127  RQAV  130
+            +  +
+Sbjct  222  KGEL  225
+
+
+> UniRef90_A0A0M1V124 Outer membrane virulence protein YopE n=3 
+Tax=Yersinia TaxID=444888 RepID=A0A0M1V124_YERPE
+Length=154
+
+ Score = 113 bits (284),  Expect = 6e-29, Method: Composition-based stats.
+ Identities = 35/126 (28%), Positives = 54/126 (43%), Gaps = 6/126 (5%)
+
+Query  2    SSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGI  61
+             S   F   + Q A     K +    +L +L  E L + H + A+G G LR   T   G+
+Sbjct  32   PSPTSFSDSIKQLAAETLPKYMQ---QLNSLDAEMLQKNHDQFATGSGPLRGSITQCQGL  88
+
+Query  62   RAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMS  121
+                  E  + +A  +L   + GI   QWGT GGAAS  V  AS     +  +++  +  
+Sbjct  89   MQFCGGE-LQAEASAILNTPVCGIPFSQWGTIGGAASAYV--ASGVDLTQAANEIKGLAQ  145
+
+Query  122  EVALLR  127
+            ++  L 
+Sbjct  146  QMQKLL  151
+
+
+> UniRef90_P31493 Outer membrane virulence protein YopE n=57 Tax=Yersinia 
+TaxID=444888 RepID=YOPE_YERPE
+Length=219
+
+ Score = 112 bits (280),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 35/126 (28%), Positives = 54/126 (43%), Gaps = 6/126 (5%)
+
+Query  2    SSAVVFKQMVLQQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGI  61
+             S   F   + Q A     K +    +L +L  E L + H + A+G G LR   T   G+
+Sbjct  97   PSPTSFSDSIKQLAAETLPKYMQ---QLNSLDAEMLQKNHDQFATGSGPLRGSITQCQGL  153
+
+Query  62   RAGSQVEESRIQAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMS  121
+                  E  + +A  +L   + GI   QWGT GGAAS  V  AS     +  +++  +  
+Sbjct  154  MQFCGGE-LQAEASAILNTPVCGIPFSQWGTIGGAASAYV--ASGVDLTQAANEIKGLAQ  210
+
+Query  122  EVALLR  127
+            ++  L 
+Sbjct  211  QMQKLL  216
+
+
+> UniRef90_F9S7A1 Uncharacterized protein (Fragment) n=1 Tax=Vibrio 
+ichthyoenteri ATCC 700023 TaxID=870968 RepID=F9S7A1_9VIBR
+Length=147
+
+ Score = 106 bits (265),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 27/92 (29%), Positives = 44/92 (48%), Gaps = 1/92 (1%)
+
+Query  13   QQALPMTLKGLDKASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEESRI  72
+            Q  L     G+++A      T E L  +   LA+ +G+LR+++T L G+      +  R 
+Sbjct  57   QIGLNSAFMGIERALNCELFTAESLKIDFRGLATNNGSLRAMATGLQGLVQFGDCKTQR-  115
+
+Query  73   QAGRLLERSIGGIALQQWGTTGGAASQLVLDA  104
+             A  LL + I  I   Q+GT  G A++ +  A
+Sbjct  116  LAEELLNKQIQSIPFSQFGTYSGVAAERIATA  147
+
+
+> UniRef90_T8ZQA0 Uncharacterized protein n=1 Tax=Escherichia coli 
+UMEA 3200-1 TaxID=1281213 RepID=T8ZQA0_ECOLX
+Length=117
+
+ Score = 103 bits (256),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 26/100 (26%), Positives = 37/100 (37%), Gaps = 6/100 (6%)
+
+Query  11   VLQQALPMTLKGLDK-ASELATLTPEGLAREHSRLASGDGALRSLSTALAGIRAGSQVEE  69
+              +     +LK LD  A +   +T   L        +  G LRSL  A   +   +   +
+Sbjct  20   FTKVDYDTSLKELDLFARKAKEITGRELKNIE---TTDKGCLRSLMMAAQRVAQFTDNPD  76
+
+Query  70   SRIQAGRLLERSIGGIALQQWGTTG--GAASQLVLDASPE  107
+                   LL   IGGI   Q+G     G A + V  AS +
+Sbjct  77   ITKAIQTLLNVHIGGIPFSQFGANAMDGRAVKWVKKASKK  116
+
+
+> UniRef90_UPI000463F21D UPI000463F21D related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000463F21D
+Length=106
+
+ Score = 73.9 bits (180),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 41/60 (68%), Positives = 46/60 (77%), Gaps = 0/60 (0%)
+
+Query  73   QAGRLLERSIGGIALQQWGTTGGAASQLVLDASPELRREITDQLHQVMSEVALLRQAVES  132
+            +  RLL  ++GGIALQQW TTG A SQLVL ASPE R EI D+L +V SEVA LRQAVES
+Sbjct  35   EVARLLGLNLGGIALQQWRTTGAAVSQLVLGASPEQRGEIVDRLRRVASEVAPLRQAVES  94
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.137    0.336    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0425    0.140     1.90     42.6     43.6 
+
+Effective search space used: 441111173475
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

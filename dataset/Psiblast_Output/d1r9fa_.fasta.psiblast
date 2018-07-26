@@ -1,0 +1,529 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1r9fa_
+
+Length=121
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P11690 RNA silencing suppressor p19 n=15 Tax=Tomato bu...  244     3e-80
+  UniRef90_Q66104 RNA silencing suppressor p19 n=9 Tax=Tombusviru...  234     6e-76
+  UniRef90_P50626 RNA silencing suppressor p19 n=5 Tax=Tomato bus...  233     1e-75
+  UniRef90_Q9ICR3 19 kDa protein (Fragment) n=20 Tax=Moroccan pep...  227     4e-73
+  UniRef90_A0A0P0EGF0 Silencing suppressor n=1 Tax=Carnation Ital...  189     2e-58
+  UniRef90_Q8JMT1 RNA silencing suppressor p19 n=7 Tax=Tombusviru...  189     2e-58
+  UniRef90_P15184 RNA silencing suppressor p19 n=6 Tax=Tombusviru...  183     5e-56
+  UniRef90_P17457 RNA silencing suppressor p19 n=1 Tax=Cymbidium ...  182     9e-56
+  UniRef90_Q709N3 RNA silencing suppressor p19 n=1 Tax=Pelargoniu...  174     1e-52
+  UniRef90_Q80R12 Symptom severity modulator n=2 Tax=Cucumber Bul...  174     2e-52
+  UniRef90_Q9E348 p19 protein n=1 Tax=Maize necrotic streak virus...  146     1e-41
+
+
+> UniRef90_P11690 RNA silencing suppressor p19 n=15 Tax=Tomato 
+bushy stunt virus TaxID=12145 RepID=P19_TBSVC
+Length=172
+
+ Score = 244 bits (624),  Expect = 3e-80, Method: Compositional matrix adjust.
+ Identities = 117/122 (96%), Positives = 119/122 (98%), Gaps = 3/122 (2%)
+
+Query  3    TSPFKLPDESPSWTEWRLHNDET---QDNPLGFKESWGFGKVVFKRYLRYDRTEASLHRV  59
+            TSPFKLPDESPSWTEWRLHNDET   QDNPLGFKESWGFGKVVFKRYLRYDRTEASLHRV
+Sbjct  27   TSPFKLPDESPSWTEWRLHNDETNSNQDNPLGFKESWGFGKVVFKRYLRYDRTEASLHRV  86
+
+Query  60   LGSWTGDSVNYAASRFFGFDQIGCTYSIRFRGVSITVSGGSRTLQHLCEMAIRSKQEMLQ  119
+            LGSWTGDSVNYAASRFFGFDQIGCTYSIRFRGVSITVSGGSRTLQHLCEMAIRSKQE+LQ
+Sbjct  87   LGSWTGDSVNYAASRFFGFDQIGCTYSIRFRGVSITVSGGSRTLQHLCEMAIRSKQELLQ  146
+
+Query  120  MA  121
+            +A
+Sbjct  147  LA  148
+
+
+> UniRef90_Q66104 RNA silencing suppressor p19 n=9 Tax=Tombusvirus 
+TaxID=12141 RepID=P19_CIRV
+Length=172
+
+ Score = 234 bits (596),  Expect = 6e-76, Method: Compositional matrix adjust.
+ Identities = 109/122 (89%), Positives = 117/122 (96%), Gaps = 3/122 (2%)
+
+Query  2    MTSPFKLPDESPSWTEWRLHNDET---QDNPLGFKESWGFGKVVFKRYLRYDRTEASLHR  58
+            +TSPFKLPDESPSWTEWRL+NDET   QDNPLGFKESWGFGKVVFKRYLRYDRTEASLHR
+Sbjct  26   ITSPFKLPDESPSWTEWRLYNDETNSNQDNPLGFKESWGFGKVVFKRYLRYDRTEASLHR  85
+
+Query  59   VLGSWTGDSVNYAASRFFGFDQIGCTYSIRFRGVSITVSGGSRTLQHLCEMAIRSKQEML  118
+            VLGSWTGDSVNYAASRF G +Q+GCTYSIRFRGVS+T+SGGSRTLQHLCEMAIRSKQE+L
+Sbjct  86   VLGSWTGDSVNYAASRFLGANQVGCTYSIRFRGVSVTISGGSRTLQHLCEMAIRSKQELL  145
+
+Query  119  QM  120
+            Q+
+Sbjct  146  QL  147
+
+
+> UniRef90_P50626 RNA silencing suppressor p19 n=5 Tax=Tomato bushy 
+stunt virus TaxID=12145 RepID=P19_TBSVB
+Length=172
+
+ Score = 233 bits (594),  Expect = 1e-75, Method: Compositional matrix adjust.
+ Identities = 110/122 (90%), Positives = 115/122 (94%), Gaps = 3/122 (2%)
+
+Query  3    TSPFKLPDESPSWTEWRLHNDET---QDNPLGFKESWGFGKVVFKRYLRYDRTEASLHRV  59
+            TSPFKLPDESPSWTEWRLHNDET   QDNPLGFKESWGFGKVVFKRYLRY+RTE SLHRV
+Sbjct  27   TSPFKLPDESPSWTEWRLHNDETISNQDNPLGFKESWGFGKVVFKRYLRYERTETSLHRV  86
+
+Query  60   LGSWTGDSVNYAASRFFGFDQIGCTYSIRFRGVSITVSGGSRTLQHLCEMAIRSKQEMLQ  119
+            LGSWTGDSVNYAASRF GFDQIGCTYSIRFRGVS+T+SGGSRTLQHL EMAIRSKQE+LQ
+Sbjct  87   LGSWTGDSVNYAASRFLGFDQIGCTYSIRFRGVSVTISGGSRTLQHLSEMAIRSKQELLQ  146
+
+Query  120  MA  121
+            + 
+Sbjct  147  LT  148
+
+
+> UniRef90_Q9ICR3 19 kDa protein (Fragment) n=20 Tax=Moroccan pepper 
+virus TaxID=208086 RepID=Q9ICR3_9TOMB
+Length=172
+
+ Score = 227 bits (578),  Expect = 4e-73, Method: Compositional matrix adjust.
+ Identities = 105/121 (87%), Positives = 112/121 (93%), Gaps = 3/121 (2%)
+
+Query  3    TSPFKLPDESPSWTEWRLHNDET---QDNPLGFKESWGFGKVVFKRYLRYDRTEASLHRV  59
+             SPFK PDESPSWTEWRLH DET   QDNPLGFKESWGFGKVVFKRYLRYD TEASLHRV
+Sbjct  27   ASPFKFPDESPSWTEWRLHKDETNSNQDNPLGFKESWGFGKVVFKRYLRYDGTEASLHRV  86
+
+Query  60   LGSWTGDSVNYAASRFFGFDQIGCTYSIRFRGVSITVSGGSRTLQHLCEMAIRSKQEMLQ  119
+            LGSWTGDSVNYAASRFFG +QIGCTYSIRFRGVS+T+SGGSR LQHLCEMA+R+KQE+LQ
+Sbjct  87   LGSWTGDSVNYAASRFFGINQIGCTYSIRFRGVSVTISGGSRALQHLCEMAVRAKQELLQ  146
+
+Query  120  M  120
+            +
+Sbjct  147  L  147
+
+
+> UniRef90_A0A0P0EGF0 Silencing suppressor n=1 Tax=Carnation Italian 
+ringspot virus TaxID=39443 RepID=A0A0P0EGF0_CIRV
+Length=172
+
+ Score = 189 bits (480),  Expect = 2e-58, Method: Compositional matrix adjust.
+ Identities = 91/121 (75%), Positives = 101/121 (83%), Gaps = 3/121 (2%)
+
+Query  4    SPFKLPDESPSWTEWRLHNDET---QDNPLGFKESWGFGKVVFKRYLRYDRTEASLHRVL  60
+            +PFKLPDESPS+ EWR+HN E    +DNPLGFKESW FGKVVFKRY RYD TE SLHRVL
+Sbjct  28   TPFKLPDESPSFNEWRIHNSEESEDKDNPLGFKESWCFGKVVFKRYFRYDGTETSLHRVL  87
+
+Query  61   GSWTGDSVNYAASRFFGFDQIGCTYSIRFRGVSITVSGGSRTLQHLCEMAIRSKQEMLQM  120
+            GSW  DS+N AASRFFG +QIGCTYSIRFRG  +T+SGGSRTLQ L EMAIRSK+ MLQ+
+Sbjct  88   GSWERDSINDAASRFFGVNQIGCTYSIRFRGSCLTLSGGSRTLQRLIEMAIRSKRTMLQL  147
+
+Query  121  A  121
+             
+Sbjct  148  T  148
+
+
+> UniRef90_Q8JMT1 RNA silencing suppressor p19 n=7 Tax=Tombusvirus 
+TaxID=12141 RepID=P19_PLV
+Length=172
+
+ Score = 189 bits (480),  Expect = 2e-58, Method: Compositional matrix adjust.
+ Identities = 91/120 (76%), Positives = 99/120 (83%), Gaps = 3/120 (3%)
+
+Query  4    SPFKLPDESPSWTEWRLHNDET---QDNPLGFKESWGFGKVVFKRYLRYDRTEASLHRVL  60
+            +PFKLPDESPS  EWRLHN E    +DNPLGFKESW FGKVVFKRYLRYD TEASLHR L
+Sbjct  28   TPFKLPDESPSLIEWRLHNSEESEDKDNPLGFKESWSFGKVVFKRYLRYDGTEASLHRAL  87
+
+Query  61   GSWTGDSVNYAASRFFGFDQIGCTYSIRFRGVSITVSGGSRTLQHLCEMAIRSKQEMLQM  120
+            GSW  D+VN AASRF GF QIGCTY IRFRG  +T+SGGSRTLQ L EMAIR+K+ MLQ+
+Sbjct  88   GSWERDTVNNAASRFLGFGQIGCTYCIRFRGSCLTISGGSRTLQRLIEMAIRTKRTMLQL  147
+
+
+> UniRef90_P15184 RNA silencing suppressor p19 n=6 Tax=Tombusvirus 
+TaxID=12141 RepID=P19_CNV
+Length=173
+
+ Score = 183 bits (464),  Expect = 5e-56, Method: Compositional matrix adjust.
+ Identities = 89/120 (74%), Positives = 98/120 (82%), Gaps = 3/120 (3%)
+
+Query  4    SPFKLPDESPSWTEWRLHNDET---QDNPLGFKESWGFGKVVFKRYLRYDRTEASLHRVL  60
+            +PFKLPDESPS  EWRLHN E    +D+PLGFKESW FGKVVFKRYLRYD TE SLHR L
+Sbjct  28   TPFKLPDESPSLLEWRLHNSEESEDKDHPLGFKESWSFGKVVFKRYLRYDGTETSLHRTL  87
+
+Query  61   GSWTGDSVNYAASRFFGFDQIGCTYSIRFRGVSITVSGGSRTLQHLCEMAIRSKQEMLQM  120
+            GSW  +SVN AASRF G  QIGCTYSIRFRG  +T+SGGSRTLQ L EMAIR+K+ MLQ+
+Sbjct  88   GSWERNSVNDAASRFLGVSQIGCTYSIRFRGSCLTLSGGSRTLQRLIEMAIRTKRTMLQL  147
+
+
+> UniRef90_P17457 RNA silencing suppressor p19 n=1 Tax=Cymbidium 
+ringspot virus TaxID=12144 RepID=P19_CRV
+Length=172
+
+ Score = 182 bits (463),  Expect = 9e-56, Method: Compositional matrix adjust.
+ Identities = 90/120 (75%), Positives = 96/120 (80%), Gaps = 3/120 (3%)
+
+Query  3    TSPFKLPDESPSWTEWRLHNDE---TQDNPLGFKESWGFGKVVFKRYLRYDRTEASLHRV  59
+            TSPFKLPDESPS  EWRLH+ E    +DNPLGFKESW FGKVVFKRYLRYD  E SLHR 
+Sbjct  27   TSPFKLPDESPSLHEWRLHHSEESENKDNPLGFKESWSFGKVVFKRYLRYDGAETSLHRA  86
+
+Query  60   LGSWTGDSVNYAASRFFGFDQIGCTYSIRFRGVSITVSGGSRTLQHLCEMAIRSKQEMLQ  119
+            LGSW  DSVN AASRF G  QIGCTYSIRFRG  +T+SGGS TLQ L EMAIR+K+ MLQ
+Sbjct  87   LGSWERDSVNDAASRFLGLSQIGCTYSIRFRGTRLTLSGGSGTLQRLIEMAIRTKRTMLQ  146
+
+
+> UniRef90_Q709N3 RNA silencing suppressor p19 n=1 Tax=Pelargonium 
+necrotic spot virus TaxID=255587 RepID=P19_PENSV
+Length=172
+
+ Score = 174 bits (442),  Expect = 1e-52, Method: Compositional matrix adjust.
+ Identities = 86/120 (72%), Positives = 96/120 (80%), Gaps = 3/120 (3%)
+
+Query  4    SPFKLPDESPSWTEWRLHNDET---QDNPLGFKESWGFGKVVFKRYLRYDRTEASLHRVL  60
+            +PFKL DESPS  EWRLH+ E    QD+PLGFKESW FGKVVFKRYLRY  TE SLHR L
+Sbjct  28   TPFKLSDESPSLHEWRLHHSEEGEDQDHPLGFKESWSFGKVVFKRYLRYGGTETSLHRAL  87
+
+Query  61   GSWTGDSVNYAASRFFGFDQIGCTYSIRFRGVSITVSGGSRTLQHLCEMAIRSKQEMLQM  120
+            GSW  ++VN AASRF GF QIGCTYSIRFRG  +T+SGGSRTLQ L EMAIR+K  +LQ+
+Sbjct  88   GSWERNTVNNAASRFLGFGQIGCTYSIRFRGSCLTISGGSRTLQRLIEMAIRTKCTVLQL  147
+
+
+> UniRef90_Q80R12 Symptom severity modulator n=2 Tax=Cucumber Bulgarian 
+virus TaxID=220618 RepID=Q80R12_9TOMB
+Length=168
+
+ Score = 174 bits (440),  Expect = 2e-52, Method: Compositional matrix adjust.
+ Identities = 84/121 (69%), Positives = 100/121 (83%), Gaps = 3/121 (2%)
+
+Query  4    SPFKLPDESPSWTEWRLHNDET---QDNPLGFKESWGFGKVVFKRYLRYDRTEASLHRVL  60
+            +PF+LPDESP+  EWR+H+ ET   +D PLGFKESWGFGKVVFKRY R+D  E SLHRV+
+Sbjct  28   TPFQLPDESPNRDEWRVHHCETNPHKDYPLGFKESWGFGKVVFKRYYRHDWKETSLHRVI  87
+
+Query  61   GSWTGDSVNYAASRFFGFDQIGCTYSIRFRGVSITVSGGSRTLQHLCEMAIRSKQEMLQM  120
+             SW+GD+VNYAASRFFG +Q+GCTYSIR RG+S+T+SGGS TLQ L EMAIR K   LQ+
+Sbjct  88   RSWSGDTVNYAASRFFGVNQVGCTYSIRIRGISVTLSGGSGTLQRLIEMAIRIKLSELQL  147
+
+Query  121  A  121
+            A
+Sbjct  148  A  148
+
+
+> UniRef90_Q9E348 p19 protein n=1 Tax=Maize necrotic streak virus 
+TaxID=137556 RepID=Q9E348_MNESV
+Length=170
+
+ Score = 146 bits (368),  Expect = 1e-41, Method: Compositional matrix adjust.
+ Identities = 75/121 (62%), Positives = 83/121 (69%), Gaps = 3/121 (2%)
+
+Query  4    SPFKLPDESPSWTEWRLHNDE---TQDNPLGFKESWGFGKVVFKRYLRYDRTEASLHRVL  60
+            +PF+LPDESP+  EWRLH+D      D PLGFKE W  GK + KRY RYD  EASL R L
+Sbjct  28   APFQLPDESPTSDEWRLHHDAYDPDTDCPLGFKEFWSVGKAISKRYHRYDWKEASLDRAL  87
+
+Query  61   GSWTGDSVNYAASRFFGFDQIGCTYSIRFRGVSITVSGGSRTLQHLCEMAIRSKQEMLQM  120
+            GSW GD V   ASRF G DQ+ CTYSIR RGVSIT+SGGSR L  L  MA R K+  LQ 
+Sbjct  88   GSWQGDKVITEASRFLGVDQVSCTYSIRVRGVSITLSGGSRALLRLVSMADRIKRSELQF  147
+
+Query  121  A  121
+            A
+Sbjct  148  A  148
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.135    0.431    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 436746253185
+Results from round 2
+
+
+Query= d1r9fa_
+
+Length=121
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P11690 RNA silencing suppressor p19 n=15 Tax=Tomato bu...  221     8e-71
+  UniRef90_Q66104 RNA silencing suppressor p19 n=9 Tax=Tombusviru...  219     3e-70
+  UniRef90_Q9ICR3 19 kDa protein (Fragment) n=20 Tax=Moroccan pep...  216     4e-69
+  UniRef90_A0A0P0EGF0 Silencing suppressor n=1 Tax=Carnation Ital...  215     1e-68
+  UniRef90_Q8JMT1 RNA silencing suppressor p19 n=7 Tax=Tombusviru...  215     2e-68
+  UniRef90_P50626 RNA silencing suppressor p19 n=5 Tax=Tomato bus...  214     4e-68
+  UniRef90_Q80R12 Symptom severity modulator n=2 Tax=Cucumber Bul...  209     3e-66
+  UniRef90_P15184 RNA silencing suppressor p19 n=6 Tax=Tombusviru...  209     3e-66
+  UniRef90_Q709N3 RNA silencing suppressor p19 n=1 Tax=Pelargoniu...  209     5e-66
+  UniRef90_P17457 RNA silencing suppressor p19 n=1 Tax=Cymbidium ...  206     5e-65
+  UniRef90_Q9E348 p19 protein n=1 Tax=Maize necrotic streak virus...  189     2e-58
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_P11690 RNA silencing suppressor p19 n=15 Tax=Tomato 
+bushy stunt virus TaxID=12145 RepID=P19_TBSVC
+Length=172
+
+ Score = 221 bits (562),  Expect = 8e-71, Method: Composition-based stats.
+ Identities = 117/122 (96%), Positives = 119/122 (98%), Gaps = 3/122 (2%)
+
+Query  3    TSPFKLPDESPSWTEWRLHNDET---QDNPLGFKESWGFGKVVFKRYLRYDRTEASLHRV  59
+            TSPFKLPDESPSWTEWRLHNDET   QDNPLGFKESWGFGKVVFKRYLRYDRTEASLHRV
+Sbjct  27   TSPFKLPDESPSWTEWRLHNDETNSNQDNPLGFKESWGFGKVVFKRYLRYDRTEASLHRV  86
+
+Query  60   LGSWTGDSVNYAASRFFGFDQIGCTYSIRFRGVSITVSGGSRTLQHLCEMAIRSKQEMLQ  119
+            LGSWTGDSVNYAASRFFGFDQIGCTYSIRFRGVSITVSGGSRTLQHLCEMAIRSKQE+LQ
+Sbjct  87   LGSWTGDSVNYAASRFFGFDQIGCTYSIRFRGVSITVSGGSRTLQHLCEMAIRSKQELLQ  146
+
+Query  120  MA  121
+            +A
+Sbjct  147  LA  148
+
+
+> UniRef90_Q66104 RNA silencing suppressor p19 n=9 Tax=Tombusvirus 
+TaxID=12141 RepID=P19_CIRV
+Length=172
+
+ Score = 219 bits (558),  Expect = 3e-70, Method: Composition-based stats.
+ Identities = 109/123 (89%), Positives = 117/123 (95%), Gaps = 3/123 (2%)
+
+Query  2    MTSPFKLPDESPSWTEWRLHNDET---QDNPLGFKESWGFGKVVFKRYLRYDRTEASLHR  58
+            +TSPFKLPDESPSWTEWRL+NDET   QDNPLGFKESWGFGKVVFKRYLRYDRTEASLHR
+Sbjct  26   ITSPFKLPDESPSWTEWRLYNDETNSNQDNPLGFKESWGFGKVVFKRYLRYDRTEASLHR  85
+
+Query  59   VLGSWTGDSVNYAASRFFGFDQIGCTYSIRFRGVSITVSGGSRTLQHLCEMAIRSKQEML  118
+            VLGSWTGDSVNYAASRF G +Q+GCTYSIRFRGVS+T+SGGSRTLQHLCEMAIRSKQE+L
+Sbjct  86   VLGSWTGDSVNYAASRFLGANQVGCTYSIRFRGVSVTISGGSRTLQHLCEMAIRSKQELL  145
+
+Query  119  QMA  121
+            Q+ 
+Sbjct  146  QLT  148
+
+
+> UniRef90_Q9ICR3 19 kDa protein (Fragment) n=20 Tax=Moroccan pepper 
+virus TaxID=208086 RepID=Q9ICR3_9TOMB
+Length=172
+
+ Score = 216 bits (551),  Expect = 4e-69, Method: Composition-based stats.
+ Identities = 105/122 (86%), Positives = 112/122 (92%), Gaps = 3/122 (2%)
+
+Query  3    TSPFKLPDESPSWTEWRLHNDET---QDNPLGFKESWGFGKVVFKRYLRYDRTEASLHRV  59
+             SPFK PDESPSWTEWRLH DET   QDNPLGFKESWGFGKVVFKRYLRYD TEASLHRV
+Sbjct  27   ASPFKFPDESPSWTEWRLHKDETNSNQDNPLGFKESWGFGKVVFKRYLRYDGTEASLHRV  86
+
+Query  60   LGSWTGDSVNYAASRFFGFDQIGCTYSIRFRGVSITVSGGSRTLQHLCEMAIRSKQEMLQ  119
+            LGSWTGDSVNYAASRFFG +QIGCTYSIRFRGVS+T+SGGSR LQHLCEMA+R+KQE+LQ
+Sbjct  87   LGSWTGDSVNYAASRFFGINQIGCTYSIRFRGVSVTISGGSRALQHLCEMAVRAKQELLQ  146
+
+Query  120  MA  121
+            + 
+Sbjct  147  LT  148
+
+
+> UniRef90_A0A0P0EGF0 Silencing suppressor n=1 Tax=Carnation Italian 
+ringspot virus TaxID=39443 RepID=A0A0P0EGF0_CIRV
+Length=172
+
+ Score = 215 bits (548),  Expect = 1e-68, Method: Composition-based stats.
+ Identities = 91/121 (75%), Positives = 101/121 (83%), Gaps = 3/121 (2%)
+
+Query  4    SPFKLPDESPSWTEWRLHNDET---QDNPLGFKESWGFGKVVFKRYLRYDRTEASLHRVL  60
+            +PFKLPDESPS+ EWR+HN E    +DNPLGFKESW FGKVVFKRY RYD TE SLHRVL
+Sbjct  28   TPFKLPDESPSFNEWRIHNSEESEDKDNPLGFKESWCFGKVVFKRYFRYDGTETSLHRVL  87
+
+Query  61   GSWTGDSVNYAASRFFGFDQIGCTYSIRFRGVSITVSGGSRTLQHLCEMAIRSKQEMLQM  120
+            GSW  DS+N AASRFFG +QIGCTYSIRFRG  +T+SGGSRTLQ L EMAIRSK+ MLQ+
+Sbjct  88   GSWERDSINDAASRFFGVNQIGCTYSIRFRGSCLTLSGGSRTLQRLIEMAIRSKRTMLQL  147
+
+Query  121  A  121
+             
+Sbjct  148  T  148
+
+
+> UniRef90_Q8JMT1 RNA silencing suppressor p19 n=7 Tax=Tombusvirus 
+TaxID=12141 RepID=P19_PLV
+Length=172
+
+ Score = 215 bits (547),  Expect = 2e-68, Method: Composition-based stats.
+ Identities = 91/121 (75%), Positives = 99/121 (82%), Gaps = 3/121 (2%)
+
+Query  4    SPFKLPDESPSWTEWRLHNDET---QDNPLGFKESWGFGKVVFKRYLRYDRTEASLHRVL  60
+            +PFKLPDESPS  EWRLHN E    +DNPLGFKESW FGKVVFKRYLRYD TEASLHR L
+Sbjct  28   TPFKLPDESPSLIEWRLHNSEESEDKDNPLGFKESWSFGKVVFKRYLRYDGTEASLHRAL  87
+
+Query  61   GSWTGDSVNYAASRFFGFDQIGCTYSIRFRGVSITVSGGSRTLQHLCEMAIRSKQEMLQM  120
+            GSW  D+VN AASRF GF QIGCTY IRFRG  +T+SGGSRTLQ L EMAIR+K+ MLQ+
+Sbjct  88   GSWERDTVNNAASRFLGFGQIGCTYCIRFRGSCLTISGGSRTLQRLIEMAIRTKRTMLQL  147
+
+Query  121  A  121
+             
+Sbjct  148  T  148
+
+
+> UniRef90_P50626 RNA silencing suppressor p19 n=5 Tax=Tomato bushy 
+stunt virus TaxID=12145 RepID=P19_TBSVB
+Length=172
+
+ Score = 214 bits (545),  Expect = 4e-68, Method: Composition-based stats.
+ Identities = 110/122 (90%), Positives = 115/122 (94%), Gaps = 3/122 (2%)
+
+Query  3    TSPFKLPDESPSWTEWRLHNDET---QDNPLGFKESWGFGKVVFKRYLRYDRTEASLHRV  59
+            TSPFKLPDESPSWTEWRLHNDET   QDNPLGFKESWGFGKVVFKRYLRY+RTE SLHRV
+Sbjct  27   TSPFKLPDESPSWTEWRLHNDETISNQDNPLGFKESWGFGKVVFKRYLRYERTETSLHRV  86
+
+Query  60   LGSWTGDSVNYAASRFFGFDQIGCTYSIRFRGVSITVSGGSRTLQHLCEMAIRSKQEMLQ  119
+            LGSWTGDSVNYAASRF GFDQIGCTYSIRFRGVS+T+SGGSRTLQHL EMAIRSKQE+LQ
+Sbjct  87   LGSWTGDSVNYAASRFLGFDQIGCTYSIRFRGVSVTISGGSRTLQHLSEMAIRSKQELLQ  146
+
+Query  120  MA  121
+            + 
+Sbjct  147  LT  148
+
+
+> UniRef90_Q80R12 Symptom severity modulator n=2 Tax=Cucumber Bulgarian 
+virus TaxID=220618 RepID=Q80R12_9TOMB
+Length=168
+
+ Score = 209 bits (531),  Expect = 3e-66, Method: Composition-based stats.
+ Identities = 84/121 (69%), Positives = 100/121 (83%), Gaps = 3/121 (2%)
+
+Query  4    SPFKLPDESPSWTEWRLHNDET---QDNPLGFKESWGFGKVVFKRYLRYDRTEASLHRVL  60
+            +PF+LPDESP+  EWR+H+ ET   +D PLGFKESWGFGKVVFKRY R+D  E SLHRV+
+Sbjct  28   TPFQLPDESPNRDEWRVHHCETNPHKDYPLGFKESWGFGKVVFKRYYRHDWKETSLHRVI  87
+
+Query  61   GSWTGDSVNYAASRFFGFDQIGCTYSIRFRGVSITVSGGSRTLQHLCEMAIRSKQEMLQM  120
+             SW+GD+VNYAASRFFG +Q+GCTYSIR RG+S+T+SGGS TLQ L EMAIR K   LQ+
+Sbjct  88   RSWSGDTVNYAASRFFGVNQVGCTYSIRIRGISVTLSGGSGTLQRLIEMAIRIKLSELQL  147
+
+Query  121  A  121
+            A
+Sbjct  148  A  148
+
+
+> UniRef90_P15184 RNA silencing suppressor p19 n=6 Tax=Tombusvirus 
+TaxID=12141 RepID=P19_CNV
+Length=173
+
+ Score = 209 bits (532),  Expect = 3e-66, Method: Composition-based stats.
+ Identities = 89/121 (74%), Positives = 98/121 (81%), Gaps = 3/121 (2%)
+
+Query  4    SPFKLPDESPSWTEWRLHNDET---QDNPLGFKESWGFGKVVFKRYLRYDRTEASLHRVL  60
+            +PFKLPDESPS  EWRLHN E    +D+PLGFKESW FGKVVFKRYLRYD TE SLHR L
+Sbjct  28   TPFKLPDESPSLLEWRLHNSEESEDKDHPLGFKESWSFGKVVFKRYLRYDGTETSLHRTL  87
+
+Query  61   GSWTGDSVNYAASRFFGFDQIGCTYSIRFRGVSITVSGGSRTLQHLCEMAIRSKQEMLQM  120
+            GSW  +SVN AASRF G  QIGCTYSIRFRG  +T+SGGSRTLQ L EMAIR+K+ MLQ+
+Sbjct  88   GSWERNSVNDAASRFLGVSQIGCTYSIRFRGSCLTLSGGSRTLQRLIEMAIRTKRTMLQL  147
+
+Query  121  A  121
+             
+Sbjct  148  T  148
+
+
+> UniRef90_Q709N3 RNA silencing suppressor p19 n=1 Tax=Pelargonium 
+necrotic spot virus TaxID=255587 RepID=P19_PENSV
+Length=172
+
+ Score = 209 bits (531),  Expect = 5e-66, Method: Composition-based stats.
+ Identities = 86/121 (71%), Positives = 96/121 (79%), Gaps = 3/121 (2%)
+
+Query  4    SPFKLPDESPSWTEWRLHNDET---QDNPLGFKESWGFGKVVFKRYLRYDRTEASLHRVL  60
+            +PFKL DESPS  EWRLH+ E    QD+PLGFKESW FGKVVFKRYLRY  TE SLHR L
+Sbjct  28   TPFKLSDESPSLHEWRLHHSEEGEDQDHPLGFKESWSFGKVVFKRYLRYGGTETSLHRAL  87
+
+Query  61   GSWTGDSVNYAASRFFGFDQIGCTYSIRFRGVSITVSGGSRTLQHLCEMAIRSKQEMLQM  120
+            GSW  ++VN AASRF GF QIGCTYSIRFRG  +T+SGGSRTLQ L EMAIR+K  +LQ+
+Sbjct  88   GSWERNTVNNAASRFLGFGQIGCTYSIRFRGSCLTISGGSRTLQRLIEMAIRTKCTVLQL  147
+
+Query  121  A  121
+             
+Sbjct  148  T  148
+
+
+> UniRef90_P17457 RNA silencing suppressor p19 n=1 Tax=Cymbidium 
+ringspot virus TaxID=12144 RepID=P19_CRV
+Length=172
+
+ Score = 206 bits (524),  Expect = 5e-65, Method: Composition-based stats.
+ Identities = 90/120 (75%), Positives = 96/120 (80%), Gaps = 3/120 (3%)
+
+Query  3    TSPFKLPDESPSWTEWRLHNDET---QDNPLGFKESWGFGKVVFKRYLRYDRTEASLHRV  59
+            TSPFKLPDESPS  EWRLH+ E    +DNPLGFKESW FGKVVFKRYLRYD  E SLHR 
+Sbjct  27   TSPFKLPDESPSLHEWRLHHSEESENKDNPLGFKESWSFGKVVFKRYLRYDGAETSLHRA  86
+
+Query  60   LGSWTGDSVNYAASRFFGFDQIGCTYSIRFRGVSITVSGGSRTLQHLCEMAIRSKQEMLQ  119
+            LGSW  DSVN AASRF G  QIGCTYSIRFRG  +T+SGGS TLQ L EMAIR+K+ MLQ
+Sbjct  87   LGSWERDSVNDAASRFLGLSQIGCTYSIRFRGTRLTLSGGSGTLQRLIEMAIRTKRTMLQ  146
+
+
+> UniRef90_Q9E348 p19 protein n=1 Tax=Maize necrotic streak virus 
+TaxID=137556 RepID=Q9E348_MNESV
+Length=170
+
+ Score = 189 bits (480),  Expect = 2e-58, Method: Composition-based stats.
+ Identities = 75/121 (62%), Positives = 83/121 (69%), Gaps = 3/121 (2%)
+
+Query  4    SPFKLPDESPSWTEWRLHNDE---TQDNPLGFKESWGFGKVVFKRYLRYDRTEASLHRVL  60
+            +PF+LPDESP+  EWRLH+D      D PLGFKE W  GK + KRY RYD  EASL R L
+Sbjct  28   APFQLPDESPTSDEWRLHHDAYDPDTDCPLGFKEFWSVGKAISKRYHRYDWKEASLDRAL  87
+
+Query  61   GSWTGDSVNYAASRFFGFDQIGCTYSIRFRGVSITVSGGSRTLQHLCEMAIRSKQEMLQM  120
+            GSW GD V   ASRF G DQ+ CTYSIR RGVSIT+SGGSR L  L  MA R K+  LQ 
+Sbjct  88   GSWQGDKVITEASRFLGVDQVSCTYSIRVRGVSITLSGGSRALLRLVSMADRIKRSELQF  147
+
+Query  121  A  121
+            A
+Sbjct  148  A  148
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.138    0.439    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0420    0.140     1.90     42.6     43.6 
+
+Effective search space used: 436746253185
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

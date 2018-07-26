@@ -1,0 +1,145 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d2csba5
+
+Length=291
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_F1SVL0 Topoisomerase V n=2 Tax=Methanopyrus kandleri T...  589     0.0  
+
+
+> UniRef90_F1SVL0 Topoisomerase V n=2 Tax=Methanopyrus kandleri 
+TaxID=2320 RepID=F1SVL0_METKA
+Length=984
+
+ Score = 589 bits (1519),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 291/291 (100%), Positives = 291/291 (100%), Gaps = 0/291 (0%)
+
+Query  1    LVYDAEFVGSEREFEEERETFLKGVKAYDGVLATRYLMERSSSAKNDEELLELHQNFILL  60
+            LVYDAEFVGSEREFEEERETFLKGVKAYDGVLATRYLMERSSSAKNDEELLELHQNFILL
+Sbjct  3    LVYDAEFVGSEREFEEERETFLKGVKAYDGVLATRYLMERSSSAKNDEELLELHQNFILL  62
+
+Query  61   TGSYACSIDPTEDRYQNVIVRGVNFDERVQRLSTGGSPARYAIVYRRGWRAIAKALDIDE  120
+            TGSYACSIDPTEDRYQNVIVRGVNFDERVQRLSTGGSPARYAIVYRRGWRAIAKALDIDE
+Sbjct  63   TGSYACSIDPTEDRYQNVIVRGVNFDERVQRLSTGGSPARYAIVYRRGWRAIAKALDIDE  122
+
+Query  121  EDVPAIEVRAVKRNPLQPALYRILVRYGRVDLMPVTVDEVPPEMAGEFERLIERYDVPID  180
+            EDVPAIEVRAVKRNPLQPALYRILVRYGRVDLMPVTVDEVPPEMAGEFERLIERYDVPID
+Sbjct  123  EDVPAIEVRAVKRNPLQPALYRILVRYGRVDLMPVTVDEVPPEMAGEFERLIERYDVPID  182
+
+Query  181  EKEERILEILRENPWTPHDEIARRLGLSVSEVEGEKDPESSGIYSLWSRVVVNIEYDERT  240
+            EKEERILEILRENPWTPHDEIARRLGLSVSEVEGEKDPESSGIYSLWSRVVVNIEYDERT
+Sbjct  183  EKEERILEILRENPWTPHDEIARRLGLSVSEVEGEKDPESSGIYSLWSRVVVNIEYDERT  242
+
+Query  241  AKRHVKRRDRLLEELYEHLEELSERYLRHPLTRRWIVEHKRDIMRRYLEQR  291
+            AKRHVKRRDRLLEELYEHLEELSERYLRHPLTRRWIVEHKRDIMRRYLEQR
+Sbjct  243  AKRHVKRRDRLLEELYEHLEELSERYLRHPLTRRWIVEHKRDIMRRYLEQR  293
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.138    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1476419276225
+Results from round 2
+
+
+Query= d2csba5
+
+Length=291
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_F1SVL0 Topoisomerase V n=2 Tax=Methanopyrus kandleri T...  564     0.0  
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_F1SVL0 Topoisomerase V n=2 Tax=Methanopyrus kandleri 
+TaxID=2320 RepID=F1SVL0_METKA
+Length=984
+
+ Score = 564 bits (1454),  Expect = 0.0, Method: Composition-based stats.
+ Identities = 291/291 (100%), Positives = 291/291 (100%), Gaps = 0/291 (0%)
+
+Query  1    LVYDAEFVGSEREFEEERETFLKGVKAYDGVLATRYLMERSSSAKNDEELLELHQNFILL  60
+            LVYDAEFVGSEREFEEERETFLKGVKAYDGVLATRYLMERSSSAKNDEELLELHQNFILL
+Sbjct  3    LVYDAEFVGSEREFEEERETFLKGVKAYDGVLATRYLMERSSSAKNDEELLELHQNFILL  62
+
+Query  61   TGSYACSIDPTEDRYQNVIVRGVNFDERVQRLSTGGSPARYAIVYRRGWRAIAKALDIDE  120
+            TGSYACSIDPTEDRYQNVIVRGVNFDERVQRLSTGGSPARYAIVYRRGWRAIAKALDIDE
+Sbjct  63   TGSYACSIDPTEDRYQNVIVRGVNFDERVQRLSTGGSPARYAIVYRRGWRAIAKALDIDE  122
+
+Query  121  EDVPAIEVRAVKRNPLQPALYRILVRYGRVDLMPVTVDEVPPEMAGEFERLIERYDVPID  180
+            EDVPAIEVRAVKRNPLQPALYRILVRYGRVDLMPVTVDEVPPEMAGEFERLIERYDVPID
+Sbjct  123  EDVPAIEVRAVKRNPLQPALYRILVRYGRVDLMPVTVDEVPPEMAGEFERLIERYDVPID  182
+
+Query  181  EKEERILEILRENPWTPHDEIARRLGLSVSEVEGEKDPESSGIYSLWSRVVVNIEYDERT  240
+            EKEERILEILRENPWTPHDEIARRLGLSVSEVEGEKDPESSGIYSLWSRVVVNIEYDERT
+Sbjct  183  EKEERILEILRENPWTPHDEIARRLGLSVSEVEGEKDPESSGIYSLWSRVVVNIEYDERT  242
+
+Query  241  AKRHVKRRDRLLEELYEHLEELSERYLRHPLTRRWIVEHKRDIMRRYLEQR  291
+            AKRHVKRRDRLLEELYEHLEELSERYLRHPLTRRWIVEHKRDIMRRYLEQR
+Sbjct  243  AKRHVKRRDRLLEELYEHLEELSERYLRHPLTRRWIVEHKRDIMRRYLEQR  293
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.138    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0423    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1476419276225
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

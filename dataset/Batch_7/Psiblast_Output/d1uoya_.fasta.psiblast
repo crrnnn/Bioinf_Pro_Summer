@@ -1,0 +1,601 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1uoya_
+
+Length=64
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P83799 Bubble protein n=2 Tax=Penicillium brevicompact...  125     8e-36
+  UniRef90_B6HMF2 Pc21g12970 protein n=2 Tax=Penicillium chrysoge...  110     2e-29
+  UniRef90_A0A179FGL5 Uncharacterized protein n=1 Tax=Pochonia ch...  105     9e-28
+  UniRef90_W6QPZ7 Bubble protein n=1 Tax=Penicillium roqueforti (...  103     6e-27
+  UniRef90_A0A0G4PM65 Uncharacterized protein n=2 Tax=Penicillium...  103     9e-27
+  UniRef90_A0A0S7DFF6 Bubble protein n=1 Tax=Aspergillus lentulus...  103     1e-26
+  UniRef90_G2QMD8 Uncharacterized protein n=1 Tax=Myceliophthora ...  102     3e-26
+  UniRef90_A1DKX1 Uncharacterized protein n=2 Tax=Aspergillus Tax...  102     4e-26
+  UniRef90_A0A1F5LGV3 Uncharacterized protein n=1 Tax=Penicillium...  101     5e-26
+  UniRef90_A0A0P4UDF7 Putative bubble protein protein n=1 Tax=Ros...  99.8    3e-25
+  UniRef90_Q2GQ49 Uncharacterized protein n=1 Tax=Chaetomium glob...  99.8    3e-25
+  UniRef90_A0A1F7ZNK9 Putative bubble protein protein (Fragment) ...  99.8    6e-25
+  UniRef90_A0A0A2JEC9 Uncharacterized protein n=1 Tax=Penicillium...  96.3    8e-24
+  UniRef90_M7T5H2 Putative bubble protein protein n=1 Tax=Eutypa ...  93.6    6e-23
+  UniRef90_Q4W914 Uncharacterized protein n=2 Tax=Neosartorya fum...  57.0    8e-09
+
+
+> UniRef90_P83799 Bubble protein n=2 Tax=Penicillium brevicompactum 
+TaxID=5074 RepID=BUBL_PENBR
+Length=64
+
+ Score = 125 bits (315),  Expect = 8e-36, Method: Compositional matrix adjust.
+ Identities = 64/64 (100%), Positives = 64/64 (100%), Gaps = 0/64 (0%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+           DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG
+Sbjct  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+
+Query  61  GATC  64
+           GATC
+Sbjct  61  GATC  64
+
+
+> UniRef90_B6HMF2 Pc21g12970 protein n=2 Tax=Penicillium chrysogenum 
+complex TaxID=254878 RepID=B6HMF2_PENRW
+Length=88
+
+ Score = 110 bits (274),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 51/64 (80%), Positives = 56/64 (88%), Gaps = 0/64 (0%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+           DTCG GY VDQRRTNS C+A NGDRHFCGCDRTG+VECKGGKWTE+QDCG +SC+G S G
+Sbjct  25  DTCGGGYGVDQRRTNSPCQASNGDRHFCGCDRTGIVECKGGKWTEIQDCGGASCRGVSQG  84
+
+Query  61  GATC  64
+           GA C
+Sbjct  85  GARC  88
+
+
+> UniRef90_A0A179FGL5 Uncharacterized protein n=1 Tax=Pochonia 
+chlamydosporia 170 TaxID=1380566 RepID=A0A179FGL5_METCM
+Length=91
+
+ Score = 105 bits (263),  Expect = 9e-28, Method: Compositional matrix adjust.
+ Identities = 50/64 (78%), Positives = 56/64 (88%), Gaps = 0/64 (0%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+           DTCGSGY  DQRRTNS CK+GNGDRHFCGCDRTGVV+CKGG+WTE+QDCG +SC G + G
+Sbjct  28  DTCGSGYGADQRRTNSPCKSGNGDRHFCGCDRTGVVQCKGGRWTEIQDCGRASCHGGTQG  87
+
+Query  61  GATC  64
+           GA C
+Sbjct  88  GAKC  91
+
+
+> UniRef90_W6QPZ7 Bubble protein n=1 Tax=Penicillium roqueforti 
+(strain FM164) TaxID=1365484 RepID=W6QPZ7_PENRF
+Length=88
+
+ Score = 103 bits (258),  Expect = 6e-27, Method: Compositional matrix adjust.
+ Identities = 49/64 (77%), Positives = 55/64 (86%), Gaps = 0/64 (0%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+           DTCGSGY+  QRRTNS C+A NGDRHFCGCDRTG+VECKGGKWTEVQDC ++SC G + G
+Sbjct  25  DTCGSGYDPAQRRTNSPCQASNGDRHFCGCDRTGIVECKGGKWTEVQDCHTNSCHGGTEG  84
+
+Query  61  GATC  64
+           GA C
+Sbjct  85  GAKC  88
+
+
+> UniRef90_A0A0G4PM65 Uncharacterized protein n=2 Tax=Penicillium 
+TaxID=5073 RepID=A0A0G4PM65_PENCA
+Length=88
+
+ Score = 103 bits (257),  Expect = 9e-27, Method: Compositional matrix adjust.
+ Identities = 49/64 (77%), Positives = 53/64 (83%), Gaps = 0/64 (0%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+           DTCG+GY+  QRRTNS C A NGDRHFCGCDRTG+VECK GKWTEVQDCG SSC G + G
+Sbjct  25  DTCGAGYDPAQRRTNSPCAASNGDRHFCGCDRTGIVECKNGKWTEVQDCGRSSCHGGTEG  84
+
+Query  61  GATC  64
+           GA C
+Sbjct  85  GAQC  88
+
+
+> UniRef90_A0A0S7DFF6 Bubble protein n=1 Tax=Aspergillus lentulus 
+TaxID=293939 RepID=A0A0S7DFF6_9EURO
+Length=93
+
+ Score = 103 bits (257),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 48/64 (75%), Positives = 55/64 (86%), Gaps = 0/64 (0%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+           DTCG+GY  DQRRTNS C A NGDRHFCGCDRTGVV+CKGGKWTE+QDC +S+C GT++G
+Sbjct  30  DTCGAGYGGDQRRTNSPCNASNGDRHFCGCDRTGVVQCKGGKWTEIQDCRASTCHGTNDG  89
+
+Query  61  GATC  64
+            A C
+Sbjct  90  AAVC  93
+
+
+> UniRef90_G2QMD8 Uncharacterized protein n=1 Tax=Myceliophthora 
+thermophila (strain ATCC 42464 / BCRC 31852 / DSM 1799) TaxID=573729 
+RepID=G2QMD8_MYCTT
+Length=94
+
+ Score = 102 bits (253),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 47/64 (73%), Positives = 56/64 (88%), Gaps = 0/64 (0%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+           DTCG+GY  DQRRTNS C+A NGDRHFCGCDRTGVVEC+ GKWTE++DC S++C GT++G
+Sbjct  31  DTCGAGYGGDQRRTNSPCQASNGDRHFCGCDRTGVVECRNGKWTEIRDCRSATCHGTNDG  90
+
+Query  61  GATC  64
+           GA C
+Sbjct  91  GAVC  94
+
+
+> UniRef90_A1DKX1 Uncharacterized protein n=2 Tax=Aspergillus TaxID=5052 
+RepID=A1DKX1_NEOFI
+Length=93
+
+ Score = 102 bits (253),  Expect = 4e-26, Method: Compositional matrix adjust.
+ Identities = 47/64 (73%), Positives = 55/64 (86%), Gaps = 0/64 (0%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+           DTCG+GY  DQRRTNS C A NGDRHFCGCDRTGVVEC+GG+WTE+QDC +S+C GT++G
+Sbjct  30  DTCGAGYGGDQRRTNSPCNASNGDRHFCGCDRTGVVECRGGRWTEIQDCRASTCHGTNDG  89
+
+Query  61  GATC  64
+            A C
+Sbjct  90  AARC  93
+
+
+> UniRef90_A0A1F5LGV3 Uncharacterized protein n=1 Tax=Penicillium 
+arizonense TaxID=1835702 RepID=A0A1F5LGV3_9EURO
+Length=91
+
+ Score = 101 bits (252),  Expect = 5e-26, Method: Compositional matrix adjust.
+ Identities = 48/64 (75%), Positives = 55/64 (86%), Gaps = 0/64 (0%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+           D CG+GY  DQRRTNSGC+A NGDR FCGCDRTGVV+CKGGKWTE+QDC S +C GT++G
+Sbjct  28  DVCGAGYGGDQRRTNSGCQASNGDRRFCGCDRTGVVQCKGGKWTEIQDCHSGTCHGTNDG  87
+
+Query  61  GATC  64
+           GA C
+Sbjct  88  GAVC  91
+
+
+> UniRef90_A0A0P4UDF7 Putative bubble protein protein n=1 Tax=Rosellinia 
+necatrix TaxID=77044 RepID=A0A0P4UDF7_ROSNE
+Length=91
+
+ Score = 99.8 bits (247),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 47/64 (73%), Positives = 55/64 (86%), Gaps = 0/64 (0%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+           DTCG+GY  DQRRTNS C+A NGDR FCGCDRTGVV+C+GG WTE+QDCGS +C GT++G
+Sbjct  28  DTCGAGYGGDQRRTNSPCQASNGDRRFCGCDRTGVVQCQGGTWTEIQDCGSGTCHGTNDG  87
+
+Query  61  GATC  64
+           GA C
+Sbjct  88  GAVC  91
+
+
+> UniRef90_Q2GQ49 Uncharacterized protein n=1 Tax=Chaetomium globosum 
+(strain ATCC 6205 / CBS 148.51 / DSM 1962 / NBRC 6347 
+/ NRRL 1970) TaxID=306901 RepID=Q2GQ49_CHAGB
+Length=91
+
+ Score = 99.8 bits (247),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 47/64 (73%), Positives = 56/64 (88%), Gaps = 0/64 (0%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+           DTCG+GY  DQRRTNS C++ NGDRHFCGCDRTGVVEC+GGKWTE++DCGS +C G ++G
+Sbjct  28  DTCGAGYGGDQRRTNSPCQSSNGDRHFCGCDRTGVVECRGGKWTEIRDCGSGTCHGGNDG  87
+
+Query  61  GATC  64
+           GA C
+Sbjct  88  GAVC  91
+
+
+> UniRef90_A0A1F7ZNK9 Putative bubble protein protein (Fragment) 
+n=1 Tax=Aspergillus bombycis TaxID=109264 RepID=A0A1F7ZNK9_9EURO
+Length=117
+
+ Score = 99.8 bits (247),  Expect = 6e-25, Method: Compositional matrix adjust.
+ Identities = 47/64 (73%), Positives = 54/64 (84%), Gaps = 0/64 (0%)
+
+Query  1    DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+            DTCG+GY  DQRRTNS C + NGDRHFCGCDRTGVV+CKGGKWTE+QDC S +C G ++G
+Sbjct  54   DTCGAGYGGDQRRTNSPCASSNGDRHFCGCDRTGVVQCKGGKWTEIQDCHSGTCHGGNDG  113
+
+Query  61   GATC  64
+            GA C
+Sbjct  114  GAVC  117
+
+
+> UniRef90_A0A0A2JEC9 Uncharacterized protein n=1 Tax=Penicillium 
+expansum TaxID=27334 RepID=A0A0A2JEC9_PENEN
+Length=99
+
+ Score = 96.3 bits (238),  Expect = 8e-24, Method: Compositional matrix adjust.
+ Identities = 48/75 (64%), Positives = 55/75 (73%), Gaps = 11/75 (15%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGV-----------VECKGGKWTEVQDC  49
+           DTCG+GY+  QRRTNS C+A NGDRHFCGCDRTG+           VECKGGKWTE+QDC
+Sbjct  25  DTCGAGYDPAQRRTNSPCQASNGDRHFCGCDRTGIIMFANIYFRDKVECKGGKWTEIQDC  84
+
+Query  50  GSSSCKGTSNGGATC  64
+           G +SC G + GGA C
+Sbjct  85  GRNSCHGGTEGGAKC  99
+
+
+> UniRef90_M7T5H2 Putative bubble protein protein n=1 Tax=Eutypa 
+lata (strain UCR-EL1) TaxID=1287681 RepID=M7T5H2_EUTLA
+Length=91
+
+ Score = 93.6 bits (231),  Expect = 6e-23, Method: Compositional matrix adjust.
+ Identities = 44/64 (69%), Positives = 53/64 (83%), Gaps = 0/64 (0%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+           DTCG+GY  DQRRTNS C++ NGDRHFCGCDRTGVV+C GG W+E+QDC S +C G ++G
+Sbjct  28  DTCGAGYGGDQRRTNSPCESSNGDRHFCGCDRTGVVQCIGGTWSEIQDCHSGTCHGGNDG  87
+
+Query  61  GATC  64
+           GA C
+Sbjct  88  GAVC  91
+
+
+> UniRef90_Q4W914 Uncharacterized protein n=2 Tax=Neosartorya fumigata 
+TaxID=746128 RepID=Q4W914_ASPFU
+Length=98
+
+ Score = 57.0 bits (136),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 32/69 (46%), Positives = 40/69 (58%), Gaps = 5/69 (7%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDR-----HFCGCDRTGVVECKGGKWTEVQDCGSSSCK  55
+           DTCGSGY  DQRRTN      N  +      F        VEC+ G+WTE+QDC +S+C 
+Sbjct  30  DTCGSGYGGDQRRTNRLVWYVNPSQLEDETSFAHGYSFKKVECRNGRWTEIQDCHASTCH  89
+
+Query  56  GTSNGGATC  64
+           GT++G A C
+Sbjct  90  GTNDGAARC  98
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.134    0.464    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 447201683740
+Results from round 2
+
+
+Query= d1uoya_
+
+Length=64
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A1F7ZNK9 Putative bubble protein protein (Fragment) ...  104     9e-27
+  UniRef90_G2QMD8 Uncharacterized protein n=1 Tax=Myceliophthora ...  100     1e-25
+  UniRef90_A0A0S7DFF6 Bubble protein n=1 Tax=Aspergillus lentulus...  99.3    4e-25
+  UniRef90_A1DKX1 Uncharacterized protein n=2 Tax=Aspergillus Tax...  98.6    9e-25
+  UniRef90_W6QPZ7 Bubble protein n=1 Tax=Penicillium roqueforti (...  97.8    1e-24
+  UniRef90_A0A0A2JEC9 Uncharacterized protein n=1 Tax=Penicillium...  96.6    5e-24
+  UniRef90_A0A0G4PM65 Uncharacterized protein n=2 Tax=Penicillium...  95.1    2e-23
+  UniRef90_A0A1F5LGV3 Uncharacterized protein n=1 Tax=Penicillium...  94.3    3e-23
+  UniRef90_M7T5H2 Putative bubble protein protein n=1 Tax=Eutypa ...  93.2    8e-23
+  UniRef90_B6HMF2 Pc21g12970 protein n=2 Tax=Penicillium chrysoge...  92.4    2e-22
+  UniRef90_Q4W914 Uncharacterized protein n=2 Tax=Neosartorya fum...  90.1    2e-21
+  UniRef90_A0A0P4UDF7 Putative bubble protein protein n=1 Tax=Ros...  89.7    2e-21
+  UniRef90_Q2GQ49 Uncharacterized protein n=1 Tax=Chaetomium glob...  89.3    3e-21
+  UniRef90_A0A179FGL5 Uncharacterized protein n=1 Tax=Pochonia ch...  88.2    7e-21
+  UniRef90_P83799 Bubble protein n=2 Tax=Penicillium brevicompact...  70.4    3e-14
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_A0A1F7ZNK9 Putative bubble protein protein (Fragment) 
+n=1 Tax=Aspergillus bombycis TaxID=109264 RepID=A0A1F7ZNK9_9EURO
+Length=117
+
+ Score = 104 bits (259),  Expect = 9e-27, Method: Composition-based stats.
+ Identities = 47/64 (73%), Positives = 54/64 (84%), Gaps = 0/64 (0%)
+
+Query  1    DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+            DTCG+GY  DQRRTNS C + NGDRHFCGCDRTGVV+CKGGKWTE+QDC S +C G ++G
+Sbjct  54   DTCGAGYGGDQRRTNSPCASSNGDRHFCGCDRTGVVQCKGGKWTEIQDCHSGTCHGGNDG  113
+
+Query  61   GATC  64
+            GA C
+Sbjct  114  GAVC  117
+
+
+> UniRef90_G2QMD8 Uncharacterized protein n=1 Tax=Myceliophthora 
+thermophila (strain ATCC 42464 / BCRC 31852 / DSM 1799) TaxID=573729 
+RepID=G2QMD8_MYCTT
+Length=94
+
+ Score = 100 bits (249),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 47/64 (73%), Positives = 56/64 (88%), Gaps = 0/64 (0%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+           DTCG+GY  DQRRTNS C+A NGDRHFCGCDRTGVVEC+ GKWTE++DC S++C GT++G
+Sbjct  31  DTCGAGYGGDQRRTNSPCQASNGDRHFCGCDRTGVVECRNGKWTEIRDCRSATCHGTNDG  90
+
+Query  61  GATC  64
+           GA C
+Sbjct  91  GAVC  94
+
+
+> UniRef90_A0A0S7DFF6 Bubble protein n=1 Tax=Aspergillus lentulus 
+TaxID=293939 RepID=A0A0S7DFF6_9EURO
+Length=93
+
+ Score = 99.3 bits (246),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 48/64 (75%), Positives = 55/64 (86%), Gaps = 0/64 (0%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+           DTCG+GY  DQRRTNS C A NGDRHFCGCDRTGVV+CKGGKWTE+QDC +S+C GT++G
+Sbjct  30  DTCGAGYGGDQRRTNSPCNASNGDRHFCGCDRTGVVQCKGGKWTEIQDCRASTCHGTNDG  89
+
+Query  61  GATC  64
+            A C
+Sbjct  90  AAVC  93
+
+
+> UniRef90_A1DKX1 Uncharacterized protein n=2 Tax=Aspergillus TaxID=5052 
+RepID=A1DKX1_NEOFI
+Length=93
+
+ Score = 98.6 bits (244),  Expect = 9e-25, Method: Composition-based stats.
+ Identities = 47/64 (73%), Positives = 55/64 (86%), Gaps = 0/64 (0%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+           DTCG+GY  DQRRTNS C A NGDRHFCGCDRTGVVEC+GG+WTE+QDC +S+C GT++G
+Sbjct  30  DTCGAGYGGDQRRTNSPCNASNGDRHFCGCDRTGVVECRGGRWTEIQDCRASTCHGTNDG  89
+
+Query  61  GATC  64
+            A C
+Sbjct  90  AARC  93
+
+
+> UniRef90_W6QPZ7 Bubble protein n=1 Tax=Penicillium roqueforti 
+(strain FM164) TaxID=1365484 RepID=W6QPZ7_PENRF
+Length=88
+
+ Score = 97.8 bits (242),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 49/64 (77%), Positives = 55/64 (86%), Gaps = 0/64 (0%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+           DTCGSGY+  QRRTNS C+A NGDRHFCGCDRTG+VECKGGKWTEVQDC ++SC G + G
+Sbjct  25  DTCGSGYDPAQRRTNSPCQASNGDRHFCGCDRTGIVECKGGKWTEVQDCHTNSCHGGTEG  84
+
+Query  61  GATC  64
+           GA C
+Sbjct  85  GAKC  88
+
+
+> UniRef90_A0A0A2JEC9 Uncharacterized protein n=1 Tax=Penicillium 
+expansum TaxID=27334 RepID=A0A0A2JEC9_PENEN
+Length=99
+
+ Score = 96.6 bits (239),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 48/75 (64%), Positives = 55/75 (73%), Gaps = 11/75 (15%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGV-----------VECKGGKWTEVQDC  49
+           DTCG+GY+  QRRTNS C+A NGDRHFCGCDRTG+           VECKGGKWTE+QDC
+Sbjct  25  DTCGAGYDPAQRRTNSPCQASNGDRHFCGCDRTGIIMFANIYFRDKVECKGGKWTEIQDC  84
+
+Query  50  GSSSCKGTSNGGATC  64
+           G +SC G + GGA C
+Sbjct  85  GRNSCHGGTEGGAKC  99
+
+
+> UniRef90_A0A0G4PM65 Uncharacterized protein n=2 Tax=Penicillium 
+TaxID=5073 RepID=A0A0G4PM65_PENCA
+Length=88
+
+ Score = 95.1 bits (235),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 49/64 (77%), Positives = 53/64 (83%), Gaps = 0/64 (0%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+           DTCG+GY+  QRRTNS C A NGDRHFCGCDRTG+VECK GKWTEVQDCG SSC G + G
+Sbjct  25  DTCGAGYDPAQRRTNSPCAASNGDRHFCGCDRTGIVECKNGKWTEVQDCGRSSCHGGTEG  84
+
+Query  61  GATC  64
+           GA C
+Sbjct  85  GAQC  88
+
+
+> UniRef90_A0A1F5LGV3 Uncharacterized protein n=1 Tax=Penicillium 
+arizonense TaxID=1835702 RepID=A0A1F5LGV3_9EURO
+Length=91
+
+ Score = 94.3 bits (233),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 48/64 (75%), Positives = 55/64 (86%), Gaps = 0/64 (0%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+           D CG+GY  DQRRTNSGC+A NGDR FCGCDRTGVV+CKGGKWTE+QDC S +C GT++G
+Sbjct  28  DVCGAGYGGDQRRTNSGCQASNGDRRFCGCDRTGVVQCKGGKWTEIQDCHSGTCHGTNDG  87
+
+Query  61  GATC  64
+           GA C
+Sbjct  88  GAVC  91
+
+
+> UniRef90_M7T5H2 Putative bubble protein protein n=1 Tax=Eutypa 
+lata (strain UCR-EL1) TaxID=1287681 RepID=M7T5H2_EUTLA
+Length=91
+
+ Score = 93.2 bits (230),  Expect = 8e-23, Method: Composition-based stats.
+ Identities = 44/64 (69%), Positives = 53/64 (83%), Gaps = 0/64 (0%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+           DTCG+GY  DQRRTNS C++ NGDRHFCGCDRTGVV+C GG W+E+QDC S +C G ++G
+Sbjct  28  DTCGAGYGGDQRRTNSPCESSNGDRHFCGCDRTGVVQCIGGTWSEIQDCHSGTCHGGNDG  87
+
+Query  61  GATC  64
+           GA C
+Sbjct  88  GAVC  91
+
+
+> UniRef90_B6HMF2 Pc21g12970 protein n=2 Tax=Penicillium chrysogenum 
+complex TaxID=254878 RepID=B6HMF2_PENRW
+Length=88
+
+ Score = 92.4 bits (228),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 51/64 (80%), Positives = 56/64 (88%), Gaps = 0/64 (0%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+           DTCG GY VDQRRTNS C+A NGDRHFCGCDRTG+VECKGGKWTE+QDCG +SC+G S G
+Sbjct  25  DTCGGGYGVDQRRTNSPCQASNGDRHFCGCDRTGIVECKGGKWTEIQDCGGASCRGVSQG  84
+
+Query  61  GATC  64
+           GA C
+Sbjct  85  GARC  88
+
+
+> UniRef90_Q4W914 Uncharacterized protein n=2 Tax=Neosartorya fumigata 
+TaxID=746128 RepID=Q4W914_ASPFU
+Length=98
+
+ Score = 90.1 bits (222),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 32/69 (46%), Positives = 40/69 (58%), Gaps = 5/69 (7%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDR-----HFCGCDRTGVVECKGGKWTEVQDCGSSSCK  55
+           DTCGSGY  DQRRTN      N  +      F        VEC+ G+WTE+QDC +S+C 
+Sbjct  30  DTCGSGYGGDQRRTNRLVWYVNPSQLEDETSFAHGYSFKKVECRNGRWTEIQDCHASTCH  89
+
+Query  56  GTSNGGATC  64
+           GT++G A C
+Sbjct  90  GTNDGAARC  98
+
+
+> UniRef90_A0A0P4UDF7 Putative bubble protein protein n=1 Tax=Rosellinia 
+necatrix TaxID=77044 RepID=A0A0P4UDF7_ROSNE
+Length=91
+
+ Score = 89.7 bits (221),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 47/64 (73%), Positives = 55/64 (86%), Gaps = 0/64 (0%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+           DTCG+GY  DQRRTNS C+A NGDR FCGCDRTGVV+C+GG WTE+QDCGS +C GT++G
+Sbjct  28  DTCGAGYGGDQRRTNSPCQASNGDRRFCGCDRTGVVQCQGGTWTEIQDCGSGTCHGTNDG  87
+
+Query  61  GATC  64
+           GA C
+Sbjct  88  GAVC  91
+
+
+> UniRef90_Q2GQ49 Uncharacterized protein n=1 Tax=Chaetomium globosum 
+(strain ATCC 6205 / CBS 148.51 / DSM 1962 / NBRC 6347 
+/ NRRL 1970) TaxID=306901 RepID=Q2GQ49_CHAGB
+Length=91
+
+ Score = 89.3 bits (220),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 47/64 (73%), Positives = 56/64 (88%), Gaps = 0/64 (0%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+           DTCG+GY  DQRRTNS C++ NGDRHFCGCDRTGVVEC+GGKWTE++DCGS +C G ++G
+Sbjct  28  DTCGAGYGGDQRRTNSPCQSSNGDRHFCGCDRTGVVECRGGKWTEIRDCGSGTCHGGNDG  87
+
+Query  61  GATC  64
+           GA C
+Sbjct  88  GAVC  91
+
+
+> UniRef90_A0A179FGL5 Uncharacterized protein n=1 Tax=Pochonia 
+chlamydosporia 170 TaxID=1380566 RepID=A0A179FGL5_METCM
+Length=91
+
+ Score = 88.2 bits (217),  Expect = 7e-21, Method: Composition-based stats.
+ Identities = 50/64 (78%), Positives = 56/64 (88%), Gaps = 0/64 (0%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+           DTCGSGY  DQRRTNS CK+GNGDRHFCGCDRTGVV+CKGG+WTE+QDCG +SC G + G
+Sbjct  28  DTCGSGYGADQRRTNSPCKSGNGDRHFCGCDRTGVVQCKGGRWTEIQDCGRASCHGGTQG  87
+
+Query  61  GATC  64
+           GA C
+Sbjct  88  GAKC  91
+
+
+> UniRef90_P83799 Bubble protein n=2 Tax=Penicillium brevicompactum 
+TaxID=5074 RepID=BUBL_PENBR
+Length=64
+
+ Score = 70.4 bits (171),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 64/64 (100%), Positives = 64/64 (100%), Gaps = 0/64 (0%)
+
+Query  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+           DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG
+Sbjct  1   DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNG  60
+
+Query  61  GATC  64
+           GATC
+Sbjct  61  GATC  64
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.138    0.491    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0431    0.140     1.90     42.6     43.6 
+
+Effective search space used: 447201683740
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

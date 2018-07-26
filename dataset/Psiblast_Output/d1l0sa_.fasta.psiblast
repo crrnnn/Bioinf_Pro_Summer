@@ -1,0 +1,677 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1l0sa_
+
+Length=88
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q9GTP0 Thermal hysteresis protein n=6 Tax=Choristoneur...  170     2e-52
+  UniRef90_Q9BJW8 Antifreeze protein (Fragment) n=2 Tax=Choriston...  115     8e-31
+  UniRef90_Q9GT00 Antifreeze protein isoform 339 n=1 Tax=Choristo...  108     2e-28
+  UniRef90_Q9BJW9 Antifreeze protein n=2 Tax=Choristoneura fumife...  92.8    1e-21
+  UniRef90_Q9GSA6 Antifreeze protein isoform 501 n=1 Tax=Choristo...  90.1    1e-20
+  UniRef90_Q9GSA5 Antifreeze protein isoform 104 n=1 Tax=Choristo...  89.0    3e-20
+  UniRef90_Q5I2W9 Antifreeze protein AFP Cr40 (Fragment) n=1 Tax=...  72.8    7e-15
+  UniRef90_Q5I2X3 Antifreeze protein AFP Cr31 (Fragment) n=1 Tax=...  66.2    2e-12
+  UniRef90_Q5I2Y9 Antifreeze protein AFP Cc2 (Fragment) n=1 Tax=C...  60.1    9e-10
+  UniRef90_Q5I2Y3 Antifreeze protein AFP Co30 (Fragment) n=3 Tax=...  59.7    1e-09
+  UniRef90_Q5I2X0 Antifreeze protein AFP Cr37 (Fragment) n=2 Tax=...  55.5    2e-08
+  UniRef90_Q5I2X4 Antifreeze protein AFP Co27 (Fragment) n=1 Tax=...  55.1    3e-08
+  UniRef90_Q5I2X2 Antifreeze protein AFP Cr35 (Fragment) n=1 Tax=...  53.1    2e-07
+  UniRef90_Q5I2Y2 Antifreeze protein AFP Cr32 (Fragment) n=1 Tax=...  52.4    7e-07
+  UniRef90_Q5I2Y8 Antifreeze protein AFP Cc5 (Fragment) n=1 Tax=C...  52.0    7e-07
+  UniRef90_Q5I2Y4 Antifreeze protein AFP Co25 (Fragment) n=1 Tax=...  50.4    3e-06
+  UniRef90_Q5I2Y1 Antifreeze protein AFP Cr38 (Fragment) n=1 Tax=...  49.7    5e-06
+  UniRef90_Q5I2Y6 Antifreeze protein AFP Cf17 (Fragment) n=1 Tax=...  49.7    6e-06
+  UniRef90_Q5I2X9 Antifreeze protein AFP Cc9 (Fragment) n=1 Tax=C...  43.1    8e-04
+
+
+> UniRef90_Q9GTP0 Thermal hysteresis protein n=6 Tax=Choristoneura 
+TaxID=7140 RepID=Q9GTP0_CHOFU
+Length=108
+
+ Score = 170 bits (431),  Expect = 2e-52, Method: Compositional matrix adjust.
+ Identities = 87/88 (99%), Positives = 88/88 (100%), Gaps = 0/88 (0%)
+
+Query  1    SCTNTNSQLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRISGPGC  60
+            SCTNTNSQLSANSKCEKSTLTNCYVDKSEV+GTTCTGSRFDGVTITTSTSTGSRISGPGC
+Sbjct  21   SCTNTNSQLSANSKCEKSTLTNCYVDKSEVYGTTCTGSRFDGVTITTSTSTGSRISGPGC  80
+
+Query  61   KISTCIITGGVPAPSAACKISGCTFSAN  88
+            KISTCIITGGVPAPSAACKISGCTFSAN
+Sbjct  81   KISTCIITGGVPAPSAACKISGCTFSAN  108
+
+
+> UniRef90_Q9BJW8 Antifreeze protein (Fragment) n=2 Tax=Choristoneura 
+fumiferana TaxID=7141 RepID=Q9BJW8_CHOFU
+Length=92
+
+ Score = 115 bits (287),  Expect = 8e-31, Method: Compositional matrix adjust.
+ Identities = 58/87 (67%), Positives = 70/87 (80%), Gaps = 0/87 (0%)
+
+Query  2   CTNTNSQLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRISGPGCK  61
+           CT TNS +S NS+C +STLTNC VD S+V+ TTCT SR++G+ IT+ST+TGSRI+GPGC 
+Sbjct  6   CTKTNSWISPNSQCVRSTLTNCNVDNSQVYSTTCTNSRYNGIYITSSTTTGSRITGPGCS  65
+
+Query  62  ISTCIITGGVPAPSAACKISGCTFSAN  88
+           IS C IT G  AP+ ACKISGCT SAN
+Sbjct  66  ISHCTITRGSAAPAPACKISGCTLSAN  92
+
+
+> UniRef90_Q9GT00 Antifreeze protein isoform 339 n=1 Tax=Choristoneura 
+fumiferana TaxID=7141 RepID=Q9GT00_CHOFU
+Length=107
+
+ Score = 108 bits (271),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 62/88 (70%), Positives = 73/88 (83%), Gaps = 1/88 (1%)
+
+Query  1    SCTNTNSQLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRISGPGC  60
+            +C NTNSQ++ NSKC  S  TNCY+D SEV+GTTCTGSR+DGV IT+ST+TG+  SGPGC
+Sbjct  21   TCRNTNSQIT-NSKCVNSVPTNCYIDNSEVYGTTCTGSRYDGVHITSSTTTGTSASGPGC  79
+
+Query  61   KISTCIITGGVPAPSAACKISGCTFSAN  88
+             IS+C ITGGVPAPSA C+ISGCT  AN
+Sbjct  80   TISSCTITGGVPAPSAPCRISGCTLRAN  107
+
+
+> UniRef90_Q9BJW9 Antifreeze protein n=2 Tax=Choristoneura fumiferana 
+TaxID=7141 RepID=Q9BJW9_CHOFU
+Length=137
+
+ Score = 92.8 bits (229),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 59/118 (50%), Positives = 68/118 (58%), Gaps = 30/118 (25%)
+
+Query  1    SCTNTNSQLSANSKCEKSTLT------------------------------NCYVDKSEV  30
+            SC NTNSQ+S NS C +STLT                              NC +  S++
+Sbjct  20   SCVNTNSQVSENSWCVRSTLTFCNIDNSQLESTTCTRSQYNGAYVVSSRTTNCNIRNSQL  79
+
+Query  31   FGTTCTGSRFDGVTITTSTSTGSRISGPGCKISTCIITGGVPAPSAACKISGCTFSAN  88
+              TTCT SRFDGV IT+ST+T +RISGP C IS C IT GV APSAAC+ISGCT  AN
+Sbjct  80   HTTTCTNSRFDGVYITSSTTTSTRISGPACSISRCTITRGVAAPSAACRISGCTLRAN  137
+
+
+> UniRef90_Q9GSA6 Antifreeze protein isoform 501 n=1 Tax=Choristoneura 
+fumiferana TaxID=7141 RepID=Q9GSA6_CHOFU
+Length=138
+
+ Score = 90.1 bits (222),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 58/118 (49%), Positives = 74/118 (63%), Gaps = 31/118 (26%)
+
+Query  1    SCTNTNSQLSANSKCEKSTLTNCYVD-------------------------------KSE  29
+            +C NTNSQ++ANS+C KST TNCY+D                               KS+
+Sbjct  20   TCVNTNSQITANSQCVKSTATNCYIDNSQLVDTSICTRSQYSDANVKKSVTTDCNIDKSQ  79
+
+Query  30   VFGTTCTGSRFDGVTITTSTSTGSRISGPGCKISTCIITGGVPAPSAACKISGCTFSA  87
+            V+ TTCTGS+++G+ I +ST+TG+ ISGPGC ISTC IT GV  P+AACKISGC+ SA
+Sbjct  80   VYLTTCTGSQYNGIYIRSSTTTGTSISGPGCSISTCTITRGVATPAAACKISGCSLSA  137
+
+
+> UniRef90_Q9GSA5 Antifreeze protein isoform 104 n=1 Tax=Choristoneura 
+fumiferana TaxID=7141 RepID=Q9GSA5_CHOFU
+Length=138
+
+ Score = 89.0 bits (219),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 51/119 (43%), Positives = 67/119 (56%), Gaps = 31/119 (26%)
+
+Query  1    SCTNTNSQLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRF--------------------  40
+            +C NTNSQ+SANS C  STLTNCY+D S++  TTCT S++                    
+Sbjct  20   TCRNTNSQISANSLCASSTLTNCYIDDSQLESTTCTRSQYNGAYVVSSRTTNCNIRNSQV  79
+
+Query  41   -----------DGVTITTSTSTGSRISGPGCKISTCIITGGVPAPSAACKISGCTFSAN  88
+                       +GV IT+ST+T +R++G  C +S+C IT GV  PS AC+ISGC   AN
+Sbjct  80   HTTTCTNSQYEEGVYITSSTTTNTRVTGIACSVSSCTITRGVVTPSNACRISGCILRAN  138
+
+
+> UniRef90_Q5I2W9 Antifreeze protein AFP Cr40 (Fragment) n=1 Tax=Choristoneura 
+rosaceana TaxID=27543 RepID=Q5I2W9_CHORO
+Length=48
+
+ Score = 72.8 bits (177),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 35/48 (73%), Positives = 43/48 (90%), Gaps = 0/48 (0%)
+
+Query  8   QLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRI  55
+           Q+SANS+C +STLTNCYVD S+V  TTCTGSR+DGV IT+ST+TG+RI
+Sbjct  1   QVSANSQCVRSTLTNCYVDSSDVSSTTCTGSRYDGVHITSSTTTGTRI  48
+
+
+> UniRef90_Q5I2X3 Antifreeze protein AFP Cr31 (Fragment) n=1 Tax=Choristoneura 
+rosaceana TaxID=27543 RepID=Q5I2X3_CHORO
+Length=48
+
+ Score = 66.2 bits (160),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 32/48 (67%), Positives = 42/48 (88%), Gaps = 0/48 (0%)
+
+Query  8   QLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRI  55
+           Q+SANS+C +STLTNC +D S+VF TTCT S+++GV IT+ST+TGSRI
+Sbjct  1   QISANSQCVRSTLTNCNLDNSQVFDTTCTTSQYNGVRITSSTTTGSRI  48
+
+
+> UniRef90_Q5I2Y9 Antifreeze protein AFP Cc2 (Fragment) n=1 Tax=Choristoneura 
+conflictana TaxID=308442 RepID=Q5I2Y9_9NEOP
+Length=81
+
+ Score = 60.1 bits (144),  Expect = 9e-10, Method: Compositional matrix adjust.
+ Identities = 34/81 (42%), Positives = 44/81 (54%), Gaps = 30/81 (37%)
+
+Query  8   QLSANSKCEKSTLTNCYVDKSE------------------------------VFGTTCTG  37
+           Q+S NS+C +STLTNCYVD S+                              V+ T CT 
+Sbjct  1   QISRNSRCNRSTLTNCYVDNSQVDTTTCTSSQYNSANVMTSTTTNCNIRNSYVYTTPCTS  60
+
+Query  38  SRFDGVTITTSTSTGSRISGP  58
+           S++DG+ IT+ST+TGSRISGP
+Sbjct  61  SQYDGIYITSSTTTGSRISGP  81
+
+
+> UniRef90_Q5I2Y3 Antifreeze protein AFP Co30 (Fragment) n=3 Tax=Choristoneura 
+TaxID=7140 RepID=Q5I2Y3_CHOOC
+Length=81
+
+ Score = 59.7 bits (143),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 35/81 (43%), Positives = 45/81 (56%), Gaps = 30/81 (37%)
+
+Query  8   QLSANSKCEKSTLTNCYVDKSEVFGTTCTG------------------------------  37
+           Q+S NS+C KST+TNCY+D S+V  TTCTG                              
+Sbjct  1   QISRNSRCVKSTVTNCYIDNSQVDTTTCTGSQYSGANVMTAVTTNCNIRNSYAYSNTCTN  60
+
+Query  38  SRFDGVTITTSTSTGSRISGP  58
+           S++DG+ IT+ST+TGSRISGP
+Sbjct  61  SQYDGIYITSSTTTGSRISGP  81
+
+
+> UniRef90_Q5I2X0 Antifreeze protein AFP Cr37 (Fragment) n=2 Tax=Choristoneura 
+TaxID=7140 RepID=Q5I2X0_CHORO
+Length=48
+
+ Score = 55.5 bits (132),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 25/34 (74%), Positives = 28/34 (82%), Gaps = 0/34 (0%)
+
+Query  12  NSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTI  45
+           NSKC  S  TNCY+D SEV+GTTCTGSR+DGV I
+Sbjct  4   NSKCVDSVPTNCYIDNSEVYGTTCTGSRYDGVHI  37
+
+
+> UniRef90_Q5I2X4 Antifreeze protein AFP Co27 (Fragment) n=1 Tax=Choristoneura 
+occidentalis TaxID=27541 RepID=Q5I2X4_CHOOC
+Length=48
+
+ Score = 55.1 bits (131),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 29/45 (64%), Positives = 36/45 (80%), Gaps = 0/45 (0%)
+
+Query  12  NSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRIS  56
+           NS+C  STLTNC +  S+V  TTCT S++DG+ ITTST+TGSRIS
+Sbjct  4   NSQCVTSTLTNCNLRNSQVDTTTCTNSQYDGIYITTSTTTGSRIS  48
+
+
+> UniRef90_Q5I2X2 Antifreeze protein AFP Cr35 (Fragment) n=1 Tax=Choristoneura 
+rosaceana TaxID=27543 RepID=Q5I2X2_CHORO
+Length=48
+
+ Score = 53.1 bits (126),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 28/48 (58%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  8   QLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRI  55
+           Q+SANS+C +STLTNC +D S+VF TTCT S+++   ITT+T+T +RI
+Sbjct  1   QISANSQCVRSTLTNCNLDNSQVFDTTCTNSQYNNAHITTTTTTNTRI  48
+
+
+> UniRef90_Q5I2Y2 Antifreeze protein AFP Cr32 (Fragment) n=1 Tax=Choristoneura 
+rosaceana TaxID=27543 RepID=Q5I2Y2_CHORO
+Length=81
+
+ Score = 52.4 bits (124),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 28/58 (48%), Positives = 35/58 (60%), Gaps = 0/58 (0%)
+
+Query  8   QLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRISGPGCKISTC  65
+           Q+S NS+C  ST  NCY+D S+V  TTCT SR+    +  ST+T   IS     ISTC
+Sbjct  1   QISENSRCVNSTANNCYIDNSQVDTTTCTRSRYINANVMISTTTDCSISNSQVLISTC  58
+
+
+> UniRef90_Q5I2Y8 Antifreeze protein AFP Cc5 (Fragment) n=1 Tax=Choristoneura 
+conflictana TaxID=308442 RepID=Q5I2Y8_9NEOP
+Length=80
+
+ Score = 52.0 bits (123),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 28/54 (52%), Positives = 39/54 (72%), Gaps = 1/54 (2%)
+
+Query  5   TNSQLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRISGP  58
+           TNSQ + N+    ST TN  +D S+V+ TTCT S ++GV IT+ST+T +RI+GP
+Sbjct  28  TNSQYN-NAYVVISTTTNSIIDYSQVYSTTCTNSHYNGVHITSSTTTNTRITGP  80
+
+
+> UniRef90_Q5I2Y4 Antifreeze protein AFP Co25 (Fragment) n=1 Tax=Choristoneura 
+occidentalis TaxID=27541 RepID=Q5I2Y4_CHOOC
+Length=81
+
+ Score = 50.4 bits (119),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 27/58 (47%), Positives = 40/58 (69%), Gaps = 0/58 (0%)
+
+Query  8   QLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRISGPGCKISTC  65
+           Q+S+NS+C +ST TNCY+D S++  TTCTGS+++G  I T+T+T   I       +TC
+Sbjct  1   QISSNSRCVRSTATNCYIDNSQIDTTTCTGSQYNGANIMTTTTTTCNIRNSQVYTTTC  58
+
+
+> UniRef90_Q5I2Y1 Antifreeze protein AFP Cr38 (Fragment) n=1 Tax=Choristoneura 
+rosaceana TaxID=27543 RepID=Q5I2Y1_CHORO
+Length=81
+
+ Score = 49.7 bits (117),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 25/58 (43%), Positives = 37/58 (64%), Gaps = 0/58 (0%)
+
+Query  8   QLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRISGPGCKISTC  65
+           Q+S  S+C KST TNCY+D S++  TTCTGS+++   + T+T+T   I       +TC
+Sbjct  1   QISQYSRCVKSTATNCYIDNSQLGDTTCTGSQYNNANVMTTTTTNCNIRTSQVYTTTC  58
+
+
+> UniRef90_Q5I2Y6 Antifreeze protein AFP Cf17 (Fragment) n=1 Tax=Choristoneura 
+fumiferana TaxID=7141 RepID=Q5I2Y6_CHOFU
+Length=81
+
+ Score = 49.7 bits (117),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 27/54 (50%), Positives = 38/54 (70%), Gaps = 1/54 (2%)
+
+Query  5   TNSQLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRISGP  58
+           TNSQ +  +    ST TNC ++ S++F TTCT S++ GV IT+ST+T + ISGP
+Sbjct  29  TNSQYNG-AHVMISTTTNCNINNSQLFRTTCTNSQYTGVYITSSTTTNTHISGP  81
+
+
+ Score = 43.5 bits (101),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 22/57 (39%), Positives = 36/57 (63%), Gaps = 0/57 (0%)
+
+Query  9   LSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRISGPGCKISTC  65
+           +S NS+C  ST+TN Y++ S++  TTCT S+++G  +  ST+T   I+      +TC
+Sbjct  2   ISTNSQCFSSTVTNSYINNSQLDATTCTNSQYNGAHVMISTTTNCNINNSQLFRTTC  58
+
+
+> UniRef90_Q5I2X9 Antifreeze protein AFP Cc9 (Fragment) n=1 Tax=Choristoneura 
+conflictana TaxID=308442 RepID=Q5I2X9_9NEOP
+Length=48
+
+ Score = 43.1 bits (100),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 23/45 (51%), Positives = 32/45 (71%), Gaps = 0/45 (0%)
+
+Query  12  NSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRIS  56
+           NS+C  STLTNC +  S+V  TTCT S +    I+T+T+TG+RI+
+Sbjct  4   NSECVTSTLTNCNLVNSQVDTTTCTNSEYKDAHISTATTTGTRIA  48
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.124    0.377    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 444408940350
+Results from round 2
+
+
+Query= d1l0sa_
+
+Length=88
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_Q9BJW8 Antifreeze protein (Fragment) n=2 Tax=Choriston...  89.8    5e-21
+  UniRef90_Q9GTP0 Thermal hysteresis protein n=6 Tax=Choristoneur...  87.9    4e-20
+  UniRef90_Q9GT00 Antifreeze protein isoform 339 n=1 Tax=Choristo...  84.0    1e-18
+  UniRef90_Q9BJW9 Antifreeze protein n=2 Tax=Choristoneura fumife...  81.3    2e-17
+  UniRef90_Q9GSA6 Antifreeze protein isoform 501 n=1 Tax=Choristo...  70.2    4e-13
+  UniRef90_Q9GSA5 Antifreeze protein isoform 104 n=1 Tax=Choristo...  68.6    1e-12
+  UniRef90_Q5I2Y1 Antifreeze protein AFP Cr38 (Fragment) n=1 Tax=...  54.4    1e-07
+  UniRef90_Q5I2Y2 Antifreeze protein AFP Cr32 (Fragment) n=1 Tax=...  53.6    2e-07
+  UniRef90_Q5I2Y9 Antifreeze protein AFP Cc2 (Fragment) n=1 Tax=C...  53.2    3e-07
+  UniRef90_Q5I2Y4 Antifreeze protein AFP Co25 (Fragment) n=1 Tax=...  52.4    5e-07
+  UniRef90_Q5I2Y3 Antifreeze protein AFP Co30 (Fragment) n=3 Tax=...  52.4    6e-07
+  UniRef90_Q5I2X3 Antifreeze protein AFP Cr31 (Fragment) n=1 Tax=...  50.9    1e-06
+  UniRef90_Q5I2W9 Antifreeze protein AFP Cr40 (Fragment) n=1 Tax=...  50.5    2e-06
+  UniRef90_Q5I2Y6 Antifreeze protein AFP Cf17 (Fragment) n=1 Tax=...  50.1    3e-06
+  UniRef90_Q5I2X4 Antifreeze protein AFP Co27 (Fragment) n=1 Tax=...  48.6    1e-05
+  UniRef90_Q5I2Y8 Antifreeze protein AFP Cc5 (Fragment) n=1 Tax=C...  48.6    1e-05
+  UniRef90_Q5I2X0 Antifreeze protein AFP Cr37 (Fragment) n=2 Tax=...  44.7    2e-04
+  UniRef90_Q5I2X2 Antifreeze protein AFP Cr35 (Fragment) n=1 Tax=...  44.4    3e-04
+  UniRef90_Q5I2X9 Antifreeze protein AFP Cc9 (Fragment) n=1 Tax=C...  43.6    6e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_Q9BJW8 Antifreeze protein (Fragment) n=2 Tax=Choristoneura 
+fumiferana TaxID=7141 RepID=Q9BJW8_CHOFU
+Length=92
+
+ Score = 89.8 bits (221),  Expect = 5e-21, Method: Composition-based stats.
+ Identities = 58/88 (66%), Positives = 71/88 (81%), Gaps = 0/88 (0%)
+
+Query  1   SCTNTNSQLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRISGPGC  60
+           +CT TNS +S NS+C +STLTNC VD S+V+ TTCT SR++G+ IT+ST+TGSRI+GPGC
+Sbjct  5   TCTKTNSWISPNSQCVRSTLTNCNVDNSQVYSTTCTNSRYNGIYITSSTTTGSRITGPGC  64
+
+Query  61  KISTCIITGGVPAPSAACKISGCTFSAN  88
+            IS C IT G  AP+ ACKISGCT SAN
+Sbjct  65  SISHCTITRGSAAPAPACKISGCTLSAN  92
+
+
+> UniRef90_Q9GTP0 Thermal hysteresis protein n=6 Tax=Choristoneura 
+TaxID=7140 RepID=Q9GTP0_CHOFU
+Length=108
+
+ Score = 87.9 bits (216),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 87/88 (99%), Positives = 88/88 (100%), Gaps = 0/88 (0%)
+
+Query  1    SCTNTNSQLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRISGPGC  60
+            SCTNTNSQLSANSKCEKSTLTNCYVDKSEV+GTTCTGSRFDGVTITTSTSTGSRISGPGC
+Sbjct  21   SCTNTNSQLSANSKCEKSTLTNCYVDKSEVYGTTCTGSRFDGVTITTSTSTGSRISGPGC  80
+
+Query  61   KISTCIITGGVPAPSAACKISGCTFSAN  88
+            KISTCIITGGVPAPSAACKISGCTFSAN
+Sbjct  81   KISTCIITGGVPAPSAACKISGCTFSAN  108
+
+
+> UniRef90_Q9GT00 Antifreeze protein isoform 339 n=1 Tax=Choristoneura 
+fumiferana TaxID=7141 RepID=Q9GT00_CHOFU
+Length=107
+
+ Score = 84.0 bits (206),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 62/88 (70%), Positives = 73/88 (83%), Gaps = 1/88 (1%)
+
+Query  1    SCTNTNSQLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRISGPGC  60
+            +C NTNSQ++ NSKC  S  TNCY+D SEV+GTTCTGSR+DGV IT+ST+TG+  SGPGC
+Sbjct  21   TCRNTNSQIT-NSKCVNSVPTNCYIDNSEVYGTTCTGSRYDGVHITSSTTTGTSASGPGC  79
+
+Query  61   KISTCIITGGVPAPSAACKISGCTFSAN  88
+             IS+C ITGGVPAPSA C+ISGCT  AN
+Sbjct  80   TISSCTITGGVPAPSAPCRISGCTLRAN  107
+
+
+> UniRef90_Q9BJW9 Antifreeze protein n=2 Tax=Choristoneura fumiferana 
+TaxID=7141 RepID=Q9BJW9_CHOFU
+Length=137
+
+ Score = 81.3 bits (199),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 52/118 (44%), Positives = 64/118 (54%), Gaps = 30/118 (25%)
+
+Query  1    SCTNTNSQLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGS-------  53
+            SC NTNSQ+S NS C +STLT C +D S++  TTCT S+++G  + +S +T         
+Sbjct  20   SCVNTNSQVSENSWCVRSTLTFCNIDNSQLESTTCTRSQYNGAYVVSSRTTNCNIRNSQL  79
+
+Query  54   -----------------------RISGPGCKISTCIITGGVPAPSAACKISGCTFSAN  88
+                                   RISGP C IS C IT GV APSAAC+ISGCT  AN
+Sbjct  80   HTTTCTNSRFDGVYITSSTTTSTRISGPACSISRCTITRGVAAPSAACRISGCTLRAN  137
+
+
+> UniRef90_Q9GSA6 Antifreeze protein isoform 501 n=1 Tax=Choristoneura 
+fumiferana TaxID=7141 RepID=Q9GSA6_CHOFU
+Length=138
+
+ Score = 70.2 bits (170),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 57/118 (48%), Positives = 73/118 (62%), Gaps = 31/118 (26%)
+
+Query  1    SCTNTNSQLSANSKCEKSTLTNCYVDKSE-------------------------------  29
+            +C NTNSQ++ANS+C KST TNCY+D S+                               
+Sbjct  20   TCVNTNSQITANSQCVKSTATNCYIDNSQLVDTSICTRSQYSDANVKKSVTTDCNIDKSQ  79
+
+Query  30   VFGTTCTGSRFDGVTITTSTSTGSRISGPGCKISTCIITGGVPAPSAACKISGCTFSA  87
+            V+ TTCTGS+++G+ I +ST+TG+ ISGPGC ISTC IT GV  P+AACKISGC+ SA
+Sbjct  80   VYLTTCTGSQYNGIYIRSSTTTGTSISGPGCSISTCTITRGVATPAAACKISGCSLSA  137
+
+
+> UniRef90_Q9GSA5 Antifreeze protein isoform 104 n=1 Tax=Choristoneura 
+fumiferana TaxID=7141 RepID=Q9GSA5_CHOFU
+Length=138
+
+ Score = 68.6 bits (166),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 51/119 (43%), Positives = 67/119 (56%), Gaps = 31/119 (26%)
+
+Query  1    SCTNTNSQLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFD-------------------  41
+            +C NTNSQ+SANS C  STLTNCY+D S++  TTCT S+++                   
+Sbjct  20   TCRNTNSQISANSLCASSTLTNCYIDDSQLESTTCTRSQYNGAYVVSSRTTNCNIRNSQV  79
+
+Query  42   ------------GVTITTSTSTGSRISGPGCKISTCIITGGVPAPSAACKISGCTFSAN  88
+                        GV IT+ST+T +R++G  C +S+C IT GV  PS AC+ISGC   AN
+Sbjct  80   HTTTCTNSQYEEGVYITSSTTTNTRVTGIACSVSSCTITRGVVTPSNACRISGCILRAN  138
+
+
+> UniRef90_Q5I2Y1 Antifreeze protein AFP Cr38 (Fragment) n=1 Tax=Choristoneura 
+rosaceana TaxID=27543 RepID=Q5I2Y1_CHORO
+Length=81
+
+ Score = 54.4 bits (129),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 25/59 (42%), Positives = 37/59 (63%), Gaps = 0/59 (0%)
+
+Query  8   QLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRISGPGCKISTCI  66
+           Q+S  S+C KST TNCY+D S++  TTCTGS+++   + T+T+T   I       +TC 
+Sbjct  1   QISQYSRCVKSTATNCYIDNSQLGDTTCTGSQYNNANVMTTTTTNCNIRTSQVYTTTCT  59
+
+
+> UniRef90_Q5I2Y2 Antifreeze protein AFP Cr32 (Fragment) n=1 Tax=Choristoneura 
+rosaceana TaxID=27543 RepID=Q5I2Y2_CHORO
+Length=81
+
+ Score = 53.6 bits (127),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 28/59 (47%), Positives = 35/59 (59%), Gaps = 0/59 (0%)
+
+Query  8   QLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRISGPGCKISTCI  66
+           Q+S NS+C  ST  NCY+D S+V  TTCT SR+    +  ST+T   IS     ISTC 
+Sbjct  1   QISENSRCVNSTANNCYIDNSQVDTTTCTRSRYINANVMISTTTDCSISNSQVLISTCT  59
+
+
+> UniRef90_Q5I2Y9 Antifreeze protein AFP Cc2 (Fragment) n=1 Tax=Choristoneura 
+conflictana TaxID=308442 RepID=Q5I2Y9_9NEOP
+Length=81
+
+ Score = 53.2 bits (126),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 27/59 (46%), Positives = 37/59 (63%), Gaps = 0/59 (0%)
+
+Query  8   QLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRISGPGCKISTCI  66
+           Q+S NS+C +STLTNCYVD S+V  TTCT S+++   + TST+T   I       + C 
+Sbjct  1   QISRNSRCNRSTLTNCYVDNSQVDTTTCTSSQYNSANVMTSTTTNCNIRNSYVYTTPCT  59
+
+
+ Score = 44.0 bits (102),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 29/58 (50%), Positives = 41/58 (71%), Gaps = 1/58 (2%)
+
+Query  1   SCTNTNSQLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRISGP  58
+           + T T+SQ ++ +    ST TNC +  S V+ T CT S++DG+ IT+ST+TGSRISGP
+Sbjct  25  TTTCTSSQYNS-ANVMTSTTTNCNIRNSYVYTTPCTSSQYDGIYITSSTTTGSRISGP  81
+
+
+> UniRef90_Q5I2Y4 Antifreeze protein AFP Co25 (Fragment) n=1 Tax=Choristoneura 
+occidentalis TaxID=27541 RepID=Q5I2Y4_CHOOC
+Length=81
+
+ Score = 52.4 bits (124),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 27/59 (46%), Positives = 40/59 (68%), Gaps = 0/59 (0%)
+
+Query  8   QLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRISGPGCKISTCI  66
+           Q+S+NS+C +ST TNCY+D S++  TTCTGS+++G  I T+T+T   I       +TC 
+Sbjct  1   QISSNSRCVRSTATNCYIDNSQIDTTTCTGSQYNGANIMTTTTTTCNIRNSQVYTTTCT  59
+
+
+> UniRef90_Q5I2Y3 Antifreeze protein AFP Co30 (Fragment) n=3 Tax=Choristoneura 
+TaxID=7140 RepID=Q5I2Y3_CHOOC
+Length=81
+
+ Score = 52.4 bits (124),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 27/59 (46%), Positives = 38/59 (64%), Gaps = 0/59 (0%)
+
+Query  8   QLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRISGPGCKISTCI  66
+           Q+S NS+C KST+TNCY+D S+V  TTCTGS++ G  + T+ +T   I       +TC 
+Sbjct  1   QISRNSRCVKSTVTNCYIDNSQVDTTTCTGSQYSGANVMTAVTTNCNIRNSYAYSNTCT  59
+
+
+ Score = 41.7 bits (96),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 27/58 (47%), Positives = 37/58 (64%), Gaps = 1/58 (2%)
+
+Query  1   SCTNTNSQLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRISGP  58
+           + T T SQ S  +    +  TNC +  S  +  TCT S++DG+ IT+ST+TGSRISGP
+Sbjct  25  TTTCTGSQYSG-ANVMTAVTTNCNIRNSYAYSNTCTNSQYDGIYITSSTTTGSRISGP  81
+
+
+> UniRef90_Q5I2X3 Antifreeze protein AFP Cr31 (Fragment) n=1 Tax=Choristoneura 
+rosaceana TaxID=27543 RepID=Q5I2X3_CHORO
+Length=48
+
+ Score = 50.9 bits (120),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 32/48 (67%), Positives = 42/48 (88%), Gaps = 0/48 (0%)
+
+Query  8   QLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRI  55
+           Q+SANS+C +STLTNC +D S+VF TTCT S+++GV IT+ST+TGSRI
+Sbjct  1   QISANSQCVRSTLTNCNLDNSQVFDTTCTTSQYNGVRITSSTTTGSRI  48
+
+
+> UniRef90_Q5I2W9 Antifreeze protein AFP Cr40 (Fragment) n=1 Tax=Choristoneura 
+rosaceana TaxID=27543 RepID=Q5I2W9_CHORO
+Length=48
+
+ Score = 50.5 bits (119),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 35/48 (73%), Positives = 43/48 (90%), Gaps = 0/48 (0%)
+
+Query  8   QLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRI  55
+           Q+SANS+C +STLTNCYVD S+V  TTCTGSR+DGV IT+ST+TG+RI
+Sbjct  1   QVSANSQCVRSTLTNCYVDSSDVSSTTCTGSRYDGVHITSSTTTGTRI  48
+
+
+> UniRef90_Q5I2Y6 Antifreeze protein AFP Cf17 (Fragment) n=1 Tax=Choristoneura 
+fumiferana TaxID=7141 RepID=Q5I2Y6_CHOFU
+Length=81
+
+ Score = 50.1 bits (118),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 22/58 (38%), Positives = 36/58 (62%), Gaps = 0/58 (0%)
+
+Query  9   LSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRISGPGCKISTCI  66
+           +S NS+C  ST+TN Y++ S++  TTCT S+++G  +  ST+T   I+      +TC 
+Sbjct  2   ISTNSQCFSSTVTNSYINNSQLDATTCTNSQYNGAHVMISTTTNCNINNSQLFRTTCT  59
+
+
+ Score = 46.7 bits (109),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 27/54 (50%), Positives = 38/54 (70%), Gaps = 1/54 (2%)
+
+Query  5   TNSQLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRISGP  58
+           TNSQ +  +    ST TNC ++ S++F TTCT S++ GV IT+ST+T + ISGP
+Sbjct  29  TNSQYNG-AHVMISTTTNCNINNSQLFRTTCTNSQYTGVYITSSTTTNTHISGP  81
+
+
+> UniRef90_Q5I2X4 Antifreeze protein AFP Co27 (Fragment) n=1 Tax=Choristoneura 
+occidentalis TaxID=27541 RepID=Q5I2X4_CHOOC
+Length=48
+
+ Score = 48.6 bits (114),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 29/45 (64%), Positives = 36/45 (80%), Gaps = 0/45 (0%)
+
+Query  12  NSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRIS  56
+           NS+C  STLTNC +  S+V  TTCT S++DG+ ITTST+TGSRIS
+Sbjct  4   NSQCVTSTLTNCNLRNSQVDTTTCTNSQYDGIYITTSTTTGSRIS  48
+
+
+> UniRef90_Q5I2Y8 Antifreeze protein AFP Cc5 (Fragment) n=1 Tax=Choristoneura 
+conflictana TaxID=308442 RepID=Q5I2Y8_9NEOP
+Length=80
+
+ Score = 48.6 bits (114),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 24/55 (44%), Positives = 34/55 (62%), Gaps = 0/55 (0%)
+
+Query  12  NSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRISGPGCKISTCI  66
+           NS+C KST TNCY+D S++  TTCT S+++   +  ST+T S I       +TC 
+Sbjct  4   NSRCFKSTATNCYIDNSQLDTTTCTNSQYNNAYVVISTTTNSIIDYSQVYSTTCT  58
+
+
+ Score = 47.4 bits (111),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 29/58 (50%), Positives = 41/58 (71%), Gaps = 1/58 (2%)
+
+Query  1   SCTNTNSQLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRISGP  58
+           + T TNSQ + N+    ST TN  +D S+V+ TTCT S ++GV IT+ST+T +RI+GP
+Sbjct  24  TTTCTNSQYN-NAYVVISTTTNSIIDYSQVYSTTCTNSHYNGVHITSSTTTNTRITGP  80
+
+
+> UniRef90_Q5I2X0 Antifreeze protein AFP Cr37 (Fragment) n=2 Tax=Choristoneura 
+TaxID=7140 RepID=Q5I2X0_CHORO
+Length=48
+
+ Score = 44.7 bits (104),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 25/34 (74%), Positives = 28/34 (82%), Gaps = 0/34 (0%)
+
+Query  12  NSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTI  45
+           NSKC  S  TNCY+D SEV+GTTCTGSR+DGV I
+Sbjct  4   NSKCVDSVPTNCYIDNSEVYGTTCTGSRYDGVHI  37
+
+
+> UniRef90_Q5I2X2 Antifreeze protein AFP Cr35 (Fragment) n=1 Tax=Choristoneura 
+rosaceana TaxID=27543 RepID=Q5I2X2_CHORO
+Length=48
+
+ Score = 44.4 bits (103),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 28/48 (58%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  8   QLSANSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRI  55
+           Q+SANS+C +STLTNC +D S+VF TTCT S+++   ITT+T+T +RI
+Sbjct  1   QISANSQCVRSTLTNCNLDNSQVFDTTCTNSQYNNAHITTTTTTNTRI  48
+
+
+> UniRef90_Q5I2X9 Antifreeze protein AFP Cc9 (Fragment) n=1 Tax=Choristoneura 
+conflictana TaxID=308442 RepID=Q5I2X9_9NEOP
+Length=48
+
+ Score = 43.6 bits (101),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 23/45 (51%), Positives = 32/45 (71%), Gaps = 0/45 (0%)
+
+Query  12  NSKCEKSTLTNCYVDKSEVFGTTCTGSRFDGVTITTSTSTGSRIS  56
+           NS+C  STLTNC +  S+V  TTCT S +    I+T+T+TG+RI+
+Sbjct  4   NSECVTSTLTNCNLVNSQVDTTTCTNSEYKDAHISTATTTGTRIA  48
+
+
+
+Lambda      K        H        a         alpha
+   0.306    0.128    0.389    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0396    0.140     1.90     42.6     43.6 
+
+Effective search space used: 444408940350
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,2985 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1l3pa_
+
+Length=102
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q40963 Pollen allergen Phl p 5b (Fragment) n=8 Tax=Poe...  196     4e-60
+  UniRef90_O23971 Group V grass pollen allergen (Fragment) n=1 Ta...  153     8e-44
+  UniRef90_O23972 Group V allergen (Fragment) n=1 Tax=Holcus lana...  140     2e-38
+  UniRef90_P56167 Major pollen allergen Pha a 5.4 (Fragment) n=1 ...  136     4e-38
+  UniRef90_P56164 Major pollen allergen Pha a 5.1 n=1 Tax=Phalari...  140     6e-38
+  UniRef90_Q9FPR0 Pollen allergen Poa p 5 n=2 Tax=Poeae Chloropla...  131     6e-35
+  UniRef90_A0A1D6DKC6 Uncharacterized protein n=1 Tax=Triticum ae...  128     3e-34
+  UniRef90_M7Z6N3 Pollen allergen Phl p 5a n=1 Tax=Triticum urart...  129     3e-34
+  UniRef90_I1HWS4 Uncharacterized protein n=4 Tax=Brachypodium di...  129     4e-34
+  UniRef90_Q93WP9 Group 5 allergen n=3 Tax=Dactylis glomerata Tax...  129     4e-34
+  UniRef90_Q40962 Pollen allergen Phl p 5a (Fragment) n=10 Tax=Ph...  129     6e-34
+  UniRef90_A0A1D6AE19 Uncharacterized protein n=2 Tax=Triticum ae...  129     6e-34
+  UniRef90_Q9AT26 Group V allergen Phl p 5 (Fragment) n=1 Tax=Phl...  126     3e-33
+  UniRef90_P56166 Major pollen allergen Pha a 5.3 n=1 Tax=Phalari...  126     5e-33
+  UniRef90_Q40240 Major pollen allergen Lol p 5a n=4 Tax=Loliinae...  123     1e-31
+  UniRef90_I4IY75 Pollen allergen Ave s 5 (Isoallergen B) n=1 Tax...  122     2e-31
+  UniRef90_P56165 Major pollen allergen Pha a 5.2 n=1 Tax=Phalari...  122     2e-31
+  UniRef90_A0A1D5Y8A1 Uncharacterized protein n=1 Tax=Triticum ae...  122     3e-31
+  UniRef90_A0A1D6DLB9 Uncharacterized protein n=2 Tax=Triticum ae...  122     5e-31
+  UniRef90_A0A1D6DF85 Uncharacterized protein n=1 Tax=Triticum ae...  120     1e-30
+  UniRef90_F4MJM3 Pollen allergen Sec c 5 n=1 Tax=Secale cereale ...  119     3e-30
+  UniRef90_F2EBN6 Predicted protein n=1 Tax=Hordeum vulgare subsp...  117     5e-29
+  UniRef90_M8A669 Pollen allergen Phl p 5a n=1 Tax=Triticum urart...  115     6e-29
+  UniRef90_P22285 Pollen allergen KBG 41 n=3 Tax=Poinae TaxID=640...  113     6e-28
+  UniRef90_M7YEH0 Pollen allergen KBG 41 n=6 Tax=Triticeae TaxID=...  112     1e-27
+  UniRef90_M0Z3U1 Uncharacterized protein n=3 Tax=Hordeum vulgare...  111     3e-27
+  UniRef90_P22284 Pollen allergen KBG 31 n=1 Tax=Poa pratensis Ta...  108     5e-26
+  UniRef90_Q40237 Major pollen allergen Lol p 5b n=1 Tax=Lolium p...  108     8e-26
+  UniRef90_Q70JQ0 Putative group V allergen (Fragment) n=1 Tax=Tr...  103     1e-25
+  UniRef90_M7ZET8 Pollen allergen KBG 41 n=3 Tax=Triticinae TaxID...  90.9    7e-20
+  UniRef90_A0A1D5X8R3 Uncharacterized protein n=1 Tax=Triticum ae...  89.4    2e-19
+  UniRef90_A0A1D5XUL1 Uncharacterized protein n=1 Tax=Triticum ae...  89.4    3e-19
+  UniRef90_A0A1D5X8S6 Uncharacterized protein n=1 Tax=Triticum ae...  87.0    3e-19
+  UniRef90_A0A1D5X9N7 Uncharacterized protein n=1 Tax=Triticum ae...  88.2    3e-19
+  UniRef90_M0VDN4 Uncharacterized protein n=1 Tax=Hordeum vulgare...  87.8    1e-18
+  UniRef90_A0A1D5Y9C7 Uncharacterized protein n=2 Tax=Triticinae ...  85.5    5e-18
+  UniRef90_M8C3B5 Major pollen allergen Lol p 5b n=3 Tax=Triticin...  85.5    6e-18
+  UniRef90_O04828 Pollen allergen n=2 Tax=Hordeum vulgare TaxID=4...  85.1    9e-18
+  UniRef90_A0A1D5X9H0 Uncharacterized protein n=1 Tax=Triticum ae...  83.6    3e-17
+  UniRef90_T1NSD5 Uncharacterized protein n=3 Tax=Triticum TaxID=...  77.0    7e-15
+  UniRef90_A0A0Q3GGL2 Uncharacterized protein n=2 Tax=Brachypodiu...  70.5    1e-13
+  UniRef90_A0A1D5ZCM1 Uncharacterized protein n=2 Tax=Triticum ae...  72.8    2e-13
+  UniRef90_M8CAP7 Uncharacterized protein n=3 Tax=Triticinae TaxI...  60.5    4e-09
+  UniRef90_M7YYH3 Major pollen allergen Lol p 5a n=1 Tax=Triticum...  60.5    1e-08
+  UniRef90_A0A1D5X9S2 Uncharacterized protein n=1 Tax=Triticum ae...  52.8    2e-06
+  UniRef90_A0A1D6DKC5 Uncharacterized protein n=2 Tax=Triticum ae...  53.1    6e-06
+  UniRef90_M8B8M2 Major pollen allergen Lol p 5b n=1 Tax=Aegilops...  47.4    2e-04
+  UniRef90_A0A1D6B297 Uncharacterized protein n=1 Tax=Triticum ae...  46.6    8e-04
+
+
+> UniRef90_Q40963 Pollen allergen Phl p 5b (Fragment) n=8 Tax=Poeae 
+TaxID=147387 RepID=MPA5B_PHLPR
+Length=284
+
+ Score = 196 bits (499),  Expect = 4e-60, Method: Compositional matrix adjust.
+ Identities = 101/102 (99%), Positives = 102/102 (100%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKE+TGGAYDTYKCIPSL
+Sbjct  150  IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKESTGGAYDTYKCIPSL  209
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ
+Sbjct  210  EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  251
+
+
+> UniRef90_O23971 Group V grass pollen allergen (Fragment) n=1 
+Tax=Holcus lanatus TaxID=29679 RepID=O23971_HOLLA
+Length=240
+
+ Score = 153 bits (386),  Expect = 8e-44, Method: Compositional matrix adjust.
+ Identities = 83/102 (81%), Positives = 97/102 (95%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAG+LQ++DKIDA+FK+AATAA  APA+DKFTVFE AFNKA+KE+TGGAY++YK IPSL
+Sbjct  114  IPAGDLQVVDKIDASFKIAATAANAAPANDKFTVFETAFNKALKESTGGAYESYKFIPSL  173
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            EAAVKQAYA+TVAAAP+VKYAVFEAALTKAITAMS+ QKV+Q
+Sbjct  174  EAAVKQAYASTVAAAPEVKYAVFEAALTKAITAMSQAQKVAQ  215
+
+
+> UniRef90_O23972 Group V allergen (Fragment) n=1 Tax=Holcus lanatus 
+TaxID=29679 RepID=O23972_HOLLA
+Length=264
+
+ Score = 140 bits (353),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 80/99 (81%), Positives = 87/99 (88%), Gaps = 0/99 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGELQI+DKIDAAF++AATAA  AP +DKFTVFE AFNKAIKE+TGGAY+ YK IPSL
+Sbjct  134  IPAGELQIVDKIDAAFRIAATAANAAPVNDKFTVFEGAFNKAIKESTGGAYEAYKFIPSL  193
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQK  99
+            E AVKQAYAATVA AP+VKY VFE AL KAITAMSE QK
+Sbjct  194  ETAVKQAYAATVATAPEVKYTVFETALKKAITAMSEAQK  232
+
+
+> UniRef90_P56167 Major pollen allergen Pha a 5.4 (Fragment) n=1 
+Tax=Phalaris aquatica TaxID=28479 RepID=MPA54_PHAAQ
+Length=175
+
+ Score = 136 bits (343),  Expect = 4e-38, Method: Compositional matrix adjust.
+ Identities = 83/103 (81%), Positives = 92/103 (89%), Gaps = 1/103 (1%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGELQI+DKIDAAFK+AATAA +APA+DKFTVFE AFNKAIKE  GGAY+TYK IPSL
+Sbjct  38   IPAGELQIVDKIDAAFKIAATAANSAPANDKFTVFEGAFNKAIKERHGGAYETYKFIPSL  97
+
+Query  61   EAA-VKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            EA+  KQAY ATVA AP+VKYAVFEA LTKAITAMSE QKV++
+Sbjct  98   EASRSKQAYGATVARAPEVKYAVFEAGLTKAITAMSEAQKVAK  140
+
+
+> UniRef90_P56164 Major pollen allergen Pha a 5.1 n=1 Tax=Phalaris 
+aquatica TaxID=28479 RepID=MPA51_PHAAQ
+Length=320
+
+ Score = 140 bits (352),  Expect = 6e-38, Method: Compositional matrix adjust.
+ Identities = 83/101 (82%), Positives = 92/101 (91%), Gaps = 0/101 (0%)
+
+Query  2    PAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLE  61
+            P GELQI+DKIDAAFK+AATAA +APA+DKFTVFE AFNKAIKE+T GAY+TYK IPSLE
+Sbjct  154  PVGELQIVDKIDAAFKIAATAANSAPANDKFTVFEGAFNKAIKESTAGAYETYKFIPSLE  213
+
+Query  62   AAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            AAVKQAY ATVA AP+VKYAVFEA LTKAITAMSE QKV++
+Sbjct  214  AAVKQAYGATVARAPEVKYAVFEAGLTKAITAMSEAQKVAK  254
+
+
+> UniRef90_Q9FPR0 Pollen allergen Poa p 5 n=2 Tax=Poeae Chloroplast 
+Group 2 (Poeae type) TaxID=1652081 RepID=Q9FPR0_POAPR
+Length=303
+
+ Score = 131 bits (330),  Expect = 6e-35, Method: Compositional matrix adjust.
+ Identities = 89/102 (87%), Positives = 97/102 (95%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGE QIIDKIDAAFKVAATAA  APA+DKFTVFEAAFN AIKE+TGGAYDTYK IPSL
+Sbjct  162  IPAGEQQIIDKIDAAFKVAATAANAAPANDKFTVFEAAFNNAIKESTGGAYDTYKSIPSL  221
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            EAAVKQAYAAT+AAAP+VK+AVF+AALTKAITAM+EVQKVS+
+Sbjct  222  EAAVKQAYAATIAAAPEVKFAVFKAALTKAITAMAEVQKVSK  263
+
+
+> UniRef90_A0A1D6DKC6 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D6DKC6_WHEAT
+Length=234
+
+ Score = 128 bits (322),  Expect = 3e-34, Method: Compositional matrix adjust.
+ Identities = 71/99 (72%), Positives = 86/99 (87%), Gaps = 0/99 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPA +L+ ID+IDAA++ AATAA  AP +DKFTVFE+ FNKAIKETTGGAYD Y  +P+L
+Sbjct  118  IPAPQLKTIDQIDAAYRSAATAADAAPVNDKFTVFESTFNKAIKETTGGAYDNYTFVPAL  177
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQK  99
+            E+AVKQAYAATVA+AP+VKYAVF+AAL+KAI AM E +K
+Sbjct  178  ESAVKQAYAATVASAPEVKYAVFQAALSKAINAMVEAEK  216
+
+
+> UniRef90_M7Z6N3 Pollen allergen Phl p 5a n=1 Tax=Triticum urartu 
+TaxID=4572 RepID=M7Z6N3_TRIUA
+Length=282
+
+ Score = 129 bits (325),  Expect = 3e-34, Method: Compositional matrix adjust.
+ Identities = 73/99 (74%), Positives = 88/99 (89%), Gaps = 0/99 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPA +L+ ID+IDAA++ AATAA  AP +DKFTVFE+AFNKAIKETTGGAYD YK +P+L
+Sbjct  172  IPAPQLKTIDQIDAAYRTAATAADAAPVNDKFTVFESAFNKAIKETTGGAYDNYKFVPAL  231
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQK  99
+            E+AVKQAYAATVA+AP+VKYAVF+AAL+KAI AM E +K
+Sbjct  232  ESAVKQAYAATVASAPEVKYAVFQAALSKAINAMVEAEK  270
+
+
+> UniRef90_I1HWS4 Uncharacterized protein n=4 Tax=Brachypodium 
+distachyon TaxID=15368 RepID=I1HWS4_BRADI
+Length=273
+
+ Score = 129 bits (323),  Expect = 4e-34, Method: Compositional matrix adjust.
+ Identities = 80/99 (81%), Positives = 91/99 (92%), Gaps = 0/99 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            +PA EL+I+DKIDAAFK A+TAA  APA+DKF VFEA FNKA+KE+TGGAY++YK IPSL
+Sbjct  149  MPADELKIVDKIDAAFKTASTAANAAPANDKFNVFEATFNKALKESTGGAYESYKFIPSL  208
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQK  99
+            EAAVKQAYAAT+AAAP+VKYAVFEAALTKAITAMSE QK
+Sbjct  209  EAAVKQAYAATIAAAPEVKYAVFEAALTKAITAMSEAQK  247
+
+
+ Score = 46.6 bits (109),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 40/89 (45%), Positives = 51/89 (57%), Gaps = 10/89 (11%)
+
+Query  5    ELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPS--LEA  62
+            E ++I+ I+A FK A  AA  AP  DK+  FEAAF KA   +TG     YK   S  L+ 
+Sbjct  42   EQKMIEDINAGFKTAVAAANAAPPADKYNTFEAAFKKA---STG-----YKAGVSAKLDT  93
+
+Query  63   AVKQAYAATVAAAPQVKYAVFEAALTKAI  91
+            A + AY A   A P+ KY VF A LT+A+
+Sbjct  94   AYQAAYKAADGATPEAKYDVFVATLTEAL  122
+
+
+> UniRef90_Q93WP9 Group 5 allergen n=3 Tax=Dactylis glomerata TaxID=4509 
+RepID=Q93WP9_DACGL
+Length=290
+
+ Score = 129 bits (324),  Expect = 4e-34, Method: Compositional matrix adjust.
+ Identities = 86/100 (86%), Positives = 95/100 (95%), Gaps = 0/100 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGELQI+DKIDAA+K+AATAA  APA+DKFTVFE AFNKAIKE+TGGAY++YK IP+L
+Sbjct  160  IPAGELQIVDKIDAAYKIAATAANAAPANDKFTVFEGAFNKAIKESTGGAYESYKFIPTL  219
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+            EAAVKQAYAATVAAAP+VKYAVFEAALTKAITAMSE QKV
+Sbjct  220  EAAVKQAYAATVAAAPEVKYAVFEAALTKAITAMSEAQKV  259
+
+
+> UniRef90_Q40962 Pollen allergen Phl p 5a (Fragment) n=10 Tax=Phleum 
+pratense TaxID=15957 RepID=MPA5A_PHLPR
+Length=286
+
+ Score = 129 bits (323),  Expect = 6e-34, Method: Compositional matrix adjust.
+ Identities = 79/99 (80%), Positives = 88/99 (89%), Gaps = 0/99 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGELQ+I+K+DAAFKVAATAA  APA+DKFTVFEAAFN  IK +TGGAY++YK IP+L
+Sbjct  156  IPAGELQVIEKVDAAFKVAATAANAAPANDKFTVFEAAFNDEIKASTGGAYESYKFIPAL  215
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQK  99
+            EAAVKQAYAATVA AP+VKY VFE AL KAITAMSE QK
+Sbjct  216  EAAVKQAYAATVATAPEVKYTVFETALKKAITAMSEAQK  254
+
+
+> UniRef90_A0A1D6AE19 Uncharacterized protein n=2 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D6AE19_WHEAT
+Length=316
+
+ Score = 129 bits (325),  Expect = 6e-34, Method: Compositional matrix adjust.
+ Identities = 73/99 (74%), Positives = 88/99 (89%), Gaps = 0/99 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPA +L+ ID+IDAA++ AATAA  AP +DKFTVFE+AFNKAIKETTGGAYD YK +P+L
+Sbjct  206  IPAPQLKTIDQIDAAYRTAATAADAAPVNDKFTVFESAFNKAIKETTGGAYDNYKFVPAL  265
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQK  99
+            E+AVKQAYAATVA+AP+VKYAVF+AAL+KAI AM E +K
+Sbjct  266  ESAVKQAYAATVASAPEVKYAVFQAALSKAINAMVEAEK  304
+
+
+> UniRef90_Q9AT26 Group V allergen Phl p 5 (Fragment) n=1 Tax=Phleum 
+pratense TaxID=15957 RepID=Q9AT26_PHLPR
+Length=275
+
+ Score = 126 bits (317),  Expect = 3e-33, Method: Compositional matrix adjust.
+ Identities = 78/96 (81%), Positives = 86/96 (90%), Gaps = 0/96 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGELQ+I+K+DAAFKVAATAA  APA+DKFTVFEAAFN AIK  TGGAY++YK IP+L
+Sbjct  145  IPAGELQVIEKVDAAFKVAATAANAAPANDKFTVFEAAFNNAIKAGTGGAYESYKFIPAL  204
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSE  96
+            EAAVKQAYAATVA AP+VKY VFE AL KAITAMSE
+Sbjct  205  EAAVKQAYAATVATAPEVKYTVFETALKKAITAMSE  240
+
+
+> UniRef90_P56166 Major pollen allergen Pha a 5.3 n=1 Tax=Phalaris 
+aquatica TaxID=28479 RepID=MPA53_PHAAQ
+Length=294
+
+ Score = 126 bits (317),  Expect = 5e-33, Method: Compositional matrix adjust.
+ Identities = 65/83 (78%), Positives = 72/83 (87%), Gaps = 0/83 (0%)
+
+Query  20   ATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEAAVKQAYAATVAAAPQVK  79
+            +TAA +APA+DKFTVFE AFNKAIKE  GG  +TYK IPSLEAAVKQAY ATVA AP+VK
+Sbjct  178  STAANSAPANDKFTVFEGAFNKAIKERHGGPTETYKFIPSLEAAVKQAYGATVARAPEVK  237
+
+Query  80   YAVFEAALTKAITAMSEVQKVSQ  102
+            YAVFEA LTKAITAMSE QKV++
+Sbjct  238  YAVFEAGLTKAITAMSEAQKVAK  260
+
+
+ Score = 43.5 bits (101),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 35/96 (36%), Positives = 48/96 (50%), Gaps = 11/96 (11%)
+
+Query  5    ELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEAAV  64
+            E ++I+ I+AAFK      A+AP  DK+  FE AF+KA      GA         L+AA 
+Sbjct  51   EQKLIEDINAAFKWWP---ASAPPADKYKTFETAFSKA---NIAGA-----STKGLDAAY  99
+
+Query  65   KQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+               Y     A P+ KY  F  ALT+A+  M+   +V
+Sbjct  100  SVVYNTAAGATPEAKYDSFVTALTEALRIMAGTLEV  135
+
+
+> UniRef90_Q40240 Major pollen allergen Lol p 5a n=4 Tax=Loliinae 
+TaxID=640630 RepID=MPA5A_LOLPR
+Length=307
+
+ Score = 123 bits (308),  Expect = 1e-31, Method: Compositional matrix adjust.
+ Identities = 82/102 (80%), Positives = 92/102 (90%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IP GELQI+DKIDAAFK+AATAA  AP +DKFTVFE+AFNKA+ E TGGAY+TYK IPSL
+Sbjct  166  IPTGELQIVDKIDAAFKIAATAANAAPTNDKFTVFESAFNKALNECTGGAYETYKFIPSL  225
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            EAAVKQAYAATVAAAP+VKYAVFEAALTKAITAM++ QK  +
+Sbjct  226  EAAVKQAYAATVAAAPEVKYAVFEAALTKAITAMTQAQKAGK  267
+
+
+> UniRef90_I4IY75 Pollen allergen Ave s 5 (Isoallergen B) n=1 Tax=Avena 
+sativa TaxID=4498 RepID=I4IY75_AVESA
+Length=301
+
+ Score = 122 bits (306),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 72/92 (78%), Positives = 80/92 (87%), Gaps = 0/92 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGEL +IDKIDAAFK AAT A  APA+DKFTVFE AFNKAIK++TGG Y+TYK +P L
+Sbjct  171  IPAGELVVIDKIDAAFKAAATQANAAPANDKFTVFETAFNKAIKDSTGGTYETYKFVPGL  230
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAIT  92
+            EAAVKQAYAATVA+ P+VKYAVFE AL KAIT
+Sbjct  231  EAAVKQAYAATVASVPEVKYAVFETALKKAIT  262
+
+
+> UniRef90_P56165 Major pollen allergen Pha a 5.2 n=1 Tax=Phalaris 
+aquatica TaxID=28479 RepID=MPA52_PHAAQ
+Length=305
+
+ Score = 122 bits (306),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 73/99 (74%), Positives = 85/99 (86%), Gaps = 0/99 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGE+++I+K+ AAF  AATAA  APA+DKFTVF ++FNKAIKETTGGAY  YK IP+L
+Sbjct  163  IPAGEVEVINKVKAAFSTAATAADEAPANDKFTVFVSSFNKAIKETTGGAYAGYKFIPTL  222
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQK  99
+            EAAVKQAYAA+ A AP+VKYAVFE AL KAI+AMSE QK
+Sbjct  223  EAAVKQAYAASSATAPEVKYAVFETALKKAISAMSEAQK  261
+
+
+> UniRef90_A0A1D5Y8A1 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5Y8A1_WHEAT
+Length=292
+
+ Score = 122 bits (305),  Expect = 3e-31, Method: Compositional matrix adjust.
+ Identities = 64/94 (68%), Positives = 81/94 (86%), Gaps = 0/94 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IP  E++ +D+ID+AF++AATAA  AP +DKFTVFE+AF+KAIKETTGGAY  YK +P+L
+Sbjct  141  IPVAEMKAVDQIDSAFRIAATAADAAPVNDKFTVFESAFDKAIKETTGGAYAGYKFVPAL  200
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAM  94
+            E+AVK+AYAATVA AP+VK+ VFEAALT+ I AM
+Sbjct  201  ESAVKKAYAATVAEAPEVKFTVFEAALTRTIAAM  234
+
+
+> UniRef90_A0A1D6DLB9 Uncharacterized protein n=2 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D6DLB9_WHEAT
+Length=384
+
+ Score = 122 bits (307),  Expect = 5e-31, Method: Compositional matrix adjust.
+ Identities = 65/94 (69%), Positives = 81/94 (86%), Gaps = 0/94 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPA E+Q +++ID AF++AATAA  AP +DKFTVFE+AF+KAIKETTGGAY  YK +P+L
+Sbjct  193  IPAAEMQAVNQIDTAFRIAATAADAAPVNDKFTVFESAFDKAIKETTGGAYAGYKFVPAL  252
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAM  94
+            E+AVK+AYAATVA AP+VK+ VFEAALT+ I AM
+Sbjct  253  ESAVKKAYAATVAEAPEVKFTVFEAALTRTIAAM  286
+
+
+> UniRef90_A0A1D6DF85 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D6DF85_WHEAT
+Length=286
+
+ Score = 120 bits (301),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 66/99 (67%), Positives = 84/99 (85%), Gaps = 0/99 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            +PA +L+ ID+IDAA++ AATAA    AD KFT+FE+ FN+AIKE TGG YD YK +P+L
+Sbjct  170  VPAPQLKTIDQIDAAYRTAATAANAVSADKKFTIFESFFNRAIKENTGGKYDNYKFVPAL  229
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQK  99
+            E+AVKQAYAATVA+AP+VKYAVF+AAL+KAI+AM E +K
+Sbjct  230  ESAVKQAYAATVASAPEVKYAVFQAALSKAISAMVEAEK  268
+
+
+> UniRef90_F4MJM3 Pollen allergen Sec c 5 n=1 Tax=Secale cereale 
+TaxID=4550 RepID=F4MJM3_SECCE
+Length=292
+
+ Score = 119 bits (298),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 66/99 (67%), Positives = 86/99 (87%), Gaps = 0/99 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            +PA +L+++D+IDAA++ AATAA  AP +DKF VFE++FNKAIKE TGGAY +Y  +P+L
+Sbjct  163  VPAPQLKVVDQIDAAYRTAATAANAAPTNDKFNVFESSFNKAIKENTGGAYASYTFVPAL  222
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQK  99
+            E+AVKQAYAATVA+AP+VKYAVF+AAL+KAI AM E +K
+Sbjct  223  ESAVKQAYAATVASAPEVKYAVFQAALSKAINAMVEAEK  261
+
+
+> UniRef90_F2EBN6 Predicted protein n=1 Tax=Hordeum vulgare subsp. 
+vulgare TaxID=112509 RepID=F2EBN6_HORVV
+Length=438
+
+ Score = 117 bits (293),  Expect = 5e-29, Method: Compositional matrix adjust.
+ Identities = 59/91 (65%), Positives = 78/91 (86%), Gaps = 0/91 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGE++++ +ID AF++AATAA  AP +D+FTVFE+AF+KAIKETTGGAY  YK +P+L
+Sbjct  214  IPAGEMKVVGQIDTAFRIAATAADAAPVNDRFTVFESAFDKAIKETTGGAYAGYKFVPAL  273
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAI  91
+            E+ VK+AYAATVA  P+VK+ VFEAA+T+ I
+Sbjct  274  ESGVKKAYAATVAEVPEVKFLVFEAAITRTI  304
+
+
+> UniRef90_M8A669 Pollen allergen Phl p 5a n=1 Tax=Triticum urartu 
+TaxID=4572 RepID=M8A669_TRIUA
+Length=247
+
+ Score = 115 bits (287),  Expect = 6e-29, Method: Compositional matrix adjust.
+ Identities = 66/94 (70%), Positives = 82/94 (87%), Gaps = 0/94 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPA E++ +D+IDAAF++AATAA  AP +DKFTVFE+AF+KAIKETTGGAY  YK +P+L
+Sbjct  53   IPAAEMKAVDQIDAAFRIAATAADAAPVNDKFTVFESAFDKAIKETTGGAYAGYKFVPAL  112
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAM  94
+            E+AVK+AYAATVA AP+VK+ VFEAALT+ I AM
+Sbjct  113  ESAVKKAYAATVAEAPEVKFTVFEAALTRTIAAM  146
+
+
+> UniRef90_P22285 Pollen allergen KBG 41 n=3 Tax=Poinae TaxID=640628 
+RepID=MPA92_POAPR
+Length=333
+
+ Score = 113 bits (283),  Expect = 6e-28, Method: Compositional matrix adjust.
+ Identities = 79/102 (77%), Positives = 89/102 (87%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGELQ+IDK+DAAFKVAATAA  APA+DKFTVFEAAFN AIK +TGGAY +YK IP+L
+Sbjct  184  IPAGELQVIDKVDAAFKVAATAANAAPANDKFTVFEAAFNDAIKASTGGAYQSYKFIPAL  243
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            EAAVKQ+YAATVA AP VKY VFE AL KAITAMS+ QK ++
+Sbjct  244  EAAVKQSYAATVATAPAVKYTVFETALKKAITAMSQAQKAAK  285
+
+
+> UniRef90_M7YEH0 Pollen allergen KBG 41 n=6 Tax=Triticeae TaxID=147389 
+RepID=M7YEH0_TRIUA
+Length=295
+
+ Score = 112 bits (280),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 69/99 (70%), Positives = 87/99 (88%), Gaps = 0/99 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            +P GEL+ ID++DAAF+ AATAA  AP +DKFTVFE++FNKAIKETTGG Y++YK IP+L
+Sbjct  170  VPTGELKAIDQVDAAFRSAATAADAAPVNDKFTVFESSFNKAIKETTGGTYESYKFIPAL  229
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQK  99
+            E AVKQAYAATVAAAP+VK+ VF+ AL+KAI AM++V+K
+Sbjct  230  EVAVKQAYAATVAAAPEVKFTVFQTALSKAINAMTQVEK  268
+
+
+> UniRef90_M0Z3U1 Uncharacterized protein n=3 Tax=Hordeum vulgare 
+subsp. vulgare TaxID=112509 RepID=M0Z3U1_HORVV
+Length=298
+
+ Score = 111 bits (277),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 75/102 (74%), Positives = 91/102 (89%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            +PAGEL+ ID++DAAF+ AATAA  APA+DKFTVFE+AFNKAIKETTGGAY++YK IP+L
+Sbjct  171  VPAGELKAIDQVDAAFRTAATAADAAPANDKFTVFESAFNKAIKETTGGAYESYKFIPAL  230
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            EAAVKQAYAATVAAAP+VK+ VF+ AL+KAI AM+E  KV+ 
+Sbjct  231  EAAVKQAYAATVAAAPEVKFTVFQTALSKAINAMTEAGKVAN  272
+
+
+> UniRef90_P22284 Pollen allergen KBG 31 n=1 Tax=Poa pratensis 
+TaxID=4545 RepID=MPA91_POAPR
+Length=373
+
+ Score = 108 bits (271),  Expect = 5e-26, Method: Compositional matrix adjust.
+ Identities = 77/95 (81%), Positives = 84/95 (88%), Gaps = 0/95 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGELQ+IDK+DAAFKVAATAA  APA+DKFTVFEAAFN AIK +TGGAY +YK IP+L
+Sbjct  243  IPAGELQVIDKVDAAFKVAATAANAAPANDKFTVFEAAFNDAIKASTGGAYQSYKFIPAL  302
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMS  95
+            EAAVKQ+YAATVA AP VKY VFE AL KAITAMS
+Sbjct  303  EAAVKQSYAATVATAPAVKYTVFETALKKAITAMS  337
+
+
+ Score = 47.8 bits (112),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 34/87 (39%), Positives = 52/87 (60%), Gaps = 3/87 (3%)
+
+Query  9   IDKIDAAFKVAATAA-ATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEAAVKQA  67
+           +DK + A+K A  AA A APA+ KF VF+A F+K +KE   G  D       L+A ++ +
+Sbjct  1   MDKANGAYKTALKAASAVAPAE-KFPVFQATFDKNLKEGLSGP-DAVGFAKKLDAFIQTS  58
+
+Query  68  YAATVAAAPQVKYAVFEAALTKAITAM  94
+           Y +T AA P+ K+ +F  +LT+ +  M
+Sbjct  59  YLSTKAAEPKEKFDLFVLSLTEVLRFM  85
+
+
+> UniRef90_Q40237 Major pollen allergen Lol p 5b n=1 Tax=Lolium 
+perenne TaxID=4522 RepID=MPA5B_LOLPR
+Length=339
+
+ Score = 108 bits (269),  Expect = 8e-26, Method: Compositional matrix adjust.
+ Identities = 67/99 (68%), Positives = 79/99 (80%), Gaps = 0/99 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPA E+Q+IDK+DAA++ AATAA  APA+DKFTVFE  FN AIK + G AYD+YK IP+L
+Sbjct  185  IPAAEVQLIDKVDAAYRTAATAANAAPANDKFTVFENTFNNAIKVSLGAAYDSYKFIPTL  244
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQK  99
+             AAVKQAYAA  A AP+VKY V E AL KA+TAMSE +K
+Sbjct  245  VAAVKQAYAAKQATAPEVKYTVSETALKKAVTAMSEAEK  283
+
+
+ Score = 44.3 bits (103),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 39/113 (35%), Positives = 56/113 (50%), Gaps = 12/113 (11%)
+
+Query  1    IPAG-----ELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAF----NKAIKETTGGAY  51
+            +P+G     E ++I+KI+A FK A  AAA  P  DK+  F   F    NKA  E     Y
+Sbjct  59   VPSGKATTEEQKLIEKINAGFKAAVAAAAVVPPADKYKTFVETFGTATNKAFVEGLASGY  118
+
+Query  52   ---DTYKCIPSLEAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVS  101
+                  +    L+AA+K AY A   A P+ KY  + A LT+A+  ++   +V 
+Sbjct  119  ADQSKNQLTSKLDAALKLAYEAAQGATPEAKYDAYVATLTEALRVIAGTLEVH  171
+
+
+> UniRef90_Q70JQ0 Putative group V allergen (Fragment) n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=Q70JQ0_WHEAT
+Length=119
+
+ Score = 103 bits (256),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 51/69 (74%), Positives = 61/69 (88%), Gaps = 0/69 (0%)
+
+Query  26  APADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEAAVKQAYAATVAAAPQVKYAVFEA  85
+           AP +DKFTVFE+AF+KAIKETTGGAY  YK +P+LE+AVK+AYAATVA AP+VK+ VFEA
+Sbjct  20  APVNDKFTVFESAFDKAIKETTGGAYAGYKFVPALESAVKKAYAATVAEAPEVKFTVFEA  79
+
+Query  86  ALTKAITAM  94
+           ALT+ I AM
+Sbjct  80  ALTRTIAAM  88
+
+
+> UniRef90_M7ZET8 Pollen allergen KBG 41 n=3 Tax=Triticinae TaxID=1648030 
+RepID=M7ZET8_TRIUA
+Length=271
+
+ Score = 90.9 bits (224),  Expect = 7e-20, Method: Compositional matrix adjust.
+ Identities = 53/91 (58%), Positives = 66/91 (73%), Gaps = 0/91 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPA EL+ ID+IDAAF+ AA AA  AP  DKF VF++AFNKAIKETTGGAY+ YK +P L
+Sbjct  156  IPAEELKAIDQIDAAFRTAAAAADAAPIKDKFAVFKSAFNKAIKETTGGAYEGYKFVPDL  215
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAI  91
+             +++K  Y  TV   P+ K   FE+AL+K I
+Sbjct  216  VSSIKNVYGITVPNTPKDKLLAFESALSKTI  246
+
+
+> UniRef90_A0A1D5X8R3 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5X8R3_WHEAT
+Length=232
+
+ Score = 89.4 bits (220),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 52/94 (55%), Positives = 69/94 (73%), Gaps = 0/94 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGEL+ ID+IDAAF  AAT A  AP  D+ TVF++AF+KAIKETTG AY+ YK +P+L
+Sbjct  120  IPAGELKAIDQIDAAFSTAATTADAAPIKDRSTVFDSAFSKAIKETTGDAYEAYKFVPAL  179
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAM  94
+            E+AVK++YA  +   PQ K  + E+ L+  I +M
+Sbjct  180  ESAVKKSYATFLPGNPQDKRTLIESFLSDTIVSM  213
+
+
+> UniRef90_A0A1D5XUL1 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5XUL1_WHEAT
+Length=260
+
+ Score = 89.4 bits (220),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 50/94 (53%), Positives = 69/94 (73%), Gaps = 0/94 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGEL+ +D++DAAF  AAT A  AP  D+  VF++AF+KAIKETTG AY+ YK +P+L
+Sbjct  148  IPAGELKAMDQMDAAFCTAATTADAAPIKDRPAVFDSAFSKAIKETTGDAYEAYKFVPAL  207
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAM  94
+            E+A+K+ YA  +  +PQ K  +FEA L+  I +M
+Sbjct  208  ESAIKKTYAGFIPGSPQDKRTLFEATLSDTIVSM  241
+
+
+> UniRef90_A0A1D5X8S6 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5X8S6_WHEAT
+Length=142
+
+ Score = 87.0 bits (214),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 50/94 (53%), Positives = 67/94 (71%), Gaps = 0/94 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IP GEL+ ID+IDAAF  AAT A  AP  D+ TVF++AF+KAIKETTG AY+ YK +P+L
+Sbjct  25   IPTGELKAIDQIDAAFSTAATTADAAPIKDRSTVFDSAFSKAIKETTGDAYEAYKFVPAL  84
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAM  94
+            E+ VK++YA  +   PQ K  + E+ L+  I +M
+Sbjct  85   ESTVKKSYAIFLPRNPQDKRTLIESFLSDTIVSM  118
+
+
+> UniRef90_A0A1D5X9N7 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5X9N7_WHEAT
+Length=199
+
+ Score = 88.2 bits (217),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 50/94 (53%), Positives = 67/94 (71%), Gaps = 0/94 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGEL+ ID+IDAAF   AT A  AP  D+ TVF++AF+KAIKETTG AY+ YK +P+L
+Sbjct  87   IPAGELKAIDQIDAAFSTTATTADAAPIKDRSTVFDSAFSKAIKETTGDAYEAYKFVPAL  146
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAM  94
+            E+AVK++Y   +   PQ K  + E+ L+  I +M
+Sbjct  147  ESAVKKSYTTFLPRNPQDKRTLIESFLSDTIISM  180
+
+
+> UniRef90_M0VDN4 Uncharacterized protein n=1 Tax=Hordeum vulgare 
+subsp. vulgare TaxID=112509 RepID=M0VDN4_HORVV
+Length=291
+
+ Score = 87.8 bits (216),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 52/94 (55%), Positives = 67/94 (71%), Gaps = 0/94 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGEL+ ID+I AAF+ AATAA   P  DK T+F++AF+KAIK+T  GAY  YK +P+L
+Sbjct  165  IPAGELKAIDQIAAAFRTAATAADAVPKKDKSTIFDSAFSKAIKDTMDGAYQGYKFVPAL  224
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAM  94
+            E+ VK+AY+  +   PQ K  VFEA L + I AM
+Sbjct  225  ESGVKEAYSLLLPQRPQNKLMVFEAVLRETILAM  258
+
+
+> UniRef90_A0A1D5Y9C7 Uncharacterized protein n=2 Tax=Triticinae 
+TaxID=1648030 RepID=A0A1D5Y9C7_WHEAT
+Length=268
+
+ Score = 85.5 bits (210),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 49/94 (52%), Positives = 66/94 (70%), Gaps = 0/94 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPA EL+ ID+ID AF  AATAA  AP  D  TVF++AF+KAIKETTGGAY+  K +P++
+Sbjct  153  IPASELKAIDQIDVAFSTAATAAEAAPKKDMSTVFDSAFSKAIKETTGGAYEGCKFVPAV  212
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAM  94
+            E+AVK++YA  +   P  K  + E+ L+  I +M
+Sbjct  213  ESAVKKSYATFLPRNPHDKRVLIESFLSDTIVSM  246
+
+
+> UniRef90_M8C3B5 Major pollen allergen Lol p 5b n=3 Tax=Triticinae 
+TaxID=1648030 RepID=M8C3B5_AEGTA
+Length=270
+
+ Score = 85.5 bits (210),  Expect = 6e-18, Method: Compositional matrix adjust.
+ Identities = 53/94 (56%), Positives = 70/94 (74%), Gaps = 0/94 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGEL+ I +IDAAF+ AATAA  AP+ D+  VF++AF+KAIKETTGGA   YK +P+L
+Sbjct  157  IPAGELKAIGQIDAAFRTAATAADAAPSKDRSAVFDSAFDKAIKETTGGASGGYKYVPAL  216
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAM  94
+            E+AVK+AYAAT    P+++   +E A+   I AM
+Sbjct  217  ESAVKEAYAATNPQNPKIRLMTYETAMVDTIFAM  250
+
+
+> UniRef90_O04828 Pollen allergen n=2 Tax=Hordeum vulgare TaxID=4513 
+RepID=O04828_HORVU
+Length=313
+
+ Score = 85.1 bits (209),  Expect = 9e-18, Method: Compositional matrix adjust.
+ Identities = 62/96 (65%), Positives = 80/96 (83%), Gaps = 0/96 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            +PAGEL+ ID++DAAF+ AATAA  APA+DKFTVFE+      ++  GGAY++YK IP+L
+Sbjct  188  VPAGELKAIDQVDAAFRTAATAADAAPANDKFTVFESLQQGPSRKPRGGAYESYKFIPAL  247
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSE  96
+            EAAVKQAYAATVAAAP+VK+ VF+ AL+KAI AM++
+Sbjct  248  EAAVKQAYAATVAAAPEVKFTVFQTALSKAINAMTQ  283
+
+
+> UniRef90_A0A1D5X9H0 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5X9H0_WHEAT
+Length=268
+
+ Score = 83.6 bits (205),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 49/88 (56%), Positives = 66/88 (75%), Gaps = 0/88 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGEL+ ID++DAAF  AAT A  AP  D+ TVF++AF+KAIKETTG AY+ YK +P+L
+Sbjct  153  IPAGELKAIDQMDAAFSTAATTADAAPIKDRSTVFDSAFSKAIKETTGDAYEAYKFVPAL  212
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALT  88
+            E+AVK++YA  +   PQ K  + E+ L+
+Sbjct  213  ESAVKKSYAIFLPRNPQDKRTLIESFLS  240
+
+
+> UniRef90_T1NSD5 Uncharacterized protein n=3 Tax=Triticum TaxID=4564 
+RepID=T1NSD5_TRIUA
+Length=262
+
+ Score = 77.0 bits (188),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 56/90 (62%), Positives = 68/90 (76%), Gaps = 0/90 (0%)
+
+Query  2    PAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLE  61
+            PAGEL+ ID+ID AF+ AATAA  APA+DK TVF++AF+KAIKET G AY  YK +P+LE
+Sbjct  151  PAGELKAIDQIDTAFRTAATAADAAPAEDKSTVFDSAFSKAIKETMGDAYKDYKFVPALE  210
+
+Query  62   AAVKQAYAATVAAAPQVKYAVFEAALTKAI  91
+            +AVK+ YAA V A P  K  VFE+AL   I
+Sbjct  211  SAVKKIYAALVPAKPTEKIFVFESALEDTI  240
+
+
+> UniRef90_A0A0Q3GGL2 Uncharacterized protein n=2 Tax=Brachypodium 
+distachyon TaxID=15368 RepID=A0A0Q3GGL2_BRADI
+Length=67
+
+ Score = 70.5 bits (171),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 37/52 (71%), Positives = 43/52 (83%), Gaps = 0/52 (0%)
+
+Query  48  GGAYDTYKCIPSLEAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQK  99
+           G AY  YK IP L+AA K+AYA+TVAA P+VKYAVFEAALTKAI AM+E +K
+Sbjct  8   GKAYTDYKFIPPLDAAFKEAYASTVAAKPEVKYAVFEAALTKAIGAMAEAEK  59
+
+
+> UniRef90_A0A1D5ZCM1 Uncharacterized protein n=2 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5ZCM1_WHEAT
+Length=267
+
+ Score = 72.8 bits (177),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 51/79 (65%), Positives = 62/79 (78%), Gaps = 0/79 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGEL+ ID+ID AF+ AATAA  APA DK TVF++AF+KAIKET GGAY+ YK +P+L
+Sbjct  157  IPAGELKAIDQIDTAFRTAATAADAAPAKDKSTVFDSAFSKAIKETMGGAYEAYKFVPAL  216
+
+Query  61   EAAVKQAYAATVAAAPQVK  79
+            E+AVK+ YA  V   PQ K
+Sbjct  217  ESAVKKTYAFFVPDRPQDK  235
+
+
+> UniRef90_M8CAP7 Uncharacterized protein n=3 Tax=Triticinae TaxID=1648030 
+RepID=M8CAP7_AEGTA
+Length=243
+
+ Score = 60.5 bits (145),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 40/62 (65%), Positives = 51/62 (82%), Gaps = 0/62 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGEL+ ID+ID AF+ AATAA TAPA D+ TVF++AF+KAIKET G AY  YK +P++
+Sbjct  157  IPAGELKAIDQIDTAFRTAATAADTAPAKDRSTVFDSAFSKAIKETMGDAYKDYKFVPAI  216
+
+Query  61   EA  62
+            E+
+Sbjct  217  ES  218
+
+
+> UniRef90_M7YYH3 Major pollen allergen Lol p 5a n=1 Tax=Triticum 
+urartu TaxID=4572 RepID=M7YYH3_TRIUA
+Length=319
+
+ Score = 60.5 bits (145),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 33/77 (43%), Positives = 45/77 (58%), Gaps = 0/77 (0%)
+
+Query  3    AGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEA  62
+            AG  Q+I K+D   K+A+ AA  AP  D+  VF+AA NKAIK+  G  YD  K    L+A
+Sbjct  228  AGATQVIKKLDKVIKLASAAAKEAPKADRILVFQAALNKAIKDQMGPGYDGSKTTSDLDA  287
+
+Query  63   AVKQAYAATVAAAPQVK  79
+            A K+A  +   + P+ K
+Sbjct  288  AFKKAVDSAATSKPEAK  304
+
+
+> UniRef90_A0A1D5X9S2 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5X9S2_WHEAT
+Length=205
+
+ Score = 52.8 bits (125),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 32/52 (62%), Positives = 41/52 (79%), Gaps = 0/52 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYD  52
+            IP GEL+ ID+IDAAF  AAT A  AP  D+ T+F++AF++AIKETTG AY+
+Sbjct  153  IPVGELKAIDQIDAAFSTAATTADAAPIKDRSTIFDSAFSEAIKETTGDAYE  204
+
+
+> UniRef90_A0A1D6DKC5 Uncharacterized protein n=2 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D6DKC5_WHEAT
+Length=551
+
+ Score = 53.1 bits (126),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 38/96 (40%), Positives = 52/96 (54%), Gaps = 0/96 (0%)
+
+Query  4    GELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEAA  63
+            G  ++I K+D   K A+ AA  AP  D+  VF+AA NKAIKE  G  YD  K    L+AA
+Sbjct  302  GATRVIKKLDTVIKAASAAAKEAPKADRIPVFQAALNKAIKEQMGPGYDGSKTTSDLDAA  361
+
+Query  64   VKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQK  99
+             K+A  +   + P+ K      AL K+IT ++   K
+Sbjct  362  FKKAVESAATSKPEAKDTDVADALAKSITTIANATK  397
+
+
+> UniRef90_M8B8M2 Major pollen allergen Lol p 5b n=1 Tax=Aegilops 
+tauschii TaxID=37682 RepID=M8B8M2_AEGTA
+Length=219
+
+ Score = 47.4 bits (111),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 31/65 (48%), Positives = 39/65 (60%), Gaps = 0/65 (0%)
+
+Query  4    GELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEAA  63
+            G  Q+I K+D   K A+ AA  AP  D+  VF+AA NKAIKE  G  YD  K    L+AA
+Sbjct  136  GATQVIKKLDTIIKAASAAAKEAPKADRILVFQAALNKAIKEQMGPGYDGSKTTSDLDAA  195
+
+Query  64   VKQAY  68
+             K+A+
+Sbjct  196  FKKAH  200
+
+
+> UniRef90_A0A1D6B297 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D6B297_WHEAT
+Length=422
+
+ Score = 46.6 bits (109),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 35/92 (38%), Positives = 55/92 (60%), Gaps = 3/92 (3%)
+
+Query  5    ELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEAAV  64
+            E + I+K++ A+K A  AA  A  +DKF+VF+A FNK IK+   G   + K +  ++ A 
+Sbjct  70   EQKFIEKMNQAYKKAVEAANVAEQEDKFSVFDATFNKEIKQCLAGM--SAKFMAMIDRAF  127
+
+Query  65   KQAY-AATVAAAPQVKYAVFEAALTKAITAMS  95
+            K AY +A  AA  + K+A+    LT+A+  +S
+Sbjct  128  KIAYNSAAGAATAKEKFAMLFLTLTEALRFIS  159
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.123    0.328    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 438012730055
+Results from round 2
+
+
+Query= d1l3pa_
+
+Length=102
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P56164 Major pollen allergen Pha a 5.1 n=1 Tax=Phalari...  123     1e-31
+  UniRef90_A0A1D5X8S6 Uncharacterized protein n=1 Tax=Triticum ae...  117     4e-31
+  UniRef90_A0A1D5X9N7 Uncharacterized protein n=1 Tax=Triticum ae...  117     2e-30
+  UniRef90_A0A1D6DLB9 Uncharacterized protein n=2 Tax=Triticum ae...  115     2e-28
+  UniRef90_O23972 Group V allergen (Fragment) n=1 Tax=Holcus lana...  113     2e-28
+  UniRef90_O23971 Group V grass pollen allergen (Fragment) n=1 Ta...  111     9e-28
+  UniRef90_A0A1D5Y8A1 Uncharacterized protein n=1 Tax=Triticum ae...  112     2e-27
+  UniRef90_P56165 Major pollen allergen Pha a 5.2 n=1 Tax=Phalari...  112     2e-27
+  UniRef90_A0A1D5X8R3 Uncharacterized protein n=1 Tax=Triticum ae...  109     3e-27
+  UniRef90_F2EBN6 Predicted protein n=1 Tax=Hordeum vulgare subsp...  112     5e-27
+  UniRef90_A0A1D5X9H0 Uncharacterized protein n=1 Tax=Triticum ae...  109     8e-27
+  UniRef90_A0A1D5Y9C7 Uncharacterized protein n=2 Tax=Triticinae ...  108     2e-26
+  UniRef90_M8A669 Pollen allergen Phl p 5a n=1 Tax=Triticum urart...  107     3e-26
+  UniRef90_P56167 Major pollen allergen Pha a 5.4 (Fragment) n=1 ...  105     8e-26
+  UniRef90_M7Z6N3 Pollen allergen Phl p 5a n=1 Tax=Triticum urart...  107     9e-26
+  UniRef90_M0VDN4 Uncharacterized protein n=1 Tax=Hordeum vulgare...  107     1e-25
+  UniRef90_A0A1D6AE19 Uncharacterized protein n=2 Tax=Triticum ae...  106     3e-25
+  UniRef90_A0A1D6DF85 Uncharacterized protein n=1 Tax=Triticum ae...  104     1e-24
+  UniRef90_A0A1D5XUL1 Uncharacterized protein n=1 Tax=Triticum ae...  103     1e-24
+  UniRef90_A0A1D6DKC6 Uncharacterized protein n=1 Tax=Triticum ae...  103     1e-24
+  UniRef90_F4MJM3 Pollen allergen Sec c 5 n=1 Tax=Secale cereale ...  104     1e-24
+  UniRef90_Q40963 Pollen allergen Phl p 5b (Fragment) n=8 Tax=Poe...  102     4e-24
+  UniRef90_M7YEH0 Pollen allergen KBG 41 n=6 Tax=Triticeae TaxID=...  102     9e-24
+  UniRef90_M0Z3U1 Uncharacterized protein n=3 Tax=Hordeum vulgare...  101     1e-23
+  UniRef90_P56166 Major pollen allergen Pha a 5.3 n=1 Tax=Phalari...  101     1e-23
+  UniRef90_O04828 Pollen allergen n=2 Tax=Hordeum vulgare TaxID=4...  100     3e-23
+  UniRef90_M7ZET8 Pollen allergen KBG 41 n=3 Tax=Triticinae TaxID...  99.8    4e-23
+  UniRef90_M8C3B5 Major pollen allergen Lol p 5b n=3 Tax=Triticin...  99.8    4e-23
+  UniRef90_Q40962 Pollen allergen Phl p 5a (Fragment) n=10 Tax=Ph...  99.8    5e-23
+  UniRef90_Q40240 Major pollen allergen Lol p 5a n=4 Tax=Loliinae...  99.8    6e-23
+  UniRef90_Q9AT26 Group V allergen Phl p 5 (Fragment) n=1 Tax=Phl...  97.1    4e-22
+  UniRef90_Q93WP9 Group 5 allergen n=3 Tax=Dactylis glomerata Tax...  96.7    6e-22
+  UniRef90_I4IY75 Pollen allergen Ave s 5 (Isoallergen B) n=1 Tax...  95.2    3e-21
+  UniRef90_I1HWS4 Uncharacterized protein n=4 Tax=Brachypodium di...  92.9    2e-20
+  UniRef90_P22285 Pollen allergen KBG 41 n=3 Tax=Poinae TaxID=640...  90.5    1e-19
+  UniRef90_Q9FPR0 Pollen allergen Poa p 5 n=2 Tax=Poeae Chloropla...  89.0    4e-19
+  UniRef90_Q40237 Major pollen allergen Lol p 5b n=1 Tax=Lolium p...  89.0    5e-19
+  UniRef90_Q70JQ0 Putative group V allergen (Fragment) n=1 Tax=Tr...  82.5    1e-17
+  UniRef90_P22284 Pollen allergen KBG 31 n=1 Tax=Poa pratensis Ta...  85.5    1e-17
+  UniRef90_T1NSD5 Uncharacterized protein n=3 Tax=Triticum TaxID=...  83.2    3e-17
+  UniRef90_A0A1D5ZCM1 Uncharacterized protein n=2 Tax=Triticum ae...  82.5    7e-17
+  UniRef90_M7YYH3 Major pollen allergen Lol p 5a n=1 Tax=Triticum...  81.3    2e-16
+  UniRef90_M8CAP7 Uncharacterized protein n=3 Tax=Triticinae TaxI...  72.4    2e-13
+  UniRef90_A0A1D6DKC5 Uncharacterized protein n=2 Tax=Triticum ae...  73.2    1e-12
+  UniRef90_A0A1D6B297 Uncharacterized protein n=1 Tax=Triticum ae...  67.4    6e-11
+  UniRef90_M8B8M2 Major pollen allergen Lol p 5b n=1 Tax=Aegilops...  64.7    1e-10
+  UniRef90_A0A1D5X9S2 Uncharacterized protein n=1 Tax=Triticum ae...  58.2    2e-08
+  UniRef90_A0A0Q3GGL2 Uncharacterized protein n=2 Tax=Brachypodiu...  49.3    7e-06
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_P43215 Pollen allergen Phl p 6 n=6 Tax=Phleum pratense...  43.5    0.001
+
+
+> UniRef90_P56164 Major pollen allergen Pha a 5.1 n=1 Tax=Phalaris 
+aquatica TaxID=28479 RepID=MPA51_PHAAQ
+Length=320
+
+ Score = 123 bits (308),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 83/101 (82%), Positives = 92/101 (91%), Gaps = 0/101 (0%)
+
+Query  2    PAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLE  61
+            P GELQI+DKIDAAFK+AATAA +APA+DKFTVFE AFNKAIKE+T GAY+TYK IPSLE
+Sbjct  154  PVGELQIVDKIDAAFKIAATAANSAPANDKFTVFEGAFNKAIKESTAGAYETYKFIPSLE  213
+
+Query  62   AAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            AAVKQAY ATVA AP+VKYAVFEA LTKAITAMSE QKV++
+Sbjct  214  AAVKQAYGATVARAPEVKYAVFEAGLTKAITAMSEAQKVAK  254
+
+
+> UniRef90_A0A1D5X8S6 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5X8S6_WHEAT
+Length=142
+
+ Score = 117 bits (294),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 50/94 (53%), Positives = 67/94 (71%), Gaps = 0/94 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IP GEL+ ID+IDAAF  AAT A  AP  D+ TVF++AF+KAIKETTG AY+ YK +P+L
+Sbjct  25   IPTGELKAIDQIDAAFSTAATTADAAPIKDRSTVFDSAFSKAIKETTGDAYEAYKFVPAL  84
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAM  94
+            E+ VK++YA  +   PQ K  + E+ L+  I +M
+Sbjct  85   ESTVKKSYAIFLPRNPQDKRTLIESFLSDTIVSM  118
+
+
+> UniRef90_A0A1D5X9N7 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5X9N7_WHEAT
+Length=199
+
+ Score = 117 bits (293),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 50/94 (53%), Positives = 67/94 (71%), Gaps = 0/94 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGEL+ ID+IDAAF   AT A  AP  D+ TVF++AF+KAIKETTG AY+ YK +P+L
+Sbjct  87   IPAGELKAIDQIDAAFSTTATTADAAPIKDRSTVFDSAFSKAIKETTGDAYEAYKFVPAL  146
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAM  94
+            E+AVK++Y   +   PQ K  + E+ L+  I +M
+Sbjct  147  ESAVKKSYTTFLPRNPQDKRTLIESFLSDTIISM  180
+
+
+> UniRef90_A0A1D6DLB9 Uncharacterized protein n=2 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D6DLB9_WHEAT
+Length=384
+
+ Score = 115 bits (288),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 66/101 (65%), Positives = 83/101 (82%), Gaps = 0/101 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPA E+Q +++ID AF++AATAA  AP +DKFTVFE+AF+KAIKETTGGAY  YK +P+L
+Sbjct  193  IPAAEMQAVNQIDTAFRIAATAADAAPVNDKFTVFESAFDKAIKETTGGAYAGYKFVPAL  252
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVS  101
+            E+AVK+AYAATVA AP+VK+ VFEAALT+ I AM    K +
+Sbjct  253  ESAVKKAYAATVAEAPEVKFTVFEAALTRTIAAMCVAAKGA  293
+
+
+> UniRef90_O23972 Group V allergen (Fragment) n=1 Tax=Holcus lanatus 
+TaxID=29679 RepID=O23972_HOLLA
+Length=264
+
+ Score = 113 bits (283),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 80/102 (78%), Positives = 89/102 (87%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGELQI+DKIDAAF++AATAA  AP +DKFTVFE AFNKAIKE+TGGAY+ YK IPSL
+Sbjct  134  IPAGELQIVDKIDAAFRIAATAANAAPVNDKFTVFEGAFNKAIKESTGGAYEAYKFIPSL  193
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            E AVKQAYAATVA AP+VKY VFE AL KAITAMSE QK ++
+Sbjct  194  ETAVKQAYAATVATAPEVKYTVFETALKKAITAMSEAQKEAK  235
+
+
+> UniRef90_O23971 Group V grass pollen allergen (Fragment) n=1 
+Tax=Holcus lanatus TaxID=29679 RepID=O23971_HOLLA
+Length=240
+
+ Score = 111 bits (278),  Expect = 9e-28, Method: Composition-based stats.
+ Identities = 83/102 (81%), Positives = 97/102 (95%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAG+LQ++DKIDA+FK+AATAA  APA+DKFTVFE AFNKA+KE+TGGAY++YK IPSL
+Sbjct  114  IPAGDLQVVDKIDASFKIAATAANAAPANDKFTVFETAFNKALKESTGGAYESYKFIPSL  173
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            EAAVKQAYA+TVAAAP+VKYAVFEAALTKAITAMS+ QKV+Q
+Sbjct  174  EAAVKQAYASTVAAAPEVKYAVFEAALTKAITAMSQAQKVAQ  215
+
+
+> UniRef90_A0A1D5Y8A1 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5Y8A1_WHEAT
+Length=292
+
+ Score = 112 bits (279),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 65/101 (64%), Positives = 83/101 (82%), Gaps = 0/101 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IP  E++ +D+ID+AF++AATAA  AP +DKFTVFE+AF+KAIKETTGGAY  YK +P+L
+Sbjct  141  IPVAEMKAVDQIDSAFRIAATAADAAPVNDKFTVFESAFDKAIKETTGGAYAGYKFVPAL  200
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVS  101
+            E+AVK+AYAATVA AP+VK+ VFEAALT+ I AM    K +
+Sbjct  201  ESAVKKAYAATVAEAPEVKFTVFEAALTRTIAAMCVAAKGA  241
+
+
+> UniRef90_P56165 Major pollen allergen Pha a 5.2 n=1 Tax=Phalaris 
+aquatica TaxID=28479 RepID=MPA52_PHAAQ
+Length=305
+
+ Score = 112 bits (279),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 73/99 (74%), Positives = 85/99 (86%), Gaps = 0/99 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGE+++I+K+ AAF  AATAA  APA+DKFTVF ++FNKAIKETTGGAY  YK IP+L
+Sbjct  163  IPAGEVEVINKVKAAFSTAATAADEAPANDKFTVFVSSFNKAIKETTGGAYAGYKFIPTL  222
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQK  99
+            EAAVKQAYAA+ A AP+VKYAVFE AL KAI+AMSE QK
+Sbjct  223  EAAVKQAYAASSATAPEVKYAVFETALKKAISAMSEAQK  261
+
+
+> UniRef90_A0A1D5X8R3 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5X8R3_WHEAT
+Length=232
+
+ Score = 109 bits (273),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 52/94 (55%), Positives = 69/94 (73%), Gaps = 0/94 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGEL+ ID+IDAAF  AAT A  AP  D+ TVF++AF+KAIKETTG AY+ YK +P+L
+Sbjct  120  IPAGELKAIDQIDAAFSTAATTADAAPIKDRSTVFDSAFSKAIKETTGDAYEAYKFVPAL  179
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAM  94
+            E+AVK++YA  +   PQ K  + E+ L+  I +M
+Sbjct  180  ESAVKKSYATFLPGNPQDKRTLIESFLSDTIVSM  213
+
+
+> UniRef90_F2EBN6 Predicted protein n=1 Tax=Hordeum vulgare subsp. 
+vulgare TaxID=112509 RepID=F2EBN6_HORVV
+Length=438
+
+ Score = 112 bits (279),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 59/91 (65%), Positives = 78/91 (86%), Gaps = 0/91 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGE++++ +ID AF++AATAA  AP +D+FTVFE+AF+KAIKETTGGAY  YK +P+L
+Sbjct  214  IPAGEMKVVGQIDTAFRIAATAADAAPVNDRFTVFESAFDKAIKETTGGAYAGYKFVPAL  273
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAI  91
+            E+ VK+AYAATVA  P+VK+ VFEAA+T+ I
+Sbjct  274  ESGVKKAYAATVAEVPEVKFLVFEAAITRTI  304
+
+
+> UniRef90_A0A1D5X9H0 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5X9H0_WHEAT
+Length=268
+
+ Score = 109 bits (273),  Expect = 8e-27, Method: Composition-based stats.
+ Identities = 49/90 (54%), Positives = 66/90 (73%), Gaps = 0/90 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGEL+ ID++DAAF  AAT A  AP  D+ TVF++AF+KAIKETTG AY+ YK +P+L
+Sbjct  153  IPAGELKAIDQMDAAFSTAATTADAAPIKDRSTVFDSAFSKAIKETTGDAYEAYKFVPAL  212
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKA  90
+            E+AVK++YA  +   PQ K  + E+ L+  
+Sbjct  213  ESAVKKSYAIFLPRNPQDKRTLIESFLSDT  242
+
+
+> UniRef90_A0A1D5Y9C7 Uncharacterized protein n=2 Tax=Triticinae 
+TaxID=1648030 RepID=A0A1D5Y9C7_WHEAT
+Length=268
+
+ Score = 108 bits (270),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 49/94 (52%), Positives = 66/94 (70%), Gaps = 0/94 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPA EL+ ID+ID AF  AATAA  AP  D  TVF++AF+KAIKETTGGAY+  K +P++
+Sbjct  153  IPASELKAIDQIDVAFSTAATAAEAAPKKDMSTVFDSAFSKAIKETTGGAYEGCKFVPAV  212
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAM  94
+            E+AVK++YA  +   P  K  + E+ L+  I +M
+Sbjct  213  ESAVKKSYATFLPRNPHDKRVLIESFLSDTIVSM  246
+
+
+> UniRef90_M8A669 Pollen allergen Phl p 5a n=1 Tax=Triticum urartu 
+TaxID=4572 RepID=M8A669_TRIUA
+Length=247
+
+ Score = 107 bits (268),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 67/101 (66%), Positives = 84/101 (83%), Gaps = 0/101 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPA E++ +D+IDAAF++AATAA  AP +DKFTVFE+AF+KAIKETTGGAY  YK +P+L
+Sbjct  53   IPAAEMKAVDQIDAAFRIAATAADAAPVNDKFTVFESAFDKAIKETTGGAYAGYKFVPAL  112
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVS  101
+            E+AVK+AYAATVA AP+VK+ VFEAALT+ I AM    K +
+Sbjct  113  ESAVKKAYAATVAEAPEVKFTVFEAALTRTIAAMCVAAKGA  153
+
+
+> UniRef90_P56167 Major pollen allergen Pha a 5.4 (Fragment) n=1 
+Tax=Phalaris aquatica TaxID=28479 RepID=MPA54_PHAAQ
+Length=175
+
+ Score = 105 bits (261),  Expect = 8e-26, Method: Composition-based stats.
+ Identities = 83/103 (81%), Positives = 92/103 (89%), Gaps = 1/103 (1%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGELQI+DKIDAAFK+AATAA +APA+DKFTVFE AFNKAIKE  GGAY+TYK IPSL
+Sbjct  38   IPAGELQIVDKIDAAFKIAATAANSAPANDKFTVFEGAFNKAIKERHGGAYETYKFIPSL  97
+
+Query  61   EAA-VKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            EA+  KQAY ATVA AP+VKYAVFEA LTKAITAMSE QKV++
+Sbjct  98   EASRSKQAYGATVARAPEVKYAVFEAGLTKAITAMSEAQKVAK  140
+
+
+> UniRef90_M7Z6N3 Pollen allergen Phl p 5a n=1 Tax=Triticum urartu 
+TaxID=4572 RepID=M7Z6N3_TRIUA
+Length=282
+
+ Score = 107 bits (266),  Expect = 9e-26, Method: Composition-based stats.
+ Identities = 73/101 (72%), Positives = 89/101 (88%), Gaps = 0/101 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPA +L+ ID+IDAA++ AATAA  AP +DKFTVFE+AFNKAIKETTGGAYD YK +P+L
+Sbjct  172  IPAPQLKTIDQIDAAYRTAATAADAAPVNDKFTVFESAFNKAIKETTGGAYDNYKFVPAL  231
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVS  101
+            E+AVKQAYAATVA+AP+VKYAVF+AAL+KAI AM E +K +
+Sbjct  232  ESAVKQAYAATVASAPEVKYAVFQAALSKAINAMVEAEKDA  272
+
+
+> UniRef90_M0VDN4 Uncharacterized protein n=1 Tax=Hordeum vulgare 
+subsp. vulgare TaxID=112509 RepID=M0VDN4_HORVV
+Length=291
+
+ Score = 107 bits (266),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 52/94 (55%), Positives = 67/94 (71%), Gaps = 0/94 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGEL+ ID+I AAF+ AATAA   P  DK T+F++AF+KAIK+T  GAY  YK +P+L
+Sbjct  165  IPAGELKAIDQIAAAFRTAATAADAVPKKDKSTIFDSAFSKAIKDTMDGAYQGYKFVPAL  224
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAM  94
+            E+ VK+AY+  +   PQ K  VFEA L + I AM
+Sbjct  225  ESGVKEAYSLLLPQRPQNKLMVFEAVLRETILAM  258
+
+
+> UniRef90_A0A1D6AE19 Uncharacterized protein n=2 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D6AE19_WHEAT
+Length=316
+
+ Score = 106 bits (264),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 73/99 (74%), Positives = 88/99 (89%), Gaps = 0/99 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPA +L+ ID+IDAA++ AATAA  AP +DKFTVFE+AFNKAIKETTGGAYD YK +P+L
+Sbjct  206  IPAPQLKTIDQIDAAYRTAATAADAAPVNDKFTVFESAFNKAIKETTGGAYDNYKFVPAL  265
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQK  99
+            E+AVKQAYAATVA+AP+VKYAVF+AAL+KAI AM E +K
+Sbjct  266  ESAVKQAYAATVASAPEVKYAVFQAALSKAINAMVEAEK  304
+
+
+> UniRef90_A0A1D6DF85 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D6DF85_WHEAT
+Length=286
+
+ Score = 104 bits (259),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 66/102 (65%), Positives = 86/102 (84%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            +PA +L+ ID+IDAA++ AATAA    AD KFT+FE+ FN+AIKE TGG YD YK +P+L
+Sbjct  170  VPAPQLKTIDQIDAAYRTAATAANAVSADKKFTIFESFFNRAIKENTGGKYDNYKFVPAL  229
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            E+AVKQAYAATVA+AP+VKYAVF+AAL+KAI+AM E +K ++
+Sbjct  230  ESAVKQAYAATVASAPEVKYAVFQAALSKAISAMVEAEKDAK  271
+
+
+> UniRef90_A0A1D5XUL1 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5XUL1_WHEAT
+Length=260
+
+ Score = 103 bits (257),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 50/94 (53%), Positives = 69/94 (73%), Gaps = 0/94 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGEL+ +D++DAAF  AAT A  AP  D+  VF++AF+KAIKETTG AY+ YK +P+L
+Sbjct  148  IPAGELKAMDQMDAAFCTAATTADAAPIKDRPAVFDSAFSKAIKETTGDAYEAYKFVPAL  207
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAM  94
+            E+A+K+ YA  +  +PQ K  +FEA L+  I +M
+Sbjct  208  ESAIKKTYAGFIPGSPQDKRTLFEATLSDTIVSM  241
+
+
+> UniRef90_A0A1D6DKC6 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D6DKC6_WHEAT
+Length=234
+
+ Score = 103 bits (256),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 71/102 (70%), Positives = 88/102 (86%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPA +L+ ID+IDAA++ AATAA  AP +DKFTVFE+ FNKAIKETTGGAYD Y  +P+L
+Sbjct  118  IPAPQLKTIDQIDAAYRSAATAADAAPVNDKFTVFESTFNKAIKETTGGAYDNYTFVPAL  177
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            E+AVKQAYAATVA+AP+VKYAVF+AAL+KAI AM E +K ++
+Sbjct  178  ESAVKQAYAATVASAPEVKYAVFQAALSKAINAMVEAEKDAK  219
+
+
+> UniRef90_F4MJM3 Pollen allergen Sec c 5 n=1 Tax=Secale cereale 
+TaxID=4550 RepID=F4MJM3_SECCE
+Length=292
+
+ Score = 104 bits (258),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 66/102 (65%), Positives = 88/102 (86%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            +PA +L+++D+IDAA++ AATAA  AP +DKF VFE++FNKAIKE TGGAY +Y  +P+L
+Sbjct  163  VPAPQLKVVDQIDAAYRTAATAANAAPTNDKFNVFESSFNKAIKENTGGAYASYTFVPAL  222
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            E+AVKQAYAATVA+AP+VKYAVF+AAL+KAI AM E +K ++
+Sbjct  223  ESAVKQAYAATVASAPEVKYAVFQAALSKAINAMVEAEKDAK  264
+
+
+> UniRef90_Q40963 Pollen allergen Phl p 5b (Fragment) n=8 Tax=Poeae 
+TaxID=147387 RepID=MPA5B_PHLPR
+Length=284
+
+ Score = 102 bits (254),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 101/102 (99%), Positives = 102/102 (100%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKE+TGGAYDTYKCIPSL
+Sbjct  150  IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKESTGGAYDTYKCIPSL  209
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ
+Sbjct  210  EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  251
+
+
+> UniRef90_M7YEH0 Pollen allergen KBG 41 n=6 Tax=Triticeae TaxID=147389 
+RepID=M7YEH0_TRIUA
+Length=295
+
+ Score = 102 bits (253),  Expect = 9e-24, Method: Composition-based stats.
+ Identities = 69/102 (68%), Positives = 89/102 (87%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            +P GEL+ ID++DAAF+ AATAA  AP +DKFTVFE++FNKAIKETTGG Y++YK IP+L
+Sbjct  170  VPTGELKAIDQVDAAFRSAATAADAAPVNDKFTVFESSFNKAIKETTGGTYESYKFIPAL  229
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            E AVKQAYAATVAAAP+VK+ VF+ AL+KAI AM++V+K ++
+Sbjct  230  EVAVKQAYAATVAAAPEVKFTVFQTALSKAINAMTQVEKDAK  271
+
+
+> UniRef90_M0Z3U1 Uncharacterized protein n=3 Tax=Hordeum vulgare 
+subsp. vulgare TaxID=112509 RepID=M0Z3U1_HORVV
+Length=298
+
+ Score = 101 bits (252),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 75/102 (74%), Positives = 91/102 (89%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            +PAGEL+ ID++DAAF+ AATAA  APA+DKFTVFE+AFNKAIKETTGGAY++YK IP+L
+Sbjct  171  VPAGELKAIDQVDAAFRTAATAADAAPANDKFTVFESAFNKAIKETTGGAYESYKFIPAL  230
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            EAAVKQAYAATVAAAP+VK+ VF+ AL+KAI AM+E  KV+ 
+Sbjct  231  EAAVKQAYAATVAAAPEVKFTVFQTALSKAINAMTEAGKVAN  272
+
+
+> UniRef90_P56166 Major pollen allergen Pha a 5.3 n=1 Tax=Phalaris 
+aquatica TaxID=28479 RepID=MPA53_PHAAQ
+Length=294
+
+ Score = 101 bits (251),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 65/83 (78%), Positives = 72/83 (87%), Gaps = 0/83 (0%)
+
+Query  20   ATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEAAVKQAYAATVAAAPQVK  79
+            +TAA +APA+DKFTVFE AFNKAIKE  GG  +TYK IPSLEAAVKQAY ATVA AP+VK
+Sbjct  178  STAANSAPANDKFTVFEGAFNKAIKERHGGPTETYKFIPSLEAAVKQAYGATVARAPEVK  237
+
+Query  80   YAVFEAALTKAITAMSEVQKVSQ  102
+            YAVFEA LTKAITAMSE QKV++
+Sbjct  238  YAVFEAGLTKAITAMSEAQKVAK  260
+
+
+> UniRef90_O04828 Pollen allergen n=2 Tax=Hordeum vulgare TaxID=4513 
+RepID=O04828_HORVU
+Length=313
+
+ Score = 100 bits (249),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 62/96 (65%), Positives = 80/96 (83%), Gaps = 0/96 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            +PAGEL+ ID++DAAF+ AATAA  APA+DKFTVFE+      ++  GGAY++YK IP+L
+Sbjct  188  VPAGELKAIDQVDAAFRTAATAADAAPANDKFTVFESLQQGPSRKPRGGAYESYKFIPAL  247
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSE  96
+            EAAVKQAYAATVAAAP+VK+ VF+ AL+KAI AM++
+Sbjct  248  EAAVKQAYAATVAAAPEVKFTVFQTALSKAINAMTQ  283
+
+
+> UniRef90_M7ZET8 Pollen allergen KBG 41 n=3 Tax=Triticinae TaxID=1648030 
+RepID=M7ZET8_TRIUA
+Length=271
+
+ Score = 99.8 bits (247),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 53/91 (58%), Positives = 66/91 (73%), Gaps = 0/91 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPA EL+ ID+IDAAF+ AA AA  AP  DKF VF++AFNKAIKETTGGAY+ YK +P L
+Sbjct  156  IPAEELKAIDQIDAAFRTAAAAADAAPIKDKFAVFKSAFNKAIKETTGGAYEGYKFVPDL  215
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAI  91
+             +++K  Y  TV   P+ K   FE+AL+K I
+Sbjct  216  VSSIKNVYGITVPNTPKDKLLAFESALSKTI  246
+
+
+> UniRef90_M8C3B5 Major pollen allergen Lol p 5b n=3 Tax=Triticinae 
+TaxID=1648030 RepID=M8C3B5_AEGTA
+Length=270
+
+ Score = 99.8 bits (247),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 53/94 (56%), Positives = 70/94 (74%), Gaps = 0/94 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGEL+ I +IDAAF+ AATAA  AP+ D+  VF++AF+KAIKETTGGA   YK +P+L
+Sbjct  157  IPAGELKAIGQIDAAFRTAATAADAAPSKDRSAVFDSAFDKAIKETTGGASGGYKYVPAL  216
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAM  94
+            E+AVK+AYAAT    P+++   +E A+   I AM
+Sbjct  217  ESAVKEAYAATNPQNPKIRLMTYETAMVDTIFAM  250
+
+
+> UniRef90_Q40962 Pollen allergen Phl p 5a (Fragment) n=10 Tax=Phleum 
+pratense TaxID=15957 RepID=MPA5A_PHLPR
+Length=286
+
+ Score = 99.8 bits (247),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 79/99 (80%), Positives = 88/99 (89%), Gaps = 0/99 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGELQ+I+K+DAAFKVAATAA  APA+DKFTVFEAAFN  IK +TGGAY++YK IP+L
+Sbjct  156  IPAGELQVIEKVDAAFKVAATAANAAPANDKFTVFEAAFNDEIKASTGGAYESYKFIPAL  215
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQK  99
+            EAAVKQAYAATVA AP+VKY VFE AL KAITAMSE QK
+Sbjct  216  EAAVKQAYAATVATAPEVKYTVFETALKKAITAMSEAQK  254
+
+
+> UniRef90_Q40240 Major pollen allergen Lol p 5a n=4 Tax=Loliinae 
+TaxID=640630 RepID=MPA5A_LOLPR
+Length=307
+
+ Score = 99.8 bits (247),  Expect = 6e-23, Method: Composition-based stats.
+ Identities = 82/102 (80%), Positives = 92/102 (90%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IP GELQI+DKIDAAFK+AATAA  AP +DKFTVFE+AFNKA+ E TGGAY+TYK IPSL
+Sbjct  166  IPTGELQIVDKIDAAFKIAATAANAAPTNDKFTVFESAFNKALNECTGGAYETYKFIPSL  225
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            EAAVKQAYAATVAAAP+VKYAVFEAALTKAITAM++ QK  +
+Sbjct  226  EAAVKQAYAATVAAAPEVKYAVFEAALTKAITAMTQAQKAGK  267
+
+
+ Score = 45.1 bits (105),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 37/97 (38%), Positives = 54/97 (56%), Gaps = 2/97 (2%)
+
+Query  5    ELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTG-GAYDTYKCIPSLEAA  63
+            E ++++ ++A FK A  AAA AP  DKF +FEAAF+++ K      A      IP L+ A
+Sbjct  56   EQKLLEDVNAGFKAAVAAAANAPPADKFKIFEAAFSESSKGLLATSAAKAPGLIPKLDTA  115
+
+Query  64   VKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+               AY A  A  P+ KY  F  ALT+A+  ++   +V
+Sbjct  116  YDVAYKAAEA-TPEAKYDAFVTALTEALRVIAGALEV  151
+
+
+> UniRef90_Q9AT26 Group V allergen Phl p 5 (Fragment) n=1 Tax=Phleum 
+pratense TaxID=15957 RepID=Q9AT26_PHLPR
+Length=275
+
+ Score = 97.1 bits (240),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 78/96 (81%), Positives = 86/96 (90%), Gaps = 0/96 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGELQ+I+K+DAAFKVAATAA  APA+DKFTVFEAAFN AIK  TGGAY++YK IP+L
+Sbjct  145  IPAGELQVIEKVDAAFKVAATAANAAPANDKFTVFEAAFNNAIKAGTGGAYESYKFIPAL  204
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSE  96
+            EAAVKQAYAATVA AP+VKY VFE AL KAITAMSE
+Sbjct  205  EAAVKQAYAATVATAPEVKYTVFETALKKAITAMSE  240
+
+
+> UniRef90_Q93WP9 Group 5 allergen n=3 Tax=Dactylis glomerata TaxID=4509 
+RepID=Q93WP9_DACGL
+Length=290
+
+ Score = 96.7 bits (239),  Expect = 6e-22, Method: Composition-based stats.
+ Identities = 86/100 (86%), Positives = 95/100 (95%), Gaps = 0/100 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGELQI+DKIDAA+K+AATAA  APA+DKFTVFE AFNKAIKE+TGGAY++YK IP+L
+Sbjct  160  IPAGELQIVDKIDAAYKIAATAANAAPANDKFTVFEGAFNKAIKESTGGAYESYKFIPTL  219
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+            EAAVKQAYAATVAAAP+VKYAVFEAALTKAITAMSE QKV
+Sbjct  220  EAAVKQAYAATVAAAPEVKYAVFEAALTKAITAMSEAQKV  259
+
+
+> UniRef90_I4IY75 Pollen allergen Ave s 5 (Isoallergen B) n=1 Tax=Avena 
+sativa TaxID=4498 RepID=I4IY75_AVESA
+Length=301
+
+ Score = 95.2 bits (235),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 72/92 (78%), Positives = 80/92 (87%), Gaps = 0/92 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGEL +IDKIDAAFK AAT A  APA+DKFTVFE AFNKAIK++TGG Y+TYK +P L
+Sbjct  171  IPAGELVVIDKIDAAFKAAATQANAAPANDKFTVFETAFNKAIKDSTGGTYETYKFVPGL  230
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAIT  92
+            EAAVKQAYAATVA+ P+VKYAVFE AL KAIT
+Sbjct  231  EAAVKQAYAATVASVPEVKYAVFETALKKAIT  262
+
+
+> UniRef90_I1HWS4 Uncharacterized protein n=4 Tax=Brachypodium 
+distachyon TaxID=15368 RepID=I1HWS4_BRADI
+Length=273
+
+ Score = 92.9 bits (229),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 80/100 (80%), Positives = 91/100 (91%), Gaps = 0/100 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            +PA EL+I+DKIDAAFK A+TAA  APA+DKF VFEA FNKA+KE+TGGAY++YK IPSL
+Sbjct  149  MPADELKIVDKIDAAFKTASTAANAAPANDKFNVFEATFNKALKESTGGAYESYKFIPSL  208
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+            EAAVKQAYAAT+AAAP+VKYAVFEAALTKAITAMSE QK 
+Sbjct  209  EAAVKQAYAATIAAAPEVKYAVFEAALTKAITAMSEAQKA  248
+
+
+> UniRef90_P22285 Pollen allergen KBG 41 n=3 Tax=Poinae TaxID=640628 
+RepID=MPA92_POAPR
+Length=333
+
+ Score = 90.5 bits (223),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 79/102 (77%), Positives = 89/102 (87%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGELQ+IDK+DAAFKVAATAA  APA+DKFTVFEAAFN AIK +TGGAY +YK IP+L
+Sbjct  184  IPAGELQVIDKVDAAFKVAATAANAAPANDKFTVFEAAFNDAIKASTGGAYQSYKFIPAL  243
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            EAAVKQ+YAATVA AP VKY VFE AL KAITAMS+ QK ++
+Sbjct  244  EAAVKQSYAATVATAPAVKYTVFETALKKAITAMSQAQKAAK  285
+
+
+> UniRef90_Q9FPR0 Pollen allergen Poa p 5 n=2 Tax=Poeae Chloroplast 
+Group 2 (Poeae type) TaxID=1652081 RepID=Q9FPR0_POAPR
+Length=303
+
+ Score = 89.0 bits (219),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 89/102 (87%), Positives = 97/102 (95%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGE QIIDKIDAAFKVAATAA  APA+DKFTVFEAAFN AIKE+TGGAYDTYK IPSL
+Sbjct  162  IPAGEQQIIDKIDAAFKVAATAANAAPANDKFTVFEAAFNNAIKESTGGAYDTYKSIPSL  221
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            EAAVKQAYAAT+AAAP+VK+AVF+AALTKAITAM+EVQKVS+
+Sbjct  222  EAAVKQAYAATIAAAPEVKFAVFKAALTKAITAMAEVQKVSK  263
+
+
+> UniRef90_Q40237 Major pollen allergen Lol p 5b n=1 Tax=Lolium 
+perenne TaxID=4522 RepID=MPA5B_LOLPR
+Length=339
+
+ Score = 89.0 bits (219),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 67/99 (68%), Positives = 79/99 (80%), Gaps = 0/99 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPA E+Q+IDK+DAA++ AATAA  APA+DKFTVFE  FN AIK + G AYD+YK IP+L
+Sbjct  185  IPAAEVQLIDKVDAAYRTAATAANAAPANDKFTVFENTFNNAIKVSLGAAYDSYKFIPTL  244
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQK  99
+             AAVKQAYAA  A AP+VKY V E AL KA+TAMSE +K
+Sbjct  245  VAAVKQAYAAKQATAPEVKYTVSETALKKAVTAMSEAEK  283
+
+
+> UniRef90_Q70JQ0 Putative group V allergen (Fragment) n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=Q70JQ0_WHEAT
+Length=119
+
+ Score = 82.5 bits (202),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 52/78 (67%), Positives = 63/78 (81%), Gaps = 0/78 (0%)
+
+Query  24   ATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEAAVKQAYAATVAAAPQVKYAVF  83
+              AP +DKFTVFE+AF+KAIKETTGGAY  YK +P+LE+AVK+AYAATVA AP+VK+ VF
+Sbjct  18   DAAPVNDKFTVFESAFDKAIKETTGGAYAGYKFVPALESAVKKAYAATVAEAPEVKFTVF  77
+
+Query  84   EAALTKAITAMSEVQKVS  101
+            EAALT+ I AM    K +
+Sbjct  78   EAALTRTIAAMCVAAKGA  95
+
+
+> UniRef90_P22284 Pollen allergen KBG 31 n=1 Tax=Poa pratensis 
+TaxID=4545 RepID=MPA91_POAPR
+Length=373
+
+ Score = 85.5 bits (210),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 77/95 (81%), Positives = 84/95 (88%), Gaps = 0/95 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGELQ+IDK+DAAFKVAATAA  APA+DKFTVFEAAFN AIK +TGGAY +YK IP+L
+Sbjct  243  IPAGELQVIDKVDAAFKVAATAANAAPANDKFTVFEAAFNDAIKASTGGAYQSYKFIPAL  302
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMS  95
+            EAAVKQ+YAATVA AP VKY VFE AL KAITAMS
+Sbjct  303  EAAVKQSYAATVATAPAVKYTVFETALKKAITAMS  337
+
+
+ Score = 50.1 bits (118),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 31/92 (34%), Positives = 51/92 (55%), Gaps = 1/92 (1%)
+
+Query  9   IDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEAAVKQAY  68
+           +DK + A+K A  AA+     +KF VF+A F+K +KE   G  D       L+A ++ +Y
+Sbjct  1   MDKANGAYKTALKAASAVAPAEKFPVFQATFDKNLKEGLSGP-DAVGFAKKLDAFIQTSY  59
+
+Query  69  AATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+            +T AA P+ K+ +F  +LT+ +  M+   K 
+Sbjct  60  LSTKAAEPKEKFDLFVLSLTEVLRFMAGAVKA  91
+
+
+> UniRef90_T1NSD5 Uncharacterized protein n=3 Tax=Triticum TaxID=4564 
+RepID=T1NSD5_TRIUA
+Length=262
+
+ Score = 83.2 bits (204),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 56/90 (62%), Positives = 68/90 (76%), Gaps = 0/90 (0%)
+
+Query  2    PAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLE  61
+            PAGEL+ ID+ID AF+ AATAA  APA+DK TVF++AF+KAIKET G AY  YK +P+LE
+Sbjct  151  PAGELKAIDQIDTAFRTAATAADAAPAEDKSTVFDSAFSKAIKETMGDAYKDYKFVPALE  210
+
+Query  62   AAVKQAYAATVAAAPQVKYAVFEAALTKAI  91
+            +AVK+ YAA V A P  K  VFE+AL   I
+Sbjct  211  SAVKKIYAALVPAKPTEKIFVFESALEDTI  240
+
+
+> UniRef90_A0A1D5ZCM1 Uncharacterized protein n=2 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5ZCM1_WHEAT
+Length=267
+
+ Score = 82.5 bits (202),  Expect = 7e-17, Method: Composition-based stats.
+ Identities = 51/81 (63%), Positives = 62/81 (77%), Gaps = 0/81 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGEL+ ID+ID AF+ AATAA  APA DK TVF++AF+KAIKET GGAY+ YK +P+L
+Sbjct  157  IPAGELKAIDQIDTAFRTAATAADAAPAKDKSTVFDSAFSKAIKETMGGAYEAYKFVPAL  216
+
+Query  61   EAAVKQAYAATVAAAPQVKYA  81
+            E+AVK+ YA  V   PQ K  
+Sbjct  217  ESAVKKTYAFFVPDRPQDKNM  237
+
+
+> UniRef90_M7YYH3 Major pollen allergen Lol p 5a n=1 Tax=Triticum 
+urartu TaxID=4572 RepID=M7YYH3_TRIUA
+Length=319
+
+ Score = 81.3 bits (199),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 33/83 (40%), Positives = 46/83 (55%), Gaps = 0/83 (0%)
+
+Query  3    AGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEA  62
+            AG  Q+I K+D   K+A+ AA  AP  D+  VF+AA NKAIK+  G  YD  K    L+A
+Sbjct  228  AGATQVIKKLDKVIKLASAAAKEAPKADRILVFQAALNKAIKDQMGPGYDGSKTTSDLDA  287
+
+Query  63   AVKQAYAATVAAAPQVKYAVFEA  85
+            A K+A  +   + P+ K     +
+Sbjct  288  AFKKAVDSAATSKPEAKDTDLYS  310
+
+
+ Score = 62.0 bits (149),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 37/92 (40%), Positives = 55/92 (60%), Gaps = 3/92 (3%)
+
+Query  5    ELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEAAV  64
+            E + I+K++ AFK A  AA  A  DDKF+VF+AAFN+ IK+   G   + K I  ++ A 
+Sbjct  115  EQKFIEKVNQAFKKALDAANAAAPDDKFSVFDAAFNREIKQCLAGM--SAKFIAMIDRAF  172
+
+Query  65   KQAYAATVAA-APQVKYAVFEAALTKAITAMS  95
+            K AY + VAA   Q K++     LT+A+  ++
+Sbjct  173  KIAYNSAVAATNAQEKFSCLVLTLTEALRFIA  204
+
+
+> UniRef90_M8CAP7 Uncharacterized protein n=3 Tax=Triticinae TaxID=1648030 
+RepID=M8CAP7_AEGTA
+Length=243
+
+ Score = 72.4 bits (176),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 40/62 (65%), Positives = 51/62 (82%), Gaps = 0/62 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGEL+ ID+ID AF+ AATAA TAPA D+ TVF++AF+KAIKET G AY  YK +P++
+Sbjct  157  IPAGELKAIDQIDTAFRTAATAADTAPAKDRSTVFDSAFSKAIKETMGDAYKDYKFVPAI  216
+
+Query  61   EA  62
+            E+
+Sbjct  217  ES  218
+
+
+> UniRef90_A0A1D6DKC5 Uncharacterized protein n=2 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D6DKC5_WHEAT
+Length=551
+
+ Score = 73.2 bits (178),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 38/96 (40%), Positives = 52/96 (54%), Gaps = 0/96 (0%)
+
+Query  4    GELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEAA  63
+            G  ++I K+D   K A+ AA  AP  D+  VF+AA NKAIKE  G  YD  K    L+AA
+Sbjct  302  GATRVIKKLDTVIKAASAAAKEAPKADRIPVFQAALNKAIKEQMGPGYDGSKTTSDLDAA  361
+
+Query  64   VKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQK  99
+             K+A  +   + P+ K      AL K+IT ++   K
+Sbjct  362  FKKAVESAATSKPEAKDTDVADALAKSITTIANATK  397
+
+
+ Score = 55.5 bits (132),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 37/94 (39%), Positives = 55/94 (59%), Gaps = 3/94 (3%)
+
+Query  3    AGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEA  62
+              E + I+K++ AFK A  AA  A  DDKF+VF+AAFN+ IK+   G   + K I  ++ 
+Sbjct  186  TPEQKFIEKVNQAFKKALDAANAAAPDDKFSVFDAAFNREIKQCLAGM--SAKFISMIDR  243
+
+Query  63   AVKQAYAATVAA-APQVKYAVFEAALTKAITAMS  95
+            A K AY + VAA   Q K++     LT+A+  ++
+Sbjct  244  AFKIAYNSAVAATNAQEKFSCLVLTLTEALRFIA  277
+
+
+> UniRef90_A0A1D6B297 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D6B297_WHEAT
+Length=422
+
+ Score = 67.4 bits (163),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 35/92 (38%), Positives = 55/92 (60%), Gaps = 3/92 (3%)
+
+Query  5    ELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEAAV  64
+            E + I+K++ A+K A  AA  A  +DKF+VF+A FNK IK+   G   + K +  ++ A 
+Sbjct  70   EQKFIEKMNQAYKKAVEAANVAEQEDKFSVFDATFNKEIKQCLAGM--SAKFMAMIDRAF  127
+
+Query  65   KQAY-AATVAAAPQVKYAVFEAALTKAITAMS  95
+            K AY +A  AA  + K+A+    LT+A+  +S
+Sbjct  128  KIAYNSAAGAATAKEKFAMLFLTLTEALRFIS  159
+
+
+ Score = 48.6 bits (114),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 38/97 (39%), Positives = 55/97 (57%), Gaps = 1/97 (1%)
+
+Query  3    AGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEA  62
+            +G  Q+I K+D   K A+ AA  AP  D+  VF+AA NK +KE  G AYD  + +  L+A
+Sbjct  183  SGATQVIKKLDTVIKAASAAAKEAPKADRILVFQAALNKFMKEQMGPAYDQ-QMMSDLDA  241
+
+Query  63   AVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQK  99
+             VK+A A++ A+  + K      AL K IT ++   K
+Sbjct  242  EVKKAAASSSASKTETKDTDVADALAKTITTIANATK  278
+
+
+> UniRef90_M8B8M2 Major pollen allergen Lol p 5b n=1 Tax=Aegilops 
+tauschii TaxID=37682 RepID=M8B8M2_AEGTA
+Length=219
+
+ Score = 64.7 bits (156),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 37/94 (39%), Positives = 55/94 (59%), Gaps = 3/94 (3%)
+
+Query  3    AGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEA  62
+              E + I+K++ AFK A  AA  A  DDKF+VF+AAFN+ IK+   G   + K I  ++ 
+Sbjct  20   TPEQKFIEKVNQAFKKALDAANAAAPDDKFSVFDAAFNREIKQCLAGM--SAKFISMIDR  77
+
+Query  63   AVKQAYAATVAA-APQVKYAVFEAALTKAITAMS  95
+            A K AY + VAA   Q K++     LT+A+  ++
+Sbjct  78   AFKIAYNSAVAATNAQEKFSCLVLTLTEALRFIA  111
+
+
+ Score = 58.6 bits (140),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 31/65 (48%), Positives = 39/65 (60%), Gaps = 0/65 (0%)
+
+Query  4    GELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEAA  63
+            G  Q+I K+D   K A+ AA  AP  D+  VF+AA NKAIKE  G  YD  K    L+AA
+Sbjct  136  GATQVIKKLDTIIKAASAAAKEAPKADRILVFQAALNKAIKEQMGPGYDGSKTTSDLDAA  195
+
+Query  64   VKQAY  68
+             K+A+
+Sbjct  196  FKKAH  200
+
+
+> UniRef90_A0A1D5X9S2 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5X9S2_WHEAT
+Length=205
+
+ Score = 58.2 bits (139),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 32/53 (60%), Positives = 41/53 (77%), Gaps = 0/53 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDT  53
+            IP GEL+ ID+IDAAF  AAT A  AP  D+ T+F++AF++AIKETTG AY+ 
+Sbjct  153  IPVGELKAIDQIDAAFSTAATTADAAPIKDRSTIFDSAFSEAIKETTGDAYEA  205
+
+
+> UniRef90_A0A0Q3GGL2 Uncharacterized protein n=2 Tax=Brachypodium 
+distachyon TaxID=15368 RepID=A0A0Q3GGL2_BRADI
+Length=67
+
+ Score = 49.3 bits (116),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 37/54 (69%), Positives = 44/54 (81%), Gaps = 0/54 (0%)
+
+Query  48   GGAYDTYKCIPSLEAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVS  101
+            G AY  YK IP L+AA K+AYA+TVAA P+VKYAVFEAALTKAI AM+E +K +
+Sbjct  8    GKAYTDYKFIPPLDAAFKEAYASTVAAKPEVKYAVFEAALTKAIGAMAEAEKAA  61
+
+
+> UniRef90_P43215 Pollen allergen Phl p 6 n=6 Tax=Phleum pratense 
+TaxID=15957 RepID=MPAP6_PHLPR
+Length=132
+
+ Score = 43.5 bits (101),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 29/97 (30%), Positives = 48/97 (49%), Gaps = 1/97 (1%)
+
+Query  5    ELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGA-YDTYKCIPSLEAA  63
+            E ++I+ ++A+F+ A    A  P  DK+  FEAAF  + K     A     + +P L+  
+Sbjct  29   EQKLIEDVNASFRAAMATTANVPPADKYKTFEAAFTVSSKRNLADAVSKAPQLVPKLDEV  88
+
+Query  64   VKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+               AY A   AAP+ KY  F    ++A+  ++   +V
+Sbjct  89   YNAAYNAADHAAPEDKYEAFVLHFSEALRIIAGTPEV  125
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.131    0.339    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0399    0.140     1.90     42.6     43.6 
+
+Effective search space used: 438012730055
+Results from round 3
+
+
+Query= d1l3pa_
+
+Length=102
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A1D5X8S6 Uncharacterized protein n=1 Tax=Triticum ae...  118     2e-31
+  UniRef90_A0A1D5X9N7 Uncharacterized protein n=1 Tax=Triticum ae...  118     1e-30
+  UniRef90_P56164 Major pollen allergen Pha a 5.1 n=1 Tax=Phalari...  119     3e-30
+  UniRef90_A0A1D6DLB9 Uncharacterized protein n=2 Tax=Triticum ae...  115     2e-28
+  UniRef90_A0A1D5Y8A1 Uncharacterized protein n=1 Tax=Triticum ae...  112     2e-27
+  UniRef90_O23972 Group V allergen (Fragment) n=1 Tax=Holcus lana...  110     3e-27
+  UniRef90_A0A1D5X8R3 Uncharacterized protein n=1 Tax=Triticum ae...  110     3e-27
+  UniRef90_A0A1D5X9H0 Uncharacterized protein n=1 Tax=Triticum ae...  109     7e-27
+  UniRef90_O23971 Group V grass pollen allergen (Fragment) n=1 Ta...  108     9e-27
+  UniRef90_A0A1D5Y9C7 Uncharacterized protein n=2 Tax=Triticinae ...  108     2e-26
+  UniRef90_P56165 Major pollen allergen Pha a 5.2 n=1 Tax=Phalari...  108     3e-26
+  UniRef90_M8A669 Pollen allergen Phl p 5a n=1 Tax=Triticum urart...  107     3e-26
+  UniRef90_F2EBN6 Predicted protein n=1 Tax=Hordeum vulgare subsp...  108     5e-26
+  UniRef90_M7Z6N3 Pollen allergen Phl p 5a n=1 Tax=Triticum urart...  106     2e-25
+  UniRef90_M0VDN4 Uncharacterized protein n=1 Tax=Hordeum vulgare...  104     9e-25
+  UniRef90_P56167 Major pollen allergen Pha a 5.4 (Fragment) n=1 ...  102     1e-24
+  UniRef90_A0A1D6AE19 Uncharacterized protein n=2 Tax=Triticum ae...  104     1e-24
+  UniRef90_A0A1D6DF85 Uncharacterized protein n=1 Tax=Triticum ae...  103     3e-24
+  UniRef90_A0A1D5XUL1 Uncharacterized protein n=1 Tax=Triticum ae...  102     3e-24
+  UniRef90_F4MJM3 Pollen allergen Sec c 5 n=1 Tax=Secale cereale ...  102     4e-24
+  UniRef90_A0A1D6DKC6 Uncharacterized protein n=1 Tax=Triticum ae...  101     5e-24
+  UniRef90_M7YEH0 Pollen allergen KBG 41 n=6 Tax=Triticeae TaxID=...  100     3e-23
+  UniRef90_Q40963 Pollen allergen Phl p 5b (Fragment) n=8 Tax=Poe...  99.0    1e-22
+  UniRef90_M0Z3U1 Uncharacterized protein n=3 Tax=Hordeum vulgare...  99.0    1e-22
+  UniRef90_P56166 Major pollen allergen Pha a 5.3 n=1 Tax=Phalari...  98.2    2e-22
+  UniRef90_M7ZET8 Pollen allergen KBG 41 n=3 Tax=Triticinae TaxID...  97.8    2e-22
+  UniRef90_Q40962 Pollen allergen Phl p 5a (Fragment) n=10 Tax=Ph...  97.1    4e-22
+  UniRef90_M8C3B5 Major pollen allergen Lol p 5b n=3 Tax=Triticin...  96.7    5e-22
+  UniRef90_Q40240 Major pollen allergen Lol p 5a n=4 Tax=Loliinae...  96.7    7e-22
+  UniRef90_O04828 Pollen allergen n=2 Tax=Hordeum vulgare TaxID=4...  96.7    8e-22
+  UniRef90_Q9AT26 Group V allergen Phl p 5 (Fragment) n=1 Tax=Phl...  94.7    3e-21
+  UniRef90_Q93WP9 Group 5 allergen n=3 Tax=Dactylis glomerata Tax...  93.6    1e-20
+  UniRef90_I4IY75 Pollen allergen Ave s 5 (Isoallergen B) n=1 Tax...  92.4    2e-20
+  UniRef90_I1HWS4 Uncharacterized protein n=4 Tax=Brachypodium di...  89.7    2e-19
+  UniRef90_P22285 Pollen allergen KBG 41 n=3 Tax=Poinae TaxID=640...  88.2    8e-19
+  UniRef90_Q9FPR0 Pollen allergen Poa p 5 n=2 Tax=Poeae Chloropla...  87.0    2e-18
+  UniRef90_Q40237 Major pollen allergen Lol p 5b n=1 Tax=Lolium p...  86.3    4e-18
+  UniRef90_Q70JQ0 Putative group V allergen (Fragment) n=1 Tax=Tr...  82.8    8e-18
+  UniRef90_T1NSD5 Uncharacterized protein n=3 Tax=Triticum TaxID=...  83.2    4e-17
+  UniRef90_A0A1D5ZCM1 Uncharacterized protein n=2 Tax=Triticum ae...  82.8    6e-17
+  UniRef90_P22284 Pollen allergen KBG 31 n=1 Tax=Poa pratensis Ta...  83.2    9e-17
+  UniRef90_M7YYH3 Major pollen allergen Lol p 5a n=1 Tax=Triticum...  80.5    5e-16
+  UniRef90_M8B8M2 Major pollen allergen Lol p 5b n=1 Tax=Aegilops...  75.1    3e-14
+  UniRef90_P43215 Pollen allergen Phl p 6 n=6 Tax=Phleum pratense...  70.5    4e-13
+  UniRef90_M8CAP7 Uncharacterized protein n=3 Tax=Triticinae TaxI...  71.6    4e-13
+  UniRef90_A0A1D6DKC5 Uncharacterized protein n=2 Tax=Triticum ae...  71.2    4e-12
+  UniRef90_A0A1D6B297 Uncharacterized protein n=1 Tax=Triticum ae...  68.9    2e-11
+  UniRef90_A0A1D5X9S2 Uncharacterized protein n=1 Tax=Triticum ae...  57.8    2e-08
+  UniRef90_A0A0Q3GGL2 Uncharacterized protein n=2 Tax=Brachypodiu...  48.5    2e-05
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_O65869 Phl p6 IgE binding (Fragment) n=1 Tax=Phleum pr...  69.3    8e-13
+  UniRef90_M8CLZ4 Pollen allergen KBG 41 n=1 Tax=Aegilops tauschi...  46.2    4e-04
+
+
+> UniRef90_A0A1D5X8S6 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5X8S6_WHEAT
+Length=142
+
+ Score = 118 bits (296),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 50/94 (53%), Positives = 67/94 (71%), Gaps = 0/94 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IP GEL+ ID+IDAAF  AAT A  AP  D+ TVF++AF+KAIKETTG AY+ YK +P+L
+Sbjct  25   IPTGELKAIDQIDAAFSTAATTADAAPIKDRSTVFDSAFSKAIKETTGDAYEAYKFVPAL  84
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAM  94
+            E+ VK++YA  +   PQ K  + E+ L+  I +M
+Sbjct  85   ESTVKKSYAIFLPRNPQDKRTLIESFLSDTIVSM  118
+
+
+> UniRef90_A0A1D5X9N7 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5X9N7_WHEAT
+Length=199
+
+ Score = 118 bits (295),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 50/94 (53%), Positives = 67/94 (71%), Gaps = 0/94 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGEL+ ID+IDAAF   AT A  AP  D+ TVF++AF+KAIKETTG AY+ YK +P+L
+Sbjct  87   IPAGELKAIDQIDAAFSTTATTADAAPIKDRSTVFDSAFSKAIKETTGDAYEAYKFVPAL  146
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAM  94
+            E+AVK++Y   +   PQ K  + E+ L+  I +M
+Sbjct  147  ESAVKKSYTTFLPRNPQDKRTLIESFLSDTIISM  180
+
+
+> UniRef90_P56164 Major pollen allergen Pha a 5.1 n=1 Tax=Phalaris 
+aquatica TaxID=28479 RepID=MPA51_PHAAQ
+Length=320
+
+ Score = 119 bits (299),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 83/101 (82%), Positives = 92/101 (91%), Gaps = 0/101 (0%)
+
+Query  2    PAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLE  61
+            P GELQI+DKIDAAFK+AATAA +APA+DKFTVFE AFNKAIKE+T GAY+TYK IPSLE
+Sbjct  154  PVGELQIVDKIDAAFKIAATAANSAPANDKFTVFEGAFNKAIKESTAGAYETYKFIPSLE  213
+
+Query  62   AAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            AAVKQAY ATVA AP+VKYAVFEA LTKAITAMSE QKV++
+Sbjct  214  AAVKQAYGATVARAPEVKYAVFEAGLTKAITAMSEAQKVAK  254
+
+
+ Score = 51.6 bits (122),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 27/95 (28%), Positives = 45/95 (47%), Gaps = 3/95 (3%)
+
+Query  7    QIIDKIDAAFKVAATAAATAPADDKFTVF-EAAFNKAIKETTGGAYDTYKCIPSLEAAVK  65
+            + ++ I+AA +    A  + P  DKF  F +        + T  A    +    L+AA +
+Sbjct  48   RSVEDINAASRRPWWA--SVPPADKFKTFADHVLCVPNADVTSAATKAPQLKAKLDAAYR  105
+
+Query  66   QAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+             AY A   + P+ KY  F AALT+A+  ++   +V
+Sbjct  106  VAYEAAEGSTPEAKYDAFIAALTEALRVIAGAFEV  140
+
+
+> UniRef90_A0A1D6DLB9 Uncharacterized protein n=2 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D6DLB9_WHEAT
+Length=384
+
+ Score = 115 bits (288),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 66/101 (65%), Positives = 83/101 (82%), Gaps = 0/101 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPA E+Q +++ID AF++AATAA  AP +DKFTVFE+AF+KAIKETTGGAY  YK +P+L
+Sbjct  193  IPAAEMQAVNQIDTAFRIAATAADAAPVNDKFTVFESAFDKAIKETTGGAYAGYKFVPAL  252
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVS  101
+            E+AVK+AYAATVA AP+VK+ VFEAALT+ I AM    K +
+Sbjct  253  ESAVKKAYAATVAEAPEVKFTVFEAALTRTIAAMCVAAKGA  293
+
+
+ Score = 45.1 bits (105),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 23/101 (23%), Positives = 44/101 (44%), Gaps = 3/101 (3%)
+
+Query  3    AGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDT---YKCIPS  59
+              E  ++++++ AFK A  AAA  P  DK+  F   +   +       +           
+Sbjct  79   TEEQNVMEQVNNAFKAAVAAAAVVPGPDKYKKFTDTYIPDVDRAIADVFKGSNASTFTAK  138
+
+Query  60   LEAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+            +  A K AY +   A P+ KY  F A L++++  ++   ++
+Sbjct  139  IGMAQKLAYDSADGATPEAKYDSFIAILSESLRIIAGTLEI  179
+
+
+> UniRef90_A0A1D5Y8A1 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5Y8A1_WHEAT
+Length=292
+
+ Score = 112 bits (279),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 65/101 (64%), Positives = 83/101 (82%), Gaps = 0/101 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IP  E++ +D+ID+AF++AATAA  AP +DKFTVFE+AF+KAIKETTGGAY  YK +P+L
+Sbjct  141  IPVAEMKAVDQIDSAFRIAATAADAAPVNDKFTVFESAFDKAIKETTGGAYAGYKFVPAL  200
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVS  101
+            E+AVK+AYAATVA AP+VK+ VFEAALT+ I AM    K +
+Sbjct  201  ESAVKKAYAATVAEAPEVKFTVFEAALTRTIAAMCVAAKGA  241
+
+
+ Score = 43.5 bits (101),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 23/101 (23%), Positives = 45/101 (45%), Gaps = 3/101 (3%)
+
+Query  3    AGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDT---YKCIPS  59
+              E  ++++++ AFK A  AAA  P  DK+  F   +   ++      +           
+Sbjct  27   TEEQNVMEQVNNAFKAAVAAAAVVPGPDKYKKFTDTYIPDVERAIADVFKGSNASTFTTK  86
+
+Query  60   LEAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+            +  A K AY +   A P+ KY  F A L++++  ++   ++
+Sbjct  87   IGMAQKLAYDSADGATPEAKYDSFIAILSESLRIIAGTLEI  127
+
+
+> UniRef90_O23972 Group V allergen (Fragment) n=1 Tax=Holcus lanatus 
+TaxID=29679 RepID=O23972_HOLLA
+Length=264
+
+ Score = 110 bits (276),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 80/102 (78%), Positives = 89/102 (87%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGELQI+DKIDAAF++AATAA  AP +DKFTVFE AFNKAIKE+TGGAY+ YK IPSL
+Sbjct  134  IPAGELQIVDKIDAAFRIAATAANAAPVNDKFTVFEGAFNKAIKESTGGAYEAYKFIPSL  193
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            E AVKQAYAATVA AP+VKY VFE AL KAITAMSE QK ++
+Sbjct  194  ETAVKQAYAATVATAPEVKYTVFETALKKAITAMSEAQKEAK  235
+
+
+> UniRef90_A0A1D5X8R3 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5X8R3_WHEAT
+Length=232
+
+ Score = 110 bits (274),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 52/94 (55%), Positives = 69/94 (73%), Gaps = 0/94 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGEL+ ID+IDAAF  AAT A  AP  D+ TVF++AF+KAIKETTG AY+ YK +P+L
+Sbjct  120  IPAGELKAIDQIDAAFSTAATTADAAPIKDRSTVFDSAFSKAIKETTGDAYEAYKFVPAL  179
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAM  94
+            E+AVK++YA  +   PQ K  + E+ L+  I +M
+Sbjct  180  ESAVKKSYATFLPGNPQDKRTLIESFLSDTIVSM  213
+
+
+> UniRef90_A0A1D5X9H0 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5X9H0_WHEAT
+Length=268
+
+ Score = 109 bits (273),  Expect = 7e-27, Method: Composition-based stats.
+ Identities = 49/90 (54%), Positives = 66/90 (73%), Gaps = 0/90 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGEL+ ID++DAAF  AAT A  AP  D+ TVF++AF+KAIKETTG AY+ YK +P+L
+Sbjct  153  IPAGELKAIDQMDAAFSTAATTADAAPIKDRSTVFDSAFSKAIKETTGDAYEAYKFVPAL  212
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKA  90
+            E+AVK++YA  +   PQ K  + E+ L+  
+Sbjct  213  ESAVKKSYAIFLPRNPQDKRTLIESFLSDT  242
+
+
+> UniRef90_O23971 Group V grass pollen allergen (Fragment) n=1 
+Tax=Holcus lanatus TaxID=29679 RepID=O23971_HOLLA
+Length=240
+
+ Score = 108 bits (271),  Expect = 9e-27, Method: Composition-based stats.
+ Identities = 83/102 (81%), Positives = 97/102 (95%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAG+LQ++DKIDA+FK+AATAA  APA+DKFTVFE AFNKA+KE+TGGAY++YK IPSL
+Sbjct  114  IPAGDLQVVDKIDASFKIAATAANAAPANDKFTVFETAFNKALKESTGGAYESYKFIPSL  173
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            EAAVKQAYA+TVAAAP+VKYAVFEAALTKAITAMS+ QKV+Q
+Sbjct  174  EAAVKQAYASTVAAAPEVKYAVFEAALTKAITAMSQAQKVAQ  215
+
+
+> UniRef90_A0A1D5Y9C7 Uncharacterized protein n=2 Tax=Triticinae 
+TaxID=1648030 RepID=A0A1D5Y9C7_WHEAT
+Length=268
+
+ Score = 108 bits (270),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 49/94 (52%), Positives = 66/94 (70%), Gaps = 0/94 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPA EL+ ID+ID AF  AATAA  AP  D  TVF++AF+KAIKETTGGAY+  K +P++
+Sbjct  153  IPASELKAIDQIDVAFSTAATAAEAAPKKDMSTVFDSAFSKAIKETTGGAYEGCKFVPAV  212
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAM  94
+            E+AVK++YA  +   P  K  + E+ L+  I +M
+Sbjct  213  ESAVKKSYATFLPRNPHDKRVLIESFLSDTIVSM  246
+
+
+> UniRef90_P56165 Major pollen allergen Pha a 5.2 n=1 Tax=Phalaris 
+aquatica TaxID=28479 RepID=MPA52_PHAAQ
+Length=305
+
+ Score = 108 bits (270),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 73/99 (74%), Positives = 85/99 (86%), Gaps = 0/99 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGE+++I+K+ AAF  AATAA  APA+DKFTVF ++FNKAIKETTGGAY  YK IP+L
+Sbjct  163  IPAGEVEVINKVKAAFSTAATAADEAPANDKFTVFVSSFNKAIKETTGGAYAGYKFIPTL  222
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQK  99
+            EAAVKQAYAA+ A AP+VKYAVFE AL KAI+AMSE QK
+Sbjct  223  EAAVKQAYAASSATAPEVKYAVFETALKKAISAMSEAQK  261
+
+
+> UniRef90_M8A669 Pollen allergen Phl p 5a n=1 Tax=Triticum urartu 
+TaxID=4572 RepID=M8A669_TRIUA
+Length=247
+
+ Score = 107 bits (268),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 67/101 (66%), Positives = 84/101 (83%), Gaps = 0/101 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPA E++ +D+IDAAF++AATAA  AP +DKFTVFE+AF+KAIKETTGGAY  YK +P+L
+Sbjct  53   IPAAEMKAVDQIDAAFRIAATAADAAPVNDKFTVFESAFDKAIKETTGGAYAGYKFVPAL  112
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVS  101
+            E+AVK+AYAATVA AP+VK+ VFEAALT+ I AM    K +
+Sbjct  113  ESAVKKAYAATVAEAPEVKFTVFEAALTRTIAAMCVAAKGA  153
+
+
+> UniRef90_F2EBN6 Predicted protein n=1 Tax=Hordeum vulgare subsp. 
+vulgare TaxID=112509 RepID=F2EBN6_HORVV
+Length=438
+
+ Score = 108 bits (271),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 59/91 (65%), Positives = 78/91 (86%), Gaps = 0/91 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGE++++ +ID AF++AATAA  AP +D+FTVFE+AF+KAIKETTGGAY  YK +P+L
+Sbjct  214  IPAGEMKVVGQIDTAFRIAATAADAAPVNDRFTVFESAFDKAIKETTGGAYAGYKFVPAL  273
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAI  91
+            E+ VK+AYAATVA  P+VK+ VFEAA+T+ I
+Sbjct  274  ESGVKKAYAATVAEVPEVKFLVFEAAITRTI  304
+
+
+ Score = 48.1 bits (113),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 31/110 (28%), Positives = 49/110 (45%), Gaps = 12/110 (11%)
+
+Query  3    AGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFN-----------KAIKETTGGAY  51
+              E +++++++ AFK A  AAA  P  DK+  FE  F            KA  E T  A 
+Sbjct  91   TDEQKLMEQVNNAFKAAVAAAAVVPGPDKYKKFEDTFTPEADRAFSDVLKAGNEGTVNAS  150
+
+Query  52   DT-YKCIPSLEAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+             +       +  A K AY A   A P+ KY  F A L++++  ++   + 
+Sbjct  151  SSVSSFTAKIGFAHKLAYEAAEGATPEAKYDAFIAILSESLRIIAGTLEA  200
+
+
+> UniRef90_M7Z6N3 Pollen allergen Phl p 5a n=1 Tax=Triticum urartu 
+TaxID=4572 RepID=M7Z6N3_TRIUA
+Length=282
+
+ Score = 106 bits (264),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 73/101 (72%), Positives = 89/101 (88%), Gaps = 0/101 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPA +L+ ID+IDAA++ AATAA  AP +DKFTVFE+AFNKAIKETTGGAYD YK +P+L
+Sbjct  172  IPAPQLKTIDQIDAAYRTAATAADAAPVNDKFTVFESAFNKAIKETTGGAYDNYKFVPAL  231
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVS  101
+            E+AVKQAYAATVA+AP+VKYAVF+AAL+KAI AM E +K +
+Sbjct  232  ESAVKQAYAATVASAPEVKYAVFQAALSKAINAMVEAEKDA  272
+
+
+> UniRef90_M0VDN4 Uncharacterized protein n=1 Tax=Hordeum vulgare 
+subsp. vulgare TaxID=112509 RepID=M0VDN4_HORVV
+Length=291
+
+ Score = 104 bits (259),  Expect = 9e-25, Method: Composition-based stats.
+ Identities = 52/94 (55%), Positives = 67/94 (71%), Gaps = 0/94 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGEL+ ID+I AAF+ AATAA   P  DK T+F++AF+KAIK+T  GAY  YK +P+L
+Sbjct  165  IPAGELKAIDQIAAAFRTAATAADAVPKKDKSTIFDSAFSKAIKDTMDGAYQGYKFVPAL  224
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAM  94
+            E+ VK+AY+  +   PQ K  VFEA L + I AM
+Sbjct  225  ESGVKEAYSLLLPQRPQNKLMVFEAVLRETILAM  258
+
+
+> UniRef90_P56167 Major pollen allergen Pha a 5.4 (Fragment) n=1 
+Tax=Phalaris aquatica TaxID=28479 RepID=MPA54_PHAAQ
+Length=175
+
+ Score = 102 bits (253),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 83/103 (81%), Positives = 92/103 (89%), Gaps = 1/103 (1%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGELQI+DKIDAAFK+AATAA +APA+DKFTVFE AFNKAIKE  GGAY+TYK IPSL
+Sbjct  38   IPAGELQIVDKIDAAFKIAATAANSAPANDKFTVFEGAFNKAIKERHGGAYETYKFIPSL  97
+
+Query  61   EAA-VKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            EA+  KQAY ATVA AP+VKYAVFEA LTKAITAMSE QKV++
+Sbjct  98   EASRSKQAYGATVARAPEVKYAVFEAGLTKAITAMSEAQKVAK  140
+
+
+> UniRef90_A0A1D6AE19 Uncharacterized protein n=2 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D6AE19_WHEAT
+Length=316
+
+ Score = 104 bits (259),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 73/101 (72%), Positives = 89/101 (88%), Gaps = 0/101 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPA +L+ ID+IDAA++ AATAA  AP +DKFTVFE+AFNKAIKETTGGAYD YK +P+L
+Sbjct  206  IPAPQLKTIDQIDAAYRTAATAADAAPVNDKFTVFESAFNKAIKETTGGAYDNYKFVPAL  265
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVS  101
+            E+AVKQAYAATVA+AP+VKYAVF+AAL+KAI AM E +K +
+Sbjct  266  ESAVKQAYAATVASAPEVKYAVFQAALSKAINAMVEAEKDT  306
+
+
+ Score = 43.9 bits (102),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 32/111 (29%), Positives = 49/111 (44%), Gaps = 13/111 (12%)
+
+Query  3    AGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDT---------  53
+              E ++++ I+  FK A  AAA  P  DK+  FEA F+ A  +                 
+Sbjct  83   TPEQKLMEDINNGFKAAVAAAAAVPPADKYKTFEATFSAASNKAFADVLKAAASGQMPAQ  142
+
+Query  54   ----YKCIPSLEAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+                     SLEA+ K AY     A P+ KY  + A+LT+++  +S   +V
+Sbjct  143  SASMASLSKSLEASYKLAYDKAQGATPETKYDTYVASLTESLRVISGAFEV  193
+
+
+> UniRef90_A0A1D6DF85 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D6DF85_WHEAT
+Length=286
+
+ Score = 103 bits (256),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 66/102 (65%), Positives = 86/102 (84%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            +PA +L+ ID+IDAA++ AATAA    AD KFT+FE+ FN+AIKE TGG YD YK +P+L
+Sbjct  170  VPAPQLKTIDQIDAAYRTAATAANAVSADKKFTIFESFFNRAIKENTGGKYDNYKFVPAL  229
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            E+AVKQAYAATVA+AP+VKYAVF+AAL+KAI+AM E +K ++
+Sbjct  230  ESAVKQAYAATVASAPEVKYAVFQAALSKAISAMVEAEKDAK  271
+
+
+> UniRef90_A0A1D5XUL1 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5XUL1_WHEAT
+Length=260
+
+ Score = 102 bits (255),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 50/94 (53%), Positives = 69/94 (73%), Gaps = 0/94 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGEL+ +D++DAAF  AAT A  AP  D+  VF++AF+KAIKETTG AY+ YK +P+L
+Sbjct  148  IPAGELKAMDQMDAAFCTAATTADAAPIKDRPAVFDSAFSKAIKETTGDAYEAYKFVPAL  207
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAM  94
+            E+A+K+ YA  +  +PQ K  +FEA L+  I +M
+Sbjct  208  ESAIKKTYAGFIPGSPQDKRTLFEATLSDTIVSM  241
+
+
+> UniRef90_F4MJM3 Pollen allergen Sec c 5 n=1 Tax=Secale cereale 
+TaxID=4550 RepID=F4MJM3_SECCE
+Length=292
+
+ Score = 102 bits (255),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 66/102 (65%), Positives = 88/102 (86%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            +PA +L+++D+IDAA++ AATAA  AP +DKF VFE++FNKAIKE TGGAY +Y  +P+L
+Sbjct  163  VPAPQLKVVDQIDAAYRTAATAANAAPTNDKFNVFESSFNKAIKENTGGAYASYTFVPAL  222
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            E+AVKQAYAATVA+AP+VKYAVF+AAL+KAI AM E +K ++
+Sbjct  223  ESAVKQAYAATVASAPEVKYAVFQAALSKAINAMVEAEKDAK  264
+
+
+ Score = 43.1 bits (100),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 28/111 (25%), Positives = 48/111 (43%), Gaps = 13/111 (12%)
+
+Query  3    AGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDT---------  53
+              E ++++ I+  FK A  AAA     DK+  F+  F K   +                 
+Sbjct  40   TPEQKLMENINNGFKAAVEAAAAVAPADKYKTFQTTFIKGSNKAFADVLTAAASGQIPAQ  99
+
+Query  54   ----YKCIPSLEAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+                 +   SLE++ K AY +   A P+ KY  + A+LT+++  +S   +V
+Sbjct  100  SDSMARLSTSLESSYKLAYDSAEGATPETKYDTYVASLTESLRVISGAFEV  150
+
+
+> UniRef90_A0A1D6DKC6 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D6DKC6_WHEAT
+Length=234
+
+ Score = 101 bits (252),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 71/102 (70%), Positives = 88/102 (86%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPA +L+ ID+IDAA++ AATAA  AP +DKFTVFE+ FNKAIKETTGGAYD Y  +P+L
+Sbjct  118  IPAPQLKTIDQIDAAYRSAATAADAAPVNDKFTVFESTFNKAIKETTGGAYDNYTFVPAL  177
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            E+AVKQAYAATVA+AP+VKYAVF+AAL+KAI AM E +K ++
+Sbjct  178  ESAVKQAYAATVASAPEVKYAVFQAALSKAINAMVEAEKDAK  219
+
+
+> UniRef90_M7YEH0 Pollen allergen KBG 41 n=6 Tax=Triticeae TaxID=147389 
+RepID=M7YEH0_TRIUA
+Length=295
+
+ Score = 100 bits (249),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 69/102 (68%), Positives = 89/102 (87%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            +P GEL+ ID++DAAF+ AATAA  AP +DKFTVFE++FNKAIKETTGG Y++YK IP+L
+Sbjct  170  VPTGELKAIDQVDAAFRSAATAADAAPVNDKFTVFESSFNKAIKETTGGTYESYKFIPAL  229
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            E AVKQAYAATVAAAP+VK+ VF+ AL+KAI AM++V+K ++
+Sbjct  230  EVAVKQAYAATVAAAPEVKFTVFQTALSKAINAMTQVEKDAK  271
+
+
+ Score = 45.1 bits (105),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 38/111 (34%), Positives = 52/111 (47%), Gaps = 13/111 (12%)
+
+Query  3    AGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAF----NKAIKETTGGAYDT-----  53
+              E ++++ I+  FK A  AAA  PA DK+  FEA F    NKA  E   GA        
+Sbjct  47   TPEQKLMEDINNGFKAAVAAAAGVPAADKYKTFEATFSAASNKAFAEVLKGAATGQYAAQ  106
+
+Query  54   ----YKCIPSLEAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+                 K   SLE + K AY     A P+ KY  + A LT+++  +S   +V
+Sbjct  107  SSSMAKLSSSLELSYKLAYDKAQGATPETKYDAYVATLTESLRVISGTLEV  157
+
+
+> UniRef90_Q40963 Pollen allergen Phl p 5b (Fragment) n=8 Tax=Poeae 
+TaxID=147387 RepID=MPA5B_PHLPR
+Length=284
+
+ Score = 99.0 bits (245),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 101/102 (99%), Positives = 102/102 (100%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKE+TGGAYDTYKCIPSL
+Sbjct  150  IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKESTGGAYDTYKCIPSL  209
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ
+Sbjct  210  EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  251
+
+
+ Score = 48.9 bits (115),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 36/96 (38%), Positives = 52/96 (54%), Gaps = 3/96 (3%)
+
+Query  5    ELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEAAV  64
+            E ++I+ I+  FK A  AAA+ PA DKF  FEAA       +   A      +P L+AA 
+Sbjct  43   EQKLIEDINVGFKAAVAAAASVPAADKFKTFEAA---FTSSSKAAAAKAPGLVPKLDAAY  99
+
+Query  65   KQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+              AY A V A P+ K+  F A+LT+A+  ++   +V
+Sbjct  100  SVAYKAAVGATPEAKFDSFVASLTEALRVIAGALEV  135
+
+
+> UniRef90_M0Z3U1 Uncharacterized protein n=3 Tax=Hordeum vulgare 
+subsp. vulgare TaxID=112509 RepID=M0Z3U1_HORVV
+Length=298
+
+ Score = 99.0 bits (245),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 75/102 (74%), Positives = 91/102 (89%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            +PAGEL+ ID++DAAF+ AATAA  APA+DKFTVFE+AFNKAIKETTGGAY++YK IP+L
+Sbjct  171  VPAGELKAIDQVDAAFRTAATAADAAPANDKFTVFESAFNKAIKETTGGAYESYKFIPAL  230
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            EAAVKQAYAATVAAAP+VK+ VF+ AL+KAI AM+E  KV+ 
+Sbjct  231  EAAVKQAYAATVAAAPEVKFTVFQTALSKAINAMTEAGKVAN  272
+
+
+> UniRef90_P56166 Major pollen allergen Pha a 5.3 n=1 Tax=Phalaris 
+aquatica TaxID=28479 RepID=MPA53_PHAAQ
+Length=294
+
+ Score = 98.2 bits (243),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 65/83 (78%), Positives = 72/83 (87%), Gaps = 0/83 (0%)
+
+Query  20   ATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEAAVKQAYAATVAAAPQVK  79
+            +TAA +APA+DKFTVFE AFNKAIKE  GG  +TYK IPSLEAAVKQAY ATVA AP+VK
+Sbjct  178  STAANSAPANDKFTVFEGAFNKAIKERHGGPTETYKFIPSLEAAVKQAYGATVARAPEVK  237
+
+Query  80   YAVFEAALTKAITAMSEVQKVSQ  102
+            YAVFEA LTKAITAMSE QKV++
+Sbjct  238  YAVFEAGLTKAITAMSEAQKVAK  260
+
+
+ Score = 49.3 bits (116),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 34/96 (35%), Positives = 47/96 (49%), Gaps = 11/96 (11%)
+
+Query  5    ELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEAAV  64
+            E ++I+ I+AAFK       +AP  DK+  FE AF+KA      GA         L+AA 
+Sbjct  51   EQKLIEDINAAFKWWPA---SAPPADKYKTFETAFSKA---NIAGAS-----TKGLDAAY  99
+
+Query  65   KQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+               Y     A P+ KY  F  ALT+A+  M+   +V
+Sbjct  100  SVVYNTAAGATPEAKYDSFVTALTEALRIMAGTLEV  135
+
+
+> UniRef90_M7ZET8 Pollen allergen KBG 41 n=3 Tax=Triticinae TaxID=1648030 
+RepID=M7ZET8_TRIUA
+Length=271
+
+ Score = 97.8 bits (242),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 53/91 (58%), Positives = 66/91 (73%), Gaps = 0/91 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPA EL+ ID+IDAAF+ AA AA  AP  DKF VF++AFNKAIKETTGGAY+ YK +P L
+Sbjct  156  IPAEELKAIDQIDAAFRTAAAAADAAPIKDKFAVFKSAFNKAIKETTGGAYEGYKFVPDL  215
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAI  91
+             +++K  Y  TV   P+ K   FE+AL+K I
+Sbjct  216  VSSIKNVYGITVPNTPKDKLLAFESALSKTI  246
+
+
+> UniRef90_Q40962 Pollen allergen Phl p 5a (Fragment) n=10 Tax=Phleum 
+pratense TaxID=15957 RepID=MPA5A_PHLPR
+Length=286
+
+ Score = 97.1 bits (240),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 79/99 (80%), Positives = 88/99 (89%), Gaps = 0/99 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGELQ+I+K+DAAFKVAATAA  APA+DKFTVFEAAFN  IK +TGGAY++YK IP+L
+Sbjct  156  IPAGELQVIEKVDAAFKVAATAANAAPANDKFTVFEAAFNDEIKASTGGAYESYKFIPAL  215
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQK  99
+            EAAVKQAYAATVA AP+VKY VFE AL KAITAMSE QK
+Sbjct  216  EAAVKQAYAATVATAPEVKYTVFETALKKAITAMSEAQK  254
+
+
+ Score = 46.6 bits (109),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 35/109 (32%), Positives = 50/109 (46%), Gaps = 12/109 (11%)
+
+Query  3    AGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIK---------ETTGGAYDT  53
+              E ++I+KI+A FK A   A   PA DK+  F A F  A           E  G A  +
+Sbjct  36   TEEQKLIEKINAGFKAALAGAGVQPA-DKYRTFVATFGPASNKAFAEGLSGEPKGAAESS  94
+
+Query  54   YK--CIPSLEAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+             K      L+AA K AY     A P+ KY  + A L++A+  ++   +V
+Sbjct  95   SKAALTSKLDAAYKLAYKTAEGATPEAKYDAYVATLSEALRIIAGTLEV  143
+
+
+> UniRef90_M8C3B5 Major pollen allergen Lol p 5b n=3 Tax=Triticinae 
+TaxID=1648030 RepID=M8C3B5_AEGTA
+Length=270
+
+ Score = 96.7 bits (239),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 53/94 (56%), Positives = 70/94 (74%), Gaps = 0/94 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGEL+ I +IDAAF+ AATAA  AP+ D+  VF++AF+KAIKETTGGA   YK +P+L
+Sbjct  157  IPAGELKAIGQIDAAFRTAATAADAAPSKDRSAVFDSAFDKAIKETTGGASGGYKYVPAL  216
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAM  94
+            E+AVK+AYAAT    P+++   +E A+   I AM
+Sbjct  217  ESAVKEAYAATNPQNPKIRLMTYETAMVDTIFAM  250
+
+
+> UniRef90_Q40240 Major pollen allergen Lol p 5a n=4 Tax=Loliinae 
+TaxID=640630 RepID=MPA5A_LOLPR
+Length=307
+
+ Score = 96.7 bits (239),  Expect = 7e-22, Method: Composition-based stats.
+ Identities = 82/102 (80%), Positives = 92/102 (90%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IP GELQI+DKIDAAFK+AATAA  AP +DKFTVFE+AFNKA+ E TGGAY+TYK IPSL
+Sbjct  166  IPTGELQIVDKIDAAFKIAATAANAAPTNDKFTVFESAFNKALNECTGGAYETYKFIPSL  225
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            EAAVKQAYAATVAAAP+VKYAVFEAALTKAITAM++ QK  +
+Sbjct  226  EAAVKQAYAATVAAAPEVKYAVFEAALTKAITAMTQAQKAGK  267
+
+
+ Score = 56.2 bits (134),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 37/99 (37%), Positives = 54/99 (55%), Gaps = 2/99 (2%)
+
+Query  3    AGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTG-GAYDTYKCIPSLE  61
+              E ++++ ++A FK A  AAA AP  DKF +FEAAF+++ K      A      IP L+
+Sbjct  54   TDEQKLLEDVNAGFKAAVAAAANAPPADKFKIFEAAFSESSKGLLATSAAKAPGLIPKLD  113
+
+Query  62   AAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+             A   AY A  A  P+ KY  F  ALT+A+  ++   +V
+Sbjct  114  TAYDVAYKAAEA-TPEAKYDAFVTALTEALRVIAGALEV  151
+
+
+> UniRef90_O04828 Pollen allergen n=2 Tax=Hordeum vulgare TaxID=4513 
+RepID=O04828_HORVU
+Length=313
+
+ Score = 96.7 bits (239),  Expect = 8e-22, Method: Composition-based stats.
+ Identities = 62/96 (65%), Positives = 80/96 (83%), Gaps = 0/96 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            +PAGEL+ ID++DAAF+ AATAA  APA+DKFTVFE+      ++  GGAY++YK IP+L
+Sbjct  188  VPAGELKAIDQVDAAFRTAATAADAAPANDKFTVFESLQQGPSRKPRGGAYESYKFIPAL  247
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSE  96
+            EAAVKQAYAATVAAAP+VK+ VF+ AL+KAI AM++
+Sbjct  248  EAAVKQAYAATVAAAPEVKFTVFQTALSKAINAMTQ  283
+
+
+> UniRef90_Q9AT26 Group V allergen Phl p 5 (Fragment) n=1 Tax=Phleum 
+pratense TaxID=15957 RepID=Q9AT26_PHLPR
+Length=275
+
+ Score = 94.7 bits (234),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 78/96 (81%), Positives = 86/96 (90%), Gaps = 0/96 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGELQ+I+K+DAAFKVAATAA  APA+DKFTVFEAAFN AIK  TGGAY++YK IP+L
+Sbjct  145  IPAGELQVIEKVDAAFKVAATAANAAPANDKFTVFEAAFNNAIKAGTGGAYESYKFIPAL  204
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSE  96
+            EAAVKQAYAATVA AP+VKY VFE AL KAITAMSE
+Sbjct  205  EAAVKQAYAATVATAPEVKYTVFETALKKAITAMSE  240
+
+
+> UniRef90_Q93WP9 Group 5 allergen n=3 Tax=Dactylis glomerata TaxID=4509 
+RepID=Q93WP9_DACGL
+Length=290
+
+ Score = 93.6 bits (231),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 86/100 (86%), Positives = 95/100 (95%), Gaps = 0/100 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGELQI+DKIDAA+K+AATAA  APA+DKFTVFE AFNKAIKE+TGGAY++YK IP+L
+Sbjct  160  IPAGELQIVDKIDAAYKIAATAANAAPANDKFTVFEGAFNKAIKESTGGAYESYKFIPTL  219
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+            EAAVKQAYAATVAAAP+VKYAVFEAALTKAITAMSE QKV
+Sbjct  220  EAAVKQAYAATVAAAPEVKYAVFEAALTKAITAMSEAQKV  259
+
+
+ Score = 48.1 bits (113),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 33/99 (33%), Positives = 47/99 (47%), Gaps = 1/99 (1%)
+
+Query  3    AGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFN-KAIKETTGGAYDTYKCIPSLE  61
+              E  +I+ ++A FK A  AA++AP  DKF  FEA F           A      +  L+
+Sbjct  47   TEEQTLIEDVNAGFKAAVAAASSAPPADKFKTFEATFTAACKANIAAAATKVPLFVAKLD  106
+
+Query  62   AAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+            AA   AY       P+ KY  F AALT+A+  ++   +V
+Sbjct  107  AAYAVAYKTATGPTPEAKYDAFVAALTEALRVIAGALEV  145
+
+
+> UniRef90_I4IY75 Pollen allergen Ave s 5 (Isoallergen B) n=1 Tax=Avena 
+sativa TaxID=4498 RepID=I4IY75_AVESA
+Length=301
+
+ Score = 92.4 bits (228),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 72/92 (78%), Positives = 80/92 (87%), Gaps = 0/92 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGEL +IDKIDAAFK AAT A  APA+DKFTVFE AFNKAIK++TGG Y+TYK +P L
+Sbjct  171  IPAGELVVIDKIDAAFKAAATQANAAPANDKFTVFETAFNKAIKDSTGGTYETYKFVPGL  230
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAIT  92
+            EAAVKQAYAATVA+ P+VKYAVFE AL KAIT
+Sbjct  231  EAAVKQAYAATVASVPEVKYAVFETALKKAIT  262
+
+
+> UniRef90_I1HWS4 Uncharacterized protein n=4 Tax=Brachypodium 
+distachyon TaxID=15368 RepID=I1HWS4_BRADI
+Length=273
+
+ Score = 89.7 bits (221),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 80/100 (80%), Positives = 91/100 (91%), Gaps = 0/100 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            +PA EL+I+DKIDAAFK A+TAA  APA+DKF VFEA FNKA+KE+TGGAY++YK IPSL
+Sbjct  149  MPADELKIVDKIDAAFKTASTAANAAPANDKFNVFEATFNKALKESTGGAYESYKFIPSL  208
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+            EAAVKQAYAAT+AAAP+VKYAVFEAALTKAITAMSE QK 
+Sbjct  209  EAAVKQAYAATIAAAPEVKYAVFEAALTKAITAMSEAQKA  248
+
+
+ Score = 49.7 bits (117),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 36/98 (37%), Positives = 49/98 (50%), Gaps = 6/98 (6%)
+
+Query  3    AGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEA  62
+              E ++I+ I+A FK A  AA  AP  DK+  FEAAF KA      G          L+ 
+Sbjct  40   TDEQKMIEDINAGFKTAVAAANAAPPADKYNTFEAAFKKASTGYKAGVS------AKLDT  93
+
+Query  63   AVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+            A + AY A   A P+ KY VF A LT+A+  ++   + 
+Sbjct  94   AYQAAYKAADGATPEAKYDVFVATLTEALRVVAGAVEA  131
+
+
+> UniRef90_P22285 Pollen allergen KBG 41 n=3 Tax=Poinae TaxID=640628 
+RepID=MPA92_POAPR
+Length=333
+
+ Score = 88.2 bits (217),  Expect = 8e-19, Method: Composition-based stats.
+ Identities = 79/102 (77%), Positives = 89/102 (87%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGELQ+IDK+DAAFKVAATAA  APA+DKFTVFEAAFN AIK +TGGAY +YK IP+L
+Sbjct  184  IPAGELQVIDKVDAAFKVAATAANAAPANDKFTVFEAAFNDAIKASTGGAYQSYKFIPAL  243
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            EAAVKQ+YAATVA AP VKY VFE AL KAITAMS+ QK ++
+Sbjct  244  EAAVKQSYAATVATAPAVKYTVFETALKKAITAMSQAQKAAK  285
+
+
+ Score = 45.8 bits (107),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 34/109 (31%), Positives = 50/109 (46%), Gaps = 11/109 (10%)
+
+Query  3    AGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKET-----------TGGAY  51
+              E ++I+KI+A FK A  AAA  PA DK+  F A F  A  +               A 
+Sbjct  63   TDEQKLIEKINAGFKAAVAAAAGVPAVDKYKTFVATFGTASNKAFAEALSTEPKGAAAAS  122
+
+Query  52   DTYKCIPSLEAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+                    L+AA K AY +   A P+ KY  + A L++A+  ++   +V
+Sbjct  123  SNAVLTSKLDAAYKLAYKSAEGATPEAKYDAYVATLSEALRIIAGTLEV  171
+
+
+> UniRef90_Q9FPR0 Pollen allergen Poa p 5 n=2 Tax=Poeae Chloroplast 
+Group 2 (Poeae type) TaxID=1652081 RepID=Q9FPR0_POAPR
+Length=303
+
+ Score = 87.0 bits (214),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 89/102 (87%), Positives = 97/102 (95%), Gaps = 0/102 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGE QIIDKIDAAFKVAATAA  APA+DKFTVFEAAFN AIKE+TGGAYDTYK IPSL
+Sbjct  162  IPAGEQQIIDKIDAAFKVAATAANAAPANDKFTVFEAAFNNAIKESTGGAYDTYKSIPSL  221
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVSQ  102
+            EAAVKQAYAAT+AAAP+VK+AVF+AALTKAITAM+EVQKVS+
+Sbjct  222  EAAVKQAYAATIAAAPEVKFAVFKAALTKAITAMAEVQKVSK  263
+
+
+ Score = 48.1 bits (113),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 34/101 (34%), Positives = 53/101 (52%), Gaps = 2/101 (2%)
+
+Query  2    PAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGG--AYDTYKCIPS  59
+            P  E ++++ I+  FK A  AAA AP  DKF  F+AAF+ +++ +     A      +  
+Sbjct  47   PTQEQKLMEDINVGFKAAVAAAAGAPPADKFKTFQAAFSASVEASAAKLNAAQAPGFVSH  106
+
+Query  60   LEAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+            + A     Y A V A P+ K+  F AA T+A+  ++ V KV
+Sbjct  107  VAATSDATYKAAVGATPEAKFDSFVAAFTEALRIIAGVLKV  147
+
+
+> UniRef90_Q40237 Major pollen allergen Lol p 5b n=1 Tax=Lolium 
+perenne TaxID=4522 RepID=MPA5B_LOLPR
+Length=339
+
+ Score = 86.3 bits (212),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 67/99 (68%), Positives = 79/99 (80%), Gaps = 0/99 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPA E+Q+IDK+DAA++ AATAA  APA+DKFTVFE  FN AIK + G AYD+YK IP+L
+Sbjct  185  IPAAEVQLIDKVDAAYRTAATAANAAPANDKFTVFENTFNNAIKVSLGAAYDSYKFIPTL  244
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQK  99
+             AAVKQAYAA  A AP+VKY V E AL KA+TAMSE +K
+Sbjct  245  VAAVKQAYAAKQATAPEVKYTVSETALKKAVTAMSEAEK  283
+
+
+ Score = 48.9 bits (115),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 37/105 (35%), Positives = 52/105 (50%), Gaps = 7/105 (7%)
+
+Query  3    AGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAF----NKAIKETTGGAYDTY---K  55
+              E ++I+KI+A FK A  AAA  P  DK+  F   F    NKA  E     Y      +
+Sbjct  66   TEEQKLIEKINAGFKAAVAAAAVVPPADKYKTFVETFGTATNKAFVEGLASGYADQSKNQ  125
+
+Query  56   CIPSLEAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+                L+AA+K AY A   A P+ KY  + A LT+A+  ++   +V
+Sbjct  126  LTSKLDAALKLAYEAAQGATPEAKYDAYVATLTEALRVIAGTLEV  170
+
+
+> UniRef90_Q70JQ0 Putative group V allergen (Fragment) n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=Q70JQ0_WHEAT
+Length=119
+
+ Score = 82.8 bits (203),  Expect = 8e-18, Method: Composition-based stats.
+ Identities = 52/78 (67%), Positives = 63/78 (81%), Gaps = 0/78 (0%)
+
+Query  24   ATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEAAVKQAYAATVAAAPQVKYAVF  83
+              AP +DKFTVFE+AF+KAIKETTGGAY  YK +P+LE+AVK+AYAATVA AP+VK+ VF
+Sbjct  18   DAAPVNDKFTVFESAFDKAIKETTGGAYAGYKFVPALESAVKKAYAATVAEAPEVKFTVF  77
+
+Query  84   EAALTKAITAMSEVQKVS  101
+            EAALT+ I AM    K +
+Sbjct  78   EAALTRTIAAMCVAAKGA  95
+
+
+> UniRef90_T1NSD5 Uncharacterized protein n=3 Tax=Triticum TaxID=4564 
+RepID=T1NSD5_TRIUA
+Length=262
+
+ Score = 83.2 bits (204),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 56/90 (62%), Positives = 68/90 (76%), Gaps = 0/90 (0%)
+
+Query  2    PAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLE  61
+            PAGEL+ ID+ID AF+ AATAA  APA+DK TVF++AF+KAIKET G AY  YK +P+LE
+Sbjct  151  PAGELKAIDQIDTAFRTAATAADAAPAEDKSTVFDSAFSKAIKETMGDAYKDYKFVPALE  210
+
+Query  62   AAVKQAYAATVAAAPQVKYAVFEAALTKAI  91
+            +AVK+ YAA V A P  K  VFE+AL   I
+Sbjct  211  SAVKKIYAALVPAKPTEKIFVFESALEDTI  240
+
+
+> UniRef90_A0A1D5ZCM1 Uncharacterized protein n=2 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5ZCM1_WHEAT
+Length=267
+
+ Score = 82.8 bits (203),  Expect = 6e-17, Method: Composition-based stats.
+ Identities = 51/81 (63%), Positives = 62/81 (77%), Gaps = 0/81 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGEL+ ID+ID AF+ AATAA  APA DK TVF++AF+KAIKET GGAY+ YK +P+L
+Sbjct  157  IPAGELKAIDQIDTAFRTAATAADAAPAKDKSTVFDSAFSKAIKETMGGAYEAYKFVPAL  216
+
+Query  61   EAAVKQAYAATVAAAPQVKYA  81
+            E+AVK+ YA  V   PQ K  
+Sbjct  217  ESAVKKTYAFFVPDRPQDKNM  237
+
+
+> UniRef90_P22284 Pollen allergen KBG 31 n=1 Tax=Poa pratensis 
+TaxID=4545 RepID=MPA91_POAPR
+Length=373
+
+ Score = 83.2 bits (204),  Expect = 9e-17, Method: Composition-based stats.
+ Identities = 77/95 (81%), Positives = 84/95 (88%), Gaps = 0/95 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGELQ+IDK+DAAFKVAATAA  APA+DKFTVFEAAFN AIK +TGGAY +YK IP+L
+Sbjct  243  IPAGELQVIDKVDAAFKVAATAANAAPANDKFTVFEAAFNDAIKASTGGAYQSYKFIPAL  302
+
+Query  61   EAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMS  95
+            EAAVKQ+YAATVA AP VKY VFE AL KAITAMS
+Sbjct  303  EAAVKQSYAATVATAPAVKYTVFETALKKAITAMS  337
+
+
+ Score = 55.1 bits (131),  Expect = 9e-07, Method: Composition-based stats.
+ Identities = 31/92 (34%), Positives = 51/92 (55%), Gaps = 1/92 (1%)
+
+Query  9   IDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEAAVKQAY  68
+           +DK + A+K A  AA+     +KF VF+A F+K +KE   G  D       L+A ++ +Y
+Sbjct  1   MDKANGAYKTALKAASAVAPAEKFPVFQATFDKNLKEGLSGP-DAVGFAKKLDAFIQTSY  59
+
+Query  69  AATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+            +T AA P+ K+ +F  +LT+ +  M+   K 
+Sbjct  60  LSTKAAEPKEKFDLFVLSLTEVLRFMAGAVKA  91
+
+
+ Score = 43.5 bits (101),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 35/109 (32%), Positives = 51/109 (47%), Gaps = 11/109 (10%)
+
+Query  3    AGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIK---------ETTGGAYDT  53
+              E ++I+KI+  FK A  AAA  PA  K+  F A F  A           E  G A  +
+Sbjct  122  TDEQKLIEKINVGFKAAVAAAAGVPAASKYKTFVATFGAASNKAFAEALSTEPKGAAVAS  181
+
+Query  54   YK--CIPSLEAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+             K      L+AA K AY +   A P+ KY  + A L++A+  ++   +V
+Sbjct  182  SKAVLTSKLDAAYKLAYKSAEGATPEAKYDAYVATLSEALRIIAGTLEV  230
+
+
+> UniRef90_M7YYH3 Major pollen allergen Lol p 5a n=1 Tax=Triticum 
+urartu TaxID=4572 RepID=M7YYH3_TRIUA
+Length=319
+
+ Score = 80.5 bits (197),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 33/83 (40%), Positives = 46/83 (55%), Gaps = 0/83 (0%)
+
+Query  3    AGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEA  62
+            AG  Q+I K+D   K+A+ AA  AP  D+  VF+AA NKAIK+  G  YD  K    L+A
+Sbjct  228  AGATQVIKKLDKVIKLASAAAKEAPKADRILVFQAALNKAIKDQMGPGYDGSKTTSDLDA  287
+
+Query  63   AVKQAYAATVAAAPQVKYAVFEA  85
+            A K+A  +   + P+ K     +
+Sbjct  288  AFKKAVDSAATSKPEAKDTDLYS  310
+
+
+ Score = 71.2 bits (173),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 37/94 (39%), Positives = 55/94 (59%), Gaps = 3/94 (3%)
+
+Query  5    ELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEAAV  64
+            E + I+K++ AFK A  AA  A  DDKF+VF+AAFN+ IK+   G   + K I  ++ A 
+Sbjct  115  EQKFIEKVNQAFKKALDAANAAAPDDKFSVFDAAFNREIKQCLAGM--SAKFIAMIDRAF  172
+
+Query  65   KQAYAATVAA-APQVKYAVFEAALTKAITAMSEV  97
+            K AY + VAA   Q K++     LT+A+  ++  
+Sbjct  173  KIAYNSAVAATNAQEKFSCLVLTLTEALRFIAAT  206
+
+
+> UniRef90_M8B8M2 Major pollen allergen Lol p 5b n=1 Tax=Aegilops 
+tauschii TaxID=37682 RepID=M8B8M2_AEGTA
+Length=219
+
+ Score = 75.1 bits (183),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 37/96 (39%), Positives = 55/96 (57%), Gaps = 3/96 (3%)
+
+Query  3    AGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEA  62
+              E + I+K++ AFK A  AA  A  DDKF+VF+AAFN+ IK+   G   + K I  ++ 
+Sbjct  20   TPEQKFIEKVNQAFKKALDAANAAAPDDKFSVFDAAFNREIKQCLAGM--SAKFISMIDR  77
+
+Query  63   AVKQAYAATVAA-APQVKYAVFEAALTKAITAMSEV  97
+            A K AY + VAA   Q K++     LT+A+  ++  
+Sbjct  78   AFKIAYNSAVAATNAQEKFSCLVLTLTEALRFIAAT  113
+
+
+ Score = 55.8 bits (133),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 31/65 (48%), Positives = 39/65 (60%), Gaps = 0/65 (0%)
+
+Query  4    GELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEAA  63
+            G  Q+I K+D   K A+ AA  AP  D+  VF+AA NKAIKE  G  YD  K    L+AA
+Sbjct  136  GATQVIKKLDTIIKAASAAAKEAPKADRILVFQAALNKAIKEQMGPGYDGSKTTSDLDAA  195
+
+Query  64   VKQAY  68
+             K+A+
+Sbjct  196  FKKAH  200
+
+
+> UniRef90_P43215 Pollen allergen Phl p 6 n=6 Tax=Phleum pratense 
+TaxID=15957 RepID=MPAP6_PHLPR
+Length=132
+
+ Score = 70.5 bits (171),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 29/99 (29%), Positives = 48/99 (48%), Gaps = 1/99 (1%)
+
+Query  3    AGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGA-YDTYKCIPSLE  61
+              E ++I+ ++A+F+ A    A  P  DK+  FEAAF  + K     A     + +P L+
+Sbjct  27   TEEQKLIEDVNASFRAAMATTANVPPADKYKTFEAAFTVSSKRNLADAVSKAPQLVPKLD  86
+
+Query  62   AAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+                 AY A   AAP+ KY  F    ++A+  ++   +V
+Sbjct  87   EVYNAAYNAADHAAPEDKYEAFVLHFSEALRIIAGTPEV  125
+
+
+> UniRef90_M8CAP7 Uncharacterized protein n=3 Tax=Triticinae TaxID=1648030 
+RepID=M8CAP7_AEGTA
+Length=243
+
+ Score = 71.6 bits (174),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 40/62 (65%), Positives = 51/62 (82%), Gaps = 0/62 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSL  60
+            IPAGEL+ ID+ID AF+ AATAA TAPA D+ TVF++AF+KAIKET G AY  YK +P++
+Sbjct  157  IPAGELKAIDQIDTAFRTAATAADTAPAKDRSTVFDSAFSKAIKETMGDAYKDYKFVPAI  216
+
+Query  61   EA  62
+            E+
+Sbjct  217  ES  218
+
+
+> UniRef90_O65869 Phl p6 IgE binding (Fragment) n=1 Tax=Phleum 
+pratense TaxID=15957 RepID=O65869_PHLPR
+Length=106
+
+ Score = 69.3 bits (168),  Expect = 8e-13, Method: Composition-based stats.
+ Identities = 28/99 (28%), Positives = 47/99 (47%), Gaps = 1/99 (1%)
+
+Query  3   AGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGA-YDTYKCIPSLE  61
+             E ++I+ ++A+F+ A    A  P  DK+   EAAF  + K     A     + +P L+
+Sbjct  1   TEEQKLIEDVNASFRAAMATTANVPPADKYKTLEAAFTVSSKRNLADAVSKAPQLVPKLD  60
+
+Query  62  AAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+                AY A   AAP+ KY  F    ++A+  ++   +V
+Sbjct  61  EVYNAAYNAADHAAPEDKYEAFVLHFSEALRIIAGTPEV  99
+
+
+> UniRef90_A0A1D6DKC5 Uncharacterized protein n=2 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D6DKC5_WHEAT
+Length=551
+
+ Score = 71.2 bits (173),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 38/97 (39%), Positives = 52/97 (54%), Gaps = 0/97 (0%)
+
+Query  4    GELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEAA  63
+            G  ++I K+D   K A+ AA  AP  D+  VF+AA NKAIKE  G  YD  K    L+AA
+Sbjct  302  GATRVIKKLDTVIKAASAAAKEAPKADRIPVFQAALNKAIKEQMGPGYDGSKTTSDLDAA  361
+
+Query  64   VKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+             K+A  +   + P+ K      AL K+IT ++   K 
+Sbjct  362  FKKAVESAATSKPEAKDTDVADALAKSITTIANATKD  398
+
+
+ Score = 63.9 bits (154),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 37/96 (39%), Positives = 55/96 (57%), Gaps = 3/96 (3%)
+
+Query  3    AGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEA  62
+              E + I+K++ AFK A  AA  A  DDKF+VF+AAFN+ IK+   G   + K I  ++ 
+Sbjct  186  TPEQKFIEKVNQAFKKALDAANAAAPDDKFSVFDAAFNREIKQCLAGM--SAKFISMIDR  243
+
+Query  63   AVKQAYAATVAA-APQVKYAVFEAALTKAITAMSEV  97
+            A K AY + VAA   Q K++     LT+A+  ++  
+Sbjct  244  AFKIAYNSAVAATNAQEKFSCLVLTLTEALRFIAAT  279
+
+
+> UniRef90_A0A1D6B297 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D6B297_WHEAT
+Length=422
+
+ Score = 68.9 bits (167),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 35/94 (37%), Positives = 54/94 (57%), Gaps = 3/94 (3%)
+
+Query  5    ELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEAAV  64
+            E + I+K++ A+K A  AA  A  +DKF+VF+A FNK IK+   G   + K +  ++ A 
+Sbjct  70   EQKFIEKMNQAYKKAVEAANVAEQEDKFSVFDATFNKEIKQCLAGM--SAKFMAMIDRAF  127
+
+Query  65   KQAYA-ATVAAAPQVKYAVFEAALTKAITAMSEV  97
+            K AY  A  AA  + K+A+    LT+A+  +S  
+Sbjct  128  KIAYNSAAGAATAKEKFAMLFLTLTEALRFISAT  161
+
+
+ Score = 47.7 bits (112),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 38/98 (39%), Positives = 55/98 (56%), Gaps = 1/98 (1%)
+
+Query  3    AGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDTYKCIPSLEA  62
+            +G  Q+I K+D   K A+ AA  AP  D+  VF+AA NK +KE  G AYD  + +  L+A
+Sbjct  183  SGATQVIKKLDTVIKAASAAAKEAPKADRILVFQAALNKFMKEQMGPAYDQ-QMMSDLDA  241
+
+Query  63   AVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+             VK+A A++ A+  + K      AL K IT ++   K 
+Sbjct  242  EVKKAAASSSASKTETKDTDVADALAKTITTIANATKD  279
+
+
+> UniRef90_A0A1D5X9S2 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5X9S2_WHEAT
+Length=205
+
+ Score = 57.8 bits (138),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 32/53 (60%), Positives = 41/53 (77%), Gaps = 0/53 (0%)
+
+Query  1    IPAGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAFNKAIKETTGGAYDT  53
+            IP GEL+ ID+IDAAF  AAT A  AP  D+ T+F++AF++AIKETTG AY+ 
+Sbjct  153  IPVGELKAIDQIDAAFSTAATTADAAPIKDRSTIFDSAFSEAIKETTGDAYEA  205
+
+
+> UniRef90_A0A0Q3GGL2 Uncharacterized protein n=2 Tax=Brachypodium 
+distachyon TaxID=15368 RepID=A0A0Q3GGL2_BRADI
+Length=67
+
+ Score = 48.5 bits (114),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 37/54 (69%), Positives = 44/54 (81%), Gaps = 0/54 (0%)
+
+Query  48   GGAYDTYKCIPSLEAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKVS  101
+            G AY  YK IP L+AA K+AYA+TVAA P+VKYAVFEAALTKAI AM+E +K +
+Sbjct  8    GKAYTDYKFIPPLDAAFKEAYASTVAAKPEVKYAVFEAALTKAIGAMAEAEKAA  61
+
+
+> UniRef90_M8CLZ4 Pollen allergen KBG 41 n=1 Tax=Aegilops tauschii 
+TaxID=37682 RepID=M8CLZ4_AEGTA
+Length=183
+
+ Score = 46.2 bits (108),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 38/111 (34%), Positives = 52/111 (47%), Gaps = 13/111 (12%)
+
+Query  3    AGELQIIDKIDAAFKVAATAAATAPADDKFTVFEAAF----NKAIKETTGGAYDT-----  53
+              E ++++ I+  FK A  AAA  PA DK+  FEA F    NKA  E   GA        
+Sbjct  47   TPEQKLMEDINNGFKAAVAAAAGVPAADKYKTFEATFSAASNKAFAEVLKGAATGQYAAQ  106
+
+Query  54   ----YKCIPSLEAAVKQAYAATVAAAPQVKYAVFEAALTKAITAMSEVQKV  100
+                 K   SLE + K AY     A P+ KY  + A LT+++  +S   +V
+Sbjct  107  SSSMAKLSSSLELSYKLAYDKAQGATPETKYDAYVATLTESLRVISGTLEV  157
+
+
+
+Lambda      K        H        a         alpha
+   0.304    0.134    0.350    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0411    0.140     1.90     42.6     43.6 
+
+Effective search space used: 438012730055
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

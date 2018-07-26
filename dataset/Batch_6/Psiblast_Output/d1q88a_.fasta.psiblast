@@ -1,0 +1,1565 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1q88a_
+
+Length=189
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q95VR4 39 kDa initiator binding protein n=1 Tax=Tricho...  391     3e-134
+  UniRef90_A0A1J4K5T6 39 kDa initiator binding protein n=1 Tax=Tr...  144     3e-38 
+  UniRef90_A2FY83 39 kDa initiator binding protein, putative n=1 ...  128     3e-32 
+  UniRef90_A0A1J4KYJ7 39 kDa initiator binding protein n=1 Tax=Tr...  124     9e-31 
+  UniRef90_A0A1J4K7G4 39 kDa initiator binding protein n=1 Tax=Tr...  125     2e-30 
+  UniRef90_A0A1J4KV83 39 kDa initiator binding protein n=1 Tax=Tr...  120     2e-29 
+  UniRef90_A2DI90 39 kDa initiator binding protein, putative n=1 ...  107     2e-24 
+  UniRef90_A0A1J4JX46 39 kDa initiator binding protein n=1 Tax=Tr...  100     4e-22 
+  UniRef90_A0A1J4KII9 39 kDa initiator binding protein n=1 Tax=Tr...  85.9    8e-17 
+  UniRef90_A2E3Z9 39 kDa initiator binding protein, putative n=1 ...  77.4    7e-14 
+  UniRef90_A0A1J4JLV4 Uncharacterized protein n=1 Tax=Tritrichomo...  77.0    3e-13 
+  UniRef90_A0A1J4K053 Uncharacterized protein n=1 Tax=Tritrichomo...  73.2    5e-12 
+  UniRef90_A0A1J4JJ54 Uncharacterized protein n=1 Tax=Tritrichomo...  60.8    7e-08 
+  UniRef90_A2EAY0 Uncharacterized protein n=1 Tax=Trichomonas vag...  55.5    3e-06 
+  UniRef90_A0A1J4JV85 Uncharacterized protein n=1 Tax=Tritrichomo...  52.8    3e-05 
+  UniRef90_A0A1J4JM68 Uncharacterized protein n=1 Tax=Tritrichomo...  52.0    6e-05 
+  UniRef90_A2FZT1 Uncharacterized protein n=1 Tax=Trichomonas vag...  50.1    2e-04 
+  UniRef90_A2FK14 Uncharacterized protein n=1 Tax=Trichomonas vag...  49.7    3e-04 
+  UniRef90_A0A1J4JY24 Uncharacterized protein n=1 Tax=Tritrichomo...  45.8    0.008 
+
+
+> UniRef90_Q95VR4 39 kDa initiator binding protein n=1 Tax=Trichomonas 
+vaginalis TaxID=5722 RepID=Q95VR4_TRIVA
+Length=341
+
+ Score = 391 bits (1005),  Expect = 3e-134, Method: Compositional matrix adjust.
+ Identities = 189/192 (98%), Positives = 189/192 (98%), Gaps = 3/192 (2%)
+
+Query  1    MCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVI  60
+            MCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVI
+Sbjct  148  MCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVI  207
+
+Query  61   SAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANN  120
+            SAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANN
+Sbjct  208  SAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANN  267
+
+Query  121  QRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEMKP  180
+            QRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEMKP
+Sbjct  268  QRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEMKP  327
+
+Query  181  I---LTAYPTFA  189
+            I   LTAYPTFA
+Sbjct  328  IETYLTAYPTFA  339
+
+
+> UniRef90_A0A1J4K5T6 39 kDa initiator binding protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4K5T6_9EUKA
+Length=322
+
+ Score = 144 bits (364),  Expect = 3e-38, Method: Compositional matrix adjust.
+ Identities = 79/172 (46%), Positives = 100/172 (58%), Gaps = 8/172 (5%)
+
+Query  12   ETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVISAIMAPQ--EE  69
+            + F A   +IW  LTQ  D  V     I+KAA+ FKQ EQP  NA +V+ AI+AP    +
+Sbjct  144  DNFCAICQKIWSDLTQLDDQPVNTSLFIQKAAQRFKQVEQPLDNARDVLKAIIAPSSSHQ  203
+
+Query  70   QTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANNQRDSISGWF  129
+                 +   KF+AMFGP ETIMLKIASLL  SNN G WL F+P        Q   + G F
+Sbjct  204  DVIHYSQFAKFMAMFGPEETIMLKIASLLGCSNNTGQWLAFEPVG------QNIPLCGTF  257
+
+Query  130  DQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEMKPI  181
+            D+NEPN L+L+  + +  IWN PL  A+  Y++DE  + Y SWD YF   PI
+Sbjct  258  DENEPNRLVLRNRSTVTCIWNAPLAPASQNYVIDEYNKVYPSWDDYFRNNPI  309
+
+
+> UniRef90_A2FY83 39 kDa initiator binding protein, putative n=1 
+Tax=Trichomonas vaginalis TaxID=5722 RepID=A2FY83_TRIVA
+Length=327
+
+ Score = 128 bits (322),  Expect = 3e-32, Method: Compositional matrix adjust.
+ Identities = 72/178 (40%), Positives = 110/178 (62%), Gaps = 7/178 (4%)
+
+Query  1    MCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVI  60
+            + IG+ +  E   F+  V   +  +TQ  +  +  +  I+ AA YFKQPEQ  +NAI+VI
+Sbjct  152  LKIGHVSAQEDLNFQEIVKSDFLEITQ-NEIDMPAEMFIKNAANYFKQPEQTLENAIDVI  210
+
+Query  61   SAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANN  120
+            + I+ PQE    +  DL++FLAMFGP  T+M+KI SLL  +N    WL  DP A+K  + 
+Sbjct  211  TPILRPQE-NIVTYDDLFRFLAMFGPKNTVMIKIVSLLRSNNEDTSWLYLDP-AQKPLDK  268
+
+Query  121  QRDSISGWFDQNEPNCLILKTPTG-IRKIWNKPLIEATGQYLMDENGEKYDSWDKYFE  177
+                 +G FD+  PNCL+LK   G + +++N PLI+A G Y++DEN  ++ SW+++F+
+Sbjct  269  ---DFTGTFDKYLPNCLVLKFKDGNVIRVFNHPLIDAFGTYVVDENNHQFASWEEFFQ  323
+
+
+> UniRef90_A0A1J4KYJ7 39 kDa initiator binding protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4KYJ7_9EUKA
+Length=327
+
+ Score = 124 bits (312),  Expect = 9e-31, Method: Compositional matrix adjust.
+ Identities = 81/184 (44%), Positives = 103/184 (56%), Gaps = 8/184 (4%)
+
+Query  1    MCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVI  60
+            + +G     E ETF      IW  L    D  V     I+ AA+ FKQ EQP  NA +V+
+Sbjct  136  ITLGPIQNQEFETFVQICKNIWTELLTSDDRPVQTPHFIDVAAQRFKQEEQPLDNARDVL  195
+
+Query  61   SAIMAPQEEQ-TKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNAN  119
+             AI+AP   Q   + A   KF+AMFGP +TIMLKIASLL  SNN G WL F+PQ   NAN
+Sbjct  196  RAIIAPSPNQNVVTFAQFCKFMAMFGPEKTIMLKIASLLSSSNNSGQWLMFEPQT-MNAN  254
+
+Query  120  NQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEA--TGQYLMDENGEKYDSWDKYFE  177
+                +  G F  NEPNCL+L       +IWN P +EA    +Y++DE    Y SW++YF+
+Sbjct  255  ----TFYGAFSDNEPNCLVLNYRNKPVRIWNLPNVEAMPNKRYIVDEENRYYSSWEEYFQ  310
+
+Query  178  MKPI  181
+              P+
+Sbjct  311  YNPV  314
+
+
+> UniRef90_A0A1J4K7G4 39 kDa initiator binding protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4K7G4_9EUKA
+Length=386
+
+ Score = 125 bits (313),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 68/181 (38%), Positives = 99/181 (55%), Gaps = 9/181 (5%)
+
+Query  3    IGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVISA  62
+            IG+ T ++ +     V + W  +      +V  ++ +   +  +K+ EQP  NA +V+ A
+Sbjct  194  IGHMTSDQIDILSQHVQQEWQEIAGIDKKSVDVNYFVSTISARYKENEQPTHNAFDVLKA  253
+
+Query  63   IMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFD--PQAEKNANN  120
+            I APQ   T   +D Y+F+AMFGP +T+MLKI SLL ++     WL F   P A+     
+Sbjct  254  IFAPQGTDTVKFSDFYRFMAMFGPAKTVMLKIHSLLEVATAGTPWLYFGLLPSAD-----  308
+
+Query  121  QRDSISGWFDQNEPNCLILKTPTG-IRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEMK  179
+              D   G FD+NEPNCL+L    G   +IWN PL  +  QY++D+N  KY SW +YF   
+Sbjct  309  -FDDFYGHFDENEPNCLVLHKNDGTTTQIWNLPLSTSDEQYVIDDNCVKYASWQQYFAEH  367
+
+Query  180  P  180
+            P
+Sbjct  368  P  368
+
+
+> UniRef90_A0A1J4KV83 39 kDa initiator binding protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4KV83_9EUKA
+Length=322
+
+ Score = 120 bits (302),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 78/193 (40%), Positives = 100/193 (52%), Gaps = 13/193 (7%)
+
+Query  3    IGNSTPNEQETFRAKVDEIWFRLTQKTDG----TVMRDFLIEKAAEYFKQPEQPKQNAIE  58
+            IG  +P E E F     + W  L +   G     V  +  I  AA  FKQ EQP QNAI+
+Sbjct  132  IGKVSPEEVEQFNLIARKTWAELNKLNGGDINYIVKTNEFIHAAACRFKQQEQPLQNAID  191
+
+Query  59   VISAIMAPQEEQTK-SKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKN  117
+            V+ AI+AP   Q + +     KFLAMFGP  TIMLKIASLL  SN  G WL F       
+Sbjct  192  VLQAIIAPNPLQDRITFPQFAKFLAMFGPENTIMLKIASLLSCSNQSGQWLFF------G  245
+
+Query  118  ANNQRDSISGWFDQNEPNCL-ILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYF  176
+             ++   S  G F+ +EPNCL +    +   +IWN PL +A G Y+ DE    Y SW+ YF
+Sbjct  246  KSDTIMSFYGTFNDSEPNCLELFHMNSPPVRIWNMPLTDANGDYIRDE-ITSYLSWEDYF  304
+
+Query  177  EMKPILTAYPTFA  189
+            +  P+    P  +
+Sbjct  305  QKHPVNIGMPPIS  317
+
+
+> UniRef90_A2DI90 39 kDa initiator binding protein, putative n=1 
+Tax=Trichomonas vaginalis TaxID=5722 RepID=A2DI90_TRIVA
+Length=353
+
+ Score = 107 bits (267),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 64/194 (33%), Positives = 101/194 (52%), Gaps = 10/194 (5%)
+
+Query  1    MCIGNSTPNEQETFRAKVDEIWFRLTQKTDG--TVMRDFLIEKAAEYFKQPEQPKQNAIE  58
+            + I    P  Q+ FR     IW  L + + G  T   D  I  AA  F+  +Q  +NA +
+Sbjct  157  VMISKCDPEIQQQFRRFTVSIWDELIEASGGKTTFTLDDFIFLAARRFRISKQSLKNATQ  216
+
+Query  59   VISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWL--TFDPQAEK  116
+            +I  I    +    + +D  KF+A FGP ET+M K+  +L  SN+ G+WL  T DP    
+Sbjct  217  LIRVIFLCADTTQVTLSDFTKFMAKFGPEETLMEKVGGMLSSSNHHGNWLNVTTDPSGLS  276
+
+Query  117  NANNQRDSISGWFDQNEPNCLILKTPTGIR-KIWNKPLIEAT-GQYLMDENGEKYDSWDK  174
+            N     D + G+FD  E NC+I         K+WN+  + ++ G+YL+D+N  +YDSW++
+Sbjct  277  NP----DGLYGYFDNTEQNCIIFVYQNIFTFKVWNRVNVASSDGKYLVDQNDNEYDSWEQ  332
+
+Query  175  YFEMKPILTAYPTF  188
+            +F++ P+    P+ 
+Sbjct  333  FFQINPMKIQEPSL  346
+
+
+> UniRef90_A0A1J4JX46 39 kDa initiator binding protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4JX46_9EUKA
+Length=331
+
+ Score = 100 bits (250),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 62/174 (36%), Positives = 90/174 (52%), Gaps = 10/174 (6%)
+
+Query  12   ETFRAKVDEIWFRLTQ-KTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVISAIMAPQEEQ  70
+            + F+      W  LT   T+ +      ++ AA  FK PEQ ++ A+ +I +I+AP   +
+Sbjct  151  QEFQRTCVHTWKELTGLNTNRSFTSSSFLQHAAAKFKIPEQNEKQALNIIKSIIAPHHVE  210
+
+Query  71   TKSKADLYKFLAMFGPYETIMLKIASLLLISNNKG--HWLTFDPQAEKNANNQRDSISGW  128
+              +     +F+AMFGP +T+M KI SLL  S  +    WL F        N       G 
+Sbjct  211  LINFEMFARFMAMFGPPQTVMQKITSLLESSEREKPEPWLLFSKPESMPQN------YGM  264
+
+Query  129  FDQNEPNCLILKTPTGIRKIWNKPLIEAT-GQYLMDENGEKYDSWDKYFEMKPI  181
+            FD+NE NCL +K      K+WN PLI +  G Y+MDE+G  + SWD YF+  P+
+Sbjct  265  FDENEQNCLFIKMYGTEIKVWNIPLINSNEGDYIMDEDGRLFSSWDTYFKHHPL  318
+
+
+> UniRef90_A0A1J4KII9 39 kDa initiator binding protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4KII9_9EUKA
+Length=342
+
+ Score = 85.9 bits (211),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 50/149 (34%), Positives = 76/149 (51%), Gaps = 2/149 (1%)
+
+Query  38   LIEKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASL  97
+             I  +A  F+   Q  +NA E++  I    +    +  D   F+A FGP ET+M K+ SL
+Sbjct  193  FINLSAVRFRASHQKLENAKEILHRIFICADPSQLTIIDFAVFMARFGPEETLMQKVGSL  252
+
+Query  98   LLISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTG-IRKIWNKPLIEA  156
+            L  SN   +WL     A+ +  N+  S  G+FD+ E N  +L  P G    ++N     A
+Sbjct  253  LKSSNENNNWLRL-TTAKNSLPNENSSFYGFFDEIENNGFVLHRPDGTTSHLYNIVDTPA  311
+
+Query  157  TGQYLMDENGEKYDSWDKYFEMKPILTAY  185
+            T  YL+D +G+KY+SW  YF   P+ + +
+Sbjct  312  TEAYLIDADGQKYNSWQDYFAKNPVESIF  340
+
+
+> UniRef90_A2E3Z9 39 kDa initiator binding protein, putative n=1 
+Tax=Trichomonas vaginalis TaxID=5722 RepID=A2E3Z9_TRIVA
+Length=326
+
+ Score = 77.4 bits (189),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 51/154 (33%), Positives = 77/154 (50%), Gaps = 8/154 (5%)
+
+Query  32   TVMRDFLIEKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIM  91
+            +V  +F I K A+ +    Q  +N++ VI +I+AP      +  D YKF   FGP  TIM
+Sbjct  178  SVRSEFFILKLAKRYNLHGQSFENSLSVIKSILAPTNAPLITFLDFYKFYLAFGPEPTIM  237
+
+Query  92   LKIASLLLISNNKGHWLTFD--PQAEKNANNQRDSISGWFD-QNEPNCLILKTPTGIRKI  148
+            +KI SLL ++ N   WL F   P   K  +        +FD +NEPNCL++       K 
+Sbjct  238  IKIHSLLEVAVNDKPWLYFGYLPDEIKKVSENF----AYFDTENEPNCLVIVWNGMTHKG  293
+
+Query  149  WNKPLIEATGQYLMDENGEKYDSWDKYFEMKPIL  182
+            +N P + +   Y++ E G  + SW  Y +   I+
+Sbjct  294  YNLPNVSSDSSYVVAEAG-TFKSWTDYIQSLHII  326
+
+
+> UniRef90_A0A1J4JLV4 Uncharacterized protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4JLV4_9EUKA
+Length=457
+
+ Score = 77.0 bits (188),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 65/215 (30%), Positives = 94/215 (44%), Gaps = 72/215 (33%)
+
+Query  33   VMRDFLIEKAAEYFKQPEQPKQNAIEVISAIMAPQE------------------------  68
+            V ++  I++ A   K+PEQP QN+IEVI AI A ++                        
+Sbjct  241  VPKNVFIKQLALAAKRPEQPIQNSIEVIEAIFADRDNDMNSINNLDNNNNNNNNNSVNND  300
+
+Query  69   ---------------------------EQTKSK-----ADLYKFLAMFGPYETIMLKIAS  96
+                                       ++TK K      DL  FLA FGP ET M+KIA 
+Sbjct  301  NDTDSGINHDKNNDVSNDNDKKEYENNDKTKKKDDFTFIDLLTFLARFGPIETSMIKIAH  360
+
+Query  97   L----LLISNN--------KGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKT-PT  143
+            +    +L SN         + +W+ F P    +  +   S+ G+FD NE N  ++    T
+Sbjct  361  MAKCTILNSNTMSGYGNNFRNNWIFFYPPQTSDVTSL--SMYGYFDSNELNMFVINMQET  418
+
+Query  144  G-IRKIWNKPLIEATGQYLMDENGEKYDSWDKYFE  177
+            G ++K+WN PLI+A G YL DE  + + SW  +FE
+Sbjct  419  GTVKKVWNMPLIDAYGCYLADEKVKTFCSWLSFFE  453
+
+
+> UniRef90_A0A1J4K053 Uncharacterized protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4K053_9EUKA
+Length=463
+
+ Score = 73.2 bits (178),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 52/178 (29%), Positives = 82/178 (46%), Gaps = 15/178 (8%)
+
+Query  4    GNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVISAI  63
+            G   P E E F  +   +W +     +    ++F I+K   YFK P Q + NA   ++ I
+Sbjct  280  GELDPKEIEKFWIQSQYLWKKFFGDLESVPTKEF-IKKTVSYFKLPNQLESNARGTLTFI  338
+
+Query  64   MAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNA--NNQ  121
+              P  ++  +      FLAMFGP  T + KI          GHWL   P+ + +   N+ 
+Sbjct  339  FDPANQEETTFLQFCAFLAMFGPANTAIRKI----------GHWLKCPPELKDSLLYNDI  388
+
+Query  122  RDSISGWFDQNEPNCLILKTPTGI--RKIWNKPLIEATGQYLMDENGEKYDSWDKYFE  177
+             D+     +  E NC  L    G   + ++N P ++  G YL+D++G  Y +W +YFE
+Sbjct  389  PDTSYDNVEDIEMNCFSLNLEEGQTEKAVYNIPYVDTDGNYLVDQDGTFYKNWAEYFE  446
+
+
+> UniRef90_A0A1J4JJ54 Uncharacterized protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4JJ54_9EUKA
+Length=504
+
+ Score = 60.8 bits (146),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 39/160 (24%), Positives = 77/160 (48%), Gaps = 9/160 (6%)
+
+Query  22   WFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFL  81
+            W ++   +D   + +F + K A   K P+Q + NA E +    +P E +  S +    FL
+Sbjct  206  WQKMFGDSDVVDVSEF-VRKTANLCKLPKQTESNAKETLQFFFSPDEIENVSFSQFCAFL  264
+
+Query  82   AMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKT  141
+            A+FGP +++  KI  +  +S +  +   +   AE    +    ++G+        + + T
+Sbjct  265  ALFGPSDSVFRKIRDIFGLSEDIKNCFEYPEPAEFTDESIETEMNGF-------SVFVGT  317
+
+Query  142  PTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEMKPI  181
+             +  R ++N P +     YL+DE G+ +D+W+ +F   P+
+Sbjct  318  ESE-RYVFNNPCVPYGKTYLIDETGKMFDTWNDFFTENPL  356
+
+
+> UniRef90_A2EAY0 Uncharacterized protein n=1 Tax=Trichomonas vaginalis 
+TaxID=5722 RepID=A2EAY0_TRIVA
+Length=384
+
+ Score = 55.5 bits (132),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 31/124 (25%), Positives = 59/124 (48%), Gaps = 5/124 (4%)
+
+Query  56   AIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAE  115
+            A ++++ ++  +     +  +   F A FGP ++++ KI  LL  S     W  F P  +
+Sbjct  239  ARKMLTYVLTHKNTYCITIPEFCTFFARFGPDDSVLEKIHQLLCCSKAYNDW--FKPVEQ  296
+
+Query  116  KNANNQRDSISGWFDQNEPNCLILKTPTGIR-KIWNKPLIEATGQYLMDENGEKYDSWDK  174
+                +    I+G +     NC I+K   GI   ++N+P  +    +L DE+ + +++W  
+Sbjct  297  --TFDLHKPITGCYSNTFANCFIIKRSQGITFHVYNQPFFQGPVGFLFDESDKNFNTWHA  354
+
+Query  175  YFEM  178
+             FEM
+Sbjct  355  VFEM  358
+
+
+> UniRef90_A0A1J4JV85 Uncharacterized protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4JV85_9EUKA
+Length=404
+
+ Score = 52.8 bits (125),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 36/128 (28%), Positives = 57/128 (45%), Gaps = 10/128 (8%)
+
+Query  57   IEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEK  116
+            + +I   + P+        D   FLA FGP+E + LK+     I N     L  D  A  
+Sbjct  282  LAIIKQTLYPRNIGIIDIFDFAVFLARFGPFENVQLKLYQYQTILNE----LRPDLFASG  337
+
+Query  117  NANNQRDSISGWFDQNEPNCLILKTP-TGIRKIWNKPLIEATGQYLMDENGEKYDSWDKY  175
+            +      S+  +F  N  NC   + P +G    +N PL     ++L+DE+G ++ +W K 
+Sbjct  338  SP-----SVISFFGPNFHNCFSFRHPHSGEYHCYNLPLKNLNEEFLVDEDGLRFPNWQKV  392
+
+Query  176  FEMKPILT  183
+             +M P L 
+Sbjct  393  IQMNPFLV  400
+
+
+> UniRef90_A0A1J4JM68 Uncharacterized protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4JM68_9EUKA
+Length=374
+
+ Score = 52.0 bits (123),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 39/141 (28%), Positives = 62/141 (44%), Gaps = 10/141 (7%)
+
+Query  41   KAAEYFKQPEQPK-QNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLL  99
+            K A+Y +     K + A ++IS ++  + +   +  D + F A FGP E ++ KI  LL 
+Sbjct  215  KFAQYLEANNLDKVKTARQMISYVLTQENKNYVTLLDFFMFFARFGPEECVLEKIHQLLC  274
+
+Query  100  ISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILK----TPTGIRKIWNKPLIE  155
+             S     W     +  K   +    +SG +     NC I+K        I  I N P   
+Sbjct  275  CSQAFDDWF----RPGKQTFDDSKPMSGSYSNTFANCFIIKWSKNITYHIYNIPNAPTGN  330
+
+Query  156  ATGQYLMDENGEKYDSWDKYF  176
+             TG +L+DE  +K+ +W   F
+Sbjct  331  QTG-FLIDETDKKFQTWHAVF  350
+
+
+> UniRef90_A2FZT1 Uncharacterized protein n=1 Tax=Trichomonas vaginalis 
+TaxID=5722 RepID=A2FZT1_TRIVA
+Length=313
+
+ Score = 50.1 bits (118),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 32/113 (28%), Positives = 51/113 (45%), Gaps = 11/113 (10%)
+
+Query  76   DLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPN  135
+            D   F+A F P+E I+ K+        +K   L  D + +     Q  SIS +F +   N
+Sbjct  210  DFAIFMARFDPFENIIFKL--------DKFQQLIPDLRVKMT---QIGSISSFFAKTYHN  258
+
+Query  136  CLILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEMKPILTAYPTF  188
+            C   +   G    +N P + +T  YL +E+GE++ SW    +   IL +   F
+Sbjct  259  CFSFQMSGGEYHCYNLPHVGSTANYLQNEDGERFQSWTMALQSTSILQSQTGF  311
+
+
+> UniRef90_A2FK14 Uncharacterized protein n=1 Tax=Trichomonas vaginalis 
+TaxID=5722 RepID=A2FK14_TRIVA
+Length=328
+
+ Score = 49.7 bits (117),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 35/127 (28%), Positives = 55/127 (43%), Gaps = 14/127 (11%)
+
+Query  60   ISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASL--LLISNNKGHWLTFDPQAEKN  117
+            I  ++  +     +  D   FLA FGP++ +  KI     +L      +++   P     
+Sbjct  210  IQQVLVGKTPNVVTIFDFAVFLARFGPFDNVPYKIMQYQQILHIIQPDYFMFTAP-----  264
+
+Query  118  ANNQRDSISGWFDQNEPNCLILK-TPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYF  176
+                  S+  +F     NC   K + TG    +N PLI ++  YL+DE+G  Y SW+K  
+Sbjct  265  ------SLINYFSSTFHNCFSFKISQTGEYHCYNLPLISSSAAYLVDEDGVYYKSWEKMV  318
+
+Query  177  EMKPILT  183
+            E    LT
+Sbjct  319  EANHFLT  325
+
+
+> UniRef90_A0A1J4JY24 Uncharacterized protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4JY24_9EUKA
+Length=465
+
+ Score = 45.8 bits (107),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 47/151 (31%), Positives = 61/151 (40%), Gaps = 21/151 (14%)
+
+Query  32   TVMRDFLIEKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIM  91
+            +V  D  I KAA  FK   Q + NA E +     P+     S      FLA+FGP  T+ 
+Sbjct  303  SVDTDDFIWKAAASFKLQNQTESNAREALRFFFDPETIDEVSFVQFSAFLALFGPTSTMF  362
+
+Query  92   LKIASLLLISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEP------NCLILKTPTGI  145
+             KI           H+L   P+  K+     D+I    D  EP      N   L      
+Sbjct  363  RKIQ----------HFLRCPPKL-KDGLVYADAI----DVQEPDKETWMNEFSLTCNEEE  407
+
+Query  146  RKIWNKPLIEATGQYLMDENGEKYDSWDKYF  176
+              I+N P    +  YL DE G KY SW ++F
+Sbjct  408  VFIYNNPNATTSEMYLTDEEGNKYGSWMEFF  438
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.133    0.402    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 527530553250
+Results from round 2
+
+
+Query= d1q88a_
+
+Length=189
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_Q95VR4 39 kDa initiator binding protein n=1 Tax=Tricho...  247     8e-78
+  UniRef90_A0A1J4K5T6 39 kDa initiator binding protein n=1 Tax=Tr...  218     2e-66
+  UniRef90_A0A1J4KV83 39 kDa initiator binding protein n=1 Tax=Tr...  215     2e-65
+  UniRef90_A0A1J4K7G4 39 kDa initiator binding protein n=1 Tax=Tr...  210     7e-63
+  UniRef90_A0A1J4KYJ7 39 kDa initiator binding protein n=1 Tax=Tr...  204     4e-61
+  UniRef90_A2DI90 39 kDa initiator binding protein, putative n=1 ...  199     3e-59
+  UniRef90_A0A1J4JX46 39 kDa initiator binding protein n=1 Tax=Tr...  194     3e-57
+  UniRef90_A2FY83 39 kDa initiator binding protein, putative n=1 ...  191     6e-56
+  UniRef90_A0A1J4KII9 39 kDa initiator binding protein n=1 Tax=Tr...  189     3e-55
+  UniRef90_A0A1J4K053 Uncharacterized protein n=1 Tax=Tritrichomo...  178     9e-50
+  UniRef90_A2E3Z9 39 kDa initiator binding protein, putative n=1 ...  169     1e-47
+  UniRef90_A0A1J4JJ54 Uncharacterized protein n=1 Tax=Tritrichomo...  168     1e-45
+  UniRef90_A2EAY0 Uncharacterized protein n=1 Tax=Trichomonas vag...  136     8e-35
+  UniRef90_A0A1J4JM68 Uncharacterized protein n=1 Tax=Tritrichomo...  136     9e-35
+  UniRef90_A0A1J4JV85 Uncharacterized protein n=1 Tax=Tritrichomo...  132     3e-33
+  UniRef90_A2FK14 Uncharacterized protein n=1 Tax=Trichomonas vag...  131     4e-33
+  UniRef90_A0A1J4JLV4 Uncharacterized protein n=1 Tax=Tritrichomo...  132     5e-33
+  UniRef90_A2FZT1 Uncharacterized protein n=1 Tax=Trichomonas vag...  118     2e-28
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A1J4JY24 Uncharacterized protein n=1 Tax=Tritrichomo...  128     1e-31
+  UniRef90_A0A1J4J6V6 Uncharacterized protein n=1 Tax=Tritrichomo...  104     1e-23
+  UniRef90_A0A1J4JGD7 Uncharacterized protein n=1 Tax=Tritrichomo...  61.7    1e-08
+  UniRef90_W2QVY3 Uncharacterized protein n=14 Tax=Phytophthora p...  46.7    0.004
+
+
+> UniRef90_Q95VR4 39 kDa initiator binding protein n=1 Tax=Trichomonas 
+vaginalis TaxID=5722 RepID=Q95VR4_TRIVA
+Length=341
+
+ Score = 247 bits (631),  Expect = 8e-78, Method: Composition-based stats.
+ Identities = 189/192 (98%), Positives = 189/192 (98%), Gaps = 3/192 (2%)
+
+Query  1    MCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVI  60
+            MCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVI
+Sbjct  148  MCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVI  207
+
+Query  61   SAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANN  120
+            SAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANN
+Sbjct  208  SAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANN  267
+
+Query  121  QRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEMKP  180
+            QRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEMKP
+Sbjct  268  QRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEMKP  327
+
+Query  181  I---LTAYPTFA  189
+            I   LTAYPTFA
+Sbjct  328  IETYLTAYPTFA  339
+
+
+> UniRef90_A0A1J4K5T6 39 kDa initiator binding protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4K5T6_9EUKA
+Length=322
+
+ Score = 218 bits (554),  Expect = 2e-66, Method: Composition-based stats.
+ Identities = 80/188 (43%), Positives = 103/188 (55%), Gaps = 8/188 (4%)
+
+Query  2    CIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVIS  61
+             +G  +    + F A   +IW  LTQ  D  V     I+KAA+ FKQ EQP  NA +V+ 
+Sbjct  134  TLGKVSQGVFDNFCAICQKIWSDLTQLDDQPVNTSLFIQKAAQRFKQVEQPLDNARDVLK  193
+
+Query  62   AIMAPQ--EEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNAN  119
+            AI+AP    +     +   KF+AMFGP ETIMLKIASLL  SNN G WL F+P       
+Sbjct  194  AIIAPSSSHQDVIHYSQFAKFMAMFGPEETIMLKIASLLGCSNNTGQWLAFEPVG-----  248
+
+Query  120  NQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEMK  179
+             Q   + G FD+NEPN L+L+  + +  IWN PL  A+  Y++DE  + Y SWD YF   
+Sbjct  249  -QNIPLCGTFDENEPNRLVLRNRSTVTCIWNAPLAPASQNYVIDEYNKVYPSWDDYFRNN  307
+
+Query  180  PILTAYPT  187
+            PI      
+Sbjct  308  PIEYQMVP  315
+
+
+> UniRef90_A0A1J4KV83 39 kDa initiator binding protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4KV83_9EUKA
+Length=322
+
+ Score = 215 bits (547),  Expect = 2e-65, Method: Composition-based stats.
+ Identities = 78/195 (40%), Positives = 100/195 (51%), Gaps = 13/195 (7%)
+
+Query  1    MCIGNSTPNEQETFRAKVDEIWFRLTQKTDG----TVMRDFLIEKAAEYFKQPEQPKQNA  56
+            + IG  +P E E F     + W  L +   G     V  +  I  AA  FKQ EQP QNA
+Sbjct  130  IKIGKVSPEEVEQFNLIARKTWAELNKLNGGDINYIVKTNEFIHAAACRFKQQEQPLQNA  189
+
+Query  57   IEVISAIMAPQEEQT-KSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAE  115
+            I+V+ AI+AP   Q   +     KFLAMFGP  TIMLKIASLL  SN  G WL F     
+Sbjct  190  IDVLQAIIAPNPLQDRITFPQFAKFLAMFGPENTIMLKIASLLSCSNQSGQWLFFG----  245
+
+Query  116  KNANNQRDSISGWFDQNEPNCL-ILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDK  174
+               ++   S  G F+ +EPNCL +    +   +IWN PL +A G Y+ DE    Y SW+ 
+Sbjct  246  --KSDTIMSFYGTFNDSEPNCLELFHMNSPPVRIWNMPLTDANGDYIRDE-ITSYLSWED  302
+
+Query  175  YFEMKPILTAYPTFA  189
+            YF+  P+    P  +
+Sbjct  303  YFQKHPVNIGMPPIS  317
+
+
+> UniRef90_A0A1J4K7G4 39 kDa initiator binding protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4K7G4_9EUKA
+Length=386
+
+ Score = 210 bits (534),  Expect = 7e-63, Method: Composition-based stats.
+ Identities = 66/181 (36%), Positives = 98/181 (54%), Gaps = 5/181 (3%)
+
+Query  1    MCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVI  60
+            + IG+ T ++ +     V + W  +      +V  ++ +   +  +K+ EQP  NA +V+
+Sbjct  192  LKIGHMTSDQIDILSQHVQQEWQEIAGIDKKSVDVNYFVSTISARYKENEQPTHNAFDVL  251
+
+Query  61   SAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANN  120
+             AI APQ   T   +D Y+F+AMFGP +T+MLKI SLL ++     WL F        + 
+Sbjct  252  KAIFAPQGTDTVKFSDFYRFMAMFGPAKTVMLKIHSLLEVATAGTPWLYFGLL----PSA  307
+
+Query  121  QRDSISGWFDQNEPNCLILKTPTG-IRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEMK  179
+              D   G FD+NEPNCL+L    G   +IWN PL  +  QY++D+N  KY SW +YF   
+Sbjct  308  DFDDFYGHFDENEPNCLVLHKNDGTTTQIWNLPLSTSDEQYVIDDNCVKYASWQQYFAEH  367
+
+Query  180  P  180
+            P
+Sbjct  368  P  368
+
+
+> UniRef90_A0A1J4KYJ7 39 kDa initiator binding protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4KYJ7_9EUKA
+Length=327
+
+ Score = 204 bits (519),  Expect = 4e-61, Method: Composition-based stats.
+ Identities = 77/187 (41%), Positives = 101/187 (54%), Gaps = 8/187 (4%)
+
+Query  1    MCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVI  60
+            + +G     E ETF      IW  L    D  V     I+ AA+ FKQ EQP  NA +V+
+Sbjct  136  ITLGPIQNQEFETFVQICKNIWTELLTSDDRPVQTPHFIDVAAQRFKQEEQPLDNARDVL  195
+
+Query  61   SAIMAPQ-EEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNAN  119
+             AI+AP   +   + A   KF+AMFGP +TIMLKIASLL  SNN G WL F+PQ      
+Sbjct  196  RAIIAPSPNQNVVTFAQFCKFMAMFGPEKTIMLKIASLLSSSNNSGQWLMFEPQTMNA--  253
+
+Query  120  NQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEA--TGQYLMDENGEKYDSWDKYFE  177
+               ++  G F  NEPNCL+L       +IWN P +EA    +Y++DE    Y SW++YF+
+Sbjct  254  ---NTFYGAFSDNEPNCLVLNYRNKPVRIWNLPNVEAMPNKRYIVDEENRYYSSWEEYFQ  310
+
+Query  178  MKPILTA  184
+              P+   
+Sbjct  311  YNPVAQQ  317
+
+
+> UniRef90_A2DI90 39 kDa initiator binding protein, putative n=1 
+Tax=Trichomonas vaginalis TaxID=5722 RepID=A2DI90_TRIVA
+Length=353
+
+ Score = 199 bits (507),  Expect = 3e-59, Method: Composition-based stats.
+ Identities = 64/194 (33%), Positives = 100/194 (52%), Gaps = 10/194 (5%)
+
+Query  1    MCIGNSTPNEQETFRAKVDEIWFRLTQKTDG--TVMRDFLIEKAAEYFKQPEQPKQNAIE  58
+            + I    P  Q+ FR     IW  L + + G  T   D  I  AA  F+  +Q  +NA +
+Sbjct  157  VMISKCDPEIQQQFRRFTVSIWDELIEASGGKTTFTLDDFIFLAARRFRISKQSLKNATQ  216
+
+Query  59   VISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWL--TFDPQAEK  116
+            +I  I    +    + +D  KF+A FGP ET+M K+  +L  SN+ G+WL  T DP    
+Sbjct  217  LIRVIFLCADTTQVTLSDFTKFMAKFGPEETLMEKVGGMLSSSNHHGNWLNVTTDPSGLS  276
+
+Query  117  NANNQRDSISGWFDQNEPNCLILKTPTGIR-KIWNKPLI-EATGQYLMDENGEKYDSWDK  174
+            N     D + G+FD  E NC+I         K+WN+  +  + G+YL+D+N  +YDSW++
+Sbjct  277  NP----DGLYGYFDNTEQNCIIFVYQNIFTFKVWNRVNVASSDGKYLVDQNDNEYDSWEQ  332
+
+Query  175  YFEMKPILTAYPTF  188
+            +F++ P+    P+ 
+Sbjct  333  FFQINPMKIQEPSL  346
+
+
+> UniRef90_A0A1J4JX46 39 kDa initiator binding protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4JX46_9EUKA
+Length=331
+
+ Score = 194 bits (493),  Expect = 3e-57, Method: Composition-based stats.
+ Identities = 63/183 (34%), Positives = 93/183 (51%), Gaps = 10/183 (5%)
+
+Query  3    IGNSTPNEQETFRAKVDEIWFRLTQ-KTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVIS  61
+            +G    +  + F+      W  LT   T+ +      ++ AA  FK PEQ ++ A+ +I 
+Sbjct  142  LGPLVDSFFQEFQRTCVHTWKELTGLNTNRSFTSSSFLQHAAAKFKIPEQNEKQALNIIK  201
+
+Query  62   AIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKG--HWLTFDPQAEKNAN  119
+            +I+AP   +  +     +F+AMFGP +T+M KI SLL  S  +    WL F        N
+Sbjct  202  SIIAPHHVELINFEMFARFMAMFGPPQTVMQKITSLLESSEREKPEPWLLFSKPESMPQN  261
+
+Query  120  NQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEAT-GQYLMDENGEKYDSWDKYFEM  178
+                   G FD+NE NCL +K      K+WN PLI +  G Y+MDE+G  + SWD YF+ 
+Sbjct  262  ------YGMFDENEQNCLFIKMYGTEIKVWNIPLINSNEGDYIMDEDGRLFSSWDTYFKH  315
+
+Query  179  KPI  181
+             P+
+Sbjct  316  HPL  318
+
+
+> UniRef90_A2FY83 39 kDa initiator binding protein, putative n=1 
+Tax=Trichomonas vaginalis TaxID=5722 RepID=A2FY83_TRIVA
+Length=327
+
+ Score = 191 bits (484),  Expect = 6e-56, Method: Composition-based stats.
+ Identities = 70/179 (39%), Positives = 107/179 (60%), Gaps = 7/179 (4%)
+
+Query  1    MCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVI  60
+            + IG+ +  E   F+  V   +  +TQ  +  +  +  I+ AA YFKQPEQ  +NAI+VI
+Sbjct  152  LKIGHVSAQEDLNFQEIVKSDFLEITQ-NEIDMPAEMFIKNAANYFKQPEQTLENAIDVI  210
+
+Query  61   SAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANN  120
+            + I+ PQE    +  DL++FLAMFGP  T+M+KI SLL  +N    WL  DP  +     
+Sbjct  211  TPILRPQE-NIVTYDDLFRFLAMFGPKNTVMIKIVSLLRSNNEDTSWLYLDPAQK----P  265
+
+Query  121  QRDSISGWFDQNEPNCLILKTPTG-IRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEM  178
+                 +G FD+  PNCL+LK   G + +++N PLI+A G Y++DEN  ++ SW+++F+ 
+Sbjct  266  LDKDFTGTFDKYLPNCLVLKFKDGNVIRVFNHPLIDAFGTYVVDENNHQFASWEEFFQS  324
+
+
+> UniRef90_A0A1J4KII9 39 kDa initiator binding protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4KII9_9EUKA
+Length=342
+
+ Score = 189 bits (480),  Expect = 3e-55, Method: Composition-based stats.
+ Identities = 54/188 (29%), Positives = 89/188 (47%), Gaps = 4/188 (2%)
+
+Query  1    MCIGNSTPNEQETFRAKVDEIWFRLTQK--TDGTVMRDFLIEKAAEYFKQPEQPKQNAIE  58
+            + +G    ++ + ++     IW  L        + +    I  +A  F+   Q  +NA E
+Sbjct  154  ITLGKCDSSQTQIYKKITISIWEELIDSPIQKSSALPAEFINLSAVRFRASHQKLENAKE  213
+
+Query  59   VISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNA  118
+            ++  I    +    +  D   F+A FGP ET+M K+ SLL  SN   +WL     A+ + 
+Sbjct  214  ILHRIFICADPSQLTIIDFAVFMARFGPEETLMQKVGSLLKSSNENNNWLRL-TTAKNSL  272
+
+Query  119  NNQRDSISGWFDQNEPNCLILKTPTGIR-KIWNKPLIEATGQYLMDENGEKYDSWDKYFE  177
+             N+  S  G+FD+ E N  +L  P G    ++N     AT  YL+D +G+KY+SW  YF 
+Sbjct  273  PNENSSFYGFFDEIENNGFVLHRPDGTTSHLYNIVDTPATEAYLIDADGQKYNSWQDYFA  332
+
+Query  178  MKPILTAY  185
+              P+ + +
+Sbjct  333  KNPVESIF  340
+
+
+> UniRef90_A0A1J4K053 Uncharacterized protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4K053_9EUKA
+Length=463
+
+ Score = 178 bits (451),  Expect = 9e-50, Method: Composition-based stats.
+ Identities = 51/180 (28%), Positives = 81/180 (45%), Gaps = 15/180 (8%)
+
+Query  4    GNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVISAI  63
+            G   P E E F  +   +W +     +    ++  I+K   YFK P Q + NA   ++ I
+Sbjct  280  GELDPKEIEKFWIQSQYLWKKFFGDLESVPTKE-FIKKTVSYFKLPNQLESNARGTLTFI  338
+
+Query  64   MAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNA--NNQ  121
+              P  ++  +      FLAMFGP  T + KI          GHWL   P+ + +   N+ 
+Sbjct  339  FDPANQEETTFLQFCAFLAMFGPANTAIRKI----------GHWLKCPPELKDSLLYNDI  388
+
+Query  122  RDSISGWFDQNEPNCLILKTPTG--IRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEMK  179
+             D+     +  E NC  L    G   + ++N P ++  G YL+D++G  Y +W +YFE  
+Sbjct  389  PDTSYDNVEDIEMNCFSLNLEEGQTEKAVYNIPYVDTDGNYLVDQDGTFYKNWAEYFEKN  448
+
+
+> UniRef90_A2E3Z9 39 kDa initiator binding protein, putative n=1 
+Tax=Trichomonas vaginalis TaxID=5722 RepID=A2E3Z9_TRIVA
+Length=326
+
+ Score = 169 bits (427),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 55/186 (30%), Positives = 87/186 (47%), Gaps = 9/186 (5%)
+
+Query  1    MCIGNSTPNEQETFRAKVDEIWFRLTQKTDG-TVMRDFLIEKAAEYFKQPEQPKQNAIEV  59
+            + IG      +    +    IW ++ +     +V  +F I K A+ +    Q  +N++ V
+Sbjct  146  ITIGALDQTNKNEILSNAINIWQQIVEVIGIDSVRSEFFILKLAKRYNLHGQSFENSLSV  205
+
+Query  60   ISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFD--PQAEKN  117
+            I +I+AP      +  D YKF   FGP  TIM+KI SLL ++ N   WL F   P   K 
+Sbjct  206  IKSILAPTNAPLITFLDFYKFYLAFGPEPTIMIKIHSLLEVAVNDKPWLYFGYLPDEIKK  265
+
+Query  118  ANNQRDSISGWFD-QNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYF  176
+             +        +FD +NEPNCL++       K +N P + +   Y++ E G  + SW  Y 
+Sbjct  266  VSENF----AYFDTENEPNCLVIVWNGMTHKGYNLPNVSSDSSYVVAEAG-TFKSWTDYI  320
+
+Query  177  EMKPIL  182
+            +   I+
+Sbjct  321  QSLHII  326
+
+
+> UniRef90_A0A1J4JJ54 Uncharacterized protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4JJ54_9EUKA
+Length=504
+
+ Score = 168 bits (424),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 41/182 (23%), Positives = 80/182 (44%), Gaps = 9/182 (5%)
+
+Query  4    GNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVISAI  63
+            G+ T +E + F       W ++   +D   + +  + K A   K P+Q + NA E +   
+Sbjct  188  GDLTDSEVKKFWNVSKVQWQKMFGDSDVVDVSE-FVRKTANLCKLPKQTESNAKETLQFF  246
+
+Query  64   MAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANNQRD  123
+             +P E +  S +    FLA+FGP +++  KI  +  +S +  +   +   AE    +   
+Sbjct  247  FSPDEIENVSFSQFCAFLALFGPSDSVFRKIRDIFGLSEDIKNCFEYPEPAEFTDESIET  306
+
+Query  124  SISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEMKPILT  183
+             ++G+         +       R ++N P +     YL+DE G+ +D+W+ +F   P+  
+Sbjct  307  EMNGFS--------VFVGTESERYVFNNPCVPYGKTYLIDETGKMFDTWNDFFTENPLSA  358
+
+Query  184  AY  185
+              
+Sbjct  359  NQ  360
+
+
+> UniRef90_A2EAY0 Uncharacterized protein n=1 Tax=Trichomonas vaginalis 
+TaxID=5722 RepID=A2EAY0_TRIVA
+Length=384
+
+ Score = 136 bits (343),  Expect = 8e-35, Method: Composition-based stats.
+ Identities = 34/160 (21%), Positives = 65/160 (41%), Gaps = 6/160 (4%)
+
+Query  28   KTDGTVMRDFLIEKAAEYFKQPEQPKQ-NAIEVISAIMAPQEEQTKSKADLYKFLAMFGP  86
+             +  T   D    + ++Y K         A ++++ ++  +     +  +   F A FGP
+Sbjct  210  SSGETFTYDAQQTQFSQYLKNYNLDLHDTARKMLTYVLTHKNTYCITIPEFCTFFARFGP  269
+
+Query  87   YETIMLKIASLLLISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIR  146
+             ++++ KI  LL  S     W     Q      +    I+G +     NC I+K   GI 
+Sbjct  270  DDSVLEKIHQLLCCSKAYNDWFKPVEQ----TFDLHKPITGCYSNTFANCFIIKRSQGIT  325
+
+Query  147  -KIWNKPLIEATGQYLMDENGEKYDSWDKYFEMKPILTAY  185
+              ++N+P  +    +L DE+ + +++W   FEM       
+Sbjct  326  FHVYNQPFFQGPVGFLFDESDKNFNTWHAVFEMMSCQQIQ  365
+
+
+> UniRef90_A0A1J4JM68 Uncharacterized protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4JM68_9EUKA
+Length=374
+
+ Score = 136 bits (342),  Expect = 9e-35, Method: Composition-based stats.
+ Identities = 37/140 (26%), Positives = 60/140 (43%), Gaps = 8/140 (6%)
+
+Query  41   KAAEYFKQPEQPK-QNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLL  99
+            K A+Y +     K + A ++IS ++  + +   +  D + F A FGP E ++ KI  LL 
+Sbjct  215  KFAQYLEANNLDKVKTARQMISYVLTQENKNYVTLLDFFMFFARFGPEECVLEKIHQLLC  274
+
+Query  100  ISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTP-TGIRKIWNKPLIEATG  158
+             S     W        K   +    +SG +     NC I+K        I+N P      
+Sbjct  275  CSQAFDDWFRPG----KQTFDDSKPMSGSYSNTFANCFIIKWSKNITYHIYNIPNAPTGN  330
+
+Query  159  Q--YLMDENGEKYDSWDKYF  176
+            Q  +L+DE  +K+ +W   F
+Sbjct  331  QTGFLIDETDKKFQTWHAVF  350
+
+
+> UniRef90_A0A1J4JV85 Uncharacterized protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4JV85_9EUKA
+Length=404
+
+ Score = 132 bits (333),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 45/182 (25%), Positives = 72/182 (40%), Gaps = 15/182 (8%)
+
+Query  6    STPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQP-KQNAIEVISAIM  64
+                E   F+ +V + W  L       V     I+   +  K   Q    + + +I   +
+Sbjct  234  MDMEEIRLFKKEVIKKWESLVG---KVVFAIGFID-FMKLLKANLQNHIFSDLAIIKQTL  289
+
+Query  65   APQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANNQRDS  124
+             P+        D   FLA FGP+E + LK+     I N     L  D  A  +      S
+Sbjct  290  YPRNIGIIDIFDFAVFLARFGPFENVQLKLYQYQTILNE----LRPDLFASGSP-----S  340
+
+Query  125  ISGWFDQNEPNCLILKTP-TGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEMKPILT  183
+            +  +F  N  NC   + P +G    +N PL     ++L+DE+G ++ +W K  +M P L 
+Sbjct  341  VISFFGPNFHNCFSFRHPHSGEYHCYNLPLKNLNEEFLVDEDGLRFPNWQKVIQMNPFLV  400
+
+Query  184  AY  185
+              
+Sbjct  401  HM  402
+
+
+> UniRef90_A2FK14 Uncharacterized protein n=1 Tax=Trichomonas vaginalis 
+TaxID=5722 RepID=A2FK14_TRIVA
+Length=328
+
+ Score = 131 bits (328),  Expect = 4e-33, Method: Composition-based stats.
+ Identities = 42/185 (23%), Positives = 69/185 (37%), Gaps = 20/185 (11%)
+
+Query  6    STPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQP---KQNAIEVISA  62
+                    F+ +V + W +L       ++    I    +Y     Q      +    I  
+Sbjct  156  MDEKAISMFKKEVIQKWEKLVG---SPLIFAVSIPVFTKYLLNSIQDSLGYHDENNTIQQ  212
+
+Query  63   IMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASL--LLISNNKGHWLTFDPQAEKNANN  120
+            ++  +     +  D   FLA FGP++ +  KI     +L      +++   P        
+Sbjct  213  VLVGKTPNVVTIFDFAVFLARFGPFDNVPYKIMQYQQILHIIQPDYFMFTAP--------  264
+
+Query  121  QRDSISGWFDQNEPNCLILKT-PTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEMK  179
+               S+  +F     NC   K   TG    +N PLI ++  YL+DE+G  Y SW+K  E  
+Sbjct  265  ---SLINYFSSTFHNCFSFKISQTGEYHCYNLPLISSSAAYLVDEDGVYYKSWEKMVEAN  321
+
+Query  180  PILTA  184
+              LT 
+Sbjct  322  HFLTQ  326
+
+
+> UniRef90_A0A1J4JLV4 Uncharacterized protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4JLV4_9EUKA
+Length=457
+
+ Score = 132 bits (332),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 64/247 (26%), Positives = 96/247 (39%), Gaps = 74/247 (30%)
+
+Query  3    IGNSTPNEQETFRAKVDEIWFRLTQKTDG--TVMRDFLIEKAAEYFKQPEQPKQNAIEVI  60
+            +G         F      +WF++         V ++  I++ A   K+PEQP QN+IEVI
+Sbjct  209  LGTVMRTACNIFVQTCITLWFQMFNNLPIYEKVPKNVFIKQLALAAKRPEQPIQNSIEVI  268
+
+Query  61   SAIMAPQ---------------------------------------------------EE  69
+             AI A +                                                    +
+Sbjct  269  EAIFADRDNDMNSINNLDNNNNNNNNNSVNNDNDTDSGINHDKNNDVSNDNDKKEYENND  328
+
+Query  70   QTKSKADLY-----KFLAMFGPYETIMLKIASLLLI------------SNNKGHWLTFDP  112
+            +TK K D        FLA FGP ET M+KIA +               +N + +W+ F P
+Sbjct  329  KTKKKDDFTFIDLLTFLARFGPIETSMIKIAHMAKCTILNSNTMSGYGNNFRNNWIFFYP  388
+
+Query  113  QAEKNANNQRDSISGWFDQNEPNCLILKTP--TGIRKIWNKPLIEATGQYLMDENGEKYD  170
+                +  +   S+ G+FD NE N  ++       ++K+WN PLI+A G YL DE  + + 
+Sbjct  389  PQTSDVTSL--SMYGYFDSNELNMFVINMQETGTVKKVWNMPLIDAYGCYLADEKVKTFC  446
+
+Query  171  SWDKYFE  177
+            SW  +FE
+Sbjct  447  SWLSFFE  453
+
+
+> UniRef90_A0A1J4JY24 Uncharacterized protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4JY24_9EUKA
+Length=465
+
+ Score = 128 bits (322),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 45/175 (26%), Positives = 63/175 (36%), Gaps = 10/175 (6%)
+
+Query  4    GNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVISAI  63
+            G    +E + F       W +L      +V  D  I KAA  FK   Q + NA E +   
+Sbjct  276  GELDESEAKKFWTGARNTWKKLF-DDSLSVDTDDFIWKAAASFKLQNQTESNAREALRFF  334
+
+Query  64   MAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANNQRD  123
+              P+     S      FLA+FGP  T+  KI   L         L +    +    ++  
+Sbjct  335  FDPETIDEVSFVQFSAFLALFGPTSTMFRKIQHFLRCPPKLKDGLVYADAIDVQEPDK--  392
+
+Query  124  SISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEM  178
+                   +   N   L        I+N P    +  YL DE G KY SW ++F  
+Sbjct  393  -------ETWMNEFSLTCNEEEVFIYNNPNATTSEMYLTDEEGNKYGSWMEFFSK  440
+
+
+> UniRef90_A2FZT1 Uncharacterized protein n=1 Tax=Trichomonas vaginalis 
+TaxID=5722 RepID=A2FZT1_TRIVA
+Length=313
+
+ Score = 118 bits (295),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 41/189 (22%), Positives = 71/189 (38%), Gaps = 17/189 (9%)
+
+Query  1    MCIGNSTPNEQETFRAKVDEIWFRLTQKTDG-TVMRDFLIEKAAEYFKQPEQPKQNAIEV  59
+            + +   T NE   F+  V   W ++ +      V +  L +           P       
+Sbjct  139  ITLFGMTENEIVAFKRNVITTWEKIIKPNHVFAVSKKELTDSFGGQAGFCNDPYA-----  193
+
+Query  60   ISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNAN  119
+            +   +  +        D   F+A F P+E I+ K+        +K   L  D + +    
+Sbjct  194  LQEALTTKVTAVIDINDFAIFMARFDPFENIIFKL--------DKFQQLIPDLRVKMT--  243
+
+Query  120  NQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEMK  179
+             Q  SIS +F +   NC   +   G    +N P + +T  YL +E+GE++ SW    +  
+Sbjct  244  -QIGSISSFFAKTYHNCFSFQMSGGEYHCYNLPHVGSTANYLQNEDGERFQSWTMALQST  302
+
+Query  180  PILTAYPTF  188
+             IL +   F
+Sbjct  303  SILQSQTGF  311
+
+
+> UniRef90_A0A1J4J6V6 Uncharacterized protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4J6V6_9EUKA
+Length=315
+
+ Score = 104 bits (260),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 37/185 (20%), Positives = 58/185 (31%), Gaps = 18/185 (10%)
+
+Query  6    STPNEQETFRAKVDEIWFRLTQKTDG-TVMRDFLIEKAAEYFKQPEQPKQNAIEVISAIM  64
+                  + F+  V + W  L        V     I+                  VI   +
+Sbjct  146  MDRKSIDQFKKCVIDKWEELVGGKLIFAVPLKDFIKALEINL---NDTLFTDTYVIQQAL  202
+
+Query  65   APQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANNQRDS  124
+             P+        D   FLA FGP+E I  K+     I  +  ++ +       +       
+Sbjct  203  VPRIPNVMDIFDFAVFLARFGPFENIQTKMNQYQGIFMSDFYFSSNSLSTSFS-------  255
+
+Query  125  ISGWFDQNEPNCLILKT-PTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEMKPILT  183
+                      NC        G    +N PL+  T  +L+DE+G  Y SW +  +    L+
+Sbjct  256  ------DTFHNCFRFSLLQVGEYHCYNLPLVSTTAYFLIDEDGICYPSWSEMLQRNYFLS  309
+
+Query  184  AYPTF  188
+              P F
+Sbjct  310  HTPNF  314
+
+
+> UniRef90_A0A1J4JGD7 Uncharacterized protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4JGD7_9EUKA
+Length=241
+
+ Score = 61.7 bits (148),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 27/167 (16%), Positives = 61/167 (37%), Gaps = 15/167 (9%)
+
+Query  14   FRAKVDEIWFRLTQKTDGTV-MRDFLIEKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTK  72
+            F   +   W  +    +      +  + + A+ ++  +  + ++  ++S +         
+Sbjct  77   FIPHLRSKWKIICDNYNSEFLPIEIFLTRLADMYQVKDLSQADSYYLLSLVTFCTIPGWV  136
+
+Query  73   SKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFD------PQAEKNANNQRDSIS  126
+            +  D     + FG    ++ K+  LL  +   G++L F+      P  + N         
+Sbjct  137  NFNDFVMLFSNFGEKNAVIPKLVLLLNSNKKCGNFLRFEFYTGQKPDEKTNVYFSNGPSY  196
+
+Query  127  GWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWD  173
+            G+        ++L    G  +I N        ++L+D  G +Y SWD
+Sbjct  197  GF--------IVLWPDGGTLEITNDFNTPFFSEFLVDSGGNRYQSWD  235
+
+
+> UniRef90_W2QVY3 Uncharacterized protein n=14 Tax=Phytophthora 
+parasitica TaxID=4792 RepID=W2QVY3_PHYPN
+Length=692
+
+ Score = 46.7 bits (109),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 16/92 (17%), Positives = 31/92 (34%), Gaps = 5/92 (5%)
+
+Query  22   WFRLTQKTDGTVMRDFLIEKAAEYFKQP---EQPKQNAIEVISAIMAP--QEEQTKSKAD  76
+            W     ++       F          QP   E  +     V     +P  ++    ++ D
+Sbjct  13   WDEQLTQSTVPFRDVFFPALLCACDPQPLPSELSRDELRVVTQFCFSPNARQSDQVTRED  72
+
+Query  77   LYKFLAMFGPYETIMLKIASLLLISNNKGHWL  108
+              +F+A FGP E  + K+ +    ++    W 
+Sbjct  73   FRRFIARFGPLELSLSKLVACFSENHELVPWF  104
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.128    0.358    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0393    0.140     1.90     42.6     43.6 
+
+Effective search space used: 527530553250
+Results from round 3
+
+
+Query= d1q88a_
+
+Length=189
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_Q95VR4 39 kDa initiator binding protein n=1 Tax=Tricho...  217     6e-66
+  UniRef90_A0A1J4K5T6 39 kDa initiator binding protein n=1 Tax=Tr...  204     4e-61
+  UniRef90_A0A1J4K7G4 39 kDa initiator binding protein n=1 Tax=Tr...  199     2e-58
+  UniRef90_A0A1J4KV83 39 kDa initiator binding protein n=1 Tax=Tr...  195     1e-57
+  UniRef90_A0A1J4KYJ7 39 kDa initiator binding protein n=1 Tax=Tr...  194     2e-57
+  UniRef90_A0A1J4KII9 39 kDa initiator binding protein n=1 Tax=Tr...  193     1e-56
+  UniRef90_A0A1J4JX46 39 kDa initiator binding protein n=1 Tax=Tr...  182     1e-52
+  UniRef90_A2DI90 39 kDa initiator binding protein, putative n=1 ...  182     2e-52
+  UniRef90_A2FY83 39 kDa initiator binding protein, putative n=1 ...  173     4e-49
+  UniRef90_A2E3Z9 39 kDa initiator binding protein, putative n=1 ...  169     9e-48
+  UniRef90_A0A1J4K053 Uncharacterized protein n=1 Tax=Tritrichomo...  168     4e-46
+  UniRef90_A0A1J4JY24 Uncharacterized protein n=1 Tax=Tritrichomo...  165     5e-45
+  UniRef90_A0A1J4JJ54 Uncharacterized protein n=1 Tax=Tritrichomo...  163     6e-44
+  UniRef90_A2FK14 Uncharacterized protein n=1 Tax=Trichomonas vag...  157     5e-43
+  UniRef90_A0A1J4JV85 Uncharacterized protein n=1 Tax=Tritrichomo...  156     5e-42
+  UniRef90_A0A1J4J6V6 Uncharacterized protein n=1 Tax=Tritrichomo...  154     5e-42
+  UniRef90_A2FZT1 Uncharacterized protein n=1 Tax=Trichomonas vag...  152     3e-41
+  UniRef90_A2EAY0 Uncharacterized protein n=1 Tax=Trichomonas vag...  144     1e-37
+  UniRef90_A0A1J4JLV4 Uncharacterized protein n=1 Tax=Tritrichomo...  136     2e-34
+  UniRef90_A0A1J4JM68 Uncharacterized protein n=1 Tax=Tritrichomo...  135     2e-34
+  UniRef90_A0A1J4JGD7 Uncharacterized protein n=1 Tax=Tritrichomo...  128     6e-33
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_Q95VR4 39 kDa initiator binding protein n=1 Tax=Trichomonas 
+vaginalis TaxID=5722 RepID=Q95VR4_TRIVA
+Length=341
+
+ Score = 217 bits (552),  Expect = 6e-66, Method: Composition-based stats.
+ Identities = 189/192 (98%), Positives = 189/192 (98%), Gaps = 3/192 (2%)
+
+Query  1    MCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVI  60
+            MCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVI
+Sbjct  148  MCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVI  207
+
+Query  61   SAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANN  120
+            SAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANN
+Sbjct  208  SAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANN  267
+
+Query  121  QRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEMKP  180
+            QRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEMKP
+Sbjct  268  QRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEMKP  327
+
+Query  181  I---LTAYPTFA  189
+            I   LTAYPTFA
+Sbjct  328  IETYLTAYPTFA  339
+
+
+> UniRef90_A0A1J4K5T6 39 kDa initiator binding protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4K5T6_9EUKA
+Length=322
+
+ Score = 204 bits (518),  Expect = 4e-61, Method: Composition-based stats.
+ Identities = 80/188 (43%), Positives = 103/188 (55%), Gaps = 8/188 (4%)
+
+Query  2    CIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVIS  61
+             +G  +    + F A   +IW  LTQ  D  V     I+KAA+ FKQ EQP  NA +V+ 
+Sbjct  134  TLGKVSQGVFDNFCAICQKIWSDLTQLDDQPVNTSLFIQKAAQRFKQVEQPLDNARDVLK  193
+
+Query  62   AIMAPQ--EEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNAN  119
+            AI+AP    +     +   KF+AMFGP ETIMLKIASLL  SNN G WL F+P       
+Sbjct  194  AIIAPSSSHQDVIHYSQFAKFMAMFGPEETIMLKIASLLGCSNNTGQWLAFEPVG-----  248
+
+Query  120  NQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEMK  179
+             Q   + G FD+NEPN L+L+  + +  IWN PL  A+  Y++DE  + Y SWD YF   
+Sbjct  249  -QNIPLCGTFDENEPNRLVLRNRSTVTCIWNAPLAPASQNYVIDEYNKVYPSWDDYFRNN  307
+
+Query  180  PILTAYPT  187
+            PI      
+Sbjct  308  PIEYQMVP  315
+
+
+> UniRef90_A0A1J4K7G4 39 kDa initiator binding protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4K7G4_9EUKA
+Length=386
+
+ Score = 199 bits (505),  Expect = 2e-58, Method: Composition-based stats.
+ Identities = 66/181 (36%), Positives = 98/181 (54%), Gaps = 5/181 (3%)
+
+Query  1    MCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVI  60
+            + IG+ T ++ +     V + W  +      +V  ++ +   +  +K+ EQP  NA +V+
+Sbjct  192  LKIGHMTSDQIDILSQHVQQEWQEIAGIDKKSVDVNYFVSTISARYKENEQPTHNAFDVL  251
+
+Query  61   SAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANN  120
+             AI APQ   T   +D Y+F+AMFGP +T+MLKI SLL ++     WL F        + 
+Sbjct  252  KAIFAPQGTDTVKFSDFYRFMAMFGPAKTVMLKIHSLLEVATAGTPWLYFGLL----PSA  307
+
+Query  121  QRDSISGWFDQNEPNCLILKTPTG-IRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEMK  179
+              D   G FD+NEPNCL+L    G   +IWN PL  +  QY++D+N  KY SW +YF   
+Sbjct  308  DFDDFYGHFDENEPNCLVLHKNDGTTTQIWNLPLSTSDEQYVIDDNCVKYASWQQYFAEH  367
+
+Query  180  P  180
+            P
+Sbjct  368  P  368
+
+
+> UniRef90_A0A1J4KV83 39 kDa initiator binding protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4KV83_9EUKA
+Length=322
+
+ Score = 195 bits (495),  Expect = 1e-57, Method: Composition-based stats.
+ Identities = 77/195 (39%), Positives = 100/195 (51%), Gaps = 13/195 (7%)
+
+Query  1    MCIGNSTPNEQETFRAKVDEIWFRLTQKTDGT----VMRDFLIEKAAEYFKQPEQPKQNA  56
+            + IG  +P E E F     + W  L +   G     V  +  I  AA  FKQ EQP QNA
+Sbjct  130  IKIGKVSPEEVEQFNLIARKTWAELNKLNGGDINYIVKTNEFIHAAACRFKQQEQPLQNA  189
+
+Query  57   IEVISAIMAPQE-EQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAE  115
+            I+V+ AI+AP   +   +     KFLAMFGP  TIMLKIASLL  SN  G WL F     
+Sbjct  190  IDVLQAIIAPNPLQDRITFPQFAKFLAMFGPENTIMLKIASLLSCSNQSGQWLFFG----  245
+
+Query  116  KNANNQRDSISGWFDQNEPNCL-ILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDK  174
+               ++   S  G F+ +EPNCL +    +   +IWN PL +A G Y+ DE    Y SW+ 
+Sbjct  246  --KSDTIMSFYGTFNDSEPNCLELFHMNSPPVRIWNMPLTDANGDYIRDE-ITSYLSWED  302
+
+Query  175  YFEMKPILTAYPTFA  189
+            YF+  P+    P  +
+Sbjct  303  YFQKHPVNIGMPPIS  317
+
+
+> UniRef90_A0A1J4KYJ7 39 kDa initiator binding protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4KYJ7_9EUKA
+Length=327
+
+ Score = 194 bits (494),  Expect = 2e-57, Method: Composition-based stats.
+ Identities = 77/187 (41%), Positives = 101/187 (54%), Gaps = 8/187 (4%)
+
+Query  1    MCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVI  60
+            + +G     E ETF      IW  L    D  V     I+ AA+ FKQ EQP  NA +V+
+Sbjct  136  ITLGPIQNQEFETFVQICKNIWTELLTSDDRPVQTPHFIDVAAQRFKQEEQPLDNARDVL  195
+
+Query  61   SAIMAPQ-EEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNAN  119
+             AI+AP   +   + A   KF+AMFGP +TIMLKIASLL  SNN G WL F+PQ      
+Sbjct  196  RAIIAPSPNQNVVTFAQFCKFMAMFGPEKTIMLKIASLLSSSNNSGQWLMFEPQTMNA--  253
+
+Query  120  NQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEA--TGQYLMDENGEKYDSWDKYFE  177
+               ++  G F  NEPNCL+L       +IWN P +EA    +Y++DE    Y SW++YF+
+Sbjct  254  ---NTFYGAFSDNEPNCLVLNYRNKPVRIWNLPNVEAMPNKRYIVDEENRYYSSWEEYFQ  310
+
+Query  178  MKPILTA  184
+              P+   
+Sbjct  311  YNPVAQQ  317
+
+
+> UniRef90_A0A1J4KII9 39 kDa initiator binding protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4KII9_9EUKA
+Length=342
+
+ Score = 193 bits (489),  Expect = 1e-56, Method: Composition-based stats.
+ Identities = 54/188 (29%), Positives = 89/188 (47%), Gaps = 4/188 (2%)
+
+Query  1    MCIGNSTPNEQETFRAKVDEIWFRLTQK--TDGTVMRDFLIEKAAEYFKQPEQPKQNAIE  58
+            + +G    ++ + ++     IW  L        + +    I  +A  F+   Q  +NA E
+Sbjct  154  ITLGKCDSSQTQIYKKITISIWEELIDSPIQKSSALPAEFINLSAVRFRASHQKLENAKE  213
+
+Query  59   VISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNA  118
+            ++  I    +    +  D   F+A FGP ET+M K+ SLL  SN   +WL     A+ + 
+Sbjct  214  ILHRIFICADPSQLTIIDFAVFMARFGPEETLMQKVGSLLKSSNENNNWLRL-TTAKNSL  272
+
+Query  119  NNQRDSISGWFDQNEPNCLILKTPTGIR-KIWNKPLIEATGQYLMDENGEKYDSWDKYFE  177
+             N+  S  G+FD+ E N  +L  P G    ++N     AT  YL+D +G+KY+SW  YF 
+Sbjct  273  PNENSSFYGFFDEIENNGFVLHRPDGTTSHLYNIVDTPATEAYLIDADGQKYNSWQDYFA  332
+
+Query  178  MKPILTAY  185
+              P+ + +
+Sbjct  333  KNPVESIF  340
+
+
+> UniRef90_A0A1J4JX46 39 kDa initiator binding protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4JX46_9EUKA
+Length=331
+
+ Score = 182 bits (462),  Expect = 1e-52, Method: Composition-based stats.
+ Identities = 63/184 (34%), Positives = 93/184 (51%), Gaps = 10/184 (5%)
+
+Query  2    CIGNSTPNEQETFRAKVDEIWFRLTQ-KTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVI  60
+             +G    +  + F+      W  LT   T+ +      ++ AA  FK PEQ ++ A+ +I
+Sbjct  141  SLGPLVDSFFQEFQRTCVHTWKELTGLNTNRSFTSSSFLQHAAAKFKIPEQNEKQALNII  200
+
+Query  61   SAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKG--HWLTFDPQAEKNA  118
+             +I+AP   +  +     +F+AMFGP +T+M KI SLL  S  +    WL F        
+Sbjct  201  KSIIAPHHVELINFEMFARFMAMFGPPQTVMQKITSLLESSEREKPEPWLLFSKPESMPQ  260
+
+Query  119  NNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEAT-GQYLMDENGEKYDSWDKYFE  177
+            N       G FD+NE NCL +K      K+WN PLI +  G Y+MDE+G  + SWD YF+
+Sbjct  261  N------YGMFDENEQNCLFIKMYGTEIKVWNIPLINSNEGDYIMDEDGRLFSSWDTYFK  314
+
+Query  178  MKPI  181
+              P+
+Sbjct  315  HHPL  318
+
+
+> UniRef90_A2DI90 39 kDa initiator binding protein, putative n=1 
+Tax=Trichomonas vaginalis TaxID=5722 RepID=A2DI90_TRIVA
+Length=353
+
+ Score = 182 bits (462),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 64/194 (33%), Positives = 100/194 (52%), Gaps = 10/194 (5%)
+
+Query  1    MCIGNSTPNEQETFRAKVDEIWFRLTQKTDG--TVMRDFLIEKAAEYFKQPEQPKQNAIE  58
+            + I    P  Q+ FR     IW  L + + G  T   D  I  AA  F+  +Q  +NA +
+Sbjct  157  VMISKCDPEIQQQFRRFTVSIWDELIEASGGKTTFTLDDFIFLAARRFRISKQSLKNATQ  216
+
+Query  59   VISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWL--TFDPQAEK  116
+            +I  I    +    + +D  KF+A FGP ET+M K+  +L  SN+ G+WL  T DP    
+Sbjct  217  LIRVIFLCADTTQVTLSDFTKFMAKFGPEETLMEKVGGMLSSSNHHGNWLNVTTDPSGLS  276
+
+Query  117  NANNQRDSISGWFDQNEPNCLILKTPTG-IRKIWNKPLI-EATGQYLMDENGEKYDSWDK  174
+            N     D + G+FD  E NC+I         K+WN+  +  + G+YL+D+N  +YDSW++
+Sbjct  277  NP----DGLYGYFDNTEQNCIIFVYQNIFTFKVWNRVNVASSDGKYLVDQNDNEYDSWEQ  332
+
+Query  175  YFEMKPILTAYPTF  188
+            +F++ P+    P+ 
+Sbjct  333  FFQINPMKIQEPSL  346
+
+
+> UniRef90_A2FY83 39 kDa initiator binding protein, putative n=1 
+Tax=Trichomonas vaginalis TaxID=5722 RepID=A2FY83_TRIVA
+Length=327
+
+ Score = 173 bits (438),  Expect = 4e-49, Method: Composition-based stats.
+ Identities = 70/179 (39%), Positives = 107/179 (60%), Gaps = 7/179 (4%)
+
+Query  1    MCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVI  60
+            + IG+ +  E   F+  V   +  +TQ  +  +  +  I+ AA YFKQPEQ  +NAI+VI
+Sbjct  152  LKIGHVSAQEDLNFQEIVKSDFLEITQN-EIDMPAEMFIKNAANYFKQPEQTLENAIDVI  210
+
+Query  61   SAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANN  120
+            + I+ PQE    +  DL++FLAMFGP  T+M+KI SLL  +N    WL  DP  +     
+Sbjct  211  TPILRPQE-NIVTYDDLFRFLAMFGPKNTVMIKIVSLLRSNNEDTSWLYLDPAQK----P  265
+
+Query  121  QRDSISGWFDQNEPNCLILKTPTG-IRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEM  178
+                 +G FD+  PNCL+LK   G + +++N PLI+A G Y++DEN  ++ SW+++F+ 
+Sbjct  266  LDKDFTGTFDKYLPNCLVLKFKDGNVIRVFNHPLIDAFGTYVVDENNHQFASWEEFFQS  324
+
+
+> UniRef90_A2E3Z9 39 kDa initiator binding protein, putative n=1 
+Tax=Trichomonas vaginalis TaxID=5722 RepID=A2E3Z9_TRIVA
+Length=326
+
+ Score = 169 bits (428),  Expect = 9e-48, Method: Composition-based stats.
+ Identities = 55/186 (30%), Positives = 87/186 (47%), Gaps = 9/186 (5%)
+
+Query  1    MCIGNSTPNEQETFRAKVDEIWFRLTQKTDG-TVMRDFLIEKAAEYFKQPEQPKQNAIEV  59
+            + IG      +    +    IW ++ +     +V  +F I K A+ +    Q  +N++ V
+Sbjct  146  ITIGALDQTNKNEILSNAINIWQQIVEVIGIDSVRSEFFILKLAKRYNLHGQSFENSLSV  205
+
+Query  60   ISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFD--PQAEKN  117
+            I +I+AP      +  D YKF   FGP  TIM+KI SLL ++ N   WL F   P   K 
+Sbjct  206  IKSILAPTNAPLITFLDFYKFYLAFGPEPTIMIKIHSLLEVAVNDKPWLYFGYLPDEIKK  265
+
+Query  118  ANNQRDSISGWFD-QNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYF  176
+             +        +FD +NEPNCL++       K +N P + +   Y++ E G  + SW  Y 
+Sbjct  266  VSENF----AYFDTENEPNCLVIVWNGMTHKGYNLPNVSSDSSYVVAEAG-TFKSWTDYI  320
+
+Query  177  EMKPIL  182
+            +   I+
+Sbjct  321  QSLHII  326
+
+
+> UniRef90_A0A1J4K053 Uncharacterized protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4K053_9EUKA
+Length=463
+
+ Score = 168 bits (425),  Expect = 4e-46, Method: Composition-based stats.
+ Identities = 49/178 (28%), Positives = 76/178 (43%), Gaps = 11/178 (6%)
+
+Query  4    GNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVISAI  63
+            G   P E E F  +   +W +     + +V     I+K   YFK P Q + NA   ++ I
+Sbjct  280  GELDPKEIEKFWIQSQYLWKKFFGDLE-SVPTKEFIKKTVSYFKLPNQLESNARGTLTFI  338
+
+Query  64   MAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANNQRD  123
+              P  ++  +      FLAMFGP  T + KI   L         L +        N+  D
+Sbjct  339  FDPANQEETTFLQFCAFLAMFGPANTAIRKIGHWLKCPPELKDSLLY--------NDIPD  390
+
+Query  124  SISGWFDQNEPNCLILKTPTG--IRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEMK  179
+            +     +  E NC  L    G   + ++N P ++  G YL+D++G  Y +W +YFE  
+Sbjct  391  TSYDNVEDIEMNCFSLNLEEGQTEKAVYNIPYVDTDGNYLVDQDGTFYKNWAEYFEKN  448
+
+
+> UniRef90_A0A1J4JY24 Uncharacterized protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4JY24_9EUKA
+Length=465
+
+ Score = 165 bits (418),  Expect = 5e-45, Method: Composition-based stats.
+ Identities = 45/175 (26%), Positives = 64/175 (37%), Gaps = 10/175 (6%)
+
+Query  4    GNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVISAI  63
+            G    +E + F       W +L   +  +V  D  I KAA  FK   Q + NA E +   
+Sbjct  276  GELDESEAKKFWTGARNTWKKLFDDS-LSVDTDDFIWKAAASFKLQNQTESNAREALRFF  334
+
+Query  64   MAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANNQRD  123
+              P+     S      FLA+FGP  T+  KI   L         L +    +    ++  
+Sbjct  335  FDPETIDEVSFVQFSAFLALFGPTSTMFRKIQHFLRCPPKLKDGLVYADAIDVQEPDK--  392
+
+Query  124  SISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEM  178
+                   +   N   L        I+N P    +  YL DE G KY SW ++F  
+Sbjct  393  -------ETWMNEFSLTCNEEEVFIYNNPNATTSEMYLTDEEGNKYGSWMEFFSK  440
+
+
+> UniRef90_A0A1J4JJ54 Uncharacterized protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4JJ54_9EUKA
+Length=504
+
+ Score = 163 bits (412),  Expect = 6e-44, Method: Composition-based stats.
+ Identities = 42/182 (23%), Positives = 79/182 (43%), Gaps = 9/182 (5%)
+
+Query  4    GNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVISAI  63
+            G+ T +E + F       W ++   +D  V     + K A   K P+Q + NA E +   
+Sbjct  188  GDLTDSEVKKFWNVSKVQWQKMFGDSD-VVDVSEFVRKTANLCKLPKQTESNAKETLQFF  246
+
+Query  64   MAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANNQRD  123
+             +P E +  S +    FLA+FGP +++  KI  +  +S +  +   +   AE    +   
+Sbjct  247  FSPDEIENVSFSQFCAFLALFGPSDSVFRKIRDIFGLSEDIKNCFEYPEPAEFTDESIET  306
+
+Query  124  SISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEMKPILT  183
+             ++G+         +       R ++N P +     YL+DE G+ +D+W+ +F   P+  
+Sbjct  307  EMNGFS--------VFVGTESERYVFNNPCVPYGKTYLIDETGKMFDTWNDFFTENPLSA  358
+
+Query  184  AY  185
+              
+Sbjct  359  NQ  360
+
+
+> UniRef90_A2FK14 Uncharacterized protein n=1 Tax=Trichomonas vaginalis 
+TaxID=5722 RepID=A2FK14_TRIVA
+Length=328
+
+ Score = 157 bits (396),  Expect = 5e-43, Method: Composition-based stats.
+ Identities = 42/190 (22%), Positives = 70/190 (37%), Gaps = 20/190 (11%)
+
+Query  1    MCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQP---KQNAI  57
+            + +          F+ +V + W +L       ++    I    +Y     Q      +  
+Sbjct  151  IQLFMMDEKAISMFKKEVIQKWEKLVG---SPLIFAVSIPVFTKYLLNSIQDSLGYHDEN  207
+
+Query  58   EVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLI--SNNKGHWLTFDPQAE  115
+              I  ++  +     +  D   FLA FGP++ +  KI     I       +++   P   
+Sbjct  208  NTIQQVLVGKTPNVVTIFDFAVFLARFGPFDNVPYKIMQYQQILHIIQPDYFMFTAP---  264
+
+Query  116  KNANNQRDSISGWFDQNEPNCLILKT-PTGIRKIWNKPLIEATGQYLMDENGEKYDSWDK  174
+                    S+  +F     NC   K   TG    +N PLI ++  YL+DE+G  Y SW+K
+Sbjct  265  --------SLINYFSSTFHNCFSFKISQTGEYHCYNLPLISSSAAYLVDEDGVYYKSWEK  316
+
+Query  175  YFEMKPILTA  184
+              E    LT 
+Sbjct  317  MVEANHFLTQ  326
+
+
+> UniRef90_A0A1J4JV85 Uncharacterized protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4JV85_9EUKA
+Length=404
+
+ Score = 156 bits (394),  Expect = 5e-42, Method: Composition-based stats.
+ Identities = 45/187 (24%), Positives = 74/187 (40%), Gaps = 15/187 (8%)
+
+Query  1    MCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQP-KQNAIEV  59
+            + +      E   F+ +V + W  L       V     I+   +  K   Q    + + +
+Sbjct  229  IELYGMDMEEIRLFKKEVIKKWESLVG---KVVFAIGFID-FMKLLKANLQNHIFSDLAI  284
+
+Query  60   ISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNAN  119
+            I   + P+        D   FLA FGP+E + LK+     I N     L  D  A  +  
+Sbjct  285  IKQTLYPRNIGIIDIFDFAVFLARFGPFENVQLKLYQYQTILNE----LRPDLFASGSP-  339
+
+Query  120  NQRDSISGWFDQNEPNCLILKTP-TGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEM  178
+                S+  +F  N  NC   + P +G    +N PL     ++L+DE+G ++ +W K  +M
+Sbjct  340  ----SVISFFGPNFHNCFSFRHPHSGEYHCYNLPLKNLNEEFLVDEDGLRFPNWQKVIQM  395
+
+Query  179  KPILTAY  185
+             P L   
+Sbjct  396  NPFLVHM  402
+
+
+> UniRef90_A0A1J4J6V6 Uncharacterized protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4J6V6_9EUKA
+Length=315
+
+ Score = 154 bits (389),  Expect = 5e-42, Method: Composition-based stats.
+ Identities = 37/190 (19%), Positives = 60/190 (32%), Gaps = 18/190 (9%)
+
+Query  1    MCIGNSTPNEQETFRAKVDEIWFRLTQKTDG-TVMRDFLIEKAAEYFKQPEQPKQNAIEV  59
+            + +        + F+  V + W  L        V     I+                  V
+Sbjct  141  LHLFMMDRKSIDQFKKCVIDKWEELVGGKLIFAVPLKDFIKALEINL---NDTLFTDTYV  197
+
+Query  60   ISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNAN  119
+            I   + P+        D   FLA FGP+E I  K+     I  +  ++ +       +  
+Sbjct  198  IQQALVPRIPNVMDIFDFAVFLARFGPFENIQTKMNQYQGIFMSDFYFSSNSLSTSFS--  255
+
+Query  120  NQRDSISGWFDQNEPNCLILK-TPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEM  178
+                           NC        G    +N PL+  T  +L+DE+G  Y SW +  + 
+Sbjct  256  -----------DTFHNCFRFSLLQVGEYHCYNLPLVSTTAYFLIDEDGICYPSWSEMLQR  304
+
+Query  179  KPILTAYPTF  188
+               L+  P F
+Sbjct  305  NYFLSHTPNF  314
+
+
+> UniRef90_A2FZT1 Uncharacterized protein n=1 Tax=Trichomonas vaginalis 
+TaxID=5722 RepID=A2FZT1_TRIVA
+Length=313
+
+ Score = 152 bits (384),  Expect = 3e-41, Method: Composition-based stats.
+ Identities = 41/189 (22%), Positives = 71/189 (38%), Gaps = 17/189 (9%)
+
+Query  1    MCIGNSTPNEQETFRAKVDEIWFRLTQKTDG-TVMRDFLIEKAAEYFKQPEQPKQNAIEV  59
+            + +   T NE   F+  V   W ++ +      V +  L +           P       
+Sbjct  139  ITLFGMTENEIVAFKRNVITTWEKIIKPNHVFAVSKKELTDSFGGQAGFCNDPYA-----  193
+
+Query  60   ISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNAN  119
+            +   +  +        D   F+A F P+E I+ K+        +K   L  D + +    
+Sbjct  194  LQEALTTKVTAVIDINDFAIFMARFDPFENIIFKL--------DKFQQLIPDLRVKMT--  243
+
+Query  120  NQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYFEMK  179
+             Q  SIS +F +   NC   +   G    +N P + +T  YL +E+GE++ SW    +  
+Sbjct  244  -QIGSISSFFAKTYHNCFSFQMSGGEYHCYNLPHVGSTANYLQNEDGERFQSWTMALQST  302
+
+Query  180  PILTAYPTF  188
+             IL +   F
+Sbjct  303  SILQSQTGF  311
+
+
+> UniRef90_A2EAY0 Uncharacterized protein n=1 Tax=Trichomonas vaginalis 
+TaxID=5722 RepID=A2EAY0_TRIVA
+Length=384
+
+ Score = 144 bits (363),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 38/214 (18%), Positives = 75/214 (35%), Gaps = 33/214 (15%)
+
+Query  1    MCIGNSTPNEQETFRAKVDEIWFRLT---------------------------QKTDGTV  33
+            + I    P     F+ +   +W  +                              +  T 
+Sbjct  156  VRIYPPIPENNNRFKNEAIFLWEEIVPNHCIWAYSLTQFIEAATMKFCASYSKSSSGETF  215
+
+Query  34   MRDFLIEKAAEYFKQPEQPKQN-AIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIML  92
+              D    + ++Y K       + A ++++ ++  +     +  +   F A FGP ++++ 
+Sbjct  216  TYDAQQTQFSQYLKNYNLDLHDTARKMLTYVLTHKNTYCITIPEFCTFFARFGPDDSVLE  275
+
+Query  93   KIASLLLISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIR-KIWNK  151
+            KI  LL  S     W     Q      +    I+G +     NC I+K   GI   ++N+
+Sbjct  276  KIHQLLCCSKAYNDWFKPVEQ----TFDLHKPITGCYSNTFANCFIIKRSQGITFHVYNQ  331
+
+Query  152  PLIEATGQYLMDENGEKYDSWDKYFEMKPILTAY  185
+            P  +    +L DE+ + +++W   FEM       
+Sbjct  332  PFFQGPVGFLFDESDKNFNTWHAVFEMMSCQQIQ  365
+
+
+> UniRef90_A0A1J4JLV4 Uncharacterized protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4JLV4_9EUKA
+Length=457
+
+ Score = 136 bits (343),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 64/247 (26%), Positives = 96/247 (39%), Gaps = 74/247 (30%)
+
+Query  3    IGNSTPNEQETFRAKVDEIWFRLTQKTDG--TVMRDFLIEKAAEYFKQPEQPKQNAIEVI  60
+            +G         F      +WF++         V ++  I++ A   K+PEQP QN+IEVI
+Sbjct  209  LGTVMRTACNIFVQTCITLWFQMFNNLPIYEKVPKNVFIKQLALAAKRPEQPIQNSIEVI  268
+
+Query  61   SAIMAPQ---------------------------------------------------EE  69
+             AI A +                                                    +
+Sbjct  269  EAIFADRDNDMNSINNLDNNNNNNNNNSVNNDNDTDSGINHDKNNDVSNDNDKKEYENND  328
+
+Query  70   QTKSKADLY-----KFLAMFGPYETIMLKIASLLLI------------SNNKGHWLTFDP  112
+            +TK K D        FLA FGP ET M+KIA +               +N + +W+ F P
+Sbjct  329  KTKKKDDFTFIDLLTFLARFGPIETSMIKIAHMAKCTILNSNTMSGYGNNFRNNWIFFYP  388
+
+Query  113  QAEKNANNQRDSISGWFDQNEPNCLILKTP--TGIRKIWNKPLIEATGQYLMDENGEKYD  170
+                +  +   S+ G+FD NE N  ++       ++K+WN PLI+A G YL DE  + + 
+Sbjct  389  PQTSDVTSL--SMYGYFDSNELNMFVINMQETGTVKKVWNMPLIDAYGCYLADEKVKTFC  446
+
+Query  171  SWDKYFE  177
+            SW  +FE
+Sbjct  447  SWLSFFE  453
+
+
+> UniRef90_A0A1J4JM68 Uncharacterized protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4JM68_9EUKA
+Length=374
+
+ Score = 135 bits (339),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 44/206 (21%), Positives = 75/206 (36%), Gaps = 34/206 (17%)
+
+Query  1    MCIGNSTPNEQETFRAKVDEIWFRLTQKTDG-TVMRDFLI--------------------  39
+            + I    P++   F+  V  +W  +  +     + R   I                    
+Sbjct  149  VLIYPPNPSKISLFKTDVTLLWHEIVGRQTVWAIDRKEFINATADRFCQSFNSIPGDQYP  208
+
+Query  40   -----EKAAEYFKQPEQPK-QNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLK  93
+                  K A+Y +     K + A ++IS ++  + +   +  D + F A FGP E ++ K
+Sbjct  209  FDTQQTKFAQYLEANNLDKVKTARQMISYVLTQENKNYVTLLDFFMFFARFGPEECVLEK  268
+
+Query  94   IASLLLISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTP-TGIRKIWNKP  152
+            I  LL  S     W        K   +    +SG +     NC I+K        I+N P
+Sbjct  269  IHQLLCCSQAFDDWFRPG----KQTFDDSKPMSGSYSNTFANCFIIKWSKNITYHIYNIP  324
+
+Query  153  LIEATGQ--YLMDENGEKYDSWDKYF  176
+                  Q  +L+DE  +K+ +W   F
+Sbjct  325  NAPTGNQTGFLIDETDKKFQTWHAVF  350
+
+
+> UniRef90_A0A1J4JGD7 Uncharacterized protein n=1 Tax=Tritrichomonas 
+foetus TaxID=1144522 RepID=A0A1J4JGD7_9EUKA
+Length=241
+
+ Score = 128 bits (322),  Expect = 6e-33, Method: Composition-based stats.
+ Identities = 27/167 (16%), Positives = 61/167 (37%), Gaps = 15/167 (9%)
+
+Query  14   FRAKVDEIWFRLTQKTDGTV-MRDFLIEKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTK  72
+            F   +   W  +    +      +  + + A+ ++  +  + ++  ++S +         
+Sbjct  77   FIPHLRSKWKIICDNYNSEFLPIEIFLTRLADMYQVKDLSQADSYYLLSLVTFCTIPGWV  136
+
+Query  73   SKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFD------PQAEKNANNQRDSIS  126
+            +  D     + FG    ++ K+  LL  +   G++L F+      P  + N         
+Sbjct  137  NFNDFVMLFSNFGEKNAVIPKLVLLLNSNKKCGNFLRFEFYTGQKPDEKTNVYFSNGPSY  196
+
+Query  127  GWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWD  173
+            G+        ++L    G  +I N        ++L+D  G +Y SWD
+Sbjct  197  GF--------IVLWPDGGTLEITNDFNTPFFSEFLVDSGGNRYQSWD  235
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.130    0.372    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0399    0.140     1.90     42.6     43.6 
+
+Effective search space used: 527530553250
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

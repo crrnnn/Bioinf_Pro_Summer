@@ -1,0 +1,357 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d2au5a1
+
+Length=128
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q82ZV0 Conserved domain protein n=2 Tax=Enterococcus f...  255     1e-84
+  UniRef90_A0A0M1ZW63 Uncharacterized protein n=7 Tax=Enterococcu...  89.7    6e-20
+  UniRef90_W1K8A1 Uncharacterized protein n=6 Tax=Enterococcus Ta...  88.6    1e-19
+  UniRef90_R2SML5 Uncharacterized protein n=1 Tax=Enterococcus as...  88.2    2e-19
+  UniRef90_R2XNY1 Uncharacterized protein n=1 Tax=Enterococcus gi...  85.5    2e-18
+  UniRef90_UPI00064C8F14 hypothetical protein n=1 Tax=Enterococcu...  81.3    9e-17
+  UniRef90_UPI0006616DC2 hypothetical protein n=1 Tax=Enterococcu...  80.5    2e-16
+
+
+> UniRef90_Q82ZV0 Conserved domain protein n=2 Tax=Enterococcus 
+faecalis TaxID=1351 RepID=Q82ZV0_ENTFA
+Length=136
+
+ Score = 255 bits (651),  Expect = 1e-84, Method: Compositional matrix adjust.
+ Identities = 128/132 (97%), Positives = 128/132 (97%), Gaps = 4/132 (3%)
+
+Query  1    MLILS----PNFEYEEITRSFLSNMLAFTRGHFTGDISHFSPIVLAEMEKDPNWLEEAAG  56
+            MLILS    PNFEYEEITRSFLSNMLAFTRGHFTGDISHFSPIVLAEMEKDPNWLEEAAG
+Sbjct  1    MLILSTEKEPNFEYEEITRSFLSNMLAFTRGHFTGDISHFSPIVLAEMEKDPNWLEEAAG  60
+
+Query  57   GMQGVIVQSLLEDENFSSVEQLKGELARLIRLYFALAKDNLTENQESLYVDLFDKFTFLL  116
+            GMQGVIVQSLLEDENFSSVEQLKGELARLIRLYFALAKDNLTENQESLYVDLFDKFTFLL
+Sbjct  61   GMQGVIVQSLLEDENFSSVEQLKGELARLIRLYFALAKDNLTENQESLYVDLFDKFTFLL  120
+
+Query  117  LCSDEFIMYLDS  128
+            LCSDEFIMYLDS
+Sbjct  121  LCSDEFIMYLDS  132
+
+
+> UniRef90_A0A0M1ZW63 Uncharacterized protein n=7 Tax=Enterococcus 
+faecium TaxID=1352 RepID=A0A0M1ZW63_ENTFC
+Length=135
+
+ Score = 89.7 bits (221),  Expect = 6e-20, Method: Compositional matrix adjust.
+ Identities = 48/122 (39%), Positives = 72/122 (59%), Gaps = 0/122 (0%)
+
+Query  5    SPNFEYEEITRSFLSNMLAFTRGHFTGDISHFSPIVLAEMEKDPNWLEEAAGGMQGVIVQ  64
+            +PNF+Y +    FL N LAF+ G  T D S F P VL  ME++P+WL+E+    Q ++V 
+Sbjct  10   APNFQYTDEMDRFLMNTLAFSVGLVTEDYSTFDPEVLKIMEEEPDWLQESVAWCQSLVVG  69
+
+Query  65   SLLEDENFSSVEQLKGELARLIRLYFALAKDNLTENQESLYVDLFDKFTFLLLCSDEFIM  124
+            SL++  N+    +L  E   L+ LY    +  LT N+++L++++ DKF  LLL  DE I 
+Sbjct  70   SLVDSGNYDDTGELMDEFNCLLNLYDRARQRELTSNEDNLFLNIHDKFLALLLTDDELIT  129
+
+Query  125  YL  126
+             L
+Sbjct  130  NL  131
+
+
+> UniRef90_W1K8A1 Uncharacterized protein n=6 Tax=Enterococcus 
+TaxID=1350 RepID=W1K8A1_9ENTE
+Length=135
+
+ Score = 88.6 bits (218),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 49/120 (41%), Positives = 72/120 (60%), Gaps = 0/120 (0%)
+
+Query  7    NFEYEEITRSFLSNMLAFTRGHFTGDISHFSPIVLAEMEKDPNWLEEAAGGMQGVIVQSL  66
+            +FEY +     L N L+F+    T D S FSP VL +MEKDP WL + A  +Q  IV SL
+Sbjct  12   HFEYTKEIGQVLMNALSFSVALQTKDYSTFSPEVLEQMEKDPEWLYDIANWLQVTIVNSL  71
+
+Query  67   LEDENFSSVEQLKGELARLIRLYFALAKDNLTENQESLYVDLFDKFTFLLLCSDEFIMYL  126
+            L+ +N+ S++++  E   L+ LY    +  LT N+++L++++ DKF  LLL  DE I  L
+Sbjct  72   LQSDNYDSIDEIVREFNCLLNLYDRARQRELTSNEDNLFLNIHDKFLALLLTDDELITNL  131
+
+
+> UniRef90_R2SML5 Uncharacterized protein n=1 Tax=Enterococcus 
+asini ATCC 700915 TaxID=1158606 RepID=R2SML5_9ENTE
+Length=136
+
+ Score = 88.2 bits (217),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 45/121 (37%), Positives = 73/121 (60%), Gaps = 0/121 (0%)
+
+Query  5    SPNFEYEEITRSFLSNMLAFTRGHFTGDISHFSPIVLAEMEKDPNWLEEAAGGMQGVIVQ  64
+             PN  Y ++   FL N++AF+    T D S FSP VL  ME +P WL+E     Q ++ Q
+Sbjct  10   KPNLAYVDMMERFLMNVVAFSVALVTKDYSTFSPEVLEMMESNPEWLKETVAWGQQMLAQ  69
+
+Query  65   SLLEDENFSSVEQLKGELARLIRLYFALAKDNLTENQESLYVDLFDKFTFLLLCSDEFIM  124
+            S+++ EN+ + E++  +L+ LI LY    +  LT+++++L+ +L D+F  LLL  DE I 
+Sbjct  70   SVVDGENYLTNEEMAEDLSGLIVLYNTATQRELTDHEDALFTNLHDRFLTLLLVDDELIK  129
+
+Query  125  Y  125
+            +
+Sbjct  130  H  130
+
+
+> UniRef90_R2XNY1 Uncharacterized protein n=1 Tax=Enterococcus 
+gilvus ATCC BAA-350 TaxID=1158614 RepID=R2XNY1_9ENTE
+Length=135
+
+ Score = 85.5 bits (210),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 45/122 (37%), Positives = 71/122 (58%), Gaps = 0/122 (0%)
+
+Query  5    SPNFEYEEITRSFLSNMLAFTRGHFTGDISHFSPIVLAEMEKDPNWLEEAAGGMQGVIVQ  64
+            +PNF+Y +     L N L+F+    T D S FSP VL +ME++P WL +    +Q  IV 
+Sbjct  10   APNFQYTKEIGQVLMNTLSFSVALQTKDYSTFSPEVLEQMEREPEWLYDITNWLQVTIVN  69
+
+Query  65   SLLEDENFSSVEQLKGELARLIRLYFALAKDNLTENQESLYVDLFDKFTFLLLCSDEFIM  124
+            SLL+ +N+ S++++  E   L+ LY    +   T ++  L++++ DKF  LLL  +E I 
+Sbjct  70   SLLQSDNYDSIDEIVREFNCLLSLYDVARQREFTPSENHLFLNIHDKFLALLLTDEELIT  129
+
+Query  125  YL  126
+            YL
+Sbjct  130  YL  131
+
+
+> UniRef90_UPI00064C8F14 hypothetical protein n=1 Tax=Enterococcus 
+faecium TaxID=1352 RepID=UPI00064C8F14
+Length=135
+
+ Score = 81.3 bits (199),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 44/116 (38%), Positives = 65/116 (56%), Gaps = 0/116 (0%)
+
+Query  8    FEYEEITRSFLSNMLAFTRGHFTGDISHFSPIVLAEMEKDPNWLEEAAGGMQGVIVQSLL  67
+            FEY +     L N L+F+    T D S FSP VL +M KDP WL +    +Q  IV SLL
+Sbjct  13   FEYTKEIGQVLMNALSFSVALQTKDYSTFSPEVLEQMGKDPEWLYDVTNWLQVTIVNSLL  72
+
+Query  68   EDENFSSVEQLKGELARLIRLYFALAKDNLTENQESLYVDLFDKFTFLLLCSDEFI  123
+            + +N+ S++++  E   L+ LY       LT+N+ +L++ + DK   LLL  DE +
+Sbjct  73   QSDNYDSIDEVVSEFNCLLNLYDVARSRELTQNENNLFLSIHDKILALLLSDDELV  128
+
+
+> UniRef90_UPI0006616DC2 hypothetical protein n=1 Tax=Enterococcus 
+hirae TaxID=1354 RepID=UPI0006616DC2
+Length=134
+
+ Score = 80.5 bits (197),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 44/117 (38%), Positives = 69/117 (59%), Gaps = 0/117 (0%)
+
+Query  7    NFEYEEITRSFLSNMLAFTRGHFTGDISHFSPIVLAEMEKDPNWLEEAAGGMQGVIVQSL  66
+            +FEY +     L N L+F+    T D S FSP VL +MEK+P WL +    +Q  IV SL
+Sbjct  12   HFEYTKEIGQVLMNTLSFSVALQTKDYSTFSPEVLEQMEKEPEWLYDVTNWLQVTIVNSL  71
+
+Query  67   LEDENFSSVEQLKGELARLIRLYFALAKDNLTENQESLYVDLFDKFTFLLLCSDEFI  123
+            L+ +N+ S++++  E   L+ LY      +LT ++E+L++ L DKF  LLL  ++ +
+Sbjct  72   LQSDNYDSIDEIVNEFNCLLNLYDVARSRSLTSSEENLFLGLHDKFLALLLTDEDLL  128
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 439244492610
+Results from round 2
+
+
+Query= d2au5a1
+
+Length=128
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_R2XNY1 Uncharacterized protein n=1 Tax=Enterococcus gi...  186     1e-57
+  UniRef90_W1K8A1 Uncharacterized protein n=6 Tax=Enterococcus Ta...  182     5e-56
+  UniRef90_A0A0M1ZW63 Uncharacterized protein n=7 Tax=Enterococcu...  175     2e-53
+  UniRef90_UPI00064C8F14 hypothetical protein n=1 Tax=Enterococcu...  174     7e-53
+  UniRef90_UPI0006616DC2 hypothetical protein n=1 Tax=Enterococcu...  172     5e-52
+  UniRef90_Q82ZV0 Conserved domain protein n=2 Tax=Enterococcus f...  168     2e-50
+  UniRef90_R2SML5 Uncharacterized protein n=1 Tax=Enterococcus as...  161     8e-48
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_R2XNY1 Uncharacterized protein n=1 Tax=Enterococcus 
+gilvus ATCC BAA-350 TaxID=1158614 RepID=R2XNY1_9ENTE
+Length=135
+
+ Score = 186 bits (472),  Expect = 1e-57, Method: Composition-based stats.
+ Identities = 45/122 (37%), Positives = 71/122 (58%), Gaps = 0/122 (0%)
+
+Query  5    SPNFEYEEITRSFLSNMLAFTRGHFTGDISHFSPIVLAEMEKDPNWLEEAAGGMQGVIVQ  64
+            +PNF+Y +     L N L+F+    T D S FSP VL +ME++P WL +    +Q  IV 
+Sbjct  10   APNFQYTKEIGQVLMNTLSFSVALQTKDYSTFSPEVLEQMEREPEWLYDITNWLQVTIVN  69
+
+Query  65   SLLEDENFSSVEQLKGELARLIRLYFALAKDNLTENQESLYVDLFDKFTFLLLCSDEFIM  124
+            SLL+ +N+ S++++  E   L+ LY    +   T ++  L++++ DKF  LLL  +E I 
+Sbjct  70   SLLQSDNYDSIDEIVREFNCLLSLYDVARQREFTPSENHLFLNIHDKFLALLLTDEELIT  129
+
+Query  125  YL  126
+            YL
+Sbjct  130  YL  131
+
+
+> UniRef90_W1K8A1 Uncharacterized protein n=6 Tax=Enterococcus 
+TaxID=1350 RepID=W1K8A1_9ENTE
+Length=135
+
+ Score = 182 bits (462),  Expect = 5e-56, Method: Composition-based stats.
+ Identities = 49/120 (41%), Positives = 72/120 (60%), Gaps = 0/120 (0%)
+
+Query  7    NFEYEEITRSFLSNMLAFTRGHFTGDISHFSPIVLAEMEKDPNWLEEAAGGMQGVIVQSL  66
+            +FEY +     L N L+F+    T D S FSP VL +MEKDP WL + A  +Q  IV SL
+Sbjct  12   HFEYTKEIGQVLMNALSFSVALQTKDYSTFSPEVLEQMEKDPEWLYDIANWLQVTIVNSL  71
+
+Query  67   LEDENFSSVEQLKGELARLIRLYFALAKDNLTENQESLYVDLFDKFTFLLLCSDEFIMYL  126
+            L+ +N+ S++++  E   L+ LY    +  LT N+++L++++ DKF  LLL  DE I  L
+Sbjct  72   LQSDNYDSIDEIVREFNCLLNLYDRARQRELTSNEDNLFLNIHDKFLALLLTDDELITNL  131
+
+
+> UniRef90_A0A0M1ZW63 Uncharacterized protein n=7 Tax=Enterococcus 
+faecium TaxID=1352 RepID=A0A0M1ZW63_ENTFC
+Length=135
+
+ Score = 175 bits (444),  Expect = 2e-53, Method: Composition-based stats.
+ Identities = 48/122 (39%), Positives = 72/122 (59%), Gaps = 0/122 (0%)
+
+Query  5    SPNFEYEEITRSFLSNMLAFTRGHFTGDISHFSPIVLAEMEKDPNWLEEAAGGMQGVIVQ  64
+            +PNF+Y +    FL N LAF+ G  T D S F P VL  ME++P+WL+E+    Q ++V 
+Sbjct  10   APNFQYTDEMDRFLMNTLAFSVGLVTEDYSTFDPEVLKIMEEEPDWLQESVAWCQSLVVG  69
+
+Query  65   SLLEDENFSSVEQLKGELARLIRLYFALAKDNLTENQESLYVDLFDKFTFLLLCSDEFIM  124
+            SL++  N+    +L  E   L+ LY    +  LT N+++L++++ DKF  LLL  DE I 
+Sbjct  70   SLVDSGNYDDTGELMDEFNCLLNLYDRARQRELTSNEDNLFLNIHDKFLALLLTDDELIT  129
+
+Query  125  YL  126
+             L
+Sbjct  130  NL  131
+
+
+> UniRef90_UPI00064C8F14 hypothetical protein n=1 Tax=Enterococcus 
+faecium TaxID=1352 RepID=UPI00064C8F14
+Length=135
+
+ Score = 174 bits (441),  Expect = 7e-53, Method: Composition-based stats.
+ Identities = 45/120 (38%), Positives = 67/120 (56%), Gaps = 0/120 (0%)
+
+Query  7    NFEYEEITRSFLSNMLAFTRGHFTGDISHFSPIVLAEMEKDPNWLEEAAGGMQGVIVQSL  66
+            +FEY +     L N L+F+    T D S FSP VL +M KDP WL +    +Q  IV SL
+Sbjct  12   HFEYTKEIGQVLMNALSFSVALQTKDYSTFSPEVLEQMGKDPEWLYDVTNWLQVTIVNSL  71
+
+Query  67   LEDENFSSVEQLKGELARLIRLYFALAKDNLTENQESLYVDLFDKFTFLLLCSDEFIMYL  126
+            L+ +N+ S++++  E   L+ LY       LT+N+ +L++ + DK   LLL  DE +  L
+Sbjct  72   LQSDNYDSIDEVVSEFNCLLNLYDVARSRELTQNENNLFLSIHDKILALLLSDDELVNNL  131
+
+
+> UniRef90_UPI0006616DC2 hypothetical protein n=1 Tax=Enterococcus 
+hirae TaxID=1354 RepID=UPI0006616DC2
+Length=134
+
+ Score = 172 bits (435),  Expect = 5e-52, Method: Composition-based stats.
+ Identities = 45/120 (38%), Positives = 70/120 (58%), Gaps = 0/120 (0%)
+
+Query  7    NFEYEEITRSFLSNMLAFTRGHFTGDISHFSPIVLAEMEKDPNWLEEAAGGMQGVIVQSL  66
+            +FEY +     L N L+F+    T D S FSP VL +MEK+P WL +    +Q  IV SL
+Sbjct  12   HFEYTKEIGQVLMNTLSFSVALQTKDYSTFSPEVLEQMEKEPEWLYDVTNWLQVTIVNSL  71
+
+Query  67   LEDENFSSVEQLKGELARLIRLYFALAKDNLTENQESLYVDLFDKFTFLLLCSDEFIMYL  126
+            L+ +N+ S++++  E   L+ LY      +LT ++E+L++ L DKF  LLL  ++ +  L
+Sbjct  72   LQSDNYDSIDEIVNEFNCLLNLYDVARSRSLTSSEENLFLGLHDKFLALLLTDEDLLKEL  131
+
+
+> UniRef90_Q82ZV0 Conserved domain protein n=2 Tax=Enterococcus 
+faecalis TaxID=1351 RepID=Q82ZV0_ENTFA
+Length=136
+
+ Score = 168 bits (425),  Expect = 2e-50, Method: Composition-based stats.
+ Identities = 128/132 (97%), Positives = 128/132 (97%), Gaps = 4/132 (3%)
+
+Query  1    MLILS----PNFEYEEITRSFLSNMLAFTRGHFTGDISHFSPIVLAEMEKDPNWLEEAAG  56
+            MLILS    PNFEYEEITRSFLSNMLAFTRGHFTGDISHFSPIVLAEMEKDPNWLEEAAG
+Sbjct  1    MLILSTEKEPNFEYEEITRSFLSNMLAFTRGHFTGDISHFSPIVLAEMEKDPNWLEEAAG  60
+
+Query  57   GMQGVIVQSLLEDENFSSVEQLKGELARLIRLYFALAKDNLTENQESLYVDLFDKFTFLL  116
+            GMQGVIVQSLLEDENFSSVEQLKGELARLIRLYFALAKDNLTENQESLYVDLFDKFTFLL
+Sbjct  61   GMQGVIVQSLLEDENFSSVEQLKGELARLIRLYFALAKDNLTENQESLYVDLFDKFTFLL  120
+
+Query  117  LCSDEFIMYLDS  128
+            LCSDEFIMYLDS
+Sbjct  121  LCSDEFIMYLDS  132
+
+
+> UniRef90_R2SML5 Uncharacterized protein n=1 Tax=Enterococcus 
+asini ATCC 700915 TaxID=1158606 RepID=R2SML5_9ENTE
+Length=136
+
+ Score = 161 bits (407),  Expect = 8e-48, Method: Composition-based stats.
+ Identities = 45/122 (37%), Positives = 73/122 (60%), Gaps = 0/122 (0%)
+
+Query  5    SPNFEYEEITRSFLSNMLAFTRGHFTGDISHFSPIVLAEMEKDPNWLEEAAGGMQGVIVQ  64
+             PN  Y ++   FL N++AF+    T D S FSP VL  ME +P WL+E     Q ++ Q
+Sbjct  10   KPNLAYVDMMERFLMNVVAFSVALVTKDYSTFSPEVLEMMESNPEWLKETVAWGQQMLAQ  69
+
+Query  65   SLLEDENFSSVEQLKGELARLIRLYFALAKDNLTENQESLYVDLFDKFTFLLLCSDEFIM  124
+            S+++ EN+ + E++  +L+ LI LY    +  LT+++++L+ +L D+F  LLL  DE I 
+Sbjct  70   SVVDGENYLTNEEMAEDLSGLIVLYNTATQRELTDHEDALFTNLHDRFLTLLLVDDELIK  129
+
+Query  125  YL  126
+            + 
+Sbjct  130  HF  131
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.134    0.365    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0412    0.140     1.90     42.6     43.6 
+
+Effective search space used: 439244492610
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

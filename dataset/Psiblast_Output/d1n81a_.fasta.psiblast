@@ -1,0 +1,4217 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1n81a_
+
+Length=186
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_A0A060RWR2 Gamete antigen 27/25 n=17 Tax=Plasmodium (L...  369     1e-127
+  UniRef90_A0A151LCY5 Gamete antigen 27/25 n=1 Tax=Plasmodium gab...  291     1e-97 
+  UniRef90_A0A0L7KL69 Uncharacterized protein (Fragment) n=1 Tax=...  182     2e-55 
+  UniRef90_A0A1A8WIF5 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  109     1e-25 
+  UniRef90_A0A1A8WID8 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  102     4e-23 
+  UniRef90_A0A1A8X3C0 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  95.5    1e-20 
+  UniRef90_A0A1A8XBG0 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  91.7    3e-19 
+  UniRef90_A0A1D3TDZ0 Gamete antigen 27/25, putative n=2 Tax=Plas...  91.3    8e-19 
+  UniRef90_A0A1J1HF92 Gamete antigen 27/25, putative n=1 Tax=Plas...  89.7    1e-18 
+  UniRef90_A0A1D3TDW0 Gamete antigen 27/25, putative n=2 Tax=Plas...  86.3    3e-17 
+  UniRef90_A0A1A8X254 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  87.8    3e-17 
+  UniRef90_A0A1A8WJU9 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  81.3    1e-15 
+  UniRef90_A0A1A8X7H3 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  81.3    1e-15 
+  UniRef90_A0A1A8X9B7 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  80.5    4e-15 
+  UniRef90_A0A1A8WLH5 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  76.3    6e-14 
+  UniRef90_B3L0X7 Uncharacterized protein n=1 Tax=Plasmodium know...  73.6    3e-12 
+  UniRef90_A0A1D3TE33 Gamete antigen 27/25, putative n=2 Tax=Plas...  70.1    4e-12 
+  UniRef90_A0A1D3TDV6 Gamete antigen 27/25, putative n=2 Tax=Plas...  70.5    9e-12 
+  UniRef90_K6UIK5 Uncharacterized protein (Fragment) n=1 Tax=Plas...  70.9    1e-11 
+  UniRef90_A0A0D9QPJ5 Uncharacterized protein n=1 Tax=Plasmodium ...  68.6    8e-11 
+  UniRef90_A0A0J9U2J6 Uncharacterized protein n=3 Tax=Plasmodium ...  66.6    5e-10 
+  UniRef90_A5KBH4 Uncharacterized protein n=5 Tax=Plasmodium viva...  66.6    6e-10 
+  UniRef90_A0A1D3TDZ5 Gamete antigen 27/25, putative n=2 Tax=Plas...  65.1    7e-10 
+  UniRef90_A0A1A8XAA3 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  64.7    8e-10 
+  UniRef90_A0A1B1DV43 Uncharacterized protein n=1 Tax=Plasmodium ...  65.9    9e-10 
+  UniRef90_A0A1J1GPW4 Gamete antigen 27/25, putative n=1 Tax=Plas...  63.5    2e-09 
+  UniRef90_A0A1D3TE36 Gamete antigen 27/25, putative n=1 Tax=Plas...  63.5    2e-09 
+  UniRef90_W7A102 Uncharacterized protein n=1 Tax=Plasmodium inui...  62.0    2e-08 
+  UniRef90_A0A1C3KIF4 Gamete antigen 27/25, putative n=3 Tax=Plas...  60.8    6e-08 
+  UniRef90_A0A1A8WU04 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  57.8    1e-07 
+  UniRef90_A0A1J1GSJ1 Gamete antigen 27/25, putative n=1 Tax=Plas...  57.0    3e-07 
+  UniRef90_A0A1D3TDX7 Gamete antigen 27/25, putative n=1 Tax=Plas...  57.0    4e-07 
+  UniRef90_A0A1A8VP84 Uncharacterized protein n=3 Tax=Plasmodium ...  57.4    7e-07 
+  UniRef90_A0A1A8XBF5 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  54.3    1e-06 
+  UniRef90_A0A1J1GK82 Gamete antigen 27/25, putative n=1 Tax=Plas...  53.9    6e-06 
+  UniRef90_A0A1J1GPK1 Gamete antigen 27/25, putative n=1 Tax=Plas...  52.0    2e-05 
+  UniRef90_W7JVJ1 Uncharacterized protein n=1 Tax=Plasmodium falc...  51.6    8e-05 
+  UniRef90_A0A1J1GKA7 Gamete antigen 27/25, putative n=1 Tax=Plas...  47.4    0.001 
+  UniRef90_A0A1J1GU57 Gamete antigen 27/25, putative n=1 Tax=Plas...  45.4    0.001 
+  UniRef90_W4J5Y4 Uncharacterized protein n=1 Tax=Plasmodium falc...  47.0    0.003 
+  UniRef90_A0A151LWB3 Uncharacterized protein (Fragment) n=1 Tax=...  47.0    0.003 
+  UniRef90_W7GCI3 Uncharacterized protein n=1 Tax=Plasmodium falc...  47.0    0.003 
+  UniRef90_W7FTY2 Uncharacterized protein n=1 Tax=Plasmodium falc...  46.6    0.004 
+  UniRef90_W7KD95 Uncharacterized protein n=1 Tax=Plasmodium falc...  46.6    0.004 
+  UniRef90_A0A024WX17 Uncharacterized protein n=1 Tax=Plasmodium ...  46.2    0.006 
+  UniRef90_A0A0L7M8A1 Uncharacterized protein n=1 Tax=Plasmodium ...  46.2    0.006 
+
+
+> UniRef90_A0A060RWR2 Gamete antigen 27/25 n=17 Tax=Plasmodium 
+(Laverania) TaxID=418107 RepID=A0A060RWR2_PLARE
+Length=217
+
+ Score = 369 bits (948),  Expect = 1e-127, Method: Compositional matrix adjust.
+ Identities = 179/186 (96%), Positives = 185/186 (99%), Gaps = 0/186 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN
+Sbjct  21   YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  80
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            QNRYNYFLIEE VQDNIVNRISDRLI+YCTDKE+TEDY+KK+DDYLWVEQRVIEEVSINV
+Sbjct  81   QNRYNYFLIEEHVQDNIVNRISDRLITYCTDKEITEDYLKKVDDYLWVEQRVIEEVSINV  140
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIK  180
+            DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAAR+SQFL+DVVDSYIIK
+Sbjct  141  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARVSQFLVDVVDSYIIK  200
+
+Query  181  PIPALP  186
+            PIPALP
+Sbjct  201  PIPALP  206
+
+
+> UniRef90_A0A151LCY5 Gamete antigen 27/25 n=1 Tax=Plasmodium gaboni 
+TaxID=647221 RepID=A0A151LCY5_9APIC
+Length=163
+
+ Score = 291 bits (746),  Expect = 1e-97, Method: Compositional matrix adjust.
+ Identities = 143/153 (93%), Positives = 151/153 (99%), Gaps = 0/153 (0%)
+
+Query  34   MTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKE  93
+            MTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEE +QDNIVNRISDRLIS+CTDKE
+Sbjct  1    MTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEEHIQDNIVNRISDRLISFCTDKE  60
+
+Query  94   VTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVK  153
+            VTEDYIKK+DDYLWVEQRVIEEVSINVDHAREVKEKKRIM+DKKL+RMLFDTYEYVKDVK
+Sbjct  61   VTEDYIKKVDDYLWVEQRVIEEVSINVDHAREVKEKKRIMHDKKLVRMLFDTYEYVKDVK  120
+
+Query  154  FTDDQYKDAAARISQFLIDVVDSYIIKPIPALP  186
+            FTDDQYKDA+AR+SQFL+DVVDSYI KPIPALP
+Sbjct  121  FTDDQYKDASARVSQFLVDVVDSYIFKPIPALP  153
+
+
+> UniRef90_A0A0L7KL69 Uncharacterized protein (Fragment) n=1 Tax=Plasmodium 
+falciparum (isolate HB3) TaxID=137071 RepID=A0A0L7KL69_PLAFX
+Length=105
+
+ Score = 182 bits (461),  Expect = 2e-55, Method: Compositional matrix adjust.
+ Identities = 92/92 (100%), Positives = 92/92 (100%), Gaps = 0/92 (0%)
+
+Query  95   TEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKF  154
+            TEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKF
+Sbjct  3    TEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKF  62
+
+Query  155  TDDQYKDAAARISQFLIDVVDSYIIKPIPALP  186
+            TDDQYKDAAARISQFLIDVVDSYIIKPIPALP
+Sbjct  63   TDDQYKDAAARISQFLIDVVDSYIIKPIPALP  94
+
+
+> UniRef90_A0A1A8WIF5 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8WIF5_PLAMA
+Length=260
+
+ Score = 109 bits (272),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 60/176 (34%), Positives = 98/176 (56%), Gaps = 0/176 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y+YEH  + P+   I+K  D+EFHA +D +Y L+ +SK      Y +     I   VRK 
+Sbjct  44   YNYEHYKNGPVREEIKKWLDVEFHASTDVLYYLLRISKHKWNIFYDILFTSHITNAVRKF  103
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            +  Y++  I+E  + + V+RI  RL+ +     +TE+Y K+I  Y W+E+R+ EE+S+ V
+Sbjct  104  EEMYSFRFIDENARQSCVSRIKGRLLYFLRQDYITEEYCKQIQKYFWIEERLEEEMSVKV  163
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDS  176
+            D A+ + EKK + ND   ++ +   YE    VK TDD      +    FL+D++ +
+Sbjct  164  DKAKTIPEKKNVCNDYDEMKRVISVYEKGTGVKLTDDIIHFTLSLARGFLLDLLKA  219
+
+
+> UniRef90_A0A1A8WID8 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8WID8_PLAMA
+Length=254
+
+ Score = 102 bits (254),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 58/186 (31%), Positives = 101/186 (54%), Gaps = 0/186 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y YEH  + P    ++K  D+EFHA +D +Y L+ L K        +K+   +   VR+ 
+Sbjct  39   YEYEHYMNGPPREDVKKWLDVEFHASADVLYHLLPLIKQKVDIFDKIKNTDIVLNTVREF  98
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            +++Y++  I+E  ++  V RI  RL+ +   + VTE+Y KK+  Y W+E+R+ EE+S+ +
+Sbjct  99   EDKYSFRFIDESAREGCVRRIKGRLLYFLGLEYVTEEYCKKVQKYFWIEERLEEEMSVKM  158
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIK  180
+            D A+  K+KK +  + + ++ L  TYE  ++V  T+D            L+D + +  I 
+Sbjct  159  DEAKTFKDKKNVCRNSEEMKRLICTYEKDRNVHLTEDMILHTVCIARAVLLDFLKAQTIV  218
+
+Query  181  PIPALP  186
+            P   LP
+Sbjct  219  PSKDLP  224
+
+
+> UniRef90_A0A1A8X3C0 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8X3C0_PLAMA
+Length=222
+
+ Score = 95.5 bits (236),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 49/174 (28%), Positives = 97/174 (56%), Gaps = 0/174 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y Y+H    P+   ++K  D+EFH   D +Y L+ LS++       + +   + + +R  
+Sbjct  47   YKYDHYKGGPVREEVKKWLDLEFHTSIDVLYALLPLSEEGHDIIDIINNSDLVLKTLRNF  106
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            +N+Y++  I+E  + +   RI  RL+ +   KE+TE+Y K++  Y W+E+R+ EE+S+ V
+Sbjct  107  ENKYSFRFIDENTRQHCNVRIKGRLLFFVRLKEITEEYCKQVQKYFWIEERLEEEMSVKV  166
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+            D  + ++EKK++  + + ++ L   YE  + V+ T+D       +    L+D++
+Sbjct  167  DKEQTMQEKKKMCRNIEEMKALVSIYEKDRSVQLTEDMILHTVCKARGVLLDLI  220
+
+
+> UniRef90_A0A1A8XBG0 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8XBG0_PLAMA
+Length=246
+
+ Score = 91.7 bits (226),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 48/179 (27%), Positives = 96/179 (54%), Gaps = 0/179 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            + Y+H    P+S  ++K+GD+EF      +Y+L+    D +   + + +   +  ++R+ 
+Sbjct  47   FTYDHLAIGPISEEVKKLGDVEFDTSISILYVLLHFGTDKKMLLHKINNTDIVLLHLREF  106
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            + +Y Y  I++  ++N ++RI  RL     D  ++E+Y K+   Y W+EQRV EE+S+ V
+Sbjct  107  EFKYRYQFIDKVSKENCISRIKRRLDFIIKDGTLSEEYCKQAQKYFWIEQRVDEEMSLKV  166
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYII  179
+            D  +   EK  +  +K  I+   +  E  + +K +++  K     +  FL+DV+ + +I
+Sbjct  167  DKEKTYDEKSEMCKNKDEIKKFINVLEKGRGIKLSEEMIKSTVDTVEDFLLDVLRTSMI  225
+
+
+> UniRef90_A0A1D3TDZ0 Gamete antigen 27/25, putative n=2 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1D3TDZ0_PLAMA
+Length=328
+
+ Score = 91.3 bits (225),  Expect = 8e-19, Method: Compositional matrix adjust.
+ Identities = 56/187 (30%), Positives = 100/187 (53%), Gaps = 1/187 (1%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y Y+H  +  +   ++K+GD+EFHA +D +Y L+    D  K    ++    I   + + 
+Sbjct  21   YTYDHLKNGGVKEEVKKLGDVEFHASNDILYKLLPNGADKAKLFLEIEKTEKILEILNEY  80
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            + +Y Y  +++  ++N V+RI  RL     +  +TE+Y K+   Y WVEQR+ EE+S  V
+Sbjct  81   EGKYGYKFVDDESKNNCVSRIKRRLNLIVMENILTEEYCKQAQKYFWVEQRLDEEMSAKV  140
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV-DSYII  179
+            D  +  +EKK++ ++   I+ L  + E  + VK ++       + +  FL+DV+  S I+
+Sbjct  141  DKLKTEEEKKKMCHNAAEIKKLLGSIEKGRSVKLSEKMVDGVVSSVENFLLDVLRTSKIV  200
+
+Query  180  KPIPALP  186
+             P   LP
+Sbjct  201  VPSKVLP  207
+
+
+> UniRef90_A0A1J1HF92 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+relictum TaxID=85471 RepID=A0A1J1HF92_PLARL
+Length=227
+
+ Score = 89.7 bits (221),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 46/142 (32%), Positives = 85/142 (60%), Gaps = 2/142 (1%)
+
+Query  47   LKDRVSIRRYVRKNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYL  106
+            L D  SI++ V  +  +Y+  ++++   DN+ +RISDRL+  C + +VT+DY   + +  
+Sbjct  79   LSDLKSIKKEVVTSARKYHQVVMDDEDSDNMTSRISDRLLCLCNEIKVTDDYYALLKNIF  138
+
+Query  107  WVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARI  166
+            W EQR +E+  I ++    V ++K+++ +  +++  F  Y  V ++K ++DQ  + A R+
+Sbjct  139  WAEQRSLEDAFIEINKKENVVDRKKLIENINMLKSNFKKYLDVLNIKLSEDQMHNTAMRM  198
+
+Query  167  SQFLIDVVDSY--IIKPIPALP  186
+            S+FL DV      I+KPIP +P
+Sbjct  199  SKFLTDVFGLTIKIVKPIPLIP  220
+
+
+> UniRef90_A0A1D3TDW0 Gamete antigen 27/25, putative n=2 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1D3TDW0_PLAMA
+Length=243
+
+ Score = 86.3 bits (212),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 49/157 (31%), Positives = 87/157 (55%), Gaps = 0/157 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y Y+H    P    + K  D+EFHA +D +Y L+ L+KDP K    ++    I   VR+ 
+Sbjct  49   YKYDHYKSGPPREEVMKWLDVEFHASTDVLYHLLPLAKDPWKLFNEIEYSERIYDTVREY  108
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            +++Y +   +E  +++ V RI  RL+     + +TEDY K I  Y W+E+R+ EE+++ +
+Sbjct  109  EDKYKFKFRDEEARESCVERIKGRLLYPLYLEPLTEDYCKIIQKYFWIEERLEEEMTVKM  168
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDD  157
+            D     ++KK +  ++  ++ L   YE  + +K +DD
+Sbjct  169  DREETYQDKKAMSKNEDEMKRLISIYEKGRSIKLSDD  205
+
+
+> UniRef90_A0A1A8X254 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8X254_PLAMA
+Length=415
+
+ Score = 87.8 bits (216),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 54/183 (30%), Positives = 94/183 (51%), Gaps = 0/183 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y Y+H    P    + K  D+EFHA +D +Y L+ L+KDP K    ++    I   VR+ 
+Sbjct  49   YKYDHYKSGPPREEVMKWLDVEFHASTDVLYHLLPLAKDPWKLFNEIEYSERIYDTVREY  108
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            +++Y +   +E  +++ V RI  RL+     + +TEDY K I  Y W+E+R+ EE+++ +
+Sbjct  109  EDKYKFKFRDEEARESCVERIKGRLLYPLYLEPLTEDYCKTIQKYFWIEERLEEEMTVKM  168
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIK  180
+            D     ++KK +  ++  ++ L   YE  + +K +DD      +    FL D +  Y   
+Sbjct  169  DREETYQDKKAMSKNEDEMKRLISIYEKGRSIKLSDDMIHFTISIAKVFLEDYLKLYTES  228
+
+Query  181  PIP  183
+              P
+Sbjct  229  GPP  231
+
+
+ Score = 82.0 bits (201),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 46/149 (31%), Positives = 83/149 (56%), Gaps = 0/149 (0%)
+
+Query  9    APLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFL  68
+             P    + K  D+EFHA +D +Y L+ L+KDP K    ++    I   VR+ +++Y +  
+Sbjct  229  GPPREEVMKWLDVEFHASTDVLYHLLPLAKDPWKLFNEIEYSERIYDTVREYEDKYKFKF  288
+
+Query  69   IEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKE  128
+             +E  +++ V RI  RL+     + +TEDY K I  Y W+E+R+ EE+++ +D     ++
+Sbjct  289  RDEEARESCVERIKGRLLYPLYLEPLTEDYCKTIQKYFWIEERLEEEMTVKMDREETYQD  348
+
+Query  129  KKRIMNDKKLIRMLFDTYEYVKDVKFTDD  157
+            KK +  ++  ++ L   YE  + +K +DD
+Sbjct  349  KKAMSKNEDEMKRLISIYEKGRSIKLSDD  377
+
+
+> UniRef90_A0A1A8WJU9 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8WJU9_PLAMA
+Length=203
+
+ Score = 81.3 bits (199),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 45/176 (26%), Positives = 94/176 (53%), Gaps = 0/176 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y Y+H     +   ++K+ D+EFHA  D ++ L+    D  +  Y +     + R V K 
+Sbjct  22   YKYDHYNCGLVREEVKKLLDVEFHASVDVLHSLLPFGHDKNRILYEIGQTDLVLRGVSKY  81
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            +++Y++  I+E  ++  V+RI  R+ S    + +T+ Y KK+ +Y W+E+R+ EE+S+ +
+Sbjct  82   EDKYSFRFIDEDDRERCVSRIKARIFSALYFECLTKHYCKKVQNYFWIEERLEEEMSVKL  141
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDS  176
+            D  +    +K++  ++ L++ +   +E  + +K ++D           FL D++ S
+Sbjct  142  DGQKSNLYQKKMCRNEDLMKTIIGVHEEGRGIKLSEDIINYIIRMAKMFLFDLLKS  197
+
+
+> UniRef90_A0A1A8X7H3 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8X7H3_PLAMA
+Length=230
+
+ Score = 81.3 bits (199),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 49/174 (28%), Positives = 93/174 (53%), Gaps = 0/174 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y Y+     P+   ++K+G+IEF A  D++Y L+    D  K  + ++D  +I   V++ 
+Sbjct  21   YKYDLLKIGPVKEEVKKLGNIEFLATVDFLYYLLQYGTDKAKIFHMMEDPGNILNVVKQI  80
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            +        +   ++  V+RI  RL        +TE+Y ++   Y W+EQ+V EE+S+ +
+Sbjct  81   ELMEGCNFKDTTSRNKCVSRIKRRLNLIVIKGILTEEYCEQAIKYFWIEQKVDEEMSLKI  140
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+            D+ +  KEK+ I  ++  I+ L    E  K++KF+++  ++    I  FL+DV+
+Sbjct  141  DNQKSQKEKEDICYNETEIKRLISVLEKDKNIKFSEEMIENTIITIEDFLLDVL  194
+
+
+> UniRef90_A0A1A8X9B7 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8X9B7_PLAMA
+Length=260
+
+ Score = 80.5 bits (197),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 50/178 (28%), Positives = 95/178 (53%), Gaps = 1/178 (1%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y Y++    P+S  ++K+G++EFHA  D +Y L  L    E+    ++    I   + + 
+Sbjct  49   YKYKNIESCPVSVEVKKLGNVEFHATLDALYNLKYLRISKEELFDMIQKGAYIPGSLSRF  108
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTED-YIKKIDDYLWVEQRVIEEVSIN  119
+            Q +Y Y   +E  + + ++RI  RL     +  +++D Y +++   LW+EQRV EE+S+ 
+Sbjct  109  QQKYEYSFKDEISKKHCISRIKKRLNFIVIEGILSDDEYCEEVKKVLWIEQRVDEEISVI  168
+
+Query  120  VDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSY  177
+            +D     +EK R+  ++  I+ L    E  K +K ++   ++  + I  FL+D+V +Y
+Sbjct  169  LDKLESKEEKDRMCRNEVEIKDLISKLEKAKALKLSEGMIENTLSTIEDFLLDIVRTY  226
+
+
+> UniRef90_A0A1A8WLH5 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8WLH5_PLAMA
+Length=214
+
+ Score = 76.3 bits (186),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 42/174 (24%), Positives = 89/174 (51%), Gaps = 0/174 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y Y    +  +   ++K+G++EF+A +D++Y L+    + +     ++   +I   ++  
+Sbjct  31   YEYNDLENGHVREEVKKLGNVEFNASTDFMYSLLKYGSNKKIMLREIEKTKNISNVLKDF  90
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            +  Y Y L ++  +   + RI  R+     +  +TE Y K+  +Y W+EQR+ EE+S  V
+Sbjct  91   EEIYEYHLNDDESRKKCIRRIQKRIRFIVNENTLTEKYCKQAQEYFWIEQRLDEEMSAKV  150
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+            D+    +EKK +  ++  I+ L    E  + +K  +   ++  + +  FL+DV+
+Sbjct  151  DNQNTEEEKKDMCQNEAEIKNLLSVLEEKRSIKLPNGMIENTVSTVEDFLLDVL  204
+
+
+> UniRef90_B3L0X7 Uncharacterized protein n=1 Tax=Plasmodium knowlesi 
+(strain H) TaxID=5851 RepID=B3L0X7_PLAKH
+Length=400
+
+ Score = 73.6 bits (179),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 50/171 (29%), Positives = 84/171 (49%), Gaps = 3/171 (2%)
+
+Query  5    HETHAPLSP--RIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQN  62
+            HE  +PL     I  +   EF     Y+  +M  S D EK N  L D + I + + +N  
+Sbjct  204  HEMQSPLDSYKTIFLILSTEFDTTETYLNKIMNCSTDEEK-NELLDDHIGILKEMYENCK  262
+
+Query  63   RYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDH  122
+            +   F +   ++D++  RISDRL  +C    VTE  +  +     +E  V E +   ++H
+Sbjct  263  KNENFRLPFEIRDSMALRISDRLRDFCFSDYVTESNMVALKSIFSIELEVFEGIFYYIEH  322
+
+Query  123  AREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDV  173
+                +EKK ++ND +LI+   +       +  TD+Q+ +AA R+S F+ D+
+Sbjct  323  KNTYREKKEVINDLELIKFYHEELITNNGLYLTDEQFDNAAMRVSNFVNDL  373
+
+
+> UniRef90_A0A1D3TE33 Gamete antigen 27/25, putative n=2 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1D3TE33_PLAMA
+Length=142
+
+ Score = 70.1 bits (170),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 34/118 (29%), Positives = 73/118 (62%), Gaps = 0/118 (0%)
+
+Query  57   VRKNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEV  116
+            +R  + +Y Y  +++  ++N V+RI  RL S+  +  +TE+Y+K+ + + W+EQRV EE+
+Sbjct  15   LRGFEKKYGYKFVDDESKNNCVSRIKKRLNSFVIEGVLTEEYLKQGEIFFWIEQRVGEEM  74
+
+Query  117  SINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+            S+ V  A++  +K+++  +K  I+ + + YE  K +K++ +   +    +  FL+D++
+Sbjct  75   SVKVYSAKQYPDKRKMCYNKNEIKKVKNDYEKEKCIKYSPEMIHNNIVTVGSFLVDIL  132
+
+
+> UniRef90_A0A1D3TDV6 Gamete antigen 27/25, putative n=2 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1D3TDV6_PLAMA
+Length=259
+
+ Score = 70.5 bits (171),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 50/185 (27%), Positives = 88/185 (48%), Gaps = 21/185 (11%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y Y++     L   ++ +G++EFHA  D +Y           F Y  K +      + KN
+Sbjct  48   YKYKNLQSDSLREEVKDLGNVEFHATLDAMY----------NFKYPYKGKKETHNMIDKN  97
+
+Query  61   ----------QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTED-YIKKIDDYLWVE  109
+                      Q++Y Y   ++  ++  +NRI  RL     +  +T+D Y +++   LW+E
+Sbjct  98   FYTTGSLDRFQSKYRYHFKDKLSREKCINRIKKRLNFIVIEGVLTDDAYCEEVKKVLWIE  157
+
+Query  110  QRVIEEVSINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQF  169
+            QR  EE+S+ VD     +EK R+  +K +I+ L    E  K +K ++   +   + I  F
+Sbjct  158  QRTDEEMSVKVDKLESEEEKDRMCLNKIVIKDLISKLEKAKALKLSEGMIECIVSTIQDF  217
+
+Query  170  LIDVV  174
+            L+D+V
+Sbjct  218  LLDLV  222
+
+
+> UniRef90_K6UIK5 Uncharacterized protein (Fragment) n=1 Tax=Plasmodium 
+cynomolgi strain B TaxID=1120755 RepID=K6UIK5_9APIC
+Length=332
+
+ Score = 70.9 bits (172),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 47/154 (31%), Positives = 84/154 (55%), Gaps = 3/154 (2%)
+
+Query  21   IEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNR-YNYFLIEERVQDNIVN  79
+            +EF     Y+  +M  S D EK N  L+D + I + + +N  + YNY L  E ++D++  
+Sbjct  179  VEFETTQTYLNKIMNCSTDEEK-NELLEDHIGILQEMHENNKKNYNYRLPFE-LRDSMAL  236
+
+Query  80   RISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLI  139
+            RISDRL  +C ++ +T+ Y+  +     +E  V + +   + H     EKK ++ND +LI
+Sbjct  237  RISDRLRDFCFNEPLTDSYVATLKSIFALELEVFKGLFYYLKHKTTYNEKKEVINDLELI  296
+
+Query  140  RMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDV  173
+            +   + +    D+  T++Q  +AA R+S F+ D+
+Sbjct  297  KYYHEEFLTDNDLYLTEEQLDNAAMRVSNFVNDI  330
+
+
+> UniRef90_A0A0D9QPJ5 Uncharacterized protein n=1 Tax=Plasmodium 
+fragile TaxID=5857 RepID=A0A0D9QPJ5_PLAFR
+Length=332
+
+ Score = 68.6 bits (166),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 45/152 (30%), Positives = 76/152 (50%), Gaps = 1/152 (1%)
+
+Query  22   EFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQDNIVNRI  81
+            EF     Y+  +M  + D EK N  L D + I + + +N  +   F++   ++D++  RI
+Sbjct  174  EFETTETYLEKIMNCTTDEEK-NELLDDHIGILKEMYENSKKNGNFILPFELRDSMALRI  232
+
+Query  82   SDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIRM  141
+            SDRL  +C    +T+  +  +     +EQ V + +   V H     EKK ++ND +LIR 
+Sbjct  233  SDRLRDFCFSPYLTDSGMATLKCLFSIEQEVFKGLFYYVKHKNTYSEKKEVINDLELIRY  292
+
+Query  142  LFDTYEYVKDVKFTDDQYKDAAARISQFLIDV  173
+              D       +  T++Q  +AA R+S F+ DV
+Sbjct  293  YHDELVTEYGLYLTEEQLDNAAMRVSNFVHDV  324
+
+
+> UniRef90_A0A0J9U2J6 Uncharacterized protein n=3 Tax=Plasmodium 
+vivax TaxID=5855 RepID=A0A0J9U2J6_PLAVI
+Length=371
+
+ Score = 66.6 bits (161),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 42/153 (27%), Positives = 80/153 (52%), Gaps = 1/153 (1%)
+
+Query  21   IEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQDNIVNR  80
+            +EF     Y+  ++  + D EK N  L+D + I + + +N  +++ + +   ++D++  R
+Sbjct  193  VEFETTETYLNKIINCATDEEK-NELLEDHIGILQEMYENNKKHDNYRLPFELRDSMALR  251
+
+Query  81   ISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIR  140
+            ISDRL  YC  + +T+ Y+  +     +E  V + +   V H     EKK ++ND +LI+
+Sbjct  252  ISDRLRDYCFSEPLTDSYVLTLKSIFSLELEVFKGLFYYVKHKSTYSEKKEVINDLELIK  311
+
+Query  141  MLFDTYEYVKDVKFTDDQYKDAAARISQFLIDV  173
+               +       +  TD+Q  +AA R+S F+ D+
+Sbjct  312  FYHEELVTDNGLFLTDEQLDNAAMRVSNFVNDI  344
+
+
+> UniRef90_A5KBH4 Uncharacterized protein n=5 Tax=Plasmodium vivax 
+TaxID=5855 RepID=A5KBH4_PLAVS
+Length=374
+
+ Score = 66.6 bits (161),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 42/153 (27%), Positives = 80/153 (52%), Gaps = 1/153 (1%)
+
+Query  21   IEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQDNIVNR  80
+            +EF     Y+  ++  + D EK N  L+D + I + + +N  +++ + +   ++D++  R
+Sbjct  196  VEFETTETYLNKIINCATDEEK-NELLEDHIGILQEMYENNKKHDNYRLPFELRDSMALR  254
+
+Query  81   ISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIR  140
+            ISDRL  YC  + +T+ Y+  +     +E  V + +   V H     EKK ++ND +LI+
+Sbjct  255  ISDRLRDYCFSEPLTDSYVLTLKSIFSLELEVFKGLFYYVKHKSTYSEKKEVINDLELIK  314
+
+Query  141  MLFDTYEYVKDVKFTDDQYKDAAARISQFLIDV  173
+               +       +  TD+Q  +AA R+S F+ D+
+Sbjct  315  FYHEELVTDNGLFLTDEQLDNAAMRVSNFVNDI  347
+
+
+> UniRef90_A0A1D3TDZ5 Gamete antigen 27/25, putative n=2 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1D3TDZ5_PLAMA
+Length=243
+
+ Score = 65.1 bits (157),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 46/190 (24%), Positives = 96/190 (51%), Gaps = 15/190 (8%)
+
+Query  3    YEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTL--------SKDPEKFNYALKDRV--S  52
+            YEH  +  +   + K+ D+EF A   ++++++          +   E F+      V  +
+Sbjct  50   YEHLPNGTVREDVMKLADLEFQATVYFLFIVLLAYMKHRKDNTNKQELFSKICYSEVETT  109
+
+Query  53   IRRYVRKNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRV  112
+            I  +++   NR+     ++R +D  ++RI  RL     +  +T+DY ++   Y W+EQRV
+Sbjct  110  IDYFIQHFGNRFK----DKRSKDKCIDRIIRRLNFIVIEGILTKDYCERAQKYFWIEQRV  165
+
+Query  113  IEEVSINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLID  172
+            IEE+S+ V   +   +K+ +  ++  I+ L    E  +++K +D    +  + +  FL+D
+Sbjct  166  IEEMSVKVFKEKTDDKKRNMCINELAIKSLISKLERGRNIKLSDGMIANTVSTVEDFLLD  225
+
+Query  173  VV-DSYIIKP  181
+            ++ ++ I KP
+Sbjct  226  LLREAEINKP  235
+
+
+> UniRef90_A0A1A8XAA3 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8XAA3_PLAMA
+Length=243
+
+ Score = 64.7 bits (156),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 45/185 (24%), Positives = 89/185 (48%), Gaps = 21/185 (11%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            + Y++  +  L   ++ +G++EFHA  D +Y           F +  + +  I   ++KN
+Sbjct  32   FKYKNLQNGALRKEVKDLGNVEFHATLDVLY----------NFKFPYRGKKKIFEMIKKN  81
+
+Query  61   ----------QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTED-YIKKIDDYLWVE  109
+                       + Y Y   +E  ++N +NR+  R+     +  +T+D Y +++   LW+E
+Sbjct  82   YYFLGSLLRFLSTYGYNFKDEISKENCINRMIKRVTYLIREGVLTDDAYCEEVKKVLWIE  141
+
+Query  110  QRVIEEVSINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQF  169
+            QR  EE+S+ VD     + K ++ ++K  I+ L    E  K +K ++   +   + I  F
+Sbjct  142  QRTDEEMSVKVDKLESEEAKDQMCHNKVEIKDLISKLEKAKALKLSEGMIECIVSTIEDF  201
+
+Query  170  LIDVV  174
+            L+DV+
+Sbjct  202  LLDVL  206
+
+
+> UniRef90_A0A1B1DV43 Uncharacterized protein n=1 Tax=Plasmodium 
+coatneyi TaxID=208452 RepID=A0A1B1DV43_9APIC
+Length=360
+
+ Score = 65.9 bits (159),  Expect = 9e-10, Method: Compositional matrix adjust.
+ Identities = 42/152 (28%), Positives = 77/152 (51%), Gaps = 1/152 (1%)
+
+Query  22   EFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQDNIVNRI  81
+            EF     Y+  +M  + D EK N  L+D + I + + +N  +   F +   ++D++  RI
+Sbjct  182  EFETTKTYLTKIMNCTTDEEK-NELLEDHIGILKEMYENSKQIENFRLPFEIRDSMALRI  240
+
+Query  82   SDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIRM  141
+            SDRL  +C  + +T+  I  +     VE  V + +   + H     E+K ++ND +LI++
+Sbjct  241  SDRLRDFCFSEYLTDSNILTLQSLFLVELEVFKGLFYYLKHKNTYSERKEVINDLELIKL  300
+
+Query  142  LFDTYEYVKDVKFTDDQYKDAAARISQFLIDV  173
+              +       +  TD+Q  +AA R+S F+ D+
+Sbjct  301  YHEELITENGLHLTDEQLDNAAMRVSNFVHDL  332
+
+
+> UniRef90_A0A1J1GPW4 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+gallinaceum TaxID=5849 RepID=A0A1J1GPW4_PLAGA
+Length=207
+
+ Score = 63.5 bits (153),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 40/127 (31%), Positives = 71/127 (56%), Gaps = 0/127 (0%)
+
+Query  47   LKDRVSIRRYVRKNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYL  106
+            LKD  SI++ + +   +   +++ E  +D++  RISDRL  Y  ++E+TEDY  K+ +  
+Sbjct  59   LKDFDSIKKEIVEVGKKCGDYILREEFRDHMAFRISDRLRDYYAEQEMTEDYYLKLKNIF  118
+
+Query  107  WVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARI  166
+            W+EQ+  EE    V   +   EKK++++D  LI      Y     +K ++ +  +AA RI
+Sbjct  119  WMEQKAFEETFFEVSKKKGPIEKKKVIDDVNLIVSHLKRYADSMGIKLSEQKLHNAALRI  178
+
+Query  167  SQFLIDV  173
+             +F+ D+
+Sbjct  179  GRFISDL  185
+
+
+> UniRef90_A0A1D3TE36 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1D3TE36_PLAMA
+Length=238
+
+ Score = 63.5 bits (153),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 42/174 (24%), Positives = 85/174 (49%), Gaps = 0/174 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            + Y H     +   ++++GD+EF A    +  L+      ++    L++   I   + + 
+Sbjct  49   FDYTHFPGGKVRKEVKELGDVEFDASLHVLSRLLHYRHRKKEIFDILEEGSIISSVLSEY  108
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            Q +  Y   +   +++ VNRI  RLI    +  +T +Y++    Y W+EQRV EE+S+ V
+Sbjct  109  QEKKKYNFKDITSREHCVNRIKTRLIYIVIEGILTREYLELAKKYFWIEQRVDEEMSVKV  168
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+             + +  K + ++  ++  I+ L    E  K VK ++    +  + +  FL+DV+
+Sbjct  169  FNQKTEKARTKMCKNEVEIKKLISKLERGKSVKLSEGMIANTVSTVEDFLLDVL  222
+
+
+> UniRef90_W7A102 Uncharacterized protein n=1 Tax=Plasmodium inui 
+San Antonio 1 TaxID=1237626 RepID=W7A102_9APIC
+Length=361
+
+ Score = 62.0 bits (149),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 40/153 (26%), Positives = 78/153 (51%), Gaps = 1/153 (1%)
+
+Query  21   IEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQDNIVNR  80
+            +EF     Y+  ++  + D +K N  L+D + I + + +N  + +   +   ++D++  R
+Sbjct  183  VEFETTKTYLNKIINCATDEQK-NELLEDHIGILQEMYENYKKSDNSGLPSELRDSMALR  241
+
+Query  81   ISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIR  140
+            ISDRL  +C  + +T+ Y++ +     +E  V + +   V       EKK ++ND +LIR
+Sbjct  242  ISDRLRDFCFTESITDSYMETLKSIFALELEVFKGLFCYVKDKSTYNEKKTVINDLELIR  301
+
+Query  141  MLFDTYEYVKDVKFTDDQYKDAAARISQFLIDV  173
+               +       +  TD+Q  +AA R+S F+ D+
+Sbjct  302  FYHEELLTENGLYLTDEQLDNAAMRVSNFVNDM  334
+
+
+> UniRef90_A0A1C3KIF4 Gamete antigen 27/25, putative n=3 Tax=Plasmodium 
+TaxID=5820 RepID=A0A1C3KIF4_PLAFA
+Length=379
+
+ Score = 60.8 bits (146),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 49/189 (26%), Positives = 90/189 (48%), Gaps = 21/189 (11%)
+
+Query  6    ETHAPLSPRIRKVGDIEFHACSDY-------IYLLMTLSKDP--------------EKFN  44
+            E  A ++  I  VG+ E HA SDY       +Y +  +  +               E+  
+Sbjct  168  EDSANINENIEAVGEEEEHAVSDYSLDSYKSLYSIFFVEFESTYTYLDKIKNYPTIEQKK  227
+
+Query  45   YALKDRVSIRRYVRKNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDD  104
+             AL D + I + + +N N+ + + +   ++D++  RIS+R+  Y  ++EVT DY+  +  
+Sbjct  228  KALDDHLGIIKEMYENANKNDGYKLPFELRDSMALRISERIRDYIFEEEVTSDYVLTMKT  287
+
+Query  105  YLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAA  164
+               +E  V +     + H     E+K  +ND +LI+   +      D+  T++Q K+AA 
+Sbjct  288  IFSIELEVFKGFFYYIKHKNSFSERKEAINDLELIKFYHEDLLDDSDLYLTEEQLKNAAM  347
+
+Query  165  RISQFLIDV  173
+            R+S F+ D+
+Sbjct  348  RVSNFVSDM  356
+
+
+> UniRef90_A0A1A8WU04 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8WU04_PLAMA
+Length=181
+
+ Score = 57.8 bits (138),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 40/168 (24%), Positives = 82/168 (49%), Gaps = 14/168 (8%)
+
+Query  17   KVGDIEFHACSDYIYLLM-----TLSKDPEKFNYALKD-----RVSIRRYVRKNQNRYNY  66
+            K+ D+EFH+ +D+++  +      +     K    LK       +SI  ++R       Y
+Sbjct  2    KLVDLEFHSSTDFLFKALLSYNRGIQGSTSKKELFLKICYENIEISIDYFMR----HLGY  57
+
+Query  67   FLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREV  126
+               +   ++N ++RI  RL     +  +T++Y K+   Y W+EQRVIEE+SI V + +  
+Sbjct  58   HFKDNISKNNCIDRIIRRLNFIVIEGILTDEYCKRAQKYFWIEQRVIEEMSIKVFNEKST  117
+
+Query  127  KEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+                ++  ++ +I+ L    E  + +K ++    +  + +  FL+D++
+Sbjct  118  DASTKMCKNEVVIKDLISKLERGRSIKLSEGMIANTVSCVKDFLLDLL  165
+
+
+> UniRef90_A0A1J1GSJ1 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+gallinaceum TaxID=5849 RepID=A0A1J1GSJ1_PLAGA
+Length=207
+
+ Score = 57.0 bits (136),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 38/152 (25%), Positives = 75/152 (49%), Gaps = 1/152 (1%)
+
+Query  17   KVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQDN  76
+            +  D+EF   +  +  L     + E     LKD  +I+  +         FLIE+   DN
+Sbjct  30   RCCDVEFKTTNSMLGKLKECKSNSE-MEAKLKDYNAIKEEIVNVGMHECNFLIEKEFHDN  88
+
+Query  77   IVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDK  136
+            +  RISDRL  +C ++++T++YI K+ +    E +   +V     +     E+K++++D 
+Sbjct  89   MSYRISDRLRDFCFEEKLTDEYIFKVKEIYSAEDKAGADVFFETCNKEGNLERKKVIDDM  148
+
+Query  137  KLIRMLFDTYEYVKDVKFTDDQYKDAAARISQ  168
+             LI+     +E    +K ++++  +AA R+ +
+Sbjct  149  ALIKSNLRKHEQCTHIKLSEEKLNNAAKRVQR  180
+
+
+> UniRef90_A0A1D3TDX7 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1D3TDX7_PLAMA
+Length=226
+
+ Score = 57.0 bits (136),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 41/178 (23%), Positives = 92/178 (52%), Gaps = 15/178 (8%)
+
+Query  15   IRKVGDIEFHACSDYIYLLMTL---SKDPEKFNYALKDRVS-------IRRYVRKNQNRY  64
+            + K+ D+EF A   ++++++      +  ++    L  ++S       I  +++   NR+
+Sbjct  45   VMKLADVEFQATVYFLFIVLLAYMKQRRDKRTKQELFSKISYYNVETTIDYFIQHFGNRF  104
+
+Query  65   NYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAR  124
+                 +++ +D  ++RI  RL     +  +T+DY ++   Y W+EQRVIEE+S+ V   +
+Sbjct  105  K----DKKSKDKCIDRIIRRLNFIVIEGILTKDYCERAQKYFWIEQRVIEEMSVKVFKEK  160
+
+Query  125  EVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV-DSYIIKP  181
+               +K+ +  ++  I+ L    E  +++K +D    +  + +  FL+D++ ++ I KP
+Sbjct  161  TDDKKRNMCINELAIKSLISKLERGRNIKLSDGMIANTVSTVEDFLLDLLREAEINKP  218
+
+
+> UniRef90_A0A1A8VP84 Uncharacterized protein n=3 Tax=Plasmodium 
+ovale TaxID=36330 RepID=A0A1A8VP84_9APIC
+Length=359
+
+ Score = 57.4 bits (137),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 36/128 (28%), Positives = 68/128 (53%), Gaps = 0/128 (0%)
+
+Query  46   ALKDRVSIRRYVRKNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDY  105
+            AL D + I + + +N N+ + + +   ++D++  RIS+R+  Y  ++EVT DY+  +   
+Sbjct  209  ALDDHLGIIKEMYENANKNDGYKLPFELRDSMALRISERIRDYIFEEEVTSDYVLTMKTI  268
+
+Query  106  LWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAAR  165
+              +E  V +     + H     E+K  +ND +LI+   +      DV  T++Q  +AA R
+Sbjct  269  FSIELEVFKGFFYYIKHKNSFSERKEAINDLELIKFYHEDLLDDSDVYLTEEQLNNAAMR  328
+
+Query  166  ISQFLIDV  173
+            +S F+ D+
+Sbjct  329  VSNFVSDM  336
+
+
+> UniRef90_A0A1A8XBF5 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8XBF5_PLAMA
+Length=127
+
+ Score = 54.3 bits (129),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 32/110 (29%), Positives = 60/110 (55%), Gaps = 5/110 (5%)
+
+Query  26   CSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQDNIVNRISDRL  85
+            C +Y ++++      +K    ++   +I + +R  + +Y Y  ++E  ++N VNR+   L
+Sbjct  7    CINYCHMVLI----KKKIFSEIEKTENILKVLRGFEKKYEYKFVDEESKNNCVNRVKKCL  62
+
+Query  86   ISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMND  135
+             S   +  + E Y K+  +Y W+EQR+ EE+S+ VD  +   E KRIM +
+Sbjct  63   NSIVIEGVLREKYCKQAQNYFWIEQRIDEEMSVKVDKQK-TDEGKRIMGN  111
+
+
+> UniRef90_A0A1J1GK82 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+relictum TaxID=85471 RepID=A0A1J1GK82_PLARL
+Length=231
+
+ Score = 53.9 bits (128),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 40/168 (24%), Positives = 84/168 (50%), Gaps = 8/168 (5%)
+
+Query  21   IEFHA---CSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEE-RVQDN  76
+            +EFH    C D++     LS D +K   ++ D  +I++ +  +  +Y   ++E+    + 
+Sbjct  57   LEFHMTIYCLDHVLGFKNLS-DIKK---SVTDLDAIKKEIVDSARKYYQVVMEDDEALER  112
+
+Query  77   IVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDK  136
+            + NRIS RL +  ++   T DY   + +  W EQR +E++ I ++   ++ +K  ++   
+Sbjct  113  MANRISGRLFNLRSEILTTMDYYSLLKNIFWAEQRAMEDIFIELNEKDDIAQKTEVIGRI  172
+
+Query  137  KLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKPIPA  184
+              I+ +F+ Y  + ++  +  Q ++ A RI + L ++    I    PA
+Sbjct  173  SSIKSIFEKYLRLININLSGQQIQNTAERIQELLGELCGISIKYTRPA  220
+
+
+> UniRef90_A0A1J1GPK1 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+relictum TaxID=85471 RepID=A0A1J1GPK1_PLARL
+Length=199
+
+ Score = 52.0 bits (123),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 30/107 (28%), Positives = 60/107 (56%), Gaps = 1/107 (1%)
+
+Query  80   RISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLI  139
+            RIS RL  Y  D+ +T++Y  K+ +   +E+++ ++V + V    +V+E+K+I+++  LI
+Sbjct  84   RISSRLSDYIFDEPLTDEYCLKLKEIFNMEEKIFQKVFLEVLEKDDVRERKKIIDNVNLI  143
+
+Query  140  RMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKPIPALP  186
+            +      E    +  ++ + ++AA RI  F+ D++ S  I P    P
+Sbjct  144  KSYLREKEKSMGITLSEQKLQNAALRIGGFICDLI-SLTIVPSKNFP  189
+
+
+> UniRef90_W7JVJ1 Uncharacterized protein n=1 Tax=Plasmodium falciparum 
+UGT5.1 TaxID=1237627 RepID=W7JVJ1_PLAFA
+Length=377
+
+ Score = 51.6 bits (122),  Expect = 8e-05, Method: Compositional matrix adjust.
+ Identities = 40/160 (25%), Positives = 82/160 (51%), Gaps = 3/160 (2%)
+
+Query  15   IRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQ  74
+            I  + ++EF++ ++Y  L+  ++ D  K N +L D  +I + + K QN      +   ++
+Sbjct  209  INNICELEFNSTNNY--LMKIINNDKLKHN-SLNDNEAILKEITKTQNELFSLKLPLEIK  265
+
+Query  75   DNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMN  134
+             ++  RIS+RL ++  DK++T  YIKK+ D   +E    +     V   +   +KKR++N
+Sbjct  266  VSMALRISERLRAFVFDKDLTAYYIKKLKDIFKLETEAAKNYYYYVKCQKTFSDKKRLVN  325
+
+Query  135  DKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+            +   I++ +++      +    D+   A  RIS  + D++
+Sbjct  326  NLDSIKLYYESQINKNFISIPKDKIPTAIYRISNLVNDLI  365
+
+
+> UniRef90_A0A1J1GKA7 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+relictum TaxID=85471 RepID=A0A1J1GKA7_PLARL
+Length=200
+
+ Score = 47.4 bits (111),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 45/166 (27%), Positives = 82/166 (49%), Gaps = 2/166 (1%)
+
+Query  21   IEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQDNIVNR  80
+            +EF     Y+  L   S D +K   AL +  +I + + K +     + + + +Q  +  R
+Sbjct  27   LEFEITVRYLSKLKEESSDEDK-KKALNNYDAIAQDIDKFEKDCKLYKVPKEMQYPMAYR  85
+
+Query  81   ISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIR  140
+            IS+RL  YC D+ +TE Y  K+ +   VE+   ++V +     ++ K KK+I+++  LI+
+Sbjct  86   ISNRLYDYCFDEPLTEQYSLKLKEIFSVEEDTFQKVFLEALKEKDNKYKKKIIDNINLIK  145
+
+Query  141  MLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKPIPALP  186
+                     K +  ++++ ++AA RI  FL D   S+ I P    P
+Sbjct  146  EYLKEKGESKGIALSEEKLQNAATRIRGFLNDFF-SFSIIPSRTFP  190
+
+
+> UniRef90_A0A1J1GU57 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+gallinaceum TaxID=5849 RepID=A0A1J1GU57_PLAGA
+Length=112
+
+ Score = 45.4 bits (106),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 23/70 (33%), Positives = 41/70 (59%), Gaps = 7/70 (10%)
+
+Query  67   FLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREV  126
+            F + E ++DN+  RI +R   YC D  +T++Y  K+ +   +EQ+  EEV +++      
+Sbjct  13   FTVNEELRDNMTFRIQNRFSDYCLDVALTDEYCLKLKNIFSIEQQAFEEVFLDI------  66
+
+Query  127  KEKKRIMNDK  136
+              KK+I+N+K
+Sbjct  67   -HKKKIINEK  75
+
+
+> UniRef90_W4J5Y4 Uncharacterized protein n=1 Tax=Plasmodium falciparum 
+(isolate Palo Alto / Uganda) TaxID=57270 RepID=W4J5Y4_PLAFP
+Length=990
+
+ Score = 47.0 bits (110),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 40/160 (25%), Positives = 82/160 (51%), Gaps = 3/160 (2%)
+
+Query  15   IRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQ  74
+            I  + ++EF++ ++Y  L+  ++ D  K N +L D  +I + + K QN      +   ++
+Sbjct  822  INNICELEFNSTNNY--LMKIINNDKLKHN-SLNDNEAILKEITKTQNELFSLKLPLEIK  878
+
+Query  75   DNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMN  134
+             ++  RIS+RL ++  DK++T  YIKK+ D   +E    +     V   +   +KKR++N
+Sbjct  879  VSMALRISERLRAFVFDKDLTAYYIKKLKDIFKLETEAAKNYYYYVKCQKTFSDKKRLVN  938
+
+Query  135  DKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+            +   I++ +++      +    D+   A  RIS  + D++
+Sbjct  939  NLDSIKLYYESQINKNFISIPKDKIPTAIYRISNLVNDLI  978
+
+
+> UniRef90_A0A151LWB3 Uncharacterized protein (Fragment) n=1 Tax=Plasmodium 
+gaboni TaxID=647221 RepID=A0A151LWB3_9APIC
+Length=799
+
+ Score = 47.0 bits (110),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 41/160 (26%), Positives = 81/160 (51%), Gaps = 3/160 (2%)
+
+Query  15   IRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQ  74
+            +  + +IEF +  +Y   LMT+  + E  + +L D  +I + + K QN++  F +   + 
+Sbjct  636  VNNICEIEFISTKNY---LMTIIDNDESKHNSLNDNDAILKEINKTQNKFINFQLPLEIT  692
+
+Query  75   DNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMN  134
+              +  RIS+RL ++  DKE+T  YIK++ D   +E+   +     +      ++KK +  
+Sbjct  693  VPMALRISERLRAFIFDKELTPYYIKQLTDIFELEKDASKIYYYYLKCQNTYEDKKGLFK  752
+
+Query  135  DKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+            +   I++ +D+      V    D+   A +RIS F+ D++
+Sbjct  753  NLDSIKLCYDSQIDKNFVYIPKDKIPGALSRISNFVNDLL  792
+
+
+> UniRef90_W7GCI3 Uncharacterized protein n=1 Tax=Plasmodium falciparum 
+Santa Lucia TaxID=478859 RepID=W7GCI3_PLAFA
+Length=856
+
+ Score = 47.0 bits (110),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 40/160 (25%), Positives = 82/160 (51%), Gaps = 3/160 (2%)
+
+Query  15   IRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQ  74
+            I  + ++EF++ ++Y  L+  ++ D  K N +L D  +I + + K QN      +   ++
+Sbjct  688  INNICELEFNSTNNY--LMKIINNDKLKHN-SLNDNEAILKEITKTQNELFSLKLPLEIK  744
+
+Query  75   DNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMN  134
+             ++  RIS+RL ++  DK++T  YIKK+ D   +E    +     V   +   +KKR++N
+Sbjct  745  VSMALRISERLRAFVFDKDLTAYYIKKLKDIFKLETEAAKNYYYYVKCQKTFSDKKRLVN  804
+
+Query  135  DKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+            +   I++ +++      +    D+   A  RIS  + D++
+Sbjct  805  NLDSIKLYYESQINKNFISIPKDKIPTAIYRISNLVNDLI  844
+
+
+> UniRef90_W7FTY2 Uncharacterized protein n=1 Tax=Plasmodium falciparum 
+(isolate 7G8) TaxID=57266 RepID=W7FTY2_PLAF8
+Length=941
+
+ Score = 46.6 bits (109),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 40/160 (25%), Positives = 82/160 (51%), Gaps = 3/160 (2%)
+
+Query  15   IRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQ  74
+            I  + ++EF++ ++Y  L+  ++ D  K N +L D  +I + + K QN      +   ++
+Sbjct  773  INNICELEFNSTNNY--LMKIINNDKLKHN-SLNDNEAILKEITKTQNELFSLKLPLEIK  829
+
+Query  75   DNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMN  134
+             ++  RIS+RL ++  DK++T  YIKK+ D   +E    +     V   +   +KKR++N
+Sbjct  830  VSMALRISERLRAFVFDKDLTAYYIKKLKDIFKLETEAAKNYYYYVKCQKTFSDKKRLVN  889
+
+Query  135  DKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+            +   I++ +++      +    D+   A  RIS  + D++
+Sbjct  890  NLDSIKLYYESQINKNFISIPKDKIPTAIYRISNLVNDLI  929
+
+
+> UniRef90_W7KD95 Uncharacterized protein n=1 Tax=Plasmodium falciparum 
+(isolate NF54) TaxID=5843 RepID=W7KD95_PLAFO
+Length=880
+
+ Score = 46.6 bits (109),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 40/160 (25%), Positives = 82/160 (51%), Gaps = 3/160 (2%)
+
+Query  15   IRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQ  74
+            I  + ++EF++ ++Y  L+  ++ D  K N +L D  +I + + K QN      +   ++
+Sbjct  712  INNICELEFNSTNNY--LMKIINNDKLKHN-SLNDNEAILKEITKTQNELFSLKLPLEIK  768
+
+Query  75   DNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMN  134
+             ++  RIS+RL ++  DK++T  YIKK+ D   +E    +     V   +   +KKR++N
+Sbjct  769  VSMALRISERLRAFVFDKDLTAYYIKKLKDIFKLETEAAKNYYYYVKCQKTFSDKKRLVN  828
+
+Query  135  DKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+            +   I++ +++      +    D+   A  RIS  + D++
+Sbjct  829  NLDSIKLYYESQINKNFISIPKDKIPTAIYRISNLVNDLI  868
+
+
+> UniRef90_A0A024WX17 Uncharacterized protein n=1 Tax=Plasmodium 
+falciparum MaliPS096_E11 TaxID=1036727 RepID=A0A024WX17_PLAFA
+Length=909
+
+ Score = 46.2 bits (108),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 40/160 (25%), Positives = 82/160 (51%), Gaps = 3/160 (2%)
+
+Query  15   IRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQ  74
+            I  + ++EF++ ++Y  L+  ++ D  K N +L D  +I + + K QN      +   ++
+Sbjct  741  INNICELEFNSTNNY--LMKIINNDKLKHN-SLNDNEAILKEITKTQNELFSLKLPLEIK  797
+
+Query  75   DNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMN  134
+             ++  RIS+RL ++  DK++T  YIKK+ D   +E    +     V   +   +KKR++N
+Sbjct  798  VSMALRISERLRAFVFDKDLTAYYIKKLKDIFKLETEAAKNYYYYVKCQKTFSDKKRLVN  857
+
+Query  135  DKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+            +   I++ +++      +    D+   A  RIS  + D++
+Sbjct  858  NLDSIKLYYESQINKNFISIPKDKIPTAIYRISNLVNDLI  897
+
+
+> UniRef90_A0A0L7M8A1 Uncharacterized protein n=1 Tax=Plasmodium 
+falciparum (isolate Dd2) TaxID=57267 RepID=A0A0L7M8A1_PLAF4
+Length=1108
+
+ Score = 46.2 bits (108),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 40/160 (25%), Positives = 82/160 (51%), Gaps = 3/160 (2%)
+
+Query  15    IRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQ  74
+             I  + ++EF++ ++Y  L+  ++ D  K N +L D  +I + + K QN      +   ++
+Sbjct  940   INNICELEFNSTNNY--LMKIINNDKLKHN-SLNDNEAILKEITKTQNELFSLKLPLEIK  996
+
+Query  75    DNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMN  134
+              ++  RIS+RL ++  DK++T  YIKK+ D   +E    +     V   +   +KKR++N
+Sbjct  997   VSMALRISERLRAFVFDKDLTAYYIKKLKDIFKLETEAAKNYYYYVKCQKTFSDKKRLVN  1056
+
+Query  135   DKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+             +   I++ +++      +    D+   A  RIS  + D++
+Sbjct  1057  NLDSIKLYYESQINKNFISIPKDKIPTAIYRISNLVNDLI  1096
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.139    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 508955565360
+Results from round 2
+
+
+Query= d1n81a_
+
+Length=186
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A060RWR2 Gamete antigen 27/25 n=17 Tax=Plasmodium (L...  207     1e-63
+  UniRef90_A0A1A8WID8 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  205     1e-62
+  UniRef90_A0A1A8WIF5 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  200     2e-60
+  UniRef90_A0A1A8XBG0 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  193     4e-58
+  UniRef90_A0A1A8X3C0 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  191     2e-57
+  UniRef90_A0A1D3TDZ0 Gamete antigen 27/25, putative n=2 Tax=Plas...  194     2e-57
+  UniRef90_A0A1D3TDW0 Gamete antigen 27/25, putative n=2 Tax=Plas...  187     8e-56
+  UniRef90_A0A1A8WJU9 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  183     1e-54
+  UniRef90_A0A1A8X254 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  187     1e-53
+  UniRef90_A0A1D3TE36 Gamete antigen 27/25, putative n=1 Tax=Plas...  182     1e-53
+  UniRef90_A0A1A8X7H3 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  181     1e-53
+  UniRef90_A0A1A8WLH5 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  179     9e-53
+  UniRef90_A0A1A8X9B7 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  175     5e-51
+  UniRef90_B3L0X7 Uncharacterized protein n=1 Tax=Plasmodium know...  174     1e-48
+  UniRef90_A0A1D3TDV6 Gamete antigen 27/25, putative n=2 Tax=Plas...  168     4e-48
+  UniRef90_A0A0J9U2J6 Uncharacterized protein n=3 Tax=Plasmodium ...  171     5e-48
+  UniRef90_A0A1A8XAA3 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  167     6e-48
+  UniRef90_A5KBH4 Uncharacterized protein n=5 Tax=Plasmodium viva...  170     9e-48
+  UniRef90_A0A1D3TDZ5 Gamete antigen 27/25, putative n=2 Tax=Plas...  164     1e-46
+  UniRef90_A0A0D9QPJ5 Uncharacterized protein n=1 Tax=Plasmodium ...  166     1e-46
+  UniRef90_A0A1B1DV43 Uncharacterized protein n=1 Tax=Plasmodium ...  166     3e-46
+  UniRef90_K6UIK5 Uncharacterized protein (Fragment) n=1 Tax=Plas...  163     2e-45
+  UniRef90_A0A1D3TDX7 Gamete antigen 27/25, putative n=1 Tax=Plas...  160     2e-45
+  UniRef90_A0A151LCY5 Gamete antigen 27/25 n=1 Tax=Plasmodium gab...  157     6e-45
+  UniRef90_W7A102 Uncharacterized protein n=1 Tax=Plasmodium inui...  159     2e-43
+  UniRef90_A0A1J1HF92 Gamete antigen 27/25, putative n=1 Tax=Plas...  151     5e-42
+  UniRef90_A0A1A8WU04 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  146     1e-40
+  UniRef90_A0A1A8VP84 Uncharacterized protein n=3 Tax=Plasmodium ...  148     2e-39
+  UniRef90_A0A1J1GPW4 Gamete antigen 27/25, putative n=1 Tax=Plas...  143     3e-39
+  UniRef90_A0A1J1GPK1 Gamete antigen 27/25, putative n=1 Tax=Plas...  142     7e-39
+  UniRef90_A0A1J1GSJ1 Gamete antigen 27/25, putative n=1 Tax=Plas...  140     9e-38
+  UniRef90_A0A1J1GKA7 Gamete antigen 27/25, putative n=1 Tax=Plas...  138     3e-37
+  UniRef90_A0A1D3TE33 Gamete antigen 27/25, putative n=2 Tax=Plas...  135     1e-36
+  UniRef90_A0A1C3KIF4 Gamete antigen 27/25, putative n=3 Tax=Plas...  139     7e-36
+  UniRef90_A0A1J1GK82 Gamete antigen 27/25, putative n=1 Tax=Plas...  128     4e-33
+  UniRef90_W7JVJ1 Uncharacterized protein n=1 Tax=Plasmodium falc...  128     8e-32
+  UniRef90_A0A1A8XBF5 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  109     9e-27
+  UniRef90_A0A0L7KL69 Uncharacterized protein (Fragment) n=1 Tax=...  101     3e-24
+  UniRef90_A0A1J1GU57 Gamete antigen 27/25, putative n=1 Tax=Plas...  77.7    4e-15
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A1A8X7U0 Uncharacterized protein n=2 Tax=Plasmodium ...  128     2e-32
+  UniRef90_A0A151LUU1 Uncharacterized protein (Fragment) n=1 Tax=...  129     5e-32
+  UniRef90_A0A1A8WVR6 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  118     2e-29
+  UniRef90_W4J5Y4 Uncharacterized protein n=1 Tax=Plasmodium falc...  122     2e-28
+  UniRef90_W7FTY2 Uncharacterized protein n=1 Tax=Plasmodium falc...  121     3e-28
+  UniRef90_W7GCI3 Uncharacterized protein n=1 Tax=Plasmodium falc...  121     3e-28
+  UniRef90_W7KD95 Uncharacterized protein n=1 Tax=Plasmodium falc...  121     4e-28
+  UniRef90_A0A0L7M8A1 Uncharacterized protein n=1 Tax=Plasmodium ...  121     6e-28
+  UniRef90_A0A024WX17 Uncharacterized protein n=1 Tax=Plasmodium ...  120     7e-28
+  UniRef90_O96127 Conserved Plasmodium protein n=2 Tax=Plasmodium...  120     1e-27
+  UniRef90_A0A0L1I9G4 Uncharacterized protein n=4 Tax=Plasmodium ...  120     2e-27
+  UniRef90_A0A024XFI4 Uncharacterized protein n=1 Tax=Plasmodium ...  116     8e-27
+  UniRef90_A0A060RMY0 Uncharacterized protein n=1 Tax=Plasmodium ...  115     4e-26
+  UniRef90_A0A151LWB3 Uncharacterized protein (Fragment) n=1 Tax=...  110     2e-24
+  UniRef90_A0A1J1GTN7 Gamete antigen 27/25, putative n=1 Tax=Plas...  99.7    2e-22
+  UniRef90_A0A1A8WYH0 Uncharacterized protein n=1 Tax=Plasmodium ...  65.8    4e-11
+  UniRef90_A0A1A8WX33 Uncharacterized protein n=1 Tax=Plasmodium ...  65.0    3e-10
+  UniRef90_K6VH50 Uncharacterized protein (Fragment) n=1 Tax=Plas...  56.5    3e-07
+  UniRef90_A0A1A8XDK2 Uncharacterized protein n=4 Tax=Plasmodium ...  57.3    4e-07
+  UniRef90_A0A1J1GZT6 Uncharacterized protein n=1 Tax=Plasmodium ...  54.2    6e-06
+  UniRef90_A0A1J1GKQ9 Uncharacterized protein n=1 Tax=Plasmodium ...  52.7    2e-05
+  UniRef90_A0A1J1GKL5 Uncharacterized protein n=1 Tax=Plasmodium ...  47.3    0.001
+
+
+> UniRef90_A0A060RWR2 Gamete antigen 27/25 n=17 Tax=Plasmodium 
+(Laverania) TaxID=418107 RepID=A0A060RWR2_PLARE
+Length=217
+
+ Score = 207 bits (526),  Expect = 1e-63, Method: Composition-based stats.
+ Identities = 179/186 (96%), Positives = 185/186 (99%), Gaps = 0/186 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN
+Sbjct  21   YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  80
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            QNRYNYFLIEE VQDNIVNRISDRLI+YCTDKE+TEDY+KK+DDYLWVEQRVIEEVSINV
+Sbjct  81   QNRYNYFLIEEHVQDNIVNRISDRLITYCTDKEITEDYLKKVDDYLWVEQRVIEEVSINV  140
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIK  180
+            DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAAR+SQFL+DVVDSYIIK
+Sbjct  141  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARVSQFLVDVVDSYIIK  200
+
+Query  181  PIPALP  186
+            PIPALP
+Sbjct  201  PIPALP  206
+
+
+> UniRef90_A0A1A8WID8 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8WID8_PLAMA
+Length=254
+
+ Score = 205 bits (522),  Expect = 1e-62, Method: Composition-based stats.
+ Identities = 58/186 (31%), Positives = 101/186 (54%), Gaps = 0/186 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y YEH  + P    ++K  D+EFHA +D +Y L+ L K        +K+   +   VR+ 
+Sbjct  39   YEYEHYMNGPPREDVKKWLDVEFHASADVLYHLLPLIKQKVDIFDKIKNTDIVLNTVREF  98
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            +++Y++  I+E  ++  V RI  RL+ +   + VTE+Y KK+  Y W+E+R+ EE+S+ +
+Sbjct  99   EDKYSFRFIDESAREGCVRRIKGRLLYFLGLEYVTEEYCKKVQKYFWIEERLEEEMSVKM  158
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIK  180
+            D A+  K+KK +  + + ++ L  TYE  ++V  T+D            L+D + +  I 
+Sbjct  159  DEAKTFKDKKNVCRNSEEMKRLICTYEKDRNVHLTEDMILHTVCIARAVLLDFLKAQTIV  218
+
+Query  181  PIPALP  186
+            P   LP
+Sbjct  219  PSKDLP  224
+
+
+> UniRef90_A0A1A8WIF5 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8WIF5_PLAMA
+Length=260
+
+ Score = 200 bits (509),  Expect = 2e-60, Method: Composition-based stats.
+ Identities = 62/186 (33%), Positives = 101/186 (54%), Gaps = 1/186 (1%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y+YEH  + P+   I+K  D+EFHA +D +Y L+ +SK      Y +     I   VRK 
+Sbjct  44   YNYEHYKNGPVREEIKKWLDVEFHASTDVLYYLLRISKHKWNIFYDILFTSHITNAVRKF  103
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            +  Y++  I+E  + + V+RI  RL+ +     +TE+Y K+I  Y W+E+R+ EE+S+ V
+Sbjct  104  EEMYSFRFIDENARQSCVSRIKGRLLYFLRQDYITEEYCKQIQKYFWIEERLEEEMSVKV  163
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSY-II  179
+            D A+ + EKK + ND   ++ +   YE    VK TDD      +    FL+D++ +   +
+Sbjct  164  DKAKTIPEKKNVCNDYDEMKRVISVYEKGTGVKLTDDIIHFTLSLARGFLLDLLKAEGTV  223
+
+Query  180  KPIPAL  185
+             P   L
+Sbjct  224  VPSTDL  229
+
+
+> UniRef90_A0A1A8XBG0 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8XBG0_PLAMA
+Length=246
+
+ Score = 193 bits (491),  Expect = 4e-58, Method: Composition-based stats.
+ Identities = 48/179 (27%), Positives = 96/179 (54%), Gaps = 0/179 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            + Y+H    P+S  ++K+GD+EF      +Y+L+    D +   + + +   +  ++R+ 
+Sbjct  47   FTYDHLAIGPISEEVKKLGDVEFDTSISILYVLLHFGTDKKMLLHKINNTDIVLLHLREF  106
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            + +Y Y  I++  ++N ++RI  RL     D  ++E+Y K+   Y W+EQRV EE+S+ V
+Sbjct  107  EFKYRYQFIDKVSKENCISRIKRRLDFIIKDGTLSEEYCKQAQKYFWIEQRVDEEMSLKV  166
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYII  179
+            D  +   EK  +  +K  I+   +  E  + +K +++  K     +  FL+DV+ + +I
+Sbjct  167  DKEKTYDEKSEMCKNKDEIKKFINVLEKGRGIKLSEEMIKSTVDTVEDFLLDVLRTSMI  225
+
+
+> UniRef90_A0A1A8X3C0 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8X3C0_PLAMA
+Length=222
+
+ Score = 191 bits (485),  Expect = 2e-57, Method: Composition-based stats.
+ Identities = 49/175 (28%), Positives = 97/175 (55%), Gaps = 0/175 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y Y+H    P+   ++K  D+EFH   D +Y L+ LS++       + +   + + +R  
+Sbjct  47   YKYDHYKGGPVREEVKKWLDLEFHTSIDVLYALLPLSEEGHDIIDIINNSDLVLKTLRNF  106
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            +N+Y++  I+E  + +   RI  RL+ +   KE+TE+Y K++  Y W+E+R+ EE+S+ V
+Sbjct  107  ENKYSFRFIDENTRQHCNVRIKGRLLFFVRLKEITEEYCKQVQKYFWIEERLEEEMSVKV  166
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVD  175
+            D  + ++EKK++  + + ++ L   YE  + V+ T+D       +    L+D++ 
+Sbjct  167  DKEQTMQEKKKMCRNIEEMKALVSIYEKDRSVQLTEDMILHTVCKARGVLLDLIK  221
+
+
+> UniRef90_A0A1D3TDZ0 Gamete antigen 27/25, putative n=2 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1D3TDZ0_PLAMA
+Length=328
+
+ Score = 194 bits (493),  Expect = 2e-57, Method: Composition-based stats.
+ Identities = 56/187 (30%), Positives = 100/187 (53%), Gaps = 1/187 (1%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y Y+H  +  +   ++K+GD+EFHA +D +Y L+    D  K    ++    I   + + 
+Sbjct  21   YTYDHLKNGGVKEEVKKLGDVEFHASNDILYKLLPNGADKAKLFLEIEKTEKILEILNEY  80
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            + +Y Y  +++  ++N V+RI  RL     +  +TE+Y K+   Y WVEQR+ EE+S  V
+Sbjct  81   EGKYGYKFVDDESKNNCVSRIKRRLNLIVMENILTEEYCKQAQKYFWVEQRLDEEMSAKV  140
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVD-SYII  179
+            D  +  +EKK++ ++   I+ L  + E  + VK ++       + +  FL+DV+  S I+
+Sbjct  141  DKLKTEEEKKKMCHNAAEIKKLLGSIEKGRSVKLSEKMVDGVVSSVENFLLDVLRTSKIV  200
+
+Query  180  KPIPALP  186
+             P   LP
+Sbjct  201  VPSKVLP  207
+
+
+> UniRef90_A0A1D3TDW0 Gamete antigen 27/25, putative n=2 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1D3TDW0_PLAMA
+Length=243
+
+ Score = 187 bits (476),  Expect = 8e-56, Method: Composition-based stats.
+ Identities = 54/186 (29%), Positives = 94/186 (51%), Gaps = 0/186 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y Y+H    P    + K  D+EFHA +D +Y L+ L+KDP K    ++    I   VR+ 
+Sbjct  49   YKYDHYKSGPPREEVMKWLDVEFHASTDVLYHLLPLAKDPWKLFNEIEYSERIYDTVREY  108
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            +++Y +   +E  +++ V RI  RL+     + +TEDY K I  Y W+E+R+ EE+++ +
+Sbjct  109  EDKYKFKFRDEEARESCVERIKGRLLYPLYLEPLTEDYCKIIQKYFWIEERLEEEMTVKM  168
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIK  180
+            D     ++KK +  ++  ++ L   YE  + +K +DD      +    FL D +  Y   
+Sbjct  169  DREETYQDKKAMSKNEDEMKRLISIYEKGRSIKLSDDMIHFTISIAKVFLEDYLKLYTEV  228
+
+Query  181  PIPALP  186
+                 P
+Sbjct  229  YDKLSP  234
+
+
+> UniRef90_A0A1A8WJU9 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8WJU9_PLAMA
+Length=203
+
+ Score = 183 bits (465),  Expect = 1e-54, Method: Composition-based stats.
+ Identities = 45/181 (25%), Positives = 94/181 (52%), Gaps = 0/181 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y Y+H     +   ++K+ D+EFHA  D ++ L+    D  +  Y +     + R V K 
+Sbjct  22   YKYDHYNCGLVREEVKKLLDVEFHASVDVLHSLLPFGHDKNRILYEIGQTDLVLRGVSKY  81
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            +++Y++  I+E  ++  V+RI  R+ S    + +T+ Y KK+ +Y W+E+R+ EE+S+ +
+Sbjct  82   EDKYSFRFIDEDDRERCVSRIKARIFSALYFECLTKHYCKKVQNYFWIEERLEEEMSVKL  141
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIK  180
+            D  +    +K++  ++ L++ +   +E  + +K ++D           FL D++ S    
+Sbjct  142  DGQKSNLYQKKMCRNEDLMKTIIGVHEEGRGIKLSEDIINYIIRMAKMFLFDLLKSKTFS  201
+
+Query  181  P  181
+             
+Sbjct  202  T  202
+
+
+> UniRef90_A0A1A8X254 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8X254_PLAMA
+Length=415
+
+ Score = 187 bits (475),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 54/183 (30%), Positives = 94/183 (51%), Gaps = 0/183 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y Y+H    P    + K  D+EFHA +D +Y L+ L+KDP K    ++    I   VR+ 
+Sbjct  49   YKYDHYKSGPPREEVMKWLDVEFHASTDVLYHLLPLAKDPWKLFNEIEYSERIYDTVREY  108
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            +++Y +   +E  +++ V RI  RL+     + +TEDY K I  Y W+E+R+ EE+++ +
+Sbjct  109  EDKYKFKFRDEEARESCVERIKGRLLYPLYLEPLTEDYCKTIQKYFWIEERLEEEMTVKM  168
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIK  180
+            D     ++KK +  ++  ++ L   YE  + +K +DD      +    FL D +  Y   
+Sbjct  169  DREETYQDKKAMSKNEDEMKRLISIYEKGRSIKLSDDMIHFTISIAKVFLEDYLKLYTES  228
+
+Query  181  PIP  183
+              P
+Sbjct  229  GPP  231
+
+
+ Score = 174 bits (442),  Expect = 6e-49, Method: Composition-based stats.
+ Identities = 51/180 (28%), Positives = 90/180 (50%), Gaps = 0/180 (0%)
+
+Query  7    THAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNY  66
+               P    + K  D+EFHA +D +Y L+ L+KDP K    ++    I   VR+ +++Y +
+Sbjct  227  ESGPPREEVMKWLDVEFHASTDVLYHLLPLAKDPWKLFNEIEYSERIYDTVREYEDKYKF  286
+
+Query  67   FLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREV  126
+               +E  +++ V RI  RL+     + +TEDY K I  Y W+E+R+ EE+++ +D     
+Sbjct  287  KFRDEEARESCVERIKGRLLYPLYLEPLTEDYCKTIQKYFWIEERLEEEMTVKMDREETY  346
+
+Query  127  KEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKPIPALP  186
+            ++KK +  ++  ++ L   YE  + +K +DD      +    FL D +  Y        P
+Sbjct  347  QDKKAMSKNEDEMKRLISIYEKGRSIKLSDDMIHFTISIAKVFLEDYLKLYTEVYDKLSP  406
+
+
+> UniRef90_A0A1D3TE36 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1D3TE36_PLAMA
+Length=238
+
+ Score = 182 bits (461),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 42/177 (24%), Positives = 86/177 (49%), Gaps = 0/177 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            + Y H     +   ++++GD+EF A    +  L+      ++    L++   I   + + 
+Sbjct  49   FDYTHFPGGKVRKEVKELGDVEFDASLHVLSRLLHYRHRKKEIFDILEEGSIISSVLSEY  108
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            Q +  Y   +   +++ VNRI  RLI    +  +T +Y++    Y W+EQRV EE+S+ V
+Sbjct  109  QEKKKYNFKDITSREHCVNRIKTRLIYIVIEGILTREYLELAKKYFWIEQRVDEEMSVKV  168
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSY  177
+             + +  K + ++  ++  I+ L    E  K VK ++    +  + +  FL+DV+ + 
+Sbjct  169  FNQKTEKARTKMCKNEVEIKKLISKLERGKSVKLSEGMIANTVSTVEDFLLDVLRTS  225
+
+
+> UniRef90_A0A1A8X7H3 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8X7H3_PLAMA
+Length=230
+
+ Score = 181 bits (460),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 51/186 (27%), Positives = 97/186 (52%), Gaps = 0/186 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y Y+     P+   ++K+G+IEF A  D++Y L+    D  K  + ++D  +I   V++ 
+Sbjct  21   YKYDLLKIGPVKEEVKKLGNIEFLATVDFLYYLLQYGTDKAKIFHMMEDPGNILNVVKQI  80
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            +        +   ++  V+RI  RL        +TE+Y ++   Y W+EQ+V EE+S+ +
+Sbjct  81   ELMEGCNFKDTTSRNKCVSRIKRRLNLIVIKGILTEEYCEQAIKYFWIEQKVDEEMSLKI  140
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIK  180
+            D+ +  KEK+ I  ++  I+ L    E  K++KF+++  ++    I  FL+DV+   I +
+Sbjct  141  DNQKSQKEKEDICYNETEIKRLISVLEKDKNIKFSEEMIENTIITIEDFLLDVLRITINE  200
+
+Query  181  PIPALP  186
+                +P
+Sbjct  201  EPMKIP  206
+
+
+> UniRef90_A0A1A8WLH5 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8WLH5_PLAMA
+Length=214
+
+ Score = 179 bits (453),  Expect = 9e-53, Method: Composition-based stats.
+ Identities = 43/184 (23%), Positives = 92/184 (50%), Gaps = 0/184 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y Y    +  +   ++K+G++EF+A +D++Y L+    + +     ++   +I   ++  
+Sbjct  31   YEYNDLENGHVREEVKKLGNVEFNASTDFMYSLLKYGSNKKIMLREIEKTKNISNVLKDF  90
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            +  Y Y L ++  +   + RI  R+     +  +TE Y K+  +Y W+EQR+ EE+S  V
+Sbjct  91   EEIYEYHLNDDESRKKCIRRIQKRIRFIVNENTLTEKYCKQAQEYFWIEQRLDEEMSAKV  150
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIK  180
+            D+    +EKK +  ++  I+ L    E  + +K  +   ++  + +  FL+DV+      
+Sbjct  151  DNQNTEEEKKDMCQNEAEIKNLLSVLEEKRSIKLPNGMIENTVSTVEDFLLDVLRRTSKI  210
+
+Query  181  PIPA  184
+             +P+
+Sbjct  211  TVPS  214
+
+
+> UniRef90_A0A1A8X9B7 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8X9B7_PLAMA
+Length=260
+
+ Score = 175 bits (445),  Expect = 5e-51, Method: Composition-based stats.
+ Identities = 50/178 (28%), Positives = 95/178 (53%), Gaps = 1/178 (1%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y Y++    P+S  ++K+G++EFHA  D +Y L  L    E+    ++    I   + + 
+Sbjct  49   YKYKNIESCPVSVEVKKLGNVEFHATLDALYNLKYLRISKEELFDMIQKGAYIPGSLSRF  108
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTED-YIKKIDDYLWVEQRVIEEVSIN  119
+            Q +Y Y   +E  + + ++RI  RL     +  +++D Y +++   LW+EQRV EE+S+ 
+Sbjct  109  QQKYEYSFKDEISKKHCISRIKKRLNFIVIEGILSDDEYCEEVKKVLWIEQRVDEEISVI  168
+
+Query  120  VDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSY  177
+            +D     +EK R+  ++  I+ L    E  K +K ++   ++  + I  FL+D+V +Y
+Sbjct  169  LDKLESKEEKDRMCRNEVEIKDLISKLEKAKALKLSEGMIENTLSTIEDFLLDIVRTY  226
+
+
+> UniRef90_B3L0X7 Uncharacterized protein n=1 Tax=Plasmodium knowlesi 
+(strain H) TaxID=5851 RepID=B3L0X7_PLAKH
+Length=400
+
+ Score = 174 bits (440),  Expect = 1e-48, Method: Composition-based stats.
+ Identities = 50/171 (29%), Positives = 84/171 (49%), Gaps = 3/171 (2%)
+
+Query  5    HETHAPLS--PRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQN  62
+            HE  +PL     I  +   EF     Y+  +M  S D EK N  L D + I + + +N  
+Sbjct  204  HEMQSPLDSYKTIFLILSTEFDTTETYLNKIMNCSTDEEK-NELLDDHIGILKEMYENCK  262
+
+Query  63   RYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDH  122
+            +   F +   ++D++  RISDRL  +C    VTE  +  +     +E  V E +   ++H
+Sbjct  263  KNENFRLPFEIRDSMALRISDRLRDFCFSDYVTESNMVALKSIFSIELEVFEGIFYYIEH  322
+
+Query  123  AREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDV  173
+                +EKK ++ND +LI+   +       +  TD+Q+ +AA R+S F+ D+
+Sbjct  323  KNTYREKKEVINDLELIKFYHEELITNNGLYLTDEQFDNAAMRVSNFVNDL  373
+
+
+> UniRef90_A0A1D3TDV6 Gamete antigen 27/25, putative n=2 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1D3TDV6_PLAMA
+Length=259
+
+ Score = 168 bits (426),  Expect = 4e-48, Method: Composition-based stats.
+ Identities = 46/177 (26%), Positives = 88/177 (50%), Gaps = 1/177 (1%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y Y++     L   ++ +G++EFHA  D +Y      K  ++ +  +         + + 
+Sbjct  48   YKYKNLQSDSLREEVKDLGNVEFHATLDAMYNFKYPYKGKKETHNMIDKNFYTTGSLDRF  107
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTED-YIKKIDDYLWVEQRVIEEVSIN  119
+            Q++Y Y   ++  ++  +NRI  RL     +  +T+D Y +++   LW+EQR  EE+S+ 
+Sbjct  108  QSKYRYHFKDKLSREKCINRIKKRLNFIVIEGVLTDDAYCEEVKKVLWIEQRTDEEMSVK  167
+
+Query  120  VDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDS  176
+            VD     +EK R+  +K +I+ L    E  K +K ++   +   + I  FL+D+V  
+Sbjct  168  VDKLESEEEKDRMCLNKIVIKDLISKLEKAKALKLSEGMIECIVSTIQDFLLDLVRI  224
+
+
+> UniRef90_A0A0J9U2J6 Uncharacterized protein n=3 Tax=Plasmodium 
+vivax TaxID=5855 RepID=A0A0J9U2J6_PLAVI
+Length=371
+
+ Score = 171 bits (433),  Expect = 5e-48, Method: Composition-based stats.
+ Identities = 42/153 (27%), Positives = 80/153 (52%), Gaps = 1/153 (1%)
+
+Query  21   IEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQDNIVNR  80
+            +EF     Y+  ++  + D EK N  L+D + I + + +N  +++ + +   ++D++  R
+Sbjct  193  VEFETTETYLNKIINCATDEEK-NELLEDHIGILQEMYENNKKHDNYRLPFELRDSMALR  251
+
+Query  81   ISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIR  140
+            ISDRL  YC  + +T+ Y+  +     +E  V + +   V H     EKK ++ND +LI+
+Sbjct  252  ISDRLRDYCFSEPLTDSYVLTLKSIFSLELEVFKGLFYYVKHKSTYSEKKEVINDLELIK  311
+
+Query  141  MLFDTYEYVKDVKFTDDQYKDAAARISQFLIDV  173
+               +       +  TD+Q  +AA R+S F+ D+
+Sbjct  312  FYHEELVTDNGLFLTDEQLDNAAMRVSNFVNDI  344
+
+
+> UniRef90_A0A1A8XAA3 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8XAA3_PLAMA
+Length=243
+
+ Score = 167 bits (423),  Expect = 6e-48, Method: Composition-based stats.
+ Identities = 43/178 (24%), Positives = 88/178 (49%), Gaps = 1/178 (1%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            + Y++  +  L   ++ +G++EFHA  D +Y      +  +K    +K        + + 
+Sbjct  32   FKYKNLQNGALRKEVKDLGNVEFHATLDVLYNFKFPYRGKKKIFEMIKKNYYFLGSLLRF  91
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTED-YIKKIDDYLWVEQRVIEEVSIN  119
+             + Y Y   +E  ++N +NR+  R+     +  +T+D Y +++   LW+EQR  EE+S+ 
+Sbjct  92   LSTYGYNFKDEISKENCINRMIKRVTYLIREGVLTDDAYCEEVKKVLWIEQRTDEEMSVK  151
+
+Query  120  VDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSY  177
+            VD     + K ++ ++K  I+ L    E  K +K ++   +   + I  FL+DV+ + 
+Sbjct  152  VDKLESEEAKDQMCHNKVEIKDLISKLEKAKALKLSEGMIECIVSTIEDFLLDVLRTS  209
+
+
+> UniRef90_A5KBH4 Uncharacterized protein n=5 Tax=Plasmodium vivax 
+TaxID=5855 RepID=A5KBH4_PLAVS
+Length=374
+
+ Score = 170 bits (432),  Expect = 9e-48, Method: Composition-based stats.
+ Identities = 42/153 (27%), Positives = 80/153 (52%), Gaps = 1/153 (1%)
+
+Query  21   IEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQDNIVNR  80
+            +EF     Y+  ++  + D EK N  L+D + I + + +N  +++ + +   ++D++  R
+Sbjct  196  VEFETTETYLNKIINCATDEEK-NELLEDHIGILQEMYENNKKHDNYRLPFELRDSMALR  254
+
+Query  81   ISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIR  140
+            ISDRL  YC  + +T+ Y+  +     +E  V + +   V H     EKK ++ND +LI+
+Sbjct  255  ISDRLRDYCFSEPLTDSYVLTLKSIFSLELEVFKGLFYYVKHKSTYSEKKEVINDLELIK  314
+
+Query  141  MLFDTYEYVKDVKFTDDQYKDAAARISQFLIDV  173
+               +       +  TD+Q  +AA R+S F+ D+
+Sbjct  315  FYHEELVTDNGLFLTDEQLDNAAMRVSNFVNDI  347
+
+
+> UniRef90_A0A1D3TDZ5 Gamete antigen 27/25, putative n=2 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1D3TDZ5_PLAMA
+Length=243
+
+ Score = 164 bits (415),  Expect = 1e-46, Method: Composition-based stats.
+ Identities = 40/189 (21%), Positives = 90/189 (48%), Gaps = 9/189 (5%)
+
+Query  3    YEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTL-------SKDPEKFNYALKDRVSIRR  55
+            YEH  +  +   + K+ D+EF A   ++++++         + + ++    +     +  
+Sbjct  50   YEHLPNGTVREDVMKLADLEFQATVYFLFIVLLAYMKHRKDNTNKQELFSKICYSE-VET  108
+
+Query  56   YVRKNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEE  115
+             +      +     ++R +D  ++RI  RL     +  +T+DY ++   Y W+EQRVIEE
+Sbjct  109  TIDYFIQHFGNRFKDKRSKDKCIDRIIRRLNFIVIEGILTKDYCERAQKYFWIEQRVIEE  168
+
+Query  116  VSINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVD  175
+            +S+ V   +   +K+ +  ++  I+ L    E  +++K +D    +  + +  FL+D++ 
+Sbjct  169  MSVKVFKEKTDDKKRNMCINELAIKSLISKLERGRNIKLSDGMIANTVSTVEDFLLDLLR  228
+
+Query  176  -SYIIKPIP  183
+             + I KP  
+Sbjct  229  EAEINKPSK  237
+
+
+> UniRef90_A0A0D9QPJ5 Uncharacterized protein n=1 Tax=Plasmodium 
+fragile TaxID=5857 RepID=A0A0D9QPJ5_PLAFR
+Length=332
+
+ Score = 166 bits (421),  Expect = 1e-46, Method: Composition-based stats.
+ Identities = 46/161 (29%), Positives = 78/161 (48%), Gaps = 1/161 (1%)
+
+Query  13   PRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEER  72
+              I  +   EF     Y+  +M  + D EK N  L D + I + + +N  +   F++   
+Sbjct  165  KTIYFILFTEFETTETYLEKIMNCTTDEEK-NELLDDHIGILKEMYENSKKNGNFILPFE  223
+
+Query  73   VQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRI  132
+            ++D++  RISDRL  +C    +T+  +  +     +EQ V + +   V H     EKK +
+Sbjct  224  LRDSMALRISDRLRDFCFSPYLTDSGMATLKCLFSIEQEVFKGLFYYVKHKNTYSEKKEV  283
+
+Query  133  MNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDV  173
+            +ND +LIR   D       +  T++Q  +AA R+S F+ DV
+Sbjct  284  INDLELIRYYHDELVTEYGLYLTEEQLDNAAMRVSNFVHDV  324
+
+
+> UniRef90_A0A1B1DV43 Uncharacterized protein n=1 Tax=Plasmodium 
+coatneyi TaxID=208452 RepID=A0A1B1DV43_9APIC
+Length=360
+
+ Score = 166 bits (420),  Expect = 3e-46, Method: Composition-based stats.
+ Identities = 42/152 (28%), Positives = 77/152 (51%), Gaps = 1/152 (1%)
+
+Query  22   EFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQDNIVNRI  81
+            EF     Y+  +M  + D EK N  L+D + I + + +N  +   F +   ++D++  RI
+Sbjct  182  EFETTKTYLTKIMNCTTDEEK-NELLEDHIGILKEMYENSKQIENFRLPFEIRDSMALRI  240
+
+Query  82   SDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIRM  141
+            SDRL  +C  + +T+  I  +     VE  V + +   + H     E+K ++ND +LI++
+Sbjct  241  SDRLRDFCFSEYLTDSNILTLQSLFLVELEVFKGLFYYLKHKNTYSERKEVINDLELIKL  300
+
+Query  142  LFDTYEYVKDVKFTDDQYKDAAARISQFLIDV  173
+              +       +  TD+Q  +AA R+S F+ D+
+Sbjct  301  YHEELITENGLHLTDEQLDNAAMRVSNFVHDL  332
+
+
+> UniRef90_K6UIK5 Uncharacterized protein (Fragment) n=1 Tax=Plasmodium 
+cynomolgi strain B TaxID=1120755 RepID=K6UIK5_9APIC
+Length=332
+
+ Score = 163 bits (413),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 42/153 (27%), Positives = 81/153 (53%), Gaps = 1/153 (1%)
+
+Query  21   IEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQDNIVNR  80
+            +EF     Y+  +M  S D EK N  L+D + I + + +N  +   + +   ++D++  R
+Sbjct  179  VEFETTQTYLNKIMNCSTDEEK-NELLEDHIGILQEMHENNKKNYNYRLPFELRDSMALR  237
+
+Query  81   ISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIR  140
+            ISDRL  +C ++ +T+ Y+  +     +E  V + +   + H     EKK ++ND +LI+
+Sbjct  238  ISDRLRDFCFNEPLTDSYVATLKSIFALELEVFKGLFYYLKHKTTYNEKKEVINDLELIK  297
+
+Query  141  MLFDTYEYVKDVKFTDDQYKDAAARISQFLIDV  173
+               + +    D+  T++Q  +AA R+S F+ D+
+Sbjct  298  YYHEEFLTDNDLYLTEEQLDNAAMRVSNFVNDI  330
+
+
+> UniRef90_A0A1D3TDX7 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1D3TDX7_PLAMA
+Length=226
+
+ Score = 160 bits (405),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 39/188 (21%), Positives = 89/188 (47%), Gaps = 7/188 (4%)
+
+Query  3    YEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTL---SKDPEKFNYALKDRVSIRR---Y  56
+            Y+      +   + K+ D+EF A   ++++++      +  ++    L  ++S       
+Sbjct  33   YKRFPGDNVREDVMKLADVEFQATVYFLFIVLLAYMKQRRDKRTKQELFSKISYYNVETT  92
+
+Query  57   VRKNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEV  116
+            +      +     +++ +D  ++RI  RL     +  +T+DY ++   Y W+EQRVIEE+
+Sbjct  93   IDYFIQHFGNRFKDKKSKDKCIDRIIRRLNFIVIEGILTKDYCERAQKYFWIEQRVIEEM  152
+
+Query  117  SINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVD-  175
+            S+ V   +   +K+ +  ++  I+ L    E  +++K +D    +  + +  FL+D++  
+Sbjct  153  SVKVFKEKTDDKKRNMCINELAIKSLISKLERGRNIKLSDGMIANTVSTVEDFLLDLLRE  212
+
+Query  176  SYIIKPIP  183
+            + I KP  
+Sbjct  213  AEINKPSK  220
+
+
+> UniRef90_A0A151LCY5 Gamete antigen 27/25 n=1 Tax=Plasmodium gaboni 
+TaxID=647221 RepID=A0A151LCY5_9APIC
+Length=163
+
+ Score = 157 bits (397),  Expect = 6e-45, Method: Composition-based stats.
+ Identities = 143/153 (93%), Positives = 151/153 (99%), Gaps = 0/153 (0%)
+
+Query  34   MTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKE  93
+            MTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEE +QDNIVNRISDRLIS+CTDKE
+Sbjct  1    MTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEEHIQDNIVNRISDRLISFCTDKE  60
+
+Query  94   VTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVK  153
+            VTEDYIKK+DDYLWVEQRVIEEVSINVDHAREVKEKKRIM+DKKL+RMLFDTYEYVKDVK
+Sbjct  61   VTEDYIKKVDDYLWVEQRVIEEVSINVDHAREVKEKKRIMHDKKLVRMLFDTYEYVKDVK  120
+
+Query  154  FTDDQYKDAAARISQFLIDVVDSYIIKPIPALP  186
+            FTDDQYKDA+AR+SQFL+DVVDSYI KPIPALP
+Sbjct  121  FTDDQYKDASARVSQFLVDVVDSYIFKPIPALP  153
+
+
+> UniRef90_W7A102 Uncharacterized protein n=1 Tax=Plasmodium inui 
+San Antonio 1 TaxID=1237626 RepID=W7A102_9APIC
+Length=361
+
+ Score = 159 bits (402),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 40/153 (26%), Positives = 78/153 (51%), Gaps = 1/153 (1%)
+
+Query  21   IEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQDNIVNR  80
+            +EF     Y+  ++  + D +K N  L+D + I + + +N  + +   +   ++D++  R
+Sbjct  183  VEFETTKTYLNKIINCATDEQK-NELLEDHIGILQEMYENYKKSDNSGLPSELRDSMALR  241
+
+Query  81   ISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIR  140
+            ISDRL  +C  + +T+ Y++ +     +E  V + +   V       EKK ++ND +LIR
+Sbjct  242  ISDRLRDFCFTESITDSYMETLKSIFALELEVFKGLFCYVKDKSTYNEKKTVINDLELIR  301
+
+Query  141  MLFDTYEYVKDVKFTDDQYKDAAARISQFLIDV  173
+               +       +  TD+Q  +AA R+S F+ D+
+Sbjct  302  FYHEELLTENGLYLTDEQLDNAAMRVSNFVNDM  334
+
+
+> UniRef90_A0A1J1HF92 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+relictum TaxID=85471 RepID=A0A1J1HF92_PLARL
+Length=227
+
+ Score = 151 bits (382),  Expect = 5e-42, Method: Composition-based stats.
+ Identities = 49/173 (28%), Positives = 97/173 (56%), Gaps = 3/173 (2%)
+
+Query  16   RKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQD  75
+            R+   +EF      +  ++ +  + ++    L D  SI++ V  +  +Y+  ++++   D
+Sbjct  49   REYCTLEFEMTVFSLDHVLGVG-EIDEMKKILSDLKSIKKEVVTSARKYHQVVMDDEDSD  107
+
+Query  76   NIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMND  135
+            N+ +RISDRL+  C + +VT+DY   + +  W EQR +E+  I ++    V ++K+++ +
+Sbjct  108  NMTSRISDRLLCLCNEIKVTDDYYALLKNIFWAEQRSLEDAFIEINKKENVVDRKKLIEN  167
+
+Query  136  KKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSY--IIKPIPALP  186
+              +++  F  Y  V ++K ++DQ  + A R+S+FL DV      I+KPIP +P
+Sbjct  168  INMLKSNFKKYLDVLNIKLSEDQMHNTAMRMSKFLTDVFGLTIKIVKPIPLIP  220
+
+
+> UniRef90_A0A1A8WU04 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8WU04_PLAMA
+Length=181
+
+ Score = 146 bits (369),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 36/167 (22%), Positives = 79/167 (47%), Gaps = 8/167 (5%)
+
+Query  16   RKVGDIEFHACSDYIYLLMTL-------SKDPEKFNYALKDRVSIRRYVRKNQNRYNYFL  68
+             K+ D+EFH+ +D+++  +         S   ++    +    +I   +        Y  
+Sbjct  1    MKLVDLEFHSSTDFLFKALLSYNRGIQGSTSKKELFLKIC-YENIEISIDYFMRHLGYHF  59
+
+Query  69   IEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKE  128
+             +   ++N ++RI  RL     +  +T++Y K+   Y W+EQRVIEE+SI V + +    
+Sbjct  60   KDNISKNNCIDRIIRRLNFIVIEGILTDEYCKRAQKYFWIEQRVIEEMSIKVFNEKSTDA  119
+
+Query  129  KKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVD  175
+              ++  ++ +I+ L    E  + +K ++    +  + +  FL+D++ 
+Sbjct  120  STKMCKNEVVIKDLISKLERGRSIKLSEGMIANTVSCVKDFLLDLLR  166
+
+
+> UniRef90_A0A1A8VP84 Uncharacterized protein n=3 Tax=Plasmodium 
+ovale TaxID=36330 RepID=A0A1A8VP84_9APIC
+Length=359
+
+ Score = 148 bits (374),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 40/154 (26%), Positives = 77/154 (50%), Gaps = 1/154 (1%)
+
+Query  21   IEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQDNIVNR  80
+            +EF +   Y+  +       +K   AL D + I + + +N N+ + + +   ++D++  R
+Sbjct  185  VEFESTYTYLDKIKHYPTTEQK-KKALDDHLGIIKEMYENANKNDGYKLPFELRDSMALR  243
+
+Query  81   ISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIR  140
+            IS+R+  Y  ++EVT DY+  +     +E  V +     + H     E+K  +ND +LI+
+Sbjct  244  ISERIRDYIFEEEVTSDYVLTMKTIFSIELEVFKGFFYYIKHKNSFSERKEAINDLELIK  303
+
+Query  141  MLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+               +      DV  T++Q  +AA R+S F+ D+ 
+Sbjct  304  FYHEDLLDDSDVYLTEEQLNNAAMRVSNFVSDMF  337
+
+
+> UniRef90_A0A1J1GPW4 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+gallinaceum TaxID=5849 RepID=A0A1J1GPW4_PLAGA
+Length=207
+
+ Score = 143 bits (362),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 47/160 (29%), Positives = 81/160 (51%), Gaps = 2/160 (1%)
+
+Query  14   RIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERV  73
+              +KV  +EF      +  L   S D       LKD  SI++ + +   +   +++ E  
+Sbjct  28   EFKKVSTVEFDTTIIILDKLKGCSIDE--MEEILKDFDSIKKEIVEVGKKCGDYILREEF  85
+
+Query  74   QDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIM  133
+            +D++  RISDRL  Y  ++E+TEDY  K+ +  W+EQ+  EE    V   +   EKK+++
+Sbjct  86   RDHMAFRISDRLRDYYAEQEMTEDYYLKLKNIFWMEQKAFEETFFEVSKKKGPIEKKKVI  145
+
+Query  134  NDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDV  173
+            +D  LI      Y     +K ++ +  +AA RI +F+ D+
+Sbjct  146  DDVNLIVSHLKRYADSMGIKLSEQKLHNAALRIGRFISDL  185
+
+
+> UniRef90_A0A1J1GPK1 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+relictum TaxID=85471 RepID=A0A1J1GPK1_PLARL
+Length=199
+
+ Score = 142 bits (359),  Expect = 7e-39, Method: Composition-based stats.
+ Identities = 42/179 (23%), Positives = 86/179 (48%), Gaps = 3/179 (2%)
+
+Query  8    HAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYF  67
+              P     +   ++E      Y+Y L   S D  K   A+ +  +I + +   + +  Y 
+Sbjct  14   GDPSFEECKLASNVELEITLRYLYKLKEESNDEAK-KEAVVNYDAIVKEIANFEKQCKYK  72
+
+Query  68   LIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVK  127
+             + E +   +  RIS RL  Y  D+ +T++Y  K+ +   +E+++ ++V + V    +V+
+Sbjct  73   -VREAMLYTMSFRISSRLSDYIFDEPLTDEYCLKLKEIFNMEEKIFQKVFLEVLEKDDVR  131
+
+Query  128  EKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKPIPALP  186
+            E+K+I+++  LI+      E    +  ++ + ++AA RI  F+ D++ S  I P    P
+Sbjct  132  ERKKIIDNVNLIKSYLREKEKSMGITLSEQKLQNAALRIGGFICDLI-SLTIVPSKNFP  189
+
+
+> UniRef90_A0A1J1GSJ1 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+gallinaceum TaxID=5849 RepID=A0A1J1GSJ1_PLAGA
+Length=207
+
+ Score = 140 bits (352),  Expect = 9e-38, Method: Composition-based stats.
+ Identities = 38/156 (24%), Positives = 75/156 (48%), Gaps = 1/156 (1%)
+
+Query  13   PRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEER  72
+                +  D+EF   +  +  L     + E     LKD  +I+  +         FLIE+ 
+Sbjct  26   DNFFRCCDVEFKTTNSMLGKLKECKSNSE-MEAKLKDYNAIKEEIVNVGMHECNFLIEKE  84
+
+Query  73   VQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRI  132
+              DN+  RISDRL  +C ++++T++YI K+ +    E +   +V     +     E+K++
+Sbjct  85   FHDNMSYRISDRLRDFCFEEKLTDEYIFKVKEIYSAEDKAGADVFFETCNKEGNLERKKV  144
+
+Query  133  MNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQ  168
+            ++D  LI+     +E    +K ++++  +AA R+ +
+Sbjct  145  IDDMALIKSNLRKHEQCTHIKLSEEKLNNAAKRVQR  180
+
+
+> UniRef90_A0A1J1GKA7 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+relictum TaxID=85471 RepID=A0A1J1GKA7_PLARL
+Length=200
+
+ Score = 138 bits (349),  Expect = 3e-37, Method: Composition-based stats.
+ Identities = 45/166 (27%), Positives = 82/166 (49%), Gaps = 2/166 (1%)
+
+Query  21   IEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQDNIVNR  80
+            +EF     Y+  L   S D +K   AL +  +I + + K +     + + + +Q  +  R
+Sbjct  27   LEFEITVRYLSKLKEESSDEDK-KKALNNYDAIAQDIDKFEKDCKLYKVPKEMQYPMAYR  85
+
+Query  81   ISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIR  140
+            IS+RL  YC D+ +TE Y  K+ +   VE+   ++V +     ++ K KK+I+++  LI+
+Sbjct  86   ISNRLYDYCFDEPLTEQYSLKLKEIFSVEEDTFQKVFLEALKEKDNKYKKKIIDNINLIK  145
+
+Query  141  MLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKPIPALP  186
+                     K +  ++++ ++AA RI  FL D   S+ I P    P
+Sbjct  146  EYLKEKGESKGIALSEEKLQNAATRIRGFLNDFF-SFSIIPSRTFP  190
+
+
+> UniRef90_A0A1D3TE33 Gamete antigen 27/25, putative n=2 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1D3TE33_PLAMA
+Length=142
+
+ Score = 135 bits (339),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 35/141 (25%), Positives = 77/141 (55%), Gaps = 0/141 (0%)
+
+Query  43   FNYALKDRVSIRRYVRKNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKI  102
+                ++   +I   +R  + +Y Y  +++  ++N V+RI  RL S+  +  +TE+Y+K+ 
+Sbjct  1    MFLEIEKTENILTVLRGFEKKYGYKFVDDESKNNCVSRIKKRLNSFVIEGVLTEEYLKQG  60
+
+Query  103  DDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDA  162
+            + + W+EQRV EE+S+ V  A++  +K+++  +K  I+ + + YE  K +K++ +   + 
+Sbjct  61   EIFFWIEQRVGEEMSVKVYSAKQYPDKRKMCYNKNEIKKVKNDYEKEKCIKYSPEMIHNN  120
+
+Query  163  AARISQFLIDVVDSYIIKPIP  183
+               +  FL+D++         
+Sbjct  121  IVTVGSFLVDILRESTFIRSK  141
+
+
+> UniRef90_A0A1C3KIF4 Gamete antigen 27/25, putative n=3 Tax=Plasmodium 
+TaxID=5820 RepID=A0A1C3KIF4_PLAFA
+Length=379
+
+ Score = 139 bits (350),  Expect = 7e-36, Method: Composition-based stats.
+ Identities = 40/154 (26%), Positives = 78/154 (51%), Gaps = 1/154 (1%)
+
+Query  21   IEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQDNIVNR  80
+            +EF +   Y+  +       +K   AL D + I + + +N N+ + + +   ++D++  R
+Sbjct  205  VEFESTYTYLDKIKNYPTIEQK-KKALDDHLGIIKEMYENANKNDGYKLPFELRDSMALR  263
+
+Query  81   ISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIR  140
+            IS+R+  Y  ++EVT DY+  +     +E  V +     + H     E+K  +ND +LI+
+Sbjct  264  ISERIRDYIFEEEVTSDYVLTMKTIFSIELEVFKGFFYYIKHKNSFSERKEAINDLELIK  323
+
+Query  141  MLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+               +      D+  T++Q K+AA R+S F+ D+ 
+Sbjct  324  FYHEDLLDDSDLYLTEEQLKNAAMRVSNFVSDMF  357
+
+
+> UniRef90_A0A1J1GK82 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+relictum TaxID=85471 RepID=A0A1J1GK82_PLARL
+Length=231
+
+ Score = 128 bits (323),  Expect = 4e-33, Method: Composition-based stats.
+ Identities = 34/167 (20%), Positives = 80/167 (48%), Gaps = 2/167 (1%)
+
+Query  19   GDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLI-EERVQDNI  77
+              +EFH     +  ++   K+      ++ D  +I++ +  +  +Y   ++ ++   + +
+Sbjct  55   CRLEFHMTIYCLDHVLGF-KNLSDIKKSVTDLDAIKKEIVDSARKYYQVVMEDDEALERM  113
+
+Query  78   VNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKK  137
+             NRIS RL +  ++   T DY   + +  W EQR +E++ I ++   ++ +K  ++    
+Sbjct  114  ANRISGRLFNLRSEILTTMDYYSLLKNIFWAEQRAMEDIFIELNEKDDIAQKTEVIGRIS  173
+
+Query  138  LIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKPIPA  184
+             I+ +F+ Y  + ++  +  Q ++ A RI + L ++    I    PA
+Sbjct  174  SIKSIFEKYLRLININLSGQQIQNTAERIQELLGELCGISIKYTRPA  220
+
+
+> UniRef90_A0A1A8X7U0 Uncharacterized protein n=2 Tax=Plasmodium 
+TaxID=5820 RepID=A0A1A8X7U0_PLAMA
+Length=335
+
+ Score = 128 bits (323),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 37/175 (21%), Positives = 81/175 (46%), Gaps = 1/175 (1%)
+
+Query  4    EHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNR  63
+            +    + L   I  + ++EF   + Y+  L+  S   EK    + +  +I   + KN  +
+Sbjct  142  DLYNISELYDIIILILNLEFETTNTYVNKLVHCSSIEEK-KRIINNHFTIILEIFKNAKK  200
+
+Query  64   YNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHA  123
+             +   +   + D++  RI +R+  +C D+++ E+Y+  + +   +EQ V + +   +   
+Sbjct  201  MDNLKVPFELLDSMALRIKNRITDFCLDEDLNENYLLILKNIFEIEQNVFKGLFCYISCK  260
+
+Query  124  REVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYI  178
+              +KEKK ++ND +LI    +       ++       +AA R S F+ ++   +I
+Sbjct  261  NTLKEKKDVINDLQLISYYHEELAEDAGIEIPVQLLVNAAMRTSNFVSEMFYLFI  315
+
+
+> UniRef90_A0A151LUU1 Uncharacterized protein (Fragment) n=1 Tax=Plasmodium 
+reichenowi TaxID=5854 RepID=A0A151LUU1_PLARE
+Length=407
+
+ Score = 129 bits (324),  Expect = 5e-32, Method: Composition-based stats.
+ Identities = 36/160 (23%), Positives = 78/160 (49%), Gaps = 3/160 (2%)
+
+Query  15   IRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQ  74
+            I  + ++EF++  +Y+  ++    D  K N +L D   I + + K +N      +   ++
+Sbjct  239  INNICELEFNSTKNYLMEIIN--NDKLKHN-SLNDTEVILKEITKTENELFSLKLPLEIK  295
+
+Query  75   DNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMN  134
+             ++  RI++RL ++  DK++T  YIKK+ D   +E    +     V +     +KK ++N
+Sbjct  296  VSMALRITERLRAFIFDKDLTAYYIKKLKDIFKLETEAAKNYYYYVKYQNTFSDKKLLVN  355
+
+Query  135  DKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+            +   I++ +++      +    D+   A  RIS  + D++
+Sbjct  356  NLDSIKLYYESQINKNFISIPKDKIPGAIYRISNLVNDLI  395
+
+
+> UniRef90_W7JVJ1 Uncharacterized protein n=1 Tax=Plasmodium falciparum 
+UGT5.1 TaxID=1237627 RepID=W7JVJ1_PLAFA
+Length=377
+
+ Score = 128 bits (321),  Expect = 8e-32, Method: Composition-based stats.
+ Identities = 39/160 (24%), Positives = 81/160 (51%), Gaps = 3/160 (2%)
+
+Query  15   IRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQ  74
+            I  + ++EF++ ++Y+  ++    D  K N +L D  +I + + K QN      +   ++
+Sbjct  209  INNICELEFNSTNNYLMKIIN--NDKLKHN-SLNDNEAILKEITKTQNELFSLKLPLEIK  265
+
+Query  75   DNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMN  134
+             ++  RIS+RL ++  DK++T  YIKK+ D   +E    +     V   +   +KKR++N
+Sbjct  266  VSMALRISERLRAFVFDKDLTAYYIKKLKDIFKLETEAAKNYYYYVKCQKTFSDKKRLVN  325
+
+Query  135  DKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+            +   I++ +++      +    D+   A  RIS  + D++
+Sbjct  326  NLDSIKLYYESQINKNFISIPKDKIPTAIYRISNLVNDLI  365
+
+
+> UniRef90_A0A1A8WVR6 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8WVR6_PLAMA
+Length=205
+
+ Score = 118 bits (296),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 33/156 (21%), Positives = 71/156 (46%), Gaps = 6/156 (4%)
+
+Query  3    YEHETHAPLSPRIRKVGDIEFHACSDYIYL-LMTLSKDPEKFNYALKDRVSIRRYVRK--  59
+            Y+      +   + ++ +IEF A   +++L L+ L+K         +    I     +  
+Sbjct  50   YKPLPKGIVIEDVIELLNIEFQATIYFLFLELLPLNKHKADKTDKRELFSRISFDYLELP  109
+
+Query  60   ---NQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEV  116
+                     Y   +ER +++ +NR+  RL     +  +T++Y ++   Y W+EQRVIEE+
+Sbjct  110  ILYFMKHLGYSFKDERSRNSCINRMKKRLDLIVIEGILTKEYCERAQKYFWIEQRVIEEM  169
+
+Query  117  SINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDV  152
+            S+ V   +   +++ +  ++  I+ L    E  + +
+Sbjct  170  SVKVFKEKTDDKQRNMCQNELAIKSLISKLERGRSI  205
+
+
+> UniRef90_W4J5Y4 Uncharacterized protein n=1 Tax=Plasmodium falciparum 
+(isolate Palo Alto / Uganda) TaxID=57270 RepID=W4J5Y4_PLAFP
+Length=990
+
+ Score = 122 bits (305),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 39/160 (24%), Positives = 81/160 (51%), Gaps = 3/160 (2%)
+
+Query  15   IRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQ  74
+            I  + ++EF++ ++Y+  ++    D  K N +L D  +I + + K QN      +   ++
+Sbjct  822  INNICELEFNSTNNYLMKIIN--NDKLKHN-SLNDNEAILKEITKTQNELFSLKLPLEIK  878
+
+Query  75   DNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMN  134
+             ++  RIS+RL ++  DK++T  YIKK+ D   +E    +     V   +   +KKR++N
+Sbjct  879  VSMALRISERLRAFVFDKDLTAYYIKKLKDIFKLETEAAKNYYYYVKCQKTFSDKKRLVN  938
+
+Query  135  DKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+            +   I++ +++      +    D+   A  RIS  + D++
+Sbjct  939  NLDSIKLYYESQINKNFISIPKDKIPTAIYRISNLVNDLI  978
+
+
+> UniRef90_W7FTY2 Uncharacterized protein n=1 Tax=Plasmodium falciparum 
+(isolate 7G8) TaxID=57266 RepID=W7FTY2_PLAF8
+Length=941
+
+ Score = 121 bits (304),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 39/160 (24%), Positives = 81/160 (51%), Gaps = 3/160 (2%)
+
+Query  15   IRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQ  74
+            I  + ++EF++ ++Y+  ++    D  K N +L D  +I + + K QN      +   ++
+Sbjct  773  INNICELEFNSTNNYLMKIIN--NDKLKHN-SLNDNEAILKEITKTQNELFSLKLPLEIK  829
+
+Query  75   DNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMN  134
+             ++  RIS+RL ++  DK++T  YIKK+ D   +E    +     V   +   +KKR++N
+Sbjct  830  VSMALRISERLRAFVFDKDLTAYYIKKLKDIFKLETEAAKNYYYYVKCQKTFSDKKRLVN  889
+
+Query  135  DKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+            +   I++ +++      +    D+   A  RIS  + D++
+Sbjct  890  NLDSIKLYYESQINKNFISIPKDKIPTAIYRISNLVNDLI  929
+
+
+> UniRef90_W7GCI3 Uncharacterized protein n=1 Tax=Plasmodium falciparum 
+Santa Lucia TaxID=478859 RepID=W7GCI3_PLAFA
+Length=856
+
+ Score = 121 bits (303),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 39/160 (24%), Positives = 81/160 (51%), Gaps = 3/160 (2%)
+
+Query  15   IRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQ  74
+            I  + ++EF++ ++Y+  ++    D  K N +L D  +I + + K QN      +   ++
+Sbjct  688  INNICELEFNSTNNYLMKIIN--NDKLKHN-SLNDNEAILKEITKTQNELFSLKLPLEIK  744
+
+Query  75   DNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMN  134
+             ++  RIS+RL ++  DK++T  YIKK+ D   +E    +     V   +   +KKR++N
+Sbjct  745  VSMALRISERLRAFVFDKDLTAYYIKKLKDIFKLETEAAKNYYYYVKCQKTFSDKKRLVN  804
+
+Query  135  DKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+            +   I++ +++      +    D+   A  RIS  + D++
+Sbjct  805  NLDSIKLYYESQINKNFISIPKDKIPTAIYRISNLVNDLI  844
+
+
+> UniRef90_W7KD95 Uncharacterized protein n=1 Tax=Plasmodium falciparum 
+(isolate NF54) TaxID=5843 RepID=W7KD95_PLAFO
+Length=880
+
+ Score = 121 bits (303),  Expect = 4e-28, Method: Composition-based stats.
+ Identities = 39/160 (24%), Positives = 81/160 (51%), Gaps = 3/160 (2%)
+
+Query  15   IRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQ  74
+            I  + ++EF++ ++Y+  ++    D  K N +L D  +I + + K QN      +   ++
+Sbjct  712  INNICELEFNSTNNYLMKIIN--NDKLKHN-SLNDNEAILKEITKTQNELFSLKLPLEIK  768
+
+Query  75   DNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMN  134
+             ++  RIS+RL ++  DK++T  YIKK+ D   +E    +     V   +   +KKR++N
+Sbjct  769  VSMALRISERLRAFVFDKDLTAYYIKKLKDIFKLETEAAKNYYYYVKCQKTFSDKKRLVN  828
+
+Query  135  DKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+            +   I++ +++      +    D+   A  RIS  + D++
+Sbjct  829  NLDSIKLYYESQINKNFISIPKDKIPTAIYRISNLVNDLI  868
+
+
+> UniRef90_A0A0L7M8A1 Uncharacterized protein n=1 Tax=Plasmodium 
+falciparum (isolate Dd2) TaxID=57267 RepID=A0A0L7M8A1_PLAF4
+Length=1108
+
+ Score = 121 bits (303),  Expect = 6e-28, Method: Composition-based stats.
+ Identities = 39/160 (24%), Positives = 81/160 (51%), Gaps = 3/160 (2%)
+
+Query  15    IRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQ  74
+             I  + ++EF++ ++Y+  ++    D  K N +L D  +I + + K QN      +   ++
+Sbjct  940   INNICELEFNSTNNYLMKIIN--NDKLKHN-SLNDNEAILKEITKTQNELFSLKLPLEIK  996
+
+Query  75    DNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMN  134
+              ++  RIS+RL ++  DK++T  YIKK+ D   +E    +     V   +   +KKR++N
+Sbjct  997   VSMALRISERLRAFVFDKDLTAYYIKKLKDIFKLETEAAKNYYYYVKCQKTFSDKKRLVN  1056
+
+Query  135   DKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+             +   I++ +++      +    D+   A  RIS  + D++
+Sbjct  1057  NLDSIKLYYESQINKNFISIPKDKIPTAIYRISNLVNDLI  1096
+
+
+> UniRef90_A0A024WX17 Uncharacterized protein n=1 Tax=Plasmodium 
+falciparum MaliPS096_E11 TaxID=1036727 RepID=A0A024WX17_PLAFA
+Length=909
+
+ Score = 120 bits (301),  Expect = 7e-28, Method: Composition-based stats.
+ Identities = 39/160 (24%), Positives = 81/160 (51%), Gaps = 3/160 (2%)
+
+Query  15   IRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQ  74
+            I  + ++EF++ ++Y+  ++    D  K N +L D  +I + + K QN      +   ++
+Sbjct  741  INNICELEFNSTNNYLMKIIN--NDKLKHN-SLNDNEAILKEITKTQNELFSLKLPLEIK  797
+
+Query  75   DNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMN  134
+             ++  RIS+RL ++  DK++T  YIKK+ D   +E    +     V   +   +KKR++N
+Sbjct  798  VSMALRISERLRAFVFDKDLTAYYIKKLKDIFKLETEAAKNYYYYVKCQKTFSDKKRLVN  857
+
+Query  135  DKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+            +   I++ +++      +    D+   A  RIS  + D++
+Sbjct  858  NLDSIKLYYESQINKNFISIPKDKIPTAIYRISNLVNDLI  897
+
+
+> UniRef90_O96127 Conserved Plasmodium protein n=2 Tax=Plasmodium 
+falciparum TaxID=5833 RepID=O96127_PLAF7
+Length=1192
+
+ Score = 120 bits (300),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 39/160 (24%), Positives = 81/160 (51%), Gaps = 3/160 (2%)
+
+Query  15    IRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQ  74
+             I  + ++EF++ ++Y+  ++    D  K N +L D  +I + + K QN      +   ++
+Sbjct  1024  INNICELEFNSTNNYLMKIIN--NDKLKHN-SLNDNEAILKEITKTQNELFSLKLPLEIK  1080
+
+Query  75    DNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMN  134
+              ++  RIS+RL ++  DK++T  YIKK+ D   +E    +     V   +   +KKR++N
+Sbjct  1081  VSMALRISERLRAFVFDKDLTAYYIKKLKDIFKLETEAAKNYYYYVKCQKTFSDKKRLVN  1140
+
+Query  135   DKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+             +   I++ +++      +    D+   A  RIS  + D++
+Sbjct  1141  NLDSIKLYYESQINKNFISIPKDKIPTAIYRISNLVNDLI  1180
+
+
+> UniRef90_A0A0L1I9G4 Uncharacterized protein n=4 Tax=Plasmodium 
+falciparum TaxID=5833 RepID=A0A0L1I9G4_PLAFA
+Length=1239
+
+ Score = 120 bits (300),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 39/160 (24%), Positives = 81/160 (51%), Gaps = 3/160 (2%)
+
+Query  15    IRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQ  74
+             I  + ++EF++ ++Y+  ++    D  K N +L D  +I + + K QN      +   ++
+Sbjct  1071  INNICELEFNSTNNYLMKIIN--NDKLKHN-SLNDNEAILKEITKTQNELFSLKLPLEIK  1127
+
+Query  75    DNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMN  134
+              ++  RIS+RL ++  DK++T  YIKK+ D   +E    +     V   +   +KKR++N
+Sbjct  1128  VSMALRISERLRAFVFDKDLTAYYIKKLKDIFKLETEAAKNYYYYVKCQKTFSDKKRLVN  1187
+
+Query  135   DKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+             +   I++ +++      +    D+   A  RIS  + D++
+Sbjct  1188  NLDSIKLYYESQINKNFISIPKDKIPTAIYRISNLVNDLI  1227
+
+
+> UniRef90_A0A024XFI4 Uncharacterized protein n=1 Tax=Plasmodium 
+falciparum (isolate Camp / Malaysia) TaxID=5835 RepID=A0A024XFI4_PLAFC
+Length=772
+
+ Score = 116 bits (292),  Expect = 8e-27, Method: Composition-based stats.
+ Identities = 39/160 (24%), Positives = 81/160 (51%), Gaps = 3/160 (2%)
+
+Query  15   IRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQ  74
+            I  + ++EF++ ++Y+  ++    D  K N +L D  +I + + K QN      +   ++
+Sbjct  604  INNICELEFNSTNNYLMKIIN--NDKLKHN-SLNDNEAILKEITKTQNELFSLKLPLEIK  660
+
+Query  75   DNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMN  134
+             ++  RIS+RL ++  DK++T  YIKK+ D   +E    +     V   +   +KKR++N
+Sbjct  661  VSMALRISERLRAFVFDKDLTAYYIKKLKDIFKLETEAAKNYYYYVKCQKTFSDKKRLVN  720
+
+Query  135  DKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+            +   I++ +++      +    D+   A  RIS  + D++
+Sbjct  721  NLDSIKLYYESQINKNFISIPKDKIPTAIYRISNLVNDLI  760
+
+
+> UniRef90_A0A1A8XBF5 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8XBF5_PLAMA
+Length=127
+
+ Score = 109 bits (272),  Expect = 9e-27, Method: Composition-based stats.
+ Identities = 33/124 (27%), Positives = 64/124 (52%), Gaps = 4/124 (3%)
+
+Query  26   CSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQDNIVNRISDRL  85
+            C +Y ++++      +K    ++   +I + +R  + +Y Y  ++E  ++N VNR+   L
+Sbjct  7    CINYCHMVLI----KKKIFSEIEKTENILKVLRGFEKKYEYKFVDEESKNNCVNRVKKCL  62
+
+Query  86   ISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIRMLFDT  145
+             S   +  + E Y K+  +Y W+EQR+ EE+S+ VD  +  + K+ + ND   I+ L   
+Sbjct  63   NSIVIEGVLREKYCKQAQNYFWIEQRIDEEMSVKVDKQKTDEGKRIMGNDDDEIKRLLCI  122
+
+Query  146  YEYV  149
+             E  
+Sbjct  123  LEKE  126
+
+
+> UniRef90_A0A060RMY0 Uncharacterized protein n=1 Tax=Plasmodium 
+reichenowi TaxID=5854 RepID=A0A060RMY0_PLARE
+Length=924
+
+ Score = 115 bits (288),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 34/160 (21%), Positives = 78/160 (49%), Gaps = 3/160 (2%)
+
+Query  15   IRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQ  74
+            +  + ++EF++  +Y+  ++    D  K N +L D   I + + K +N      +   ++
+Sbjct  756  VNNICELEFNSTKNYLMKIIN--NDKLKHN-SLNDTEVILKEITKTENELFSLKLPLEIK  812
+
+Query  75   DNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMN  134
+             ++  RI++RL ++  DK++T  YIKK++D   +E    +     V   +   +KK ++N
+Sbjct  813  VSMALRITERLRAFIFDKDLTVYYIKKLNDIFKLETEAAKNYYYYVKCQKTFSDKKLLVN  872
+
+Query  135  DKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+            +   I++ +++      +    D+   A  RI   + D++
+Sbjct  873  NLDSIKLYYESQINKNFISIPKDKIPAAIYRIYNLVNDLI  912
+
+
+> UniRef90_A0A151LWB3 Uncharacterized protein (Fragment) n=1 Tax=Plasmodium 
+gaboni TaxID=647221 RepID=A0A151LWB3_9APIC
+Length=799
+
+ Score = 110 bits (274),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 40/161 (25%), Positives = 81/161 (50%), Gaps = 3/161 (2%)
+
+Query  14   RIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERV  73
+             +  + +IEF +  +Y+   MT+  + E  + +L D  +I + + K QN++  F +   +
+Sbjct  635  TVNNICEIEFISTKNYL---MTIIDNDESKHNSLNDNDAILKEINKTQNKFINFQLPLEI  691
+
+Query  74   QDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIM  133
+               +  RIS+RL ++  DKE+T  YIK++ D   +E+   +     +      ++KK + 
+Sbjct  692  TVPMALRISERLRAFIFDKELTPYYIKQLTDIFELEKDASKIYYYYLKCQNTYEDKKGLF  751
+
+Query  134  NDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+             +   I++ +D+      V    D+   A +RIS F+ D++
+Sbjct  752  KNLDSIKLCYDSQIDKNFVYIPKDKIPGALSRISNFVNDLL  792
+
+
+> UniRef90_A0A0L7KL69 Uncharacterized protein (Fragment) n=1 Tax=Plasmodium 
+falciparum (isolate HB3) TaxID=137071 RepID=A0A0L7KL69_PLAFX
+Length=105
+
+ Score = 101 bits (253),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 92/92 (100%), Positives = 92/92 (100%), Gaps = 0/92 (0%)
+
+Query  95   TEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKF  154
+            TEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKF
+Sbjct  3    TEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKF  62
+
+Query  155  TDDQYKDAAARISQFLIDVVDSYIIKPIPALP  186
+            TDDQYKDAAARISQFLIDVVDSYIIKPIPALP
+Sbjct  63   TDDQYKDAAARISQFLIDVVDSYIIKPIPALP  94
+
+
+> UniRef90_A0A1J1GTN7 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+gallinaceum TaxID=5849 RepID=A0A1J1GTN7_PLAGA
+Length=206
+
+ Score = 99.7 bits (247),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 39/168 (23%), Positives = 73/168 (43%), Gaps = 3/168 (2%)
+
+Query  20   DIEFHACSDYIYLLM-TLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQDNIV  78
+            DIEF       YL      K  E+    ++D  +I   + + +   +       + D++ 
+Sbjct  29   DIEFDITVTVRYLDKVKKGKTAEEIRKIIEDHKAIVEEIVETEKHEHTRYKSF-LHDDVA  87
+
+Query  79   NRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKL  138
+             R++DRL  YC D+ +TE Y  KI    W+E+ VI +    V   +   E++ +M++  L
+Sbjct  88   YRVADRLSDYCYDEPLTETYCAKIIKAFWIEKDVILKYFKEVLPNKGDLERRLLMSNLTL  147
+
+Query  139  IRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKPIPALP  186
+            I+           +  ++ +    + R+S+F+     +  I P   LP
+Sbjct  148  IKSYVIKEAEAAKIDLSERKLHSISVRLSKFMF-FTSALNIIPSKDLP  194
+
+
+> UniRef90_A0A1J1GU57 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+gallinaceum TaxID=5849 RepID=A0A1J1GU57_PLAGA
+Length=112
+
+ Score = 77.7 bits (190),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 27/112 (24%), Positives = 50/112 (45%), Gaps = 29/112 (26%)
+
+Query  62   NRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVD  121
+                 F + E ++DN+  RI +R   YC D  +T++Y  K+ +   +EQ+  EEV +++ 
+Sbjct  8    RECQNFTVNEELRDNMTFRIQNRFSDYCLDVALTDEYCLKLKNIFSIEQQAFEEVFLDI-  66
+
+Query  122  HAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDV  173
+                   KK+I+N                      ++  ++A RI +F+ D 
+Sbjct  67   ------HKKKIIN----------------------EKLHNSAVRIGKFVNDF  90
+
+
+> UniRef90_A0A1A8WYH0 Uncharacterized protein n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8WYH0_PLAMA
+Length=78
+
+ Score = 65.8 bits (159),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 13/63 (21%), Positives = 31/63 (49%), Gaps = 0/63 (0%)
+
+Query  113  IEEVSINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLID  172
+            +EE+S+ V + +    +  +  ++  I+ L    E  + +K ++    +  + I  FL+D
+Sbjct  1    MEEMSLKVFNEKTENARTNMCKNEVEIKNLISKLERGRSIKLSEGMIANTVSTIKDFLLD  60
+
+Query  173  VVD  175
+            V+ 
+Sbjct  61   VLR  63
+
+
+> UniRef90_A0A1A8WX33 Uncharacterized protein n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8WX33_PLAMA
+Length=150
+
+ Score = 65.0 bits (157),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 17/102 (17%), Positives = 44/102 (43%), Gaps = 7/102 (7%)
+
+Query  3    YEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLS------KDPEKFNYALKDRVSIRRY  56
+            Y+H  ++ L   +  + D+EF++  D+++  +  +       + ++    + D  +I   
+Sbjct  50   YKHLQNSALRKDVITLSDLEFYSTIDFLFRQLLHNPRIQDKTNKQELFSKIIDY-NIDFP  108
+
+Query  57   VRKNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDY  98
+            +   +    Y   ++      ++RI  RL     +  +TE+Y
+Sbjct  109  IIYFKRYLGYSFKDDTSMKKCIDRIKRRLNFIVIEGIITEEY  150
+
+
+> UniRef90_K6VH50 Uncharacterized protein (Fragment) n=1 Tax=Plasmodium 
+cynomolgi strain B TaxID=1120755 RepID=K6VH50_9APIC
+Length=173
+
+ Score = 56.5 bits (135),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 32/161 (20%), Positives = 66/161 (41%), Gaps = 1/161 (1%)
+
+Query  14   RIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERV  73
+            +++KV  IE+H    ++  L+  S + E+      +   +   V+     Y        +
+Sbjct  2    KVKKVYTIEYHVTRKFLRDLLNSSNNEERLGRRRNECAIVSDLVKHYGRVYGINFSNIIL  61
+
+Query  74   QDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIM  133
+             DN VNR+  R+  +   + +TE +  +I  YL  E  V+ +    +D    + +   ++
+Sbjct  62   LDNTVNRVRKRINYFLQRETLTETHYYRIKSYLIKEITVLYDFCQKIDLVMALCKYLNVI  121
+
+Query  134  NDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+               + +R   D     K +    +QY    A ++  L D +
+Sbjct  122  PHARGVRFYVD-LSVSKKLLLNREQYSPVIAMVNMLLEDAL  161
+
+
+> UniRef90_A0A1A8XDK2 Uncharacterized protein n=4 Tax=Plasmodium 
+TaxID=5820 RepID=A0A1A8XDK2_9APIC
+Length=246
+
+ Score = 57.3 bits (137),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 29/182 (16%), Positives = 67/182 (37%), Gaps = 7/182 (4%)
+
+Query  6    ETHAPLSPRIRKVGDI---EFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQN  62
+               +  +    K+ +I   E  A +D I  L  L    E+      D  S  R       
+Sbjct  66   YDLSLTTDETMKLLNIIYAEELAFNDIINTLNELLNKKERH----DDFSSFIREKVHKHA  121
+
+Query  63   RYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDH  122
+                    E    N+ NR+ + L     +  + ++ +  + +   +E    +++  ++  
+Sbjct  122  LCEIPNYPEPRIKNMENRLRELLKQMRLNIPLNQEKVMYMSEVFKIEFEQSKDLLWDISK  181
+
+Query  123  AREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKPI  182
+             ++  E   ++N+ + IR   D      ++  ++    +A  RI   + +++D +   P 
+Sbjct  182  LKDEDEMNEMINNLQYIRTSLDDKFTRNNIFLSEGMKVNAVLRIRSRVQEILDFHFDMPS  241
+
+Query  183  PA  184
+             A
+Sbjct  242  SA  243
+
+
+> UniRef90_A0A1J1GZT6 Uncharacterized protein n=1 Tax=Plasmodium 
+gallinaceum TaxID=5849 RepID=A0A1J1GZT6_PLAGA
+Length=258
+
+ Score = 54.2 bits (129),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 31/159 (19%), Positives = 63/159 (40%), Gaps = 3/159 (2%)
+
+Query  18   VGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQDNI  77
+            V ++E+ A      +++  S D    +  + D V I   VR   + YN   + E    N+
+Sbjct  88   VCNLEYIALKMSTQMVIDASGDS--IDDTVLDMVRINNTVRSLLD-YNNITLSEEKIQNM  144
+
+Query  78   VNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKK  137
+              RISDR     +    T D I  +  +  +E  +   +  +        ++  ++N+  
+Sbjct  145  ALRISDRFEEMFSSGSFTLDKINNMLKFYMIEAVLSYNLLRSATSQPHEDDRISMLNNVD  204
+
+Query  138  LIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDS  176
+             I+          +V  +     + A RI + + D++D+
+Sbjct  205  GIKYEISKRFNHSNVLLSASTINNMALRIRESVQDLLDA  243
+
+
+> UniRef90_A0A1J1GKQ9 Uncharacterized protein n=1 Tax=Plasmodium 
+relictum TaxID=85471 RepID=A0A1J1GKQ9_PLARL
+Length=250
+
+ Score = 52.7 bits (125),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 32/161 (20%), Positives = 57/161 (35%), Gaps = 3/161 (2%)
+
+Query  15   IRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQ  74
+            +   GDIEF A    +     +         A+ +       +      Y     EE+++
+Sbjct  77   VSTAGDIEFLALK--LSTQKVVDNFGGLNEDAMNNIGIFCNIILPLLRTYKIIYSEEKIR  134
+
+Query  75   DNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMN  134
+             N+  RI  R+    +D  +T D I         E  +   V          +E+ R+++
+Sbjct  135  -NMAMRIICRIREIFSDGPLTTDQINCRLKLYMFENVLSYHVLKEASCKSNEEERNRVID  193
+
+Query  135  DKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVD  175
+            D   I+ L +       V   +      A RIS+ + D+ D
+Sbjct  194  DIDSIKGLVNNTFNDSKVVLQEHMVNSMALRISESIRDLFD  234
+
+
+> UniRef90_A0A1J1GKL5 Uncharacterized protein n=1 Tax=Plasmodium 
+relictum TaxID=85471 RepID=A0A1J1GKL5_PLARL
+Length=240
+
+ Score = 47.3 bits (111),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 32/174 (18%), Positives = 64/174 (37%), Gaps = 3/174 (2%)
+
+Query  2    HYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQ  61
+             Y+       S  +  V D+EF +    + +   +         A+ +   +   V    
+Sbjct  64   KYDCSLTCDESLSLSGVSDVEFLSLK--LSMQKVVDSSGNLDEDAISNIRLVYNTVSSVF  121
+
+Query  62   NRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVD  121
+              Y     EE+   N+  RI  RL    +D  +T D I        +E  +   +  +  
+Sbjct  122  KIYRIEYSEEKAA-NMALRIISRLREMFSDGPLTNDEINSRLKNYMLENVLSYNLLKDAS  180
+
+Query  122  HAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVD  175
+              R  +++  ++ +   I+ +  T   +  +   D+   D A RIS+ + D+ D
+Sbjct  181  VQRNEEDRNSVICNIDYIKRMIITTFNLSHIVLQDNVVTDMAFRISESVQDLFD  234
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.143    0.385    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0437    0.140     1.90     42.6     43.6 
+
+Effective search space used: 508955565360
+Results from round 3
+
+
+Query= d1n81a_
+
+Length=186
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A1A8WID8 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  200     2e-60
+  UniRef90_A0A1A8WIF5 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  188     6e-56
+  UniRef90_A0A060RWR2 Gamete antigen 27/25 n=17 Tax=Plasmodium (L...  185     4e-55
+  UniRef90_A0A1D3TDZ0 Gamete antigen 27/25, putative n=2 Tax=Plas...  187     1e-54
+  UniRef90_A0A1A8XBG0 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  183     2e-54
+  UniRef90_A0A1A8X3C0 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  182     6e-54
+  UniRef90_A0A1D3TDW0 Gamete antigen 27/25, putative n=2 Tax=Plas...  178     2e-52
+  UniRef90_A0A1A8X7H3 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  177     6e-52
+  UniRef90_A0A1A8WJU9 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  175     2e-51
+  UniRef90_A0A1D3TE36 Gamete antigen 27/25, putative n=1 Tax=Plas...  176     2e-51
+  UniRef90_A0A1A8WLH5 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  171     1e-49
+  UniRef90_A0A1A8X254 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  173     2e-48
+  UniRef90_A0A1A8X9B7 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  168     3e-48
+  UniRef90_A0A1A8XAA3 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  167     8e-48
+  UniRef90_A0A1D3TDZ5 Gamete antigen 27/25, putative n=2 Tax=Plas...  165     4e-47
+  UniRef90_A0A1D3TDV6 Gamete antigen 27/25, putative n=2 Tax=Plas...  165     6e-47
+  UniRef90_A0A1D3TDX7 Gamete antigen 27/25, putative n=1 Tax=Plas...  162     2e-46
+  UniRef90_A0A0J9U2J6 Uncharacterized protein n=3 Tax=Plasmodium ...  157     7e-43
+  UniRef90_A0A0D9QPJ5 Uncharacterized protein n=1 Tax=Plasmodium ...  156     9e-43
+  UniRef90_B3L0X7 Uncharacterized protein n=1 Tax=Plasmodium know...  157     1e-42
+  UniRef90_A5KBH4 Uncharacterized protein n=5 Tax=Plasmodium viva...  157     1e-42
+  UniRef90_A0A1B1DV43 Uncharacterized protein n=1 Tax=Plasmodium ...  153     2e-41
+  UniRef90_K6UIK5 Uncharacterized protein (Fragment) n=1 Tax=Plas...  152     3e-41
+  UniRef90_A0A1J1GPW4 Gamete antigen 27/25, putative n=1 Tax=Plas...  148     5e-41
+  UniRef90_A0A1J1GPK1 Gamete antigen 27/25, putative n=1 Tax=Plas...  147     9e-41
+  UniRef90_A0A1J1HF92 Gamete antigen 27/25, putative n=1 Tax=Plas...  147     3e-40
+  UniRef90_A0A1A8WU04 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  143     2e-39
+  UniRef90_W7A102 Uncharacterized protein n=1 Tax=Plasmodium inui...  147     3e-39
+  UniRef90_A0A151LCY5 Gamete antigen 27/25 n=1 Tax=Plasmodium gab...  142     6e-39
+  UniRef90_A0A1J1GKA7 Gamete antigen 27/25, putative n=1 Tax=Plas...  141     2e-38
+  UniRef90_A0A1A8X7U0 Uncharacterized protein n=2 Tax=Plasmodium ...  141     6e-37
+  UniRef90_A0A1A8VP84 Uncharacterized protein n=3 Tax=Plasmodium ...  140     3e-36
+  UniRef90_A0A1J1GSJ1 Gamete antigen 27/25, putative n=1 Tax=Plas...  134     1e-35
+  UniRef90_A0A151LUU1 Uncharacterized protein (Fragment) n=1 Tax=...  136     1e-34
+  UniRef90_A0A1D3TE33 Gamete antigen 27/25, putative n=2 Tax=Plas...  129     2e-34
+  UniRef90_A0A1C3KIF4 Gamete antigen 27/25, putative n=3 Tax=Plas...  132     3e-33
+  UniRef90_W7JVJ1 Uncharacterized protein n=1 Tax=Plasmodium falc...  131     3e-33
+  UniRef90_A0A1A8WVR6 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  127     5e-33
+  UniRef90_A0A1J1GTN7 Gamete antigen 27/25, putative n=1 Tax=Plas...  125     6e-32
+  UniRef90_A0A1J1GK82 Gamete antigen 27/25, putative n=1 Tax=Plas...  122     1e-30
+  UniRef90_W4J5Y4 Uncharacterized protein n=1 Tax=Plasmodium falc...  127     3e-30
+  UniRef90_W7FTY2 Uncharacterized protein n=1 Tax=Plasmodium falc...  126     5e-30
+  UniRef90_W7KD95 Uncharacterized protein n=1 Tax=Plasmodium falc...  126     5e-30
+  UniRef90_W7GCI3 Uncharacterized protein n=1 Tax=Plasmodium falc...  126     6e-30
+  UniRef90_A0A0L7M8A1 Uncharacterized protein n=1 Tax=Plasmodium ...  126     6e-30
+  UniRef90_A0A024WX17 Uncharacterized protein n=1 Tax=Plasmodium ...  125     1e-29
+  UniRef90_O96127 Conserved Plasmodium protein n=2 Tax=Plasmodium...  126     1e-29
+  UniRef90_A0A0L1I9G4 Uncharacterized protein n=4 Tax=Plasmodium ...  126     1e-29
+  UniRef90_A0A151LWB3 Uncharacterized protein (Fragment) n=1 Tax=...  124     2e-29
+  UniRef90_A0A1A8XDK2 Uncharacterized protein n=4 Tax=Plasmodium ...  117     9e-29
+  UniRef90_A0A060RMY0 Uncharacterized protein n=1 Tax=Plasmodium ...  122     1e-28
+  UniRef90_A0A024XFI4 Uncharacterized protein n=1 Tax=Plasmodium ...  121     3e-28
+  UniRef90_A0A1J1GKQ9 Uncharacterized protein n=1 Tax=Plasmodium ...  111     2e-26
+  UniRef90_A0A1J1GKL5 Uncharacterized protein n=1 Tax=Plasmodium ...  110     3e-26
+  UniRef90_A0A1J1GZT6 Uncharacterized protein n=1 Tax=Plasmodium ...  109     2e-25
+  UniRef90_A0A1A8XBF5 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasm...  105     3e-25
+  UniRef90_K6VH50 Uncharacterized protein (Fragment) n=1 Tax=Plas...  105     5e-25
+  UniRef90_A0A0L7KL69 Uncharacterized protein (Fragment) n=1 Tax=...  93.9    4e-21
+  UniRef90_A0A1J1GU57 Gamete antigen 27/25, putative n=1 Tax=Plas...  79.6    8e-16
+  UniRef90_A0A1A8WX33 Uncharacterized protein n=1 Tax=Plasmodium ...  74.2    2e-13
+  UniRef90_A0A1A8WYH0 Uncharacterized protein n=1 Tax=Plasmodium ...  61.1    2e-09
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A1D3JEA3 Uncharacterized protein n=4 Tax=Plasmodium ...  61.9    9e-09
+  UniRef90_A0A1A8X6Y4 Uncharacterized protein n=3 Tax=Plasmodium ...  61.5    9e-09
+  UniRef90_A0A1J1HCJ4 Uncharacterized protein n=1 Tax=Plasmodium ...  61.5    1e-08
+  UniRef90_A0A1C3KXV8 Uncharacterized protein n=2 Tax=Plasmodium ...  59.6    7e-08
+  UniRef90_A0A1C3KY38 Uncharacterized protein n=2 Tax=Plasmodium ...  59.2    8e-08
+  UniRef90_A0A1A8X6H2 Uncharacterized protein n=1 Tax=Plasmodium ...  57.6    9e-08
+  UniRef90_A0A1D3TDF0 Uncharacterized protein n=1 Tax=Plasmodium ...  57.6    3e-07
+  UniRef90_A0A1A8ZTU1 Uncharacterized protein n=2 Tax=Plasmodium ...  56.1    6e-07
+  UniRef90_A0A1A8X7V7 Uncharacterized protein n=1 Tax=Plasmodium ...  55.3    9e-07
+  UniRef90_W6ZYE1 Uncharacterized protein n=1 Tax=Plasmodium inui...  54.2    6e-06
+  UniRef90_A0A1A8W506 Uncharacterized protein n=2 Tax=Plasmodium ...  53.0    7e-06
+  UniRef90_A0A1B1E6Z4 Uncharacterized protein n=1 Tax=Plasmodium ...  53.0    2e-05
+  UniRef90_A0A1A8X9J3 Uncharacterized protein n=2 Tax=Plasmodium ...  51.9    3e-05
+  UniRef90_A0A0D9QNC8 Uncharacterized protein n=1 Tax=Plasmodium ...  51.1    8e-05
+  UniRef90_A5JZ13 Uncharacterized protein n=5 Tax=Plasmodium viva...  50.7    1e-04
+  UniRef90_A5K1K7 Uncharacterized protein n=8 Tax=Plasmodium viva...  50.3    1e-04
+  UniRef90_A0A1K9YHP6 Uncharacterized protein n=1 Tax=Plasmodium ...  49.6    3e-04
+  UniRef90_A0A0J9SS99 Uncharacterized protein n=2 Tax=Plasmodium ...  49.2    4e-04
+  UniRef90_A0A060S458 Uncharacterized protein n=2 Tax=Plasmodium ...  47.2    0.002
+  UniRef90_A0A1J1GXI9 Uncharacterized protein n=1 Tax=Plasmodium ...  45.7    0.006
+
+
+> UniRef90_A0A1A8WID8 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8WID8_PLAMA
+Length=254
+
+ Score = 200 bits (509),  Expect = 2e-60, Method: Composition-based stats.
+ Identities = 58/186 (31%), Positives = 101/186 (54%), Gaps = 0/186 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y YEH  + P    ++K  D+EFHA +D +Y L+ L K        +K+   +   VR+ 
+Sbjct  39   YEYEHYMNGPPREDVKKWLDVEFHASADVLYHLLPLIKQKVDIFDKIKNTDIVLNTVREF  98
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            +++Y++  I+E  ++  V RI  RL+ +   + VTE+Y KK+  Y W+E+R+ EE+S+ +
+Sbjct  99   EDKYSFRFIDESAREGCVRRIKGRLLYFLGLEYVTEEYCKKVQKYFWIEERLEEEMSVKM  158
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIK  180
+            D A+  K+KK +  + + ++ L  TYE  ++V  T+D            L+D + +  I 
+Sbjct  159  DEAKTFKDKKNVCRNSEEMKRLICTYEKDRNVHLTEDMILHTVCIARAVLLDFLKAQTIV  218
+
+Query  181  PIPALP  186
+            P   LP
+Sbjct  219  PSKDLP  224
+
+
+> UniRef90_A0A1A8WIF5 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8WIF5_PLAMA
+Length=260
+
+ Score = 188 bits (478),  Expect = 6e-56, Method: Composition-based stats.
+ Identities = 62/186 (33%), Positives = 101/186 (54%), Gaps = 1/186 (1%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y+YEH  + P+   I+K  D+EFHA +D +Y L+ +SK      Y +     I   VRK 
+Sbjct  44   YNYEHYKNGPVREEIKKWLDVEFHASTDVLYYLLRISKHKWNIFYDILFTSHITNAVRKF  103
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            +  Y++  I+E  + + V+RI  RL+ +     +TE+Y K+I  Y W+E+R+ EE+S+ V
+Sbjct  104  EEMYSFRFIDENARQSCVSRIKGRLLYFLRQDYITEEYCKQIQKYFWIEERLEEEMSVKV  163
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSY-II  179
+            D A+ + EKK + ND   ++ +   YE    VK TDD      +    FL+D++ +   +
+Sbjct  164  DKAKTIPEKKNVCNDYDEMKRVISVYEKGTGVKLTDDIIHFTLSLARGFLLDLLKAEGTV  223
+
+Query  180  KPIPAL  185
+             P   L
+Sbjct  224  VPSTDL  229
+
+
+> UniRef90_A0A060RWR2 Gamete antigen 27/25 n=17 Tax=Plasmodium 
+(Laverania) TaxID=418107 RepID=A0A060RWR2_PLARE
+Length=217
+
+ Score = 185 bits (470),  Expect = 4e-55, Method: Composition-based stats.
+ Identities = 179/186 (96%), Positives = 185/186 (99%), Gaps = 0/186 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN
+Sbjct  21   YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  80
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            QNRYNYFLIEE VQDNIVNRISDRLI+YCTDKE+TEDY+KK+DDYLWVEQRVIEEVSINV
+Sbjct  81   QNRYNYFLIEEHVQDNIVNRISDRLITYCTDKEITEDYLKKVDDYLWVEQRVIEEVSINV  140
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIK  180
+            DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAAR+SQFL+DVVDSYIIK
+Sbjct  141  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARVSQFLVDVVDSYIIK  200
+
+Query  181  PIPALP  186
+            PIPALP
+Sbjct  201  PIPALP  206
+
+
+> UniRef90_A0A1D3TDZ0 Gamete antigen 27/25, putative n=2 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1D3TDZ0_PLAMA
+Length=328
+
+ Score = 187 bits (475),  Expect = 1e-54, Method: Composition-based stats.
+ Identities = 55/187 (29%), Positives = 100/187 (53%), Gaps = 1/187 (1%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y Y+H  +  +   ++K+GD+EFHA +D +Y L+    D  K    ++    I   + + 
+Sbjct  21   YTYDHLKNGGVKEEVKKLGDVEFHASNDILYKLLPNGADKAKLFLEIEKTEKILEILNEY  80
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            + +Y Y  +++  ++N V+RI  RL     +  +TE+Y K+   Y WVEQR+ EE+S  V
+Sbjct  81   EGKYGYKFVDDESKNNCVSRIKRRLNLIVMENILTEEYCKQAQKYFWVEQRLDEEMSAKV  140
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSY-II  179
+            D  +  +EKK++ ++   I+ L  + E  + VK ++       + +  FL+DV+ +  I+
+Sbjct  141  DKLKTEEEKKKMCHNAAEIKKLLGSIEKGRSVKLSEKMVDGVVSSVENFLLDVLRTSKIV  200
+
+Query  180  KPIPALP  186
+             P   LP
+Sbjct  201  VPSKVLP  207
+
+
+> UniRef90_A0A1A8XBG0 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8XBG0_PLAMA
+Length=246
+
+ Score = 183 bits (466),  Expect = 2e-54, Method: Composition-based stats.
+ Identities = 48/185 (26%), Positives = 96/185 (52%), Gaps = 0/185 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            + Y+H    P+S  ++K+GD+EF      +Y+L+    D +   + + +   +  ++R+ 
+Sbjct  47   FTYDHLAIGPISEEVKKLGDVEFDTSISILYVLLHFGTDKKMLLHKINNTDIVLLHLREF  106
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            + +Y Y  I++  ++N ++RI  RL     D  ++E+Y K+   Y W+EQRV EE+S+ V
+Sbjct  107  EFKYRYQFIDKVSKENCISRIKRRLDFIIKDGTLSEEYCKQAQKYFWIEQRVDEEMSLKV  166
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIK  180
+            D  +   EK  +  +K  I+   +  E  + +K +++  K     +  FL+DV+ + +I 
+Sbjct  167  DKEKTYDEKSEMCKNKDEIKKFINVLEKGRGIKLSEEMIKSTVDTVEDFLLDVLRTSMID  226
+
+Query  181  PIPAL  185
+                 
+Sbjct  227  TDFDF  231
+
+
+> UniRef90_A0A1A8X3C0 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8X3C0_PLAMA
+Length=222
+
+ Score = 182 bits (462),  Expect = 6e-54, Method: Composition-based stats.
+ Identities = 49/175 (28%), Positives = 97/175 (55%), Gaps = 0/175 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y Y+H    P+   ++K  D+EFH   D +Y L+ LS++       + +   + + +R  
+Sbjct  47   YKYDHYKGGPVREEVKKWLDLEFHTSIDVLYALLPLSEEGHDIIDIINNSDLVLKTLRNF  106
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            +N+Y++  I+E  + +   RI  RL+ +   KE+TE+Y K++  Y W+E+R+ EE+S+ V
+Sbjct  107  ENKYSFRFIDENTRQHCNVRIKGRLLFFVRLKEITEEYCKQVQKYFWIEERLEEEMSVKV  166
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVD  175
+            D  + ++EKK++  + + ++ L   YE  + V+ T+D       +    L+D++ 
+Sbjct  167  DKEQTMQEKKKMCRNIEEMKALVSIYEKDRSVQLTEDMILHTVCKARGVLLDLIK  221
+
+
+> UniRef90_A0A1D3TDW0 Gamete antigen 27/25, putative n=2 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1D3TDW0_PLAMA
+Length=243
+
+ Score = 178 bits (453),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 54/186 (29%), Positives = 94/186 (51%), Gaps = 0/186 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y Y+H    P    + K  D+EFHA +D +Y L+ L+KDP K    ++    I   VR+ 
+Sbjct  49   YKYDHYKSGPPREEVMKWLDVEFHASTDVLYHLLPLAKDPWKLFNEIEYSERIYDTVREY  108
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            +++Y +   +E  +++ V RI  RL+     + +TEDY K I  Y W+E+R+ EE+++ +
+Sbjct  109  EDKYKFKFRDEEARESCVERIKGRLLYPLYLEPLTEDYCKIIQKYFWIEERLEEEMTVKM  168
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIK  180
+            D     ++KK +  ++  ++ L   YE  + +K +DD      +    FL D +  Y   
+Sbjct  169  DREETYQDKKAMSKNEDEMKRLISIYEKGRSIKLSDDMIHFTISIAKVFLEDYLKLYTEV  228
+
+Query  181  PIPALP  186
+                 P
+Sbjct  229  YDKLSP  234
+
+
+> UniRef90_A0A1A8X7H3 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8X7H3_PLAMA
+Length=230
+
+ Score = 177 bits (449),  Expect = 6e-52, Method: Composition-based stats.
+ Identities = 51/186 (27%), Positives = 97/186 (52%), Gaps = 0/186 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y Y+     P+   ++K+G+IEF A  D++Y L+    D  K  + ++D  +I   V++ 
+Sbjct  21   YKYDLLKIGPVKEEVKKLGNIEFLATVDFLYYLLQYGTDKAKIFHMMEDPGNILNVVKQI  80
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            +        +   ++  V+RI  RL        +TE+Y ++   Y W+EQ+V EE+S+ +
+Sbjct  81   ELMEGCNFKDTTSRNKCVSRIKRRLNLIVIKGILTEEYCEQAIKYFWIEQKVDEEMSLKI  140
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIK  180
+            D+ +  KEK+ I  ++  I+ L    E  K++KF+++  ++    I  FL+DV+   I +
+Sbjct  141  DNQKSQKEKEDICYNETEIKRLISVLEKDKNIKFSEEMIENTIITIEDFLLDVLRITINE  200
+
+Query  181  PIPALP  186
+                +P
+Sbjct  201  EPMKIP  206
+
+
+> UniRef90_A0A1A8WJU9 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8WJU9_PLAMA
+Length=203
+
+ Score = 175 bits (444),  Expect = 2e-51, Method: Composition-based stats.
+ Identities = 45/181 (25%), Positives = 94/181 (52%), Gaps = 0/181 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y Y+H     +   ++K+ D+EFHA  D ++ L+    D  +  Y +     + R V K 
+Sbjct  22   YKYDHYNCGLVREEVKKLLDVEFHASVDVLHSLLPFGHDKNRILYEIGQTDLVLRGVSKY  81
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            +++Y++  I+E  ++  V+RI  R+ S    + +T+ Y KK+ +Y W+E+R+ EE+S+ +
+Sbjct  82   EDKYSFRFIDEDDRERCVSRIKARIFSALYFECLTKHYCKKVQNYFWIEERLEEEMSVKL  141
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIK  180
+            D  +    +K++  ++ L++ +   +E  + +K ++D           FL D++ S    
+Sbjct  142  DGQKSNLYQKKMCRNEDLMKTIIGVHEEGRGIKLSEDIINYIIRMAKMFLFDLLKSKTFS  201
+
+Query  181  P  181
+             
+Sbjct  202  T  202
+
+
+> UniRef90_A0A1D3TE36 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1D3TE36_PLAMA
+Length=238
+
+ Score = 176 bits (446),  Expect = 2e-51, Method: Composition-based stats.
+ Identities = 42/177 (24%), Positives = 86/177 (49%), Gaps = 0/177 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            + Y H     +   ++++GD+EF A    +  L+      ++    L++   I   + + 
+Sbjct  49   FDYTHFPGGKVRKEVKELGDVEFDASLHVLSRLLHYRHRKKEIFDILEEGSIISSVLSEY  108
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            Q +  Y   +   +++ VNRI  RLI    +  +T +Y++    Y W+EQRV EE+S+ V
+Sbjct  109  QEKKKYNFKDITSREHCVNRIKTRLIYIVIEGILTREYLELAKKYFWIEQRVDEEMSVKV  168
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSY  177
+             + +  K + ++  ++  I+ L    E  K VK ++    +  + +  FL+DV+ + 
+Sbjct  169  FNQKTEKARTKMCKNEVEIKKLISKLERGKSVKLSEGMIANTVSTVEDFLLDVLRTS  225
+
+
+> UniRef90_A0A1A8WLH5 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8WLH5_PLAMA
+Length=214
+
+ Score = 171 bits (433),  Expect = 1e-49, Method: Composition-based stats.
+ Identities = 43/184 (23%), Positives = 92/184 (50%), Gaps = 0/184 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y Y    +  +   ++K+G++EF+A +D++Y L+    + +     ++   +I   ++  
+Sbjct  31   YEYNDLENGHVREEVKKLGNVEFNASTDFMYSLLKYGSNKKIMLREIEKTKNISNVLKDF  90
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            +  Y Y L ++  +   + RI  R+     +  +TE Y K+  +Y W+EQR+ EE+S  V
+Sbjct  91   EEIYEYHLNDDESRKKCIRRIQKRIRFIVNENTLTEKYCKQAQEYFWIEQRLDEEMSAKV  150
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIK  180
+            D+    +EKK +  ++  I+ L    E  + +K  +   ++  + +  FL+DV+      
+Sbjct  151  DNQNTEEEKKDMCQNEAEIKNLLSVLEEKRSIKLPNGMIENTVSTVEDFLLDVLRRTSKI  210
+
+Query  181  PIPA  184
+             +P+
+Sbjct  211  TVPS  214
+
+
+> UniRef90_A0A1A8X254 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8X254_PLAMA
+Length=415
+
+ Score = 173 bits (439),  Expect = 2e-48, Method: Composition-based stats.
+ Identities = 54/183 (30%), Positives = 94/183 (51%), Gaps = 0/183 (0%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y Y+H    P    + K  D+EFHA +D +Y L+ L+KDP K    ++    I   VR+ 
+Sbjct  49   YKYDHYKSGPPREEVMKWLDVEFHASTDVLYHLLPLAKDPWKLFNEIEYSERIYDTVREY  108
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINV  120
+            +++Y +   +E  +++ V RI  RL+     + +TEDY K I  Y W+E+R+ EE+++ +
+Sbjct  109  EDKYKFKFRDEEARESCVERIKGRLLYPLYLEPLTEDYCKTIQKYFWIEERLEEEMTVKM  168
+
+Query  121  DHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIK  180
+            D     ++KK +  ++  ++ L   YE  + +K +DD      +    FL D +  Y   
+Sbjct  169  DREETYQDKKAMSKNEDEMKRLISIYEKGRSIKLSDDMIHFTISIAKVFLEDYLKLYTES  228
+
+Query  181  PIP  183
+              P
+Sbjct  229  GPP  231
+
+
+ Score = 165 bits (418),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 51/180 (28%), Positives = 90/180 (50%), Gaps = 0/180 (0%)
+
+Query  7    THAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNY  66
+               P    + K  D+EFHA +D +Y L+ L+KDP K    ++    I   VR+ +++Y +
+Sbjct  227  ESGPPREEVMKWLDVEFHASTDVLYHLLPLAKDPWKLFNEIEYSERIYDTVREYEDKYKF  286
+
+Query  67   FLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREV  126
+               +E  +++ V RI  RL+     + +TEDY K I  Y W+E+R+ EE+++ +D     
+Sbjct  287  KFRDEEARESCVERIKGRLLYPLYLEPLTEDYCKTIQKYFWIEERLEEEMTVKMDREETY  346
+
+Query  127  KEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKPIPALP  186
+            ++KK +  ++  ++ L   YE  + +K +DD      +    FL D +  Y        P
+Sbjct  347  QDKKAMSKNEDEMKRLISIYEKGRSIKLSDDMIHFTISIAKVFLEDYLKLYTEVYDKLSP  406
+
+
+> UniRef90_A0A1A8X9B7 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8X9B7_PLAMA
+Length=260
+
+ Score = 168 bits (427),  Expect = 3e-48, Method: Composition-based stats.
+ Identities = 50/178 (28%), Positives = 95/178 (53%), Gaps = 1/178 (1%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y Y++    P+S  ++K+G++EFHA  D +Y L  L    E+    ++    I   + + 
+Sbjct  49   YKYKNIESCPVSVEVKKLGNVEFHATLDALYNLKYLRISKEELFDMIQKGAYIPGSLSRF  108
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTED-YIKKIDDYLWVEQRVIEEVSIN  119
+            Q +Y Y   +E  + + ++RI  RL     +  +++D Y +++   LW+EQRV EE+S+ 
+Sbjct  109  QQKYEYSFKDEISKKHCISRIKKRLNFIVIEGILSDDEYCEEVKKVLWIEQRVDEEISVI  168
+
+Query  120  VDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSY  177
+            +D     +EK R+  ++  I+ L    E  K +K ++   ++  + I  FL+D+V +Y
+Sbjct  169  LDKLESKEEKDRMCRNEVEIKDLISKLEKAKALKLSEGMIENTLSTIEDFLLDIVRTY  226
+
+
+> UniRef90_A0A1A8XAA3 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8XAA3_PLAMA
+Length=243
+
+ Score = 167 bits (423),  Expect = 8e-48, Method: Composition-based stats.
+ Identities = 44/186 (24%), Positives = 89/186 (48%), Gaps = 2/186 (1%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            + Y++  +  L   ++ +G++EFHA  D +Y      +  +K    +K        + + 
+Sbjct  32   FKYKNLQNGALRKEVKDLGNVEFHATLDVLYNFKFPYRGKKKIFEMIKKNYYFLGSLLRF  91
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTED-YIKKIDDYLWVEQRVIEEVSIN  119
+             + Y Y   +E  ++N +NR+  R+     +  +T+D Y +++   LW+EQR  EE+S+ 
+Sbjct  92   LSTYGYNFKDEISKENCINRMIKRVTYLIREGVLTDDAYCEEVKKVLWIEQRTDEEMSVK  151
+
+Query  120  VDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYI-  178
+            VD     + K ++ ++K  I+ L    E  K +K ++   +   + I  FL+DV+ +   
+Sbjct  152  VDKLESEEAKDQMCHNKVEIKDLISKLEKAKALKLSEGMIECIVSTIEDFLLDVLRTSKE  211
+
+Query  179  IKPIPA  184
+              P   
+Sbjct  212  DVPSKN  217
+
+
+> UniRef90_A0A1D3TDZ5 Gamete antigen 27/25, putative n=2 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1D3TDZ5_PLAMA
+Length=243
+
+ Score = 165 bits (418),  Expect = 4e-47, Method: Composition-based stats.
+ Identities = 40/189 (21%), Positives = 90/189 (48%), Gaps = 9/189 (5%)
+
+Query  3    YEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTL-------SKDPEKFNYALKDRVSIRR  55
+            YEH  +  +   + K+ D+EF A   ++++++         + + ++    +     +  
+Sbjct  50   YEHLPNGTVREDVMKLADLEFQATVYFLFIVLLAYMKHRKDNTNKQELFSKIC-YSEVET  108
+
+Query  56   YVRKNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEE  115
+             +      +     ++R +D  ++RI  RL     +  +T+DY ++   Y W+EQRVIEE
+Sbjct  109  TIDYFIQHFGNRFKDKRSKDKCIDRIIRRLNFIVIEGILTKDYCERAQKYFWIEQRVIEE  168
+
+Query  116  VSINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVD  175
+            +S+ V   +   +K+ +  ++  I+ L    E  +++K +D    +  + +  FL+D++ 
+Sbjct  169  MSVKVFKEKTDDKKRNMCINELAIKSLISKLERGRNIKLSDGMIANTVSTVEDFLLDLLR  228
+
+Query  176  -SYIIKPIP  183
+             + I KP  
+Sbjct  229  EAEINKPSK  237
+
+
+> UniRef90_A0A1D3TDV6 Gamete antigen 27/25, putative n=2 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1D3TDV6_PLAMA
+Length=259
+
+ Score = 165 bits (418),  Expect = 6e-47, Method: Composition-based stats.
+ Identities = 47/186 (25%), Positives = 89/186 (48%), Gaps = 2/186 (1%)
+
+Query  1    YHYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKN  60
+            Y Y++     L   ++ +G++EFHA  D +Y      K  ++ +  +         + + 
+Sbjct  48   YKYKNLQSDSLREEVKDLGNVEFHATLDAMYNFKYPYKGKKETHNMIDKNFYTTGSLDRF  107
+
+Query  61   QNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTED-YIKKIDDYLWVEQRVIEEVSIN  119
+            Q++Y Y   ++  ++  +NRI  RL     +  +T+D Y +++   LW+EQR  EE+S+ 
+Sbjct  108  QSKYRYHFKDKLSREKCINRIKKRLNFIVIEGVLTDDAYCEEVKKVLWIEQRTDEEMSVK  167
+
+Query  120  VDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDS-YI  178
+            VD     +EK R+  +K +I+ L    E  K +K ++   +   + I  FL+D+V     
+Sbjct  168  VDKLESEEEKDRMCLNKIVIKDLISKLEKAKALKLSEGMIECIVSTIQDFLLDLVRIPKE  227
+
+Query  179  IKPIPA  184
+              P   
+Sbjct  228  EVPSKN  233
+
+
+> UniRef90_A0A1D3TDX7 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1D3TDX7_PLAMA
+Length=226
+
+ Score = 162 bits (411),  Expect = 2e-46, Method: Composition-based stats.
+ Identities = 37/189 (20%), Positives = 88/189 (47%), Gaps = 9/189 (5%)
+
+Query  3    YEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLS-------KDPEKFNYALKDRVSIRR  55
+            Y+      +   + K+ D+EF A   ++++++          +  ++    +    ++  
+Sbjct  33   YKRFPGDNVREDVMKLADVEFQATVYFLFIVLLAYMKQRRDKRTKQELFSKISYY-NVET  91
+
+Query  56   YVRKNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEE  115
+             +      +     +++ +D  ++RI  RL     +  +T+DY ++   Y W+EQRVIEE
+Sbjct  92   TIDYFIQHFGNRFKDKKSKDKCIDRIIRRLNFIVIEGILTKDYCERAQKYFWIEQRVIEE  151
+
+Query  116  VSINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVD  175
+            +S+ V   +   +K+ +  ++  I+ L    E  +++K +D    +  + +  FL+D++ 
+Sbjct  152  MSVKVFKEKTDDKKRNMCINELAIKSLISKLERGRNIKLSDGMIANTVSTVEDFLLDLLR  211
+
+Query  176  -SYIIKPIP  183
+             + I KP  
+Sbjct  212  EAEINKPSK  220
+
+
+> UniRef90_A0A0J9U2J6 Uncharacterized protein n=3 Tax=Plasmodium 
+vivax TaxID=5855 RepID=A0A0J9U2J6_PLAVI
+Length=371
+
+ Score = 157 bits (398),  Expect = 7e-43, Method: Composition-based stats.
+ Identities = 44/170 (26%), Positives = 84/170 (49%), Gaps = 1/170 (1%)
+
+Query  4    EHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNR  63
+            E E        +  +  +EF     Y+  ++  + D EK N  L+D + I + + +N  +
+Sbjct  176  ELEDSLDSYRSLYSIFFVEFETTETYLNKIINCATDEEK-NELLEDHIGILQEMYENNKK  234
+
+Query  64   YNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHA  123
+            ++ + +   ++D++  RISDRL  YC  + +T+ Y+  +     +E  V + +   V H 
+Sbjct  235  HDNYRLPFELRDSMALRISDRLRDYCFSEPLTDSYVLTLKSIFSLELEVFKGLFYYVKHK  294
+
+Query  124  REVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDV  173
+                EKK ++ND +LI+   +       +  TD+Q  +AA R+S F+ D+
+Sbjct  295  STYSEKKEVINDLELIKFYHEELVTDNGLFLTDEQLDNAAMRVSNFVNDI  344
+
+
+> UniRef90_A0A0D9QPJ5 Uncharacterized protein n=1 Tax=Plasmodium 
+fragile TaxID=5857 RepID=A0A0D9QPJ5_PLAFR
+Length=332
+
+ Score = 156 bits (395),  Expect = 9e-43, Method: Composition-based stats.
+ Identities = 46/162 (28%), Positives = 78/162 (48%), Gaps = 1/162 (1%)
+
+Query  12   SPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEE  71
+               I  +   EF     Y+  +M  + D EK N  L D + I + + +N  +   F++  
+Sbjct  164  YKTIYFILFTEFETTETYLEKIMNCTTDEEK-NELLDDHIGILKEMYENSKKNGNFILPF  222
+
+Query  72   RVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKR  131
+             ++D++  RISDRL  +C    +T+  +  +     +EQ V + +   V H     EKK 
+Sbjct  223  ELRDSMALRISDRLRDFCFSPYLTDSGMATLKCLFSIEQEVFKGLFYYVKHKNTYSEKKE  282
+
+Query  132  IMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDV  173
+            ++ND +LIR   D       +  T++Q  +AA R+S F+ DV
+Sbjct  283  VINDLELIRYYHDELVTEYGLYLTEEQLDNAAMRVSNFVHDV  324
+
+
+> UniRef90_B3L0X7 Uncharacterized protein n=1 Tax=Plasmodium knowlesi 
+(strain H) TaxID=5851 RepID=B3L0X7_PLAKH
+Length=400
+
+ Score = 157 bits (398),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 50/171 (29%), Positives = 84/171 (49%), Gaps = 3/171 (2%)
+
+Query  5    HETHAPL--SPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQN  62
+            HE  +PL     I  +   EF     Y+  +M  S D EK N  L D + I + + +N  
+Sbjct  204  HEMQSPLDSYKTIFLILSTEFDTTETYLNKIMNCSTDEEK-NELLDDHIGILKEMYENCK  262
+
+Query  63   RYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDH  122
+            +   F +   ++D++  RISDRL  +C    VTE  +  +     +E  V E +   ++H
+Sbjct  263  KNENFRLPFEIRDSMALRISDRLRDFCFSDYVTESNMVALKSIFSIELEVFEGIFYYIEH  322
+
+Query  123  AREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDV  173
+                +EKK ++ND +LI+   +       +  TD+Q+ +AA R+S F+ D+
+Sbjct  323  KNTYREKKEVINDLELIKFYHEELITNNGLYLTDEQFDNAAMRVSNFVNDL  373
+
+
+> UniRef90_A5KBH4 Uncharacterized protein n=5 Tax=Plasmodium vivax 
+TaxID=5855 RepID=A5KBH4_PLAVS
+Length=374
+
+ Score = 157 bits (396),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 44/170 (26%), Positives = 84/170 (49%), Gaps = 1/170 (1%)
+
+Query  4    EHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNR  63
+            E E        +  +  +EF     Y+  ++  + D EK N  L+D + I + + +N  +
+Sbjct  179  ELEDSLDSYRSLYSIFFVEFETTETYLNKIINCATDEEK-NELLEDHIGILQEMYENNKK  237
+
+Query  64   YNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHA  123
+            ++ + +   ++D++  RISDRL  YC  + +T+ Y+  +     +E  V + +   V H 
+Sbjct  238  HDNYRLPFELRDSMALRISDRLRDYCFSEPLTDSYVLTLKSIFSLELEVFKGLFYYVKHK  297
+
+Query  124  REVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDV  173
+                EKK ++ND +LI+   +       +  TD+Q  +AA R+S F+ D+
+Sbjct  298  STYSEKKEVINDLELIKFYHEELVTDNGLFLTDEQLDNAAMRVSNFVNDI  347
+
+
+> UniRef90_A0A1B1DV43 Uncharacterized protein n=1 Tax=Plasmodium 
+coatneyi TaxID=208452 RepID=A0A1B1DV43_9APIC
+Length=360
+
+ Score = 153 bits (388),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 42/164 (26%), Positives = 79/164 (48%), Gaps = 1/164 (1%)
+
+Query  10   PLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLI  69
+                 +  +   EF     Y+  +M  + D EK N  L+D + I + + +N  +   F +
+Sbjct  170  DSYRTLYSILFAEFETTKTYLTKIMNCTTDEEK-NELLEDHIGILKEMYENSKQIENFRL  228
+
+Query  70   EERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEK  129
+               ++D++  RISDRL  +C  + +T+  I  +     VE  V + +   + H     E+
+Sbjct  229  PFEIRDSMALRISDRLRDFCFSEYLTDSNILTLQSLFLVELEVFKGLFYYLKHKNTYSER  288
+
+Query  130  KRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDV  173
+            K ++ND +LI++  +       +  TD+Q  +AA R+S F+ D+
+Sbjct  289  KEVINDLELIKLYHEELITENGLHLTDEQLDNAAMRVSNFVHDL  332
+
+
+> UniRef90_K6UIK5 Uncharacterized protein (Fragment) n=1 Tax=Plasmodium 
+cynomolgi strain B TaxID=1120755 RepID=K6UIK5_9APIC
+Length=332
+
+ Score = 152 bits (385),  Expect = 3e-41, Method: Composition-based stats.
+ Identities = 44/170 (26%), Positives = 85/170 (50%), Gaps = 1/170 (1%)
+
+Query  4    EHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNR  63
+            E E        +  +  +EF     Y+  +M  S D EK N  L+D + I + + +N  +
+Sbjct  162  ELEDLLDSYKSLYSIFFVEFETTQTYLNKIMNCSTDEEK-NELLEDHIGILQEMHENNKK  220
+
+Query  64   YNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHA  123
+               + +   ++D++  RISDRL  +C ++ +T+ Y+  +     +E  V + +   + H 
+Sbjct  221  NYNYRLPFELRDSMALRISDRLRDFCFNEPLTDSYVATLKSIFALELEVFKGLFYYLKHK  280
+
+Query  124  REVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDV  173
+                EKK ++ND +LI+   + +    D+  T++Q  +AA R+S F+ D+
+Sbjct  281  TTYNEKKEVINDLELIKYYHEEFLTDNDLYLTEEQLDNAAMRVSNFVNDI  330
+
+
+> UniRef90_A0A1J1GPW4 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+gallinaceum TaxID=5849 RepID=A0A1J1GPW4_PLAGA
+Length=207
+
+ Score = 148 bits (374),  Expect = 5e-41, Method: Composition-based stats.
+ Identities = 49/180 (27%), Positives = 86/180 (48%), Gaps = 3/180 (2%)
+
+Query  7    THAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNY  66
+                     +KV  +EF      +  L   S D       LKD  SI++ + +   +   
+Sbjct  21   PSDGYYVEFKKVSTVEFDTTIIILDKLKGCSIDE--MEEILKDFDSIKKEIVEVGKKCGD  78
+
+Query  67   FLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREV  126
+            +++ E  +D++  RISDRL  Y  ++E+TEDY  K+ +  W+EQ+  EE    V   +  
+Sbjct  79   YILREEFRDHMAFRISDRLRDYYAEQEMTEDYYLKLKNIFWMEQKAFEETFFEVSKKKGP  138
+
+Query  127  KEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKPIPALP  186
+             EKK++++D  LI      Y     +K ++ +  +AA RI +F+ D ++   ++    LP
+Sbjct  139  IEKKKVIDDVNLIVSHLKRYADSMGIKLSEQKLHNAALRIGRFISD-LNFLTLRYSKLLP  197
+
+
+> UniRef90_A0A1J1GPK1 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+relictum TaxID=85471 RepID=A0A1J1GPK1_PLARL
+Length=199
+
+ Score = 147 bits (372),  Expect = 9e-41, Method: Composition-based stats.
+ Identities = 42/179 (23%), Positives = 86/179 (48%), Gaps = 3/179 (2%)
+
+Query  8    HAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYF  67
+              P     +   ++E      Y+Y L   S D  K   A+ +  +I + +   + +  Y 
+Sbjct  14   GDPSFEECKLASNVELEITLRYLYKLKEESNDEAK-KEAVVNYDAIVKEIANFEKQCKYK  72
+
+Query  68   LIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVK  127
+             + E +   +  RIS RL  Y  D+ +T++Y  K+ +   +E+++ ++V + V    +V+
+Sbjct  73   -VREAMLYTMSFRISSRLSDYIFDEPLTDEYCLKLKEIFNMEEKIFQKVFLEVLEKDDVR  131
+
+Query  128  EKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKPIPALP  186
+            E+K+I+++  LI+      E    +  ++ + ++AA RI  F+ D++ S  I P    P
+Sbjct  132  ERKKIIDNVNLIKSYLREKEKSMGITLSEQKLQNAALRIGGFICDLI-SLTIVPSKNFP  189
+
+
+> UniRef90_A0A1J1HF92 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+relictum TaxID=85471 RepID=A0A1J1HF92_PLARL
+Length=227
+
+ Score = 147 bits (371),  Expect = 3e-40, Method: Composition-based stats.
+ Identities = 49/174 (28%), Positives = 97/174 (56%), Gaps = 3/174 (2%)
+
+Query  15   IRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQ  74
+             R+   +EF      +  ++ +  + ++    L D  SI++ V  +  +Y+  ++++   
+Sbjct  48   FREYCTLEFEMTVFSLDHVLGVG-EIDEMKKILSDLKSIKKEVVTSARKYHQVVMDDEDS  106
+
+Query  75   DNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMN  134
+            DN+ +RISDRL+  C + +VT+DY   + +  W EQR +E+  I ++    V ++K+++ 
+Sbjct  107  DNMTSRISDRLLCLCNEIKVTDDYYALLKNIFWAEQRSLEDAFIEINKKENVVDRKKLIE  166
+
+Query  135  DKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSY--IIKPIPALP  186
+            +  +++  F  Y  V ++K ++DQ  + A R+S+FL DV      I+KPIP +P
+Sbjct  167  NINMLKSNFKKYLDVLNIKLSEDQMHNTAMRMSKFLTDVFGLTIKIVKPIPLIP  220
+
+
+> UniRef90_A0A1A8WU04 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8WU04_PLAMA
+Length=181
+
+ Score = 143 bits (361),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 37/179 (21%), Positives = 81/179 (45%), Gaps = 9/179 (5%)
+
+Query  16   RKVGDIEFHACSDYIYLLMTL-------SKDPEKFNYALKDRVSIRRYVRKNQNRYNYFL  68
+             K+ D+EFH+ +D+++  +         S   ++    +    +I   +        Y  
+Sbjct  1    MKLVDLEFHSSTDFLFKALLSYNRGIQGSTSKKELFLKIC-YENIEISIDYFMRHLGYHF  59
+
+Query  69   IEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKE  128
+             +   ++N ++RI  RL     +  +T++Y K+   Y W+EQRVIEE+SI V + +    
+Sbjct  60   KDNISKNNCIDRIIRRLNFIVIEGILTDEYCKRAQKYFWIEQRVIEEMSIKVFNEKSTDA  119
+
+Query  129  KKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDS-YIIKPIPALP  186
+              ++  ++ +I+ L    E  + +K ++    +  + +  FL+D++      +     P
+Sbjct  120  STKMCKNEVVIKDLISKLERGRSIKLSEGMIANTVSCVKDFLLDLLRKPNTKEESKDSP  178
+
+
+> UniRef90_W7A102 Uncharacterized protein n=1 Tax=Plasmodium inui 
+San Antonio 1 TaxID=1237626 RepID=W7A102_9APIC
+Length=361
+
+ Score = 147 bits (372),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 40/156 (26%), Positives = 79/156 (51%), Gaps = 1/156 (1%)
+
+Query  18   VGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQDNI  77
+            +  +EF     Y+  ++  + D +K N  L+D + I + + +N  + +   +   ++D++
+Sbjct  180  ILFVEFETTKTYLNKIINCATDEQK-NELLEDHIGILQEMYENYKKSDNSGLPSELRDSM  238
+
+Query  78   VNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKK  137
+              RISDRL  +C  + +T+ Y++ +     +E  V + +   V       EKK ++ND +
+Sbjct  239  ALRISDRLRDFCFTESITDSYMETLKSIFALELEVFKGLFCYVKDKSTYNEKKTVINDLE  298
+
+Query  138  LIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDV  173
+            LIR   +       +  TD+Q  +AA R+S F+ D+
+Sbjct  299  LIRFYHEELLTENGLYLTDEQLDNAAMRVSNFVNDM  334
+
+
+> UniRef90_A0A151LCY5 Gamete antigen 27/25 n=1 Tax=Plasmodium gaboni 
+TaxID=647221 RepID=A0A151LCY5_9APIC
+Length=163
+
+ Score = 142 bits (357),  Expect = 6e-39, Method: Composition-based stats.
+ Identities = 143/153 (93%), Positives = 151/153 (99%), Gaps = 0/153 (0%)
+
+Query  34   MTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKE  93
+            MTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEE +QDNIVNRISDRLIS+CTDKE
+Sbjct  1    MTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEEHIQDNIVNRISDRLISFCTDKE  60
+
+Query  94   VTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVK  153
+            VTEDYIKK+DDYLWVEQRVIEEVSINVDHAREVKEKKRIM+DKKL+RMLFDTYEYVKDVK
+Sbjct  61   VTEDYIKKVDDYLWVEQRVIEEVSINVDHAREVKEKKRIMHDKKLVRMLFDTYEYVKDVK  120
+
+Query  154  FTDDQYKDAAARISQFLIDVVDSYIIKPIPALP  186
+            FTDDQYKDA+AR+SQFL+DVVDSYI KPIPALP
+Sbjct  121  FTDDQYKDASARVSQFLVDVVDSYIFKPIPALP  153
+
+
+> UniRef90_A0A1J1GKA7 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+relictum TaxID=85471 RepID=A0A1J1GKA7_PLARL
+Length=200
+
+ Score = 141 bits (356),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 46/179 (26%), Positives = 85/179 (47%), Gaps = 2/179 (1%)
+
+Query  8    HAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYF  67
+              P   + +    +EF     Y+  L   S D +K   AL +  +I + + K +     +
+Sbjct  14   GNPSFEQCKIASYLEFEITVRYLSKLKEESSDEDK-KKALNNYDAIAQDIDKFEKDCKLY  72
+
+Query  68   LIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVK  127
+             + + +Q  +  RIS+RL  YC D+ +TE Y  K+ +   VE+   ++V +     ++ K
+Sbjct  73   KVPKEMQYPMAYRISNRLYDYCFDEPLTEQYSLKLKEIFSVEEDTFQKVFLEALKEKDNK  132
+
+Query  128  EKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKPIPALP  186
+             KK+I+++  LI+         K +  ++++ ++AA RI  FL D   S+ I P    P
+Sbjct  133  YKKKIIDNINLIKEYLKEKGESKGIALSEEKLQNAATRIRGFLNDFF-SFSIIPSRTFP  190
+
+
+> UniRef90_A0A1A8X7U0 Uncharacterized protein n=2 Tax=Plasmodium 
+TaxID=5820 RepID=A0A1A8X7U0_PLAMA
+Length=335
+
+ Score = 141 bits (355),  Expect = 6e-37, Method: Composition-based stats.
+ Identities = 37/175 (21%), Positives = 81/175 (46%), Gaps = 1/175 (1%)
+
+Query  4    EHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNR  63
+            +    + L   I  + ++EF   + Y+  L+  S   EK    + +  +I   + KN  +
+Sbjct  142  DLYNISELYDIIILILNLEFETTNTYVNKLVHCSSIEEK-KRIINNHFTIILEIFKNAKK  200
+
+Query  64   YNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHA  123
+             +   +   + D++  RI +R+  +C D+++ E+Y+  + +   +EQ V + +   +   
+Sbjct  201  MDNLKVPFELLDSMALRIKNRITDFCLDEDLNENYLLILKNIFEIEQNVFKGLFCYISCK  260
+
+Query  124  REVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYI  178
+              +KEKK ++ND +LI    +       ++       +AA R S F+ ++   +I
+Sbjct  261  NTLKEKKDVINDLQLISYYHEELAEDAGIEIPVQLLVNAAMRTSNFVSEMFYLFI  315
+
+
+> UniRef90_A0A1A8VP84 Uncharacterized protein n=3 Tax=Plasmodium 
+ovale TaxID=36330 RepID=A0A1A8VP84_9APIC
+Length=359
+
+ Score = 140 bits (352),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 40/165 (24%), Positives = 79/165 (48%), Gaps = 1/165 (1%)
+
+Query  10   PLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLI  69
+                 +  +  +EF +   Y+  +       +K   AL D + I + + +N N+ + + +
+Sbjct  174  DSYKSLYSIFFVEFESTYTYLDKIKHYPTTEQK-KKALDDHLGIIKEMYENANKNDGYKL  232
+
+Query  70   EERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEK  129
+               ++D++  RIS+R+  Y  ++EVT DY+  +     +E  V +     + H     E+
+Sbjct  233  PFELRDSMALRISERIRDYIFEEEVTSDYVLTMKTIFSIELEVFKGFFYYIKHKNSFSER  292
+
+Query  130  KRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+            K  +ND +LI+   +      DV  T++Q  +AA R+S F+ D+ 
+Sbjct  293  KEAINDLELIKFYHEDLLDDSDVYLTEEQLNNAAMRVSNFVSDMF  337
+
+
+> UniRef90_A0A1J1GSJ1 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+gallinaceum TaxID=5849 RepID=A0A1J1GSJ1_PLAGA
+Length=207
+
+ Score = 134 bits (338),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 38/156 (24%), Positives = 75/156 (48%), Gaps = 1/156 (1%)
+
+Query  13   PRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEER  72
+                +  D+EF   +  +  L     + E     LKD  +I+  +         FLIE+ 
+Sbjct  26   DNFFRCCDVEFKTTNSMLGKLKECKSNSE-MEAKLKDYNAIKEEIVNVGMHECNFLIEKE  84
+
+Query  73   VQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRI  132
+              DN+  RISDRL  +C ++++T++YI K+ +    E +   +V     +     E+K++
+Sbjct  85   FHDNMSYRISDRLRDFCFEEKLTDEYIFKVKEIYSAEDKAGADVFFETCNKEGNLERKKV  144
+
+Query  133  MNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQ  168
+            ++D  LI+     +E    +K ++++  +AA R+ +
+Sbjct  145  IDDMALIKSNLRKHEQCTHIKLSEEKLNNAAKRVQR  180
+
+
+> UniRef90_A0A151LUU1 Uncharacterized protein (Fragment) n=1 Tax=Plasmodium 
+reichenowi TaxID=5854 RepID=A0A151LUU1_PLARE
+Length=407
+
+ Score = 136 bits (343),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 38/176 (22%), Positives = 82/176 (47%), Gaps = 5/176 (3%)
+
+Query  1    YHYEHETHAP--LSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVR  58
+            Y YE        L   I  + ++EF++  +Y+   M +  + +  + +L D   I + + 
+Sbjct  223  YKYEDMLKRDKALFTIINNICELEFNSTKNYL---MEIINNDKLKHNSLNDTEVILKEIT  279
+
+Query  59   KNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSI  118
+            K +N      +   ++ ++  RI++RL ++  DK++T  YIKK+ D   +E    +    
+Sbjct  280  KTENELFSLKLPLEIKVSMALRITERLRAFIFDKDLTAYYIKKLKDIFKLETEAAKNYYY  339
+
+Query  119  NVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+             V +     +KK ++N+   I++ +++      +    D+   A  RIS  + D++
+Sbjct  340  YVKYQNTFSDKKLLVNNLDSIKLYYESQINKNFISIPKDKIPGAIYRISNLVNDLI  395
+
+
+> UniRef90_A0A1D3TE33 Gamete antigen 27/25, putative n=2 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1D3TE33_PLAMA
+Length=142
+
+ Score = 129 bits (325),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 35/141 (25%), Positives = 77/141 (55%), Gaps = 0/141 (0%)
+
+Query  43   FNYALKDRVSIRRYVRKNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKI  102
+                ++   +I   +R  + +Y Y  +++  ++N V+RI  RL S+  +  +TE+Y+K+ 
+Sbjct  1    MFLEIEKTENILTVLRGFEKKYGYKFVDDESKNNCVSRIKKRLNSFVIEGVLTEEYLKQG  60
+
+Query  103  DDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDA  162
+            + + W+EQRV EE+S+ V  A++  +K+++  +K  I+ + + YE  K +K++ +   + 
+Sbjct  61   EIFFWIEQRVGEEMSVKVYSAKQYPDKRKMCYNKNEIKKVKNDYEKEKCIKYSPEMIHNN  120
+
+Query  163  AARISQFLIDVVDSYIIKPIP  183
+               +  FL+D++         
+Sbjct  121  IVTVGSFLVDILRESTFIRSK  141
+
+
+> UniRef90_A0A1C3KIF4 Gamete antigen 27/25, putative n=3 Tax=Plasmodium 
+TaxID=5820 RepID=A0A1C3KIF4_PLAFA
+Length=379
+
+ Score = 132 bits (332),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 40/165 (24%), Positives = 80/165 (48%), Gaps = 1/165 (1%)
+
+Query  10   PLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLI  69
+                 +  +  +EF +   Y+  +       +K   AL D + I + + +N N+ + + +
+Sbjct  194  DSYKSLYSIFFVEFESTYTYLDKIKNYPTIEQK-KKALDDHLGIIKEMYENANKNDGYKL  252
+
+Query  70   EERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEK  129
+               ++D++  RIS+R+  Y  ++EVT DY+  +     +E  V +     + H     E+
+Sbjct  253  PFELRDSMALRISERIRDYIFEEEVTSDYVLTMKTIFSIELEVFKGFFYYIKHKNSFSER  312
+
+Query  130  KRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+            K  +ND +LI+   +      D+  T++Q K+AA R+S F+ D+ 
+Sbjct  313  KEAINDLELIKFYHEDLLDDSDLYLTEEQLKNAAMRVSNFVSDMF  357
+
+
+> UniRef90_W7JVJ1 Uncharacterized protein n=1 Tax=Plasmodium falciparum 
+UGT5.1 TaxID=1237627 RepID=W7JVJ1_PLAFA
+Length=377
+
+ Score = 131 bits (331),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 40/176 (23%), Positives = 85/176 (48%), Gaps = 5/176 (3%)
+
+Query  1    YHYEHETH--APLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVR  58
+            Y YE        L   I  + ++EF++ ++Y+  ++    + +  + +L D  +I + + 
+Sbjct  193  YKYEDMLKRDKDLFTIINNICELEFNSTNNYLMKII---NNDKLKHNSLNDNEAILKEIT  249
+
+Query  59   KNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSI  118
+            K QN      +   ++ ++  RIS+RL ++  DK++T  YIKK+ D   +E    +    
+Sbjct  250  KTQNELFSLKLPLEIKVSMALRISERLRAFVFDKDLTAYYIKKLKDIFKLETEAAKNYYY  309
+
+Query  119  NVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+             V   +   +KKR++N+   I++ +++      +    D+   A  RIS  + D++
+Sbjct  310  YVKCQKTFSDKKRLVNNLDSIKLYYESQINKNFISIPKDKIPTAIYRISNLVNDLI  365
+
+
+> UniRef90_A0A1A8WVR6 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8WVR6_PLAMA
+Length=205
+
+ Score = 127 bits (320),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 33/156 (21%), Positives = 71/156 (46%), Gaps = 6/156 (4%)
+
+Query  3    YEHETHAPLSPRIRKVGDIEFHACSDYIYL-LMTLSKDPEKFNYALKDRVSIRRY-----  56
+            Y+      +   + ++ +IEF A   +++L L+ L+K         +    I        
+Sbjct  50   YKPLPKGIVIEDVIELLNIEFQATIYFLFLELLPLNKHKADKTDKRELFSRISFDYLELP  109
+
+Query  57   VRKNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEV  116
+            +        Y   +ER +++ +NR+  RL     +  +T++Y ++   Y W+EQRVIEE+
+Sbjct  110  ILYFMKHLGYSFKDERSRNSCINRMKKRLDLIVIEGILTKEYCERAQKYFWIEQRVIEEM  169
+
+Query  117  SINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDV  152
+            S+ V   +   +++ +  ++  I+ L    E  + +
+Sbjct  170  SVKVFKEKTDDKQRNMCQNELAIKSLISKLERGRSI  205
+
+
+> UniRef90_A0A1J1GTN7 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+gallinaceum TaxID=5849 RepID=A0A1J1GTN7_PLAGA
+Length=206
+
+ Score = 125 bits (313),  Expect = 6e-32, Method: Composition-based stats.
+ Identities = 39/168 (23%), Positives = 73/168 (43%), Gaps = 3/168 (2%)
+
+Query  20   DIEFHACSDYIYLLM-TLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQDNIV  78
+            DIEF       YL      K  E+    ++D  +I   + + +   +       + D++ 
+Sbjct  29   DIEFDITVTVRYLDKVKKGKTAEEIRKIIEDHKAIVEEIVETEKHEHTRYKSF-LHDDVA  87
+
+Query  79   NRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKL  138
+             R++DRL  YC D+ +TE Y  KI    W+E+ VI +    V   +   E++ +M++  L
+Sbjct  88   YRVADRLSDYCYDEPLTETYCAKIIKAFWIEKDVILKYFKEVLPNKGDLERRLLMSNLTL  147
+
+Query  139  IRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKPIPALP  186
+            I+           +  ++ +    + R+S+F+     +  I P   LP
+Sbjct  148  IKSYVIKEAEAAKIDLSERKLHSISVRLSKFMF-FTSALNIIPSKDLP  194
+
+
+> UniRef90_A0A1J1GK82 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+relictum TaxID=85471 RepID=A0A1J1GK82_PLARL
+Length=231
+
+ Score = 122 bits (306),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 34/167 (20%), Positives = 80/167 (48%), Gaps = 2/167 (1%)
+
+Query  19   GDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLI-EERVQDNI  77
+              +EFH     +  ++   K+      ++ D  +I++ +  +  +Y   ++ ++   + +
+Sbjct  55   CRLEFHMTIYCLDHVLGF-KNLSDIKKSVTDLDAIKKEIVDSARKYYQVVMEDDEALERM  113
+
+Query  78   VNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKK  137
+             NRIS RL +  ++   T DY   + +  W EQR +E++ I ++   ++ +K  ++    
+Sbjct  114  ANRISGRLFNLRSEILTTMDYYSLLKNIFWAEQRAMEDIFIELNEKDDIAQKTEVIGRIS  173
+
+Query  138  LIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKPIPA  184
+             I+ +F+ Y  + ++  +  Q ++ A RI + L ++    I    PA
+Sbjct  174  SIKSIFEKYLRLININLSGQQIQNTAERIQELLGELCGISIKYTRPA  220
+
+
+> UniRef90_W4J5Y4 Uncharacterized protein n=1 Tax=Plasmodium falciparum 
+(isolate Palo Alto / Uganda) TaxID=57270 RepID=W4J5Y4_PLAFP
+Length=990
+
+ Score = 127 bits (320),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 40/176 (23%), Positives = 85/176 (48%), Gaps = 5/176 (3%)
+
+Query  1    YHYEHETH--APLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVR  58
+            Y YE        L   I  + ++EF++ ++Y+  ++    + +  + +L D  +I + + 
+Sbjct  806  YKYEDMLKRDKDLFTIINNICELEFNSTNNYLMKII---NNDKLKHNSLNDNEAILKEIT  862
+
+Query  59   KNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSI  118
+            K QN      +   ++ ++  RIS+RL ++  DK++T  YIKK+ D   +E    +    
+Sbjct  863  KTQNELFSLKLPLEIKVSMALRISERLRAFVFDKDLTAYYIKKLKDIFKLETEAAKNYYY  922
+
+Query  119  NVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+             V   +   +KKR++N+   I++ +++      +    D+   A  RIS  + D++
+Sbjct  923  YVKCQKTFSDKKRLVNNLDSIKLYYESQINKNFISIPKDKIPTAIYRISNLVNDLI  978
+
+
+> UniRef90_W7FTY2 Uncharacterized protein n=1 Tax=Plasmodium falciparum 
+(isolate 7G8) TaxID=57266 RepID=W7FTY2_PLAF8
+Length=941
+
+ Score = 126 bits (318),  Expect = 5e-30, Method: Composition-based stats.
+ Identities = 40/176 (23%), Positives = 85/176 (48%), Gaps = 5/176 (3%)
+
+Query  1    YHYEHETH--APLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVR  58
+            Y YE        L   I  + ++EF++ ++Y+  ++    + +  + +L D  +I + + 
+Sbjct  757  YKYEDMLKRDKDLFTIINNICELEFNSTNNYLMKII---NNDKLKHNSLNDNEAILKEIT  813
+
+Query  59   KNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSI  118
+            K QN      +   ++ ++  RIS+RL ++  DK++T  YIKK+ D   +E    +    
+Sbjct  814  KTQNELFSLKLPLEIKVSMALRISERLRAFVFDKDLTAYYIKKLKDIFKLETEAAKNYYY  873
+
+Query  119  NVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+             V   +   +KKR++N+   I++ +++      +    D+   A  RIS  + D++
+Sbjct  874  YVKCQKTFSDKKRLVNNLDSIKLYYESQINKNFISIPKDKIPTAIYRISNLVNDLI  929
+
+
+> UniRef90_W7KD95 Uncharacterized protein n=1 Tax=Plasmodium falciparum 
+(isolate NF54) TaxID=5843 RepID=W7KD95_PLAFO
+Length=880
+
+ Score = 126 bits (317),  Expect = 5e-30, Method: Composition-based stats.
+ Identities = 40/176 (23%), Positives = 85/176 (48%), Gaps = 5/176 (3%)
+
+Query  1    YHYEHETH--APLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVR  58
+            Y YE        L   I  + ++EF++ ++Y+  ++    + +  + +L D  +I + + 
+Sbjct  696  YKYEDMLKRDKDLFTIINNICELEFNSTNNYLMKII---NNDKLKHNSLNDNEAILKEIT  752
+
+Query  59   KNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSI  118
+            K QN      +   ++ ++  RIS+RL ++  DK++T  YIKK+ D   +E    +    
+Sbjct  753  KTQNELFSLKLPLEIKVSMALRISERLRAFVFDKDLTAYYIKKLKDIFKLETEAAKNYYY  812
+
+Query  119  NVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+             V   +   +KKR++N+   I++ +++      +    D+   A  RIS  + D++
+Sbjct  813  YVKCQKTFSDKKRLVNNLDSIKLYYESQINKNFISIPKDKIPTAIYRISNLVNDLI  868
+
+
+> UniRef90_W7GCI3 Uncharacterized protein n=1 Tax=Plasmodium falciparum 
+Santa Lucia TaxID=478859 RepID=W7GCI3_PLAFA
+Length=856
+
+ Score = 126 bits (317),  Expect = 6e-30, Method: Composition-based stats.
+ Identities = 40/176 (23%), Positives = 85/176 (48%), Gaps = 5/176 (3%)
+
+Query  1    YHYEHETH--APLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVR  58
+            Y YE        L   I  + ++EF++ ++Y+  ++    + +  + +L D  +I + + 
+Sbjct  672  YKYEDMLKRDKDLFTIINNICELEFNSTNNYLMKII---NNDKLKHNSLNDNEAILKEIT  728
+
+Query  59   KNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSI  118
+            K QN      +   ++ ++  RIS+RL ++  DK++T  YIKK+ D   +E    +    
+Sbjct  729  KTQNELFSLKLPLEIKVSMALRISERLRAFVFDKDLTAYYIKKLKDIFKLETEAAKNYYY  788
+
+Query  119  NVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+             V   +   +KKR++N+   I++ +++      +    D+   A  RIS  + D++
+Sbjct  789  YVKCQKTFSDKKRLVNNLDSIKLYYESQINKNFISIPKDKIPTAIYRISNLVNDLI  844
+
+
+> UniRef90_A0A0L7M8A1 Uncharacterized protein n=1 Tax=Plasmodium 
+falciparum (isolate Dd2) TaxID=57267 RepID=A0A0L7M8A1_PLAF4
+Length=1108
+
+ Score = 126 bits (318),  Expect = 6e-30, Method: Composition-based stats.
+ Identities = 40/176 (23%), Positives = 85/176 (48%), Gaps = 5/176 (3%)
+
+Query  1     YHYEHETH--APLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVR  58
+             Y YE        L   I  + ++EF++ ++Y+  ++    + +  + +L D  +I + + 
+Sbjct  924   YKYEDMLKRDKDLFTIINNICELEFNSTNNYLMKII---NNDKLKHNSLNDNEAILKEIT  980
+
+Query  59    KNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSI  118
+             K QN      +   ++ ++  RIS+RL ++  DK++T  YIKK+ D   +E    +    
+Sbjct  981   KTQNELFSLKLPLEIKVSMALRISERLRAFVFDKDLTAYYIKKLKDIFKLETEAAKNYYY  1040
+
+Query  119   NVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+              V   +   +KKR++N+   I++ +++      +    D+   A  RIS  + D++
+Sbjct  1041  YVKCQKTFSDKKRLVNNLDSIKLYYESQINKNFISIPKDKIPTAIYRISNLVNDLI  1096
+
+
+> UniRef90_A0A024WX17 Uncharacterized protein n=1 Tax=Plasmodium 
+falciparum MaliPS096_E11 TaxID=1036727 RepID=A0A024WX17_PLAFA
+Length=909
+
+ Score = 125 bits (315),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 40/176 (23%), Positives = 85/176 (48%), Gaps = 5/176 (3%)
+
+Query  1    YHYEHETH--APLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVR  58
+            Y YE        L   I  + ++EF++ ++Y+  ++    + +  + +L D  +I + + 
+Sbjct  725  YKYEDMLKRDKDLFTIINNICELEFNSTNNYLMKII---NNDKLKHNSLNDNEAILKEIT  781
+
+Query  59   KNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSI  118
+            K QN      +   ++ ++  RIS+RL ++  DK++T  YIKK+ D   +E    +    
+Sbjct  782  KTQNELFSLKLPLEIKVSMALRISERLRAFVFDKDLTAYYIKKLKDIFKLETEAAKNYYY  841
+
+Query  119  NVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+             V   +   +KKR++N+   I++ +++      +    D+   A  RIS  + D++
+Sbjct  842  YVKCQKTFSDKKRLVNNLDSIKLYYESQINKNFISIPKDKIPTAIYRISNLVNDLI  897
+
+
+> UniRef90_O96127 Conserved Plasmodium protein n=2 Tax=Plasmodium 
+falciparum TaxID=5833 RepID=O96127_PLAF7
+Length=1192
+
+ Score = 126 bits (316),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 40/176 (23%), Positives = 85/176 (48%), Gaps = 5/176 (3%)
+
+Query  1     YHYEHETH--APLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVR  58
+             Y YE        L   I  + ++EF++ ++Y+  ++    + +  + +L D  +I + + 
+Sbjct  1008  YKYEDMLKRDKDLFTIINNICELEFNSTNNYLMKII---NNDKLKHNSLNDNEAILKEIT  1064
+
+Query  59    KNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSI  118
+             K QN      +   ++ ++  RIS+RL ++  DK++T  YIKK+ D   +E    +    
+Sbjct  1065  KTQNELFSLKLPLEIKVSMALRISERLRAFVFDKDLTAYYIKKLKDIFKLETEAAKNYYY  1124
+
+Query  119   NVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+              V   +   +KKR++N+   I++ +++      +    D+   A  RIS  + D++
+Sbjct  1125  YVKCQKTFSDKKRLVNNLDSIKLYYESQINKNFISIPKDKIPTAIYRISNLVNDLI  1180
+
+
+> UniRef90_A0A0L1I9G4 Uncharacterized protein n=4 Tax=Plasmodium 
+falciparum TaxID=5833 RepID=A0A0L1I9G4_PLAFA
+Length=1239
+
+ Score = 126 bits (316),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 40/176 (23%), Positives = 85/176 (48%), Gaps = 5/176 (3%)
+
+Query  1     YHYEHETH--APLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVR  58
+             Y YE        L   I  + ++EF++ ++Y+  ++    + +  + +L D  +I + + 
+Sbjct  1055  YKYEDMLKRDKDLFTIINNICELEFNSTNNYLMKII---NNDKLKHNSLNDNEAILKEIT  1111
+
+Query  59    KNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSI  118
+             K QN      +   ++ ++  RIS+RL ++  DK++T  YIKK+ D   +E    +    
+Sbjct  1112  KTQNELFSLKLPLEIKVSMALRISERLRAFVFDKDLTAYYIKKLKDIFKLETEAAKNYYY  1171
+
+Query  119   NVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+              V   +   +KKR++N+   I++ +++      +    D+   A  RIS  + D++
+Sbjct  1172  YVKCQKTFSDKKRLVNNLDSIKLYYESQINKNFISIPKDKIPTAIYRISNLVNDLI  1227
+
+
+> UniRef90_A0A151LWB3 Uncharacterized protein (Fragment) n=1 Tax=Plasmodium 
+gaboni TaxID=647221 RepID=A0A151LWB3_9APIC
+Length=799
+
+ Score = 124 bits (311),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 39/164 (24%), Positives = 81/164 (49%), Gaps = 3/164 (2%)
+
+Query  11   LSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIE  70
+            L   +  + +IEF +  +Y+  ++    + E  + +L D  +I + + K QN++  F + 
+Sbjct  632  LFTTVNNICEIEFISTKNYLMTIID---NDESKHNSLNDNDAILKEINKTQNKFINFQLP  688
+
+Query  71   ERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKK  130
+              +   +  RIS+RL ++  DKE+T  YIK++ D   +E+   +     +      ++KK
+Sbjct  689  LEITVPMALRISERLRAFIFDKELTPYYIKQLTDIFELEKDASKIYYYYLKCQNTYEDKK  748
+
+Query  131  RIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+             +  +   I++ +D+      V    D+   A +RIS F+ D++
+Sbjct  749  GLFKNLDSIKLCYDSQIDKNFVYIPKDKIPGALSRISNFVNDLL  792
+
+
+> UniRef90_A0A1A8XDK2 Uncharacterized protein n=4 Tax=Plasmodium 
+TaxID=5820 RepID=A0A1A8XDK2_9APIC
+Length=246
+
+ Score = 117 bits (294),  Expect = 9e-29, Method: Composition-based stats.
+ Identities = 29/183 (16%), Positives = 67/183 (37%), Gaps = 7/183 (4%)
+
+Query  5    HETHAPLSPRIRKVGDI---EFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQ  61
+                +  +    K+ +I   E  A +D I  L  L    E+      D  S  R      
+Sbjct  65   CYDLSLTTDETMKLLNIIYAEELAFNDIINTLNELLNKKERH----DDFSSFIREKVHKH  120
+
+Query  62   NRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVD  121
+                     E    N+ NR+ + L     +  + ++ +  + +   +E    +++  ++ 
+Sbjct  121  ALCEIPNYPEPRIKNMENRLRELLKQMRLNIPLNQEKVMYMSEVFKIEFEQSKDLLWDIS  180
+
+Query  122  HAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKP  181
+              ++  E   ++N+ + IR   D      ++  ++    +A  RI   + +++D +   P
+Sbjct  181  KLKDEDEMNEMINNLQYIRTSLDDKFTRNNIFLSEGMKVNAVLRIRSRVQEILDFHFDMP  240
+
+Query  182  IPA  184
+              A
+Sbjct  241  SSA  243
+
+
+> UniRef90_A0A060RMY0 Uncharacterized protein n=1 Tax=Plasmodium 
+reichenowi TaxID=5854 RepID=A0A060RMY0_PLARE
+Length=924
+
+ Score = 122 bits (307),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 35/176 (20%), Positives = 82/176 (47%), Gaps = 5/176 (3%)
+
+Query  1    YHYEHETHAP--LSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVR  58
+            Y YE        L   +  + ++EF++  +Y+  ++    + +  + +L D   I + + 
+Sbjct  740  YKYEDMLKTDKALFTIVNNICELEFNSTKNYLMKII---NNDKLKHNSLNDTEVILKEIT  796
+
+Query  59   KNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSI  118
+            K +N      +   ++ ++  RI++RL ++  DK++T  YIKK++D   +E    +    
+Sbjct  797  KTENELFSLKLPLEIKVSMALRITERLRAFIFDKDLTVYYIKKLNDIFKLETEAAKNYYY  856
+
+Query  119  NVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+             V   +   +KK ++N+   I++ +++      +    D+   A  RI   + D++
+Sbjct  857  YVKCQKTFSDKKLLVNNLDSIKLYYESQINKNFISIPKDKIPAAIYRIYNLVNDLI  912
+
+
+> UniRef90_A0A024XFI4 Uncharacterized protein n=1 Tax=Plasmodium 
+falciparum (isolate Camp / Malaysia) TaxID=5835 RepID=A0A024XFI4_PLAFC
+Length=772
+
+ Score = 121 bits (303),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 40/176 (23%), Positives = 85/176 (48%), Gaps = 5/176 (3%)
+
+Query  1    YHYEHETH--APLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVR  58
+            Y YE        L   I  + ++EF++ ++Y+  ++    + +  + +L D  +I + + 
+Sbjct  588  YKYEDMLKRDKDLFTIINNICELEFNSTNNYLMKII---NNDKLKHNSLNDNEAILKEIT  644
+
+Query  59   KNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSI  118
+            K QN      +   ++ ++  RIS+RL ++  DK++T  YIKK+ D   +E    +    
+Sbjct  645  KTQNELFSLKLPLEIKVSMALRISERLRAFVFDKDLTAYYIKKLKDIFKLETEAAKNYYY  704
+
+Query  119  NVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+             V   +   +KKR++N+   I++ +++      +    D+   A  RIS  + D++
+Sbjct  705  YVKCQKTFSDKKRLVNNLDSIKLYYESQINKNFISIPKDKIPTAIYRISNLVNDLI  760
+
+
+> UniRef90_A0A1J1GKQ9 Uncharacterized protein n=1 Tax=Plasmodium 
+relictum TaxID=85471 RepID=A0A1J1GKQ9_PLARL
+Length=250
+
+ Score = 111 bits (278),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 33/174 (19%), Positives = 60/174 (34%), Gaps = 3/174 (2%)
+
+Query  2    HYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQ  61
+             ++       S  +   GDIEF A    +     +         A+ +       +    
+Sbjct  64   KHDGSLTYDESLSVSTAGDIEFLALK--LSTQKVVDNFGGLNEDAMNNIGIFCNIILPLL  121
+
+Query  62   NRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVD  121
+              Y     EE+++ N+  RI  R+    +D  +T D I         E  +   V     
+Sbjct  122  RTYKIIYSEEKIR-NMAMRIICRIREIFSDGPLTTDQINCRLKLYMFENVLSYHVLKEAS  180
+
+Query  122  HAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVD  175
+                 +E+ R+++D   I+ L +       V   +      A RIS+ + D+ D
+Sbjct  181  CKSNEEERNRVIDDIDSIKGLVNNTFNDSKVVLQEHMVNSMALRISESIRDLFD  234
+
+
+> UniRef90_A0A1J1GKL5 Uncharacterized protein n=1 Tax=Plasmodium 
+relictum TaxID=85471 RepID=A0A1J1GKL5_PLARL
+Length=240
+
+ Score = 110 bits (276),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 32/174 (18%), Positives = 64/174 (37%), Gaps = 3/174 (2%)
+
+Query  2    HYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQ  61
+             Y+       S  +  V D+EF +    + +   +         A+ +   +   V    
+Sbjct  64   KYDCSLTCDESLSLSGVSDVEFLSLK--LSMQKVVDSSGNLDEDAISNIRLVYNTVSSVF  121
+
+Query  62   NRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVD  121
+              Y     EE+   N+  RI  RL    +D  +T D I        +E  +   +  +  
+Sbjct  122  KIYRIEYSEEKAA-NMALRIISRLREMFSDGPLTNDEINSRLKNYMLENVLSYNLLKDAS  180
+
+Query  122  HAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVD  175
+              R  +++  ++ +   I+ +  T   +  +   D+   D A RIS+ + D+ D
+Sbjct  181  VQRNEEDRNSVICNIDYIKRMIITTFNLSHIVLQDNVVTDMAFRISESVQDLFD  234
+
+
+> UniRef90_A0A1J1GZT6 Uncharacterized protein n=1 Tax=Plasmodium 
+gallinaceum TaxID=5849 RepID=A0A1J1GZT6_PLAGA
+Length=258
+
+ Score = 109 bits (272),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 32/175 (18%), Positives = 67/175 (38%), Gaps = 3/175 (2%)
+
+Query  2    HYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQ  61
+             ++       S  +  V ++E+ A      +++  S D    +  + D V I   VR   
+Sbjct  72   THDDSLTDDESLHLSVVCNLEYIALKMSTQMVIDASGDS--IDDTVLDMVRINNTVRSLL  129
+
+Query  62   NRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVD  121
+            + YN   + E    N+  RISDR     +    T D I  +  +  +E  +   +  +  
+Sbjct  130  D-YNNITLSEEKIQNMALRISDRFEEMFSSGSFTLDKINNMLKFYMIEAVLSYNLLRSAT  188
+
+Query  122  HAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDS  176
+                  ++  ++N+   I+          +V  +     + A RI + + D++D+
+Sbjct  189  SQPHEDDRISMLNNVDGIKYEISKRFNHSNVLLSASTINNMALRIRESVQDLLDA  243
+
+
+> UniRef90_A0A1A8XBF5 Gamete antigen 27/25 (G27/25) n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8XBF5_PLAMA
+Length=127
+
+ Score = 105 bits (262),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 33/124 (27%), Positives = 64/124 (52%), Gaps = 4/124 (3%)
+
+Query  26   CSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERVQDNIVNRISDRL  85
+            C +Y ++++      +K    ++   +I + +R  + +Y Y  ++E  ++N VNR+   L
+Sbjct  7    CINYCHMVLI----KKKIFSEIEKTENILKVLRGFEKKYEYKFVDEESKNNCVNRVKKCL  62
+
+Query  86   ISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIRMLFDT  145
+             S   +  + E Y K+  +Y W+EQR+ EE+S+ VD  +  + K+ + ND   I+ L   
+Sbjct  63   NSIVIEGVLREKYCKQAQNYFWIEQRIDEEMSVKVDKQKTDEGKRIMGNDDDEIKRLLCI  122
+
+Query  146  YEYV  149
+             E  
+Sbjct  123  LEKE  126
+
+
+> UniRef90_K6VH50 Uncharacterized protein (Fragment) n=1 Tax=Plasmodium 
+cynomolgi strain B TaxID=1120755 RepID=K6VH50_9APIC
+Length=173
+
+ Score = 105 bits (263),  Expect = 5e-25, Method: Composition-based stats.
+ Identities = 32/161 (20%), Positives = 66/161 (41%), Gaps = 1/161 (1%)
+
+Query  14   RIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERV  73
+            +++KV  IE+H    ++  L+  S + E+      +   +   V+     Y        +
+Sbjct  2    KVKKVYTIEYHVTRKFLRDLLNSSNNEERLGRRRNECAIVSDLVKHYGRVYGINFSNIIL  61
+
+Query  74   QDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIM  133
+             DN VNR+  R+  +   + +TE +  +I  YL  E  V+ +    +D    + +   ++
+Sbjct  62   LDNTVNRVRKRINYFLQRETLTETHYYRIKSYLIKEITVLYDFCQKIDLVMALCKYLNVI  121
+
+Query  134  NDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+               + +R   D     K +    +QY    A ++  L D +
+Sbjct  122  PHARGVRFYVD-LSVSKKLLLNREQYSPVIAMVNMLLEDAL  161
+
+
+> UniRef90_A0A0L7KL69 Uncharacterized protein (Fragment) n=1 Tax=Plasmodium 
+falciparum (isolate HB3) TaxID=137071 RepID=A0A0L7KL69_PLAFX
+Length=105
+
+ Score = 93.9 bits (232),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 92/93 (99%), Positives = 92/93 (99%), Gaps = 0/93 (0%)
+
+Query  94   VTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVK  153
+             TEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVK
+Sbjct  2    FTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVK  61
+
+Query  154  FTDDQYKDAAARISQFLIDVVDSYIIKPIPALP  186
+            FTDDQYKDAAARISQFLIDVVDSYIIKPIPALP
+Sbjct  62   FTDDQYKDAAARISQFLIDVVDSYIIKPIPALP  94
+
+
+> UniRef90_A0A1J1GU57 Gamete antigen 27/25, putative n=1 Tax=Plasmodium 
+gallinaceum TaxID=5849 RepID=A0A1J1GU57_PLAGA
+Length=112
+
+ Score = 79.6 bits (195),  Expect = 8e-16, Method: Composition-based stats.
+ Identities = 29/125 (23%), Positives = 54/125 (43%), Gaps = 30/125 (24%)
+
+Query  62   NRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVD  121
+                 F + E ++DN+  RI +R   YC D  +T++Y  K+ +   +EQ+  EEV +++ 
+Sbjct  8    RECQNFTVNEELRDNMTFRIQNRFSDYCLDVALTDEYCLKLKNIFSIEQQAFEEVFLDI-  66
+
+Query  122  HAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKP  181
+                   KK+I+N                      ++  ++A RI +F+ D  +   +  
+Sbjct  67   ------HKKKIIN----------------------EKLHNSAVRIGKFVND-FNFLSLTY  97
+
+Query  182  IPALP  186
+               LP
+Sbjct  98   SKVLP  102
+
+
+> UniRef90_A0A1A8WX33 Uncharacterized protein n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8WX33_PLAMA
+Length=150
+
+ Score = 74.2 bits (181),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 17/102 (17%), Positives = 44/102 (43%), Gaps = 7/102 (7%)
+
+Query  3    YEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLS------KDPEKFNYALKDRVSIRRY  56
+            Y+H  ++ L   +  + D+EF++  D+++  +  +       + ++    + D  +I   
+Sbjct  50   YKHLQNSALRKDVITLSDLEFYSTIDFLFRQLLHNPRIQDKTNKQELFSKIIDY-NIDFP  108
+
+Query  57   VRKNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDY  98
+            +   +    Y   ++      ++RI  RL     +  +TE+Y
+Sbjct  109  IIYFKRYLGYSFKDDTSMKKCIDRIKRRLNFIVIEGIITEEY  150
+
+
+> UniRef90_A0A1A8WYH0 Uncharacterized protein n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8WYH0_PLAMA
+Length=78
+
+ Score = 61.1 bits (147),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 13/63 (21%), Positives = 31/63 (49%), Gaps = 0/63 (0%)
+
+Query  113  IEEVSINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLID  172
+            +EE+S+ V + +    +  +  ++  I+ L    E  + +K ++    +  + I  FL+D
+Sbjct  1    MEEMSLKVFNEKTENARTNMCKNEVEIKNLISKLERGRSIKLSEGMIANTVSTIKDFLLD  60
+
+Query  173  VVD  175
+            V+ 
+Sbjct  61   VLR  63
+
+
+> UniRef90_A0A1D3JEA3 Uncharacterized protein n=4 Tax=Plasmodium 
+TaxID=5820 RepID=A0A1D3JEA3_9APIC
+Length=248
+
+ Score = 61.9 bits (149),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 24/182 (13%), Positives = 61/182 (34%), Gaps = 4/182 (2%)
+
+Query  3    YEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQN  62
+            Y+          +  +   E    +D +   +                    R   + + 
+Sbjct  66   YDISLTMDEIEDLNNILHCEALCLNDLVSSFIIFLSRGNHPTC----YDVFIREKVRKRV  121
+
+Query  63   RYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDH  122
+              +     E    N+ +R+++++           D I  + ++L +E     E+      
+Sbjct  122  ELSVPGYPEFRTQNMESRLTEQMHEIIKTIPFNRDGICYVYEFLKLEIDESAEILYFAST  181
+
+Query  123  AREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKPI  182
+             +  ++K  ++N+   +R L        ++   DD   +A  R+ + + D++D +  K  
+Sbjct  182  QKTEEQKNVVLNNLPNMRALLTEKLLSNNIIVNDDMVTEAVLRVRRRVKDILDFHEHKLS  241
+
+Query  183  PA  184
+             A
+Sbjct  242  RA  243
+
+
+> UniRef90_A0A1A8X6Y4 Uncharacterized protein n=3 Tax=Plasmodium 
+ovale TaxID=36330 RepID=A0A1A8X6Y4_9APIC
+Length=216
+
+ Score = 61.5 bits (148),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 28/182 (15%), Positives = 69/182 (38%), Gaps = 7/182 (4%)
+
+Query  6    ETHAPLSPRIRKVGDI---EFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQN  62
+               +     I+++ D+   E  + +D +  L+      +  N        + R     + 
+Sbjct  36   FDPSLTIDEIQRLLDVLYVEAVSLNDLVASLLIFLTRIQHPNE----FKVLIRDKVSQRL  91
+
+Query  63   RYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDH  122
+                    E  + N+  R+ +++        + ++ I  +  +  +E  V  E+      
+Sbjct  92   ALEIPNYPELRKINMEKRLKEQIEEIVKIHPICKEQILYMHAFFKLEIDVSVELLDFAAR  151
+
+Query  123  AREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKPI  182
+             +  +E+  I+ND + +R+L        +++ +D    DA  R  + +IDV++ +     
+Sbjct  152  QKTEEERNNILNDLRSMRLLLTARMMRNNIEVSDKFVTDAVLRARRRVIDVLEYHFDLQS  211
+
+Query  183  PA  184
+             A
+Sbjct  212  HA  213
+
+
+> UniRef90_A0A1J1HCJ4 Uncharacterized protein n=1 Tax=Plasmodium 
+relictum TaxID=85471 RepID=A0A1J1HCJ4_PLARL
+Length=243
+
+ Score = 61.5 bits (148),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 27/164 (16%), Positives = 64/164 (39%), Gaps = 4/164 (2%)
+
+Query  14   RIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERV  73
+            +I +  ++E+ +  + +YL+   +K+PE+    + +   I+  +     +     +   V
+Sbjct  80   KISECSELEYMSTKEIVYLITDNNKNPEEI---INNIGLIQSSILGKLQQ-ENIELTHSV  135
+
+Query  74   QDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRIM  133
+              N+  RI+ RL        +  + ++       VE   +  +  N   + ++   K  +
+Sbjct  136  LWNMSLRIAQRLGEIFRSGPLQREEVQAKLRVYIVEPITVSHIIENSFSSSDLLNIKCTI  195
+
+Query  134  NDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSY  177
+             +   IR         K +  ++    +   RIS F  D+ D +
+Sbjct  196  YNLGTIRNEIAKRISTKKISLSNFLLNNMMYRISMFFNDIFDMH  239
+
+
+> UniRef90_A0A1C3KXV8 Uncharacterized protein n=2 Tax=Plasmodium 
+TaxID=5820 RepID=A0A1C3KXV8_PLAFA
+Length=246
+
+ Score = 59.6 bits (143),  Expect = 7e-08, Method: Composition-based stats.
+ Identities = 29/182 (16%), Positives = 66/182 (36%), Gaps = 7/182 (4%)
+
+Query  6    ETHAPLSPRIRKVGDI---EFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQN  62
+               +  S  +  +  I   E  A +D +  ++      E    A+ +   I R   + + 
+Sbjct  66   FDCSLTSDELMTLLQILYTEMLALNDIVGSILMRINRGE----AIDNLGVIVREKLRQRI  121
+
+Query  63   RYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDH  122
+               +  + E    N+ NR+ +++    ++       I  + D    E      V      
+Sbjct  122  LVEHTKLPELRIQNMENRLLEQMNYVFSNFPANSANILYMYDVFKEELDQSLLVVDYAAR  181
+
+Query  123  AREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKPI  182
+             +    +  I+N+   IR+ FD      ++   ++   D   RI +  +D+++ ++ K  
+Sbjct  182  QKSEDTRNDILNNLSDIRVAFDARLICNNLTVNEELKIDMVLRIRRRAMDIIEHHLNKDS  241
+
+Query  183  PA  184
+             A
+Sbjct  242  RA  243
+
+
+> UniRef90_A0A1C3KY38 Uncharacterized protein n=2 Tax=Plasmodium 
+TaxID=5820 RepID=A0A1C3KY38_PLAFA
+Length=246
+
+ Score = 59.2 bits (142),  Expect = 8e-08, Method: Composition-based stats.
+ Identities = 29/182 (16%), Positives = 63/182 (35%), Gaps = 7/182 (4%)
+
+Query  6    ETHAPLSPRIRKVGDI---EFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQN  62
+               +     +R + +I   E  + +D I   +              +   + R     + 
+Sbjct  66   YDSSLTLDELRGLINILYCEVLSLNDLISSFIIFISKGNNP----SNYDVLIREKVYKRL  121
+
+Query  63   RYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDH  122
+                    E  + N+V R+ +++         T D +  I ++L +E      +      
+Sbjct  122  AIEVPSYPELKKKNMVKRLKEQMQEIINILPFTNDGVFYIYEFLKLELDESIALLGFSSR  181
+
+Query  123  AREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKPI  182
+             R   E+   +ND   IR          ++   DD   +A  RI + ++D+++ +  KP 
+Sbjct  182  QRTEDERNGSLNDLLKIRERLTIRLMSNNIMVNDDMVTEAVLRIRKRVLDIMEYHYDKPS  241
+
+Query  183  PA  184
+             +
+Sbjct  242  QS  243
+
+
+> UniRef90_A0A1A8X6H2 Uncharacterized protein n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1A8X6H2_PLAMA
+Length=135
+
+ Score = 57.6 bits (138),  Expect = 9e-08, Method: Composition-based stats.
+ Identities = 20/114 (18%), Positives = 50/114 (44%), Gaps = 0/114 (0%)
+
+Query  69   IEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKE  128
+              +   DN+  R+  ++     +K + +D I K+ + L +E     +V   +        
+Sbjct  17   YPQLRIDNMTKRLKQQVEEVFLNKPLNQDKILKVYEGLRLEFDTTMQVLDCILRESHEDI  76
+
+Query  129  KKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKPI  182
+            +  ++N+  +IR+L ++     ++  +DD     A RI   ++D++  +  +  
+Sbjct  77   RNHMLNNLPVIRLLHNSKLTDSNILISDDALSLIALRIRARILDLLQWHFERYS  130
+
+
+> UniRef90_A0A1D3TDF0 Uncharacterized protein n=1 Tax=Plasmodium 
+malariae TaxID=5858 RepID=A0A1D3TDF0_PLAMA
+Length=247
+
+ Score = 57.6 bits (138),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 26/180 (14%), Positives = 68/180 (38%), Gaps = 4/180 (2%)
+
+Query  3    YEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQN  62
+            ++       S RI  +  +E     D +  ++      +   Y+      +     + + 
+Sbjct  67   FDCSFTVDESIRIYHILYVELLILGDIVTYIINHINRTQSIIYS----EEMLTEKVRQRV  122
+
+Query  63   RYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDH  122
+                    +   DN+  R+  ++     +K + +D I K+ + L +E     +V   +  
+Sbjct  123  SIEMPSYPQFRIDNMTKRLKQQVEEVFLNKPLNQDKILKVYEGLRLEFDTTMQVLDCILR  182
+
+Query  123  AREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKPI  182
+                  +  ++N+  +IR+L ++     ++  +DD     A RI   ++D++  +  +  
+Sbjct  183  ESHEDIRNHMLNNLPVIRLLHNSKLTDSNILISDDALSLIALRIRARILDLLQWHFERYS  242
+
+
+> UniRef90_A0A1A8ZTU1 Uncharacterized protein n=2 Tax=Plasmodium 
+TaxID=5820 RepID=A0A1A8ZTU1_9APIC
+Length=192
+
+ Score = 56.1 bits (134),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 27/181 (15%), Positives = 69/181 (38%), Gaps = 1/181 (1%)
+
+Query  5    HETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRY  64
+            H   +     ++++ +I  +A    +  L+    +    N    D  ++       +   
+Sbjct  11   HYNCSLTIEELQRLFNI-LYAEVVSLDDLVASLMNFLSGNRDPNDLKNLISGKVNQRLSR  69
+
+Query  65   NYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAR  124
+                  +  + N+  R+ +++        ++++ I  + ++L +E     E+   V    
+Sbjct  70   VIPGYPDLRKKNMEKRLVEQIEEIIKMLPISKEEILFLHEFLRLEIDQSIEILNIVAMEE  129
+
+Query  125  EVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKPIPA  184
+                + +I+ND   IR+ F        V   DD    A  R+ + ++D+++ +   P  A
+Sbjct  130  TEDGRNQILNDLSYIRVRFIARLRRYRVIVNDDLITAAVLRLRRRILDILEYHYDMPSHA  189
+
+Query  185  L  185
+            +
+Sbjct  190  I  190
+
+
+> UniRef90_A0A1A8X7V7 Uncharacterized protein n=1 Tax=Plasmodium 
+ovale curtisi TaxID=864141 RepID=A0A1A8X7V7_9APIC
+Length=192
+
+ Score = 55.3 bits (132),  Expect = 9e-07, Method: Composition-based stats.
+ Identities = 29/180 (16%), Positives = 67/180 (37%), Gaps = 1/180 (1%)
+
+Query  6    ETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYN  65
+               +     I+++ +I  HA    +  L+    +    N    D  ++       +    
+Sbjct  12   YNCSLTIDEIQRLFNI-LHAEVVLLDDLVASLMNFLSRNQNPNDFKNLISGKVNQRLSRL  70
+
+Query  66   YFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHARE  125
+                 +  + N+  R+ +++        +++D I  + ++L +E     E+  NV     
+Sbjct  71   IPGYPDLRKKNMEKRLVEQMEEIIKMLPISKDEILFLHEFLRLEIDQSIEILNNVAMEET  130
+
+Query  126  VKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKPIPAL  185
+               +  I+ND   IR+          V   DD    A  R+ + ++D+++ +   P  A+
+Sbjct  131  DDGRNWILNDLSYIRVRLIARLRRYRVIVNDDLITAAVLRLRRRILDILEYHYDMPSQAI  190
+
+
+> UniRef90_W6ZYE1 Uncharacterized protein n=1 Tax=Plasmodium inui 
+San Antonio 1 TaxID=1237626 RepID=W6ZYE1_9APIC
+Length=246
+
+ Score = 54.2 bits (129),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 22/136 (16%), Positives = 47/136 (35%), Gaps = 0/136 (0%)
+
+Query  49   DRVSIRRYVRKNQNRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWV  108
+            D   + R    N+ R          ++ +  R+++ +        + +D I    +   V
+Sbjct  108  DVQGLVREKLYNRIRIEMPQYPTERKETMQARLTELVDGIVRISPLNKDIILHKLNAYNV  167
+
+Query  109  EQRVIEEVSINVDHAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQ  168
+            E      +   V   R  +    I+N+  LI  L  +     D+   +D       R+ +
+Sbjct  168  ELDETVSILKTVARQRTEEGIYEILNNLTLIGELLQSRLKSNDILVNEDTLAIMILRLRR  227
+
+Query  169  FLIDVVDSYIIKPIPA  184
+             + D++D +      A
+Sbjct  228  RVFDILDFHNGMLSRA  243
+
+
+> UniRef90_A0A1A8W506 Uncharacterized protein n=2 Tax=Plasmodium 
+ovale TaxID=36330 RepID=A0A1A8W506_9APIC
+Length=192
+
+ Score = 53.0 bits (126),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 28/180 (16%), Positives = 67/180 (37%), Gaps = 1/180 (1%)
+
+Query  6    ETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYN  65
+               +     I+++ +I  +A    +  L+    +    N    D  ++       +    
+Sbjct  12   YNCSLTIDEIQRLFNI-LYAEVVLLDDLVASLMNFLSRNQNPNDFKNLISGKVNQRLSRL  70
+
+Query  66   YFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHARE  125
+                 +  + N+  R+ +++        +++D I  + ++L +E     E+  NV     
+Sbjct  71   IPGYPDLRKKNMEKRLVEQMEEIIKMLPISKDEILFLHEFLRLEIDQSIEILNNVAMEET  130
+
+Query  126  VKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKPIPAL  185
+               +  I+ND   IR+          V   DD    A  R+ + ++D+++ +   P  A+
+Sbjct  131  DDGRNWILNDLSYIRVRLIARLRRYRVIVNDDLITAAVLRLRRRILDILEYHYDMPSQAI  190
+
+
+> UniRef90_A0A1B1E6Z4 Uncharacterized protein n=1 Tax=Plasmodium 
+coatneyi TaxID=208452 RepID=A0A1B1E6Z4_9APIC
+Length=396
+
+ Score = 53.0 bits (126),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 22/175 (13%), Positives = 55/175 (31%), Gaps = 4/175 (2%)
+
+Query  3    YEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQN  62
+            Y          R+  +  +E     D +  ++    +       +     IR  + +   
+Sbjct  66   YNCALTEDELHRLYHIIHVESMTAGDILTAIILHLDEETDH---VNVEELIRNKLLRRLR  122
+
+Query  63   RYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDH  122
+                     +++  +  R++  +        + +D I +  +   VE     E    V  
+Sbjct  123  MEMPNF-PLKIRVTMQARLTQFVEEVMEMSPLRQDIILQKLEAYNVELDQSVEALRYVAG  181
+
+Query  123  AREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSY  177
+                +E    +ND   +R   +       +  +DD       RI + ++D++  +
+Sbjct  182  QDTEEEMYEFINDLSFLRESLEVLLRSNGIVVSDDTLTTMVLRIRRRILDILKHH  236
+
+
+> UniRef90_A0A1A8X9J3 Uncharacterized protein n=2 Tax=Plasmodium 
+ovale TaxID=36330 RepID=A0A1A8X9J3_9APIC
+Length=224
+
+ Score = 51.9 bits (123),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 27/183 (15%), Positives = 66/183 (36%), Gaps = 4/183 (2%)
+
+Query  2    HYEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQ  61
+             ++    +     + ++   E  A +D +  ++  +   E     + +   I R   + +
+Sbjct  43   TFDCSLTSDELLTLLQILYTEMLALNDIVGSIIMRTNRGED----IVNVGVIVREKLRQR  98
+
+Query  62   NRYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVD  121
+                   + E    N+  R+ +++    +   V+   I  + D L  E      V     
+Sbjct  99   ILVENTKLPELRIRNMEKRLLEQMNDIFSHFSVSSKNILFMYDVLKEELDQSLLVVDCAS  158
+
+Query  122  HAREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKP  181
+              +    +  I+N+   IR  FD+     ++   +    D   RI +  +D+++ ++ K 
+Sbjct  159  RQKTEDARNMILNNLSDIREAFDSRLLCSNLTINEQLKIDIVLRIRRRAVDILEYHLNKD  218
+
+Query  182  IPA  184
+              A
+Sbjct  219  SRA  221
+
+
+> UniRef90_A0A0D9QNC8 Uncharacterized protein n=1 Tax=Plasmodium 
+fragile TaxID=5857 RepID=A0A0D9QNC8_PLAFR
+Length=264
+
+ Score = 51.1 bits (121),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 18/115 (16%), Positives = 42/115 (37%), Gaps = 0/115 (0%)
+
+Query  70   EERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEK  129
+             E  +  +  R++  +        + +D I    D   VE     EV  +       +  
+Sbjct  147  PEDRKVTMQARLTQFVKEIVAISPLNKDIILYKLDSYKVELDESIEVFQSAAREHTEQGI  206
+
+Query  130  KRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKPIPA  184
+              ++N+ KLI +  +       +   ++       RI + ++D+++ +   P  A
+Sbjct  207  YELLNNLKLIGISLNARLKTSGIIVNENTAAAMVLRIRKRVLDILEFHRAMPSRA  261
+
+
+> UniRef90_A5JZ13 Uncharacterized protein n=5 Tax=Plasmodium vivax 
+TaxID=5855 RepID=A5JZ13_PLAVS
+Length=412
+
+ Score = 50.7 bits (120),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 32/163 (20%), Positives = 58/163 (36%), Gaps = 5/163 (3%)
+
+Query  14   RIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERV  73
+            +++++  IE       ++ L+      E       D++ I + V    N      +    
+Sbjct  246  KVKRLYIIEQQVVCTLLFYLLHSDNREELLERLRYDQIMIHKLVWCYANYSGISFVNNIP  305
+
+Query  74   QDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDH--AREVKEKKR  131
+              N +NRIS  LI Y   K +TE    +I   L  E R +      +D         +  
+Sbjct  306  LYNSINRISAHLILYVQGKRITETDYDQIMLKLTRELRAVCNFCHKLDTVIKSCNLVRTS  365
+
+Query  132  IMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+            +  D   ++         + +    +QY  A A  +  L DV+
+Sbjct  366  MYPD--GVKFRVRIAVPKRFI-LRREQYALAIAMFNMLLGDVI  405
+
+
+> UniRef90_A5K1K7 Uncharacterized protein n=8 Tax=Plasmodium vivax 
+TaxID=5855 RepID=A5K1K7_PLAVS
+Length=263
+
+ Score = 50.3 bits (119),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 25/182 (14%), Positives = 61/182 (34%), Gaps = 4/182 (2%)
+
+Query  3    YEHETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQN  62
+            ++         ++  +  +E  A  D I  ++    +         D   + R   + + 
+Sbjct  83   HDCSLTDDEILKLFHLIHVEAIAAGDIITAMLLRLDEE----TGRVDVEGLVRDKLRRRI  138
+
+Query  63   RYNYFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDH  122
+            R             +  R+++ +        + +D I    +   VE     ++   V  
+Sbjct  139  RMEMPYFPADKVVTMQARLTELVEDIVGISPLNKDIIFHKFEAYKVELDETVDILRFVAR  198
+
+Query  123  AREVKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKPI  182
+             R  +    I+N+ +LI  L        D+   ++       RI + ++D+++ +   P 
+Sbjct  199  QRTEEGIYEILNNLQLIGELLAVRLRSNDIVVNENTSASMVLRIRRRILDILEFHHDMPS  258
+
+Query  183  PA  184
+             A
+Sbjct  259  QA  260
+
+
+> UniRef90_A0A1K9YHP6 Uncharacterized protein n=1 Tax=Plasmodium 
+vivax TaxID=5855 RepID=A0A1K9YHP6_PLAVI
+Length=372
+
+ Score = 49.6 bits (117),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 32/163 (20%), Positives = 58/163 (36%), Gaps = 5/163 (3%)
+
+Query  14   RIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERV  73
+            +++++  IE       ++ L+      E       D++ I + V    N      +    
+Sbjct  206  KVKRLYIIEQQVVCTLLFYLLHSDNREELLERLRYDQIMIHKLVWCYANYSGISFVNNIP  265
+
+Query  74   QDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDH--AREVKEKKR  131
+              N +NRIS  LI Y   K +TE    +I   L  E R +      +D         +  
+Sbjct  266  LYNSINRISAHLILYVQGKRITETDYDQIMLKLTRELRAVCNFCHKLDTVIKSCNLVRTS  325
+
+Query  132  IMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+            +  D   ++         + +    +QY  A A  +  L DV+
+Sbjct  326  MYPD--GVKFRVRIAVPKRFI-LRREQYALAIAMFNMLLGDVI  365
+
+
+> UniRef90_A0A0J9SS99 Uncharacterized protein n=2 Tax=Plasmodium 
+vivax TaxID=5855 RepID=A0A0J9SS99_PLAVI
+Length=352
+
+ Score = 49.2 bits (116),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 32/163 (20%), Positives = 58/163 (36%), Gaps = 5/163 (3%)
+
+Query  14   RIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEERV  73
+            +++++  IE       ++ L+      E       D++ I + V    N      +    
+Sbjct  186  KVKRLYIIEQQVVCTLLFYLLHSDNREELLERLRYDQIMIHKLVWCYANYSGISFVNNIP  245
+
+Query  74   QDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDH--AREVKEKKR  131
+              N +NRIS  LI Y   K +TE    +I   L  E R +      +D         +  
+Sbjct  246  LYNSINRISAHLILYVQGKRITETDYDQIMLKLTRELRAVCNFCHKLDTVIKSCNLVRTS  305
+
+Query  132  IMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVV  174
+            +  D   ++         + +    +QY  A A  +  L DV+
+Sbjct  306  MYPD--GVKFRVRIAVPKRFI-LRREQYALAIAMFNMLLGDVI  345
+
+
+> UniRef90_A0A060S458 Uncharacterized protein n=2 Tax=Plasmodium 
+reichenowi TaxID=5854 RepID=A0A060S458_PLARE
+Length=315
+
+ Score = 47.2 bits (111),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 18/177 (10%), Positives = 63/177 (36%), Gaps = 1/177 (1%)
+
+Query  6    ETHAPLSPRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYN  65
+               +     I ++ +I F        L+  +    +   + +  +  ++  +R +   Y 
+Sbjct  135  FDSSLTLDEINELRNIIFFERRILDDLVDDVQNSIDDGKHIIFLKDFVKNKMRLHIRSYG  194
+
+Query  66   YFLIEERVQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHARE  125
+                     +N+ N + +++    ++  +T + +  +      E  +  E+   V   R+
+Sbjct  195  LKY-SFNGINNMGNNLLNQMEEINSNFPLTHESVNVMYISYKTELDISMELLDCVLRQRD  253
+
+Query  126  VKEKKRIMNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVDSYIIKPI  182
+             +++   + +   IR+        + +   ++       RI + ++ ++  +   P 
+Sbjct  254  EQKRNEFLCNMNDIRLTLYVRFNSEGINIKEEIIDKMIIRIKERILHIITYHENLPS  310
+
+
+> UniRef90_A0A1J1GXI9 Uncharacterized protein n=1 Tax=Plasmodium 
+gallinaceum TaxID=5849 RepID=A0A1J1GXI9_PLAGA
+Length=401
+
+ Score = 45.7 bits (107),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 21/163 (13%), Positives = 66/163 (40%), Gaps = 7/163 (4%)
+
+Query  13   PRIRKVGDIEFHACSDYIYLLMTLSKDPEKFNYALKDRVSIRRYVRKNQNRYNYFLIEER  72
+              +R    +++    + + ++   S           D   I   +     +Y   L+   
+Sbjct  246  EYVRLYSKLQYDTLENLLNIICDASYYQTAI-DVYCDSKLIMETINGFSRKY-NILLSYP  303
+
+Query  73   VQDNIVNRISDRLISYCTDKEVTEDYIKKIDDYLWVEQRVIEEVSINVDHAREVKEKKRI  132
+               N+  R+ + +    + + ++E  I  I     +E+ ++ E+S+ + ++   +++   
+Sbjct  304  QLRNMYFRVKECIK-LVSLEPISESTISNILKIYGLEKDLVYEISMQILNSDVQEDE---  359
+
+Query  133  MNDKKLIRMLFDTYEYVKDVKFTDDQYKDAAARISQFLIDVVD  175
+            +N   + +   D     +++   +D  ++ A RI  +++D++ 
+Sbjct  360  INYTYMTKAKIDYLLETENITLLED-VENMAYRIKSYVLDIIS  401
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.146    0.386    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0444    0.140     1.90     42.6     43.6 
+
+Effective search space used: 508955565360
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

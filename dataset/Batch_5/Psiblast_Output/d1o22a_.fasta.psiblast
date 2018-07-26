@@ -1,0 +1,171 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1o22a_
+
+Length=149
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q9WZX8 Uncharacterized protein n=8 Tax=Thermotogaceae ...  293     4e-99
+  UniRef90_B9KA93 Uncharacterized protein n=2 Tax=Thermotoga TaxI...  179     4e-54
+
+
+> UniRef90_Q9WZX8 Uncharacterized protein n=8 Tax=Thermotogaceae 
+TaxID=188709 RepID=Q9WZX8_THEMA
+Length=158
+
+ Score = 293 bits (751),  Expect = 4e-99, Method: Compositional matrix adjust.
+ Identities = 149/149 (100%), Positives = 149/149 (100%), Gaps = 0/149 (0%)
+
+Query  1    ILEILYYKKGKEFGILEKKMKEIFNETGVSLEPVNSELIGRIFLKISVLEEGEEVPSFAI  60
+            ILEILYYKKGKEFGILEKKMKEIFNETGVSLEPVNSELIGRIFLKISVLEEGEEVPSFAI
+Sbjct  6    ILEILYYKKGKEFGILEKKMKEIFNETGVSLEPVNSELIGRIFLKISVLEEGEEVPSFAI  65
+
+Query  61   KALTPKENAVDLPLGDWTDLKNVFVEEIDYLDSYGDMKILSEKNWYKIYVPYSSVKKKNR  120
+            KALTPKENAVDLPLGDWTDLKNVFVEEIDYLDSYGDMKILSEKNWYKIYVPYSSVKKKNR
+Sbjct  66   KALTPKENAVDLPLGDWTDLKNVFVEEIDYLDSYGDMKILSEKNWYKIYVPYSSVKKKNR  125
+
+Query  121  NELVEEFMKYFFESKGWNPGEYTFSVQEI  149
+            NELVEEFMKYFFESKGWNPGEYTFSVQEI
+Sbjct  126  NELVEEFMKYFFESKGWNPGEYTFSVQEI  154
+
+
+> UniRef90_B9KA93 Uncharacterized protein n=2 Tax=Thermotoga TaxID=2335 
+RepID=B9KA93_THENN
+Length=157
+
+ Score = 179 bits (454),  Expect = 4e-54, Method: Compositional matrix adjust.
+ Identities = 87/148 (59%), Positives = 114/148 (77%), Gaps = 1/148 (1%)
+
+Query  2    LEILYYKKGKEFGILEKKMKEIFNETGVSLEPVNSELIGRIFLKISVLEEGEEVPSFAIK  61
+            LEI Y +K K+   LE+K++EI  ETG++L+ VNSE  GRIFL+I+VLE+ E++PSF +K
+Sbjct  7    LEIFYRRKDKDTRDLERKIREILRETGITLDVVNSESAGRIFLRINVLEDQEQIPSFILK  66
+
+Query  62   ALTPKENAVDLPLGDWTDLKNVFVEEIDYLDSYGDMKILSEKNWYKIYVPYSSVKKKNRN  121
+            AL P+ +A  LPLG+W  L NVFVEE  YL+ Y  MKI S+ N Y +YVPYS+VK KNR+
+Sbjct  67   ALIPETDATRLPLGEWATL-NVFVEEASYLEDYDYMKIHSDGNRYTLYVPYSAVKSKNRD  125
+
+Query  122  ELVEEFMKYFFESKGWNPGEYTFSVQEI  149
+            E+V +FMKYFFE+KGW+PG Y F VQE+
+Sbjct  126  EVVADFMKYFFETKGWDPGNYEFFVQEV  153
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.138    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 442949859525
+Results from round 2
+
+
+Query= d1o22a_
+
+Length=149
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_B9KA93 Uncharacterized protein n=2 Tax=Thermotoga TaxI...  248     2e-81
+  UniRef90_Q9WZX8 Uncharacterized protein n=8 Tax=Thermotogaceae ...  246     2e-80
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_B9KA93 Uncharacterized protein n=2 Tax=Thermotoga TaxID=2335 
+RepID=B9KA93_THENN
+Length=157
+
+ Score = 248 bits (634),  Expect = 2e-81, Method: Composition-based stats.
+ Identities = 87/148 (59%), Positives = 114/148 (77%), Gaps = 1/148 (1%)
+
+Query  2    LEILYYKKGKEFGILEKKMKEIFNETGVSLEPVNSELIGRIFLKISVLEEGEEVPSFAIK  61
+            LEI Y +K K+   LE+K++EI  ETG++L+ VNSE  GRIFL+I+VLE+ E++PSF +K
+Sbjct  7    LEIFYRRKDKDTRDLERKIREILRETGITLDVVNSESAGRIFLRINVLEDQEQIPSFILK  66
+
+Query  62   ALTPKENAVDLPLGDWTDLKNVFVEEIDYLDSYGDMKILSEKNWYKIYVPYSSVKKKNRN  121
+            AL P+ +A  LPLG+W  L NVFVEE  YL+ Y  MKI S+ N Y +YVPYS+VK KNR+
+Sbjct  67   ALIPETDATRLPLGEWATL-NVFVEEASYLEDYDYMKIHSDGNRYTLYVPYSAVKSKNRD  125
+
+Query  122  ELVEEFMKYFFESKGWNPGEYTFSVQEI  149
+            E+V +FMKYFFE+KGW+PG Y F VQE+
+Sbjct  126  EVVADFMKYFFETKGWDPGNYEFFVQEV  153
+
+
+> UniRef90_Q9WZX8 Uncharacterized protein n=8 Tax=Thermotogaceae 
+TaxID=188709 RepID=Q9WZX8_THEMA
+Length=158
+
+ Score = 246 bits (628),  Expect = 2e-80, Method: Composition-based stats.
+ Identities = 149/149 (100%), Positives = 149/149 (100%), Gaps = 0/149 (0%)
+
+Query  1    ILEILYYKKGKEFGILEKKMKEIFNETGVSLEPVNSELIGRIFLKISVLEEGEEVPSFAI  60
+            ILEILYYKKGKEFGILEKKMKEIFNETGVSLEPVNSELIGRIFLKISVLEEGEEVPSFAI
+Sbjct  6    ILEILYYKKGKEFGILEKKMKEIFNETGVSLEPVNSELIGRIFLKISVLEEGEEVPSFAI  65
+
+Query  61   KALTPKENAVDLPLGDWTDLKNVFVEEIDYLDSYGDMKILSEKNWYKIYVPYSSVKKKNR  120
+            KALTPKENAVDLPLGDWTDLKNVFVEEIDYLDSYGDMKILSEKNWYKIYVPYSSVKKKNR
+Sbjct  66   KALTPKENAVDLPLGDWTDLKNVFVEEIDYLDSYGDMKILSEKNWYKIYVPYSSVKKKNR  125
+
+Query  121  NELVEEFMKYFFESKGWNPGEYTFSVQEI  149
+            NELVEEFMKYFFESKGWNPGEYTFSVQEI
+Sbjct  126  NELVEEFMKYFFESKGWNPGEYTFSVQEI  154
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.142    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0428    0.140     1.90     42.6     43.6 
+
+Effective search space used: 442949859525
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,181 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1xaka_
+
+Length=68
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P59635 Protein 7a n=94 Tax=Coronavirinae TaxID=693995 ...  147     2e-43
+  UniRef90_E0XIZ8 ORF7a n=1 Tax=Bat coronavirus BM48-31/BGR/2008 ...  117     6e-32
+  UniRef90_Q5DIB9 Putative uncharacterized protein 4 n=1 Tax=SARS...  72.0    2e-14
+
+
+> UniRef90_P59635 Protein 7a n=94 Tax=Coronavirinae TaxID=693995 
+RepID=NS7A_CVHSA
+Length=122
+
+ Score = 147 bits (370),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Identities = 67/68 (99%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  1   CELYHYQECVRGTTVILKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHT  60
+           CELYHYQECVRGTTV+LKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHT
+Sbjct  15  CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHT  74
+
+Query  61  YQLRARSV  68
+           YQLRARSV
+Sbjct  75  YQLRARSV  82
+
+
+> UniRef90_E0XIZ8 ORF7a n=1 Tax=Bat coronavirus BM48-31/BGR/2008 
+TaxID=864596 RepID=E0XIZ8_9NIDO
+Length=118
+
+ Score = 117 bits (294),  Expect = 6e-32, Method: Compositional matrix adjust.
+ Identities = 51/67 (76%), Positives = 58/67 (87%), Gaps = 0/67 (0%)
+
+Query  2   ELYHYQECVRGTTVILKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY  61
+           ELYHYQEC RGTTV+LKEPC   TYEGNSP+HPLADNKFA+TCT+T F+F C D TRH +
+Sbjct  16  ELYHYQECARGTTVLLKEPCQPNTYEGNSPYHPLADNKFAITCTNTKFSFVCQDETRHVF  75
+
+Query  62  QLRARSV  68
+           QLRARS+
+Sbjct  76  QLRARSI  82
+
+
+> UniRef90_Q5DIB9 Putative uncharacterized protein 4 n=1 Tax=SARS 
+coronavirus WH20 TaxID=312027 RepID=Q5DIB9_CVHSA
+Length=101
+
+ Score = 72.0 bits (175),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 31/32 (97%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+
+Query  1   CELYHYQECVRGTTVILKEPCPSGTYEGNSPF  32
+           CELYHYQECVRGTTV+LKEPCPSGTYEGNSPF
+Sbjct  15  CELYHYQECVRGTTVLLKEPCPSGTYEGNSPF  46
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.135    0.448    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 441307137180
+Results from round 2
+
+
+Query= d1xaka_
+
+Length=68
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P59635 Protein 7a n=94 Tax=Coronavirinae TaxID=693995 ...  140     1e-40
+  UniRef90_E0XIZ8 ORF7a n=1 Tax=Bat coronavirus BM48-31/BGR/2008 ...  130     9e-37
+  UniRef90_Q5DIB9 Putative uncharacterized protein 4 n=1 Tax=SARS...  68.1    6e-13
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_P59635 Protein 7a n=94 Tax=Coronavirinae TaxID=693995 
+RepID=NS7A_CVHSA
+Length=122
+
+ Score = 140 bits (352),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 67/68 (99%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  1   CELYHYQECVRGTTVILKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHT  60
+           CELYHYQECVRGTTV+LKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHT
+Sbjct  15  CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHT  74
+
+Query  61  YQLRARSV  68
+           YQLRARSV
+Sbjct  75  YQLRARSV  82
+
+
+> UniRef90_E0XIZ8 ORF7a n=1 Tax=Bat coronavirus BM48-31/BGR/2008 
+TaxID=864596 RepID=E0XIZ8_9NIDO
+Length=118
+
+ Score = 130 bits (326),  Expect = 9e-37, Method: Composition-based stats.
+ Identities = 51/67 (76%), Positives = 58/67 (87%), Gaps = 0/67 (0%)
+
+Query  2   ELYHYQECVRGTTVILKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY  61
+           ELYHYQEC RGTTV+LKEPC   TYEGNSP+HPLADNKFA+TCT+T F+F C D TRH +
+Sbjct  16  ELYHYQECARGTTVLLKEPCQPNTYEGNSPYHPLADNKFAITCTNTKFSFVCQDETRHVF  75
+
+Query  62  QLRARSV  68
+           QLRARS+
+Sbjct  76  QLRARSI  82
+
+
+> UniRef90_Q5DIB9 Putative uncharacterized protein 4 n=1 Tax=SARS 
+coronavirus WH20 TaxID=312027 RepID=Q5DIB9_CVHSA
+Length=101
+
+ Score = 68.1 bits (165),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 31/32 (97%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+
+Query  1   CELYHYQECVRGTTVILKEPCPSGTYEGNSPF  32
+           CELYHYQECVRGTTV+LKEPCPSGTYEGNSPF
+Sbjct  15  CELYHYQECVRGTTVLLKEPCPSGTYEGNSPF  46
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.138    0.451    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0401    0.140     1.90     42.6     43.6 
+
+Effective search space used: 441307137180
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

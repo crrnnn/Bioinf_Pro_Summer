@@ -1,0 +1,1441 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1vcca_
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P32989 DNA topoisomerase 1 n=50 Tax=Orthopoxvirus TaxI...  162     6e-47
+  UniRef90_G3EIG2 DNA topoisomerase type I n=1 Tax=Yoka poxvirus ...  129     2e-34
+  UniRef90_Q77GC6 DNA topoisomerase n=6 Tax=Capripoxvirus TaxID=1...  127     1e-33
+  UniRef90_P16472 DNA topoisomerase 1 n=5 Tax=Leporipoxvirus TaxI...  122     7e-32
+  UniRef90_Q6TUT8 77R n=1 Tax=Yaba monkey tumor virus (strain VR5...  121     3e-31
+  UniRef90_Q9DHN6 77R protein n=2 Tax=Tanapox virus TaxID=99000 R...  118     4e-30
+  UniRef90_H6TA67 DNA topoisomerase type I n=3 Tax=Cotia virus Ta...  117     1e-29
+  UniRef90_U3UBD1 Topoisomerase n=1 Tax=Squirrelpox virus TaxID=2...  115     4e-29
+  UniRef90_Q08FR6 DNA topoisomerase n=4 Tax=unclassified Cervidpo...  115     5e-29
+  UniRef90_Q8V3M1 SPV074 DNA topoisomerase n=2 Tax=Swinepox virus...  111     1e-27
+  UniRef90_Q6TVC6 ORF062 DNA topoisomerase type I n=4 Tax=Bovine ...  111     2e-27
+  UniRef90_UPI00090CCC3F UPI00090CCC3F related cluster n=1 Tax=un...  108     2e-26
+  UniRef90_A0A1B1MRF7 DNA topoisomerase type I n=1 Tax=Pteropox v...  107     4e-26
+  UniRef90_A0A0R8HVI6 DNA topoisomerase type I n=12 Tax=Parapoxvi...  104     4e-25
+  UniRef90_Q6VZF8 CNPV189 DNA topoisomerase n=1 Tax=Canarypox vir...  103     9e-25
+  UniRef90_A0A0A7MA89 Putative DNA topoisomerase type I n=1 Tax=P...  103     2e-24
+  UniRef90_Q98254 MC087R n=1 Tax=Molluscum contagiosum virus subt...  95.5    9e-22
+  UniRef90_A0A0M3ZEN1 DNA topoisomerase n=1 Tax=Turkeypox virus T...  94.0    3e-21
+  UniRef90_Q070E5 DNA topoisomerase IB n=1 Tax=Nile crocodilepox ...  89.7    9e-20
+  UniRef90_Q70H15 H6R DNA topoisomerase orthologue n=5 Tax=Avipox...  86.7    1e-18
+  UniRef90_A0A0H4Y1C1 DNA topoisomerase I n=1 Tax=Salmon gill pox...  56.2    1e-07
+  UniRef90_W6JIX1 DNA topoisomerase type I n=1 Tax=Anomala cuprea...  44.7    0.002
+  UniRef90_P87507 AMV052 n=1 Tax=Amsacta moorei entomopoxvirus Ta...  43.5    0.005
+
+
+> UniRef90_P32989 DNA topoisomerase 1 n=50 Tax=Orthopoxvirus TaxID=10242 
+RepID=TOP1_VAR67
+Length=314
+
+ Score = 162 bits (410),  Expect = 6e-47, Method: Compositional matrix adjust.
+ Identities = 75/77 (97%), Positives = 76/77 (99%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MRALFYKDGKLFTDNNFLNPVSD+NPAYEVLQHVKIPTHLTDVVVY QTWEEALTRLIFV
+Sbjct  1   MRALFYKDGKLFTDNNFLNPVSDNNPAYEVLQHVKIPTHLTDVVVYGQTWEEALTRLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           GSDSKGRRQYFYGKMHV
+Sbjct  61  GSDSKGRRQYFYGKMHV  77
+
+
+> UniRef90_G3EIG2 DNA topoisomerase type I n=1 Tax=Yoka poxvirus 
+TaxID=1076255 RepID=G3EIG2_9POXV
+Length=313
+
+ Score = 129 bits (325),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 57/77 (74%), Positives = 69/77 (90%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MR LFYK+GKLF DN FLNPV D+N AY+VL+H+KIP +LTDV+VYEQTW++AL+ LIFV
+Sbjct  1   MRELFYKEGKLFFDNKFLNPVPDNNLAYDVLKHIKIPAYLTDVIVYEQTWDDALSGLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           G DSKGR+QYFYGK+HV
+Sbjct  61  GRDSKGRKQYFYGKLHV  77
+
+
+> UniRef90_Q77GC6 DNA topoisomerase n=6 Tax=Capripoxvirus TaxID=10265 
+RepID=Q77GC6_LSDV
+Length=317
+
+ Score = 127 bits (320),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 56/77 (73%), Positives = 66/77 (86%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MR LFY DGKLFTD N    VS DNP YE+++ ++IP HLTDV+VYEQT+E++LTRLIFV
+Sbjct  1   MRGLFYNDGKLFTDKNLTTLVSFDNPTYEIIKRIRIPPHLTDVIVYEQTYEQSLTRLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           GSDSKGRRQYFYGK+HV
+Sbjct  61  GSDSKGRRQYFYGKLHV  77
+
+
+> UniRef90_P16472 DNA topoisomerase 1 n=5 Tax=Leporipoxvirus TaxID=10270 
+RepID=TOP1_RFVKA
+Length=314
+
+ Score = 122 bits (307),  Expect = 7e-32, Method: Compositional matrix adjust.
+ Identities = 55/77 (71%), Positives = 64/77 (83%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MRA  YKDGKL+ D     PV   NP YE+L+HVKIP+HLTDV+VYEQT+E++L+RLIFV
+Sbjct  1   MRAFTYKDGKLYEDKELTIPVHCSNPTYEILKHVKIPSHLTDVIVYEQTYEQSLSRLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           G DSKGRRQYFYGKMHV
+Sbjct  61  GLDSKGRRQYFYGKMHV  77
+
+
+> UniRef90_Q6TUT8 77R n=1 Tax=Yaba monkey tumor virus (strain VR587) 
+TaxID=928314 RepID=Q6TUT8_YMTV5
+Length=315
+
+ Score = 121 bits (303),  Expect = 3e-31, Method: Compositional matrix adjust.
+ Identities = 53/77 (69%), Positives = 65/77 (84%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           M+ L+Y DGKLF D      VS DNPAYE+L+ +KIP++LTDVVVYEQT++E+L RLIFV
+Sbjct  1   MKGLYYNDGKLFEDKELTMSVSSDNPAYEILKKIKIPSYLTDVVVYEQTYDESLNRLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           GSDSKG+RQYFYGK+HV
+Sbjct  61  GSDSKGKRQYFYGKLHV  77
+
+
+> UniRef90_Q9DHN6 77R protein n=2 Tax=Tanapox virus TaxID=99000 
+RepID=Q9DHN6_YLDV
+Length=315
+
+ Score = 118 bits (295),  Expect = 4e-30, Method: Compositional matrix adjust.
+ Identities = 51/77 (66%), Positives = 66/77 (86%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           M+ L+Y +GKLF D  F   VS DNP YE+L+ VKIP++LTDV+VYEQT+EE+LT+L+FV
+Sbjct  1   MKGLYYNNGKLFEDKEFTIFVSFDNPTYEILKKVKIPSYLTDVIVYEQTYEESLTKLVFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           GSDSKG+RQYFYGK+H+
+Sbjct  61  GSDSKGKRQYFYGKLHI  77
+
+
+> UniRef90_H6TA67 DNA topoisomerase type I n=3 Tax=Cotia virus 
+TaxID=39444 RepID=H6TA67_9POXV
+Length=314
+
+ Score = 117 bits (292),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 52/77 (68%), Positives = 63/77 (82%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MR L+YK GKLF D +    V  DNPAYE+L+H+KIP HLTDV++YEQT+E++LT LIFV
+Sbjct  1   MRRLYYKLGKLFLDKDLTIHVKGDNPAYEILEHIKIPEHLTDVIIYEQTYEQSLTGLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           G DSKGR QYFYGK+HV
+Sbjct  61  GKDSKGRTQYFYGKLHV  77
+
+
+> UniRef90_U3UBD1 Topoisomerase n=1 Tax=Squirrelpox virus TaxID=240426 
+RepID=U3UBD1_9POXV
+Length=317
+
+ Score = 115 bits (288),  Expect = 4e-29, Method: Compositional matrix adjust.
+ Identities = 53/77 (69%), Positives = 63/77 (82%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MR LF ++GKLF D      V + NPAYEVL++V+IP HLTDVVVYEQT+E+AL  LIFV
+Sbjct  1   MRGLFLRNGKLFFDKECTRAVPNSNPAYEVLKNVRIPPHLTDVVVYEQTYEQALGGLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           G+D+KGRRQYFYGKMHV
+Sbjct  61  GTDAKGRRQYFYGKMHV  77
+
+
+> UniRef90_Q08FR6 DNA topoisomerase n=4 Tax=unclassified Cervidpoxvirus 
+TaxID=573057 RepID=Q08FR6_DPV83
+Length=314
+
+ Score = 115 bits (287),  Expect = 5e-29, Method: Compositional matrix adjust.
+ Identities = 52/77 (68%), Positives = 63/77 (82%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MR   YKDGKLF D  F + V  DN  YE+L+HVKIP HLTDV++YEQ++E++LT LIFV
+Sbjct  1   MRRFSYKDGKLFFDKEFKHIVPYDNKTYEILRHVKIPPHLTDVIIYEQSYEQSLTGLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           GSDSKGRRQYFYGK+H+
+Sbjct  61  GSDSKGRRQYFYGKLHI  77
+
+
+> UniRef90_Q8V3M1 SPV074 DNA topoisomerase n=2 Tax=Swinepox virus 
+TaxID=10276 RepID=Q8V3M1_SWPV1
+Length=320
+
+ Score = 111 bits (278),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 49/77 (64%), Positives = 63/77 (82%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MRA  Y DGKLF D +    V  DNP Y++L+++KIP HLT+V+VYEQT+E++L RLIFV
+Sbjct  1   MRAFLYYDGKLFFDTDLTKQVPYDNPTYDILKYIKIPNHLTNVMVYEQTYEQSLHRLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           G+DSKGR+QYFYGK+HV
+Sbjct  61  GTDSKGRKQYFYGKLHV  77
+
+
+> UniRef90_Q6TVC6 ORF062 DNA topoisomerase type I n=4 Tax=Bovine 
+papular stomatitis virus TaxID=129727 RepID=Q6TVC6_9POXV
+Length=320
+
+ Score = 111 bits (277),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 52/76 (68%), Positives = 60/76 (79%), Gaps = 0/76 (0%)
+
+Query  2   RALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVG  61
+           RALF   GKLF D +F  PV DDNPAYEV+ +++IP HLTDVVVYEQT E+A   LIFVG
+Sbjct  4   RALFLSKGKLFFDKDFSQPVPDDNPAYEVIANIRIPPHLTDVVVYEQTLEDAHQGLIFVG  63
+
+Query  62  SDSKGRRQYFYGKMHV  77
+            DSKGR+QYFYG+ HV
+Sbjct  64  KDSKGRKQYFYGRDHV  79
+
+
+> UniRef90_UPI00090CCC3F UPI00090CCC3F related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00090CCC3F
+Length=314
+
+ Score = 108 bits (269),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 49/77 (64%), Positives = 61/77 (79%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MR L+Y  GKL+ D         DNPAYE+L+H+KIPTHLTDV++YEQT+E++L+ LIFV
+Sbjct  1   MRRLYYNLGKLYLDKELTIHAKGDNPAYEILEHIKIPTHLTDVIIYEQTYEQSLSGLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           G DSKGR QYFYGK+HV
+Sbjct  61  GKDSKGRTQYFYGKLHV  77
+
+
+> UniRef90_A0A1B1MRF7 DNA topoisomerase type I n=1 Tax=Pteropox 
+virus TaxID=1873698 RepID=A0A1B1MRF7_9POXV
+Length=319
+
+ Score = 107 bits (267),  Expect = 4e-26, Method: Compositional matrix adjust.
+ Identities = 50/77 (65%), Positives = 58/77 (75%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           M+ L+YKD KLF D      V + NPAY VL+ +KIP HLTDVVVYEQT EEA+  L+FV
+Sbjct  1   MKGLYYKDNKLFFDKELTQNVPNSNPAYSVLKSIKIPAHLTDVVVYEQTLEEAVNGLMFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           G DSKGR+QYFYGK HV
+Sbjct  61  GLDSKGRKQYFYGKNHV  77
+
+
+> UniRef90_A0A0R8HVI6 DNA topoisomerase type I n=12 Tax=Parapoxvirus 
+TaxID=10257 RepID=A0A0R8HVI6_ORFV
+Length=318
+
+ Score = 104 bits (260),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 49/77 (64%), Positives = 55/77 (71%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MRAL   DGKLF D     PV DDNPAY VL  ++IP HL+DVVVYEQ  E A   LIFV
+Sbjct  1   MRALHLSDGKLFFDKELTQPVPDDNPAYAVLAKIRIPPHLSDVVVYEQDLESAQQGLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           G D+KGR+QYFYG+ HV
+Sbjct  61  GRDAKGRKQYFYGRGHV  77
+
+
+> UniRef90_Q6VZF8 CNPV189 DNA topoisomerase n=1 Tax=Canarypox virus 
+TaxID=44088 RepID=Q6VZF8_CNPV
+Length=316
+
+ Score = 103 bits (257),  Expect = 9e-25, Method: Compositional matrix adjust.
+ Identities = 45/76 (59%), Positives = 59/76 (78%), Gaps = 0/76 (0%)
+
+Query  2   RALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVG  61
+           + L+YK+GKL+ DN +   V   NP YE+L+  KIPT+L D+++YEQT+EEAL  LIFVG
+Sbjct  5   QILYYKEGKLYYDNAYKKRVPISNPTYEILKRYKIPTYLKDIIIYEQTYEEALNSLIFVG  64
+
+Query  62  SDSKGRRQYFYGKMHV  77
+            DSKGR+QYFYGK H+
+Sbjct  65  IDSKGRKQYFYGKNHI  80
+
+
+> UniRef90_A0A0A7MA89 Putative DNA topoisomerase type I n=1 Tax=Parapoxvirus 
+red deer/HL953 TaxID=1579460 RepID=A0A0A7MA89_9POXV
+Length=320
+
+ Score = 103 bits (256),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 48/77 (62%), Positives = 58/77 (75%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MRAL+ ++GKLF D     P  +D+PAYEVL  V+IP HL+DVVVYEQT  EA   LIFV
+Sbjct  1   MRALYLREGKLFIDAAGEQPAPEDSPAYEVLAKVRIPPHLSDVVVYEQTLAEAARGLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           G D+KGR+QYFYG+ HV
+Sbjct  61  GRDAKGRKQYFYGREHV  77
+
+
+> UniRef90_Q98254 MC087R n=1 Tax=Molluscum contagiosum virus subtype 
+1 TaxID=10280 RepID=Q98254_MCV1
+Length=323
+
+ Score = 95.5 bits (236),  Expect = 9e-22, Method: Compositional matrix adjust.
+ Identities = 46/76 (61%), Positives = 53/76 (70%), Gaps = 0/76 (0%)
+
+Query  2   RALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVG  61
+           R  FYKDG+LF D      VS  N  YEVL+HV+IP HL DV V EQT+E+A   L+FVG
+Sbjct  3   RFFFYKDGELFHDRKCTRRVSRSNATYEVLRHVRIPAHLHDVRVLEQTYEQAQRGLVFVG  62
+
+Query  62  SDSKGRRQYFYGKMHV  77
+            DSK R QYFYGK+HV
+Sbjct  63  LDSKQRAQYFYGKLHV  78
+
+
+> UniRef90_A0A0M3ZEN1 DNA topoisomerase n=1 Tax=Turkeypox virus 
+TaxID=336486 RepID=A0A0M3ZEN1_9POXV
+Length=317
+
+ Score = 94.0 bits (232),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 40/76 (53%), Positives = 56/76 (74%), Gaps = 0/76 (0%)
+
+Query  2   RALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVG  61
+           R  +Y DG+L+ D+ +   V   N AY++++  KIP+HL D+++YEQT+E+AL  LI VG
+Sbjct  5   RYFYYNDGRLYYDSEYKKLVPKSNIAYQIIKMYKIPSHLKDIIIYEQTYEQALNSLILVG  64
+
+Query  62  SDSKGRRQYFYGKMHV  77
+            DSKGR+QYFYGK HV
+Sbjct  65  VDSKGRKQYFYGKNHV  80
+
+
+> UniRef90_Q070E5 DNA topoisomerase IB n=1 Tax=Nile crocodilepox 
+virus (isolate Crocodylus niloticus/Zimbabwe/Ume/2001) TaxID=1289473 
+RepID=Q070E5_CPRVZ
+Length=324
+
+ Score = 89.7 bits (221),  Expect = 9e-20, Method: Compositional matrix adjust.
+ Identities = 43/76 (57%), Positives = 52/76 (68%), Gaps = 0/76 (0%)
+
+Query  2   RALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVG  61
+           R LFY +G L+ D +    V D NP Y+V+  VKIP HLTDV   EQT EE+   LIF+G
+Sbjct  3   RFLFYLEGVLYYDADRTRRVEDSNPTYDVVARVKIPAHLTDVAFVEQTLEESARGLIFIG  62
+
+Query  62  SDSKGRRQYFYGKMHV  77
+            DSK R+QYFYGK+HV
+Sbjct  63  YDSKSRKQYFYGKLHV  78
+
+
+> UniRef90_Q70H15 H6R DNA topoisomerase orthologue n=5 Tax=Avipoxvirus 
+TaxID=10260 RepID=Q70H15_FOWPV
+Length=316
+
+ Score = 86.7 bits (213),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 39/72 (54%), Positives = 51/72 (71%), Gaps = 0/72 (0%)
+
+Query  6   YKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVGSDSK  65
+           YKD KL+ D  + N V   N  YE+++  ++P HL +V+VYEQ+ EEA   LIF+G DSK
+Sbjct  9   YKDDKLYYDAAYKNLVPASNKTYEIIKAYRVPPHLKEVIVYEQSLEEASNSLIFIGVDSK  68
+
+Query  66  GRRQYFYGKMHV  77
+           GR+QYFYGK HV
+Sbjct  69  GRKQYFYGKNHV  80
+
+
+> UniRef90_A0A0H4Y1C1 DNA topoisomerase I n=1 Tax=Salmon gill poxvirus 
+TaxID=1680908 RepID=A0A0H4Y1C1_9POXV
+Length=312
+
+ Score = 56.2 bits (134),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 29/74 (39%), Positives = 47/74 (64%), Gaps = 1/74 (1%)
+
+Query  4   LFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVGSD  63
+           +F K  ++F D++    + + +  Y++L++V IP HL +V    Q++ +  + LIF G D
+Sbjct  6   IFIKLKRIFVDDSG-KIIDESDDLYKILENVNIPGHLKNVKFKLQSFSDHESGLIFTGED  64
+
+Query  64  SKGRRQYFYGKMHV  77
+           SKGR QY+YGK HV
+Sbjct  65  SKGRVQYYYGKDHV  78
+
+
+> UniRef90_W6JIX1 DNA topoisomerase type I n=1 Tax=Anomala cuprea 
+entomopoxvirus TaxID=62099 RepID=W6JIX1_9POXV
+Length=334
+
+ Score = 44.7 bits (104),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 23/65 (35%), Positives = 35/65 (54%), Gaps = 3/65 (5%)
+
+Query  9   GKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVGSDSKGRR  68
+           GKL+  N+ L         Y ++   K+P+HL DV +      EA   +I++G DSK ++
+Sbjct  14  GKLYDSNDKL---VTKKELYNIINKYKVPSHLHDVTLVANNISEADNGIIYIGLDSKNKK  70
+
+Query  69  QYFYG  73
+           QY YG
+Sbjct  71  QYIYG  75
+
+
+> UniRef90_P87507 AMV052 n=1 Tax=Amsacta moorei entomopoxvirus 
+TaxID=28321 RepID=P87507_AMEPV
+Length=333
+
+ Score = 43.5 bits (101),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 23/74 (31%), Positives = 40/74 (54%), Gaps = 10/74 (14%)
+
+Query  4   LFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVGSD  63
+           ++  DG+   D+N LN          +++  K P HL ++ +  +  EEA   +I++G D
+Sbjct  16  IYNTDGQEIVDDNLLN----------IIKKYKPPKHLNNIELIAKNIEEADNGIIYIGID  65
+
+Query  64  SKGRRQYFYGKMHV  77
+           SK ++QY YG  +V
+Sbjct  66  SKNKKQYIYGINYV  79
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.139    0.422    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 444857974205
+Results from round 2
+
+
+Query= d1vcca_
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_U3UBD1 Topoisomerase n=1 Tax=Squirrelpox virus TaxID=2...  134     2e-36
+  UniRef90_Q6TVC6 ORF062 DNA topoisomerase type I n=4 Tax=Bovine ...  133     7e-36
+  UniRef90_A0A0R8HVI6 DNA topoisomerase type I n=12 Tax=Parapoxvi...  130     7e-35
+  UniRef90_P32989 DNA topoisomerase 1 n=50 Tax=Orthopoxvirus TaxI...  130     1e-34
+  UniRef90_A0A0A7MA89 Putative DNA topoisomerase type I n=1 Tax=P...  129     3e-34
+  UniRef90_Q77GC6 DNA topoisomerase n=6 Tax=Capripoxvirus TaxID=1...  128     9e-34
+  UniRef90_P16472 DNA topoisomerase 1 n=5 Tax=Leporipoxvirus TaxI...  127     1e-33
+  UniRef90_Q08FR6 DNA topoisomerase n=4 Tax=unclassified Cervidpo...  124     2e-32
+  UniRef90_G3EIG2 DNA topoisomerase type I n=1 Tax=Yoka poxvirus ...  124     2e-32
+  UniRef90_A0A1B1MRF7 DNA topoisomerase type I n=1 Tax=Pteropox v...  124     3e-32
+  UniRef90_H6TA67 DNA topoisomerase type I n=3 Tax=Cotia virus Ta...  123     5e-32
+  UniRef90_Q6TUT8 77R n=1 Tax=Yaba monkey tumor virus (strain VR5...  122     1e-31
+  UniRef90_Q98254 MC087R n=1 Tax=Molluscum contagiosum virus subt...  122     1e-31
+  UniRef90_UPI00090CCC3F UPI00090CCC3F related cluster n=1 Tax=un...  121     1e-31
+  UniRef90_Q9DHN6 77R protein n=2 Tax=Tanapox virus TaxID=99000 R...  119     1e-30
+  UniRef90_Q8V3M1 SPV074 DNA topoisomerase n=2 Tax=Swinepox virus...  119     1e-30
+  UniRef90_Q070E5 DNA topoisomerase IB n=1 Tax=Nile crocodilepox ...  114     9e-29
+  UniRef90_A0A0M3ZEN1 DNA topoisomerase n=1 Tax=Turkeypox virus T...  114     1e-28
+  UniRef90_Q6VZF8 CNPV189 DNA topoisomerase n=1 Tax=Canarypox vir...  114     2e-28
+  UniRef90_Q70H15 H6R DNA topoisomerase orthologue n=5 Tax=Avipox...  109     5e-27
+  UniRef90_A0A0H4Y1C1 DNA topoisomerase I n=1 Tax=Salmon gill pox...  91.1    3e-20
+  UniRef90_W6JIX1 DNA topoisomerase type I n=1 Tax=Anomala cuprea...  73.0    1e-13
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_P87507 AMV052 n=1 Tax=Amsacta moorei entomopoxvirus Ta...  58.0    5e-08
+  UniRef90_R4ZE84 DNA Topoisomerase type I n=1 Tax=Mythimna separ...  58.0    5e-08
+  UniRef90_Q9YVW2 ORF MSV130 putative DNA topoisomerase I, Amsact...  57.6    6e-08
+  UniRef90_R4ZFZ3 DNA Topoisomerase type I n=1 Tax=Adoxophyes hon...  56.0    2e-07
+  UniRef90_R4ZG51 DNA Topoisomerase type I n=2 Tax=Betaentomopoxv...  53.3    2e-06
+  UniRef90_I3YUU6 Topoisomerase IB n=1 Tax=Aequorivita sublithinc...  42.9    0.008
+
+
+> UniRef90_U3UBD1 Topoisomerase n=1 Tax=Squirrelpox virus TaxID=240426 
+RepID=U3UBD1_9POXV
+Length=317
+
+ Score = 134 bits (339),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 53/77 (69%), Positives = 63/77 (82%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MR LF ++GKLF D      V + NPAYEVL++V+IP HLTDVVVYEQT+E+AL  LIFV
+Sbjct  1   MRGLFLRNGKLFFDKECTRAVPNSNPAYEVLKNVRIPPHLTDVVVYEQTYEQALGGLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           G+D+KGRRQYFYGKMHV
+Sbjct  61  GTDAKGRRQYFYGKMHV  77
+
+
+> UniRef90_Q6TVC6 ORF062 DNA topoisomerase type I n=4 Tax=Bovine 
+papular stomatitis virus TaxID=129727 RepID=Q6TVC6_9POXV
+Length=320
+
+ Score = 133 bits (336),  Expect = 7e-36, Method: Composition-based stats.
+ Identities = 52/76 (68%), Positives = 60/76 (79%), Gaps = 0/76 (0%)
+
+Query  2   RALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVG  61
+           RALF   GKLF D +F  PV DDNPAYEV+ +++IP HLTDVVVYEQT E+A   LIFVG
+Sbjct  4   RALFLSKGKLFFDKDFSQPVPDDNPAYEVIANIRIPPHLTDVVVYEQTLEDAHQGLIFVG  63
+
+Query  62  SDSKGRRQYFYGKMHV  77
+            DSKGR+QYFYG+ HV
+Sbjct  64  KDSKGRKQYFYGRDHV  79
+
+
+> UniRef90_A0A0R8HVI6 DNA topoisomerase type I n=12 Tax=Parapoxvirus 
+TaxID=10257 RepID=A0A0R8HVI6_ORFV
+Length=318
+
+ Score = 130 bits (328),  Expect = 7e-35, Method: Composition-based stats.
+ Identities = 49/77 (64%), Positives = 55/77 (71%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MRAL   DGKLF D     PV DDNPAY VL  ++IP HL+DVVVYEQ  E A   LIFV
+Sbjct  1   MRALHLSDGKLFFDKELTQPVPDDNPAYAVLAKIRIPPHLSDVVVYEQDLESAQQGLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           G D+KGR+QYFYG+ HV
+Sbjct  61  GRDAKGRKQYFYGRGHV  77
+
+
+> UniRef90_P32989 DNA topoisomerase 1 n=50 Tax=Orthopoxvirus TaxID=10242 
+RepID=TOP1_VAR67
+Length=314
+
+ Score = 130 bits (327),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 75/77 (97%), Positives = 76/77 (99%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MRALFYKDGKLFTDNNFLNPVSD+NPAYEVLQHVKIPTHLTDVVVY QTWEEALTRLIFV
+Sbjct  1   MRALFYKDGKLFTDNNFLNPVSDNNPAYEVLQHVKIPTHLTDVVVYGQTWEEALTRLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           GSDSKGRRQYFYGKMHV
+Sbjct  61  GSDSKGRRQYFYGKMHV  77
+
+
+> UniRef90_A0A0A7MA89 Putative DNA topoisomerase type I n=1 Tax=Parapoxvirus 
+red deer/HL953 TaxID=1579460 RepID=A0A0A7MA89_9POXV
+Length=320
+
+ Score = 129 bits (324),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 48/77 (62%), Positives = 58/77 (75%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MRAL+ ++GKLF D     P  +D+PAYEVL  V+IP HL+DVVVYEQT  EA   LIFV
+Sbjct  1   MRALYLREGKLFIDAAGEQPAPEDSPAYEVLAKVRIPPHLSDVVVYEQTLAEAARGLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           G D+KGR+QYFYG+ HV
+Sbjct  61  GRDAKGRKQYFYGREHV  77
+
+
+> UniRef90_Q77GC6 DNA topoisomerase n=6 Tax=Capripoxvirus TaxID=10265 
+RepID=Q77GC6_LSDV
+Length=317
+
+ Score = 128 bits (321),  Expect = 9e-34, Method: Composition-based stats.
+ Identities = 56/77 (73%), Positives = 66/77 (86%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MR LFY DGKLFTD N    VS DNP YE+++ ++IP HLTDV+VYEQT+E++LTRLIFV
+Sbjct  1   MRGLFYNDGKLFTDKNLTTLVSFDNPTYEIIKRIRIPPHLTDVIVYEQTYEQSLTRLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           GSDSKGRRQYFYGK+HV
+Sbjct  61  GSDSKGRRQYFYGKLHV  77
+
+
+> UniRef90_P16472 DNA topoisomerase 1 n=5 Tax=Leporipoxvirus TaxID=10270 
+RepID=TOP1_RFVKA
+Length=314
+
+ Score = 127 bits (319),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 55/77 (71%), Positives = 64/77 (83%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MRA  YKDGKL+ D     PV   NP YE+L+HVKIP+HLTDV+VYEQT+E++L+RLIFV
+Sbjct  1   MRAFTYKDGKLYEDKELTIPVHCSNPTYEILKHVKIPSHLTDVIVYEQTYEQSLSRLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           G DSKGRRQYFYGKMHV
+Sbjct  61  GLDSKGRRQYFYGKMHV  77
+
+
+> UniRef90_Q08FR6 DNA topoisomerase n=4 Tax=unclassified Cervidpoxvirus 
+TaxID=573057 RepID=Q08FR6_DPV83
+Length=314
+
+ Score = 124 bits (312),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 52/77 (68%), Positives = 63/77 (82%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MR   YKDGKLF D  F + V  DN  YE+L+HVKIP HLTDV++YEQ++E++LT LIFV
+Sbjct  1   MRRFSYKDGKLFFDKEFKHIVPYDNKTYEILRHVKIPPHLTDVIIYEQSYEQSLTGLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           GSDSKGRRQYFYGK+H+
+Sbjct  61  GSDSKGRRQYFYGKLHI  77
+
+
+> UniRef90_G3EIG2 DNA topoisomerase type I n=1 Tax=Yoka poxvirus 
+TaxID=1076255 RepID=G3EIG2_9POXV
+Length=313
+
+ Score = 124 bits (311),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 57/77 (74%), Positives = 69/77 (90%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MR LFYK+GKLF DN FLNPV D+N AY+VL+H+KIP +LTDV+VYEQTW++AL+ LIFV
+Sbjct  1   MRELFYKEGKLFFDNKFLNPVPDNNLAYDVLKHIKIPAYLTDVIVYEQTWDDALSGLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           G DSKGR+QYFYGK+HV
+Sbjct  61  GRDSKGRKQYFYGKLHV  77
+
+
+> UniRef90_A0A1B1MRF7 DNA topoisomerase type I n=1 Tax=Pteropox 
+virus TaxID=1873698 RepID=A0A1B1MRF7_9POXV
+Length=319
+
+ Score = 124 bits (311),  Expect = 3e-32, Method: Composition-based stats.
+ Identities = 50/77 (65%), Positives = 58/77 (75%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           M+ L+YKD KLF D      V + NPAY VL+ +KIP HLTDVVVYEQT EEA+  L+FV
+Sbjct  1   MKGLYYKDNKLFFDKELTQNVPNSNPAYSVLKSIKIPAHLTDVVVYEQTLEEAVNGLMFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           G DSKGR+QYFYGK HV
+Sbjct  61  GLDSKGRKQYFYGKNHV  77
+
+
+> UniRef90_H6TA67 DNA topoisomerase type I n=3 Tax=Cotia virus 
+TaxID=39444 RepID=H6TA67_9POXV
+Length=314
+
+ Score = 123 bits (309),  Expect = 5e-32, Method: Composition-based stats.
+ Identities = 52/77 (68%), Positives = 63/77 (82%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MR L+YK GKLF D +    V  DNPAYE+L+H+KIP HLTDV++YEQT+E++LT LIFV
+Sbjct  1   MRRLYYKLGKLFLDKDLTIHVKGDNPAYEILEHIKIPEHLTDVIIYEQTYEQSLTGLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           G DSKGR QYFYGK+HV
+Sbjct  61  GKDSKGRTQYFYGKLHV  77
+
+
+> UniRef90_Q6TUT8 77R n=1 Tax=Yaba monkey tumor virus (strain VR587) 
+TaxID=928314 RepID=Q6TUT8_YMTV5
+Length=315
+
+ Score = 122 bits (307),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 53/77 (69%), Positives = 65/77 (84%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           M+ L+Y DGKLF D      VS DNPAYE+L+ +KIP++LTDVVVYEQT++E+L RLIFV
+Sbjct  1   MKGLYYNDGKLFEDKELTMSVSSDNPAYEILKKIKIPSYLTDVVVYEQTYDESLNRLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           GSDSKG+RQYFYGK+HV
+Sbjct  61  GSDSKGKRQYFYGKLHV  77
+
+
+> UniRef90_Q98254 MC087R n=1 Tax=Molluscum contagiosum virus subtype 
+1 TaxID=10280 RepID=Q98254_MCV1
+Length=323
+
+ Score = 122 bits (307),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 46/76 (61%), Positives = 53/76 (70%), Gaps = 0/76 (0%)
+
+Query  2   RALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVG  61
+           R  FYKDG+LF D      VS  N  YEVL+HV+IP HL DV V EQT+E+A   L+FVG
+Sbjct  3   RFFFYKDGELFHDRKCTRRVSRSNATYEVLRHVRIPAHLHDVRVLEQTYEQAQRGLVFVG  62
+
+Query  62  SDSKGRRQYFYGKMHV  77
+            DSK R QYFYGK+HV
+Sbjct  63  LDSKQRAQYFYGKLHV  78
+
+
+> UniRef90_UPI00090CCC3F UPI00090CCC3F related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00090CCC3F
+Length=314
+
+ Score = 121 bits (305),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 49/77 (64%), Positives = 61/77 (79%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MR L+Y  GKL+ D         DNPAYE+L+H+KIPTHLTDV++YEQT+E++L+ LIFV
+Sbjct  1   MRRLYYNLGKLYLDKELTIHAKGDNPAYEILEHIKIPTHLTDVIIYEQTYEQSLSGLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           G DSKGR QYFYGK+HV
+Sbjct  61  GKDSKGRTQYFYGKLHV  77
+
+
+> UniRef90_Q9DHN6 77R protein n=2 Tax=Tanapox virus TaxID=99000 
+RepID=Q9DHN6_YLDV
+Length=315
+
+ Score = 119 bits (299),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 51/77 (66%), Positives = 66/77 (86%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           M+ L+Y +GKLF D  F   VS DNP YE+L+ VKIP++LTDV+VYEQT+EE+LT+L+FV
+Sbjct  1   MKGLYYNNGKLFEDKEFTIFVSFDNPTYEILKKVKIPSYLTDVIVYEQTYEESLTKLVFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           GSDSKG+RQYFYGK+H+
+Sbjct  61  GSDSKGKRQYFYGKLHI  77
+
+
+> UniRef90_Q8V3M1 SPV074 DNA topoisomerase n=2 Tax=Swinepox virus 
+TaxID=10276 RepID=Q8V3M1_SWPV1
+Length=320
+
+ Score = 119 bits (299),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 49/77 (64%), Positives = 63/77 (82%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MRA  Y DGKLF D +    V  DNP Y++L+++KIP HLT+V+VYEQT+E++L RLIFV
+Sbjct  1   MRAFLYYDGKLFFDTDLTKQVPYDNPTYDILKYIKIPNHLTNVMVYEQTYEQSLHRLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           G+DSKGR+QYFYGK+HV
+Sbjct  61  GTDSKGRKQYFYGKLHV  77
+
+
+> UniRef90_Q070E5 DNA topoisomerase IB n=1 Tax=Nile crocodilepox 
+virus (isolate Crocodylus niloticus/Zimbabwe/Ume/2001) TaxID=1289473 
+RepID=Q070E5_CPRVZ
+Length=324
+
+ Score = 114 bits (286),  Expect = 9e-29, Method: Composition-based stats.
+ Identities = 43/76 (57%), Positives = 52/76 (68%), Gaps = 0/76 (0%)
+
+Query  2   RALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVG  61
+           R LFY +G L+ D +    V D NP Y+V+  VKIP HLTDV   EQT EE+   LIF+G
+Sbjct  3   RFLFYLEGVLYYDADRTRRVEDSNPTYDVVARVKIPAHLTDVAFVEQTLEESARGLIFIG  62
+
+Query  62  SDSKGRRQYFYGKMHV  77
+            DSK R+QYFYGK+HV
+Sbjct  63  YDSKSRKQYFYGKLHV  78
+
+
+> UniRef90_A0A0M3ZEN1 DNA topoisomerase n=1 Tax=Turkeypox virus 
+TaxID=336486 RepID=A0A0M3ZEN1_9POXV
+Length=317
+
+ Score = 114 bits (285),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 40/76 (53%), Positives = 56/76 (74%), Gaps = 0/76 (0%)
+
+Query  2   RALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVG  61
+           R  +Y DG+L+ D+ +   V   N AY++++  KIP+HL D+++YEQT+E+AL  LI VG
+Sbjct  5   RYFYYNDGRLYYDSEYKKLVPKSNIAYQIIKMYKIPSHLKDIIIYEQTYEQALNSLILVG  64
+
+Query  62  SDSKGRRQYFYGKMHV  77
+            DSKGR+QYFYGK HV
+Sbjct  65  VDSKGRKQYFYGKNHV  80
+
+
+> UniRef90_Q6VZF8 CNPV189 DNA topoisomerase n=1 Tax=Canarypox virus 
+TaxID=44088 RepID=Q6VZF8_CNPV
+Length=316
+
+ Score = 114 bits (285),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 45/76 (59%), Positives = 59/76 (78%), Gaps = 0/76 (0%)
+
+Query  2   RALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVG  61
+           + L+YK+GKL+ DN +   V   NP YE+L+  KIPT+L D+++YEQT+EEAL  LIFVG
+Sbjct  5   QILYYKEGKLYYDNAYKKRVPISNPTYEILKRYKIPTYLKDIIIYEQTYEEALNSLIFVG  64
+
+Query  62  SDSKGRRQYFYGKMHV  77
+            DSKGR+QYFYGK H+
+Sbjct  65  IDSKGRKQYFYGKNHI  80
+
+
+> UniRef90_Q70H15 H6R DNA topoisomerase orthologue n=5 Tax=Avipoxvirus 
+TaxID=10260 RepID=Q70H15_FOWPV
+Length=316
+
+ Score = 109 bits (274),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 39/75 (52%), Positives = 51/75 (68%), Gaps = 0/75 (0%)
+
+Query  3   ALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVGS  62
+              YKD KL+ D  + N V   N  YE+++  ++P HL +V+VYEQ+ EEA   LIF+G 
+Sbjct  6   FFHYKDDKLYYDAAYKNLVPASNKTYEIIKAYRVPPHLKEVIVYEQSLEEASNSLIFIGV  65
+
+Query  63  DSKGRRQYFYGKMHV  77
+           DSKGR+QYFYGK HV
+Sbjct  66  DSKGRKQYFYGKNHV  80
+
+
+> UniRef90_A0A0H4Y1C1 DNA topoisomerase I n=1 Tax=Salmon gill poxvirus 
+TaxID=1680908 RepID=A0A0H4Y1C1_9POXV
+Length=312
+
+ Score = 91.1 bits (225),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 29/74 (39%), Positives = 47/74 (64%), Gaps = 1/74 (1%)
+
+Query  4   LFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVGSD  63
+           +F K  ++F D++    + + +  Y++L++V IP HL +V    Q++ +  + LIF G D
+Sbjct  6   IFIKLKRIFVDDSG-KIIDESDDLYKILENVNIPGHLKNVKFKLQSFSDHESGLIFTGED  64
+
+Query  64  SKGRRQYFYGKMHV  77
+           SKGR QY+YGK HV
+Sbjct  65  SKGRVQYYYGKDHV  78
+
+
+> UniRef90_W6JIX1 DNA topoisomerase type I n=1 Tax=Anomala cuprea 
+entomopoxvirus TaxID=62099 RepID=W6JIX1_9POXV
+Length=334
+
+ Score = 73.0 bits (178),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 23/65 (35%), Positives = 35/65 (54%), Gaps = 3/65 (5%)
+
+Query  9   GKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVGSDSKGRR  68
+           GKL+  N+ L         Y ++   K+P+HL DV +      EA   +I++G DSK ++
+Sbjct  14  GKLYDSNDKL---VTKKELYNIINKYKVPSHLHDVTLVANNISEADNGIIYIGLDSKNKK  70
+
+Query  69  QYFYG  73
+           QY YG
+Sbjct  71  QYIYG  75
+
+
+> UniRef90_P87507 AMV052 n=1 Tax=Amsacta moorei entomopoxvirus 
+TaxID=28321 RepID=P87507_AMEPV
+Length=333
+
+ Score = 58.0 bits (139),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 18/54 (33%), Positives = 32/54 (59%), Gaps = 0/54 (0%)
+
+Query  24  DNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVGSDSKGRRQYFYGKMHV  77
+           D+    +++  K P HL ++ +  +  EEA   +I++G DSK ++QY YG  +V
+Sbjct  26  DDNLLNIIKKYKPPKHLNNIELIAKNIEEADNGIIYIGIDSKNKKQYIYGINYV  79
+
+
+> UniRef90_R4ZE84 DNA Topoisomerase type I n=1 Tax=Mythimna separata 
+entomopoxvirus 'L' TaxID=1293572 RepID=R4ZE84_9POXV
+Length=332
+
+ Score = 58.0 bits (139),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 21/76 (28%), Positives = 41/76 (54%), Gaps = 4/76 (5%)
+
+Query  2   RALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVG  61
+           ++   KDGK++  +  +     D     +++  K P HL ++ +  +   EA   +I++G
+Sbjct  7   KSYNIKDGKIYNSSQEIL----DTKLKNIIEKYKPPKHLNNIQLIAKNISEADNGIIYIG  62
+
+Query  62  SDSKGRRQYFYGKMHV  77
+           SDSK ++QY YG  ++
+Sbjct  63  SDSKNKKQYIYGINYI  78
+
+
+> UniRef90_Q9YVW2 ORF MSV130 putative DNA topoisomerase I, Amsacta 
+moorei entomopoxvirus topoisomerase (Vaccinia H6R) homolog, 
+similar to GB:U80056 n=1 Tax=Melanoplus sanguinipes entomopoxvirus 
+TaxID=83191 RepID=Q9YVW2_MSEPV
+Length=328
+
+ Score = 57.6 bits (138),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 22/82 (27%), Positives = 41/82 (50%), Gaps = 8/82 (10%)
+
+Query  1   MRALFYK-----DGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALT  55
+           MR  + K     + K++ D N      + N   +++   K P+HL D+ +  +  +EA  
+Sbjct  1   MRKKYIKYYNVINNKIYDDKNNEIINEELN---KIIIKYKPPSHLHDIKLIAKNIKEADN  57
+
+Query  56  RLIFVGSDSKGRRQYFYGKMHV  77
+            ++++G DS  ++QY YG   V
+Sbjct  58  GIVYIGLDSTNKKQYIYGINFV  79
+
+
+> UniRef90_R4ZFZ3 DNA Topoisomerase type I n=1 Tax=Adoxophyes honmai 
+entomopoxvirus 'L' TaxID=1293540 RepID=R4ZFZ3_9POXV
+Length=337
+
+ Score = 56.0 bits (134),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 18/78 (23%), Positives = 38/78 (49%), Gaps = 1/78 (1%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDN-PAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIF  59
+           MR  +     +  +  + +    +N     +++  K P HL ++ +  +  EEA   +I+
+Sbjct  1   MRKKYIDTYSIIDEKIYKSNKEINNTELINIIKKYKPPKHLKNIELIAKNVEEADNGIIY  60
+
+Query  60  VGSDSKGRRQYFYGKMHV  77
+           +G D K ++QY YG  ++
+Sbjct  61  IGCDCKNKKQYIYGINYI  78
+
+
+> UniRef90_R4ZG51 DNA Topoisomerase type I n=2 Tax=Betaentomopoxvirus 
+TaxID=10286 RepID=R4ZG51_CBEPV
+Length=333
+
+ Score = 53.3 bits (127),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 18/70 (26%), Positives = 37/70 (53%), Gaps = 3/70 (4%)
+
+Query  8   DGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVGSDSKGR  67
+           D K++  ++       D     ++   K P HL ++ +  +T +EA   +I++G D+K +
+Sbjct  13  DQKIYNSDSEEII---DKELNNIIDKYKPPKHLNNIELIAKTVDEADNGIIYIGCDNKNK  69
+
+Query  68  RQYFYGKMHV  77
+           +QY YG  ++
+Sbjct  70  KQYIYGINYI  79
+
+
+> UniRef90_I3YUU6 Topoisomerase IB n=1 Tax=Aequorivita sublithincola 
+(strain DSM 14238 / LMG 21431 / ACAM 643 / 9-3) TaxID=746697 
+RepID=I3YUU6_AEQSU
+Length=329
+
+ Score = 42.9 bits (100),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 21/70 (30%), Positives = 29/70 (41%), Gaps = 4/70 (6%)
+
+Query  7   KDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVGSDSKG  66
+           K GK FT  +       D      ++ + IP   TDV + E    +    L+  G D K 
+Sbjct  6   KHGKGFTHKDSTGKTVKDKATRNWIKSLVIPPAWTDVEISENRKAD----LLVTGRDDKD  61
+
+Query  67  RRQYFYGKMH  76
+           R+QY Y   H
+Sbjct  62  RKQYIYSAKH  71
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.154    0.475    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0472    0.140     1.90     42.6     43.6 
+
+Effective search space used: 444857974205
+Results from round 3
+
+
+Query= d1vcca_
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_Q6TVC6 ORF062 DNA topoisomerase type I n=4 Tax=Bovine ...  125     1e-32
+  UniRef90_A0A0R8HVI6 DNA topoisomerase type I n=12 Tax=Parapoxvi...  125     1e-32
+  UniRef90_U3UBD1 Topoisomerase n=1 Tax=Squirrelpox virus TaxID=2...  124     2e-32
+  UniRef90_A0A0A7MA89 Putative DNA topoisomerase type I n=1 Tax=P...  123     7e-32
+  UniRef90_P32989 DNA topoisomerase 1 n=50 Tax=Orthopoxvirus TaxI...  117     7e-30
+  UniRef90_Q98254 MC087R n=1 Tax=Molluscum contagiosum virus subt...  115     4e-29
+  UniRef90_P16472 DNA topoisomerase 1 n=5 Tax=Leporipoxvirus TaxI...  114     9e-29
+  UniRef90_Q77GC6 DNA topoisomerase n=6 Tax=Capripoxvirus TaxID=1...  112     7e-28
+  UniRef90_A0A1B1MRF7 DNA topoisomerase type I n=1 Tax=Pteropox v...  111     2e-27
+  UniRef90_Q08FR6 DNA topoisomerase n=4 Tax=unclassified Cervidpo...  110     3e-27
+  UniRef90_G3EIG2 DNA topoisomerase type I n=1 Tax=Yoka poxvirus ...  109     9e-27
+  UniRef90_H6TA67 DNA topoisomerase type I n=3 Tax=Cotia virus Ta...  108     1e-26
+  UniRef90_Q6TUT8 77R n=1 Tax=Yaba monkey tumor virus (strain VR5...  107     4e-26
+  UniRef90_UPI00090CCC3F UPI00090CCC3F related cluster n=1 Tax=un...  106     8e-26
+  UniRef90_Q070E5 DNA topoisomerase IB n=1 Tax=Nile crocodilepox ...  105     2e-25
+  UniRef90_Q8V3M1 SPV074 DNA topoisomerase n=2 Tax=Swinepox virus...  105     3e-25
+  UniRef90_Q9DHN6 77R protein n=2 Tax=Tanapox virus TaxID=99000 R...  104     4e-25
+  UniRef90_A0A0M3ZEN1 DNA topoisomerase n=1 Tax=Turkeypox virus T...  101     4e-24
+  UniRef90_Q6VZF8 CNPV189 DNA topoisomerase n=1 Tax=Canarypox vir...  100     1e-23
+  UniRef90_Q70H15 H6R DNA topoisomerase orthologue n=5 Tax=Avipox...  99.2    4e-23
+  UniRef90_A0A0H4Y1C1 DNA topoisomerase I n=1 Tax=Salmon gill pox...  80.3    2e-16
+  UniRef90_R4ZFZ3 DNA Topoisomerase type I n=1 Tax=Adoxophyes hon...  78.0    2e-15
+  UniRef90_Q9YVW2 ORF MSV130 putative DNA topoisomerase I, Amsact...  73.0    1e-13
+  UniRef90_R4ZE84 DNA Topoisomerase type I n=1 Tax=Mythimna separ...  72.6    2e-13
+  UniRef90_P87507 AMV052 n=1 Tax=Amsacta moorei entomopoxvirus Ta...  72.2    3e-13
+  UniRef90_W6JIX1 DNA topoisomerase type I n=1 Tax=Anomala cuprea...  71.5    5e-13
+  UniRef90_R4ZG51 DNA Topoisomerase type I n=2 Tax=Betaentomopoxv...  70.3    1e-12
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_Q6TVC6 ORF062 DNA topoisomerase type I n=4 Tax=Bovine 
+papular stomatitis virus TaxID=129727 RepID=Q6TVC6_9POXV
+Length=320
+
+ Score = 125 bits (313),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 52/76 (68%), Positives = 60/76 (79%), Gaps = 0/76 (0%)
+
+Query  2   RALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVG  61
+           RALF   GKLF D +F  PV DDNPAYEV+ +++IP HLTDVVVYEQT E+A   LIFVG
+Sbjct  4   RALFLSKGKLFFDKDFSQPVPDDNPAYEVIANIRIPPHLTDVVVYEQTLEDAHQGLIFVG  63
+
+Query  62  SDSKGRRQYFYGKMHV  77
+            DSKGR+QYFYG+ HV
+Sbjct  64  KDSKGRKQYFYGRDHV  79
+
+
+> UniRef90_A0A0R8HVI6 DNA topoisomerase type I n=12 Tax=Parapoxvirus 
+TaxID=10257 RepID=A0A0R8HVI6_ORFV
+Length=318
+
+ Score = 125 bits (313),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 49/77 (64%), Positives = 55/77 (71%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MRAL   DGKLF D     PV DDNPAY VL  ++IP HL+DVVVYEQ  E A   LIFV
+Sbjct  1   MRALHLSDGKLFFDKELTQPVPDDNPAYAVLAKIRIPPHLSDVVVYEQDLESAQQGLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           G D+KGR+QYFYG+ HV
+Sbjct  61  GRDAKGRKQYFYGRGHV  77
+
+
+> UniRef90_U3UBD1 Topoisomerase n=1 Tax=Squirrelpox virus TaxID=240426 
+RepID=U3UBD1_9POXV
+Length=317
+
+ Score = 124 bits (311),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 53/77 (69%), Positives = 63/77 (82%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MR LF ++GKLF D      V + NPAYEVL++V+IP HLTDVVVYEQT+E+AL  LIFV
+Sbjct  1   MRGLFLRNGKLFFDKECTRAVPNSNPAYEVLKNVRIPPHLTDVVVYEQTYEQALGGLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           G+D+KGRRQYFYGKMHV
+Sbjct  61  GTDAKGRRQYFYGKMHV  77
+
+
+> UniRef90_A0A0A7MA89 Putative DNA topoisomerase type I n=1 Tax=Parapoxvirus 
+red deer/HL953 TaxID=1579460 RepID=A0A0A7MA89_9POXV
+Length=320
+
+ Score = 123 bits (308),  Expect = 7e-32, Method: Composition-based stats.
+ Identities = 48/77 (62%), Positives = 58/77 (75%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MRAL+ ++GKLF D     P  +D+PAYEVL  V+IP HL+DVVVYEQT  EA   LIFV
+Sbjct  1   MRALYLREGKLFIDAAGEQPAPEDSPAYEVLAKVRIPPHLSDVVVYEQTLAEAARGLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           G D+KGR+QYFYG+ HV
+Sbjct  61  GRDAKGRKQYFYGREHV  77
+
+
+> UniRef90_P32989 DNA topoisomerase 1 n=50 Tax=Orthopoxvirus TaxID=10242 
+RepID=TOP1_VAR67
+Length=314
+
+ Score = 117 bits (294),  Expect = 7e-30, Method: Composition-based stats.
+ Identities = 75/77 (97%), Positives = 76/77 (99%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MRALFYKDGKLFTDNNFLNPVSD+NPAYEVLQHVKIPTHLTDVVVY QTWEEALTRLIFV
+Sbjct  1   MRALFYKDGKLFTDNNFLNPVSDNNPAYEVLQHVKIPTHLTDVVVYGQTWEEALTRLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           GSDSKGRRQYFYGKMHV
+Sbjct  61  GSDSKGRRQYFYGKMHV  77
+
+
+> UniRef90_Q98254 MC087R n=1 Tax=Molluscum contagiosum virus subtype 
+1 TaxID=10280 RepID=Q98254_MCV1
+Length=323
+
+ Score = 115 bits (289),  Expect = 4e-29, Method: Composition-based stats.
+ Identities = 46/76 (61%), Positives = 53/76 (70%), Gaps = 0/76 (0%)
+
+Query  2   RALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVG  61
+           R  FYKDG+LF D      VS  N  YEVL+HV+IP HL DV V EQT+E+A   L+FVG
+Sbjct  3   RFFFYKDGELFHDRKCTRRVSRSNATYEVLRHVRIPAHLHDVRVLEQTYEQAQRGLVFVG  62
+
+Query  62  SDSKGRRQYFYGKMHV  77
+            DSK R QYFYGK+HV
+Sbjct  63  LDSKQRAQYFYGKLHV  78
+
+
+> UniRef90_P16472 DNA topoisomerase 1 n=5 Tax=Leporipoxvirus TaxID=10270 
+RepID=TOP1_RFVKA
+Length=314
+
+ Score = 114 bits (286),  Expect = 9e-29, Method: Composition-based stats.
+ Identities = 55/77 (71%), Positives = 64/77 (83%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MRA  YKDGKL+ D     PV   NP YE+L+HVKIP+HLTDV+VYEQT+E++L+RLIFV
+Sbjct  1   MRAFTYKDGKLYEDKELTIPVHCSNPTYEILKHVKIPSHLTDVIVYEQTYEQSLSRLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           G DSKGRRQYFYGKMHV
+Sbjct  61  GLDSKGRRQYFYGKMHV  77
+
+
+> UniRef90_Q77GC6 DNA topoisomerase n=6 Tax=Capripoxvirus TaxID=10265 
+RepID=Q77GC6_LSDV
+Length=317
+
+ Score = 112 bits (280),  Expect = 7e-28, Method: Composition-based stats.
+ Identities = 56/77 (73%), Positives = 66/77 (86%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MR LFY DGKLFTD N    VS DNP YE+++ ++IP HLTDV+VYEQT+E++LTRLIFV
+Sbjct  1   MRGLFYNDGKLFTDKNLTTLVSFDNPTYEIIKRIRIPPHLTDVIVYEQTYEQSLTRLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           GSDSKGRRQYFYGK+HV
+Sbjct  61  GSDSKGRRQYFYGKLHV  77
+
+
+> UniRef90_A0A1B1MRF7 DNA topoisomerase type I n=1 Tax=Pteropox 
+virus TaxID=1873698 RepID=A0A1B1MRF7_9POXV
+Length=319
+
+ Score = 111 bits (277),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 50/77 (65%), Positives = 58/77 (75%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           M+ L+YKD KLF D      V + NPAY VL+ +KIP HLTDVVVYEQT EEA+  L+FV
+Sbjct  1   MKGLYYKDNKLFFDKELTQNVPNSNPAYSVLKSIKIPAHLTDVVVYEQTLEEAVNGLMFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           G DSKGR+QYFYGK HV
+Sbjct  61  GLDSKGRKQYFYGKNHV  77
+
+
+> UniRef90_Q08FR6 DNA topoisomerase n=4 Tax=unclassified Cervidpoxvirus 
+TaxID=573057 RepID=Q08FR6_DPV83
+Length=314
+
+ Score = 110 bits (275),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 52/77 (68%), Positives = 63/77 (82%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MR   YKDGKLF D  F + V  DN  YE+L+HVKIP HLTDV++YEQ++E++LT LIFV
+Sbjct  1   MRRFSYKDGKLFFDKEFKHIVPYDNKTYEILRHVKIPPHLTDVIIYEQSYEQSLTGLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           GSDSKGRRQYFYGK+H+
+Sbjct  61  GSDSKGRRQYFYGKLHI  77
+
+
+> UniRef90_G3EIG2 DNA topoisomerase type I n=1 Tax=Yoka poxvirus 
+TaxID=1076255 RepID=G3EIG2_9POXV
+Length=313
+
+ Score = 109 bits (272),  Expect = 9e-27, Method: Composition-based stats.
+ Identities = 57/77 (74%), Positives = 69/77 (90%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MR LFYK+GKLF DN FLNPV D+N AY+VL+H+KIP +LTDV+VYEQTW++AL+ LIFV
+Sbjct  1   MRELFYKEGKLFFDNKFLNPVPDNNLAYDVLKHIKIPAYLTDVIVYEQTWDDALSGLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           G DSKGR+QYFYGK+HV
+Sbjct  61  GRDSKGRKQYFYGKLHV  77
+
+
+> UniRef90_H6TA67 DNA topoisomerase type I n=3 Tax=Cotia virus 
+TaxID=39444 RepID=H6TA67_9POXV
+Length=314
+
+ Score = 108 bits (270),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 52/77 (68%), Positives = 63/77 (82%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MR L+YK GKLF D +    V  DNPAYE+L+H+KIP HLTDV++YEQT+E++LT LIFV
+Sbjct  1   MRRLYYKLGKLFLDKDLTIHVKGDNPAYEILEHIKIPEHLTDVIIYEQTYEQSLTGLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           G DSKGR QYFYGK+HV
+Sbjct  61  GKDSKGRTQYFYGKLHV  77
+
+
+> UniRef90_Q6TUT8 77R n=1 Tax=Yaba monkey tumor virus (strain VR587) 
+TaxID=928314 RepID=Q6TUT8_YMTV5
+Length=315
+
+ Score = 107 bits (268),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 53/77 (69%), Positives = 65/77 (84%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           M+ L+Y DGKLF D      VS DNPAYE+L+ +KIP++LTDVVVYEQT++E+L RLIFV
+Sbjct  1   MKGLYYNDGKLFEDKELTMSVSSDNPAYEILKKIKIPSYLTDVVVYEQTYDESLNRLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           GSDSKG+RQYFYGK+HV
+Sbjct  61  GSDSKGKRQYFYGKLHV  77
+
+
+> UniRef90_UPI00090CCC3F UPI00090CCC3F related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00090CCC3F
+Length=314
+
+ Score = 106 bits (265),  Expect = 8e-26, Method: Composition-based stats.
+ Identities = 49/77 (64%), Positives = 61/77 (79%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MR L+Y  GKL+ D         DNPAYE+L+H+KIPTHLTDV++YEQT+E++L+ LIFV
+Sbjct  1   MRRLYYNLGKLYLDKELTIHAKGDNPAYEILEHIKIPTHLTDVIIYEQTYEQSLSGLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           G DSKGR QYFYGK+HV
+Sbjct  61  GKDSKGRTQYFYGKLHV  77
+
+
+> UniRef90_Q070E5 DNA topoisomerase IB n=1 Tax=Nile crocodilepox 
+virus (isolate Crocodylus niloticus/Zimbabwe/Ume/2001) TaxID=1289473 
+RepID=Q070E5_CPRVZ
+Length=324
+
+ Score = 105 bits (263),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 43/76 (57%), Positives = 52/76 (68%), Gaps = 0/76 (0%)
+
+Query  2   RALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVG  61
+           R LFY +G L+ D +    V D NP Y+V+  VKIP HLTDV   EQT EE+   LIF+G
+Sbjct  3   RFLFYLEGVLYYDADRTRRVEDSNPTYDVVARVKIPAHLTDVAFVEQTLEESARGLIFIG  62
+
+Query  62  SDSKGRRQYFYGKMHV  77
+            DSK R+QYFYGK+HV
+Sbjct  63  YDSKSRKQYFYGKLHV  78
+
+
+> UniRef90_Q8V3M1 SPV074 DNA topoisomerase n=2 Tax=Swinepox virus 
+TaxID=10276 RepID=Q8V3M1_SWPV1
+Length=320
+
+ Score = 105 bits (262),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 49/77 (64%), Positives = 63/77 (82%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           MRA  Y DGKLF D +    V  DNP Y++L+++KIP HLT+V+VYEQT+E++L RLIFV
+Sbjct  1   MRAFLYYDGKLFFDTDLTKQVPYDNPTYDILKYIKIPNHLTNVMVYEQTYEQSLHRLIFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           G+DSKGR+QYFYGK+HV
+Sbjct  61  GTDSKGRKQYFYGKLHV  77
+
+
+> UniRef90_Q9DHN6 77R protein n=2 Tax=Tanapox virus TaxID=99000 
+RepID=Q9DHN6_YLDV
+Length=315
+
+ Score = 104 bits (260),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 51/77 (66%), Positives = 66/77 (86%), Gaps = 0/77 (0%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFV  60
+           M+ L+Y +GKLF D  F   VS DNP YE+L+ VKIP++LTDV+VYEQT+EE+LT+L+FV
+Sbjct  1   MKGLYYNNGKLFEDKEFTIFVSFDNPTYEILKKVKIPSYLTDVIVYEQTYEESLTKLVFV  60
+
+Query  61  GSDSKGRRQYFYGKMHV  77
+           GSDSKG+RQYFYGK+H+
+Sbjct  61  GSDSKGKRQYFYGKLHI  77
+
+
+> UniRef90_A0A0M3ZEN1 DNA topoisomerase n=1 Tax=Turkeypox virus 
+TaxID=336486 RepID=A0A0M3ZEN1_9POXV
+Length=317
+
+ Score = 101 bits (253),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 40/76 (53%), Positives = 56/76 (74%), Gaps = 0/76 (0%)
+
+Query  2   RALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVG  61
+           R  +Y DG+L+ D+ +   V   N AY++++  KIP+HL D+++YEQT+E+AL  LI VG
+Sbjct  5   RYFYYNDGRLYYDSEYKKLVPKSNIAYQIIKMYKIPSHLKDIIIYEQTYEQALNSLILVG  64
+
+Query  62  SDSKGRRQYFYGKMHV  77
+            DSKGR+QYFYGK HV
+Sbjct  65  VDSKGRKQYFYGKNHV  80
+
+
+> UniRef90_Q6VZF8 CNPV189 DNA topoisomerase n=1 Tax=Canarypox virus 
+TaxID=44088 RepID=Q6VZF8_CNPV
+Length=316
+
+ Score = 100 bits (250),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 45/74 (61%), Positives = 58/74 (78%), Gaps = 0/74 (0%)
+
+Query  4   LFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVGSD  63
+           L+YK+GKL+ DN +   V   NP YE+L+  KIPT+L D+++YEQT+EEAL  LIFVG D
+Sbjct  7   LYYKEGKLYYDNAYKKRVPISNPTYEILKRYKIPTYLKDIIIYEQTYEEALNSLIFVGID  66
+
+Query  64  SKGRRQYFYGKMHV  77
+           SKGR+QYFYGK H+
+Sbjct  67  SKGRKQYFYGKNHI  80
+
+
+> UniRef90_Q70H15 H6R DNA topoisomerase orthologue n=5 Tax=Avipoxvirus 
+TaxID=10260 RepID=Q70H15_FOWPV
+Length=316
+
+ Score = 99.2 bits (246),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 39/75 (52%), Positives = 51/75 (68%), Gaps = 0/75 (0%)
+
+Query  3   ALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVGS  62
+              YKD KL+ D  + N V   N  YE+++  ++P HL +V+VYEQ+ EEA   LIF+G 
+Sbjct  6   FFHYKDDKLYYDAAYKNLVPASNKTYEIIKAYRVPPHLKEVIVYEQSLEEASNSLIFIGV  65
+
+Query  63  DSKGRRQYFYGKMHV  77
+           DSKGR+QYFYGK HV
+Sbjct  66  DSKGRKQYFYGKNHV  80
+
+
+> UniRef90_A0A0H4Y1C1 DNA topoisomerase I n=1 Tax=Salmon gill poxvirus 
+TaxID=1680908 RepID=A0A0H4Y1C1_9POXV
+Length=312
+
+ Score = 80.3 bits (197),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 29/74 (39%), Positives = 47/74 (64%), Gaps = 1/74 (1%)
+
+Query  4   LFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVGSD  63
+           +F K  ++F D++    + + +  Y++L++V IP HL +V    Q++ +  + LIF G D
+Sbjct  6   IFIKLKRIFVDDSGK-IIDESDDLYKILENVNIPGHLKNVKFKLQSFSDHESGLIFTGED  64
+
+Query  64  SKGRRQYFYGKMHV  77
+           SKGR QY+YGK HV
+Sbjct  65  SKGRVQYYYGKDHV  78
+
+
+> UniRef90_R4ZFZ3 DNA Topoisomerase type I n=1 Tax=Adoxophyes honmai 
+entomopoxvirus 'L' TaxID=1293540 RepID=R4ZFZ3_9POXV
+Length=337
+
+ Score = 78.0 bits (191),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 18/78 (23%), Positives = 38/78 (49%), Gaps = 1/78 (1%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSDDN-PAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIF  59
+           MR  +     +  +  + +    +N     +++  K P HL ++ +  +  EEA   +I+
+Sbjct  1   MRKKYIDTYSIIDEKIYKSNKEINNTELINIIKKYKPPKHLKNIELIAKNVEEADNGIIY  60
+
+Query  60  VGSDSKGRRQYFYGKMHV  77
+           +G D K ++QY YG  ++
+Sbjct  61  IGCDCKNKKQYIYGINYI  78
+
+
+> UniRef90_Q9YVW2 ORF MSV130 putative DNA topoisomerase I, Amsacta 
+moorei entomopoxvirus topoisomerase (Vaccinia H6R) homolog, 
+similar to GB:U80056 n=1 Tax=Melanoplus sanguinipes entomopoxvirus 
+TaxID=83191 RepID=Q9YVW2_MSEPV
+Length=328
+
+ Score = 73.0 bits (178),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 22/82 (27%), Positives = 41/82 (50%), Gaps = 8/82 (10%)
+
+Query  1   MRALFYK-----DGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALT  55
+           MR  + K     + K++ D N      + N   +++   K P+HL D+ +  +  +EA  
+Sbjct  1   MRKKYIKYYNVINNKIYDDKNNEIINEELN---KIIIKYKPPSHLHDIKLIAKNIKEADN  57
+
+Query  56  RLIFVGSDSKGRRQYFYGKMHV  77
+            ++++G DS  ++QY YG   V
+Sbjct  58  GIVYIGLDSTNKKQYIYGINFV  79
+
+
+> UniRef90_R4ZE84 DNA Topoisomerase type I n=1 Tax=Mythimna separata 
+entomopoxvirus 'L' TaxID=1293572 RepID=R4ZE84_9POXV
+Length=332
+
+ Score = 72.6 bits (177),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 21/76 (28%), Positives = 41/76 (54%), Gaps = 4/76 (5%)
+
+Query  2   RALFYKDGKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVG  61
+           ++   KDGK++  +  +     D     +++  K P HL ++ +  +   EA   +I++G
+Sbjct  7   KSYNIKDGKIYNSSQEIL----DTKLKNIIEKYKPPKHLNNIQLIAKNISEADNGIIYIG  62
+
+Query  62  SDSKGRRQYFYGKMHV  77
+           SDSK ++QY YG  ++
+Sbjct  63  SDSKNKKQYIYGINYI  78
+
+
+> UniRef90_P87507 AMV052 n=1 Tax=Amsacta moorei entomopoxvirus 
+TaxID=28321 RepID=P87507_AMEPV
+Length=333
+
+ Score = 72.2 bits (176),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 20/79 (25%), Positives = 40/79 (51%), Gaps = 2/79 (3%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSD--DNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLI  58
+           M+  +    K+  +  +     +  D+    +++  K P HL ++ +  +  EEA   +I
+Sbjct  1   MKKKYNNTYKIIEEKIYNTDGQEIVDDNLLNIIKKYKPPKHLNNIELIAKNIEEADNGII  60
+
+Query  59  FVGSDSKGRRQYFYGKMHV  77
+           ++G DSK ++QY YG  +V
+Sbjct  61  YIGIDSKNKKQYIYGINYV  79
+
+
+> UniRef90_W6JIX1 DNA topoisomerase type I n=1 Tax=Anomala cuprea 
+entomopoxvirus TaxID=62099 RepID=W6JIX1_9POXV
+Length=334
+
+ Score = 71.5 bits (174),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 23/69 (33%), Positives = 36/69 (52%), Gaps = 3/69 (4%)
+
+Query  9   GKLFTDNNFLNPVSDDNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLIFVGSDSKGRR  68
+           GKL+  N+ L         Y ++   K+P+HL DV +      EA   +I++G DSK ++
+Sbjct  14  GKLYDSNDKLV---TKKELYNIINKYKVPSHLHDVTLVANNISEADNGIIYIGLDSKNKK  70
+
+Query  69  QYFYGKMHV  77
+           QY YG   +
+Sbjct  71  QYIYGINFI  79
+
+
+> UniRef90_R4ZG51 DNA Topoisomerase type I n=2 Tax=Betaentomopoxvirus 
+TaxID=10286 RepID=R4ZG51_CBEPV
+Length=333
+
+ Score = 70.3 bits (171),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 18/79 (23%), Positives = 39/79 (49%), Gaps = 2/79 (3%)
+
+Query  1   MRALFYKDGKLFTDNNFLNPVSD--DNPAYEVLQHVKIPTHLTDVVVYEQTWEEALTRLI  58
+           M+  +    K+     + +   +  D     ++   K P HL ++ +  +T +EA   +I
+Sbjct  1   MKKKYNNAYKIIDQKIYNSDSEEIIDKELNNIIDKYKPPKHLNNIELIAKTVDEADNGII  60
+
+Query  59  FVGSDSKGRRQYFYGKMHV  77
+           ++G D+K ++QY YG  ++
+Sbjct  61  YIGCDNKNKKQYIYGINYI  79
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.149    0.435    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0456    0.140     1.90     42.6     43.6 
+
+Effective search space used: 444857974205
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

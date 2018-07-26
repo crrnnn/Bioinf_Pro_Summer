@@ -1,0 +1,961 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d2bhua2
+
+Length=72
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q9RX51 Malto-oligosyltrehalose trehalohydrolase n=3 Ta...  143     2e-38
+  UniRef90_UPI0003461F26 malto-oligosyltrehalose trehalohydrolase...  110     2e-26
+  UniRef90_A0A072NDB1 Malto-oligosyltrehalose trehalohydrolase n=...  85.5    2e-17
+  UniRef90_UPI00036EC507 malto-oligosyltrehalose trehalohydrolase...  81.6    4e-16
+  UniRef90_UPI00054F94DF malto-oligosyltrehalose trehalohydrolase...  80.1    1e-15
+  UniRef90_Q1J0Z2 Malto-oligosyltrehalose trehalohydrolase n=1 Ta...  80.1    1e-15
+  UniRef90_A0A016QRW1 Malto-oligosyltrehalose trehalohydrolase n=...  75.5    6e-14
+  UniRef90_A0A0A7KHC9 Malto-oligosyltrehalose trehalohydrolase n=...  66.6    6e-11
+  UniRef90_UPI0003B56CE8 malto-oligosyltrehalose trehalohydrolase...  63.9    5e-10
+  UniRef90_UPI0004986680 malto-oligosyltrehalose trehalohydrolase...  60.8    7e-09
+  UniRef90_UPI00037F4013 hypothetical protein n=1 Tax=Deinococcus...  58.9    3e-08
+  UniRef90_H8GRZ7 Malto-oligosyltrehalose trehalohydrolase n=3 Ta...  55.5    6e-07
+  UniRef90_UPI00068B70D2 malto-oligosyltrehalose trehalohydrolase...  55.5    6e-07
+  UniRef90_A0A172TD05 Malto-oligosyltrehalose trehalohydrolase n=...  51.2    2e-05
+  UniRef90_A0A0F7JLK5 Malto-oligosyltrehalose trehalohydrolase n=...  46.6    5e-04
+  UniRef90_E8U8R4 Malto-oligosyltrehalose trehalohydrolase n=1 Ta...  43.9    0.004
+
+
+> UniRef90_Q9RX51 Malto-oligosyltrehalose trehalohydrolase n=3 
+Tax=Deinococcus radiodurans TaxID=1299 RepID=TREZ_DEIRA
+Length=600
+
+ Score = 143 bits (360),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 72/72 (100%), Positives = 72/72 (100%), Gaps = 0/72 (0%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  60
+            QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED
+Sbjct  529  QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  588
+
+Query  61   LTLGAGEAVLVG  72
+            LTLGAGEAVLVG
+Sbjct  589  LTLGAGEAVLVG  600
+
+
+> UniRef90_UPI0003461F26 malto-oligosyltrehalose trehalohydrolase 
+n=1 Tax=Deinococcus wulumuqiensis TaxID=980427 RepID=UPI0003461F26
+Length=597
+
+ Score = 110 bits (276),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 54/72 (75%), Positives = 61/72 (85%), Gaps = 0/72 (0%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  60
+            QR NLTTGHDGD+LWVRTVT AG+RVLLWNLG+  R VAE+ LPF +P RLLLHTEGR +
+Sbjct  525  QRGNLTTGHDGDLLWVRTVTSAGKRVLLWNLGEQARQVAELSLPFALPARLLLHTEGRAE  584
+
+Query  61   LTLGAGEAVLVG  72
+             TLGAGEA L+G
+Sbjct  585  PTLGAGEAALLG  596
+
+
+> UniRef90_A0A072NDB1 Malto-oligosyltrehalose trehalohydrolase 
+n=3 Tax=Deinococcus TaxID=1298 RepID=A0A072NDB1_9DEIO
+Length=579
+
+ Score = 85.5 bits (210),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 43/72 (60%), Positives = 51/72 (71%), Gaps = 0/72 (0%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  60
+            +R  LT GH GDVLWVR VT AGERVLLWN+G +    A + LPF +P R LLH+EGR D
+Sbjct  505  ERRTLTAGHAGDVLWVRRVTDAGERVLLWNVGWEAVGAASLALPFPLPPRTLLHSEGRPD  564
+
+Query  61   LTLGAGEAVLVG  72
+              L  GEA+L+G
+Sbjct  565  PRLERGEALLLG  576
+
+
+> UniRef90_UPI00036EC507 malto-oligosyltrehalose trehalohydrolase 
+n=1 Tax=Deinococcus apachensis TaxID=309886 RepID=UPI00036EC507
+Length=600
+
+ Score = 81.6 bits (200),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 39/72 (54%), Positives = 50/72 (69%), Gaps = 0/72 (0%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  60
+             R NL  G++G+VLWV   T  GER LLWN+GQ+      + LPF +P  +LLH+EGRED
+Sbjct  526  SRRNLQAGNEGNVLWVHHKTADGERTLLWNVGQEAVDAGALHLPFPLPTDVLLHSEGRED  585
+
+Query  61   LTLGAGEAVLVG  72
+             TL +GEAVL+G
+Sbjct  586  TTLNSGEAVLLG  597
+
+
+> UniRef90_UPI00054F94DF malto-oligosyltrehalose trehalohydrolase 
+n=1 Tax=Deinococcus sp. YIM 77859 TaxID=1540221 RepID=UPI00054F94DF
+Length=604
+
+ Score = 80.1 bits (196),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 40/71 (56%), Positives = 51/71 (72%), Gaps = 0/71 (0%)
+
+Query  2    RENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGREDL  61
+            R  L  GH GDVLWVR VT +GERVLLWN+G++      + LPF++P  +LLH+EGRE +
+Sbjct  531  RSGLRAGHVGDVLWVRHVTESGERVLLWNVGREAADAQALGLPFSLPTPVLLHSEGREGM  590
+
+Query  62   TLGAGEAVLVG  72
+             L  GEAVL+G
+Sbjct  591  RLERGEAVLLG  601
+
+
+> UniRef90_Q1J0Z2 Malto-oligosyltrehalose trehalohydrolase n=1 
+Tax=Deinococcus geothermalis (strain DSM 11300) TaxID=319795 
+RepID=Q1J0Z2_DEIGD
+Length=603
+
+ Score = 80.1 bits (196),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 41/72 (57%), Positives = 50/72 (69%), Gaps = 0/72 (0%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  60
+            +R NL  G  GDVLWVR  T  GERVLLWN+GQ    V  + LPF++P ++LLH+EGRE 
+Sbjct  529  ERRNLGAGSVGDVLWVRHATAVGERVLLWNVGQAAVDVDRLDLPFSLPAQVLLHSEGREH  588
+
+Query  61   LTLGAGEAVLVG  72
+              L  GEAVL+G
+Sbjct  589  RRLERGEAVLLG  600
+
+
+> UniRef90_A0A016QRW1 Malto-oligosyltrehalose trehalohydrolase 
+n=1 Tax=Deinococcus phoenicis TaxID=1476583 RepID=A0A016QRW1_9DEIO
+Length=605
+
+ Score = 75.5 bits (184),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 39/77 (51%), Positives = 51/77 (66%), Gaps = 5/77 (6%)
+
+Query  1    QRENLT-----TGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHT  55
+            +R NL+     +G+ GDVLWVR  T  G RVLLWN+G++      + LPF +P R+ LH+
+Sbjct  526  ERRNLSAGAVSSGNGGDVLWVRHATQDGARVLLWNVGREAVDAESLDLPFPLPARVFLHS  585
+
+Query  56   EGREDLTLGAGEAVLVG  72
+            EGRED TL  GEA L+G
+Sbjct  586  EGREDRTLERGEAALLG  602
+
+
+> UniRef90_A0A0A7KHC9 Malto-oligosyltrehalose trehalohydrolase 
+n=1 Tax=Deinococcus swuensis TaxID=1182571 RepID=A0A0A7KHC9_9DEIO
+Length=612
+
+ Score = 66.6 bits (161),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 35/77 (45%), Positives = 50/77 (65%), Gaps = 5/77 (6%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTE----  56
+             R++L+ G +G+VLWVR    AGER+LLWN+G+    +  ++LP   P R++LH+E    
+Sbjct  534  SRQSLSAGSEGEVLWVRQCNPAGERLLLWNVGEAAVRLGGLRLPHPPPTRVVLHSEQTGT  593
+
+Query  57   -GREDLTLGAGEAVLVG  72
+              RE  TL  GEAVL+G
+Sbjct  594  PPREVSTLNPGEAVLLG  610
+
+
+> UniRef90_UPI0003B56CE8 malto-oligosyltrehalose trehalohydrolase 
+n=2 Tax=Deinococcus TaxID=1298 RepID=UPI0003B56CE8
+Length=600
+
+ Score = 63.9 bits (154),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 38/74 (51%), Positives = 45/74 (61%), Gaps = 2/74 (3%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRE-  59
+             R  LT GH GDVLWVR    AGERVLLWNL       AE++LPF +   LLL +EG + 
+Sbjct  524  DRAALTAGHVGDVLWVRWQAPAGERVLLWNLAAVPLVPAELELPFPLSGGLLLRSEGPDS  583
+
+Query  60   -DLTLGAGEAVLVG  72
+             +  L  GEA L+G
+Sbjct  584  GEAPLAPGEAALLG  597
+
+
+> UniRef90_UPI0004986680 malto-oligosyltrehalose trehalohydrolase 
+n=1 Tax=Deinococcus marmoris TaxID=249408 RepID=UPI0004986680
+Length=612
+
+ Score = 60.8 bits (146),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 31/77 (40%), Positives = 48/77 (62%), Gaps = 5/77 (6%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  60
+             R+ L+ G +G+VLWVR    AGER+LLWN+ +    +  ++LP  +P R++LH+E  + 
+Sbjct  534  SRQYLSAGSEGEVLWVRQCNPAGERLLLWNVSKTEVTLGSLRLPHPLPTRVVLHSEQTDR  593
+
+Query  61   -----LTLGAGEAVLVG  72
+                  +L  GEAVL+G
+Sbjct  594  PPTTLTSLPVGEAVLLG  610
+
+
+> UniRef90_UPI00037F4013 hypothetical protein n=1 Tax=Deinococcus 
+aquatilis TaxID=519440 RepID=UPI00037F4013
+Length=609
+
+ Score = 58.9 bits (141),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 36/72 (50%), Positives = 47/72 (65%), Gaps = 3/72 (4%)
+
+Query  2    RENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGREDL  61
+            R N+  GH GDVLWVR  TGAG R+LLWN G +  A+A + L   +P  ++ H+EGR + 
+Sbjct  537  RRNIEAGHVGDVLWVRHQTGAGTRLLLWNTGHEDAALATLDL--ALPAEVIRHSEGRSEF  594
+
+Query  62   T-LGAGEAVLVG  72
+              L  GEAVL+G
+Sbjct  595  EGLKPGEAVLLG  606
+
+
+> UniRef90_H8GRZ7 Malto-oligosyltrehalose trehalohydrolase n=3 
+Tax=Deinococcus TaxID=1298 RepID=H8GRZ7_DEIGI
+Length=582
+
+ Score = 55.5 bits (132),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 28/61 (46%), Positives = 40/61 (66%), Gaps = 3/61 (5%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWN---LGQDTRAVAEVKLPFTVPRRLLLHTEG  57
+             R  L+ G  G +LWVR  +  GERVLLW+    G+   A+ ++KLPF +P +LLLH+EG
+Sbjct  495  SRRGLSAGAVGRLLWVRHTSPQGERVLLWHTARAGEAACALGDLKLPFALPPQLLLHSEG  554
+
+Query  58   R  58
+            +
+Sbjct  555  Q  555
+
+
+> UniRef90_UPI00068B70D2 malto-oligosyltrehalose trehalohydrolase 
+n=1 Tax=Deinococcus frigens TaxID=249403 RepID=UPI00068B70D2
+Length=610
+
+ Score = 55.5 bits (132),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 30/76 (39%), Positives = 48/76 (63%), Gaps = 5/76 (7%)
+
+Query  2    RENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED-  60
+            R+ L+ G +G++LWVR    AGER+LLWN+G+    ++ +KL   +P  ++LH+E  +  
+Sbjct  533  RQYLSAGSEGELLWVRQKNLAGERLLLWNVGESEVELSGLKLSTPLPSTVILHSEQTDAP  592
+
+Query  61   ----LTLGAGEAVLVG  72
+                 +L  GEAVL+G
+Sbjct  593  PQALTSLPVGEAVLLG  608
+
+
+> UniRef90_A0A172TD05 Malto-oligosyltrehalose trehalohydrolase 
+n=1 Tax=Deinococcus puniceus TaxID=1182568 RepID=A0A172TD05_9DEIO
+Length=596
+
+ Score = 51.2 bits (121),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 33/76 (43%), Positives = 44/76 (58%), Gaps = 4/76 (5%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVA---EVKLPFTVPRRLLLHTEG  57
+             R N+  GH GDV+WVR  T AGER+LLWN G++   +A          +P  ++ H+EG
+Sbjct  518  SRRNVGAGHAGDVVWVRHHTDAGERLLLWNTGREEVELATLNLNLPDLNLPAEVIRHSEG  577
+
+Query  58   REDL-TLGAGEAVLVG  72
+            R     L  GEAVL+G
+Sbjct  578  RSKFAALLPGEAVLLG  593
+
+
+> UniRef90_A0A0F7JLK5 Malto-oligosyltrehalose trehalohydrolase 
+n=4 Tax=Deinococcus TaxID=1298 RepID=A0A0F7JLK5_9DEIO
+Length=609
+
+ Score = 46.6 bits (109),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 28/68 (41%), Positives = 35/68 (51%), Gaps = 7/68 (10%)
+
+Query  11   GDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED-------LTL  63
+            G+ LWVR  T  G R LLWNL         + LPF +P+ +LLH+EG          L L
+Sbjct  536  GEALWVRWETPQGVRALLWNLTHKPLTPGLLALPFALPQEVLLHSEGDLHAPAALGGLHL  595
+
+Query  64   GAGEAVLV  71
+              GEA L+
+Sbjct  596  SPGEAALL  603
+
+
+> UniRef90_E8U8R4 Malto-oligosyltrehalose trehalohydrolase n=1 
+Tax=Deinococcus maricopensis (strain DSM 21211 / LMG 22137 / 
+NRRL B-23946 / LB-34) TaxID=709986 RepID=E8U8R4_DEIML
+Length=590
+
+ Score = 43.9 bits (102),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 31/75 (41%), Positives = 38/75 (51%), Gaps = 10/75 (13%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQ---DTRAVAEVKLPFTVPRRLLLHTEG  57
+             R+ L    DGDVL VR     G RVL+WNLG    D R  A+          + LH+E 
+Sbjct  520  SRDTLHARADGDVLIVRRADEHGTRVLVWNLGGGPVDARTHADGG-------EIRLHSEA  572
+
+Query  58   REDLTLGAGEAVLVG  72
+            R+D TL  GEA L+ 
+Sbjct  573  RDDSTLQPGEAALLA  587
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.138    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 452489306805
+Results from round 2
+
+
+Query= d2bhua2
+
+Length=72
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_UPI00036EC507 malto-oligosyltrehalose trehalohydrolase...  118     3e-29
+  UniRef90_Q1J0Z2 Malto-oligosyltrehalose trehalohydrolase n=1 Ta...  116     9e-29
+  UniRef90_A0A072NDB1 Malto-oligosyltrehalose trehalohydrolase n=...  115     2e-28
+  UniRef90_UPI00054F94DF malto-oligosyltrehalose trehalohydrolase...  112     4e-27
+  UniRef90_Q9RX51 Malto-oligosyltrehalose trehalohydrolase n=3 Ta...  111     5e-27
+  UniRef90_A0A016QRW1 Malto-oligosyltrehalose trehalohydrolase n=...  111     6e-27
+  UniRef90_UPI0003461F26 malto-oligosyltrehalose trehalohydrolase...  111     6e-27
+  UniRef90_A0A0A7KHC9 Malto-oligosyltrehalose trehalohydrolase n=...  110     2e-26
+  UniRef90_UPI0004986680 malto-oligosyltrehalose trehalohydrolase...  108     1e-25
+  UniRef90_UPI00068B70D2 malto-oligosyltrehalose trehalohydrolase...  99.7    2e-22
+  UniRef90_UPI0003B56CE8 malto-oligosyltrehalose trehalohydrolase...  99.3    2e-22
+  UniRef90_H8GRZ7 Malto-oligosyltrehalose trehalohydrolase n=3 Ta...  94.6    1e-20
+  UniRef90_UPI00037F4013 hypothetical protein n=1 Tax=Deinococcus...  92.7    5e-20
+  UniRef90_A0A172TD05 Malto-oligosyltrehalose trehalohydrolase n=...  91.2    1e-19
+  UniRef90_A0A0F7JLK5 Malto-oligosyltrehalose trehalohydrolase n=...  89.3    7e-19
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_E8U8R4 Malto-oligosyltrehalose trehalohydrolase n=1 Ta...  63.4    1e-09
+  UniRef90_L0A553 Malto-oligosyltrehalose trehalohydrolase n=1 Ta...  43.8    0.005
+
+
+> UniRef90_UPI00036EC507 malto-oligosyltrehalose trehalohydrolase 
+n=1 Tax=Deinococcus apachensis TaxID=309886 RepID=UPI00036EC507
+Length=600
+
+ Score = 118 bits (295),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 39/72 (54%), Positives = 50/72 (69%), Gaps = 0/72 (0%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  60
+             R NL  G++G+VLWV   T  GER LLWN+GQ+      + LPF +P  +LLH+EGRED
+Sbjct  526  SRRNLQAGNEGNVLWVHHKTADGERTLLWNVGQEAVDAGALHLPFPLPTDVLLHSEGRED  585
+
+Query  61   LTLGAGEAVLVG  72
+             TL +GEAVL+G
+Sbjct  586  TTLNSGEAVLLG  597
+
+
+> UniRef90_Q1J0Z2 Malto-oligosyltrehalose trehalohydrolase n=1 
+Tax=Deinococcus geothermalis (strain DSM 11300) TaxID=319795 
+RepID=Q1J0Z2_DEIGD
+Length=603
+
+ Score = 116 bits (292),  Expect = 9e-29, Method: Composition-based stats.
+ Identities = 41/72 (57%), Positives = 50/72 (69%), Gaps = 0/72 (0%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  60
+            +R NL  G  GDVLWVR  T  GERVLLWN+GQ    V  + LPF++P ++LLH+EGRE 
+Sbjct  529  ERRNLGAGSVGDVLWVRHATAVGERVLLWNVGQAAVDVDRLDLPFSLPAQVLLHSEGREH  588
+
+Query  61   LTLGAGEAVLVG  72
+              L  GEAVL+G
+Sbjct  589  RRLERGEAVLLG  600
+
+
+> UniRef90_A0A072NDB1 Malto-oligosyltrehalose trehalohydrolase 
+n=3 Tax=Deinococcus TaxID=1298 RepID=A0A072NDB1_9DEIO
+Length=579
+
+ Score = 115 bits (289),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 43/72 (60%), Positives = 51/72 (71%), Gaps = 0/72 (0%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  60
+            +R  LT GH GDVLWVR VT AGERVLLWN+G +    A + LPF +P R LLH+EGR D
+Sbjct  505  ERRTLTAGHAGDVLWVRRVTDAGERVLLWNVGWEAVGAASLALPFPLPPRTLLHSEGRPD  564
+
+Query  61   LTLGAGEAVLVG  72
+              L  GEA+L+G
+Sbjct  565  PRLERGEALLLG  576
+
+
+> UniRef90_UPI00054F94DF malto-oligosyltrehalose trehalohydrolase 
+n=1 Tax=Deinococcus sp. YIM 77859 TaxID=1540221 RepID=UPI00054F94DF
+Length=604
+
+ Score = 112 bits (280),  Expect = 4e-27, Method: Composition-based stats.
+ Identities = 40/72 (56%), Positives = 51/72 (71%), Gaps = 0/72 (0%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  60
+             R  L  GH GDVLWVR VT +GERVLLWN+G++      + LPF++P  +LLH+EGRE 
+Sbjct  530  DRSGLRAGHVGDVLWVRHVTESGERVLLWNVGREAADAQALGLPFSLPTPVLLHSEGREG  589
+
+Query  61   LTLGAGEAVLVG  72
+            + L  GEAVL+G
+Sbjct  590  MRLERGEAVLLG  601
+
+
+> UniRef90_Q9RX51 Malto-oligosyltrehalose trehalohydrolase n=3 
+Tax=Deinococcus radiodurans TaxID=1299 RepID=TREZ_DEIRA
+Length=600
+
+ Score = 111 bits (279),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 72/72 (100%), Positives = 72/72 (100%), Gaps = 0/72 (0%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  60
+            QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED
+Sbjct  529  QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  588
+
+Query  61   LTLGAGEAVLVG  72
+            LTLGAGEAVLVG
+Sbjct  589  LTLGAGEAVLVG  600
+
+
+> UniRef90_A0A016QRW1 Malto-oligosyltrehalose trehalohydrolase 
+n=1 Tax=Deinococcus phoenicis TaxID=1476583 RepID=A0A016QRW1_9DEIO
+Length=605
+
+ Score = 111 bits (279),  Expect = 6e-27, Method: Composition-based stats.
+ Identities = 39/77 (51%), Positives = 49/77 (64%), Gaps = 5/77 (6%)
+
+Query  1    QRENLTTGHD-----GDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHT  55
+            +R NL+ G       GDVLWVR  T  G RVLLWN+G++      + LPF +P R+ LH+
+Sbjct  526  ERRNLSAGAVSSGNGGDVLWVRHATQDGARVLLWNVGREAVDAESLDLPFPLPARVFLHS  585
+
+Query  56   EGREDLTLGAGEAVLVG  72
+            EGRED TL  GEA L+G
+Sbjct  586  EGREDRTLERGEAALLG  602
+
+
+> UniRef90_UPI0003461F26 malto-oligosyltrehalose trehalohydrolase 
+n=1 Tax=Deinococcus wulumuqiensis TaxID=980427 RepID=UPI0003461F26
+Length=597
+
+ Score = 111 bits (279),  Expect = 6e-27, Method: Composition-based stats.
+ Identities = 54/72 (75%), Positives = 61/72 (85%), Gaps = 0/72 (0%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  60
+            QR NLTTGHDGD+LWVRTVT AG+RVLLWNLG+  R VAE+ LPF +P RLLLHTEGR +
+Sbjct  525  QRGNLTTGHDGDLLWVRTVTSAGKRVLLWNLGEQARQVAELSLPFALPARLLLHTEGRAE  584
+
+Query  61   LTLGAGEAVLVG  72
+             TLGAGEA L+G
+Sbjct  585  PTLGAGEAALLG  596
+
+
+> UniRef90_A0A0A7KHC9 Malto-oligosyltrehalose trehalohydrolase 
+n=1 Tax=Deinococcus swuensis TaxID=1182571 RepID=A0A0A7KHC9_9DEIO
+Length=612
+
+ Score = 110 bits (275),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 35/77 (45%), Positives = 50/77 (65%), Gaps = 5/77 (6%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEG---  57
+             R++L+ G +G+VLWVR    AGER+LLWN+G+    +  ++LP   P R++LH+E    
+Sbjct  534  SRQSLSAGSEGEVLWVRQCNPAGERLLLWNVGEAAVRLGGLRLPHPPPTRVVLHSEQTGT  593
+
+Query  58   --REDLTLGAGEAVLVG  72
+              RE  TL  GEAVL+G
+Sbjct  594  PPREVSTLNPGEAVLLG  610
+
+
+> UniRef90_UPI0004986680 malto-oligosyltrehalose trehalohydrolase 
+n=1 Tax=Deinococcus marmoris TaxID=249408 RepID=UPI0004986680
+Length=612
+
+ Score = 108 bits (269),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 31/77 (40%), Positives = 47/77 (61%), Gaps = 5/77 (6%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  60
+             R+ L+ G +G+VLWVR    AGER+LLWN+ +    +  ++LP  +P R++LH+E  + 
+Sbjct  534  SRQYLSAGSEGEVLWVRQCNPAGERLLLWNVSKTEVTLGSLRLPHPLPTRVVLHSEQTDR  593
+
+Query  61   LT-----LGAGEAVLVG  72
+                   L  GEAVL+G
+Sbjct  594  PPTTLTSLPVGEAVLLG  610
+
+
+> UniRef90_UPI00068B70D2 malto-oligosyltrehalose trehalohydrolase 
+n=1 Tax=Deinococcus frigens TaxID=249403 RepID=UPI00068B70D2
+Length=610
+
+ Score = 99.7 bits (247),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 30/77 (39%), Positives = 47/77 (61%), Gaps = 5/77 (6%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  60
+             R+ L+ G +G++LWVR    AGER+LLWN+G+    ++ +KL   +P  ++LH+E  + 
+Sbjct  532  SRQYLSAGSEGELLWVRQKNLAGERLLLWNVGESEVELSGLKLSTPLPSTVILHSEQTDA  591
+
+Query  61   LT-----LGAGEAVLVG  72
+                   L  GEAVL+G
+Sbjct  592  PPQALTSLPVGEAVLLG  608
+
+
+> UniRef90_UPI0003B56CE8 malto-oligosyltrehalose trehalohydrolase 
+n=2 Tax=Deinococcus TaxID=1298 RepID=UPI0003B56CE8
+Length=600
+
+ Score = 99.3 bits (246),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 38/74 (51%), Positives = 45/74 (61%), Gaps = 2/74 (3%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRE-  59
+             R  LT GH GDVLWVR    AGERVLLWNL       AE++LPF +   LLL +EG + 
+Sbjct  524  DRAALTAGHVGDVLWVRWQAPAGERVLLWNLAAVPLVPAELELPFPLSGGLLLRSEGPDS  583
+
+Query  60   -DLTLGAGEAVLVG  72
+             +  L  GEA L+G
+Sbjct  584  GEAPLAPGEAALLG  597
+
+
+> UniRef90_H8GRZ7 Malto-oligosyltrehalose trehalohydrolase n=3 
+Tax=Deinococcus TaxID=1298 RepID=H8GRZ7_DEIGI
+Length=582
+
+ Score = 94.6 bits (234),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 33/81 (41%), Positives = 47/81 (58%), Gaps = 10/81 (12%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNL---GQDTRAVAEVKLPFTVPRRLLLHTEG  57
+             R  L+ G  G +LWVR  +  GERVLLW+    G+   A+ ++KLPF +P +LLLH+EG
+Sbjct  495  SRRGLSAGAVGRLLWVRHTSPQGERVLLWHTARAGEAACALGDLKLPFALPPQLLLHSEG  554
+
+Query  58   RED-------LTLGAGEAVLV  71
+            +           L  GEAV++
+Sbjct  555  QGHGDAANPVTALHPGEAVIL  575
+
+
+> UniRef90_UPI00037F4013 hypothetical protein n=1 Tax=Deinococcus 
+aquatilis TaxID=519440 RepID=UPI00037F4013
+Length=609
+
+ Score = 92.7 bits (229),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 35/73 (48%), Positives = 46/73 (63%), Gaps = 3/73 (4%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  60
+             R N+  GH GDVLWVR  TGAG R+LLWN G +  A+A +     +P  ++ H+EGR +
+Sbjct  536  SRRNIEAGHVGDVLWVRHQTGAGTRLLLWNTGHEDAALATLD--LALPAEVIRHSEGRSE  593
+
+Query  61   LT-LGAGEAVLVG  72
+               L  GEAVL+G
+Sbjct  594  FEGLKPGEAVLLG  606
+
+
+> UniRef90_A0A172TD05 Malto-oligosyltrehalose trehalohydrolase 
+n=1 Tax=Deinococcus puniceus TaxID=1182568 RepID=A0A172TD05_9DEIO
+Length=596
+
+ Score = 91.2 bits (225),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 33/76 (43%), Positives = 44/76 (58%), Gaps = 4/76 (5%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAE---VKLPFTVPRRLLLHTEG  57
+             R N+  GH GDV+WVR  T AGER+LLWN G++   +A          +P  ++ H+EG
+Sbjct  518  SRRNVGAGHAGDVVWVRHHTDAGERLLLWNTGREEVELATLNLNLPDLNLPAEVIRHSEG  577
+
+Query  58   REDL-TLGAGEAVLVG  72
+            R     L  GEAVL+G
+Sbjct  578  RSKFAALLPGEAVLLG  593
+
+
+> UniRef90_A0A0F7JLK5 Malto-oligosyltrehalose trehalohydrolase 
+n=4 Tax=Deinococcus TaxID=1298 RepID=A0A0F7JLK5_9DEIO
+Length=609
+
+ Score = 89.3 bits (220),  Expect = 7e-19, Method: Composition-based stats.
+ Identities = 30/82 (37%), Positives = 38/82 (46%), Gaps = 11/82 (13%)
+
+Query  1    QRENLTTGHD----GDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTE  56
+             R  +  G      G+ LWVR  T  G R LLWNL         + LPF +P+ +LLH+E
+Sbjct  522  SRRFIRAGAVDTGAGEALWVRWETPQGVRALLWNLTHKPLTPGLLALPFALPQEVLLHSE  581
+
+Query  57   GRED-------LTLGAGEAVLV  71
+            G          L L  GEA L+
+Sbjct  582  GDLHAPAALGGLHLSPGEAALL  603
+
+
+> UniRef90_E8U8R4 Malto-oligosyltrehalose trehalohydrolase n=1 
+Tax=Deinococcus maricopensis (strain DSM 21211 / LMG 22137 / 
+NRRL B-23946 / LB-34) TaxID=709986 RepID=E8U8R4_DEIML
+Length=590
+
+ Score = 63.4 bits (153),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 28/71 (39%), Positives = 34/71 (48%), Gaps = 4/71 (6%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  60
+             R+ L    DGDVL VR     G RVL+WNLG                  + LH+E R+D
+Sbjct  520  SRDTLHARADGDVLIVRRADEHGTRVLVWNLGGGPVDART----HADGGEIRLHSEARDD  575
+
+Query  61   LTLGAGEAVLV  71
+             TL  GEA L+
+Sbjct  576  STLQPGEAALL  586
+
+
+> UniRef90_L0A553 Malto-oligosyltrehalose trehalohydrolase n=1 
+Tax=Deinococcus peraridilitoris (strain DSM 19664 / LMG 22246 
+/ CIP 109416 / KR-200) TaxID=937777 RepID=L0A553_DEIPD
+Length=600
+
+ Score = 43.8 bits (102),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 17/37 (46%), Positives = 20/37 (54%), Gaps = 0/37 (0%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRA  37
+             R +L  G  G+VLWVR      ERVLL N GQ+   
+Sbjct  525  SRGDLQAGAVGNVLWVRRWHDGQERVLLANFGQEEAT  561
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.143    0.449    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0444    0.140     1.90     42.6     43.6 
+
+Effective search space used: 452489306805
+Results from round 3
+
+
+Query= d2bhua2
+
+Length=72
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_UPI00036EC507 malto-oligosyltrehalose trehalohydrolase...  115     5e-28
+  UniRef90_Q1J0Z2 Malto-oligosyltrehalose trehalohydrolase n=1 Ta...  114     9e-28
+  UniRef90_A0A072NDB1 Malto-oligosyltrehalose trehalohydrolase n=...  113     1e-27
+  UniRef90_A0A016QRW1 Malto-oligosyltrehalose trehalohydrolase n=...  110     2e-26
+  UniRef90_UPI00054F94DF malto-oligosyltrehalose trehalohydrolase...  110     2e-26
+  UniRef90_UPI0003461F26 malto-oligosyltrehalose trehalohydrolase...  109     4e-26
+  UniRef90_Q9RX51 Malto-oligosyltrehalose trehalohydrolase n=3 Ta...  109     6e-26
+  UniRef90_A0A0A7KHC9 Malto-oligosyltrehalose trehalohydrolase n=...  107     2e-25
+  UniRef90_UPI0004986680 malto-oligosyltrehalose trehalohydrolase...  106     6e-25
+  UniRef90_UPI00068B70D2 malto-oligosyltrehalose trehalohydrolase...  97.7    8e-22
+  UniRef90_UPI0003B56CE8 malto-oligosyltrehalose trehalohydrolase...  96.9    2e-21
+  UniRef90_H8GRZ7 Malto-oligosyltrehalose trehalohydrolase n=3 Ta...  94.6    8e-21
+  UniRef90_UPI00037F4013 hypothetical protein n=1 Tax=Deinococcus...  91.5    1e-19
+  UniRef90_A0A0F7JLK5 Malto-oligosyltrehalose trehalohydrolase n=...  90.0    4e-19
+  UniRef90_A0A172TD05 Malto-oligosyltrehalose trehalohydrolase n=...  90.0    4e-19
+  UniRef90_E8U8R4 Malto-oligosyltrehalose trehalohydrolase n=1 Ta...  85.8    1e-17
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_L0A553 Malto-oligosyltrehalose trehalohydrolase n=1 Ta...  44.6    0.003
+
+
+> UniRef90_UPI00036EC507 malto-oligosyltrehalose trehalohydrolase 
+n=1 Tax=Deinococcus apachensis TaxID=309886 RepID=UPI00036EC507
+Length=600
+
+ Score = 115 bits (287),  Expect = 5e-28, Method: Composition-based stats.
+ Identities = 39/72 (54%), Positives = 50/72 (69%), Gaps = 0/72 (0%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  60
+             R NL  G++G+VLWV   T  GER LLWN+GQ+      + LPF +P  +LLH+EGRED
+Sbjct  526  SRRNLQAGNEGNVLWVHHKTADGERTLLWNVGQEAVDAGALHLPFPLPTDVLLHSEGRED  585
+
+Query  61   LTLGAGEAVLVG  72
+             TL +GEAVL+G
+Sbjct  586  TTLNSGEAVLLG  597
+
+
+> UniRef90_Q1J0Z2 Malto-oligosyltrehalose trehalohydrolase n=1 
+Tax=Deinococcus geothermalis (strain DSM 11300) TaxID=319795 
+RepID=Q1J0Z2_DEIGD
+Length=603
+
+ Score = 114 bits (285),  Expect = 9e-28, Method: Composition-based stats.
+ Identities = 41/72 (57%), Positives = 50/72 (69%), Gaps = 0/72 (0%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  60
+            +R NL  G  GDVLWVR  T  GERVLLWN+GQ    V  + LPF++P ++LLH+EGRE 
+Sbjct  529  ERRNLGAGSVGDVLWVRHATAVGERVLLWNVGQAAVDVDRLDLPFSLPAQVLLHSEGREH  588
+
+Query  61   LTLGAGEAVLVG  72
+              L  GEAVL+G
+Sbjct  589  RRLERGEAVLLG  600
+
+
+> UniRef90_A0A072NDB1 Malto-oligosyltrehalose trehalohydrolase 
+n=3 Tax=Deinococcus TaxID=1298 RepID=A0A072NDB1_9DEIO
+Length=579
+
+ Score = 113 bits (284),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 43/72 (60%), Positives = 51/72 (71%), Gaps = 0/72 (0%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  60
+            +R  LT GH GDVLWVR VT AGERVLLWN+G +    A + LPF +P R LLH+EGR D
+Sbjct  505  ERRTLTAGHAGDVLWVRRVTDAGERVLLWNVGWEAVGAASLALPFPLPPRTLLHSEGRPD  564
+
+Query  61   LTLGAGEAVLVG  72
+              L  GEA+L+G
+Sbjct  565  PRLERGEALLLG  576
+
+
+> UniRef90_A0A016QRW1 Malto-oligosyltrehalose trehalohydrolase 
+n=1 Tax=Deinococcus phoenicis TaxID=1476583 RepID=A0A016QRW1_9DEIO
+Length=605
+
+ Score = 110 bits (275),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 39/77 (51%), Positives = 49/77 (64%), Gaps = 5/77 (6%)
+
+Query  1    QRENLTTGHD-----GDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHT  55
+            +R NL+ G       GDVLWVR  T  G RVLLWN+G++      + LPF +P R+ LH+
+Sbjct  526  ERRNLSAGAVSSGNGGDVLWVRHATQDGARVLLWNVGREAVDAESLDLPFPLPARVFLHS  585
+
+Query  56   EGREDLTLGAGEAVLVG  72
+            EGRED TL  GEA L+G
+Sbjct  586  EGREDRTLERGEAALLG  602
+
+
+> UniRef90_UPI00054F94DF malto-oligosyltrehalose trehalohydrolase 
+n=1 Tax=Deinococcus sp. YIM 77859 TaxID=1540221 RepID=UPI00054F94DF
+Length=604
+
+ Score = 110 bits (275),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 40/72 (56%), Positives = 51/72 (71%), Gaps = 0/72 (0%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  60
+             R  L  GH GDVLWVR VT +GERVLLWN+G++      + LPF++P  +LLH+EGRE 
+Sbjct  530  DRSGLRAGHVGDVLWVRHVTESGERVLLWNVGREAADAQALGLPFSLPTPVLLHSEGREG  589
+
+Query  61   LTLGAGEAVLVG  72
+            + L  GEAVL+G
+Sbjct  590  MRLERGEAVLLG  601
+
+
+> UniRef90_UPI0003461F26 malto-oligosyltrehalose trehalohydrolase 
+n=1 Tax=Deinococcus wulumuqiensis TaxID=980427 RepID=UPI0003461F26
+Length=597
+
+ Score = 109 bits (273),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 54/72 (75%), Positives = 61/72 (85%), Gaps = 0/72 (0%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  60
+            QR NLTTGHDGD+LWVRTVT AG+RVLLWNLG+  R VAE+ LPF +P RLLLHTEGR +
+Sbjct  525  QRGNLTTGHDGDLLWVRTVTSAGKRVLLWNLGEQARQVAELSLPFALPARLLLHTEGRAE  584
+
+Query  61   LTLGAGEAVLVG  72
+             TLGAGEA L+G
+Sbjct  585  PTLGAGEAALLG  596
+
+
+> UniRef90_Q9RX51 Malto-oligosyltrehalose trehalohydrolase n=3 
+Tax=Deinococcus radiodurans TaxID=1299 RepID=TREZ_DEIRA
+Length=600
+
+ Score = 109 bits (272),  Expect = 6e-26, Method: Composition-based stats.
+ Identities = 72/72 (100%), Positives = 72/72 (100%), Gaps = 0/72 (0%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  60
+            QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED
+Sbjct  529  QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  588
+
+Query  61   LTLGAGEAVLVG  72
+            LTLGAGEAVLVG
+Sbjct  589  LTLGAGEAVLVG  600
+
+
+> UniRef90_A0A0A7KHC9 Malto-oligosyltrehalose trehalohydrolase 
+n=1 Tax=Deinococcus swuensis TaxID=1182571 RepID=A0A0A7KHC9_9DEIO
+Length=612
+
+ Score = 107 bits (268),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 35/77 (45%), Positives = 50/77 (65%), Gaps = 5/77 (6%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEG---  57
+             R++L+ G +G+VLWVR    AGER+LLWN+G+    +  ++LP   P R++LH+E    
+Sbjct  534  SRQSLSAGSEGEVLWVRQCNPAGERLLLWNVGEAAVRLGGLRLPHPPPTRVVLHSEQTGT  593
+
+Query  58   --REDLTLGAGEAVLVG  72
+              RE  TL  GEAVL+G
+Sbjct  594  PPREVSTLNPGEAVLLG  610
+
+
+> UniRef90_UPI0004986680 malto-oligosyltrehalose trehalohydrolase 
+n=1 Tax=Deinococcus marmoris TaxID=249408 RepID=UPI0004986680
+Length=612
+
+ Score = 106 bits (265),  Expect = 6e-25, Method: Composition-based stats.
+ Identities = 31/77 (40%), Positives = 47/77 (61%), Gaps = 5/77 (6%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  60
+             R+ L+ G +G+VLWVR    AGER+LLWN+ +    +  ++LP  +P R++LH+E  + 
+Sbjct  534  SRQYLSAGSEGEVLWVRQCNPAGERLLLWNVSKTEVTLGSLRLPHPLPTRVVLHSEQTDR  593
+
+Query  61   LT-----LGAGEAVLVG  72
+                   L  GEAVL+G
+Sbjct  594  PPTTLTSLPVGEAVLLG  610
+
+
+> UniRef90_UPI00068B70D2 malto-oligosyltrehalose trehalohydrolase 
+n=1 Tax=Deinococcus frigens TaxID=249403 RepID=UPI00068B70D2
+Length=610
+
+ Score = 97.7 bits (242),  Expect = 8e-22, Method: Composition-based stats.
+ Identities = 30/77 (39%), Positives = 47/77 (61%), Gaps = 5/77 (6%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  60
+             R+ L+ G +G++LWVR    AGER+LLWN+G+    ++ +KL   +P  ++LH+E  + 
+Sbjct  532  SRQYLSAGSEGELLWVRQKNLAGERLLLWNVGESEVELSGLKLSTPLPSTVILHSEQTDA  591
+
+Query  61   LT-----LGAGEAVLVG  72
+                   L  GEAVL+G
+Sbjct  592  PPQALTSLPVGEAVLLG  608
+
+
+> UniRef90_UPI0003B56CE8 malto-oligosyltrehalose trehalohydrolase 
+n=2 Tax=Deinococcus TaxID=1298 RepID=UPI0003B56CE8
+Length=600
+
+ Score = 96.9 bits (240),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 38/74 (51%), Positives = 45/74 (61%), Gaps = 2/74 (3%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRE-  59
+             R  LT GH GDVLWVR    AGERVLLWNL       AE++LPF +   LLL +EG + 
+Sbjct  524  DRAALTAGHVGDVLWVRWQAPAGERVLLWNLAAVPLVPAELELPFPLSGGLLLRSEGPDS  583
+
+Query  60   -DLTLGAGEAVLVG  72
+             +  L  GEA L+G
+Sbjct  584  GEAPLAPGEAALLG  597
+
+
+> UniRef90_H8GRZ7 Malto-oligosyltrehalose trehalohydrolase n=3 
+Tax=Deinococcus TaxID=1298 RepID=H8GRZ7_DEIGI
+Length=582
+
+ Score = 94.6 bits (234),  Expect = 8e-21, Method: Composition-based stats.
+ Identities = 33/81 (41%), Positives = 47/81 (58%), Gaps = 10/81 (12%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNL---GQDTRAVAEVKLPFTVPRRLLLHTEG  57
+             R  L+ G  G +LWVR  +  GERVLLW+    G+   A+ ++KLPF +P +LLLH+EG
+Sbjct  495  SRRGLSAGAVGRLLWVRHTSPQGERVLLWHTARAGEAACALGDLKLPFALPPQLLLHSEG  554
+
+Query  58   RED-------LTLGAGEAVLV  71
+            +           L  GEAV++
+Sbjct  555  QGHGDAANPVTALHPGEAVIL  575
+
+
+> UniRef90_UPI00037F4013 hypothetical protein n=1 Tax=Deinococcus 
+aquatilis TaxID=519440 RepID=UPI00037F4013
+Length=609
+
+ Score = 91.5 bits (226),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 36/73 (49%), Positives = 47/73 (64%), Gaps = 3/73 (4%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  60
+             R N+  GH GDVLWVR  TGAG R+LLWN G +  A+A + L   +P  ++ H+EGR +
+Sbjct  536  SRRNIEAGHVGDVLWVRHQTGAGTRLLLWNTGHEDAALATLDL--ALPAEVIRHSEGRSE  593
+
+Query  61   LT-LGAGEAVLVG  72
+               L  GEAVL+G
+Sbjct  594  FEGLKPGEAVLLG  606
+
+
+> UniRef90_A0A0F7JLK5 Malto-oligosyltrehalose trehalohydrolase 
+n=4 Tax=Deinococcus TaxID=1298 RepID=A0A0F7JLK5_9DEIO
+Length=609
+
+ Score = 90.0 bits (222),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 29/82 (35%), Positives = 37/82 (45%), Gaps = 11/82 (13%)
+
+Query  1    QRENLTTGHD----GDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTE  56
+             R  +  G      G+ LWVR  T  G R LLWNL         + LPF +P+ +LLH+E
+Sbjct  522  SRRFIRAGAVDTGAGEALWVRWETPQGVRALLWNLTHKPLTPGLLALPFALPQEVLLHSE  581
+
+Query  57   GREDLT-------LGAGEAVLV  71
+            G            L  GEA L+
+Sbjct  582  GDLHAPAALGGLHLSPGEAALL  603
+
+
+> UniRef90_A0A172TD05 Malto-oligosyltrehalose trehalohydrolase 
+n=1 Tax=Deinococcus puniceus TaxID=1182568 RepID=A0A172TD05_9DEIO
+Length=596
+
+ Score = 90.0 bits (222),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 33/76 (43%), Positives = 44/76 (58%), Gaps = 4/76 (5%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAE---VKLPFTVPRRLLLHTEG  57
+             R N+  GH GDV+WVR  T AGER+LLWN G++   +A          +P  ++ H+EG
+Sbjct  518  SRRNVGAGHAGDVVWVRHHTDAGERLLLWNTGREEVELATLNLNLPDLNLPAEVIRHSEG  577
+
+Query  58   REDL-TLGAGEAVLVG  72
+            R     L  GEAVL+G
+Sbjct  578  RSKFAALLPGEAVLLG  593
+
+
+> UniRef90_E8U8R4 Malto-oligosyltrehalose trehalohydrolase n=1 
+Tax=Deinococcus maricopensis (strain DSM 21211 / LMG 22137 / 
+NRRL B-23946 / LB-34) TaxID=709986 RepID=E8U8R4_DEIML
+Length=590
+
+ Score = 85.8 bits (211),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 28/71 (39%), Positives = 34/71 (48%), Gaps = 4/71 (6%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRAVAEVKLPFTVPRRLLLHTEGRED  60
+             R+ L    DGDVL VR     G RVL+WNLG                  + LH+E R+D
+Sbjct  520  SRDTLHARADGDVLIVRRADEHGTRVLVWNLGGGPVDART----HADGGEIRLHSEARDD  575
+
+Query  61   LTLGAGEAVLV  71
+             TL  GEA L+
+Sbjct  576  STLQPGEAALL  586
+
+
+> UniRef90_L0A553 Malto-oligosyltrehalose trehalohydrolase n=1 
+Tax=Deinococcus peraridilitoris (strain DSM 19664 / LMG 22246 
+/ CIP 109416 / KR-200) TaxID=937777 RepID=L0A553_DEIPD
+Length=600
+
+ Score = 44.6 bits (104),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 17/37 (46%), Positives = 20/37 (54%), Gaps = 0/37 (0%)
+
+Query  1    QRENLTTGHDGDVLWVRTVTGAGERVLLWNLGQDTRA  37
+             R +L  G  G+VLWVR      ERVLL N GQ+   
+Sbjct  525  SRGDLQAGAVGNVLWVRRWHDGQERVLLANFGQEEAT  561
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.145    0.454    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0448    0.140     1.90     42.6     43.6 
+
+Effective search space used: 452489306805
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

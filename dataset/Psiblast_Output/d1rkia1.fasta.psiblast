@@ -1,0 +1,493 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1rkia1
+
+Length=98
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q8ZYK2 Uncharacterized protein n=1 Tax=Pyrobaculum aer...  196     2e-62
+  UniRef90_B1YC70 Uncharacterized protein n=1 Tax=Pyrobaculum neu...  124     2e-34
+  UniRef90_A3MS24 Uncharacterized protein n=1 Tax=Pyrobaculum cal...  122     1e-33
+  UniRef90_A4WGV4 Uncharacterized protein n=1 Tax=Pyrobaculum ars...  115     7e-31
+  UniRef90_A1RSA4 Uncharacterized protein n=1 Tax=Pyrobaculum isl...  83.6    2e-18
+  UniRef90_G7VBC7 Uncharacterized protein n=1 Tax=Pyrobaculum fer...  78.6    9e-17
+  UniRef90_F2L2Z0 Uncharacterized protein n=1 Tax=Thermoproteus u...  73.2    2e-14
+  UniRef90_H6QDP4 Uncharacterized protein n=1 Tax=Pyrobaculum ogu...  71.6    4e-14
+  UniRef90_A0A117SSX6 Uncharacterized protein n=2 Tax=Thermoprote...  67.0    4e-12
+  UniRef90_A0A0F2L8W9 Uncharacterized protein n=1 Tax=Thermoprote...  66.6    5e-12
+  UniRef90_G4RLL7 Uncharacterized protein n=1 Tax=Thermoproteus t...  58.2    7e-09
+  UniRef90_A0A0K1E4V7 Uncharacterized protein n=1 Tax=Pyrobaculum...  42.7    0.001
+
+
+> UniRef90_Q8ZYK2 Uncharacterized protein n=1 Tax=Pyrobaculum aerophilum 
+(strain ATCC 51768 / IM2 / DSM 7523 / JCM 9630 / NBRC 
+100827) TaxID=178306 RepID=Q8ZYK2_PYRAE
+Length=98
+
+ Score = 196 bits (497),  Expect = 2e-62, Method: Compositional matrix adjust.
+ Identities = 98/98 (100%), Positives = 98/98 (100%), Gaps = 0/98 (0%)
+
+Query  1   MKKHIIIKTIPKKEEIISRDLCDCIYYYDNSVICKPIGPSKVYVSTSLENLEKCLQLHYF  60
+           MKKHIIIKTIPKKEEIISRDLCDCIYYYDNSVICKPIGPSKVYVSTSLENLEKCLQLHYF
+Sbjct  1   MKKHIIIKTIPKKEEIISRDLCDCIYYYDNSVICKPIGPSKVYVSTSLENLEKCLQLHYF  60
+
+Query  61  KKLVKNIEIFDEVHNSKPNCDKCLIVEIGGVYFVRRVN  98
+           KKLVKNIEIFDEVHNSKPNCDKCLIVEIGGVYFVRRVN
+Sbjct  61  KKLVKNIEIFDEVHNSKPNCDKCLIVEIGGVYFVRRVN  98
+
+
+> UniRef90_B1YC70 Uncharacterized protein n=1 Tax=Pyrobaculum neutrophilum 
+(strain DSM 2338 / JCM 9278 / V24Sta) TaxID=444157 
+RepID=B1YC70_PYRNV
+Length=98
+
+ Score = 124 bits (312),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 49/94 (52%), Positives = 70/94 (74%), Gaps = 0/94 (0%)
+
+Query  1   MKKHIIIKTIPKKEEIISRDLCDCIYYYDNSVICKPIGPSKVYVSTSLENLEKCLQLHYF  60
+           M++H I+ T  KKE +++RDLCDC+YYYD+ V+C+ + PS+VYV T  E LE+CL + YF
+Sbjct  1   MRRHFIVYTTSKKEAVVARDLCDCLYYYDSGVMCEALAPSRVYVHTEAEYLERCLGMRYF  60
+
+Query  61  KKLVKNIEIFDEVHNSKPNCDKCLIVEIGGVYFV  94
+           K LVK +E FD+V   +P+C  C +VE+GG YF+
+Sbjct  61  KALVKGVEAFDDVSRQRPSCAGCRVVEVGGRYFI  94
+
+
+> UniRef90_A3MS24 Uncharacterized protein n=1 Tax=Pyrobaculum calidifontis 
+(strain JCM 11548 / VA1) TaxID=410359 RepID=A3MS24_PYRCJ
+Length=99
+
+ Score = 122 bits (307),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 51/92 (55%), Positives = 76/92 (83%), Gaps = 0/92 (0%)
+
+Query  4   HIIIKTIPKKEEIISRDLCDCIYYYDNSVICKPIGPSKVYVSTSLENLEKCLQLHYFKKL  63
+           H+++ T+PKKE I++RDLCDC+YYYD +V C+ + PS+VY+ TS++ L +CL+L YF+KL
+Sbjct  5   HVLVITVPKKERIVARDLCDCLYYYDQAVECRVLSPSRVYIRTSIDYLHECLKLKYFEKL  64
+
+Query  64  VKNIEIFDEVHNSKPNCDKCLIVEIGGVYFVR  95
+           +KNIEIFD V  SKP+C +C +++IG +YFV+
+Sbjct  65  IKNIEIFDFVSTSKPSCTECRVIQIGDLYFVK  96
+
+
+> UniRef90_A4WGV4 Uncharacterized protein n=1 Tax=Pyrobaculum arsenaticum 
+(strain DSM 13514 / JCM 11321) TaxID=340102 RepID=A4WGV4_PYRAR
+Length=103
+
+ Score = 115 bits (289),  Expect = 7e-31, Method: Compositional matrix adjust.
+ Identities = 52/98 (53%), Positives = 76/98 (78%), Gaps = 1/98 (1%)
+
+Query  2   KKHIIIKTIPKKEEIISRDLCDCIYYYDNSVICKPIGPSKVYVSTSLENLEKCLQLHYFK  61
+           +K+II++TIPKKE  ++RDLCDCIY++D+ V+C P+   +VYV T +  L+ CL + YFK
+Sbjct  3   RKYIIVRTIPKKEGQVARDLCDCIYFHDSEVMCVPVAVGRVYVYTLVGALQNCLAMDYFK  62
+
+Query  62  KLVKNIEIFDEVHNSKPN-CDKCLIVEIGGVYFVRRVN  98
+           KLV+  E++DEV + +P+ CD C++V+IG VYFVRRV 
+Sbjct  63  KLVRGFEVYDEVSHYEPSRCDDCIVVKIGEVYFVRRVG  100
+
+
+> UniRef90_A1RSA4 Uncharacterized protein n=1 Tax=Pyrobaculum islandicum 
+(strain DSM 4184 / JCM 9189 / GEO3) TaxID=384616 RepID=A1RSA4_PYRIL
+Length=89
+
+ Score = 83.6 bits (205),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 37/78 (47%), Positives = 56/78 (72%), Gaps = 2/78 (3%)
+
+Query  1   MKKHIIIKTIPKKEEIISRDLCDCIYYYDNSVICKPIGPSKVYVSTSLENLEKCLQLHYF  60
+           M+K +II T+PKKE I++RDLCDC+YYYD  V+CK +   +VY+ T +E L+ C+ + YF
+Sbjct  1   MRKAVIIHTVPKKEAIVARDLCDCLYYYDQEVVCKVVTVGRVYIYTHVEYLDYCINMKYF  60
+
+Query  61  KKLVKNIEIFDEVHNSKP  78
+           + L+K +E   +V  S+P
+Sbjct  61  RSLIKKVEYSGDV--SQP  76
+
+
+> UniRef90_G7VBC7 Uncharacterized protein n=1 Tax=Pyrobaculum ferrireducens 
+TaxID=1104324 RepID=G7VBC7_9CREN
+Length=67
+
+ Score = 78.6 bits (192),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 34/64 (53%), Positives = 49/64 (77%), Gaps = 0/64 (0%)
+
+Query  2   KKHIIIKTIPKKEEIISRDLCDCIYYYDNSVICKPIGPSKVYVSTSLENLEKCLQLHYFK  61
+           + H++I+T P+K+++++RDLCDC+YYYD SV C+ I P  VYV+T    L +CL L YFK
+Sbjct  3   RGHVLIRTAPRKDKVVARDLCDCLYYYDQSVKCEVIKPGFVYVNTFTTYLGECLNLFYFK  62
+
+Query  62  KLVK  65
+           KL+K
+Sbjct  63  KLLK  66
+
+
+> UniRef90_F2L2Z0 Uncharacterized protein n=1 Tax=Thermoproteus 
+uzoniensis (strain 768-20) TaxID=999630 RepID=F2L2Z0_THEU7
+Length=97
+
+ Score = 73.2 bits (178),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 35/93 (38%), Positives = 56/93 (60%), Gaps = 2/93 (2%)
+
+Query  5   IIIKTIPKKEEIISRDLCDCIYYY-DNSVICKPIGPSKVYVSTSLEN-LEKCLQLHYFKK  62
+           I+  TI  KE  I+RDLCDC+Y   D +V+C+PI P   Y   S ++ L++CL + YFK 
+Sbjct  4   ILATTIGGKEAAIARDLCDCLYGQGDTAVVCEPISPGVFYAKFSDKSVLDRCLSMKYFKA  63
+
+Query  63  LVKNIEIFDEVHNSKPNCDKCLIVEIGGVYFVR  95
+           ++K +E++D V +S P+        +G   F++
+Sbjct  64  MIKRVELYDGVSDSAPSQGYSRARRVGKYIFIK  96
+
+
+> UniRef90_H6QDP4 Uncharacterized protein n=1 Tax=Pyrobaculum oguniense 
+(strain DSM 13380 / JCM 10595 / TE7) TaxID=698757 RepID=H6QDP4_PYROT
+Length=70
+
+ Score = 71.6 bits (174),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 32/67 (48%), Positives = 47/67 (70%), Gaps = 1/67 (1%)
+
+Query  33  ICKPIGPSKVYVSTSLENLEKCLQLHYFKKLVKNIEIFDEVHNSKPN-CDKCLIVEIGGV  91
+           +C P+   +VYV T +   + CL + YFKKLV+  E++DEV + +P+ CD C++V+IG V
+Sbjct  1   MCVPVAVGRVYVYTLVGAFQNCLAMDYFKKLVRGFEVYDEVSHYEPSRCDDCIVVKIGEV  60
+
+Query  92  YFVRRVN  98
+           YFVRRV 
+Sbjct  61  YFVRRVG  67
+
+
+> UniRef90_A0A117SSX6 Uncharacterized protein n=2 Tax=Thermoproteus 
+TaxID=2270 RepID=A0A117SSX6_9CREN
+Length=97
+
+ Score = 67.0 bits (162),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 32/93 (34%), Positives = 50/93 (54%), Gaps = 2/93 (2%)
+
+Query  5   IIIKTIPKKEEIISRDLCDCIYYY-DNSVICKPIGPSKVYVSTS-LENLEKCLQLHYFKK  62
+           I+  T   +E + +RDLCDC+Y   D  V C+P+ P   Y   S    L++CL + YFK 
+Sbjct  4   ILATTTGGREGVAARDLCDCLYGQGDVEVFCEPVSPGVFYAKFSDGSALDRCLSMRYFKA  63
+
+Query  63  LVKNIEIFDEVHNSKPNCDKCLIVEIGGVYFVR  95
+            +K IE++DEV  + P      +  +G   F++
+Sbjct  64  TIKRIELYDEVSTAAPPRTYARMRRVGNYIFIK  96
+
+
+> UniRef90_A0A0F2L8W9 Uncharacterized protein n=1 Tax=Thermoproteus 
+sp. AZ2 TaxID=1609232 RepID=A0A0F2L8W9_9CREN
+Length=93
+
+ Score = 66.6 bits (161),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 35/92 (38%), Positives = 52/92 (57%), Gaps = 4/92 (4%)
+
+Query  6   IIKTIPKKEEIISRDLCDCIYYY-DNSVICKPIGPSKVYVSTS-LENLEKCLQLHYFKKL  63
+           +  T   KE + +RDLCDC++   D SV C+P+ P   Y+  S    LEKCL L+YF+++
+Sbjct  4   LFTTAGGKEGVAARDLCDCVFAAGDESVFCEPVAPGVFYIRYSDGRALEKCLSLNYFRRI  63
+
+Query  64  VKNIEIFDEVHNSKPNCDKCLIVEIGGVYFVR  95
+           +K  E + EV   +P   +     IG  YF+R
+Sbjct  64  IKRRETYAEVSLEEPKGRQ--YKRIGKYYFLR  93
+
+
+> UniRef90_G4RLL7 Uncharacterized protein n=1 Tax=Thermoproteus 
+tenax (strain ATCC 35583 / DSM 2078 / JCM 9277 / NBRC 100435 
+/ Kra 1) TaxID=768679 RepID=G4RLL7_THETK
+Length=96
+
+ Score = 58.2 bits (139),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 30/73 (41%), Positives = 46/73 (63%), Gaps = 2/73 (3%)
+
+Query  6   IIKTIPKKEEIISRDLCDCIYY-YDNSVICKPIGPSKVYVS-TSLENLEKCLQLHYFKKL  63
+           ++ T+  KE  +++DLCDC+Y   D  V C+PI P  ++V     E LE CL + YF+ L
+Sbjct  4   LLTTLGGKERSVAQDLCDCLYGNGDTQVRCEPIYPGVLFVEFQRRETLELCLSMKYFRVL  63
+
+Query  64  VKNIEIFDEVHNS  76
+           V+ IEI+++V  S
+Sbjct  64  VRRIEIYEKVVRS  76
+
+
+> UniRef90_A0A0K1E4V7 Uncharacterized protein n=1 Tax=Pyrobaculum 
+sp. WP30 TaxID=1227555 RepID=A0A0K1E4V7_9CREN
+Length=41
+
+ Score = 42.7 bits (99),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 17/39 (44%), Positives = 27/39 (69%), Gaps = 0/39 (0%)
+
+Query  57  LHYFKKLVKNIEIFDEVHNSKPNCDKCLIVEIGGVYFVR  95
+           + YFK L+K  E+FD V   +P+C  C +V++G +YF+R
+Sbjct  1   MKYFKALIKKFEVFDYVDIKEPSCVGCHVVKVGSLYFIR  39
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.143    0.437    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 444538835175
+Results from round 2
+
+
+Query= d1rkia1
+
+Length=98
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_Q8ZYK2 Uncharacterized protein n=1 Tax=Pyrobaculum aer...  138     7e-40
+  UniRef90_B1YC70 Uncharacterized protein n=1 Tax=Pyrobaculum neu...  130     2e-36
+  UniRef90_A4WGV4 Uncharacterized protein n=1 Tax=Pyrobaculum ars...  129     3e-36
+  UniRef90_A3MS24 Uncharacterized protein n=1 Tax=Pyrobaculum cal...  125     7e-35
+  UniRef90_A0A117SSX6 Uncharacterized protein n=2 Tax=Thermoprote...  116     2e-31
+  UniRef90_F2L2Z0 Uncharacterized protein n=1 Tax=Thermoproteus u...  116     2e-31
+  UniRef90_A0A0F2L8W9 Uncharacterized protein n=1 Tax=Thermoprote...  103     5e-26
+  UniRef90_A1RSA4 Uncharacterized protein n=1 Tax=Pyrobaculum isl...  100     4e-25
+  UniRef90_G4RLL7 Uncharacterized protein n=1 Tax=Thermoproteus t...  92.7    7e-22
+  UniRef90_G7VBC7 Uncharacterized protein n=1 Tax=Pyrobaculum fer...  90.4    2e-21
+  UniRef90_H6QDP4 Uncharacterized protein n=1 Tax=Pyrobaculum ogu...  83.1    2e-18
+  UniRef90_A0A0K1E4V7 Uncharacterized protein n=1 Tax=Pyrobaculum...  53.0    2e-07
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_Q8ZYK2 Uncharacterized protein n=1 Tax=Pyrobaculum aerophilum 
+(strain ATCC 51768 / IM2 / DSM 7523 / JCM 9630 / NBRC 
+100827) TaxID=178306 RepID=Q8ZYK2_PYRAE
+Length=98
+
+ Score = 138 bits (349),  Expect = 7e-40, Method: Composition-based stats.
+ Identities = 98/98 (100%), Positives = 98/98 (100%), Gaps = 0/98 (0%)
+
+Query  1   MKKHIIIKTIPKKEEIISRDLCDCIYYYDNSVICKPIGPSKVYVSTSLENLEKCLQLHYF  60
+           MKKHIIIKTIPKKEEIISRDLCDCIYYYDNSVICKPIGPSKVYVSTSLENLEKCLQLHYF
+Sbjct  1   MKKHIIIKTIPKKEEIISRDLCDCIYYYDNSVICKPIGPSKVYVSTSLENLEKCLQLHYF  60
+
+Query  61  KKLVKNIEIFDEVHNSKPNCDKCLIVEIGGVYFVRRVN  98
+           KKLVKNIEIFDEVHNSKPNCDKCLIVEIGGVYFVRRVN
+Sbjct  61  KKLVKNIEIFDEVHNSKPNCDKCLIVEIGGVYFVRRVN  98
+
+
+> UniRef90_B1YC70 Uncharacterized protein n=1 Tax=Pyrobaculum neutrophilum 
+(strain DSM 2338 / JCM 9278 / V24Sta) TaxID=444157 
+RepID=B1YC70_PYRNV
+Length=98
+
+ Score = 130 bits (326),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 49/94 (52%), Positives = 70/94 (74%), Gaps = 0/94 (0%)
+
+Query  1   MKKHIIIKTIPKKEEIISRDLCDCIYYYDNSVICKPIGPSKVYVSTSLENLEKCLQLHYF  60
+           M++H I+ T  KKE +++RDLCDC+YYYD+ V+C+ + PS+VYV T  E LE+CL + YF
+Sbjct  1   MRRHFIVYTTSKKEAVVARDLCDCLYYYDSGVMCEALAPSRVYVHTEAEYLERCLGMRYF  60
+
+Query  61  KKLVKNIEIFDEVHNSKPNCDKCLIVEIGGVYFV  94
+           K LVK +E FD+V   +P+C  C +VE+GG YF+
+Sbjct  61  KALVKGVEAFDDVSRQRPSCAGCRVVEVGGRYFI  94
+
+
+> UniRef90_A4WGV4 Uncharacterized protein n=1 Tax=Pyrobaculum arsenaticum 
+(strain DSM 13514 / JCM 11321) TaxID=340102 RepID=A4WGV4_PYRAR
+Length=103
+
+ Score = 129 bits (324),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 52/98 (53%), Positives = 76/98 (78%), Gaps = 1/98 (1%)
+
+Query  2   KKHIIIKTIPKKEEIISRDLCDCIYYYDNSVICKPIGPSKVYVSTSLENLEKCLQLHYFK  61
+           +K+II++TIPKKE  ++RDLCDCIY++D+ V+C P+   +VYV T +  L+ CL + YFK
+Sbjct  3   RKYIIVRTIPKKEGQVARDLCDCIYFHDSEVMCVPVAVGRVYVYTLVGALQNCLAMDYFK  62
+
+Query  62  KLVKNIEIFDEVHNSKPN-CDKCLIVEIGGVYFVRRVN  98
+           KLV+  E++DEV + +P+ CD C++V+IG VYFVRRV 
+Sbjct  63  KLVRGFEVYDEVSHYEPSRCDDCIVVKIGEVYFVRRVG  100
+
+
+> UniRef90_A3MS24 Uncharacterized protein n=1 Tax=Pyrobaculum calidifontis 
+(strain JCM 11548 / VA1) TaxID=410359 RepID=A3MS24_PYRCJ
+Length=99
+
+ Score = 125 bits (315),  Expect = 7e-35, Method: Composition-based stats.
+ Identities = 51/92 (55%), Positives = 76/92 (83%), Gaps = 0/92 (0%)
+
+Query  4   HIIIKTIPKKEEIISRDLCDCIYYYDNSVICKPIGPSKVYVSTSLENLEKCLQLHYFKKL  63
+           H+++ T+PKKE I++RDLCDC+YYYD +V C+ + PS+VY+ TS++ L +CL+L YF+KL
+Sbjct  5   HVLVITVPKKERIVARDLCDCLYYYDQAVECRVLSPSRVYIRTSIDYLHECLKLKYFEKL  64
+
+Query  64  VKNIEIFDEVHNSKPNCDKCLIVEIGGVYFVR  95
+           +KNIEIFD V  SKP+C +C +++IG +YFV+
+Sbjct  65  IKNIEIFDFVSTSKPSCTECRVIQIGDLYFVK  96
+
+
+> UniRef90_A0A117SSX6 Uncharacterized protein n=2 Tax=Thermoproteus 
+TaxID=2270 RepID=A0A117SSX6_9CREN
+Length=97
+
+ Score = 116 bits (292),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 32/93 (34%), Positives = 50/93 (54%), Gaps = 2/93 (2%)
+
+Query  5   IIIKTIPKKEEIISRDLCDCIYYY-DNSVICKPIGPSKVYVSTS-LENLEKCLQLHYFKK  62
+           I+  T   +E + +RDLCDC+Y   D  V C+P+ P   Y   S    L++CL + YFK 
+Sbjct  4   ILATTTGGREGVAARDLCDCLYGQGDVEVFCEPVSPGVFYAKFSDGSALDRCLSMRYFKA  63
+
+Query  63  LVKNIEIFDEVHNSKPNCDKCLIVEIGGVYFVR  95
+            +K IE++DEV  + P      +  +G   F++
+Sbjct  64  TIKRIELYDEVSTAAPPRTYARMRRVGNYIFIK  96
+
+
+> UniRef90_F2L2Z0 Uncharacterized protein n=1 Tax=Thermoproteus 
+uzoniensis (strain 768-20) TaxID=999630 RepID=F2L2Z0_THEU7
+Length=97
+
+ Score = 116 bits (292),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 35/93 (38%), Positives = 56/93 (60%), Gaps = 2/93 (2%)
+
+Query  5   IIIKTIPKKEEIISRDLCDCIYYY-DNSVICKPIGPSKVYVSTSLEN-LEKCLQLHYFKK  62
+           I+  TI  KE  I+RDLCDC+Y   D +V+C+PI P   Y   S ++ L++CL + YFK 
+Sbjct  4   ILATTIGGKEAAIARDLCDCLYGQGDTAVVCEPISPGVFYAKFSDKSVLDRCLSMKYFKA  63
+
+Query  63  LVKNIEIFDEVHNSKPNCDKCLIVEIGGVYFVR  95
+           ++K +E++D V +S P+        +G   F++
+Sbjct  64  MIKRVELYDGVSDSAPSQGYSRARRVGKYIFIK  96
+
+
+> UniRef90_A0A0F2L8W9 Uncharacterized protein n=1 Tax=Thermoproteus 
+sp. AZ2 TaxID=1609232 RepID=A0A0F2L8W9_9CREN
+Length=93
+
+ Score = 103 bits (256),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 35/92 (38%), Positives = 52/92 (57%), Gaps = 4/92 (4%)
+
+Query  6   IIKTIPKKEEIISRDLCDCIYY-YDNSVICKPIGPSKVYVSTS-LENLEKCLQLHYFKKL  63
+           +  T   KE + +RDLCDC++   D SV C+P+ P   Y+  S    LEKCL L+YF+++
+Sbjct  4   LFTTAGGKEGVAARDLCDCVFAAGDESVFCEPVAPGVFYIRYSDGRALEKCLSLNYFRRI  63
+
+Query  64  VKNIEIFDEVHNSKPNCDKCLIVEIGGVYFVR  95
+           +K  E + EV   +P   +     IG  YF+R
+Sbjct  64  IKRRETYAEVSLEEPKGRQ--YKRIGKYYFLR  93
+
+
+> UniRef90_A1RSA4 Uncharacterized protein n=1 Tax=Pyrobaculum islandicum 
+(strain DSM 4184 / JCM 9189 / GEO3) TaxID=384616 RepID=A1RSA4_PYRIL
+Length=89
+
+ Score = 100 bits (249),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 35/74 (47%), Positives = 53/74 (72%), Gaps = 0/74 (0%)
+
+Query  1   MKKHIIIKTIPKKEEIISRDLCDCIYYYDNSVICKPIGPSKVYVSTSLENLEKCLQLHYF  60
+           M+K +II T+PKKE I++RDLCDC+YYYD  V+CK +   +VY+ T +E L+ C+ + YF
+Sbjct  1   MRKAVIIHTVPKKEAIVARDLCDCLYYYDQEVVCKVVTVGRVYIYTHVEYLDYCINMKYF  60
+
+Query  61  KKLVKNIEIFDEVH  74
+           + L+K +E   +V 
+Sbjct  61  RSLIKKVEYSGDVS  74
+
+
+> UniRef90_G4RLL7 Uncharacterized protein n=1 Tax=Thermoproteus 
+tenax (strain ATCC 35583 / DSM 2078 / JCM 9277 / NBRC 100435 
+/ Kra 1) TaxID=768679 RepID=G4RLL7_THETK
+Length=96
+
+ Score = 92.7 bits (229),  Expect = 7e-22, Method: Composition-based stats.
+ Identities = 33/93 (35%), Positives = 52/93 (56%), Gaps = 4/93 (4%)
+
+Query  6   IIKTIPKKEEIISRDLCDCIYY-YDNSVICKPIGPSKVYVST-SLENLEKCLQLHYFKKL  63
+           ++ T+  KE  +++DLCDC+Y   D  V C+PI P  ++V     E LE CL + YF+ L
+Sbjct  4   LLTTLGGKERSVAQDLCDCLYGNGDTQVRCEPIYPGVLFVEFQRRETLELCLSMKYFRVL  63
+
+Query  64  VKNIEIFDEVHNSKPNCDKCLIVEIGGVYFVRR  96
+           V+ IEI+++V  S          ++G   F+ R
+Sbjct  64  VRRIEIYEKVVRSTETPPGA--KKVGDYIFLGR  94
+
+
+> UniRef90_G7VBC7 Uncharacterized protein n=1 Tax=Pyrobaculum ferrireducens 
+TaxID=1104324 RepID=G7VBC7_9CREN
+Length=67
+
+ Score = 90.4 bits (223),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 34/64 (53%), Positives = 49/64 (77%), Gaps = 0/64 (0%)
+
+Query  2   KKHIIIKTIPKKEEIISRDLCDCIYYYDNSVICKPIGPSKVYVSTSLENLEKCLQLHYFK  61
+           + H++I+T P+K+++++RDLCDC+YYYD SV C+ I P  VYV+T    L +CL L YFK
+Sbjct  3   RGHVLIRTAPRKDKVVARDLCDCLYYYDQSVKCEVIKPGFVYVNTFTTYLGECLNLFYFK  62
+
+Query  62  KLVK  65
+           KL+K
+Sbjct  63  KLLK  66
+
+
+> UniRef90_H6QDP4 Uncharacterized protein n=1 Tax=Pyrobaculum oguniense 
+(strain DSM 13380 / JCM 10595 / TE7) TaxID=698757 RepID=H6QDP4_PYROT
+Length=70
+
+ Score = 83.1 bits (204),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 32/67 (48%), Positives = 47/67 (70%), Gaps = 1/67 (1%)
+
+Query  33  ICKPIGPSKVYVSTSLENLEKCLQLHYFKKLVKNIEIFDEVHNSKPN-CDKCLIVEIGGV  91
+           +C P+   +VYV T +   + CL + YFKKLV+  E++DEV + +P+ CD C++V+IG V
+Sbjct  1   MCVPVAVGRVYVYTLVGAFQNCLAMDYFKKLVRGFEVYDEVSHYEPSRCDDCIVVKIGEV  60
+
+Query  92  YFVRRVN  98
+           YFVRRV 
+Sbjct  61  YFVRRVG  67
+
+
+> UniRef90_A0A0K1E4V7 Uncharacterized protein n=1 Tax=Pyrobaculum 
+sp. WP30 TaxID=1227555 RepID=A0A0K1E4V7_9CREN
+Length=41
+
+ Score = 53.0 bits (126),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 17/39 (44%), Positives = 27/39 (69%), Gaps = 0/39 (0%)
+
+Query  57  LHYFKKLVKNIEIFDEVHNSKPNCDKCLIVEIGGVYFVR  95
+           + YFK L+K  E+FD V   +P+C  C +V++G +YF+R
+Sbjct  1   MKYFKALIKKFEVFDYVDIKEPSCVGCHVVKVGSLYFIR  39
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.146    0.448    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0451    0.140     1.90     42.6     43.6 
+
+Effective search space used: 444538835175
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

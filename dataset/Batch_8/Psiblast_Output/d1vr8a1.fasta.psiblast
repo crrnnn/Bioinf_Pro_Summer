@@ -1,0 +1,763 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1vr8a1
+
+Length=127
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q9X1V7 Uncharacterized protein n=7 Tax=Thermotogaceae ...  254     5e-84
+  UniRef90_A0A0A6N1F4 Uncharacterized protein n=2 Tax=Thermotoga ...  234     2e-76
+  UniRef90_B9K7S9 Uncharacterized protein n=2 Tax=Thermotoga TaxI...  170     6e-51
+  UniRef90_F7YVF9 Uncharacterized protein n=1 Tax=Pseudothermotog...  98.2    5e-23
+  UniRef90_UPI0005974F1C hypothetical protein n=1 Tax=Thermotoga ...  81.6    1e-16
+  UniRef90_UPI0005976915 hypothetical protein n=1 Tax=Thermotoga ...  79.7    5e-16
+  UniRef90_A0A0X1KRU3 Uncharacterized protein n=3 Tax=Thermotogac...  77.0    4e-15
+  UniRef90_A8F4M0 Uncharacterized protein n=2 Tax=Pseudothermotog...  77.0    5e-15
+  UniRef90_A0A1E3G1R3 Uncharacterized protein n=1 Tax=Fervidobact...  68.2    9e-12
+  UniRef90_UPI000932F394 UPI000932F394 related cluster n=1 Tax=un...  62.8    6e-10
+  UniRef90_A0A1B0VKT9 Uncharacterized protein n=1 Tax=Fervidobact...  60.8    4e-09
+  UniRef90_H9UE66 Uncharacterized protein n=2 Tax=Fervidobacteriu...  58.9    2e-08
+  UniRef90_B7IF46 Lipoprotein, putative n=2 Tax=Thermosipho afric...  58.2    3e-08
+  UniRef90_A7HMP8 Uncharacterized protein n=1 Tax=Fervidobacteriu...  57.8    3e-08
+  UniRef90_A6LP92 Uncharacterized protein n=1 Tax=Thermosipho mel...  57.4    5e-08
+  UniRef90_UPI0009167A24 UPI0009167A24 related cluster n=1 Tax=un...  53.9    9e-07
+
+
+> UniRef90_Q9X1V7 Uncharacterized protein n=7 Tax=Thermotogaceae 
+TaxID=188709 RepID=Q9X1V7_THEMA
+Length=154
+
+ Score = 254 bits (648),  Expect = 5e-84, Method: Compositional matrix adjust.
+ Identities = 127/130 (98%), Positives = 127/130 (98%), Gaps = 3/130 (2%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEMKGKVAVFETEYGPVFLYVYKGEEAK  60
+            PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEMKGKVAVFETEYGPVFLYVYKGEEAK
+Sbjct  25   PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEMKGKVAVFETEYGPVFLYVYKGEEAK  84
+
+Query  61   KIWKKLNGR---VSIRSVLDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEEFVKH  117
+            KIWKKLNGR   VSIRSVLDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEEFVKH
+Sbjct  85   KIWKKLNGRAGFVSIRSVLDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEEFVKH  144
+
+Query  118  VYRVYEEMKQ  127
+            VYRVYEEMKQ
+Sbjct  145  VYRVYEEMKQ  154
+
+
+> UniRef90_A0A0A6N1F4 Uncharacterized protein n=2 Tax=Thermotoga 
+TaxID=2335 RepID=A0A0A6N1F4_9THEM
+Length=155
+
+ Score = 234 bits (598),  Expect = 2e-76, Method: Compositional matrix adjust.
+ Identities = 117/130 (90%), Positives = 123/130 (95%), Gaps = 3/130 (2%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEMKGKVAVFETEYGPVFLYVYKGEEAK  60
+            PPEAYSLDTAIFVLETRD+ LSDVKEIDSY  VEMKGKVAVFET+YGPVFLYVYKGEEAK
+Sbjct  26   PPEAYSLDTAIFVLETRDHILSDVKEIDSYEGVEMKGKVAVFETDYGPVFLYVYKGEEAK  85
+
+Query  61   KIWKKLNGR---VSIRSVLDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEEFVKH  117
+            KIWKKLN R   VSIRSVLDLPNMGKFSTVS+GKKI+AWWRKNWLF+VEGKNGVEEFVKH
+Sbjct  86   KIWKKLNSRAGFVSIRSVLDLPNMGKFSTVSDGKKIIAWWRKNWLFVVEGKNGVEEFVKH  145
+
+Query  118  VYRVYEEMKQ  127
+            VYRVYEEMK+
+Sbjct  146  VYRVYEEMKR  155
+
+
+> UniRef90_B9K7S9 Uncharacterized protein n=2 Tax=Thermotoga TaxID=2335 
+RepID=B9K7S9_THENN
+Length=154
+
+ Score = 170 bits (430),  Expect = 6e-51, Method: Compositional matrix adjust.
+ Identities = 78/131 (60%), Positives = 110/131 (84%), Gaps = 4/131 (3%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEMKGKVAVFETEYGPVFL-YVYKGEEA  59
+            PP+AYS++TA+ +LE ++YRL D+KE+D Y DVEMKGKVA+FE++ G V L Y Y+GE+A
+Sbjct  24   PPDAYSVETALQILENQEYRLVDIKEVDQYRDVEMKGKVAIFESKTGDVLLLYAYRGEDA  83
+
+Query  60   KKIWK---KLNGRVSIRSVLDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEEFVK  116
+            K++WK   K +G +S+RS+L+LPNMGKFST+ +GK+IV+WW+K W F VEG+NGV++FVK
+Sbjct  84   KQVWKAVKKKSGFLSVRSILELPNMGKFSTILDGKRIVSWWKKRWFFTVEGRNGVDKFVK  143
+
+Query  117  HVYRVYEEMKQ  127
+            HV+RVY  +K+
+Sbjct  144  HVFRVYGVLKE  154
+
+
+> UniRef90_F7YVF9 Uncharacterized protein n=1 Tax=Pseudothermotoga 
+thermarum DSM 5069 TaxID=688269 RepID=F7YVF9_9THEM
+Length=160
+
+ Score = 98.2 bits (243),  Expect = 5e-23, Method: Compositional matrix adjust.
+ Identities = 53/130 (41%), Positives = 76/130 (58%), Gaps = 6/130 (5%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEMKGKVAVFETEYGPVFLYVYK--GEE  58
+            PP+A+S  +A+ +++   YRL  ++EID Y DV+MKG VA++  +     LY +K  GE 
+Sbjct  26   PPDAFSASSALRIVQNH-YRLVLIEEIDGYEDVQMKGMVALYIKDNKQFLLYAFKFQGES  84
+
+Query  59   AKKIWKKL---NGRVSIRSVLDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEEFV  115
+             +K W K+    G  S R+ LD P  G +ST  +GK+IV WW+  WLFI EG+   E F 
+Sbjct  85   PRKYWSKIVKNFGIWSSRTYLDFPTSGLYSTRKSGKEIVVWWKNRWLFIAEGREDTETFA  144
+
+Query  116  KHVYRVYEEM  125
+              V  VY  +
+Sbjct  145  SQVMDVYSRI  154
+
+
+> UniRef90_UPI0005974F1C hypothetical protein n=1 Tax=Thermotoga 
+caldifontis TaxID=1508419 RepID=UPI0005974F1C
+Length=159
+
+ Score = 81.6 bits (200),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 45/131 (34%), Positives = 76/131 (58%), Gaps = 7/131 (5%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEMKGKVAVFETEYGPVFL-YVYKGEE-  58
+            PP+ YSL++A+ VL  + YRL  ++ +  Y D+E+KG VAV+    G ++L Y +K  E 
+Sbjct  25   PPQVYSLESAMQVLRGK-YRLIQLETVSGYEDIELKGMVAVYVDAEGTMYLLYGFKNFEI  83
+
+Query  59   -AKKIWKKLNGRVSIRSV---LDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEEF  114
+              + +WK +  +  + ++   +DLP +G +ST   GK IV WW+ +WLF+VE     + F
+Sbjct  84   SLRSVWKSIVKKYGVWNLGVYIDLPTVGYYSTSKKGKYIVTWWKDSWLFVVESNRNPKRF  143
+
+Query  115  VKHVYRVYEEM  125
+            V  +   +  +
+Sbjct  144  VNDIMDAFARL  154
+
+
+> UniRef90_UPI0005976915 hypothetical protein n=1 Tax=Thermotoga 
+profunda TaxID=1508420 RepID=UPI0005976915
+Length=158
+
+ Score = 79.7 bits (195),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 49/123 (40%), Positives = 67/123 (54%), Gaps = 6/123 (5%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEMKGKVAVFETEYGPVFLYVYK--GEE  58
+            PP AYSL +A+  ++   Y L   +EID YG V+ KG VA +  +      Y +K     
+Sbjct  24   PPNAYSLTSALRSVQD-GYTLIFSEEIDGYGTVKQKGAVASYLKDGANYLFYGFKFYNGS  82
+
+Query  59   AKKIWKKL---NGRVSIRSVLDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEEFV  115
+            AK  WK++    G  S R+ LD P  G +ST  +GK IVAWW+  WLF+VE  +  E F 
+Sbjct  83   AKDGWKEIVKNFGIWSSRTYLDFPTSGLYSTKKDGKYIVAWWKDTWLFVVESSSNAEVFA  142
+
+Query  116  KHV  118
+             +V
+Sbjct  143  NYV  145
+
+
+> UniRef90_A0A0X1KRU3 Uncharacterized protein n=3 Tax=Thermotogaceae 
+TaxID=188709 RepID=A0A0X1KRU3_9THEM
+Length=146
+
+ Score = 77.0 bits (188),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 43/131 (33%), Positives = 76/131 (58%), Gaps = 7/131 (5%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEMKGKVAVFETEYGPVFL-YVYKG--E  57
+            PP  YSL++A+ +   + Y+L  ++ +  Y ++E+KG VAV+    G ++L Y +K   +
+Sbjct  12   PPRIYSLESAVQIPSGK-YKLIHLESVSGYENIELKGMVAVYRGPDGSMYLFYGFKSFDD  70
+
+Query  58   EAKKIWKKLNGRVSIRSV---LDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEEF  114
+              KK+WK +  +  + ++   +DLP++G +S     K +VAWW+  WLF+VE K    +F
+Sbjct  71   APKKVWKSIVKKYGVWNLGVYIDLPSVGYYSVEKKDKHVVAWWKDVWLFVVESKGNPRDF  130
+
+Query  115  VKHVYRVYEEM  125
+            VK V   +  +
+Sbjct  131  VKDVMDAFARL  141
+
+
+> UniRef90_A8F4M0 Uncharacterized protein n=2 Tax=Pseudothermotoga 
+TaxID=1643951 RepID=A8F4M0_PSELT
+Length=159
+
+ Score = 77.0 bits (188),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 47/130 (36%), Positives = 70/130 (54%), Gaps = 6/130 (5%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEMKGKVAVFETEYGPVFLYVYK--GEE  58
+            PP  YS+ +A+  L+   Y L  V+E+D YG VE KG VA +  +      Y +K   E 
+Sbjct  25   PPRVYSISSAVKSLQD-SYLLVFVEEVDGYGPVEAKGVVASYVHDGKNYLFYGFKFYDES  83
+
+Query  59   AKKIWKKLNGRVSI---RSVLDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEEFV  115
+             K  WKK+   + I   R+  DL N G +S+  +GK IV WW+  W+FIVE  +  E+F 
+Sbjct  84   PKVYWKKIVKEIGIWSSRTYFDLLNSGLYSSKKDGKYIVVWWKDVWMFIVESSSNAEDFA  143
+
+Query  116  KHVYRVYEEM  125
+             +V   + ++
+Sbjct  144  NYVMNWFAKL  153
+
+
+> UniRef90_A0A1E3G1R3 Uncharacterized protein n=1 Tax=Fervidobacterium 
+thailandensis TaxID=1008305 RepID=A0A1E3G1R3_9BACT
+Length=155
+
+ Score = 68.2 bits (165),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 46/134 (34%), Positives = 71/134 (53%), Gaps = 9/134 (7%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEM-KGKVAVFETEYGPVFLYVYKGEE-  58
+            PP +YSLD AI VL  + Y L D   ++ +G +E+ +G+ A F    G + ++ Y+ EE 
+Sbjct  24   PPSSYSLDAAINVLAGK-YYLLDSGHVEGFGGIELGQGRYATFADVDGILLVFKYESEEE  82
+
+Query  59   AKKIWKKLNGRVSIRSVL-----DLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEE  113
+            AK+ W  L  +      L      + N G F+       + AW++ NWL IV G N VE 
+Sbjct  83   AKERWGALTKKYGNPFRLKYFKISMGNYGVFTVRLEKSDLYAWYKDNWLIIVNGDN-VER  141
+
+Query  114  FVKHVYRVYEEMKQ  127
+            FV+ V  +Y+ ++Q
+Sbjct  142  FVQDVNNIYKTIRQ  155
+
+
+> UniRef90_UPI000932F394 UPI000932F394 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000932F394
+Length=163
+
+ Score = 62.8 bits (151),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 41/134 (31%), Positives = 78/134 (58%), Gaps = 9/134 (7%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEM-KGKVAVFETEYGPVFLYVYKG-EE  58
+            PP +YSL+ A+ VL  + Y L +   I+ +GD+++  G+ A+F+   G   L+ Y+  EE
+Sbjct  32   PPSSYSLEAAVNVLSNK-YTLLESGWINGFGDIQLGDGRFAIFDGVDGFFMLFKYESNEE  90
+
+Query  59   AKKIWKKLNGR----VSIRSV-LDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEE  113
+            AK+ W K+  +    + I+ + +++ + G F+       + AW+++NWL +V G + +E 
+Sbjct  91   AKENWNKITKKYGNPLKIKYMKVNMGDYGVFTVRLESTDLYAWFKENWLIVVTG-DKIEG  149
+
+Query  114  FVKHVYRVYEEMKQ  127
+            FV+ V  +Y  +K+
+Sbjct  150  FVRDVNEIYNTVKR  163
+
+
+> UniRef90_A0A1B0VKT9 Uncharacterized protein n=1 Tax=Fervidobacterium 
+islandicum TaxID=2423 RepID=A0A1B0VKT9_FERIS
+Length=165
+
+ Score = 60.8 bits (146),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 39/134 (29%), Positives = 75/134 (56%), Gaps = 9/134 (7%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEM-KGKVAVFETEYGPVFLYVYKG-EE  58
+            PP +YS++ AI V+  + Y L D   I+ +GD+E+ +G+ A F+   G + ++ Y   E+
+Sbjct  34   PPGSYSVEAAINVIANK-YMLMDTGWINGFGDMELGEGRYATFDGVDGFLMVFRYDDFEQ  92
+
+Query  59   AKKIWKKLNGR----VSIRSV-LDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEE  113
+            AK  W K+  +      ++ + +++   G F+       +  W+++NWLFIV G + +E 
+Sbjct  93   AKDAWNKITKKYGNPFKLKYLKINMGTYGVFTIRLENTDLYCWYKENWLFIVTG-DKIER  151
+
+Query  114  FVKHVYRVYEEMKQ  127
+            FV  +  +Y+ +K+
+Sbjct  152  FVMDINNIYKTIKK  165
+
+
+> UniRef90_H9UE66 Uncharacterized protein n=2 Tax=Fervidobacterium 
+pennivorans TaxID=93466 RepID=H9UE66_FERPD
+Length=167
+
+ Score = 58.9 bits (141),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 40/136 (29%), Positives = 78/136 (57%), Gaps = 13/136 (10%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEM-KGKVAVFETEYGPVFLYVYKGE--  57
+            PP +YS++ AI V+  + Y L D   ++ +GD+E+ +G+ A F+   G  FL V+K E  
+Sbjct  34   PPASYSVEAAINVIANK-YMLLDSGWVNGFGDMELGEGRYATFDGVDG--FLMVFKYEDP  90
+
+Query  58   -EAKKIWKKLNGR----VSIRSV-LDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGV  111
+             +AK  W K+  R    + ++ + +++   G F+       + +W+++NWLF++ G + +
+Sbjct  91   DQAKASWDKITKRYGNPLRLKYLKINMGTYGVFTIRLENTDLYSWYKENWLFVITG-DKI  149
+
+Query  112  EEFVKHVYRVYEEMKQ  127
+            E+FV  V  +Y+ ++ 
+Sbjct  150  EKFVMDVNNIYKTIRT  165
+
+
+> UniRef90_B7IF46 Lipoprotein, putative n=2 Tax=Thermosipho africanus 
+TaxID=2421 RepID=B7IF46_THEAB
+Length=158
+
+ Score = 58.2 bits (139),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 41/131 (31%), Positives = 72/131 (55%), Gaps = 14/131 (11%)
+
+Query  2    PEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEM-KGKVAVFETEYGPVFLYVYKGEE-A  59
+            P ++SL +AI +L++ +Y L +  EI+S   V++ +G   VF+   G  +++ Y+ E+  
+Sbjct  28   PGSFSLKSAISLLDSYEYPLVETGEINSLYGVQLNRGMYGVFKNFDGMFYVFKYEDEKLT  87
+
+Query  60   KKIWKKLNGRVSIRSVLDLPNMGKFSTVSNGK--------KIVAWWRKNWLFIVEGKNGV  111
+            K  W +L    +  SVL + N  KFS    G          ++ WW+ NWLF++ G N  
+Sbjct  88   KNDWNRL--IKTFGSVLKI-NYFKFSLFDRGYLQTKFEDLNVITWWKGNWLFVITGNNS-  143
+
+Query  112  EEFVKHVYRVY  122
+            +EF +++ +VY
+Sbjct  144  KEFFEYINKVY  154
+
+
+> UniRef90_A7HMP8 Uncharacterized protein n=1 Tax=Fervidobacterium 
+nodosum (strain ATCC 35602 / DSM 5306 / Rt17-B1) TaxID=381764 
+RepID=A7HMP8_FERNB
+Length=167
+
+ Score = 57.8 bits (138),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 40/133 (30%), Positives = 72/133 (54%), Gaps = 9/133 (7%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEM-KGKVAVFETEYGPVFLYVYKGEE-  58
+            PP +YS + AI VL  + Y L D   I+ +GD+ + +G+ A+F+   G   ++ Y  EE 
+Sbjct  35   PPSSYSQEAAINVLSNK-YYLIDSGYIEGFGDIYLGEGRYAIFDGVDGIFMVFKYDDEEH  93
+
+Query  59   AKKIW----KKLNGRVSIRSV-LDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEE  113
+            AK+ W    KK N    ++   +++ + G F+       +  W++ NWL ++ G + ++ 
+Sbjct  94   AKESWNKITKKYNNPFKLKYFKVNMGDYGVFTLRLENTDLYVWYKDNWLIVISG-DKIDN  152
+
+Query  114  FVKHVYRVYEEMK  126
+            FVK V  +Y+ +K
+Sbjct  153  FVKDVNEIYKTIK  165
+
+
+> UniRef90_A6LP92 Uncharacterized protein n=1 Tax=Thermosipho melanesiensis 
+(strain DSM 12029 / CIP 104789 / BI429) TaxID=391009 
+RepID=A6LP92_THEM4
+Length=158
+
+ Score = 57.4 bits (137),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 41/135 (30%), Positives = 65/135 (48%), Gaps = 14/135 (10%)
+
+Query  2    PEAYSLDTAIFVLETRDYRLSDVKEIDS-YGDVEMKGKVAVFETEYGPVFLYVYKGEE-A  59
+            P ++SL +A+ +L+   Y L+ V +++  YG     G   +FE   G  +++ Y     A
+Sbjct  28   PGSFSLKSALLILDGFQYPLTSVVKVNEVYGAKLGNGICGMFENFNGTFYVFKYVSSNVA  87
+
+Query  60   KKIWKKLNGRVS--------IRSVLDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGV  111
+            K  WK    +V           S LD    G F        I++WW+ NWLFI+ GK+  
+Sbjct  88   KSNWKNFRKQVGGPLKINYLTYSWLD---RGYFQVKYKSIDIISWWKDNWLFIITGKDA-  143
+
+Query  112  EEFVKHVYRVYEEMK  126
+            +EF  ++  VY E+K
+Sbjct  144  KEFFNYINEVYGEIK  158
+
+
+> UniRef90_UPI0009167A24 UPI0009167A24 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009167A24
+Length=158
+
+ Score = 53.9 bits (128),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 40/130 (31%), Positives = 69/130 (53%), Gaps = 9/130 (7%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEM-KGKVAVFETEYGPVFLYVYKGEEA  59
+            P  + SL  A+FVL+ + Y L +   I+S  +V++ +G   +F    G ++++ Y   E 
+Sbjct  27   PNGSASLKNALFVLDGK-YELKEYGYINSVFNVDLGEGIYGIFNNYEGMLYIFKYDSPEI  85
+
+Query  60   KKI-WKKL----NGRVSIRSV-LDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEE  113
+             K+ WK         + I  V L+  + G   T   G KI++WW+  W+FI+ GK   E+
+Sbjct  86   TKVKWKTFIKTFGNPLKINYVNLNFFDRGYLKTNFEGIKIISWWKDKWIFILSGKKP-ED  144
+
+Query  114  FVKHVYRVYE  123
+            F++++  VYE
+Sbjct  145  FLEYINTVYE  154
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.137    0.412    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 441033908530
+Results from round 2
+
+
+Query= d1vr8a1
+
+Length=127
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_Q9X1V7 Uncharacterized protein n=7 Tax=Thermotogaceae ...  163     3e-48
+  UniRef90_A0A0A6N1F4 Uncharacterized protein n=2 Tax=Thermotoga ...  161     1e-47
+  UniRef90_B9K7S9 Uncharacterized protein n=2 Tax=Thermotoga TaxI...  150     2e-43
+  UniRef90_F7YVF9 Uncharacterized protein n=1 Tax=Pseudothermotog...  143     2e-40
+  UniRef90_A0A1B0VKT9 Uncharacterized protein n=1 Tax=Fervidobact...  142     4e-40
+  UniRef90_UPI0005974F1C hypothetical protein n=1 Tax=Thermotoga ...  141     8e-40
+  UniRef90_H9UE66 Uncharacterized protein n=2 Tax=Fervidobacteriu...  140     4e-39
+  UniRef90_UPI000932F394 UPI000932F394 related cluster n=1 Tax=un...  140     4e-39
+  UniRef90_A0A1E3G1R3 Uncharacterized protein n=1 Tax=Fervidobact...  138     1e-38
+  UniRef90_A0A0X1KRU3 Uncharacterized protein n=3 Tax=Thermotogac...  137     3e-38
+  UniRef90_UPI0005976915 hypothetical protein n=1 Tax=Thermotoga ...  130     1e-35
+  UniRef90_A7HMP8 Uncharacterized protein n=1 Tax=Fervidobacteriu...  130     2e-35
+  UniRef90_A8F4M0 Uncharacterized protein n=2 Tax=Pseudothermotog...  127     3e-34
+  UniRef90_B7IF46 Lipoprotein, putative n=2 Tax=Thermosipho afric...  118     6e-31
+  UniRef90_A6LP92 Uncharacterized protein n=1 Tax=Thermosipho mel...  118     1e-30
+  UniRef90_UPI0009167A24 UPI0009167A24 related cluster n=1 Tax=un...  110     1e-27
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_Q9X1V7 Uncharacterized protein n=7 Tax=Thermotogaceae 
+TaxID=188709 RepID=Q9X1V7_THEMA
+Length=154
+
+ Score = 163 bits (412),  Expect = 3e-48, Method: Composition-based stats.
+ Identities = 127/130 (98%), Positives = 127/130 (98%), Gaps = 3/130 (2%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEMKGKVAVFETEYGPVFLYVYKGEEAK  60
+            PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEMKGKVAVFETEYGPVFLYVYKGEEAK
+Sbjct  25   PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEMKGKVAVFETEYGPVFLYVYKGEEAK  84
+
+Query  61   KIWKKLNGR---VSIRSVLDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEEFVKH  117
+            KIWKKLNGR   VSIRSVLDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEEFVKH
+Sbjct  85   KIWKKLNGRAGFVSIRSVLDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEEFVKH  144
+
+Query  118  VYRVYEEMKQ  127
+            VYRVYEEMKQ
+Sbjct  145  VYRVYEEMKQ  154
+
+
+> UniRef90_A0A0A6N1F4 Uncharacterized protein n=2 Tax=Thermotoga 
+TaxID=2335 RepID=A0A0A6N1F4_9THEM
+Length=155
+
+ Score = 161 bits (408),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 117/130 (90%), Positives = 123/130 (95%), Gaps = 3/130 (2%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEMKGKVAVFETEYGPVFLYVYKGEEAK  60
+            PPEAYSLDTAIFVLETRD+ LSDVKEIDSY  VEMKGKVAVFET+YGPVFLYVYKGEEAK
+Sbjct  26   PPEAYSLDTAIFVLETRDHILSDVKEIDSYEGVEMKGKVAVFETDYGPVFLYVYKGEEAK  85
+
+Query  61   KIWKKLN---GRVSIRSVLDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEEFVKH  117
+            KIWKKLN   G VSIRSVLDLPNMGKFSTVS+GKKI+AWWRKNWLF+VEGKNGVEEFVKH
+Sbjct  86   KIWKKLNSRAGFVSIRSVLDLPNMGKFSTVSDGKKIIAWWRKNWLFVVEGKNGVEEFVKH  145
+
+Query  118  VYRVYEEMKQ  127
+            VYRVYEEMK+
+Sbjct  146  VYRVYEEMKR  155
+
+
+> UniRef90_B9K7S9 Uncharacterized protein n=2 Tax=Thermotoga TaxID=2335 
+RepID=B9K7S9_THENN
+Length=154
+
+ Score = 150 bits (379),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 75/131 (57%), Positives = 109/131 (83%), Gaps = 4/131 (3%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEMKGKVAVFETEYGP-VFLYVYKGEEA  59
+            PP+AYS++TA+ +LE ++YRL D+KE+D Y DVEMKGKVA+FE++ G  + LY Y+GE+A
+Sbjct  24   PPDAYSVETALQILENQEYRLVDIKEVDQYRDVEMKGKVAIFESKTGDVLLLYAYRGEDA  83
+
+Query  60   KKIWKKLNGR---VSIRSVLDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEEFVK  116
+            K++WK +  +   +S+RS+L+LPNMGKFST+ +GK+IV+WW+K W F VEG+NGV++FVK
+Sbjct  84   KQVWKAVKKKSGFLSVRSILELPNMGKFSTILDGKRIVSWWKKRWFFTVEGRNGVDKFVK  143
+
+Query  117  HVYRVYEEMKQ  127
+            HV+RVY  +K+
+Sbjct  144  HVFRVYGVLKE  154
+
+
+> UniRef90_F7YVF9 Uncharacterized protein n=1 Tax=Pseudothermotoga 
+thermarum DSM 5069 TaxID=688269 RepID=F7YVF9_9THEM
+Length=160
+
+ Score = 143 bits (360),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 52/130 (40%), Positives = 75/130 (58%), Gaps = 6/130 (5%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEMKGKVAVFETEYGPVFLYVYK--GEE  58
+            PP+A+S  +A+ +++   YRL  ++EID Y DV+MKG VA++  +     LY +K  GE 
+Sbjct  26   PPDAFSASSALRIVQNH-YRLVLIEEIDGYEDVQMKGMVALYIKDNKQFLLYAFKFQGES  84
+
+Query  59   AKKIWKKLNG---RVSIRSVLDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEEFV  115
+             +K W K+       S R+ LD P  G +ST  +GK+IV WW+  WLFI EG+   E F 
+Sbjct  85   PRKYWSKIVKNFGIWSSRTYLDFPTSGLYSTRKSGKEIVVWWKNRWLFIAEGREDTETFA  144
+
+Query  116  KHVYRVYEEM  125
+              V  VY  +
+Sbjct  145  SQVMDVYSRI  154
+
+
+> UniRef90_A0A1B0VKT9 Uncharacterized protein n=1 Tax=Fervidobacterium 
+islandicum TaxID=2423 RepID=A0A1B0VKT9_FERIS
+Length=165
+
+ Score = 142 bits (359),  Expect = 4e-40, Method: Composition-based stats.
+ Identities = 40/134 (30%), Positives = 72/134 (54%), Gaps = 9/134 (7%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEM-KGKVAVFETEYGPVFLYVYKG-EE  58
+            PP +YS++ AI V+  + Y L D   I+ +GD+E+ +G+ A F+   G + ++ Y   E+
+Sbjct  34   PPGSYSVEAAINVIANK-YMLMDTGWINGFGDMELGEGRYATFDGVDGFLMVFRYDDFEQ  92
+
+Query  59   AKKIWKKLNGRVSIRSVL-----DLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEE  113
+            AK  W K+  +      L     ++   G F+       +  W+++NWLFIV G + +E 
+Sbjct  93   AKDAWNKITKKYGNPFKLKYLKINMGTYGVFTIRLENTDLYCWYKENWLFIVTG-DKIER  151
+
+Query  114  FVKHVYRVYEEMKQ  127
+            FV  +  +Y+ +K+
+Sbjct  152  FVMDINNIYKTIKK  165
+
+
+> UniRef90_UPI0005974F1C hypothetical protein n=1 Tax=Thermotoga 
+caldifontis TaxID=1508419 RepID=UPI0005974F1C
+Length=159
+
+ Score = 141 bits (356),  Expect = 8e-40, Method: Composition-based stats.
+ Identities = 45/131 (34%), Positives = 75/131 (57%), Gaps = 7/131 (5%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEMKGKVAVFETEYGPVFL-YVYKGEEA  59
+            PP+ YSL++A+ VL  + YRL  ++ +  Y D+E+KG VAV+    G ++L Y +K  E 
+Sbjct  25   PPQVYSLESAMQVLRGK-YRLIQLETVSGYEDIELKGMVAVYVDAEGTMYLLYGFKNFEI  83
+
+Query  60   --KKIWKKLNGRVSIRS---VLDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEEF  114
+              + +WK +  +  + +    +DLP +G +ST   GK IV WW+ +WLF+VE     + F
+Sbjct  84   SLRSVWKSIVKKYGVWNLGVYIDLPTVGYYSTSKKGKYIVTWWKDSWLFVVESNRNPKRF  143
+
+Query  115  VKHVYRVYEEM  125
+            V  +   +  +
+Sbjct  144  VNDIMDAFARL  154
+
+
+> UniRef90_H9UE66 Uncharacterized protein n=2 Tax=Fervidobacterium 
+pennivorans TaxID=93466 RepID=H9UE66_FERPD
+Length=167
+
+ Score = 140 bits (352),  Expect = 4e-39, Method: Composition-based stats.
+ Identities = 37/134 (28%), Positives = 73/134 (54%), Gaps = 9/134 (7%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEM-KGKVAVFETEYGPVFLYVYKGE-E  58
+            PP +YS++ AI V+  + Y L D   ++ +GD+E+ +G+ A F+   G + ++ Y+   +
+Sbjct  34   PPASYSVEAAINVIANK-YMLLDSGWVNGFGDMELGEGRYATFDGVDGFLMVFKYEDPDQ  92
+
+Query  59   AKKIWKKLNGRVSIRSVL-----DLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEE  113
+            AK  W K+  R      L     ++   G F+       + +W+++NWLF++ G + +E+
+Sbjct  93   AKASWDKITKRYGNPLRLKYLKINMGTYGVFTIRLENTDLYSWYKENWLFVITG-DKIEK  151
+
+Query  114  FVKHVYRVYEEMKQ  127
+            FV  V  +Y+ ++ 
+Sbjct  152  FVMDVNNIYKTIRT  165
+
+
+> UniRef90_UPI000932F394 UPI000932F394 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000932F394
+Length=163
+
+ Score = 140 bits (352),  Expect = 4e-39, Method: Composition-based stats.
+ Identities = 41/134 (31%), Positives = 77/134 (57%), Gaps = 9/134 (7%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEM-KGKVAVFETEYGPVFLYVYKG-EE  58
+            PP +YSL+ A+ VL  + Y L +   I+ +GD+++  G+ A+F+   G   L+ Y+  EE
+Sbjct  32   PPSSYSLEAAVNVLSNK-YTLLESGWINGFGDIQLGDGRFAIFDGVDGFFMLFKYESNEE  90
+
+Query  59   AKKIWKKLNGRVS----IRSV-LDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEE  113
+            AK+ W K+  +      I+ + +++ + G F+       + AW+++NWL +V G + +E 
+Sbjct  91   AKENWNKITKKYGNPLKIKYMKVNMGDYGVFTVRLESTDLYAWFKENWLIVVTG-DKIEG  149
+
+Query  114  FVKHVYRVYEEMKQ  127
+            FV+ V  +Y  +K+
+Sbjct  150  FVRDVNEIYNTVKR  163
+
+
+> UniRef90_A0A1E3G1R3 Uncharacterized protein n=1 Tax=Fervidobacterium 
+thailandensis TaxID=1008305 RepID=A0A1E3G1R3_9BACT
+Length=155
+
+ Score = 138 bits (348),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 45/134 (34%), Positives = 71/134 (53%), Gaps = 9/134 (7%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEM-KGKVAVFETEYGPVFLYVYKGEE-  58
+            PP +YSLD AI VL  + Y L D   ++ +G +E+ +G+ A F    G + ++ Y+ EE 
+Sbjct  24   PPSSYSLDAAINVLAGK-YYLLDSGHVEGFGGIELGQGRYATFADVDGILLVFKYESEEE  82
+
+Query  59   AKKIWKKLNGRVSIRSVLD-----LPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEE  113
+            AK+ W  L  +      L      + N G F+       + AW++ NWL IV G + VE 
+Sbjct  83   AKERWGALTKKYGNPFRLKYFKISMGNYGVFTVRLEKSDLYAWYKDNWLIIVNG-DNVER  141
+
+Query  114  FVKHVYRVYEEMKQ  127
+            FV+ V  +Y+ ++Q
+Sbjct  142  FVQDVNNIYKTIRQ  155
+
+
+> UniRef90_A0A0X1KRU3 Uncharacterized protein n=3 Tax=Thermotogaceae 
+TaxID=188709 RepID=A0A0X1KRU3_9THEM
+Length=146
+
+ Score = 137 bits (344),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 43/131 (33%), Positives = 75/131 (57%), Gaps = 7/131 (5%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEMKGKVAVFETEYGPVFL-YVYK--GE  57
+            PP  YSL++A+ +   + Y+L  ++ +  Y ++E+KG VAV+    G ++L Y +K   +
+Sbjct  12   PPRIYSLESAVQIPSGK-YKLIHLESVSGYENIELKGMVAVYRGPDGSMYLFYGFKSFDD  70
+
+Query  58   EAKKIWKKLNGRVSIRS---VLDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEEF  114
+              KK+WK +  +  + +    +DLP++G +S     K +VAWW+  WLF+VE K    +F
+Sbjct  71   APKKVWKSIVKKYGVWNLGVYIDLPSVGYYSVEKKDKHVVAWWKDVWLFVVESKGNPRDF  130
+
+Query  115  VKHVYRVYEEM  125
+            VK V   +  +
+Sbjct  131  VKDVMDAFARL  141
+
+
+> UniRef90_UPI0005976915 hypothetical protein n=1 Tax=Thermotoga 
+profunda TaxID=1508420 RepID=UPI0005976915
+Length=158
+
+ Score = 130 bits (328),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 48/130 (37%), Positives = 68/130 (52%), Gaps = 6/130 (5%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEMKGKVAVFETEYGPVFLYVYK--GEE  58
+            PP AYSL +A+  ++   Y L   +EID YG V+ KG VA +  +      Y +K     
+Sbjct  24   PPNAYSLTSALRSVQD-GYTLIFSEEIDGYGTVKQKGAVASYLKDGANYLFYGFKFYNGS  82
+
+Query  59   AKKIWKKLNG---RVSIRSVLDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEEFV  115
+            AK  WK++       S R+ LD P  G +ST  +GK IVAWW+  WLF+VE  +  E F 
+Sbjct  83   AKDGWKEIVKNFGIWSSRTYLDFPTSGLYSTKKDGKYIVAWWKDTWLFVVESSSNAEVFA  142
+
+Query  116  KHVYRVYEEM  125
+             +V   +  +
+Sbjct  143  NYVMDNFARI  152
+
+
+> UniRef90_A7HMP8 Uncharacterized protein n=1 Tax=Fervidobacterium 
+nodosum (strain ATCC 35602 / DSM 5306 / Rt17-B1) TaxID=381764 
+RepID=A7HMP8_FERNB
+Length=167
+
+ Score = 130 bits (327),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 39/133 (29%), Positives = 71/133 (53%), Gaps = 9/133 (7%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEM-KGKVAVFETEYGPVFLYVYKGEE-  58
+            PP +YS + AI VL  + Y L D   I+ +GD+ + +G+ A+F+   G   ++ Y  EE 
+Sbjct  35   PPSSYSQEAAINVLSNK-YYLIDSGYIEGFGDIYLGEGRYAIFDGVDGIFMVFKYDDEEH  93
+
+Query  59   AKKIWKKLNGRVSIRSVL-----DLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEE  113
+            AK+ W K+  + +    L     ++ + G F+       +  W++ NWL ++ G + ++ 
+Sbjct  94   AKESWNKITKKYNNPFKLKYFKVNMGDYGVFTLRLENTDLYVWYKDNWLIVISG-DKIDN  152
+
+Query  114  FVKHVYRVYEEMK  126
+            FVK V  +Y+ +K
+Sbjct  153  FVKDVNEIYKTIK  165
+
+
+> UniRef90_A8F4M0 Uncharacterized protein n=2 Tax=Pseudothermotoga 
+TaxID=1643951 RepID=A8F4M0_PSELT
+Length=159
+
+ Score = 127 bits (319),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 47/130 (36%), Positives = 69/130 (53%), Gaps = 6/130 (5%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEMKGKVAVFETEYGPVFLYVYK--GEE  58
+            PP  YS+ +A+  L+   Y L  V+E+D YG VE KG VA +  +      Y +K   E 
+Sbjct  25   PPRVYSISSAVKSLQD-SYLLVFVEEVDGYGPVEAKGVVASYVHDGKNYLFYGFKFYDES  83
+
+Query  59   AKKIWKKLNGRVSIRS---VLDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEEFV  115
+             K  WKK+   + I S     DL N G +S+  +GK IV WW+  W+FIVE  +  E+F 
+Sbjct  84   PKVYWKKIVKEIGIWSSRTYFDLLNSGLYSSKKDGKYIVVWWKDVWMFIVESSSNAEDFA  143
+
+Query  116  KHVYRVYEEM  125
+             +V   + ++
+Sbjct  144  NYVMNWFAKL  153
+
+
+> UniRef90_B7IF46 Lipoprotein, putative n=2 Tax=Thermosipho africanus 
+TaxID=2421 RepID=B7IF46_THEAB
+Length=158
+
+ Score = 118 bits (297),  Expect = 6e-31, Method: Composition-based stats.
+ Identities = 36/132 (27%), Positives = 68/132 (52%), Gaps = 8/132 (6%)
+
+Query  2    PEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEM-KGKVAVFETEYGPVFLYVYKGEE-A  59
+            P ++SL +AI +L++ +Y L +  EI+S   V++ +G   VF+   G  +++ Y+ E+  
+Sbjct  28   PGSFSLKSAISLLDSYEYPLVETGEINSLYGVQLNRGMYGVFKNFDGMFYVFKYEDEKLT  87
+
+Query  60   KKIWKKLNGRVSI-----RSVLDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEEF  114
+            K  W +L                L + G   T      ++ WW+ NWLF++ G N  +EF
+Sbjct  88   KNDWNRLIKTFGSVLKINYFKFSLFDRGYLQTKFEDLNVITWWKGNWLFVITGNNS-KEF  146
+
+Query  115  VKHVYRVYEEMK  126
+             +++ +VY  ++
+Sbjct  147  FEYINKVYGMIQ  158
+
+
+> UniRef90_A6LP92 Uncharacterized protein n=1 Tax=Thermosipho melanesiensis 
+(strain DSM 12029 / CIP 104789 / BI429) TaxID=391009 
+RepID=A6LP92_THEM4
+Length=158
+
+ Score = 118 bits (295),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 38/132 (29%), Positives = 64/132 (48%), Gaps = 8/132 (6%)
+
+Query  2    PEAYSLDTAIFVLETRDYRLSDVKEIDS-YGDVEMKGKVAVFETEYGPVFLYVYKGEE-A  59
+            P ++SL +A+ +L+   Y L+ V +++  YG     G   +FE   G  +++ Y     A
+Sbjct  28   PGSFSLKSALLILDGFQYPLTSVVKVNEVYGAKLGNGICGMFENFNGTFYVFKYVSSNVA  87
+
+Query  60   KKIWKKLNGRVSIRSVLDLPNM-----GKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEEF  114
+            K  WK    +V     ++         G F        I++WW+ NWLFI+ GK+  +EF
+Sbjct  88   KSNWKNFRKQVGGPLKINYLTYSWLDRGYFQVKYKSIDIISWWKDNWLFIITGKD-AKEF  146
+
+Query  115  VKHVYRVYEEMK  126
+              ++  VY E+K
+Sbjct  147  FNYINEVYGEIK  158
+
+
+> UniRef90_UPI0009167A24 UPI0009167A24 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009167A24
+Length=158
+
+ Score = 110 bits (274),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 40/132 (30%), Positives = 70/132 (53%), Gaps = 9/132 (7%)
+
+Query  1    PPEAYSLDTAIFVLETRDYRLSDVKEIDSYGDVEM-KGKVAVFETEYGPVFLYVYKGEEA  59
+            P  + SL  A+FVL+ + Y L +   I+S  +V++ +G   +F    G ++++ Y   E 
+Sbjct  27   PNGSASLKNALFVLDGK-YELKEYGYINSVFNVDLGEGIYGIFNNYEGMLYIFKYDSPEI  85
+
+Query  60   KKI-WKKLNG----RVSIRSV-LDLPNMGKFSTVSNGKKIVAWWRKNWLFIVEGKNGVEE  113
+             K+ WK         + I  V L+  + G   T   G KI++WW+  W+FI+ GK   E+
+Sbjct  86   TKVKWKTFIKTFGNPLKINYVNLNFFDRGYLKTNFEGIKIISWWKDKWIFILSGK-KPED  144
+
+Query  114  FVKHVYRVYEEM  125
+            F++++  VYE +
+Sbjct  145  FLEYINTVYEMV  156
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.142    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0434    0.140     1.90     42.6     43.6 
+
+Effective search space used: 441033908530
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

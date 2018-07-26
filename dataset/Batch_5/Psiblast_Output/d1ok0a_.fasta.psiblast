@@ -1,0 +1,3627 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1ok0a_
+
+Length=74
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P01092 Alpha-amylase inhibitor HOE-467A n=1 Tax=Strept...  155     1e-46
+  UniRef90_A0A0C5GMY0 Uncharacterized protein n=3 Tax=Streptomyce...  97.1    3e-24
+  UniRef90_A0A0F7VLV0 Alpha-amylase inhibitor HOE-467A n=2 Tax=St...  97.4    5e-24
+  UniRef90_UPI00093AA5D5 UPI00093AA5D5 related cluster n=1 Tax=un...  96.3    1e-23
+  UniRef90_P20596 Alpha-amylase inhibitor Paim-2 n=3 Tax=Streptom...  91.7    4e-22
+  UniRef90_A0A101SNF3 Uncharacterized protein n=1 Tax=Streptomyce...  91.3    1e-21
+  UniRef90_A0A117IVK5 Uncharacterized protein n=1 Tax=Streptomyce...  87.8    3e-20
+  UniRef90_A0A0A0NIJ0 Uncharacterized protein n=1 Tax=Streptomyce...  86.3    6e-20
+  UniRef90_A0A014L9N3 Alpha-amlyase n=1 Tax=Streptomyces sp. PRh5...  84.7    3e-19
+  UniRef90_A0A1J4P333 Uncharacterized protein n=1 Tax=Streptomyce...  84.0    7e-19
+  UniRef90_UPI0008361F06 UPI0008361F06 related cluster n=1 Tax=un...  81.6    5e-18
+  UniRef90_A0A117QLS8 Uncharacterized protein n=1 Tax=Streptomyce...  80.5    2e-17
+  UniRef90_A0A0X3VSV0 Uncharacterized protein n=2 Tax=Streptomyce...  71.2    2e-14
+  UniRef90_UPI00082CEAFC UPI00082CEAFC related cluster n=1 Tax=un...  68.9    1e-12
+  UniRef90_A0A117QI35 Alpha-amlyase n=2 Tax=Streptomyces antibiot...  57.4    8e-09
+  UniRef90_UPI0007892070 UPI0007892070 related cluster n=1 Tax=un...  55.8    4e-08
+  UniRef90_A0A0X3XTA4 Alpha-amlyase n=2 Tax=Streptomyces TaxID=18...  55.1    4e-08
+  UniRef90_UPI0004C38C4A alpha-amlyase n=1 Tax=Microtetraspora gl...  52.4    7e-07
+  UniRef90_W0NXI3 Alpha-amylase inhibitor n=1 Tax=Streptomyces sp...  51.2    2e-06
+  UniRef90_A0A1D8GA07 Alpha-amylase inhibitor Haim-2 n=2 Tax=Stre...  49.7    6e-06
+  UniRef90_UPI0007C6385C UPI0007C6385C related cluster n=1 Tax=un...  49.7    6e-06
+  UniRef90_UPI00093B1DEE UPI00093B1DEE related cluster n=1 Tax=un...  48.9    1e-05
+  UniRef90_UPI0007C81931 UPI0007C81931 related cluster n=1 Tax=un...  48.9    1e-05
+  UniRef90_A0A0F4IAB5 Alpha-amlyase n=1 Tax=Streptomyces sp. NRRL...  48.5    1e-05
+  UniRef90_A0A117RRL9 Uncharacterized protein n=1 Tax=Streptomyce...  47.8    2e-05
+  UniRef90_H1Q820 Alpha-amylase inhibitor Scaim n=2 Tax=Streptomy...  47.8    2e-05
+  UniRef90_A0A0U5M168 Alpha-amylase inhibitor Haim-2 n=2 Tax=Stre...  47.8    3e-05
+  UniRef90_UPI00068BB7B3 alpha-amlyase n=1 Tax=Streptomyces bikin...  47.4    4e-05
+  UniRef90_A0A0M8U6T7 Alpha-amlyase n=2 Tax=Streptomyces TaxID=18...  47.0    5e-05
+  UniRef90_A0A1D3DLF3 Alpha-amlyase n=1 Tax=Streptomyces thermoli...  46.6    6e-05
+  UniRef90_UPI0004ABA8B3 alpha-amylase n=1 Tax=Streptomyces peruv...  45.8    1e-04
+  UniRef90_P04082 Alpha-amylase inhibitor AI-3688 (Fragment) n=1 ...  45.1    1e-04
+  UniRef90_A0A0J7Z0L5 Alpha-amylase n=2 Tax=Streptomyces viridoch...  45.4    1e-04
+  UniRef90_A0A089WZL3 Alpha-amylase inhibitor Gaim n=2 Tax=Strept...  45.4    2e-04
+  UniRef90_UPI0007C4380C UPI0007C4380C related cluster n=1 Tax=un...  46.6    2e-04
+  UniRef90_UPI0008DE594F UPI0008DE594F related cluster n=2 Tax=un...  45.1    2e-04
+  UniRef90_UPI0004C7EBD6 UPI0004C7EBD6 related cluster n=1 Tax=un...  44.7    3e-04
+  UniRef90_P07512 Alpha-amylase inhibitor Z-2685 n=5 Tax=Streptom...  43.5    6e-04
+  UniRef90_A0A0U3THS1 Putative alpha-amylase n=1 Tax=Streptomyces...  43.5    8e-04
+  UniRef90_A0A0N1FWC8 Alpha amylase inhibitor n=1 Tax=Actinobacte...  43.5    0.001
+  UniRef90_UPI000568D394 hypothetical protein n=1 Tax=Streptomyce...  42.7    0.002
+  UniRef90_Q53356 Proteinaceous alpha-amylase inhibitor n=1 Tax=S...  42.7    0.002
+  UniRef90_D6A1J4 Alpha-amylase inhibitor n=3 Tax=Streptomyces Ta...  42.4    0.002
+  UniRef90_UPI000515AD85 alpha-amlyase n=1 Tax=Streptomyces globi...  41.6    0.003
+  UniRef90_UPI00093EA5D2 UPI00093EA5D2 related cluster n=1 Tax=un...  41.6    0.003
+  UniRef90_UPI0006E1EFED hypothetical protein n=1 Tax=Streptomyce...  41.6    0.004
+  UniRef90_A0A0Q9A757 Uncharacterized protein n=1 Tax=Streptomyce...  41.6    0.004
+  UniRef90_UPI0007C82F72 UPI0007C82F72 related cluster n=1 Tax=un...  42.7    0.004
+  UniRef90_V6UAI5 Alpha-amylase inhibitor n=3 Tax=Streptomyces Ta...  41.2    0.004
+  UniRef90_UPI000937479D UPI000937479D related cluster n=1 Tax=un...  41.2    0.005
+  UniRef90_V6KMU3 Uncharacterized protein n=3 Tax=Streptomyces ni...  41.2    0.005
+  UniRef90_UPI0006E1DD14 hypothetical protein n=1 Tax=Streptomyce...  41.2    0.005
+  UniRef90_A0A1A9QX78 Alpha-amlyase n=1 Tax=Streptomyces albulus ...  41.2    0.006
+
+
+> UniRef90_P01092 Alpha-amylase inhibitor HOE-467A n=1 Tax=Streptomyces 
+tendae TaxID=1932 RepID=IAA_STRTE
+Length=104
+
+ Score = 155 bits (391),  Expect = 1e-46, Method: Compositional matrix adjust.
+ Identities = 73/74 (99%), Positives = 74/74 (100%), Gaps = 0/74 (0%)
+
+Query  1    DTTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGY  60
+            DTTVSEPAPSCVTLYQSWRYSQADNGCA+TVTVKVVYEDDTEGLCYAVAPGQITTVGDGY
+Sbjct  31   DTTVSEPAPSCVTLYQSWRYSQADNGCAQTVTVKVVYEDDTEGLCYAVAPGQITTVGDGY  90
+
+Query  61   IGSHGHARYLARCL  74
+            IGSHGHARYLARCL
+Sbjct  91   IGSHGHARYLARCL  104
+
+
+> UniRef90_A0A0C5GMY0 Uncharacterized protein n=3 Tax=Streptomyces 
+cyaneogriseus subsp. noncyanogenus TaxID=477245 RepID=A0A0C5GMY0_9ACTN
+Length=86
+
+ Score = 97.1 bits (240),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 44/63 (70%), Positives = 52/63 (83%), Gaps = 0/63 (0%)
+
+Query  11  CVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARYL  70
+           CV LY+SWRY+QA N CA T+TVKVVY+D  EGLC+AV PG+ITTV +GY+G HGHARY 
+Sbjct  23  CVVLYESWRYTQAGNDCAVTMTVKVVYQDGAEGLCHAVRPGEITTVAEGYLGPHGHARYA  82
+
+Query  71  ARC  73
+           A C
+Sbjct  83  ALC  85
+
+
+> UniRef90_A0A0F7VLV0 Alpha-amylase inhibitor HOE-467A n=2 Tax=Streptomyces 
+leeuwenhoekii TaxID=1437453 RepID=A0A0F7VLV0_9ACTN
+Length=107
+
+ Score = 97.4 bits (241),  Expect = 5e-24, Method: Compositional matrix adjust.
+ Identities = 44/64 (69%), Positives = 53/64 (83%), Gaps = 0/64 (0%)
+
+Query  10   SCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARY  69
+            SCV LY+SWRY+QA N CA  +TVKVVY+D  EGLC+ V PG+ITTVG+GY+GS+GHARY
+Sbjct  43   SCVVLYESWRYTQAGNDCAVPMTVKVVYQDGAEGLCHTVRPGEITTVGEGYLGSYGHARY  102
+
+Query  70   LARC  73
+             A C
+Sbjct  103  AALC  106
+
+
+> UniRef90_UPI00093AA5D5 UPI00093AA5D5 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00093AA5D5
+Length=102
+
+ Score = 96.3 bits (238),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 41/68 (60%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  6   EPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHG  65
+           EPAP+CV +Y+SWRY+QA N CA+TV +KVVY+D   G C+ + PG I+TVG+GY+G HG
+Sbjct  32  EPAPACVAMYESWRYTQAANDCADTVALKVVYQDGATGPCHTLPPGAISTVGEGYLGLHG  91
+
+Query  66  HARYLARC  73
+           HA +LA C
+Sbjct  92  HADHLAVC  99
+
+
+> UniRef90_P20596 Alpha-amylase inhibitor Paim-2 n=3 Tax=Streptomyces 
+TaxID=1883 RepID=IAA2_STROI
+Length=75
+
+ Score = 91.7 bits (226),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 39/69 (57%), Positives = 51/69 (74%), Gaps = 0/69 (0%)
+
+Query  5   SEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSH  64
+           SEPAP+CV +Y+SWRY+ A N CA+TV+V V Y+D   G C  + PG +TTVG+GY+G H
+Sbjct  4   SEPAPACVVMYESWRYTTAANNCADTVSVSVAYQDGATGPCATLPPGAVTTVGEGYLGEH  63
+
+Query  65  GHARYLARC  73
+           GH  +LA C
+Sbjct  64  GHPDHLALC  72
+
+
+> UniRef90_A0A101SNF3 Uncharacterized protein n=1 Tax=Streptomyces 
+bungoensis TaxID=285568 RepID=A0A101SNF3_9ACTN
+Length=101
+
+ Score = 91.3 bits (225),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 39/68 (57%), Positives = 50/68 (74%), Gaps = 0/68 (0%)
+
+Query  6   EPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHG  65
+            PAP+CV+LY+SWRY  A N CA+TV+V  VY+D   GLCY +  G  +TVG+GY+G HG
+Sbjct  32  SPAPACVSLYESWRYVNASNDCADTVSVATVYQDGATGLCYTLPSGAFSTVGEGYLGLHG  91
+
+Query  66  HARYLARC  73
+           HA +LA C
+Sbjct  92  HADHLALC  99
+
+
+> UniRef90_A0A117IVK5 Uncharacterized protein n=1 Tax=Streptomyces 
+kanasensis TaxID=936756 RepID=A0A117IVK5_9ACTN
+Length=122
+
+ Score = 87.8 bits (216),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 39/69 (57%), Positives = 48/69 (70%), Gaps = 0/69 (0%)
+
+Query  5    SEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSH  64
+            SEP   CVT +QSWRY+Q  N CA ++ V+VVYED  EGLC+   PG  TT+G+GY G H
+Sbjct  54   SEPVAPCVTHWQSWRYTQVTNDCATSLDVRVVYEDGAEGLCHPTQPGTTTTIGEGYTGRH  113
+
+Query  65   GHARYLARC  73
+            GH  Y+A C
+Sbjct  114  GHVAYVAAC  122
+
+
+> UniRef90_A0A0A0NIJ0 Uncharacterized protein n=1 Tax=Streptomyces 
+rapamycinicus NRRL 5491 TaxID=1343740 RepID=A0A0A0NIJ0_9ACTN
+Length=89
+
+ Score = 86.3 bits (212),  Expect = 6e-20, Method: Compositional matrix adjust.
+ Identities = 38/69 (55%), Positives = 49/69 (71%), Gaps = 0/69 (0%)
+
+Query  5   SEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSH  64
+           S PAP+CV +Y+SWRY+ A N CA+TV V VVY+D   G C  + PG  +TVG+GY+G H
+Sbjct  18  SGPAPACVAMYESWRYTDAANNCADTVGVMVVYQDGATGPCSTLPPGASSTVGEGYLGRH  77
+
+Query  65  GHARYLARC  73
+           GH  +LA C
+Sbjct  78  GHPDHLAAC  86
+
+
+> UniRef90_A0A014L9N3 Alpha-amlyase n=1 Tax=Streptomyces sp. PRh5 
+TaxID=1158056 RepID=A0A014L9N3_9ACTN
+Length=89
+
+ Score = 84.7 bits (208),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 37/69 (54%), Positives = 50/69 (72%), Gaps = 0/69 (0%)
+
+Query  5   SEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSH  64
+           S  AP+CV + +SWRY+ A N CA+TV+V VVY+D   GLC  ++PG  +TVG+GY+G H
+Sbjct  18  SGSAPACVAMSESWRYTNAANNCADTVSVMVVYQDGATGLCSTLSPGAYSTVGEGYLGRH  77
+
+Query  65  GHARYLARC  73
+           GH  +LA C
+Sbjct  78  GHPDHLAVC  86
+
+
+> UniRef90_A0A1J4P333 Uncharacterized protein n=1 Tax=Streptomyces 
+mangrovisoli TaxID=1428628 RepID=A0A1J4P333_9ACTN
+Length=104
+
+ Score = 84.0 bits (206),  Expect = 7e-19, Method: Compositional matrix adjust.
+ Identities = 38/63 (60%), Positives = 45/63 (71%), Gaps = 0/63 (0%)
+
+Query  11   CVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARYL  70
+            CV +YQSWRY  A N CA+ VTV  VY+D   GLCY +APG +TTVG GYIG HG+A +L
+Sbjct  39   CVAMYQSWRYLDAANNCADAVTVMAVYKDGATGLCYTLAPGAMTTVGAGYIGEHGYADHL  98
+
+Query  71   ARC  73
+              C
+Sbjct  99   ELC  101
+
+
+> UniRef90_UPI0008361F06 UPI0008361F06 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008361F06
+Length=101
+
+ Score = 81.6 bits (200),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 38/73 (52%), Positives = 50/73 (68%), Gaps = 1/73 (1%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQI-TTVGDGY  60
+            +  +EPAPSCVT  QSWRY+   NGC  T+ +KVVY+D  EG+C+ V P    TT+G GY
+Sbjct  29   SVAAEPAPSCVTYSQSWRYTDVTNGCGTTLQLKVVYKDGAEGVCHTVHPSPYPTTIGSGY  88
+
+Query  61   IGSHGHARYLARC  73
+            IG HG+  ++A C
+Sbjct  89   IGEHGYVDHIAWC  101
+
+
+> UniRef90_A0A117QLS8 Uncharacterized protein n=1 Tax=Streptomyces 
+longwoodensis TaxID=68231 RepID=A0A117QLS8_9ACTN
+Length=120
+
+ Score = 80.5 bits (197),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 37/63 (59%), Positives = 45/63 (71%), Gaps = 0/63 (0%)
+
+Query  11   CVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARYL  70
+            CV LY+SWRY  A N CA    V+VVY+D   GLCYA+AP   TTVG+GY+G+HGH  +L
+Sbjct  49   CVALYESWRYVTASNDCATPHQVQVVYQDGATGLCYALAPRTQTTVGEGYLGTHGHVDHL  108
+
+Query  71   ARC  73
+            A C
+Sbjct  109  ALC  111
+
+
+> UniRef90_A0A0X3VSV0 Uncharacterized protein n=2 Tax=Streptomyces 
+violaceusniger TaxID=68280 RepID=A0A0X3VSV0_STRVO
+Length=63
+
+ Score = 71.2 bits (173),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 31/60 (52%), Positives = 41/60 (68%), Gaps = 0/60 (0%)
+
+Query  14  LYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARYLARC  73
+           +Y+SWRY+ A N CA+TV V VVY+D    LC  + P   +TVG+GY+G HGH  +LA C
+Sbjct  1   MYESWRYTDAANNCADTVDVMVVYQDGATSLCSTLPPSASSTVGEGYLGRHGHPDHLAVC  60
+
+
+> UniRef90_UPI00082CEAFC UPI00082CEAFC related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00082CEAFC
+Length=185
+
+ Score = 68.9 bits (167),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 32/69 (46%), Positives = 41/69 (59%), Gaps = 0/69 (0%)
+
+Query  5   SEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSH  64
+           +E  P+CV   QSWRY+ A N C+  VT K VY+D  +  C  +APGQ  T+G GY G H
+Sbjct  30  AESVPTCVNYSQSWRYATATNTCSHGVTFKTVYQDGHQESCQYLAPGQTRTIGSGYTGPH  89
+
+Query  65  GHARYLARC  73
+           G    L +C
+Sbjct  90  GSLARLEQC  98
+
+
+> UniRef90_A0A117QI35 Alpha-amlyase n=2 Tax=Streptomyces antibioticus 
+TaxID=1890 RepID=A0A117QI35_STRAT
+Length=115
+
+ Score = 57.4 bits (137),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 28/59 (47%), Positives = 34/59 (58%), Gaps = 1/59 (2%)
+
+Query  7   PAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTV-GDGYIGSH  64
+           PAP CV  YQSWRY+   NGC ETV V V Y +    LC  + PG   T  G G+ G++
+Sbjct  40  PAPPCVEYYQSWRYTDVHNGCQETVAVTVEYTNHQWALCRVIEPGNWATFSGYGFNGNY  98
+
+
+> UniRef90_UPI0007892070 UPI0007892070 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007892070
+Length=118
+
+ Score = 55.8 bits (133),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 28/63 (44%), Positives = 36/63 (57%), Gaps = 1/63 (2%)
+
+Query  3    TVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAP-GQITTVGDGYI  61
+            TV EPAP CV  +QSWRY+   NGC + V+V V Y +     C  + P G+ T  G G  
+Sbjct  39   TVGEPAPQCVEYFQSWRYTDVHNGCLDAVSVTVEYTNGQWAPCRVIEPDGRATFAGYGTN  98
+
+Query  62   GSH  64
+            G+H
+Sbjct  99   GNH  101
+
+
+> UniRef90_A0A0X3XTA4 Alpha-amlyase n=2 Tax=Streptomyces TaxID=1883 
+RepID=A0A0X3XTA4_9ACTN
+Length=89
+
+ Score = 55.1 bits (131),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 28/63 (44%), Positives = 36/63 (57%), Gaps = 1/63 (2%)
+
+Query  3   TVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAP-GQITTVGDGYI  61
+           TV EPAP CV  +QSWRY+   NGC + V+V V Y +     C  + P G+ T  G G  
+Sbjct  10  TVGEPAPQCVEYFQSWRYTDVHNGCLDAVSVTVEYTNGQWAPCRVIEPDGRATFAGYGTN  69
+
+Query  62  GSH  64
+           G+H
+Sbjct  70  GNH  72
+
+
+> UniRef90_UPI0004C38C4A alpha-amlyase n=1 Tax=Microtetraspora 
+glauca TaxID=1996 RepID=UPI0004C38C4A
+Length=114
+
+ Score = 52.4 bits (124),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 26/59 (44%), Positives = 32/59 (54%), Gaps = 1/59 (2%)
+
+Query  7   PAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTV-GDGYIGSH  64
+           PAP CV  Y SWRY+   NGC +T+ V V Y +     C  +APG   T  G G  G+H
+Sbjct  42  PAPECVRYYASWRYTDVFNGCGDTMAVTVAYTNGQSAPCRVIAPGAWATFAGYGTDGNH  100
+
+
+> UniRef90_W0NXI3 Alpha-amylase inhibitor n=1 Tax=Streptomyces 
+sp. CC5 TaxID=1449803 RepID=W0NXI3_9ACTN
+Length=110
+
+ Score = 51.2 bits (121),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 22/50 (44%), Positives = 29/50 (58%), Gaps = 0/50 (0%)
+
+Query  7   PAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTV  56
+           PAP CV  +QSWRY+   NGC +TV+V V Y +     C  + PG+  T 
+Sbjct  39  PAPECVEYFQSWRYTNVHNGCGDTVSVAVEYTNGQWAPCRVLQPGEWATF  88
+
+
+> UniRef90_A0A1D8GA07 Alpha-amylase inhibitor Haim-2 n=2 Tax=Streptomyces 
+TaxID=1883 RepID=A0A1D8GA07_9ACTN
+Length=109
+
+ Score = 49.7 bits (117),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 27/55 (49%), Positives = 33/55 (60%), Gaps = 3/55 (5%)
+
+Query  1   DTTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITT  55
+           D+TV   AP+CV    SWRY+   N C+ T TV+VVY D T+  C  VAPG   T
+Sbjct  35  DSTV---APACVAFSASWRYTFVTNDCSTTHTVRVVYGDGTQVPCREVAPGATAT  86
+
+
+> UniRef90_UPI0007C6385C UPI0007C6385C related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007C6385C
+Length=108
+
+ Score = 49.7 bits (117),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 28/68 (41%), Positives = 34/68 (50%), Gaps = 1/68 (1%)
+
+Query  6   EPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHG  65
+            PAP CV   QSWRY+   NGC +TV+V V Y +     C  + PG   T   GY  S  
+Sbjct  34  SPAPECVHYVQSWRYTDVHNGCGDTVSVTVEYTNGQWAPCRVIEPGGRATF-SGYGTSGN  92
+
+Query  66  HARYLARC  73
+           +A  L  C
+Sbjct  93  YATGLRTC  100
+
+
+> UniRef90_UPI00093B1DEE UPI00093B1DEE related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00093B1DEE
+Length=102
+
+ Score = 48.9 bits (115),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 26/59 (44%), Positives = 34/59 (58%), Gaps = 2/59 (3%)
+
+Query  8   APSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGH  66
+           AP CVT    WRY+   N C++T+TVKVVY D T+  C    P  + T   GY G+ G+
+Sbjct  38  APDCVTFSADWRYTFVTNDCSDTLTVKVVYRDGTDVPCRLAPPKALITFP-GY-GTSGN  94
+
+
+> UniRef90_UPI0007C81931 UPI0007C81931 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007C81931
+Length=106
+
+ Score = 48.9 bits (115),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 25/67 (37%), Positives = 34/67 (51%), Gaps = 1/67 (1%)
+
+Query  7   PAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGH  66
+           PAP CV  +QSWRY+   NGC + V+V V Y ++    C  + PG   T   GY  +  +
+Sbjct  32  PAPQCVEYFQSWRYTDVHNGCDDAVSVTVEYTNNQWAPCRVIEPGGRATFA-GYGTNENY  90
+
+Query  67  ARYLARC  73
+              L  C
+Sbjct  91  VTGLRTC  97
+
+
+> UniRef90_A0A0F4IAB5 Alpha-amlyase n=1 Tax=Streptomyces sp. NRRL 
+S-104 TaxID=1609135 RepID=A0A0F4IAB5_9ACTN
+Length=100
+
+ Score = 48.5 bits (114),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 23/51 (45%), Positives = 28/51 (55%), Gaps = 0/51 (0%)
+
+Query  6   EPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTV  56
+            PAP+CV   QSWRY+   NGC +TV V V Y +     C A+ PG   T 
+Sbjct  22  SPAPACVEYVQSWRYTDVHNGCGDTVAVTVEYTNGQWAPCRALEPGGRATF  72
+
+
+> UniRef90_A0A117RRL9 Uncharacterized protein n=1 Tax=Streptomyces 
+caeruleatus TaxID=661399 RepID=A0A117RRL9_9ACTN
+Length=117
+
+ Score = 47.8 bits (112),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 23/48 (48%), Positives = 28/48 (58%), Gaps = 0/48 (0%)
+
+Query  8   APSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITT  55
+           AP CV L   WRY+ A N C+ T T +VVY D T+  C   APG + T
+Sbjct  47  APDCVHLTVDWRYTFASNDCSSTYTFRVVYLDGTDVPCRTAAPGALIT  94
+
+
+> UniRef90_H1Q820 Alpha-amylase inhibitor Scaim n=2 Tax=Streptomyces 
+TaxID=1883 RepID=H1Q820_9ACTN
+Length=112
+
+ Score = 47.8 bits (112),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 26/56 (46%), Positives = 32/56 (57%), Gaps = 2/56 (4%)
+
+Query  11  CVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGH  66
+           CV  YQSWRY+   N CAETV V V Y +  +  C  +APG   T   GY G+ G+
+Sbjct  42  CVEYYQSWRYTDVVNNCAETVAVTVEYTNGQDAPCRVIAPGAWATFA-GY-GTDGN  95
+
+
+> UniRef90_A0A0U5M168 Alpha-amylase inhibitor Haim-2 n=2 Tax=Streptomyces 
+TaxID=1883 RepID=A0A0U5M168_STRRE
+Length=108
+
+ Score = 47.8 bits (112),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 23/55 (42%), Positives = 28/55 (51%), Gaps = 0/55 (0%)
+
+Query  1   DTTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITT  55
+           D     PAP CVT    WRY+   N C++T T+ VVY D TE       PG + T
+Sbjct  31  DAGSRPPAPDCVTFSAGWRYTFVTNNCSDTHTLTVVYRDGTEVPSRVAPPGALIT  85
+
+
+> UniRef90_UPI00068BB7B3 alpha-amlyase n=1 Tax=Streptomyces bikiniensis 
+TaxID=1896 RepID=UPI00068BB7B3
+Length=106
+
+ Score = 47.4 bits (111),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 24/55 (44%), Positives = 34/55 (62%), Gaps = 1/55 (2%)
+
+Query  11  CVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAP-GQITTVGDGYIGSH  64
+           CV  +QSWRY++  NGCA+TV+V V Y +     C  V P G++T  G G  G++
+Sbjct  35  CVEHFQSWRYTEVHNGCADTVSVTVEYTNGQWAPCRVVEPGGRVTFAGYGTNGNY  89
+
+
+> UniRef90_A0A0M8U6T7 Alpha-amlyase n=2 Tax=Streptomyces TaxID=1883 
+RepID=A0A0M8U6T7_9ACTN
+Length=100
+
+ Score = 47.0 bits (110),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 22/51 (43%), Positives = 27/51 (53%), Gaps = 0/51 (0%)
+
+Query  6   EPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTV  56
+            PAP+CV   QSWRY+   NGC +TV V V Y +     C  + PG   T 
+Sbjct  22  SPAPACVEYVQSWRYTDVHNGCGDTVAVTVEYTNGQWAPCRVLEPGGRATF  72
+
+
+> UniRef90_A0A1D3DLF3 Alpha-amlyase n=1 Tax=Streptomyces thermolilacinus 
+SPC6 TaxID=1306406 RepID=A0A1D3DLF3_9ACTN
+Length=115
+
+ Score = 46.6 bits (109),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 22/48 (46%), Positives = 25/48 (52%), Gaps = 0/48 (0%)
+
+Query  9   PSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTV  56
+           P CV   QSWRY+   NGC ETV V V Y +     C  + PGQ  T 
+Sbjct  44  PECVQYSQSWRYTDVFNGCGETVAVTVEYTNGQWAPCRVIQPGQSATF  91
+
+
+> UniRef90_UPI0004ABA8B3 alpha-amylase n=1 Tax=Streptomyces peruviensis 
+TaxID=68253 RepID=UPI0004ABA8B3
+Length=77
+
+ Score = 45.8 bits (107),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 26/58 (45%), Positives = 31/58 (53%), Gaps = 1/58 (2%)
+
+Query  8   APSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPG-QITTVGDGYIGSH  64
+           AP CV L   WRY+ A N C+ T T+ V Y D T   C   APG +IT  G G  G+ 
+Sbjct  7   APDCVHLTVDWRYTFASNDCSSTYTLTVAYLDGTAAPCRTAAPGDRITFPGRGTQGNE  64
+
+
+> UniRef90_P04082 Alpha-amylase inhibitor AI-3688 (Fragment) n=1 
+Tax=Streptomyces aureofaciens TaxID=1894 RepID=IAA_STRAU
+Length=36
+
+ Score = 45.1 bits (105),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 19/32 (59%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  7   PAPSCVTLYQSWRYSQADNGCAETVTVKVVYE  38
+           PAP CV  +QSWRY+   NGC++ VTV V YE
+Sbjct  5   PAPDCVESFQSWRYTDVRNGCSDAVTVVVQYE  36
+
+
+> UniRef90_A0A0J7Z0L5 Alpha-amylase n=2 Tax=Streptomyces viridochromogenes 
+TaxID=1938 RepID=A0A0J7Z0L5_STRVR
+Length=77
+
+ Score = 45.4 bits (106),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 27/61 (44%), Positives = 32/61 (52%), Gaps = 1/61 (2%)
+
+Query  5   SEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPG-QITTVGDGYIGS  63
+           S  AP CV L   WRY+   N C+ T T+ V Y D TE  C   APG +IT  G G  G+
+Sbjct  4   SMSAPDCVHLTVDWRYTFVSNDCSSTYTLTVAYLDGTEVPCRTAAPGDRITFPGRGTQGN  63
+
+Query  64  H  64
+            
+Sbjct  64  E  64
+
+
+> UniRef90_A0A089WZL3 Alpha-amylase inhibitor Gaim n=2 Tax=Streptomyces 
+glaucescens TaxID=1907 RepID=A0A089WZL3_STRGA
+Length=113
+
+ Score = 45.4 bits (106),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 24/57 (42%), Positives = 30/57 (53%), Gaps = 1/57 (2%)
+
+Query  8   APSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTV-GDGYIGS  63
+           AP CVT    WRY+   N C +T T+KVVY D T+       PG + T  G G  G+
+Sbjct  43  APECVTFSADWRYTFVTNNCPDTHTLKVVYRDGTDVPSRVAPPGAMVTFPGHGTTGN  99
+
+
+> UniRef90_UPI0007C4380C UPI0007C4380C related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007C4380C
+Length=207
+
+ Score = 46.6 bits (109),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 24/65 (37%), Positives = 31/65 (48%), Gaps = 1/65 (2%)
+
+Query  9    PSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHAR  68
+            P+CV  Y SWRY+Q  N C+  V++ V Y +     C  V PG   T  DGY     +  
+Sbjct  43   PACVQYYSSWRYTQVANNCSTAVSISVQYTNGQSSACQTVQPGAWATF-DGYGTDMNYVT  101
+
+Query  69   YLARC  73
+             L  C
+Sbjct  102  GLLTC  106
+
+
+> UniRef90_UPI0008DE594F UPI0008DE594F related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI0008DE594F
+Length=115
+
+ Score = 45.1 bits (105),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 24/56 (43%), Positives = 32/56 (57%), Gaps = 2/56 (4%)
+
+Query  11  CVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGH  66
+           CV  YQSWRY+   NGC +TV V V Y +     C  + PG+  T   GY G++G+
+Sbjct  46  CVEYYQSWRYTDVRNGCGDTVAVTVEYTNGQWAPCRVIQPGEWATFA-GY-GTNGN  99
+
+
+> UniRef90_UPI0004C7EBD6 UPI0004C7EBD6 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0004C7EBD6
+Length=116
+
+ Score = 44.7 bits (104),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 21/42 (50%), Positives = 24/42 (57%), Gaps = 0/42 (0%)
+
+Query  7   PAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAV  48
+           PAPSCV  Y SWRY+   NGC+    V V Y+D T   C  V
+Sbjct  41  PAPSCVEYYPSWRYTDVHNGCSGAEAVAVQYQDGTVSPCQVV  82
+
+
+> UniRef90_P07512 Alpha-amylase inhibitor Z-2685 n=5 Tax=Streptomyces 
+TaxID=1883 RepID=IAA_STRRO
+Length=76
+
+ Score = 43.5 bits (101),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 20/50 (40%), Positives = 25/50 (50%), Gaps = 0/50 (0%)
+
+Query  7   PAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTV  56
+           P   CV  +QSWRY+   NGCA+ V+V V Y       C  + PG   T 
+Sbjct  5   PVAECVEYFQSWRYTDVHNGCADAVSVTVEYTHGQWAPCRVIEPGGWATF  54
+
+
+> UniRef90_A0A0U3THS1 Putative alpha-amylase n=1 Tax=Streptomyces 
+variabilis TaxID=67372 RepID=A0A0U3THS1_9ACTN
+Length=91
+
+ Score = 43.5 bits (101),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 25/65 (38%), Positives = 27/65 (42%), Gaps = 0/65 (0%)
+
+Query  6   EPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHG  65
+           EPAP CV    SWRY+   N C     V V Y D  E  C    PG   T      G +G
+Sbjct  20  EPAPECVRYAASWRYTHVTNDCGTAHRVTVEYTDGAEVPCRETQPGATVTFPGYGTGGNG  79
+
+Query  66  HARYL  70
+             R L
+Sbjct  80  VLRVL  84
+
+
+> UniRef90_A0A0N1FWC8 Alpha amylase inhibitor n=1 Tax=Actinobacteria 
+bacterium OV450 TaxID=1592328 RepID=A0A0N1FWC8_9ACTN
+Length=121
+
+ Score = 43.5 bits (101),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 21/58 (36%), Positives = 31/58 (53%), Gaps = 1/58 (2%)
+
+Query  8   APSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTV-GDGYIGSH  64
+           AP+C    +SWRY+   NGC++ + + V Y +  E  C  + PG   T  G G  G+H
+Sbjct  37  APACADYQESWRYTDVHNGCSDALALTVTYVNGQEAPCRLIDPGGWATFAGYGTNGNH  94
+
+
+> UniRef90_UPI000568D394 hypothetical protein n=1 Tax=Streptomyces 
+sp. CNT372 TaxID=1169154 RepID=UPI000568D394
+Length=100
+
+ Score = 42.7 bits (99),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 27/64 (42%), Positives = 32/64 (50%), Gaps = 2/64 (3%)
+
+Query  3   TVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIG  62
+           T   PAP CVT   SWRY+   NGC     + + Y D  E  C  VAPG   T   GY G
+Sbjct  27  TAPVPAPECVTHSASWRYTFVTNGCEGAQHLTLRYLDGGEVPCRTVAPGATATF-PGY-G  84
+
+Query  63  SHGH  66
+           + G+
+Sbjct  85  TQGN  88
+
+
+> UniRef90_Q53356 Proteinaceous alpha-amylase inhibitor n=1 Tax=Streptomyces 
+nitrosporeus TaxID=28894 RepID=Q53356_9ACTN
+Length=110
+
+ Score = 42.7 bits (99),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 22/50 (44%), Positives = 28/50 (56%), Gaps = 1/50 (2%)
+
+Query  11  CVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAP-GQITTVGDG  59
+           CV  +QSWRY+   NGC+ETV+V V Y +     C  + P G  T  G G
+Sbjct  42  CVESFQSWRYTDVHNGCSETVSVTVEYTNGQWAPCVTIQPDGWATFAGYG  91
+
+
+> UniRef90_D6A1J4 Alpha-amylase inhibitor n=3 Tax=Streptomyces 
+TaxID=1883 RepID=D6A1J4_9ACTN
+Length=115
+
+ Score = 42.4 bits (98),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 23/56 (41%), Positives = 30/56 (54%), Gaps = 1/56 (2%)
+
+Query  8   APSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPG-QITTVGDGYIG  62
+           AP+CV +   WRY+   N C+ T T+ V Y D  E  C  V PG ++T  G G  G
+Sbjct  45  APACVEVGADWRYAFVTNTCSSTYTLTVAYSDGREVPCRVVHPGDRVTFPGHGTRG  100
+
+
+> UniRef90_UPI000515AD85 alpha-amlyase n=1 Tax=Streptomyces globisporus 
+TaxID=1908 RepID=UPI000515AD85
+Length=105
+
+ Score = 41.6 bits (96),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 23/56 (41%), Positives = 32/56 (57%), Gaps = 2/56 (4%)
+
+Query  11  CVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGH  66
+           CV  +Q WRY+   NGCA +V V V Y +  E  C  + PG+  T   GY G++G+
+Sbjct  35  CVEYHQGWRYTDVVNGCAVSVAVTVEYTNGQEAPCRVLGPGEWGTFA-GY-GTNGN  88
+
+
+> UniRef90_UPI00093EA5D2 UPI00093EA5D2 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00093EA5D2
+Length=97
+
+ Score = 41.6 bits (96),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 21/48 (44%), Positives = 23/48 (48%), Gaps = 0/48 (0%)
+
+Query  8   APSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITT  55
+           AP+CV     WRY+   NGC  T  V V Y D T   C   APG   T
+Sbjct  28  APACVEYSAGWRYTFVSNGCESTQHVTVEYRDGTSMPCRTAAPGDTVT  75
+
+
+> UniRef90_UPI0006E1EFED hypothetical protein n=1 Tax=Streptomyces 
+pactum TaxID=68249 RepID=UPI0006E1EFED
+Length=109
+
+ Score = 41.6 bits (96),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 19/44 (43%), Positives = 25/44 (57%), Gaps = 0/44 (0%)
+
+Query  7   PAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAP  50
+           PAP+C+T    WRY+   N C+    VKV+Y D  +  C  VAP
+Sbjct  38  PAPACLTYSPGWRYTFVSNDCSTAHRVKVLYGDGMDVPCQEVAP  81
+
+
+> UniRef90_A0A0Q9A757 Uncharacterized protein n=1 Tax=Streptomyces 
+sp. Root264 TaxID=1736503 RepID=A0A0Q9A757_9ACTN
+Length=105
+
+ Score = 41.6 bits (96),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 21/53 (40%), Positives = 25/53 (47%), Gaps = 0/53 (0%)
+
+Query  3   TVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITT  55
+           +  EPAP CV     WRY+   N CA +  V V Y D     C  +APG   T
+Sbjct  31  SAPEPAPDCVHHSSDWRYTTVVNDCAASQDVTVEYLDGQPAPCRRIAPGDRAT  83
+
+
+> UniRef90_UPI0007C82F72 UPI0007C82F72 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007C82F72
+Length=207
+
+ Score = 42.7 bits (99),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 23/65 (35%), Positives = 30/65 (46%), Gaps = 1/65 (2%)
+
+Query  9    PSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHAR  68
+            P+CV  Y SWRY+  +N C+  V+V V Y +     C  V P    T  DGY     +  
+Sbjct  43   PACVQYYSSWRYTLVNNTCSTGVSVSVQYTNGQSSTCQTVPPSAWATF-DGYGADMNYVT  101
+
+Query  69   YLARC  73
+             L  C
+Sbjct  102  GLLTC  106
+
+
+> UniRef90_V6UAI5 Alpha-amylase inhibitor n=3 Tax=Streptomyces 
+TaxID=1883 RepID=V6UAI5_9ACTN
+Length=101
+
+ Score = 41.2 bits (95),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 23/57 (40%), Positives = 31/57 (54%), Gaps = 2/57 (4%)
+
+Query  10  SCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGH  66
+            CV  +Q WRY+   NGCA  V V V Y +  E  C  + PG+  T   GY G++G+
+Sbjct  34  ECVVYHQGWRYTDVVNGCAIGVAVTVEYTNGQEAPCRILGPGERATFA-GY-GTNGN  88
+
+
+> UniRef90_UPI000937479D UPI000937479D related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000937479D
+Length=106
+
+ Score = 41.2 bits (95),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 25/64 (39%), Positives = 30/64 (47%), Gaps = 1/64 (2%)
+
+Query  1   DTTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTV-GDG  59
+           D     PAP CV  Y   RY+   N C   V+V VVY D     C  +AP  + T  G G
+Sbjct  30  DAPPGTPAPDCVHHYADRRYTTVVNDCDTPVSVTVVYSDGRWAPCRTLAPRDVATFAGYG  89
+
+Query  60  YIGS  63
+           + GS
+Sbjct  90  FDGS  93
+
+
+> UniRef90_V6KMU3 Uncharacterized protein n=3 Tax=Streptomyces 
+niveus TaxID=193462 RepID=V6KMU3_STRNV
+Length=118
+
+ Score = 41.2 bits (95),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 18/53 (34%), Positives = 31/53 (58%), Gaps = 8/53 (15%)
+
+Query  8   APSCVTLYQ-------SWR-YSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQ  52
+           AP+CV L+Q        WR  + A N C+  V +++++   T+G C+++ PGQ
+Sbjct  47  APTCVHLHQEDYIRDGQWRSLANAKNNCSHAVRIRMIWTGTTDGRCFSLNPGQ  99
+
+
+> UniRef90_UPI0006E1DD14 hypothetical protein n=1 Tax=Streptomyces 
+griseoplanus TaxID=66896 RepID=UPI0006E1DD14
+Length=101
+
+ Score = 41.2 bits (95),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 21/54 (39%), Positives = 29/54 (54%), Gaps = 1/54 (2%)
+
+Query  7   PAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPG-QITTVGDG  59
+           PAP C+T    WRY+   N C++  +V++ Y D     C   APG +IT  G G
+Sbjct  36  PAPPCITSTSDWRYTFVSNDCSQPYSVQLDYTDGAVSPCRYTAPGDRITFAGYG  89
+
+
+> UniRef90_A0A1A9QX78 Alpha-amlyase n=1 Tax=Streptomyces albulus 
+TaxID=68570 RepID=A0A1A9QX78_STRA9
+Length=114
+
+ Score = 41.2 bits (95),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 20/47 (43%), Positives = 22/47 (47%), Gaps = 0/47 (0%)
+
+Query  11  CVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVG  57
+           CV  Y SWRY+   NGC  TV V V Y D     C  + PG   T  
+Sbjct  45  CVQYYSSWRYTDVHNGCDVTVAVTVEYTDGQAAPCRVIEPGAWATFA  91
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.132    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 449436773765
+Results from round 2
+
+
+Query= d1ok0a_
+
+Length=74
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_UPI00093AA5D5 UPI00093AA5D5 related cluster n=1 Tax=un...  111     7e-30
+  UniRef90_P01092 Alpha-amylase inhibitor HOE-467A n=1 Tax=Strept...  108     3e-28
+  UniRef90_A0A0A0NIJ0 Uncharacterized protein n=1 Tax=Streptomyce...  104     4e-27
+  UniRef90_A0A014L9N3 Alpha-amlyase n=1 Tax=Streptomyces sp. PRh5...  101     8e-26
+  UniRef90_P20596 Alpha-amylase inhibitor Paim-2 n=3 Tax=Streptom...  100     1e-25
+  UniRef90_A0A101SNF3 Uncharacterized protein n=1 Tax=Streptomyce...  100     4e-25
+  UniRef90_UPI0007892070 UPI0007892070 related cluster n=1 Tax=un...  98.5    3e-24
+  UniRef90_UPI0008361F06 UPI0008361F06 related cluster n=1 Tax=un...  97.7    3e-24
+  UniRef90_W0NXI3 Alpha-amylase inhibitor n=1 Tax=Streptomyces sp...  97.4    5e-24
+  UniRef90_A0A0F7VLV0 Alpha-amylase inhibitor HOE-467A n=2 Tax=St...  94.7    6e-23
+  UniRef90_UPI0007C81931 UPI0007C81931 related cluster n=1 Tax=un...  94.3    8e-23
+  UniRef90_A0A0X3XTA4 Alpha-amlyase n=2 Tax=Streptomyces TaxID=18...  92.0    4e-22
+  UniRef90_A0A0C5GMY0 Uncharacterized protein n=3 Tax=Streptomyce...  91.6    6e-22
+  UniRef90_A0A117QI35 Alpha-amlyase n=2 Tax=Streptomyces antibiot...  92.0    8e-22
+  UniRef90_A0A1J4P333 Uncharacterized protein n=1 Tax=Streptomyce...  90.8    2e-21
+  UniRef90_UPI0004C38C4A alpha-amlyase n=1 Tax=Microtetraspora gl...  90.8    2e-21
+  UniRef90_UPI0008DE594F UPI0008DE594F related cluster n=2 Tax=un...  90.4    2e-21
+  UniRef90_A0A117IVK5 Uncharacterized protein n=1 Tax=Streptomyce...  90.8    3e-21
+  UniRef90_A0A0M8U6T7 Alpha-amlyase n=2 Tax=Streptomyces TaxID=18...  90.0    3e-21
+  UniRef90_UPI0007C6385C UPI0007C6385C related cluster n=1 Tax=un...  90.0    4e-21
+  UniRef90_A0A0F4IAB5 Alpha-amlyase n=1 Tax=Streptomyces sp. NRRL...  88.9    7e-21
+  UniRef90_A0A0X3VSV0 Uncharacterized protein n=2 Tax=Streptomyce...  87.7    8e-21
+  UniRef90_UPI00093B1DEE UPI00093B1DEE related cluster n=1 Tax=un...  88.5    1e-20
+  UniRef90_A0A0N1FWC8 Alpha amylase inhibitor n=1 Tax=Actinobacte...  87.7    3e-20
+  UniRef90_A0A1D3DLF3 Alpha-amlyase n=1 Tax=Streptomyces thermoli...  87.7    3e-20
+  UniRef90_A0A0U5M168 Alpha-amylase inhibitor Haim-2 n=2 Tax=Stre...  87.0    5e-20
+  UniRef90_A0A117QLS8 Uncharacterized protein n=1 Tax=Streptomyce...  87.0    6e-20
+  UniRef90_UPI00068BB7B3 alpha-amlyase n=1 Tax=Streptomyces bikin...  86.6    6e-20
+  UniRef90_P07512 Alpha-amylase inhibitor Z-2685 n=5 Tax=Streptom...  85.8    7e-20
+  UniRef90_UPI00082CEAFC UPI00082CEAFC related cluster n=1 Tax=un...  87.7    1e-19
+  UniRef90_H1Q820 Alpha-amylase inhibitor Scaim n=2 Tax=Streptomy...  84.6    5e-19
+  UniRef90_A0A0U3THS1 Putative alpha-amylase n=1 Tax=Streptomyces...  83.5    9e-19
+  UniRef90_Q53356 Proteinaceous alpha-amylase inhibitor n=1 Tax=S...  82.0    5e-18
+  UniRef90_A0A117RRL9 Uncharacterized protein n=1 Tax=Streptomyce...  80.8    1e-17
+  UniRef90_UPI0007C4380C UPI0007C4380C related cluster n=1 Tax=un...  82.7    2e-17
+  UniRef90_UPI000568D394 hypothetical protein n=1 Tax=Streptomyce...  80.0    2e-17
+  UniRef90_A0A0J7Z0L5 Alpha-amylase n=2 Tax=Streptomyces viridoch...  78.9    4e-17
+  UniRef90_A0A089WZL3 Alpha-amylase inhibitor Gaim n=2 Tax=Strept...  78.5    9e-17
+  UniRef90_A0A1D8GA07 Alpha-amylase inhibitor Haim-2 n=2 Tax=Stre...  76.9    4e-16
+  UniRef90_UPI0004C7EBD6 UPI0004C7EBD6 related cluster n=1 Tax=un...  76.6    6e-16
+  UniRef90_UPI0004ABA8B3 alpha-amylase n=1 Tax=Streptomyces peruv...  75.4    8e-16
+  UniRef90_D6A1J4 Alpha-amylase inhibitor n=3 Tax=Streptomyces Ta...  74.6    3e-15
+  UniRef90_P04082 Alpha-amylase inhibitor AI-3688 (Fragment) n=1 ...  53.8    6e-08
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A1A9QX78 Alpha-amlyase n=1 Tax=Streptomyces albulus ...  83.5    1e-18
+  UniRef90_A0A0Q9A757 Uncharacterized protein n=1 Tax=Streptomyce...  78.9    7e-17
+  UniRef90_UPI0007C78CF7 UPI0007C78CF7 related cluster n=1 Tax=un...  80.4    9e-17
+  UniRef90_UPI000938D6D6 UPI000938D6D6 related cluster n=1 Tax=un...  77.7    2e-16
+  UniRef90_Q82PK5 Putative secreted alpha-amylase inhibitor n=2 T...  77.3    3e-16
+  UniRef90_UPI000515AD85 alpha-amlyase n=1 Tax=Streptomyces globi...  76.6    4e-16
+  UniRef90_UPI0007C82F72 UPI0007C82F72 related cluster n=1 Tax=un...  77.7    9e-16
+  UniRef90_UPI0006E1EFED hypothetical protein n=1 Tax=Streptomyce...  75.8    1e-15
+  UniRef90_UPI00068B79AB hypothetical protein n=1 Tax=Streptomyce...  75.4    1e-15
+  UniRef90_P20078 Alpha-amylase inhibitor Haim-2 n=2 Tax=Streptom...  75.8    2e-15
+  UniRef90_V6UAI5 Alpha-amylase inhibitor n=3 Tax=Streptomyces Ta...  74.2    3e-15
+  UniRef90_A0A0M8QE66 Uncharacterized protein n=1 Tax=Streptomyce...  74.2    5e-15
+  UniRef90_UPI00055D7FF3 alpha-amylase n=3 Tax=Streptomyces TaxID...  73.9    5e-15
+  UniRef90_UPI00056D9B83 hypothetical protein n=1 Tax=Streptomyce...  72.7    2e-14
+  UniRef90_UPI000937479D UPI000937479D related cluster n=1 Tax=un...  72.7    2e-14
+  UniRef90_UPI00093EA5D2 UPI00093EA5D2 related cluster n=1 Tax=un...  71.9    2e-14
+  UniRef90_UPI0004C70964 hypothetical protein n=1 Tax=Streptomyce...  70.8    1e-13
+  UniRef90_UPI0004C781F5 UPI0004C781F5 related cluster n=1 Tax=un...  70.4    1e-13
+  UniRef90_UPI0006E1DD14 hypothetical protein n=1 Tax=Streptomyce...  70.0    1e-13
+  UniRef90_UPI000682D9E9 hypothetical protein n=1 Tax=Streptomyce...  69.2    3e-13
+  UniRef90_A0A081EPG5 Uncharacterized protein n=2 Tax=Streptomyce...  68.9    5e-13
+  UniRef90_A0A081XR95 Uncharacterized protein n=1 Tax=Streptomyce...  66.5    2e-12
+  UniRef90_UPI0004C0502A hypothetical protein n=1 Tax=Streptomyce...  62.3    3e-10
+  UniRef90_UPI00069B878F hypothetical protein n=1 Tax=Streptomyce...  53.1    4e-07
+  UniRef90_A0A1E5PL13 Uncharacterized protein n=1 Tax=Streptomyce...  51.5    2e-06
+  UniRef90_A0A0A2DMX7 Uncharacterized protein n=2 Tax=Corynebacte...  45.4    2e-04
+  UniRef90_G7HXP5 Uncharacterized protein n=1 Tax=Corynebacterium...  44.6    5e-04
+  UniRef90_A0A0X3W6Y5 Uncharacterized protein n=1 Tax=Streptomyce...  40.7    0.006
+  UniRef90_UPI0006E42FF6 hypothetical protein n=1 Tax=Microbispor...  40.7    0.007
+  UniRef90_UPI000304C851 hypothetical protein n=1 Tax=Calothrix s...  40.7    0.008
+
+
+> UniRef90_UPI00093AA5D5 UPI00093AA5D5 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00093AA5D5
+Length=102
+
+ Score = 111 bits (279),  Expect = 7e-30, Method: Composition-based stats.
+ Identities = 41/72 (57%), Positives = 55/72 (76%), Gaps = 0/72 (0%)
+
+Query  2   TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+           +   EPAP+CV +Y+SWRY+QA N CA+TV +KVVY+D   G C+ + PG I+TVG+GY+
+Sbjct  28  SESPEPAPACVAMYESWRYTQAANDCADTVALKVVYQDGATGPCHTLPPGAISTVGEGYL  87
+
+Query  62  GSHGHARYLARC  73
+           G HGHA +LA C
+Sbjct  88  GLHGHADHLAVC  99
+
+
+> UniRef90_P01092 Alpha-amylase inhibitor HOE-467A n=1 Tax=Streptomyces 
+tendae TaxID=1932 RepID=IAA_STRTE
+Length=104
+
+ Score = 108 bits (269),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 73/74 (99%), Positives = 74/74 (100%), Gaps = 0/74 (0%)
+
+Query  1    DTTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGY  60
+            DTTVSEPAPSCVTLYQSWRYSQADNGCA+TVTVKVVYEDDTEGLCYAVAPGQITTVGDGY
+Sbjct  31   DTTVSEPAPSCVTLYQSWRYSQADNGCAQTVTVKVVYEDDTEGLCYAVAPGQITTVGDGY  90
+
+Query  61   IGSHGHARYLARCL  74
+            IGSHGHARYLARCL
+Sbjct  91   IGSHGHARYLARCL  104
+
+
+> UniRef90_A0A0A0NIJ0 Uncharacterized protein n=1 Tax=Streptomyces 
+rapamycinicus NRRL 5491 TaxID=1343740 RepID=A0A0A0NIJ0_9ACTN
+Length=89
+
+ Score = 104 bits (260),  Expect = 4e-27, Method: Composition-based stats.
+ Identities = 38/70 (54%), Positives = 49/70 (70%), Gaps = 0/70 (0%)
+
+Query  4   VSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGS  63
+            S PAP+CV +Y+SWRY+ A N CA+TV V VVY+D   G C  + PG  +TVG+GY+G 
+Sbjct  17  TSGPAPACVAMYESWRYTDAANNCADTVGVMVVYQDGATGPCSTLPPGASSTVGEGYLGR  76
+
+Query  64  HGHARYLARC  73
+           HGH  +LA C
+Sbjct  77  HGHPDHLAAC  86
+
+
+> UniRef90_A0A014L9N3 Alpha-amlyase n=1 Tax=Streptomyces sp. PRh5 
+TaxID=1158056 RepID=A0A014L9N3_9ACTN
+Length=89
+
+ Score = 101 bits (251),  Expect = 8e-26, Method: Composition-based stats.
+ Identities = 37/70 (53%), Positives = 50/70 (71%), Gaps = 0/70 (0%)
+
+Query  4   VSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGS  63
+            S  AP+CV + +SWRY+ A N CA+TV+V VVY+D   GLC  ++PG  +TVG+GY+G 
+Sbjct  17  TSGSAPACVAMSESWRYTNAANNCADTVSVMVVYQDGATGLCSTLSPGAYSTVGEGYLGR  76
+
+Query  64  HGHARYLARC  73
+           HGH  +LA C
+Sbjct  77  HGHPDHLAVC  86
+
+
+> UniRef90_P20596 Alpha-amylase inhibitor Paim-2 n=3 Tax=Streptomyces 
+TaxID=1883 RepID=IAA2_STROI
+Length=75
+
+ Score = 100 bits (250),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 39/72 (54%), Positives = 52/72 (72%), Gaps = 0/72 (0%)
+
+Query  2   TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+           +  SEPAP+CV +Y+SWRY+ A N CA+TV+V V Y+D   G C  + PG +TTVG+GY+
+Sbjct  1   SDASEPAPACVVMYESWRYTTAANNCADTVSVSVAYQDGATGPCATLPPGAVTTVGEGYL  60
+
+Query  62  GSHGHARYLARC  73
+           G HGH  +LA C
+Sbjct  61  GEHGHPDHLALC  72
+
+
+> UniRef90_A0A101SNF3 Uncharacterized protein n=1 Tax=Streptomyces 
+bungoensis TaxID=285568 RepID=A0A101SNF3_9ACTN
+Length=101
+
+ Score = 100 bits (248),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 39/68 (57%), Positives = 50/68 (74%), Gaps = 0/68 (0%)
+
+Query  6   EPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHG  65
+            PAP+CV+LY+SWRY  A N CA+TV+V  VY+D   GLCY +  G  +TVG+GY+G HG
+Sbjct  32  SPAPACVSLYESWRYVNASNDCADTVSVATVYQDGATGLCYTLPSGAFSTVGEGYLGLHG  91
+
+Query  66  HARYLARC  73
+           HA +LA C
+Sbjct  92  HADHLALC  99
+
+
+> UniRef90_UPI0007892070 UPI0007892070 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007892070
+Length=118
+
+ Score = 98.5 bits (244),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 28/72 (39%), Positives = 35/72 (49%), Gaps = 1/72 (1%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+             TV EPAP CV  +QSWRY+   NGC + V+V V Y +     C  + P    T   GY 
+Sbjct  38   ATVGEPAPQCVEYFQSWRYTDVHNGCLDAVSVTVEYTNGQWAPCRVIEPDGRATFA-GYG  96
+
+Query  62   GSHGHARYLARC  73
+             +  H   L  C
+Sbjct  97   TNGNHVTGLRAC  108
+
+
+> UniRef90_UPI0008361F06 UPI0008361F06 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008361F06
+Length=101
+
+ Score = 97.7 bits (242),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 38/73 (52%), Positives = 50/73 (68%), Gaps = 1/73 (1%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQI-TTVGDGY  60
+            +  +EPAPSCVT  QSWRY+   NGC  T+ +KVVY+D  EG+C+ V P    TT+G GY
+Sbjct  29   SVAAEPAPSCVTYSQSWRYTDVTNGCGTTLQLKVVYKDGAEGVCHTVHPSPYPTTIGSGY  88
+
+Query  61   IGSHGHARYLARC  73
+            IG HG+  ++A C
+Sbjct  89   IGEHGYVDHIAWC  101
+
+
+> UniRef90_W0NXI3 Alpha-amylase inhibitor n=1 Tax=Streptomyces 
+sp. CC5 TaxID=1449803 RepID=W0NXI3_9ACTN
+Length=110
+
+ Score = 97.4 bits (241),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 26/72 (36%), Positives = 34/72 (47%), Gaps = 1/72 (1%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+                 PAP CV  +QSWRY+   NGC +TV+V V Y +     C  + PG+  T   GY 
+Sbjct  34   ADTGSPAPECVEYFQSWRYTNVHNGCGDTVSVAVEYTNGQWAPCRVLQPGEWATFA-GYG  92
+
+Query  62   GSHGHARYLARC  73
+                +   L  C
+Sbjct  93   TDGNYVTGLRTC  104
+
+
+> UniRef90_A0A0F7VLV0 Alpha-amylase inhibitor HOE-467A n=2 Tax=Streptomyces 
+leeuwenhoekii TaxID=1437453 RepID=A0A0F7VLV0_9ACTN
+Length=107
+
+ Score = 94.7 bits (234),  Expect = 6e-23, Method: Composition-based stats.
+ Identities = 44/64 (69%), Positives = 53/64 (83%), Gaps = 0/64 (0%)
+
+Query  10   SCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARY  69
+            SCV LY+SWRY+QA N CA  +TVKVVY+D  EGLC+ V PG+ITTVG+GY+GS+GHARY
+Sbjct  43   SCVVLYESWRYTQAGNDCAVPMTVKVVYQDGAEGLCHTVRPGEITTVGEGYLGSYGHARY  102
+
+Query  70   LARC  73
+             A C
+Sbjct  103  AALC  106
+
+
+> UniRef90_UPI0007C81931 UPI0007C81931 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007C81931
+Length=106
+
+ Score = 94.3 bits (233),  Expect = 8e-23, Method: Composition-based stats.
+ Identities = 25/68 (37%), Positives = 34/68 (50%), Gaps = 1/68 (1%)
+
+Query  6   EPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHG  65
+            PAP CV  +QSWRY+   NGC + V+V V Y ++    C  + PG   T   GY  +  
+Sbjct  31  GPAPQCVEYFQSWRYTDVHNGCDDAVSVTVEYTNNQWAPCRVIEPGGRATFA-GYGTNEN  89
+
+Query  66  HARYLARC  73
+           +   L  C
+Sbjct  90  YVTGLRTC  97
+
+
+> UniRef90_A0A0X3XTA4 Alpha-amlyase n=2 Tax=Streptomyces TaxID=1883 
+RepID=A0A0X3XTA4_9ACTN
+Length=89
+
+ Score = 92.0 bits (227),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 28/72 (39%), Positives = 35/72 (49%), Gaps = 1/72 (1%)
+
+Query  2   TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+            TV EPAP CV  +QSWRY+   NGC + V+V V Y +     C  + P    T   GY 
+Sbjct  9   ATVGEPAPQCVEYFQSWRYTDVHNGCLDAVSVTVEYTNGQWAPCRVIEPDGRATFA-GYG  67
+
+Query  62  GSHGHARYLARC  73
+            +  H   L  C
+Sbjct  68  TNGNHVTGLRAC  79
+
+
+> UniRef90_A0A0C5GMY0 Uncharacterized protein n=3 Tax=Streptomyces 
+cyaneogriseus subsp. noncyanogenus TaxID=477245 RepID=A0A0C5GMY0_9ACTN
+Length=86
+
+ Score = 91.6 bits (226),  Expect = 6e-22, Method: Composition-based stats.
+ Identities = 44/63 (70%), Positives = 52/63 (83%), Gaps = 0/63 (0%)
+
+Query  11  CVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARYL  70
+           CV LY+SWRY+QA N CA T+TVKVVY+D  EGLC+AV PG+ITTV +GY+G HGHARY 
+Sbjct  23  CVVLYESWRYTQAGNDCAVTMTVKVVYQDGAEGLCHAVRPGEITTVAEGYLGPHGHARYA  82
+
+Query  71  ARC  73
+           A C
+Sbjct  83  ALC  85
+
+
+> UniRef90_A0A117QI35 Alpha-amlyase n=2 Tax=Streptomyces antibioticus 
+TaxID=1890 RepID=A0A117QI35_STRAT
+Length=115
+
+ Score = 92.0 bits (227),  Expect = 8e-22, Method: Composition-based stats.
+ Identities = 29/67 (43%), Positives = 34/67 (51%), Gaps = 1/67 (1%)
+
+Query  7    PAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGH  66
+            PAP CV  YQSWRY+   NGC ETV V V Y +    LC  + PG   T   GY  +  +
+Sbjct  40   PAPPCVEYYQSWRYTDVHNGCQETVAVTVEYTNHQWALCRVIEPGNWATF-SGYGFNGNY  98
+
+Query  67   ARYLARC  73
+               L  C
+Sbjct  99   VTGLWTC  105
+
+
+> UniRef90_A0A1J4P333 Uncharacterized protein n=1 Tax=Streptomyces 
+mangrovisoli TaxID=1428628 RepID=A0A1J4P333_9ACTN
+Length=104
+
+ Score = 90.8 bits (224),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 38/63 (60%), Positives = 45/63 (71%), Gaps = 0/63 (0%)
+
+Query  11   CVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARYL  70
+            CV +YQSWRY  A N CA+ VTV  VY+D   GLCY +APG +TTVG GYIG HG+A +L
+Sbjct  39   CVAMYQSWRYLDAANNCADAVTVMAVYKDGATGLCYTLAPGAMTTVGAGYIGEHGYADHL  98
+
+Query  71   ARC  73
+              C
+Sbjct  99   ELC  101
+
+
+> UniRef90_UPI0004C38C4A alpha-amlyase n=1 Tax=Microtetraspora 
+glauca TaxID=1996 RepID=UPI0004C38C4A
+Length=114
+
+ Score = 90.8 bits (224),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 27/72 (38%), Positives = 32/72 (44%), Gaps = 1/72 (1%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+                 PAP CV  Y SWRY+   NGC +T+ V V Y +     C  +APG   T   GY 
+Sbjct  37   AATGAPAPECVRYYASWRYTDVFNGCGDTMAVTVAYTNGQSAPCRVIAPGAWATFA-GYG  95
+
+Query  62   GSHGHARYLARC  73
+                H   L  C
+Sbjct  96   TDGNHVTGLRSC  107
+
+
+> UniRef90_UPI0008DE594F UPI0008DE594F related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI0008DE594F
+Length=115
+
+ Score = 90.4 bits (223),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 24/64 (38%), Positives = 31/64 (48%), Gaps = 1/64 (2%)
+
+Query  10   SCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARY  69
+             CV  YQSWRY+   NGC +TV V V Y +     C  + PG+  T   GY  +  +   
+Sbjct  45   ECVEYYQSWRYTDVRNGCGDTVAVTVEYTNGQWAPCRVIQPGEWATFA-GYGTNGNYVTG  103
+
+Query  70   LARC  73
+            L  C
+Sbjct  104  LRTC  107
+
+
+> UniRef90_A0A117IVK5 Uncharacterized protein n=1 Tax=Streptomyces 
+kanasensis TaxID=936756 RepID=A0A117IVK5_9ACTN
+Length=122
+
+ Score = 90.8 bits (224),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 39/69 (57%), Positives = 48/69 (70%), Gaps = 0/69 (0%)
+
+Query  5    SEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSH  64
+            SEP   CVT +QSWRY+Q  N CA ++ V+VVYED  EGLC+   PG  TT+G+GY G H
+Sbjct  54   SEPVAPCVTHWQSWRYTQVTNDCATSLDVRVVYEDGAEGLCHPTQPGTTTTIGEGYTGRH  113
+
+Query  65   GHARYLARC  73
+            GH  Y+A C
+Sbjct  114  GHVAYVAAC  122
+
+
+> UniRef90_A0A0M8U6T7 Alpha-amlyase n=2 Tax=Streptomyces TaxID=1883 
+RepID=A0A0M8U6T7_9ACTN
+Length=100
+
+ Score = 90.0 bits (222),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 26/69 (38%), Positives = 32/69 (46%), Gaps = 1/69 (1%)
+
+Query  5   SEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSH  64
+             PAP+CV   QSWRY+   NGC +TV V V Y +     C  + PG   T   GY    
+Sbjct  21  GSPAPACVEYVQSWRYTDVHNGCGDTVAVTVEYTNGQWAPCRVLEPGGRATF-SGYGTGG  79
+
+Query  65  GHARYLARC  73
+            +   L  C
+Sbjct  80  NYVTGLRTC  88
+
+
+> UniRef90_UPI0007C6385C UPI0007C6385C related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007C6385C
+Length=108
+
+ Score = 90.0 bits (222),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 28/69 (41%), Positives = 34/69 (49%), Gaps = 1/69 (1%)
+
+Query  5   SEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSH  64
+             PAP CV   QSWRY+   NGC +TV+V V Y +     C  + PG   T   GY  S 
+Sbjct  33  GSPAPECVHYVQSWRYTDVHNGCGDTVSVTVEYTNGQWAPCRVIEPGGRATF-SGYGTSG  91
+
+Query  65  GHARYLARC  73
+            +A  L  C
+Sbjct  92  NYATGLRTC  100
+
+
+> UniRef90_A0A0F4IAB5 Alpha-amlyase n=1 Tax=Streptomyces sp. NRRL 
+S-104 TaxID=1609135 RepID=A0A0F4IAB5_9ACTN
+Length=100
+
+ Score = 88.9 bits (219),  Expect = 7e-21, Method: Composition-based stats.
+ Identities = 27/69 (39%), Positives = 33/69 (48%), Gaps = 1/69 (1%)
+
+Query  5   SEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSH  64
+             PAP+CV   QSWRY+   NGC +TV V V Y +     C A+ PG   T   GY    
+Sbjct  21  GSPAPACVEYVQSWRYTDVHNGCGDTVAVTVEYTNGQWAPCRALEPGGRATF-SGYGTGG  79
+
+Query  65  GHARYLARC  73
+            +   L  C
+Sbjct  80  NYVTGLRTC  88
+
+
+> UniRef90_A0A0X3VSV0 Uncharacterized protein n=2 Tax=Streptomyces 
+violaceusniger TaxID=68280 RepID=A0A0X3VSV0_STRVO
+Length=63
+
+ Score = 87.7 bits (216),  Expect = 8e-21, Method: Composition-based stats.
+ Identities = 31/60 (52%), Positives = 41/60 (68%), Gaps = 0/60 (0%)
+
+Query  14  LYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARYLARC  73
+           +Y+SWRY+ A N CA+TV V VVY+D    LC  + P   +TVG+GY+G HGH  +LA C
+Sbjct  1   MYESWRYTDAANNCADTVDVMVVYQDGATSLCSTLPPSASSTVGEGYLGRHGHPDHLAVC  60
+
+
+> UniRef90_UPI00093B1DEE UPI00093B1DEE related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00093B1DEE
+Length=102
+
+ Score = 88.5 bits (218),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 27/73 (37%), Positives = 34/73 (47%), Gaps = 1/73 (1%)
+
+Query  1    DTTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGY  60
+            D      AP CVT    WRY+   N C++T+TVKVVY D T+  C    P  + T   GY
+Sbjct  31   DAGSRLAAPDCVTFSADWRYTFVTNDCSDTLTVKVVYRDGTDVPCRLAPPKALITFP-GY  89
+
+Query  61   IGSHGHARYLARC  73
+              S      +  C
+Sbjct  90   GTSGNEVLGVDVC  102
+
+
+> UniRef90_A0A0N1FWC8 Alpha amylase inhibitor n=1 Tax=Actinobacteria 
+bacterium OV450 TaxID=1592328 RepID=A0A0N1FWC8_9ACTN
+Length=121
+
+ Score = 87.7 bits (216),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 22/72 (31%), Positives = 32/72 (44%), Gaps = 1/72 (1%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+                  AP+C    +SWRY+   NGC++ + + V Y +  E  C  + PG   T   GY 
+Sbjct  31   AASGPQAPACADYQESWRYTDVHNGCSDALALTVTYVNGQEAPCRLIDPGGWATFA-GYG  89
+
+Query  62   GSHGHARYLARC  73
+             +  H   L  C
+Sbjct  90   TNGNHVTGLQTC  101
+
+
+> UniRef90_A0A1D3DLF3 Alpha-amlyase n=1 Tax=Streptomyces thermolilacinus 
+SPC6 TaxID=1306406 RepID=A0A1D3DLF3_9ACTN
+Length=115
+
+ Score = 87.7 bits (216),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 26/65 (40%), Positives = 30/65 (46%), Gaps = 1/65 (2%)
+
+Query  9    PSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHAR  68
+            P CV   QSWRY+   NGC ETV V V Y +     C  + PGQ  T   GY     +  
+Sbjct  44   PECVQYSQSWRYTDVFNGCGETVAVTVEYTNGQWAPCRVIQPGQSATFA-GYGTDGNYVT  102
+
+Query  69   YLARC  73
+             L  C
+Sbjct  103  GLRTC  107
+
+
+> UniRef90_A0A0U5M168 Alpha-amylase inhibitor Haim-2 n=2 Tax=Streptomyces 
+TaxID=1883 RepID=A0A0U5M168_STRRE
+Length=108
+
+ Score = 87.0 bits (214),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 27/73 (37%), Positives = 33/73 (45%), Gaps = 1/73 (1%)
+
+Query  1    DTTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGY  60
+            D     PAP CVT    WRY+   N C++T T+ VVY D TE       PG + T   GY
+Sbjct  31   DAGSRPPAPDCVTFSAGWRYTFVTNNCSDTHTLTVVYRDGTEVPSRVAPPGALITFP-GY  89
+
+Query  61   IGSHGHARYLARC  73
+              S      +  C
+Sbjct  90   GTSGNEVLGVVLC  102
+
+
+> UniRef90_A0A117QLS8 Uncharacterized protein n=1 Tax=Streptomyces 
+longwoodensis TaxID=68231 RepID=A0A117QLS8_9ACTN
+Length=120
+
+ Score = 87.0 bits (214),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 37/63 (59%), Positives = 45/63 (71%), Gaps = 0/63 (0%)
+
+Query  11   CVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARYL  70
+            CV LY+SWRY  A N CA    V+VVY+D   GLCYA+AP   TTVG+GY+G+HGH  +L
+Sbjct  49   CVALYESWRYVTASNDCATPHQVQVVYQDGATGLCYALAPRTQTTVGEGYLGTHGHVDHL  108
+
+Query  71   ARC  73
+            A C
+Sbjct  109  ALC  111
+
+
+> UniRef90_UPI00068BB7B3 alpha-amlyase n=1 Tax=Streptomyces bikiniensis 
+TaxID=1896 RepID=UPI00068BB7B3
+Length=106
+
+ Score = 86.6 bits (213),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 25/64 (39%), Positives = 33/64 (52%), Gaps = 1/64 (2%)
+
+Query  10  SCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARY  69
+            CV  +QSWRY++  NGCA+TV+V V Y +     C  V PG   T   GY  +  +   
+Sbjct  34  DCVEHFQSWRYTEVHNGCADTVSVTVEYTNGQWAPCRVVEPGGRVTFA-GYGTNGNYVTG  92
+
+Query  70  LARC  73
+           L  C
+Sbjct  93  LRVC  96
+
+
+> UniRef90_P07512 Alpha-amylase inhibitor Z-2685 n=5 Tax=Streptomyces 
+TaxID=1883 RepID=IAA_STRRO
+Length=76
+
+ Score = 85.8 bits (211),  Expect = 7e-20, Method: Composition-based stats.
+ Identities = 24/70 (34%), Positives = 30/70 (43%), Gaps = 1/70 (1%)
+
+Query  4   VSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGS  63
+              P   CV  +QSWRY+   NGCA+ V+V V Y       C  + PG   T   GY   
+Sbjct  2   TGSPVAECVEYFQSWRYTDVHNGCADAVSVTVEYTHGQWAPCRVIEPGGWATFA-GYGTD  60
+
+Query  64  HGHARYLARC  73
+             +   L  C
+Sbjct  61  GNYVTGLHTC  70
+
+
+> UniRef90_UPI00082CEAFC UPI00082CEAFC related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00082CEAFC
+Length=185
+
+ Score = 87.7 bits (216),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 32/72 (44%), Positives = 42/72 (58%), Gaps = 0/72 (0%)
+
+Query  2   TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+           +  +E  P+CV   QSWRY+ A N C+  VT K VY+D  +  C  +APGQ  T+G GY 
+Sbjct  27  SAHAESVPTCVNYSQSWRYATATNTCSHGVTFKTVYQDGHQESCQYLAPGQTRTIGSGYT  86
+
+Query  62  GSHGHARYLARC  73
+           G HG    L +C
+Sbjct  87  GPHGSLARLEQC  98
+
+
+> UniRef90_H1Q820 Alpha-amylase inhibitor Scaim n=2 Tax=Streptomyces 
+TaxID=1883 RepID=H1Q820_9ACTN
+Length=112
+
+ Score = 84.6 bits (208),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 26/63 (41%), Positives = 32/63 (51%), Gaps = 1/63 (2%)
+
+Query  11   CVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARYL  70
+            CV  YQSWRY+   N CAETV V V Y +  +  C  +APG   T   GY     +A  +
+Sbjct  42   CVEYYQSWRYTDVVNNCAETVAVTVEYTNGQDAPCRVIAPGAWATFA-GYGTDGNYAIAV  100
+
+Query  71   ARC  73
+              C
+Sbjct  101  RTC  103
+
+
+> UniRef90_A0A0U3THS1 Putative alpha-amylase n=1 Tax=Streptomyces 
+variabilis TaxID=67372 RepID=A0A0U3THS1_9ACTN
+Length=91
+
+ Score = 83.5 bits (205),  Expect = 9e-19, Method: Composition-based stats.
+ Identities = 25/65 (38%), Positives = 27/65 (42%), Gaps = 0/65 (0%)
+
+Query  6   EPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHG  65
+           EPAP CV    SWRY+   N C     V V Y D  E  C    PG   T      G +G
+Sbjct  20  EPAPECVRYAASWRYTHVTNDCGTAHRVTVEYTDGAEVPCRETQPGATVTFPGYGTGGNG  79
+
+Query  66  HARYL  70
+             R L
+Sbjct  80  VLRVL  84
+
+
+> UniRef90_A0A1A9QX78 Alpha-amlyase n=1 Tax=Streptomyces albulus 
+TaxID=68570 RepID=A0A1A9QX78_STRA9
+Length=114
+
+ Score = 83.5 bits (205),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 24/64 (38%), Positives = 27/64 (42%), Gaps = 1/64 (2%)
+
+Query  10   SCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARY  69
+             CV  Y SWRY+   NGC  TV V V Y D     C  + PG   T   GY     +   
+Sbjct  44   ECVQYYSSWRYTDVHNGCDVTVAVTVEYTDGQAAPCRVIEPGAWATFA-GYGTQANYVTG  102
+
+Query  70   LARC  73
+            L  C
+Sbjct  103  LRTC  106
+
+
+> UniRef90_Q53356 Proteinaceous alpha-amylase inhibitor n=1 Tax=Streptomyces 
+nitrosporeus TaxID=28894 RepID=Q53356_9ACTN
+Length=110
+
+ Score = 82.0 bits (201),  Expect = 5e-18, Method: Composition-based stats.
+ Identities = 22/63 (35%), Positives = 31/63 (49%), Gaps = 1/63 (2%)
+
+Query  11   CVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARYL  70
+            CV  +QSWRY+   NGC+ETV+V V Y +     C  + P    T   GY  +  +   +
+Sbjct  42   CVESFQSWRYTDVHNGCSETVSVTVEYTNGQWAPCVTIQPDGWATFA-GYGTNSNYVTAV  100
+
+Query  71   ARC  73
+              C
+Sbjct  101  KTC  103
+
+
+> UniRef90_A0A117RRL9 Uncharacterized protein n=1 Tax=Streptomyces 
+caeruleatus TaxID=661399 RepID=A0A117RRL9_9ACTN
+Length=117
+
+ Score = 80.8 bits (198),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 27/64 (42%), Positives = 33/64 (52%), Gaps = 1/64 (2%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTV-GDGY  60
+            T     AP CV L   WRY+ A N C+ T T +VVY D T+  C   APG + T  G G 
+Sbjct  41   TQSPTTAPDCVHLTVDWRYTFASNDCSSTYTFRVVYLDGTDVPCRTAAPGALITFPGRGT  100
+
+Query  61   IGSH  64
+             G+ 
+Sbjct  101  QGNE  104
+
+
+> UniRef90_UPI0007C4380C UPI0007C4380C related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007C4380C
+Length=207
+
+ Score = 82.7 bits (203),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 25/71 (35%), Positives = 32/71 (45%), Gaps = 1/71 (1%)
+
+Query  3    TVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIG  62
+            T     P+CV  Y SWRY+Q  N C+  V++ V Y +     C  V PG   T  DGY  
+Sbjct  37   TEGTAPPACVQYYSSWRYTQVANNCSTAVSISVQYTNGQSSACQTVQPGAWATF-DGYGT  95
+
+Query  63   SHGHARYLARC  73
+               +   L  C
+Sbjct  96   DMNYVTGLLTC  106
+
+
+> UniRef90_UPI000568D394 hypothetical protein n=1 Tax=Streptomyces 
+sp. CNT372 TaxID=1169154 RepID=UPI000568D394
+Length=100
+
+ Score = 80.0 bits (196),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 26/63 (41%), Positives = 30/63 (48%), Gaps = 1/63 (2%)
+
+Query  3   TVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTV-GDGYI  61
+           T   PAP CVT   SWRY+   NGC     + + Y D  E  C  VAPG   T  G G  
+Sbjct  27  TAPVPAPECVTHSASWRYTFVTNGCEGAQHLTLRYLDGGEVPCRTVAPGATATFPGYGTQ  86
+
+Query  62  GSH  64
+           G+ 
+Sbjct  87  GNQ  89
+
+
+> UniRef90_A0A0J7Z0L5 Alpha-amylase n=2 Tax=Streptomyces viridochromogenes 
+TaxID=1938 RepID=A0A0J7Z0L5_STRVR
+Length=77
+
+ Score = 78.9 bits (193),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 27/61 (44%), Positives = 32/61 (52%), Gaps = 1/61 (2%)
+
+Query  5   SEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPG-QITTVGDGYIGS  63
+           S  AP CV L   WRY+   N C+ T T+ V Y D TE  C   APG +IT  G G  G+
+Sbjct  4   SMSAPDCVHLTVDWRYTFVSNDCSSTYTLTVAYLDGTEVPCRTAAPGDRITFPGRGTQGN  63
+
+Query  64  H  64
+            
+Sbjct  64  E  64
+
+
+> UniRef90_A0A0Q9A757 Uncharacterized protein n=1 Tax=Streptomyces 
+sp. Root264 TaxID=1736503 RepID=A0A0Q9A757_9ACTN
+Length=105
+
+ Score = 78.9 bits (193),  Expect = 7e-17, Method: Composition-based stats.
+ Identities = 24/72 (33%), Positives = 31/72 (43%), Gaps = 1/72 (1%)
+
+Query  3    TVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIG  62
+            +  EPAP CV     WRY+   N CA +  V V Y D     C  +APG   T   GY  
+Sbjct  31   SAPEPAPDCVHHSSDWRYTTVVNDCAASQDVTVEYLDGQPAPCRRIAPGDRATFA-GYGP  89
+
+Query  63   SHGHARYLARCL  74
+               +   +  C+
+Sbjct  90   QLNYVTGVRTCV  101
+
+
+> UniRef90_UPI0007C78CF7 UPI0007C78CF7 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007C78CF7
+Length=207
+
+ Score = 80.4 bits (197),  Expect = 9e-17, Method: Composition-based stats.
+ Identities = 23/65 (35%), Positives = 29/65 (45%), Gaps = 1/65 (2%)
+
+Query  9    PSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHAR  68
+            P+CV  Y SWRY++  N C+  V + V Y D     C  V PG   T   GY     +  
+Sbjct  43   PTCVQYYSSWRYTEVANDCSAAVGISVRYTDGQVSPCRTVPPGARATFA-GYGTDMNYVT  101
+
+Query  69   YLARC  73
+             L  C
+Sbjct  102  GLLTC  106
+
+
+> UniRef90_A0A089WZL3 Alpha-amylase inhibitor Gaim n=2 Tax=Streptomyces 
+glaucescens TaxID=1907 RepID=A0A089WZL3_STRGA
+Length=113
+
+ Score = 78.5 bits (192),  Expect = 9e-17, Method: Composition-based stats.
+ Identities = 24/59 (41%), Positives = 30/59 (51%), Gaps = 1/59 (2%)
+
+Query  6   EPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTV-GDGYIGS  63
+             AP CVT    WRY+   N C +T T+KVVY D T+       PG + T  G G  G+
+Sbjct  41  SAAPECVTFSADWRYTFVTNNCPDTHTLKVVYRDGTDVPSRVAPPGAMVTFPGHGTTGN  99
+
+
+> UniRef90_UPI000938D6D6 UPI000938D6D6 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000938D6D6
+Length=115
+
+ Score = 77.7 bits (190),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 23/63 (37%), Positives = 27/63 (43%), Gaps = 1/63 (2%)
+
+Query  11   CVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARYL  70
+            CV  +  WRY+   NGC  TV V V Y D     C  + PG   T   GY     +A  L
+Sbjct  46   CVQYHSGWRYTNVVNGCDFTVAVTVEYTDGQAAPCRVIEPGAWATFA-GYGSQFNYATGL  104
+
+Query  71   ARC  73
+              C
+Sbjct  105  RTC  107
+
+
+> UniRef90_Q82PK5 Putative secreted alpha-amylase inhibitor n=2 
+Tax=Streptomyces avermitilis TaxID=33903 RepID=Q82PK5_STRAW
+Length=119
+
+ Score = 77.3 bits (189),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 21/65 (32%), Positives = 28/65 (43%), Gaps = 1/65 (2%)
+
+Query  9    PSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHAR  68
+            P+CV +   WRY+   N C+    V VVY D     C   +PG I +   GY        
+Sbjct  40   PACVHINSDWRYTFVTNDCSSAYDVTVVYRDGANVPCRVASPGDIISFP-GYGTQGNTVL  98
+
+Query  69   YLARC  73
+             +A C
+Sbjct  99   GVALC  103
+
+
+> UniRef90_A0A1D8GA07 Alpha-amylase inhibitor Haim-2 n=2 Tax=Streptomyces 
+TaxID=1883 RepID=A0A1D8GA07_9ACTN
+Length=109
+
+ Score = 76.9 bits (188),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 29/66 (44%), Positives = 35/66 (53%), Gaps = 1/66 (2%)
+
+Query  8    APSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHA  67
+            AP+CV    SWRY+   N C+ T TV+VVY D T+  C  VAPG   T   GY  +    
+Sbjct  39   APACVAFSASWRYTFVTNDCSTTHTVRVVYGDGTQVPCREVAPGATATFP-GYGTTGNTV  97
+
+Query  68   RYLARC  73
+              LA C
+Sbjct  98   GGLALC  103
+
+
+> UniRef90_UPI000515AD85 alpha-amlyase n=1 Tax=Streptomyces globisporus 
+TaxID=1908 RepID=UPI000515AD85
+Length=105
+
+ Score = 76.6 bits (187),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 23/64 (36%), Positives = 31/64 (48%), Gaps = 1/64 (2%)
+
+Query  10  SCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARY  69
+            CV  +Q WRY+   NGCA +V V V Y +  E  C  + PG+  T   GY  +  +   
+Sbjct  34  ECVEYHQGWRYTDVVNGCAVSVAVTVEYTNGQEAPCRVLGPGEWGTFA-GYGTNGNYVTA  92
+
+Query  70  LARC  73
+           L  C
+Sbjct  93  LRTC  96
+
+
+> UniRef90_UPI0004C7EBD6 UPI0004C7EBD6 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0004C7EBD6
+Length=116
+
+ Score = 76.6 bits (187),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 26/67 (39%), Positives = 31/67 (46%), Gaps = 1/67 (1%)
+
+Query  7    PAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGH  66
+            PAPSCV  Y SWRY+   NGC+    V V Y+D T   C  V      T   GY  +  +
+Sbjct  41   PAPSCVEYYPSWRYTDVHNGCSGAEAVAVQYQDGTVSPCQVVQADSWMTYA-GYGTTMNY  99
+
+Query  67   ARYLARC  73
+               L  C
+Sbjct  100  VTGLLTC  106
+
+
+> UniRef90_UPI0004ABA8B3 alpha-amylase n=1 Tax=Streptomyces peruviensis 
+TaxID=68253 RepID=UPI0004ABA8B3
+Length=77
+
+ Score = 75.4 bits (184),  Expect = 8e-16, Method: Composition-based stats.
+ Identities = 27/61 (44%), Positives = 32/61 (52%), Gaps = 1/61 (2%)
+
+Query  5   SEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPG-QITTVGDGYIGS  63
+           S  AP CV L   WRY+ A N C+ T T+ V Y D T   C   APG +IT  G G  G+
+Sbjct  4   SMIAPDCVHLTVDWRYTFASNDCSSTYTLTVAYLDGTAAPCRTAAPGDRITFPGRGTQGN  63
+
+Query  64  H  64
+            
+Sbjct  64  E  64
+
+
+> UniRef90_UPI0007C82F72 UPI0007C82F72 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007C82F72
+Length=207
+
+ Score = 77.7 bits (190),  Expect = 9e-16, Method: Composition-based stats.
+ Identities = 23/65 (35%), Positives = 30/65 (46%), Gaps = 1/65 (2%)
+
+Query  9    PSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHAR  68
+            P+CV  Y SWRY+  +N C+  V+V V Y +     C  V P    T  DGY     +  
+Sbjct  43   PACVQYYSSWRYTLVNNTCSTGVSVSVQYTNGQSSTCQTVPPSAWATF-DGYGADMNYVT  101
+
+Query  69   YLARC  73
+             L  C
+Sbjct  102  GLLTC  106
+
+
+> UniRef90_UPI0006E1EFED hypothetical protein n=1 Tax=Streptomyces 
+pactum TaxID=68249 RepID=UPI0006E1EFED
+Length=109
+
+ Score = 75.8 bits (185),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 23/72 (32%), Positives = 31/72 (43%), Gaps = 1/72 (1%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+                 PAP+C+T    WRY+   N C+    VKV+Y D  +  C  VAP    T   GY 
+Sbjct  33   AGGQTPAPACLTYSPGWRYTFVSNDCSTAHRVKVLYGDGMDVPCQEVAPRNWFTFP-GYG  91
+
+Query  62   GSHGHARYLARC  73
+                  + +  C
+Sbjct  92   TEGNTIKGMVLC  103
+
+
+> UniRef90_UPI00068B79AB hypothetical protein n=1 Tax=Streptomyces 
+aureus TaxID=193461 RepID=UPI00068B79AB
+Length=97
+
+ Score = 75.4 bits (184),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 24/69 (35%), Positives = 28/69 (41%), Gaps = 1/69 (1%)
+
+Query  5   SEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSH  64
+             P P CV  Y  WRY+   N C  TV V V Y D     C  + P  I T   GY    
+Sbjct  25  PAPVPDCVHYYSDWRYTTVVNDCDTTVDVTVQYTDGQGAPCRTLDPRAIATFA-GYGPQL  83
+
+Query  65  GHARYLARC  73
+            +   L+ C
+Sbjct  84  NYVTGLSGC  92
+
+
+> UniRef90_P20078 Alpha-amylase inhibitor Haim-2 n=2 Tax=Streptomyces 
+griseosporeus TaxID=1910 RepID=IAA2_STRGS
+Length=120
+
+ Score = 75.8 bits (185),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 23/73 (32%), Positives = 29/73 (40%), Gaps = 1/73 (1%)
+
+Query  1    DTTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGY  60
+            D      AP+CV     WRY+   N C+   +V V Y D T+  C +  PG I T   GY
+Sbjct  33   DAGNRIAAPACVHFTADWRYTFVTNDCSIDYSVTVAYGDGTDVPCRSANPGDILTFP-GY  91
+
+Query  61   IGSHGHARYLARC  73
+                        C
+Sbjct  92   GTRGNEVLGAVLC  104
+
+
+> UniRef90_D6A1J4 Alpha-amylase inhibitor n=3 Tax=Streptomyces 
+TaxID=1883 RepID=D6A1J4_9ACTN
+Length=115
+
+ Score = 74.6 bits (182),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 23/57 (40%), Positives = 30/57 (53%), Gaps = 1/57 (2%)
+
+Query  8    APSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPG-QITTVGDGYIGS  63
+            AP+CV +   WRY+   N C+ T T+ V Y D  E  C  V PG ++T  G G  G 
+Sbjct  45   APACVEVGADWRYAFVTNTCSSTYTLTVAYSDGREVPCRVVHPGDRVTFPGHGTRGD  101
+
+
+> UniRef90_V6UAI5 Alpha-amylase inhibitor n=3 Tax=Streptomyces 
+TaxID=1883 RepID=V6UAI5_9ACTN
+Length=101
+
+ Score = 74.2 bits (181),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 23/64 (36%), Positives = 30/64 (47%), Gaps = 1/64 (2%)
+
+Query  10  SCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARY  69
+            CV  +Q WRY+   NGCA  V V V Y +  E  C  + PG+  T   GY  +  +   
+Sbjct  34  ECVVYHQGWRYTDVVNGCAIGVAVTVEYTNGQEAPCRILGPGERATFA-GYGTNGNYVTA  92
+
+Query  70  LARC  73
+           L  C
+Sbjct  93  LRVC  96
+
+
+> UniRef90_A0A0M8QE66 Uncharacterized protein n=1 Tax=Streptomyces 
+caelestis TaxID=36816 RepID=A0A0M8QE66_9ACTN
+Length=109
+
+ Score = 74.2 bits (181),  Expect = 5e-15, Method: Composition-based stats.
+ Identities = 22/72 (31%), Positives = 29/72 (40%), Gaps = 1/72 (1%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+                   P+C+T    WRY+   N C+    VKV+Y D T+  C  VAP    T   GY 
+Sbjct  33   AGNEASVPACLTYSPGWRYTFVINDCSTPHRVKVLYGDGTDVPCQEVAPRNWFTFP-GYG  91
+
+Query  62   GSHGHARYLARC  73
+                    +  C
+Sbjct  92   TEGNTVEGIVLC  103
+
+
+> UniRef90_UPI00055D7FF3 alpha-amylase n=3 Tax=Streptomyces TaxID=1883 
+RepID=UPI00055D7FF3
+Length=103
+
+ Score = 73.9 bits (180),  Expect = 5e-15, Method: Composition-based stats.
+ Identities = 22/63 (35%), Positives = 26/63 (41%), Gaps = 0/63 (0%)
+
+Query  6   EPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHG  65
+           EPAP CV    +WRY+   N C     + V Y D T   C    PG   T      G +G
+Sbjct  33  EPAPECVHYAATWRYTHVTNACDTAYRLTVEYTDGTGVPCREAQPGATVTFPGYGPGGNG  92
+
+Query  66  HAR  68
+             R
+Sbjct  93  VVR  95
+
+
+> UniRef90_UPI00056D9B83 hypothetical protein n=1 Tax=Streptomyces 
+toyocaensis TaxID=55952 RepID=UPI00056D9B83
+Length=109
+
+ Score = 72.7 bits (177),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 23/72 (32%), Positives = 31/72 (43%), Gaps = 1/72 (1%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+            T    P P+C+T    WRY+   N C+    VKV+Y D T+  C  VA     T   GY 
+Sbjct  33   TGNEAPVPACLTYSPGWRYTFVMNDCSTAHRVKVLYGDGTDVPCQEVAARNWFTFP-GYG  91
+
+Query  62   GSHGHARYLARC  73
+             +      +  C
+Sbjct  92   TTGNTVEGIVLC  103
+
+
+> UniRef90_UPI000937479D UPI000937479D related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000937479D
+Length=106
+
+ Score = 72.7 bits (177),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 26/74 (35%), Positives = 30/74 (41%), Gaps = 1/74 (1%)
+
+Query  1    DTTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGY  60
+            D     PAP CV  Y   RY+   N C   V+V VVY D     C  +AP  + T   GY
+Sbjct  30   DAPPGTPAPDCVHHYADRRYTTVVNDCDTPVSVTVVYSDGRWAPCRTLAPRDVATFA-GY  88
+
+Query  61   IGSHGHARYLARCL  74
+                     L  CL
+Sbjct  89   GFDGSRVTGLGNCL  102
+
+
+> UniRef90_UPI00093EA5D2 UPI00093EA5D2 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00093EA5D2
+Length=97
+
+ Score = 71.9 bits (175),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 24/69 (35%), Positives = 28/69 (41%), Gaps = 1/69 (1%)
+
+Query  5   SEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSH  64
+              AP+CV     WRY+   NGC  T  V V Y D T   C   APG   T   GY  + 
+Sbjct  25  GGAAPACVEYSAGWRYTFVSNGCESTQHVTVEYRDGTSMPCRTAAPGDTVTFP-GYGTTG  83
+
+Query  65  GHARYLARC  73
+                +  C
+Sbjct  84  NDVLGVVLC  92
+
+
+> UniRef90_UPI0004C70964 hypothetical protein n=1 Tax=Streptomyces 
+albus TaxID=1888 RepID=UPI0004C70964
+Length=114
+
+ Score = 70.8 bits (172),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 26/74 (35%), Positives = 32/74 (43%), Gaps = 1/74 (1%)
+
+Query  1    DTTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTV-GDG  59
+            D  VS PAP+CV    S RY+   N C  +  + V Y D     C + APG   T  G G
+Sbjct  38   DGPVSVPAPACVQYEASRRYTFVTNHCDTSQRLTVSYRDGATPPCRSAAPGDTVTFPGHG  97
+
+Query  60   YIGSHGHARYLARC  73
+            + G       L  C
+Sbjct  98   FGGDEVLGVNLCSC  111
+
+
+> UniRef90_UPI0004C781F5 UPI0004C781F5 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0004C781F5
+Length=105
+
+ Score = 70.4 bits (171),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 23/65 (35%), Positives = 27/65 (42%), Gaps = 1/65 (2%)
+
+Query  9   PSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHAR  68
+           P+CV     WRY+   NGC     V V Y D T   C   APG+  T   GY  S     
+Sbjct  37  PACVQYTAGWRYTFVSNGCDTVQQVTVEYRDGTAVPCRTAAPGETVTFP-GYGTSGNEVL  95
+
+Query  69  YLARC  73
+            +  C
+Sbjct  96  GVVLC  100
+
+
+> UniRef90_UPI0006E1DD14 hypothetical protein n=1 Tax=Streptomyces 
+griseoplanus TaxID=66896 RepID=UPI0006E1DD14
+Length=101
+
+ Score = 70.0 bits (170),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 21/67 (31%), Positives = 30/67 (45%), Gaps = 1/67 (1%)
+
+Query  7    PAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGH  66
+            PAP C+T    WRY+   N C++  +V++ Y D     C   APG   T   GY     +
+Sbjct  36   PAPPCITSTSDWRYTFVSNDCSQPYSVQLDYTDGAVSPCRYTAPGDRITFA-GYGTDADY  94
+
+Query  67   ARYLARC  73
+               +  C
+Sbjct  95   VTDVHLC  101
+
+
+> UniRef90_UPI000682D9E9 hypothetical protein n=1 Tax=Streptomyces 
+xinghaiensis TaxID=1038928 RepID=UPI000682D9E9
+Length=102
+
+ Score = 69.2 bits (168),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 24/65 (37%), Positives = 28/65 (43%), Gaps = 1/65 (2%)
+
+Query  1   DTTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTV-GDG  59
+           + TVS  AP+CV    SWRY+   N C     + V Y D     C  V PG   T  G G
+Sbjct  26  EETVSAAAPACVQYAASWRYTFVTNNCGTPQRLTVRYRDAATPPCRTVNPGDTVTFPGYG  85
+
+Query  60  YIGSH  64
+             G  
+Sbjct  86  VGGDE  90
+
+
+> UniRef90_A0A081EPG5 Uncharacterized protein n=2 Tax=Streptomyces 
+fradiae TaxID=1906 RepID=A0A081EPG5_STRFR
+Length=114
+
+ Score = 68.9 bits (167),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 24/71 (34%), Positives = 27/71 (38%), Gaps = 1/71 (1%)
+
+Query  4    VSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTV-GDGYIG  62
+            VS  AP+CV    SWRY+   N C     + V Y D     C    PG   T  G G  G
+Sbjct  41   VSATAPACVRYAASWRYTFVTNDCDTPQRLTVRYRDAATPPCRIANPGDTVTFPGYGVGG  100
+
+Query  63   SHGHARYLARC  73
+                   L  C
+Sbjct  101  DEVLGVNLCSC  111
+
+
+> UniRef90_A0A081XR95 Uncharacterized protein n=1 Tax=Streptomyces 
+toyocaensis TaxID=55952 RepID=A0A081XR95_STRTO
+Length=71
+
+ Score = 66.5 bits (161),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 21/65 (32%), Positives = 29/65 (45%), Gaps = 1/65 (2%)
+
+Query  9   PSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHAR  68
+           P+C+T    WRY+   N C+    VKV+Y D T+  C  VA     T   GY  +     
+Sbjct  2   PACLTYSPGWRYTFVMNDCSTAHRVKVLYGDGTDVPCQEVAARNWFTFP-GYGTTGNTVE  60
+
+Query  69  YLARC  73
+            +  C
+Sbjct  61  GIVLC  65
+
+
+> UniRef90_UPI0004C0502A hypothetical protein n=1 Tax=Streptomyces 
+sp. NRRL S-87 TaxID=1463920 RepID=UPI0004C0502A
+Length=215
+
+ Score = 62.3 bits (150),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 22/72 (31%), Positives = 34/72 (47%), Gaps = 1/72 (1%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+            T  S  AP+CV    +WRY+   +GC +T  ++V+Y+D +   C  +  G   T   GY 
+Sbjct  145  TPASGIAPTCVGWSSTWRYTSVFDGCGDTYGLQVLYQDGSRSSCRELTAGATATFP-GYG  203
+
+Query  62   GSHGHARYLARC  73
+                H   +  C
+Sbjct  204  PYENHPVAVNHC  215
+
+
+> UniRef90_P04082 Alpha-amylase inhibitor AI-3688 (Fragment) n=1 
+Tax=Streptomyces aureofaciens TaxID=1894 RepID=IAA_STRAU
+Length=36
+
+ Score = 53.8 bits (128),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 19/35 (54%), Positives = 23/35 (66%), Gaps = 0/35 (0%)
+
+Query  4   VSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYE  38
+              PAP CV  +QSWRY+   NGC++ VTV V YE
+Sbjct  2   TGSPAPDCVESFQSWRYTDVRNGCSDAVTVVVQYE  36
+
+
+> UniRef90_UPI00069B878F hypothetical protein n=1 Tax=Streptomyces 
+sp. NRRL F-4335 TaxID=1463850 RepID=UPI00069B878F
+Length=165
+
+ Score = 53.1 bits (126),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 20/72 (28%), Positives = 30/72 (42%), Gaps = 1/72 (1%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+            T  S  AP C   Y SWRY+   N C   + ++V+++  T   C  +  G   T   GY 
+Sbjct  95   TPASGIAPDCAVAYGSWRYTVVANQCGMPLHLQVLHQGGTVSECRWIEAGSAATFA-GYG  153
+
+Query  62   GSHGHARYLARC  73
+                +   +  C
+Sbjct  154  PLREYVLAVNHC  165
+
+
+> UniRef90_A0A1E5PL13 Uncharacterized protein n=1 Tax=Streptomyces 
+subrutilus TaxID=36818 RepID=A0A1E5PL13_9ACTN
+Length=165
+
+ Score = 51.5 bits (122),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 18/72 (25%), Positives = 29/72 (40%), Gaps = 1/72 (1%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+            T  S  AP CV  + SWRY+   N C   + ++ +++      C  +  G   T   GY 
+Sbjct  95   TPASGIAPDCVVAHASWRYTAVTNRCGMPLHLQALHQGGAASDCRWIGAGSTATFA-GYG  153
+
+Query  62   GSHGHARYLARC  73
+                +   +  C
+Sbjct  154  PFRDYVLAVNHC  165
+
+
+> UniRef90_A0A0A2DMX7 Uncharacterized protein n=2 Tax=Corynebacterium 
+TaxID=1716 RepID=A0A0A2DMX7_9CORY
+Length=132
+
+ Score = 45.4 bits (106),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 18/71 (25%), Positives = 33/71 (46%), Gaps = 1/71 (1%)
+
+Query  4    VSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGS  63
+              +PAP+C++  +S  ++Q  N C   + +KV Y+ D    C  V+ G    +G    G 
+Sbjct  62   AEQPAPNCISWRESKGFTQVTNNCQADLAIKVYYDHDKASACETVSKGTQHNIGYAGWGP  121
+
+Query  64   -HGHARYLARC  73
+               + + +  C
+Sbjct  122  WRRNVQRVVTC  132
+
+
+> UniRef90_G7HXP5 Uncharacterized protein n=1 Tax=Corynebacterium 
+casei UCMA 3821 TaxID=1110505 RepID=G7HXP5_9CORY
+Length=147
+
+ Score = 44.6 bits (104),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 19/74 (26%), Positives = 30/74 (41%), Gaps = 6/74 (8%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGC--AETVTVKVVYEDDTEGLCYAVAPGQITTVGDG  59
+            T  + PAP+C+       + Q  N C  ++   VKVV     +  C ++ PG  + VG  
+Sbjct  78   TLAAVPAPNCIVARAEKGFVQVYNNCGGSDPQRVKVVLAFGPDTQCKSIQPGTRSNVGPA  137
+
+Query  60   YIGSHGHARYLARC  73
+                 G    +  C
+Sbjct  138  ----AGRIDGVFLC  147
+
+
+> UniRef90_A0A0X3W6Y5 Uncharacterized protein n=1 Tax=Streptomyces 
+sp. NRRL S-1521 TaxID=1609100 RepID=A0A0X3W6Y5_9ACTN
+Length=100
+
+ Score = 40.7 bits (94),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 18/51 (35%), Positives = 26/51 (51%), Gaps = 2/51 (4%)
+
+Query  4   VSEPAPSCV--TLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQ  52
+           V   APSCV   + +  +Y +  N C ET+ +KVV +   +  C    PGQ
+Sbjct  33  VRGTAPSCVKRDVIKHRKYVKVTNNCRETMHLKVVIDWGNDSPCLTYQPGQ  83
+
+
+> UniRef90_UPI0006E42FF6 hypothetical protein n=1 Tax=Microbispora 
+sp. GMKU363 TaxID=718014 RepID=UPI0006E42FF6
+Length=113
+
+ Score = 40.7 bits (94),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 17/52 (33%), Positives = 26/52 (50%), Gaps = 8/52 (15%)
+
+Query  8   APSCVTLYQSWRYSQAD------NGCAETVTVKVVYEDDTEGLCYAVAPGQI  53
+           APSC+ ++Q  R           N C   + +K+V+    +G C +VAPGQ 
+Sbjct  46  APSCIAVWQ--RTGNVTKTGYARNDCGSRMNIKIVWSHGADGPCRSVAPGQT  95
+
+
+> UniRef90_UPI000304C851 hypothetical protein n=1 Tax=Calothrix 
+sp. PCC 7103 TaxID=32057 RepID=UPI000304C851
+Length=102
+
+ Score = 40.7 bits (94),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 17/70 (24%), Positives = 28/70 (40%), Gaps = 5/70 (7%)
+
+Query  5    SEPAPSCVTL-YQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGS  63
+            + PAP+CV +  Q+ +     N C     VK++     +  C  + P  I         +
+Sbjct  37   AAPAPNCVVVRSQARKSITVQNQCRTQQRVKLIIAFGRDSACRVINPSGIVRF----TWT  92
+
+Query  64   HGHARYLARC  73
+             G+   L RC
+Sbjct  93   FGNFDRLERC  102
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.142    0.502    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0428    0.140     1.90     42.6     43.6 
+
+Effective search space used: 449436773765
+Results from round 3
+
+
+Query= d1ok0a_
+
+Length=74
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_W0NXI3 Alpha-amylase inhibitor n=1 Tax=Streptomyces sp...  108     2e-28
+  UniRef90_UPI00093AA5D5 UPI00093AA5D5 related cluster n=1 Tax=un...  106     1e-27
+  UniRef90_UPI0007892070 UPI0007892070 related cluster n=1 Tax=un...  103     2e-26
+  UniRef90_A0A117QI35 Alpha-amlyase n=2 Tax=Streptomyces antibiot...  103     4e-26
+  UniRef90_UPI00093B1DEE UPI00093B1DEE related cluster n=1 Tax=un...  102     5e-26
+  UniRef90_UPI0004C38C4A alpha-amlyase n=1 Tax=Microtetraspora gl...  102     6e-26
+  UniRef90_UPI0007C81931 UPI0007C81931 related cluster n=1 Tax=un...  102     6e-26
+  UniRef90_A0A0A0NIJ0 Uncharacterized protein n=1 Tax=Streptomyce...  99.6    4e-25
+  UniRef90_A0A0U5M168 Alpha-amylase inhibitor Haim-2 n=2 Tax=Stre...  99.6    7e-25
+  UniRef90_UPI0008DE594F UPI0008DE594F related cluster n=2 Tax=un...  98.8    2e-24
+  UniRef90_A0A0X3XTA4 Alpha-amlyase n=2 Tax=Streptomyces TaxID=18...  97.3    3e-24
+  UniRef90_A0A1D3DLF3 Alpha-amlyase n=1 Tax=Streptomyces thermoli...  98.1    4e-24
+  UniRef90_P01092 Alpha-amylase inhibitor HOE-467A n=1 Tax=Strept...  97.7    4e-24
+  UniRef90_A0A0M8U6T7 Alpha-amlyase n=2 Tax=Streptomyces TaxID=18...  97.3    4e-24
+  UniRef90_A0A0M8QE66 Uncharacterized protein n=1 Tax=Streptomyce...  97.7    4e-24
+  UniRef90_UPI0007C6385C UPI0007C6385C related cluster n=1 Tax=un...  97.3    5e-24
+  UniRef90_A0A0N1FWC8 Alpha amylase inhibitor n=1 Tax=Actinobacte...  97.7    6e-24
+  UniRef90_A0A014L9N3 Alpha-amlyase n=1 Tax=Streptomyces sp. PRh5...  96.5    8e-24
+  UniRef90_A0A0F4IAB5 Alpha-amlyase n=1 Tax=Streptomyces sp. NRRL...  96.5    8e-24
+  UniRef90_P20596 Alpha-amylase inhibitor Paim-2 n=3 Tax=Streptom...  95.7    9e-24
+  UniRef90_P07512 Alpha-amylase inhibitor Z-2685 n=5 Tax=Streptom...  95.4    1e-23
+  UniRef90_UPI0006E1EFED hypothetical protein n=1 Tax=Streptomyce...  95.7    2e-23
+  UniRef90_UPI00056D9B83 hypothetical protein n=1 Tax=Streptomyce...  95.7    2e-23
+  UniRef90_A0A1A9QX78 Alpha-amlyase n=1 Tax=Streptomyces albulus ...  95.4    4e-23
+  UniRef90_P20078 Alpha-amylase inhibitor Haim-2 n=2 Tax=Streptom...  95.0    6e-23
+  UniRef90_H1Q820 Alpha-amylase inhibitor Scaim n=2 Tax=Streptomy...  94.6    6e-23
+  UniRef90_Q82PK5 Putative secreted alpha-amylase inhibitor n=2 T...  94.6    7e-23
+  UniRef90_A0A0Q9A757 Uncharacterized protein n=1 Tax=Streptomyce...  93.8    1e-22
+  UniRef90_A0A101SNF3 Uncharacterized protein n=1 Tax=Streptomyce...  93.8    1e-22
+  UniRef90_UPI0007C4380C UPI0007C4380C related cluster n=1 Tax=un...  96.1    1e-22
+  UniRef90_UPI0008361F06 UPI0008361F06 related cluster n=1 Tax=un...  93.4    2e-22
+  UniRef90_UPI00068BB7B3 alpha-amlyase n=1 Tax=Streptomyces bikin...  93.1    2e-22
+  UniRef90_A0A0U3THS1 Putative alpha-amylase n=1 Tax=Streptomyces...  92.7    2e-22
+  UniRef90_UPI0007C78CF7 UPI0007C78CF7 related cluster n=1 Tax=un...  95.4    3e-22
+  UniRef90_A0A117RRL9 Uncharacterized protein n=1 Tax=Streptomyce...  91.5    1e-21
+  UniRef90_UPI000568D394 hypothetical protein n=1 Tax=Streptomyce...  90.4    2e-21
+  UniRef90_A0A0J7Z0L5 Alpha-amylase n=2 Tax=Streptomyces viridoch...  90.0    2e-21
+  UniRef90_UPI000937479D UPI000937479D related cluster n=1 Tax=un...  90.4    2e-21
+  UniRef90_UPI0004C70964 hypothetical protein n=1 Tax=Streptomyce...  90.0    4e-21
+  UniRef90_Q53356 Proteinaceous alpha-amylase inhibitor n=1 Tax=S...  89.6    6e-21
+  UniRef90_UPI000938D6D6 UPI000938D6D6 related cluster n=1 Tax=un...  89.2    7e-21
+  UniRef90_UPI00093EA5D2 UPI00093EA5D2 related cluster n=1 Tax=un...  88.8    9e-21
+  UniRef90_A0A081EPG5 Uncharacterized protein n=2 Tax=Streptomyce...  89.2    1e-20
+  UniRef90_UPI0007C82F72 UPI0007C82F72 related cluster n=1 Tax=un...  91.1    1e-20
+  UniRef90_UPI0004ABA8B3 alpha-amylase n=1 Tax=Streptomyces peruv...  88.0    1e-20
+  UniRef90_UPI00068B79AB hypothetical protein n=1 Tax=Streptomyce...  88.0    1e-20
+  UniRef90_UPI0006E1DD14 hypothetical protein n=1 Tax=Streptomyce...  88.0    2e-20
+  UniRef90_A0A1D8GA07 Alpha-amylase inhibitor Haim-2 n=2 Tax=Stre...  88.0    2e-20
+  UniRef90_UPI00055D7FF3 alpha-amylase n=3 Tax=Streptomyces TaxID...  88.0    2e-20
+  UniRef90_UPI0004C7EBD6 UPI0004C7EBD6 related cluster n=1 Tax=un...  88.4    2e-20
+  UniRef90_A0A0F7VLV0 Alpha-amylase inhibitor HOE-467A n=2 Tax=St...  88.0    2e-20
+  UniRef90_A0A089WZL3 Alpha-amylase inhibitor Gaim n=2 Tax=Strept...  87.7    4e-20
+  UniRef90_UPI000682D9E9 hypothetical protein n=1 Tax=Streptomyce...  86.9    4e-20
+  UniRef90_UPI0004C781F5 UPI0004C781F5 related cluster n=1 Tax=un...  86.9    5e-20
+  UniRef90_UPI000515AD85 alpha-amlyase n=1 Tax=Streptomyces globi...  86.9    6e-20
+  UniRef90_A0A081XR95 Uncharacterized protein n=1 Tax=Streptomyce...  85.7    6e-20
+  UniRef90_A0A1E5PL13 Uncharacterized protein n=1 Tax=Streptomyce...  87.7    9e-20
+  UniRef90_D6A1J4 Alpha-amylase inhibitor n=3 Tax=Streptomyces Ta...  86.5    1e-19
+  UniRef90_A0A117IVK5 Uncharacterized protein n=1 Tax=Streptomyce...  86.5    1e-19
+  UniRef90_A0A0C5GMY0 Uncharacterized protein n=3 Tax=Streptomyce...  85.3    1e-19
+  UniRef90_UPI00069B878F hypothetical protein n=1 Tax=Streptomyce...  87.3    1e-19
+  UniRef90_A0A117QLS8 Uncharacterized protein n=1 Tax=Streptomyce...  85.7    2e-19
+  UniRef90_V6UAI5 Alpha-amylase inhibitor n=3 Tax=Streptomyces Ta...  85.0    2e-19
+  UniRef90_UPI0004C0502A hypothetical protein n=1 Tax=Streptomyce...  87.7    3e-19
+  UniRef90_A0A1J4P333 Uncharacterized protein n=1 Tax=Streptomyce...  83.8    7e-19
+  UniRef90_A0A0X3VSV0 Uncharacterized protein n=2 Tax=Streptomyce...  82.3    1e-18
+  UniRef90_UPI00082CEAFC UPI00082CEAFC related cluster n=1 Tax=un...  83.8    4e-18
+  UniRef90_G7HXP5 Uncharacterized protein n=1 Tax=Corynebacterium...  77.6    4e-16
+  UniRef90_A0A0A2DMX7 Uncharacterized protein n=2 Tax=Corynebacte...  76.5    8e-16
+  UniRef90_P04082 Alpha-amylase inhibitor AI-3688 (Fragment) n=1 ...  53.4    1e-07
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI000690021F hypothetical protein n=1 Tax=Corynebacte...  64.2    4e-11
+  UniRef90_F8E2H5 Putative secreted protein n=1 Tax=Corynebacteri...  63.4    1e-10
+  UniRef90_C0E1Q9 Alpha amylase inhibitor n=1 Tax=Corynebacterium...  60.3    1e-09
+  UniRef90_G7I132 Putative uncharacterized protein n=1 Tax=Coryne...  56.1    3e-08
+  UniRef90_E0DHB1 Alpha amylase inhibitor n=2 Tax=Corynebacterium...  52.2    9e-07
+  UniRef90_W5XNY8 Uncharacterized protein n=3 Tax=Corynebacterium...  50.7    3e-06
+  UniRef90_UPI000304C851 hypothetical protein n=1 Tax=Calothrix s...  49.1    7e-06
+  UniRef90_A0A0X3W6Y5 Uncharacterized protein n=1 Tax=Streptomyce...  45.7    1e-04
+  UniRef90_A0A0S9KBF4 Uncharacterized protein n=1 Tax=Leifsonia s...  45.7    2e-04
+  UniRef90_A0A0Q6XZ95 Uncharacterized protein n=2 Tax=Streptomyce...  45.3    2e-04
+  UniRef90_U7LCJ2 Uncharacterized protein n=1 Tax=Corynebacterium...  45.3    2e-04
+  UniRef90_UPI00052791A4 hypothetical protein n=1 Tax=Streptomyce...  44.1    5e-04
+  UniRef90_UPI00066E6CC9 hypothetical protein n=1 Tax=Nonomuraea ...  43.0    0.001
+  UniRef90_V6KMU3 Uncharacterized protein n=3 Tax=Streptomyces ni...  42.6    0.002
+  UniRef90_S3Z8G6 Uncharacterized protein n=2 Tax=Streptomyces Ta...  41.8    0.003
+  UniRef90_UPI0003678D4B hypothetical protein n=1 Tax=Frankia sp....  41.4    0.004
+  UniRef90_UPI0006E42FF6 hypothetical protein n=1 Tax=Microbispor...  41.4    0.004
+  UniRef90_A0A073B3V7 Uncharacterized protein n=1 Tax=Saccharopol...  41.1    0.005
+  UniRef90_UPI0004C7C23F hypothetical protein n=1 Tax=Streptomyce...  41.4    0.005
+  UniRef90_UPI0006E360E5 hypothetical protein n=1 Tax=Streptomyce...  40.7    0.008
+  UniRef90_A0A0F5AJ09 Uncharacterized protein n=1 Tax=Streptomyce...  40.3    0.009
+
+
+> UniRef90_W0NXI3 Alpha-amylase inhibitor n=1 Tax=Streptomyces 
+sp. CC5 TaxID=1449803 RepID=W0NXI3_9ACTN
+Length=110
+
+ Score = 108 bits (270),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 26/72 (36%), Positives = 34/72 (47%), Gaps = 1/72 (1%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+                 PAP CV  +QSWRY+   NGC +TV+V V Y +     C  + PG+  T   GY 
+Sbjct  34   ADTGSPAPECVEYFQSWRYTNVHNGCGDTVSVAVEYTNGQWAPCRVLQPGEWATFA-GYG  92
+
+Query  62   GSHGHARYLARC  73
+                +   L  C
+Sbjct  93   TDGNYVTGLRTC  104
+
+
+> UniRef90_UPI00093AA5D5 UPI00093AA5D5 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00093AA5D5
+Length=102
+
+ Score = 106 bits (265),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 41/72 (57%), Positives = 55/72 (76%), Gaps = 0/72 (0%)
+
+Query  2   TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+           +   EPAP+CV +Y+SWRY+QA N CA+TV +KVVY+D   G C+ + PG I+TVG+GY+
+Sbjct  28  SESPEPAPACVAMYESWRYTQAANDCADTVALKVVYQDGATGPCHTLPPGAISTVGEGYL  87
+
+Query  62  GSHGHARYLARC  73
+           G HGHA +LA C
+Sbjct  88  GLHGHADHLAVC  99
+
+
+> UniRef90_UPI0007892070 UPI0007892070 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007892070
+Length=118
+
+ Score = 103 bits (258),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 28/72 (39%), Positives = 35/72 (49%), Gaps = 1/72 (1%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+             TV EPAP CV  +QSWRY+   NGC + V+V V Y +     C  + P    T   GY 
+Sbjct  38   ATVGEPAPQCVEYFQSWRYTDVHNGCLDAVSVTVEYTNGQWAPCRVIEPDGRATFA-GYG  96
+
+Query  62   GSHGHARYLARC  73
+             +  H   L  C
+Sbjct  97   TNGNHVTGLRAC  108
+
+
+> UniRef90_A0A117QI35 Alpha-amlyase n=2 Tax=Streptomyces antibioticus 
+TaxID=1890 RepID=A0A117QI35_STRAT
+Length=115
+
+ Score = 103 bits (256),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 29/72 (40%), Positives = 34/72 (47%), Gaps = 1/72 (1%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+                 PAP CV  YQSWRY+   NGC ETV V V Y +    LC  + PG   T   GY 
+Sbjct  35   AATEIPAPPCVEYYQSWRYTDVHNGCQETVAVTVEYTNHQWALCRVIEPGNWATF-SGYG  93
+
+Query  62   GSHGHARYLARC  73
+             +  +   L  C
+Sbjct  94   FNGNYVTGLWTC  105
+
+
+> UniRef90_UPI00093B1DEE UPI00093B1DEE related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00093B1DEE
+Length=102
+
+ Score = 102 bits (254),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 27/73 (37%), Positives = 34/73 (47%), Gaps = 1/73 (1%)
+
+Query  1    DTTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGY  60
+            D      AP CVT    WRY+   N C++T+TVKVVY D T+  C    P  + T   GY
+Sbjct  31   DAGSRLAAPDCVTFSADWRYTFVTNDCSDTLTVKVVYRDGTDVPCRLAPPKALITFP-GY  89
+
+Query  61   IGSHGHARYLARC  73
+              S      +  C
+Sbjct  90   GTSGNEVLGVDVC  102
+
+
+> UniRef90_UPI0004C38C4A alpha-amlyase n=1 Tax=Microtetraspora 
+glauca TaxID=1996 RepID=UPI0004C38C4A
+Length=114
+
+ Score = 102 bits (254),  Expect = 6e-26, Method: Composition-based stats.
+ Identities = 27/72 (38%), Positives = 32/72 (44%), Gaps = 1/72 (1%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+                 PAP CV  Y SWRY+   NGC +T+ V V Y +     C  +APG   T   GY 
+Sbjct  37   AATGAPAPECVRYYASWRYTDVFNGCGDTMAVTVAYTNGQSAPCRVIAPGAWATFA-GYG  95
+
+Query  62   GSHGHARYLARC  73
+                H   L  C
+Sbjct  96   TDGNHVTGLRSC  107
+
+
+> UniRef90_UPI0007C81931 UPI0007C81931 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007C81931
+Length=106
+
+ Score = 102 bits (254),  Expect = 6e-26, Method: Composition-based stats.
+ Identities = 25/69 (36%), Positives = 34/69 (49%), Gaps = 1/69 (1%)
+
+Query  5   SEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSH  64
+             PAP CV  +QSWRY+   NGC + V+V V Y ++    C  + PG   T   GY  + 
+Sbjct  30  EGPAPQCVEYFQSWRYTDVHNGCDDAVSVTVEYTNNQWAPCRVIEPGGRATFA-GYGTNE  88
+
+Query  65  GHARYLARC  73
+            +   L  C
+Sbjct  89  NYVTGLRTC  97
+
+
+> UniRef90_A0A0A0NIJ0 Uncharacterized protein n=1 Tax=Streptomyces 
+rapamycinicus NRRL 5491 TaxID=1343740 RepID=A0A0A0NIJ0_9ACTN
+Length=89
+
+ Score = 99.6 bits (247),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 38/70 (54%), Positives = 49/70 (70%), Gaps = 0/70 (0%)
+
+Query  4   VSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGS  63
+            S PAP+CV +Y+SWRY+ A N CA+TV V VVY+D   G C  + PG  +TVG+GY+G 
+Sbjct  17  TSGPAPACVAMYESWRYTDAANNCADTVGVMVVYQDGATGPCSTLPPGASSTVGEGYLGR  76
+
+Query  64  HGHARYLARC  73
+           HGH  +LA C
+Sbjct  77  HGHPDHLAAC  86
+
+
+> UniRef90_A0A0U5M168 Alpha-amylase inhibitor Haim-2 n=2 Tax=Streptomyces 
+TaxID=1883 RepID=A0A0U5M168_STRRE
+Length=108
+
+ Score = 99.6 bits (247),  Expect = 7e-25, Method: Composition-based stats.
+ Identities = 27/73 (37%), Positives = 33/73 (45%), Gaps = 1/73 (1%)
+
+Query  1    DTTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGY  60
+            D     PAP CVT    WRY+   N C++T T+ VVY D TE       PG + T   GY
+Sbjct  31   DAGSRPPAPDCVTFSAGWRYTFVTNNCSDTHTLTVVYRDGTEVPSRVAPPGALITFP-GY  89
+
+Query  61   IGSHGHARYLARC  73
+              S      +  C
+Sbjct  90   GTSGNEVLGVVLC  102
+
+
+> UniRef90_UPI0008DE594F UPI0008DE594F related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI0008DE594F
+Length=115
+
+ Score = 98.8 bits (245),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 24/64 (38%), Positives = 31/64 (48%), Gaps = 1/64 (2%)
+
+Query  10   SCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARY  69
+             CV  YQSWRY+   NGC +TV V V Y +     C  + PG+  T   GY  +  +   
+Sbjct  45   ECVEYYQSWRYTDVRNGCGDTVAVTVEYTNGQWAPCRVIQPGEWATFA-GYGTNGNYVTG  103
+
+Query  70   LARC  73
+            L  C
+Sbjct  104  LRTC  107
+
+
+> UniRef90_A0A0X3XTA4 Alpha-amlyase n=2 Tax=Streptomyces TaxID=1883 
+RepID=A0A0X3XTA4_9ACTN
+Length=89
+
+ Score = 97.3 bits (241),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 28/72 (39%), Positives = 35/72 (49%), Gaps = 1/72 (1%)
+
+Query  2   TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+            TV EPAP CV  +QSWRY+   NGC + V+V V Y +     C  + P    T   GY 
+Sbjct  9   ATVGEPAPQCVEYFQSWRYTDVHNGCLDAVSVTVEYTNGQWAPCRVIEPDGRATFA-GYG  67
+
+Query  62  GSHGHARYLARC  73
+            +  H   L  C
+Sbjct  68  TNGNHVTGLRAC  79
+
+
+> UniRef90_A0A1D3DLF3 Alpha-amlyase n=1 Tax=Streptomyces thermolilacinus 
+SPC6 TaxID=1306406 RepID=A0A1D3DLF3_9ACTN
+Length=115
+
+ Score = 98.1 bits (243),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 26/65 (40%), Positives = 30/65 (46%), Gaps = 1/65 (2%)
+
+Query  9    PSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHAR  68
+            P CV   QSWRY+   NGC ETV V V Y +     C  + PGQ  T   GY     +  
+Sbjct  44   PECVQYSQSWRYTDVFNGCGETVAVTVEYTNGQWAPCRVIQPGQSATFA-GYGTDGNYVT  102
+
+Query  69   YLARC  73
+             L  C
+Sbjct  103  GLRTC  107
+
+
+> UniRef90_P01092 Alpha-amylase inhibitor HOE-467A n=1 Tax=Streptomyces 
+tendae TaxID=1932 RepID=IAA_STRTE
+Length=104
+
+ Score = 97.7 bits (242),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 73/74 (99%), Positives = 74/74 (100%), Gaps = 0/74 (0%)
+
+Query  1    DTTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGY  60
+            DTTVSEPAPSCVTLYQSWRYSQADNGCA+TVTVKVVYEDDTEGLCYAVAPGQITTVGDGY
+Sbjct  31   DTTVSEPAPSCVTLYQSWRYSQADNGCAQTVTVKVVYEDDTEGLCYAVAPGQITTVGDGY  90
+
+Query  61   IGSHGHARYLARCL  74
+            IGSHGHARYLARCL
+Sbjct  91   IGSHGHARYLARCL  104
+
+
+> UniRef90_A0A0M8U6T7 Alpha-amlyase n=2 Tax=Streptomyces TaxID=1883 
+RepID=A0A0M8U6T7_9ACTN
+Length=100
+
+ Score = 97.3 bits (241),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 26/69 (38%), Positives = 32/69 (46%), Gaps = 1/69 (1%)
+
+Query  5   SEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSH  64
+             PAP+CV   QSWRY+   NGC +TV V V Y +     C  + PG   T   GY    
+Sbjct  21  GSPAPACVEYVQSWRYTDVHNGCGDTVAVTVEYTNGQWAPCRVLEPGGRATF-SGYGTGG  79
+
+Query  65  GHARYLARC  73
+            +   L  C
+Sbjct  80  NYVTGLRTC  88
+
+
+> UniRef90_A0A0M8QE66 Uncharacterized protein n=1 Tax=Streptomyces 
+caelestis TaxID=36816 RepID=A0A0M8QE66_9ACTN
+Length=109
+
+ Score = 97.7 bits (242),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 22/72 (31%), Positives = 29/72 (40%), Gaps = 1/72 (1%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+                   P+C+T    WRY+   N C+    VKV+Y D T+  C  VAP    T   GY 
+Sbjct  33   AGNEASVPACLTYSPGWRYTFVINDCSTPHRVKVLYGDGTDVPCQEVAPRNWFTFP-GYG  91
+
+Query  62   GSHGHARYLARC  73
+                    +  C
+Sbjct  92   TEGNTVEGIVLC  103
+
+
+> UniRef90_UPI0007C6385C UPI0007C6385C related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007C6385C
+Length=108
+
+ Score = 97.3 bits (241),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 28/69 (41%), Positives = 34/69 (49%), Gaps = 1/69 (1%)
+
+Query  5   SEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSH  64
+             PAP CV   QSWRY+   NGC +TV+V V Y +     C  + PG   T   GY  S 
+Sbjct  33  GSPAPECVHYVQSWRYTDVHNGCGDTVSVTVEYTNGQWAPCRVIEPGGRATF-SGYGTSG  91
+
+Query  65  GHARYLARC  73
+            +A  L  C
+Sbjct  92  NYATGLRTC  100
+
+
+> UniRef90_A0A0N1FWC8 Alpha amylase inhibitor n=1 Tax=Actinobacteria 
+bacterium OV450 TaxID=1592328 RepID=A0A0N1FWC8_9ACTN
+Length=121
+
+ Score = 97.7 bits (242),  Expect = 6e-24, Method: Composition-based stats.
+ Identities = 22/72 (31%), Positives = 32/72 (44%), Gaps = 1/72 (1%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+                  AP+C    +SWRY+   NGC++ + + V Y +  E  C  + PG   T   GY 
+Sbjct  31   AASGPQAPACADYQESWRYTDVHNGCSDALALTVTYVNGQEAPCRLIDPGGWATFA-GYG  89
+
+Query  62   GSHGHARYLARC  73
+             +  H   L  C
+Sbjct  90   TNGNHVTGLQTC  101
+
+
+> UniRef90_A0A014L9N3 Alpha-amlyase n=1 Tax=Streptomyces sp. PRh5 
+TaxID=1158056 RepID=A0A014L9N3_9ACTN
+Length=89
+
+ Score = 96.5 bits (239),  Expect = 8e-24, Method: Composition-based stats.
+ Identities = 37/70 (53%), Positives = 50/70 (71%), Gaps = 0/70 (0%)
+
+Query  4   VSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGS  63
+            S  AP+CV + +SWRY+ A N CA+TV+V VVY+D   GLC  ++PG  +TVG+GY+G 
+Sbjct  17  TSGSAPACVAMSESWRYTNAANNCADTVSVMVVYQDGATGLCSTLSPGAYSTVGEGYLGR  76
+
+Query  64  HGHARYLARC  73
+           HGH  +LA C
+Sbjct  77  HGHPDHLAVC  86
+
+
+> UniRef90_A0A0F4IAB5 Alpha-amlyase n=1 Tax=Streptomyces sp. NRRL 
+S-104 TaxID=1609135 RepID=A0A0F4IAB5_9ACTN
+Length=100
+
+ Score = 96.5 bits (239),  Expect = 8e-24, Method: Composition-based stats.
+ Identities = 27/69 (39%), Positives = 33/69 (48%), Gaps = 1/69 (1%)
+
+Query  5   SEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSH  64
+             PAP+CV   QSWRY+   NGC +TV V V Y +     C A+ PG   T   GY    
+Sbjct  21  GSPAPACVEYVQSWRYTDVHNGCGDTVAVTVEYTNGQWAPCRALEPGGRATF-SGYGTGG  79
+
+Query  65  GHARYLARC  73
+            +   L  C
+Sbjct  80  NYVTGLRTC  88
+
+
+> UniRef90_P20596 Alpha-amylase inhibitor Paim-2 n=3 Tax=Streptomyces 
+TaxID=1883 RepID=IAA2_STROI
+Length=75
+
+ Score = 95.7 bits (237),  Expect = 9e-24, Method: Composition-based stats.
+ Identities = 39/72 (54%), Positives = 52/72 (72%), Gaps = 0/72 (0%)
+
+Query  2   TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+           +  SEPAP+CV +Y+SWRY+ A N CA+TV+V V Y+D   G C  + PG +TTVG+GY+
+Sbjct  1   SDASEPAPACVVMYESWRYTTAANNCADTVSVSVAYQDGATGPCATLPPGAVTTVGEGYL  60
+
+Query  62  GSHGHARYLARC  73
+           G HGH  +LA C
+Sbjct  61  GEHGHPDHLALC  72
+
+
+> UniRef90_P07512 Alpha-amylase inhibitor Z-2685 n=5 Tax=Streptomyces 
+TaxID=1883 RepID=IAA_STRRO
+Length=76
+
+ Score = 95.4 bits (236),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 24/71 (34%), Positives = 30/71 (42%), Gaps = 1/71 (1%)
+
+Query  3   TVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIG  62
+               P   CV  +QSWRY+   NGCA+ V+V V Y       C  + PG   T   GY  
+Sbjct  1   ATGSPVAECVEYFQSWRYTDVHNGCADAVSVTVEYTHGQWAPCRVIEPGGWATFA-GYGT  59
+
+Query  63  SHGHARYLARC  73
+              +   L  C
+Sbjct  60  DGNYVTGLHTC  70
+
+
+> UniRef90_UPI0006E1EFED hypothetical protein n=1 Tax=Streptomyces 
+pactum TaxID=68249 RepID=UPI0006E1EFED
+Length=109
+
+ Score = 95.7 bits (237),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 23/72 (32%), Positives = 31/72 (43%), Gaps = 1/72 (1%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+                 PAP+C+T    WRY+   N C+    VKV+Y D  +  C  VAP    T   GY 
+Sbjct  33   AGGQTPAPACLTYSPGWRYTFVSNDCSTAHRVKVLYGDGMDVPCQEVAPRNWFTFP-GYG  91
+
+Query  62   GSHGHARYLARC  73
+                  + +  C
+Sbjct  92   TEGNTIKGMVLC  103
+
+
+> UniRef90_UPI00056D9B83 hypothetical protein n=1 Tax=Streptomyces 
+toyocaensis TaxID=55952 RepID=UPI00056D9B83
+Length=109
+
+ Score = 95.7 bits (237),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 23/72 (32%), Positives = 31/72 (43%), Gaps = 1/72 (1%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+            T    P P+C+T    WRY+   N C+    VKV+Y D T+  C  VA     T   GY 
+Sbjct  33   TGNEAPVPACLTYSPGWRYTFVMNDCSTAHRVKVLYGDGTDVPCQEVAARNWFTFP-GYG  91
+
+Query  62   GSHGHARYLARC  73
+             +      +  C
+Sbjct  92   TTGNTVEGIVLC  103
+
+
+> UniRef90_A0A1A9QX78 Alpha-amlyase n=1 Tax=Streptomyces albulus 
+TaxID=68570 RepID=A0A1A9QX78_STRA9
+Length=114
+
+ Score = 95.4 bits (236),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 24/64 (38%), Positives = 27/64 (42%), Gaps = 1/64 (2%)
+
+Query  10   SCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARY  69
+             CV  Y SWRY+   NGC  TV V V Y D     C  + PG   T   GY     +   
+Sbjct  44   ECVQYYSSWRYTDVHNGCDVTVAVTVEYTDGQAAPCRVIEPGAWATFA-GYGTQANYVTG  102
+
+Query  70   LARC  73
+            L  C
+Sbjct  103  LRTC  106
+
+
+> UniRef90_P20078 Alpha-amylase inhibitor Haim-2 n=2 Tax=Streptomyces 
+griseosporeus TaxID=1910 RepID=IAA2_STRGS
+Length=120
+
+ Score = 95.0 bits (235),  Expect = 6e-23, Method: Composition-based stats.
+ Identities = 23/73 (32%), Positives = 29/73 (40%), Gaps = 1/73 (1%)
+
+Query  1    DTTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGY  60
+            D      AP+CV     WRY+   N C+   +V V Y D T+  C +  PG I T   GY
+Sbjct  33   DAGNRIAAPACVHFTADWRYTFVTNDCSIDYSVTVAYGDGTDVPCRSANPGDILTFP-GY  91
+
+Query  61   IGSHGHARYLARC  73
+                        C
+Sbjct  92   GTRGNEVLGAVLC  104
+
+
+> UniRef90_H1Q820 Alpha-amylase inhibitor Scaim n=2 Tax=Streptomyces 
+TaxID=1883 RepID=H1Q820_9ACTN
+Length=112
+
+ Score = 94.6 bits (234),  Expect = 6e-23, Method: Composition-based stats.
+ Identities = 26/63 (41%), Positives = 32/63 (51%), Gaps = 1/63 (2%)
+
+Query  11   CVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARYL  70
+            CV  YQSWRY+   N CAETV V V Y +  +  C  +APG   T   GY     +A  +
+Sbjct  42   CVEYYQSWRYTDVVNNCAETVAVTVEYTNGQDAPCRVIAPGAWATFA-GYGTDGNYAIAV  100
+
+Query  71   ARC  73
+              C
+Sbjct  101  RTC  103
+
+
+> UniRef90_Q82PK5 Putative secreted alpha-amylase inhibitor n=2 
+Tax=Streptomyces avermitilis TaxID=33903 RepID=Q82PK5_STRAW
+Length=119
+
+ Score = 94.6 bits (234),  Expect = 7e-23, Method: Composition-based stats.
+ Identities = 21/67 (31%), Positives = 28/67 (42%), Gaps = 1/67 (1%)
+
+Query  7    PAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGH  66
+              P+CV +   WRY+   N C+    V VVY D     C   +PG I +   GY      
+Sbjct  38   SPPACVHINSDWRYTFVTNDCSSAYDVTVVYRDGANVPCRVASPGDIISFP-GYGTQGNT  96
+
+Query  67   ARYLARC  73
+               +A C
+Sbjct  97   VLGVALC  103
+
+
+> UniRef90_A0A0Q9A757 Uncharacterized protein n=1 Tax=Streptomyces 
+sp. Root264 TaxID=1736503 RepID=A0A0Q9A757_9ACTN
+Length=105
+
+ Score = 93.8 bits (232),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 24/72 (33%), Positives = 31/72 (43%), Gaps = 1/72 (1%)
+
+Query  3    TVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIG  62
+            +  EPAP CV     WRY+   N CA +  V V Y D     C  +APG   T   GY  
+Sbjct  31   SAPEPAPDCVHHSSDWRYTTVVNDCAASQDVTVEYLDGQPAPCRRIAPGDRATFA-GYGP  89
+
+Query  63   SHGHARYLARCL  74
+               +   +  C+
+Sbjct  90   QLNYVTGVRTCV  101
+
+
+> UniRef90_A0A101SNF3 Uncharacterized protein n=1 Tax=Streptomyces 
+bungoensis TaxID=285568 RepID=A0A101SNF3_9ACTN
+Length=101
+
+ Score = 93.8 bits (232),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 39/68 (57%), Positives = 50/68 (74%), Gaps = 0/68 (0%)
+
+Query  6   EPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHG  65
+            PAP+CV+LY+SWRY  A N CA+TV+V  VY+D   GLCY +  G  +TVG+GY+G HG
+Sbjct  32  SPAPACVSLYESWRYVNASNDCADTVSVATVYQDGATGLCYTLPSGAFSTVGEGYLGLHG  91
+
+Query  66  HARYLARC  73
+           HA +LA C
+Sbjct  92  HADHLALC  99
+
+
+> UniRef90_UPI0007C4380C UPI0007C4380C related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007C4380C
+Length=207
+
+ Score = 96.1 bits (238),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 25/71 (35%), Positives = 32/71 (45%), Gaps = 1/71 (1%)
+
+Query  3    TVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIG  62
+            T     P+CV  Y SWRY+Q  N C+  V++ V Y +     C  V PG   T  DGY  
+Sbjct  37   TEGTAPPACVQYYSSWRYTQVANNCSTAVSISVQYTNGQSSACQTVQPGAWATF-DGYGT  95
+
+Query  63   SHGHARYLARC  73
+               +   L  C
+Sbjct  96   DMNYVTGLLTC  106
+
+
+> UniRef90_UPI0008361F06 UPI0008361F06 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008361F06
+Length=101
+
+ Score = 93.4 bits (231),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 38/73 (52%), Positives = 50/73 (68%), Gaps = 1/73 (1%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQI-TTVGDGY  60
+            +  +EPAPSCVT  QSWRY+   NGC  T+ +KVVY+D  EG+C+ V P    TT+G GY
+Sbjct  29   SVAAEPAPSCVTYSQSWRYTDVTNGCGTTLQLKVVYKDGAEGVCHTVHPSPYPTTIGSGY  88
+
+Query  61   IGSHGHARYLARC  73
+            IG HG+  ++A C
+Sbjct  89   IGEHGYVDHIAWC  101
+
+
+> UniRef90_UPI00068BB7B3 alpha-amlyase n=1 Tax=Streptomyces bikiniensis 
+TaxID=1896 RepID=UPI00068BB7B3
+Length=106
+
+ Score = 93.1 bits (230),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 25/64 (39%), Positives = 33/64 (52%), Gaps = 1/64 (2%)
+
+Query  10  SCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARY  69
+            CV  +QSWRY++  NGCA+TV+V V Y +     C  V PG   T   GY  +  +   
+Sbjct  34  DCVEHFQSWRYTEVHNGCADTVSVTVEYTNGQWAPCRVVEPGGRVTFA-GYGTNGNYVTG  92
+
+Query  70  LARC  73
+           L  C
+Sbjct  93  LRVC  96
+
+
+> UniRef90_A0A0U3THS1 Putative alpha-amylase n=1 Tax=Streptomyces 
+variabilis TaxID=67372 RepID=A0A0U3THS1_9ACTN
+Length=91
+
+ Score = 92.7 bits (229),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 24/68 (35%), Positives = 26/68 (38%), Gaps = 1/68 (1%)
+
+Query  6   EPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHG  65
+           EPAP CV    SWRY+   N C     V V Y D  E  C    PG   T   GY     
+Sbjct  20  EPAPECVRYAASWRYTHVTNDCGTAHRVTVEYTDGAEVPCRETQPGATVTFP-GYGTGGN  78
+
+Query  66  HARYLARC  73
+               +  C
+Sbjct  79  GVLRVLLC  86
+
+
+> UniRef90_UPI0007C78CF7 UPI0007C78CF7 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007C78CF7
+Length=207
+
+ Score = 95.4 bits (236),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 23/69 (33%), Positives = 29/69 (42%), Gaps = 1/69 (1%)
+
+Query  5    SEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSH  64
+                P+CV  Y SWRY++  N C+  V + V Y D     C  V PG   T   GY    
+Sbjct  39   GTAPPTCVQYYSSWRYTEVANDCSAAVGISVRYTDGQVSPCRTVPPGARATFA-GYGTDM  97
+
+Query  65   GHARYLARC  73
+             +   L  C
+Sbjct  98   NYVTGLLTC  106
+
+
+> UniRef90_A0A117RRL9 Uncharacterized protein n=1 Tax=Streptomyces 
+caeruleatus TaxID=661399 RepID=A0A117RRL9_9ACTN
+Length=117
+
+ Score = 91.5 bits (226),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 26/72 (36%), Positives = 31/72 (43%), Gaps = 1/72 (1%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+            T     AP CV L   WRY+ A N C+ T T +VVY D T+  C   APG + T   G  
+Sbjct  41   TQSPTTAPDCVHLTVDWRYTFASNDCSSTYTFRVVYLDGTDVPCRTAAPGALITFP-GRG  99
+
+Query  62   GSHGHARYLARC  73
+                       C
+Sbjct  100  TQGNEVLGAVLC  111
+
+
+> UniRef90_UPI000568D394 hypothetical protein n=1 Tax=Streptomyces 
+sp. CNT372 TaxID=1169154 RepID=UPI000568D394
+Length=100
+
+ Score = 90.4 bits (223),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 26/71 (37%), Positives = 30/71 (42%), Gaps = 1/71 (1%)
+
+Query  3   TVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIG  62
+           T   PAP CVT   SWRY+   NGC     + + Y D  E  C  VAPG   T   GY  
+Sbjct  27  TAPVPAPECVTHSASWRYTFVTNGCEGAQHLTLRYLDGGEVPCRTVAPGATATFP-GYGT  85
+
+Query  63  SHGHARYLARC  73
+                  +  C
+Sbjct  86  QGNQVVAVDLC  96
+
+
+> UniRef90_A0A0J7Z0L5 Alpha-amylase n=2 Tax=Streptomyces viridochromogenes 
+TaxID=1938 RepID=A0A0J7Z0L5_STRVR
+Length=77
+
+ Score = 90.0 bits (222),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 25/69 (36%), Positives = 28/69 (41%), Gaps = 1/69 (1%)
+
+Query  5   SEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSH  64
+           S  AP CV L   WRY+   N C+ T T+ V Y D TE  C   APG   T   G     
+Sbjct  4   SMSAPDCVHLTVDWRYTFVSNDCSSTYTLTVAYLDGTEVPCRTAAPGDRITFP-GRGTQG  62
+
+Query  65  GHARYLARC  73
+                   C
+Sbjct  63  NEVLGAVLC  71
+
+
+> UniRef90_UPI000937479D UPI000937479D related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000937479D
+Length=106
+
+ Score = 90.4 bits (223),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 26/74 (35%), Positives = 30/74 (41%), Gaps = 1/74 (1%)
+
+Query  1    DTTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGY  60
+            D     PAP CV  Y   RY+   N C   V+V VVY D     C  +AP  + T   GY
+Sbjct  30   DAPPGTPAPDCVHHYADRRYTTVVNDCDTPVSVTVVYSDGRWAPCRTLAPRDVATFA-GY  88
+
+Query  61   IGSHGHARYLARCL  74
+                     L  CL
+Sbjct  89   GFDGSRVTGLGNCL  102
+
+
+> UniRef90_UPI0004C70964 hypothetical protein n=1 Tax=Streptomyces 
+albus TaxID=1888 RepID=UPI0004C70964
+Length=114
+
+ Score = 90.0 bits (222),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 23/73 (32%), Positives = 30/73 (41%), Gaps = 1/73 (1%)
+
+Query  1    DTTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGY  60
+            D  VS PAP+CV    S RY+   N C  +  + V Y D     C + APG   T   G+
+Sbjct  38   DGPVSVPAPACVQYEASRRYTFVTNHCDTSQRLTVSYRDGATPPCRSAAPGDTVTFP-GH  96
+
+Query  61   IGSHGHARYLARC  73
+                     +  C
+Sbjct  97   GFGGDEVLGVNLC  109
+
+
+> UniRef90_Q53356 Proteinaceous alpha-amylase inhibitor n=1 Tax=Streptomyces 
+nitrosporeus TaxID=28894 RepID=Q53356_9ACTN
+Length=110
+
+ Score = 89.6 bits (221),  Expect = 6e-21, Method: Composition-based stats.
+ Identities = 22/63 (35%), Positives = 31/63 (49%), Gaps = 1/63 (2%)
+
+Query  11   CVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARYL  70
+            CV  +QSWRY+   NGC+ETV+V V Y +     C  + P    T   GY  +  +   +
+Sbjct  42   CVESFQSWRYTDVHNGCSETVSVTVEYTNGQWAPCVTIQPDGWATFA-GYGTNSNYVTAV  100
+
+Query  71   ARC  73
+              C
+Sbjct  101  KTC  103
+
+
+> UniRef90_UPI000938D6D6 UPI000938D6D6 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000938D6D6
+Length=115
+
+ Score = 89.2 bits (220),  Expect = 7e-21, Method: Composition-based stats.
+ Identities = 23/63 (37%), Positives = 27/63 (43%), Gaps = 1/63 (2%)
+
+Query  11   CVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARYL  70
+            CV  +  WRY+   NGC  TV V V Y D     C  + PG   T   GY     +A  L
+Sbjct  46   CVQYHSGWRYTNVVNGCDFTVAVTVEYTDGQAAPCRVIEPGAWATFA-GYGSQFNYATGL  104
+
+Query  71   ARC  73
+              C
+Sbjct  105  RTC  107
+
+
+> UniRef90_UPI00093EA5D2 UPI00093EA5D2 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00093EA5D2
+Length=97
+
+ Score = 88.8 bits (219),  Expect = 9e-21, Method: Composition-based stats.
+ Identities = 24/69 (35%), Positives = 28/69 (41%), Gaps = 1/69 (1%)
+
+Query  5   SEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSH  64
+              AP+CV     WRY+   NGC  T  V V Y D T   C   APG   T   GY  + 
+Sbjct  25  GGAAPACVEYSAGWRYTFVSNGCESTQHVTVEYRDGTSMPCRTAAPGDTVTFP-GYGTTG  83
+
+Query  65  GHARYLARC  73
+                +  C
+Sbjct  84  NDVLGVVLC  92
+
+
+> UniRef90_A0A081EPG5 Uncharacterized protein n=2 Tax=Streptomyces 
+fradiae TaxID=1906 RepID=A0A081EPG5_STRFR
+Length=114
+
+ Score = 89.2 bits (220),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 22/71 (31%), Positives = 26/71 (37%), Gaps = 1/71 (1%)
+
+Query  3    TVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIG  62
+             VS  AP+CV    SWRY+   N C     + V Y D     C    PG   T   GY  
+Sbjct  40   PVSATAPACVRYAASWRYTFVTNDCDTPQRLTVRYRDAATPPCRIANPGDTVTFP-GYGV  98
+
+Query  63   SHGHARYLARC  73
+                   +  C
+Sbjct  99   GGDEVLGVNLC  109
+
+
+> UniRef90_UPI0007C82F72 UPI0007C82F72 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007C82F72
+Length=207
+
+ Score = 91.1 bits (225),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 23/72 (32%), Positives = 30/72 (42%), Gaps = 1/72 (1%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+                   P+CV  Y SWRY+  +N C+  V+V V Y +     C  V P    T  DGY 
+Sbjct  36   AAEGAAPPACVQYYSSWRYTLVNNTCSTGVSVSVQYTNGQSSTCQTVPPSAWATF-DGYG  94
+
+Query  62   GSHGHARYLARC  73
+                +   L  C
+Sbjct  95   ADMNYVTGLLTC  106
+
+
+> UniRef90_UPI0004ABA8B3 alpha-amylase n=1 Tax=Streptomyces peruviensis 
+TaxID=68253 RepID=UPI0004ABA8B3
+Length=77
+
+ Score = 88.0 bits (217),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 25/69 (36%), Positives = 28/69 (41%), Gaps = 1/69 (1%)
+
+Query  5   SEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSH  64
+           S  AP CV L   WRY+ A N C+ T T+ V Y D T   C   APG   T   G     
+Sbjct  4   SMIAPDCVHLTVDWRYTFASNDCSSTYTLTVAYLDGTAAPCRTAAPGDRITFP-GRGTQG  62
+
+Query  65  GHARYLARC  73
+                   C
+Sbjct  63  NEVLGAVLC  71
+
+
+> UniRef90_UPI00068B79AB hypothetical protein n=1 Tax=Streptomyces 
+aureus TaxID=193461 RepID=UPI00068B79AB
+Length=97
+
+ Score = 88.0 bits (217),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 24/72 (33%), Positives = 28/72 (39%), Gaps = 1/72 (1%)
+
+Query  2   TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+                P P CV  Y  WRY+   N C  TV V V Y D     C  + P  I T   GY 
+Sbjct  22  AADPAPVPDCVHYYSDWRYTTVVNDCDTTVDVTVQYTDGQGAPCRTLDPRAIATFA-GYG  80
+
+Query  62  GSHGHARYLARC  73
+               +   L+ C
+Sbjct  81  PQLNYVTGLSGC  92
+
+
+> UniRef90_UPI0006E1DD14 hypothetical protein n=1 Tax=Streptomyces 
+griseoplanus TaxID=66896 RepID=UPI0006E1DD14
+Length=101
+
+ Score = 88.0 bits (217),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 21/68 (31%), Positives = 30/68 (44%), Gaps = 1/68 (1%)
+
+Query  6    EPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHG  65
+             PAP C+T    WRY+   N C++  +V++ Y D     C   APG   T   GY     
+Sbjct  35   VPAPPCITSTSDWRYTFVSNDCSQPYSVQLDYTDGAVSPCRYTAPGDRITFA-GYGTDAD  93
+
+Query  66   HARYLARC  73
+            +   +  C
+Sbjct  94   YVTDVHLC  101
+
+
+> UniRef90_A0A1D8GA07 Alpha-amylase inhibitor Haim-2 n=2 Tax=Streptomyces 
+TaxID=1883 RepID=A0A1D8GA07_9ACTN
+Length=109
+
+ Score = 88.0 bits (217),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 30/72 (42%), Positives = 36/72 (50%), Gaps = 1/72 (1%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+               S  AP+CV    SWRY+   N C+ T TV+VVY D T+  C  VAPG   T   GY 
+Sbjct  33   AADSTVAPACVAFSASWRYTFVTNDCSTTHTVRVVYGDGTQVPCREVAPGATATFP-GYG  91
+
+Query  62   GSHGHARYLARC  73
+             +      LA C
+Sbjct  92   TTGNTVGGLALC  103
+
+
+> UniRef90_UPI00055D7FF3 alpha-amylase n=3 Tax=Streptomyces TaxID=1883 
+RepID=UPI00055D7FF3
+Length=103
+
+ Score = 88.0 bits (217),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 22/69 (32%), Positives = 26/69 (38%), Gaps = 1/69 (1%)
+
+Query  5   SEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSH  64
+            EPAP CV    +WRY+   N C     + V Y D T   C    PG   T   GY    
+Sbjct  32  EEPAPECVHYAATWRYTHVTNACDTAYRLTVEYTDGTGVPCREAQPGATVTFP-GYGPGG  90
+
+Query  65  GHARYLARC  73
+                +  C
+Sbjct  91  NGVVRVRLC  99
+
+
+> UniRef90_UPI0004C7EBD6 UPI0004C7EBD6 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0004C7EBD6
+Length=116
+
+ Score = 88.4 bits (218),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 26/68 (38%), Positives = 31/68 (46%), Gaps = 1/68 (1%)
+
+Query  6    EPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHG  65
+             PAPSCV  Y SWRY+   NGC+    V V Y+D T   C  V      T   GY  +  
+Sbjct  40   TPAPSCVEYYPSWRYTDVHNGCSGAEAVAVQYQDGTVSPCQVVQADSWMTYA-GYGTTMN  98
+
+Query  66   HARYLARC  73
+            +   L  C
+Sbjct  99   YVTGLLTC  106
+
+
+> UniRef90_A0A0F7VLV0 Alpha-amylase inhibitor HOE-467A n=2 Tax=Streptomyces 
+leeuwenhoekii TaxID=1437453 RepID=A0A0F7VLV0_9ACTN
+Length=107
+
+ Score = 88.0 bits (217),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 44/64 (69%), Positives = 53/64 (83%), Gaps = 0/64 (0%)
+
+Query  10   SCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARY  69
+            SCV LY+SWRY+QA N CA  +TVKVVY+D  EGLC+ V PG+ITTVG+GY+GS+GHARY
+Sbjct  43   SCVVLYESWRYTQAGNDCAVPMTVKVVYQDGAEGLCHTVRPGEITTVGEGYLGSYGHARY  102
+
+Query  70   LARC  73
+             A C
+Sbjct  103  AALC  106
+
+
+> UniRef90_A0A089WZL3 Alpha-amylase inhibitor Gaim n=2 Tax=Streptomyces 
+glaucescens TaxID=1907 RepID=A0A089WZL3_STRGA
+Length=113
+
+ Score = 87.7 bits (216),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 23/68 (34%), Positives = 31/68 (46%), Gaps = 1/68 (1%)
+
+Query  6    EPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHG  65
+              AP CVT    WRY+   N C +T T+KVVY D T+       PG + T   G+  +  
+Sbjct  41   SAAPECVTFSADWRYTFVTNNCPDTHTLKVVYRDGTDVPSRVAPPGAMVTFP-GHGTTGN  99
+
+Query  66   HARYLARC  73
+                +  C
+Sbjct  100  AVLGVIAC  107
+
+
+> UniRef90_UPI000682D9E9 hypothetical protein n=1 Tax=Streptomyces 
+xinghaiensis TaxID=1038928 RepID=UPI000682D9E9
+Length=102
+
+ Score = 86.9 bits (214),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 24/73 (33%), Positives = 29/73 (40%), Gaps = 1/73 (1%)
+
+Query  1   DTTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGY  60
+           + TVS  AP+CV    SWRY+   N C     + V Y D     C  V PG   T   GY
+Sbjct  26  EETVSAAAPACVQYAASWRYTFVTNNCGTPQRLTVRYRDAATPPCRTVNPGDTVTFP-GY  84
+
+Query  61  IGSHGHARYLARC  73
+                    +  C
+Sbjct  85  GVGGDEVLGVDLC  97
+
+
+> UniRef90_UPI0004C781F5 UPI0004C781F5 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0004C781F5
+Length=105
+
+ Score = 86.9 bits (214),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 23/65 (35%), Positives = 27/65 (42%), Gaps = 1/65 (2%)
+
+Query  9   PSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHAR  68
+           P+CV     WRY+   NGC     V V Y D T   C   APG+  T   GY  S     
+Sbjct  37  PACVQYTAGWRYTFVSNGCDTVQQVTVEYRDGTAVPCRTAAPGETVTFP-GYGTSGNEVL  95
+
+Query  69  YLARC  73
+            +  C
+Sbjct  96  GVVLC  100
+
+
+> UniRef90_UPI000515AD85 alpha-amlyase n=1 Tax=Streptomyces globisporus 
+TaxID=1908 RepID=UPI000515AD85
+Length=105
+
+ Score = 86.9 bits (214),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 23/64 (36%), Positives = 31/64 (48%), Gaps = 1/64 (2%)
+
+Query  10  SCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARY  69
+            CV  +Q WRY+   NGCA +V V V Y +  E  C  + PG+  T   GY  +  +   
+Sbjct  34  ECVEYHQGWRYTDVVNGCAVSVAVTVEYTNGQEAPCRVLGPGEWGTFA-GYGTNGNYVTA  92
+
+Query  70  LARC  73
+           L  C
+Sbjct  93  LRTC  96
+
+
+> UniRef90_A0A081XR95 Uncharacterized protein n=1 Tax=Streptomyces 
+toyocaensis TaxID=55952 RepID=A0A081XR95_STRTO
+Length=71
+
+ Score = 85.7 bits (211),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 21/65 (32%), Positives = 29/65 (45%), Gaps = 1/65 (2%)
+
+Query  9   PSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHAR  68
+           P+C+T    WRY+   N C+    VKV+Y D T+  C  VA     T   GY  +     
+Sbjct  2   PACLTYSPGWRYTFVMNDCSTAHRVKVLYGDGTDVPCQEVAARNWFTFP-GYGTTGNTVE  60
+
+Query  69  YLARC  73
+            +  C
+Sbjct  61  GIVLC  65
+
+
+> UniRef90_A0A1E5PL13 Uncharacterized protein n=1 Tax=Streptomyces 
+subrutilus TaxID=36818 RepID=A0A1E5PL13_9ACTN
+Length=165
+
+ Score = 87.7 bits (216),  Expect = 9e-20, Method: Composition-based stats.
+ Identities = 18/72 (25%), Positives = 29/72 (40%), Gaps = 1/72 (1%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+            T  S  AP CV  + SWRY+   N C   + ++ +++      C  +  G   T   GY 
+Sbjct  95   TPASGIAPDCVVAHASWRYTAVTNRCGMPLHLQALHQGGAASDCRWIGAGSTATFA-GYG  153
+
+Query  62   GSHGHARYLARC  73
+                +   +  C
+Sbjct  154  PFRDYVLAVNHC  165
+
+
+> UniRef90_D6A1J4 Alpha-amylase inhibitor n=3 Tax=Streptomyces 
+TaxID=1883 RepID=D6A1J4_9ACTN
+Length=115
+
+ Score = 86.5 bits (213),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 22/70 (31%), Positives = 28/70 (40%), Gaps = 1/70 (1%)
+
+Query  4    VSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGS  63
+                AP+CV +   WRY+   N C+ T T+ V Y D  E  C  V PG   T   G+   
+Sbjct  41   AQTGAPACVEVGADWRYAFVTNTCSSTYTLTVAYSDGREVPCRVVHPGDRVTFP-GHGTR  99
+
+Query  64   HGHARYLARC  73
+                     C
+Sbjct  100  GDRVLGAVLC  109
+
+
+> UniRef90_A0A117IVK5 Uncharacterized protein n=1 Tax=Streptomyces 
+kanasensis TaxID=936756 RepID=A0A117IVK5_9ACTN
+Length=122
+
+ Score = 86.5 bits (213),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 39/69 (57%), Positives = 48/69 (70%), Gaps = 0/69 (0%)
+
+Query  5    SEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSH  64
+            SEP   CVT +QSWRY+Q  N CA ++ V+VVYED  EGLC+   PG  TT+G+GY G H
+Sbjct  54   SEPVAPCVTHWQSWRYTQVTNDCATSLDVRVVYEDGAEGLCHPTQPGTTTTIGEGYTGRH  113
+
+Query  65   GHARYLARC  73
+            GH  Y+A C
+Sbjct  114  GHVAYVAAC  122
+
+
+> UniRef90_A0A0C5GMY0 Uncharacterized protein n=3 Tax=Streptomyces 
+cyaneogriseus subsp. noncyanogenus TaxID=477245 RepID=A0A0C5GMY0_9ACTN
+Length=86
+
+ Score = 85.3 bits (210),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 44/63 (70%), Positives = 52/63 (83%), Gaps = 0/63 (0%)
+
+Query  11  CVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARYL  70
+           CV LY+SWRY+QA N CA T+TVKVVY+D  EGLC+AV PG+ITTV +GY+G HGHARY 
+Sbjct  23  CVVLYESWRYTQAGNDCAVTMTVKVVYQDGAEGLCHAVRPGEITTVAEGYLGPHGHARYA  82
+
+Query  71  ARC  73
+           A C
+Sbjct  83  ALC  85
+
+
+> UniRef90_UPI00069B878F hypothetical protein n=1 Tax=Streptomyces 
+sp. NRRL F-4335 TaxID=1463850 RepID=UPI00069B878F
+Length=165
+
+ Score = 87.3 bits (215),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 20/72 (28%), Positives = 30/72 (42%), Gaps = 1/72 (1%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+            T  S  AP C   Y SWRY+   N C   + ++V+++  T   C  +  G   T   GY 
+Sbjct  95   TPASGIAPDCAVAYGSWRYTVVANQCGMPLHLQVLHQGGTVSECRWIEAGSAATFA-GYG  153
+
+Query  62   GSHGHARYLARC  73
+                +   +  C
+Sbjct  154  PLREYVLAVNHC  165
+
+
+> UniRef90_A0A117QLS8 Uncharacterized protein n=1 Tax=Streptomyces 
+longwoodensis TaxID=68231 RepID=A0A117QLS8_9ACTN
+Length=120
+
+ Score = 85.7 bits (211),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 37/63 (59%), Positives = 45/63 (71%), Gaps = 0/63 (0%)
+
+Query  11   CVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARYL  70
+            CV LY+SWRY  A N CA    V+VVY+D   GLCYA+AP   TTVG+GY+G+HGH  +L
+Sbjct  49   CVALYESWRYVTASNDCATPHQVQVVYQDGATGLCYALAPRTQTTVGEGYLGTHGHVDHL  108
+
+Query  71   ARC  73
+            A C
+Sbjct  109  ALC  111
+
+
+> UniRef90_V6UAI5 Alpha-amylase inhibitor n=3 Tax=Streptomyces 
+TaxID=1883 RepID=V6UAI5_9ACTN
+Length=101
+
+ Score = 85.0 bits (209),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 23/64 (36%), Positives = 30/64 (47%), Gaps = 1/64 (2%)
+
+Query  10  SCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARY  69
+            CV  +Q WRY+   NGCA  V V V Y +  E  C  + PG+  T   GY  +  +   
+Sbjct  34  ECVVYHQGWRYTDVVNGCAIGVAVTVEYTNGQEAPCRILGPGERATFA-GYGTNGNYVTA  92
+
+Query  70  LARC  73
+           L  C
+Sbjct  93  LRVC  96
+
+
+> UniRef90_UPI0004C0502A hypothetical protein n=1 Tax=Streptomyces 
+sp. NRRL S-87 TaxID=1463920 RepID=UPI0004C0502A
+Length=215
+
+ Score = 87.7 bits (216),  Expect = 3e-19, Method: Composition-based stats.
+ Identities = 22/72 (31%), Positives = 34/72 (47%), Gaps = 1/72 (1%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+            T  S  AP+CV    +WRY+   +GC +T  ++V+Y+D +   C  +  G   T   GY 
+Sbjct  145  TPASGIAPTCVGWSSTWRYTSVFDGCGDTYGLQVLYQDGSRSSCRELTAGATATFP-GYG  203
+
+Query  62   GSHGHARYLARC  73
+                H   +  C
+Sbjct  204  PYENHPVAVNHC  215
+
+
+> UniRef90_A0A1J4P333 Uncharacterized protein n=1 Tax=Streptomyces 
+mangrovisoli TaxID=1428628 RepID=A0A1J4P333_9ACTN
+Length=104
+
+ Score = 83.8 bits (206),  Expect = 7e-19, Method: Composition-based stats.
+ Identities = 38/63 (60%), Positives = 45/63 (71%), Gaps = 0/63 (0%)
+
+Query  11   CVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARYL  70
+            CV +YQSWRY  A N CA+ VTV  VY+D   GLCY +APG +TTVG GYIG HG+A +L
+Sbjct  39   CVAMYQSWRYLDAANNCADAVTVMAVYKDGATGLCYTLAPGAMTTVGAGYIGEHGYADHL  98
+
+Query  71   ARC  73
+              C
+Sbjct  99   ELC  101
+
+
+> UniRef90_A0A0X3VSV0 Uncharacterized protein n=2 Tax=Streptomyces 
+violaceusniger TaxID=68280 RepID=A0A0X3VSV0_STRVO
+Length=63
+
+ Score = 82.3 bits (202),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 31/60 (52%), Positives = 41/60 (68%), Gaps = 0/60 (0%)
+
+Query  14  LYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARYLARC  73
+           +Y+SWRY+ A N CA+TV V VVY+D    LC  + P   +TVG+GY+G HGH  +LA C
+Sbjct  1   MYESWRYTDAANNCADTVDVMVVYQDGATSLCSTLPPSASSTVGEGYLGRHGHPDHLAVC  60
+
+
+> UniRef90_UPI00082CEAFC UPI00082CEAFC related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00082CEAFC
+Length=185
+
+ Score = 83.8 bits (206),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 32/72 (44%), Positives = 42/72 (58%), Gaps = 0/72 (0%)
+
+Query  2   TTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+           +  +E  P+CV   QSWRY+ A N C+  VT K VY+D  +  C  +APGQ  T+G GY 
+Sbjct  27  SAHAESVPTCVNYSQSWRYATATNTCSHGVTFKTVYQDGHQESCQYLAPGQTRTIGSGYT  86
+
+Query  62  GSHGHARYLARC  73
+           G HG    L +C
+Sbjct  87  GPHGSLARLEQC  98
+
+
+> UniRef90_G7HXP5 Uncharacterized protein n=1 Tax=Corynebacterium 
+casei UCMA 3821 TaxID=1110505 RepID=G7HXP5_9CORY
+Length=147
+
+ Score = 77.6 bits (190),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 19/74 (26%), Positives = 30/74 (41%), Gaps = 6/74 (8%)
+
+Query  2    TTVSEPAPSCVTLYQSWRYSQADNGC--AETVTVKVVYEDDTEGLCYAVAPGQITTVGDG  59
+            T  + PAP+C+       + Q  N C  ++   VKVV     +  C ++ PG  + VG  
+Sbjct  78   TLAAVPAPNCIVARAEKGFVQVYNNCGGSDPQRVKVVLAFGPDTQCKSIQPGTRSNVGPA  137
+
+Query  60   YIGSHGHARYLARC  73
+                 G    +  C
+Sbjct  138  ----AGRIDGVFLC  147
+
+
+> UniRef90_A0A0A2DMX7 Uncharacterized protein n=2 Tax=Corynebacterium 
+TaxID=1716 RepID=A0A0A2DMX7_9CORY
+Length=132
+
+ Score = 76.5 bits (187),  Expect = 8e-16, Method: Composition-based stats.
+ Identities = 18/71 (25%), Positives = 33/71 (46%), Gaps = 1/71 (1%)
+
+Query  4    VSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGS  63
+              +PAP+C++  +S  ++Q  N C   + +KV Y+ D    C  V+ G    +G    G 
+Sbjct  62   AEQPAPNCISWRESKGFTQVTNNCQADLAIKVYYDHDKASACETVSKGTQHNIGYAGWGP  121
+
+Query  64   -HGHARYLARC  73
+               + + +  C
+Sbjct  122  WRRNVQRVVTC  132
+
+
+> UniRef90_UPI000690021F hypothetical protein n=1 Tax=Corynebacterium 
+kroppenstedtii TaxID=161879 RepID=UPI000690021F
+Length=143
+
+ Score = 64.2 bits (155),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 16/70 (23%), Positives = 24/70 (34%), Gaps = 6/70 (9%)
+
+Query  6    EPAPSCVTLYQSWRYSQADNGCA--ETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGS  63
+              AP+C+       + Q  N C   E   +KV      +  C A+ PG  + VG      
+Sbjct  78   ATAPNCIVAKAEKGFVQVYNNCGGKEPQRIKVKLAFGPDTACKAIQPGTRSNVGPAIG--  135
+
+Query  64   HGHARYLARC  73
+                  +  C
+Sbjct  136  --RVDGVYLC  143
+
+
+> UniRef90_F8E2H5 Putative secreted protein n=1 Tax=Corynebacterium 
+resistens (strain DSM 45100 / JCM 12819 / GTC 2026) TaxID=662755 
+RepID=F8E2H5_CORRG
+Length=157
+
+ Score = 63.4 bits (153),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 19/73 (26%), Positives = 28/73 (38%), Gaps = 6/73 (8%)
+
+Query  4    VSEPAPSCVTLYQSWR-YSQADNGC--AETVTVKVVYEDDTEGLCYAVAPGQITTVGDGY  60
+            V  PAP+C+        + Q  N C  ++   VKV      +  C +V PG  T +G   
+Sbjct  88   VEVPAPNCIEAKVEKGGFIQVYNNCGGSDPQRVKVKIAFGPDTSCKSVQPGTRTNIGP--  145
+
+Query  61   IGSHGHARYLARC  73
+                G    +  C
+Sbjct  146  -LVSGRIDGIVLC  157
+
+
+> UniRef90_C0E1Q9 Alpha amylase inhibitor n=1 Tax=Corynebacterium 
+matruchotii ATCC 33806 TaxID=566549 RepID=C0E1Q9_9CORY
+Length=171
+
+ Score = 60.3 bits (145),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 17/72 (24%), Positives = 24/72 (33%), Gaps = 6/72 (8%)
+
+Query  4    VSEPAPSCVTLYQSWRYSQADNGCA--ETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+                AP CV   + W + Q  N C   E + V V      +  C  V PG  T +   + 
+Sbjct  104  TRAVAPDCVYAQKEWGFIQVYNNCGGNEPIRVTVTMAFMPDSECKPVWPGTRTNISPAWG  163
+
+Query  62   GSHGHARYLARC  73
+                    +  C
+Sbjct  164  ----RITGVVLC  171
+
+
+> UniRef90_G7I132 Putative uncharacterized protein n=1 Tax=Corynebacterium 
+casei UCMA 3821 TaxID=1110505 RepID=G7I132_9CORY
+Length=127
+
+ Score = 56.1 bits (134),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 14/66 (21%), Positives = 20/66 (30%), Gaps = 4/66 (6%)
+
+Query  8    APSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHA  67
+            AP CV       + Q  N C   + VKV      +  C  V  G    +           
+Sbjct  66   APDCVRAVSEKGFVQVYNNCEWDLRVKVKMAFSPDSACKLVLAGTRANIAPHTG----RI  121
+
+Query  68   RYLARC  73
+              + +C
+Sbjct  122  DGIEKC  127
+
+
+> UniRef90_P04082 Alpha-amylase inhibitor AI-3688 (Fragment) n=1 
+Tax=Streptomyces aureofaciens TaxID=1894 RepID=IAA_STRAU
+Length=36
+
+ Score = 53.4 bits (127),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 19/36 (53%), Positives = 23/36 (64%), Gaps = 0/36 (0%)
+
+Query  3   TVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYE  38
+               PAP CV  +QSWRY+   NGC++ VTV V YE
+Sbjct  1   ATGSPAPDCVESFQSWRYTDVRNGCSDAVTVVVQYE  36
+
+
+> UniRef90_E0DHB1 Alpha amylase inhibitor n=2 Tax=Corynebacterium 
+matruchotii TaxID=43768 RepID=E0DHB1_9CORY
+Length=170
+
+ Score = 52.2 bits (124),  Expect = 9e-07, Method: Composition-based stats.
+ Identities = 15/61 (25%), Positives = 23/61 (38%), Gaps = 2/61 (3%)
+
+Query  3   TVSEPAPSCVTLYQSWRYSQADNGCAE--TVTVKVVYEDDTEGLCYAVAPGQITTVGDGY  60
+                AP+C+ +   W + QA N C    T+ +K       +  C  V PG    +G   
+Sbjct  8   AAETRAPNCIEMKTEWGFVQAYNNCDTTKTLNLKAKMAFGPDTKCLPVKPGTRANIGPAL  67
+
+Query  61  I  61
+            
+Sbjct  68  G  68
+
+
+> UniRef90_W5XNY8 Uncharacterized protein n=3 Tax=Corynebacterium 
+casei TaxID=160386 RepID=W5XNY8_9CORY
+Length=129
+
+ Score = 50.7 bits (120),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 17/68 (25%), Positives = 24/68 (35%), Gaps = 3/68 (4%)
+
+Query  6    EPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHG  65
+              APSCV  Y+     Q +N C   + VKV+     +  C  V  G  T +         
+Sbjct  65   ATAPSCVVAYKELGAVQVENNCGMDLRVKVIIAFGPDSACKNVVAGTRTNIHFAGALK--  122
+
+Query  66   HARYLARC  73
+                +  C
+Sbjct  123  -IDRVELC  129
+
+
+> UniRef90_UPI000304C851 hypothetical protein n=1 Tax=Calothrix 
+sp. PCC 7103 TaxID=32057 RepID=UPI000304C851
+Length=102
+
+ Score = 49.1 bits (116),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 17/70 (24%), Positives = 24/70 (34%), Gaps = 5/70 (7%)
+
+Query  5    SEPAPSCVTLYQSWRYS-QADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGS  63
+            + PAP+CV +    R S    N C     VK++     +  C  + P  I          
+Sbjct  37   AAPAPNCVVVRSQARKSITVQNQCRTQQRVKLIIAFGRDSACRVINPSGIVRF---TWTF  93
+
+Query  64   HGHARYLARC  73
+                  L RC
+Sbjct  94   GNF-DRLERC  102
+
+
+> UniRef90_A0A0X3W6Y5 Uncharacterized protein n=1 Tax=Streptomyces 
+sp. NRRL S-1521 TaxID=1609100 RepID=A0A0X3W6Y5_9ACTN
+Length=100
+
+ Score = 45.7 bits (107),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 19/67 (28%), Positives = 27/67 (40%), Gaps = 2/67 (3%)
+
+Query  4   VSEPAPSCV--TLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYI  61
+           V   APSCV   + +  +Y +  N C ET+ +KVV +   +  C    PGQ      G  
+Sbjct  33  VRGTAPSCVKRDVIKHRKYVKVTNNCRETMHLKVVIDWGNDSPCLTYQPGQQWEWNWGRG  92
+
+Query  62  GSHGHAR  68
+                  
+Sbjct  93  SYGKVVT  99
+
+
+> UniRef90_A0A0S9KBF4 Uncharacterized protein n=1 Tax=Leifsonia 
+sp. Leaf264 TaxID=1736314 RepID=A0A0S9KBF4_9MICO
+Length=116
+
+ Score = 45.7 bits (107),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 18/71 (25%), Positives = 31/71 (44%), Gaps = 8/71 (11%)
+
+Query  8    APSCVTLYQ---SWR--YSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIG  62
+            AP+CV   +   SW   Y+   N C+ T  VK+++    +  C  ++PG       G +G
+Sbjct  49   APTCVRETKTGHSWGFPYAIIKNTCSTTQRVKIIWAAAPDSPCKTLSPGATYRHSTGALG  108
+
+Query  63   SHGHARYLARC  73
+                   + +C
+Sbjct  109  QF---DGIKKC  116
+
+
+> UniRef90_A0A0Q6XZ95 Uncharacterized protein n=2 Tax=Streptomyces 
+TaxID=1883 RepID=A0A0Q6XZ95_9ACTN
+Length=106
+
+ Score = 45.3 bits (106),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 15/68 (22%), Positives = 26/68 (38%), Gaps = 2/68 (3%)
+
+Query  3    TVSEPAPSCV--TLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGY  60
+            +    AP+CV   + +  +Y +  N C E + +KVV +   +  C    PG+      G 
+Sbjct  38   STQGTAPACVKRDVIKHRKYVKVTNTCNEAMHLKVVIDWGNDSPCLTYQPGEQWEWNWGR  97
+
+Query  61   IGSHGHAR  68
+                    
+Sbjct  98   GSYGKVVT  105
+
+
+> UniRef90_U7LCJ2 Uncharacterized protein n=1 Tax=Corynebacterium 
+sp. KPL1855 TaxID=1203562 RepID=U7LCJ2_9CORY
+Length=133
+
+ Score = 45.3 bits (106),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 14/72 (19%), Positives = 24/72 (33%), Gaps = 1/72 (1%)
+
+Query  3    TVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIG  62
+            + S P  +CV +  S    +  N C     +KV+     +  C  + P        G   
+Sbjct  62   SASSPVATCVNVQPSADNVKVTNNCPGKQGIKVLIAFGKDSECVYLEPHATHDHHFGSWF  121
+
+Query  63   SHG-HARYLARC  73
+            +H      +  C
+Sbjct  122  NHRARFDGVVSC  133
+
+
+> UniRef90_UPI00052791A4 hypothetical protein n=1 Tax=Streptomyces 
+yerevanensis TaxID=66378 RepID=UPI00052791A4
+Length=98
+
+ Score = 44.1 bits (103),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 11/50 (22%), Positives = 19/50 (38%), Gaps = 0/50 (0%)
+
+Query  19  RYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHAR  68
+           +Y +  N C E + +KVV +  ++  C    PG+      G         
+Sbjct  48  KYVKVTNNCGEAMHLKVVIDWGSDSPCLTYQPGEQWEWNWGRGSYGKVVT  97
+
+
+> UniRef90_UPI00066E6CC9 hypothetical protein n=1 Tax=Nonomuraea 
+sp. SBT364 TaxID=1580530 RepID=UPI00066E6CC9
+Length=119
+
+ Score = 43.0 bits (100),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 21/77 (27%), Positives = 35/77 (45%), Gaps = 8/77 (10%)
+
+Query  1    DTTVSEPAPSCVTLYQSWR----YSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTV  56
+            D ++   APSC+   Q+W     +++A N CA T  +K+++    +  C  +APG   T 
+Sbjct  47   DMSIMASAPSCIK-RQTWTDWYDFAKATNHCASTKHIKMIWAFAPDSSCITLAPGTSATT  105
+
+Query  57   GDGYIGSHGHARYLARC  73
+               Y G       +  C
+Sbjct  106  ---YRGRAARYDGMVTC  119
+
+
+> UniRef90_V6KMU3 Uncharacterized protein n=3 Tax=Streptomyces 
+niveus TaxID=193462 RepID=V6KMU3_STRNV
+Length=118
+
+ Score = 42.6 bits (99),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 22/76 (29%), Positives = 37/76 (49%), Gaps = 10/76 (13%)
+
+Query  6    EPAPSCVTLYQS-------WR-YSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVG  57
+              AP+CV L+Q        WR  + A N C+  V +++++   T+G C+++ PGQ    G
+Sbjct  45   SAAPTCVHLHQEDYIRDGQWRSLANAKNNCSHAVRIRMIWTGTTDGRCFSLNPGQDH--G  102
+
+Query  58   DGYIGSHGHARYLARC  73
+            +   G   +   L  C
+Sbjct  103  ESKPGRGPYVSELRDC  118
+
+
+> UniRef90_S3Z8G6 Uncharacterized protein n=2 Tax=Streptomyces 
+TaxID=1883 RepID=S3Z8G6_9ACTN
+Length=113
+
+ Score = 41.8 bits (97),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 15/55 (27%), Positives = 21/55 (38%), Gaps = 4/55 (7%)
+
+Query  2   TTVSEPAPSCVTLYQSWRY----SQADNGCAETVTVKVVYEDDTEGLCYAVAPGQ  52
+                 APSCV +          +   N C+ T  VKV +    +  C  + PGQ
+Sbjct  41  AQARAAAPSCVKVKVDRGIISQTAYVTNKCSTTKRVKVRWSFAPDSGCNTLKPGQ  95
+
+
+> UniRef90_UPI0003678D4B hypothetical protein n=1 Tax=Frankia sp. 
+BCU110501 TaxID=365528 RepID=UPI0003678D4B
+Length=101
+
+ Score = 41.4 bits (96),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 19/75 (25%), Positives = 28/75 (37%), Gaps = 7/75 (9%)
+
+Query  3    TVSEPAPSCVTLY----QSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGD  58
+              ++PAP+C+        S  Y    N C++    KV     T+  C  ++PG       
+Sbjct  30   AHADPAPTCLNWSLNDSGSTDYLTVTNNCSQYKNYKVKLAFRTDSSCTGISPGVTQKWSW  89
+
+Query  59   GYIGSHGHARYLARC  73
+            GY G       L  C
+Sbjct  90   GYPG---RFDGLENC  101
+
+
+> UniRef90_UPI0006E42FF6 hypothetical protein n=1 Tax=Microbispora 
+sp. GMKU363 TaxID=718014 RepID=UPI0006E42FF6
+Length=113
+
+ Score = 41.4 bits (96),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 17/52 (33%), Positives = 26/52 (50%), Gaps = 8/52 (15%)
+
+Query  8   APSCVTLYQSWRYSQAD------NGCAETVTVKVVYEDDTEGLCYAVAPGQI  53
+           APSC+ ++Q  R           N C   + +K+V+    +G C +VAPGQ 
+Sbjct  46  APSCIAVWQ--RTGNVTKTGYARNDCGSRMNIKIVWSHGADGPCRSVAPGQT  95
+
+
+> UniRef90_A0A073B3V7 Uncharacterized protein n=1 Tax=Saccharopolyspora 
+rectivirgula TaxID=28042 RepID=A0A073B3V7_9PSEU
+Length=99
+
+ Score = 41.1 bits (95),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 16/75 (21%), Positives = 28/75 (37%), Gaps = 6/75 (8%)
+
+Query  3   TVSEPAPSCVTLYQSWR--YSQA--DNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGD  58
+                AP C+   +S    Y+     N C     +K++     +  C+++APGQ  T   
+Sbjct  27  PRETTAPKCMHDKESKGKVYTTVWVTNKCKRNYRIKLIMARGADSRCFSIAPGQ--TRKH  84
+
+Query  59  GYIGSHGHARYLARC  73
+              G   +   +  C
+Sbjct  85  ESRGVSPYLDRIVLC  99
+
+
+> UniRef90_UPI0004C7C23F hypothetical protein n=1 Tax=Streptomyces 
+sp. NRRL B-1347 TaxID=1476877 RepID=UPI0004C7C23F
+Length=130
+
+ Score = 41.4 bits (96),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 12/54 (22%), Positives = 22/54 (41%), Gaps = 0/54 (0%)
+
+Query  1    DTTVSEPAPSCVTLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQIT  54
+            +      AP+CV    + R + A N C   + VK+V +   +  C ++      
+Sbjct  62   EAAPQGTAPACVERSVNGRSATATNNCGRVMRVKIVVKHGPDSRCTSLKHRAWA  115
+
+
+> UniRef90_UPI0006E360E5 hypothetical protein n=1 Tax=Streptomyces 
+kanamyceticus TaxID=1967 RepID=UPI0006E360E5
+Length=106
+
+ Score = 40.7 bits (94),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 15/65 (23%), Positives = 24/65 (37%), Gaps = 2/65 (3%)
+
+Query  6    EPAPSCV--TLYQSWRYSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGS  63
+              APSCV   + +  +Y +  N C E + +KVV +   +  C     G+      G    
+Sbjct  41   GTAPSCVKRDVIKHKKYVKVTNLCGEAMHLKVVIDWGNDSPCLTYQHGEQWEWNWGRGSY  100
+
+Query  64   HGHAR  68
+                 
+Sbjct  101  GKVVT  105
+
+
+> UniRef90_A0A0F5AJ09 Uncharacterized protein n=1 Tax=Streptomyces 
+sp. MUSC164 TaxID=1354891 RepID=A0A0F5AJ09_9ACTN
+Length=103
+
+ Score = 40.3 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 13/54 (24%), Positives = 22/54 (41%), Gaps = 1/54 (2%)
+
+Query  20   YSQADNGCAETVTVKVVYEDDTEGLCYAVAPGQITTVGDGYIGSHGHARYLARC  73
+            +    N C+ T  VKV Y+ D    C+ + PG   +     + +  +   L  C
+Sbjct  51   FVDLTNDCSTTQKVKVDYDRDYFSPCFTLEPGGTASHSASVVYASRY-EGLVTC  103
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.149    0.532    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0451    0.140     1.90     42.6     43.6 
+
+Effective search space used: 449436773765
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

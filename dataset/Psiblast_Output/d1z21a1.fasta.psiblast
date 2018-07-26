@@ -1,0 +1,1503 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1z21a1
+
+Length=96
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q663I2 Yop proteins translocation protein H n=24 Tax=Y...  188     2e-58
+  UniRef90_A0A0S2SDQ6 Yop proteins translocation protein H n=1 Ta...  109     8e-28
+  UniRef90_A0A0W7U489 Uncharacterized protein n=1 Tax=Aeromonas s...  105     3e-26
+  UniRef90_A0A0U1EW48 Putative type III secretion protein n=1 Tax...  79.7    5e-17
+  UniRef90_Q4W470 AscH protein n=19 Tax=Aeromonas TaxID=642 RepID...  73.6    5e-14
+  UniRef90_A0A0D0QXC4 Contig_25, whole genome shotgun sequence n=...  70.5    6e-13
+  UniRef90_UPI0005B1FC0E RNA-binding protein n=1 Tax=Aeromonas en...  70.1    8e-13
+  UniRef90_A0A0M9CZ04 Type III secretion protein n=1 Tax=Photorha...  67.8    6e-12
+  UniRef90_Q7N0U6 Type III secretion component protein SctH n=1 T...  65.9    3e-11
+  UniRef90_N9U4U7 AscH protein n=1 Tax=Aeromonas diversa CDC 2478...  65.1    6e-11
+  UniRef90_B6VK53 Type iii secretion component protein scth n=2 T...  65.1    6e-11
+  UniRef90_Q1EHA1 AscH n=9 Tax=Aeromonas hydrophila TaxID=644 Rep...  63.5    2e-10
+  UniRef90_A0A0J9F6L3 Type III secretion protein n=1 Tax=Photorha...  63.2    2e-10
+  UniRef90_UPI00067FD6FF RNA-binding protein n=1 Tax=Aeromonas te...  63.2    3e-10
+  UniRef90_UPI00051C0C8E RNA-binding protein n=1 Tax=Aeromonas fi...  61.6    1e-09
+  UniRef90_Q5XKZ0 YscH n=7 Tax=Aeromonas TaxID=642 RepID=Q5XKZ0_A...  60.1    4e-09
+  UniRef90_UPI00056CEE60 type III secretion protein n=1 Tax=Photo...  59.7    4e-09
+  UniRef90_A0A1B8YMD6 Yop proteins translocation protein H n=6 Ta...  58.9    7e-09
+  UniRef90_T0PDT9 Type iii secretion component protein scth n=5 T...  57.8    2e-08
+  UniRef90_Q699P6 AscH n=3 Tax=Aeromonas TaxID=642 RepID=Q699P6_A...  57.0    4e-08
+  UniRef90_W3VBL1 Type III secretion effector, YopR family n=1 Ta...  55.5    1e-07
+
+
+> UniRef90_Q663I2 Yop proteins translocation protein H n=24 Tax=Yersinia 
+TaxID=444888 RepID=YSCH_YERPS
+Length=165
+
+ Score = 188 bits (477),  Expect = 2e-58, Method: Compositional matrix adjust.
+ Identities = 95/104 (91%), Positives = 95/104 (91%), Gaps = 8/104 (8%)
+
+Query  1    SAEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+            SAEKTREVLWQQYYASNPPDHAVLEVLA PVREALLARFGQHQGSVVPAIDLPELRSVLQ
+Sbjct  42   SAEKTREVLWQQYYASNPPDHAVLEVLAMPVREALLARFGQHQGSVVPAIDLPELRSVLQ  101
+
+Query  61   QFDSFGKRWEAILLQVLEGI--------LPYLSELINKELMILL  96
+            QFDSFGKRWEAILLQVLEGI        LPYLSELINKELMILL
+Sbjct  102  QFDSFGKRWEAILLQVLEGIKPNESQVGLPYLSELINKELMILL  145
+
+
+> UniRef90_A0A0S2SDQ6 Yop proteins translocation protein H n=1 
+Tax=Aeromonas schubertii TaxID=652 RepID=A0A0S2SDQ6_9GAMM
+Length=156
+
+ Score = 109 bits (272),  Expect = 8e-28, Method: Compositional matrix adjust.
+ Identities = 53/101 (52%), Positives = 70/101 (69%), Gaps = 5/101 (5%)
+
+Query  1    SAEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+            + E  RE  WQ+Y AS+PPD A+L  L  PV+EA+LARFGQ  G V+PAIDLPELR +L+
+Sbjct  36   AGEDVREAKWQRYRASDPPDKALLAELVAPVKEAILARFGQRTGPVIPAIDLPELRGLLR  95
+
+Query  61   QFDSFGKRWEAILLQVLEGILP-----YLSELINKELMILL  96
+            +FD  GKR E +LL+VL          +++EL+ +ELM LL
+Sbjct  96   EFDPLGKRRETVLLEVLAATTKGEGGAHMAELLRRELMTLL  136
+
+
+> UniRef90_A0A0W7U489 Uncharacterized protein n=1 Tax=Aeromonas 
+schubertii TaxID=652 RepID=A0A0W7U489_9GAMM
+Length=156
+
+ Score = 105 bits (262),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 52/100 (52%), Positives = 70/100 (70%), Gaps = 5/100 (5%)
+
+Query  2    AEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQQ  61
+            +E  RE  WQ+Y AS+PPD A+L  L  PV+EA+ ARFGQ  G V+PAIDLPELR +L++
+Sbjct  37   SEDVREAKWQRYRASDPPDKALLAELVAPVKEAIQARFGQRTGPVIPAIDLPELRGLLRE  96
+
+Query  62   FDSFGKRWEAILLQVLE-----GILPYLSELINKELMILL  96
+            FD  GKR E +LL+VL      G   ++++L+ +ELM LL
+Sbjct  97   FDPLGKRRETVLLEVLATTPKGGEGKHVADLLRRELMTLL  136
+
+
+> UniRef90_A0A0U1EW48 Putative type III secretion protein n=1 Tax=Yersinia 
+intermedia TaxID=631 RepID=A0A0U1EW48_YERIN
+Length=87
+
+ Score = 79.7 bits (195),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 37/38 (97%), Positives = 37/38 (97%), Gaps = 0/38 (0%)
+
+Query  1   SAEKTREVLWQQYYASNPPDHAVLEVLATPVREALLAR  38
+           SAEKTREVLWQQYYASNPPDHAVLEVLA PVREALLAR
+Sbjct  42  SAEKTREVLWQQYYASNPPDHAVLEVLAMPVREALLAR  79
+
+
+> UniRef90_Q4W470 AscH protein n=19 Tax=Aeromonas TaxID=642 RepID=Q4W470_AERSA
+Length=184
+
+ Score = 73.6 bits (179),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 41/102 (40%), Positives = 59/102 (58%), Gaps = 10/102 (10%)
+
+Query  5    TREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQQFDS  64
+             RE+LWQ Y   N P   + + L  PV + L+ARFG+ Q  V+ AIDLPELR+ +++FD 
+Sbjct  63   KRELLWQIYQQGNKPAPEIGKQLFAPVTDKLIARFGERQSPVLDAIDLPELRATMREFDP  122
+
+Query  65   FGKRWEAILLQVL------EGILP----YLSELINKELMILL  96
+               R E +LL +L      +G +P    +L  L  +ELM L+
+Sbjct  123  LASRREKVLLNLLSELRDGQGAVPAEHLFLDALARRELMTLI  164
+
+
+> UniRef90_A0A0D0QXC4 Contig_25, whole genome shotgun sequence 
+n=5 Tax=Aeromonas TaxID=642 RepID=A0A0D0QXC4_9GAMM
+Length=183
+
+ Score = 70.5 bits (171),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 42/99 (42%), Positives = 60/99 (61%), Gaps = 9/99 (9%)
+
+Query  6    REVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQQFDSF  65
+            RE+LWQ  Y  +     V ++L  PV   L+ RFG+ Q  VV AIDLPELR+++++FD  
+Sbjct  66   RELLWQ-VYQQDEKTAGVADLLFKPVASKLIERFGERQLPVVAAIDLPELRTLMREFDPL  124
+
+Query  66   GKRWEAILLQVL-----EGILP---YLSELINKELMILL  96
+              R E +LL+V+     +G L    YL+EL  +ELM L+
+Sbjct  125  SSRRETVLLKVMAELRGQGALSGNDYLAELARRELMTLI  163
+
+
+> UniRef90_UPI0005B1FC0E RNA-binding protein n=1 Tax=Aeromonas 
+encheleia TaxID=73010 RepID=UPI0005B1FC0E
+Length=185
+
+ Score = 70.1 bits (170),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 40/101 (40%), Positives = 58/101 (57%), Gaps = 10/101 (10%)
+
+Query  6    REVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQQFDSF  65
+            R++LWQ Y     P   + + L  PV + L+ RFG  +  VV AIDLPELR+++++FD  
+Sbjct  65   RDLLWQIYQQEGKPAQEIGKQLFQPVTQQLIERFGGRELPVVSAIDLPELRAMMREFDPL  124
+
+Query  66   GKRWEAILLQVL------EGILP----YLSELINKELMILL  96
+              R E +LL ++      +G LP    YL EL  +ELM L+
+Sbjct  125  ASRREKVLLNMMADLKGEQGTLPPEREYLGELARRELMTLI  165
+
+
+> UniRef90_A0A0M9CZ04 Type III secretion protein n=1 Tax=Photorhabdus 
+heterorhabditis TaxID=880156 RepID=A0A0M9CZ04_9GAMM
+Length=188
+
+ Score = 67.8 bits (164),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 41/101 (41%), Positives = 62/101 (61%), Gaps = 10/101 (10%)
+
+Query  6    REVLWQQYYA----SNPPDHAVLEV-LATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+            R+ +WQ Y      S P  HA LE  L TPV+E L ++FG     V P++D+PELR++++
+Sbjct  68   RKTIWQWYQTLSPESQPSQHAQLEAKLTTPVQERLWSQFGGLALPVNPSLDIPELRAIVR  127
+
+Query  61   QFDSFGKRWEAILLQVLEGILP-----YLSELINKELMILL  96
+            +F   G++ E +LL+VL  I P     YL++LI +EL  L+
+Sbjct  128  EFAPTGRQQETVLLKVLGKIEPLAGNEYLNDLIQRELKTLI  168
+
+
+> UniRef90_Q7N0U6 Type III secretion component protein SctH n=1 
+Tax=Photorhabdus luminescens subsp. laumondii (strain DSM 15139 
+/ CIP 105565 / TT01) TaxID=243265 RepID=Q7N0U6_PHOLL
+Length=188
+
+ Score = 65.9 bits (159),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 40/101 (40%), Positives = 61/101 (60%), Gaps = 10/101 (10%)
+
+Query  6    REVLWQQYYA----SNPPDHAVLEV-LATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+            R+V+WQ Y A      P   A L+  L  PV+E L ++FG   G++ P +D+PELR +++
+Sbjct  68   RKVIWQWYQALSSDKQPSQRAQLQAKLIAPVQERLWSQFGGLAGNIKPPLDMPELRKIVR  127
+
+Query  61   QFDSFGKRWEAILLQVLEGILP-----YLSELINKELMILL  96
+            +F   G++ E +LL+VL  I P     YLS+LI +EL  L+
+Sbjct  128  EFAPTGRQQETVLLEVLGEIKPIPGNEYLSDLIRQELKTLI  168
+
+
+> UniRef90_N9U4U7 AscH protein n=1 Tax=Aeromonas diversa CDC 2478-85 
+TaxID=1268237 RepID=N9U4U7_9GAMM
+Length=179
+
+ Score = 65.1 bits (157),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 37/98 (38%), Positives = 54/98 (55%), Gaps = 7/98 (7%)
+
+Query  6    REVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQQFDSF  65
+            RE+LW+ ++    P  A+   L  PV + L+A +   Q  V+ AIDLPELR+++ +FD  
+Sbjct  62   RELLWKIHHQGGEPAKAIGHQLFQPVTDKLIAHYSGRQLPVMAAIDLPELRALMSEFDPL  121
+
+Query  66   GKRWEAILLQVL-------EGILPYLSELINKELMILL  96
+              R E +LL V+        G   YL EL  +ELM L+
+Sbjct  122  PSRREKVLLNVMADIKKAANGEHAYLDELARRELMTLI  159
+
+
+> UniRef90_B6VK53 Type iii secretion component protein scth n=2 
+Tax=Photorhabdus asymbiotica TaxID=291112 RepID=B6VK53_PHOAA
+Length=188
+
+ Score = 65.1 bits (157),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 41/100 (41%), Positives = 60/100 (60%), Gaps = 10/100 (10%)
+
+Query  7    EVLWQQYYA----SNPPDHAVLEV-LATPVREALLARFGQHQGSVVPAIDLPELRSVLQQ  61
+            + LWQ Y      S P   A LE  L TPV+E L ++FG     V P++D+PELR+++++
+Sbjct  69   KTLWQWYQTLSPESQPSQRAQLEARLTTPVQEHLWSQFGGLALPVKPSLDIPELRAIVRE  128
+
+Query  62   FDSFGKRWEAILLQVLEGILP-----YLSELINKELMILL  96
+            F   G++ E +LL+VL  I P     YLS+LI +EL  L+
+Sbjct  129  FAPTGRQQETVLLKVLGNIKPLAGNEYLSDLIRRELQTLI  168
+
+
+> UniRef90_Q1EHA1 AscH n=9 Tax=Aeromonas hydrophila TaxID=644 RepID=Q1EHA1_AERHY
+Length=184
+
+ Score = 63.5 bits (153),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 40/106 (38%), Positives = 55/106 (52%), Gaps = 10/106 (9%)
+
+Query  1    SAEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+            S    R++LWQ +        AV + L  PV + L+A F   Q  VV AID PELR++++
+Sbjct  59   SPSAQRDLLWQIHQQGGEHAQAVGKRLFQPVTDKLVAHFSGRQLPVVAAIDQPELRALMR  118
+
+Query  61   QFDSFGKRWEAILLQVLEGI----------LPYLSELINKELMILL  96
+            +FD    R E +LL V+  I          L YL EL  +ELM L+
+Sbjct  119  EFDPLSSRRETVLLNVMADIKKAANGTQVDLAYLEELARRELMTLI  164
+
+
+> UniRef90_A0A0J9F6L3 Type III secretion protein n=1 Tax=Photorhabdus 
+luminescens subsp. luminescens TaxID=171439 RepID=A0A0J9F6L3_PHOLU
+Length=188
+
+ Score = 63.2 bits (152),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 41/101 (41%), Positives = 61/101 (60%), Gaps = 10/101 (10%)
+
+Query  6    REVLWQQYYA----SNPPDHAVLE-VLATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+            R+V+WQ Y +      P   A LE  L  PV+E L ++FG   G+V P +D+PELR  ++
+Sbjct  68   RKVIWQWYQSLSPDKQPTQRAQLEDKLIAPVQEQLWSQFGGLTGNVKPPLDMPELRKTVR  127
+
+Query  61   QFDSFGKRWEAILLQVLEGI--LP---YLSELINKELMILL  96
+            +F   G++ E +LL+VL  I  +P   YLS+LI +EL  L+
+Sbjct  128  EFAPTGRQQETVLLKVLGQIQAIPGNEYLSDLIQRELKTLI  168
+
+
+> UniRef90_UPI00067FD6FF RNA-binding protein n=1 Tax=Aeromonas 
+tecta TaxID=324617 RepID=UPI00067FD6FF
+Length=185
+
+ Score = 63.2 bits (152),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 39/101 (39%), Positives = 58/101 (57%), Gaps = 11/101 (11%)
+
+Query  6    REVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQQFDSF  65
+            R++LWQ  Y  +     + E L  PV + L+ RF   Q  VV AIDLPELR+++++FD  
+Sbjct  65   RDLLWQ-IYQQDSKAPGIGERLFQPVTDKLVERFSGRQLPVVTAIDLPELRALMREFDPL  123
+
+Query  66   GKRWEAILLQVL------EGILP----YLSELINKELMILL  96
+              R E +LL V+      +G++P    +L EL  +ELM+ L
+Sbjct  124  ASRRERVLLNVMAELKGEQGVVPAEWEFLGELARRELMVSL  164
+
+
+> UniRef90_UPI00051C0C8E RNA-binding protein n=1 Tax=Aeromonas 
+finlandiensis TaxID=1543375 RepID=UPI00051C0C8E
+Length=186
+
+ Score = 61.6 bits (148),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 38/102 (37%), Positives = 59/102 (58%), Gaps = 11/102 (11%)
+
+Query  6    REVLWQQYYASNPPDHA-VLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQQFDS  64
+            R++LW+ +   N    A + + LA PV   L+ RFG+ Q  VV AIDLPELR+++++FD 
+Sbjct  65   RDLLWKLHPQGNTQQAAEIGQRLAKPVTSKLVERFGERQLPVVAAIDLPELRALMREFDP  124
+
+Query  65   FGKRWEAILLQVL------EGILP----YLSELINKELMILL  96
+               R E +LL ++      +G +P    +L  L  +ELM L+
+Sbjct  125  LASRREKVLLTLIGELKDGQGAVPAEHLFLDALARRELMTLI  166
+
+
+> UniRef90_Q5XKZ0 YscH n=7 Tax=Aeromonas TaxID=642 RepID=Q5XKZ0_AERHY
+Length=184
+
+ Score = 60.1 bits (144),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 39/106 (37%), Positives = 55/106 (52%), Gaps = 10/106 (9%)
+
+Query  1    SAEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+            S+   R++LWQ +         V   L  PV + L+A F   Q  VV AIDLPELR++++
+Sbjct  59   SSAVQRDLLWQIHQQGGEQAKLVGSQLFQPVTDKLIAHFSGRQLPVVAAIDLPELRALMR  118
+
+Query  61   QFDSFGKRWEAILLQVLEGI----------LPYLSELINKELMILL  96
+            +FD    R E +LL V+  +          L YL EL  +ELM L+
+Sbjct  119  EFDPLPSRREKVLLNVMADLKKVATGDQTDLIYLDELARRELMTLI  164
+
+
+> UniRef90_UPI00056CEE60 type III secretion protein n=1 Tax=Photorhabdus 
+asymbiotica TaxID=291112 RepID=UPI00056CEE60
+Length=188
+
+ Score = 59.7 bits (143),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 39/95 (41%), Positives = 58/95 (61%), Gaps = 8/95 (8%)
+
+Query  10   WQQYYASNPP--DHAVLEV-LATPVREALLARFGQHQGSVVPAIDLPELRSVLQQFDSFG  66
+            W Q  +S+ P    A LE  L  PV+E L ++FG+    V P +DLPELR+++++F   G
+Sbjct  74   WYQTLSSDSPASQRAQLETRLIAPVQEHLWSQFGRLTLPVKPQLDLPELRAIVREFAPTG  133
+
+Query  67   KRWEAILLQVLEGILP-----YLSELINKELMILL  96
+            ++ E +LL+VL  I P     YLS+LI +EL  L+
+Sbjct  134  RQQETVLLKVLGKIEPISGNEYLSDLIRRELKTLI  168
+
+
+> UniRef90_A0A1B8YMD6 Yop proteins translocation protein H n=6 
+Tax=Photorhabdus luminescens TaxID=29488 RepID=A0A1B8YMD6_PHOLU
+Length=188
+
+ Score = 58.9 bits (141),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 40/101 (40%), Positives = 60/101 (59%), Gaps = 10/101 (10%)
+
+Query  6    REVLWQQYYA----SNPPDHAVLE-VLATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+            R+V WQ Y A      P   A LE  L  PV+E L ++FG     V P +D+PELR++++
+Sbjct  68   RQVTWQWYQALSPDKQPAQRAQLEDKLIAPVQERLWSQFGGLTLPVNPPLDMPELRAIVR  127
+
+Query  61   QFDSFGKRWEAILLQVLEGI--LP---YLSELINKELMILL  96
+            +F   G++ E +LL++L  I  +P   YLS+LI +EL  L+
+Sbjct  128  EFSPTGRQQETVLLKILGKIETIPGNEYLSDLIRQELKTLI  168
+
+
+> UniRef90_T0PDT9 Type iii secretion component protein scth n=5 
+Tax=Photorhabdus temperata TaxID=574560 RepID=T0PDT9_PHOTE
+Length=188
+
+ Score = 57.8 bits (138),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 40/101 (40%), Positives = 57/101 (56%), Gaps = 10/101 (10%)
+
+Query  6    REVLWQQYYA----SNPPDHAVLE-VLATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+            R++ WQ Y      S P   A LE  L  PV+E L ++FG     V P +DLPE R+V++
+Sbjct  68   RKIAWQWYQTLSTDSQPSQRAQLEGKLIAPVQEHLWSQFGGLTLPVKPQLDLPEFRAVVR  127
+
+Query  61   QFDSFGKRWEAILLQVLEGILP-----YLSELINKELMILL  96
+            +F   G++ E +LL+VL  I       YLS+LI +EL  L+
+Sbjct  128  EFAPTGRQQETVLLKVLGEIKSLDGNEYLSDLIRRELQTLI  168
+
+
+> UniRef90_Q699P6 AscH n=3 Tax=Aeromonas TaxID=642 RepID=Q699P6_AERHY
+Length=183
+
+ Score = 57.0 bits (136),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 37/101 (37%), Positives = 54/101 (53%), Gaps = 10/101 (10%)
+
+Query  6    REVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQQFDSF  65
+            RE+LWQ Y   +     + + L  PV   L  RFG  Q  VV AID  ELR+++++FD  
+Sbjct  63   RELLWQVYQQGDKRQAEIGKQLFEPVTNKLTERFGGRQLPVVAAIDQLELRALMREFDPL  122
+
+Query  66   GKRWEAILLQVL------EGILP----YLSELINKELMILL  96
+              R EA+LL +L      + ++P    +L  L  +ELM L+
+Sbjct  123  ASRREAVLLDLLSKLKGEQCVVPPGHEFLDALARRELMTLI  163
+
+
+> UniRef90_W3VBL1 Type III secretion effector, YopR family n=1 
+Tax=Photorhabdus temperata subsp. khanii NC19 TaxID=1004151 
+RepID=W3VBL1_PHOTE
+Length=188
+
+ Score = 55.5 bits (132),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 38/102 (37%), Positives = 62/102 (61%), Gaps = 12/102 (12%)
+
+Query  6    REVLWQQYYASNPPDH-----AVLE-VLATPVREALLARFGQHQGSVVPAIDLPELRSVL  59
+            R+++WQ ++ + P D+     A LE  L  P++E L ++FG     V P +DLPELR+++
+Sbjct  68   RKIVWQ-WHQTLPSDNQSSQRAQLEGKLIAPIQEHLWSQFGGLTLPVKPQLDLPELRTIV  126
+
+Query  60   QQFDSFGKRWEAILLQVLEGILP-----YLSELINKELMILL  96
+            ++F   G++ E +LL+VL  I       YLS+LI +EL  L+
+Sbjct  127  REFAPTGRQQETVLLKVLGEIKSLDGNEYLSDLIRRELQTLI  168
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.398    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 447801887735
+Results from round 2
+
+
+Query= d1z21a1
+
+Length=96
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_N9U4U7 AscH protein n=1 Tax=Aeromonas diversa CDC 2478...  136     4e-38
+  UniRef90_Q5XKZ0 YscH n=7 Tax=Aeromonas TaxID=642 RepID=Q5XKZ0_A...  135     1e-37
+  UniRef90_Q1EHA1 AscH n=9 Tax=Aeromonas hydrophila TaxID=644 Rep...  133     5e-37
+  UniRef90_Q663I2 Yop proteins translocation protein H n=24 Tax=Y...  131     2e-36
+  UniRef90_A0A0S2SDQ6 Yop proteins translocation protein H n=1 Ta...  127     7e-35
+  UniRef90_A0A0W7U489 Uncharacterized protein n=1 Tax=Aeromonas s...  126     1e-34
+  UniRef90_T0PDT9 Type iii secretion component protein scth n=5 T...  123     6e-33
+  UniRef90_UPI0005B1FC0E RNA-binding protein n=1 Tax=Aeromonas en...  122     1e-32
+  UniRef90_Q4W470 AscH protein n=19 Tax=Aeromonas TaxID=642 RepID...  121     3e-32
+  UniRef90_A0A0D0QXC4 Contig_25, whole genome shotgun sequence n=...  120     6e-32
+  UniRef90_Q699P6 AscH n=3 Tax=Aeromonas TaxID=642 RepID=Q699P6_A...  120     7e-32
+  UniRef90_UPI00067FD6FF RNA-binding protein n=1 Tax=Aeromonas te...  120     8e-32
+  UniRef90_A0A0M9CZ04 Type III secretion protein n=1 Tax=Photorha...  120     1e-31
+  UniRef90_B6VK53 Type iii secretion component protein scth n=2 T...  118     4e-31
+  UniRef90_Q7N0U6 Type III secretion component protein SctH n=1 T...  118     6e-31
+  UniRef90_A0A0J9F6L3 Type III secretion protein n=1 Tax=Photorha...  118     9e-31
+  UniRef90_UPI00056CEE60 type III secretion protein n=1 Tax=Photo...  116     2e-30
+  UniRef90_A0A1B8YMD6 Yop proteins translocation protein H n=6 Ta...  116     3e-30
+  UniRef90_W3VBL1 Type III secretion effector, YopR family n=1 Ta...  116     3e-30
+  UniRef90_UPI00051C0C8E RNA-binding protein n=1 Tax=Aeromonas fi...  111     2e-28
+  UniRef90_A0A0U1EW48 Putative type III secretion protein n=1 Tax...  53.4    4e-07
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI00046A8F3B hypothetical protein n=1 Tax=Pseudomonas...  62.7    5e-10
+  UniRef90_A0A1H2MMA2 Type III secretion protein H n=1 Tax=Pseudo...  58.0    2e-08
+  UniRef90_D0XFL2 Uncharacterized protein n=12 Tax=Vibrio TaxID=6...  45.7    7e-04
+  UniRef90_A0A0H4A337 Type III secretion effector protein (YopR, ...  44.6    0.001
+  UniRef90_A0A1E5F0N9 Type III secretion effector, YopR family n=...  43.4    0.004
+
+
+> UniRef90_N9U4U7 AscH protein n=1 Tax=Aeromonas diversa CDC 2478-85 
+TaxID=1268237 RepID=N9U4U7_9GAMM
+Length=179
+
+ Score = 136 bits (343),  Expect = 4e-38, Method: Composition-based stats.
+ Identities = 38/103 (37%), Positives = 55/103 (53%), Gaps = 7/103 (7%)
+
+Query  1    SAEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+            S    RE+LW+ ++    P  A+   L  PV + L+A +   Q  V+ AIDLPELR+++ 
+Sbjct  57   SRAAQRELLWKIHHQGGEPAKAIGHQLFQPVTDKLIAHYSGRQLPVMAAIDLPELRALMS  116
+
+Query  61   QFDSFGKRWEAILLQVLEGILP-------YLSELINKELMILL  96
+            +FD    R E +LL V+  I         YL EL  +ELM L+
+Sbjct  117  EFDPLPSRREKVLLNVMADIKKAANGEHAYLDELARRELMTLI  159
+
+
+> UniRef90_Q5XKZ0 YscH n=7 Tax=Aeromonas TaxID=642 RepID=Q5XKZ0_AERHY
+Length=184
+
+ Score = 135 bits (341),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 38/106 (36%), Positives = 54/106 (51%), Gaps = 10/106 (9%)
+
+Query  1    SAEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+            S+   R++LWQ +         V   L  PV + L+A F   Q  VV AIDLPELR++++
+Sbjct  59   SSAVQRDLLWQIHQQGGEQAKLVGSQLFQPVTDKLIAHFSGRQLPVVAAIDLPELRALMR  118
+
+Query  61   QFDSFGKRWEAILLQVLEGILP----------YLSELINKELMILL  96
+            +FD    R E +LL V+  +            YL EL  +ELM L+
+Sbjct  119  EFDPLPSRREKVLLNVMADLKKVATGDQTDLIYLDELARRELMTLI  164
+
+
+> UniRef90_Q1EHA1 AscH n=9 Tax=Aeromonas hydrophila TaxID=644 RepID=Q1EHA1_AERHY
+Length=184
+
+ Score = 133 bits (336),  Expect = 5e-37, Method: Composition-based stats.
+ Identities = 40/106 (38%), Positives = 55/106 (52%), Gaps = 10/106 (9%)
+
+Query  1    SAEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+            S    R++LWQ +        AV + L  PV + L+A F   Q  VV AID PELR++++
+Sbjct  59   SPSAQRDLLWQIHQQGGEHAQAVGKRLFQPVTDKLVAHFSGRQLPVVAAIDQPELRALMR  118
+
+Query  61   QFDSFGKRWEAILLQVLEGI----------LPYLSELINKELMILL  96
+            +FD    R E +LL V+  I          L YL EL  +ELM L+
+Sbjct  119  EFDPLSSRRETVLLNVMADIKKAANGTQVDLAYLEELARRELMTLI  164
+
+
+> UniRef90_Q663I2 Yop proteins translocation protein H n=24 Tax=Yersinia 
+TaxID=444888 RepID=YSCH_YERPS
+Length=165
+
+ Score = 131 bits (331),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 95/104 (91%), Positives = 95/104 (91%), Gaps = 8/104 (8%)
+
+Query  1    SAEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+            SAEKTREVLWQQYYASNPPDHAVLEVLA PVREALLARFGQHQGSVVPAIDLPELRSVLQ
+Sbjct  42   SAEKTREVLWQQYYASNPPDHAVLEVLAMPVREALLARFGQHQGSVVPAIDLPELRSVLQ  101
+
+Query  61   QFDSFGKRWEAILLQVLEGI--------LPYLSELINKELMILL  96
+            QFDSFGKRWEAILLQVLEGI        LPYLSELINKELMILL
+Sbjct  102  QFDSFGKRWEAILLQVLEGIKPNESQVGLPYLSELINKELMILL  145
+
+
+> UniRef90_A0A0S2SDQ6 Yop proteins translocation protein H n=1 
+Tax=Aeromonas schubertii TaxID=652 RepID=A0A0S2SDQ6_9GAMM
+Length=156
+
+ Score = 127 bits (320),  Expect = 7e-35, Method: Composition-based stats.
+ Identities = 53/101 (52%), Positives = 70/101 (69%), Gaps = 5/101 (5%)
+
+Query  1    SAEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+            + E  RE  WQ+Y AS+PPD A+L  L  PV+EA+LARFGQ  G V+PAIDLPELR +L+
+Sbjct  36   AGEDVREAKWQRYRASDPPDKALLAELVAPVKEAILARFGQRTGPVIPAIDLPELRGLLR  95
+
+Query  61   QFDSFGKRWEAILLQVLEGILP-----YLSELINKELMILL  96
+            +FD  GKR E +LL+VL          +++EL+ +ELM LL
+Sbjct  96   EFDPLGKRRETVLLEVLAATTKGEGGAHMAELLRRELMTLL  136
+
+
+> UniRef90_A0A0W7U489 Uncharacterized protein n=1 Tax=Aeromonas 
+schubertii TaxID=652 RepID=A0A0W7U489_9GAMM
+Length=156
+
+ Score = 126 bits (318),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 52/100 (52%), Positives = 70/100 (70%), Gaps = 5/100 (5%)
+
+Query  2    AEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQQ  61
+            +E  RE  WQ+Y AS+PPD A+L  L  PV+EA+ ARFGQ  G V+PAIDLPELR +L++
+Sbjct  37   SEDVREAKWQRYRASDPPDKALLAELVAPVKEAIQARFGQRTGPVIPAIDLPELRGLLRE  96
+
+Query  62   FDSFGKRWEAILLQVL-----EGILPYLSELINKELMILL  96
+            FD  GKR E +LL+VL      G   ++++L+ +ELM LL
+Sbjct  97   FDPLGKRRETVLLEVLATTPKGGEGKHVADLLRRELMTLL  136
+
+
+> UniRef90_T0PDT9 Type iii secretion component protein scth n=5 
+Tax=Photorhabdus temperata TaxID=574560 RepID=T0PDT9_PHOTE
+Length=188
+
+ Score = 123 bits (309),  Expect = 6e-33, Method: Composition-based stats.
+ Identities = 40/105 (38%), Positives = 57/105 (54%), Gaps = 10/105 (10%)
+
+Query  2    AEKTREVLWQQYYA----SNPPDHAVLE-VLATPVREALLARFGQHQGSVVPAIDLPELR  56
+                R++ WQ Y      S P   A LE  L  PV+E L ++FG     V P +DLPE R
+Sbjct  64   PATQRKIAWQWYQTLSTDSQPSQRAQLEGKLIAPVQEHLWSQFGGLTLPVKPQLDLPEFR  123
+
+Query  57   SVLQQFDSFGKRWEAILLQVLEGILP-----YLSELINKELMILL  96
+            +V+++F   G++ E +LL+VL  I       YLS+LI +EL  L+
+Sbjct  124  AVVREFAPTGRQQETVLLKVLGEIKSLDGNEYLSDLIRRELQTLI  168
+
+
+> UniRef90_UPI0005B1FC0E RNA-binding protein n=1 Tax=Aeromonas 
+encheleia TaxID=73010 RepID=UPI0005B1FC0E
+Length=185
+
+ Score = 122 bits (307),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 40/105 (38%), Positives = 58/105 (55%), Gaps = 10/105 (10%)
+
+Query  2    AEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQQ  61
+                R++LWQ Y     P   + + L  PV + L+ RFG  +  VV AIDLPELR+++++
+Sbjct  61   PAAQRDLLWQIYQQEGKPAQEIGKQLFQPVTQQLIERFGGRELPVVSAIDLPELRAMMRE  120
+
+Query  62   FDSFGKRWEAILLQVL------EGILP----YLSELINKELMILL  96
+            FD    R E +LL ++      +G LP    YL EL  +ELM L+
+Sbjct  121  FDPLASRREKVLLNMMADLKGEQGTLPPEREYLGELARRELMTLI  165
+
+
+> UniRef90_Q4W470 AscH protein n=19 Tax=Aeromonas TaxID=642 RepID=Q4W470_AERSA
+Length=184
+
+ Score = 121 bits (304),  Expect = 3e-32, Method: Composition-based stats.
+ Identities = 41/106 (39%), Positives = 60/106 (57%), Gaps = 10/106 (9%)
+
+Query  1    SAEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+            +    RE+LWQ Y   N P   + + L  PV + L+ARFG+ Q  V+ AIDLPELR+ ++
+Sbjct  59   APAAKRELLWQIYQQGNKPAPEIGKQLFAPVTDKLIARFGERQSPVLDAIDLPELRATMR  118
+
+Query  61   QFDSFGKRWEAILLQVL------EGILP----YLSELINKELMILL  96
+            +FD    R E +LL +L      +G +P    +L  L  +ELM L+
+Sbjct  119  EFDPLASRREKVLLNLLSELRDGQGAVPAEHLFLDALARRELMTLI  164
+
+
+> UniRef90_A0A0D0QXC4 Contig_25, whole genome shotgun sequence 
+n=5 Tax=Aeromonas TaxID=642 RepID=A0A0D0QXC4_9GAMM
+Length=183
+
+ Score = 120 bits (302),  Expect = 6e-32, Method: Composition-based stats.
+ Identities = 41/104 (39%), Positives = 59/104 (57%), Gaps = 9/104 (9%)
+
+Query  1    SAEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+            S    RE+LWQ Y   +     V ++L  PV   L+ RFG+ Q  VV AIDLPELR++++
+Sbjct  61   SPATRRELLWQVYQQ-DEKTAGVADLLFKPVASKLIERFGERQLPVVAAIDLPELRTLMR  119
+
+Query  61   QFDSFGKRWEAILLQVLEGIL--------PYLSELINKELMILL  96
+            +FD    R E +LL+V+  +          YL+EL  +ELM L+
+Sbjct  120  EFDPLSSRRETVLLKVMAELRGQGALSGNDYLAELARRELMTLI  163
+
+
+> UniRef90_Q699P6 AscH n=3 Tax=Aeromonas TaxID=642 RepID=Q699P6_AERHY
+Length=183
+
+ Score = 120 bits (302),  Expect = 7e-32, Method: Composition-based stats.
+ Identities = 37/106 (35%), Positives = 55/106 (52%), Gaps = 10/106 (9%)
+
+Query  1    SAEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+            +    RE+LWQ Y   +     + + L  PV   L  RFG  Q  VV AID  ELR++++
+Sbjct  58   APSARRELLWQVYQQGDKRQAEIGKQLFEPVTNKLTERFGGRQLPVVAAIDQLELRALMR  117
+
+Query  61   QFDSFGKRWEAILLQVL------EGILP----YLSELINKELMILL  96
+            +FD    R EA+LL +L      + ++P    +L  L  +ELM L+
+Sbjct  118  EFDPLASRREAVLLDLLSKLKGEQCVVPPGHEFLDALARRELMTLI  163
+
+
+> UniRef90_UPI00067FD6FF RNA-binding protein n=1 Tax=Aeromonas 
+tecta TaxID=324617 RepID=UPI00067FD6FF
+Length=185
+
+ Score = 120 bits (302),  Expect = 8e-32, Method: Composition-based stats.
+ Identities = 39/106 (37%), Positives = 59/106 (56%), Gaps = 11/106 (10%)
+
+Query  1    SAEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+            +    R++LWQ Y   +     + E L  PV + L+ RF   Q  VV AIDLPELR++++
+Sbjct  60   APAAQRDLLWQIYQQ-DSKAPGIGERLFQPVTDKLVERFSGRQLPVVTAIDLPELRALMR  118
+
+Query  61   QFDSFGKRWEAILLQVL------EGILP----YLSELINKELMILL  96
+            +FD    R E +LL V+      +G++P    +L EL  +ELM+ L
+Sbjct  119  EFDPLASRRERVLLNVMAELKGEQGVVPAEWEFLGELARRELMVSL  164
+
+
+> UniRef90_A0A0M9CZ04 Type III secretion protein n=1 Tax=Photorhabdus 
+heterorhabditis TaxID=880156 RepID=A0A0M9CZ04_9GAMM
+Length=188
+
+ Score = 120 bits (301),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 41/105 (39%), Positives = 63/105 (60%), Gaps = 10/105 (10%)
+
+Query  2    AEKTREVLWQQYYA----SNPPDHAVLE-VLATPVREALLARFGQHQGSVVPAIDLPELR  56
+            +   R+ +WQ Y      S P  HA LE  L TPV+E L ++FG     V P++D+PELR
+Sbjct  64   STTQRKTIWQWYQTLSPESQPSQHAQLEAKLTTPVQERLWSQFGGLALPVNPSLDIPELR  123
+
+Query  57   SVLQQFDSFGKRWEAILLQVLEGILP-----YLSELINKELMILL  96
+            +++++F   G++ E +LL+VL  I P     YL++LI +EL  L+
+Sbjct  124  AIVREFAPTGRQQETVLLKVLGKIEPLAGNEYLNDLIQRELKTLI  168
+
+
+> UniRef90_B6VK53 Type iii secretion component protein scth n=2 
+Tax=Photorhabdus asymbiotica TaxID=291112 RepID=B6VK53_PHOAA
+Length=188
+
+ Score = 118 bits (297),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 41/105 (39%), Positives = 60/105 (57%), Gaps = 10/105 (10%)
+
+Query  2    AEKTREVLWQQYYA----SNPPDHAVLE-VLATPVREALLARFGQHQGSVVPAIDLPELR  56
+                 + LWQ Y      S P   A LE  L TPV+E L ++FG     V P++D+PELR
+Sbjct  64   PTTQHKTLWQWYQTLSPESQPSQRAQLEARLTTPVQEHLWSQFGGLALPVKPSLDIPELR  123
+
+Query  57   SVLQQFDSFGKRWEAILLQVLEGILP-----YLSELINKELMILL  96
+            +++++F   G++ E +LL+VL  I P     YLS+LI +EL  L+
+Sbjct  124  AIVREFAPTGRQQETVLLKVLGNIKPLAGNEYLSDLIRRELQTLI  168
+
+
+> UniRef90_Q7N0U6 Type III secretion component protein SctH n=1 
+Tax=Photorhabdus luminescens subsp. laumondii (strain DSM 15139 
+/ CIP 105565 / TT01) TaxID=243265 RepID=Q7N0U6_PHOLL
+Length=188
+
+ Score = 118 bits (296),  Expect = 6e-31, Method: Composition-based stats.
+ Identities = 40/105 (38%), Positives = 61/105 (58%), Gaps = 10/105 (10%)
+
+Query  2    AEKTREVLWQQYYA----SNPPDHAVLE-VLATPVREALLARFGQHQGSVVPAIDLPELR  56
+                R+V+WQ Y A      P   A L+  L  PV+E L ++FG   G++ P +D+PELR
+Sbjct  64   PATQRKVIWQWYQALSSDKQPSQRAQLQAKLIAPVQERLWSQFGGLAGNIKPPLDMPELR  123
+
+Query  57   SVLQQFDSFGKRWEAILLQVLEGILP-----YLSELINKELMILL  96
+             ++++F   G++ E +LL+VL  I P     YLS+LI +EL  L+
+Sbjct  124  KIVREFAPTGRQQETVLLEVLGEIKPIPGNEYLSDLIRQELKTLI  168
+
+
+> UniRef90_A0A0J9F6L3 Type III secretion protein n=1 Tax=Photorhabdus 
+luminescens subsp. luminescens TaxID=171439 RepID=A0A0J9F6L3_PHOLU
+Length=188
+
+ Score = 118 bits (295),  Expect = 9e-31, Method: Composition-based stats.
+ Identities = 40/105 (38%), Positives = 59/105 (56%), Gaps = 10/105 (10%)
+
+Query  2    AEKTREVLWQQYYA----SNPPDHAVLE-VLATPVREALLARFGQHQGSVVPAIDLPELR  56
+                R+V+WQ Y +      P   A LE  L  PV+E L ++FG   G+V P +D+PELR
+Sbjct  64   PATQRKVIWQWYQSLSPDKQPTQRAQLEDKLIAPVQEQLWSQFGGLTGNVKPPLDMPELR  123
+
+Query  57   SVLQQFDSFGKRWEAILLQVLEGILP-----YLSELINKELMILL  96
+              +++F   G++ E +LL+VL  I       YLS+LI +EL  L+
+Sbjct  124  KTVREFAPTGRQQETVLLKVLGQIQAIPGNEYLSDLIQRELKTLI  168
+
+
+> UniRef90_UPI00056CEE60 type III secretion protein n=1 Tax=Photorhabdus 
+asymbiotica TaxID=291112 RepID=UPI00056CEE60
+Length=188
+
+ Score = 116 bits (292),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 40/105 (38%), Positives = 58/105 (55%), Gaps = 10/105 (10%)
+
+Query  2    AEKTREVLWQQYYA----SNPPDHAVLE-VLATPVREALLARFGQHQGSVVPAIDLPELR  56
+                 + LWQ Y      S     A LE  L  PV+E L ++FG+    V P +DLPELR
+Sbjct  64   PTTQHKTLWQWYQTLSSDSPASQRAQLETRLIAPVQEHLWSQFGRLTLPVKPQLDLPELR  123
+
+Query  57   SVLQQFDSFGKRWEAILLQVLEGILP-----YLSELINKELMILL  96
+            +++++F   G++ E +LL+VL  I P     YLS+LI +EL  L+
+Sbjct  124  AIVREFAPTGRQQETVLLKVLGKIEPISGNEYLSDLIRRELKTLI  168
+
+
+> UniRef90_A0A1B8YMD6 Yop proteins translocation protein H n=6 
+Tax=Photorhabdus luminescens TaxID=29488 RepID=A0A1B8YMD6_PHOLU
+Length=188
+
+ Score = 116 bits (291),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 39/105 (37%), Positives = 58/105 (55%), Gaps = 10/105 (10%)
+
+Query  2    AEKTREVLWQQYYA----SNPPDHAVLE-VLATPVREALLARFGQHQGSVVPAIDLPELR  56
+                R+V WQ Y A      P   A LE  L  PV+E L ++FG     V P +D+PELR
+Sbjct  64   PATQRQVTWQWYQALSPDKQPAQRAQLEDKLIAPVQERLWSQFGGLTLPVNPPLDMPELR  123
+
+Query  57   SVLQQFDSFGKRWEAILLQVLEGILP-----YLSELINKELMILL  96
+            +++++F   G++ E +LL++L  I       YLS+LI +EL  L+
+Sbjct  124  AIVREFSPTGRQQETVLLKILGKIETIPGNEYLSDLIRQELKTLI  168
+
+
+> UniRef90_W3VBL1 Type III secretion effector, YopR family n=1 
+Tax=Photorhabdus temperata subsp. khanii NC19 TaxID=1004151 
+RepID=W3VBL1_PHOTE
+Length=188
+
+ Score = 116 bits (291),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 36/104 (35%), Positives = 58/104 (56%), Gaps = 10/104 (10%)
+
+Query  3    EKTREVLWQQYYA----SNPPDHAVLE-VLATPVREALLARFGQHQGSVVPAIDLPELRS  57
+               R+++WQ +      +     A LE  L  P++E L ++FG     V P +DLPELR+
+Sbjct  65   ATRRKIVWQWHQTLPSDNQSSQRAQLEGKLIAPIQEHLWSQFGGLTLPVKPQLDLPELRT  124
+
+Query  58   VLQQFDSFGKRWEAILLQVLEGILP-----YLSELINKELMILL  96
+            ++++F   G++ E +LL+VL  I       YLS+LI +EL  L+
+Sbjct  125  IVREFAPTGRQQETVLLKVLGEIKSLDGNEYLSDLIRRELQTLI  168
+
+
+> UniRef90_UPI00051C0C8E RNA-binding protein n=1 Tax=Aeromonas 
+finlandiensis TaxID=1543375 RepID=UPI00051C0C8E
+Length=186
+
+ Score = 111 bits (279),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 36/107 (34%), Positives = 57/107 (53%), Gaps = 11/107 (10%)
+
+Query  1    SAEKTREVLWQQYYASNPPDHA-VLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVL  59
+            +    R++LW+ +   N    A + + LA PV   L+ RFG+ Q  VV AIDLPELR+++
+Sbjct  60   APAAQRDLLWKLHPQGNTQQAAEIGQRLAKPVTSKLVERFGERQLPVVAAIDLPELRALM  119
+
+Query  60   QQFDSFGKRWEAILLQVLEGILP----------YLSELINKELMILL  96
+            ++FD    R E +LL ++  +            +L  L  +ELM L+
+Sbjct  120  REFDPLASRREKVLLTLIGELKDGQGAVPAEHLFLDALARRELMTLI  166
+
+
+> UniRef90_UPI00046A8F3B hypothetical protein n=1 Tax=Pseudomonas 
+sp. PH1b TaxID=1397282 RepID=UPI00046A8F3B
+Length=193
+
+ Score = 62.7 bits (151),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 33/102 (32%), Positives = 48/102 (47%), Gaps = 12/102 (12%)
+
+Query  5    TREVLWQQYYASNPPDHA-----VLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVL  59
+             RE +W+ Y    P         + E L   + + LLA F Q +G + P  D   L+ +L
+Sbjct  74   QRETVWKWYRQDLPESAEGRRDELREWLMHGLSDRLLAHFPQQRGGLEP--DRLALKDLL  131
+
+Query  60   QQFDSFGKRWEAILLQVLEGIL-----PYLSELINKELMILL  96
+            ++   FGK+ E +LL VL  I       YLS L+  EL  L+
+Sbjct  132  KEQAPFGKQQETLLLNVLGEIKGVEGSEYLSSLVRSELQTLI  173
+
+
+> UniRef90_A0A1H2MMA2 Type III secretion protein H n=1 Tax=Pseudomonas 
+brenneri TaxID=129817 RepID=A0A1H2MMA2_9PSED
+Length=193
+
+ Score = 58.0 bits (139),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 28/100 (28%), Positives = 46/100 (46%), Gaps = 12/100 (12%)
+
+Query  7    EVLWQQYYASNPPDHA-----VLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQQ  61
+            + +W+ Y    P         +L  L   + + LL RFGQ    +    D   L+ +L++
+Sbjct  76   DAVWKWYRQDLPESAEGRRGELLNWLMQGLSDRLLVRFGQQHLGLEQ--DRLALKDMLKE  133
+
+Query  62   FDSFGKRWEAILLQVLEGIL-----PYLSELINKELMILL  96
+               FGK+ E +LL VL  +       YL  ++ +EL IL+
+Sbjct  134  QAPFGKQQETLLLNVLSEVKGVEGSDYLQAIVRRELQILI  173
+
+
+> UniRef90_A0A0U1EW48 Putative type III secretion protein n=1 Tax=Yersinia 
+intermedia TaxID=631 RepID=A0A0U1EW48_YERIN
+Length=87
+
+ Score = 53.4 bits (127),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 37/38 (97%), Positives = 37/38 (97%), Gaps = 0/38 (0%)
+
+Query  1   SAEKTREVLWQQYYASNPPDHAVLEVLATPVREALLAR  38
+           SAEKTREVLWQQYYASNPPDHAVLEVLA PVREALLAR
+Sbjct  42  SAEKTREVLWQQYYASNPPDHAVLEVLAMPVREALLAR  79
+
+
+> UniRef90_D0XFL2 Uncharacterized protein n=12 Tax=Vibrio TaxID=662 
+RepID=D0XFL2_VIBH1
+Length=210
+
+ Score = 45.7 bits (107),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 23/104 (22%), Positives = 40/104 (38%), Gaps = 10/104 (10%)
+
+Query  1    SAEKTREVLWQQYYA--SNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSV  58
+            S  + +E LW  +    S          L   + + LL  F        P  D  EL+++
+Sbjct  90   SPSEKKEALWYAFSQERSAKGTDKASPELLASLEQELLGSFSGRLL-AEPPKDRQELKAL  148
+
+Query  59   LQQFDSFGKRWEAIL------LQVLEGILPYLSELINKELMILL  96
+            L +    G + E  L      L+ +    P L +++ KEL  ++
+Sbjct  149  LSEHFPLGAQKEQALWHSWAELKDIPDQAPVL-DMVRKELSFVI  191
+
+
+> UniRef90_A0A0H4A337 Type III secretion effector protein (YopR, 
+encoded by YscH) n=2 Tax=Vibrio TaxID=662 RepID=A0A0H4A337_9VIBR
+Length=210
+
+ Score = 44.6 bits (104),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 23/104 (22%), Positives = 39/104 (38%), Gaps = 10/104 (10%)
+
+Query  1    SAEKTREVLWQQYYA--SNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSV  58
+            S  + +  LW  +    S          L   +   LL  F        P  D  EL+++
+Sbjct  90   SPSEKKVALWYAFSQEKSAKDTEKASPELFALLERELLGSFSGRLL-AAPPKDNQELKAL  148
+
+Query  59   LQQFDSFGKRWEAIL------LQVLEGILPYLSELINKELMILL  96
+            L +    G + E +L      L+ +    P L +L+ KEL  ++
+Sbjct  149  LSEQFPLGAQKEQVLWHCWAELKDIPDKAPVL-DLVRKELSFVI  191
+
+
+> UniRef90_A0A1E5F0N9 Type III secretion effector, YopR family 
+n=2 Tax=Vibrio tasmaniensis TaxID=212663 RepID=A0A1E5F0N9_9VIBR
+Length=210
+
+ Score = 43.4 bits (101),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 25/105 (24%), Positives = 41/105 (39%), Gaps = 12/105 (11%)
+
+Query  1    SAEKTREVLWQQYYASNP---PDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRS  57
+            S  + ++ LW  +         D A  E L    +  LL  F        P  D  EL++
+Sbjct  90   SPSEKKKALWYAFSQEQSAKGTDKASPE-LLALFKHELLGSFSGRLL-ATPPKDRRELKA  147
+
+Query  58   VLQQFDSFGKRWEAIL------LQVLEGILPYLSELINKELMILL  96
+            +L +    G + E  L      L+ +    P L E++ KEL  ++
+Sbjct  148  LLSEHFPLGAQKEQALWHCWGELKDIPAQAPVL-EVVRKELSFVI  191
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.145    0.408    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0439    0.140     1.90     42.6     43.6 
+
+Effective search space used: 447801887735
+Results from round 3
+
+
+Query= d1z21a1
+
+Length=96
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_N9U4U7 AscH protein n=1 Tax=Aeromonas diversa CDC 2478...  127     1e-34
+  UniRef90_Q1EHA1 AscH n=9 Tax=Aeromonas hydrophila TaxID=644 Rep...  126     6e-34
+  UniRef90_Q5XKZ0 YscH n=7 Tax=Aeromonas TaxID=642 RepID=Q5XKZ0_A...  125     1e-33
+  UniRef90_T0PDT9 Type iii secretion component protein scth n=5 T...  119     2e-31
+  UniRef90_A0A0S2SDQ6 Yop proteins translocation protein H n=1 Ta...  116     1e-30
+  UniRef90_Q663I2 Yop proteins translocation protein H n=24 Tax=Y...  116     2e-30
+  UniRef90_A0A0W7U489 Uncharacterized protein n=1 Tax=Aeromonas s...  115     6e-30
+  UniRef90_B6VK53 Type iii secretion component protein scth n=2 T...  115     6e-30
+  UniRef90_UPI0005B1FC0E RNA-binding protein n=1 Tax=Aeromonas en...  115     9e-30
+  UniRef90_A0A0D0QXC4 Contig_25, whole genome shotgun sequence n=...  115     1e-29
+  UniRef90_Q7N0U6 Type III secretion component protein SctH n=1 T...  114     2e-29
+  UniRef90_A0A0M9CZ04 Type III secretion protein n=1 Tax=Photorha...  114     2e-29
+  UniRef90_UPI00056CEE60 type III secretion protein n=1 Tax=Photo...  114     3e-29
+  UniRef90_Q699P6 AscH n=3 Tax=Aeromonas TaxID=642 RepID=Q699P6_A...  113     3e-29
+  UniRef90_A0A0J9F6L3 Type III secretion protein n=1 Tax=Photorha...  113     3e-29
+  UniRef90_A0A1B8YMD6 Yop proteins translocation protein H n=6 Ta...  113     7e-29
+  UniRef90_Q4W470 AscH protein n=19 Tax=Aeromonas TaxID=642 RepID...  113     7e-29
+  UniRef90_UPI00067FD6FF RNA-binding protein n=1 Tax=Aeromonas te...  112     1e-28
+  UniRef90_W3VBL1 Type III secretion effector, YopR family n=1 Ta...  111     2e-28
+  UniRef90_UPI00051C0C8E RNA-binding protein n=1 Tax=Aeromonas fi...  104     1e-25
+  UniRef90_D0XFL2 Uncharacterized protein n=12 Tax=Vibrio TaxID=6...  91.1    2e-20
+  UniRef90_UPI00046A8F3B hypothetical protein n=1 Tax=Pseudomonas...  90.0    6e-20
+  UniRef90_A0A0H4A337 Type III secretion effector protein (YopR, ...  90.0    7e-20
+  UniRef90_A0A1H2MMA2 Type III secretion protein H n=1 Tax=Pseudo...  86.5    1e-18
+  UniRef90_A0A0U1EW48 Putative type III secretion protein n=1 Tax...  44.9    3e-04
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A1E5F0N9 Type III secretion effector, YopR family n=...  83.4    2e-17
+  UniRef90_A7MTF5 Uncharacterized protein n=24 Tax=Vibrionaceae T...  79.6    5e-16
+  UniRef90_A8T5N3 Putative type III export protein n=1 Tax=Vibrio...  70.3    8e-13
+  UniRef90_A0A166JEU5 Type III export protein n=1 Tax=Vibrio sp. ...  68.8    3e-12
+  UniRef90_A0A0F6LHX3 Type III export protein n=107 Tax=Vibrionac...  67.6    7e-12
+  UniRef90_D0WZZ9 Putative type III export protein n=9 Tax=Vibrio...  60.3    3e-09
+  UniRef90_A7K004 ATPases with chaperone activity, ATP-binding su...  59.9    4e-09
+  UniRef90_A0A128FIM0 YopR Core n=1 Tax=Grimontia marina TaxID=64...  59.6    6e-09
+  UniRef90_D0Z4V1 Putative type III export protein n=1 Tax=Photob...  54.9    2e-07
+  UniRef90_F9T7B9 Type III export protein n=2 Tax=Vibrio oreintal...  52.2    2e-06
+  UniRef90_A0A0H2MV33 Type III export protein n=2 Tax=Vibrio TaxI...  46.8    2e-04
+
+
+> UniRef90_N9U4U7 AscH protein n=1 Tax=Aeromonas diversa CDC 2478-85 
+TaxID=1268237 RepID=N9U4U7_9GAMM
+Length=179
+
+ Score = 127 bits (319),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 38/103 (37%), Positives = 55/103 (53%), Gaps = 7/103 (7%)
+
+Query  1    SAEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+            S    RE+LW+ ++    P  A+   L  PV + L+A +   Q  V+ AIDLPELR+++ 
+Sbjct  57   SRAAQRELLWKIHHQGGEPAKAIGHQLFQPVTDKLIAHYSGRQLPVMAAIDLPELRALMS  116
+
+Query  61   QFDSFGKRWEAILLQVLEGILP-------YLSELINKELMILL  96
+            +FD    R E +LL V+  I         YL EL  +ELM L+
+Sbjct  117  EFDPLPSRREKVLLNVMADIKKAANGEHAYLDELARRELMTLI  159
+
+
+> UniRef90_Q1EHA1 AscH n=9 Tax=Aeromonas hydrophila TaxID=644 RepID=Q1EHA1_AERHY
+Length=184
+
+ Score = 126 bits (316),  Expect = 6e-34, Method: Composition-based stats.
+ Identities = 39/106 (37%), Positives = 54/106 (51%), Gaps = 10/106 (9%)
+
+Query  1    SAEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+            S    R++LWQ +        AV + L  PV + L+A F   Q  VV AID PELR++++
+Sbjct  59   SPSAQRDLLWQIHQQGGEHAQAVGKRLFQPVTDKLVAHFSGRQLPVVAAIDQPELRALMR  118
+
+Query  61   QFDSFGKRWEAILLQVLEGILP----------YLSELINKELMILL  96
+            +FD    R E +LL V+  I            YL EL  +ELM L+
+Sbjct  119  EFDPLSSRRETVLLNVMADIKKAANGTQVDLAYLEELARRELMTLI  164
+
+
+> UniRef90_Q5XKZ0 YscH n=7 Tax=Aeromonas TaxID=642 RepID=Q5XKZ0_AERHY
+Length=184
+
+ Score = 125 bits (314),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 38/106 (36%), Positives = 54/106 (51%), Gaps = 10/106 (9%)
+
+Query  1    SAEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+            S+   R++LWQ +         V   L  PV + L+A F   Q  VV AIDLPELR++++
+Sbjct  59   SSAVQRDLLWQIHQQGGEQAKLVGSQLFQPVTDKLIAHFSGRQLPVVAAIDLPELRALMR  118
+
+Query  61   QFDSFGKRWEAILLQVLEGILP----------YLSELINKELMILL  96
+            +FD    R E +LL V+  +            YL EL  +ELM L+
+Sbjct  119  EFDPLPSRREKVLLNVMADLKKVATGDQTDLIYLDELARRELMTLI  164
+
+
+> UniRef90_T0PDT9 Type iii secretion component protein scth n=5 
+Tax=Photorhabdus temperata TaxID=574560 RepID=T0PDT9_PHOTE
+Length=188
+
+ Score = 119 bits (299),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 40/105 (38%), Positives = 57/105 (54%), Gaps = 10/105 (10%)
+
+Query  2    AEKTREVLWQQYYA----SNPPDHAVLE-VLATPVREALLARFGQHQGSVVPAIDLPELR  56
+                R++ WQ Y      S P   A LE  L  PV+E L ++FG     V P +DLPE R
+Sbjct  64   PATQRKIAWQWYQTLSTDSQPSQRAQLEGKLIAPVQEHLWSQFGGLTLPVKPQLDLPEFR  123
+
+Query  57   SVLQQFDSFGKRWEAILLQVLEGIL-----PYLSELINKELMILL  96
+            +V+++F   G++ E +LL+VL  I       YLS+LI +EL  L+
+Sbjct  124  AVVREFAPTGRQQETVLLKVLGEIKSLDGNEYLSDLIRRELQTLI  168
+
+
+> UniRef90_A0A0S2SDQ6 Yop proteins translocation protein H n=1 
+Tax=Aeromonas schubertii TaxID=652 RepID=A0A0S2SDQ6_9GAMM
+Length=156
+
+ Score = 116 bits (291),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 53/101 (52%), Positives = 70/101 (69%), Gaps = 5/101 (5%)
+
+Query  1    SAEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+            + E  RE  WQ+Y AS+PPD A+L  L  PV+EA+LARFGQ  G V+PAIDLPELR +L+
+Sbjct  36   AGEDVREAKWQRYRASDPPDKALLAELVAPVKEAILARFGQRTGPVIPAIDLPELRGLLR  95
+
+Query  61   QFDSFGKRWEAILLQVL-----EGILPYLSELINKELMILL  96
+            +FD  GKR E +LL+VL          +++EL+ +ELM LL
+Sbjct  96   EFDPLGKRRETVLLEVLAATTKGEGGAHMAELLRRELMTLL  136
+
+
+> UniRef90_Q663I2 Yop proteins translocation protein H n=24 Tax=Yersinia 
+TaxID=444888 RepID=YSCH_YERPS
+Length=165
+
+ Score = 116 bits (291),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 94/104 (90%), Positives = 94/104 (90%), Gaps = 8/104 (8%)
+
+Query  1    SAEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+            SAEKTREVLWQQYYASNPPDHAVLEVLA PVREALLARFGQHQGSVVPAIDLPELRSVLQ
+Sbjct  42   SAEKTREVLWQQYYASNPPDHAVLEVLAMPVREALLARFGQHQGSVVPAIDLPELRSVLQ  101
+
+Query  61   QFDSFGKRWEAILLQVLEGIL--------PYLSELINKELMILL  96
+            QFDSFGKRWEAILLQVLEGI         PYLSELINKELMILL
+Sbjct  102  QFDSFGKRWEAILLQVLEGIKPNESQVGLPYLSELINKELMILL  145
+
+
+> UniRef90_A0A0W7U489 Uncharacterized protein n=1 Tax=Aeromonas 
+schubertii TaxID=652 RepID=A0A0W7U489_9GAMM
+Length=156
+
+ Score = 115 bits (287),  Expect = 6e-30, Method: Composition-based stats.
+ Identities = 52/100 (52%), Positives = 70/100 (70%), Gaps = 5/100 (5%)
+
+Query  2    AEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQQ  61
+            +E  RE  WQ+Y AS+PPD A+L  L  PV+EA+ ARFGQ  G V+PAIDLPELR +L++
+Sbjct  37   SEDVREAKWQRYRASDPPDKALLAELVAPVKEAIQARFGQRTGPVIPAIDLPELRGLLRE  96
+
+Query  62   FDSFGKRWEAILLQVL-----EGILPYLSELINKELMILL  96
+            FD  GKR E +LL+VL      G   ++++L+ +ELM LL
+Sbjct  97   FDPLGKRRETVLLEVLATTPKGGEGKHVADLLRRELMTLL  136
+
+
+> UniRef90_B6VK53 Type iii secretion component protein scth n=2 
+Tax=Photorhabdus asymbiotica TaxID=291112 RepID=B6VK53_PHOAA
+Length=188
+
+ Score = 115 bits (289),  Expect = 6e-30, Method: Composition-based stats.
+ Identities = 41/105 (39%), Positives = 60/105 (57%), Gaps = 10/105 (10%)
+
+Query  2    AEKTREVLWQQYYA----SNPPDHAVLE-VLATPVREALLARFGQHQGSVVPAIDLPELR  56
+                 + LWQ Y      S P   A LE  L TPV+E L ++FG     V P++D+PELR
+Sbjct  64   PTTQHKTLWQWYQTLSPESQPSQRAQLEARLTTPVQEHLWSQFGGLALPVKPSLDIPELR  123
+
+Query  57   SVLQQFDSFGKRWEAILLQVLEGILP-----YLSELINKELMILL  96
+            +++++F   G++ E +LL+VL  I P     YLS+LI +EL  L+
+Sbjct  124  AIVREFAPTGRQQETVLLKVLGNIKPLAGNEYLSDLIRRELQTLI  168
+
+
+> UniRef90_UPI0005B1FC0E RNA-binding protein n=1 Tax=Aeromonas 
+encheleia TaxID=73010 RepID=UPI0005B1FC0E
+Length=185
+
+ Score = 115 bits (288),  Expect = 9e-30, Method: Composition-based stats.
+ Identities = 37/105 (35%), Positives = 55/105 (52%), Gaps = 10/105 (10%)
+
+Query  2    AEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQQ  61
+                R++LWQ Y     P   + + L  PV + L+ RFG  +  VV AIDLPELR+++++
+Sbjct  61   PAAQRDLLWQIYQQEGKPAQEIGKQLFQPVTQQLIERFGGRELPVVSAIDLPELRAMMRE  120
+
+Query  62   FDSFGKRWEAILLQVLEGIL----------PYLSELINKELMILL  96
+            FD    R E +LL ++  +            YL EL  +ELM L+
+Sbjct  121  FDPLASRREKVLLNMMADLKGEQGTLPPEREYLGELARRELMTLI  165
+
+
+> UniRef90_A0A0D0QXC4 Contig_25, whole genome shotgun sequence 
+n=5 Tax=Aeromonas TaxID=642 RepID=A0A0D0QXC4_9GAMM
+Length=183
+
+ Score = 115 bits (287),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 41/104 (39%), Positives = 59/104 (57%), Gaps = 9/104 (9%)
+
+Query  1    SAEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+            S    RE+LWQ Y   +     V ++L  PV   L+ RFG+ Q  VV AIDLPELR++++
+Sbjct  61   SPATRRELLWQVYQQ-DEKTAGVADLLFKPVASKLIERFGERQLPVVAAIDLPELRTLMR  119
+
+Query  61   QFDSFGKRWEAILLQVLEGIL--------PYLSELINKELMILL  96
+            +FD    R E +LL+V+  +          YL+EL  +ELM L+
+Sbjct  120  EFDPLSSRRETVLLKVMAELRGQGALSGNDYLAELARRELMTLI  163
+
+
+> UniRef90_Q7N0U6 Type III secretion component protein SctH n=1 
+Tax=Photorhabdus luminescens subsp. laumondii (strain DSM 15139 
+/ CIP 105565 / TT01) TaxID=243265 RepID=Q7N0U6_PHOLL
+Length=188
+
+ Score = 114 bits (286),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 40/105 (38%), Positives = 61/105 (58%), Gaps = 10/105 (10%)
+
+Query  2    AEKTREVLWQQYYA----SNPPDHAVLE-VLATPVREALLARFGQHQGSVVPAIDLPELR  56
+                R+V+WQ Y A      P   A L+  L  PV+E L ++FG   G++ P +D+PELR
+Sbjct  64   PATQRKVIWQWYQALSSDKQPSQRAQLQAKLIAPVQERLWSQFGGLAGNIKPPLDMPELR  123
+
+Query  57   SVLQQFDSFGKRWEAILLQVLEGILP-----YLSELINKELMILL  96
+             ++++F   G++ E +LL+VL  I P     YLS+LI +EL  L+
+Sbjct  124  KIVREFAPTGRQQETVLLEVLGEIKPIPGNEYLSDLIRQELKTLI  168
+
+
+> UniRef90_A0A0M9CZ04 Type III secretion protein n=1 Tax=Photorhabdus 
+heterorhabditis TaxID=880156 RepID=A0A0M9CZ04_9GAMM
+Length=188
+
+ Score = 114 bits (285),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 41/105 (39%), Positives = 63/105 (60%), Gaps = 10/105 (10%)
+
+Query  2    AEKTREVLWQQYYA----SNPPDHAVLE-VLATPVREALLARFGQHQGSVVPAIDLPELR  56
+            +   R+ +WQ Y      S P  HA LE  L TPV+E L ++FG     V P++D+PELR
+Sbjct  64   STTQRKTIWQWYQTLSPESQPSQHAQLEAKLTTPVQERLWSQFGGLALPVNPSLDIPELR  123
+
+Query  57   SVLQQFDSFGKRWEAILLQVLEGILP-----YLSELINKELMILL  96
+            +++++F   G++ E +LL+VL  I P     YL++LI +EL  L+
+Sbjct  124  AIVREFAPTGRQQETVLLKVLGKIEPLAGNEYLNDLIQRELKTLI  168
+
+
+> UniRef90_UPI00056CEE60 type III secretion protein n=1 Tax=Photorhabdus 
+asymbiotica TaxID=291112 RepID=UPI00056CEE60
+Length=188
+
+ Score = 114 bits (285),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 40/105 (38%), Positives = 58/105 (55%), Gaps = 10/105 (10%)
+
+Query  2    AEKTREVLWQQYYA----SNPPDHAVLE-VLATPVREALLARFGQHQGSVVPAIDLPELR  56
+                 + LWQ Y      S     A LE  L  PV+E L ++FG+    V P +DLPELR
+Sbjct  64   PTTQHKTLWQWYQTLSSDSPASQRAQLETRLIAPVQEHLWSQFGRLTLPVKPQLDLPELR  123
+
+Query  57   SVLQQFDSFGKRWEAILLQVLEGILP-----YLSELINKELMILL  96
+            +++++F   G++ E +LL+VL  I P     YLS+LI +EL  L+
+Sbjct  124  AIVREFAPTGRQQETVLLKVLGKIEPISGNEYLSDLIRRELKTLI  168
+
+
+> UniRef90_Q699P6 AscH n=3 Tax=Aeromonas TaxID=642 RepID=Q699P6_AERHY
+Length=183
+
+ Score = 113 bits (284),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 36/106 (34%), Positives = 52/106 (49%), Gaps = 10/106 (9%)
+
+Query  1    SAEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+            +    RE+LWQ Y   +     + + L  PV   L  RFG  Q  VV AID  ELR++++
+Sbjct  58   APSARRELLWQVYQQGDKRQAEIGKQLFEPVTNKLTERFGGRQLPVVAAIDQLELRALMR  117
+
+Query  61   QFDSFGKRWEAILLQVLEGIL----------PYLSELINKELMILL  96
+            +FD    R EA+LL +L  +            +L  L  +ELM L+
+Sbjct  118  EFDPLASRREAVLLDLLSKLKGEQCVVPPGHEFLDALARRELMTLI  163
+
+
+> UniRef90_A0A0J9F6L3 Type III secretion protein n=1 Tax=Photorhabdus 
+luminescens subsp. luminescens TaxID=171439 RepID=A0A0J9F6L3_PHOLU
+Length=188
+
+ Score = 113 bits (284),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 40/105 (38%), Positives = 59/105 (56%), Gaps = 10/105 (10%)
+
+Query  2    AEKTREVLWQQYYA----SNPPDHAVLE-VLATPVREALLARFGQHQGSVVPAIDLPELR  56
+                R+V+WQ Y +      P   A LE  L  PV+E L ++FG   G+V P +D+PELR
+Sbjct  64   PATQRKVIWQWYQSLSPDKQPTQRAQLEDKLIAPVQEQLWSQFGGLTGNVKPPLDMPELR  123
+
+Query  57   SVLQQFDSFGKRWEAILLQVLEGIL-----PYLSELINKELMILL  96
+              +++F   G++ E +LL+VL  I       YLS+LI +EL  L+
+Sbjct  124  KTVREFAPTGRQQETVLLKVLGQIQAIPGNEYLSDLIQRELKTLI  168
+
+
+> UniRef90_A0A1B8YMD6 Yop proteins translocation protein H n=6 
+Tax=Photorhabdus luminescens TaxID=29488 RepID=A0A1B8YMD6_PHOLU
+Length=188
+
+ Score = 113 bits (282),  Expect = 7e-29, Method: Composition-based stats.
+ Identities = 39/105 (37%), Positives = 58/105 (55%), Gaps = 10/105 (10%)
+
+Query  2    AEKTREVLWQQYYA----SNPPDHAVLE-VLATPVREALLARFGQHQGSVVPAIDLPELR  56
+                R+V WQ Y A      P   A LE  L  PV+E L ++FG     V P +D+PELR
+Sbjct  64   PATQRQVTWQWYQALSPDKQPAQRAQLEDKLIAPVQERLWSQFGGLTLPVNPPLDMPELR  123
+
+Query  57   SVLQQFDSFGKRWEAILLQVLEGIL-----PYLSELINKELMILL  96
+            +++++F   G++ E +LL++L  I       YLS+LI +EL  L+
+Sbjct  124  AIVREFSPTGRQQETVLLKILGKIETIPGNEYLSDLIRQELKTLI  168
+
+
+> UniRef90_Q4W470 AscH protein n=19 Tax=Aeromonas TaxID=642 RepID=Q4W470_AERSA
+Length=184
+
+ Score = 113 bits (282),  Expect = 7e-29, Method: Composition-based stats.
+ Identities = 39/106 (37%), Positives = 57/106 (54%), Gaps = 10/106 (9%)
+
+Query  1    SAEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+            +    RE+LWQ Y   N P   + + L  PV + L+ARFG+ Q  V+ AIDLPELR+ ++
+Sbjct  59   APAAKRELLWQIYQQGNKPAPEIGKQLFAPVTDKLIARFGERQSPVLDAIDLPELRATMR  118
+
+Query  61   QFDSFGKRWEAILLQVLEGILP----------YLSELINKELMILL  96
+            +FD    R E +LL +L  +            +L  L  +ELM L+
+Sbjct  119  EFDPLASRREKVLLNLLSELRDGQGAVPAEHLFLDALARRELMTLI  164
+
+
+> UniRef90_UPI00067FD6FF RNA-binding protein n=1 Tax=Aeromonas 
+tecta TaxID=324617 RepID=UPI00067FD6FF
+Length=185
+
+ Score = 112 bits (280),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 37/106 (35%), Positives = 55/106 (52%), Gaps = 11/106 (10%)
+
+Query  1    SAEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+            +    R++LWQ Y   +     + E L  PV + L+ RF   Q  VV AIDLPELR++++
+Sbjct  60   APAAQRDLLWQIYQQDSK-APGIGERLFQPVTDKLVERFSGRQLPVVTAIDLPELRALMR  118
+
+Query  61   QFDSFGKRWEAILLQVLEGIL----------PYLSELINKELMILL  96
+            +FD    R E +LL V+  +            +L EL  +ELM+ L
+Sbjct  119  EFDPLASRRERVLLNVMAELKGEQGVVPAEWEFLGELARRELMVSL  164
+
+
+> UniRef90_W3VBL1 Type III secretion effector, YopR family n=1 
+Tax=Photorhabdus temperata subsp. khanii NC19 TaxID=1004151 
+RepID=W3VBL1_PHOTE
+Length=188
+
+ Score = 111 bits (279),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 36/104 (35%), Positives = 58/104 (56%), Gaps = 10/104 (10%)
+
+Query  3    EKTREVLWQQYYA----SNPPDHAVLE-VLATPVREALLARFGQHQGSVVPAIDLPELRS  57
+               R+++WQ +      +     A LE  L  P++E L ++FG     V P +DLPELR+
+Sbjct  65   ATRRKIVWQWHQTLPSDNQSSQRAQLEGKLIAPIQEHLWSQFGGLTLPVKPQLDLPELRT  124
+
+Query  58   VLQQFDSFGKRWEAILLQVLEGIL-----PYLSELINKELMILL  96
+            ++++F   G++ E +LL+VL  I       YLS+LI +EL  L+
+Sbjct  125  IVREFAPTGRQQETVLLKVLGEIKSLDGNEYLSDLIRRELQTLI  168
+
+
+> UniRef90_UPI00051C0C8E RNA-binding protein n=1 Tax=Aeromonas 
+finlandiensis TaxID=1543375 RepID=UPI00051C0C8E
+Length=186
+
+ Score = 104 bits (260),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 36/107 (34%), Positives = 57/107 (53%), Gaps = 11/107 (10%)
+
+Query  1    SAEKTREVLWQQYYASNPPDHA-VLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVL  59
+            +    R++LW+ +   N    A + + LA PV   L+ RFG+ Q  VV AIDLPELR+++
+Sbjct  60   APAAQRDLLWKLHPQGNTQQAAEIGQRLAKPVTSKLVERFGERQLPVVAAIDLPELRALM  119
+
+Query  60   QQFDSFGKRWEAILLQVLEGILP----------YLSELINKELMILL  96
+            ++FD    R E +LL ++  +            +L  L  +ELM L+
+Sbjct  120  REFDPLASRREKVLLTLIGELKDGQGAVPAEHLFLDALARRELMTLI  166
+
+
+> UniRef90_D0XFL2 Uncharacterized protein n=12 Tax=Vibrio TaxID=662 
+RepID=D0XFL2_VIBH1
+Length=210
+
+ Score = 91.1 bits (225),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 23/104 (22%), Positives = 40/104 (38%), Gaps = 10/104 (10%)
+
+Query  1    SAEKTREVLWQQYYA--SNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSV  58
+            S  + +E LW  +    S          L   + + LL  F        P  D  EL+++
+Sbjct  90   SPSEKKEALWYAFSQERSAKGTDKASPELLASLEQELLGSFSGRLL-AEPPKDRQELKAL  148
+
+Query  59   LQQFDSFGKRWEAIL------LQVLEGILPYLSELINKELMILL  96
+            L +    G + E  L      L+ +    P L +++ KEL  ++
+Sbjct  149  LSEHFPLGAQKEQALWHSWAELKDIPDQAPVL-DMVRKELSFVI  191
+
+
+> UniRef90_UPI00046A8F3B hypothetical protein n=1 Tax=Pseudomonas 
+sp. PH1b TaxID=1397282 RepID=UPI00046A8F3B
+Length=193
+
+ Score = 90.0 bits (222),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 33/104 (32%), Positives = 49/104 (47%), Gaps = 12/104 (12%)
+
+Query  3    EKTREVLWQQYYASNPPDHA-----VLEVLATPVREALLARFGQHQGSVVPAIDLPELRS  57
+             + RE +W+ Y    P         + E L   + + LLA F Q +G + P  D   L+ 
+Sbjct  72   TQQRETVWKWYRQDLPESAEGRRDELREWLMHGLSDRLLAHFPQQRGGLEP--DRLALKD  129
+
+Query  58   VLQQFDSFGKRWEAILLQVLEGIL-----PYLSELINKELMILL  96
+            +L++   FGK+ E +LL VL  I       YLS L+  EL  L+
+Sbjct  130  LLKEQAPFGKQQETLLLNVLGEIKGVEGSEYLSSLVRSELQTLI  173
+
+
+> UniRef90_A0A0H4A337 Type III secretion effector protein (YopR, 
+encoded by YscH) n=2 Tax=Vibrio TaxID=662 RepID=A0A0H4A337_9VIBR
+Length=210
+
+ Score = 90.0 bits (222),  Expect = 7e-20, Method: Composition-based stats.
+ Identities = 23/104 (22%), Positives = 39/104 (38%), Gaps = 10/104 (10%)
+
+Query  1    SAEKTREVLWQQYYA--SNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSV  58
+            S  + +  LW  +    S          L   +   LL  F        P  D  EL+++
+Sbjct  90   SPSEKKVALWYAFSQEKSAKDTEKASPELFALLERELLGSFSGRLL-AAPPKDNQELKAL  148
+
+Query  59   LQQFDSFGKRWEAIL------LQVLEGILPYLSELINKELMILL  96
+            L +    G + E +L      L+ +    P L +L+ KEL  ++
+Sbjct  149  LSEQFPLGAQKEQVLWHCWAELKDIPDKAPVL-DLVRKELSFVI  191
+
+
+> UniRef90_A0A1H2MMA2 Type III secretion protein H n=1 Tax=Pseudomonas 
+brenneri TaxID=129817 RepID=A0A1H2MMA2_9PSED
+Length=193
+
+ Score = 86.5 bits (213),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 28/102 (27%), Positives = 46/102 (45%), Gaps = 12/102 (12%)
+
+Query  5    TREVLWQQYYASNPPDHA-----VLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVL  59
+              + +W+ Y    P         +L  L   + + LL RFGQ    +    D   L+ +L
+Sbjct  74   QCDAVWKWYRQDLPESAEGRRGELLNWLMQGLSDRLLVRFGQQHLGLEQ--DRLALKDML  131
+
+Query  60   QQFDSFGKRWEAILLQVLEGIL-----PYLSELINKELMILL  96
+            ++   FGK+ E +LL VL  +       YL  ++ +EL IL+
+Sbjct  132  KEQAPFGKQQETLLLNVLSEVKGVEGSDYLQAIVRRELQILI  173
+
+
+> UniRef90_A0A1E5F0N9 Type III secretion effector, YopR family 
+n=2 Tax=Vibrio tasmaniensis TaxID=212663 RepID=A0A1E5F0N9_9VIBR
+Length=210
+
+ Score = 83.4 bits (205),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 23/104 (22%), Positives = 39/104 (38%), Gaps = 10/104 (10%)
+
+Query  1    SAEKTREVLWQQYYA--SNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSV  58
+            S  + ++ LW  +    S          L    +  LL  F        P  D  EL+++
+Sbjct  90   SPSEKKKALWYAFSQEQSAKGTDKASPELLALFKHELLGSFSGRLL-ATPPKDRRELKAL  148
+
+Query  59   LQQFDSFGKRWEAIL------LQVLEGILPYLSELINKELMILL  96
+            L +    G + E  L      L+ +    P L E++ KEL  ++
+Sbjct  149  LSEHFPLGAQKEQALWHCWGELKDIPAQAPVL-EVVRKELSFVI  191
+
+
+> UniRef90_A7MTF5 Uncharacterized protein n=24 Tax=Vibrionaceae 
+TaxID=641 RepID=A7MTF5_VIBCB
+Length=220
+
+ Score = 79.6 bits (195),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 22/104 (21%), Positives = 38/104 (37%), Gaps = 10/104 (10%)
+
+Query  1    SAEKTREVLWQQYYA--SNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSV  58
+            S  + +E LW       S          L   + + LL  F        P  D  EL+ +
+Sbjct  100  SPSEQKEALWYALSQERSVKGTDKASSELLASLEQELLGSFSGRLL-ADPPKDREELKVL  158
+
+Query  59   LQQFDSFGKRWEAIL------LQVLEGILPYLSELINKELMILL  96
+            L +    G + E  L      L+ +    P L +++ +EL  ++
+Sbjct  159  LSEHFPLGAQKEQALWHSWAELKDIPDQEPLL-DMVREELSFVI  201
+
+
+> UniRef90_A8T5N3 Putative type III export protein n=1 Tax=Vibrio 
+sp. AND4 TaxID=314289 RepID=A8T5N3_9VIBR
+Length=210
+
+ Score = 70.3 bits (171),  Expect = 8e-13, Method: Composition-based stats.
+ Identities = 21/103 (20%), Positives = 39/103 (38%), Gaps = 8/103 (8%)
+
+Query  1    SAEKTREVLWQQYYA--SNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSV  58
+            S+   R+ LW  +    S          L   + + LL  F +      P  D  EL+++
+Sbjct  90   SSSAMRDALWYAFNQEKSLKGTDNASPELFVSLEQELLGSFSRRLL-ADPPQDRAELKAL  148
+
+Query  59   LQQFDSFGKRWEAILLQVLEGIL-----PYLSELINKELMILL  96
+            L +   F  + E  L +    +        L E++ KE + ++
+Sbjct  149  LSEHFPFNAQKEQALWRSWAELKGASDQDALLEMVRKETVTVM  191
+
+
+> UniRef90_A0A166JEU5 Type III export protein n=1 Tax=Vibrio sp. 
+HI00D65 TaxID=1822216 RepID=A0A166JEU5_9VIBR
+Length=215
+
+ Score = 68.8 bits (167),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 21/103 (20%), Positives = 35/103 (34%), Gaps = 8/103 (8%)
+
+Query  1    SAEKTREVLWQQYYA--SNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSV  58
+            S+   +E LW       S          L   + + LL  F        P  D  EL+ +
+Sbjct  95   SSSDQKEALWYALNQERSAKGTDKASPELLASLEQELLGSFSGRLL-ADPPKDREELKVL  153
+
+Query  59   LQQFDSFGKRWEAILLQVLEGILPY-----LSELINKELMILL  96
+            L +  S   + E  L      +        L +L+ +EL  ++
+Sbjct  154  LSEHFSLSAQKEQALWHSWAELKETSDQQSLLDLVREELSFVI  196
+
+
+> UniRef90_A0A0F6LHX3 Type III export protein n=107 Tax=Vibrionaceae 
+TaxID=641 RepID=A0A0F6LHX3_VIBPH
+Length=208
+
+ Score = 67.6 bits (164),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 22/103 (21%), Positives = 43/103 (42%), Gaps = 10/103 (10%)
+
+Query  2    AEKTREVLWQQYYA--SNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVL  59
+             +  +E LW  ++   S       +  L + +++ LL  F   Q    P  D   L+++L
+Sbjct  89   PQTQKEALWYAFHQAKSAKGTDDAVPELLSVLKQELLGDFAG-QLMAEPPTDRAALKAML  147
+
+Query  60   QQFDSFGKRWEAIL------LQVLEGILPYLSELINKELMILL  96
+             Q    G + E  L      L+ L  +   + +L+ +EL  ++
+Sbjct  148  AQSFPLGAQKEQALWHCWAELKSLPEMTSTV-DLVREELSFVI  189
+
+
+> UniRef90_D0WZZ9 Putative type III export protein n=9 Tax=Vibrio 
+TaxID=662 RepID=D0WZZ9_VIBAL
+Length=211
+
+ Score = 60.3 bits (145),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 22/103 (21%), Positives = 41/103 (40%), Gaps = 10/103 (10%)
+
+Query  2    AEKTREVLWQQYYA--SNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVL  59
+             +  RE +W  ++   S   +      L   +++ LL  F   Q    P  D   L+++L
+Sbjct  92   PQVKREAMWYAFHEAKSAKGNEQPQSDLLKVLKQELLGNFSG-QLIAEPPADKTALKAML  150
+
+Query  60   QQFDSFGKRWEAIL------LQVLEGILPYLSELINKELMILL  96
+             Q    G + E  L      L+ L  +   L +++  EL  ++
+Sbjct  151  AQHFPLGAQKEQALWHCWAELKSLPDMASTL-DMVRDELSFMI  192
+
+
+> UniRef90_A7K004 ATPases with chaperone activity, ATP-binding 
+subunit n=13 Tax=Vibrio TaxID=662 RepID=A7K004_VIBAE
+Length=211
+
+ Score = 59.9 bits (144),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 23/103 (22%), Positives = 39/103 (38%), Gaps = 10/103 (10%)
+
+Query  2    AEKTREVLWQQYYA--SNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVL  59
+             +  RE +W  +Y   S          L   +++ LL  F   Q    P  D   L+ +L
+Sbjct  92   PQVKREAMWYAFYEAKSAKGTEQPQSDLLKVLKQELLGNFSG-QLIAEPPADKAALKEML  150
+
+Query  60   QQFDSFGKRWEAIL------LQVLEGILPYLSELINKELMILL  96
+             Q    G + E  L      L+ L  +   L +++  EL  ++
+Sbjct  151  AQHFPLGAQKEQALWHSWAELKSLPDMASTL-DMVRDELSFMI  192
+
+
+> UniRef90_A0A128FIM0 YopR Core n=1 Tax=Grimontia marina TaxID=646534 
+RepID=A0A128FIM0_9GAMM
+Length=210
+
+ Score = 59.6 bits (143),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 24/104 (23%), Positives = 39/104 (38%), Gaps = 10/104 (10%)
+
+Query  1    SAEKTREVLWQQYYA--SNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSV  58
+            S  K +E LW  +    S          L   + + LL  F        P  D  EL+ +
+Sbjct  90   SPIKQKEALWYAFNQEKSVKGTDKGSPTLLVLLEQELLTTFSGR-LIAEPPKDRQELKVM  148
+
+Query  59   LQQFDSFGKRWEAIL------LQVLEGILPYLSELINKELMILL  96
+            L +  S G   E  L      L+ +    P L +++ +EL  ++
+Sbjct  149  LAEHYSLGAEKEQALWHSWAELKDIPDQEPLL-DMVREELSFVI  191
+
+
+> UniRef90_D0Z4V1 Putative type III export protein n=1 Tax=Photobacterium 
+damselae subsp. damselae CIP 102761 TaxID=675817 
+RepID=D0Z4V1_PHODD
+Length=173
+
+ Score = 54.9 bits (131),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 20/101 (20%), Positives = 34/101 (34%), Gaps = 12/101 (12%)
+
+Query  2    AEKTREVLWQQYYASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQQ  61
+            +E     + + Y  S        +         LL  F        P  D  EL+ +L +
+Sbjct  60   SEAKVTAIKEWYALSQERSVKGTDK----ASPELLGSFSGRLL-ADPPKDREELKVLLSE  114
+
+Query  62   FDSFGKRWEAIL------LQVLEGILPYLSELINKELMILL  96
+                G + E  L      LQ +      L +++ KEL  ++
+Sbjct  115  HFPLGAQKEQALWHSWAKLQDIPD-QELLLDMVRKELSFVI  154
+
+
+> UniRef90_F9T7B9 Type III export protein n=2 Tax=Vibrio oreintalis 
+group TaxID=1891919 RepID=F9T7B9_9VIBR
+Length=209
+
+ Score = 52.2 bits (124),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 21/102 (21%), Positives = 41/102 (40%), Gaps = 10/102 (10%)
+
+Query  3    EKTREVLWQQY--YASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+               +E +W  Y    S          L   +++ L+  F   +   VP  D  +LR +L 
+Sbjct  91   ASQKEAMWYAYNKEKSIKGTDEANSNLLDALKQELVGDFAN-ELRAVPPSDNDQLRQMLS  149
+
+Query  61   QFDSFGKRWEAIL------LQVLEGILPYLSELINKELMILL  96
+            +  S     E  L      L+ +  + P + +L+ +EL +++
+Sbjct  150  EKYSLSAHKEQALWHAWEDLKAVPEMKPVV-DLVRQELSLVI  190
+
+
+> UniRef90_A0A0H2MV33 Type III export protein n=2 Tax=Vibrio TaxID=662 
+RepID=A0A0H2MV33_9VIBR
+Length=209
+
+ Score = 46.8 bits (110),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 21/102 (21%), Positives = 40/102 (39%), Gaps = 10/102 (10%)
+
+Query  3    EKTREVLWQQY--YASNPPDHAVLEVLATPVREALLARFGQHQGSVVPAIDLPELRSVLQ  60
+               +E LW  Y    S          L   +++ L+  F   +   VP     +LR +L 
+Sbjct  91   ASQKEALWYAYNKEKSLKGTEEANSNLLNMLKQELVGDFAS-ELRDVPPTGSDQLRQMLS  149
+
+Query  61   QFDSFGKRWEAIL------LQVLEGILPYLSELINKELMILL  96
+            +  S     E  L      L+ +  + P + +L+ +EL +++
+Sbjct  150  EKYSLSAHKEQALWHAWDELKAVPEMKPVV-DLVRQELSLVI  190
+
+
+> UniRef90_A0A0U1EW48 Putative type III secretion protein n=1 Tax=Yersinia 
+intermedia TaxID=631 RepID=A0A0U1EW48_YERIN
+Length=87
+
+ Score = 44.9 bits (105),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 37/38 (97%), Positives = 37/38 (97%), Gaps = 0/38 (0%)
+
+Query  1   SAEKTREVLWQQYYASNPPDHAVLEVLATPVREALLAR  38
+           SAEKTREVLWQQYYASNPPDHAVLEVLA PVREALLAR
+Sbjct  42  SAEKTREVLWQQYYASNPPDHAVLEVLAMPVREALLAR  79
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.147    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0440    0.140     1.90     42.6     43.6 
+
+Effective search space used: 447801887735
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

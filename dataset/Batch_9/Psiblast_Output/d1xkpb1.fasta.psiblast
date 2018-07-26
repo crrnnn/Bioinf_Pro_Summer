@@ -1,0 +1,4177 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1xkpb1
+
+Length=121
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P0C2V8 Chaperone protein SycN n=19 Tax=Yersinia TaxID=...  234     7e-77
+  UniRef90_A0A0S2SCY2 Molecular chaperone n=2 Tax=Aeromonas schub...  162     1e-48
+  UniRef90_UPI0005B1FBC8 type III secretion chaperone SycN n=1 Ta...  156     4e-46
+  UniRef90_Q84GZ1 LssN n=12 Tax=Photorhabdus TaxID=29487 RepID=Q8...  150     1e-43
+  UniRef90_Q8GA94 Acr2 protein n=20 Tax=Aeromonadaceae TaxID=8464...  149     2e-43
+  UniRef90_A0A0D0QX91 Contig_25, whole genome shotgun sequence n=...  146     2e-42
+  UniRef90_Q6TLM8 Acr2 n=8 Tax=Aeromonas hydrophila TaxID=644 Rep...  144     2e-41
+  UniRef90_UPI0006826B5F type III secretion chaperone SycN n=1 Ta...  143     5e-41
+  UniRef90_B6VK32 Putative type iii secretion protein n=3 Tax=Pho...  142     1e-40
+  UniRef90_Q5XL10 Acr2 n=5 Tax=Aeromonas TaxID=642 RepID=Q5XL10_A...  139     1e-39
+  UniRef90_A0A0J6KF01 Molecular chaperone n=2 Tax=Pseudomonas Tax...  127     1e-34
+  UniRef90_A0A119A0S3 Chaperone protein SycN n=3 Tax=Pseudomonas ...  120     3e-32
+  UniRef90_Q9I329 Uncharacterized protein n=50 Tax=Gammaproteobac...  117     8e-31
+  UniRef90_A0A1H2MMP4 Type III secretion chaperone SycN n=1 Tax=P...  116     1e-30
+  UniRef90_UPI000467FF7E type III secretion chaperone SycN n=1 Ta...  109     8e-28
+  UniRef90_F9T799 Type III secretion protein n=4 Tax=Vibrio TaxID...  80.5    1e-16
+  UniRef90_A0A0H4A360 Putative type III secretion protein SycN n=...  79.0    4e-16
+  UniRef90_A0A0F7XWV8 Uncharacterized protein n=2 Tax=Pseudomonas...  79.0    5e-16
+  UniRef90_D0VFM3 SycN n=14 Tax=Vibrio TaxID=662 RepID=D0VFM3_VIBAL   78.6    5e-16
+  UniRef90_S5J1E1 Type III secretion protein n=43 Tax=Vibrio para...  78.2    8e-16
+  UniRef90_A8T5L0 Putative type III secretion protein n=1 Tax=Vib...  76.6    3e-15
+  UniRef90_A0A166JEY4 Type III secretion chaperone SycN n=23 Tax=...  73.2    6e-14
+  UniRef90_A0A088NM29 Uncharacterized protein n=1 Tax=Pseudomonas...  73.2    7e-14
+  UniRef90_A0A1E5EZV1 Type III secretion chaperone SycN n=2 Tax=V...  72.0    1e-13
+  UniRef90_E3BLV0 Uncharacterized protein n=1 Tax=Vibrio caribbea...  69.7    1e-12
+  UniRef90_A0A0L6FV86 Molecular chaperone n=1 Tax=Pseudomonas sp....  68.6    4e-12
+  UniRef90_A0A135NRS3 Uncharacterized protein n=2 Tax=Pseudomonas...  67.8    7e-12
+  UniRef90_A0A061PME9 Type III secretion outermembrane negative r...  65.1    1e-10
+  UniRef90_U3CHZ1 Putative type III secretion system chaperone pr...  63.5    3e-10
+  UniRef90_UPI000587391F type III secretion chaperone SycN n=1 Ta...  62.8    4e-10
+  UniRef90_F8JFE9 Chaperone protein sycN n=1 Tax=Hyphomicrobium s...  62.4    6e-10
+  UniRef90_UPI000571A4A9 type III secretion chaperone SycN n=1 Ta...  59.7    5e-09
+  UniRef90_A0A126S2U8 Type III secretion chaperone SycN n=2 Tax=P...  58.9    9e-09
+  UniRef90_A0A1E2TM18 Uncharacterized protein n=2 Tax=Pseudomonas...  56.2    5e-08
+  UniRef90_A0A081N0D5 Uncharacterized protein n=2 Tax=Endozoicomo...  52.0    3e-06
+  UniRef90_A0A1I4F4I1 Type III secretion chaperone SycN n=1 Tax=M...  49.3    2e-05
+  UniRef90_UPI000785E9CC UPI000785E9CC related cluster n=1 Tax=un...  49.3    2e-05
+  UniRef90_W6MA07 Uncharacterized protein n=1 Tax=Candidatus Comp...  48.1    5e-05
+  UniRef90_A0A081NKD1 Uncharacterized protein n=1 Tax=Endozoicomo...  47.4    1e-04
+  UniRef90_Q2SH41 YopN chaperone SycN-like protein n=1 Tax=Hahell...  43.9    0.002
+
+
+> UniRef90_P0C2V8 Chaperone protein SycN n=19 Tax=Yersinia TaxID=444888 
+RepID=SYCN_YEREN
+Length=123
+
+ Score = 234 bits (598),  Expect = 7e-77, Method: Compositional matrix adjust.
+ Identities = 119/121 (98%), Positives = 121/121 (100%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWH+CED
+Sbjct  2    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHQCED  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            AMVKALTLTAAQKSGALPLRAGWLGE+QLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL
+Sbjct  62   AMVKALTLTAAQKSGALPLRAGWLGENQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_A0A0S2SCY2 Molecular chaperone n=2 Tax=Aeromonas schubertii 
+TaxID=652 RepID=A0A0S2SCY2_9GAMM
+Length=123
+
+ Score = 162 bits (411),  Expect = 1e-48, Method: Compositional matrix adjust.
+ Identities = 80/121 (66%), Positives = 98/121 (81%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            SW+EP+I+ FCQDLG+     L  L+QL++AQSGTLQLEQH   LTLWLAR+L WH+  D
+Sbjct  2    SWMEPVITRFCQDLGLAVGETLPALVQLKLAQSGTLQLEQHDGQLTLWLARALPWHQSGD  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            AMV+A+TLTAA  SGALPLR  WLG+ +L+L V+L+E ++T PLLHQAFE LLRLQQEVL
+Sbjct  62   AMVRAMTLTAAHHSGALPLRCAWLGDDRLLLLVTLEESAITQPLLHQAFESLLRLQQEVL  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_UPI0005B1FBC8 type III secretion chaperone SycN n=1 
+Tax=Aeromonas encheleia TaxID=73010 RepID=UPI0005B1FBC8
+Length=123
+
+ Score = 156 bits (394),  Expect = 4e-46, Method: Compositional matrix adjust.
+ Identities = 77/121 (64%), Positives = 95/121 (79%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            +WIEP++  FCQDLG+        L+QLE+ QSGTLQLE+H   L+LWLARSL WHR +D
+Sbjct  2    NWIEPLLVQFCQDLGIAIGDNPHHLLQLELEQSGTLQLERHQGQLSLWLARSLPWHRSDD  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            A+ +A+TLTAA ++ ALP+RAGWL E QL+LFV+LDER+LTLPLLHQA   L RLQ EVL
+Sbjct  62   AIRRAMTLTAAAQAPALPVRAGWLAEDQLILFVTLDERALTLPLLHQALRTLTRLQHEVL  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_Q84GZ1 LssN n=12 Tax=Photorhabdus TaxID=29487 RepID=Q84GZ1_PHOLU
+Length=123
+
+ Score = 150 bits (378),  Expect = 1e-43, Method: Compositional matrix adjust.
+ Identities = 71/121 (59%), Positives = 93/121 (77%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            +WIEP +  FCQDLG+  S   SPLIQ++   SGTLQ+E++G  LTLWLAR + WH+ ++
+Sbjct  2    NWIEPQLLQFCQDLGMEMSDVSSPLIQIDFEYSGTLQIERYGGALTLWLAREIPWHQGKE  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+             M+KA+ LT + +   LPLR GWLGE +L+LFV+LDER +TLPLLHQAF  LLR+Q+EVL
+Sbjct  62   VMIKAMLLTFSGQGPELPLRCGWLGEDRLLLFVTLDERDITLPLLHQAFRSLLRVQREVL  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_Q8GA94 Acr2 protein n=20 Tax=Aeromonadaceae TaxID=84642 
+RepID=Q8GA94_AERSA
+Length=123
+
+ Score = 149 bits (377),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Identities = 74/121 (61%), Positives = 94/121 (78%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            +WIEP++  FCQDLG+        LIQLE+ QSGTLQLE+H   LTLWLAR++ WH+  +
+Sbjct  2    NWIEPLLVQFCQDLGITIGDNPHSLIQLELEQSGTLQLERHQGQLTLWLARAVPWHQSGE  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            A+ +A+TLTAA +  ALP+R+GWLGE QL+LFVSLDER++TLP LHQA   L RLQ+EVL
+Sbjct  62   AIRRAMTLTAAAQGPALPVRSGWLGEEQLILFVSLDERAVTLPQLHQAVTTLTRLQREVL  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_A0A0D0QX91 Contig_25, whole genome shotgun sequence 
+n=5 Tax=Aeromonas TaxID=642 RepID=A0A0D0QX91_9GAMM
+Length=123
+
+ Score = 146 bits (369),  Expect = 2e-42, Method: Compositional matrix adjust.
+ Identities = 71/121 (59%), Positives = 93/121 (77%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            +WIEP +  FCQDLG+        LIQLE+ QSGTLQLE+H   LTLWLAR+L WH+  +
+Sbjct  2    NWIEPQLVQFCQDLGITIGDNPHYLIQLELEQSGTLQLERHQGQLTLWLARTLPWHQSGE  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            A+ +A++ TAA ++ ALP+R GWLGE +L+LFV+LDER++TLPLLHQA   L RLQQ+V+
+Sbjct  62   AIRRAMSFTAAARAPALPVRCGWLGEDRLILFVTLDERAVTLPLLHQALRTLTRLQQDVV  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_Q6TLM8 Acr2 n=8 Tax=Aeromonas hydrophila TaxID=644 RepID=Q6TLM8_AERHY
+Length=123
+
+ Score = 144 bits (363),  Expect = 2e-41, Method: Compositional matrix adjust.
+ Identities = 72/121 (60%), Positives = 90/121 (74%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            +WIEP +  FCQDLG+P       LIQLE+ QSGTLQLE+H   L LWLAR + WH+  D
+Sbjct  2    NWIEPQLVQFCQDLGIPIGEHPHHLIQLELEQSGTLQLERHQGRLILWLARRVPWHQSAD  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            A+  A+TLTAA ++  LP+R GWLGE QL+LFV+LDER++TLPLLHQA   L +LQ+E L
+Sbjct  62   AIRHAMTLTAAAQAPVLPVRCGWLGEDQLLLFVTLDERAVTLPLLHQALRTLTQLQREAL  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_UPI0006826B5F type III secretion chaperone SycN n=1 
+Tax=Aeromonas tecta TaxID=324617 RepID=UPI0006826B5F
+Length=123
+
+ Score = 143 bits (360),  Expect = 5e-41, Method: Compositional matrix adjust.
+ Identities = 71/121 (59%), Positives = 89/121 (74%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            +WIEP++  FCQDLG+        LIQLE+ QSGTLQLE+H   L+LWLA  L WH+ + 
+Sbjct  2    NWIEPLLVQFCQDLGITIGDNPHHLIQLELEQSGTLQLERHQGQLSLWLAHRLPWHQSDV  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+             + +A+TLTAA    ALP+R GWL E QL+LFV+LDERS+TLPLLHQA   L++LQ EVL
+Sbjct  62   GIRRAMTLTAAANGPALPVRCGWLAEDQLILFVTLDERSITLPLLHQALRTLIQLQHEVL  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_B6VK32 Putative type iii secretion protein n=3 Tax=Photorhabdus 
+TaxID=29487 RepID=B6VK32_PHOAA
+Length=123
+
+ Score = 142 bits (358),  Expect = 1e-40, Method: Compositional matrix adjust.
+ Identities = 69/121 (57%), Positives = 91/121 (75%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            +WIE  +  FCQDLG+  S   S LIQ++   SGTLQ+E++G  LTLWLAR ++WH+  D
+Sbjct  2    NWIESQLLQFCQDLGMEMSDVPSSLIQIDFEYSGTLQIERYGGLLTLWLAREISWHQRGD  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+             M+KA++LT +     LPLR GWLG+ +L+LFV+LDER +TLPLLHQAF  LLR+Q+EVL
+Sbjct  62   VMIKAMSLTFSGLGPELPLRCGWLGDDRLLLFVTLDERCVTLPLLHQAFSSLLRVQREVL  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_Q5XL10 Acr2 n=5 Tax=Aeromonas TaxID=642 RepID=Q5XL10_AERHY
+Length=123
+
+ Score = 139 bits (351),  Expect = 1e-39, Method: Compositional matrix adjust.
+ Identities = 69/121 (57%), Positives = 90/121 (74%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            +WIEP +  FCQDLG+        LIQLE+ QSGTLQLE+H   LTLWLAR + WH+  +
+Sbjct  2    NWIEPQLVQFCQDLGITIGDNPHSLIQLELEQSGTLQLERHQGQLTLWLARRVPWHQSGE  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            A+ +A++LTAA ++ ALP+R GWL E QL+LFV+LDER++TLPLLHQA   L +LQ+E L
+Sbjct  62   AIRRAMSLTAAAQAPALPVRCGWLEEDQLILFVTLDERNVTLPLLHQALRTLTQLQREAL  121
+
+Query  121  A  121
+             
+Sbjct  122  V  122
+
+
+> UniRef90_A0A0J6KF01 Molecular chaperone n=2 Tax=Pseudomonas TaxID=286 
+RepID=A0A0J6KF01_9PSED
+Length=123
+
+ Score = 127 bits (318),  Expect = 1e-34, Method: Compositional matrix adjust.
+ Identities = 61/120 (51%), Positives = 86/120 (72%), Gaps = 0/120 (0%)
+
+Query  2    WIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDA  61
+            WI+  ++ FCQD+GV   SPLS L+QLE   +GTLQLE+H   LTLWLA  L WH+    
+Sbjct  3    WIDQALTRFCQDMGVALPSPLSDLVQLEFEHAGTLQLERHAHGLTLWLALELPWHQAHQG  62
+
+Query  62   MVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+            M++AL+   ++ +  LPLR GW GES+L+LF+SL+ R +T+P+LHQA   L+ +++EVLA
+Sbjct  63   MLRALSRCYSRAAPPLPLRCGWAGESRLLLFISLEARRVTVPVLHQALRTLIAVREEVLA  122
+
+
+> UniRef90_A0A119A0S3 Chaperone protein SycN n=3 Tax=Pseudomonas 
+TaxID=286 RepID=A0A119A0S3_9PSED
+Length=123
+
+ Score = 120 bits (302),  Expect = 3e-32, Method: Compositional matrix adjust.
+ Identities = 57/120 (48%), Positives = 83/120 (69%), Gaps = 0/120 (0%)
+
+Query  2    WIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDA  61
+            WI+  ++ FCQD+GV   SPLS LIQLE    GTLQLE+H   LT+WLA  L WH+    
+Sbjct  3    WIDQALAQFCQDMGVALPSPLSDLIQLEFEHMGTLQLERHANGLTVWLALELPWHQAHQG  62
+
+Query  62   MVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+            M++A++ + ++ +  LPLR GW GE++L+L ++LD R +T P+LHQA   L+ ++ EV+A
+Sbjct  63   MLRAMSRSYSRAAPELPLRCGWSGETRLLLLITLDARRVTAPVLHQALRTLISVRDEVIA  122
+
+
+> UniRef90_Q9I329 Uncharacterized protein n=50 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=Q9I329_PSEAE
+Length=123
+
+ Score = 117 bits (292),  Expect = 8e-31, Method: Compositional matrix adjust.
+ Identities = 57/121 (47%), Positives = 82/121 (68%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+             W+E  ++ FCQDL V   +PL+ ++QL+   SGTLQLE+HG  L+LWLA  LAWH+   
+Sbjct  2    DWVELAVAQFCQDLRVSVPAPLARVVQLDFEDSGTLQLERHGEQLSLWLACDLAWHQAYR  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+              ++AL L  A+ +G+LPLR  W GES+L+L ++L+ R + +P LHQA + L   + EVL
+Sbjct  62   GTLRALRLCHARAAGSLPLRCAWSGESRLLLCITLEARQVGMPTLHQALQALRSARSEVL  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_A0A1H2MMP4 Type III secretion chaperone SycN n=1 Tax=Pseudomonas 
+brenneri TaxID=129817 RepID=A0A1H2MMP4_9PSED
+Length=123
+
+ Score = 116 bits (291),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 58/120 (48%), Positives = 79/120 (66%), Gaps = 0/120 (0%)
+
+Query  2    WIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDA  61
+            WI+  ++ FCQDLGV   +PL  LIQLE  ++GTLQLEQH   LTLWLA  L WH+    
+Sbjct  3    WIDQALAQFCQDLGVVVPTPLGALIQLEFEETGTLQLEQHDRKLTLWLAVDLEWHQVHQG  62
+
+Query  62   MVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+             V+AL +  ++    LPLR GW G+++L+L ++LDER ++  +LHQA   L   +Q VLA
+Sbjct  63   AVRALAMVFSRTGPELPLRCGWAGDTRLLLLITLDERRVSALVLHQALRTLSAARQTVLA  122
+
+
+> UniRef90_UPI000467FF7E type III secretion chaperone SycN n=1 
+Tax=Pseudomonas sp. PH1b TaxID=1397282 RepID=UPI000467FF7E
+Length=122
+
+ Score = 109 bits (272),  Expect = 8e-28, Method: Compositional matrix adjust.
+ Identities = 57/119 (48%), Positives = 75/119 (63%), Gaps = 1/119 (1%)
+
+Query  2    WIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDA  61
+            WI+  ++ FCQDLGV   +P   LIQLE  ++GTLQLEQH   LTLWLA  LAWH+    
+Sbjct  3    WIDQALAQFCQDLGVAVPAPAGALIQLEFEETGTLQLEQHDRKLTLWLAVDLAWHQVHQG  62
+
+Query  62   MVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+             ++AL LT +     LPLR  W    +L+L ++LDER +T P+LHQA   L   ++ VL
+Sbjct  63   GIRALALTFSGTGPQLPLRCAW-ASGRLLLLITLDERRITAPVLHQALHTLSSARRTVL  120
+
+
+> UniRef90_F9T799 Type III secretion protein n=4 Tax=Vibrio TaxID=662 
+RepID=F9T799_9VIBR
+Length=124
+
+ Score = 80.5 bits (197),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 43/122 (35%), Positives = 64/122 (52%), Gaps = 1/122 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSP-LIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            +WI+  +  FC+ +G+ T    S   +QL    SGTL +E+H   L L L+R ++WH+  
+Sbjct  2    NWIDSSVDDFCRGMGLDTVDFASTGRVQLTFQLSGTLHIERHQDNLFLMLSRGISWHQSS  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            D +  AL L          +R G LGE  LV    ++   +T+P L QAF  L+RL  EV
+Sbjct  62   DLLKDALALCNFDNGWPFSVRTGLLGEETLVFSAQINGEEVTIPSLEQAFALLIRLHNEV  121
+
+Query  120  LA  121
+            + 
+Sbjct  122  VG  123
+
+
+> UniRef90_A0A0H4A360 Putative type III secretion protein SycN 
+n=2 Tax=Vibrio TaxID=662 RepID=A0A0H4A360_9VIBR
+Length=124
+
+ Score = 79.0 bits (193),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 43/120 (36%), Positives = 66/120 (55%), Gaps = 1/120 (1%)
+
+Query  1    SWIEPIISHFCQDLG-VPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            SWI+  +  FCQ +G V      +  +QL   +SGTL LE++   L L L R+L WH+  
+Sbjct  2    SWIDASVDDFCQGMGLVAVDFSSAGRVQLNFEKSGTLYLEKYQDCLVLMLVRALPWHQFN  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            +++ KAL+   A +     ++AG   E  LVL   ++   +TLP + QAF  L+RL  +V
+Sbjct  62   ESIKKALSFCHAGQGWPFTIKAGLFEEDMLVLSTQIEGDEVTLPSIEQAFALLVRLHNDV  121
+
+
+> UniRef90_A0A0F7XWV8 Uncharacterized protein n=2 Tax=Pseudomonas 
+sp. CCOS 191 TaxID=1649877 RepID=A0A0F7XWV8_9PSED
+Length=131
+
+ Score = 79.0 bits (193),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 46/121 (38%), Positives = 67/121 (55%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+             +    ++ FC+DLGV  + P  PL++LE+  +  LQLE+    LTLWL  S+     E 
+Sbjct  10   DFCTAAVARFCRDLGVAPAHPQEPLLRLELPDADVLQLERLAGQLTLWLEFSVHGAMFER  69
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            AM  AL      ++    LR G L + +LVL   LDE+ +T   LH+A+  L R++ EVL
+Sbjct  70   AMQCALRQVYEHQACGCLLRCGLLADDRLVLLAGLDEQGVTEQALHRAYRLLTRVRTEVL  129
+
+Query  121  A  121
+            A
+Sbjct  130  A  130
+
+
+> UniRef90_D0VFM3 SycN n=14 Tax=Vibrio TaxID=662 RepID=D0VFM3_VIBAL
+Length=124
+
+ Score = 78.6 bits (192),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 45/120 (38%), Positives = 64/120 (53%), Gaps = 1/120 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSP-LIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            SWI+  +  FC+ +G+      S   +QL+  QSGTL +E+ G  L L L+R+L+WH+  
+Sbjct  2    SWIDASVDEFCRGMGLDAVDFSSAGRVQLDFEQSGTLHIERQGEQLFLMLSRALSWHQTS  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            D +  AL L  A +     ++ G L E  LV    L    +TLP L QAF  L RL  +V
+Sbjct  62   DIIQSALCLCHADQGWPFEIKTGLLDEQTLVFSARLKGEEVTLPTLEQAFTLLARLHNDV  121
+
+
+> UniRef90_S5J1E1 Type III secretion protein n=43 Tax=Vibrio parahaemolyticus 
+TaxID=670 RepID=S5J1E1_VIBPH
+Length=123
+
+ Score = 78.2 bits (191),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 43/120 (36%), Positives = 66/120 (55%), Gaps = 1/120 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSS-PLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            SWI+  +  FC+ +G+       +  +QL   QSGTL +E+H   L L LAR+L+WH+  
+Sbjct  2    SWIDASVDEFCRGMGLDAVDFSTAGRVQLSFEQSGTLHIEKHHDRLFLILARALSWHQSS  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            + +  AL L  A++     ++ G L +  LV    ++   +TLP L QAF  L+RL  EV
+Sbjct  62   ERIQHALRLCHAEQGWPFEMKTGLLDDETLVFSAKIEGDEVTLPTLEQAFALLVRLHDEV  121
+
+
+> UniRef90_A8T5L0 Putative type III secretion protein n=1 Tax=Vibrio 
+sp. AND4 TaxID=314289 RepID=A8T5L0_9VIBR
+Length=124
+
+ Score = 76.6 bits (187),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 41/120 (34%), Positives = 64/120 (53%), Gaps = 1/120 (1%)
+
+Query  1    SWIEPIISHFCQDLGV-PTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            +WI+  +  FC+ +G+      ++  +QL   QSGTL +E+H   L L L + L+WH   
+Sbjct  2    NWIDASVDDFCRGMGLEAVDFSVAGRVQLSFEQSGTLHIEKHQGCLFLMLTKPLSWHESN  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            +A+ KAL    A +     ++AG L E  LV    ++   +TLP + QAF  L RL  +V
+Sbjct  62   EAIKKALGFCHAGQGWPFIIKAGLLDEQTLVFSAQIEGDEVTLPTIEQAFALLTRLHNDV  121
+
+
+> UniRef90_A0A166JEY4 Type III secretion chaperone SycN n=23 Tax=Vibrionaceae 
+TaxID=641 RepID=A0A166JEY4_9VIBR
+Length=124
+
+ Score = 73.2 bits (178),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 40/120 (33%), Positives = 66/120 (55%), Gaps = 1/120 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSP-LIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            +WI+  +  FC+ +G+      S   +QL   QSGTL +E+H   L L LA+ L WH+  
+Sbjct  2    NWIDASVDDFCRGMGLEAVDFSSAGRVQLSFEQSGTLHVERHQDCLFLMLAKPLHWHQSN  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            + + KAL+   + +     +++G L E  LV    ++   +TLP + QAF  L+RL ++V
+Sbjct  62   EPIKKALSFCHSGQGWPFVIKSGLLDEQTLVFSAQIEGDEVTLPTIEQAFALLVRLHKDV  121
+
+
+> UniRef90_A0A088NM29 Uncharacterized protein n=1 Tax=Pseudomonas 
+mosselii SJ10 TaxID=1388763 RepID=A0A088NM29_9PSED
+Length=123
+
+ Score = 73.2 bits (178),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 46/115 (40%), Positives = 63/115 (55%), Gaps = 0/115 (0%)
+
+Query  7    ISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAMVKAL  66
+            ++ FC+ LGV  +    PL++LE+  +G LQLE+ G  LTLWL   +     E AM  AL
+Sbjct  8    VAQFCRHLGVAPAHWQEPLLRLELPGAGVLQLERRGGQLTLWLEFPVHGAMFERAMQCAL  67
+
+Query  67   TLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+                  ++    LR G L + +LVL   LDE  LT   LH A+  L R++ EVLA
+Sbjct  68   RQVYEHQAPGCLLRCGLLADDRLVLLAGLDEHGLTEQALHLAYRLLTRVRTEVLA  122
+
+
+> UniRef90_A0A1E5EZV1 Type III secretion chaperone SycN n=2 Tax=Vibrio 
+tasmaniensis TaxID=212663 RepID=A0A1E5EZV1_9VIBR
+Length=124
+
+ Score = 72.0 bits (175),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 38/121 (31%), Positives = 66/121 (55%), Gaps = 1/121 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSP-LIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            +WI+  +  FC+ +G+   +  S   +QL   QSGTL LE++   L L L ++L WH+  
+Sbjct  2    NWIDASVDDFCRGMGLEAVNFSSAGRVQLSFEQSGTLYLEKYQDCLFLMLVKALPWHQSN  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            +++ KAL+   + +     ++ G   E  LV    ++   +TLP + QAF  L+RL  +V
+Sbjct  62   ESIKKALSFCHSGQGWPFTIKTGLFDEQALVFSAQIEGDEVTLPTIEQAFALLVRLHNDV  121
+
+Query  120  L  120
+            +
+Sbjct  122  V  122
+
+
+> UniRef90_E3BLV0 Uncharacterized protein n=1 Tax=Vibrio caribbeanicus 
+ATCC BAA-2122 TaxID=796620 RepID=E3BLV0_9VIBR
+Length=124
+
+ Score = 69.7 bits (169),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 41/120 (34%), Positives = 64/120 (53%), Gaps = 1/120 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSP-LIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            +WI+  +  FC+ +G+      S   +QL   QSGTL +E++   L L LAR L W +  
+Sbjct  2    TWIDTSVDDFCRGMGLDAVDFSSAGRVQLGFEQSGTLHIEKYQDRLFLMLARPLDWRQSS  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            + + +AL+   A +     ++AG L +  LVL   +    +TLP + QAF  L+RL  EV
+Sbjct  62   EPLKRALSFCHAGQGWPFLIKAGLLDDQTLVLCAQIVGEDVTLPTIEQAFNLLVRLHDEV  121
+
+
+> UniRef90_A0A0L6FV86 Molecular chaperone n=1 Tax=Pseudomonas sp. 
+250J TaxID=1478142 RepID=A0A0L6FV86_9PSED
+Length=123
+
+ Score = 68.6 bits (166),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 44/114 (39%), Positives = 62/114 (54%), Gaps = 0/114 (0%)
+
+Query  7    ISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAMVKAL  66
+            I+ FC+D GV  + P     +LE++Q G LQ E+    LTLWL  ++     E A+  AL
+Sbjct  8    IARFCRDQGVVLTHPQETFQRLELSQIGVLQFERQAGQLTLWLTFTVHGTLFERALSSAL  67
+
+Query  67   TLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+                  ++    LR G L +  L L VSLDER +T  LLH+A+  L  ++ EVL
+Sbjct  68   RHVHDHQAPGQLLRCGLLPDDCLALLVSLDERRVTEQLLHEAYRLLSWVRAEVL  121
+
+
+> UniRef90_A0A135NRS3 Uncharacterized protein n=2 Tax=Pseudomonas 
+mosselii TaxID=78327 RepID=A0A135NRS3_9PSED
+Length=123
+
+ Score = 67.8 bits (164),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 43/115 (37%), Positives = 64/115 (56%), Gaps = 0/115 (0%)
+
+Query  7    ISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAMVKAL  66
+            I  FC+D GV  +      ++L++   G LQ E+    +TLWL+ ++     E AM  AL
+Sbjct  8    IVRFCRDQGVVLAHLPETRLRLDLPDIGVLQFERLAGQVTLWLSFAVQGALLEHAMSSAL  67
+
+Query  67   TLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+                  +     LR G L + +LVL VSLDER +T  +LH+A++ L R++ EVLA
+Sbjct  68   RHVQDHQVPGQLLRCGLLPDERLVLLVSLDERRVTKQVLHEAYQLLSRMRVEVLA  122
+
+
+> UniRef90_A0A061PME9 Type III secretion outermembrane negative 
+regulator of secretion n=1 Tax=Vibrio sp. JCM 19053 TaxID=1460648 
+RepID=A0A061PME9_9VIBR
+Length=181
+
+ Score = 65.1 bits (157),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 35/99 (35%), Positives = 52/99 (53%), Gaps = 1/99 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSP-LIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            SWI+  +  FC+ +G+      S   +QL+  QSGTL +E+ G  L L L+R+L+WH+  
+Sbjct  65   SWIDASVDEFCRGMGLDAVDFSSAGRVQLDFEQSGTLHIERQGEQLFLMLSRALSWHQTS  124
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDER  98
+            D +  AL L  A +     ++ G L E  LV F     R
+Sbjct  125  DMIQSALCLCHADQGWPFEIKTGLLDEQTLVFFSKAKRR  163
+
+
+> UniRef90_U3CHZ1 Putative type III secretion system chaperone 
+protein n=1 Tax=Vibrio azureus NBRC 104587 TaxID=1219077 RepID=U3CHZ1_9VIBR
+Length=124
+
+ Score = 63.5 bits (153),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 39/121 (32%), Positives = 60/121 (50%), Gaps = 1/121 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPT-SSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            +WI+  +  F + +G+      L    QL   +SGTL +E+H   L L L++ L W    
+Sbjct  2    NWIDASVDDFFRGMGLDNIDFSLVGRAQLSFEESGTLHIERHENRLYLMLSKPLPWDGFS  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+                 ALTL  A       ++AG L E  LV    ++ + +TLP + QAF  L RL ++V
+Sbjct  62   RYAQAALTLCHADNGWPFVIKAGLLDEQNLVFSAEIEAQEVTLPTIEQAFALLNRLHEKV  121
+
+Query  120  L  120
+            +
+Sbjct  122  I  122
+
+
+> UniRef90_UPI000587391F type III secretion chaperone SycN n=1 
+Tax=Vibrio sagamiensis TaxID=512650 RepID=UPI000587391F
+Length=124
+
+ Score = 62.8 bits (151),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 38/120 (32%), Positives = 57/120 (48%), Gaps = 1/120 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPT-SSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            +WI+  +  F + +G+      L    QL   +SGTL +E+H + L L L+R L W R  
+Sbjct  2    NWIDTSVDDFFRGMGLDNIDFSLVGRAQLNFEKSGTLHIERHDSRLYLILSRELPWDRFS  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+                 AL+L          ++ G L E  LV    ++ + +TLP + QAF  L RL   V
+Sbjct  62   HYAQSALSLCHVDNGWPFLIKTGLLDEQTLVFSAEIEAQEVTLPTIEQAFTLLNRLHDRV  121
+
+
+> UniRef90_F8JFE9 Chaperone protein sycN n=1 Tax=Hyphomicrobium 
+sp. (strain MC1) TaxID=717785 RepID=F8JFE9_HYPSM
+Length=124
+
+ Score = 62.4 bits (150),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 47/117 (40%), Positives = 63/117 (54%), Gaps = 7/117 (6%)
+
+Query  7    ISHFCQDLGVPTSS-PLSPLIQLEMAQSGTLQLEQHGATLT-LWLARSLAWHRCEDAMVK  64
+            I+ FC+ LG+P S   LS  + LE  +SGTL+LE++GA    L LAR +  HR     V 
+Sbjct  7    IATFCESLGIPLSPIGLSLPLALEFERSGTLRLEENGAGGYWLTLAREVPLHR---RGVA  63
+
+Query  65   ALTLTAAQKSGALPLR--AGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            A  L AA    ++PLR  AG+ G+  LVL   L +     P +  A   L+RL  EV
+Sbjct  64   AAVLRAAHPDRSMPLRVKAGFHGDETLVLMTGLAKEVADAPAIASALRMLVRLADEV  120
+
+
+> UniRef90_UPI000571A4A9 type III secretion chaperone SycN n=1 
+Tax=Vibrio pacinii TaxID=170674 RepID=UPI000571A4A9
+Length=123
+
+ Score = 59.7 bits (143),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 36/121 (30%), Positives = 60/121 (50%), Gaps = 1/121 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSS-PLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            +WI+  +  FC+ +GV +     S  +QL    SGTL +E+H   L + LAR +   +  
+Sbjct  2    NWIDDSVDDFCRAMGVESVDFSCSGRVQLTFQCSGTLHIEKHQGMLFMMLAREMLRSQSA  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+              + +AL +   ++     +RA  LGE+ LV    +    +T P L QA   L+RL   +
+Sbjct  62   KLIKRALAICNDEQGWPFLVRASLLGENTLVFSAQMAGEEVTHPSLEQALAMLIRLHNNM  121
+
+Query  120  L  120
+            +
+Sbjct  122  V  122
+
+
+> UniRef90_A0A126S2U8 Type III secretion chaperone SycN n=2 Tax=Pseudomonas 
+putida TaxID=303 RepID=A0A126S2U8_PSEPU
+Length=107
+
+ Score = 58.9 bits (141),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 38/103 (37%), Positives = 59/103 (57%), Gaps = 0/103 (0%)
+
+Query  19   SSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAMVKALTLTAAQKSGALP  78
+            + P   +++LE+  +G LQ E+    LTLWL+ +L     E A+  AL     Q++    
+Sbjct  4    AHPPQTVLRLELPDTGVLQFERQAGQLTLWLSVTLPGALFEHALSSALRHVHDQQAPGQL  63
+
+Query  79   LRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+            LR G L + +LVL +SLDER +T   L +A+  L +++ EVLA
+Sbjct  64   LRCGLLSDERLVLLLSLDERRVTEQALREAYRLLSQVRAEVLA  106
+
+
+> UniRef90_A0A1E2TM18 Uncharacterized protein n=2 Tax=Pseudomonas 
+mosselii TaxID=78327 RepID=A0A1E2TM18_9PSED
+Length=90
+
+ Score = 56.2 bits (134),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 36/88 (41%), Positives = 51/88 (58%), Gaps = 0/88 (0%)
+
+Query  34   GTLQLEQHGATLTLWLARSLAWHRCEDAMVKALTLTAAQKSGALPLRAGWLGESQLVLFV  93
+            G LQ E+    +TLWL+ ++     E AM  AL      +     LR G L + +LVL V
+Sbjct  2    GVLQFERLAGQVTLWLSFAVQGALFEHAMSSALRHVQDHQVPGQLLRCGLLPDERLVLLV  61
+
+Query  94   SLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+            SLDER +T  +LH+A++ L R++ EVLA
+Sbjct  62   SLDERRVTKQVLHEAYQLLSRMRVEVLA  89
+
+
+> UniRef90_A0A081N0D5 Uncharacterized protein n=2 Tax=Endozoicomonas 
+montiporae TaxID=1027273 RepID=A0A081N0D5_9GAMM
+Length=124
+
+ Score = 52.0 bits (123),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 29/113 (26%), Positives = 53/113 (47%), Gaps = 1/113 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPT-SSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+             W + +++   + +G+       S ++ L   + G L LEQ    + ++L R++  H C 
+Sbjct  2    DWRDDVMADIGKGMGIEGLGFGESGVLSLNFERRGELYLEQQDDGVLMYLVRTIPVHDCL  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQL  112
+              +V AL      K+   PL+ G  GE +L+LF+ L     T P +  + + L
+Sbjct  62   GLLVAALKECHYTKASRFPLQVGLKGEEELLLFIYLANEEFTRPNIETSIDTL  114
+
+
+> UniRef90_A0A1I4F4I1 Type III secretion chaperone SycN n=1 Tax=Mesorhizobium 
+albiziae TaxID=335020 RepID=A0A1I4F4I1_9RHIZ
+Length=120
+
+ Score = 49.3 bits (116),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 37/120 (31%), Positives = 56/120 (47%), Gaps = 8/120 (7%)
+
+Query  4    EPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAMV  63
+            E  I  FC  +G+P   P +P + L   +SG L LE    +  ++L R++   R      
+Sbjct  4    EAAIQAFCSAMGLP---PQTPPLTLRFERSGNLHLECRDGSFVMYLTRAMPLRR---KGA  57
+
+Query  64   KALTLTAAQKSGALP--LRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+             A  L A     ALP  +   + GE+ LVL + +    + LP L  A + L+RL  E+ A
+Sbjct  58   AAAALRAVHPDRALPFMVHVAFNGEALLVLLIGMAMDRVDLPTLESAAQVLVRLIDEIDA  117
+
+
+> UniRef90_UPI000785E9CC UPI000785E9CC related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000785E9CC
+Length=127
+
+ Score = 49.3 bits (116),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 32/122 (26%), Positives = 59/122 (48%), Gaps = 1/122 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPT-SSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+             W + +IS   + +GV   +   S +I ++     TL LE+    + +++ + L+     
+Sbjct  5    DWRDEVISDVGKGIGVENLTFGESGVISIDFESERTLYLERQEEGVLIYMVQGLSRFDAS  64
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+             +++ AL      +S  LPL+AG  GE +LV  + LD      P +  A E L+R  +++
+Sbjct  65   KSLIHALRKCHYTQSLMLPLQAGLKGEEELVWLIYLDNEQFAQPTIESAIEILIRQSEQL  124
+
+Query  120  LA  121
+             A
+Sbjct  125  SA  126
+
+
+> UniRef90_W6MA07 Uncharacterized protein n=1 Tax=Candidatus Competibacter 
+denitrificans Run_A_D11 TaxID=1400863 RepID=W6MA07_9GAMM
+Length=123
+
+ Score = 48.1 bits (113),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 34/122 (28%), Positives = 59/122 (48%), Gaps = 2/122 (2%)
+
+Query  1    SWIEPIISHFCQDLGVPTSS-PLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            + I+ ++  F + +G+   +     +  L   + G L  E+    + ++LAR    H   
+Sbjct  2    NLIDDVLHDFGRHIGIAGLTLDGGTVAGLNFERRGALFFERATDAVLVYLARQTPSHDSA  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+              + +AL  T  ++   LP++AG LGE  LVL   L+ER+ +LP+L +    L  L   V
+Sbjct  62   -PLERALRCTHYREGHLLPVQAGLLGEDTLVLLARLEERAFSLPVLEKTVTLLTELHDRV  120
+
+Query  120  LA  121
+             A
+Sbjct  121  AA  122
+
+
+> UniRef90_A0A081NKD1 Uncharacterized protein n=1 Tax=Endozoicomonas 
+numazuensis TaxID=1137799 RepID=A0A081NKD1_9GAMM
+Length=124
+
+ Score = 47.4 bits (111),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 33/122 (27%), Positives = 58/122 (48%), Gaps = 2/122 (2%)
+
+Query  1    SWIEPIISHFCQDLGVPT-SSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+             W + ++S   + +G+   S  +S +I +E     TL LE     + +++ + L+     
+Sbjct  2    DWRDEVVSDIGRGMGIEGLSFGVSGVISIEFESERTLYLETQEEGVLIYMVQELSRFDAS  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+             ++V AL      +S  LPL+ G  GE +LV  + L+    + P +    E L+R Q E 
+Sbjct  62   KSLVHALRKCHYTQSLLLPLQVGLKGEEELVWLIYLNNEQFSRPTVESVIETLIR-QSEQ  120
+
+Query  120  LA  121
+            LA
+Sbjct  121  LA  122
+
+
+> UniRef90_Q2SH41 YopN chaperone SycN-like protein n=1 Tax=Hahella 
+chejuensis (strain KCTC 2396) TaxID=349521 RepID=Q2SH41_HAHCH
+Length=125
+
+ Score = 43.9 bits (102),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 40/119 (34%), Positives = 57/119 (48%), Gaps = 12/119 (10%)
+
+Query  7    ISHFCQDLGVPT----SSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAM  62
+            I+ F Q LG         PL+    L   +SGTL +E H   L L   + ++ + C D +
+Sbjct  11   ITEFLQQLGFADFIWRGEPLT----LAFERSGTLMIEPHEQGLLLVRLQEISEYDCADLI  66
+
+Query  63   VKALTLTAAQKSGALPLRA--GWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+             KA  L A      LPLRA  G  G SQL   V+L  + L++  L++A   L  L Q++
+Sbjct  67   PKA--LRAVHYDQPLPLRAHTGMKGASQLAFIVALSRQQLSIAGLNEALGVLDYLHQQL  123
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.132    0.400    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 436746253185
+Results from round 2
+
+
+Query= d1xkpb1
+
+Length=121
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A1E5EZV1 Type III secretion chaperone SycN n=2 Tax=V...  170     9e-52
+  UniRef90_A0A166JEY4 Type III secretion chaperone SycN n=23 Tax=...  169     4e-51
+  UniRef90_A8T5L0 Putative type III secretion protein n=1 Tax=Vib...  168     8e-51
+  UniRef90_A0A0H4A360 Putative type III secretion protein SycN n=...  165     9e-50
+  UniRef90_F9T799 Type III secretion protein n=4 Tax=Vibrio TaxID...  161     5e-48
+  UniRef90_A0A0D0QX91 Contig_25, whole genome shotgun sequence n=...  161     6e-48
+  UniRef90_Q84GZ1 LssN n=12 Tax=Photorhabdus TaxID=29487 RepID=Q8...  160     9e-48
+  UniRef90_E3BLV0 Uncharacterized protein n=1 Tax=Vibrio caribbea...  159     3e-47
+  UniRef90_D0VFM3 SycN n=14 Tax=Vibrio TaxID=662 RepID=D0VFM3_VIBAL   158     5e-47
+  UniRef90_S5J1E1 Type III secretion protein n=43 Tax=Vibrio para...  158     7e-47
+  UniRef90_Q8GA94 Acr2 protein n=20 Tax=Aeromonadaceae TaxID=8464...  157     2e-46
+  UniRef90_B6VK32 Putative type iii secretion protein n=3 Tax=Pho...  155     9e-46
+  UniRef90_U3CHZ1 Putative type III secretion system chaperone pr...  154     3e-45
+  UniRef90_Q5XL10 Acr2 n=5 Tax=Aeromonas TaxID=642 RepID=Q5XL10_A...  153     5e-45
+  UniRef90_UPI0006826B5F type III secretion chaperone SycN n=1 Ta...  152     1e-44
+  UniRef90_UPI000587391F type III secretion chaperone SycN n=1 Ta...  151     2e-44
+  UniRef90_Q6TLM8 Acr2 n=8 Tax=Aeromonas hydrophila TaxID=644 Rep...  151     3e-44
+  UniRef90_UPI000571A4A9 type III secretion chaperone SycN n=1 Ta...  151     4e-44
+  UniRef90_A0A0J6KF01 Molecular chaperone n=2 Tax=Pseudomonas Tax...  150     8e-44
+  UniRef90_UPI0005B1FBC8 type III secretion chaperone SycN n=1 Ta...  150     1e-43
+  UniRef90_A0A119A0S3 Chaperone protein SycN n=3 Tax=Pseudomonas ...  149     3e-43
+  UniRef90_P0C2V8 Chaperone protein SycN n=19 Tax=Yersinia TaxID=...  147     1e-42
+  UniRef90_A0A0S2SCY2 Molecular chaperone n=2 Tax=Aeromonas schub...  141     4e-40
+  UniRef90_A0A1H2MMP4 Type III secretion chaperone SycN n=1 Tax=P...  135     5e-38
+  UniRef90_A0A061PME9 Type III secretion outermembrane negative r...  136     7e-38
+  UniRef90_Q9I329 Uncharacterized protein n=50 Tax=Gammaproteobac...  133     2e-37
+  UniRef90_UPI000467FF7E type III secretion chaperone SycN n=1 Ta...  131     3e-36
+  UniRef90_A0A0F7XWV8 Uncharacterized protein n=2 Tax=Pseudomonas...  126     4e-34
+  UniRef90_A0A081N0D5 Uncharacterized protein n=2 Tax=Endozoicomo...  124     1e-33
+  UniRef90_UPI000785E9CC UPI000785E9CC related cluster n=1 Tax=un...  123     2e-33
+  UniRef90_A0A088NM29 Uncharacterized protein n=1 Tax=Pseudomonas...  123     3e-33
+  UniRef90_A0A081NKD1 Uncharacterized protein n=1 Tax=Endozoicomo...  122     9e-33
+  UniRef90_A0A0L6FV86 Molecular chaperone n=1 Tax=Pseudomonas sp....  120     7e-32
+  UniRef90_A0A135NRS3 Uncharacterized protein n=2 Tax=Pseudomonas...  118     3e-31
+  UniRef90_W6MA07 Uncharacterized protein n=1 Tax=Candidatus Comp...  111     2e-28
+  UniRef90_A0A1I4F4I1 Type III secretion chaperone SycN n=1 Tax=M...  99.6    4e-24
+  UniRef90_A0A126S2U8 Type III secretion chaperone SycN n=2 Tax=P...  99.2    4e-24
+  UniRef90_F8JFE9 Chaperone protein sycN n=1 Tax=Hyphomicrobium s...  96.1    1e-22
+  UniRef90_A0A1E2TM18 Uncharacterized protein n=2 Tax=Pseudomonas...  92.3    2e-21
+  UniRef90_Q2SH41 YopN chaperone SycN-like protein n=1 Tax=Hahell...  91.5    8e-21
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A1D2XBH8 Type III secretion chaperone SycN n=1 Tax=E...  106     1e-26
+  UniRef90_W9VF68 Putative type III secretion protein n=1 Tax=Thi...  86.5    5e-19
+  UniRef90_UPI00082C90EF UPI00082C90EF related cluster n=1 Tax=un...  85.7    1e-18
+  UniRef90_UPI000371D201 hypothetical protein n=1 Tax=Hahella gan...  83.4    8e-18
+  UniRef90_A0A081K9I5 Uncharacterized protein n=1 Tax=Endozoicomo...  78.4    6e-16
+  UniRef90_UPI0008259732 UPI0008259732 related cluster n=1 Tax=un...  78.4    6e-16
+  UniRef90_UPI00047A9697 hypothetical protein n=1 Tax=Mesorhizobi...  75.7    6e-15
+  UniRef90_UPI00048B6D3E hypothetical protein n=1 Tax=Terasakiell...  71.5    3e-13
+  UniRef90_A0A1J4XHU7 Uncharacterized protein n=1 Tax=Verrucomicr...  70.7    6e-13
+  UniRef90_A0A1K1LC48 Type III secretion chaperone SycN n=1 Tax=D...  69.5    1e-12
+  UniRef90_B6WRJ7 Type III secretion chaperone SycN n=1 Tax=Desul...  68.8    3e-12
+  UniRef90_E5Y9V8 Type III secretion chaperone SycN n=2 Tax=Bilop...  65.7    3e-11
+  UniRef90_A0A0H3ACH2 Type III secretion chaperone SycN n=3 Tax=D...  64.5    9e-11
+  UniRef90_Q1MQX7 NA n=1 Tax=Lawsonia intracellularis (strain PHE...  63.4    2e-10
+  UniRef90_UPI0001744C94 hypothetical protein n=3 Tax=Verrucomicr...  59.9    4e-09
+  UniRef90_Q2SC38 Uncharacterized protein n=1 Tax=Hahella chejuen...  59.5    6e-09
+  UniRef90_B8DMR9 Type III secretion chaperone SycN n=2 Tax=Desul...  58.8    1e-08
+  UniRef90_UPI00048E0C9F hypothetical protein n=1 Tax=Desulfocurv...  58.4    1e-08
+  UniRef90_UPI0004119491 hypothetical protein n=1 Tax=Ottowia thi...  53.4    1e-06
+  UniRef90_A0A0D8D7F6 Uncharacterized protein n=1 Tax=Thalassomon...  52.6    2e-06
+  UniRef90_A0A1B7X9D2 Uncharacterized protein n=1 Tax=Halodesulfo...  52.2    2e-06
+  UniRef90_A0P0P0 Uncharacterized protein n=1 Tax=Labrenzia aggre...  52.2    2e-06
+  UniRef90_A0A1G3Z9K9 Uncharacterized protein n=1 Tax=Verrucomicr...  51.1    5e-06
+  UniRef90_A0A0D8CRY8 Uncharacterized protein n=1 Tax=Thalassomon...  51.1    5e-06
+  UniRef90_A0A0N8GEQ0 Uncharacterized protein n=1 Tax=Prosthecomi...  47.2    1e-04
+  UniRef90_A0A0D8D3P1 Uncharacterized protein n=1 Tax=Thalassomon...  46.8    2e-04
+  UniRef90_F7T1K3 Uncharacterized protein n=2 Tax=Achromobacter T...  46.4    2e-04
+  UniRef90_UPI0003B639FB hypothetical protein n=1 Tax=Desulfospir...  46.0    3e-04
+  UniRef90_UPI00082A3C4C UPI00082A3C4C related cluster n=1 Tax=un...  45.7    4e-04
+  UniRef90_A0A0S9ES23 Uncharacterized protein n=2 Tax=Acidovorax ...  44.5    0.001
+  UniRef90_UPI00092A55D9 UPI00092A55D9 related cluster n=1 Tax=un...  44.1    0.001
+  UniRef90_H0F7W5 Uncharacterized protein n=1 Tax=Achromobacter a...  44.1    0.002
+  UniRef90_A0A157NV95 Type III secretion chaperone SycN n=2 Tax=B...  43.4    0.003
+  UniRef90_A0A0D8DDT6 Uncharacterized protein n=1 Tax=Thalassomon...  43.0    0.003
+  UniRef90_A0A0Q8WY38 Uncharacterized protein n=1 Tax=Achromobact...  42.6    0.005
+  UniRef90_UPI00037DA045 hypothetical protein n=1 Tax=Algicola sa...  42.6    0.006
+  UniRef90_A0A1C2Z8L8 Uncharacterized protein n=4 Tax=Achromobact...  42.2    0.008
+  UniRef90_A0A161YLT7 Uncharacterized protein n=1 Tax=Labrenzia s...  42.2    0.008
+
+
+> UniRef90_A0A1E5EZV1 Type III secretion chaperone SycN n=2 Tax=Vibrio 
+tasmaniensis TaxID=212663 RepID=A0A1E5EZV1_9VIBR
+Length=124
+
+ Score = 170 bits (432),  Expect = 9e-52, Method: Composition-based stats.
+ Identities = 38/121 (31%), Positives = 66/121 (55%), Gaps = 1/121 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLS-PLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            +WI+  +  FC+ +G+   +  S   +QL   QSGTL LE++   L L L ++L WH+  
+Sbjct  2    NWIDASVDDFCRGMGLEAVNFSSAGRVQLSFEQSGTLYLEKYQDCLFLMLVKALPWHQSN  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            +++ KAL+   + +     ++ G   E  LV    ++   +TLP + QAF  L+RL  +V
+Sbjct  62   ESIKKALSFCHSGQGWPFTIKTGLFDEQALVFSAQIEGDEVTLPTIEQAFALLVRLHNDV  121
+
+Query  120  L  120
+            +
+Sbjct  122  V  122
+
+
+> UniRef90_A0A166JEY4 Type III secretion chaperone SycN n=23 Tax=Vibrionaceae 
+TaxID=641 RepID=A0A166JEY4_9VIBR
+Length=124
+
+ Score = 169 bits (428),  Expect = 4e-51, Method: Composition-based stats.
+ Identities = 40/120 (33%), Positives = 66/120 (55%), Gaps = 1/120 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLS-PLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            +WI+  +  FC+ +G+      S   +QL   QSGTL +E+H   L L LA+ L WH+  
+Sbjct  2    NWIDASVDDFCRGMGLEAVDFSSAGRVQLSFEQSGTLHVERHQDCLFLMLAKPLHWHQSN  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            + + KAL+   + +     +++G L E  LV    ++   +TLP + QAF  L+RL ++V
+Sbjct  62   EPIKKALSFCHSGQGWPFVIKSGLLDEQTLVFSAQIEGDEVTLPTIEQAFALLVRLHKDV  121
+
+
+> UniRef90_A8T5L0 Putative type III secretion protein n=1 Tax=Vibrio 
+sp. AND4 TaxID=314289 RepID=A8T5L0_9VIBR
+Length=124
+
+ Score = 168 bits (426),  Expect = 8e-51, Method: Composition-based stats.
+ Identities = 41/122 (34%), Positives = 63/122 (52%), Gaps = 1/122 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPL-SPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            +WI+  +  FC+ +G+       +  +QL   QSGTL +E+H   L L L + L+WH   
+Sbjct  2    NWIDASVDDFCRGMGLEAVDFSVAGRVQLSFEQSGTLHIEKHQGCLFLMLTKPLSWHESN  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            +A+ KAL    A +     ++AG L E  LV    ++   +TLP + QAF  L RL  +V
+Sbjct  62   EAIKKALGFCHAGQGWPFIIKAGLLDEQTLVFSAQIEGDEVTLPTIEQAFALLTRLHNDV  121
+
+Query  120  LA  121
+              
+Sbjct  122  AG  123
+
+
+> UniRef90_A0A0H4A360 Putative type III secretion protein SycN 
+n=2 Tax=Vibrio TaxID=662 RepID=A0A0H4A360_9VIBR
+Length=124
+
+ Score = 165 bits (419),  Expect = 9e-50, Method: Composition-based stats.
+ Identities = 43/120 (36%), Positives = 66/120 (55%), Gaps = 1/120 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLS-PLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            SWI+  +  FCQ +G+      S   +QL   +SGTL LE++   L L L R+L WH+  
+Sbjct  2    SWIDASVDDFCQGMGLVAVDFSSAGRVQLNFEKSGTLYLEKYQDCLVLMLVRALPWHQFN  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            +++ KAL+   A +     ++AG   E  LVL   ++   +TLP + QAF  L+RL  +V
+Sbjct  62   ESIKKALSFCHAGQGWPFTIKAGLFEEDMLVLSTQIEGDEVTLPSIEQAFALLVRLHNDV  121
+
+
+> UniRef90_F9T799 Type III secretion protein n=4 Tax=Vibrio TaxID=662 
+RepID=F9T799_9VIBR
+Length=124
+
+ Score = 161 bits (407),  Expect = 5e-48, Method: Composition-based stats.
+ Identities = 43/122 (35%), Positives = 64/122 (52%), Gaps = 1/122 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLS-PLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            +WI+  +  FC+ +G+ T    S   +QL    SGTL +E+H   L L L+R ++WH+  
+Sbjct  2    NWIDSSVDDFCRGMGLDTVDFASTGRVQLTFQLSGTLHIERHQDNLFLMLSRGISWHQSS  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            D +  AL L          +R G LGE  LV    ++   +T+P L QAF  L+RL  EV
+Sbjct  62   DLLKDALALCNFDNGWPFSVRTGLLGEETLVFSAQINGEEVTIPSLEQAFALLIRLHNEV  121
+
+Query  120  LA  121
+            + 
+Sbjct  122  VG  123
+
+
+> UniRef90_A0A0D0QX91 Contig_25, whole genome shotgun sequence 
+n=5 Tax=Aeromonas TaxID=642 RepID=A0A0D0QX91_9GAMM
+Length=123
+
+ Score = 161 bits (407),  Expect = 6e-48, Method: Composition-based stats.
+ Identities = 71/121 (59%), Positives = 93/121 (77%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            +WIEP +  FCQDLG+        LIQLE+ QSGTLQLE+H   LTLWLAR+L WH+  +
+Sbjct  2    NWIEPQLVQFCQDLGITIGDNPHYLIQLELEQSGTLQLERHQGQLTLWLARTLPWHQSGE  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            A+ +A++ TAA ++ ALP+R GWLGE +L+LFV+LDER++TLPLLHQA   L RLQQ+V+
+Sbjct  62   AIRRAMSFTAAARAPALPVRCGWLGEDRLILFVTLDERAVTLPLLHQALRTLTRLQQDVV  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_Q84GZ1 LssN n=12 Tax=Photorhabdus TaxID=29487 RepID=Q84GZ1_PHOLU
+Length=123
+
+ Score = 160 bits (406),  Expect = 9e-48, Method: Composition-based stats.
+ Identities = 71/121 (59%), Positives = 93/121 (77%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            +WIEP +  FCQDLG+  S   SPLIQ++   SGTLQ+E++G  LTLWLAR + WH+ ++
+Sbjct  2    NWIEPQLLQFCQDLGMEMSDVSSPLIQIDFEYSGTLQIERYGGALTLWLAREIPWHQGKE  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+             M+KA+ LT + +   LPLR GWLGE +L+LFV+LDER +TLPLLHQAF  LLR+Q+EVL
+Sbjct  62   VMIKAMLLTFSGQGPELPLRCGWLGEDRLLLFVTLDERDITLPLLHQAFRSLLRVQREVL  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_E3BLV0 Uncharacterized protein n=1 Tax=Vibrio caribbeanicus 
+ATCC BAA-2122 TaxID=796620 RepID=E3BLV0_9VIBR
+Length=124
+
+ Score = 159 bits (402),  Expect = 3e-47, Method: Composition-based stats.
+ Identities = 41/120 (34%), Positives = 64/120 (53%), Gaps = 1/120 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLS-PLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            +WI+  +  FC+ +G+      S   +QL   QSGTL +E++   L L LAR L W +  
+Sbjct  2    TWIDTSVDDFCRGMGLDAVDFSSAGRVQLGFEQSGTLHIEKYQDRLFLMLARPLDWRQSS  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            + + +AL+   A +     ++AG L +  LVL   +    +TLP + QAF  L+RL  EV
+Sbjct  62   EPLKRALSFCHAGQGWPFLIKAGLLDDQTLVLCAQIVGEDVTLPTIEQAFNLLVRLHDEV  121
+
+
+> UniRef90_D0VFM3 SycN n=14 Tax=Vibrio TaxID=662 RepID=D0VFM3_VIBAL
+Length=124
+
+ Score = 158 bits (401),  Expect = 5e-47, Method: Composition-based stats.
+ Identities = 45/122 (37%), Positives = 64/122 (52%), Gaps = 1/122 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLS-PLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            SWI+  +  FC+ +G+      S   +QL+  QSGTL +E+ G  L L L+R+L+WH+  
+Sbjct  2    SWIDASVDEFCRGMGLDAVDFSSAGRVQLDFEQSGTLHIERQGEQLFLMLSRALSWHQTS  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            D +  AL L  A +     ++ G L E  LV    L    +TLP L QAF  L RL  +V
+Sbjct  62   DIIQSALCLCHADQGWPFEIKTGLLDEQTLVFSARLKGEEVTLPTLEQAFTLLARLHNDV  121
+
+Query  120  LA  121
+              
+Sbjct  122  AG  123
+
+
+> UniRef90_S5J1E1 Type III secretion protein n=43 Tax=Vibrio parahaemolyticus 
+TaxID=670 RepID=S5J1E1_VIBPH
+Length=123
+
+ Score = 158 bits (400),  Expect = 7e-47, Method: Composition-based stats.
+ Identities = 43/120 (36%), Positives = 66/120 (55%), Gaps = 1/120 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLS-PLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            SWI+  +  FC+ +G+      +   +QL   QSGTL +E+H   L L LAR+L+WH+  
+Sbjct  2    SWIDASVDEFCRGMGLDAVDFSTAGRVQLSFEQSGTLHIEKHHDRLFLILARALSWHQSS  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            + +  AL L  A++     ++ G L +  LV    ++   +TLP L QAF  L+RL  EV
+Sbjct  62   ERIQHALRLCHAEQGWPFEMKTGLLDDETLVFSAKIEGDEVTLPTLEQAFALLVRLHDEV  121
+
+
+> UniRef90_Q8GA94 Acr2 protein n=20 Tax=Aeromonadaceae TaxID=84642 
+RepID=Q8GA94_AERSA
+Length=123
+
+ Score = 157 bits (397),  Expect = 2e-46, Method: Composition-based stats.
+ Identities = 74/121 (61%), Positives = 94/121 (78%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            +WIEP++  FCQDLG+        LIQLE+ QSGTLQLE+H   LTLWLAR++ WH+  +
+Sbjct  2    NWIEPLLVQFCQDLGITIGDNPHSLIQLELEQSGTLQLERHQGQLTLWLARAVPWHQSGE  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            A+ +A+TLTAA +  ALP+R+GWLGE QL+LFVSLDER++TLP LHQA   L RLQ+EVL
+Sbjct  62   AIRRAMTLTAAAQGPALPVRSGWLGEEQLILFVSLDERAVTLPQLHQAVTTLTRLQREVL  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_B6VK32 Putative type iii secretion protein n=3 Tax=Photorhabdus 
+TaxID=29487 RepID=B6VK32_PHOAA
+Length=123
+
+ Score = 155 bits (392),  Expect = 9e-46, Method: Composition-based stats.
+ Identities = 69/121 (57%), Positives = 91/121 (75%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            +WIE  +  FCQDLG+  S   S LIQ++   SGTLQ+E++G  LTLWLAR ++WH+  D
+Sbjct  2    NWIESQLLQFCQDLGMEMSDVPSSLIQIDFEYSGTLQIERYGGLLTLWLAREISWHQRGD  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+             M+KA++LT +     LPLR GWLG+ +L+LFV+LDER +TLPLLHQAF  LLR+Q+EVL
+Sbjct  62   VMIKAMSLTFSGLGPELPLRCGWLGDDRLLLFVTLDERCVTLPLLHQAFSSLLRVQREVL  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_U3CHZ1 Putative type III secretion system chaperone 
+protein n=1 Tax=Vibrio azureus NBRC 104587 TaxID=1219077 RepID=U3CHZ1_9VIBR
+Length=124
+
+ Score = 154 bits (389),  Expect = 3e-45, Method: Composition-based stats.
+ Identities = 39/121 (32%), Positives = 60/121 (50%), Gaps = 1/121 (1%)
+
+Query  1    SWIEPIISHFCQDLGVP-TSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            +WI+  +  F + +G+      L    QL   +SGTL +E+H   L L L++ L W    
+Sbjct  2    NWIDASVDDFFRGMGLDNIDFSLVGRAQLSFEESGTLHIERHENRLYLMLSKPLPWDGFS  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+                 ALTL  A       ++AG L E  LV    ++ + +TLP + QAF  L RL ++V
+Sbjct  62   RYAQAALTLCHADNGWPFVIKAGLLDEQNLVFSAEIEAQEVTLPTIEQAFALLNRLHEKV  121
+
+Query  120  L  120
+            +
+Sbjct  122  I  122
+
+
+> UniRef90_Q5XL10 Acr2 n=5 Tax=Aeromonas TaxID=642 RepID=Q5XL10_AERHY
+Length=123
+
+ Score = 153 bits (387),  Expect = 5e-45, Method: Composition-based stats.
+ Identities = 69/120 (58%), Positives = 90/120 (75%), Gaps = 0/120 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            +WIEP +  FCQDLG+        LIQLE+ QSGTLQLE+H   LTLWLAR + WH+  +
+Sbjct  2    NWIEPQLVQFCQDLGITIGDNPHSLIQLELEQSGTLQLERHQGQLTLWLARRVPWHQSGE  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            A+ +A++LTAA ++ ALP+R GWL E QL+LFV+LDER++TLPLLHQA   L +LQ+E L
+Sbjct  62   AIRRAMSLTAAAQAPALPVRCGWLEEDQLILFVTLDERNVTLPLLHQALRTLTQLQREAL  121
+
+
+> UniRef90_UPI0006826B5F type III secretion chaperone SycN n=1 
+Tax=Aeromonas tecta TaxID=324617 RepID=UPI0006826B5F
+Length=123
+
+ Score = 152 bits (385),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 71/121 (59%), Positives = 89/121 (74%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            +WIEP++  FCQDLG+        LIQLE+ QSGTLQLE+H   L+LWLA  L WH+ + 
+Sbjct  2    NWIEPLLVQFCQDLGITIGDNPHHLIQLELEQSGTLQLERHQGQLSLWLAHRLPWHQSDV  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+             + +A+TLTAA    ALP+R GWL E QL+LFV+LDERS+TLPLLHQA   L++LQ EVL
+Sbjct  62   GIRRAMTLTAAANGPALPVRCGWLAEDQLILFVTLDERSITLPLLHQALRTLIQLQHEVL  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_UPI000587391F type III secretion chaperone SycN n=1 
+Tax=Vibrio sagamiensis TaxID=512650 RepID=UPI000587391F
+Length=124
+
+ Score = 151 bits (383),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 38/120 (32%), Positives = 57/120 (48%), Gaps = 1/120 (1%)
+
+Query  1    SWIEPIISHFCQDLGVP-TSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            +WI+  +  F + +G+      L    QL   +SGTL +E+H + L L L+R L W R  
+Sbjct  2    NWIDTSVDDFFRGMGLDNIDFSLVGRAQLNFEKSGTLHIERHDSRLYLILSRELPWDRFS  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+                 AL+L          ++ G L E  LV    ++ + +TLP + QAF  L RL   V
+Sbjct  62   HYAQSALSLCHVDNGWPFLIKTGLLDEQTLVFSAEIEAQEVTLPTIEQAFTLLNRLHDRV  121
+
+
+> UniRef90_Q6TLM8 Acr2 n=8 Tax=Aeromonas hydrophila TaxID=644 RepID=Q6TLM8_AERHY
+Length=123
+
+ Score = 151 bits (382),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 72/121 (60%), Positives = 90/121 (74%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            +WIEP +  FCQDLG+P       LIQLE+ QSGTLQLE+H   L LWLAR + WH+  D
+Sbjct  2    NWIEPQLVQFCQDLGIPIGEHPHHLIQLELEQSGTLQLERHQGRLILWLARRVPWHQSAD  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            A+  A+TLTAA ++  LP+R GWLGE QL+LFV+LDER++TLPLLHQA   L +LQ+E L
+Sbjct  62   AIRHAMTLTAAAQAPVLPVRCGWLGEDQLLLFVTLDERAVTLPLLHQALRTLTQLQREAL  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_UPI000571A4A9 type III secretion chaperone SycN n=1 
+Tax=Vibrio pacinii TaxID=170674 RepID=UPI000571A4A9
+Length=123
+
+ Score = 151 bits (381),  Expect = 4e-44, Method: Composition-based stats.
+ Identities = 36/121 (30%), Positives = 60/121 (50%), Gaps = 1/121 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPL-SPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            +WI+  +  FC+ +GV +     S  +QL    SGTL +E+H   L + LAR +   +  
+Sbjct  2    NWIDDSVDDFCRAMGVESVDFSCSGRVQLTFQCSGTLHIEKHQGMLFMMLAREMLRSQSA  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+              + +AL +   ++     +RA  LGE+ LV    +    +T P L QA   L+RL   +
+Sbjct  62   KLIKRALAICNDEQGWPFLVRASLLGENTLVFSAQMAGEEVTHPSLEQALAMLIRLHNNM  121
+
+Query  120  L  120
+            +
+Sbjct  122  V  122
+
+
+> UniRef90_A0A0J6KF01 Molecular chaperone n=2 Tax=Pseudomonas TaxID=286 
+RepID=A0A0J6KF01_9PSED
+Length=123
+
+ Score = 150 bits (379),  Expect = 8e-44, Method: Composition-based stats.
+ Identities = 61/120 (51%), Positives = 86/120 (72%), Gaps = 0/120 (0%)
+
+Query  2    WIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDA  61
+            WI+  ++ FCQD+GV   SPLS L+QLE   +GTLQLE+H   LTLWLA  L WH+    
+Sbjct  3    WIDQALTRFCQDMGVALPSPLSDLVQLEFEHAGTLQLERHAHGLTLWLALELPWHQAHQG  62
+
+Query  62   MVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+            M++AL+   ++ +  LPLR GW GES+L+LF+SL+ R +T+P+LHQA   L+ +++EVLA
+Sbjct  63   MLRALSRCYSRAAPPLPLRCGWAGESRLLLFISLEARRVTVPVLHQALRTLIAVREEVLA  122
+
+
+> UniRef90_UPI0005B1FBC8 type III secretion chaperone SycN n=1 
+Tax=Aeromonas encheleia TaxID=73010 RepID=UPI0005B1FBC8
+Length=123
+
+ Score = 150 bits (379),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 77/121 (64%), Positives = 95/121 (79%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            +WIEP++  FCQDLG+        L+QLE+ QSGTLQLE+H   L+LWLARSL WHR +D
+Sbjct  2    NWIEPLLVQFCQDLGIAIGDNPHHLLQLELEQSGTLQLERHQGQLSLWLARSLPWHRSDD  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            A+ +A+TLTAA ++ ALP+RAGWL E QL+LFV+LDER+LTLPLLHQA   L RLQ EVL
+Sbjct  62   AIRRAMTLTAAAQAPALPVRAGWLAEDQLILFVTLDERALTLPLLHQALRTLTRLQHEVL  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_A0A119A0S3 Chaperone protein SycN n=3 Tax=Pseudomonas 
+TaxID=286 RepID=A0A119A0S3_9PSED
+Length=123
+
+ Score = 149 bits (376),  Expect = 3e-43, Method: Composition-based stats.
+ Identities = 57/120 (48%), Positives = 83/120 (69%), Gaps = 0/120 (0%)
+
+Query  2    WIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDA  61
+            WI+  ++ FCQD+GV   SPLS LIQLE    GTLQLE+H   LT+WLA  L WH+    
+Sbjct  3    WIDQALAQFCQDMGVALPSPLSDLIQLEFEHMGTLQLERHANGLTVWLALELPWHQAHQG  62
+
+Query  62   MVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+            M++A++ + ++ +  LPLR GW GE++L+L ++LD R +T P+LHQA   L+ ++ EV+A
+Sbjct  63   MLRAMSRSYSRAAPELPLRCGWSGETRLLLLITLDARRVTAPVLHQALRTLISVRDEVIA  122
+
+
+> UniRef90_P0C2V8 Chaperone protein SycN n=19 Tax=Yersinia TaxID=444888 
+RepID=SYCN_YEREN
+Length=123
+
+ Score = 147 bits (372),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 119/121 (98%), Positives = 121/121 (100%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWH+CED
+Sbjct  2    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHQCED  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            AMVKALTLTAAQKSGALPLRAGWLGE+QLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL
+Sbjct  62   AMVKALTLTAAQKSGALPLRAGWLGENQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_A0A0S2SCY2 Molecular chaperone n=2 Tax=Aeromonas schubertii 
+TaxID=652 RepID=A0A0S2SCY2_9GAMM
+Length=123
+
+ Score = 141 bits (355),  Expect = 4e-40, Method: Composition-based stats.
+ Identities = 80/121 (66%), Positives = 98/121 (81%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            SW+EP+I+ FCQDLG+     L  L+QL++AQSGTLQLEQH   LTLWLAR+L WH+  D
+Sbjct  2    SWMEPVITRFCQDLGLAVGETLPALVQLKLAQSGTLQLEQHDGQLTLWLARALPWHQSGD  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            AMV+A+TLTAA  SGALPLR  WLG+ +L+L V+L+E ++T PLLHQAFE LLRLQQEVL
+Sbjct  62   AMVRAMTLTAAHHSGALPLRCAWLGDDRLLLLVTLEESAITQPLLHQAFESLLRLQQEVL  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_A0A1H2MMP4 Type III secretion chaperone SycN n=1 Tax=Pseudomonas 
+brenneri TaxID=129817 RepID=A0A1H2MMP4_9PSED
+Length=123
+
+ Score = 135 bits (341),  Expect = 5e-38, Method: Composition-based stats.
+ Identities = 58/120 (48%), Positives = 79/120 (66%), Gaps = 0/120 (0%)
+
+Query  2    WIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDA  61
+            WI+  ++ FCQDLGV   +PL  LIQLE  ++GTLQLEQH   LTLWLA  L WH+    
+Sbjct  3    WIDQALAQFCQDLGVVVPTPLGALIQLEFEETGTLQLEQHDRKLTLWLAVDLEWHQVHQG  62
+
+Query  62   MVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+             V+AL +  ++    LPLR GW G+++L+L ++LDER ++  +LHQA   L   +Q VLA
+Sbjct  63   AVRALAMVFSRTGPELPLRCGWAGDTRLLLLITLDERRVSALVLHQALRTLSAARQTVLA  122
+
+
+> UniRef90_A0A061PME9 Type III secretion outermembrane negative 
+regulator of secretion n=1 Tax=Vibrio sp. JCM 19053 TaxID=1460648 
+RepID=A0A061PME9_9VIBR
+Length=181
+
+ Score = 136 bits (344),  Expect = 7e-38, Method: Composition-based stats.
+ Identities = 35/100 (35%), Positives = 52/100 (52%), Gaps = 1/100 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLS-PLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            SWI+  +  FC+ +G+      S   +QL+  QSGTL +E+ G  L L L+R+L+WH+  
+Sbjct  65   SWIDASVDEFCRGMGLDAVDFSSAGRVQLDFEQSGTLHIERQGEQLFLMLSRALSWHQTS  124
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERS  99
+            D +  AL L  A +     ++ G L E  LV F     R 
+Sbjct  125  DMIQSALCLCHADQGWPFEIKTGLLDEQTLVFFSKAKRRR  164
+
+
+> UniRef90_Q9I329 Uncharacterized protein n=50 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=Q9I329_PSEAE
+Length=123
+
+ Score = 133 bits (336),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 57/121 (47%), Positives = 82/121 (68%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+             W+E  ++ FCQDL V   +PL+ ++QL+   SGTLQLE+HG  L+LWLA  LAWH+   
+Sbjct  2    DWVELAVAQFCQDLRVSVPAPLARVVQLDFEDSGTLQLERHGEQLSLWLACDLAWHQAYR  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+              ++AL L  A+ +G+LPLR  W GES+L+L ++L+ R + +P LHQA + L   + EVL
+Sbjct  62   GTLRALRLCHARAAGSLPLRCAWSGESRLLLCITLEARQVGMPTLHQALQALRSARSEVL  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_UPI000467FF7E type III secretion chaperone SycN n=1 
+Tax=Pseudomonas sp. PH1b TaxID=1397282 RepID=UPI000467FF7E
+Length=122
+
+ Score = 131 bits (329),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 57/119 (48%), Positives = 75/119 (63%), Gaps = 1/119 (1%)
+
+Query  2    WIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDA  61
+            WI+  ++ FCQDLGV   +P   LIQLE  ++GTLQLEQH   LTLWLA  LAWH+    
+Sbjct  3    WIDQALAQFCQDLGVAVPAPAGALIQLEFEETGTLQLEQHDRKLTLWLAVDLAWHQVHQG  62
+
+Query  62   MVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+             ++AL LT +     LPLR  W    +L+L ++LDER +T P+LHQA   L   ++ VL
+Sbjct  63   GIRALALTFSGTGPQLPLRCAW-ASGRLLLLITLDERRITAPVLHQALHTLSSARRTVL  120
+
+
+> UniRef90_A0A0F7XWV8 Uncharacterized protein n=2 Tax=Pseudomonas 
+sp. CCOS 191 TaxID=1649877 RepID=A0A0F7XWV8_9PSED
+Length=131
+
+ Score = 126 bits (316),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 46/121 (38%), Positives = 67/121 (55%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+             +    ++ FC+DLGV  + P  PL++LE+  +  LQLE+    LTLWL  S+     E 
+Sbjct  10   DFCTAAVARFCRDLGVAPAHPQEPLLRLELPDADVLQLERLAGQLTLWLEFSVHGAMFER  69
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            AM  AL      ++    LR G L + +LVL   LDE+ +T   LH+A+  L R++ EVL
+Sbjct  70   AMQCALRQVYEHQACGCLLRCGLLADDRLVLLAGLDEQGVTEQALHRAYRLLTRVRTEVL  129
+
+Query  121  A  121
+            A
+Sbjct  130  A  130
+
+
+> UniRef90_A0A081N0D5 Uncharacterized protein n=2 Tax=Endozoicomonas 
+montiporae TaxID=1027273 RepID=A0A081N0D5_9GAMM
+Length=124
+
+ Score = 124 bits (311),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 29/120 (24%), Positives = 57/120 (48%), Gaps = 1/120 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPT-SSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+             W + +++   + +G+       S ++ L   + G L LEQ    + ++L R++  H C 
+Sbjct  2    DWRDDVMADIGKGMGIEGLGFGESGVLSLNFERRGELYLEQQDDGVLMYLVRTIPVHDCL  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+              +V AL      K+   PL+ G  GE +L+LF+ L     T P +  + + L +  +++
+Sbjct  62   GLLVAALKECHYTKASRFPLQVGLKGEEELLLFIYLANEEFTRPNIETSIDTLTQQFEKI  121
+
+
+> UniRef90_UPI000785E9CC UPI000785E9CC related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000785E9CC
+Length=127
+
+ Score = 123 bits (310),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 32/122 (26%), Positives = 59/122 (48%), Gaps = 1/122 (1%)
+
+Query  1    SWIEPIISHFCQDLGVP-TSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+             W + +IS   + +GV   +   S +I ++     TL LE+    + +++ + L+     
+Sbjct  5    DWRDEVISDVGKGIGVENLTFGESGVISIDFESERTLYLERQEEGVLIYMVQGLSRFDAS  64
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+             +++ AL      +S  LPL+AG  GE +LV  + LD      P +  A E L+R  +++
+Sbjct  65   KSLIHALRKCHYTQSLMLPLQAGLKGEEELVWLIYLDNEQFAQPTIESAIEILIRQSEQL  124
+
+Query  120  LA  121
+             A
+Sbjct  125  SA  126
+
+
+> UniRef90_A0A088NM29 Uncharacterized protein n=1 Tax=Pseudomonas 
+mosselii SJ10 TaxID=1388763 RepID=A0A088NM29_9PSED
+Length=123
+
+ Score = 123 bits (309),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 46/119 (39%), Positives = 63/119 (53%), Gaps = 0/119 (0%)
+
+Query  3    IEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAM  62
+                ++ FC+ LGV  +    PL++LE+  +G LQLE+ G  LTLWL   +     E AM
+Sbjct  4    CTAAVAQFCRHLGVAPAHWQEPLLRLELPGAGVLQLERRGGQLTLWLEFPVHGAMFERAM  63
+
+Query  63   VKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+              AL      ++    LR G L + +LVL   LDE  LT   LH A+  L R++ EVLA
+Sbjct  64   QCALRQVYEHQAPGCLLRCGLLADDRLVLLAGLDEHGLTEQALHLAYRLLTRVRTEVLA  122
+
+
+> UniRef90_A0A081NKD1 Uncharacterized protein n=1 Tax=Endozoicomonas 
+numazuensis TaxID=1137799 RepID=A0A081NKD1_9GAMM
+Length=124
+
+ Score = 122 bits (306),  Expect = 9e-33, Method: Composition-based stats.
+ Identities = 30/122 (25%), Positives = 58/122 (48%), Gaps = 1/122 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPT-SSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+             W + ++S   + +G+   S  +S +I +E     TL LE     + +++ + L+     
+Sbjct  2    DWRDEVVSDIGRGMGIEGLSFGVSGVISIEFESERTLYLETQEEGVLIYMVQELSRFDAS  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+             ++V AL      +S  LPL+ G  GE +LV  + L+    + P +    E L+R  +++
+Sbjct  62   KSLVHALRKCHYTQSLLLPLQVGLKGEEELVWLIYLNNEQFSRPTVESVIETLIRQSEQL  121
+
+Query  120  LA  121
+             A
+Sbjct  122  AA  123
+
+
+> UniRef90_A0A0L6FV86 Molecular chaperone n=1 Tax=Pseudomonas sp. 
+250J TaxID=1478142 RepID=A0A0L6FV86_9PSED
+Length=123
+
+ Score = 120 bits (300),  Expect = 7e-32, Method: Composition-based stats.
+ Identities = 44/118 (37%), Positives = 62/118 (53%), Gaps = 0/118 (0%)
+
+Query  3    IEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAM  62
+                I+ FC+D GV  + P     +LE++Q G LQ E+    LTLWL  ++     E A+
+Sbjct  4    CTDAIARFCRDQGVVLTHPQETFQRLELSQIGVLQFERQAGQLTLWLTFTVHGTLFERAL  63
+
+Query  63   VKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+              AL      ++    LR G L +  L L VSLDER +T  LLH+A+  L  ++ EVL
+Sbjct  64   SSALRHVHDHQAPGQLLRCGLLPDDCLALLVSLDERRVTEQLLHEAYRLLSWVRAEVL  121
+
+
+> UniRef90_A0A135NRS3 Uncharacterized protein n=2 Tax=Pseudomonas 
+mosselii TaxID=78327 RepID=A0A135NRS3_9PSED
+Length=123
+
+ Score = 118 bits (296),  Expect = 3e-31, Method: Composition-based stats.
+ Identities = 43/119 (36%), Positives = 64/119 (54%), Gaps = 0/119 (0%)
+
+Query  3    IEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAM  62
+                I  FC+D GV  +      ++L++   G LQ E+    +TLWL+ ++     E AM
+Sbjct  4    CSEAIVRFCRDQGVVLAHLPETRLRLDLPDIGVLQFERLAGQVTLWLSFAVQGALLEHAM  63
+
+Query  63   VKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+              AL      +     LR G L + +LVL VSLDER +T  +LH+A++ L R++ EVLA
+Sbjct  64   SSALRHVQDHQVPGQLLRCGLLPDERLVLLVSLDERRVTKQVLHEAYQLLSRMRVEVLA  122
+
+
+> UniRef90_W6MA07 Uncharacterized protein n=1 Tax=Candidatus Competibacter 
+denitrificans Run_A_D11 TaxID=1400863 RepID=W6MA07_9GAMM
+Length=123
+
+ Score = 111 bits (277),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 34/122 (28%), Positives = 59/122 (48%), Gaps = 2/122 (2%)
+
+Query  1    SWIEPIISHFCQDLGVPTSS-PLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            + I+ ++  F + +G+   +     +  L   + G L  E+    + ++LAR    H   
+Sbjct  2    NLIDDVLHDFGRHIGIAGLTLDGGTVAGLNFERRGALFFERATDAVLVYLARQTPSHDSA  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+              + +AL  T  ++   LP++AG LGE  LVL   L+ER+ +LP+L +    L  L   V
+Sbjct  62   -PLERALRCTHYREGHLLPVQAGLLGEDTLVLLARLEERAFSLPVLEKTVTLLTELHDRV  120
+
+Query  120  LA  121
+             A
+Sbjct  121  AA  122
+
+
+> UniRef90_A0A1D2XBH8 Type III secretion chaperone SycN n=1 Tax=Endozoicomonas 
+sp. (ex Bugula neritina AB1) TaxID=1868284 RepID=A0A1D2XBH8_9GAMM
+Length=123
+
+ Score = 106 bits (265),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 26/113 (23%), Positives = 47/113 (42%), Gaps = 1/113 (1%)
+
+Query  2    WIEPIISHFCQDLGVPTSSPL-SPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            W + +++   + +G+       + +I  E  + GTL +E     + ++L R L  H   +
+Sbjct  3    WRDDVLAEVGRGMGIEGLDFSGTGVISFEFERMGTLYMEHQEDGVLMYLIRELPAHDYME  62
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLL  113
+             + KAL L    +S   PL+ G     QL L + L       P +    + L 
+Sbjct  63   VLEKALKLCHYTQSQQFPLQVGAQEREQLFLCIYLANEEFDRPNVETVIQSLT  115
+
+
+> UniRef90_A0A1I4F4I1 Type III secretion chaperone SycN n=1 Tax=Mesorhizobium 
+albiziae TaxID=335020 RepID=A0A1I4F4I1_9RHIZ
+Length=120
+
+ Score = 99.6 bits (247),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 33/118 (28%), Positives = 54/118 (46%), Gaps = 4/118 (3%)
+
+Query  4    EPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAMV  63
+            E  I  FC  +G+P   P +P + L   +SG L LE    +  ++L R++   R   A  
+Sbjct  4    EAAIQAFCSAMGLP---PQTPPLTLRFERSGNLHLECRDGSFVMYLTRAMPLRRKGAAAA  60
+
+Query  64   KALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+              L      ++    +   + GE+ LVL + +    + LP L  A + L+RL  E+ A
+Sbjct  61   A-LRAVHPDRALPFMVHVAFNGEALLVLLIGMAMDRVDLPTLESAAQVLVRLIDEIDA  117
+
+
+> UniRef90_A0A126S2U8 Type III secretion chaperone SycN n=2 Tax=Pseudomonas 
+putida TaxID=303 RepID=A0A126S2U8_PSEPU
+Length=107
+
+ Score = 99.2 bits (246),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 38/104 (37%), Positives = 59/104 (57%), Gaps = 0/104 (0%)
+
+Query  18   TSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAMVKALTLTAAQKSGAL  77
+             + P   +++LE+  +G LQ E+    LTLWL+ +L     E A+  AL     Q++   
+Sbjct  3    LAHPPQTVLRLELPDTGVLQFERQAGQLTLWLSVTLPGALFEHALSSALRHVHDQQAPGQ  62
+
+Query  78   PLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+             LR G L + +LVL +SLDER +T   L +A+  L +++ EVLA
+Sbjct  63   LLRCGLLSDERLVLLLSLDERRVTEQALREAYRLLSQVRAEVLA  106
+
+
+> UniRef90_F8JFE9 Chaperone protein sycN n=1 Tax=Hyphomicrobium 
+sp. (strain MC1) TaxID=717785 RepID=F8JFE9_HYPSM
+Length=124
+
+ Score = 96.1 bits (238),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 47/121 (39%), Positives = 64/121 (53%), Gaps = 7/121 (6%)
+
+Query  5    PIISHFCQDLGVPTSS-PLSPLIQLEMAQSGTLQLEQHGATLT-LWLARSLAWHRCEDAM  62
+              I+ FC+ LG+P S   LS  + LE  +SGTL+LE++GA    L LAR +  HR     
+Sbjct  5    SAIATFCESLGIPLSPIGLSLPLALEFERSGTLRLEENGAGGYWLTLAREVPLHR---RG  61
+
+Query  63   VKALTLTAAQKSGALPLR--AGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            V A  L AA    ++PLR  AG+ G+  LVL   L +     P +  A   L+RL  EV 
+Sbjct  62   VAAAVLRAAHPDRSMPLRVKAGFHGDETLVLMTGLAKEVADAPAIASALRMLVRLADEVD  121
+
+Query  121  A  121
+            +
+Sbjct  122  S  122
+
+
+> UniRef90_A0A1E2TM18 Uncharacterized protein n=2 Tax=Pseudomonas 
+mosselii TaxID=78327 RepID=A0A1E2TM18_9PSED
+Length=90
+
+ Score = 92.3 bits (228),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 36/88 (41%), Positives = 51/88 (58%), Gaps = 0/88 (0%)
+
+Query  34   GTLQLEQHGATLTLWLARSLAWHRCEDAMVKALTLTAAQKSGALPLRAGWLGESQLVLFV  93
+            G LQ E+    +TLWL+ ++     E AM  AL      +     LR G L + +LVL V
+Sbjct  2    GVLQFERLAGQVTLWLSFAVQGALFEHAMSSALRHVQDHQVPGQLLRCGLLPDERLVLLV  61
+
+Query  94   SLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+            SLDER +T  +LH+A++ L R++ EVLA
+Sbjct  62   SLDERRVTKQVLHEAYQLLSRMRVEVLA  89
+
+
+> UniRef90_Q2SH41 YopN chaperone SycN-like protein n=1 Tax=Hahella 
+chejuensis (strain KCTC 2396) TaxID=349521 RepID=Q2SH41_HAHCH
+Length=125
+
+ Score = 91.5 bits (226),  Expect = 8e-21, Method: Composition-based stats.
+ Identities = 33/113 (29%), Positives = 51/113 (45%), Gaps = 0/113 (0%)
+
+Query  7    ISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAMVKAL  66
+            I+ F Q LG          + L   +SGTL +E H   L L   + ++ + C D + KAL
+Sbjct  11   ITEFLQQLGFADFIWRGEPLTLAFERSGTLMIEPHEQGLLLVRLQEISEYDCADLIPKAL  70
+
+Query  67   TLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+                  +   L    G  G SQL   V+L  + L++  L++A   L  L Q++
+Sbjct  71   RAVHYDQPLPLRAHTGMKGASQLAFIVALSRQQLSIAGLNEALGVLDYLHQQL  123
+
+
+> UniRef90_W9VF68 Putative type III secretion protein n=1 Tax=Thiorhodococcus 
+sp. AK35 TaxID=1249627 RepID=W9VF68_9GAMM
+Length=122
+
+ Score = 86.5 bits (213),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 30/119 (25%), Positives = 44/119 (37%), Gaps = 3/119 (3%)
+
+Query  3    IEPIISHFCQDLGVPTSSPLS--PLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE-  59
+            I   +    Q LG                  + GTL LE HG  L + L+R         
+Sbjct  2    IGSALDQLAQGLGFEDFRWADRDGRAVFAFERRGTLYLEAHGDGLLMSLSRPFDDRENGR  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQE  118
+            + + +AL L   +      ++ G    S L+    L    +TLP+L Q  E L RL + 
+Sbjct  62   ERLCRALRLCHYRHDWPCAVQVGLGDGSNLLFLARLPAAEVTLPVLEQTLELLTRLHER  120
+
+
+> UniRef90_UPI00082C90EF UPI00082C90EF related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00082C90EF
+Length=121
+
+ Score = 85.7 bits (211),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 28/120 (23%), Positives = 54/120 (45%), Gaps = 2/120 (2%)
+
+Query  1    SWIEPIISHFCQDLGVPT-SSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+             W + +++     +GV   +     +I  E  +SG+L +EQ    + ++L R +      
+Sbjct  2    DWKDEVLADVGNGMGVSGLNFGPEGVICFEYERSGSLYMEQKEDGVLMYLHRDIDAFNPL  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+             AM KAL       S A PL+ G   ++QL + + L +     P + +A + L+    ++
+Sbjct  62   PAMEKALKGCHFTNSYAWPLQVGLK-DNQLFIGLFLVDNEFDRPSVEKAIQYLMSKLDQL  120
+
+
+> UniRef90_UPI000371D201 hypothetical protein n=1 Tax=Hahella ganghwensis 
+TaxID=286420 RepID=UPI000371D201
+Length=126
+
+ Score = 83.4 bits (205),  Expect = 8e-18, Method: Composition-based stats.
+ Identities = 29/117 (25%), Positives = 46/117 (39%), Gaps = 0/117 (0%)
+
+Query  3    IEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAM  62
+            I   ++ F   LG    S     + L    SG+LQ+E     L L     +      D +
+Sbjct  7    ITDTMTEFLSQLGFENFSWQGTPLNLSFEHSGSLQIEPTNNGLLLARLHQINEFDIPDLV  66
+
+Query  63   VKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+             KAL L  + +     ++ G  G S L    +L  + LT+  L  A + L  L  ++
+Sbjct  67   PKALRLVHSDQQLPFTVQTGLKGSSHLAFVTTLSPKQLTISGLTAALDLLGFLHDQL  123
+
+
+> UniRef90_A0A081K9I5 Uncharacterized protein n=1 Tax=Endozoicomonas 
+elysicola TaxID=305900 RepID=A0A081K9I5_9GAMM
+Length=122
+
+ Score = 78.4 bits (192),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 23/120 (19%), Positives = 53/120 (44%), Gaps = 2/120 (2%)
+
+Query  1    SWIEPIISHFCQDLGV-PTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+             W   +I+   + +G+       + ++  ++  +G+L +EQ    + ++L R +      
+Sbjct  2    DWRNNVITELGEGMGIRGLDFGDTGVVCFQIEGAGSLYMEQKEDGILMYLVREMDSFNSL  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+              + +AL     +KS   PL+ G   E+QL + + + +     P +  A + L+    E+
+Sbjct  62   PILERALAECHYKKSFPYPLQVGVQ-ENQLFICLFIHDVDFNRPSVESAMQFLMNKVDEL  120
+
+
+> UniRef90_UPI0008259732 UPI0008259732 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008259732
+Length=122
+
+ Score = 78.4 bits (192),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 25/120 (21%), Positives = 55/120 (46%), Gaps = 2/120 (2%)
+
+Query  1    SWIEPIISHFCQDLGVPT-SSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+             W   ++S F + +G+       + +   E+  +G+  +EQ    + ++LAR +      
+Sbjct  2    DWRNGVLSEFTEAMGIRGFDFGDTGVACFEIEGAGSFYMEQKEEGVLMYLAREIDPFNSL  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+              +  AL     ++S   PL+ G   E+Q+V+ + +D+     P + +A + L+    E+
+Sbjct  62   PLLESALAECHYKRSFPYPLQVGVQ-ENQMVICLFVDDSDFNRPNVERAMQFLMSKADEL  120
+
+
+> UniRef90_UPI00047A9697 hypothetical protein n=1 Tax=Mesorhizobium 
+ciceri TaxID=39645 RepID=UPI00047A9697
+Length=120
+
+ Score = 75.7 bits (185),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 32/118 (27%), Positives = 53/118 (45%), Gaps = 4/118 (3%)
+
+Query  4    EPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAMV  63
+            E     FC  +G+P       L      +SG L +E    +  ++L R++  HR + A  
+Sbjct  4    EAAAQAFCSTMGLPPQPLPLTLSL---ERSGNLHMESREGSFIMYLTRAMPLHR-KGAAA  59
+
+Query  64   KALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+             AL      ++    +   + GE+ LVL + + E  + LP L  A + L+RL  E+ A
+Sbjct  60   AALGAVHPDRALPFMVHVAFYGEALLVLLIRMTEEGIDLPTLETAAQILVRLVGEIDA  117
+
+
+> UniRef90_UPI00048B6D3E hypothetical protein n=1 Tax=Terasakiella 
+pusilla TaxID=64973 RepID=UPI00048B6D3E
+Length=121
+
+ Score = 71.5 bits (174),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 29/121 (24%), Positives = 60/121 (50%), Gaps = 2/121 (2%)
+
+Query  2    WIEPIISHFCQDLGVPTS-SPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            + + +++ F + +G+       + L + E  + GTLQLE+    +T+ L+++    +  D
+Sbjct  2    FFDDLLTRFGESMGIEGLRFDENNLCEFEFERLGTLQLEKAEDHITVALSQTYDRFK-PD  60
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+               KAL  +        P+R+G   + +L+ FV LD+    L +L Q  ++L    +++ 
+Sbjct  61   MARKALAQSHFDTIFRHPVRSGLSKDERLIFFVRLDQSQADLSILEQVLDELSERFRQLA  120
+
+Query  121  A  121
+            A
+Sbjct  121  A  121
+
+
+> UniRef90_A0A1J4XHU7 Uncharacterized protein n=1 Tax=Verrucomicrobia 
+bacterium CG1_02_43_26 TaxID=1805421 RepID=A0A1J4XHU7_9BACT
+Length=126
+
+ Score = 70.7 bits (172),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 29/122 (24%), Positives = 56/122 (46%), Gaps = 8/122 (7%)
+
+Query  3    IEPIISHFCQDLGVPTSSPL-SPLIQLEMAQSGTLQLEQ----HGATLTLWLARSLAWHR  57
+            I+ +I  + + LG+P  +     +I L+  + G L LE+        L ++L R +A   
+Sbjct  2    IDDVIQKYSKSLGLPPPNWEKEGIIHLQSTELGDLYLERIPSPPEDVLLVYLTREIANAD  61
+
+Query  58   CEDAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQ  117
+             +      L           P+ AG  G+++ V  + L+ ++L+   L  A   L+RLQ+
+Sbjct  62   LDTYFQ-ILEFCHYT--LPFPVNAGLYGDNKFVFSIKLEGKTLSQKQLETAVNLLIRLQE  118
+
+Query  118  EV  119
+            ++
+Sbjct  119  DL  120
+
+
+> UniRef90_A0A1K1LC48 Type III secretion chaperone SycN n=1 Tax=Desulfovibrio 
+piger TaxID=901 RepID=A0A1K1LC48_9DELT
+Length=124
+
+ Score = 69.5 bits (169),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 32/122 (26%), Positives = 55/122 (45%), Gaps = 7/122 (6%)
+
+Query  3    IEPIISHFCQDLGVPT-SSPLSPLIQLEMAQSGTLQLEQHGAT----LTLWLARSLAWHR  57
+            ++  ++ F   +G+P  +     L  L+++  G L  E+        L L+L+R    + 
+Sbjct  2    LDHELNAFGMRMGLPGLAFSPQGLAALDVSGMGRLYFERQQRRGEEELLLYLSRPFPPYD  61
+
+Query  58   CEDAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQ  117
+                  +AL L   + + A PL AG  G+  L+L   L ER +T  LL  A  +L R+  
+Sbjct  62   GTLP-ERALALCHFRHASAFPLTAGMKGD-TLILLTRLPERQVTAALLEDAVMELARVMN  119
+
+Query  118  EV  119
+             +
+Sbjct  120  HL  121
+
+
+> UniRef90_B6WRJ7 Type III secretion chaperone SycN n=1 Tax=Desulfovibrio 
+piger ATCC 29098 TaxID=411464 RepID=B6WRJ7_9DELT
+Length=124
+
+ Score = 68.8 bits (167),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 32/118 (27%), Positives = 54/118 (46%), Gaps = 7/118 (6%)
+
+Query  7    ISHFCQDLGVPT-SSPLSPLIQLEMAQSGTLQLEQHG----ATLTLWLARSLAWHRCEDA  61
+            ++ F   +G+P  +     L+ L+++  G L  E+        L ++LAR    H     
+Sbjct  6    LNTFGLRMGLPGLAFSPQGLVALDVSGMGRLYFEKQQRHGEEELLVYLARPFPPHDSTLP  65
+
+Query  62   MVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+              +AL L   + + A  L AG  G++ L+L   L ER  T  LL +A  +L R+   +
+Sbjct  66   -ERALALCHYRHARAFSLTAGMKGDN-LILLTRLPERQATAALLEEAVMELARVMNHL  121
+
+
+> UniRef90_E5Y9V8 Type III secretion chaperone SycN n=2 Tax=Bilophila 
+TaxID=35832 RepID=E5Y9V8_BILWA
+Length=124
+
+ Score = 65.7 bits (159),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 30/122 (25%), Positives = 53/122 (43%), Gaps = 7/122 (6%)
+
+Query  3    IEPIISHFCQDLGVPT-SSPLSPLIQLEMAQSGTLQLEQHGAT----LTLWLARSLAWHR  57
+            IE  I+ F + +G+P  S   + L  L++ + G L LE         L ++LAR++  + 
+Sbjct  2    IEREIAEFGRRMGMPAFSLSPAGLAALDVERLGRLHLELAENAGERELLVYLARAVPEYD  61
+
+Query  58   CEDAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQ  117
+               A  + L     + +  +PL  G   +  +VL     ER  T   + +A + L  +  
+Sbjct  62   V-KAPRRVLERCHYRHADPMPLSGGVH-KGNIVLLTRFPERQATAAGIERAVQFLSGVMD  119
+
+Query  118  EV  119
+             V
+Sbjct  120  TV  121
+
+
+> UniRef90_A0A0H3ACH2 Type III secretion chaperone SycN n=3 Tax=Desulfovibrio 
+vulgaris TaxID=881 RepID=A0A0H3ACH2_DESVV
+Length=124
+
+ Score = 64.5 bits (156),  Expect = 9e-11, Method: Composition-based stats.
+ Identities = 29/120 (24%), Positives = 51/120 (43%), Gaps = 3/120 (3%)
+
+Query  3    IEPIISHFCQDLGVPT-SSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDA  61
+            ++  I+ F + +G+         L   ++   G L +E    TL ++LAR++  H     
+Sbjct  2    LQDTIAAFARRMGMTGFVPSAGGLAAFDIDGVGRLYVEPSDDTLLVYLARAVPAHETHLP  61
+
+Query  62   MVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+              + L L+  + +  LPL+ G  G   +VL   LD R+ T   +  A   L  +     A
+Sbjct  62   -RRLLDLSHYRHAWPLPLQGGMHGGQAVVL-TRLDGRTATAVDVENAAVLLAGVLDRATA  119
+
+
+> UniRef90_Q1MQX7 NA n=1 Tax=Lawsonia intracellularis (strain PHE/MN1-00) 
+TaxID=363253 RepID=Q1MQX7_LAWIP
+Length=120
+
+ Score = 63.4 bits (153),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 24/121 (20%), Positives = 49/121 (40%), Gaps = 5/121 (4%)
+
+Query  3    IEPIISHFCQDLGVPTSS-PLSPLIQLEMAQSGTLQLEQHGAT--LTLWLARSLAWHRCE  59
+            I   I  F + +G+         +I  E+   G+L +EQ      L ++LA  +  +   
+Sbjct  2    ITHEIEEFGRRMGMSDLELSQDGIIAFEVEDLGSLHIEQDEENEELFIYLATPVPPYN-N  60
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            D   K L L + + +    L  G   ++ ++    +  R +    +    + L+ + Q+V
+Sbjct  61   DIPKKVLELCSYKHAHPFILHGGIHNDN-VIFLSRISYRDVKASTIENTTQFLISITQKV  119
+
+Query  120  L  120
+            L
+Sbjct  120  L  120
+
+
+> UniRef90_UPI0001744C94 hypothetical protein n=3 Tax=Verrucomicrobium 
+TaxID=2735 RepID=UPI0001744C94
+Length=131
+
+ Score = 59.9 bits (144),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 33/120 (28%), Positives = 54/120 (45%), Gaps = 6/120 (5%)
+
+Query  3    IEPIISHFCQDLGVPTSSP-LSPLIQLEMAQSGTLQLE---QHGATLTLWLARSLAWHRC  58
+            I+  +S F Q +G+    P     + L+++  GTL +E        + + L+R +     
+Sbjct  4    IDQTVSEFGQSMGMAHLQPNEQGAVILDISGIGTLSIELVGDRQEIVAVSLSRRIEPPDA  63
+
+Query  59   EDAMVKALTLTAAQKSGALPLRAGWLG-ESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQ  117
+              A   AL +T  ++ G+ P+RA   G    LV    ++     LP LH+A  QL  LQ 
+Sbjct  64   A-ACQMALEMTHPRQPGSWPVRAALAGGRGVLVFSARMETYEFNLPALHEAIAQLEALQD  122
+
+
+> UniRef90_Q2SC38 Uncharacterized protein n=1 Tax=Hahella chejuensis 
+(strain KCTC 2396) TaxID=349521 RepID=Q2SC38_HAHCH
+Length=125
+
+ Score = 59.5 bits (143),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 26/119 (22%), Positives = 52/119 (44%), Gaps = 2/119 (2%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            + I  +++ + + +GV        +  L       + L+Q    L + L+  L     ++
+Sbjct  2    NAIHNMLNAYGRSMGVNGV--GEGVTALSYETGERITLDQRDDCLAVSLSYELPEFEVDE  59
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+               K L LT  Q S   P++ G +GE +LV+ + ++    ++  L  A  +L    QE+
+Sbjct  60   VAEKLLQLTHYQTSTDYPIQPGLMGERRLVMTICMNASEASIDFLDGAIRRLRHRYQEL  118
+
+
+> UniRef90_B8DMR9 Type III secretion chaperone SycN n=2 Tax=Desulfovibrio 
+vulgaris TaxID=881 RepID=B8DMR9_DESVM
+Length=133
+
+ Score = 58.8 bits (141),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 36/125 (29%), Positives = 55/125 (44%), Gaps = 11/125 (9%)
+
+Query  3    IEPIISHFCQDLG-----VPTSSPLSP----LIQLEMAQSGTLQLEQHGATLTLWLARSL  53
+            ++  I+ F Q +G     +P + P  P    LI L++   G L LE     L ++L+R  
+Sbjct  3    LQEAIASFGQRMGMSGLQLPGADPARPDAPRLIALDVDGMGRLHLEAADGELLIYLSRPF  62
+
+Query  54   AWHRCEDAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLL  113
+              H   D   + L L   + +  LPL+AG     Q +L   L ER  T   +  A + L 
+Sbjct  63   PAHD-ADMPRRMLALCHYRHARPLPLQAGVHA-GQAILLTRLPERLATAAAMETATDLLA  120
+
+Query  114  RLQQE  118
+            R+  E
+Sbjct  121  RIMDE  125
+
+
+> UniRef90_UPI00048E0C9F hypothetical protein n=1 Tax=Desulfocurvus 
+vexinensis TaxID=399548 RepID=UPI00048E0C9F
+Length=121
+
+ Score = 58.4 bits (140),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 31/111 (28%), Positives = 47/111 (42%), Gaps = 2/111 (2%)
+
+Query  3    IEPIISHFCQDLGVPTSS-PLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDA  61
+            I   +    + LG+       + L  L + + G+L LE+HG  L + LAR +A H   +A
+Sbjct  3    IRKAVDDLGRQLGLDGLELDANGLCTLNVGEGGSLFLERHGEALLVSLARRVAGH-VPEA  61
+
+Query  62   MVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQL  112
+            + + L L          LR G L ++ LV    L+   L    L Q    L
+Sbjct  62   LARGLALCHESAQPRHGLRVGLLRDNVLVACARLERHHLAAGHLAQTVPYL  112
+
+
+> UniRef90_UPI0004119491 hypothetical protein n=1 Tax=Ottowia thiooxydans 
+TaxID=219182 RepID=UPI0004119491
+Length=125
+
+ Score = 53.4 bits (127),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 30/108 (28%), Positives = 46/108 (43%), Gaps = 5/108 (5%)
+
+Query  4    EPIISHFCQDLGVPTSSP-LSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAM  62
+            +  ++ F QD+GV + +P  S  +QL     G L   Q GA + L  A     +   + +
+Sbjct  5    DQTLADFGQDIGVESLTPGPSGSVQLRFDHGGILGFFQQGADVVLHWAEPAP-YDAPELL  63
+
+Query  63   VKALTLTAAQKSGALPLRAGWLGES---QLVLFVSLDERSLTLPLLHQ  107
+            ++A    +       PL+AG  G      LVL   + ER      LHQ
+Sbjct  64   LRAFKRISDPPYNEPPLQAGLRGVDGVENLVLVTRMPERDCGARELHQ  111
+
+
+> UniRef90_A0A0D8D7F6 Uncharacterized protein n=1 Tax=Thalassomonas 
+viridans TaxID=137584 RepID=A0A0D8D7F6_9GAMM
+Length=131
+
+ Score = 52.6 bits (125),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 23/116 (20%), Positives = 48/116 (41%), Gaps = 3/116 (3%)
+
+Query  7    ISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQL--EQHGATLTLWLARSLAWHRCEDAMVK  64
+            +  + Q LG    S     + +E+  SG  QL  E     L + + + +A ++  + +  
+Sbjct  15   LERYLQTLGFDDVSAFRGDV-IELEASGNKQLIFEVLERGLLISVIKEVAAYQLAEVVKP  73
+
+Query  65   ALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            A+ +   ++   +P+  G     QL     L      L +++ A + LL L  ++ 
+Sbjct  74   AMAMCHYREFLPVPICVGMGKNDQLAFSCLLSIGGDFLEVINPAVDILLSLHDKLD  129
+
+
+> UniRef90_A0A1B7X9D2 Uncharacterized protein n=1 Tax=Halodesulfovibrio 
+spirochaetisodalis TaxID=1560234 RepID=A0A1B7X9D2_9DELT
+Length=132
+
+ Score = 52.2 bits (124),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 23/121 (19%), Positives = 47/121 (39%), Gaps = 10/121 (8%)
+
+Query  4    EPIISHFCQDLGVPTSSPLSP-LIQLEMAQSGTLQLEQHGA-------TLTLWLARSLAW  55
+            E +IS F + +G+P  +P    +++    ++ ++ +E+           +++ + +    
+Sbjct  4    ESVISEFGKRIGMPELAPQQGEVVRFTFDETVSVAIERCQPSAMAPLFGVSISMGQQGPT  63
+
+Query  56   HRCE--DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLL  113
+             + +      KA+ L         PL  G  G   LV    L E   T+ +L  A   L 
+Sbjct  64   VQSDIDALNEKAMRLVHYSTPQRFPLTCGKTGNGMLVFSTLLSEEECTVDVLEHALMYLD  123
+
+Query  114  R  114
+             
+Sbjct  124  E  124
+
+
+> UniRef90_A0P0P0 Uncharacterized protein n=1 Tax=Labrenzia aggregata 
+(strain ATCC 25650 / DSM 13394 / JCM 20685 / NBRC 16684 
+/ NCIMB 2208 / IAM 12614) TaxID=384765 RepID=A0P0P0_LABAI
+Length=127
+
+ Score = 52.2 bits (124),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 25/117 (21%), Positives = 50/117 (43%), Gaps = 2/117 (2%)
+
+Query  5    PIISHFCQDLGVPTSSPLS-PLIQLEMAQSGTLQLEQHGATLTLWLARSLA-WHRCEDAM  62
+             ++  F ++LG+    P+    +  E  ++GT  +        + L+ S          +
+Sbjct  11   AVVREFTRNLGLGDVQPVEDGSVSFEFERAGTFSITPARDGRRMLLSLSRHKGRLQARNL  70
+
+Query  63   VKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+               L+L++       P+ AG   +  LVL V+LD  S TL ++    ++L+ L   +
+Sbjct  71   KDFLSLSSWDPVIGAPVNAGMSSQGGLVLVVALDGESQTLQMIELCLDRLIELHATL  127
+
+
+> UniRef90_A0A1G3Z9K9 Uncharacterized protein n=1 Tax=Verrucomicrobia 
+bacterium GWF2_51_19 TaxID=1802431 RepID=A0A1G3Z9K9_9BACT
+Length=121
+
+ Score = 51.1 bits (121),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 25/117 (21%), Positives = 47/117 (40%), Gaps = 3/117 (3%)
+
+Query  3    IEPIISHFCQDLGVPT-SSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDA  61
+            +   I  F +++G+P  +     +I L +   G L  E +   L ++L +  A H  +  
+Sbjct  1    MTDEIQTFGENIGIPGLAFNKHGVIHLSIENVGELFFETNENHLLIYLLKDYA-HDTDSL  59
+
+Query  62   MVKALTLTAAQK-SGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQ  117
+            + KAL L+                  + L      ++  L LP +++A +QL  L  
+Sbjct  60   LWKALNLSHTTTFDFNRLFNPILTENNFLGFLFRFNKNDLQLPDIYKALDQLKELHD  116
+
+
+> UniRef90_A0A0D8CRY8 Uncharacterized protein n=1 Tax=Thalassomonas 
+actiniarum TaxID=485447 RepID=A0A0D8CRY8_9GAMM
+Length=131
+
+ Score = 51.1 bits (121),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 21/115 (18%), Positives = 50/115 (43%), Gaps = 1/115 (1%)
+
+Query  7    ISHFCQDLGVP-TSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAMVKA  65
+            +  + Q LG    S+    +I+L+++ +  L  E     L + + + +A ++  + +  A
+Sbjct  15   LEQYLQTLGFEDVSAFRGEVIELDVSGNKRLIFEVLERGLLISVIKEVAAYQLAEVVKPA  74
+
+Query  66   LTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            + L   ++   +P+  G     QL     L      L +++ A + LL +  ++ 
+Sbjct  75   MALCHYREFLPVPICVGLGRNEQLAFSCLLSIGGDFLEVINPAVDILLSMHDKLD  129
+
+
+> UniRef90_A0A0N8GEQ0 Uncharacterized protein n=1 Tax=Prosthecomicrobium 
+hirschii TaxID=665126 RepID=A0A0N8GEQ0_9RHIZ
+Length=125
+
+ Score = 47.2 bits (111),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 25/111 (23%), Positives = 40/111 (36%), Gaps = 0/111 (0%)
+
+Query  7    ISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAMVKAL  66
+            +  F   +G+P  +          A+SGTL +        +     +   R      + L
+Sbjct  12   VETFAGAMGLPARASADGSYAFRFARSGTLSITPASDDRVVMSLAWMPERRDASGPRQLL  71
+
+Query  67   TLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQ  117
+                   +    L  G   +   V  V+LD+R L LP L Q   +LL L+ 
+Sbjct  72   AAATHDPATGRYLHTGMAPDGSFVAAVNLDQRHLDLPTLDQWLRRLLDLRS  122
+
+
+> UniRef90_A0A0D8D3P1 Uncharacterized protein n=1 Tax=Thalassomonas 
+actiniarum TaxID=485447 RepID=A0A0D8D3P1_9GAMM
+Length=120
+
+ Score = 46.8 bits (110),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 25/112 (22%), Positives = 42/112 (38%), Gaps = 1/112 (1%)
+
+Query  2    WIEPIISHFCQDLGVPT-SSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            WI  +I+ +   +G+          + +    S  L +E       + +   L  H    
+Sbjct  5    WIAELIAQWLASVGIEAHGMQGQERLHMAFENSDRLCIEPIEEQCRVSVIHKLTVHDRLK  64
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQL  112
+             +   L  T+ ++ G   + A   GES L+L V L      L  L QA + L
+Sbjct  65   VVESILGRTSFRQRGPFRVCAAMQGESLLILSVFLSREQGGLSQLQQALDHL  116
+
+
+> UniRef90_F7T1K3 Uncharacterized protein n=2 Tax=Achromobacter 
+TaxID=222 RepID=F7T1K3_9BURK
+Length=126
+
+ Score = 46.4 bits (109),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 16/125 (13%), Positives = 46/125 (37%), Gaps = 5/125 (4%)
+
+Query  1    SWIEPIISHFCQDLGVP-TSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            + ++  +  F + +G+          + L++     + +E  G  + ++++  +  +   
+Sbjct  2    NSLDRALGAFGETIGLDRLGLGPRGNLALQLDSGRRVAIETAGDEVLVYVSEPVP-YDAA  60
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGES---QLVLFVSLDERSLTLPLLHQAFEQLLRLQ  116
+              +++A            P++A    +    +L+    L       P L +A + L R  
+Sbjct  61   PRLLQAWRRAHHSHLAGYPVQAALRDQDGIPRLLALTRLPADQTDAPALRRAVDTLARWL  120
+
+Query  117  QEVLA  121
+             +  A
+Sbjct  121  DDARA  125
+
+
+> UniRef90_UPI0003B639FB hypothetical protein n=1 Tax=Desulfospira 
+joergensenii TaxID=53329 RepID=UPI0003B639FB
+Length=119
+
+ Score = 46.0 bits (108),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 20/118 (17%), Positives = 43/118 (36%), Gaps = 1/118 (1%)
+
+Query  3    IEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAM  62
+            I   + +    +G+           L +   G+L +E+   T+ +  AR L        +
+Sbjct  3    IIKAVENLGNQMGIQLKLNDDGCASLNVGDQGSLFIERSQDTMAISFARKLDI-DVLPCL  61
+
+Query  63   VKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+             + L L   +    L LR G   +  +V+   L++  +   +  Q    L     +++
+Sbjct  62   ERGLELCRLKNEPRLGLRVGLFRDDTIVVVCKLEKHHINAGMTDQILPYLFETMDKII  119
+
+
+> UniRef90_UPI00082A3C4C UPI00082A3C4C related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00082A3C4C
+Length=125
+
+ Score = 45.7 bits (107),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 30/112 (27%), Positives = 43/112 (38%), Gaps = 3/112 (3%)
+
+Query  10   FCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGAT--LTLWLARSLAWHRCEDAMVKALT  67
+            F   LG+P        +    A +GTL L        + + LAR LA     D + +AL 
+Sbjct  14   FADRLGLPLRPARDGSLSFAFASTGTLSLTPAPDGSRVFVGLAR-LARRADGDRLRRALM  72
+
+Query  68   LTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+                Q S    +R G   +  L L   L +  L LP L    ++L  L   +
+Sbjct  73   QAGHQASTGRVVRVGLAADDSLHLVTDLADSELDLPSLDACLQELSGLHDRI  124
+
+
+> UniRef90_A0A0S9ES23 Uncharacterized protein n=2 Tax=Acidovorax 
+TaxID=12916 RepID=A0A0S9ES23_9BURK
+Length=127
+
+ Score = 44.5 bits (104),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 23/121 (19%), Positives = 51/121 (42%), Gaps = 5/121 (4%)
+
+Query  3    IEPIISHFCQDLGVPTSSP-LSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDA  61
+            ++  ++ F +D+G+PT        +QL +     L + Q G  + +  A  +  +     
+Sbjct  4    LQQALADFGRDIGLPTLEGGPDGGVQLRLESGALLGVAQQGEEVVVHWAEPV-RYDIAAL  62
+
+Query  62   MVKALTLTAAQKSGALPLRAGWLG---ESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQE  118
+            +++A+ L    +  A P++ G         LVL        ++   + +A E L + Q +
+Sbjct  63   LLRAMKLAGDARDAAQPVQVGLRSLPTGDWLVLATRFAAEGVSARRIREASEFLRQWQAD  122
+
+Query  119  V  119
+            +
+Sbjct  123  L  123
+
+
+> UniRef90_UPI00092A55D9 UPI00092A55D9 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00092A55D9
+Length=132
+
+ Score = 44.1 bits (103),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 23/128 (18%), Positives = 50/128 (39%), Gaps = 10/128 (8%)
+
+Query  4    EPIISHFCQDLGVPTSSPLSP-LIQLEMAQSGTLQLEQHGAT-------LTLWLARSLAW  55
+            E ++  F + +G+P  +P +  +++     + ++ +E+           +++ + +    
+Sbjct  4    ESVVEEFGKRIGLPELTPQNGNVVRFVFDDTVSVTIERCQPQKMAPLFGISISMGQMEPQ  63
+
+Query  56   HRCEDAM--VKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLL  113
+             +C+  +   K L L         PL  G  G   LVL   L E   T+ +L      L 
+Sbjct  64   VQCDVDVLHEKVLKLVHYNTPHRYPLSCGKTGSGMLVLSALLPEEECTVDVLEHVLMYLD  123
+
+Query  114  RLQQEVLA  121
+               + + A
+Sbjct  124  ENLRTLFA  131
+
+
+> UniRef90_H0F7W5 Uncharacterized protein n=1 Tax=Achromobacter 
+arsenitoxydans SY8 TaxID=477184 RepID=H0F7W5_9BURK
+Length=126
+
+ Score = 44.1 bits (103),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 18/118 (15%), Positives = 45/118 (38%), Gaps = 5/118 (4%)
+
+Query  1    SWIEPIISHFCQDLGVPT-SSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            + ++  +S F   +G+P  +        L++     +  E  G  + ++L+  +  +   
+Sbjct  2    NSLDRALSDFGAHIGMPGLALGAGGNTALQLESGRRVVFEPAGDEVLVYLSEPVP-YDSA  60
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGES---QLVLFVSLDERSLTLPLLHQAFEQLLR  114
+            + + KA       +    P++A    +    +L+    +     +   L QA + L R
+Sbjct  61   ERLHKAWRRAHYSRLDGWPVQAALREQDGLPRLLAVTRMAAADASAARLGQAVDYLSR  118
+
+
+> UniRef90_A0A157NV95 Type III secretion chaperone SycN n=2 Tax=Bordetella 
+ansorpii TaxID=288768 RepID=A0A157NV95_9BORD
+Length=130
+
+ Score = 43.4 bits (101),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 24/122 (20%), Positives = 45/122 (37%), Gaps = 7/122 (6%)
+
+Query  4    EPIISHFCQDLGVP-TSSPLSPLIQLEMAQSGTLQLEQ-HGATLTLWLARSLAWHRCEDA  61
+            E  +  F ++ G    S        L+        +E+ H   + +++A+ +A +     
+Sbjct  5    ELTLRQFGEEAGFDNLSFDARGQALLQSESGRQTGVERTHDRQVLVYMAQPVA-YDAGAW  63
+
+Query  62   MVKALTLTAAQKSGALPLRAGWL----GESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQ  117
+            +V+A       +     ++        G+ +LV  V L E   T   L QA + L R   
+Sbjct  64   LVRAWKRAHHSRMEDWAIQCALRESPDGQRRLVALVRLPEDEFTPLRLRQALDTLARWHD  123
+
+Query  118  EV  119
+             V
+Sbjct  124  AV  125
+
+
+> UniRef90_A0A0D8DDT6 Uncharacterized protein n=1 Tax=Thalassomonas 
+viridans TaxID=137584 RepID=A0A0D8DDT6_9GAMM
+Length=125
+
+ Score = 43.0 bits (100),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 20/112 (18%), Positives = 42/112 (38%), Gaps = 1/112 (1%)
+
+Query  2    WIEPIISHFCQDLGVPTSS-PLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            W+  +I+ + + + V     P    + +       L +E  G    L + R L  H   +
+Sbjct  5    WLNELIAQWLESIDVEPRRMPPQERLHMGFENGDRLCIEPFGELCQLSVVRRLPTHGRLE  64
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQL  112
+             +   L  ++ ++ G   +    +G+  L+L +        L  L Q  + L
+Sbjct  65   IVEALLRQSSFKQRGPFRISTSMMGDKVLILSMFFTREECGLSQLQQGLDYL  116
+
+
+> UniRef90_A0A0Q8WY38 Uncharacterized protein n=1 Tax=Achromobacter 
+sp. Root83 TaxID=1736602 RepID=A0A0Q8WY38_9BURK
+Length=126
+
+ Score = 42.6 bits (99),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 18/118 (15%), Positives = 47/118 (40%), Gaps = 5/118 (4%)
+
+Query  1    SWIEPIISHFCQDLGVPT-SSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            + ++  +  F +D+G+P  +      + L++     + +E  G  + ++++  +  +   
+Sbjct  2    NSLDRALGAFGEDIGMPGLALGAGGNLALQLDSGRRVAIEPAGEEVLVYVSEPVP-YDAS  60
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGES---QLVLFVSLDERSLTLPLLHQAFEQLLR  114
+            + + KA       +    P++     +    +L+    L     +   L QA E L R
+Sbjct  61   ERLQKAWRRAHFSRLDGWPVQTALREQDGVPRLLAVTRLAAADASGHKLRQAVEHLSR  118
+
+
+> UniRef90_UPI00037DA045 hypothetical protein n=1 Tax=Algicola 
+sagamiensis TaxID=163869 RepID=UPI00037DA045
+Length=129
+
+ Score = 42.6 bits (99),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 18/112 (16%), Positives = 39/112 (35%), Gaps = 1/112 (1%)
+
+Query  3    IEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAM  62
+            ++  +  +   +G+           L       +  E     L + L      ++    +
+Sbjct  11   LQETVKKYFATIGLSIEDDFHN-QTLMFETGRQMTFEIVDTGLAITLRDPQPAYQSITHL  69
+
+Query  63   VKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLR  114
+             + L  +   ++    L  GW G+  L L V L    +TLP+L     ++ +
+Sbjct  70   EQMLYQSHFHQNPHPMLMPGWHGQDGLTLTVLLSRLDVTLPMLENVISRMNQ  121
+
+
+> UniRef90_A0A1C2Z8L8 Uncharacterized protein n=4 Tax=Achromobacter 
+TaxID=222 RepID=A0A1C2Z8L8_ALCXX
+Length=126
+
+ Score = 42.2 bits (98),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 18/125 (14%), Positives = 48/125 (38%), Gaps = 5/125 (4%)
+
+Query  1    SWIEPIISHFCQDLGVP-TSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            + ++  +  F + +G+   +      + L++     + +E  G  + ++++  +  +   
+Sbjct  2    NGLDRALGAFGETIGLERLALGPRGNVALQLDSGRRVAIEAAGDEVLVYVSEPVP-YDAA  60
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGES---QLVLFVSLDERSLTLPLLHQAFEQLLRLQ  116
+              +++A            P++A    +    +L+    L       P L QA E+L R  
+Sbjct  61   QRLLRAWRRAHHAHLDGSPVQAALREQDGIPRLLALTRLPAAHSDAPALRQAVERLARWL  120
+
+Query  117  QEVLA  121
+             +  A
+Sbjct  121  DDTRA  125
+
+
+> UniRef90_A0A161YLT7 Uncharacterized protein n=1 Tax=Labrenzia 
+sp. OB1 TaxID=1561204 RepID=A0A161YLT7_9RHOB
+Length=129
+
+ Score = 42.2 bits (98),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 23/120 (19%), Positives = 47/120 (39%), Gaps = 4/120 (3%)
+
+Query  5    PIISHFCQDLGVPTSSPLS-PLIQLEMAQSGTLQLEQHGAT--LTLWLARSLAWHRCEDA  61
+             II+ F + + +   +P S   +  E+  +GTL L        + + L+R          
+Sbjct  10   SIITQFAKIMEIDRITPASDGSVTFELEHAGTLCLTASTDGSRVLVSLSRP-PESLQTGV  68
+
+Query  62   MVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+            + + L L+       +   AG      L+L   +    L+  ++ Q   +L+ L +  +A
+Sbjct  69   LARFLGLSHFDFHLGVSFNAGMNAGGGLMLVADIATSELSPQIIDQCLTRLISLHEGFVA  128
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.150    0.425    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0457    0.140     1.90     42.6     43.6 
+
+Effective search space used: 436746253185
+Results from round 3
+
+
+Query= d1xkpb1
+
+Length=121
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A1E5EZV1 Type III secretion chaperone SycN n=2 Tax=V...  162     2e-48
+  UniRef90_A0A166JEY4 Type III secretion chaperone SycN n=23 Tax=...  160     8e-48
+  UniRef90_A8T5L0 Putative type III secretion protein n=1 Tax=Vib...  159     2e-47
+  UniRef90_A0A0H4A360 Putative type III secretion protein SycN n=...  158     4e-47
+  UniRef90_F9T799 Type III secretion protein n=4 Tax=Vibrio TaxID...  154     2e-45
+  UniRef90_D0VFM3 SycN n=14 Tax=Vibrio TaxID=662 RepID=D0VFM3_VIBAL   154     3e-45
+  UniRef90_E3BLV0 Uncharacterized protein n=1 Tax=Vibrio caribbea...  153     5e-45
+  UniRef90_S5J1E1 Type III secretion protein n=43 Tax=Vibrio para...  150     9e-44
+  UniRef90_A0A0D0QX91 Contig_25, whole genome shotgun sequence n=...  148     4e-43
+  UniRef90_Q8GA94 Acr2 protein n=20 Tax=Aeromonadaceae TaxID=8464...  146     3e-42
+  UniRef90_Q84GZ1 LssN n=12 Tax=Photorhabdus TaxID=29487 RepID=Q8...  146     4e-42
+  UniRef90_U3CHZ1 Putative type III secretion system chaperone pr...  145     8e-42
+  UniRef90_UPI000571A4A9 type III secretion chaperone SycN n=1 Ta...  144     1e-41
+  UniRef90_Q5XL10 Acr2 n=5 Tax=Aeromonas TaxID=642 RepID=Q5XL10_A...  144     2e-41
+  UniRef90_A0A119A0S3 Chaperone protein SycN n=3 Tax=Pseudomonas ...  142     9e-41
+  UniRef90_UPI0006826B5F type III secretion chaperone SycN n=1 Ta...  141     2e-40
+  UniRef90_UPI000587391F type III secretion chaperone SycN n=1 Ta...  140     5e-40
+  UniRef90_Q6TLM8 Acr2 n=8 Tax=Aeromonas hydrophila TaxID=644 Rep...  140     5e-40
+  UniRef90_B6VK32 Putative type iii secretion protein n=3 Tax=Pho...  140     6e-40
+  UniRef90_A0A0J6KF01 Molecular chaperone n=2 Tax=Pseudomonas Tax...  139     9e-40
+  UniRef90_UPI0005B1FBC8 type III secretion chaperone SycN n=1 Ta...  138     3e-39
+  UniRef90_P0C2V8 Chaperone protein SycN n=19 Tax=Yersinia TaxID=...  138     4e-39
+  UniRef90_A0A081N0D5 Uncharacterized protein n=2 Tax=Endozoicomo...  135     5e-38
+  UniRef90_A0A1D2XBH8 Type III secretion chaperone SycN n=1 Tax=E...  134     2e-37
+  UniRef90_UPI00082C90EF UPI00082C90EF related cluster n=1 Tax=un...  131     3e-36
+  UniRef90_A0A061PME9 Type III secretion outermembrane negative r...  131     1e-35
+  UniRef90_A0A081NKD1 Uncharacterized protein n=1 Tax=Endozoicomo...  129     1e-35
+  UniRef90_UPI000785E9CC UPI000785E9CC related cluster n=1 Tax=un...  128     3e-35
+  UniRef90_A0A0S2SCY2 Molecular chaperone n=2 Tax=Aeromonas schub...  128     5e-35
+  UniRef90_A0A1H2MMP4 Type III secretion chaperone SycN n=1 Tax=P...  126     2e-34
+  UniRef90_Q9I329 Uncharacterized protein n=50 Tax=Gammaproteobac...  126     2e-34
+  UniRef90_A0A081K9I5 Uncharacterized protein n=1 Tax=Endozoicomo...  126     2e-34
+  UniRef90_UPI0008259732 UPI0008259732 related cluster n=1 Tax=un...  126     3e-34
+  UniRef90_W6MA07 Uncharacterized protein n=1 Tax=Candidatus Comp...  122     1e-32
+  UniRef90_UPI000467FF7E type III secretion chaperone SycN n=1 Ta...  121     1e-32
+  UniRef90_A0A088NM29 Uncharacterized protein n=1 Tax=Pseudomonas...  111     1e-28
+  UniRef90_W9VF68 Putative type III secretion protein n=1 Tax=Thi...  111     2e-28
+  UniRef90_Q1MQX7 NA n=1 Tax=Lawsonia intracellularis (strain PHE...  110     3e-28
+  UniRef90_UPI000371D201 hypothetical protein n=1 Tax=Hahella gan...  109     1e-27
+  UniRef90_E5Y9V8 Type III secretion chaperone SycN n=2 Tax=Bilop...  108     1e-27
+  UniRef90_A0A0F7XWV8 Uncharacterized protein n=2 Tax=Pseudomonas...  108     2e-27
+  UniRef90_A0A0L6FV86 Molecular chaperone n=1 Tax=Pseudomonas sp....  107     4e-27
+  UniRef90_B6WRJ7 Type III secretion chaperone SycN n=1 Tax=Desul...  106     8e-27
+  UniRef90_A0A1K1LC48 Type III secretion chaperone SycN n=1 Tax=D...  106     8e-27
+  UniRef90_Q2SC38 Uncharacterized protein n=1 Tax=Hahella chejuen...  106     1e-26
+  UniRef90_UPI00048B6D3E hypothetical protein n=1 Tax=Terasakiell...  105     2e-26
+  UniRef90_A0A1I4F4I1 Type III secretion chaperone SycN n=1 Tax=M...  104     8e-26
+  UniRef90_Q2SH41 YopN chaperone SycN-like protein n=1 Tax=Hahell...  104     1e-25
+  UniRef90_A0A135NRS3 Uncharacterized protein n=2 Tax=Pseudomonas...  103     1e-25
+  UniRef90_A0A1J4XHU7 Uncharacterized protein n=1 Tax=Verrucomicr...  103     2e-25
+  UniRef90_A0A0H3ACH2 Type III secretion chaperone SycN n=3 Tax=D...  102     3e-25
+  UniRef90_A0A1B7X9D2 Uncharacterized protein n=1 Tax=Halodesulfo...  101     8e-25
+  UniRef90_A0A1G3Z9K9 Uncharacterized protein n=1 Tax=Verrucomicr...  99.5    6e-24
+  UniRef90_A0A0D8CRY8 Uncharacterized protein n=1 Tax=Thalassomon...  98.4    2e-23
+  UniRef90_UPI00092A55D9 UPI00092A55D9 related cluster n=1 Tax=un...  97.6    4e-23
+  UniRef90_F8JFE9 Chaperone protein sycN n=1 Tax=Hyphomicrobium s...  97.2    4e-23
+  UniRef90_UPI0003B639FB hypothetical protein n=1 Tax=Desulfospir...  95.7    1e-22
+  UniRef90_A0A0D8D7F6 Uncharacterized protein n=1 Tax=Thalassomon...  96.1    2e-22
+  UniRef90_UPI0001744C94 hypothetical protein n=3 Tax=Verrucomicr...  94.5    6e-22
+  UniRef90_A0A126S2U8 Type III secretion chaperone SycN n=2 Tax=P...  90.3    1e-20
+  UniRef90_H0F7W5 Uncharacterized protein n=1 Tax=Achromobacter a...  90.7    2e-20
+  UniRef90_F7T1K3 Uncharacterized protein n=2 Tax=Achromobacter T...  90.7    2e-20
+  UniRef90_B8DMR9 Type III secretion chaperone SycN n=2 Tax=Desul...  90.3    2e-20
+  UniRef90_UPI00048E0C9F hypothetical protein n=1 Tax=Desulfocurv...  89.9    3e-20
+  UniRef90_A0A0N8GEQ0 Uncharacterized protein n=1 Tax=Prosthecomi...  89.5    4e-20
+  UniRef90_UPI0004119491 hypothetical protein n=1 Tax=Ottowia thi...  89.1    6e-20
+  UniRef90_UPI00047A9697 hypothetical protein n=1 Tax=Mesorhizobi...  87.6    2e-19
+  UniRef90_A0P0P0 Uncharacterized protein n=1 Tax=Labrenzia aggre...  86.4    6e-19
+  UniRef90_A0A0D8D3P1 Uncharacterized protein n=1 Tax=Thalassomon...  83.7    6e-18
+  UniRef90_A0A1E2TM18 Uncharacterized protein n=2 Tax=Pseudomonas...  81.0    3e-17
+  UniRef90_A0A0S9ES23 Uncharacterized protein n=2 Tax=Acidovorax ...  81.4    5e-17
+  UniRef90_UPI00082A3C4C UPI00082A3C4C related cluster n=1 Tax=un...  79.1    4e-16
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A0Q8WY38 Uncharacterized protein n=1 Tax=Achromobact...  86.8    4e-19
+  UniRef90_UPI000468253B hypothetical protein n=1 Tax=Achromobact...  85.7    1e-18
+  UniRef90_A0A1C2Z8L8 Uncharacterized protein n=4 Tax=Achromobact...  84.9    2e-18
+  UniRef90_A0A179TD25 Uncharacterized protein n=4 Tax=Achromobact...  81.8    3e-17
+  UniRef90_A0A095W5A7 Uncharacterized protein n=2 Tax=Achromobact...  76.8    2e-15
+  UniRef90_A0A0D8DDT6 Uncharacterized protein n=1 Tax=Thalassomon...  73.7    4e-14
+  UniRef90_A0A157NV95 Type III secretion chaperone SycN n=2 Tax=B...  69.9    1e-12
+  UniRef90_A0A171JXS9 Type III secretion chaperone SycN n=16 Tax=...  68.3    4e-12
+  UniRef90_A0A161YLT7 Uncharacterized protein n=1 Tax=Labrenzia s...  68.3    4e-12
+  UniRef90_UPI000666EA85 UPI000666EA85 related cluster n=16 Tax=A...  66.8    1e-11
+  UniRef90_I9W9X0 Uncharacterized protein n=1 Tax=Ralstonia sp. P...  66.0    3e-11
+  UniRef90_W8WUC2 Uncharacterized protein n=1 Tax=Castellaniella ...  63.7    2e-10
+  UniRef90_G8PMM4 Uncharacterized protein n=10 Tax=Pseudovibrio T...  63.7    2e-10
+  UniRef90_UPI0007865567 UPI0007865567 related cluster n=1 Tax=un...  62.5    4e-10
+  UniRef90_UPI00082B13EA UPI00082B13EA related cluster n=1 Tax=un...  61.8    8e-10
+  UniRef90_UPI00037DA045 hypothetical protein n=1 Tax=Algicola sa...  58.3    2e-08
+  UniRef90_A0A1D2SBG6 Uncharacterized protein n=1 Tax=Comamonas s...  58.3    2e-08
+  UniRef90_UPI00065458C8 hypothetical protein n=1 Tax=Caenimonas ...  57.5    3e-08
+  UniRef90_A0A058YEX2 Type III secretion chaperone SycN n=1 Tax=B...  56.0    1e-07
+  UniRef90_UPI00082D2AF6 UPI00082D2AF6 related cluster n=1 Tax=un...  55.2    2e-07
+  UniRef90_A0A0P0FNK3 Uncharacterized protein n=1 Tax=Candidatus ...  53.7    6e-07
+  UniRef90_UPI000371571F hypothetical protein n=1 Tax=Succinimona...  47.1    1e-04
+  UniRef90_A0A1G3ZNI0 Uncharacterized protein n=1 Tax=Verrucomicr...  46.4    2e-04
+  UniRef90_UPI0007566B93 hypothetical protein n=3 Tax=Burkholderi...  45.2    0.002
+  UniRef90_A0A0A7ELG8 Uncharacterized protein n=2 Tax=Pseudoalter...  42.9    0.004
+
+
+> UniRef90_A0A1E5EZV1 Type III secretion chaperone SycN n=2 Tax=Vibrio 
+tasmaniensis TaxID=212663 RepID=A0A1E5EZV1_9VIBR
+Length=124
+
+ Score = 162 bits (410),  Expect = 2e-48, Method: Composition-based stats.
+ Identities = 38/121 (31%), Positives = 66/121 (55%), Gaps = 1/121 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLS-PLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            +WI+  +  FC+ +G+   +  S   +QL   QSGTL LE++   L L L ++L WH+  
+Sbjct  2    NWIDASVDDFCRGMGLEAVNFSSAGRVQLSFEQSGTLYLEKYQDCLFLMLVKALPWHQSN  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            +++ KAL+   + +     ++ G   E  LV    ++   +TLP + QAF  L+RL  +V
+Sbjct  62   ESIKKALSFCHSGQGWPFTIKTGLFDEQALVFSAQIEGDEVTLPTIEQAFALLVRLHNDV  121
+
+Query  120  L  120
+            +
+Sbjct  122  V  122
+
+
+> UniRef90_A0A166JEY4 Type III secretion chaperone SycN n=23 Tax=Vibrionaceae 
+TaxID=641 RepID=A0A166JEY4_9VIBR
+Length=124
+
+ Score = 160 bits (406),  Expect = 8e-48, Method: Composition-based stats.
+ Identities = 40/121 (33%), Positives = 66/121 (55%), Gaps = 1/121 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLS-PLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            +WI+  +  FC+ +G+      S   +QL   QSGTL +E+H   L L LA+ L WH+  
+Sbjct  2    NWIDASVDDFCRGMGLEAVDFSSAGRVQLSFEQSGTLHVERHQDCLFLMLAKPLHWHQSN  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            + + KAL+   + +     +++G L E  LV    ++   +TLP + QAF  L+RL ++V
+Sbjct  62   EPIKKALSFCHSGQGWPFVIKSGLLDEQTLVFSAQIEGDEVTLPTIEQAFALLVRLHKDV  121
+
+Query  120  L  120
+             
+Sbjct  122  A  122
+
+
+> UniRef90_A8T5L0 Putative type III secretion protein n=1 Tax=Vibrio 
+sp. AND4 TaxID=314289 RepID=A8T5L0_9VIBR
+Length=124
+
+ Score = 159 bits (403),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 41/122 (34%), Positives = 63/122 (52%), Gaps = 1/122 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPL-SPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            +WI+  +  FC+ +G+       +  +QL   QSGTL +E+H   L L L + L+WH   
+Sbjct  2    NWIDASVDDFCRGMGLEAVDFSVAGRVQLSFEQSGTLHIEKHQGCLFLMLTKPLSWHESN  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            +A+ KAL    A +     ++AG L E  LV    ++   +TLP + QAF  L RL  +V
+Sbjct  62   EAIKKALGFCHAGQGWPFIIKAGLLDEQTLVFSAQIEGDEVTLPTIEQAFALLTRLHNDV  121
+
+Query  120  LA  121
+              
+Sbjct  122  AG  123
+
+
+> UniRef90_A0A0H4A360 Putative type III secretion protein SycN 
+n=2 Tax=Vibrio TaxID=662 RepID=A0A0H4A360_9VIBR
+Length=124
+
+ Score = 158 bits (401),  Expect = 4e-47, Method: Composition-based stats.
+ Identities = 43/121 (36%), Positives = 66/121 (55%), Gaps = 1/121 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLS-PLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            SWI+  +  FCQ +G+      S   +QL   +SGTL LE++   L L L R+L WH+  
+Sbjct  2    SWIDASVDDFCQGMGLVAVDFSSAGRVQLNFEKSGTLYLEKYQDCLVLMLVRALPWHQFN  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            +++ KAL+   A +     ++AG   E  LVL   ++   +TLP + QAF  L+RL  +V
+Sbjct  62   ESIKKALSFCHAGQGWPFTIKAGLFEEDMLVLSTQIEGDEVTLPSIEQAFALLVRLHNDV  121
+
+Query  120  L  120
+             
+Sbjct  122  A  122
+
+
+> UniRef90_F9T799 Type III secretion protein n=4 Tax=Vibrio TaxID=662 
+RepID=F9T799_9VIBR
+Length=124
+
+ Score = 154 bits (390),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 43/122 (35%), Positives = 64/122 (52%), Gaps = 1/122 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLS-PLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            +WI+  +  FC+ +G+ T    S   +QL    SGTL +E+H   L L L+R ++WH+  
+Sbjct  2    NWIDSSVDDFCRGMGLDTVDFASTGRVQLTFQLSGTLHIERHQDNLFLMLSRGISWHQSS  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            D +  AL L          +R G LGE  LV    ++   +T+P L QAF  L+RL  EV
+Sbjct  62   DLLKDALALCNFDNGWPFSVRTGLLGEETLVFSAQINGEEVTIPSLEQAFALLIRLHNEV  121
+
+Query  120  LA  121
+            + 
+Sbjct  122  VG  123
+
+
+> UniRef90_D0VFM3 SycN n=14 Tax=Vibrio TaxID=662 RepID=D0VFM3_VIBAL
+Length=124
+
+ Score = 154 bits (389),  Expect = 3e-45, Method: Composition-based stats.
+ Identities = 45/122 (37%), Positives = 64/122 (52%), Gaps = 1/122 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLS-PLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            SWI+  +  FC+ +G+      S   +QL+  QSGTL +E+ G  L L L+R+L+WH+  
+Sbjct  2    SWIDASVDEFCRGMGLDAVDFSSAGRVQLDFEQSGTLHIERQGEQLFLMLSRALSWHQTS  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            D +  AL L  A +     ++ G L E  LV    L    +TLP L QAF  L RL  +V
+Sbjct  62   DIIQSALCLCHADQGWPFEIKTGLLDEQTLVFSARLKGEEVTLPTLEQAFTLLARLHNDV  121
+
+Query  120  LA  121
+              
+Sbjct  122  AG  123
+
+
+> UniRef90_E3BLV0 Uncharacterized protein n=1 Tax=Vibrio caribbeanicus 
+ATCC BAA-2122 TaxID=796620 RepID=E3BLV0_9VIBR
+Length=124
+
+ Score = 153 bits (387),  Expect = 5e-45, Method: Composition-based stats.
+ Identities = 41/120 (34%), Positives = 63/120 (53%), Gaps = 1/120 (1%)
+
+Query  2    WIEPIISHFCQDLGVPTSSPLS-PLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            WI+  +  FC+ +G+      S   +QL   QSGTL +E++   L L LAR L W +  +
+Sbjct  3    WIDTSVDDFCRGMGLDAVDFSSAGRVQLGFEQSGTLHIEKYQDRLFLMLARPLDWRQSSE  62
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+             + +AL+   A +     ++AG L +  LVL   +    +TLP + QAF  L+RL  EV 
+Sbjct  63   PLKRALSFCHAGQGWPFLIKAGLLDDQTLVLCAQIVGEDVTLPTIEQAFNLLVRLHDEVA  122
+
+
+> UniRef90_S5J1E1 Type III secretion protein n=43 Tax=Vibrio parahaemolyticus 
+TaxID=670 RepID=S5J1E1_VIBPH
+Length=123
+
+ Score = 150 bits (379),  Expect = 9e-44, Method: Composition-based stats.
+ Identities = 43/122 (35%), Positives = 67/122 (55%), Gaps = 1/122 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLS-PLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            SWI+  +  FC+ +G+      +   +QL   QSGTL +E+H   L L LAR+L+WH+  
+Sbjct  2    SWIDASVDEFCRGMGLDAVDFSTAGRVQLSFEQSGTLHIEKHHDRLFLILARALSWHQSS  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            + +  AL L  A++     ++ G L +  LV    ++   +TLP L QAF  L+RL  EV
+Sbjct  62   ERIQHALRLCHAEQGWPFEMKTGLLDDETLVFSAKIEGDEVTLPTLEQAFALLVRLHDEV  121
+
+Query  120  LA  121
+             +
+Sbjct  122  AS  123
+
+
+> UniRef90_A0A0D0QX91 Contig_25, whole genome shotgun sequence 
+n=5 Tax=Aeromonas TaxID=642 RepID=A0A0D0QX91_9GAMM
+Length=123
+
+ Score = 148 bits (375),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 71/121 (59%), Positives = 93/121 (77%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            +WIEP +  FCQDLG+        LIQLE+ QSGTLQLE+H   LTLWLAR+L WH+  +
+Sbjct  2    NWIEPQLVQFCQDLGITIGDNPHYLIQLELEQSGTLQLERHQGQLTLWLARTLPWHQSGE  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            A+ +A++ TAA ++ ALP+R GWLGE +L+LFV+LDER++TLPLLHQA   L RLQQ+V+
+Sbjct  62   AIRRAMSFTAAARAPALPVRCGWLGEDRLILFVTLDERAVTLPLLHQALRTLTRLQQDVV  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_Q8GA94 Acr2 protein n=20 Tax=Aeromonadaceae TaxID=84642 
+RepID=Q8GA94_AERSA
+Length=123
+
+ Score = 146 bits (369),  Expect = 3e-42, Method: Composition-based stats.
+ Identities = 74/121 (61%), Positives = 94/121 (78%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            +WIEP++  FCQDLG+        LIQLE+ QSGTLQLE+H   LTLWLAR++ WH+  +
+Sbjct  2    NWIEPLLVQFCQDLGITIGDNPHSLIQLELEQSGTLQLERHQGQLTLWLARAVPWHQSGE  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            A+ +A+TLTAA +  ALP+R+GWLGE QL+LFVSLDER++TLP LHQA   L RLQ+EVL
+Sbjct  62   AIRRAMTLTAAAQGPALPVRSGWLGEEQLILFVSLDERAVTLPQLHQAVTTLTRLQREVL  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_Q84GZ1 LssN n=12 Tax=Photorhabdus TaxID=29487 RepID=Q84GZ1_PHOLU
+Length=123
+
+ Score = 146 bits (368),  Expect = 4e-42, Method: Composition-based stats.
+ Identities = 71/121 (59%), Positives = 93/121 (77%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            +WIEP +  FCQDLG+  S   SPLIQ++   SGTLQ+E++G  LTLWLAR + WH+ ++
+Sbjct  2    NWIEPQLLQFCQDLGMEMSDVSSPLIQIDFEYSGTLQIERYGGALTLWLAREIPWHQGKE  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+             M+KA+ LT + +   LPLR GWLGE +L+LFV+LDER +TLPLLHQAF  LLR+Q+EVL
+Sbjct  62   VMIKAMLLTFSGQGPELPLRCGWLGEDRLLLFVTLDERDITLPLLHQAFRSLLRVQREVL  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_U3CHZ1 Putative type III secretion system chaperone 
+protein n=1 Tax=Vibrio azureus NBRC 104587 TaxID=1219077 RepID=U3CHZ1_9VIBR
+Length=124
+
+ Score = 145 bits (366),  Expect = 8e-42, Method: Composition-based stats.
+ Identities = 38/121 (31%), Positives = 59/121 (49%), Gaps = 1/121 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPL-SPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            +WI+  +  F + +G+           QL   +SGTL +E+H   L L L++ L W    
+Sbjct  2    NWIDASVDDFFRGMGLDNIDFSLVGRAQLSFEESGTLHIERHENRLYLMLSKPLPWDGFS  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+                 ALTL  A       ++AG L E  LV    ++ + +TLP + QAF  L RL ++V
+Sbjct  62   RYAQAALTLCHADNGWPFVIKAGLLDEQNLVFSAEIEAQEVTLPTIEQAFALLNRLHEKV  121
+
+Query  120  L  120
+            +
+Sbjct  122  I  122
+
+
+> UniRef90_UPI000571A4A9 type III secretion chaperone SycN n=1 
+Tax=Vibrio pacinii TaxID=170674 RepID=UPI000571A4A9
+Length=123
+
+ Score = 144 bits (365),  Expect = 1e-41, Method: Composition-based stats.
+ Identities = 36/121 (30%), Positives = 60/121 (50%), Gaps = 1/121 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPL-SPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            +WI+  +  FC+ +GV +     S  +QL    SGTL +E+H   L + LAR +   +  
+Sbjct  2    NWIDDSVDDFCRAMGVESVDFSCSGRVQLTFQCSGTLHIEKHQGMLFMMLAREMLRSQSA  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+              + +AL +   ++     +RA  LGE+ LV    +    +T P L QA   L+RL   +
+Sbjct  62   KLIKRALAICNDEQGWPFLVRASLLGENTLVFSAQMAGEEVTHPSLEQALAMLIRLHNNM  121
+
+Query  120  L  120
+            +
+Sbjct  122  V  122
+
+
+> UniRef90_Q5XL10 Acr2 n=5 Tax=Aeromonas TaxID=642 RepID=Q5XL10_AERHY
+Length=123
+
+ Score = 144 bits (363),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 69/120 (58%), Positives = 90/120 (75%), Gaps = 0/120 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            +WIEP +  FCQDLG+        LIQLE+ QSGTLQLE+H   LTLWLAR + WH+  +
+Sbjct  2    NWIEPQLVQFCQDLGITIGDNPHSLIQLELEQSGTLQLERHQGQLTLWLARRVPWHQSGE  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            A+ +A++LTAA ++ ALP+R GWL E QL+LFV+LDER++TLPLLHQA   L +LQ+E L
+Sbjct  62   AIRRAMSLTAAAQAPALPVRCGWLEEDQLILFVTLDERNVTLPLLHQALRTLTQLQREAL  121
+
+
+> UniRef90_A0A119A0S3 Chaperone protein SycN n=3 Tax=Pseudomonas 
+TaxID=286 RepID=A0A119A0S3_9PSED
+Length=123
+
+ Score = 142 bits (359),  Expect = 9e-41, Method: Composition-based stats.
+ Identities = 57/120 (48%), Positives = 83/120 (69%), Gaps = 0/120 (0%)
+
+Query  2    WIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDA  61
+            WI+  ++ FCQD+GV   SPLS LIQLE    GTLQLE+H   LT+WLA  L WH+    
+Sbjct  3    WIDQALAQFCQDMGVALPSPLSDLIQLEFEHMGTLQLERHANGLTVWLALELPWHQAHQG  62
+
+Query  62   MVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+            M++A++ + ++ +  LPLR GW GE++L+L ++LD R +T P+LHQA   L+ ++ EV+A
+Sbjct  63   MLRAMSRSYSRAAPELPLRCGWSGETRLLLLITLDARRVTAPVLHQALRTLISVRDEVIA  122
+
+
+> UniRef90_UPI0006826B5F type III secretion chaperone SycN n=1 
+Tax=Aeromonas tecta TaxID=324617 RepID=UPI0006826B5F
+Length=123
+
+ Score = 141 bits (357),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 71/121 (59%), Positives = 89/121 (74%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            +WIEP++  FCQDLG+        LIQLE+ QSGTLQLE+H   L+LWLA  L WH+ + 
+Sbjct  2    NWIEPLLVQFCQDLGITIGDNPHHLIQLELEQSGTLQLERHQGQLSLWLAHRLPWHQSDV  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+             + +A+TLTAA    ALP+R GWL E QL+LFV+LDERS+TLPLLHQA   L++LQ EVL
+Sbjct  62   GIRRAMTLTAAANGPALPVRCGWLAEDQLILFVTLDERSITLPLLHQALRTLIQLQHEVL  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_UPI000587391F type III secretion chaperone SycN n=1 
+Tax=Vibrio sagamiensis TaxID=512650 RepID=UPI000587391F
+Length=124
+
+ Score = 140 bits (354),  Expect = 5e-40, Method: Composition-based stats.
+ Identities = 37/121 (31%), Positives = 56/121 (46%), Gaps = 1/121 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPL-SPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            +WI+  +  F + +G+           QL   +SGTL +E+H + L L L+R L W R  
+Sbjct  2    NWIDTSVDDFFRGMGLDNIDFSLVGRAQLNFEKSGTLHIERHDSRLYLILSRELPWDRFS  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+                 AL+L          ++ G L E  LV    ++ + +TLP + QAF  L RL   V
+Sbjct  62   HYAQSALSLCHVDNGWPFLIKTGLLDEQTLVFSAEIEAQEVTLPTIEQAFTLLNRLHDRV  121
+
+Query  120  L  120
+             
+Sbjct  122  A  122
+
+
+> UniRef90_Q6TLM8 Acr2 n=8 Tax=Aeromonas hydrophila TaxID=644 RepID=Q6TLM8_AERHY
+Length=123
+
+ Score = 140 bits (354),  Expect = 5e-40, Method: Composition-based stats.
+ Identities = 72/121 (60%), Positives = 90/121 (74%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            +WIEP +  FCQDLG+P       LIQLE+ QSGTLQLE+H   L LWLAR + WH+  D
+Sbjct  2    NWIEPQLVQFCQDLGIPIGEHPHHLIQLELEQSGTLQLERHQGRLILWLARRVPWHQSAD  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            A+  A+TLTAA ++  LP+R GWLGE QL+LFV+LDER++TLPLLHQA   L +LQ+E L
+Sbjct  62   AIRHAMTLTAAAQAPVLPVRCGWLGEDQLLLFVTLDERAVTLPLLHQALRTLTQLQREAL  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_B6VK32 Putative type iii secretion protein n=3 Tax=Photorhabdus 
+TaxID=29487 RepID=B6VK32_PHOAA
+Length=123
+
+ Score = 140 bits (354),  Expect = 6e-40, Method: Composition-based stats.
+ Identities = 69/121 (57%), Positives = 91/121 (75%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            +WIE  +  FCQDLG+  S   S LIQ++   SGTLQ+E++G  LTLWLAR ++WH+  D
+Sbjct  2    NWIESQLLQFCQDLGMEMSDVPSSLIQIDFEYSGTLQIERYGGLLTLWLAREISWHQRGD  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+             M+KA++LT +     LPLR GWLG+ +L+LFV+LDER +TLPLLHQAF  LLR+Q+EVL
+Sbjct  62   VMIKAMSLTFSGLGPELPLRCGWLGDDRLLLFVTLDERCVTLPLLHQAFSSLLRVQREVL  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_A0A0J6KF01 Molecular chaperone n=2 Tax=Pseudomonas TaxID=286 
+RepID=A0A0J6KF01_9PSED
+Length=123
+
+ Score = 139 bits (352),  Expect = 9e-40, Method: Composition-based stats.
+ Identities = 61/120 (51%), Positives = 86/120 (72%), Gaps = 0/120 (0%)
+
+Query  2    WIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDA  61
+            WI+  ++ FCQD+GV   SPLS L+QLE   +GTLQLE+H   LTLWLA  L WH+    
+Sbjct  3    WIDQALTRFCQDMGVALPSPLSDLVQLEFEHAGTLQLERHAHGLTLWLALELPWHQAHQG  62
+
+Query  62   MVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+            M++AL+   ++ +  LPLR GW GES+L+LF+SL+ R +T+P+LHQA   L+ +++EVLA
+Sbjct  63   MLRALSRCYSRAAPPLPLRCGWAGESRLLLFISLEARRVTVPVLHQALRTLIAVREEVLA  122
+
+
+> UniRef90_UPI0005B1FBC8 type III secretion chaperone SycN n=1 
+Tax=Aeromonas encheleia TaxID=73010 RepID=UPI0005B1FBC8
+Length=123
+
+ Score = 138 bits (349),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 77/121 (64%), Positives = 95/121 (79%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            +WIEP++  FCQDLG+        L+QLE+ QSGTLQLE+H   L+LWLARSL WHR +D
+Sbjct  2    NWIEPLLVQFCQDLGIAIGDNPHHLLQLELEQSGTLQLERHQGQLSLWLARSLPWHRSDD  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            A+ +A+TLTAA ++ ALP+RAGWL E QL+LFV+LDER+LTLPLLHQA   L RLQ EVL
+Sbjct  62   AIRRAMTLTAAAQAPALPVRAGWLAEDQLILFVTLDERALTLPLLHQALRTLTRLQHEVL  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_P0C2V8 Chaperone protein SycN n=19 Tax=Yersinia TaxID=444888 
+RepID=SYCN_YEREN
+Length=123
+
+ Score = 138 bits (348),  Expect = 4e-39, Method: Composition-based stats.
+ Identities = 119/121 (98%), Positives = 121/121 (100%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWH+CED
+Sbjct  2    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHQCED  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            AMVKALTLTAAQKSGALPLRAGWLGE+QLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL
+Sbjct  62   AMVKALTLTAAQKSGALPLRAGWLGENQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_A0A081N0D5 Uncharacterized protein n=2 Tax=Endozoicomonas 
+montiporae TaxID=1027273 RepID=A0A081N0D5_9GAMM
+Length=124
+
+ Score = 135 bits (341),  Expect = 5e-38, Method: Composition-based stats.
+ Identities = 29/120 (24%), Positives = 57/120 (48%), Gaps = 1/120 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTS-SPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+             W + +++   + +G+       S ++ L   + G L LEQ    + ++L R++  H C 
+Sbjct  2    DWRDDVMADIGKGMGIEGLGFGESGVLSLNFERRGELYLEQQDDGVLMYLVRTIPVHDCL  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+              +V AL      K+   PL+ G  GE +L+LF+ L     T P +  + + L +  +++
+Sbjct  62   GLLVAALKECHYTKASRFPLQVGLKGEEELLLFIYLANEEFTRPNIETSIDTLTQQFEKI  121
+
+
+> UniRef90_A0A1D2XBH8 Type III secretion chaperone SycN n=1 Tax=Endozoicomonas 
+sp. (ex Bugula neritina AB1) TaxID=1868284 RepID=A0A1D2XBH8_9GAMM
+Length=123
+
+ Score = 134 bits (338),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 26/119 (22%), Positives = 47/119 (39%), Gaps = 1/119 (1%)
+
+Query  2    WIEPIISHFCQDLGVPTSSPLS-PLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            W + +++   + +G+         +I  E  + GTL +E     + ++L R L  H   +
+Sbjct  3    WRDDVLAEVGRGMGIEGLDFSGTGVISFEFERMGTLYMEHQEDGVLMYLIRELPAHDYME  62
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+             + KAL L    +S   PL+ G     QL L + L       P +    + L      +
+Sbjct  63   VLEKALKLCHYTQSQQFPLQVGAQEREQLFLCIYLANEEFDRPNVETVIQSLTAYFDSL  121
+
+
+> UniRef90_UPI00082C90EF UPI00082C90EF related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00082C90EF
+Length=121
+
+ Score = 131 bits (329),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 28/120 (23%), Positives = 53/120 (44%), Gaps = 2/120 (2%)
+
+Query  1    SWIEPIISHFCQDLGVPTS-SPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+             W + +++     +GV         +I  E  +SG+L +EQ    + ++L R +      
+Sbjct  2    DWKDEVLADVGNGMGVSGLNFGPEGVICFEYERSGSLYMEQKEDGVLMYLHRDIDAFNPL  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+             AM KAL       S A PL+ G   ++QL + + L +     P + +A + L+    ++
+Sbjct  62   PAMEKALKGCHFTNSYAWPLQVGLK-DNQLFIGLFLVDNEFDRPSVEKAIQYLMSKLDQL  120
+
+
+> UniRef90_A0A061PME9 Type III secretion outermembrane negative 
+regulator of secretion n=1 Tax=Vibrio sp. JCM 19053 TaxID=1460648 
+RepID=A0A061PME9_9VIBR
+Length=181
+
+ Score = 131 bits (330),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 36/110 (33%), Positives = 54/110 (49%), Gaps = 1/110 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLS-PLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            SWI+  +  FC+ +G+      S   +QL+  QSGTL +E+ G  L L L+R+L+WH+  
+Sbjct  65   SWIDASVDEFCRGMGLDAVDFSSAGRVQLDFEQSGTLHIERQGEQLFLMLSRALSWHQTS  124
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAF  109
+            D +  AL L  A +     ++ G L E  LV F     R      L  + 
+Sbjct  125  DMIQSALCLCHADQGWPFEIKTGLLDEQTLVFFSKAKRRRSNTSDLRASV  174
+
+
+> UniRef90_A0A081NKD1 Uncharacterized protein n=1 Tax=Endozoicomonas 
+numazuensis TaxID=1137799 RepID=A0A081NKD1_9GAMM
+Length=124
+
+ Score = 129 bits (325),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 29/122 (24%), Positives = 57/122 (47%), Gaps = 1/122 (1%)
+
+Query  1    SWIEPIISHFCQDLGVPTS-SPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+             W + ++S   + +G+      +S +I +E     TL LE     + +++ + L+     
+Sbjct  2    DWRDEVVSDIGRGMGIEGLSFGVSGVISIEFESERTLYLETQEEGVLIYMVQELSRFDAS  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+             ++V AL      +S  LPL+ G  GE +LV  + L+    + P +    E L+R  +++
+Sbjct  62   KSLVHALRKCHYTQSLLLPLQVGLKGEEELVWLIYLNNEQFSRPTVESVIETLIRQSEQL  121
+
+Query  120  LA  121
+             A
+Sbjct  122  AA  123
+
+
+> UniRef90_UPI000785E9CC UPI000785E9CC related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000785E9CC
+Length=127
+
+ Score = 128 bits (323),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 32/122 (26%), Positives = 59/122 (48%), Gaps = 1/122 (1%)
+
+Query  1    SWIEPIISHFCQDLGVP-TSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+             W + +IS   + +GV   +   S +I ++     TL LE+    + +++ + L+     
+Sbjct  5    DWRDEVISDVGKGIGVENLTFGESGVISIDFESERTLYLERQEEGVLIYMVQGLSRFDAS  64
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+             +++ AL      +S  LPL+AG  GE +LV  + LD      P +  A E L+R  +++
+Sbjct  65   KSLIHALRKCHYTQSLMLPLQAGLKGEEELVWLIYLDNEQFAQPTIESAIEILIRQSEQL  124
+
+Query  120  LA  121
+             A
+Sbjct  125  SA  126
+
+
+> UniRef90_A0A0S2SCY2 Molecular chaperone n=2 Tax=Aeromonas schubertii 
+TaxID=652 RepID=A0A0S2SCY2_9GAMM
+Length=123
+
+ Score = 128 bits (321),  Expect = 5e-35, Method: Composition-based stats.
+ Identities = 80/121 (66%), Positives = 98/121 (81%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            SW+EP+I+ FCQDLG+     L  L+QL++AQSGTLQLEQH   LTLWLAR+L WH+  D
+Sbjct  2    SWMEPVITRFCQDLGLAVGETLPALVQLKLAQSGTLQLEQHDGQLTLWLARALPWHQSGD  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            AMV+A+TLTAA  SGALPLR  WLG+ +L+L V+L+E ++T PLLHQAFE LLRLQQEVL
+Sbjct  62   AMVRAMTLTAAHHSGALPLRCAWLGDDRLLLLVTLEESAITQPLLHQAFESLLRLQQEVL  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_A0A1H2MMP4 Type III secretion chaperone SycN n=1 Tax=Pseudomonas 
+brenneri TaxID=129817 RepID=A0A1H2MMP4_9PSED
+Length=123
+
+ Score = 126 bits (318),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 58/120 (48%), Positives = 79/120 (66%), Gaps = 0/120 (0%)
+
+Query  2    WIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDA  61
+            WI+  ++ FCQDLGV   +PL  LIQLE  ++GTLQLEQH   LTLWLA  L WH+    
+Sbjct  3    WIDQALAQFCQDLGVVVPTPLGALIQLEFEETGTLQLEQHDRKLTLWLAVDLEWHQVHQG  62
+
+Query  62   MVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+             V+AL +  ++    LPLR GW G+++L+L ++LDER ++  +LHQA   L   +Q VLA
+Sbjct  63   AVRALAMVFSRTGPELPLRCGWAGDTRLLLLITLDERRVSALVLHQALRTLSAARQTVLA  122
+
+
+> UniRef90_Q9I329 Uncharacterized protein n=50 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=Q9I329_PSEAE
+Length=123
+
+ Score = 126 bits (317),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 57/121 (47%), Positives = 82/121 (68%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+             W+E  ++ FCQDL V   +PL+ ++QL+   SGTLQLE+HG  L+LWLA  LAWH+   
+Sbjct  2    DWVELAVAQFCQDLRVSVPAPLARVVQLDFEDSGTLQLERHGEQLSLWLACDLAWHQAYR  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+              ++AL L  A+ +G+LPLR  W GES+L+L ++L+ R + +P LHQA + L   + EVL
+Sbjct  62   GTLRALRLCHARAAGSLPLRCAWSGESRLLLCITLEARQVGMPTLHQALQALRSARSEVL  121
+
+Query  121  A  121
+            A
+Sbjct  122  A  122
+
+
+> UniRef90_A0A081K9I5 Uncharacterized protein n=1 Tax=Endozoicomonas 
+elysicola TaxID=305900 RepID=A0A081K9I5_9GAMM
+Length=122
+
+ Score = 126 bits (317),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 23/120 (19%), Positives = 52/120 (43%), Gaps = 2/120 (2%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLS-PLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+             W   +I+   + +G+         ++  ++  +G+L +EQ    + ++L R +      
+Sbjct  2    DWRNNVITELGEGMGIRGLDFGDTGVVCFQIEGAGSLYMEQKEDGILMYLVREMDSFNSL  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+              + +AL     +KS   PL+ G   E+QL + + + +     P +  A + L+    E+
+Sbjct  62   PILERALAECHYKKSFPYPLQVGVQ-ENQLFICLFIHDVDFNRPSVESAMQFLMNKVDEL  120
+
+
+> UniRef90_UPI0008259732 UPI0008259732 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008259732
+Length=122
+
+ Score = 126 bits (316),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 25/120 (21%), Positives = 54/120 (45%), Gaps = 2/120 (2%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLS-PLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+             W   ++S F + +G+         +   E+  +G+  +EQ    + ++LAR +      
+Sbjct  2    DWRNGVLSEFTEAMGIRGFDFGDTGVACFEIEGAGSFYMEQKEEGVLMYLAREIDPFNSL  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+              +  AL     ++S   PL+ G   E+Q+V+ + +D+     P + +A + L+    E+
+Sbjct  62   PLLESALAECHYKRSFPYPLQVGVQ-ENQMVICLFVDDSDFNRPNVERAMQFLMSKADEL  120
+
+
+> UniRef90_W6MA07 Uncharacterized protein n=1 Tax=Candidatus Competibacter 
+denitrificans Run_A_D11 TaxID=1400863 RepID=W6MA07_9GAMM
+Length=123
+
+ Score = 122 bits (306),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 34/122 (28%), Positives = 59/122 (48%), Gaps = 2/122 (2%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQ-LEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            + I+ ++  F + +G+   +     +  L   + G L  E+    + ++LAR    H   
+Sbjct  2    NLIDDVLHDFGRHIGIAGLTLDGGTVAGLNFERRGALFFERATDAVLVYLARQTPSHDSA  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+              + +AL  T  ++   LP++AG LGE  LVL   L+ER+ +LP+L +    L  L   V
+Sbjct  62   P-LERALRCTHYREGHLLPVQAGLLGEDTLVLLARLEERAFSLPVLEKTVTLLTELHDRV  120
+
+Query  120  LA  121
+             A
+Sbjct  121  AA  122
+
+
+> UniRef90_UPI000467FF7E type III secretion chaperone SycN n=1 
+Tax=Pseudomonas sp. PH1b TaxID=1397282 RepID=UPI000467FF7E
+Length=122
+
+ Score = 121 bits (305),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 57/119 (48%), Positives = 75/119 (63%), Gaps = 1/119 (1%)
+
+Query  2    WIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDA  61
+            WI+  ++ FCQDLGV   +P   LIQLE  ++GTLQLEQH   LTLWLA  LAWH+    
+Sbjct  3    WIDQALAQFCQDLGVAVPAPAGALIQLEFEETGTLQLEQHDRKLTLWLAVDLAWHQVHQG  62
+
+Query  62   MVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+             ++AL LT +     LPLR  W    +L+L ++LDER +T P+LHQA   L   ++ VL
+Sbjct  63   GIRALALTFSGTGPQLPLRCAW-ASGRLLLLITLDERRITAPVLHQALHTLSSARRTVL  120
+
+
+> UniRef90_A0A088NM29 Uncharacterized protein n=1 Tax=Pseudomonas 
+mosselii SJ10 TaxID=1388763 RepID=A0A088NM29_9PSED
+Length=123
+
+ Score = 111 bits (279),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 46/119 (39%), Positives = 63/119 (53%), Gaps = 0/119 (0%)
+
+Query  3    IEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAM  62
+                ++ FC+ LGV  +    PL++LE+  +G LQLE+ G  LTLWL   +     E AM
+Sbjct  4    CTAAVAQFCRHLGVAPAHWQEPLLRLELPGAGVLQLERRGGQLTLWLEFPVHGAMFERAM  63
+
+Query  63   VKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+              AL      ++    LR G L + +LVL   LDE  LT   LH A+  L R++ EVLA
+Sbjct  64   QCALRQVYEHQAPGCLLRCGLLADDRLVLLAGLDEHGLTEQALHLAYRLLTRVRTEVLA  122
+
+
+> UniRef90_W9VF68 Putative type III secretion protein n=1 Tax=Thiorhodococcus 
+sp. AK35 TaxID=1249627 RepID=W9VF68_9GAMM
+Length=122
+
+ Score = 111 bits (277),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 30/119 (25%), Positives = 44/119 (37%), Gaps = 3/119 (3%)
+
+Query  3    IEPIISHFCQDLGVPTSSPLS--PLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE-  59
+            I   +    Q LG                  + GTL LE HG  L + L+R         
+Sbjct  2    IGSALDQLAQGLGFEDFRWADRDGRAVFAFERRGTLYLEAHGDGLLMSLSRPFDDRENGR  61
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQE  118
+            + + +AL L   +      ++ G    S L+    L    +TLP+L Q  E L RL + 
+Sbjct  62   ERLCRALRLCHYRHDWPCAVQVGLGDGSNLLFLARLPAAEVTLPVLEQTLELLTRLHER  120
+
+
+> UniRef90_Q1MQX7 NA n=1 Tax=Lawsonia intracellularis (strain PHE/MN1-00) 
+TaxID=363253 RepID=Q1MQX7_LAWIP
+Length=120
+
+ Score = 110 bits (275),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 24/121 (20%), Positives = 49/121 (40%), Gaps = 5/121 (4%)
+
+Query  3    IEPIISHFCQDLGVPTSS-PLSPLIQLEMAQSGTLQLEQHGA--TLTLWLARSLAWHRCE  59
+            I   I  F + +G+         +I  E+   G+L +EQ      L ++LA  +  +   
+Sbjct  2    ITHEIEEFGRRMGMSDLELSQDGIIAFEVEDLGSLHIEQDEENEELFIYLATPVPPYN-N  60
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            D   K L L + + +    L  G   ++ ++    +  R +    +    + L+ + Q+V
+Sbjct  61   DIPKKVLELCSYKHAHPFILHGGIHNDN-VIFLSRISYRDVKASTIENTTQFLISITQKV  119
+
+Query  120  L  120
+            L
+Sbjct  120  L  120
+
+
+> UniRef90_UPI000371D201 hypothetical protein n=1 Tax=Hahella ganghwensis 
+TaxID=286420 RepID=UPI000371D201
+Length=126
+
+ Score = 109 bits (272),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 30/120 (25%), Positives = 47/120 (39%), Gaps = 0/120 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            S I   ++ F   LG    S     + L    SG+LQ+E     L L     +      D
+Sbjct  5    SAITDTMTEFLSQLGFENFSWQGTPLNLSFEHSGSLQIEPTNNGLLLARLHQINEFDIPD  64
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+             + KAL L  + +     ++ G  G S L    +L  + LT+  L  A + L  L  ++ 
+Sbjct  65   LVPKALRLVHSDQQLPFTVQTGLKGSSHLAFVTTLSPKQLTISGLTAALDLLGFLHDQLA  124
+
+
+> UniRef90_E5Y9V8 Type III secretion chaperone SycN n=2 Tax=Bilophila 
+TaxID=35832 RepID=E5Y9V8_BILWA
+Length=124
+
+ Score = 108 bits (271),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 30/123 (24%), Positives = 52/123 (42%), Gaps = 7/123 (6%)
+
+Query  3    IEPIISHFCQDLGVPTSS-PLSPLIQLEMAQSGTLQLEQHGA----TLTLWLARSLAWHR  57
+            IE  I+ F + +G+P  S   + L  L++ + G L LE         L ++LAR++  + 
+Sbjct  2    IEREIAEFGRRMGMPAFSLSPAGLAALDVERLGRLHLELAENAGERELLVYLARAVPEYD  61
+
+Query  58   CEDAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQ  117
+               A  + L     + +  +PL  G      +VL     ER  T   + +A + L  +  
+Sbjct  62   V-KAPRRVLERCHYRHADPMPLSGGVHK-GNIVLLTRFPERQATAAGIERAVQFLSGVMD  119
+
+Query  118  EVL  120
+             V 
+Sbjct  120  TVA  122
+
+
+> UniRef90_A0A0F7XWV8 Uncharacterized protein n=2 Tax=Pseudomonas 
+sp. CCOS 191 TaxID=1649877 RepID=A0A0F7XWV8_9PSED
+Length=131
+
+ Score = 108 bits (271),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 46/121 (38%), Positives = 67/121 (55%), Gaps = 0/121 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+             +    ++ FC+DLGV  + P  PL++LE+  +  LQLE+    LTLWL  S+     E 
+Sbjct  10   DFCTAAVARFCRDLGVAPAHPQEPLLRLELPDADVLQLERLAGQLTLWLEFSVHGAMFER  69
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            AM  AL      ++    LR G L + +LVL   LDE+ +T   LH+A+  L R++ EVL
+Sbjct  70   AMQCALRQVYEHQACGCLLRCGLLADDRLVLLAGLDEQGVTEQALHRAYRLLTRVRTEVL  129
+
+Query  121  A  121
+            A
+Sbjct  130  A  130
+
+
+> UniRef90_A0A0L6FV86 Molecular chaperone n=1 Tax=Pseudomonas sp. 
+250J TaxID=1478142 RepID=A0A0L6FV86_9PSED
+Length=123
+
+ Score = 107 bits (268),  Expect = 4e-27, Method: Composition-based stats.
+ Identities = 44/120 (37%), Positives = 62/120 (52%), Gaps = 0/120 (0%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+                  I+ FC+D GV  + P     +LE++Q G LQ E+    LTLWL  ++     E 
+Sbjct  2    DSCTDAIARFCRDQGVVLTHPQETFQRLELSQIGVLQFERQAGQLTLWLTFTVHGTLFER  61
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            A+  AL      ++    LR G L +  L L VSLDER +T  LLH+A+  L  ++ EVL
+Sbjct  62   ALSSALRHVHDHQAPGQLLRCGLLPDDCLALLVSLDERRVTEQLLHEAYRLLSWVRAEVL  121
+
+
+> UniRef90_B6WRJ7 Type III secretion chaperone SycN n=1 Tax=Desulfovibrio 
+piger ATCC 29098 TaxID=411464 RepID=B6WRJ7_9DELT
+Length=124
+
+ Score = 106 bits (266),  Expect = 8e-27, Method: Composition-based stats.
+ Identities = 32/122 (26%), Positives = 54/122 (44%), Gaps = 7/122 (6%)
+
+Query  3    IEPIISHFCQDLGVPTS-SPLSPLIQLEMAQSGTLQLEQH----GATLTLWLARSLAWHR  57
+            +   ++ F   +G+P        L+ L+++  G L  E+        L ++LAR    H 
+Sbjct  2    LNHELNTFGLRMGLPGLAFSPQGLVALDVSGMGRLYFEKQQRHGEEELLVYLARPFPPHD  61
+
+Query  58   CEDAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQ  117
+                  +AL L   + + A  L AG  G++ L+L   L ER  T  LL +A  +L R+  
+Sbjct  62   ST-LPERALALCHYRHARAFSLTAGMKGDN-LILLTRLPERQATAALLEEAVMELARVMN  119
+
+Query  118  EV  119
+             +
+Sbjct  120  HL  121
+
+
+> UniRef90_A0A1K1LC48 Type III secretion chaperone SycN n=1 Tax=Desulfovibrio 
+piger TaxID=901 RepID=A0A1K1LC48_9DELT
+Length=124
+
+ Score = 106 bits (266),  Expect = 8e-27, Method: Composition-based stats.
+ Identities = 32/122 (26%), Positives = 54/122 (44%), Gaps = 7/122 (6%)
+
+Query  3    IEPIISHFCQDLGVPTS-SPLSPLIQLEMAQSGTLQLEQH----GATLTLWLARSLAWHR  57
+            ++  ++ F   +G+P        L  L+++  G L  E+        L L+L+R    + 
+Sbjct  2    LDHELNAFGMRMGLPGLAFSPQGLAALDVSGMGRLYFERQQRRGEEELLLYLSRPFPPYD  61
+
+Query  58   CEDAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQ  117
+                  +AL L   + + A PL AG  G+  L+L   L ER +T  LL  A  +L R+  
+Sbjct  62   -GTLPERALALCHFRHASAFPLTAGMKGD-TLILLTRLPERQVTAALLEDAVMELARVMN  119
+
+Query  118  EV  119
+             +
+Sbjct  120  HL  121
+
+
+> UniRef90_Q2SC38 Uncharacterized protein n=1 Tax=Hahella chejuensis 
+(strain KCTC 2396) TaxID=349521 RepID=Q2SC38_HAHCH
+Length=125
+
+ Score = 106 bits (265),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 26/121 (21%), Positives = 52/121 (43%), Gaps = 2/121 (2%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            + I  +++ + + +GV        +  L       + L+Q    L + L+  L     ++
+Sbjct  2    NAIHNMLNAYGRSMGVNGV--GEGVTALSYETGERITLDQRDDCLAVSLSYELPEFEVDE  59
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+               K L LT  Q S   P++ G +GE +LV+ + ++    ++  L  A  +L    QE+ 
+Sbjct  60   VAEKLLQLTHYQTSTDYPIQPGLMGERRLVMTICMNASEASIDFLDGAIRRLRHRYQELT  119
+
+Query  121  A  121
+             
+Sbjct  120  G  120
+
+
+> UniRef90_UPI00048B6D3E hypothetical protein n=1 Tax=Terasakiella 
+pusilla TaxID=64973 RepID=UPI00048B6D3E
+Length=121
+
+ Score = 105 bits (263),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 29/121 (24%), Positives = 60/121 (50%), Gaps = 2/121 (2%)
+
+Query  2    WIEPIISHFCQDLGVPTS-SPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            + + +++ F + +G+       + L + E  + GTLQLE+    +T+ L+++    +  D
+Sbjct  2    FFDDLLTRFGESMGIEGLRFDENNLCEFEFERLGTLQLEKAEDHITVALSQTYDRFK-PD  60
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+               KAL  +        P+R+G   + +L+ FV LD+    L +L Q  ++L    +++ 
+Sbjct  61   MARKALAQSHFDTIFRHPVRSGLSKDERLIFFVRLDQSQADLSILEQVLDELSERFRQLA  120
+
+Query  121  A  121
+            A
+Sbjct  121  A  121
+
+
+> UniRef90_A0A1I4F4I1 Type III secretion chaperone SycN n=1 Tax=Mesorhizobium 
+albiziae TaxID=335020 RepID=A0A1I4F4I1_9RHIZ
+Length=120
+
+ Score = 104 bits (259),  Expect = 8e-26, Method: Composition-based stats.
+ Identities = 34/118 (29%), Positives = 55/118 (47%), Gaps = 4/118 (3%)
+
+Query  4    EPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAMV  63
+            E  I  FC  +G+P   P +P + L   +SG L LE    +  ++L R++   R   A  
+Sbjct  4    EAAIQAFCSAMGLP---PQTPPLTLRFERSGNLHLECRDGSFVMYLTRAMPLRRKGAAAA  60
+
+Query  64   KALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+             AL      ++    +   + GE+ LVL + +    + LP L  A + L+RL  E+ A
+Sbjct  61   -ALRAVHPDRALPFMVHVAFNGEALLVLLIGMAMDRVDLPTLESAAQVLVRLIDEIDA  117
+
+
+> UniRef90_Q2SH41 YopN chaperone SycN-like protein n=1 Tax=Hahella 
+chejuensis (strain KCTC 2396) TaxID=349521 RepID=Q2SH41_HAHCH
+Length=125
+
+ Score = 104 bits (259),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 33/114 (29%), Positives = 51/114 (45%), Gaps = 0/114 (0%)
+
+Query  6    IISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAMVKA  65
+             I+ F Q LG          + L   +SGTL +E H   L L   + ++ + C D + KA
+Sbjct  10   TITEFLQQLGFADFIWRGEPLTLAFERSGTLMIEPHEQGLLLVRLQEISEYDCADLIPKA  69
+
+Query  66   LTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            L      +   L    G  G SQL   V+L  + L++  L++A   L  L Q++
+Sbjct  70   LRAVHYDQPLPLRAHTGMKGASQLAFIVALSRQQLSIAGLNEALGVLDYLHQQL  123
+
+
+> UniRef90_A0A135NRS3 Uncharacterized protein n=2 Tax=Pseudomonas 
+mosselii TaxID=78327 RepID=A0A135NRS3_9PSED
+Length=123
+
+ Score = 103 bits (258),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 43/119 (36%), Positives = 64/119 (54%), Gaps = 0/119 (0%)
+
+Query  3    IEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAM  62
+                I  FC+D GV  +      ++L++   G LQ E+    +TLWL+ ++     E AM
+Sbjct  4    CSEAIVRFCRDQGVVLAHLPETRLRLDLPDIGVLQFERLAGQVTLWLSFAVQGALLEHAM  63
+
+Query  63   VKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+              AL      +     LR G L + +LVL VSLDER +T  +LH+A++ L R++ EVLA
+Sbjct  64   SSALRHVQDHQVPGQLLRCGLLPDERLVLLVSLDERRVTKQVLHEAYQLLSRMRVEVLA  122
+
+
+> UniRef90_A0A1J4XHU7 Uncharacterized protein n=1 Tax=Verrucomicrobia 
+bacterium CG1_02_43_26 TaxID=1805421 RepID=A0A1J4XHU7_9BACT
+Length=126
+
+ Score = 103 bits (257),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 29/122 (24%), Positives = 56/122 (46%), Gaps = 8/122 (7%)
+
+Query  3    IEPIISHFCQDLGVPTSSPL-SPLIQLEMAQSGTLQLEQ----HGATLTLWLARSLAWHR  57
+            I+ +I  + + LG+P  +     +I L+  + G L LE+        L ++L R +A   
+Sbjct  2    IDDVIQKYSKSLGLPPPNWEKEGIIHLQSTELGDLYLERIPSPPEDVLLVYLTREIANAD  61
+
+Query  58   CEDAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQ  117
+             +      L           P+ AG  G+++ V  + L+ ++L+   L  A   L+RLQ+
+Sbjct  62   LDTYFQ-ILEFCHYT--LPFPVNAGLYGDNKFVFSIKLEGKTLSQKQLETAVNLLIRLQE  118
+
+Query  118  EV  119
+            ++
+Sbjct  119  DL  120
+
+
+> UniRef90_A0A0H3ACH2 Type III secretion chaperone SycN n=3 Tax=Desulfovibrio 
+vulgaris TaxID=881 RepID=A0A0H3ACH2_DESVV
+Length=124
+
+ Score = 102 bits (255),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 29/120 (24%), Positives = 51/120 (43%), Gaps = 3/120 (3%)
+
+Query  3    IEPIISHFCQDLGVPT-SSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDA  61
+            ++  I+ F + +G+         L   ++   G L +E    TL ++LAR++  H     
+Sbjct  2    LQDTIAAFARRMGMTGFVPSAGGLAAFDIDGVGRLYVEPSDDTLLVYLARAVPAHETH-L  60
+
+Query  62   MVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+              + L L+  + +  LPL+ G  G  Q V+   LD R+ T   +  A   L  +     A
+Sbjct  61   PRRLLDLSHYRHAWPLPLQGGMHG-GQAVVLTRLDGRTATAVDVENAAVLLAGVLDRATA  119
+
+
+> UniRef90_A0A1B7X9D2 Uncharacterized protein n=1 Tax=Halodesulfovibrio 
+spirochaetisodalis TaxID=1560234 RepID=A0A1B7X9D2_9DELT
+Length=132
+
+ Score = 101 bits (253),  Expect = 8e-25, Method: Composition-based stats.
+ Identities = 24/128 (19%), Positives = 49/128 (38%), Gaps = 10/128 (8%)
+
+Query  4    EPIISHFCQDLGVPTSSPLSP-LIQLEMAQSGTLQLEQHGA-------TLTLWLARSLAW  55
+            E +IS F + +G+P  +P    +++    ++ ++ +E+           +++ + +    
+Sbjct  4    ESVISEFGKRIGMPELAPQQGEVVRFTFDETVSVAIERCQPSAMAPLFGVSISMGQQGPT  63
+
+Query  56   HRCE--DAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLL  113
+             + +      KA+ L         PL  G  G   LV    L E   T+ +L  A   L 
+Sbjct  64   VQSDIDALNEKAMRLVHYSTPQRFPLTCGKTGNGMLVFSTLLSEEECTVDVLEHALMYLD  123
+
+Query  114  RLQQEVLA  121
+               +   A
+Sbjct  124  ETLRSTFA  131
+
+
+> UniRef90_A0A1G3Z9K9 Uncharacterized protein n=1 Tax=Verrucomicrobia 
+bacterium GWF2_51_19 TaxID=1802431 RepID=A0A1G3Z9K9_9BACT
+Length=121
+
+ Score = 99.5 bits (247),  Expect = 6e-24, Method: Composition-based stats.
+ Identities = 25/117 (21%), Positives = 46/117 (39%), Gaps = 3/117 (3%)
+
+Query  3    IEPIISHFCQDLGVPTS-SPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDA  61
+            +   I  F +++G+P        +I L +   G L  E +   L ++L +  A H  +  
+Sbjct  1    MTDEIQTFGENIGIPGLAFNKHGVIHLSIENVGELFFETNENHLLIYLLKDYA-HDTDSL  59
+
+Query  62   MVKALTLTAAQK-SGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQ  117
+            + KAL L+                  + L      ++  L LP +++A +QL  L  
+Sbjct  60   LWKALNLSHTTTFDFNRLFNPILTENNFLGFLFRFNKNDLQLPDIYKALDQLKELHD  116
+
+
+> UniRef90_A0A0D8CRY8 Uncharacterized protein n=1 Tax=Thalassomonas 
+actiniarum TaxID=485447 RepID=A0A0D8CRY8_9GAMM
+Length=131
+
+ Score = 98.4 bits (244),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 21/117 (18%), Positives = 50/117 (43%), Gaps = 1/117 (1%)
+
+Query  5    PIISHFCQDLGVPTSSPLSP-LIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAMV  63
+             ++  + Q LG    S     +I+L+++ +  L  E     L + + + +A ++  + + 
+Sbjct  13   SMLEQYLQTLGFEDVSAFRGEVIELDVSGNKRLIFEVLERGLLISVIKEVAAYQLAEVVK  72
+
+Query  64   KALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+             A+ L   ++   +P+  G     QL     L      L +++ A + LL +  ++ 
+Sbjct  73   PAMALCHYREFLPVPICVGLGRNEQLAFSCLLSIGGDFLEVINPAVDILLSMHDKLD  129
+
+
+> UniRef90_UPI00092A55D9 UPI00092A55D9 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00092A55D9
+Length=132
+
+ Score = 97.6 bits (242),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 23/128 (18%), Positives = 50/128 (39%), Gaps = 10/128 (8%)
+
+Query  4    EPIISHFCQDLGVPTSSPLSP-LIQLEMAQSGTLQLEQHGA-------TLTLWLARSLAW  55
+            E ++  F + +G+P  +P +  +++     + ++ +E+           +++ + +    
+Sbjct  4    ESVVEEFGKRIGLPELTPQNGNVVRFVFDDTVSVTIERCQPQKMAPLFGISISMGQMEPQ  63
+
+Query  56   HRCEDAM--VKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLL  113
+             +C+  +   K L L         PL  G  G   LVL   L E   T+ +L      L 
+Sbjct  64   VQCDVDVLHEKVLKLVHYNTPHRYPLSCGKTGSGMLVLSALLPEEECTVDVLEHVLMYLD  123
+
+Query  114  RLQQEVLA  121
+               + + A
+Sbjct  124  ENLRTLFA  131
+
+
+> UniRef90_F8JFE9 Chaperone protein sycN n=1 Tax=Hyphomicrobium 
+sp. (strain MC1) TaxID=717785 RepID=F8JFE9_HYPSM
+Length=124
+
+ Score = 97.2 bits (241),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 42/120 (35%), Positives = 60/120 (50%), Gaps = 3/120 (3%)
+
+Query  4    EPIISHFCQDLGVPTSS-PLSPLIQLEMAQSGTLQLEQHGATLT-LWLARSLAWHRCEDA  61
+               I+ FC+ LG+P S   LS  + LE  +SGTL+LE++GA    L LAR +  HR    
+Sbjct  4    HSAIATFCESLGIPLSPIGLSLPLALEFERSGTLRLEENGAGGYWLTLAREVPLHRRG-V  62
+
+Query  62   MVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+                L      +S  L ++AG+ G+  LVL   L +     P +  A   L+RL  EV +
+Sbjct  63   AAAVLRAAHPDRSMPLRVKAGFHGDETLVLMTGLAKEVADAPAIASALRMLVRLADEVDS  122
+
+
+> UniRef90_UPI0003B639FB hypothetical protein n=1 Tax=Desulfospira 
+joergensenii TaxID=53329 RepID=UPI0003B639FB
+Length=119
+
+ Score = 95.7 bits (237),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 20/118 (17%), Positives = 43/118 (36%), Gaps = 1/118 (1%)
+
+Query  3    IEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAM  62
+            I   + +    +G+           L +   G+L +E+   T+ +  AR L        +
+Sbjct  3    IIKAVENLGNQMGIQLKLNDDGCASLNVGDQGSLFIERSQDTMAISFARKLDI-DVLPCL  61
+
+Query  63   VKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+             + L L   +    L LR G   +  +V+   L++  +   +  Q    L     +++
+Sbjct  62   ERGLELCRLKNEPRLGLRVGLFRDDTIVVVCKLEKHHINAGMTDQILPYLFETMDKII  119
+
+
+> UniRef90_A0A0D8D7F6 Uncharacterized protein n=1 Tax=Thalassomonas 
+viridans TaxID=137584 RepID=A0A0D8D7F6_9GAMM
+Length=131
+
+ Score = 96.1 bits (238),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 22/118 (19%), Positives = 48/118 (41%), Gaps = 3/118 (3%)
+
+Query  5    PIISHFCQDLGVPTSSPLSPLIQLEMAQSGT--LQLEQHGATLTLWLARSLAWHRCEDAM  62
+             ++  + Q LG    S     + +E+  SG   L  E     L + + + +A ++  + +
+Sbjct  13   SMLERYLQTLGFDDVSAFRGDV-IELEASGNKQLIFEVLERGLLISVIKEVAAYQLAEVV  71
+
+Query  63   VKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+              A+ +   ++   +P+  G     QL     L      L +++ A + LL L  ++ 
+Sbjct  72   KPAMAMCHYREFLPVPICVGMGKNDQLAFSCLLSIGGDFLEVINPAVDILLSLHDKLD  129
+
+
+> UniRef90_UPI0001744C94 hypothetical protein n=3 Tax=Verrucomicrobium 
+TaxID=2735 RepID=UPI0001744C94
+Length=131
+
+ Score = 94.5 bits (234),  Expect = 6e-22, Method: Composition-based stats.
+ Identities = 33/122 (27%), Positives = 55/122 (45%), Gaps = 6/122 (5%)
+
+Query  3    IEPIISHFCQDLGVPTSSP-LSPLIQLEMAQSGTLQLE---QHGATLTLWLARSLAWHRC  58
+            I+  +S F Q +G+    P     + L+++  GTL +E        + + L+R +     
+Sbjct  4    IDQTVSEFGQSMGMAHLQPNEQGAVILDISGIGTLSIELVGDRQEIVAVSLSRRIEPPDA  63
+
+Query  59   EDAMVKALTLTAAQKSGALPLRAGWLG-ESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQ  117
+              A   AL +T  ++ G+ P+RA   G    LV    ++     LP LH+A  QL  LQ 
+Sbjct  64   A-ACQMALEMTHPRQPGSWPVRAALAGGRGVLVFSARMETYEFNLPALHEAIAQLEALQD  122
+
+Query  118  EV  119
+             +
+Sbjct  123  AL  124
+
+
+> UniRef90_A0A126S2U8 Type III secretion chaperone SycN n=2 Tax=Pseudomonas 
+putida TaxID=303 RepID=A0A126S2U8_PSEPU
+Length=107
+
+ Score = 90.3 bits (223),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 38/104 (37%), Positives = 59/104 (57%), Gaps = 0/104 (0%)
+
+Query  18   TSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAMVKALTLTAAQKSGAL  77
+             + P   +++LE+  +G LQ E+    LTLWL+ +L     E A+  AL     Q++   
+Sbjct  3    LAHPPQTVLRLELPDTGVLQFERQAGQLTLWLSVTLPGALFEHALSSALRHVHDQQAPGQ  62
+
+Query  78   PLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+             LR G L + +LVL +SLDER +T   L +A+  L +++ EVLA
+Sbjct  63   LLRCGLLSDERLVLLLSLDERRVTEQALREAYRLLSQVRAEVLA  106
+
+
+> UniRef90_H0F7W5 Uncharacterized protein n=1 Tax=Achromobacter 
+arsenitoxydans SY8 TaxID=477184 RepID=H0F7W5_9BURK
+Length=126
+
+ Score = 90.7 bits (224),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 18/121 (15%), Positives = 45/121 (37%), Gaps = 5/121 (4%)
+
+Query  1    SWIEPIISHFCQDLGVPTSS-PLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            + ++  +S F   +G+P  +        L++     +  E  G  + ++L+  +  +   
+Sbjct  2    NSLDRALSDFGAHIGMPGLALGAGGNTALQLESGRRVVFEPAGDEVLVYLSEPVP-YDSA  60
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGES---QLVLFVSLDERSLTLPLLHQAFEQLLRLQ  116
+            + + KA       +    P++A    +    +L+    +     +   L QA + L R  
+Sbjct  61   ERLHKAWRRAHYSRLDGWPVQAALREQDGLPRLLAVTRMAAADASAARLGQAVDYLSRWL  120
+
+Query  117  Q  117
+             
+Sbjct  121  D  121
+
+
+> UniRef90_F7T1K3 Uncharacterized protein n=2 Tax=Achromobacter 
+TaxID=222 RepID=F7T1K3_9BURK
+Length=126
+
+ Score = 90.7 bits (224),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 16/125 (13%), Positives = 46/125 (37%), Gaps = 5/125 (4%)
+
+Query  1    SWIEPIISHFCQDLGVP-TSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            + ++  +  F + +G+          + L++     + +E  G  + ++++  +  +   
+Sbjct  2    NSLDRALGAFGETIGLDRLGLGPRGNLALQLDSGRRVAIETAGDEVLVYVSEPVP-YDAA  60
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGES---QLVLFVSLDERSLTLPLLHQAFEQLLRLQ  116
+              +++A            P++A    +    +L+    L       P L +A + L R  
+Sbjct  61   PRLLQAWRRAHHSHLAGYPVQAALRDQDGIPRLLALTRLPADQTDAPALRRAVDTLARWL  120
+
+Query  117  QEVLA  121
+             +  A
+Sbjct  121  DDARA  125
+
+
+> UniRef90_B8DMR9 Type III secretion chaperone SycN n=2 Tax=Desulfovibrio 
+vulgaris TaxID=881 RepID=B8DMR9_DESVM
+Length=133
+
+ Score = 90.3 bits (223),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 33/128 (26%), Positives = 51/128 (40%), Gaps = 11/128 (9%)
+
+Query  3    IEPIISHFCQDLGVPTSSPLSP---------LIQLEMAQSGTLQLEQHGATLTLWLARSL  53
+            ++  I+ F Q +G+                 LI L++   G L LE     L ++L+R  
+Sbjct  3    LQEAIASFGQRMGMSGLQLPGADPARPDAPRLIALDVDGMGRLHLEAADGELLIYLSRPF  62
+
+Query  54   AWHRCEDAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLL  113
+              H   D   + L L   + +  LPL+AG     Q +L   L ER  T   +  A + L 
+Sbjct  63   PAHD-ADMPRRMLALCHYRHARPLPLQAGVHA-GQAILLTRLPERLATAAAMETATDLLA  120
+
+Query  114  RLQQEVLA  121
+            R+  E   
+Sbjct  121  RIMDEATG  128
+
+
+> UniRef90_UPI00048E0C9F hypothetical protein n=1 Tax=Desulfocurvus 
+vexinensis TaxID=399548 RepID=UPI00048E0C9F
+Length=121
+
+ Score = 89.9 bits (222),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 32/120 (27%), Positives = 49/120 (41%), Gaps = 2/120 (2%)
+
+Query  3    IEPIISHFCQDLGVPTSS-PLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDA  61
+            I   +    + LG+       + L  L + + G+L LE+HG  L + LAR +A H   +A
+Sbjct  3    IRKAVDDLGRQLGLDGLELDANGLCTLNVGEGGSLFLERHGEALLVSLARRVAGH-VPEA  61
+
+Query  62   MVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+            + + L L          LR G L ++ LV    L+   L    L Q    L     +  A
+Sbjct  62   LARGLALCHESAQPRHGLRVGLLRDNVLVACARLERHHLAAGHLAQTVPYLFETLDKTGA  121
+
+
+> UniRef90_A0A0N8GEQ0 Uncharacterized protein n=1 Tax=Prosthecomicrobium 
+hirschii TaxID=665126 RepID=A0A0N8GEQ0_9RHIZ
+Length=125
+
+ Score = 89.5 bits (221),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 25/111 (23%), Positives = 40/111 (36%), Gaps = 0/111 (0%)
+
+Query  6    IISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAMVKA  65
+             +  F   +G+P  +          A+SGTL +        +     +   R      + 
+Sbjct  11   TVETFAGAMGLPARASADGSYAFRFARSGTLSITPASDDRVVMSLAWMPERRDASGPRQL  70
+
+Query  66   LTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQ  116
+            L       +    L  G   +   V  V+LD+R L LP L Q   +LL L+
+Sbjct  71   LAAATHDPATGRYLHTGMAPDGSFVAAVNLDQRHLDLPTLDQWLRRLLDLR  121
+
+
+> UniRef90_UPI0004119491 hypothetical protein n=1 Tax=Ottowia thiooxydans 
+TaxID=219182 RepID=UPI0004119491
+Length=125
+
+ Score = 89.1 bits (220),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 31/115 (27%), Positives = 48/115 (42%), Gaps = 5/115 (4%)
+
+Query  4    EPIISHFCQDLGVPTSSP-LSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAM  62
+            +  ++ F QD+GV + +P  S  +QL     G L   Q GA + L  A     +   + +
+Sbjct  5    DQTLADFGQDIGVESLTPGPSGSVQLRFDHGGILGFFQQGADVVLHWAEPAP-YDAPELL  63
+
+Query  63   VKALTLTAAQKSGALPLRAGWLGES---QLVLFVSLDERSLTLPLLHQAFEQLLR  114
+            ++A    +       PL+AG  G      LVL   + ER      LHQ    L +
+Sbjct  64   LRAFKRISDPPYNEPPLQAGLRGVDGVENLVLVTRMPERDCGARELHQMSSWLRQ  118
+
+
+> UniRef90_UPI00047A9697 hypothetical protein n=1 Tax=Mesorhizobium 
+ciceri TaxID=39645 RepID=UPI00047A9697
+Length=120
+
+ Score = 87.6 bits (216),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 30/118 (25%), Positives = 50/118 (42%), Gaps = 4/118 (3%)
+
+Query  4    EPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAMV  63
+            E     FC  +G+P       L      +SG L +E    +  ++L R++  HR   A  
+Sbjct  4    EAAAQAFCSTMGLPPQPLPLTLSL---ERSGNLHMESREGSFIMYLTRAMPLHRKGAAAA  60
+
+Query  64   KALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+                     ++    +   + GE+ LVL + + E  + LP L  A + L+RL  E+ A
+Sbjct  61   AL-GAVHPDRALPFMVHVAFYGEALLVLLIRMTEEGIDLPTLETAAQILVRLVGEIDA  117
+
+
+> UniRef90_A0A0Q8WY38 Uncharacterized protein n=1 Tax=Achromobacter 
+sp. Root83 TaxID=1736602 RepID=A0A0Q8WY38_9BURK
+Length=126
+
+ Score = 86.8 bits (214),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 18/121 (15%), Positives = 47/121 (39%), Gaps = 5/121 (4%)
+
+Query  1    SWIEPIISHFCQDLGVPTSS-PLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            + ++  +  F +D+G+P  +      + L++     + +E  G  + ++++  +  +   
+Sbjct  2    NSLDRALGAFGEDIGMPGLALGAGGNLALQLDSGRRVAIEPAGEEVLVYVSEPVP-YDAS  60
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGES---QLVLFVSLDERSLTLPLLHQAFEQLLRLQ  116
+            + + KA       +    P++     +    +L+    L     +   L QA E L R  
+Sbjct  61   ERLQKAWRRAHFSRLDGWPVQTALREQDGVPRLLAVTRLAAADASGHKLRQAVEHLSRWL  120
+
+Query  117  Q  117
+             
+Sbjct  121  D  121
+
+
+> UniRef90_A0P0P0 Uncharacterized protein n=1 Tax=Labrenzia aggregata 
+(strain ATCC 25650 / DSM 13394 / JCM 20685 / NBRC 16684 
+/ NCIMB 2208 / IAM 12614) TaxID=384765 RepID=A0P0P0_LABAI
+Length=127
+
+ Score = 86.4 bits (213),  Expect = 6e-19, Method: Composition-based stats.
+ Identities = 25/117 (21%), Positives = 49/117 (42%), Gaps = 2/117 (2%)
+
+Query  5    PIISHFCQDLGVPTSSP-LSPLIQLEMAQSGTLQLEQHGATLTLWLARSLA-WHRCEDAM  62
+             ++  F ++LG+    P     +  E  ++GT  +        + L+ S          +
+Sbjct  11   AVVREFTRNLGLGDVQPVEDGSVSFEFERAGTFSITPARDGRRMLLSLSRHKGRLQARNL  70
+
+Query  63   VKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+               L+L++       P+ AG   +  LVL V+LD  S TL ++    ++L+ L   +
+Sbjct  71   KDFLSLSSWDPVIGAPVNAGMSSQGGLVLVVALDGESQTLQMIELCLDRLIELHATL  127
+
+
+> UniRef90_UPI000468253B hypothetical protein n=1 Tax=Achromobacter 
+sp. DH1f TaxID=1397275 RepID=UPI000468253B
+Length=126
+
+ Score = 85.7 bits (211),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 15/122 (12%), Positives = 46/122 (38%), Gaps = 5/122 (4%)
+
+Query  1    SWIEPIISHFCQDLGVPTSS-PLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            + ++  +  F + +G+   +      + L++     + +E  G  + ++++  +  +   
+Sbjct  2    NSLDRALGAFGEHIGMDGLALGPRGNVALQLESGRRVAIEAAGDEVLVYVSEPVP-YDAP  60
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGES---QLVLFVSLDERSLTLPLLHQAFEQLLRLQ  116
+              +++A       +     ++A    +    +L+    L       P L QA + L R  
+Sbjct  61   QRLLQAWKRAHHSRLEGYAVQAALREQDGLPRLLAVTRLPAAQAGAPALKQAVDALSRWL  120
+
+Query  117  QE  118
+             +
+Sbjct  121  DD  122
+
+
+> UniRef90_A0A1C2Z8L8 Uncharacterized protein n=4 Tax=Achromobacter 
+TaxID=222 RepID=A0A1C2Z8L8_ALCXX
+Length=126
+
+ Score = 84.9 bits (209),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 18/125 (14%), Positives = 48/125 (38%), Gaps = 5/125 (4%)
+
+Query  1    SWIEPIISHFCQDLGVP-TSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            + ++  +  F + +G+   +      + L++     + +E  G  + ++++  +  +   
+Sbjct  2    NGLDRALGAFGETIGLERLALGPRGNVALQLDSGRRVAIEAAGDEVLVYVSEPVP-YDAA  60
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGES---QLVLFVSLDERSLTLPLLHQAFEQLLRLQ  116
+              +++A            P++A    +    +L+    L       P L QA E+L R  
+Sbjct  61   QRLLRAWRRAHHAHLDGSPVQAALREQDGIPRLLALTRLPAAHSDAPALRQAVERLARWL  120
+
+Query  117  QEVLA  121
+             +  A
+Sbjct  121  DDTRA  125
+
+
+> UniRef90_A0A0D8D3P1 Uncharacterized protein n=1 Tax=Thalassomonas 
+actiniarum TaxID=485447 RepID=A0A0D8D3P1_9GAMM
+Length=120
+
+ Score = 83.7 bits (206),  Expect = 6e-18, Method: Composition-based stats.
+ Identities = 25/113 (22%), Positives = 42/113 (37%), Gaps = 1/113 (1%)
+
+Query  2    WIEPIISHFCQDLGVPT-SSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            WI  +I+ +   +G+          + +    S  L +E       + +   L  H    
+Sbjct  5    WIAELIAQWLASVGIEAHGMQGQERLHMAFENSDRLCIEPIEEQCRVSVIHKLTVHDRLK  64
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLL  113
+             +   L  T+ ++ G   + A   GES L+L V L      L  L QA + L 
+Sbjct  65   VVESILGRTSFRQRGPFRVCAAMQGESLLILSVFLSREQGGLSQLQQALDHLR  117
+
+
+> UniRef90_A0A1E2TM18 Uncharacterized protein n=2 Tax=Pseudomonas 
+mosselii TaxID=78327 RepID=A0A1E2TM18_9PSED
+Length=90
+
+ Score = 81.0 bits (199),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 36/89 (40%), Positives = 51/89 (57%), Gaps = 0/89 (0%)
+
+Query  33   SGTLQLEQHGATLTLWLARSLAWHRCEDAMVKALTLTAAQKSGALPLRAGWLGESQLVLF  92
+             G LQ E+    +TLWL+ ++     E AM  AL      +     LR G L + +LVL 
+Sbjct  1    MGVLQFERLAGQVTLWLSFAVQGALFEHAMSSALRHVQDHQVPGQLLRCGLLPDERLVLL  60
+
+Query  93   VSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+            VSLDER +T  +LH+A++ L R++ EVLA
+Sbjct  61   VSLDERRVTKQVLHEAYQLLSRMRVEVLA  89
+
+
+> UniRef90_A0A179TD25 Uncharacterized protein n=4 Tax=Achromobacter 
+TaxID=222 RepID=A0A179TD25_ALCXX
+Length=126
+
+ Score = 81.8 bits (201),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 14/125 (11%), Positives = 46/125 (37%), Gaps = 5/125 (4%)
+
+Query  1    SWIEPIISHFCQDLGVP-TSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            + ++  +  F + +G+   +      + L++     + +E     + ++++  +  +   
+Sbjct  2    NSLDRALGAFGETIGLGRLALGPQGNLALQLDSGRRVVIEAADGEVLVYVSDPVP-YDAP  60
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGES---QLVLFVSLDERSLTLPLLHQAFEQLLRLQ  116
+              +++A       +    P++A    +    +L+    L         L +A + L R  
+Sbjct  61   TRLLQAWRRAHHSRLAGYPVQAALREQDGIPRLLALTRLPADQADAAELRRAADTLARWL  120
+
+Query  117  QEVLA  121
+             +  A
+Sbjct  121  DDARA  125
+
+
+> UniRef90_A0A0S9ES23 Uncharacterized protein n=2 Tax=Acidovorax 
+TaxID=12916 RepID=A0A0S9ES23_9BURK
+Length=127
+
+ Score = 81.4 bits (200),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 23/121 (19%), Positives = 51/121 (42%), Gaps = 5/121 (4%)
+
+Query  3    IEPIISHFCQDLGVPTSSP-LSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDA  61
+            ++  ++ F +D+G+PT        +QL +     L + Q G  + +  A  +  +     
+Sbjct  4    LQQALADFGRDIGLPTLEGGPDGGVQLRLESGALLGVAQQGEEVVVHWAEPV-RYDIAAL  62
+
+Query  62   MVKALTLTAAQKSGALPLRAGWLG---ESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQE  118
+            +++A+ L    +  A P++ G         LVL        ++   + +A E L + Q +
+Sbjct  63   LLRAMKLAGDARDAAQPVQVGLRSLPTGDWLVLATRFAAEGVSARRIREASEFLRQWQAD  122
+
+Query  119  V  119
+            +
+Sbjct  123  L  123
+
+
+> UniRef90_UPI00082A3C4C UPI00082A3C4C related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00082A3C4C
+Length=125
+
+ Score = 79.1 bits (194),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 30/115 (26%), Positives = 43/115 (37%), Gaps = 3/115 (3%)
+
+Query  8    SHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGAT--LTLWLARSLAWHRCEDAMVKA  65
+              F   LG+P        +    A +GTL L        + + LAR LA     D + +A
+Sbjct  12   QSFADRLGLPLRPARDGSLSFAFASTGTLSLTPAPDGSRVFVGLAR-LARRADGDRLRRA  70
+
+Query  66   LTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            L     Q S    +R G   +  L L   L +  L LP L    ++L  L   + 
+Sbjct  71   LMQAGHQASTGRVVRVGLAADDSLHLVTDLADSELDLPSLDACLQELSGLHDRIA  125
+
+
+> UniRef90_A0A095W5A7 Uncharacterized protein n=2 Tax=Achromobacter 
+sp. RTa TaxID=1532557 RepID=A0A095W5A7_9BURK
+Length=126
+
+ Score = 76.8 bits (188),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 19/121 (16%), Positives = 49/121 (40%), Gaps = 5/121 (4%)
+
+Query  1    SWIEPIISHFCQDLGVPTSS-PLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            + ++  +S F +D+G+P  +      + L++     + +E     + ++++  +  +   
+Sbjct  2    NSLDQALSAFGEDIGMPGLALGARGNVALQLESGRRVAIEPAENEVLVYVSDPVP-YDAP  60
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQL---VLFVSLDERSLTLPLLHQAFEQLLRLQ  116
+            + +++A       +   LP++A    +  L   +    L     +   L QA E L R  
+Sbjct  61   ERLLRAWRRAHHSRLDGLPVQAALREQDGLPRLLAATRLAAADASAHRLQQAVEHLSRWL  120
+
+Query  117  Q  117
+             
+Sbjct  121  D  121
+
+
+> UniRef90_A0A0D8DDT6 Uncharacterized protein n=1 Tax=Thalassomonas 
+viridans TaxID=137584 RepID=A0A0D8DDT6_9GAMM
+Length=125
+
+ Score = 73.7 bits (180),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 20/113 (18%), Positives = 42/113 (37%), Gaps = 1/113 (1%)
+
+Query  2    WIEPIISHFCQDLGVPTS-SPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCED  60
+            W+  +I+ + + + V     P    + +       L +E  G    L + R L  H   +
+Sbjct  5    WLNELIAQWLESIDVEPRRMPPQERLHMGFENGDRLCIEPFGELCQLSVVRRLPTHGRLE  64
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLL  113
+             +   L  ++ ++ G   +    +G+  L+L +        L  L Q  + L 
+Sbjct  65   IVEALLRQSSFKQRGPFRISTSMMGDKVLILSMFFTREECGLSQLQQGLDYLR  117
+
+
+> UniRef90_A0A157NV95 Type III secretion chaperone SycN n=2 Tax=Bordetella 
+ansorpii TaxID=288768 RepID=A0A157NV95_9BORD
+Length=130
+
+ Score = 69.9 bits (170),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 24/122 (20%), Positives = 45/122 (37%), Gaps = 7/122 (6%)
+
+Query  4    EPIISHFCQDLGVP-TSSPLSPLIQLEMAQSGTLQLEQ-HGATLTLWLARSLAWHRCEDA  61
+            E  +  F ++ G    S        L+        +E+ H   + +++A+ +A +     
+Sbjct  5    ELTLRQFGEEAGFDNLSFDARGQALLQSESGRQTGVERTHDRQVLVYMAQPVA-YDAGAW  63
+
+Query  62   MVKALTLTAAQKSGALPLRAGWL----GESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQ  117
+            +V+A       +     ++        G+ +LV  V L E   T   L QA + L R   
+Sbjct  64   LVRAWKRAHHSRMEDWAIQCALRESPDGQRRLVALVRLPEDEFTPLRLRQALDTLARWHD  123
+
+Query  118  EV  119
+             V
+Sbjct  124  AV  125
+
+
+> UniRef90_A0A171JXS9 Type III secretion chaperone SycN n=16 Tax=Bordetella 
+TaxID=517 RepID=A0A171JXS9_BORPT
+Length=125
+
+ Score = 68.3 bits (166),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 24/122 (20%), Positives = 41/122 (34%), Gaps = 5/122 (4%)
+
+Query  4    EPIISHFCQDLGVPTS-SPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAM  62
+            +  +  F QD+G+       S    L ++    L +E       + LA+ +        +
+Sbjct  5    DRALHQFGQDIGIEGLAFGPSGSASLALSNGRRLGVECVAGAALVHLAQRV-ERDAASVL  63
+
+Query  63   VKALTLTAAQKSGALPLRAGW---LGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            + A      Q+  A  ++        E  +V    L ERSL    L  A   L      +
+Sbjct  64   LAAWKRAHGQRGSAASIQTSLWSEGSEDWIVAQTRLPERSLDAAALRLAVLGLTNWLDRL  123
+
+Query  120  LA  121
+             A
+Sbjct  124  EA  125
+
+
+> UniRef90_A0A161YLT7 Uncharacterized protein n=1 Tax=Labrenzia 
+sp. OB1 TaxID=1561204 RepID=A0A161YLT7_9RHOB
+Length=129
+
+ Score = 68.3 bits (166),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 23/120 (19%), Positives = 47/120 (39%), Gaps = 4/120 (3%)
+
+Query  5    PIISHFCQDLGVPTSSPLS-PLIQLEMAQSGTLQLEQHGAT--LTLWLARSLAWHRCEDA  61
+             II+ F + + +   +P S   +  E+  +GTL L        + + L+R          
+Sbjct  10   SIITQFAKIMEIDRITPASDGSVTFELEHAGTLCLTASTDGSRVLVSLSRP-PESLQTGV  68
+
+Query  62   MVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVLA  121
+            + + L L+       +   AG      L+L   +    L+  ++ Q   +L+ L +  +A
+Sbjct  69   LARFLGLSHFDFHLGVSFNAGMNAGGGLMLVADIATSELSPQIIDQCLTRLISLHEGFVA  128
+
+
+> UniRef90_UPI000666EA85 UPI000666EA85 related cluster n=16 Tax=Alcaligenaceae 
+TaxID=506 RepID=UPI000666EA85
+Length=126
+
+ Score = 66.8 bits (162),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 16/122 (13%), Positives = 46/122 (38%), Gaps = 5/122 (4%)
+
+Query  1    SWIEPIISHFCQDLGVP-TSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCE  59
+            + ++  +  F + +G+   +      + L++     L +E  G  + ++++  +  +   
+Sbjct  2    NGLDGALGAFGESIGLERLALGTRGNLALQLDSGRRLAIEPIGDEVLVYVSEPVP-YDAA  60
+
+Query  60   DAMVKALTLTAAQKSGALPLRAGWLGESQL---VLFVSLDERSLTLPLLHQAFEQLLRLQ  116
+              +++A       +   L ++A    +  +   +    L       P L +  EQL R  
+Sbjct  61   QRLLRAWRRAHHSRLEGLAVQAALRDQDGIPRLLALARLPAARADAPALRRTVEQLARWL  120
+
+Query  117  QE  118
+             +
+Sbjct  121  DD  122
+
+
+> UniRef90_I9W9X0 Uncharacterized protein n=1 Tax=Ralstonia sp. 
+PBA TaxID=795666 RepID=I9W9X0_9RALS
+Length=135
+
+ Score = 66.0 bits (160),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 24/117 (21%), Positives = 44/117 (38%), Gaps = 5/117 (4%)
+
+Query  3    IEPIISHFCQDLGV-PTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDA  61
+            IE  ++ F Q+ G+          + L ++    L  E+    + L L   +  +     
+Sbjct  3    IEQTLAAFGQETGLGALVLTEDAPLHLALSDHEELIFERCPDGILLHLDTRV-RYDMPLV  61
+
+Query  62   MVKALTLTAAQKSGALPLRAGWL---GESQLVLFVSLDERSLTLPLLHQAFEQLLRL  115
+            +  A+    A  +   P++ G       S L++    DER+ TL  +  A   L R 
+Sbjct  62   LASAMQRITADGATPYPVQVGMRETPEGSWLIVGTRADERTFTLQWIELATAHLERW  118
+
+
+> UniRef90_W8WUC2 Uncharacterized protein n=1 Tax=Castellaniella 
+defragrans 65Phen TaxID=1437824 RepID=W8WUC2_CASDE
+Length=127
+
+ Score = 63.7 bits (154),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 22/121 (18%), Positives = 41/121 (34%), Gaps = 5/121 (4%)
+
+Query  5    PIISHFCQDLGVPTS-SPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAMV  63
+             I+  F +  G+                    L +EQ    + ++ A  +  +   D ++
+Sbjct  6    AILQQFGEAAGIAGLRFDARGQAVFRTMPGRLLGVEQADREMLVYAALPV-RYDSSDWLL  64
+
+Query  64   KALTLTAAQKSGALPLRAGWLGES---QLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+            +A       + G  P++           L+  V LDER  T   L Q  E L +    + 
+Sbjct  65   RACKRAHHSRLGDWPVQPALREYDGIPHLLALVRLDERDFTETRLRQTLEYLSQWLDALD  124
+
+Query  121  A  121
+            +
+Sbjct  125  S  125
+
+
+> UniRef90_G8PMM4 Uncharacterized protein n=10 Tax=Pseudovibrio 
+TaxID=258255 RepID=G8PMM4_PSEUV
+Length=124
+
+ Score = 63.7 bits (154),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 24/115 (21%), Positives = 42/115 (37%), Gaps = 3/115 (3%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGAT--LTLWLARSLAWHRC  58
+            S I+  +  F  ++ +P S      +   ++QSG L          + + L R++     
+Sbjct  5    SAIQSSLEAFANNMKIPFSPQADGSLSYLLSQSGELTFTPVENGNSIVVSLGRAMTG-DQ  63
+
+Query  59   EDAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLL  113
+              A    LT    +      L AG   +  L L V  +   L+   L Q  + L+
+Sbjct  64   NSANEALLTKAGFRPEIGTNLHAGKSKDGTLHLAVLYEAGQLSPAKLEQTVDYLI  118
+
+
+> UniRef90_UPI0007865567 UPI0007865567 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007865567
+Length=123
+
+ Score = 62.5 bits (151),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 27/111 (24%), Positives = 42/111 (38%), Gaps = 5/111 (5%)
+
+Query  5    PIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHG--ATLTLWLARSLAWHRCEDAM  62
+              I+ F   LG+P  +           QSG +          + + LARS+      +  
+Sbjct  9    ETIAAFAAQLGLPLPASPDGSYSFAFRQSGLVTFTAAEGSERVVMSLARSVHLDDASE--  66
+
+Query  63   VKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLL  113
+             + L L     +    L AG   +   +L VSLDE    LP +    ++LL
+Sbjct  67   ERLLQLAGPDPTTGQFLHAGTTRDGSALLAVSLDE-GFDLPAVEAGLQRLL  116
+
+
+> UniRef90_UPI00082B13EA UPI00082B13EA related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00082B13EA
+Length=107
+
+ Score = 61.8 bits (149),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 16/103 (16%), Positives = 37/103 (36%), Gaps = 3/103 (3%)
+
+Query  14   LGVPTSSPLSPLIQLEMAQSGTLQLE--QHGATLTLWLARSLAWHRCEDAMVKALTLTAA  71
+            + +P  +     +   ++QSG L     + G ++ + L+R L  +   + +   L     
+Sbjct  1    MEMPLETQPDGSVSFTLSQSGMLIFTPARQGESIVVSLSRPLNQNERTELLQ-VLQKAGY  59
+
+Query  72   QKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLR  114
+            +      L      +  L     L    +T P + +  + L+ 
+Sbjct  60   KVELGNNLHMALDRDENLYFSAMLSSSQVTTPTIERTVDYLIE  102
+
+
+> UniRef90_UPI00037DA045 hypothetical protein n=1 Tax=Algicola 
+sagamiensis TaxID=163869 RepID=UPI00037DA045
+Length=129
+
+ Score = 58.3 bits (140),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 18/117 (15%), Positives = 41/117 (35%), Gaps = 1/117 (1%)
+
+Query  3    IEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAM  62
+            ++  +  +   +G+           L       +  E     L + L      ++    +
+Sbjct  11   LQETVKKYFATIGLSIEDDFH-NQTLMFETGRQMTFEIVDTGLAITLRDPQPAYQSITHL  69
+
+Query  63   VKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+             + L  +   ++    L  GW G+  L L V L    +TLP+L     ++ +  + +
+Sbjct  70   EQMLYQSHFHQNPHPMLMPGWHGQDGLTLTVLLSRLDVTLPMLENVISRMNQCFENL  126
+
+
+> UniRef90_A0A1D2SBG6 Uncharacterized protein n=1 Tax=Comamonas 
+sp. SCN 65-56 TaxID=1660095 RepID=A0A1D2SBG6_9BURK
+Length=129
+
+ Score = 58.3 bits (140),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 23/124 (19%), Positives = 48/124 (39%), Gaps = 6/124 (5%)
+
+Query  3    IEPIISHFCQDLGVPTS-SPLSPLIQLEMAQSGTL-QLEQHGATLTLWLARSLAWHRCED  60
+            ++  ++ +   + +P         +QL  AQ+G L  + Q      +  A  LA H   +
+Sbjct  4    LQQALAEWGATMEMPDLRLGPDGTMQLRFAQTGALLGVAQQDNDTVVHHAVPLA-HGSAE  62
+
+Query  61   AMVKALTLTAAQKSGALPLRAGWL---GESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQ  117
+             +++A+   A     A  ++ G         LVL   + +  L+   + Q    L +   
+Sbjct  63   LVLRAMRQAAQVADPAQAVQVGLRSTTEGDWLVLGARIPQSELSAERMQQTVRFLHQWLA  122
+
+Query  118  EVLA  121
+            ++ A
+Sbjct  123  QLPA  126
+
+
+> UniRef90_UPI00065458C8 hypothetical protein n=1 Tax=Caenimonas 
+sp. SL110 TaxID=1450524 RepID=UPI00065458C8
+Length=127
+
+ Score = 57.5 bits (138),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 25/125 (20%), Positives = 44/125 (35%), Gaps = 7/125 (6%)
+
+Query  1    SWIEPIISHFCQDLGVP-TSSPLSPLIQLEMAQSGTLQLEQH----GATLTLWLARSLAW  55
+             W+   ++ F   +G+   S         E+   G L L       G  + + LA  L  
+Sbjct  2    DWVSHAVNAFGHSVGLENLSLDDDGCALFELEPGGKLWLHDLDAAGGDEVLVVLASPLPA  61
+
+Query  56   HRCEDAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRL  115
+                 +  +AL L   + + +   +    G   LV+ + +   S  L  L +A E L   
+Sbjct  62   P-AGTSARQALRLADFRVNPSWQTQLSVRGPD-LVVTLRMPRHSFMLSALEEAVESLFSF  119
+
+Query  116  QQEVL  120
+             + V 
+Sbjct  120  HERVA  124
+
+
+> UniRef90_A0A058YEX2 Type III secretion chaperone SycN n=1 Tax=Bordetella 
+bronchiseptica 99-R-0433 TaxID=1331202 RepID=A0A058YEX2_BORBO
+Length=125
+
+ Score = 56.0 bits (134),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 25/123 (20%), Positives = 45/123 (37%), Gaps = 5/123 (4%)
+
+Query  3    IEPIISHFCQDLGVP-TSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDA  61
+            ++  +  F QD+G+   +   S  + L ++    L +E       + LA+ +        
+Sbjct  4    VDMALRQFGQDIGIDRLAFGPSRSVALALSNGRRLGVECVAGATLVHLAQRV-ERDAASV  62
+
+Query  62   MVKALTLTAAQKSGALPLRAGW---LGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQE  118
+            ++ A      Q+ GA  ++       GE  +V    L ER L    L  A   L      
+Sbjct  63   LLAAWKRAHEQRGGASAIQTSLWSGDGEDWVVAQTRLPERPLDAAALRLAALSLTNWLDR  122
+
+Query  119  VLA  121
+            + A
+Sbjct  123  LEA  125
+
+
+> UniRef90_UPI00082D2AF6 UPI00082D2AF6 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00082D2AF6
+Length=119
+
+ Score = 55.2 bits (132),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 22/106 (21%), Positives = 42/106 (40%), Gaps = 3/106 (3%)
+
+Query  10   FCQDLGVPTSSPLSPLIQLEMAQSGTLQLE--QHGATLTLWLARSLAWHRCEDAMVKALT  67
+            F   +GVP        +    ++SGT+     ++G  L +  +R+L      D    A +
+Sbjct  13   FADTVGVPFEPAADGSVSYSFSESGTISFTPARNGDALVISRSRTLQTQERTDLTALA-S  71
+
+Query  68   LTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLL  113
+             +A        L  G   +  +     L  + ++LP +  A +QL+
+Sbjct  72   QSAYVAELQSDLFVGLTPQGDVYFSTVLFAQEISLPKVEAAIDQLI  117
+
+
+> UniRef90_A0A0P0FNK3 Uncharacterized protein n=1 Tax=Candidatus 
+Xiphinematobacter sp. Idaho Grape TaxID=1704307 RepID=A0A0P0FNK3_9BACT
+Length=119
+
+ Score = 53.7 bits (128),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 23/118 (19%), Positives = 47/118 (40%), Gaps = 2/118 (2%)
+
+Query  3    IEPIISHFCQDLGVP-TSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDA  61
+            +E ++  F   LG+     P    ++L +   G L L    + L + L+++L     E  
+Sbjct  1    MEQVLKDFGNLLGLSNLVLPPGKSVRLRIESLGELDLIHKDSHLLMRLSKTLPSFSKETL  60
+
+Query  62   MVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEV  119
+            +   L+ T        P+R       +L + +   ++  T   L+Q  E L +  + +
+Sbjct  61   LE-LLSATHFFFLSTRPVRVWIRNPDRLGIGLLFSQQEATAHCLYQGLELLGKEFRRI  117
+
+
+> UniRef90_UPI000371571F hypothetical protein n=1 Tax=Succinimonas 
+amylolytica TaxID=83769 RepID=UPI000371571F
+Length=134
+
+ Score = 47.1 bits (111),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 21/134 (16%), Positives = 44/134 (33%), Gaps = 18/134 (13%)
+
+Query  3    IEPIISHFCQDLGVPTSSPL-SPLIQLEMAQSGTLQLEQHGAT--------------LTL  47
+            I+  +  F   +GV  +       +   +  +    LE                   L L
+Sbjct  2    IQEEVKEFASRIGVDIAEFDREHPLCFRVDGALDFCLEFRQNEELVNEDGTVKVPVPLIL  61
+
+Query  48   WLARSLAWHRCEDAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQ  107
+             L   +A +     + K L  ++ ++   +    G+ GE  L +   +   +     +  
+Sbjct  62   SLRFPVAGYD-HALLQKFLRHSSYEQVNTISYTMGYSGEQAL-MMTDIPV-TARAADIEN  118
+
+Query  108  AFEQLLRLQQEVLA  121
+            A   L R  +E++A
+Sbjct  119  AIILLKRQYEEIMA  132
+
+
+> UniRef90_A0A1G3ZNI0 Uncharacterized protein n=1 Tax=Verrucomicrobia 
+bacterium RIFCSPHIGHO2_12_FULL_41_10 TaxID=1802433 RepID=A0A1G3ZNI0_9BACT
+Length=100
+
+ Score = 46.4 bits (109),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 19/99 (19%), Positives = 32/99 (32%), Gaps = 2/99 (2%)
+
+Query  22   LSPLIQLEMAQSGTLQLEQHGATLTLWLARSLAWHRCEDAMVKALTLTAAQKSGALPLRA  81
+                ++L +   G  Q+          L R +          K L+    ++    PL A
+Sbjct  3    EGGTLKLSIEGIGNFQMIHSSPKFLAGLQRKIENPYLLTG-QKILSHCHFREPHLKPLHA  61
+
+Query  82   GWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQQEVL  120
+                   L L     E  +T  LL  A + L+ +   +L
+Sbjct  62   QIR-NDVLGLSYIFKEEEITAALLSSALDSLVDIMGRIL  99
+
+
+> UniRef90_UPI0007566B93 hypothetical protein n=3 Tax=Burkholderia 
+ubonensis TaxID=101571 RepID=UPI0007566B93
+Length=224
+
+ Score = 45.2 bits (106),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 24/124 (19%), Positives = 42/124 (34%), Gaps = 13/124 (10%)
+
+Query  2    WIEPIISHFCQDLGVPTSSPLSPLIQLEMAQSGTLQLEQHGATLTLWLA---RSLAWHRC  58
+            +++ ++      LGV ++        L       + +E       +        L  H  
+Sbjct  64   FMKELLGELFDALGVGSAIAAEGCCALVFDGELVVNIEVQEQESRVLFTGQLAPLPEHLS  123
+
+Query  59   EDAMVKALTL-----TAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLL  113
+             +   + + L        + S  L   +G     QLVL   +D    +LP L  A  QLL
+Sbjct  124  IEQARQLMALNLALARYHRMSMGLEAHSG-----QLVLCHDVDVSQASLPTLETALAQLL  178
+
+Query  114  RLQQ  117
+            R  +
+Sbjct  179  RQVE  182
+
+
+> UniRef90_A0A0A7ELG8 Uncharacterized protein n=2 Tax=Pseudoalteromonas 
+TaxID=53246 RepID=A0A0A7ELG8_9GAMM
+Length=124
+
+ Score = 42.9 bits (100),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 25/125 (20%), Positives = 43/125 (34%), Gaps = 8/125 (6%)
+
+Query  1    SWIEPIISHFCQDLGVPTSSPLSPL-IQLEMAQSGTLQLEQHGATLTLWLARSL---AWH  56
+             W+E  +  F   LG+P     S   + L+     T ++    + L +     +   +  
+Sbjct  3    DWLESSLDGFLAKLGLPMQPWQSSPHLSLQFDGDITCEISVLDSQLMVSFLTPIVLSSQT  62
+
+Query  57   RCEDAMVKALTLTAAQKSGALPLRAGWLGESQLVLFVSLDERSLTLPLLHQAFEQLLRLQ  116
+            +    + K +     QK         W     +V   +L    +T   L QAF  LL   
+Sbjct  63   QVLAYLTK-MNPIHFQKGQFFRYH--WYQNQAIVQL-NLAHEEVTEIALEQAFTALLNES  118
+
+Query  117  QEVLA  121
+            Q + A
+Sbjct  119  QTIKA  123
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.157    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0486    0.140     1.90     42.6     43.6 
+
+Effective search space used: 436746253185
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

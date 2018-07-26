@@ -1,0 +1,3213 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1regx_
+
+Length=122
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P69628 Translation repressor protein n=47 Tax=Viruses ...  253     4e-84
+  UniRef90_A0A0B6VNI9 Translational repressor protein n=2 Tax=unc...  219     1e-70
+  UniRef90_A0A0A0YQP8 Translational repressor protein n=2 Tax=unc...  208     1e-66
+  UniRef90_A0A0A7HEC3 Translation repressor protein n=5 Tax=Sp18v...  194     4e-61
+  UniRef90_A0A0B5A466 Translational repressor protein n=2 Tax=Tg1...  192     5e-60
+  UniRef90_A0A0A0Q0B3 Translational repressor protein n=1 Tax=Pec...  191     7e-60
+  UniRef90_Q5QC21 RegA translational repressor protein n=8 Tax=Te...  190     1e-59
+  UniRef90_Q01751 Translation repressor protein n=12 Tax=Viruses ...  190     2e-59
+  UniRef90_A0A0K1Y4H9 Translational repressor protein n=4 Tax=unc...  187     2e-58
+  UniRef90_A0A0B4L9F3 Translational repressor protein n=4 Tax=Tev...  187     3e-58
+  UniRef90_E5DI56 Translational repressor protein n=3 Tax=Tevenvi...  178     7e-55
+  UniRef90_A0A0G2SS37 Translational repressor protein n=1 Tax=Pro...  167     3e-50
+  UniRef90_A0A193H117 Replication factor C small subunit /DNA pol...  167     9e-49
+  UniRef90_A0A023W654 Translational repressor protein n=1 Tax=Ser...  163     1e-48
+  UniRef90_C4MYJ7 RegA n=4 Tax=Tevenvirinae TaxID=1198136 RepID=C...  162     2e-48
+  UniRef90_E5EYL9 RegA translational repressor protein n=1 Tax=Ac...  160     1e-47
+  UniRef90_E5E480 RegA translational repressor protein n=1 Tax=Ac...  160     1e-47
+  UniRef90_A0A060AHC4 Putative early gene translational repressor...  159     2e-47
+  UniRef90_A0A192Y9Z3 Translational repressor n=1 Tax=Morganella ...  155     6e-46
+  UniRef90_D9ICA0 RegA early gene translational repressor n=9 Tax...  155     7e-46
+  UniRef90_D5JF83 Translational repressor of early genes n=7 Tax=...  150     1e-43
+  UniRef90_Q6J2P8 RegA translational repressor protein n=1 Tax=Ac...  146     2e-42
+  UniRef90_Q76Z73 RegA translational repressor protein n=2 Tax=un...  145     7e-42
+  UniRef90_E1A2P2 RegA translational repressor protein n=1 Tax=Ae...  144     3e-41
+  UniRef90_A0A0U4JTD3 Translation repressor protein n=1 Tax=Vibri...  144     3e-41
+  UniRef90_J7KK73 Translational repressor protein n=6 Tax=Myoviri...  143     5e-41
+  UniRef90_Q58LG7 Translational repressor n=4 Tax=dsDNA viruses, ...  141     4e-40
+  UniRef90_M4QIW5 Endoribonuclease translational repressor of ear...  139     3e-39
+  UniRef90_M4SNE3 RegA n=1 Tax=Cyanophage Syn30 TaxID=536474 RepI...  139     3e-39
+  UniRef90_A0A0C5AIV3 RegA n=1 Tax=Cyanophage P-TIM40 TaxID=15897...  139     3e-39
+  UniRef90_G8EYB9 RegA n=2 Tax=Synechococcus phage S-CAM8 TaxID=7...  138     7e-39
+  UniRef90_Q6WI72 RegA n=7 Tax=Schizot4virus TaxID=1198137 RepID=...  137     7e-39
+  UniRef90_E3SQA9 Translational repressor n=25 Tax=Viruses TaxID=...  138     7e-39
+  UniRef90_A0A1D8KSR3 Endoribonuclease translational repressor of...  138     8e-39
+  UniRef90_E3SJI0 Translational repressor n=4 Tax=unclassified My...  138     9e-39
+  UniRef90_Q6UP20 RegA translational repressor protein n=2 Tax=My...  137     2e-38
+  UniRef90_A0A1D8KPA3 Endoribonuclease translational repressor of...  137     2e-38
+  UniRef90_H8ZMQ1 RegA endoribonuclease n=3 Tax=Synechococcus pha...  137     2e-38
+  UniRef90_Q5GQK8 'Endoribonulceases, translational repressor n=1...  136     5e-38
+  UniRef90_A0A0E3FDG0 Translation repressor n=1 Tax=Synechococcus...  135     9e-38
+  UniRef90_E5EPN9 RegA translational repressor protein n=1 Tax=Ac...  135     1e-37
+  UniRef90_A0A0E3HSW4 Translation repressor n=4 Tax=Synechococcus...  135     1e-37
+  UniRef90_Q0QZ65 Translational repressor of early genes n=2 Tax=...  135     2e-37
+  UniRef90_A0A127KMM2 RegA n=1 Tax=Cyanophage S-RIM32 TaxID=12784...  135     2e-37
+  UniRef90_H8ZNE0 RegA endoribonulcease translational protein n=2...  134     4e-37
+  UniRef90_C7BV45 RegA n=6 Tax=Viruses TaxID=10239 RepID=C7BV45_9...  134     4e-37
+  UniRef90_V5UTX9 Endoribonuclease n=1 Tax=Synechococcus phage AC...  133     6e-37
+  UniRef90_W0B0R5 Translational repressor protein n=1 Tax=Acineto...  132     7e-37
+  UniRef90_Q58MI2 Translational repressor n=3 Tax=Prochlorococcus...  133     8e-37
+  UniRef90_S5MUZ4 RegA gene product translational repressor n=4 T...  133     8e-37
+  UniRef90_M1UGM2 Translational regulator n=2 Tax=Synechococcus p...  132     1e-36
+  UniRef90_M4QPQ3 RegA n=1 Tax=Synechococcus phage S-SKS1 TaxID=7...  132     3e-36
+  UniRef90_E3SL93 Translational repressor n=2 Tax=Synechococcus p...  132     3e-36
+  UniRef90_M4SLJ0 RegA n=1 Tax=Cyanophage P-RSM6 TaxID=929832 Rep...  131     4e-36
+  UniRef90_E3SPN3 Translational repressor n=3 Tax=Prochlorococcus...  131     5e-36
+  UniRef90_A0A142EZY8 RegA n=1 Tax=Stenotrophomonas phage vB_SmaS...  129     2e-35
+  UniRef90_I3ULD9 RegA n=1 Tax=Synechococcus phage S-CBM2 TaxID=3...  129     3e-35
+  UniRef90_A0A0K0KWI6 Putative translation repressor n=1 Tax=Proc...  129     3e-35
+  UniRef90_E3SJ40 Translational repressor n=1 Tax=Synechococcus p...  128     5e-35
+  UniRef90_A0A1D8KUJ9 Endoribonuclease translational repressor of...  128     7e-35
+  UniRef90_A0A0E3FIU8 Translation repressor n=3 Tax=Synechococcus...  127     9e-35
+  UniRef90_M1HLW7 RegA translational repressor n=1 Tax=Pelagibact...  127     2e-34
+  UniRef90_E3SSZ6 Translational repressor n=3 Tax=unclassified My...  127     2e-34
+  UniRef90_F5B416 RegA n=1 Tax=Synechococcus phage S-CRM01 TaxID=...  125     5e-34
+  UniRef90_Q6RHT9 Translation repressor protein n=1 Tax=Aeromonas...  121     1e-32
+  UniRef90_A0A125ST97 Uncharacterized protein n=1 Tax=Ralstonia p...  118     4e-31
+  UniRef90_I6WC18 Translation repressor protein n=1 Tax=Aeromonas...  114     1e-29
+  UniRef90_A0A067XQB3 RegA protein n=1 Tax=Caulobacter phage Cr30...  109     1e-27
+  UniRef90_W8JE72 Uncharacterized protein n=17 Tax=Myoviridae Tax...  100     7e-24
+  UniRef90_C8XUP1 RegA translational repressor protein n=9 Tax=Vi...  98.2    4e-23
+  UniRef90_S6CFF6 RegA translational repressor protein n=2 Tax=un...  95.5    4e-22
+  UniRef90_A0A0H4INT5 Endoribonuclease n=1 Tax=Stenotrophomonas p...  92.8    3e-21
+  UniRef90_A0A0A0YVI9 Endoribonulcease translational repressor of...  89.7    5e-20
+  UniRef90_K7YGV0 RegA-translational repressor n=1 Tax=Serratia p...  84.0    1e-17
+  UniRef90_C9DGI2 RegA translational repressor protein n=1 Tax=De...  57.0    6e-08
+
+
+> UniRef90_P69628 Translation repressor protein n=47 Tax=Viruses 
+TaxID=10239 RepID=REGA_BPR51
+Length=122
+
+ Score = 253 bits (646),  Expect = 4e-84, Method: Compositional matrix adjust.
+ Identities = 122/122 (100%), Positives = 122/122 (100%), Gaps = 0/122 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ
+Sbjct  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI
+Sbjct  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+
+Query  121  GN  122
+            GN
+Sbjct  121  GN  122
+
+
+> UniRef90_A0A0B6VNI9 Translational repressor protein n=2 Tax=unclassified 
+Myoviridae TaxID=196896 RepID=A0A0B6VNI9_9CAUD
+Length=122
+
+ Score = 219 bits (557),  Expect = 1e-70, Method: Compositional matrix adjust.
+ Identities = 103/122 (84%), Positives = 111/122 (91%), Gaps = 0/122 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEI LK PEDFLKVKETLTRMGIANNKDKVLYQSCHILQK+G Y++VHFKEML+MDGR 
+Sbjct  1    MIEINLKNPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKQGRYFVVHFKEMLKMDGRP  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V + EEDE+RRDSI WLLEDWGLIEI PGQRTFMK+L+NNFRVISFKQKHEW L  KYTI
+Sbjct  61   VVIDEEDEIRRDSITWLLEDWGLIEIAPGQRTFMKELSNNFRVISFKQKHEWTLKAKYTI  120
+
+Query  121  GN  122
+            GN
+Sbjct  121  GN  122
+
+
+> UniRef90_A0A0A0YQP8 Translational repressor protein n=2 Tax=unclassified 
+Myoviridae TaxID=196896 RepID=A0A0A0YQP8_9CAUD
+Length=122
+
+ Score = 208 bits (530),  Expect = 1e-66, Method: Compositional matrix adjust.
+ Identities = 98/122 (80%), Positives = 110/122 (90%), Gaps = 0/122 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEITLK+PEDFLKVKETLTRMGIANNKDK+LYQSCHILQK+G YYIVHFKEML++DGR 
+Sbjct  1    MIEITLKQPEDFLKVKETLTRMGIANNKDKILYQSCHILQKQGRYYIVHFKEMLKLDGRP  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V + EEDEVRRDSIA LLEDWGL++I PGQR++M ++ NNFRVISFKQK EW L  KYTI
+Sbjct  61   VVIDEEDEVRRDSIAQLLEDWGLVDIAPGQRSYMFEMANNFRVISFKQKDEWTLKSKYTI  120
+
+Query  121  GN  122
+            GN
+Sbjct  121  GN  122
+
+
+> UniRef90_A0A0A7HEC3 Translation repressor protein n=5 Tax=Sp18virus 
+TaxID=1913654 RepID=A0A0A7HEC3_9CAUD
+Length=122
+
+ Score = 194 bits (494),  Expect = 4e-61, Method: Compositional matrix adjust.
+ Identities = 96/122 (79%), Positives = 105/122 (86%), Gaps = 0/122 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEITLK+PEDFLKVKETLTRMGIANNKD+VLYQSCHILQK+G YYIVHFKEMLRMDGRQ
+Sbjct  1    MIEITLKQPEDFLKVKETLTRMGIANNKDRVLYQSCHILQKQGRYYIVHFKEMLRMDGRQ  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V++  ED  RRDSIA LLEDWGLI I   +   +  +TNNFRVISFKQK +WKLV KYTI
+Sbjct  61   VDIDGEDYQRRDSIAQLLEDWGLIAIKEEEHNELFAVTNNFRVISFKQKDDWKLVAKYTI  120
+
+Query  121  GN  122
+            GN
+Sbjct  121  GN  122
+
+
+> UniRef90_A0A0B5A466 Translational repressor protein n=2 Tax=Tg1virus 
+TaxID=1921704 RepID=A0A0B5A466_9CAUD
+Length=124
+
+ Score = 192 bits (487),  Expect = 5e-60, Method: Compositional matrix adjust.
+ Identities = 94/122 (77%), Positives = 104/122 (85%), Gaps = 1/122 (1%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEITLK+PEDFLKVKETLTRMGIANN  K+LYQSCHILQK+GLYYIVHFKEML+MDGRQ
+Sbjct  4    MIEITLKQPEDFLKVKETLTRMGIANNTQKILYQSCHILQKQGLYYIVHFKEMLKMDGRQ  63
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V +  EDEVRRDSIA LLE+WGL++I     T M ++ NNFRVISFKQK EW L  KYTI
+Sbjct  64   VIIDSEDEVRRDSIAQLLENWGLLDIKSADET-MYEMENNFRVISFKQKEEWTLKSKYTI  122
+
+Query  121  GN  122
+            GN
+Sbjct  123  GN  124
+
+
+> UniRef90_A0A0A0Q0B3 Translational repressor protein n=1 Tax=Pectobacterium 
+bacteriophage PM2 TaxID=1429794 RepID=A0A0A0Q0B3_9CAUD
+Length=122
+
+ Score = 191 bits (485),  Expect = 7e-60, Method: Compositional matrix adjust.
+ Identities = 93/122 (76%), Positives = 101/122 (83%), Gaps = 0/122 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEI LK PEDFLKVKETLTRMGIANNKDK+LYQSCHILQK+GLYYIVHFKEMLRMDGR 
+Sbjct  1    MIEIILKTPEDFLKVKETLTRMGIANNKDKILYQSCHILQKQGLYYIVHFKEMLRMDGRV  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V++  ED  RRDSIA LLE W L++I    R  + D+TNNFRVISFKQK EW L  KYTI
+Sbjct  61   VDIESEDYQRRDSIALLLEKWALLDIKESSRDTLFDMTNNFRVISFKQKDEWSLKSKYTI  120
+
+Query  121  GN  122
+            GN
+Sbjct  121  GN  122
+
+
+> UniRef90_Q5QC21 RegA translational repressor protein n=8 Tax=Tevenvirinae 
+TaxID=1198136 RepID=Q5QC21_9CAUD
+Length=120
+
+ Score = 190 bits (483),  Expect = 1e-59, Method: Compositional matrix adjust.
+ Identities = 94/122 (77%), Positives = 107/122 (88%), Gaps = 2/122 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEITLK+PEDFLKVKETLTRMGIANNK+K LYQSCHILQK+G YYIVHFKEMLRMDGRQ
+Sbjct  1    MIEITLKQPEDFLKVKETLTRMGIANNKEKKLYQSCHILQKQGRYYIVHFKEMLRMDGRQ  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V++  ED  RRDSIA LL+DWGLI+IV     F  ++TNNFRVISFKQK++W+L+ KYTI
+Sbjct  61   VDIDGEDYQRRDSIAQLLKDWGLIDIVDDSELF--EITNNFRVISFKQKNDWELLSKYTI  118
+
+Query  121  GN  122
+            GN
+Sbjct  119  GN  120
+
+
+> UniRef90_Q01751 Translation repressor protein n=12 Tax=Viruses 
+TaxID=10239 RepID=REGA_BPR69
+Length=122
+
+ Score = 190 bits (483),  Expect = 2e-59, Method: Compositional matrix adjust.
+ Identities = 96/122 (79%), Positives = 101/122 (83%), Gaps = 0/122 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEI LK PEDFLKVKETLTRMGIANNKDKVLYQSCHILQK+G YYIVHFKEMLRMDGRQ
+Sbjct  1    MIEIKLKNPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKQGKYYIVHFKEMLRMDGRQ  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V++  ED  RRDSIA LLEDWGLI I    R  +  LTNNFRVISFKQK +W L  KYTI
+Sbjct  61   VDIDGEDYQRRDSIAQLLEDWGLIVIEDSAREDLFGLTNNFRVISFKQKDDWTLKAKYTI  120
+
+Query  121  GN  122
+            GN
+Sbjct  121  GN  122
+
+
+> UniRef90_A0A0K1Y4H9 Translational repressor protein n=4 Tax=unclassified 
+Myoviridae TaxID=196896 RepID=A0A0K1Y4H9_9CAUD
+Length=123
+
+ Score = 187 bits (476),  Expect = 2e-58, Method: Compositional matrix adjust.
+ Identities = 93/121 (77%), Positives = 102/121 (84%), Gaps = 2/121 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQK+G YYIVHFKEML++DGR 
+Sbjct  4    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKQGRYYIVHFKEMLKLDGRP  63
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V +  EDE+RRDSIA LL DWGL+ I  GQ   +  + NNFRVI+FKQKHEW L  KYTI
+Sbjct  64   VIIDLEDEIRRDSIAQLLADWGLLSINRGQT--LAQMQNNFRVITFKQKHEWTLKSKYTI  121
+
+Query  121  G  121
+            G
+Sbjct  122  G  122
+
+
+> UniRef90_A0A0B4L9F3 Translational repressor protein n=4 Tax=Tevenvirinae 
+TaxID=1198136 RepID=A0A0B4L9F3_9CAUD
+Length=123
+
+ Score = 187 bits (474),  Expect = 3e-58, Method: Compositional matrix adjust.
+ Identities = 89/121 (74%), Positives = 106/121 (88%), Gaps = 2/121 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEI LK+PEDFLKVKETLTRMGIANN+D+VLYQSCHILQK+GLYY+VHFKEML++DGR 
+Sbjct  4    MIEIKLKQPEDFLKVKETLTRMGIANNRDRVLYQSCHILQKQGLYYVVHFKEMLKLDGRP  63
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V + +ED +RRDSIA LLEDWGLIE+V   R  ++ + NNFRVI+FKQK +WKL+ KYTI
+Sbjct  64   VTIDDEDIIRRDSIAQLLEDWGLIELV--DRGSLQAMQNNFRVITFKQKDDWKLIAKYTI  121
+
+Query  121  G  121
+            G
+Sbjct  122  G  122
+
+
+> UniRef90_E5DI56 Translational repressor protein n=3 Tax=Tevenvirinae 
+TaxID=1198136 RepID=E5DI56_9CAUD
+Length=121
+
+ Score = 178 bits (452),  Expect = 7e-55, Method: Compositional matrix adjust.
+ Identities = 87/121 (72%), Positives = 101/121 (83%), Gaps = 1/121 (1%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEITLK+PEDFLKVKETLTRMGIANNKDKVLYQSCHILQK+G YYIVHFKEML++DGR 
+Sbjct  1    MIEITLKQPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKQGKYYIVHFKEMLKLDGRP  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V +  ED +RRDSIA LL+ WGL++IV      + ++ NNFRVI+F+QK EW L  KYTI
+Sbjct  61   VTIDSEDYIRRDSIAQLLQGWGLLDIVTPD-VHLAEMQNNFRVITFQQKSEWTLKSKYTI  119
+
+Query  121  G  121
+            G
+Sbjct  120  G  120
+
+
+> UniRef90_A0A0G2SS37 Translational repressor protein n=1 Tax=Proteus 
+phage vB_PmiM_Pm5461 TaxID=1636250 RepID=A0A0G2SS37_9CAUD
+Length=121
+
+ Score = 167 bits (422),  Expect = 3e-50, Method: Compositional matrix adjust.
+ Identities = 81/122 (66%), Positives = 101/122 (83%), Gaps = 1/122 (1%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEI LK PEDFLK++ETLTR+GIANN  K LYQSCHILQK+G Y+IVHFKE+L++DGR+
+Sbjct  1    MIEIKLKTPEDFLKIRETLTRIGIANNSKKELYQSCHILQKQGKYFIVHFKELLKLDGRK  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V+++EED  RRDSIA LLE W L +I+ GQ+  + +  +NFRVISFKQK +WKL+ KY I
+Sbjct  61   VDISEEDIQRRDSIANLLESWELCDIIEGQKLNLPE-EHNFRVISFKQKEDWKLIHKYRI  119
+
+Query  121  GN  122
+            GN
+Sbjct  120  GN  121
+
+
+> UniRef90_A0A193H117 Replication factor C small subunit /DNA polymerase 
+clamp loader subunit n=1 Tax=Shigella phage SHFML-26 
+TaxID=1863009 RepID=A0A193H117_9CAUD
+Length=259
+
+ Score = 167 bits (423),  Expect = 9e-49, Method: Compositional matrix adjust.
+ Identities = 77/78 (99%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  45   YYIVHFKEMLRMDGRQVEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVI  104
+            +YIVHFKEMLRMDGRQVEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVI
+Sbjct  182  HYIVHFKEMLRMDGRQVEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVI  241
+
+Query  105  SFKQKHEWKLVPKYTIGN  122
+            SFKQKHEWKLVPKYTIGN
+Sbjct  242  SFKQKHEWKLVPKYTIGN  259
+
+
+> UniRef90_A0A023W654 Translational repressor protein n=1 Tax=Serratia 
+phage PS2 TaxID=1481112 RepID=A0A023W654_9CAUD
+Length=122
+
+ Score = 163 bits (412),  Expect = 1e-48, Method: Compositional matrix adjust.
+ Identities = 80/122 (66%), Positives = 96/122 (79%), Gaps = 0/122 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M++I L K +DFLK++ETLTRMGIANNK K LYQSCHILQK+GLYYIVHFKE+L++DGR 
+Sbjct  1    MLQIELIKKDDFLKIRETLTRMGIANNKTKTLYQSCHILQKQGLYYIVHFKELLKLDGRP  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            VE+T+ED  RRDSIA LLE W L +IV      + +  NNFRVIS KQK +W L+ KY I
+Sbjct  61   VEITDEDFQRRDSIAQLLEQWNLCKIVHKVGEKINEQVNNFRVISHKQKDQWSLIHKYKI  120
+
+Query  121  GN  122
+            GN
+Sbjct  121  GN  122
+
+
+> UniRef90_C4MYJ7 RegA n=4 Tax=Tevenvirinae TaxID=1198136 RepID=C4MYJ7_9CAUD
+Length=120
+
+ Score = 162 bits (409),  Expect = 2e-48, Method: Compositional matrix adjust.
+ Identities = 79/121 (65%), Positives = 93/121 (77%), Gaps = 2/121 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEI L  PE+FLK+KETLTR GIANN+DK LYQSCHILQKKG YYIVHFKE+L++DGR 
+Sbjct  1    MIEINLISPENFLKIKETLTRCGIANNRDKTLYQSCHILQKKGRYYIVHFKELLKLDGRS  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V+MT EDE+RR++IA LL  W L  ++     F     NNFRV+SFKQK EW L+ KY I
+Sbjct  61   VKMTWEDELRRNNIAKLLAQWNLCTLIDSD--FETTEVNNFRVLSFKQKEEWTLIEKYQI  118
+
+Query  121  G  121
+            G
+Sbjct  119  G  119
+
+
+> UniRef90_E5EYL9 RegA translational repressor protein n=1 Tax=Acinetobacter 
+phage Ac42 TaxID=762660 RepID=E5EYL9_9CAUD
+Length=118
+
+ Score = 160 bits (404),  Expect = 1e-47, Method: Compositional matrix adjust.
+ Identities = 76/121 (63%), Positives = 98/121 (81%), Gaps = 3/121 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MI+ITL +P DFLKVKETLTRMGIANNK +VLYQSCHILQK+G Y+I HFK+++RMDG++
+Sbjct  1    MIKITLNQPSDFLKVKETLTRMGIANNKTRVLYQSCHILQKRGEYFIAHFKDLMRMDGKK  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V++ +ED +R  SIA +LE W L++I    +   ++  NNFR+ISFKQK EW+LVPKY I
+Sbjct  61   VDIDDEDNLRTLSIAKMLESWNLLKI---DQELDQEPVNNFRIISFKQKSEWELVPKYII  117
+
+Query  121  G  121
+            G
+Sbjct  118  G  118
+
+
+> UniRef90_E5E480 RegA translational repressor protein n=1 Tax=Acinetobacter 
+phage Acj61 TaxID=760732 RepID=E5E480_9CAUD
+Length=118
+
+ Score = 160 bits (404),  Expect = 1e-47, Method: Compositional matrix adjust.
+ Identities = 77/122 (63%), Positives = 93/122 (76%), Gaps = 4/122 (3%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MI I L  P+DFLKVKETLTRMGIANNKDKVLYQSCHILQK+G Y+I HFK+M+++DG+ 
+Sbjct  1    MINIILNTPDDFLKVKETLTRMGIANNKDKVLYQSCHILQKQGKYFIAHFKDMMKLDGKA  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V M+E+D +R  SIA  LE WGLI+   G      +++NNFRVI F QK EW L  KYT+
+Sbjct  61   VNMSEDDLLRTKSIAKTLEAWGLIKTDLGDV----EISNNFRVIKFSQKSEWTLKSKYTV  116
+
+Query  121  GN  122
+            GN
+Sbjct  117  GN  118
+
+
+> UniRef90_A0A060AHC4 Putative early gene translational repressor 
+n=1 Tax=Cronobacter phage S13 TaxID=1327935 RepID=A0A060AHC4_9CAUD
+Length=121
+
+ Score = 159 bits (403),  Expect = 2e-47, Method: Compositional matrix adjust.
+ Identities = 76/123 (62%), Positives = 98/123 (80%), Gaps = 3/123 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+EI+L K +DFLK++ETLTR+GIANNK K LYQSCHILQK+G Y+IVHFKE+L++DGR 
+Sbjct  1    MLEISLNKSDDFLKIRETLTRIGIANNKTKTLYQSCHILQKQGKYFIVHFKELLKLDGRV  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQR-TFMKDLTNNFRVISFKQKHEWKLVPKYT  119
+            V+  EED++RR+ IA LLEDWGL  I+  ++  F  D  N+FR+I+F  K +WKLV KY 
+Sbjct  61   VDFNEEDQIRRNDIAKLLEDWGLCAIIESEKYDFRGD--NHFRIINFAAKEQWKLVHKYK  118
+
+Query  120  IGN  122
+            IGN
+Sbjct  119  IGN  121
+
+
+> UniRef90_A0A192Y9Z3 Translational repressor n=1 Tax=Morganella 
+phage vB_MmoM_MP1 TaxID=1852628 RepID=A0A192Y9Z3_9CAUD
+Length=119
+
+ Score = 155 bits (393),  Expect = 6e-46, Method: Compositional matrix adjust.
+ Identities = 77/122 (63%), Positives = 97/122 (80%), Gaps = 3/122 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEI L  P+DFLK++ETLTR+GIANN  KV+YQSCHILQK+G Y+IVHFKE+L++DGR 
+Sbjct  1    MIEIKLNTPDDFLKIRETLTRIGIANNTKKVIYQSCHILQKQGKYFIVHFKELLKLDGRI  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V +T+ED  RR++IA LLEDWGL +I+      + D  +NFRVISF+QK +W LV KY I
+Sbjct  61   VNITDEDIQRRNNIAGLLEDWGLCDILSD--VIITD-EHNFRVISFQQKKDWTLVHKYKI  117
+
+Query  121  GN  122
+            GN
+Sbjct  118  GN  119
+
+
+> UniRef90_D9ICA0 RegA early gene translational repressor n=9 Tax=unclassified 
+T4virus TaxID=329380 RepID=D9ICA0_9CAUD
+Length=122
+
+ Score = 155 bits (393),  Expect = 7e-46, Method: Compositional matrix adjust.
+ Identities = 75/122 (61%), Positives = 99/122 (81%), Gaps = 2/122 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+EI L   + FLK++ETLTR+GIANNK K+L+QSCHILQK+G Y+IVHFKE+LR+DGRQ
+Sbjct  3    MLEIKLSSDDSFLKIRETLTRIGIANNKKKMLWQSCHILQKQGRYFIVHFKELLRLDGRQ  62
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V+MTE+DE+RR++IA LLE+WG+IEI+     F ++  NNFRV++  QK EW L  KY I
+Sbjct  63   VDMTEDDELRRNNIARLLEEWGMIEILTPDLKFSEE--NNFRVLTHAQKAEWTLKYKYRI  120
+
+Query  121  GN  122
+            G+
+Sbjct  121  GH  122
+
+
+> UniRef90_D5JF83 Translational repressor of early genes n=7 Tax=Viruses 
+TaxID=10239 RepID=D5JF83_9CAUD
+Length=120
+
+ Score = 150 bits (378),  Expect = 1e-43, Method: Compositional matrix adjust.
+ Identities = 72/122 (59%), Positives = 99/122 (81%), Gaps = 2/122 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+EI L   + FLK++ETLTR+GIANNK K+L+QSCHIL+K+G Y+IVHFKE+L++DGRQ
+Sbjct  1    MLEIQLISDDSFLKIRETLTRIGIANNKKKMLWQSCHILKKQGKYFIVHFKELLKLDGRQ  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V+MTEEDE+RR++IA LLE+WG+++IV     F ++  NNFRV++  QK +W L  KY I
+Sbjct  61   VDMTEEDELRRNNIARLLEEWGMVKIVTTGLKFAEE--NNFRVLTHSQKADWILKYKYRI  118
+
+Query  121  GN  122
+            G+
+Sbjct  119  GH  120
+
+
+> UniRef90_Q6J2P8 RegA translational repressor protein n=1 Tax=Acinetobacter 
+virus 133 TaxID=279006 RepID=Q6J2P8_9CAUD
+Length=118
+
+ Score = 146 bits (369),  Expect = 2e-42, Method: Compositional matrix adjust.
+ Identities = 76/123 (62%), Positives = 93/123 (76%), Gaps = 8/123 (7%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEIT  +   FL++KETLTRMGIAN++DKVLYQSCHILQK+G YYI HFK++L++DG+ 
+Sbjct  1    MIEITPHQGA-FLQIKETLTRMGIANSRDKVLYQSCHILQKQGRYYIAHFKDLLKLDGKP  59
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDL--TNNFRVISFKQKHEWKLVPKY  118
+             ++TEED+VR  SIA +LE W L +I         DL  TNNFR+I   QK EWKLVPKY
+Sbjct  60   TDITEEDKVRTLSIATMLESWDLCQI-----ETQTDLVPTNNFRIIKHSQKAEWKLVPKY  114
+
+Query  119  TIG  121
+            TIG
+Sbjct  115  TIG  117
+
+
+> UniRef90_Q76Z73 RegA translational repressor protein n=2 Tax=unclassified 
+T4virus TaxID=329380 RepID=Q76Z73_9CAUD
+Length=122
+
+ Score = 145 bits (366),  Expect = 7e-42, Method: Compositional matrix adjust.
+ Identities = 75/127 (59%), Positives = 94/127 (74%), Gaps = 13/127 (10%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M++I LKK EDFLK++ETLTR+GIANN +K LYQSCHILQK+G YYIVHFKE+L++DGRQ
+Sbjct  4    MLQIQLKKDEDFLKIRETLTRIGIANNVEKRLYQSCHILQKQGKYYIVHFKELLQLDGRQ  63
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIV-----PGQRTFMKDLTNNFRVISFKQKHEWKLV  115
+            VE+++ED  RR+ IA LL++WG+ +IV     PG         N FRVIS K K  W LV
+Sbjct  64   VEISQEDIDRRNDIAVLLKEWGMCDIVSEHNAPG--------NNFFRVISHKDKANWTLV  115
+
+Query  116  PKYTIGN  122
+             KY  G+
+Sbjct  116  HKYKFGS  122
+
+
+> UniRef90_E1A2P2 RegA translational repressor protein n=1 Tax=Aeromonas 
+phage phiAS5 TaxID=879630 RepID=E1A2P2_9CAUD
+Length=120
+
+ Score = 144 bits (362),  Expect = 3e-41, Method: Compositional matrix adjust.
+ Identities = 72/121 (60%), Positives = 90/121 (74%), Gaps = 3/121 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M++I LK  +DFLK++ETLTR+GIANN  K LYQSCHILQK+G YYIVHFKE+L++DGRQ
+Sbjct  2    MLQIKLKTDDDFLKIRETLTRIGIANNVAKKLYQSCHILQKQGKYYIVHFKELLQLDGRQ  61
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            VE+ +ED  RR+ IA LL++W + EIV  Q   +    N FRVIS K KH W L+ KY  
+Sbjct  62   VEIGQEDIDRRNDIATLLQEWNMCEIVSDQ---VAPGNNFFRVISHKDKHNWTLIHKYKF  118
+
+Query  121  G  121
+            G
+Sbjct  119  G  119
+
+
+> UniRef90_A0A0U4JTD3 Translation repressor protein n=1 Tax=Vibrio 
+phage vB_VmeM-32 TaxID=1775142 RepID=A0A0U4JTD3_9VIRU
+Length=133
+
+ Score = 144 bits (363),  Expect = 3e-41, Method: Compositional matrix adjust.
+ Identities = 69/126 (55%), Positives = 91/126 (72%), Gaps = 12/126 (10%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MI+ITL +P+ FLK+KETLTRMGIAN+K K LYQSCHIL K+G Y+I HFKE+L +DG  
+Sbjct  1    MIQITLNQPDQFLKIKETLTRMGIANSKTKTLYQSCHILHKQGKYFIAHFKELLALDGAN  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIV-----PGQRTFMKDLTNNFRVISFKQKHEWKLV  115
+            +E+TEED+ R + IA LL  W + ++V     P +R F       FR+I+ K+KHEW L+
+Sbjct  61   IEITEEDKQRTEDIAHLLSTWNMCDVVEDNFEPIKRYF-------FRIIAHKEKHEWNLI  113
+
+Query  116  PKYTIG  121
+            PKYT+ 
+Sbjct  114  PKYTMS  119
+
+
+> UniRef90_J7KK73 Translational repressor protein n=6 Tax=Myoviridae 
+TaxID=10662 RepID=J7KK73_9CAUD
+Length=118
+
+ Score = 143 bits (360),  Expect = 5e-41, Method: Compositional matrix adjust.
+ Identities = 70/121 (58%), Positives = 90/121 (74%), Gaps = 3/121 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MI+I +  P+DFLK+ ETLTR+GIA+NK+K LYQSCHILQK+G Y+IVHFKEML++DG  
+Sbjct  1    MIQIDINHPDDFLKIAETLTRIGIASNKEKKLYQSCHILQKQGKYFIVHFKEMLKLDGLP  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V ++EED  RR++IA LL+ W L +I+           NNFRVIS KQK EW+L+ KY  
+Sbjct  61   VSISEEDISRRNNIASLLQSWNLCKILTPIEL---STHNNFRVISHKQKCEWQLIAKYKF  117
+
+Query  121  G  121
+            G
+Sbjct  118  G  118
+
+
+> UniRef90_Q58LG7 Translational repressor n=4 Tax=dsDNA viruses, 
+no RNA stage TaxID=35237 RepID=Q58LG7_BPPRS
+Length=139
+
+ Score = 141 bits (356),  Expect = 4e-40, Method: Compositional matrix adjust.
+ Identities = 66/121 (55%), Positives = 89/121 (74%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+EI+LK+P+DFLKV+ETLTR+G+A+ K+K LYQSCHIL KKG YYIVHFKE+  +DG++
+Sbjct  12   MVEISLKEPDDFLKVRETLTRIGVASRKEKKLYQSCHILHKKGQYYIVHFKELFALDGKR  71
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              ++E D  RR+ I  LL DWGL+EIV           +  +VI++K+KH+W L  KY I
+Sbjct  72   ANLSENDVQRRNRIIKLLSDWGLVEIVKVDEVKDAAPLSQIKVIAYKEKHDWTLESKYNI  131
+
+Query  121  G  121
+            G
+Sbjct  132  G  132
+
+
+> UniRef90_M4QIW5 Endoribonuclease translational repressor of early 
+genes n=2 Tax=Viruses TaxID=10239 RepID=M4QIW5_9CAUD
+Length=140
+
+ Score = 139 bits (351),  Expect = 3e-39, Method: Compositional matrix adjust.
+ Identities = 63/121 (52%), Positives = 88/121 (73%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E++L +P+DFLKV+ETLTR+G+A+ K++ LYQSCHIL K+G YYIVHFKE+  +DG++
+Sbjct  14   MVEVSLSEPDDFLKVRETLTRIGVASRKERKLYQSCHILHKQGRYYIVHFKELFALDGKK  73
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              +T+ D  RR+ IA LL DWGL+ +V  +R       N  +V+SFK K +W L  KY I
+Sbjct  74   TNLTQNDVQRRNRIAQLLSDWGLVSVVEAERIEDIAPLNQIKVLSFKDKDDWILESKYNI  133
+
+Query  121  G  121
+            G
+Sbjct  134  G  134
+
+
+> UniRef90_M4SNE3 RegA n=1 Tax=Cyanophage Syn30 TaxID=536474 RepID=M4SNE3_9VIRU
+Length=142
+
+ Score = 139 bits (350),  Expect = 3e-39, Method: Compositional matrix adjust.
+ Identities = 67/123 (54%), Positives = 92/123 (75%), Gaps = 4/123 (3%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIE++LK+P+DFLKV+ETLTR+G+A+ K+K LYQSCHIL KKG YYIVHFKE+  +DG++
+Sbjct  14   MIEVSLKEPDDFLKVRETLTRIGVASRKEKKLYQSCHILHKKGQYYIVHFKELFALDGKK  73
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLT--NNFRVISFKQKHEWKLVPKY  118
+              ++E D  RR+ I  LL DWGL+EIV    T +K+    +  +VI++K+K +W L  KY
+Sbjct  74   ANLSENDVQRRNRIIKLLSDWGLVEIV--NETLIKEAAPLSQIKVIAYKEKGDWTLESKY  131
+
+Query  119  TIG  121
+             IG
+Sbjct  132  NIG  134
+
+
+> UniRef90_A0A0C5AIV3 RegA n=1 Tax=Cyanophage P-TIM40 TaxID=1589733 
+RepID=A0A0C5AIV3_9CAUD
+Length=143
+
+ Score = 139 bits (350),  Expect = 3e-39, Method: Compositional matrix adjust.
+ Identities = 68/121 (56%), Positives = 85/121 (70%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+TLK+P+DFLKV+ETLTR+G+A+ K+K LYQSCHIL KKG YYIVHFKE+  +DG+ 
+Sbjct  12   MVEVTLKEPDDFLKVRETLTRIGVASRKEKKLYQSCHILHKKGKYYIVHFKELFALDGKP  71
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              MT+ D  RR  IA LL DWGLI +V           N  +V+S+K K EW L  KY I
+Sbjct  72   SNMTKNDVQRRHRIARLLSDWGLIGVVAPVDDVELAPLNQIKVLSYKDKGEWTLESKYNI  131
+
+Query  121  G  121
+            G
+Sbjct  132  G  132
+
+
+> UniRef90_G8EYB9 RegA n=2 Tax=Synechococcus phage S-CAM8 TaxID=754038 
+RepID=G8EYB9_9CAUD
+Length=143
+
+ Score = 138 bits (348),  Expect = 7e-39, Method: Compositional matrix adjust.
+ Identities = 65/121 (54%), Positives = 87/121 (72%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+ LK+P+DFLKV+ETLTR+G+A+ K+K LYQSCHIL KKG YYIVHFKE+  +DG++
+Sbjct  14   MVEVNLKEPDDFLKVRETLTRIGVASKKEKKLYQSCHILHKKGQYYIVHFKELFALDGKR  73
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              ++E D  RR+ I  LL DWGL+EIV           +  +VI++K+K EW L  KY I
+Sbjct  74   ANLSENDVQRRNRIIKLLSDWGLVEIVKEGVVSDAAPLSQIKVIAYKEKSEWTLESKYNI  133
+
+Query  121  G  121
+            G
+Sbjct  134  G  134
+
+
+> UniRef90_Q6WI72 RegA n=7 Tax=Schizot4virus TaxID=1198137 RepID=Q6WI72_BPKVM
+Length=126
+
+ Score = 137 bits (346),  Expect = 7e-39, Method: Compositional matrix adjust.
+ Identities = 70/121 (58%), Positives = 86/121 (71%), Gaps = 3/121 (2%)
+
+Query  2    IEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQV  61
+            +EI L   + FLK++ETLTR+GIANNK   LYQSCHILQK+G+Y++VHFKE+L +DGR V
+Sbjct  7    LEIQLPDDDAFLKIRETLTRIGIANNKTNTLYQSCHILQKRGVYFLVHFKELLALDGRCV  66
+
+Query  62   EMTEEDEVRRDSIAWLLEDWGLIEIV-PGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            E+T ED  RR++IA LLEDW L +I  P    F  D  N FRVISF+    W L  KY I
+Sbjct  67   EITAEDIERRNNIAKLLEDWNLCKIAHPESHEFTGD--NKFRVISFRDSKNWNLRYKYKI  124
+
+Query  121  G  121
+            G
+Sbjct  125  G  125
+
+
+> UniRef90_E3SQA9 Translational repressor n=25 Tax=Viruses TaxID=10239 
+RepID=E3SQA9_9CAUD
+Length=143
+
+ Score = 138 bits (348),  Expect = 7e-39, Method: Compositional matrix adjust.
+ Identities = 66/121 (55%), Positives = 87/121 (72%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+ LK+P+DFLKV+ETLTR+G+A+ K+K LYQSCHIL KKG YYIVHFKE+  +DG++
+Sbjct  14   MVEVNLKEPDDFLKVRETLTRIGVASRKEKKLYQSCHILHKKGQYYIVHFKELFALDGKK  73
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V ++E D  RR+ I  LL DWGL+EIV           +  +VI++K K EW L  KY I
+Sbjct  74   VNLSENDIQRRNRIVKLLSDWGLVEIVKEAVVSDAAPLSQIKVIAYKDKGEWILESKYNI  133
+
+Query  121  G  121
+            G
+Sbjct  134  G  134
+
+
+> UniRef90_A0A1D8KSR3 Endoribonuclease translational repressor 
+of early genes n=1 Tax=Synechococcus phage S-WAM1 TaxID=1815521 
+RepID=A0A1D8KSR3_9CAUD
+Length=139
+
+ Score = 138 bits (347),  Expect = 8e-39, Method: Compositional matrix adjust.
+ Identities = 67/121 (55%), Positives = 87/121 (72%), Gaps = 1/121 (1%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+ LK+P+DFLKV+ETLTR+G+A+ KD+ LYQSCHIL KKG YYIVHFKE+  +DG+ 
+Sbjct  12   MLEVALKEPDDFLKVRETLTRIGVASRKDRKLYQSCHILHKKGKYYIVHFKELFALDGKP  71
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              +T+ D  RR+ IA LL DWGL+E      T +  L N  +V+S+K K EW L  KY I
+Sbjct  72   ANITKNDVERRNRIAKLLFDWGLVEFNADSLTEIAPL-NQIKVLSYKDKSEWTLESKYNI  130
+
+Query  121  G  121
+            G
+Sbjct  131  G  131
+
+
+> UniRef90_E3SJI0 Translational repressor n=4 Tax=unclassified 
+Myoviridae TaxID=196896 RepID=E3SJI0_9CAUD
+Length=151
+
+ Score = 138 bits (348),  Expect = 9e-39, Method: Compositional matrix adjust.
+ Identities = 65/121 (54%), Positives = 87/121 (72%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIE+TL +P+DFLKV+ETLTR+G+A+ K++ LYQSCHIL KKG YYIVHFKE+  +DG++
+Sbjct  16   MIEVTLGEPDDFLKVRETLTRIGVASRKERKLYQSCHILHKKGQYYIVHFKELFALDGKK  75
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              +TE D  RR+ I  LL DWGL++IV           +  +VIS+K K +W+L  KY I
+Sbjct  76   ANITENDIQRRNRIIQLLSDWGLVKIVAPDSVLNLAPLSQIKVISYKDKGDWQLESKYNI  135
+
+Query  121  G  121
+            G
+Sbjct  136  G  136
+
+
+> UniRef90_Q6UP20 RegA translational repressor protein n=2 Tax=Myoviridae 
+TaxID=10662 RepID=Q6UP20_9CAUD
+Length=118
+
+ Score = 137 bits (344),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 68/121 (56%), Positives = 88/121 (73%), Gaps = 3/121 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MI I +  P+DFLK+ ETLTR+GIA+NK+K LYQSCHILQK+G Y+IVHFKEML++DG +
+Sbjct  1    MIPIDIAHPDDFLKIAETLTRIGIASNKEKKLYQSCHILQKQGKYFIVHFKEMLQLDGLK  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V++++ED  RR++IA LL  W L  I+           NNFRVIS KQK +W L+ KY  
+Sbjct  61   VDISDEDIGRRNNIAMLLNSWKLCTIL---EPIDVSSHNNFRVISHKQKADWTLIAKYKF  117
+
+Query  121  G  121
+            G
+Sbjct  118  G  118
+
+
+> UniRef90_A0A1D8KPA3 Endoribonuclease translational repressor 
+of early genes n=1 Tax=Synechococcus phage S-CAM9 TaxID=1883369 
+RepID=A0A1D8KPA3_9VIRU
+Length=145
+
+ Score = 137 bits (345),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 64/121 (53%), Positives = 89/121 (74%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+TL++P+DFLKV+ETLTR+G+A+ K+K LYQSCHIL K+G Y+IVHFKE+  +DG++
+Sbjct  15   MVEVTLREPDDFLKVRETLTRIGVASRKEKKLYQSCHILHKQGKYFIVHFKELFALDGKK  74
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              +T  D  RR+ I  LL DWGLI++V   R       N  +V+S+K+K+EW L  KY I
+Sbjct  75   ANLTVNDVQRRNRITNLLCDWGLIDVVDETRVAEVAPLNQIKVLSYKEKNEWALETKYNI  134
+
+Query  121  G  121
+            G
+Sbjct  135  G  135
+
+
+> UniRef90_H8ZMQ1 RegA endoribonuclease n=3 Tax=Synechococcus phage 
+ACG-2014c TaxID=1079998 RepID=H8ZMQ1_9CAUD
+Length=140
+
+ Score = 137 bits (345),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 65/121 (54%), Positives = 87/121 (72%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MI+++LK+P+DFLKV+ETLTR+G+A+ K K LYQSCHIL KKG YYIVHFKE+  +DG++
+Sbjct  12   MIQVSLKEPDDFLKVRETLTRIGVASKKVKKLYQSCHILHKKGQYYIVHFKELFALDGKR  71
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              ++E D  RR+ I  LL DWGL+EIV           +  +VI++K+K EW L  KY I
+Sbjct  72   ANLSENDMQRRNRIIKLLSDWGLVEIVKEDAVTDAAPLSQIKVIAYKEKTEWTLESKYNI  131
+
+Query  121  G  121
+            G
+Sbjct  132  G  132
+
+
+> UniRef90_Q5GQK8 'Endoribonulceases, translational repressor n=1 
+Tax=Synechococcus phage S-PM2 TaxID=238854 RepID=Q5GQK8_BPSYP
+Length=141
+
+ Score = 136 bits (342),  Expect = 5e-38, Method: Compositional matrix adjust.
+ Identities = 63/121 (52%), Positives = 86/121 (71%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E++L +P+DFLKV+ETLTR+G+A+ KD+ LYQSCHIL K+G YYIVHFKE+  +DG+Q
+Sbjct  14   MVEVSLNEPDDFLKVRETLTRIGVASRKDRKLYQSCHILHKQGKYYIVHFKELFALDGKQ  73
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              ++  D  RR+ IA LL DWGLI I   ++       N  +V+S++ K EW L  KY I
+Sbjct  74   TNLSLNDIQRRNRIAQLLSDWGLISIANKEQIEDVAPLNQIKVLSYRDKDEWTLESKYNI  133
+
+Query  121  G  121
+            G
+Sbjct  134  G  134
+
+
+> UniRef90_A0A0E3FDG0 Translation repressor n=1 Tax=Synechococcus 
+phage ACG-2014g TaxID=1493512 RepID=A0A0E3FDG0_9CAUD
+Length=142
+
+ Score = 135 bits (340),  Expect = 9e-38, Method: Compositional matrix adjust.
+ Identities = 64/121 (53%), Positives = 87/121 (72%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+ LK+P+DFLKV+ETLTR+G+A+ K+K L+QSCHIL KKG YYIVHFKE+  +DG++
+Sbjct  14   MVEVNLKQPDDFLKVRETLTRIGVASRKEKKLFQSCHILHKKGQYYIVHFKELFALDGKK  73
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              ++E D  RR+ I  LL DWGLIE+V           +  +VIS+K++ EW L  KY I
+Sbjct  74   ANLSENDIQRRNRIVKLLSDWGLIELVKESSVDDVAPLSQIKVISYKERTEWILESKYNI  133
+
+Query  121  G  121
+            G
+Sbjct  134  G  134
+
+
+> UniRef90_E5EPN9 RegA translational repressor protein n=1 Tax=Acinetobacter 
+phage Acj9 TaxID=760939 RepID=E5EPN9_9CAUD
+Length=126
+
+ Score = 135 bits (339),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 68/127 (54%), Positives = 92/127 (72%), Gaps = 9/127 (7%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQK------KGLYYIVHFKEML  54
+            M++I L +P +FLKV+ETLTRMGIAN +DKVL+QSCHIL+K      +  YY+ HFK+M+
+Sbjct  2    MVQILLTEPSNFLKVRETLTRMGIANQRDKVLHQSCHILKKFNPESGQDAYYVAHFKDMM  61
+
+Query  55   RMDGRQVEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKL  114
+            ++DG+ V +++ED  R  SIA  LE WGL+ +V  QR  + ++TNNFRVI   QK EW L
+Sbjct  62   KLDGKIVNISDEDVQRTYSIAKTLETWGLVTVV--QRLDI-EVTNNFRVIKAAQKAEWTL  118
+
+Query  115  VPKYTIG  121
+             PKY +G
+Sbjct  119  KPKYVVG  125
+
+
+> UniRef90_A0A0E3HSW4 Translation repressor n=4 Tax=Synechococcus 
+phage ACG-2014d TaxID=1493509 RepID=A0A0E3HSW4_9CAUD
+Length=162
+
+ Score = 135 bits (341),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 64/122 (52%), Positives = 91/122 (75%), Gaps = 2/122 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+TL++P+DFLKV+ETLTR+G+A+ K++ LYQSCHIL KKG YYIVHFKE+  +DG++
+Sbjct  17   MVEVTLREPDDFLKVRETLTRIGVASRKERKLYQSCHILHKKGQYYIVHFKELFALDGKK  76
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLT-NNFRVISFKQKHEWKLVPKYT  119
+              +++ D  RR+ I  LL DWGL + VP + TF+     +  ++IS+K+K EW L  KY 
+Sbjct  77   TNLSQNDVQRRNRIVQLLCDWGLAD-VPKKDTFVDQAPLSQIKIISYKEKGEWALESKYN  135
+
+Query  120  IG  121
+            IG
+Sbjct  136  IG  137
+
+
+> UniRef90_Q0QZ65 Translational repressor of early genes n=2 Tax=Synechococcus 
+phage syn9 TaxID=382359 RepID=Q0QZ65_BPSYS
+Length=149
+
+ Score = 135 bits (339),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 63/121 (52%), Positives = 85/121 (70%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M++I LK+P+DFLKV+ETLTR+G+A+ K+K LYQSCHIL KKG YYIVHFKE+  +DG++
+Sbjct  12   MVQIILKEPDDFLKVRETLTRIGVASKKEKKLYQSCHILHKKGQYYIVHFKELFALDGKK  71
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              ++  D  RR+ I  LL DWGL+E+    +       +  +VIS+K K EW L  KY I
+Sbjct  72   ANLSSNDIQRRNRIIQLLFDWGLVEVANSDQIVDAAPLSQIKVISYKDKGEWTLESKYNI  131
+
+Query  121  G  121
+            G
+Sbjct  132  G  132
+
+
+> UniRef90_A0A127KMM2 RegA n=1 Tax=Cyanophage S-RIM32 TaxID=1278479 
+RepID=A0A127KMM2_9CAUD
+Length=142
+
+ Score = 135 bits (339),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 63/121 (52%), Positives = 84/121 (69%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+ L +P+DFLKV+ETLTR+G+A+ KD+ LYQSCHIL K+G YYIVHFKE+  +DG+ 
+Sbjct  14   MVEVVLNEPDDFLKVRETLTRIGVASRKDRKLYQSCHILHKQGKYYIVHFKELFALDGKN  73
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              ++  D  RR+ IA LL DWGLI +V   +       N  +V+S+K K EW L  KY I
+Sbjct  74   TNLSLNDVQRRNRIAQLLSDWGLITVVSSTKIEDVAPLNQIKVLSYKDKGEWILESKYNI  133
+
+Query  121  G  121
+            G
+Sbjct  134  G  134
+
+
+> UniRef90_H8ZNE0 RegA endoribonulcease translational protein n=2 
+Tax=Myoviridae TaxID=10662 RepID=H8ZNE0_9CAUD
+Length=140
+
+ Score = 134 bits (336),  Expect = 4e-37, Method: Compositional matrix adjust.
+ Identities = 64/121 (53%), Positives = 86/121 (71%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIE+ LK+P+DFLKV+ETLTR+G+A+ K K LYQSCHIL KKG YYIVHFKE+  +DG++
+Sbjct  14   MIEVNLKEPDDFLKVRETLTRIGVASRKVKKLYQSCHILHKKGQYYIVHFKELFALDGKK  73
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              +++ D  RR+ I  LL DWGL+EIV           +  +VI++K+K +W L  KY I
+Sbjct  74   ANLSDNDVQRRNRIIKLLSDWGLVEIVKEDSIKGVAPLSQIKVIAYKEKGDWTLESKYNI  133
+
+Query  121  G  121
+            G
+Sbjct  134  G  134
+
+
+> UniRef90_C7BV45 RegA n=6 Tax=Viruses TaxID=10239 RepID=C7BV45_9CAUD
+Length=141
+
+ Score = 134 bits (336),  Expect = 4e-37, Method: Compositional matrix adjust.
+ Identities = 61/121 (50%), Positives = 85/121 (70%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+ L +P+DFLKV+ETLTR+G+A+ K+K +YQSCHIL K+G YYIVHFKE+  +DG+ 
+Sbjct  14   MVEVVLGEPDDFLKVRETLTRIGVASRKEKKIYQSCHILHKQGKYYIVHFKELFALDGKN  73
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              ++  D  RR+ I  LL DWGLI +V   +       N  +V+SFK+K++W L  KY I
+Sbjct  74   TNLSLNDVQRRNRIIQLLSDWGLITVVSADKIADLAPLNQIKVLSFKEKNDWTLESKYNI  133
+
+Query  121  G  121
+            G
+Sbjct  134  G  134
+
+
+> UniRef90_V5UTX9 Endoribonuclease n=1 Tax=Synechococcus phage 
+ACG-2014h TaxID=1340810 RepID=V5UTX9_9CAUD
+Length=140
+
+ Score = 133 bits (335),  Expect = 6e-37, Method: Compositional matrix adjust.
+ Identities = 64/123 (52%), Positives = 88/123 (72%), Gaps = 4/123 (3%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+ L++P+DFLKV+ETLTR+G+A+ K+K +YQSCHIL K+G YYIVHFKE+  +DG+ 
+Sbjct  14   MVEVVLREPDDFLKVRETLTRIGVASRKEKKIYQSCHILHKQGKYYIVHFKELFALDGKN  73
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLT--NNFRVISFKQKHEWKLVPKY  118
+               +  D  RR+ I  LL DWGLI IV  ++  + DL   N  +V++FK+K EW L  KY
+Sbjct  74   TNFSLNDLQRRNRIIQLLSDWGLITIVNAEQ--ISDLAPLNQIKVLAFKEKKEWTLESKY  131
+
+Query  119  TIG  121
+             IG
+Sbjct  132  NIG  134
+
+
+> UniRef90_W0B0R5 Translational repressor protein n=1 Tax=Acinetobacter 
+phage ZZ1 TaxID=1049283 RepID=W0B0R5_9CAUD
+Length=126
+
+ Score = 132 bits (333),  Expect = 7e-37, Method: Compositional matrix adjust.
+ Identities = 71/129 (55%), Positives = 90/129 (70%), Gaps = 12/129 (9%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGL------YYIVHFKEML  54
+            MI I L + E+FLKVKETLTRMGIAN +DKVLYQSCHIL+K+        +YIVHFK+M+
+Sbjct  1    MIPIKLVQSENFLKVKETLTRMGIANQRDKVLYQSCHILKKQDPATGEPKFYIVHFKDMM  60
+
+Query  55   RMDGRQVEMTEEDEVRRDSIAWLLEDWGLIEI--VPGQRTFMKDLTNNFRVISFKQKHEW  112
+            R+DG+ V +++ED  R  SIA  LE WGL+E+   P +     ++TNNFRVI   QK EW
+Sbjct  61   RLDGKVVNISDEDVQRTVSIAKTLETWGLVEVEFAPPEI----EVTNNFRVIKAAQKAEW  116
+
+Query  113  KLVPKYTIG  121
+             L  KY +G
+Sbjct  117  TLKSKYVVG  125
+
+
+> UniRef90_Q58MI2 Translational repressor n=3 Tax=Prochlorococcus 
+phage P-SSM2 TaxID=268746 RepID=Q58MI2_BPPRM
+Length=147
+
+ Score = 133 bits (335),  Expect = 8e-37, Method: Compositional matrix adjust.
+ Identities = 62/121 (51%), Positives = 85/121 (70%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+TL +P+DFLKV+ETLTR+G+A+ K+K +YQSCHIL K+G Y++VHFKE+  +DG+ 
+Sbjct  16   MVEVTLNEPDDFLKVRETLTRIGVASRKEKKIYQSCHILHKQGRYFLVHFKELFALDGKH  75
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              +T  D  RR+ IA LL DWGL+ IV   R       N  +V+S+K K +W L  KY I
+Sbjct  76   ANLTSNDVQRRNRIAQLLADWGLVGIVDTDRIQDIAPLNQIKVLSYKDKGDWILETKYNI  135
+
+Query  121  G  121
+            G
+Sbjct  136  G  136
+
+
+> UniRef90_S5MUZ4 RegA gene product translational repressor n=4 
+Tax=unclassified T4virus TaxID=329380 RepID=S5MUZ4_9CAUD
+Length=136
+
+ Score = 133 bits (334),  Expect = 8e-37, Method: Compositional matrix adjust.
+ Identities = 61/121 (50%), Positives = 84/121 (69%), Gaps = 1/121 (1%)
+
+Query  2    IEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQV  61
+            +EI LK  EDFLK+KETLTR+G+A+ K   L QSCHIL K+G Y I+HFKE+  MDG++ 
+Sbjct  16   VEINLKSSEDFLKIKETLTRIGVASRKTNTLTQSCHILHKRGRYAILHFKELFIMDGKET  75
+
+Query  62   EMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTIG  121
+              +EED  RR++IA LLE+WGL++IV    T    ++ N ++I FK +  W L  KY++G
+Sbjct  76   TFSEEDAARRNTIASLLEEWGLVQIVTPVTTPKASMS-NIKIIPFKDRDNWTLTSKYSVG  134
+
+Query  122  N  122
+             
+Sbjct  135  G  135
+
+
+> UniRef90_M1UGM2 Translational regulator n=2 Tax=Synechococcus 
+phage S-SSM4 TaxID=536466 RepID=M1UGM2_9CAUD
+Length=139
+
+ Score = 132 bits (333),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 63/123 (51%), Positives = 93/123 (76%), Gaps = 4/123 (3%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+TL++P+DFLKV+ETLTR+G+A+ K+K LYQSCHIL KKG Y+IVHFKE+  +DG++
+Sbjct  1    MVEVTLREPDDFLKVRETLTRIGVASRKEKKLYQSCHILHKKGQYFIVHFKELFALDGKK  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLT--NNFRVISFKQKHEWKLVPKY  118
+              +++ D  RR+ I  LL DWGL++ VP + + + D+   +  ++IS+K+K EW L  KY
+Sbjct  61   TNLSQNDVQRRNRIVQLLCDWGLVD-VPKKDSIL-DIAPLSQIKIISYKEKGEWILESKY  118
+
+Query  119  TIG  121
+             IG
+Sbjct  119  NIG  121
+
+
+> UniRef90_M4QPQ3 RegA n=1 Tax=Synechococcus phage S-SKS1 TaxID=754042 
+RepID=M4QPQ3_9CAUD
+Length=146
+
+ Score = 132 bits (331),  Expect = 3e-36, Method: Compositional matrix adjust.
+ Identities = 61/124 (49%), Positives = 89/124 (72%), Gaps = 4/124 (3%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+ L +P+DFLKV+ETLTR+G+A+ K++ +YQSCHIL K+G YY+VHFKE+  +DG+ 
+Sbjct  16   MVEVVLGEPDDFLKVRETLTRIGVASRKERKIYQSCHILHKQGRYYLVHFKELFALDGKH  75
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLT--NNFRVISFKQKHEWKLVPKY  118
+              +T  D  RR+ IA LL DWGLI IV   +  ++D+   N  +V++F+ K +W L  KY
+Sbjct  76   ANLTLNDVQRRNRIAQLLADWGLISIVDADK--IQDIAPLNQIKVLAFRDKQDWILETKY  133
+
+Query  119  TIGN  122
+             IG+
+Sbjct  134  NIGS  137
+
+
+> UniRef90_E3SL93 Translational repressor n=2 Tax=Synechococcus 
+phage S-SSM7 TaxID=445686 RepID=E3SL93_9CAUD
+Length=153
+
+ Score = 132 bits (331),  Expect = 3e-36, Method: Compositional matrix adjust.
+ Identities = 62/121 (51%), Positives = 85/121 (70%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIE+TL +P+DFLKV+ETLTR+G+A+ K+K +YQSCHIL K+G YYIVHFKE+  +DG+ 
+Sbjct  16   MIEVTLNEPDDFLKVRETLTRIGVASRKEKKIYQSCHILHKQGRYYIVHFKELFALDGKS  75
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              ++  D  RR+ I  LL DWGLI I+  ++       N  +V+S+K K +W L  KY I
+Sbjct  76   ANLSINDVQRRNRIITLLSDWGLITILRPEQIVDVAPLNQIKVLSYKDKGDWTLETKYNI  135
+
+Query  121  G  121
+            G
+Sbjct  136  G  136
+
+
+> UniRef90_M4SLJ0 RegA n=1 Tax=Cyanophage P-RSM6 TaxID=929832 RepID=M4SLJ0_9CAUD
+Length=137
+
+ Score = 131 bits (329),  Expect = 4e-36, Method: Compositional matrix adjust.
+ Identities = 64/121 (53%), Positives = 89/121 (74%), Gaps = 2/121 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E++LK+P+DFLK++ETLTR+G+A+ K+K LYQSCHIL KKG YYIVHFKE+  +DG+ 
+Sbjct  12   MLEVSLKEPDDFLKIRETLTRIGVASRKEKKLYQSCHILHKKGKYYIVHFKELFALDGKP  71
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              +T+ D  RR+ I  LL DWGL+E+   + T +  L N  +V+S+K K +W L  KY I
+Sbjct  72   ANITKNDVERRNRITKLLFDWGLVELAT-EPTEIAPL-NQIKVLSYKDKGDWTLESKYNI  129
+
+Query  121  G  121
+            G
+Sbjct  130  G  130
+
+
+> UniRef90_E3SPN3 Translational repressor n=3 Tax=Prochlorococcus 
+phage Syn1 TaxID=444861 RepID=E3SPN3_9CAUD
+Length=141
+
+ Score = 131 bits (329),  Expect = 5e-36, Method: Compositional matrix adjust.
+ Identities = 63/121 (52%), Positives = 83/121 (69%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+ L +P+DFLKV+ETLTR+G+A+ KD+ LYQSCHIL K+G YYIVHFKE+  +DG+ 
+Sbjct  13   MVEVVLSEPDDFLKVRETLTRIGVASRKDRKLYQSCHILHKQGKYYIVHFKELFALDGKN  72
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              ++  D  RR+ I  LL DWGLI IV   +       N  +V+S+K K EW L  KY I
+Sbjct  73   TNLSVNDVERRNRITKLLSDWGLISIVHEFQIENVAPLNQIKVLSYKDKGEWTLESKYNI  132
+
+Query  121  G  121
+            G
+Sbjct  133  G  133
+
+
+> UniRef90_A0A142EZY8 RegA n=1 Tax=Stenotrophomonas phage vB_SmaS-DLP_6 
+TaxID=1651816 RepID=A0A142EZY8_9VIRU
+Length=130
+
+ Score = 129 bits (324),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 61/121 (50%), Positives = 84/121 (69%), Gaps = 1/121 (1%)
+
+Query  2    IEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQV  61
+            IE+ LK  +DFLKV ETLTR+G+A+ + K LYQSCHIL K+G YYIVHFKE+  +DG+  
+Sbjct  7    IEVKLKNEDDFLKVMETLTRLGVASERTKTLYQSCHILHKRGQYYIVHFKELFALDGKPS  66
+
+Query  62   EMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNF-RVISFKQKHEWKLVPKYTI  120
+             + +ED  RR++IA LL+DWGL+ +V   ++ +        +VI +K K +W LV KY I
+Sbjct  67   SLDDEDVARRNTIANLLQDWGLVTLVDASKSSVNVAPMRLIKVIPYKDKGQWNLVTKYKI  126
+
+Query  121  G  121
+            G
+Sbjct  127  G  127
+
+
+> UniRef90_I3ULD9 RegA n=1 Tax=Synechococcus phage S-CBM2 TaxID=351708 
+RepID=I3ULD9_9CAUD
+Length=144
+
+ Score = 129 bits (324),  Expect = 3e-35, Method: Compositional matrix adjust.
+ Identities = 61/123 (50%), Positives = 85/123 (69%), Gaps = 2/123 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M ++ LK+P+DFLK++ETLTR+G+A+ ++K LYQSCHIL KKG YYIVHFKE+  +DG++
+Sbjct  13   MAQVVLKEPDDFLKIRETLTRIGVASRREKKLYQSCHILHKKGKYYIVHFKELFALDGKR  72
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLT--NNFRVISFKQKHEWKLVPKY  118
+              +T  D  RR+ I  LL DWGL+ +    +  + D+   N  +VI+FK K  W L  KY
+Sbjct  73   ANLTLNDLQRRNRIIQLLVDWGLVTLDAASQEKIVDVAPLNQIKVIAFKDKENWTLESKY  132
+
+Query  119  TIG  121
+             IG
+Sbjct  133  NIG  135
+
+
+> UniRef90_A0A0K0KWI6 Putative translation repressor n=1 Tax=Prochlorococcus 
+phage P-TIM68 TaxID=1542477 RepID=A0A0K0KWI6_9CAUD
+Length=146
+
+ Score = 129 bits (324),  Expect = 3e-35, Method: Compositional matrix adjust.
+ Identities = 62/123 (50%), Positives = 88/123 (72%), Gaps = 4/123 (3%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+ L +P+DFLKV+ETLTR+G+A+ K+K LYQSCHIL K+G Y+IVHFKE+  +DG+ 
+Sbjct  16   MVEVKLNEPDDFLKVRETLTRIGVASRKEKKLYQSCHILHKQGKYFIVHFKELFALDGKF  75
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLT--NNFRVISFKQKHEWKLVPKY  118
+              +T  D  RR+ I  LL DWGLI ++  +   ++D+   N  +V+ +K K+EWKL  KY
+Sbjct  76   ANLTINDVQRRNRITRLLSDWGLISVIKEES--IQDIAPLNQIKVLPYKDKNEWKLEQKY  133
+
+Query  119  TIG  121
+             IG
+Sbjct  134  NIG  136
+
+
+> UniRef90_E3SJ40 Translational repressor n=1 Tax=Synechococcus 
+phage S-SM2 TaxID=444860 RepID=E3SJ40_9CAUD
+Length=145
+
+ Score = 128 bits (322),  Expect = 5e-35, Method: Compositional matrix adjust.
+ Identities = 61/121 (50%), Positives = 82/121 (68%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+ L +P+DFLKV+ETLTR+G+A+ K+K LYQSCHIL K+G Y+IVHFKE+  +DG+ 
+Sbjct  16   MVEVLLNEPDDFLKVRETLTRIGVASRKEKKLYQSCHILHKQGRYFIVHFKELFALDGKH  75
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              +T  D  RR+ I  LL DWGLI +V           N  +V+++K K EW L  KY I
+Sbjct  76   ANLTVNDVQRRNRITRLLADWGLISVVKEDSVSDIAPLNQIKVLAYKDKGEWILEQKYNI  135
+
+Query  121  G  121
+            G
+Sbjct  136  G  136
+
+
+> UniRef90_A0A1D8KUJ9 Endoribonuclease translational repressor 
+of early genes n=1 Tax=Synechococcus phage S-CAM7 TaxID=1883368 
+RepID=A0A1D8KUJ9_9VIRU
+Length=140
+
+ Score = 128 bits (321),  Expect = 7e-35, Method: Compositional matrix adjust.
+ Identities = 62/123 (50%), Positives = 87/123 (71%), Gaps = 4/123 (3%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+EI L +P+DFLKV+ETLTR+G+A+ K+K +YQSCHIL K+G Y+IVHFKE+  +DG+ 
+Sbjct  16   MVEIFLSEPDDFLKVRETLTRIGVASRKEKKIYQSCHILHKQGRYFIVHFKELFALDGKH  75
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLT--NNFRVISFKQKHEWKLVPKY  118
+              +T+ D  RR+ I  LL DW L+ I       ++D+   N  +V+S+K+K EW L PKY
+Sbjct  76   TNITQNDIQRRNRITKLLSDWNLVGI--ANEDEIRDIAPLNQIKVLSYKEKGEWILEPKY  133
+
+Query  119  TIG  121
+             IG
+Sbjct  134  NIG  136
+
+
+> UniRef90_A0A0E3FIU8 Translation repressor n=3 Tax=Synechococcus 
+phage ACG-2014f TaxID=1493511 RepID=A0A0E3FIU8_9CAUD
+Length=142
+
+ Score = 127 bits (320),  Expect = 9e-35, Method: Compositional matrix adjust.
+ Identities = 61/122 (50%), Positives = 84/122 (69%), Gaps = 0/122 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIE+ L +P+DFLKV+ETLTR+G+A+ K+K +YQSCHIL K+G Y+IVHFKE+  +DG+ 
+Sbjct  16   MIEVFLSEPDDFLKVRETLTRIGVASRKEKKIYQSCHILHKQGRYFIVHFKELFALDGKH  75
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              +T  D  RR+ I  LL DW LIE+            N  +V+S+K+K +W L PKY I
+Sbjct  76   TTITLNDIQRRNRIVKLLSDWNLIEVSDSIDITDVAPLNQIKVLSYKEKEDWILEPKYNI  135
+
+Query  121  GN  122
+            G+
+Sbjct  136  GS  137
+
+
+> UniRef90_M1HLW7 RegA translational repressor n=1 Tax=Pelagibacter 
+phage HTVC008M TaxID=1283076 RepID=M1HLW7_9CAUD
+Length=148
+
+ Score = 127 bits (319),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 61/121 (50%), Positives = 89/121 (74%), Gaps = 2/121 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+ LK+P+DFLK++ETLTR+G+A+ K++ ++QSCHIL K+G Y+IVHFKE+  +DG++
+Sbjct  12   MLEVKLKEPDDFLKIRETLTRIGVASRKERKIFQSCHILHKQGRYFIVHFKELFALDGKK  71
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              +   D  RR++I+ LL DWGLIE+V G  T    L+   +V+ +K K EW L PKY I
+Sbjct  72   SNIMTNDIERRNTISQLLSDWGLIELV-GTITEKAPLS-QIKVLPYKDKKEWILEPKYNI  129
+
+Query  121  G  121
+            G
+Sbjct  130  G  130
+
+
+> UniRef90_E3SSZ6 Translational repressor n=3 Tax=unclassified 
+Myoviridae TaxID=196896 RepID=E3SSZ6_9CAUD
+Length=140
+
+ Score = 127 bits (318),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 59/121 (49%), Positives = 85/121 (70%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIE+ L++P+DFLKV+ETLTR+G+A+ K+K LYQSCHIL K+G YYIVHFKE+  +DG++
+Sbjct  15   MIEVGLREPDDFLKVRETLTRIGVASRKEKKLYQSCHILHKQGKYYIVHFKELFALDGKK  74
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              ++  D  RR+ I  LL DWGL+ I   +        +  +V+++K+K +W L  KY I
+Sbjct  75   ANLSLNDVQRRNRIVQLLGDWGLVSINNKESITDVAPLSQIKVLAYKEKGDWTLESKYNI  134
+
+Query  121  G  121
+            G
+Sbjct  135  G  135
+
+
+> UniRef90_F5B416 RegA n=1 Tax=Synechococcus phage S-CRM01 TaxID=1026955 
+RepID=F5B416_9CAUD
+Length=134
+
+ Score = 125 bits (315),  Expect = 5e-34, Method: Compositional matrix adjust.
+ Identities = 57/122 (47%), Positives = 85/122 (70%), Gaps = 0/122 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            ++E+ L +P+DFLKV+ETLTR+G+A+  +  LYQSCHIL K+G YYIV FKE+  +DG+ 
+Sbjct  8    LVEVRLNQPDDFLKVRETLTRIGVASRTENKLYQSCHILHKQGKYYIVSFKELFLLDGKA  67
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+             +++E D  RR+ I  LL DWGL+++V   +       +  ++I FK+K +W L PKY I
+Sbjct  68   SDLSENDIQRRNRITKLLSDWGLVQVVDSTKIEEMVPVSQIKIIPFKEKKDWILEPKYQI  127
+
+Query  121  GN  122
+            G+
+Sbjct  128  GS  129
+
+
+> UniRef90_Q6RHT9 Translation repressor protein n=1 Tax=Aeromonas 
+virus 65 TaxID=260149 RepID=Q6RHT9_9CAUD
+Length=123
+
+ Score = 121 bits (304),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 63/118 (53%), Positives = 79/118 (67%), Gaps = 3/118 (3%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MI I L  P+DFLKV+ETLTR+GIAN + K ++QSCHI+QK G YY+ HFKE+LR DGR 
+Sbjct  1    MIRIGLYNPQDFLKVRETLTRIGIANRETKHIWQSCHIIQKNGFYYVAHFKELLRRDGRD  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKY  118
+            V M++ED  R   IA+LLEDW L  ++    T  +     F VIS K+K EW    KY
+Sbjct  61   VVMSQEDVDRCYDIAYLLEDWDLCSVID---TMERPNRFEFHVISHKEKSEWIHKSKY  115
+
+
+> UniRef90_A0A125ST97 Uncharacterized protein n=1 Tax=Ralstonia 
+phage RSP15 TaxID=1785960 RepID=A0A125ST97_9CAUD
+Length=130
+
+ Score = 118 bits (295),  Expect = 4e-31, Method: Compositional matrix adjust.
+ Identities = 65/125 (52%), Positives = 84/125 (67%), Gaps = 4/125 (3%)
+
+Query  1    MIEITLKKPED--FLKVKETLTRMGIANN-KDKVLYQSCHILQKKGLYYIVHFKEMLRMD  57
+            ++EI L   ED  FLKVKETLTR+GIA+  +D+ L+Q+CHIL KKG YYIVHFK M  +D
+Sbjct  4    LVEIKLIGNEDDAFLKVKETLTRIGIASRWQDQTLFQTCHILYKKGKYYIVHFKTMYVLD  63
+
+Query  58   GRQVEMTEEDEVRRDSIAWLLEDWGLIEIV-PGQRTFMKDLTNNFRVISFKQKHEWKLVP  116
+            GR   +TE D  R+++I  LL+DW LI +V P Q    K   +N +V+ F  K  WKL P
+Sbjct  64   GRTNNLTENDIARQNTIIQLLQDWNLISVVNPEQIKEPKATLSNIKVVKFSDKQFWKLEP  123
+
+Query  117  KYTIG  121
+            KY +G
+Sbjct  124  KYRLG  128
+
+
+> UniRef90_I6WC18 Translation repressor protein n=1 Tax=Aeromonas 
+phage CC2 TaxID=1204516 RepID=I6WC18_9CAUD
+Length=128
+
+ Score = 114 bits (285),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 61/123 (50%), Positives = 78/123 (63%), Gaps = 13/123 (11%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MI I +++  DFL ++ETLTR+GIAN + K L+QSCHI++K G YYI HFKE+LR DG  
+Sbjct  9    MIRIGIQEATDFLSIQETLTRIGIANREQKKLWQSCHIVRKHGFYYIAHFKELLRRDGLD  68
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTN-----NFRVISFKQKHEWKLV  115
+            V +++ED  RRD I  LLEDWGL  I+        DL N      F +I  K K +W L 
+Sbjct  69   VVISQEDIDRRDDITSLLEDWGLCSII--------DLINPPKVYEFHIIQHKDKPDWTLK  120
+
+Query  116  PKY  118
+             KY
+Sbjct  121  SKY  123
+
+
+> UniRef90_A0A067XQB3 RegA protein n=1 Tax=Caulobacter phage Cr30 
+TaxID=1357714 RepID=A0A067XQB3_9CAUD
+Length=139
+
+ Score = 109 bits (273),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 57/125 (46%), Positives = 83/125 (66%), Gaps = 6/125 (5%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNK--DKVLYQSCHILQKKGLYYIVHFKEMLRMDG  58
+             IEI L KPEDFL VKETL R+GI+++K   K LY SC IL K+G Y+++HFKE   +D 
+Sbjct  15   FIEIELSKPEDFLIVKETLERIGISSSKTTPKTLYPSCVILFKRGRYWLLHFKECFMLDR  74
+
+Query  59   RQVEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLT--NNFRVISFKQKHEWKLVP  116
+            +    +EED  RR++IAWLL +WGL+ +        KDL   ++ +V+  K+K E++++ 
+Sbjct  75   KPTSFSEEDRKRRNTIAWLLNEWGLVTV--KNTEVFKDLAPISSIKVVPSKEKKEFQIIH  132
+
+Query  117  KYTIG  121
+            KY +G
+Sbjct  133  KYVVG  137
+
+
+> UniRef90_W8JE72 Uncharacterized protein n=17 Tax=Myoviridae TaxID=10662 
+RepID=W8JE72_9CAUD
+Length=154
+
+ Score = 100 bits (248),  Expect = 7e-24, Method: Compositional matrix adjust.
+ Identities = 55/124 (44%), Positives = 79/124 (64%), Gaps = 5/124 (4%)
+
+Query  1    MIEITLK--KPEDFLKVKETLTRMGIANNKD-KVLYQSCHILQKKGLYYIVHFKEMLRMD  57
+            M+E+ L   KP  FL +KETL+R+G+   ++   LYQ+CHIL K G Y+IVHFK +  +D
+Sbjct  24   MVEVQLNQDKPGIFLGIKETLSRIGVNTRQEPNTLYQTCHILHKFGRYHIVHFKHLFMLD  83
+
+Query  58   GRQVEMTEEDEVRRDSIAWLLEDWGLIEIV-PGQRTFMKDLTNNFRVISFKQKHEWKLVP  116
+            G     T ED +R + I  LLE W +++I+ P Q T + D++   +V+   Q  +WKLVP
+Sbjct  84   GHYNGFTREDVLRMNRIIRLLEQWNMVKILHPEQITEVADMSR-IKVVKHDQVSDWKLVP  142
+
+Query  117  KYTI  120
+            KYTI
+Sbjct  143  KYTI  146
+
+
+> UniRef90_C8XUP1 RegA translational repressor protein n=9 Tax=Viruses 
+TaxID=10239 RepID=C8XUP1_9CAUD
+Length=154
+
+ Score = 98.2 bits (243),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 53/124 (43%), Positives = 76/124 (61%), Gaps = 5/124 (4%)
+
+Query  1    MIEITLK--KPEDFLKVKETLTRMGIANNKD-KVLYQSCHILQKKGLYYIVHFKEMLRMD  57
+            M+E+ L   +P  FL +KETL+R+G+   ++   LYQ+CHIL K G YYIVHFK +  +D
+Sbjct  24   MVEVQLNQDRPGIFLGIKETLSRIGVNTRQEPNTLYQTCHILHKYGKYYIVHFKHLFMLD  83
+
+Query  58   GRQVEMTEEDEVRRDSIAWLLEDWGLIEIV-PGQRTFMKDLTNNFRVISFKQKHEWKLVP  116
+            G       ED +R + I  LLE W +++++ P Q T   D++   +V+   Q  EWKLVP
+Sbjct  84   GHYNGFNREDVLRMNRIIKLLEQWNMVKVIHPEQVTEAADMSR-IKVVKHDQVPEWKLVP  142
+
+Query  117  KYTI  120
+            KY I
+Sbjct  143  KYII  146
+
+
+> UniRef90_S6CFF6 RegA translational repressor protein n=2 Tax=unclassified 
+Myoviridae TaxID=196896 RepID=S6CFF6_9CAUD
+Length=154
+
+ Score = 95.5 bits (236),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 51/121 (42%), Positives = 75/121 (62%), Gaps = 3/121 (2%)
+
+Query  2    IEITLKKPEDFLKVKETLTRMGIANNKD-KVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            +E+   KP  FL +KETL+R+G+   ++ + LYQ+CHIL K G Y+IVHFK +  +DG  
+Sbjct  27   VELNQDKPGIFLGIKETLSRIGVNTRQEPETLYQTCHILHKSGKYFIVHFKHLFMLDGHY  86
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIV-PGQRTFMKDLTNNFRVISFKQKHEWKLVPKYT  119
+                 ED +R + I  LLE W +I+++ P Q T   D++   +V+   Q  +WKLVPKY 
+Sbjct  87   NGFQREDVLRMNRIIRLLEQWKMIKVLHPEQVTECADMS-RIKVVKHDQIADWKLVPKYI  145
+
+Query  120  I  120
+            I
+Sbjct  146  I  146
+
+
+> UniRef90_A0A0H4INT5 Endoribonuclease n=1 Tax=Stenotrophomonas 
+phage IME-SM1 TaxID=1654717 RepID=A0A0H4INT5_9CAUD
+Length=133
+
+ Score = 92.8 bits (229),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 54/128 (42%), Positives = 74/128 (58%), Gaps = 11/128 (9%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIAN-----NKDKVLYQSCHILQKKGLYYIVHFKEMLR  55
+              EI     + FLKV+ETLTR+GI+      N  + L+Q+CH+L K+G YYI HFK+M  
+Sbjct  4    FFEIEALDRDQFLKVRETLTRIGISTKRTDENGKQTLWQTCHVLHKRGRYYICHFKQMFL  63
+
+Query  56   MDGR--QVEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWK  113
+            +DGR    + T+ED  R + I  LL+DWGL++ +      +K  T N  V+    K  W 
+Sbjct  64   LDGRTKSTDFTDEDYDRTEYIVALLQDWGLVKALD---EVIKPPT-NVMVVKHSDKGNWN  119
+
+Query  114  LVPKYTIG  121
+            L  KYTIG
+Sbjct  120  LRCKYTIG  127
+
+
+> UniRef90_A0A0A0YVI9 Endoribonulcease translational repressor 
+of early genes RegA n=1 Tax=Erwinia phage phiEa2809 TaxID=1564096 
+RepID=A0A0A0YVI9_9CAUD
+Length=141
+
+ Score = 89.7 bits (221),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 54/127 (43%), Positives = 73/127 (57%), Gaps = 10/127 (8%)
+
+Query  1    MIEITL---KKPEDFLKVKETLTRMGI-----ANNKDKVLYQSCHILQKKGLYYIVHFKE  52
+            M+E+ L   K  + FL   ETL+R+GI      + +D+ LYQ+CHIL K G YYIVHFK 
+Sbjct  1    MVEVELAEGKSRDPFLSTLETLSRIGIHIRKDEDPEDRTLYQTCHILHKAGRYYIVHFKH  60
+
+Query  53   MLRMDGRQVEMTEEDEVRRDSIAWLLEDWGLIEIV-PGQRTFMKDLTNNFRVISFKQKHE  111
+            +  +DG+      ED +R + I  LL DWGL  I  P Q T    + N+ +V+      +
+Sbjct  61   LFMLDGKINGFYREDILRMNQIIRLLADWGLYTIKHPEQMTDFAGM-NHIKVVKHGDVSK  119
+
+Query  112  WKLVPKY  118
+            WKLVPKY
+Sbjct  120  WKLVPKY  126
+
+
+> UniRef90_K7YGV0 RegA-translational repressor n=1 Tax=Serratia 
+phage phiMAM1 TaxID=1262513 RepID=K7YGV0_9CAUD
+Length=163
+
+ Score = 84.0 bits (206),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 48/122 (39%), Positives = 67/122 (55%), Gaps = 7/122 (6%)
+
+Query  5    TLKKPEDFLKVKETLTRMGI-----ANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGR  59
+            T K  + F  + ETLTR+G+           VLYQ+CHI Q+ G YYIVHFK     +GR
+Sbjct  31   TSKARDTFFMITETLTRVGVNPKNEGGEPKNVLYQTCHITQRGGKYYIVHFKHFYMFEGR  90
+
+Query  60   QVEMTEEDEVRRDSIAWLLEDWGLIEIV-PGQRTFMKDLTNNFRVISFKQKHEWKLVPKY  118
+            +  +  ED +R + I  LLE WG+I+I  P Q T +  L  + +V+       W L+PKY
+Sbjct  91   RNGLCREDILRMNRIIRLLEQWGMIKIKHPEQITELAQLA-HIKVVKHHDAVNWTLLPKY  149
+
+Query  119  TI  120
+             +
+Sbjct  150  DV  151
+
+
+> UniRef90_C9DGI2 RegA translational repressor protein n=1 Tax=Deftia 
+phage phiW-14 TaxID=665032 RepID=C9DGI2_9CAUD
+Length=146
+
+ Score = 57.0 bits (136),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 40/125 (32%), Positives = 65/125 (52%), Gaps = 7/125 (6%)
+
+Query  1    MIEITLKKPEDFL---KVKETLTRMG-IANNKDKVLYQSCHILQKKGLYYIVHFKEM-LR  55
+            ++E+ LK+ +      +V+ETL R+G  A +   VL Q  H++  +G  YI HFK + L 
+Sbjct  8    LVEVKLKESDQGSMANRVRETLERIGTFAADTPDVLNQVAHLITLEGKQYIAHFKFLYLV  67
+
+Query  56   MDGRQVEMTEEDEVRRDSIAWLLEDWGLIEIV-PGQRTFMKDLT-NNFRVISFKQKHEWK  113
+              G    + + D  R++    +L +WG IE+V P Q   +   T    +V+  + K  WK
+Sbjct  68   FHGTDNRLKDSDIARQNKAIEMLVNWGFIEVVDPTQMEGVSPQTPAGVKVVRHQDKGNWK  127
+
+Query  114  LVPKY  118
+            L PK+
+Sbjct  128  LTPKF  132
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 449980988130
+Results from round 2
+
+
+Query= d1regx_
+
+Length=122
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A0C5AIV3 RegA n=1 Tax=Cyanophage P-TIM40 TaxID=15897...  222     6e-72
+  UniRef90_M4QIW5 Endoribonuclease translational repressor of ear...  222     1e-71
+  UniRef90_A0A127KMM2 RegA n=1 Tax=Cyanophage S-RIM32 TaxID=12784...  222     1e-71
+  UniRef90_A0A0A0YQP8 Translational repressor protein n=2 Tax=unc...  221     1e-71
+  UniRef90_E3SJI0 Translational repressor n=4 Tax=unclassified My...  221     4e-71
+  UniRef90_P69628 Translation repressor protein n=47 Tax=Viruses ...  219     4e-71
+  UniRef90_Q5GQK8 'Endoribonulceases, translational repressor n=1...  220     7e-71
+  UniRef90_E3SL93 Translational repressor n=2 Tax=Synechococcus p...  219     1e-70
+  UniRef90_Q58MI2 Translational repressor n=3 Tax=Prochlorococcus...  219     2e-70
+  UniRef90_E3SQA9 Translational repressor n=25 Tax=Viruses TaxID=...  218     4e-70
+  UniRef90_A0A1D8KPA3 Endoribonuclease translational repressor of...  218     4e-70
+  UniRef90_E3SJ40 Translational repressor n=1 Tax=Synechococcus p...  217     9e-70
+  UniRef90_A0A0B6VNI9 Translational repressor protein n=2 Tax=unc...  216     1e-69
+  UniRef90_Q0QZ65 Translational repressor of early genes n=2 Tax=...  217     1e-69
+  UniRef90_C7BV45 RegA n=6 Tax=Viruses TaxID=10239 RepID=C7BV45_9...  216     1e-69
+  UniRef90_E3SPN3 Translational repressor n=3 Tax=Prochlorococcus...  216     1e-69
+  UniRef90_Q58LG7 Translational repressor n=4 Tax=dsDNA viruses, ...  216     1e-69
+  UniRef90_A0A1D8KUJ9 Endoribonuclease translational repressor of...  216     2e-69
+  UniRef90_G8EYB9 RegA n=2 Tax=Synechococcus phage S-CAM8 TaxID=7...  216     2e-69
+  UniRef90_M4SNE3 RegA n=1 Tax=Cyanophage Syn30 TaxID=536474 RepI...  216     2e-69
+  UniRef90_V5UTX9 Endoribonuclease n=1 Tax=Synechococcus phage AC...  215     6e-69
+  UniRef90_H8ZNE0 RegA endoribonulcease translational protein n=2...  215     6e-69
+  UniRef90_A0A0A7HEC3 Translation repressor protein n=5 Tax=Sp18v...  214     7e-69
+  UniRef90_E3SSZ6 Translational repressor n=3 Tax=unclassified My...  214     9e-69
+  UniRef90_Q01751 Translation repressor protein n=12 Tax=Viruses ...  213     2e-68
+  UniRef90_M1UGM2 Translational regulator n=2 Tax=Synechococcus p...  213     2e-68
+  UniRef90_H8ZMQ1 RegA endoribonuclease n=3 Tax=Synechococcus pha...  213     3e-68
+  UniRef90_A0A0E3FIU8 Translation repressor n=3 Tax=Synechococcus...  212     5e-68
+  UniRef90_A0A0E3HSW4 Translation repressor n=4 Tax=Synechococcus...  213     5e-68
+  UniRef90_M4QPQ3 RegA n=1 Tax=Synechococcus phage S-SKS1 TaxID=7...  212     8e-68
+  UniRef90_A0A0E3FDG0 Translation repressor n=1 Tax=Synechococcus...  211     1e-67
+  UniRef90_A0A0K0KWI6 Putative translation repressor n=1 Tax=Proc...  211     2e-67
+  UniRef90_A0A1D8KSR3 Endoribonuclease translational repressor of...  210     3e-67
+  UniRef90_M4SLJ0 RegA n=1 Tax=Cyanophage P-RSM6 TaxID=929832 Rep...  209     6e-67
+  UniRef90_E5DI56 Translational repressor protein n=3 Tax=Tevenvi...  208     2e-66
+  UniRef90_Q5QC21 RegA translational repressor protein n=8 Tax=Te...  207     4e-66
+  UniRef90_I3ULD9 RegA n=1 Tax=Synechococcus phage S-CBM2 TaxID=3...  206     3e-65
+  UniRef90_F5B416 RegA n=1 Tax=Synechococcus phage S-CRM01 TaxID=...  204     5e-65
+  UniRef90_A0A0K1Y4H9 Translational repressor protein n=4 Tax=unc...  203     1e-64
+  UniRef90_A0A0B4L9F3 Translational repressor protein n=4 Tax=Tev...  203     2e-64
+  UniRef90_A0A0A0Q0B3 Translational repressor protein n=1 Tax=Pec...  202     5e-64
+  UniRef90_A0A0B5A466 Translational repressor protein n=2 Tax=Tg1...  201     1e-63
+  UniRef90_A0A192Y9Z3 Translational repressor n=1 Tax=Morganella ...  200     3e-63
+  UniRef90_M1HLW7 RegA translational repressor n=1 Tax=Pelagibact...  201     3e-63
+  UniRef90_A0A023W654 Translational repressor protein n=1 Tax=Ser...  199     5e-63
+  UniRef90_A0A0G2SS37 Translational repressor protein n=1 Tax=Pro...  196     1e-61
+  UniRef90_A0A142EZY8 RegA n=1 Tax=Stenotrophomonas phage vB_SmaS...  194     5e-61
+  UniRef90_E1A2P2 RegA translational repressor protein n=1 Tax=Ae...  194     7e-61
+  UniRef90_Q76Z73 RegA translational repressor protein n=2 Tax=un...  194     7e-61
+  UniRef90_D9ICA0 RegA early gene translational repressor n=9 Tax...  194     7e-61
+  UniRef90_J7KK73 Translational repressor protein n=6 Tax=Myoviri...  193     8e-61
+  UniRef90_A0A060AHC4 Putative early gene translational repressor...  192     3e-60
+  UniRef90_C4MYJ7 RegA n=4 Tax=Tevenvirinae TaxID=1198136 RepID=C...  191     5e-60
+  UniRef90_Q6UP20 RegA translational repressor protein n=2 Tax=My...  191     1e-59
+  UniRef90_S5MUZ4 RegA gene product translational repressor n=4 T...  191     2e-59
+  UniRef90_E5E480 RegA translational repressor protein n=1 Tax=Ac...  189     2e-59
+  UniRef90_D5JF83 Translational repressor of early genes n=7 Tax=...  188     1e-58
+  UniRef90_E5EYL9 RegA translational repressor protein n=1 Tax=Ac...  185     1e-57
+  UniRef90_Q6WI72 RegA n=7 Tax=Schizot4virus TaxID=1198137 RepID=...  183     1e-56
+  UniRef90_A0A0U4JTD3 Translation repressor protein n=1 Tax=Vibri...  180     2e-55
+  UniRef90_Q6J2P8 RegA translational repressor protein n=1 Tax=Ac...  179     5e-55
+  UniRef90_W0B0R5 Translational repressor protein n=1 Tax=Acineto...  178     1e-54
+  UniRef90_E5EPN9 RegA translational repressor protein n=1 Tax=Ac...  177     2e-54
+  UniRef90_A0A125ST97 Uncharacterized protein n=1 Tax=Ralstonia p...  175     1e-53
+  UniRef90_C8XUP1 RegA translational repressor protein n=9 Tax=Vi...  176     1e-53
+  UniRef90_W8JE72 Uncharacterized protein n=17 Tax=Myoviridae Tax...  174     6e-53
+  UniRef90_Q6RHT9 Translation repressor protein n=1 Tax=Aeromonas...  171     7e-52
+  UniRef90_S6CFF6 RegA translational repressor protein n=2 Tax=un...  169     5e-51
+  UniRef90_A0A067XQB3 RegA protein n=1 Tax=Caulobacter phage Cr30...  165     2e-49
+  UniRef90_I6WC18 Translation repressor protein n=1 Tax=Aeromonas...  164     4e-49
+  UniRef90_A0A0A0YVI9 Endoribonulcease translational repressor of...  161     8e-48
+  UniRef90_A0A0H4INT5 Endoribonuclease n=1 Tax=Stenotrophomonas p...  160     2e-47
+  UniRef90_K7YGV0 RegA-translational repressor n=1 Tax=Serratia p...  154     6e-45
+  UniRef90_A0A193H117 Replication factor C small subunit /DNA pol...  141     1e-38
+  UniRef90_C9DGI2 RegA translational repressor protein n=1 Tax=De...  132     3e-36
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_A0A0C5AIV3 RegA n=1 Tax=Cyanophage P-TIM40 TaxID=1589733 
+RepID=A0A0C5AIV3_9CAUD
+Length=143
+
+ Score = 222 bits (568),  Expect = 6e-72, Method: Composition-based stats.
+ Identities = 68/121 (56%), Positives = 85/121 (70%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+TLK+P+DFLKV+ETLTR+G+A+ K+K LYQSCHIL KKG YYIVHFKE+  +DG+ 
+Sbjct  12   MVEVTLKEPDDFLKVRETLTRIGVASRKEKKLYQSCHILHKKGKYYIVHFKELFALDGKP  71
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              MT+ D  RR  IA LL DWGLI +V           N  +V+S+K K EW L  KY I
+Sbjct  72   SNMTKNDVQRRHRIARLLSDWGLIGVVAPVDDVELAPLNQIKVLSYKDKGEWTLESKYNI  131
+
+Query  121  G  121
+            G
+Sbjct  132  G  132
+
+
+> UniRef90_M4QIW5 Endoribonuclease translational repressor of early 
+genes n=2 Tax=Viruses TaxID=10239 RepID=M4QIW5_9CAUD
+Length=140
+
+ Score = 222 bits (566),  Expect = 1e-71, Method: Composition-based stats.
+ Identities = 63/121 (52%), Positives = 88/121 (73%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E++L +P+DFLKV+ETLTR+G+A+ K++ LYQSCHIL K+G YYIVHFKE+  +DG++
+Sbjct  14   MVEVSLSEPDDFLKVRETLTRIGVASRKERKLYQSCHILHKQGRYYIVHFKELFALDGKK  73
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              +T+ D  RR+ IA LL DWGL+ +V  +R       N  +V+SFK K +W L  KY I
+Sbjct  74   TNLTQNDVQRRNRIAQLLSDWGLVSVVEAERIEDIAPLNQIKVLSFKDKDDWILESKYNI  133
+
+Query  121  G  121
+            G
+Sbjct  134  G  134
+
+
+> UniRef90_A0A127KMM2 RegA n=1 Tax=Cyanophage S-RIM32 TaxID=1278479 
+RepID=A0A127KMM2_9CAUD
+Length=142
+
+ Score = 222 bits (566),  Expect = 1e-71, Method: Composition-based stats.
+ Identities = 63/121 (52%), Positives = 84/121 (69%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+ L +P+DFLKV+ETLTR+G+A+ KD+ LYQSCHIL K+G YYIVHFKE+  +DG+ 
+Sbjct  14   MVEVVLNEPDDFLKVRETLTRIGVASRKDRKLYQSCHILHKQGKYYIVHFKELFALDGKN  73
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              ++  D  RR+ IA LL DWGLI +V   +       N  +V+S+K K EW L  KY I
+Sbjct  74   TNLSLNDVQRRNRIAQLLSDWGLITVVSSTKIEDVAPLNQIKVLSYKDKGEWILESKYNI  133
+
+Query  121  G  121
+            G
+Sbjct  134  G  134
+
+
+> UniRef90_A0A0A0YQP8 Translational repressor protein n=2 Tax=unclassified 
+Myoviridae TaxID=196896 RepID=A0A0A0YQP8_9CAUD
+Length=122
+
+ Score = 221 bits (564),  Expect = 1e-71, Method: Composition-based stats.
+ Identities = 98/122 (80%), Positives = 110/122 (90%), Gaps = 0/122 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEITLK+PEDFLKVKETLTRMGIANNKDK+LYQSCHILQK+G YYIVHFKEML++DGR 
+Sbjct  1    MIEITLKQPEDFLKVKETLTRMGIANNKDKILYQSCHILQKQGRYYIVHFKEMLKLDGRP  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V + EEDEVRRDSIA LLEDWGL++I PGQR++M ++ NNFRVISFKQK EW L  KYTI
+Sbjct  61   VVIDEEDEVRRDSIAQLLEDWGLVDIAPGQRSYMFEMANNFRVISFKQKDEWTLKSKYTI  120
+
+Query  121  GN  122
+            GN
+Sbjct  121  GN  122
+
+
+> UniRef90_E3SJI0 Translational repressor n=4 Tax=unclassified 
+Myoviridae TaxID=196896 RepID=E3SJI0_9CAUD
+Length=151
+
+ Score = 221 bits (563),  Expect = 4e-71, Method: Composition-based stats.
+ Identities = 65/121 (54%), Positives = 87/121 (72%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIE+TL +P+DFLKV+ETLTR+G+A+ K++ LYQSCHIL KKG YYIVHFKE+  +DG++
+Sbjct  16   MIEVTLGEPDDFLKVRETLTRIGVASRKERKLYQSCHILHKKGQYYIVHFKELFALDGKK  75
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              +TE D  RR+ I  LL DWGL++IV           +  +VIS+K K +W+L  KY I
+Sbjct  76   ANITENDIQRRNRIIQLLSDWGLVKIVAPDSVLNLAPLSQIKVISYKDKGDWQLESKYNI  135
+
+Query  121  G  121
+            G
+Sbjct  136  G  136
+
+
+> UniRef90_P69628 Translation repressor protein n=47 Tax=Viruses 
+TaxID=10239 RepID=REGA_BPR51
+Length=122
+
+ Score = 219 bits (560),  Expect = 4e-71, Method: Composition-based stats.
+ Identities = 122/122 (100%), Positives = 122/122 (100%), Gaps = 0/122 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ
+Sbjct  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI
+Sbjct  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+
+Query  121  GN  122
+            GN
+Sbjct  121  GN  122
+
+
+> UniRef90_Q5GQK8 'Endoribonulceases, translational repressor n=1 
+Tax=Synechococcus phage S-PM2 TaxID=238854 RepID=Q5GQK8_BPSYP
+Length=141
+
+ Score = 220 bits (561),  Expect = 7e-71, Method: Composition-based stats.
+ Identities = 63/121 (52%), Positives = 86/121 (71%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E++L +P+DFLKV+ETLTR+G+A+ KD+ LYQSCHIL K+G YYIVHFKE+  +DG+Q
+Sbjct  14   MVEVSLNEPDDFLKVRETLTRIGVASRKDRKLYQSCHILHKQGKYYIVHFKELFALDGKQ  73
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              ++  D  RR+ IA LL DWGLI I   ++       N  +V+S++ K EW L  KY I
+Sbjct  74   TNLSLNDIQRRNRIAQLLSDWGLISIANKEQIEDVAPLNQIKVLSYRDKDEWTLESKYNI  133
+
+Query  121  G  121
+            G
+Sbjct  134  G  134
+
+
+> UniRef90_E3SL93 Translational repressor n=2 Tax=Synechococcus 
+phage S-SSM7 TaxID=445686 RepID=E3SL93_9CAUD
+Length=153
+
+ Score = 219 bits (560),  Expect = 1e-70, Method: Composition-based stats.
+ Identities = 62/121 (51%), Positives = 85/121 (70%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIE+TL +P+DFLKV+ETLTR+G+A+ K+K +YQSCHIL K+G YYIVHFKE+  +DG+ 
+Sbjct  16   MIEVTLNEPDDFLKVRETLTRIGVASRKEKKIYQSCHILHKQGRYYIVHFKELFALDGKS  75
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              ++  D  RR+ I  LL DWGLI I+  ++       N  +V+S+K K +W L  KY I
+Sbjct  76   ANLSINDVQRRNRIITLLSDWGLITILRPEQIVDVAPLNQIKVLSYKDKGDWTLETKYNI  135
+
+Query  121  G  121
+            G
+Sbjct  136  G  136
+
+
+> UniRef90_Q58MI2 Translational repressor n=3 Tax=Prochlorococcus 
+phage P-SSM2 TaxID=268746 RepID=Q58MI2_BPPRM
+Length=147
+
+ Score = 219 bits (558),  Expect = 2e-70, Method: Composition-based stats.
+ Identities = 62/121 (51%), Positives = 85/121 (70%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+TL +P+DFLKV+ETLTR+G+A+ K+K +YQSCHIL K+G Y++VHFKE+  +DG+ 
+Sbjct  16   MVEVTLNEPDDFLKVRETLTRIGVASRKEKKIYQSCHILHKQGRYFLVHFKELFALDGKH  75
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              +T  D  RR+ IA LL DWGL+ IV   R       N  +V+S+K K +W L  KY I
+Sbjct  76   ANLTSNDVQRRNRIAQLLADWGLVGIVDTDRIQDIAPLNQIKVLSYKDKGDWILETKYNI  135
+
+Query  121  G  121
+            G
+Sbjct  136  G  136
+
+
+> UniRef90_E3SQA9 Translational repressor n=25 Tax=Viruses TaxID=10239 
+RepID=E3SQA9_9CAUD
+Length=143
+
+ Score = 218 bits (556),  Expect = 4e-70, Method: Composition-based stats.
+ Identities = 66/121 (55%), Positives = 87/121 (72%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+ LK+P+DFLKV+ETLTR+G+A+ K+K LYQSCHIL KKG YYIVHFKE+  +DG++
+Sbjct  14   MVEVNLKEPDDFLKVRETLTRIGVASRKEKKLYQSCHILHKKGQYYIVHFKELFALDGKK  73
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V ++E D  RR+ I  LL DWGL+EIV           +  +VI++K K EW L  KY I
+Sbjct  74   VNLSENDIQRRNRIVKLLSDWGLVEIVKEAVVSDAAPLSQIKVIAYKDKGEWILESKYNI  133
+
+Query  121  G  121
+            G
+Sbjct  134  G  134
+
+
+> UniRef90_A0A1D8KPA3 Endoribonuclease translational repressor 
+of early genes n=1 Tax=Synechococcus phage S-CAM9 TaxID=1883369 
+RepID=A0A1D8KPA3_9VIRU
+Length=145
+
+ Score = 218 bits (556),  Expect = 4e-70, Method: Composition-based stats.
+ Identities = 64/121 (53%), Positives = 89/121 (74%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+TL++P+DFLKV+ETLTR+G+A+ K+K LYQSCHIL K+G Y+IVHFKE+  +DG++
+Sbjct  15   MVEVTLREPDDFLKVRETLTRIGVASRKEKKLYQSCHILHKQGKYFIVHFKELFALDGKK  74
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              +T  D  RR+ I  LL DWGLI++V   R       N  +V+S+K+K+EW L  KY I
+Sbjct  75   ANLTVNDVQRRNRITNLLCDWGLIDVVDETRVAEVAPLNQIKVLSYKEKNEWALETKYNI  134
+
+Query  121  G  121
+            G
+Sbjct  135  G  135
+
+
+> UniRef90_E3SJ40 Translational repressor n=1 Tax=Synechococcus 
+phage S-SM2 TaxID=444860 RepID=E3SJ40_9CAUD
+Length=145
+
+ Score = 217 bits (554),  Expect = 9e-70, Method: Composition-based stats.
+ Identities = 61/121 (50%), Positives = 82/121 (68%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+ L +P+DFLKV+ETLTR+G+A+ K+K LYQSCHIL K+G Y+IVHFKE+  +DG+ 
+Sbjct  16   MVEVLLNEPDDFLKVRETLTRIGVASRKEKKLYQSCHILHKQGRYFIVHFKELFALDGKH  75
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              +T  D  RR+ I  LL DWGLI +V           N  +V+++K K EW L  KY I
+Sbjct  76   ANLTVNDVQRRNRITRLLADWGLISVVKEDSVSDIAPLNQIKVLAYKDKGEWILEQKYNI  135
+
+Query  121  G  121
+            G
+Sbjct  136  G  136
+
+
+> UniRef90_A0A0B6VNI9 Translational repressor protein n=2 Tax=unclassified 
+Myoviridae TaxID=196896 RepID=A0A0B6VNI9_9CAUD
+Length=122
+
+ Score = 216 bits (551),  Expect = 1e-69, Method: Composition-based stats.
+ Identities = 103/122 (84%), Positives = 111/122 (91%), Gaps = 0/122 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEI LK PEDFLKVKETLTRMGIANNKDKVLYQSCHILQK+G Y++VHFKEML+MDGR 
+Sbjct  1    MIEINLKNPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKQGRYFVVHFKEMLKMDGRP  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V + EEDE+RRDSI WLLEDWGLIEI PGQRTFMK+L+NNFRVISFKQKHEW L  KYTI
+Sbjct  61   VVIDEEDEIRRDSITWLLEDWGLIEIAPGQRTFMKELSNNFRVISFKQKHEWTLKAKYTI  120
+
+Query  121  GN  122
+            GN
+Sbjct  121  GN  122
+
+
+> UniRef90_Q0QZ65 Translational repressor of early genes n=2 Tax=Synechococcus 
+phage syn9 TaxID=382359 RepID=Q0QZ65_BPSYS
+Length=149
+
+ Score = 217 bits (553),  Expect = 1e-69, Method: Composition-based stats.
+ Identities = 63/121 (52%), Positives = 85/121 (70%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M++I LK+P+DFLKV+ETLTR+G+A+ K+K LYQSCHIL KKG YYIVHFKE+  +DG++
+Sbjct  12   MVQIILKEPDDFLKVRETLTRIGVASKKEKKLYQSCHILHKKGQYYIVHFKELFALDGKK  71
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              ++  D  RR+ I  LL DWGL+E+    +       +  +VIS+K K EW L  KY I
+Sbjct  72   ANLSSNDIQRRNRIIQLLFDWGLVEVANSDQIVDAAPLSQIKVISYKDKGEWTLESKYNI  131
+
+Query  121  G  121
+            G
+Sbjct  132  G  132
+
+
+> UniRef90_C7BV45 RegA n=6 Tax=Viruses TaxID=10239 RepID=C7BV45_9CAUD
+Length=141
+
+ Score = 216 bits (552),  Expect = 1e-69, Method: Composition-based stats.
+ Identities = 61/121 (50%), Positives = 85/121 (70%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+ L +P+DFLKV+ETLTR+G+A+ K+K +YQSCHIL K+G YYIVHFKE+  +DG+ 
+Sbjct  14   MVEVVLGEPDDFLKVRETLTRIGVASRKEKKIYQSCHILHKQGKYYIVHFKELFALDGKN  73
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              ++  D  RR+ I  LL DWGLI +V   +       N  +V+SFK+K++W L  KY I
+Sbjct  74   TNLSLNDVQRRNRIIQLLSDWGLITVVSADKIADLAPLNQIKVLSFKEKNDWTLESKYNI  133
+
+Query  121  G  121
+            G
+Sbjct  134  G  134
+
+
+> UniRef90_E3SPN3 Translational repressor n=3 Tax=Prochlorococcus 
+phage Syn1 TaxID=444861 RepID=E3SPN3_9CAUD
+Length=141
+
+ Score = 216 bits (552),  Expect = 1e-69, Method: Composition-based stats.
+ Identities = 63/121 (52%), Positives = 83/121 (69%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+ L +P+DFLKV+ETLTR+G+A+ KD+ LYQSCHIL K+G YYIVHFKE+  +DG+ 
+Sbjct  13   MVEVVLSEPDDFLKVRETLTRIGVASRKDRKLYQSCHILHKQGKYYIVHFKELFALDGKN  72
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              ++  D  RR+ I  LL DWGLI IV   +       N  +V+S+K K EW L  KY I
+Sbjct  73   TNLSVNDVERRNRITKLLSDWGLISIVHEFQIENVAPLNQIKVLSYKDKGEWTLESKYNI  132
+
+Query  121  G  121
+            G
+Sbjct  133  G  133
+
+
+> UniRef90_Q58LG7 Translational repressor n=4 Tax=dsDNA viruses, 
+no RNA stage TaxID=35237 RepID=Q58LG7_BPPRS
+Length=139
+
+ Score = 216 bits (552),  Expect = 1e-69, Method: Composition-based stats.
+ Identities = 66/121 (55%), Positives = 89/121 (74%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+EI+LK+P+DFLKV+ETLTR+G+A+ K+K LYQSCHIL KKG YYIVHFKE+  +DG++
+Sbjct  12   MVEISLKEPDDFLKVRETLTRIGVASRKEKKLYQSCHILHKKGQYYIVHFKELFALDGKR  71
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              ++E D  RR+ I  LL DWGL+EIV           +  +VI++K+KH+W L  KY I
+Sbjct  72   ANLSENDVQRRNRIIKLLSDWGLVEIVKVDEVKDAAPLSQIKVIAYKEKHDWTLESKYNI  131
+
+Query  121  G  121
+            G
+Sbjct  132  G  132
+
+
+> UniRef90_A0A1D8KUJ9 Endoribonuclease translational repressor 
+of early genes n=1 Tax=Synechococcus phage S-CAM7 TaxID=1883368 
+RepID=A0A1D8KUJ9_9VIRU
+Length=140
+
+ Score = 216 bits (552),  Expect = 2e-69, Method: Composition-based stats.
+ Identities = 61/122 (50%), Positives = 83/122 (68%), Gaps = 0/122 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+EI L +P+DFLKV+ETLTR+G+A+ K+K +YQSCHIL K+G Y+IVHFKE+  +DG+ 
+Sbjct  16   MVEIFLSEPDDFLKVRETLTRIGVASRKEKKIYQSCHILHKQGRYFIVHFKELFALDGKH  75
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              +T+ D  RR+ I  LL DW L+ I            N  +V+S+K+K EW L PKY I
+Sbjct  76   TNITQNDIQRRNRITKLLSDWNLVGIANEDEIRDIAPLNQIKVLSYKEKGEWILEPKYNI  135
+
+Query  121  GN  122
+            G 
+Sbjct  136  GG  137
+
+
+> UniRef90_G8EYB9 RegA n=2 Tax=Synechococcus phage S-CAM8 TaxID=754038 
+RepID=G8EYB9_9CAUD
+Length=143
+
+ Score = 216 bits (552),  Expect = 2e-69, Method: Composition-based stats.
+ Identities = 65/121 (54%), Positives = 87/121 (72%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+ LK+P+DFLKV+ETLTR+G+A+ K+K LYQSCHIL KKG YYIVHFKE+  +DG++
+Sbjct  14   MVEVNLKEPDDFLKVRETLTRIGVASKKEKKLYQSCHILHKKGQYYIVHFKELFALDGKR  73
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              ++E D  RR+ I  LL DWGL+EIV           +  +VI++K+K EW L  KY I
+Sbjct  74   ANLSENDVQRRNRIIKLLSDWGLVEIVKEGVVSDAAPLSQIKVIAYKEKSEWTLESKYNI  133
+
+Query  121  G  121
+            G
+Sbjct  134  G  134
+
+
+> UniRef90_M4SNE3 RegA n=1 Tax=Cyanophage Syn30 TaxID=536474 RepID=M4SNE3_9VIRU
+Length=142
+
+ Score = 216 bits (551),  Expect = 2e-69, Method: Composition-based stats.
+ Identities = 65/121 (54%), Positives = 88/121 (73%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIE++LK+P+DFLKV+ETLTR+G+A+ K+K LYQSCHIL KKG YYIVHFKE+  +DG++
+Sbjct  14   MIEVSLKEPDDFLKVRETLTRIGVASRKEKKLYQSCHILHKKGQYYIVHFKELFALDGKK  73
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              ++E D  RR+ I  LL DWGL+EIV           +  +VI++K+K +W L  KY I
+Sbjct  74   ANLSENDVQRRNRIIKLLSDWGLVEIVNETLIKEAAPLSQIKVIAYKEKGDWTLESKYNI  133
+
+Query  121  G  121
+            G
+Sbjct  134  G  134
+
+
+> UniRef90_V5UTX9 Endoribonuclease n=1 Tax=Synechococcus phage 
+ACG-2014h TaxID=1340810 RepID=V5UTX9_9CAUD
+Length=140
+
+ Score = 215 bits (548),  Expect = 6e-69, Method: Composition-based stats.
+ Identities = 62/121 (51%), Positives = 85/121 (70%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+ L++P+DFLKV+ETLTR+G+A+ K+K +YQSCHIL K+G YYIVHFKE+  +DG+ 
+Sbjct  14   MVEVVLREPDDFLKVRETLTRIGVASRKEKKIYQSCHILHKQGKYYIVHFKELFALDGKN  73
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+               +  D  RR+ I  LL DWGLI IV  ++       N  +V++FK+K EW L  KY I
+Sbjct  74   TNFSLNDLQRRNRIIQLLSDWGLITIVNAEQISDLAPLNQIKVLAFKEKKEWTLESKYNI  133
+
+Query  121  G  121
+            G
+Sbjct  134  G  134
+
+
+> UniRef90_H8ZNE0 RegA endoribonulcease translational protein n=2 
+Tax=Myoviridae TaxID=10662 RepID=H8ZNE0_9CAUD
+Length=140
+
+ Score = 215 bits (548),  Expect = 6e-69, Method: Composition-based stats.
+ Identities = 64/121 (53%), Positives = 86/121 (71%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIE+ LK+P+DFLKV+ETLTR+G+A+ K K LYQSCHIL KKG YYIVHFKE+  +DG++
+Sbjct  14   MIEVNLKEPDDFLKVRETLTRIGVASRKVKKLYQSCHILHKKGQYYIVHFKELFALDGKK  73
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              +++ D  RR+ I  LL DWGL+EIV           +  +VI++K+K +W L  KY I
+Sbjct  74   ANLSDNDVQRRNRIIKLLSDWGLVEIVKEDSIKGVAPLSQIKVIAYKEKGDWTLESKYNI  133
+
+Query  121  G  121
+            G
+Sbjct  134  G  134
+
+
+> UniRef90_A0A0A7HEC3 Translation repressor protein n=5 Tax=Sp18virus 
+TaxID=1913654 RepID=A0A0A7HEC3_9CAUD
+Length=122
+
+ Score = 214 bits (546),  Expect = 7e-69, Method: Composition-based stats.
+ Identities = 96/122 (79%), Positives = 105/122 (86%), Gaps = 0/122 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEITLK+PEDFLKVKETLTRMGIANNKD+VLYQSCHILQK+G YYIVHFKEMLRMDGRQ
+Sbjct  1    MIEITLKQPEDFLKVKETLTRMGIANNKDRVLYQSCHILQKQGRYYIVHFKEMLRMDGRQ  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V++  ED  RRDSIA LLEDWGLI I   +   +  +TNNFRVISFKQK +WKLV KYTI
+Sbjct  61   VDIDGEDYQRRDSIAQLLEDWGLIAIKEEEHNELFAVTNNFRVISFKQKDDWKLVAKYTI  120
+
+Query  121  GN  122
+            GN
+Sbjct  121  GN  122
+
+
+> UniRef90_E3SSZ6 Translational repressor n=3 Tax=unclassified 
+Myoviridae TaxID=196896 RepID=E3SSZ6_9CAUD
+Length=140
+
+ Score = 214 bits (547),  Expect = 9e-69, Method: Composition-based stats.
+ Identities = 59/121 (49%), Positives = 85/121 (70%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIE+ L++P+DFLKV+ETLTR+G+A+ K+K LYQSCHIL K+G YYIVHFKE+  +DG++
+Sbjct  15   MIEVGLREPDDFLKVRETLTRIGVASRKEKKLYQSCHILHKQGKYYIVHFKELFALDGKK  74
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              ++  D  RR+ I  LL DWGL+ I   +        +  +V+++K+K +W L  KY I
+Sbjct  75   ANLSLNDVQRRNRIVQLLGDWGLVSINNKESITDVAPLSQIKVLAYKEKGDWTLESKYNI  134
+
+Query  121  G  121
+            G
+Sbjct  135  G  135
+
+
+> UniRef90_Q01751 Translation repressor protein n=12 Tax=Viruses 
+TaxID=10239 RepID=REGA_BPR69
+Length=122
+
+ Score = 213 bits (543),  Expect = 2e-68, Method: Composition-based stats.
+ Identities = 96/122 (79%), Positives = 101/122 (83%), Gaps = 0/122 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEI LK PEDFLKVKETLTRMGIANNKDKVLYQSCHILQK+G YYIVHFKEMLRMDGRQ
+Sbjct  1    MIEIKLKNPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKQGKYYIVHFKEMLRMDGRQ  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V++  ED  RRDSIA LLEDWGLI I    R  +  LTNNFRVISFKQK +W L  KYTI
+Sbjct  61   VDIDGEDYQRRDSIAQLLEDWGLIVIEDSAREDLFGLTNNFRVISFKQKDDWTLKAKYTI  120
+
+Query  121  GN  122
+            GN
+Sbjct  121  GN  122
+
+
+> UniRef90_M1UGM2 Translational regulator n=2 Tax=Synechococcus 
+phage S-SSM4 TaxID=536466 RepID=M1UGM2_9CAUD
+Length=139
+
+ Score = 213 bits (544),  Expect = 2e-68, Method: Composition-based stats.
+ Identities = 60/121 (50%), Positives = 87/121 (72%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+TL++P+DFLKV+ETLTR+G+A+ K+K LYQSCHIL KKG Y+IVHFKE+  +DG++
+Sbjct  1    MVEVTLREPDDFLKVRETLTRIGVASRKEKKLYQSCHILHKKGQYFIVHFKELFALDGKK  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              +++ D  RR+ I  LL DWGL+++            +  ++IS+K+K EW L  KY I
+Sbjct  61   TNLSQNDVQRRNRIVQLLCDWGLVDVPKKDSILDIAPLSQIKIISYKEKGEWILESKYNI  120
+
+Query  121  G  121
+            G
+Sbjct  121  G  121
+
+
+> UniRef90_H8ZMQ1 RegA endoribonuclease n=3 Tax=Synechococcus phage 
+ACG-2014c TaxID=1079998 RepID=H8ZMQ1_9CAUD
+Length=140
+
+ Score = 213 bits (543),  Expect = 3e-68, Method: Composition-based stats.
+ Identities = 65/121 (54%), Positives = 87/121 (72%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MI+++LK+P+DFLKV+ETLTR+G+A+ K K LYQSCHIL KKG YYIVHFKE+  +DG++
+Sbjct  12   MIQVSLKEPDDFLKVRETLTRIGVASKKVKKLYQSCHILHKKGQYYIVHFKELFALDGKR  71
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              ++E D  RR+ I  LL DWGL+EIV           +  +VI++K+K EW L  KY I
+Sbjct  72   ANLSENDMQRRNRIIKLLSDWGLVEIVKEDAVTDAAPLSQIKVIAYKEKTEWTLESKYNI  131
+
+Query  121  G  121
+            G
+Sbjct  132  G  132
+
+
+> UniRef90_A0A0E3FIU8 Translation repressor n=3 Tax=Synechococcus 
+phage ACG-2014f TaxID=1493511 RepID=A0A0E3FIU8_9CAUD
+Length=142
+
+ Score = 212 bits (542),  Expect = 5e-68, Method: Composition-based stats.
+ Identities = 61/122 (50%), Positives = 84/122 (69%), Gaps = 0/122 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIE+ L +P+DFLKV+ETLTR+G+A+ K+K +YQSCHIL K+G Y+IVHFKE+  +DG+ 
+Sbjct  16   MIEVFLSEPDDFLKVRETLTRIGVASRKEKKIYQSCHILHKQGRYFIVHFKELFALDGKH  75
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              +T  D  RR+ I  LL DW LIE+            N  +V+S+K+K +W L PKY I
+Sbjct  76   TTITLNDIQRRNRIVKLLSDWNLIEVSDSIDITDVAPLNQIKVLSYKEKEDWILEPKYNI  135
+
+Query  121  GN  122
+            G+
+Sbjct  136  GS  137
+
+
+> UniRef90_A0A0E3HSW4 Translation repressor n=4 Tax=Synechococcus 
+phage ACG-2014d TaxID=1493509 RepID=A0A0E3HSW4_9CAUD
+Length=162
+
+ Score = 213 bits (543),  Expect = 5e-68, Method: Composition-based stats.
+ Identities = 60/121 (50%), Positives = 87/121 (72%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+TL++P+DFLKV+ETLTR+G+A+ K++ LYQSCHIL KKG YYIVHFKE+  +DG++
+Sbjct  17   MVEVTLREPDDFLKVRETLTRIGVASRKERKLYQSCHILHKKGQYYIVHFKELFALDGKK  76
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              +++ D  RR+ I  LL DWGL ++        +   +  ++IS+K+K EW L  KY I
+Sbjct  77   TNLSQNDVQRRNRIVQLLCDWGLADVPKKDTFVDQAPLSQIKIISYKEKGEWALESKYNI  136
+
+Query  121  G  121
+            G
+Sbjct  137  G  137
+
+
+> UniRef90_M4QPQ3 RegA n=1 Tax=Synechococcus phage S-SKS1 TaxID=754042 
+RepID=M4QPQ3_9CAUD
+Length=146
+
+ Score = 212 bits (541),  Expect = 8e-68, Method: Composition-based stats.
+ Identities = 60/122 (49%), Positives = 85/122 (70%), Gaps = 0/122 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+ L +P+DFLKV+ETLTR+G+A+ K++ +YQSCHIL K+G YY+VHFKE+  +DG+ 
+Sbjct  16   MVEVVLGEPDDFLKVRETLTRIGVASRKERKIYQSCHILHKQGRYYLVHFKELFALDGKH  75
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              +T  D  RR+ IA LL DWGLI IV   +       N  +V++F+ K +W L  KY I
+Sbjct  76   ANLTLNDVQRRNRIAQLLADWGLISIVDADKIQDIAPLNQIKVLAFRDKQDWILETKYNI  135
+
+Query  121  GN  122
+            G+
+Sbjct  136  GS  137
+
+
+> UniRef90_A0A0E3FDG0 Translation repressor n=1 Tax=Synechococcus 
+phage ACG-2014g TaxID=1493512 RepID=A0A0E3FDG0_9CAUD
+Length=142
+
+ Score = 211 bits (539),  Expect = 1e-67, Method: Composition-based stats.
+ Identities = 64/121 (53%), Positives = 87/121 (72%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+ LK+P+DFLKV+ETLTR+G+A+ K+K L+QSCHIL KKG YYIVHFKE+  +DG++
+Sbjct  14   MVEVNLKQPDDFLKVRETLTRIGVASRKEKKLFQSCHILHKKGQYYIVHFKELFALDGKK  73
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              ++E D  RR+ I  LL DWGLIE+V           +  +VIS+K++ EW L  KY I
+Sbjct  74   ANLSENDIQRRNRIVKLLSDWGLIELVKESSVDDVAPLSQIKVISYKERTEWILESKYNI  133
+
+Query  121  G  121
+            G
+Sbjct  134  G  134
+
+
+> UniRef90_A0A0K0KWI6 Putative translation repressor n=1 Tax=Prochlorococcus 
+phage P-TIM68 TaxID=1542477 RepID=A0A0K0KWI6_9CAUD
+Length=146
+
+ Score = 211 bits (539),  Expect = 2e-67, Method: Composition-based stats.
+ Identities = 61/121 (50%), Positives = 84/121 (69%), Gaps = 0/121 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+ L +P+DFLKV+ETLTR+G+A+ K+K LYQSCHIL K+G Y+IVHFKE+  +DG+ 
+Sbjct  16   MVEVKLNEPDDFLKVRETLTRIGVASRKEKKLYQSCHILHKQGKYFIVHFKELFALDGKF  75
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              +T  D  RR+ I  LL DWGLI ++  +        N  +V+ +K K+EWKL  KY I
+Sbjct  76   ANLTINDVQRRNRITRLLSDWGLISVIKEESIQDIAPLNQIKVLPYKDKNEWKLEQKYNI  135
+
+Query  121  G  121
+            G
+Sbjct  136  G  136
+
+
+> UniRef90_A0A1D8KSR3 Endoribonuclease translational repressor 
+of early genes n=1 Tax=Synechococcus phage S-WAM1 TaxID=1815521 
+RepID=A0A1D8KSR3_9CAUD
+Length=139
+
+ Score = 210 bits (536),  Expect = 3e-67, Method: Composition-based stats.
+ Identities = 66/121 (55%), Positives = 86/121 (71%), Gaps = 1/121 (1%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+ LK+P+DFLKV+ETLTR+G+A+ KD+ LYQSCHIL KKG YYIVHFKE+  +DG+ 
+Sbjct  12   MLEVALKEPDDFLKVRETLTRIGVASRKDRKLYQSCHILHKKGKYYIVHFKELFALDGKP  71
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              +T+ D  RR+ IA LL DWGL+E      T +    N  +V+S+K K EW L  KY I
+Sbjct  72   ANITKNDVERRNRIAKLLFDWGLVEFNADSLTEIA-PLNQIKVLSYKDKSEWTLESKYNI  130
+
+Query  121  G  121
+            G
+Sbjct  131  G  131
+
+
+> UniRef90_M4SLJ0 RegA n=1 Tax=Cyanophage P-RSM6 TaxID=929832 RepID=M4SLJ0_9CAUD
+Length=137
+
+ Score = 209 bits (534),  Expect = 6e-67, Method: Composition-based stats.
+ Identities = 62/121 (51%), Positives = 85/121 (70%), Gaps = 2/121 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E++LK+P+DFLK++ETLTR+G+A+ K+K LYQSCHIL KKG YYIVHFKE+  +DG+ 
+Sbjct  12   MLEVSLKEPDDFLKIRETLTRIGVASRKEKKLYQSCHILHKKGKYYIVHFKELFALDGKP  71
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              +T+ D  RR+ I  LL DWGL+E+            N  +V+S+K K +W L  KY I
+Sbjct  72   ANITKNDVERRNRITKLLFDWGLVELATEPTEI--APLNQIKVLSYKDKGDWTLESKYNI  129
+
+Query  121  G  121
+            G
+Sbjct  130  G  130
+
+
+> UniRef90_E5DI56 Translational repressor protein n=3 Tax=Tevenvirinae 
+TaxID=1198136 RepID=E5DI56_9CAUD
+Length=121
+
+ Score = 208 bits (530),  Expect = 2e-66, Method: Composition-based stats.
+ Identities = 87/121 (72%), Positives = 101/121 (83%), Gaps = 1/121 (1%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEITLK+PEDFLKVKETLTRMGIANNKDKVLYQSCHILQK+G YYIVHFKEML++DGR 
+Sbjct  1    MIEITLKQPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKQGKYYIVHFKEMLKLDGRP  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V +  ED +RRDSIA LL+ WGL++IV      + ++ NNFRVI+F+QK EW L  KYTI
+Sbjct  61   VTIDSEDYIRRDSIAQLLQGWGLLDIVTPD-VHLAEMQNNFRVITFQQKSEWTLKSKYTI  119
+
+Query  121  G  121
+            G
+Sbjct  120  G  120
+
+
+> UniRef90_Q5QC21 RegA translational repressor protein n=8 Tax=Tevenvirinae 
+TaxID=1198136 RepID=Q5QC21_9CAUD
+Length=120
+
+ Score = 207 bits (527),  Expect = 4e-66, Method: Composition-based stats.
+ Identities = 93/122 (76%), Positives = 107/122 (88%), Gaps = 2/122 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEITLK+PEDFLKVKETLTRMGIANNK+K LYQSCHILQK+G YYIVHFKEMLRMDGRQ
+Sbjct  1    MIEITLKQPEDFLKVKETLTRMGIANNKEKKLYQSCHILQKQGRYYIVHFKEMLRMDGRQ  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V++  ED  RRDSIA LL+DWGLI+IV      + ++TNNFRVISFKQK++W+L+ KYTI
+Sbjct  61   VDIDGEDYQRRDSIAQLLKDWGLIDIVDDS--ELFEITNNFRVISFKQKNDWELLSKYTI  118
+
+Query  121  GN  122
+            GN
+Sbjct  119  GN  120
+
+
+> UniRef90_I3ULD9 RegA n=1 Tax=Synechococcus phage S-CBM2 TaxID=351708 
+RepID=I3ULD9_9CAUD
+Length=144
+
+ Score = 206 bits (524),  Expect = 3e-65, Method: Composition-based stats.
+ Identities = 61/123 (50%), Positives = 84/123 (68%), Gaps = 2/123 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M ++ LK+P+DFLK++ETLTR+G+A+ ++K LYQSCHIL KKG YYIVHFKE+  +DG++
+Sbjct  13   MAQVVLKEPDDFLKIRETLTRIGVASRREKKLYQSCHILHKKGKYYIVHFKELFALDGKR  72
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKD--LTNNFRVISFKQKHEWKLVPKY  118
+              +T  D  RR+ I  LL DWGL+ +    +  + D    N  +VI+FK K  W L  KY
+Sbjct  73   ANLTLNDLQRRNRIIQLLVDWGLVTLDAASQEKIVDVAPLNQIKVIAFKDKENWTLESKY  132
+
+Query  119  TIG  121
+             IG
+Sbjct  133  NIG  135
+
+
+> UniRef90_F5B416 RegA n=1 Tax=Synechococcus phage S-CRM01 TaxID=1026955 
+RepID=F5B416_9CAUD
+Length=134
+
+ Score = 204 bits (521),  Expect = 5e-65, Method: Composition-based stats.
+ Identities = 57/122 (47%), Positives = 85/122 (70%), Gaps = 0/122 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            ++E+ L +P+DFLKV+ETLTR+G+A+  +  LYQSCHIL K+G YYIV FKE+  +DG+ 
+Sbjct  8    LVEVRLNQPDDFLKVRETLTRIGVASRTENKLYQSCHILHKQGKYYIVSFKELFLLDGKA  67
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+             +++E D  RR+ I  LL DWGL+++V   +       +  ++I FK+K +W L PKY I
+Sbjct  68   SDLSENDIQRRNRITKLLSDWGLVQVVDSTKIEEMVPVSQIKIIPFKEKKDWILEPKYQI  127
+
+Query  121  GN  122
+            G+
+Sbjct  128  GS  129
+
+
+> UniRef90_A0A0K1Y4H9 Translational repressor protein n=4 Tax=unclassified 
+Myoviridae TaxID=196896 RepID=A0A0K1Y4H9_9CAUD
+Length=123
+
+ Score = 203 bits (518),  Expect = 1e-64, Method: Composition-based stats.
+ Identities = 93/121 (77%), Positives = 102/121 (84%), Gaps = 2/121 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQK+G YYIVHFKEML++DGR 
+Sbjct  4    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKQGRYYIVHFKEMLKLDGRP  63
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V +  EDE+RRDSIA LL DWGL+ I  GQ   +  + NNFRVI+FKQKHEW L  KYTI
+Sbjct  64   VIIDLEDEIRRDSIAQLLADWGLLSINRGQT--LAQMQNNFRVITFKQKHEWTLKSKYTI  121
+
+Query  121  G  121
+            G
+Sbjct  122  G  122
+
+
+> UniRef90_A0A0B4L9F3 Translational repressor protein n=4 Tax=Tevenvirinae 
+TaxID=1198136 RepID=A0A0B4L9F3_9CAUD
+Length=123
+
+ Score = 203 bits (517),  Expect = 2e-64, Method: Composition-based stats.
+ Identities = 89/121 (74%), Positives = 106/121 (88%), Gaps = 2/121 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEI LK+PEDFLKVKETLTRMGIANN+D+VLYQSCHILQK+GLYY+VHFKEML++DGR 
+Sbjct  4    MIEIKLKQPEDFLKVKETLTRMGIANNRDRVLYQSCHILQKQGLYYVVHFKEMLKLDGRP  63
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V + +ED +RRDSIA LLEDWGLIE+V   R  ++ + NNFRVI+FKQK +WKL+ KYTI
+Sbjct  64   VTIDDEDIIRRDSIAQLLEDWGLIELV--DRGSLQAMQNNFRVITFKQKDDWKLIAKYTI  121
+
+Query  121  G  121
+            G
+Sbjct  122  G  122
+
+
+> UniRef90_A0A0A0Q0B3 Translational repressor protein n=1 Tax=Pectobacterium 
+bacteriophage PM2 TaxID=1429794 RepID=A0A0A0Q0B3_9CAUD
+Length=122
+
+ Score = 202 bits (514),  Expect = 5e-64, Method: Composition-based stats.
+ Identities = 93/122 (76%), Positives = 101/122 (83%), Gaps = 0/122 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEI LK PEDFLKVKETLTRMGIANNKDK+LYQSCHILQK+GLYYIVHFKEMLRMDGR 
+Sbjct  1    MIEIILKTPEDFLKVKETLTRMGIANNKDKILYQSCHILQKQGLYYIVHFKEMLRMDGRV  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V++  ED  RRDSIA LLE W L++I    R  + D+TNNFRVISFKQK EW L  KYTI
+Sbjct  61   VDIESEDYQRRDSIALLLEKWALLDIKESSRDTLFDMTNNFRVISFKQKDEWSLKSKYTI  120
+
+Query  121  GN  122
+            GN
+Sbjct  121  GN  122
+
+
+> UniRef90_A0A0B5A466 Translational repressor protein n=2 Tax=Tg1virus 
+TaxID=1921704 RepID=A0A0B5A466_9CAUD
+Length=124
+
+ Score = 201 bits (511),  Expect = 1e-63, Method: Composition-based stats.
+ Identities = 94/122 (77%), Positives = 104/122 (85%), Gaps = 1/122 (1%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEITLK+PEDFLKVKETLTRMGIANN  K+LYQSCHILQK+GLYYIVHFKEML+MDGRQ
+Sbjct  4    MIEITLKQPEDFLKVKETLTRMGIANNTQKILYQSCHILQKQGLYYIVHFKEMLKMDGRQ  63
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V +  EDEVRRDSIA LLE+WGL++I     T M ++ NNFRVISFKQK EW L  KYTI
+Sbjct  64   VIIDSEDEVRRDSIAQLLENWGLLDIKSADET-MYEMENNFRVISFKQKEEWTLKSKYTI  122
+
+Query  121  GN  122
+            GN
+Sbjct  123  GN  124
+
+
+> UniRef90_A0A192Y9Z3 Translational repressor n=1 Tax=Morganella 
+phage vB_MmoM_MP1 TaxID=1852628 RepID=A0A192Y9Z3_9CAUD
+Length=119
+
+ Score = 200 bits (509),  Expect = 3e-63, Method: Composition-based stats.
+ Identities = 76/122 (62%), Positives = 96/122 (79%), Gaps = 3/122 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEI L  P+DFLK++ETLTR+GIANN  KV+YQSCHILQK+G Y+IVHFKE+L++DGR 
+Sbjct  1    MIEIKLNTPDDFLKIRETLTRIGIANNTKKVIYQSCHILQKQGKYFIVHFKELLKLDGRI  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V +T+ED  RR++IA LLEDWGL +I+       +   +NFRVISF+QK +W LV KY I
+Sbjct  61   VNITDEDIQRRNNIAGLLEDWGLCDILSDVIITDE---HNFRVISFQQKKDWTLVHKYKI  117
+
+Query  121  GN  122
+            GN
+Sbjct  118  GN  119
+
+
+> UniRef90_M1HLW7 RegA translational repressor n=1 Tax=Pelagibacter 
+phage HTVC008M TaxID=1283076 RepID=M1HLW7_9CAUD
+Length=148
+
+ Score = 201 bits (511),  Expect = 3e-63, Method: Composition-based stats.
+ Identities = 59/121 (49%), Positives = 87/121 (72%), Gaps = 2/121 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+E+ LK+P+DFLK++ETLTR+G+A+ K++ ++QSCHIL K+G Y+IVHFKE+  +DG++
+Sbjct  12   MLEVKLKEPDDFLKIRETLTRIGVASRKERKIFQSCHILHKQGRYFIVHFKELFALDGKK  71
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+              +   D  RR++I+ LL DWGLIE+V       K   +  +V+ +K K EW L PKY I
+Sbjct  72   SNIMTNDIERRNTISQLLSDWGLIELV--GTITEKAPLSQIKVLPYKDKKEWILEPKYNI  129
+
+Query  121  G  121
+            G
+Sbjct  130  G  130
+
+
+> UniRef90_A0A023W654 Translational repressor protein n=1 Tax=Serratia 
+phage PS2 TaxID=1481112 RepID=A0A023W654_9CAUD
+Length=122
+
+ Score = 199 bits (507),  Expect = 5e-63, Method: Composition-based stats.
+ Identities = 80/122 (66%), Positives = 96/122 (79%), Gaps = 0/122 (0%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M++I L K +DFLK++ETLTRMGIANNK K LYQSCHILQK+GLYYIVHFKE+L++DGR 
+Sbjct  1    MLQIELIKKDDFLKIRETLTRMGIANNKTKTLYQSCHILQKQGLYYIVHFKELLKLDGRP  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            VE+T+ED  RRDSIA LLE W L +IV      + +  NNFRVIS KQK +W L+ KY I
+Sbjct  61   VEITDEDFQRRDSIAQLLEQWNLCKIVHKVGEKINEQVNNFRVISHKQKDQWSLIHKYKI  120
+
+Query  121  GN  122
+            GN
+Sbjct  121  GN  122
+
+
+> UniRef90_A0A0G2SS37 Translational repressor protein n=1 Tax=Proteus 
+phage vB_PmiM_Pm5461 TaxID=1636250 RepID=A0A0G2SS37_9CAUD
+Length=121
+
+ Score = 196 bits (498),  Expect = 1e-61, Method: Composition-based stats.
+ Identities = 81/122 (66%), Positives = 100/122 (82%), Gaps = 1/122 (1%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEI LK PEDFLK++ETLTR+GIANN  K LYQSCHILQK+G Y+IVHFKE+L++DGR+
+Sbjct  1    MIEIKLKTPEDFLKIRETLTRIGIANNSKKELYQSCHILQKQGKYFIVHFKELLKLDGRK  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V+++EED  RRDSIA LLE W L +I+ GQ+  +    +NFRVISFKQK +WKL+ KY I
+Sbjct  61   VDISEEDIQRRDSIANLLESWELCDIIEGQKLNL-PEEHNFRVISFKQKEDWKLIHKYRI  119
+
+Query  121  GN  122
+            GN
+Sbjct  120  GN  121
+
+
+> UniRef90_A0A142EZY8 RegA n=1 Tax=Stenotrophomonas phage vB_SmaS-DLP_6 
+TaxID=1651816 RepID=A0A142EZY8_9VIRU
+Length=130
+
+ Score = 194 bits (495),  Expect = 5e-61, Method: Composition-based stats.
+ Identities = 61/122 (50%), Positives = 84/122 (69%), Gaps = 1/122 (1%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+             IE+ LK  +DFLKV ETLTR+G+A+ + K LYQSCHIL K+G YYIVHFKE+  +DG+ 
+Sbjct  6    FIEVKLKNEDDFLKVMETLTRLGVASERTKTLYQSCHILHKRGQYYIVHFKELFALDGKP  65
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFM-KDLTNNFRVISFKQKHEWKLVPKYT  119
+              + +ED  RR++IA LL+DWGL+ +V   ++ +        +VI +K K +W LV KY 
+Sbjct  66   SSLDDEDVARRNTIANLLQDWGLVTLVDASKSSVNVAPMRLIKVIPYKDKGQWNLVTKYK  125
+
+Query  120  IG  121
+            IG
+Sbjct  126  IG  127
+
+
+> UniRef90_E1A2P2 RegA translational repressor protein n=1 Tax=Aeromonas 
+phage phiAS5 TaxID=879630 RepID=E1A2P2_9CAUD
+Length=120
+
+ Score = 194 bits (493),  Expect = 7e-61, Method: Composition-based stats.
+ Identities = 72/121 (60%), Positives = 90/121 (74%), Gaps = 3/121 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M++I LK  +DFLK++ETLTR+GIANN  K LYQSCHILQK+G YYIVHFKE+L++DGRQ
+Sbjct  2    MLQIKLKTDDDFLKIRETLTRIGIANNVAKKLYQSCHILQKQGKYYIVHFKELLQLDGRQ  61
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            VE+ +ED  RR+ IA LL++W + EIV  Q   +    N FRVIS K KH W L+ KY  
+Sbjct  62   VEIGQEDIDRRNDIATLLQEWNMCEIVSDQ---VAPGNNFFRVISHKDKHNWTLIHKYKF  118
+
+Query  121  G  121
+            G
+Sbjct  119  G  119
+
+
+> UniRef90_Q76Z73 RegA translational repressor protein n=2 Tax=unclassified 
+T4virus TaxID=329380 RepID=Q76Z73_9CAUD
+Length=122
+
+ Score = 194 bits (493),  Expect = 7e-61, Method: Composition-based stats.
+ Identities = 73/122 (60%), Positives = 92/122 (75%), Gaps = 3/122 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M++I LKK EDFLK++ETLTR+GIANN +K LYQSCHILQK+G YYIVHFKE+L++DGRQ
+Sbjct  4    MLQIQLKKDEDFLKIRETLTRIGIANNVEKRLYQSCHILQKQGKYYIVHFKELLQLDGRQ  63
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            VE+++ED  RR+ IA LL++WG+ +IV           N FRVIS K K  W LV KY  
+Sbjct  64   VEISQEDIDRRNDIAVLLKEWGMCDIVSE---HNAPGNNFFRVISHKDKANWTLVHKYKF  120
+
+Query  121  GN  122
+            G+
+Sbjct  121  GS  122
+
+
+> UniRef90_D9ICA0 RegA early gene translational repressor n=9 Tax=unclassified 
+T4virus TaxID=329380 RepID=D9ICA0_9CAUD
+Length=122
+
+ Score = 194 bits (493),  Expect = 7e-61, Method: Composition-based stats.
+ Identities = 75/122 (61%), Positives = 99/122 (81%), Gaps = 2/122 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+EI L   + FLK++ETLTR+GIANNK K+L+QSCHILQK+G Y+IVHFKE+LR+DGRQ
+Sbjct  3    MLEIKLSSDDSFLKIRETLTRIGIANNKKKMLWQSCHILQKQGRYFIVHFKELLRLDGRQ  62
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V+MTE+DE+RR++IA LLE+WG+IEI+     F ++  NNFRV++  QK EW L  KY I
+Sbjct  63   VDMTEDDELRRNNIARLLEEWGMIEILTPDLKFSEE--NNFRVLTHAQKAEWTLKYKYRI  120
+
+Query  121  GN  122
+            G+
+Sbjct  121  GH  122
+
+
+> UniRef90_J7KK73 Translational repressor protein n=6 Tax=Myoviridae 
+TaxID=10662 RepID=J7KK73_9CAUD
+Length=118
+
+ Score = 193 bits (492),  Expect = 8e-61, Method: Composition-based stats.
+ Identities = 70/121 (58%), Positives = 90/121 (74%), Gaps = 3/121 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MI+I +  P+DFLK+ ETLTR+GIA+NK+K LYQSCHILQK+G Y+IVHFKEML++DG  
+Sbjct  1    MIQIDINHPDDFLKIAETLTRIGIASNKEKKLYQSCHILQKQGKYFIVHFKEMLKLDGLP  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V ++EED  RR++IA LL+ W L +I+           NNFRVIS KQK EW+L+ KY  
+Sbjct  61   VSISEEDISRRNNIASLLQSWNLCKILTP---IELSTHNNFRVISHKQKCEWQLIAKYKF  117
+
+Query  121  G  121
+            G
+Sbjct  118  G  118
+
+
+> UniRef90_A0A060AHC4 Putative early gene translational repressor 
+n=1 Tax=Cronobacter phage S13 TaxID=1327935 RepID=A0A060AHC4_9CAUD
+Length=121
+
+ Score = 192 bits (488),  Expect = 3e-60, Method: Composition-based stats.
+ Identities = 74/122 (61%), Positives = 97/122 (80%), Gaps = 1/122 (1%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+EI+L K +DFLK++ETLTR+GIANNK K LYQSCHILQK+G Y+IVHFKE+L++DGR 
+Sbjct  1    MLEISLNKSDDFLKIRETLTRIGIANNKTKTLYQSCHILQKQGKYFIVHFKELLKLDGRV  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V+  EED++RR+ IA LLEDWGL  I+  ++   +   N+FR+I+F  K +WKLV KY I
+Sbjct  61   VDFNEEDQIRRNDIAKLLEDWGLCAIIESEKYDFRG-DNHFRIINFAAKEQWKLVHKYKI  119
+
+Query  121  GN  122
+            GN
+Sbjct  120  GN  121
+
+
+> UniRef90_C4MYJ7 RegA n=4 Tax=Tevenvirinae TaxID=1198136 RepID=C4MYJ7_9CAUD
+Length=120
+
+ Score = 191 bits (487),  Expect = 5e-60, Method: Composition-based stats.
+ Identities = 79/121 (65%), Positives = 93/121 (77%), Gaps = 2/121 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEI L  PE+FLK+KETLTR GIANN+DK LYQSCHILQKKG YYIVHFKE+L++DGR 
+Sbjct  1    MIEINLISPENFLKIKETLTRCGIANNRDKTLYQSCHILQKKGRYYIVHFKELLKLDGRS  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V+MT EDE+RR++IA LL  W L  ++     F     NNFRV+SFKQK EW L+ KY I
+Sbjct  61   VKMTWEDELRRNNIAKLLAQWNLCTLIDSD--FETTEVNNFRVLSFKQKEEWTLIEKYQI  118
+
+Query  121  G  121
+            G
+Sbjct  119  G  119
+
+
+> UniRef90_Q6UP20 RegA translational repressor protein n=2 Tax=Myoviridae 
+TaxID=10662 RepID=Q6UP20_9CAUD
+Length=118
+
+ Score = 191 bits (485),  Expect = 1e-59, Method: Composition-based stats.
+ Identities = 68/121 (56%), Positives = 88/121 (73%), Gaps = 3/121 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MI I +  P+DFLK+ ETLTR+GIA+NK+K LYQSCHILQK+G Y+IVHFKEML++DG +
+Sbjct  1    MIPIDIAHPDDFLKIAETLTRIGIASNKEKKLYQSCHILQKQGKYFIVHFKEMLQLDGLK  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V++++ED  RR++IA LL  W L  I+           NNFRVIS KQK +W L+ KY  
+Sbjct  61   VDISDEDIGRRNNIAMLLNSWKLCTILEP---IDVSSHNNFRVISHKQKADWTLIAKYKF  117
+
+Query  121  G  121
+            G
+Sbjct  118  G  118
+
+
+> UniRef90_S5MUZ4 RegA gene product translational repressor n=4 
+Tax=unclassified T4virus TaxID=329380 RepID=S5MUZ4_9CAUD
+Length=136
+
+ Score = 191 bits (485),  Expect = 2e-59, Method: Composition-based stats.
+ Identities = 61/121 (50%), Positives = 84/121 (69%), Gaps = 1/121 (1%)
+
+Query  2    IEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQV  61
+            +EI LK  EDFLK+KETLTR+G+A+ K   L QSCHIL K+G Y I+HFKE+  MDG++ 
+Sbjct  16   VEINLKSSEDFLKIKETLTRIGVASRKTNTLTQSCHILHKRGRYAILHFKELFIMDGKET  75
+
+Query  62   EMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTIG  121
+              +EED  RR++IA LLE+WGL++IV    T    + +N ++I FK +  W L  KY++G
+Sbjct  76   TFSEEDAARRNTIASLLEEWGLVQIVTPVTTPKASM-SNIKIIPFKDRDNWTLTSKYSVG  134
+
+Query  122  N  122
+             
+Sbjct  135  G  135
+
+
+> UniRef90_E5E480 RegA translational repressor protein n=1 Tax=Acinetobacter 
+phage Acj61 TaxID=760732 RepID=E5E480_9CAUD
+Length=118
+
+ Score = 189 bits (482),  Expect = 2e-59, Method: Composition-based stats.
+ Identities = 76/122 (62%), Positives = 92/122 (75%), Gaps = 4/122 (3%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MI I L  P+DFLKVKETLTRMGIANNKDKVLYQSCHILQK+G Y+I HFK+M+++DG+ 
+Sbjct  1    MINIILNTPDDFLKVKETLTRMGIANNKDKVLYQSCHILQKQGKYFIAHFKDMMKLDGKA  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V M+E+D +R  SIA  LE WGLI+          +++NNFRVI F QK EW L  KYT+
+Sbjct  61   VNMSEDDLLRTKSIAKTLEAWGLIK----TDLGDVEISNNFRVIKFSQKSEWTLKSKYTV  116
+
+Query  121  GN  122
+            GN
+Sbjct  117  GN  118
+
+
+> UniRef90_D5JF83 Translational repressor of early genes n=7 Tax=Viruses 
+TaxID=10239 RepID=D5JF83_9CAUD
+Length=120
+
+ Score = 188 bits (478),  Expect = 1e-58, Method: Composition-based stats.
+ Identities = 72/122 (59%), Positives = 99/122 (81%), Gaps = 2/122 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            M+EI L   + FLK++ETLTR+GIANNK K+L+QSCHIL+K+G Y+IVHFKE+L++DGRQ
+Sbjct  1    MLEIQLISDDSFLKIRETLTRIGIANNKKKMLWQSCHILKKQGKYFIVHFKELLKLDGRQ  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V+MTEEDE+RR++IA LLE+WG+++IV     F ++  NNFRV++  QK +W L  KY I
+Sbjct  61   VDMTEEDELRRNNIARLLEEWGMVKIVTTGLKFAEE--NNFRVLTHSQKADWILKYKYRI  118
+
+Query  121  GN  122
+            G+
+Sbjct  119  GH  120
+
+
+> UniRef90_E5EYL9 RegA translational repressor protein n=1 Tax=Acinetobacter 
+phage Ac42 TaxID=762660 RepID=E5EYL9_9CAUD
+Length=118
+
+ Score = 185 bits (471),  Expect = 1e-57, Method: Composition-based stats.
+ Identities = 76/121 (63%), Positives = 98/121 (81%), Gaps = 3/121 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MI+ITL +P DFLKVKETLTRMGIANNK +VLYQSCHILQK+G Y+I HFK+++RMDG++
+Sbjct  1    MIKITLNQPSDFLKVKETLTRMGIANNKTRVLYQSCHILQKRGEYFIAHFKDLMRMDGKK  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V++ +ED +R  SIA +LE W L++I    +   ++  NNFR+ISFKQK EW+LVPKY I
+Sbjct  61   VDIDDEDNLRTLSIAKMLESWNLLKI---DQELDQEPVNNFRIISFKQKSEWELVPKYII  117
+
+Query  121  G  121
+            G
+Sbjct  118  G  118
+
+
+> UniRef90_Q6WI72 RegA n=7 Tax=Schizot4virus TaxID=1198137 RepID=Q6WI72_BPKVM
+Length=126
+
+ Score = 183 bits (466),  Expect = 1e-56, Method: Composition-based stats.
+ Identities = 67/121 (55%), Positives = 84/121 (69%), Gaps = 1/121 (1%)
+
+Query  2    IEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQV  61
+            +EI L   + FLK++ETLTR+GIANNK   LYQSCHILQK+G+Y++VHFKE+L +DGR V
+Sbjct  7    LEIQLPDDDAFLKIRETLTRIGIANNKTNTLYQSCHILQKRGVYFLVHFKELLALDGRCV  66
+
+Query  62   EMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTIG  121
+            E+T ED  RR++IA LLEDW L +I   +        N FRVISF+    W L  KY IG
+Sbjct  67   EITAEDIERRNNIAKLLEDWNLCKIAHPESHEFTG-DNKFRVISFRDSKNWNLRYKYKIG  125
+
+Query  122  N  122
+             
+Sbjct  126  G  126
+
+
+> UniRef90_A0A0U4JTD3 Translation repressor protein n=1 Tax=Vibrio 
+phage vB_VmeM-32 TaxID=1775142 RepID=A0A0U4JTD3_9VIRU
+Length=133
+
+ Score = 180 bits (459),  Expect = 2e-55, Method: Composition-based stats.
+ Identities = 67/120 (56%), Positives = 89/120 (74%), Gaps = 2/120 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MI+ITL +P+ FLK+KETLTRMGIAN+K K LYQSCHIL K+G Y+I HFKE+L +DG  
+Sbjct  1    MIQITLNQPDQFLKIKETLTRMGIANSKTKTLYQSCHILHKQGKYFIAHFKELLALDGAN  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            +E+TEED+ R + IA LL  W + ++V      +K     FR+I+ K+KHEW L+PKYT+
+Sbjct  61   IEITEEDKQRTEDIAHLLSTWNMCDVVEDNFEPIK--RYFFRIIAHKEKHEWNLIPKYTM  118
+
+
+> UniRef90_Q6J2P8 RegA translational repressor protein n=1 Tax=Acinetobacter 
+virus 133 TaxID=279006 RepID=Q6J2P8_9CAUD
+Length=118
+
+ Score = 179 bits (454),  Expect = 5e-55, Method: Composition-based stats.
+ Identities = 74/121 (61%), Positives = 92/121 (76%), Gaps = 4/121 (3%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MIEIT  +   FL++KETLTRMGIAN++DKVLYQSCHILQK+G YYI HFK++L++DG+ 
+Sbjct  1    MIEITPHQ-GAFLQIKETLTRMGIANSRDKVLYQSCHILQKQGRYYIAHFKDLLKLDGKP  59
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+             ++TEED+VR  SIA +LE W L +I   +       TNNFR+I   QK EWKLVPKYTI
+Sbjct  60   TDITEEDKVRTLSIATMLESWDLCQI---ETQTDLVPTNNFRIIKHSQKAEWKLVPKYTI  116
+
+Query  121  G  121
+            G
+Sbjct  117  G  117
+
+
+> UniRef90_W0B0R5 Translational repressor protein n=1 Tax=Acinetobacter 
+phage ZZ1 TaxID=1049283 RepID=W0B0R5_9CAUD
+Length=126
+
+ Score = 178 bits (452),  Expect = 1e-54, Method: Composition-based stats.
+ Identities = 70/127 (55%), Positives = 88/127 (69%), Gaps = 8/127 (6%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKG------LYYIVHFKEML  54
+            MI I L + E+FLKVKETLTRMGIAN +DKVLYQSCHIL+K+        +YIVHFK+M+
+Sbjct  1    MIPIKLVQSENFLKVKETLTRMGIANQRDKVLYQSCHILKKQDPATGEPKFYIVHFKDMM  60
+
+Query  55   RMDGRQVEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKL  114
+            R+DG+ V +++ED  R  SIA  LE WGL+E+         ++TNNFRVI   QK EW L
+Sbjct  61   RLDGKVVNISDEDVQRTVSIAKTLETWGLVEV--EFAPPEIEVTNNFRVIKAAQKAEWTL  118
+
+Query  115  VPKYTIG  121
+              KY +G
+Sbjct  119  KSKYVVG  125
+
+
+> UniRef90_E5EPN9 RegA translational repressor protein n=1 Tax=Acinetobacter 
+phage Acj9 TaxID=760939 RepID=E5EPN9_9CAUD
+Length=126
+
+ Score = 177 bits (450),  Expect = 2e-54, Method: Composition-based stats.
+ Identities = 66/127 (52%), Positives = 90/127 (71%), Gaps = 9/127 (7%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQK------KGLYYIVHFKEML  54
+            M++I L +P +FLKV+ETLTRMGIAN +DKVL+QSCHIL+K      +  YY+ HFK+M+
+Sbjct  2    MVQILLTEPSNFLKVRETLTRMGIANQRDKVLHQSCHILKKFNPESGQDAYYVAHFKDMM  61
+
+Query  55   RMDGRQVEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKL  114
+            ++DG+ V +++ED  R  SIA  LE WGL+ +V   +    ++TNNFRVI   QK EW L
+Sbjct  62   KLDGKIVNISDEDVQRTYSIAKTLETWGLVTVV---QRLDIEVTNNFRVIKAAQKAEWTL  118
+
+Query  115  VPKYTIG  121
+             PKY +G
+Sbjct  119  KPKYVVG  125
+
+
+> UniRef90_A0A125ST97 Uncharacterized protein n=1 Tax=Ralstonia 
+phage RSP15 TaxID=1785960 RepID=A0A125ST97_9CAUD
+Length=130
+
+ Score = 175 bits (446),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 63/125 (50%), Positives = 84/125 (67%), Gaps = 4/125 (3%)
+
+Query  1    MIEITL--KKPEDFLKVKETLTRMGIANN-KDKVLYQSCHILQKKGLYYIVHFKEMLRMD  57
+            ++EI L   + + FLKVKETLTR+GIA+  +D+ L+Q+CHIL KKG YYIVHFK M  +D
+Sbjct  4    LVEIKLIGNEDDAFLKVKETLTRIGIASRWQDQTLFQTCHILYKKGKYYIVHFKTMYVLD  63
+
+Query  58   GRQVEMTEEDEVRRDSIAWLLEDWGLIEIV-PGQRTFMKDLTNNFRVISFKQKHEWKLVP  116
+            GR   +TE D  R+++I  LL+DW LI +V P Q    K   +N +V+ F  K  WKL P
+Sbjct  64   GRTNNLTENDIARQNTIIQLLQDWNLISVVNPEQIKEPKATLSNIKVVKFSDKQFWKLEP  123
+
+Query  117  KYTIG  121
+            KY +G
+Sbjct  124  KYRLG  128
+
+
+> UniRef90_C8XUP1 RegA translational repressor protein n=9 Tax=Viruses 
+TaxID=10239 RepID=C8XUP1_9CAUD
+Length=154
+
+ Score = 176 bits (447),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 49/123 (40%), Positives = 73/123 (59%), Gaps = 3/123 (2%)
+
+Query  1    MIEITLKK--PEDFLKVKETLTRMGIANNKD-KVLYQSCHILQKKGLYYIVHFKEMLRMD  57
+            M+E+ L +  P  FL +KETL+R+G+   ++   LYQ+CHIL K G YYIVHFK +  +D
+Sbjct  24   MVEVQLNQDRPGIFLGIKETLSRIGVNTRQEPNTLYQTCHILHKYGKYYIVHFKHLFMLD  83
+
+Query  58   GRQVEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPK  117
+            G       ED +R + I  LLE W +++++  ++       +  +V+   Q  EWKLVPK
+Sbjct  84   GHYNGFNREDVLRMNRIIKLLEQWNMVKVIHPEQVTEAADMSRIKVVKHDQVPEWKLVPK  143
+
+Query  118  YTI  120
+            Y I
+Sbjct  144  YII  146
+
+
+> UniRef90_W8JE72 Uncharacterized protein n=17 Tax=Myoviridae TaxID=10662 
+RepID=W8JE72_9CAUD
+Length=154
+
+ Score = 174 bits (443),  Expect = 6e-53, Method: Composition-based stats.
+ Identities = 50/123 (41%), Positives = 75/123 (61%), Gaps = 3/123 (2%)
+
+Query  1    MIEITLKK--PEDFLKVKETLTRMGIANNKD-KVLYQSCHILQKKGLYYIVHFKEMLRMD  57
+            M+E+ L +  P  FL +KETL+R+G+   ++   LYQ+CHIL K G Y+IVHFK +  +D
+Sbjct  24   MVEVQLNQDKPGIFLGIKETLSRIGVNTRQEPNTLYQTCHILHKFGRYHIVHFKHLFMLD  83
+
+Query  58   GRQVEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPK  117
+            G     T ED +R + I  LLE W +++I+  ++       +  +V+   Q  +WKLVPK
+Sbjct  84   GHYNGFTREDVLRMNRIIRLLEQWNMVKILHPEQITEVADMSRIKVVKHDQVSDWKLVPK  143
+
+Query  118  YTI  120
+            YTI
+Sbjct  144  YTI  146
+
+
+> UniRef90_Q6RHT9 Translation repressor protein n=1 Tax=Aeromonas 
+virus 65 TaxID=260149 RepID=Q6RHT9_9CAUD
+Length=123
+
+ Score = 171 bits (434),  Expect = 7e-52, Method: Composition-based stats.
+ Identities = 63/120 (53%), Positives = 79/120 (66%), Gaps = 3/120 (3%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MI I L  P+DFLKV+ETLTR+GIAN + K ++QSCHI+QK G YY+ HFKE+LR DGR 
+Sbjct  1    MIRIGLYNPQDFLKVRETLTRIGIANRETKHIWQSCHIIQKNGFYYVAHFKELLRRDGRD  60
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V M++ED  R   IA+LLEDW L  ++    T  +     F VIS K+K EW    KY  
+Sbjct  61   VVMSQEDVDRCYDIAYLLEDWDLCSVID---TMERPNRFEFHVISHKEKSEWIHKSKYIF  117
+
+
+> UniRef90_S6CFF6 RegA translational repressor protein n=2 Tax=unclassified 
+Myoviridae TaxID=196896 RepID=S6CFF6_9CAUD
+Length=154
+
+ Score = 169 bits (430),  Expect = 5e-51, Method: Composition-based stats.
+ Identities = 48/123 (39%), Positives = 74/123 (60%), Gaps = 3/123 (2%)
+
+Query  1    MIEITLKK--PEDFLKVKETLTRMGIANNKD-KVLYQSCHILQKKGLYYIVHFKEMLRMD  57
+            M+E+ L +  P  FL +KETL+R+G+   ++ + LYQ+CHIL K G Y+IVHFK +  +D
+Sbjct  24   MVEVELNQDKPGIFLGIKETLSRIGVNTRQEPETLYQTCHILHKSGKYFIVHFKHLFMLD  83
+
+Query  58   GRQVEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPK  117
+            G       ED +R + I  LLE W +I+++  ++       +  +V+   Q  +WKLVPK
+Sbjct  84   GHYNGFQREDVLRMNRIIRLLEQWKMIKVLHPEQVTECADMSRIKVVKHDQIADWKLVPK  143
+
+Query  118  YTI  120
+            Y I
+Sbjct  144  YII  146
+
+
+> UniRef90_A0A067XQB3 RegA protein n=1 Tax=Caulobacter phage Cr30 
+TaxID=1357714 RepID=A0A067XQB3_9CAUD
+Length=139
+
+ Score = 165 bits (419),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 54/123 (44%), Positives = 81/123 (66%), Gaps = 2/123 (2%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNK--DKVLYQSCHILQKKGLYYIVHFKEMLRMDG  58
+             IEI L KPEDFL VKETL R+GI+++K   K LY SC IL K+G Y+++HFKE   +D 
+Sbjct  15   FIEIELSKPEDFLIVKETLERIGISSSKTTPKTLYPSCVILFKRGRYWLLHFKECFMLDR  74
+
+Query  59   RQVEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKY  118
+            +    +EED  RR++IAWLL +WGL+ +   +        ++ +V+  K+K E++++ KY
+Sbjct  75   KPTSFSEEDRKRRNTIAWLLNEWGLVTVKNTEVFKDLAPISSIKVVPSKEKKEFQIIHKY  134
+
+Query  119  TIG  121
+             +G
+Sbjct  135  VVG  137
+
+
+> UniRef90_I6WC18 Translation repressor protein n=1 Tax=Aeromonas 
+phage CC2 TaxID=1204516 RepID=I6WC18_9CAUD
+Length=128
+
+ Score = 164 bits (416),  Expect = 4e-49, Method: Composition-based stats.
+ Identities = 58/120 (48%), Positives = 75/120 (63%), Gaps = 3/120 (3%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIANNKDKVLYQSCHILQKKGLYYIVHFKEMLRMDGRQ  60
+            MI I +++  DFL ++ETLTR+GIAN + K L+QSCHI++K G YYI HFKE+LR DG  
+Sbjct  9    MIRIGIQEATDFLSIQETLTRIGIANREQKKLWQSCHIVRKHGFYYIAHFKELLRRDGLD  68
+
+Query  61   VEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWKLVPKYTI  120
+            V +++ED  RRD I  LLEDWGL  I+             F +I  K K +W L  KY  
+Sbjct  69   VVISQEDIDRRDDITSLLEDWGLCSIID---LINPPKVYEFHIIQHKDKPDWTLKSKYIF  125
+
+
+> UniRef90_A0A0A0YVI9 Endoribonulcease translational repressor 
+of early genes RegA n=1 Tax=Erwinia phage phiEa2809 TaxID=1564096 
+RepID=A0A0A0YVI9_9CAUD
+Length=141
+
+ Score = 161 bits (408),  Expect = 8e-48, Method: Composition-based stats.
+ Identities = 52/128 (41%), Positives = 71/128 (55%), Gaps = 8/128 (6%)
+
+Query  1    MIEITL---KKPEDFLKVKETLTRMGIANNKD-----KVLYQSCHILQKKGLYYIVHFKE  52
+            M+E+ L   K  + FL   ETL+R+GI   KD     + LYQ+CHIL K G YYIVHFK 
+Sbjct  1    MVEVELAEGKSRDPFLSTLETLSRIGIHIRKDEDPEDRTLYQTCHILHKAGRYYIVHFKH  60
+
+Query  53   MLRMDGRQVEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEW  112
+            +  +DG+      ED +R + I  LL DWGL  I   ++       N+ +V+      +W
+Sbjct  61   LFMLDGKINGFYREDILRMNQIIRLLADWGLYTIKHPEQMTDFAGMNHIKVVKHGDVSKW  120
+
+Query  113  KLVPKYTI  120
+            KLVPKY +
+Sbjct  121  KLVPKYRM  128
+
+
+> UniRef90_A0A0H4INT5 Endoribonuclease n=1 Tax=Stenotrophomonas 
+phage IME-SM1 TaxID=1654717 RepID=A0A0H4INT5_9CAUD
+Length=133
+
+ Score = 160 bits (405),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 51/128 (40%), Positives = 71/128 (55%), Gaps = 11/128 (9%)
+
+Query  1    MIEITLKKPEDFLKVKETLTRMGIAN-----NKDKVLYQSCHILQKKGLYYIVHFKEMLR  55
+              EI     + FLKV+ETLTR+GI+      N  + L+Q+CH+L K+G YYI HFK+M  
+Sbjct  4    FFEIEALDRDQFLKVRETLTRIGISTKRTDENGKQTLWQTCHVLHKRGRYYICHFKQMFL  63
+
+Query  56   MDG--RQVEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEWK  113
+            +DG  +  + T+ED  R + I  LL+DWGL++ +            N  V+    K  W 
+Sbjct  64   LDGRTKSTDFTDEDYDRTEYIVALLQDWGLVKALDEVIK----PPTNVMVVKHSDKGNWN  119
+
+Query  114  LVPKYTIG  121
+            L  KYTIG
+Sbjct  120  LRCKYTIG  127
+
+
+> UniRef90_K7YGV0 RegA-translational repressor n=1 Tax=Serratia 
+phage phiMAM1 TaxID=1262513 RepID=K7YGV0_9CAUD
+Length=163
+
+ Score = 154 bits (391),  Expect = 6e-45, Method: Composition-based stats.
+ Identities = 45/128 (35%), Positives = 68/128 (53%), Gaps = 8/128 (6%)
+
+Query  1    MIEITL---KKPEDFLKVKETLTRMGIA-----NNKDKVLYQSCHILQKKGLYYIVHFKE  52
+            ++E+ L   K  + F  + ETLTR+G+           VLYQ+CHI Q+ G YYIVHFK 
+Sbjct  24   LVEVDLDTSKARDTFFMITETLTRVGVNPKNEGGEPKNVLYQTCHITQRGGKYYIVHFKH  83
+
+Query  53   MLRMDGRQVEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRVISFKQKHEW  112
+                +GR+  +  ED +R + I  LLE WG+I+I   ++        + +V+       W
+Sbjct  84   FYMFEGRRNGLCREDILRMNRIIRLLEQWGMIKIKHPEQITELAQLAHIKVVKHHDAVNW  143
+
+Query  113  KLVPKYTI  120
+             L+PKY +
+Sbjct  144  TLLPKYDV  151
+
+
+> UniRef90_A0A193H117 Replication factor C small subunit /DNA polymerase 
+clamp loader subunit n=1 Tax=Shigella phage SHFML-26 
+TaxID=1863009 RepID=A0A193H117_9CAUD
+Length=259
+
+ Score = 141 bits (356),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 77/79 (97%), Positives = 78/79 (99%), Gaps = 0/79 (0%)
+
+Query  44   LYYIVHFKEMLRMDGRQVEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRV  103
+             +YIVHFKEMLRMDGRQVEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRV
+Sbjct  181  KHYIVHFKEMLRMDGRQVEMTEEDEVRRDSIAWLLEDWGLIEIVPGQRTFMKDLTNNFRV  240
+
+Query  104  ISFKQKHEWKLVPKYTIGN  122
+            ISFKQKHEWKLVPKYTIGN
+Sbjct  241  ISFKQKHEWKLVPKYTIGN  259
+
+
+> UniRef90_C9DGI2 RegA translational repressor protein n=1 Tax=Deftia 
+phage phiW-14 TaxID=665032 RepID=C9DGI2_9CAUD
+Length=146
+
+ Score = 132 bits (332),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 40/126 (32%), Positives = 65/126 (52%), Gaps = 7/126 (6%)
+
+Query  1    MIEITLKKPEDFL---KVKETLTRMG-IANNKDKVLYQSCHILQKKGLYYIVHFKEM-LR  55
+            ++E+ LK+ +      +V+ETL R+G  A +   VL Q  H++  +G  YI HFK + L 
+Sbjct  8    LVEVKLKESDQGSMANRVRETLERIGTFAADTPDVLNQVAHLITLEGKQYIAHFKFLYLV  67
+
+Query  56   MDGRQVEMTEEDEVRRDSIAWLLEDWGLIEIV-PGQRTFMKDLT-NNFRVISFKQKHEWK  113
+              G    + + D  R++    +L +WG IE+V P Q   +   T    +V+  + K  WK
+Sbjct  68   FHGTDNRLKDSDIARQNKAIEMLVNWGFIEVVDPTQMEGVSPQTPAGVKVVRHQDKGNWK  127
+
+Query  114  LVPKYT  119
+            L PK+ 
+Sbjct  128  LTPKFR  133
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.180    0.688    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0553    0.140     1.90     42.6     43.6 
+
+Effective search space used: 449980988130
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

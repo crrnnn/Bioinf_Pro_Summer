@@ -1,0 +1,2785 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1ylxa1
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q5KZY7 Uncharacterized protein n=20 Tax=Geobacillus Ta...  206     3e-66
+  UniRef90_S7U9D9 Uncharacterized protein n=9 Tax=Geobacillus Tax...  206     4e-66
+  UniRef90_S5YYM0 Uncharacterized protein n=1 Tax=Bacillus sp. (s...  187     4e-59
+  UniRef90_A4IMZ0 Uncharacterized protein n=2 Tax=Geobacillus Tax...  182     6e-57
+  UniRef90_UPI000488934D hypothetical protein n=1 Tax=Anoxybacill...  169     7e-52
+  UniRef90_C5D2R9 Uncharacterized protein n=10 Tax=Bacillaceae Ta...  169     1e-51
+  UniRef90_A0A1B7KRF8 Uncharacterized protein n=1 Tax=Geobacillus...  166     1e-50
+  UniRef90_UPI0005CCF880 hypothetical protein n=1 Tax=Bacillus al...  146     7e-43
+  UniRef90_A0A143MIK9 Uncharacterized protein n=1 Tax=Geobacillus...  124     1e-33
+  UniRef90_UPI00082E1E42 UPI00082E1E42 related cluster n=1 Tax=un...  102     2e-25
+  UniRef90_UPI0007172D5D hypothetical protein n=1 Tax=Bacillus fa...  96.7    2e-23
+  UniRef90_A0A0M2PCX9 Uncharacterized protein n=1 Tax=Bacillus sp...  95.1    8e-23
+  UniRef90_UPI00094CD8FC UPI00094CD8FC related cluster n=1 Tax=un...  95.1    8e-23
+  UniRef90_UPI00047E4596 hypothetical protein n=1 Tax=Bacillus bo...  93.2    5e-22
+  UniRef90_UPI000400A111 hypothetical protein n=1 Tax=Bacillus sp...  92.8    7e-22
+  UniRef90_UPI0008F52AC5 UPI0008F52AC5 related cluster n=1 Tax=un...  92.4    8e-22
+  UniRef90_UPI00082A9C04 UPI00082A9C04 related cluster n=1 Tax=un...  92.4    9e-22
+  UniRef90_A0A150KN17 Uncharacterized protein n=1 Tax=Bacillus sp...  91.3    3e-21
+  UniRef90_D5DC61 Uncharacterized protein n=12 Tax=Bacillus TaxID...  90.5    6e-21
+  UniRef90_A0A179T799 Uncharacterized protein n=1 Tax=Bacillus li...  90.1    8e-21
+  UniRef90_A0A0B6AEH4 Uncharacterized protein n=12 Tax=Bacillus T...  89.7    1e-20
+  UniRef90_UPI0004789485 hypothetical protein n=1 Tax=Bacillus sp...  89.4    2e-20
+  UniRef90_UPI000826E546 UPI000826E546 related cluster n=1 Tax=un...  89.0    2e-20
+  UniRef90_A0A024P572 Uncharacterized protein n=1 Tax=Halobacillu...  85.1    6e-19
+  UniRef90_W7LDA8 Uncharacterized protein n=1 Tax=Bacillus firmus...  84.3    1e-18
+  UniRef90_A0A0J5VQM5 Uncharacterized protein n=1 Tax=Bacillus fi...  83.2    3e-18
+  UniRef90_A0A0M5JH42 Uncharacterized protein n=1 Tax=Bacillus go...  82.8    4e-18
+  UniRef90_E5WQY7 Uncharacterized protein n=2 Tax=Bacillus TaxID=...  82.4    7e-18
+  UniRef90_A0A0A5GHU0 Uncharacterized protein n=1 Tax=Pontibacill...  82.4    7e-18
+  UniRef90_A0A0M2SRP8 Uncharacterized protein n=2 Tax=Bacillus Ta...  81.6    1e-17
+  UniRef90_UPI0008F976E5 UPI0008F976E5 related cluster n=1 Tax=un...  81.3    2e-17
+  UniRef90_UPI000826901B UPI000826901B related cluster n=1 Tax=un...  81.3    2e-17
+  UniRef90_UPI0004B08C1E hypothetical protein n=1 Tax=Bacillus sp...  80.9    4e-17
+  UniRef90_UPI0008F4C456 UPI0008F4C456 related cluster n=1 Tax=un...  80.1    5e-17
+  UniRef90_UPI0008F8083A UPI0008F8083A related cluster n=1 Tax=un...  79.7    6e-17
+  UniRef90_UPI00070EFB30 hypothetical protein n=1 Tax=Bacillus sp...  79.7    6e-17
+  UniRef90_A6CML9 Uncharacterized protein n=2 Tax=Bacillus sp. SG...  79.7    7e-17
+  UniRef90_UPI00070CBDD5 hypothetical protein n=1 Tax=Bacillus sp...  79.7    8e-17
+  UniRef90_A0A0Q3TK15 Uncharacterized protein n=1 Tax=Bacillus sh...  79.7    8e-17
+  UniRef90_UPI00069D4462 hypothetical protein n=1 Tax=Virgibacill...  78.2    2e-16
+  UniRef90_A0A0M0GIS2 Uncharacterized protein n=1 Tax=Sporosarcin...  78.2    2e-16
+  UniRef90_A0A161PIF5 Uncharacterized protein n=3 Tax=Bacillus Ta...  77.0    8e-16
+  UniRef90_UPI00088C6067 UPI00088C6067 related cluster n=3 Tax=Ba...  77.0    8e-16
+  UniRef90_UPI000825CA28 UPI000825CA28 related cluster n=1 Tax=un...  73.6    2e-14
+  UniRef90_U5L8D2 Uncharacterized protein n=2 Tax=Bacillus TaxID=...  72.8    3e-14
+  UniRef90_A0A0M0X9N6 Uncharacterized protein n=2 Tax=Bacillus Ta...  72.8    3e-14
+  UniRef90_UPI0002FD221C hypothetical protein n=1 Tax=Bacillus ma...  59.7    2e-09
+  UniRef90_A0A0U1KMT9 Uncharacterized protein n=1 Tax=Paraliobaci...  50.1    7e-06
+  UniRef90_UPI00065BD78E hypothetical protein n=1 Tax=Bacillus ce...  47.0    8e-05
+  UniRef90_UPI0005527088 hypothetical protein n=1 Tax=Bacillus sp...  43.9    9e-04
+
+
+> UniRef90_Q5KZY7 Uncharacterized protein n=20 Tax=Geobacillus 
+TaxID=129337 RepID=Q5KZY7_GEOKA
+Length=100
+
+ Score = 206 bits (523),  Expect = 3e-66, Method: Compositional matrix adjust.
+ Identities = 99/100 (99%), Positives = 100/100 (100%), Gaps = 0/100 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYY+GYTINKDDEMITIHMPF
+Sbjct  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYIGYTINKDDEMITIHMPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEVIHS  100
+           VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEVIHS
+Sbjct  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEVIHS  100
+
+
+> UniRef90_S7U9D9 Uncharacterized protein n=9 Tax=Geobacillus TaxID=129337 
+RepID=S7U9D9_9BACI
+Length=133
+
+ Score = 206 bits (525),  Expect = 4e-66, Method: Compositional matrix adjust.
+ Identities = 99/100 (99%), Positives = 100/100 (100%), Gaps = 0/100 (0%)
+
+Query  1    MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+            MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF
+Sbjct  34   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  93
+
+Query  61   VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEVIHS  100
+            VKNERGELALEKQEWTVRKDGREKKGFHSLQEA+EEVIHS
+Sbjct  94   VKNERGELALEKQEWTVRKDGREKKGFHSLQEAIEEVIHS  133
+
+
+> UniRef90_S5YYM0 Uncharacterized protein n=1 Tax=Bacillus sp. 
+(strain JF8) TaxID=1921421 RepID=S5YYM0_BACPJ
+Length=99
+
+ Score = 187 bits (476),  Expect = 4e-59, Method: Compositional matrix adjust.
+ Identities = 89/99 (90%), Positives = 94/99 (95%), Gaps = 0/99 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEFAPRSVVIEEFIDTLEPMMEAY LDQVGIFEEHGEGNRYY+GYTINKDDEMI +HMPF
+Sbjct  1   MEFAPRSVVIEEFIDTLEPMMEAYDLDQVGIFEEHGEGNRYYIGYTINKDDEMIVVHMPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEVIH  99
+           V+NERGE+ALEKQEWTVRKDG EK G+ SLQEAMEEVIH
+Sbjct  61  VRNERGEVALEKQEWTVRKDGDEKTGYRSLQEAMEEVIH  99
+
+
+> UniRef90_A4IMZ0 Uncharacterized protein n=2 Tax=Geobacillus TaxID=129337 
+RepID=A4IMZ0_GEOTN
+Length=99
+
+ Score = 182 bits (462),  Expect = 6e-57, Method: Compositional matrix adjust.
+ Identities = 86/99 (87%), Positives = 93/99 (94%), Gaps = 0/99 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEFAPR V++EEFIDTLEPMME YGLDQVGIFEE GEGNRYYVGYTINKD EMITIHMPF
+Sbjct  1   MEFAPRRVILEEFIDTLEPMMETYGLDQVGIFEERGEGNRYYVGYTINKDGEMITIHMPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEVIH  99
+           ++NERGELALEKQEWTVRKDG+EKKG+ SL EAM+EVIH
+Sbjct  61  IQNERGELALEKQEWTVRKDGQEKKGYRSLPEAMDEVIH  99
+
+
+> UniRef90_UPI000488934D hypothetical protein n=1 Tax=Anoxybacillus 
+tepidamans TaxID=265948 RepID=UPI000488934D
+Length=101
+
+ Score = 169 bits (428),  Expect = 7e-52, Method: Compositional matrix adjust.
+ Identities = 77/98 (79%), Positives = 89/98 (91%), Gaps = 0/98 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF PRS +I EFIDTLEPMM+ YGLDQVGIFEE G G+ YY+GYTINKDD+MI +HMPF
+Sbjct  1   MEFVPRSAIIHEFIDTLEPMMDVYGLDQVGIFEEEGNGDTYYIGYTINKDDDMIILHMPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEVI  98
+           VKNERGELALEK+EWT+R DG+E+KG+HSLQEAME+VI
+Sbjct  61  VKNERGELALEKEEWTIRADGKEEKGYHSLQEAMEKVI  98
+
+
+> UniRef90_C5D2R9 Uncharacterized protein n=10 Tax=Bacillaceae 
+TaxID=186817 RepID=C5D2R9_GEOSW
+Length=101
+
+ Score = 169 bits (427),  Expect = 1e-51, Method: Compositional matrix adjust.
+ Identities = 76/97 (78%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEFAPRSV+I EFIDTL+P+M+ Y LDQVGIFEE G GN+YY+GYTINKDD+MI +HMPF
+Sbjct  1   MEFAPRSVIIHEFIDTLQPLMDVYHLDQVGIFEEEGTGNKYYIGYTINKDDDMIVLHMPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+           VKNERGELALEKQEWT+RKDGRE+KG+  LQEAM+E+
+Sbjct  61  VKNERGELALEKQEWTIRKDGREQKGYQFLQEAMDEI  97
+
+
+> UniRef90_A0A1B7KRF8 Uncharacterized protein n=1 Tax=Geobacillus 
+thermoglucosidasius TaxID=1426 RepID=A0A1B7KRF8_GEOTM
+Length=101
+
+ Score = 166 bits (419),  Expect = 1e-50, Method: Compositional matrix adjust.
+ Identities = 74/97 (76%), Positives = 88/97 (91%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF PRSV+I EFIDTL+P+M+ Y LDQVG+FEE GEGN+YY+GYTINKDD+MI +HMPF
+Sbjct  1   MEFVPRSVIIREFIDTLQPLMDVYHLDQVGLFEEEGEGNKYYIGYTINKDDKMIVLHMPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+           VKNERGELALEK EWTVRKDG E+KG++SLQ AM+E+
+Sbjct  61  VKNERGELALEKHEWTVRKDGNEQKGYYSLQAAMDEI  97
+
+
+> UniRef90_UPI0005CCF880 hypothetical protein n=1 Tax=Bacillus 
+alveayuensis TaxID=279215 RepID=UPI0005CCF880
+Length=106
+
+ Score = 146 bits (369),  Expect = 7e-43, Method: Compositional matrix adjust.
+ Identities = 65/97 (67%), Positives = 81/97 (84%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF  R V++ E I+TLEPMM+ Y LDQ+GIFEE GE + YY+GY INKD+EMI +HMPF
+Sbjct  1   MEFVKREVIMNELIETLEPMMKTYDLDQIGIFEEEGENDLYYMGYAINKDEEMILLHMPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+           VKN RGELAL+KQEWT+R DG E+KG+HSL EAM+++
+Sbjct  61  VKNARGELALQKQEWTIRMDGNEQKGYHSLDEAMKQI  97
+
+
+> UniRef90_A0A143MIK9 Uncharacterized protein n=1 Tax=Geobacillus 
+subterraneus TaxID=129338 RepID=A0A143MIK9_9BACI
+Length=131
+
+ Score = 124 bits (310),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 56/59 (95%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMP  59
+           MEF PRSVVI+EFIDTLEPMMEAYGLDQVGIFEEHGEGNRYY+GYTINKDDEMITIHMP
+Sbjct  1   MEFVPRSVVIDEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYIGYTINKDDEMITIHMP  59
+
+
+> UniRef90_UPI00082E1E42 UPI00082E1E42 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00082E1E42
+Length=100
+
+ Score = 102 bits (253),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 45/100 (45%), Positives = 65/100 (65%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF PR  +I E     +  +E YG+D +GIFEEHGEG+RYY+GYT+NKD +   IH P+
+Sbjct  1   MEFLPREKIINELQQPFQSYIEKYGIDDIGIFEEHGEGDRYYLGYTVNKDGKTFHIHSPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDG---REKKGFHSLQEAMEEV  97
+           +KN++GELA E  EWT+  D     +++G+  L+     +
+Sbjct  61  LKNDQGELAQENDEWTLESDNPSLEDQRGYDDLESVFRNI  100
+
+
+> UniRef90_UPI0007172D5D hypothetical protein n=1 Tax=Bacillus 
+farraginis TaxID=254757 RepID=UPI0007172D5D
+Length=99
+
+ Score = 96.7 bits (239),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 40/96 (42%), Positives = 67/96 (70%), Gaps = 0/96 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M++  R  +I++  + ++ +M+ YGL+ +GI+EE G GN YY+GYT+ KD ++  ++MP+
+Sbjct  1   MDYINRETLIDQMTNQMQLLMDHYGLEDIGIYEEEGAGNDYYLGYTVRKDGKVFMLNMPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEE  96
+           +K+E G L L+ +EWT++ D  E KGFHSL E   +
+Sbjct  61  MKDEFGRLTLKNREWTIQSDDGELKGFHSLDEVFNK  96
+
+
+> UniRef90_A0A0M2PCX9 Uncharacterized protein n=1 Tax=Bacillus 
+sp. SA1-12 TaxID=1455638 RepID=A0A0M2PCX9_9BACI
+Length=100
+
+ Score = 95.1 bits (235),  Expect = 8e-23, Method: Compositional matrix adjust.
+ Identities = 42/100 (42%), Positives = 66/100 (66%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M+F PR  +I E  ++ +P +  YG++ +GIFEE G+   YY+GYT+ KD +   IH PF
+Sbjct  1   MDFLPREQIINELQNSFQPFITKYGIEDIGIFEEEGQDQHYYLGYTVRKDGKTYHIHSPF  60
+
+Query  61  VKNERGELALEKQEWTVRKD---GREKKGFHSLQEAMEEV  97
+           +KN+ G LA EK+EWT+  D    ++ KG+  L++A+ E+
+Sbjct  61  IKNQAGGLAPEKREWTLETDEPMNKDLKGYKQLEDALREI  100
+
+
+> UniRef90_UPI00094CD8FC UPI00094CD8FC related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00094CD8FC
+Length=103
+
+ Score = 95.1 bits (235),  Expect = 8e-23, Method: Compositional matrix adjust.
+ Identities = 44/97 (45%), Positives = 63/97 (65%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME+  R  +++E   +L  +ME Y +D++G+FEE GEGN Y++GYTI K  E+   H P+
+Sbjct  1   MEYLSREEILDEMNHSLRTIMEKYNVDEIGVFEEQGEGNHYFIGYTIRKASEVFMTHTPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+           VKNE G L  EK+EW +  D  + +GF SL E  EE+
+Sbjct  61  VKNEEGLLRPEKKEWVIETDEGDLRGFSSLDEVFEEM  97
+
+
+> UniRef90_UPI00047E4596 hypothetical protein n=1 Tax=Bacillus 
+bogoriensis TaxID=246272 RepID=UPI00047E4596
+Length=104
+
+ Score = 93.2 bits (230),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 46/98 (47%), Positives = 64/98 (65%), Gaps = 1/98 (1%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME   R  +++E  D+LE +M  Y +D +GIFEE GE   YY+GYTI K D +  +H PF
+Sbjct  1   MESVTRETILQEMNDSLERIMNKYDVDDIGIFEEQGEAEEYYIGYTIRKADAVFMVHRPF  60
+
+Query  61  VKNERGELALEKQEWTVR-KDGREKKGFHSLQEAMEEV  97
+            K+E+G LA  +++WTV  +DG +  GF SL EAM+ V
+Sbjct  61  YKDEQGLLAPHEKKWTVEFEDGEDFHGFSSLDEAMDNV  98
+
+
+> UniRef90_UPI000400A111 hypothetical protein n=1 Tax=Bacillus 
+sp. FJAT-14578 TaxID=1208600 RepID=UPI000400A111
+Length=99
+
+ Score = 92.8 bits (229),  Expect = 7e-22, Method: Compositional matrix adjust.
+ Identities = 39/97 (40%), Positives = 66/97 (68%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M F  R   + E + +LEP++E Y LD++GI+EE G  + YY+GYT+ K + +  IH P+
+Sbjct  1   MHFLKREERMNEMLHSLEPLLEQYHLDEIGIYEEEGVNDLYYMGYTVKKGEHVYMIHQPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+           VKNE+ EL+L++ +WT++ +  E KG+ SL++   ++
+Sbjct  61  VKNEKEELSLQESQWTIQSEHNESKGYSSLEDVFNQI  97
+
+
+> UniRef90_UPI0008F52AC5 UPI0008F52AC5 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008F52AC5
+Length=101
+
+ Score = 92.4 bits (228),  Expect = 8e-22, Method: Compositional matrix adjust.
+ Identities = 42/93 (45%), Positives = 61/93 (66%), Gaps = 0/93 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M+   R  +I E  DTL+ M+E Y LD +GIFEE GEGNR+Y+GYT+ K+ E+  IHMPF
+Sbjct  1   MDNISREALISEMNDTLKHMLEKYDLDDIGIFEEEGEGNRFYLGYTVRKNGEVFMIHMPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEA  93
+            K+E G LA  ++ W +  D  + +G+ +L + 
+Sbjct  61  EKDENGNLARLEKSWAIESDEVDTRGYDNLDDV  93
+
+
+> UniRef90_UPI00082A9C04 UPI00082A9C04 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00082A9C04
+Length=100
+
+ Score = 92.4 bits (228),  Expect = 9e-22, Method: Compositional matrix adjust.
+ Identities = 42/100 (42%), Positives = 65/100 (65%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME+  R+ ++ E   +L   +E + LD +GIFEEHGEG+RYY+GYT++KD++   IH+P+
+Sbjct  1   MEYLSRNEILNELQTSLPEYIEKFDLDSIGIFEEHGEGDRYYLGYTVSKDEKTYHIHLPY  60
+
+Query  61  VKNERGELALEKQEWTVRKD---GREKKGFHSLQEAMEEV  97
+            K+E G L     EWTV  D     +++GF SL+   E++
+Sbjct  61  TKSEEGSLTPLGNEWTVETDEPNNEDRRGFDSLESVFEQI  100
+
+
+> UniRef90_A0A150KN17 Uncharacterized protein n=1 Tax=Bacillus 
+sporothermodurans TaxID=46224 RepID=A0A150KN17_9BACI
+Length=102
+
+ Score = 91.3 bits (225),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 38/97 (39%), Positives = 67/97 (69%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M++  R ++I++    L+ +M+ Y L+ +GI+EE G G+ YY+GYT+ K+ E+  I+MP+
+Sbjct  1   MDYLNREILIDQMNAQLKELMDHYQLEDIGIYEEEGAGDDYYLGYTVRKNGEVFMINMPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+           +K+  G L L+ ++WT++ D  EKKGFH+L E  + +
+Sbjct  61  MKDAYGNLGLKNRDWTIQSDEGEKKGFHNLDEVFDHI  97
+
+
+> UniRef90_D5DC61 Uncharacterized protein n=12 Tax=Bacillus TaxID=55087 
+RepID=D5DC61_BACMD
+Length=102
+
+ Score = 90.5 bits (223),  Expect = 6e-21, Method: Compositional matrix adjust.
+ Identities = 36/97 (37%), Positives = 66/97 (68%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME+  R  ++ E    ++ ++  Y L  V ++EE GEGN YY+GYT+ K+D +  ++ P+
+Sbjct  1   MEYVGREAIVSELTHHMDDILNKYNLQGVSVYEEEGEGNHYYLGYTVKKNDYVFMVNKPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+           +K++ G+LA+EKQEWT++ +  E  G+ SL++A +++
+Sbjct  61  IKDKDGKLAVEKQEWTLQGNDGETNGYASLEDAFQQI  97
+
+
+> UniRef90_A0A179T799 Uncharacterized protein n=1 Tax=Bacillus 
+litoralis TaxID=152268 RepID=A0A179T799_9BACI
+Length=104
+
+ Score = 90.1 bits (222),  Expect = 8e-21, Method: Compositional matrix adjust.
+ Identities = 41/100 (41%), Positives = 64/100 (64%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M+F  R  +I E  D+ +P +  YG++ +GIFEE G+ N YY+GYT+ K+ +   IH  +
+Sbjct  1   MDFLSREQIINELQDSFQPFINKYGIEDIGIFEEEGQDNHYYLGYTVRKEGKTYHIHSSY  60
+
+Query  61  VKNERGELALEKQEWTVRK---DGREKKGFHSLQEAMEEV  97
+           +KN  G LA EK+EWT+     D ++ KGF  L++A+ E+
+Sbjct  61  LKNNHGGLAPEKKEWTIESDEPDRKDLKGFKGLEDALREI  100
+
+
+> UniRef90_A0A0B6AEH4 Uncharacterized protein n=12 Tax=Bacillus 
+TaxID=55087 RepID=A0A0B6AEH4_BACMB
+Length=102
+
+ Score = 89.7 bits (221),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 40/102 (39%), Positives = 68/102 (67%), Gaps = 3/102 (3%)
+
+Query  1    MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+            ME+  R   I E    ++ ++  Y L  V ++EE GEGN YY+GYT+ K+D++  ++ P+
+Sbjct  1    MEYVKRETAISELTHHMDDILNKYNLQGVSVYEEEGEGNHYYLGYTVKKNDQVFMLNRPY  60
+
+Query  61   VKNERGELALEKQEWTVRKDGREKKGFHSLQEA---MEEVIH  99
+            +K++ G+LA+EKQEWTV+ +  E  G  SL++A   ++E++H
+Sbjct  61   LKDKDGKLAVEKQEWTVQGNEGETNGHASLEDAFQKIDEIVH  102
+
+
+> UniRef90_UPI0004789485 hypothetical protein n=1 Tax=Bacillus 
+sp. J33 TaxID=935836 RepID=UPI0004789485
+Length=100
+
+ Score = 89.4 bits (220),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 39/100 (39%), Positives = 64/100 (64%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF PR  +I    + L+  ++ YG+D +GIFEE G+GN+YY+GYT+ K+     IH P+
+Sbjct  1   MEFLPREQIINALQEPLQSYIDKYGIDDIGIFEEEGQGNQYYLGYTVKKEGRTYHIHSPY  60
+
+Query  61  VKNERGELALEKQEWTVRKD---GREKKGFHSLQEAMEEV  97
+            K++ G L   + EWT+  D   G ++ G+ +L++A+ E+
+Sbjct  61  FKDDNGGLTPAENEWTIESDEPKGEDRMGYENLEQALREI  100
+
+
+> UniRef90_UPI000826E546 UPI000826E546 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000826E546
+Length=100
+
+ Score = 89.0 bits (219),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 41/97 (42%), Positives = 61/97 (63%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF  R  +I E    L+ +ME Y L+++G++EE GEGN+ Y G+T+ KD  +  I+ PF
+Sbjct  1   MEFINREHLISEMTQMLQELMEEYDLEEIGVYEEEGEGNQCYFGFTVRKDGHVYMINNPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+           +KN +GE+A    EWTV+ +  E KG+ SL E    +
+Sbjct  61  IKNSKGEVAPASHEWTVQSETGENKGYTSLDEVFNRI  97
+
+
+> UniRef90_A0A024P572 Uncharacterized protein n=1 Tax=Halobacillus 
+karajensis TaxID=195088 RepID=A0A024P572_9BACI
+Length=102
+
+ Score = 85.1 bits (209),  Expect = 6e-19, Method: Compositional matrix adjust.
+ Identities = 38/100 (38%), Positives = 62/100 (62%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME  P   +I +  ++  P+ME   LD +GIFEE G+G+ Y++GYT+ K++ +  +H+PF
+Sbjct  1   MESVPVEQLISDLENSFRPLMEKNNLDDIGIFEEEGQGDYYHLGYTVKKNERVYMVHLPF  60
+
+Query  61  VKNERGELALEKQEWTVRKD---GREKKGFHSLQEAMEEV  97
+           +K+E G L L+KQEW V  D     + KGF  + +  + +
+Sbjct  61  IKSEDGHLTLDKQEWIVETDDPNAVDLKGFDKIDDVFQSL  100
+
+
+> UniRef90_W7LDA8 Uncharacterized protein n=1 Tax=Bacillus firmus 
+DS1 TaxID=1307436 RepID=W7LDA8_BACFI
+Length=100
+
+ Score = 84.3 bits (207),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 38/100 (38%), Positives = 60/100 (60%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF PR  VI    +     ++ YG+D +G+FEE G+    Y+GYT+ K  +   +H PF
+Sbjct  1   MEFLPREQVISSLQEPFHSYLDKYGIDDIGVFEEEGQDQHCYLGYTVKKAGKTYHVHSPF  60
+
+Query  61  VKNERGELALEKQEWTVRK---DGREKKGFHSLQEAMEEV  97
+           +K+  G L   K EWT+     DG +K+GF S+++A++E+
+Sbjct  61  LKDGNGGLTPAKNEWTIESDEPDGADKRGFTSIEQALQEL  100
+
+
+> UniRef90_A0A0J5VQM5 Uncharacterized protein n=1 Tax=Bacillus 
+firmus TaxID=1399 RepID=A0A0J5VQM5_BACFI
+Length=100
+
+ Score = 83.2 bits (204),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 37/100 (37%), Positives = 61/100 (61%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF PR  V+    +  +  ++ YG+D +GIFEE G+    Y+GYT+ K  +   +H PF
+Sbjct  1   MEFLPREQVLNSLQEPFQSYLDKYGIDDIGIFEEEGQDQHCYMGYTVKKAGKAYHVHSPF  60
+
+Query  61  VKNERGELALEKQEWTVRKD---GREKKGFHSLQEAMEEV  97
+           +K+  G L+ E  EWT+  D   G ++ GF S+++A++E+
+Sbjct  61  LKDGNGGLSPETNEWTIESDEPEGADRSGFTSIEQALQEL  100
+
+
+> UniRef90_A0A0M5JH42 Uncharacterized protein n=1 Tax=Bacillus 
+gobiensis TaxID=1441095 RepID=A0A0M5JH42_9BACI
+Length=100
+
+ Score = 82.8 bits (203),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 38/100 (38%), Positives = 61/100 (61%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M++  R  +I E   + E  ++ +G++ VGIFEE G+  RYY+GYT+ KD +   IH+P+
+Sbjct  1   MDYLSREQIINELQQSFEHYIDKFGIENVGIFEEEGQAERYYMGYTVKKDGKTFHIHIPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREK---KGFHSLQEAMEEV  97
+           +KN  GELA   +EWTV  D  ++   +G+  L+    E+
+Sbjct  61  IKNNNGELAPINKEWTVESDDPKRDDVRGYKDLESIFREI  100
+
+
+> UniRef90_E5WQY7 Uncharacterized protein n=2 Tax=Bacillus TaxID=55087 
+RepID=E5WQY7_9BACI
+Length=100
+
+ Score = 82.4 bits (202),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 36/100 (36%), Positives = 61/100 (61%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF PR  +I    +     ++ YG+D +GIFEE G+ +  Y+GYT+ K  +   +H PF
+Sbjct  1   MEFLPREQIINALQEPFHSYLDKYGIDDIGIFEEEGQDHHCYIGYTVKKAGKTYHVHSPF  60
+
+Query  61  VKNERGELALEKQEWTVRK---DGREKKGFHSLQEAMEEV  97
+           +K+E G L   K EWT+     D  +++GF+++ +A++E+
+Sbjct  61  IKDENGGLTPAKTEWTIESDEPDSIDRRGFNNVDQALQEL  100
+
+
+> UniRef90_A0A0A5GHU0 Uncharacterized protein n=1 Tax=Pontibacillus 
+marinus BH030004 = DSM 16465 TaxID=1385511 RepID=A0A0A5GHU0_9BACI
+Length=102
+
+ Score = 82.4 bits (202),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 38/97 (39%), Positives = 61/97 (63%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME+     ++ +F ++L  +++ Y L +  I+EE GEG+ YY+GYT+ K  +   IHMPF
+Sbjct  1   MEYISVETILNDFKESLSVLIKQYNLAEASIYEEEGEGDTYYIGYTVLKGGKTYHIHMPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+            KN+   LAL K EWT++ +  E KG+ SL +  E++
+Sbjct  61  EKNDEDHLALGKPEWTIQAEEGEYKGYESLDQVFEKI  97
+
+
+> UniRef90_A0A0M2SRP8 Uncharacterized protein n=2 Tax=Bacillus 
+TaxID=55087 RepID=A0A0M2SRP8_9BACI
+Length=100
+
+ Score = 81.6 bits (200),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 38/100 (38%), Positives = 57/100 (57%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M+F PR  ++ E        ME Y L+ +GIFEE G+ + Y++GYT+ K D+   IH PF
+Sbjct  1   MDFLPREQILRELQHASSEYMEKYNLNDIGIFEEQGQDDEYHLGYTVKKGDKAYHIHTPF  60
+
+Query  61  VKNERGELALEKQEWTVRKD---GREKKGFHSLQEAMEEV  97
+           VKN+ GELA   + W +  D   G +  G+  L+  + E+
+Sbjct  61  VKNDHGELAPASKAWVLESDDPQGEDSGGYPDLESVLREI  100
+
+
+> UniRef90_UPI0008F976E5 UPI0008F976E5 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008F976E5
+Length=100
+
+ Score = 81.3 bits (199),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 37/100 (37%), Positives = 60/100 (60%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME   R  +I     + +P+ + Y LD +G+FEE G+GN+YYVGYTI KD +   +H P+
+Sbjct  1   MENISREQLIHSLQQSFQPLTQEYNLDHIGVFEEEGQGNQYYVGYTIKKDGKAYMVHQPY  60
+
+Query  61  VKNERGELALEKQEWTV---RKDGREKKGFHSLQEAMEEV  97
+            K E   L+  + +WTV   R +  +  G+  L++A++E+
+Sbjct  61  TKRENNTLSPMESKWTVESDRPNDVDINGYKRLEDALKEI  100
+
+
+> UniRef90_UPI000826901B UPI000826901B related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000826901B
+Length=100
+
+ Score = 81.3 bits (199),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 34/87 (39%), Positives = 54/87 (62%), Gaps = 0/87 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF  R  +I E   + +  ++ + ++ +GIFEE G+ ++YY+GYT+ K+ E   IH P+
+Sbjct  1   MEFLSREEIINELQQSFQSYIDKFDIEAIGIFEEEGQADQYYIGYTVTKNSETFHIHTPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGF  87
+           +KN  G+LA   +EWTV  D  +K  F
+Sbjct  61  IKNANGDLAPISKEWTVESDDPQKDDF  87
+
+
+> UniRef90_UPI0004B08C1E hypothetical protein n=1 Tax=Bacillus 
+sp. J37 TaxID=935837 RepID=UPI0004B08C1E
+Length=121
+
+ Score = 80.9 bits (198),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 34/100 (34%), Positives = 60/100 (60%), Gaps = 3/100 (3%)
+
+Query  1    MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+            M+++ R  VI +     +P++  Y ++ +G+FEE G+ ++Y++GYTI KD +   +H P+
+Sbjct  22   MKYSNRDEVINDLQKAFQPLISKYDIEDIGVFEEQGQKDQYHMGYTIRKDGKTFMVHTPY  81
+
+Query  61   VKNERGELALEKQEWTVRKD---GREKKGFHSLQEAMEEV  97
+            +KNE G+L     EWTV  D    ++  G+  L EA+  +
+Sbjct  82   LKNESGQLLAANNEWTVETDEPNSKDVNGYKGLDEALRSL  121
+
+
+> UniRef90_UPI0008F4C456 UPI0008F4C456 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008F4C456
+Length=103
+
+ Score = 80.1 bits (196),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 37/90 (41%), Positives = 56/90 (62%), Gaps = 0/90 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF  R  ++ E   +L  M+E Y L+ VGIF+E GEGN YY+GYT+ K+ E+  IH  F
+Sbjct  1   MEFIEREAILTEMNHSLHTMLEKYDLEDVGIFQEEGEGNDYYLGYTVRKNGEVYMIHQKF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSL  90
+            K+E+G L   +Q W +  +  + +G+ +L
+Sbjct  61  RKDEQGNLKPSEQSWVIECEEGDSRGYENL  90
+
+
+> UniRef90_UPI0008F8083A UPI0008F8083A related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008F8083A
+Length=103
+
+ Score = 79.7 bits (195),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 35/97 (36%), Positives = 59/97 (61%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M+F  R  +I E  ++L  M++ Y L+ +G+FEE GE +RYY G+TI K+ ++  IH PF
+Sbjct  1   MDFISREAIIREMTESLPSMIDQYELEDIGVFEEEGEDDRYYFGFTIRKNGDVYMIHQPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+            KN  G+LA    +W +  D  +  G+++L +  + +
+Sbjct  61  KKNHEGKLAPIDSKWVIECDEGDSTGYNNLDDVFDYI  97
+
+
+> UniRef90_UPI00070EFB30 hypothetical protein n=1 Tax=Bacillus 
+sp. FJAT-25496 TaxID=1742359 RepID=UPI00070EFB30
+Length=100
+
+ Score = 79.7 bits (195),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 38/100 (38%), Positives = 58/100 (58%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF  R  +I +     +  ++ +G++ +GIFEE G+G+ YY+GYT+ KD +   IH PF
+Sbjct  1   MEFLTREQIINDLQKPFQSYLDRFGIEDIGIFEEEGQGDIYYMGYTVKKDGKTYHIHCPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREK---KGFHSLQEAMEEV  97
+            KN  G L   K EWTV  D  +K   +G+H ++    E+
+Sbjct  61  KKNNNGGLTPMKNEWTVETDEPQKEDLEGYHDIESVFREI  100
+
+
+> UniRef90_A6CML9 Uncharacterized protein n=2 Tax=Bacillus sp. 
+SG-1 TaxID=161544 RepID=A6CML9_9BACI
+Length=101
+
+ Score = 79.7 bits (195),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 36/97 (37%), Positives = 58/97 (60%), Gaps = 3/97 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M F  R  +I E   +   +ME YGL+++G+FEE G+ ++YY+GYT+ KD +   IH+P+
+Sbjct  2   MAFLSREQLINELQTSFPSLMEEYGLEEIGVFEEEGQKDQYYLGYTVKKDGKAYMIHLPY  61
+
+Query  61  VKNERGELALEKQEWTVRK---DGREKKGFHSLQEAM  94
+            K+  G L    Q+WT+     D  +  GF S++ A+
+Sbjct  62  KKDHDGGLEPSSQQWTIESDDPDAADHTGFDSMESAL  98
+
+
+> UniRef90_UPI00070CBDD5 hypothetical protein n=1 Tax=Bacillus 
+sp. FJAT-25547 TaxID=1742358 RepID=UPI00070CBDD5
+Length=100
+
+ Score = 79.7 bits (195),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 37/100 (37%), Positives = 59/100 (59%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME  PR  +I    ++ +  +  YG+D +GIFEE G+ + YY+GYT+ K  +   IH P+
+Sbjct  1   MESLPREQLITNMQNSFQTYINQYGVDHIGIFEEEGQDDYYYLGYTVKKAGKTYHIHSPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREK---KGFHSLQEAMEEV  97
+            K+  G+L+    EWT+  D  +K   KG+HSL  A+ ++
+Sbjct  61  RKDSHGDLSPIVNEWTIESDEPQKQDLKGYHSLDSALRDI  100
+
+
+> UniRef90_A0A0Q3TK15 Uncharacterized protein n=1 Tax=Bacillus 
+shackletonii TaxID=157838 RepID=A0A0Q3TK15_9BACI
+Length=100
+
+ Score = 79.7 bits (195),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 35/97 (36%), Positives = 61/97 (63%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME+ P   +  +    L+ +M  Y L+ +GI+EE G G+ YY+GYT+ KD ++  ++MP+
+Sbjct  1   MEYIPYEELKNDMNQHLKELMMKYNLEDIGIYEEEGAGDTYYLGYTVRKDGKIYMVNMPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+            K+  G LAL+ Q+WT++++  E KGF +L+     +
+Sbjct  61  KKDHHGGLALQHQDWTIQEEDGESKGFKNLEAVFTHI  97
+
+
+> UniRef90_UPI00069D4462 hypothetical protein n=1 Tax=Virgibacillus 
+senegalensis TaxID=1499679 RepID=UPI00069D4462
+Length=101
+
+ Score = 78.2 bits (191),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 36/87 (41%), Positives = 51/87 (59%), Gaps = 3/87 (3%)
+
+Query  15   DTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPFVKNERGELALEKQE  74
+            D+  P+ME Y +D +G FEE G  + YY+GYT+ K+  +  +HMPF K   G+LAL KQE
+Sbjct  15   DSFRPLMEKYNIDDIGTFEEEGAEDDYYIGYTVRKNGRIYMVHMPFKKTGEGQLALAKQE  74
+
+Query  75   WTVRKD---GREKKGFHSLQEAMEEVI  98
+            WTV  D     +  GF ++    E + 
+Sbjct  75   WTVETDDPTDEDISGFPTIDAVFEHLF  101
+
+
+> UniRef90_A0A0M0GIS2 Uncharacterized protein n=1 Tax=Sporosarcina 
+globispora TaxID=1459 RepID=A0A0M0GIS2_SPOGL
+Length=100
+
+ Score = 78.2 bits (191),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 34/100 (34%), Positives = 63/100 (63%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF  R  +I    +  +  ++ YG+D +G+FEE G+ +  Y+GYTI K+ +   +H PF
+Sbjct  1   MEFLSREQIIGALQEPFQSYIDKYGIDDIGVFEEEGQDHHCYMGYTIKKEGKTYHVHSPF  60
+
+Query  61  VKNERGELALEKQEWTVRK---DGREKKGFHSLQEAMEEV  97
+           +K++ G L+  K EWT+     D  +++GF ++++A++E+
+Sbjct  61  IKDDSGGLSPAKNEWTIESDEPDSIDRRGFDNIEQALQEL  100
+
+
+> UniRef90_A0A161PIF5 Uncharacterized protein n=3 Tax=Bacillus 
+TaxID=55087 RepID=A0A161PIF5_9BACI
+Length=101
+
+ Score = 77.0 bits (188),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 36/100 (36%), Positives = 56/100 (56%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M++  R  ++ E   + +P +  YG++ +GIFEE G+ +RYY+GYT  KD +   IH+PF
+Sbjct  1   MDYLSREQIMNELQQSFQPYLNMYGIENIGIFEEEGQDDRYYLGYTTRKDGQTHHIHLPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDG---REKKGFHSLQEAMEEV  97
+            KN  G L+    +WTV  D    ++ K F  L     E+
+Sbjct  61  QKNNNGGLSPIDSKWTVESDNPLEKDLKEFEDLDHVFREI  100
+
+
+> UniRef90_UPI00088C6067 UPI00088C6067 related cluster n=3 Tax=Bacillaceae 
+TaxID=186817 RepID=UPI00088C6067
+Length=102
+
+ Score = 77.0 bits (188),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 35/90 (39%), Positives = 53/90 (59%), Gaps = 3/90 (3%)
+
+Query  12   EFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPFVKNERGELALE  71
+            E  D+ E +ME Y +D +G FEE G  + YY+GYT+ K+  +  +HMPF K + G+L L 
+Sbjct  12   ELQDSFETLMEKYNIDDIGTFEEEGPEDDYYIGYTVRKNGRVYMVHMPFAKTDEGQLELA  71
+
+Query  72   KQEWTVRKD---GREKKGFHSLQEAMEEVI  98
+            +QEWTV  D     +  GF ++    E++ 
+Sbjct  72   RQEWTVETDDPTDEDISGFPTIDAVFEQLF  101
+
+
+> UniRef90_UPI000825CA28 UPI000825CA28 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000825CA28
+Length=101
+
+ Score = 73.6 bits (179),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 33/100 (33%), Positives = 57/100 (57%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME+  R  ++ E   +   +M+ Y L+ +G+FEE G   +YY+GYTIN++     IH  +
+Sbjct  1   MEYVTRENIMNELQQSFHSLMDTYNLEDIGLFEEQGPNGQYYMGYTINQNGGTYFIHQTY  60
+
+Query  61  VKNERGELALEKQEWTVRKD---GREKKGFHSLQEAMEEV  97
+             N  G LAL  +EWT+  D     +K G+ S+++  +++
+Sbjct  61  KTNSNGHLALIGKEWTIETDEPNTDDKTGYESIEDVFQQL  100
+
+
+> UniRef90_U5L8D2 Uncharacterized protein n=2 Tax=Bacillus TaxID=55087 
+RepID=U5L8D2_9BACI
+Length=100
+
+ Score = 72.8 bits (177),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 34/100 (34%), Positives = 52/100 (52%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME   R  ++ +   + E  +  YG D +G +EE G+G RYY G T+ KDD    IH PF
+Sbjct  1   MESMTREQILADLQRSFEGYLNEYGADSIGTYEEPGQGGRYYFGCTVKKDDRTFHIHTPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDG---REKKGFHSLQEAMEEV  97
+            + E G        WT   D    ++K+G+  L+ A++E+
+Sbjct  61  AQQEDGRFTALGNGWTAETDDPMLQDKRGYGDLESALKEI  100
+
+
+> UniRef90_A0A0M0X9N6 Uncharacterized protein n=2 Tax=Bacillus 
+TaxID=55087 RepID=A0A0M0X9N6_9BACI
+Length=100
+
+ Score = 72.8 bits (177),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 38/97 (39%), Positives = 54/97 (56%), Gaps = 3/97 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME   R  +I     + +  +  YGLD +G+FEE G+ + YY GYTI KD +   IH P+
+Sbjct  1   MESLSREQLINNMQKSFQMYINQYGLDDIGVFEEEGQDDLYYFGYTIKKDGKTHHIHSPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREK---KGFHSLQEAM  94
+            K+  G L+    EWT+  D  +K   KG+HSL+ A 
+Sbjct  61  RKDTHGGLSPIINEWTIESDEPQKTDLKGYHSLESAF  97
+
+
+> UniRef90_UPI0002FD221C hypothetical protein n=1 Tax=Bacillus 
+massiliosenegalensis TaxID=1287657 RepID=UPI0002FD221C
+Length=100
+
+ Score = 59.7 bits (143),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 30/100 (30%), Positives = 55/100 (55%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME+  RS +IE   +  +  +E + LD++GI+EE G+ +  ++GYT+ K+ +   +H  F
+Sbjct  1   MEYITRSNLIEGLQEPFQQYLEQFELDEIGIYEEDGQDDITHMGYTVTKNGQTYHLHTSF  60
+
+Query  61  VKNERGELALEKQEWTVRKD---GREKKGFHSLQEAMEEV  97
+            KNE+  L      WT+ +D     ++ G+  L+    E+
+Sbjct  61  RKNEQERLTPLNNLWTLERDEPSSEDRTGYRDLESIFREI  100
+
+
+> UniRef90_A0A0U1KMT9 Uncharacterized protein n=1 Tax=Paraliobacillus 
+sp. PM-2 TaxID=1462524 RepID=A0A0U1KMT9_9BACI
+Length=104
+
+ Score = 50.1 bits (118),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 28/104 (27%), Positives = 53/104 (51%), Gaps = 8/104 (8%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME  P+  +I +  D L    E+   + + IFE+H      ++GY I K +++  +++P+
+Sbjct  1   MELLPKQQIINQLHDQLPIWKESCTAEHISIFEQHYNEVLCHLGYKILKKEQIYEVYLPY  60
+
+Query  61  VKNERGELALEKQEWTVRK----DGREKKGFHSLQEAMEEVIHS  100
+           +K +  +L      WT+         +KKG+    E ++EVIH+
+Sbjct  61  LKYDTDKLIALTPIWTITHVNTVKSYQKKGY----EFLQEVIHA  100
+
+
+> UniRef90_UPI00065BD78E hypothetical protein n=1 Tax=Bacillus 
+cereus TaxID=1396 RepID=UPI00065BD78E
+Length=108
+
+ Score = 47.0 bits (110),  Expect = 8e-05, Method: Compositional matrix adjust.
+ Identities = 28/96 (29%), Positives = 45/96 (47%), Gaps = 3/96 (3%)
+
+Query  6    RSVVIEEFIDTL-EPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPFVKNE  64
+            R  VI   +D   + M E Y    V +  E  +    ++GY ++    +  + MP+ KNE
+Sbjct  8    RMSVIRNDLDRFSQDMKERYNCRVVTLINESADKESVHMGYCVSNSAGVFNVLMPYEKNE  67
+
+Query  65   RGELALEKQEWTVR--KDGREKKGFHSLQEAMEEVI  98
+            R E A+    WTV   + G    G+ +L  AME ++
+Sbjct  68   RNEYAVTDNTWTVTHIQTGEVTDGYKTLGHAMEYIL  103
+
+
+> UniRef90_UPI0005527088 hypothetical protein n=1 Tax=Bacillus 
+sp. FJAT-14578 TaxID=1208600 RepID=UPI0005527088
+Length=106
+
+ Score = 43.9 bits (102),  Expect = 9e-04, Method: Compositional matrix adjust.
+ Identities = 18/77 (23%), Positives = 41/77 (53%), Gaps = 0/77 (0%)
+
+Query  24   YGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPFVKNERGELALEKQEWTVRKDGRE  83
+            YG++ + ++ E  + + +Y+GY   KD + I + +P VK++    A ++  W +  D + 
+Sbjct  26   YGIEPIEMYSEETQPDLHYIGYRFKKDGKQIVVKIPLVKDQADRFAAQQNRWEMLIDEKT  85
+
+Query  84   KKGFHSLQEAMEEVIHS  100
+               + +++EA   + H 
+Sbjct  86   TGTYKNIREAFHMLQHD  102
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.136    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 441275782615
+Results from round 2
+
+
+Query= d1ylxa1
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_S7U9D9 Uncharacterized protein n=9 Tax=Geobacillus Tax...  146     3e-42
+  UniRef90_W7LDA8 Uncharacterized protein n=1 Tax=Bacillus firmus...  140     1e-40
+  UniRef90_Q5KZY7 Uncharacterized protein n=20 Tax=Geobacillus Ta...  139     4e-40
+  UniRef90_E5WQY7 Uncharacterized protein n=2 Tax=Bacillus TaxID=...  138     7e-40
+  UniRef90_A0A0M2PCX9 Uncharacterized protein n=1 Tax=Bacillus sp...  138     9e-40
+  UniRef90_A0A0J5VQM5 Uncharacterized protein n=1 Tax=Bacillus fi...  137     2e-39
+  UniRef90_A4IMZ0 Uncharacterized protein n=2 Tax=Geobacillus Tax...  136     9e-39
+  UniRef90_A0A1B7KRF8 Uncharacterized protein n=1 Tax=Geobacillus...  135     1e-38
+  UniRef90_UPI00070EFB30 hypothetical protein n=1 Tax=Bacillus sp...  135     2e-38
+  UniRef90_A0A0M0GIS2 Uncharacterized protein n=1 Tax=Sporosarcin...  134     3e-38
+  UniRef90_A0A179T799 Uncharacterized protein n=1 Tax=Bacillus li...  134     5e-38
+  UniRef90_UPI0004789485 hypothetical protein n=1 Tax=Bacillus sp...  134     5e-38
+  UniRef90_S5YYM0 Uncharacterized protein n=1 Tax=Bacillus sp. (s...  133     7e-38
+  UniRef90_UPI00082E1E42 UPI00082E1E42 related cluster n=1 Tax=un...  133     1e-37
+  UniRef90_UPI000488934D hypothetical protein n=1 Tax=Anoxybacill...  133     1e-37
+  UniRef90_A0A0M5JH42 Uncharacterized protein n=1 Tax=Bacillus go...  132     2e-37
+  UniRef90_C5D2R9 Uncharacterized protein n=10 Tax=Bacillaceae Ta...  132     3e-37
+  UniRef90_UPI00070CBDD5 hypothetical protein n=1 Tax=Bacillus sp...  131     7e-37
+  UniRef90_UPI0008F8083A UPI0008F8083A related cluster n=1 Tax=un...  129     2e-36
+  UniRef90_UPI0005CCF880 hypothetical protein n=1 Tax=Bacillus al...  128     7e-36
+  UniRef90_A0A0M0X9N6 Uncharacterized protein n=2 Tax=Bacillus Ta...  128     1e-35
+  UniRef90_UPI0008F52AC5 UPI0008F52AC5 related cluster n=1 Tax=un...  128     1e-35
+  UniRef90_A0A0M2SRP8 Uncharacterized protein n=2 Tax=Bacillus Ta...  128     1e-35
+  UniRef90_A6CML9 Uncharacterized protein n=2 Tax=Bacillus sp. SG...  127     2e-35
+  UniRef90_UPI0007172D5D hypothetical protein n=1 Tax=Bacillus fa...  126     4e-35
+  UniRef90_A0A161PIF5 Uncharacterized protein n=3 Tax=Bacillus Ta...  126     4e-35
+  UniRef90_UPI0004B08C1E hypothetical protein n=1 Tax=Bacillus sp...  126     6e-35
+  UniRef90_A0A024P572 Uncharacterized protein n=1 Tax=Halobacillu...  125     2e-34
+  UniRef90_UPI00082A9C04 UPI00082A9C04 related cluster n=1 Tax=un...  124     2e-34
+  UniRef90_UPI00094CD8FC UPI00094CD8FC related cluster n=1 Tax=un...  124     2e-34
+  UniRef90_UPI000826901B UPI000826901B related cluster n=1 Tax=un...  124     3e-34
+  UniRef90_UPI0008F976E5 UPI0008F976E5 related cluster n=1 Tax=un...  123     1e-33
+  UniRef90_UPI000826E546 UPI000826E546 related cluster n=1 Tax=un...  122     2e-33
+  UniRef90_UPI00069D4462 hypothetical protein n=1 Tax=Virgibacill...  121     5e-33
+  UniRef90_UPI0008F4C456 UPI0008F4C456 related cluster n=1 Tax=un...  121     7e-33
+  UniRef90_A0A150KN17 Uncharacterized protein n=1 Tax=Bacillus sp...  120     1e-32
+  UniRef90_D5DC61 Uncharacterized protein n=12 Tax=Bacillus TaxID...  119     4e-32
+  UniRef90_U5L8D2 Uncharacterized protein n=2 Tax=Bacillus TaxID=...  118     4e-32
+  UniRef90_UPI000825CA28 UPI000825CA28 related cluster n=1 Tax=un...  117     1e-31
+  UniRef90_A0A0B6AEH4 Uncharacterized protein n=12 Tax=Bacillus T...  117     2e-31
+  UniRef90_A0A0Q3TK15 Uncharacterized protein n=1 Tax=Bacillus sh...  116     2e-31
+  UniRef90_UPI00088C6067 UPI00088C6067 related cluster n=3 Tax=Ba...  116     4e-31
+  UniRef90_UPI00047E4596 hypothetical protein n=1 Tax=Bacillus bo...  116     4e-31
+  UniRef90_A0A0A5GHU0 Uncharacterized protein n=1 Tax=Pontibacill...  114     3e-30
+  UniRef90_UPI000400A111 hypothetical protein n=1 Tax=Bacillus sp...  111     2e-29
+  UniRef90_UPI0002FD221C hypothetical protein n=1 Tax=Bacillus ma...  111     5e-29
+  UniRef90_UPI00065BD78E hypothetical protein n=1 Tax=Bacillus ce...  98.4    5e-24
+  UniRef90_A0A0U1KMT9 Uncharacterized protein n=1 Tax=Paraliobaci...  97.6    9e-24
+  UniRef90_A0A143MIK9 Uncharacterized protein n=1 Tax=Geobacillus...  97.2    2e-23
+  UniRef90_UPI0005527088 hypothetical protein n=1 Tax=Bacillus sp...  89.2    2e-20
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI0008371CFD UPI0008371CFD related cluster n=1 Tax=un...  61.0    9e-10
+  UniRef90_UPI0006A7EF03 hypothetical protein n=1 Tax=Bacillus sp...  58.0    2e-08
+  UniRef90_UPI0005892244 hypothetical protein n=1 Tax=Bacillus sp...  53.7    3e-07
+  UniRef90_UPI00031DAE9A hypothetical protein n=1 Tax=Amphibacill...  51.8    2e-06
+
+
+> UniRef90_S7U9D9 Uncharacterized protein n=9 Tax=Geobacillus TaxID=129337 
+RepID=S7U9D9_9BACI
+Length=133
+
+ Score = 146 bits (368),  Expect = 3e-42, Method: Composition-based stats.
+ Identities = 99/100 (99%), Positives = 100/100 (100%), Gaps = 0/100 (0%)
+
+Query  1    MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+            MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF
+Sbjct  34   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  93
+
+Query  61   VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEVIHS  100
+            VKNERGELALEKQEWTVRKDGREKKGFHSLQEA+EEVIHS
+Sbjct  94   VKNERGELALEKQEWTVRKDGREKKGFHSLQEAIEEVIHS  133
+
+
+> UniRef90_W7LDA8 Uncharacterized protein n=1 Tax=Bacillus firmus 
+DS1 TaxID=1307436 RepID=W7LDA8_BACFI
+Length=100
+
+ Score = 140 bits (354),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 37/100 (37%), Positives = 59/100 (59%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF PR  VI    +     ++ YG+D +G+FEE G+    Y+GYT+ K  +   +H PF
+Sbjct  1   MEFLPREQVISSLQEPFHSYLDKYGIDDIGVFEEEGQDQHCYLGYTVKKAGKTYHVHSPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGR---EKKGFHSLQEAMEEV  97
+           +K+  G L   K EWT+  D     +K+GF S+++A++E+
+Sbjct  61  LKDGNGGLTPAKNEWTIESDEPDGADKRGFTSIEQALQEL  100
+
+
+> UniRef90_Q5KZY7 Uncharacterized protein n=20 Tax=Geobacillus 
+TaxID=129337 RepID=Q5KZY7_GEOKA
+Length=100
+
+ Score = 139 bits (351),  Expect = 4e-40, Method: Composition-based stats.
+ Identities = 99/100 (99%), Positives = 100/100 (100%), Gaps = 0/100 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYY+GYTINKDDEMITIHMPF
+Sbjct  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYIGYTINKDDEMITIHMPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEVIHS  100
+           VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEVIHS
+Sbjct  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEVIHS  100
+
+
+> UniRef90_E5WQY7 Uncharacterized protein n=2 Tax=Bacillus TaxID=55087 
+RepID=E5WQY7_9BACI
+Length=100
+
+ Score = 138 bits (349),  Expect = 7e-40, Method: Composition-based stats.
+ Identities = 36/100 (36%), Positives = 61/100 (61%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF PR  +I    +     ++ YG+D +GIFEE G+ +  Y+GYT+ K  +   +H PF
+Sbjct  1   MEFLPREQIINALQEPFHSYLDKYGIDDIGIFEEEGQDHHCYIGYTVKKAGKTYHVHSPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGR---EKKGFHSLQEAMEEV  97
+           +K+E G L   K EWT+  D     +++GF+++ +A++E+
+Sbjct  61  IKDENGGLTPAKTEWTIESDEPDSIDRRGFNNVDQALQEL  100
+
+
+> UniRef90_A0A0M2PCX9 Uncharacterized protein n=1 Tax=Bacillus 
+sp. SA1-12 TaxID=1455638 RepID=A0A0M2PCX9_9BACI
+Length=100
+
+ Score = 138 bits (348),  Expect = 9e-40, Method: Composition-based stats.
+ Identities = 42/100 (42%), Positives = 66/100 (66%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M+F PR  +I E  ++ +P +  YG++ +GIFEE G+   YY+GYT+ KD +   IH PF
+Sbjct  1   MDFLPREQIINELQNSFQPFITKYGIEDIGIFEEEGQDQHYYLGYTVRKDGKTYHIHSPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDG---REKKGFHSLQEAMEEV  97
+           +KN+ G LA EK+EWT+  D    ++ KG+  L++A+ E+
+Sbjct  61  IKNQAGGLAPEKREWTLETDEPMNKDLKGYKQLEDALREI  100
+
+
+> UniRef90_A0A0J5VQM5 Uncharacterized protein n=1 Tax=Bacillus 
+firmus TaxID=1399 RepID=A0A0J5VQM5_BACFI
+Length=100
+
+ Score = 137 bits (345),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 36/100 (36%), Positives = 60/100 (60%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF PR  V+    +  +  ++ YG+D +GIFEE G+    Y+GYT+ K  +   +H PF
+Sbjct  1   MEFLPREQVLNSLQEPFQSYLDKYGIDDIGIFEEEGQDQHCYMGYTVKKAGKAYHVHSPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGR---EKKGFHSLQEAMEEV  97
+           +K+  G L+ E  EWT+  D     ++ GF S+++A++E+
+Sbjct  61  LKDGNGGLSPETNEWTIESDEPEGADRSGFTSIEQALQEL  100
+
+
+> UniRef90_A4IMZ0 Uncharacterized protein n=2 Tax=Geobacillus TaxID=129337 
+RepID=A4IMZ0_GEOTN
+Length=99
+
+ Score = 136 bits (342),  Expect = 9e-39, Method: Composition-based stats.
+ Identities = 86/99 (87%), Positives = 93/99 (94%), Gaps = 0/99 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEFAPR V++EEFIDTLEPMME YGLDQVGIFEE GEGNRYYVGYTINKD EMITIHMPF
+Sbjct  1   MEFAPRRVILEEFIDTLEPMMETYGLDQVGIFEERGEGNRYYVGYTINKDGEMITIHMPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEVIH  99
+           ++NERGELALEKQEWTVRKDG+EKKG+ SL EAM+EVIH
+Sbjct  61  IQNERGELALEKQEWTVRKDGQEKKGYRSLPEAMDEVIH  99
+
+
+> UniRef90_A0A1B7KRF8 Uncharacterized protein n=1 Tax=Geobacillus 
+thermoglucosidasius TaxID=1426 RepID=A0A1B7KRF8_GEOTM
+Length=101
+
+ Score = 135 bits (341),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 74/97 (76%), Positives = 88/97 (91%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF PRSV+I EFIDTL+P+M+ Y LDQVG+FEE GEGN+YY+GYTINKDD+MI +HMPF
+Sbjct  1   MEFVPRSVIIREFIDTLQPLMDVYHLDQVGLFEEEGEGNKYYIGYTINKDDKMIVLHMPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+           VKNERGELALEK EWTVRKDG E+KG++SLQ AM+E+
+Sbjct  61  VKNERGELALEKHEWTVRKDGNEQKGYYSLQAAMDEI  97
+
+
+> UniRef90_UPI00070EFB30 hypothetical protein n=1 Tax=Bacillus 
+sp. FJAT-25496 TaxID=1742359 RepID=UPI00070EFB30
+Length=100
+
+ Score = 135 bits (340),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 37/100 (37%), Positives = 57/100 (57%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF  R  +I +     +  ++ +G++ +GIFEE G+G+ YY+GYT+ KD +   IH PF
+Sbjct  1   MEFLTREQIINDLQKPFQSYLDRFGIEDIGIFEEEGQGDIYYMGYTVKKDGKTYHIHCPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDG---REKKGFHSLQEAMEEV  97
+            KN  G L   K EWTV  D     + +G+H ++    E+
+Sbjct  61  KKNNNGGLTPMKNEWTVETDEPQKEDLEGYHDIESVFREI  100
+
+
+> UniRef90_A0A0M0GIS2 Uncharacterized protein n=1 Tax=Sporosarcina 
+globispora TaxID=1459 RepID=A0A0M0GIS2_SPOGL
+Length=100
+
+ Score = 134 bits (338),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 34/100 (34%), Positives = 63/100 (63%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF  R  +I    +  +  ++ YG+D +G+FEE G+ +  Y+GYTI K+ +   +H PF
+Sbjct  1   MEFLSREQIIGALQEPFQSYIDKYGIDDIGVFEEEGQDHHCYMGYTIKKEGKTYHVHSPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGR---EKKGFHSLQEAMEEV  97
+           +K++ G L+  K EWT+  D     +++GF ++++A++E+
+Sbjct  61  IKDDSGGLSPAKNEWTIESDEPDSIDRRGFDNIEQALQEL  100
+
+
+> UniRef90_A0A179T799 Uncharacterized protein n=1 Tax=Bacillus 
+litoralis TaxID=152268 RepID=A0A179T799_9BACI
+Length=104
+
+ Score = 134 bits (337),  Expect = 5e-38, Method: Composition-based stats.
+ Identities = 41/101 (41%), Positives = 64/101 (63%), Gaps = 3/101 (3%)
+
+Query  1    MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+            M+F  R  +I E  D+ +P +  YG++ +GIFEE G+ N YY+GYT+ K+ +   IH  +
+Sbjct  1    MDFLSREQIINELQDSFQPFINKYGIEDIGIFEEEGQDNHYYLGYTVRKEGKTYHIHSSY  60
+
+Query  61   VKNERGELALEKQEWTVRKDGREK---KGFHSLQEAMEEVI  98
+            +KN  G LA EK+EWT+  D  ++   KGF  L++A+ E+ 
+Sbjct  61   LKNNHGGLAPEKKEWTIESDEPDRKDLKGFKGLEDALREIQ  101
+
+
+> UniRef90_UPI0004789485 hypothetical protein n=1 Tax=Bacillus 
+sp. J33 TaxID=935836 RepID=UPI0004789485
+Length=100
+
+ Score = 134 bits (337),  Expect = 5e-38, Method: Composition-based stats.
+ Identities = 39/100 (39%), Positives = 64/100 (64%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF PR  +I    + L+  ++ YG+D +GIFEE G+GN+YY+GYT+ K+     IH P+
+Sbjct  1   MEFLPREQIINALQEPLQSYIDKYGIDDIGIFEEEGQGNQYYLGYTVKKEGRTYHIHSPY  60
+
+Query  61  VKNERGELALEKQEWTVRKD---GREKKGFHSLQEAMEEV  97
+            K++ G L   + EWT+  D   G ++ G+ +L++A+ E+
+Sbjct  61  FKDDNGGLTPAENEWTIESDEPKGEDRMGYENLEQALREI  100
+
+
+> UniRef90_S5YYM0 Uncharacterized protein n=1 Tax=Bacillus sp. 
+(strain JF8) TaxID=1921421 RepID=S5YYM0_BACPJ
+Length=99
+
+ Score = 133 bits (336),  Expect = 7e-38, Method: Composition-based stats.
+ Identities = 89/99 (90%), Positives = 94/99 (95%), Gaps = 0/99 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEFAPRSVVIEEFIDTLEPMMEAY LDQVGIFEEHGEGNRYY+GYTINKDDEMI +HMPF
+Sbjct  1   MEFAPRSVVIEEFIDTLEPMMEAYDLDQVGIFEEHGEGNRYYIGYTINKDDEMIVVHMPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEVIH  99
+           V+NERGE+ALEKQEWTVRKDG EK G+ SLQEAMEEVIH
+Sbjct  61  VRNERGEVALEKQEWTVRKDGDEKTGYRSLQEAMEEVIH  99
+
+
+> UniRef90_UPI00082E1E42 UPI00082E1E42 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00082E1E42
+Length=100
+
+ Score = 133 bits (335),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 45/100 (45%), Positives = 65/100 (65%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF PR  +I E     +  +E YG+D +GIFEEHGEG+RYY+GYT+NKD +   IH P+
+Sbjct  1   MEFLPREKIINELQQPFQSYIEKYGIDDIGIFEEHGEGDRYYLGYTVNKDGKTFHIHSPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDG---REKKGFHSLQEAMEEV  97
+           +KN++GELA E  EWT+  D     +++G+  L+     +
+Sbjct  61  LKNDQGELAQENDEWTLESDNPSLEDQRGYDDLESVFRNI  100
+
+
+> UniRef90_UPI000488934D hypothetical protein n=1 Tax=Anoxybacillus 
+tepidamans TaxID=265948 RepID=UPI000488934D
+Length=101
+
+ Score = 133 bits (334),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 77/98 (79%), Positives = 89/98 (91%), Gaps = 0/98 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF PRS +I EFIDTLEPMM+ YGLDQVGIFEE G G+ YY+GYTINKDD+MI +HMPF
+Sbjct  1   MEFVPRSAIIHEFIDTLEPMMDVYGLDQVGIFEEEGNGDTYYIGYTINKDDDMIILHMPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEVI  98
+           VKNERGELALEK+EWT+R DG+E+KG+HSLQEAME+VI
+Sbjct  61  VKNERGELALEKEEWTIRADGKEEKGYHSLQEAMEKVI  98
+
+
+> UniRef90_A0A0M5JH42 Uncharacterized protein n=1 Tax=Bacillus 
+gobiensis TaxID=1441095 RepID=A0A0M5JH42_9BACI
+Length=100
+
+ Score = 132 bits (333),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 38/100 (38%), Positives = 60/100 (60%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M++  R  +I E   + E  ++ +G++ VGIFEE G+  RYY+GYT+ KD +   IH+P+
+Sbjct  1   MDYLSREQIINELQQSFEHYIDKFGIENVGIFEEEGQAERYYMGYTVKKDGKTFHIHIPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGR---EKKGFHSLQEAMEEV  97
+           +KN  GELA   +EWTV  D     + +G+  L+    E+
+Sbjct  61  IKNNNGELAPINKEWTVESDDPKRDDVRGYKDLESIFREI  100
+
+
+> UniRef90_C5D2R9 Uncharacterized protein n=10 Tax=Bacillaceae 
+TaxID=186817 RepID=C5D2R9_GEOSW
+Length=101
+
+ Score = 132 bits (332),  Expect = 3e-37, Method: Composition-based stats.
+ Identities = 76/97 (78%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEFAPRSV+I EFIDTL+P+M+ Y LDQVGIFEE G GN+YY+GYTINKDD+MI +HMPF
+Sbjct  1   MEFAPRSVIIHEFIDTLQPLMDVYHLDQVGIFEEEGTGNKYYIGYTINKDDDMIVLHMPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+           VKNERGELALEKQEWT+RKDGRE+KG+  LQEAM+E+
+Sbjct  61  VKNERGELALEKQEWTIRKDGREQKGYQFLQEAMDEI  97
+
+
+> UniRef90_UPI00070CBDD5 hypothetical protein n=1 Tax=Bacillus 
+sp. FJAT-25547 TaxID=1742358 RepID=UPI00070CBDD5
+Length=100
+
+ Score = 131 bits (329),  Expect = 7e-37, Method: Composition-based stats.
+ Identities = 37/100 (37%), Positives = 59/100 (59%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME  PR  +I    ++ +  +  YG+D +GIFEE G+ + YY+GYT+ K  +   IH P+
+Sbjct  1   MESLPREQLITNMQNSFQTYINQYGVDHIGIFEEEGQDDYYYLGYTVKKAGKTYHIHSPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREK---KGFHSLQEAMEEV  97
+            K+  G+L+    EWT+  D  +K   KG+HSL  A+ ++
+Sbjct  61  RKDSHGDLSPIVNEWTIESDEPQKQDLKGYHSLDSALRDI  100
+
+
+> UniRef90_UPI0008F8083A UPI0008F8083A related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008F8083A
+Length=103
+
+ Score = 129 bits (326),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 35/97 (36%), Positives = 59/97 (61%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M+F  R  +I E  ++L  M++ Y L+ +G+FEE GE +RYY G+TI K+ ++  IH PF
+Sbjct  1   MDFISREAIIREMTESLPSMIDQYELEDIGVFEEEGEDDRYYFGFTIRKNGDVYMIHQPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+            KN  G+LA    +W +  D  +  G+++L +  + +
+Sbjct  61  KKNHEGKLAPIDSKWVIECDEGDSTGYNNLDDVFDYI  97
+
+
+> UniRef90_UPI0005CCF880 hypothetical protein n=1 Tax=Bacillus 
+alveayuensis TaxID=279215 RepID=UPI0005CCF880
+Length=106
+
+ Score = 128 bits (323),  Expect = 7e-36, Method: Composition-based stats.
+ Identities = 65/97 (67%), Positives = 81/97 (84%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF  R V++ E I+TLEPMM+ Y LDQ+GIFEE GE + YY+GY INKD+EMI +HMPF
+Sbjct  1   MEFVKREVIMNELIETLEPMMKTYDLDQIGIFEEEGENDLYYMGYAINKDEEMILLHMPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+           VKN RGELAL+KQEWT+R DG E+KG+HSL EAM+++
+Sbjct  61  VKNARGELALQKQEWTIRMDGNEQKGYHSLDEAMKQI  97
+
+
+> UniRef90_A0A0M0X9N6 Uncharacterized protein n=2 Tax=Bacillus 
+TaxID=55087 RepID=A0A0M0X9N6_9BACI
+Length=100
+
+ Score = 128 bits (321),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 38/97 (39%), Positives = 54/97 (56%), Gaps = 3/97 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME   R  +I     + +  +  YGLD +G+FEE G+ + YY GYTI KD +   IH P+
+Sbjct  1   MESLSREQLINNMQKSFQMYINQYGLDDIGVFEEEGQDDLYYFGYTIKKDGKTHHIHSPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREK---KGFHSLQEAM  94
+            K+  G L+    EWT+  D  +K   KG+HSL+ A 
+Sbjct  61  RKDTHGGLSPIINEWTIESDEPQKTDLKGYHSLESAF  97
+
+
+> UniRef90_UPI0008F52AC5 UPI0008F52AC5 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008F52AC5
+Length=101
+
+ Score = 128 bits (321),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 42/97 (43%), Positives = 62/97 (64%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M+   R  +I E  DTL+ M+E Y LD +GIFEE GEGNR+Y+GYT+ K+ E+  IHMPF
+Sbjct  1   MDNISREALISEMNDTLKHMLEKYDLDDIGIFEEEGEGNRFYLGYTVRKNGEVFMIHMPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+            K+E G LA  ++ W +  D  + +G+ +L +    +
+Sbjct  61  EKDENGNLARLEKSWAIESDEVDTRGYDNLDDVFNYL  97
+
+
+> UniRef90_A0A0M2SRP8 Uncharacterized protein n=2 Tax=Bacillus 
+TaxID=55087 RepID=A0A0M2SRP8_9BACI
+Length=100
+
+ Score = 128 bits (321),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 38/100 (38%), Positives = 57/100 (57%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M+F PR  ++ E        ME Y L+ +GIFEE G+ + Y++GYT+ K D+   IH PF
+Sbjct  1   MDFLPREQILRELQHASSEYMEKYNLNDIGIFEEQGQDDEYHLGYTVKKGDKAYHIHTPF  60
+
+Query  61  VKNERGELALEKQEWTVRKD---GREKKGFHSLQEAMEEV  97
+           VKN+ GELA   + W +  D   G +  G+  L+  + E+
+Sbjct  61  VKNDHGELAPASKAWVLESDDPQGEDSGGYPDLESVLREI  100
+
+
+> UniRef90_A6CML9 Uncharacterized protein n=2 Tax=Bacillus sp. 
+SG-1 TaxID=161544 RepID=A6CML9_9BACI
+Length=101
+
+ Score = 127 bits (319),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 36/100 (36%), Positives = 59/100 (59%), Gaps = 3/100 (3%)
+
+Query  1    MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+            M F  R  +I E   +   +ME YGL+++G+FEE G+ ++YY+GYT+ KD +   IH+P+
+Sbjct  2    MAFLSREQLINELQTSFPSLMEEYGLEEIGVFEEEGQKDQYYLGYTVKKDGKAYMIHLPY  61
+
+Query  61   VKNERGELALEKQEWTVRKDGR---EKKGFHSLQEAMEEV  97
+             K+  G L    Q+WT+  D     +  GF S++ A+  +
+Sbjct  62   KKDHDGGLEPSSQQWTIESDDPDAADHTGFDSMESALRGI  101
+
+
+> UniRef90_UPI0007172D5D hypothetical protein n=1 Tax=Bacillus 
+farraginis TaxID=254757 RepID=UPI0007172D5D
+Length=99
+
+ Score = 126 bits (318),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 40/96 (42%), Positives = 67/96 (70%), Gaps = 0/96 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M++  R  +I++  + ++ +M+ YGL+ +GI+EE G GN YY+GYT+ KD ++  ++MP+
+Sbjct  1   MDYINRETLIDQMTNQMQLLMDHYGLEDIGIYEEEGAGNDYYLGYTVRKDGKVFMLNMPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEE  96
+           +K+E G L L+ +EWT++ D  E KGFHSL E   +
+Sbjct  61  MKDEFGRLTLKNREWTIQSDDGELKGFHSLDEVFNK  96
+
+
+> UniRef90_A0A161PIF5 Uncharacterized protein n=3 Tax=Bacillus 
+TaxID=55087 RepID=A0A161PIF5_9BACI
+Length=101
+
+ Score = 126 bits (318),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 36/100 (36%), Positives = 56/100 (56%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M++  R  ++ E   + +P +  YG++ +GIFEE G+ +RYY+GYT  KD +   IH+PF
+Sbjct  1   MDYLSREQIMNELQQSFQPYLNMYGIENIGIFEEEGQDDRYYLGYTTRKDGQTHHIHLPF  60
+
+Query  61  VKNERGELALEKQEWTVRKD---GREKKGFHSLQEAMEEV  97
+            KN  G L+    +WTV  D    ++ K F  L     E+
+Sbjct  61  QKNNNGGLSPIDSKWTVESDNPLEKDLKEFEDLDHVFREI  100
+
+
+> UniRef90_UPI0004B08C1E hypothetical protein n=1 Tax=Bacillus 
+sp. J37 TaxID=935837 RepID=UPI0004B08C1E
+Length=121
+
+ Score = 126 bits (318),  Expect = 6e-35, Method: Composition-based stats.
+ Identities = 34/100 (34%), Positives = 60/100 (60%), Gaps = 3/100 (3%)
+
+Query  1    MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+            M+++ R  VI +     +P++  Y ++ +G+FEE G+ ++Y++GYTI KD +   +H P+
+Sbjct  22   MKYSNRDEVINDLQKAFQPLISKYDIEDIGVFEEQGQKDQYHMGYTIRKDGKTFMVHTPY  81
+
+Query  61   VKNERGELALEKQEWTVRKDG---REKKGFHSLQEAMEEV  97
+            +KNE G+L     EWTV  D    ++  G+  L EA+  +
+Sbjct  82   LKNESGQLLAANNEWTVETDEPNSKDVNGYKGLDEALRSL  121
+
+
+> UniRef90_A0A024P572 Uncharacterized protein n=1 Tax=Halobacillus 
+karajensis TaxID=195088 RepID=A0A024P572_9BACI
+Length=102
+
+ Score = 125 bits (314),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 38/101 (38%), Positives = 62/101 (61%), Gaps = 3/101 (3%)
+
+Query  1    MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+            ME  P   +I +  ++  P+ME   LD +GIFEE G+G+ Y++GYT+ K++ +  +H+PF
+Sbjct  1    MESVPVEQLISDLENSFRPLMEKNNLDDIGIFEEEGQGDYYHLGYTVKKNERVYMVHLPF  60
+
+Query  61   VKNERGELALEKQEWTVRKDGR---EKKGFHSLQEAMEEVI  98
+            +K+E G L L+KQEW V  D     + KGF  + +  + + 
+Sbjct  61   IKSEDGHLTLDKQEWIVETDDPNAVDLKGFDKIDDVFQSLF  101
+
+
+> UniRef90_UPI00082A9C04 UPI00082A9C04 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00082A9C04
+Length=100
+
+ Score = 124 bits (313),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 42/100 (42%), Positives = 65/100 (65%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME+  R+ ++ E   +L   +E + LD +GIFEEHGEG+RYY+GYT++KD++   IH+P+
+Sbjct  1   MEYLSRNEILNELQTSLPEYIEKFDLDSIGIFEEHGEGDRYYLGYTVSKDEKTYHIHLPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDG---REKKGFHSLQEAMEEV  97
+            K+E G L     EWTV  D     +++GF SL+   E++
+Sbjct  61  TKSEEGSLTPLGNEWTVETDEPNNEDRRGFDSLESVFEQI  100
+
+
+> UniRef90_UPI00094CD8FC UPI00094CD8FC related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00094CD8FC
+Length=103
+
+ Score = 124 bits (313),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 44/97 (45%), Positives = 63/97 (65%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME+  R  +++E   +L  +ME Y +D++G+FEE GEGN Y++GYTI K  E+   H P+
+Sbjct  1   MEYLSREEILDEMNHSLRTIMEKYNVDEIGVFEEQGEGNHYFIGYTIRKASEVFMTHTPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+           VKNE G L  EK+EW +  D  + +GF SL E  EE+
+Sbjct  61  VKNEEGLLRPEKKEWVIETDEGDLRGFSSLDEVFEEM  97
+
+
+> UniRef90_UPI000826901B UPI000826901B related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000826901B
+Length=100
+
+ Score = 124 bits (312),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 36/100 (36%), Positives = 60/100 (60%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF  R  +I E   + +  ++ + ++ +GIFEE G+ ++YY+GYT+ K+ E   IH P+
+Sbjct  1   MEFLSREEIINELQQSFQSYIDKFDIEAIGIFEEEGQADQYYIGYTVTKNSETFHIHTPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREK---KGFHSLQEAMEEV  97
+           +KN  G+LA   +EWTV  D  +K   K +++L     E+
+Sbjct  61  IKNANGDLAPISKEWTVESDDPQKDDFKEYNNLDNVFLEL  100
+
+
+> UniRef90_UPI0008F976E5 UPI0008F976E5 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008F976E5
+Length=100
+
+ Score = 123 bits (308),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 37/100 (37%), Positives = 59/100 (59%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME   R  +I     + +P+ + Y LD +G+FEE G+GN+YYVGYTI KD +   +H P+
+Sbjct  1   MENISREQLIHSLQQSFQPLTQEYNLDHIGVFEEEGQGNQYYVGYTIKKDGKAYMVHQPY  60
+
+Query  61  VKNERGELALEKQEWTVRKD---GREKKGFHSLQEAMEEV  97
+            K E   L+  + +WTV  D     +  G+  L++A++E+
+Sbjct  61  TKRENNTLSPMESKWTVESDRPNDVDINGYKRLEDALKEI  100
+
+
+> UniRef90_UPI000826E546 UPI000826E546 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000826E546
+Length=100
+
+ Score = 122 bits (306),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 41/97 (42%), Positives = 61/97 (63%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF  R  +I E    L+ +ME Y L+++G++EE GEGN+ Y G+T+ KD  +  I+ PF
+Sbjct  1   MEFINREHLISEMTQMLQELMEEYDLEEIGVYEEEGEGNQCYFGFTVRKDGHVYMINNPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+           +KN +GE+A    EWTV+ +  E KG+ SL E    +
+Sbjct  61  IKNSKGEVAPASHEWTVQSETGENKGYTSLDEVFNRI  97
+
+
+> UniRef90_UPI00069D4462 hypothetical protein n=1 Tax=Virgibacillus 
+senegalensis TaxID=1499679 RepID=UPI00069D4462
+Length=101
+
+ Score = 121 bits (304),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 37/101 (37%), Positives = 55/101 (54%), Gaps = 3/101 (3%)
+
+Query  1    MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+            M+      +  +  D+  P+ME Y +D +G FEE G  + YY+GYT+ K+  +  +HMPF
+Sbjct  1    MDNVTIDQIRGDLQDSFRPLMEKYNIDDIGTFEEEGAEDDYYIGYTVRKNGRIYMVHMPF  60
+
+Query  61   VKNERGELALEKQEWTVRKD---GREKKGFHSLQEAMEEVI  98
+             K   G+LAL KQEWTV  D     +  GF ++    E + 
+Sbjct  61   KKTGEGQLALAKQEWTVETDDPTDEDISGFPTIDAVFEHLF  101
+
+
+> UniRef90_UPI0008F4C456 UPI0008F4C456 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008F4C456
+Length=103
+
+ Score = 121 bits (303),  Expect = 7e-33, Method: Composition-based stats.
+ Identities = 37/97 (38%), Positives = 57/97 (59%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF  R  ++ E   +L  M+E Y L+ VGIF+E GEGN YY+GYT+ K+ E+  IH  F
+Sbjct  1   MEFIEREAILTEMNHSLHTMLEKYDLEDVGIFQEEGEGNDYYLGYTVRKNGEVYMIHQKF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+            K+E+G L   +Q W +  +  + +G+ +L      +
+Sbjct  61  RKDEQGNLKPSEQSWVIECEEGDSRGYENLDAVFSYL  97
+
+
+> UniRef90_A0A150KN17 Uncharacterized protein n=1 Tax=Bacillus 
+sporothermodurans TaxID=46224 RepID=A0A150KN17_9BACI
+Length=102
+
+ Score = 120 bits (301),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 38/97 (39%), Positives = 67/97 (69%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M++  R ++I++    L+ +M+ Y L+ +GI+EE G G+ YY+GYT+ K+ E+  I+MP+
+Sbjct  1   MDYLNREILIDQMNAQLKELMDHYQLEDIGIYEEEGAGDDYYLGYTVRKNGEVFMINMPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+           +K+  G L L+ ++WT++ D  EKKGFH+L E  + +
+Sbjct  61  MKDAYGNLGLKNRDWTIQSDEGEKKGFHNLDEVFDHI  97
+
+
+> UniRef90_D5DC61 Uncharacterized protein n=12 Tax=Bacillus TaxID=55087 
+RepID=D5DC61_BACMD
+Length=102
+
+ Score = 119 bits (298),  Expect = 4e-32, Method: Composition-based stats.
+ Identities = 36/97 (37%), Positives = 66/97 (68%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME+  R  ++ E    ++ ++  Y L  V ++EE GEGN YY+GYT+ K+D +  ++ P+
+Sbjct  1   MEYVGREAIVSELTHHMDDILNKYNLQGVSVYEEEGEGNHYYLGYTVKKNDYVFMVNKPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+           +K++ G+LA+EKQEWT++ +  E  G+ SL++A +++
+Sbjct  61  IKDKDGKLAVEKQEWTLQGNDGETNGYASLEDAFQQI  97
+
+
+> UniRef90_U5L8D2 Uncharacterized protein n=2 Tax=Bacillus TaxID=55087 
+RepID=U5L8D2_9BACI
+Length=100
+
+ Score = 118 bits (297),  Expect = 4e-32, Method: Composition-based stats.
+ Identities = 34/100 (34%), Positives = 51/100 (51%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME   R  ++ +   + E  +  YG D +G +EE G+G RYY G T+ KDD    IH PF
+Sbjct  1   MESMTREQILADLQRSFEGYLNEYGADSIGTYEEPGQGGRYYFGCTVKKDDRTFHIHTPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGR---EKKGFHSLQEAMEEV  97
+            + E G        WT   D     +K+G+  L+ A++E+
+Sbjct  61  AQQEDGRFTALGNGWTAETDDPMLQDKRGYGDLESALKEI  100
+
+
+> UniRef90_UPI000825CA28 UPI000825CA28 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000825CA28
+Length=101
+
+ Score = 117 bits (294),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 33/100 (33%), Positives = 57/100 (57%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME+  R  ++ E   +   +M+ Y L+ +G+FEE G   +YY+GYTIN++     IH  +
+Sbjct  1   MEYVTRENIMNELQQSFHSLMDTYNLEDIGLFEEQGPNGQYYMGYTINQNGGTYFIHQTY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGR---EKKGFHSLQEAMEEV  97
+             N  G LAL  +EWT+  D     +K G+ S+++  +++
+Sbjct  61  KTNSNGHLALIGKEWTIETDEPNTDDKTGYESIEDVFQQL  100
+
+
+> UniRef90_A0A0B6AEH4 Uncharacterized protein n=12 Tax=Bacillus 
+TaxID=55087 RepID=A0A0B6AEH4_BACMB
+Length=102
+
+ Score = 117 bits (293),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 38/97 (39%), Positives = 65/97 (67%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME+  R   I E    ++ ++  Y L  V ++EE GEGN YY+GYT+ K+D++  ++ P+
+Sbjct  1   MEYVKRETAISELTHHMDDILNKYNLQGVSVYEEEGEGNHYYLGYTVKKNDQVFMLNRPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+           +K++ G+LA+EKQEWTV+ +  E  G  SL++A +++
+Sbjct  61  LKDKDGKLAVEKQEWTVQGNEGETNGHASLEDAFQKI  97
+
+
+> UniRef90_A0A0Q3TK15 Uncharacterized protein n=1 Tax=Bacillus 
+shackletonii TaxID=157838 RepID=A0A0Q3TK15_9BACI
+Length=100
+
+ Score = 116 bits (292),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 35/97 (36%), Positives = 61/97 (63%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME+ P   +  +    L+ +M  Y L+ +GI+EE G G+ YY+GYT+ KD ++  ++MP+
+Sbjct  1   MEYIPYEELKNDMNQHLKELMMKYNLEDIGIYEEEGAGDTYYLGYTVRKDGKIYMVNMPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+            K+  G LAL+ Q+WT++++  E KGF +L+     +
+Sbjct  61  KKDHHGGLALQHQDWTIQEEDGESKGFKNLEAVFTHI  97
+
+
+> UniRef90_UPI00088C6067 UPI00088C6067 related cluster n=3 Tax=Bacillaceae 
+TaxID=186817 RepID=UPI00088C6067
+Length=102
+
+ Score = 116 bits (291),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 36/101 (36%), Positives = 56/101 (55%), Gaps = 3/101 (3%)
+
+Query  1    MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+            M+      +  E  D+ E +ME Y +D +G FEE G  + YY+GYT+ K+  +  +HMPF
+Sbjct  1    MDHVTIDQIRGELQDSFETLMEKYNIDDIGTFEEEGPEDDYYIGYTVRKNGRVYMVHMPF  60
+
+Query  61   VKNERGELALEKQEWTVRKD---GREKKGFHSLQEAMEEVI  98
+             K + G+L L +QEWTV  D     +  GF ++    E++ 
+Sbjct  61   AKTDEGQLELARQEWTVETDDPTDEDISGFPTIDAVFEQLF  101
+
+
+> UniRef90_UPI00047E4596 hypothetical protein n=1 Tax=Bacillus 
+bogoriensis TaxID=246272 RepID=UPI00047E4596
+Length=104
+
+ Score = 116 bits (291),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 46/98 (47%), Positives = 64/98 (65%), Gaps = 1/98 (1%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME   R  +++E  D+LE +M  Y +D +GIFEE GE   YY+GYTI K D +  +H PF
+Sbjct  1   MESVTRETILQEMNDSLERIMNKYDVDDIGIFEEQGEAEEYYIGYTIRKADAVFMVHRPF  60
+
+Query  61  VKNERGELALEKQEWTVR-KDGREKKGFHSLQEAMEEV  97
+            K+E+G LA  +++WTV  +DG +  GF SL EAM+ V
+Sbjct  61  YKDEQGLLAPHEKKWTVEFEDGEDFHGFSSLDEAMDNV  98
+
+
+> UniRef90_A0A0A5GHU0 Uncharacterized protein n=1 Tax=Pontibacillus 
+marinus BH030004 = DSM 16465 TaxID=1385511 RepID=A0A0A5GHU0_9BACI
+Length=102
+
+ Score = 114 bits (285),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 38/97 (39%), Positives = 61/97 (63%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME+     ++ +F ++L  +++ Y L +  I+EE GEG+ YY+GYT+ K  +   IHMPF
+Sbjct  1   MEYISVETILNDFKESLSVLIKQYNLAEASIYEEEGEGDTYYIGYTVLKGGKTYHIHMPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+            KN+   LAL K EWT++ +  E KG+ SL +  E++
+Sbjct  61  EKNDEDHLALGKPEWTIQAEEGEYKGYESLDQVFEKI  97
+
+
+> UniRef90_UPI000400A111 hypothetical protein n=1 Tax=Bacillus 
+sp. FJAT-14578 TaxID=1208600 RepID=UPI000400A111
+Length=99
+
+ Score = 111 bits (279),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 39/97 (40%), Positives = 66/97 (68%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M F  R   + E + +LEP++E Y LD++GI+EE G  + YY+GYT+ K + +  IH P+
+Sbjct  1   MHFLKREERMNEMLHSLEPLLEQYHLDEIGIYEEEGVNDLYYMGYTVKKGEHVYMIHQPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+           VKNE+ EL+L++ +WT++ +  E KG+ SL++   ++
+Sbjct  61  VKNEKEELSLQESQWTIQSEHNESKGYSSLEDVFNQI  97
+
+
+> UniRef90_UPI0002FD221C hypothetical protein n=1 Tax=Bacillus 
+massiliosenegalensis TaxID=1287657 RepID=UPI0002FD221C
+Length=100
+
+ Score = 111 bits (277),  Expect = 5e-29, Method: Composition-based stats.
+ Identities = 30/100 (30%), Positives = 55/100 (55%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME+  RS +IE   +  +  +E + LD++GI+EE G+ +  ++GYT+ K+ +   +H  F
+Sbjct  1   MEYITRSNLIEGLQEPFQQYLEQFELDEIGIYEEDGQDDITHMGYTVTKNGQTYHLHTSF  60
+
+Query  61  VKNERGELALEKQEWTVRKDG---REKKGFHSLQEAMEEV  97
+            KNE+  L      WT+ +D     ++ G+  L+    E+
+Sbjct  61  RKNEQERLTPLNNLWTLERDEPSSEDRTGYRDLESIFREI  100
+
+
+> UniRef90_UPI00065BD78E hypothetical protein n=1 Tax=Bacillus 
+cereus TaxID=1396 RepID=UPI00065BD78E
+Length=108
+
+ Score = 98.4 bits (244),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 28/96 (29%), Positives = 44/96 (46%), Gaps = 3/96 (3%)
+
+Query  6    RSVVIEEFIDTL-EPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPFVKNE  64
+            R  VI   +D   + M E Y    V +  E  +    ++GY ++    +  + MP+ KNE
+Sbjct  8    RMSVIRNDLDRFSQDMKERYNCRVVTLINESADKESVHMGYCVSNSAGVFNVLMPYEKNE  67
+
+Query  65   RGELALEKQEWTVRK--DGREKKGFHSLQEAMEEVI  98
+            R E A+    WTV     G    G+ +L  AME ++
+Sbjct  68   RNEYAVTDNTWTVTHIQTGEVTDGYKTLGHAMEYIL  103
+
+
+> UniRef90_A0A0U1KMT9 Uncharacterized protein n=1 Tax=Paraliobacillus 
+sp. PM-2 TaxID=1462524 RepID=A0A0U1KMT9_9BACI
+Length=104
+
+ Score = 97.6 bits (242),  Expect = 9e-24, Method: Composition-based stats.
+ Identities = 26/101 (26%), Positives = 50/101 (50%), Gaps = 4/101 (4%)
+
+Query  1    MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+            ME  P+  +I +  D L    E+   + + IFE+H      ++GY I K +++  +++P+
+Sbjct  1    MELLPKQQIINQLHDQLPIWKESCTAEHISIFEQHYNEVLCHLGYKILKKEQIYEVYLPY  60
+
+Query  61   VKNERGELALEKQEWTVRK----DGREKKGFHSLQEAMEEV  97
+            +K +  +L      WT+         +KKG+  LQE +  +
+Sbjct  61   LKYDTDKLIALTPIWTITHVNTVKSYQKKGYEFLQEVIHAL  101
+
+
+> UniRef90_A0A143MIK9 Uncharacterized protein n=1 Tax=Geobacillus 
+subterraneus TaxID=129338 RepID=A0A143MIK9_9BACI
+Length=131
+
+ Score = 97.2 bits (241),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMP  59
+           MEF PRSVVI+EFIDTLEPMMEAYGLDQVGIFEEHGEGNRYY+GYTINKDDEMITIHMP
+Sbjct  1   MEFVPRSVVIDEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYIGYTINKDDEMITIHMP  59
+
+
+> UniRef90_UPI0005527088 hypothetical protein n=1 Tax=Bacillus 
+sp. FJAT-14578 TaxID=1208600 RepID=UPI0005527088
+Length=106
+
+ Score = 89.2 bits (220),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 21/100 (21%), Positives = 48/100 (48%), Gaps = 0/100 (0%)
+
+Query  1    MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+            M F     V  +    ++   + YG++ + ++ E  + + +Y+GY   KD + I + +P 
+Sbjct  3    MLFLSWDTVYNDKKRLIKLFEKEYGIEPIEMYSEETQPDLHYIGYRFKKDGKQIVVKIPL  62
+
+Query  61   VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEVIHS  100
+            VK++    A ++  W +  D +    + +++EA   + H 
+Sbjct  63   VKDQADRFAAQQNRWEMLIDEKTTGTYKNIREAFHMLQHD  102
+
+
+> UniRef90_UPI0008371CFD UPI0008371CFD related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008371CFD
+Length=112
+
+ Score = 61.0 bits (147),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 21/101 (21%), Positives = 50/101 (50%), Gaps = 3/101 (3%)
+
+Query  1    MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+            M++     ++++F DT + +   Y  + V ++E+    +   +GY I KD E   +++ +
+Sbjct  1    MDYIHYKDLLQQFKDTQKQIEAQYSFEHVDLYEKTIHHDILNLGYRIRKDKEEFHVYLRY  60
+
+Query  61   VKNERGELALEKQEWT---VRKDGREKKGFHSLQEAMEEVI  98
+            +  ++  L      WT   +  +  +K+G+ +L EA+  + 
+Sbjct  61   LHLDQERLLPFTPIWTCRWISSNSIQKRGYDTLLEALLSIQ  101
+
+
+> UniRef90_UPI0006A7EF03 hypothetical protein n=1 Tax=Bacillus 
+sp. FJAT-26652 TaxID=1684141 RepID=UPI0006A7EF03
+Length=185
+
+ Score = 58.0 bits (139),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 20/100 (20%), Positives = 45/100 (45%), Gaps = 5/100 (5%)
+
+Query  3    FAPRSVVIEEFIDTLEPMMEAYGLDQ----VGIFEEHGEGNRYYVGYTINKDDEMITIHM  58
+            F  ++V++ +     + M E          VG+ E+    +  ++GY +  +     + M
+Sbjct  6    FFNKTVIVNDLNKFAQGMQENMSTADNDIIVGVLEKDIASDFCHMGYYVQANGLEFEVLM  65
+
+Query  59   PFVKNERGELALEKQEWTVRKDGREK-KGFHSLQEAMEEV  97
+            P+  +  GE A+   +W V  DG+   + + +L + M+ +
+Sbjct  66   PYEISREGEYAIFDNKWQVLHDGKTLEEDYKTLGDVMDAI  105
+
+
+> UniRef90_UPI0005892244 hypothetical protein n=1 Tax=Bacillus 
+sp. REN51N TaxID=1590026 RepID=UPI0005892244
+Length=107
+
+ Score = 53.7 bits (128),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 26/99 (26%), Positives = 46/99 (46%), Gaps = 4/99 (4%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGL-DQVGIFEEHGEG-NRYYVGYTINKDDEMITIHM  58
+           M F     +I       + + E YG+   V ++ E  E  +  Y+GY+    +E + I M
+Sbjct  1   MNFLEEQTIINSMEQHAKGIKEMYGIPSNVQVYTEETEDPSICYLGYSFTWKEEPVIIKM  60
+
+Query  59  PFVKNERGELALEKQE--WTVRKDGREKKGFHSLQEAME  95
+            ++KNE  +L+  +QE  W V+    E     +L +A +
+Sbjct  61  KYIKNEVHQLSGIQQENYWHVKHGIHESSQHRTLGDAFD  99
+
+
+> UniRef90_UPI00031DAE9A hypothetical protein n=1 Tax=Amphibacillus 
+jilinensis TaxID=1216008 RepID=UPI00031DAE9A
+Length=113
+
+ Score = 51.8 bits (123),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 20/100 (20%), Positives = 46/100 (46%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M+    + V     + L+ + + +  + + I+E++ E    ++GY I +      I++ +
+Sbjct  1   MQQLYYADVHRHLANNLKQIQQQHQFEHLTIYEKNIENEILHLGYEIKRKQTTFRIYLRY  60
+
+Query  61  VKNERGELALEKQEWT---VRKDGREKKGFHSLQEAMEEV  97
+           +K E+  L      WT   +  +   K+G+ S  EA+  +
+Sbjct  61  LKLEQQSLLPFTPVWTCEKIEDNHLTKRGYDSFLEALLSI  100
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.153    0.455    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0478    0.140     1.90     42.6     43.6 
+
+Effective search space used: 441275782615
+Results from round 3
+
+
+Query= d1ylxa1
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_S7U9D9 Uncharacterized protein n=9 Tax=Geobacillus Tax...  143     4e-41
+  UniRef90_W7LDA8 Uncharacterized protein n=1 Tax=Bacillus firmus...  137     3e-39
+  UniRef90_Q5KZY7 Uncharacterized protein n=20 Tax=Geobacillus Ta...  135     1e-38
+  UniRef90_A0A0M2PCX9 Uncharacterized protein n=1 Tax=Bacillus sp...  135     1e-38
+  UniRef90_A0A0J5VQM5 Uncharacterized protein n=1 Tax=Bacillus fi...  134     2e-38
+  UniRef90_E5WQY7 Uncharacterized protein n=2 Tax=Bacillus TaxID=...  134     4e-38
+  UniRef90_A4IMZ0 Uncharacterized protein n=2 Tax=Geobacillus Tax...  133     1e-37
+  UniRef90_UPI00070EFB30 hypothetical protein n=1 Tax=Bacillus sp...  132     2e-37
+  UniRef90_A0A0M0GIS2 Uncharacterized protein n=1 Tax=Sporosarcin...  131     4e-37
+  UniRef90_A0A1B7KRF8 Uncharacterized protein n=1 Tax=Geobacillus...  131     5e-37
+  UniRef90_A0A179T799 Uncharacterized protein n=1 Tax=Bacillus li...  131     5e-37
+  UniRef90_UPI0004789485 hypothetical protein n=1 Tax=Bacillus sp...  130     1e-36
+  UniRef90_UPI00082E1E42 UPI00082E1E42 related cluster n=1 Tax=un...  130     2e-36
+  UniRef90_S5YYM0 Uncharacterized protein n=1 Tax=Bacillus sp. (s...  129     2e-36
+  UniRef90_A0A0M5JH42 Uncharacterized protein n=1 Tax=Bacillus go...  129     3e-36
+  UniRef90_UPI000488934D hypothetical protein n=1 Tax=Anoxybacill...  128     9e-36
+  UniRef90_UPI0008F8083A UPI0008F8083A related cluster n=1 Tax=un...  128     1e-35
+  UniRef90_C5D2R9 Uncharacterized protein n=10 Tax=Bacillaceae Ta...  128     1e-35
+  UniRef90_UPI0008F52AC5 UPI0008F52AC5 related cluster n=1 Tax=un...  128     1e-35
+  UniRef90_UPI00070CBDD5 hypothetical protein n=1 Tax=Bacillus sp...  128     1e-35
+  UniRef90_UPI0004B08C1E hypothetical protein n=1 Tax=Bacillus sp...  127     4e-35
+  UniRef90_UPI0007172D5D hypothetical protein n=1 Tax=Bacillus fa...  126     5e-35
+  UniRef90_A0A0M0X9N6 Uncharacterized protein n=2 Tax=Bacillus Ta...  126     7e-35
+  UniRef90_A6CML9 Uncharacterized protein n=2 Tax=Bacillus sp. SG...  125     9e-35
+  UniRef90_UPI0005CCF880 hypothetical protein n=1 Tax=Bacillus al...  125     2e-34
+  UniRef90_A0A0M2SRP8 Uncharacterized protein n=2 Tax=Bacillus Ta...  123     5e-34
+  UniRef90_A0A024P572 Uncharacterized protein n=1 Tax=Halobacillu...  123     6e-34
+  UniRef90_A0A161PIF5 Uncharacterized protein n=3 Tax=Bacillus Ta...  123     6e-34
+  UniRef90_UPI00082A9C04 UPI00082A9C04 related cluster n=1 Tax=un...  123     7e-34
+  UniRef90_UPI000826901B UPI000826901B related cluster n=1 Tax=un...  123     1e-33
+  UniRef90_UPI00069D4462 hypothetical protein n=1 Tax=Virgibacill...  123     1e-33
+  UniRef90_UPI00094CD8FC UPI00094CD8FC related cluster n=1 Tax=un...  121     4e-33
+  UniRef90_UPI000826E546 UPI000826E546 related cluster n=1 Tax=un...  120     8e-33
+  UniRef90_A0A150KN17 Uncharacterized protein n=1 Tax=Bacillus sp...  120     1e-32
+  UniRef90_UPI0008F976E5 UPI0008F976E5 related cluster n=1 Tax=un...  119     2e-32
+  UniRef90_UPI0008F4C456 UPI0008F4C456 related cluster n=1 Tax=un...  119     3e-32
+  UniRef90_UPI00088C6067 UPI00088C6067 related cluster n=3 Tax=Ba...  117     2e-31
+  UniRef90_A0A0Q3TK15 Uncharacterized protein n=1 Tax=Bacillus sh...  116     4e-31
+  UniRef90_D5DC61 Uncharacterized protein n=12 Tax=Bacillus TaxID...  116     5e-31
+  UniRef90_U5L8D2 Uncharacterized protein n=2 Tax=Bacillus TaxID=...  115     7e-31
+  UniRef90_A0A0B6AEH4 Uncharacterized protein n=12 Tax=Bacillus T...  115     8e-31
+  UniRef90_UPI00047E4596 hypothetical protein n=1 Tax=Bacillus bo...  114     3e-30
+  UniRef90_A0A0A5GHU0 Uncharacterized protein n=1 Tax=Pontibacill...  113     5e-30
+  UniRef90_UPI000825CA28 UPI000825CA28 related cluster n=1 Tax=un...  112     2e-29
+  UniRef90_UPI000400A111 hypothetical protein n=1 Tax=Bacillus sp...  109     2e-28
+  UniRef90_UPI0002FD221C hypothetical protein n=1 Tax=Bacillus ma...  109     3e-28
+  UniRef90_UPI0005527088 hypothetical protein n=1 Tax=Bacillus sp...  98.8    3e-24
+  UniRef90_A0A0U1KMT9 Uncharacterized protein n=1 Tax=Paraliobaci...  96.1    3e-23
+  UniRef90_A0A143MIK9 Uncharacterized protein n=1 Tax=Geobacillus...  95.3    1e-22
+  UniRef90_UPI00065BD78E hypothetical protein n=1 Tax=Bacillus ce...  93.7    3e-22
+  UniRef90_UPI0008371CFD UPI0008371CFD related cluster n=1 Tax=un...  94.1    3e-22
+  UniRef90_UPI00031DAE9A hypothetical protein n=1 Tax=Amphibacill...  89.1    2e-20
+  UniRef90_UPI0006A7EF03 hypothetical protein n=1 Tax=Bacillus sp...  86.8    7e-19
+  UniRef90_UPI0005892244 hypothetical protein n=1 Tax=Bacillus sp...  82.2    9e-18
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_S7U9D9 Uncharacterized protein n=9 Tax=Geobacillus TaxID=129337 
+RepID=S7U9D9_9BACI
+Length=133
+
+ Score = 143 bits (360),  Expect = 4e-41, Method: Composition-based stats.
+ Identities = 99/100 (99%), Positives = 100/100 (100%), Gaps = 0/100 (0%)
+
+Query  1    MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+            MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF
+Sbjct  34   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  93
+
+Query  61   VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEVIHS  100
+            VKNERGELALEKQEWTVRKDGREKKGFHSLQEA+EEVIHS
+Sbjct  94   VKNERGELALEKQEWTVRKDGREKKGFHSLQEAIEEVIHS  133
+
+
+> UniRef90_W7LDA8 Uncharacterized protein n=1 Tax=Bacillus firmus 
+DS1 TaxID=1307436 RepID=W7LDA8_BACFI
+Length=100
+
+ Score = 137 bits (345),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 37/100 (37%), Positives = 59/100 (59%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF PR  VI    +     ++ YG+D +G+FEE G+    Y+GYT+ K  +   +H PF
+Sbjct  1   MEFLPREQVISSLQEPFHSYLDKYGIDDIGVFEEEGQDQHCYLGYTVKKAGKTYHVHSPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGR---EKKGFHSLQEAMEEV  97
+           +K+  G L   K EWT+  D     +K+GF S+++A++E+
+Sbjct  61  LKDGNGGLTPAKNEWTIESDEPDGADKRGFTSIEQALQEL  100
+
+
+> UniRef90_Q5KZY7 Uncharacterized protein n=20 Tax=Geobacillus 
+TaxID=129337 RepID=Q5KZY7_GEOKA
+Length=100
+
+ Score = 135 bits (341),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 99/100 (99%), Positives = 100/100 (100%), Gaps = 0/100 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYY+GYTINKDDEMITIHMPF
+Sbjct  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYIGYTINKDDEMITIHMPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEVIHS  100
+           VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEVIHS
+Sbjct  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEVIHS  100
+
+
+> UniRef90_A0A0M2PCX9 Uncharacterized protein n=1 Tax=Bacillus 
+sp. SA1-12 TaxID=1455638 RepID=A0A0M2PCX9_9BACI
+Length=100
+
+ Score = 135 bits (341),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 42/100 (42%), Positives = 65/100 (65%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M+F PR  +I E  ++ +P +  YG++ +GIFEE G+   YY+GYT+ KD +   IH PF
+Sbjct  1   MDFLPREQIINELQNSFQPFITKYGIEDIGIFEEEGQDQHYYLGYTVRKDGKTYHIHSPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGR---EKKGFHSLQEAMEEV  97
+           +KN+ G LA EK+EWT+  D     + KG+  L++A+ E+
+Sbjct  61  IKNQAGGLAPEKREWTLETDEPMNKDLKGYKQLEDALREI  100
+
+
+> UniRef90_A0A0J5VQM5 Uncharacterized protein n=1 Tax=Bacillus 
+firmus TaxID=1399 RepID=A0A0J5VQM5_BACFI
+Length=100
+
+ Score = 134 bits (339),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 36/100 (36%), Positives = 60/100 (60%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF PR  V+    +  +  ++ YG+D +GIFEE G+    Y+GYT+ K  +   +H PF
+Sbjct  1   MEFLPREQVLNSLQEPFQSYLDKYGIDDIGIFEEEGQDQHCYMGYTVKKAGKAYHVHSPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGR---EKKGFHSLQEAMEEV  97
+           +K+  G L+ E  EWT+  D     ++ GF S+++A++E+
+Sbjct  61  LKDGNGGLSPETNEWTIESDEPEGADRSGFTSIEQALQEL  100
+
+
+> UniRef90_E5WQY7 Uncharacterized protein n=2 Tax=Bacillus TaxID=55087 
+RepID=E5WQY7_9BACI
+Length=100
+
+ Score = 134 bits (338),  Expect = 4e-38, Method: Composition-based stats.
+ Identities = 36/100 (36%), Positives = 61/100 (61%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF PR  +I    +     ++ YG+D +GIFEE G+ +  Y+GYT+ K  +   +H PF
+Sbjct  1   MEFLPREQIINALQEPFHSYLDKYGIDDIGIFEEEGQDHHCYIGYTVKKAGKTYHVHSPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGR---EKKGFHSLQEAMEEV  97
+           +K+E G L   K EWT+  D     +++GF+++ +A++E+
+Sbjct  61  IKDENGGLTPAKTEWTIESDEPDSIDRRGFNNVDQALQEL  100
+
+
+> UniRef90_A4IMZ0 Uncharacterized protein n=2 Tax=Geobacillus TaxID=129337 
+RepID=A4IMZ0_GEOTN
+Length=99
+
+ Score = 133 bits (334),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 86/99 (87%), Positives = 93/99 (94%), Gaps = 0/99 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEFAPR V++EEFIDTLEPMME YGLDQVGIFEE GEGNRYYVGYTINKD EMITIHMPF
+Sbjct  1   MEFAPRRVILEEFIDTLEPMMETYGLDQVGIFEERGEGNRYYVGYTINKDGEMITIHMPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEVIH  99
+           ++NERGELALEKQEWTVRKDG+EKKG+ SL EAM+EVIH
+Sbjct  61  IQNERGELALEKQEWTVRKDGQEKKGYRSLPEAMDEVIH  99
+
+
+> UniRef90_UPI00070EFB30 hypothetical protein n=1 Tax=Bacillus 
+sp. FJAT-25496 TaxID=1742359 RepID=UPI00070EFB30
+Length=100
+
+ Score = 132 bits (332),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 38/100 (38%), Positives = 58/100 (58%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF  R  +I +     +  ++ +G++ +GIFEE G+G+ YY+GYT+ KD +   IH PF
+Sbjct  1   MEFLTREQIINDLQKPFQSYLDRFGIEDIGIFEEEGQGDIYYMGYTVKKDGKTYHIHCPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREK---KGFHSLQEAMEEV  97
+            KN  G L   K EWTV  D  +K   +G+H ++    E+
+Sbjct  61  KKNNNGGLTPMKNEWTVETDEPQKEDLEGYHDIESVFREI  100
+
+
+> UniRef90_A0A0M0GIS2 Uncharacterized protein n=1 Tax=Sporosarcina 
+globispora TaxID=1459 RepID=A0A0M0GIS2_SPOGL
+Length=100
+
+ Score = 131 bits (331),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 34/100 (34%), Positives = 63/100 (63%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF  R  +I    +  +  ++ YG+D +G+FEE G+ +  Y+GYTI K+ +   +H PF
+Sbjct  1   MEFLSREQIIGALQEPFQSYIDKYGIDDIGVFEEEGQDHHCYMGYTIKKEGKTYHVHSPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGR---EKKGFHSLQEAMEEV  97
+           +K++ G L+  K EWT+  D     +++GF ++++A++E+
+Sbjct  61  IKDDSGGLSPAKNEWTIESDEPDSIDRRGFDNIEQALQEL  100
+
+
+> UniRef90_A0A1B7KRF8 Uncharacterized protein n=1 Tax=Geobacillus 
+thermoglucosidasius TaxID=1426 RepID=A0A1B7KRF8_GEOTM
+Length=101
+
+ Score = 131 bits (331),  Expect = 5e-37, Method: Composition-based stats.
+ Identities = 74/97 (76%), Positives = 88/97 (91%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF PRSV+I EFIDTL+P+M+ Y LDQVG+FEE GEGN+YY+GYTINKDD+MI +HMPF
+Sbjct  1   MEFVPRSVIIREFIDTLQPLMDVYHLDQVGLFEEEGEGNKYYIGYTINKDDKMIVLHMPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+           VKNERGELALEK EWTVRKDG E+KG++SLQ AM+E+
+Sbjct  61  VKNERGELALEKHEWTVRKDGNEQKGYYSLQAAMDEI  97
+
+
+> UniRef90_A0A179T799 Uncharacterized protein n=1 Tax=Bacillus 
+litoralis TaxID=152268 RepID=A0A179T799_9BACI
+Length=104
+
+ Score = 131 bits (330),  Expect = 5e-37, Method: Composition-based stats.
+ Identities = 41/101 (41%), Positives = 64/101 (63%), Gaps = 3/101 (3%)
+
+Query  1    MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+            M+F  R  +I E  D+ +P +  YG++ +GIFEE G+ N YY+GYT+ K+ +   IH  +
+Sbjct  1    MDFLSREQIINELQDSFQPFINKYGIEDIGIFEEEGQDNHYYLGYTVRKEGKTYHIHSSY  60
+
+Query  61   VKNERGELALEKQEWTVRKDGREK---KGFHSLQEAMEEVI  98
+            +KN  G LA EK+EWT+  D  ++   KGF  L++A+ E+ 
+Sbjct  61   LKNNHGGLAPEKKEWTIESDEPDRKDLKGFKGLEDALREIQ  101
+
+
+> UniRef90_UPI0004789485 hypothetical protein n=1 Tax=Bacillus 
+sp. J33 TaxID=935836 RepID=UPI0004789485
+Length=100
+
+ Score = 130 bits (327),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 38/100 (38%), Positives = 63/100 (63%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF PR  +I    + L+  ++ YG+D +GIFEE G+GN+YY+GYT+ K+     IH P+
+Sbjct  1   MEFLPREQIINALQEPLQSYIDKYGIDDIGIFEEEGQGNQYYLGYTVKKEGRTYHIHSPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGR---EKKGFHSLQEAMEEV  97
+            K++ G L   + EWT+  D     ++ G+ +L++A+ E+
+Sbjct  61  FKDDNGGLTPAENEWTIESDEPKGEDRMGYENLEQALREI  100
+
+
+> UniRef90_UPI00082E1E42 UPI00082E1E42 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00082E1E42
+Length=100
+
+ Score = 130 bits (327),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 45/100 (45%), Positives = 65/100 (65%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF PR  +I E     +  +E YG+D +GIFEEHGEG+RYY+GYT+NKD +   IH P+
+Sbjct  1   MEFLPREKIINELQQPFQSYIEKYGIDDIGIFEEHGEGDRYYLGYTVNKDGKTFHIHSPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGR---EKKGFHSLQEAMEEV  97
+           +KN++GELA E  EWT+  D     +++G+  L+     +
+Sbjct  61  LKNDQGELAQENDEWTLESDNPSLEDQRGYDDLESVFRNI  100
+
+
+> UniRef90_S5YYM0 Uncharacterized protein n=1 Tax=Bacillus sp. 
+(strain JF8) TaxID=1921421 RepID=S5YYM0_BACPJ
+Length=99
+
+ Score = 129 bits (326),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 89/99 (90%), Positives = 94/99 (95%), Gaps = 0/99 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEFAPRSVVIEEFIDTLEPMMEAY LDQVGIFEEHGEGNRYY+GYTINKDDEMI +HMPF
+Sbjct  1   MEFAPRSVVIEEFIDTLEPMMEAYDLDQVGIFEEHGEGNRYYIGYTINKDDEMIVVHMPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEVIH  99
+           V+NERGE+ALEKQEWTVRKDG EK G+ SLQEAMEEVIH
+Sbjct  61  VRNERGEVALEKQEWTVRKDGDEKTGYRSLQEAMEEVIH  99
+
+
+> UniRef90_A0A0M5JH42 Uncharacterized protein n=1 Tax=Bacillus 
+gobiensis TaxID=1441095 RepID=A0A0M5JH42_9BACI
+Length=100
+
+ Score = 129 bits (325),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 38/100 (38%), Positives = 60/100 (60%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M++  R  +I E   + E  ++ +G++ VGIFEE G+  RYY+GYT+ KD +   IH+P+
+Sbjct  1   MDYLSREQIINELQQSFEHYIDKFGIENVGIFEEEGQAERYYMGYTVKKDGKTFHIHIPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGR---EKKGFHSLQEAMEEV  97
+           +KN  GELA   +EWTV  D     + +G+  L+    E+
+Sbjct  61  IKNNNGELAPINKEWTVESDDPKRDDVRGYKDLESIFREI  100
+
+
+> UniRef90_UPI000488934D hypothetical protein n=1 Tax=Anoxybacillus 
+tepidamans TaxID=265948 RepID=UPI000488934D
+Length=101
+
+ Score = 128 bits (322),  Expect = 9e-36, Method: Composition-based stats.
+ Identities = 77/98 (79%), Positives = 89/98 (91%), Gaps = 0/98 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF PRS +I EFIDTLEPMM+ YGLDQVGIFEE G G+ YY+GYTINKDD+MI +HMPF
+Sbjct  1   MEFVPRSAIIHEFIDTLEPMMDVYGLDQVGIFEEEGNGDTYYIGYTINKDDDMIILHMPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEVI  98
+           VKNERGELALEK+EWT+R DG+E+KG+HSLQEAME+VI
+Sbjct  61  VKNERGELALEKEEWTIRADGKEEKGYHSLQEAMEKVI  98
+
+
+> UniRef90_UPI0008F8083A UPI0008F8083A related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008F8083A
+Length=103
+
+ Score = 128 bits (322),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 35/97 (36%), Positives = 59/97 (61%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M+F  R  +I E  ++L  M++ Y L+ +G+FEE GE +RYY G+TI K+ ++  IH PF
+Sbjct  1   MDFISREAIIREMTESLPSMIDQYELEDIGVFEEEGEDDRYYFGFTIRKNGDVYMIHQPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+            KN  G+LA    +W +  D  +  G+++L +  + +
+Sbjct  61  KKNHEGKLAPIDSKWVIECDEGDSTGYNNLDDVFDYI  97
+
+
+> UniRef90_C5D2R9 Uncharacterized protein n=10 Tax=Bacillaceae 
+TaxID=186817 RepID=C5D2R9_GEOSW
+Length=101
+
+ Score = 128 bits (322),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 76/97 (78%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEFAPRSV+I EFIDTL+P+M+ Y LDQVGIFEE G GN+YY+GYTINKDD+MI +HMPF
+Sbjct  1   MEFAPRSVIIHEFIDTLQPLMDVYHLDQVGIFEEEGTGNKYYIGYTINKDDDMIVLHMPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+           VKNERGELALEKQEWT+RKDGRE+KG+  LQEAM+E+
+Sbjct  61  VKNERGELALEKQEWTIRKDGREQKGYQFLQEAMDEI  97
+
+
+> UniRef90_UPI0008F52AC5 UPI0008F52AC5 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008F52AC5
+Length=101
+
+ Score = 128 bits (321),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 42/97 (43%), Positives = 62/97 (64%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M+   R  +I E  DTL+ M+E Y LD +GIFEE GEGNR+Y+GYT+ K+ E+  IHMPF
+Sbjct  1   MDNISREALISEMNDTLKHMLEKYDLDDIGIFEEEGEGNRFYLGYTVRKNGEVFMIHMPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+            K+E G LA  ++ W +  D  + +G+ +L +    +
+Sbjct  61  EKDENGNLARLEKSWAIESDEVDTRGYDNLDDVFNYL  97
+
+
+> UniRef90_UPI00070CBDD5 hypothetical protein n=1 Tax=Bacillus 
+sp. FJAT-25547 TaxID=1742358 RepID=UPI00070CBDD5
+Length=100
+
+ Score = 128 bits (321),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 37/100 (37%), Positives = 59/100 (59%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME  PR  +I    ++ +  +  YG+D +GIFEE G+ + YY+GYT+ K  +   IH P+
+Sbjct  1   MESLPREQLITNMQNSFQTYINQYGVDHIGIFEEEGQDDYYYLGYTVKKAGKTYHIHSPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREK---KGFHSLQEAMEEV  97
+            K+  G+L+    EWT+  D  +K   KG+HSL  A+ ++
+Sbjct  61  RKDSHGDLSPIVNEWTIESDEPQKQDLKGYHSLDSALRDI  100
+
+
+> UniRef90_UPI0004B08C1E hypothetical protein n=1 Tax=Bacillus 
+sp. J37 TaxID=935837 RepID=UPI0004B08C1E
+Length=121
+
+ Score = 127 bits (319),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 34/100 (34%), Positives = 59/100 (59%), Gaps = 3/100 (3%)
+
+Query  1    MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+            M+++ R  VI +     +P++  Y ++ +G+FEE G+ ++Y++GYTI KD +   +H P+
+Sbjct  22   MKYSNRDEVINDLQKAFQPLISKYDIEDIGVFEEQGQKDQYHMGYTIRKDGKTFMVHTPY  81
+
+Query  61   VKNERGELALEKQEWTVRKDGR---EKKGFHSLQEAMEEV  97
+            +KNE G+L     EWTV  D     +  G+  L EA+  +
+Sbjct  82   LKNESGQLLAANNEWTVETDEPNSKDVNGYKGLDEALRSL  121
+
+
+> UniRef90_UPI0007172D5D hypothetical protein n=1 Tax=Bacillus 
+farraginis TaxID=254757 RepID=UPI0007172D5D
+Length=99
+
+ Score = 126 bits (317),  Expect = 5e-35, Method: Composition-based stats.
+ Identities = 40/96 (42%), Positives = 67/96 (70%), Gaps = 0/96 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M++  R  +I++  + ++ +M+ YGL+ +GI+EE G GN YY+GYT+ KD ++  ++MP+
+Sbjct  1   MDYINRETLIDQMTNQMQLLMDHYGLEDIGIYEEEGAGNDYYLGYTVRKDGKVFMLNMPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEE  96
+           +K+E G L L+ +EWT++ D  E KGFHSL E   +
+Sbjct  61  MKDEFGRLTLKNREWTIQSDDGELKGFHSLDEVFNK  96
+
+
+> UniRef90_A0A0M0X9N6 Uncharacterized protein n=2 Tax=Bacillus 
+TaxID=55087 RepID=A0A0M0X9N6_9BACI
+Length=100
+
+ Score = 126 bits (316),  Expect = 7e-35, Method: Composition-based stats.
+ Identities = 38/100 (38%), Positives = 56/100 (56%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME   R  +I     + +  +  YGLD +G+FEE G+ + YY GYTI KD +   IH P+
+Sbjct  1   MESLSREQLINNMQKSFQMYINQYGLDDIGVFEEEGQDDLYYFGYTIKKDGKTHHIHSPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREK---KGFHSLQEAMEEV  97
+            K+  G L+    EWT+  D  +K   KG+HSL+ A  ++
+Sbjct  61  RKDTHGGLSPIINEWTIESDEPQKTDLKGYHSLESAFLDL  100
+
+
+> UniRef90_A6CML9 Uncharacterized protein n=2 Tax=Bacillus sp. 
+SG-1 TaxID=161544 RepID=A6CML9_9BACI
+Length=101
+
+ Score = 125 bits (315),  Expect = 9e-35, Method: Composition-based stats.
+ Identities = 36/100 (36%), Positives = 59/100 (59%), Gaps = 3/100 (3%)
+
+Query  1    MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+            M F  R  +I E   +   +ME YGL+++G+FEE G+ ++YY+GYT+ KD +   IH+P+
+Sbjct  2    MAFLSREQLINELQTSFPSLMEEYGLEEIGVFEEEGQKDQYYLGYTVKKDGKAYMIHLPY  61
+
+Query  61   VKNERGELALEKQEWTVRKDGR---EKKGFHSLQEAMEEV  97
+             K+  G L    Q+WT+  D     +  GF S++ A+  +
+Sbjct  62   KKDHDGGLEPSSQQWTIESDDPDAADHTGFDSMESALRGI  101
+
+
+> UniRef90_UPI0005CCF880 hypothetical protein n=1 Tax=Bacillus 
+alveayuensis TaxID=279215 RepID=UPI0005CCF880
+Length=106
+
+ Score = 125 bits (314),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 65/97 (67%), Positives = 81/97 (84%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF  R V++ E I+TLEPMM+ Y LDQ+GIFEE GE + YY+GY INKD+EMI +HMPF
+Sbjct  1   MEFVKREVIMNELIETLEPMMKTYDLDQIGIFEEEGENDLYYMGYAINKDEEMILLHMPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+           VKN RGELAL+KQEWT+R DG E+KG+HSL EAM+++
+Sbjct  61  VKNARGELALQKQEWTIRMDGNEQKGYHSLDEAMKQI  97
+
+
+> UniRef90_A0A0M2SRP8 Uncharacterized protein n=2 Tax=Bacillus 
+TaxID=55087 RepID=A0A0M2SRP8_9BACI
+Length=100
+
+ Score = 123 bits (310),  Expect = 5e-34, Method: Composition-based stats.
+ Identities = 37/100 (37%), Positives = 56/100 (56%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M+F PR  ++ E        ME Y L+ +GIFEE G+ + Y++GYT+ K D+   IH PF
+Sbjct  1   MDFLPREQILRELQHASSEYMEKYNLNDIGIFEEQGQDDEYHLGYTVKKGDKAYHIHTPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGR---EKKGFHSLQEAMEEV  97
+           VKN+ GELA   + W +  D     +  G+  L+  + E+
+Sbjct  61  VKNDHGELAPASKAWVLESDDPQGEDSGGYPDLESVLREI  100
+
+
+> UniRef90_A0A024P572 Uncharacterized protein n=1 Tax=Halobacillus 
+karajensis TaxID=195088 RepID=A0A024P572_9BACI
+Length=102
+
+ Score = 123 bits (310),  Expect = 6e-34, Method: Composition-based stats.
+ Identities = 38/101 (38%), Positives = 62/101 (61%), Gaps = 3/101 (3%)
+
+Query  1    MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+            ME  P   +I +  ++  P+ME   LD +GIFEE G+G+ Y++GYT+ K++ +  +H+PF
+Sbjct  1    MESVPVEQLISDLENSFRPLMEKNNLDDIGIFEEEGQGDYYHLGYTVKKNERVYMVHLPF  60
+
+Query  61   VKNERGELALEKQEWTVRKDGR---EKKGFHSLQEAMEEVI  98
+            +K+E G L L+KQEW V  D     + KGF  + +  + + 
+Sbjct  61   IKSEDGHLTLDKQEWIVETDDPNAVDLKGFDKIDDVFQSLF  101
+
+
+> UniRef90_A0A161PIF5 Uncharacterized protein n=3 Tax=Bacillus 
+TaxID=55087 RepID=A0A161PIF5_9BACI
+Length=101
+
+ Score = 123 bits (310),  Expect = 6e-34, Method: Composition-based stats.
+ Identities = 36/101 (36%), Positives = 56/101 (55%), Gaps = 3/101 (3%)
+
+Query  1    MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+            M++  R  ++ E   + +P +  YG++ +GIFEE G+ +RYY+GYT  KD +   IH+PF
+Sbjct  1    MDYLSREQIMNELQQSFQPYLNMYGIENIGIFEEEGQDDRYYLGYTTRKDGQTHHIHLPF  60
+
+Query  61   VKNERGELALEKQEWTVRKD---GREKKGFHSLQEAMEEVI  98
+             KN  G L+    +WTV  D    ++ K F  L     E+ 
+Sbjct  61   QKNNNGGLSPIDSKWTVESDNPLEKDLKEFEDLDHVFREIY  101
+
+
+> UniRef90_UPI00082A9C04 UPI00082A9C04 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00082A9C04
+Length=100
+
+ Score = 123 bits (309),  Expect = 7e-34, Method: Composition-based stats.
+ Identities = 42/100 (42%), Positives = 65/100 (65%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME+  R+ ++ E   +L   +E + LD +GIFEEHGEG+RYY+GYT++KD++   IH+P+
+Sbjct  1   MEYLSRNEILNELQTSLPEYIEKFDLDSIGIFEEHGEGDRYYLGYTVSKDEKTYHIHLPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGR---EKKGFHSLQEAMEEV  97
+            K+E G L     EWTV  D     +++GF SL+   E++
+Sbjct  61  TKSEEGSLTPLGNEWTVETDEPNNEDRRGFDSLESVFEQI  100
+
+
+> UniRef90_UPI000826901B UPI000826901B related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000826901B
+Length=100
+
+ Score = 123 bits (308),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 36/100 (36%), Positives = 60/100 (60%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF  R  +I E   + +  ++ + ++ +GIFEE G+ ++YY+GYT+ K+ E   IH P+
+Sbjct  1   MEFLSREEIINELQQSFQSYIDKFDIEAIGIFEEEGQADQYYIGYTVTKNSETFHIHTPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREK---KGFHSLQEAMEEV  97
+           +KN  G+LA   +EWTV  D  +K   K +++L     E+
+Sbjct  61  IKNANGDLAPISKEWTVESDDPQKDDFKEYNNLDNVFLEL  100
+
+
+> UniRef90_UPI00069D4462 hypothetical protein n=1 Tax=Virgibacillus 
+senegalensis TaxID=1499679 RepID=UPI00069D4462
+Length=101
+
+ Score = 123 bits (308),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 37/101 (37%), Positives = 55/101 (54%), Gaps = 3/101 (3%)
+
+Query  1    MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+            M+      +  +  D+  P+ME Y +D +G FEE G  + YY+GYT+ K+  +  +HMPF
+Sbjct  1    MDNVTIDQIRGDLQDSFRPLMEKYNIDDIGTFEEEGAEDDYYIGYTVRKNGRIYMVHMPF  60
+
+Query  61   VKNERGELALEKQEWTVRKDGR---EKKGFHSLQEAMEEVI  98
+             K   G+LAL KQEWTV  D     +  GF ++    E + 
+Sbjct  61   KKTGEGQLALAKQEWTVETDDPTDEDISGFPTIDAVFEHLF  101
+
+
+> UniRef90_UPI00094CD8FC UPI00094CD8FC related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00094CD8FC
+Length=103
+
+ Score = 121 bits (305),  Expect = 4e-33, Method: Composition-based stats.
+ Identities = 44/97 (45%), Positives = 63/97 (65%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME+  R  +++E   +L  +ME Y +D++G+FEE GEGN Y++GYTI K  E+   H P+
+Sbjct  1   MEYLSREEILDEMNHSLRTIMEKYNVDEIGVFEEQGEGNHYFIGYTIRKASEVFMTHTPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+           VKNE G L  EK+EW +  D  + +GF SL E  EE+
+Sbjct  61  VKNEEGLLRPEKKEWVIETDEGDLRGFSSLDEVFEEM  97
+
+
+> UniRef90_UPI000826E546 UPI000826E546 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000826E546
+Length=100
+
+ Score = 120 bits (302),  Expect = 8e-33, Method: Composition-based stats.
+ Identities = 41/97 (42%), Positives = 61/97 (63%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF  R  +I E    L+ +ME Y L+++G++EE GEGN+ Y G+T+ KD  +  I+ PF
+Sbjct  1   MEFINREHLISEMTQMLQELMEEYDLEEIGVYEEEGEGNQCYFGFTVRKDGHVYMINNPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+           +KN +GE+A    EWTV+ +  E KG+ SL E    +
+Sbjct  61  IKNSKGEVAPASHEWTVQSETGENKGYTSLDEVFNRI  97
+
+
+> UniRef90_A0A150KN17 Uncharacterized protein n=1 Tax=Bacillus 
+sporothermodurans TaxID=46224 RepID=A0A150KN17_9BACI
+Length=102
+
+ Score = 120 bits (302),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 38/97 (39%), Positives = 67/97 (69%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M++  R ++I++    L+ +M+ Y L+ +GI+EE G G+ YY+GYT+ K+ E+  I+MP+
+Sbjct  1   MDYLNREILIDQMNAQLKELMDHYQLEDIGIYEEEGAGDDYYLGYTVRKNGEVFMINMPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+           +K+  G L L+ ++WT++ D  EKKGFH+L E  + +
+Sbjct  61  MKDAYGNLGLKNRDWTIQSDEGEKKGFHNLDEVFDHI  97
+
+
+> UniRef90_UPI0008F976E5 UPI0008F976E5 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008F976E5
+Length=100
+
+ Score = 119 bits (300),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 37/100 (37%), Positives = 59/100 (59%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME   R  +I     + +P+ + Y LD +G+FEE G+GN+YYVGYTI KD +   +H P+
+Sbjct  1   MENISREQLIHSLQQSFQPLTQEYNLDHIGVFEEEGQGNQYYVGYTIKKDGKAYMVHQPY  60
+
+Query  61  VKNERGELALEKQEWTVRKD---GREKKGFHSLQEAMEEV  97
+            K E   L+  + +WTV  D     +  G+  L++A++E+
+Sbjct  61  TKRENNTLSPMESKWTVESDRPNDVDINGYKRLEDALKEI  100
+
+
+> UniRef90_UPI0008F4C456 UPI0008F4C456 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008F4C456
+Length=103
+
+ Score = 119 bits (299),  Expect = 3e-32, Method: Composition-based stats.
+ Identities = 37/97 (38%), Positives = 57/97 (59%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           MEF  R  ++ E   +L  M+E Y L+ VGIF+E GEGN YY+GYT+ K+ E+  IH  F
+Sbjct  1   MEFIEREAILTEMNHSLHTMLEKYDLEDVGIFQEEGEGNDYYLGYTVRKNGEVYMIHQKF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+            K+E+G L   +Q W +  +  + +G+ +L      +
+Sbjct  61  RKDEQGNLKPSEQSWVIECEEGDSRGYENLDAVFSYL  97
+
+
+> UniRef90_UPI00088C6067 UPI00088C6067 related cluster n=3 Tax=Bacillaceae 
+TaxID=186817 RepID=UPI00088C6067
+Length=102
+
+ Score = 117 bits (293),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 36/101 (36%), Positives = 56/101 (55%), Gaps = 3/101 (3%)
+
+Query  1    MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+            M+      +  E  D+ E +ME Y +D +G FEE G  + YY+GYT+ K+  +  +HMPF
+Sbjct  1    MDHVTIDQIRGELQDSFETLMEKYNIDDIGTFEEEGPEDDYYIGYTVRKNGRVYMVHMPF  60
+
+Query  61   VKNERGELALEKQEWTVRKDGR---EKKGFHSLQEAMEEVI  98
+             K + G+L L +QEWTV  D     +  GF ++    E++ 
+Sbjct  61   AKTDEGQLELARQEWTVETDDPTDEDISGFPTIDAVFEQLF  101
+
+
+> UniRef90_A0A0Q3TK15 Uncharacterized protein n=1 Tax=Bacillus 
+shackletonii TaxID=157838 RepID=A0A0Q3TK15_9BACI
+Length=100
+
+ Score = 116 bits (291),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 35/97 (36%), Positives = 61/97 (63%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME+ P   +  +    L+ +M  Y L+ +GI+EE G G+ YY+GYT+ KD ++  ++MP+
+Sbjct  1   MEYIPYEELKNDMNQHLKELMMKYNLEDIGIYEEEGAGDTYYLGYTVRKDGKIYMVNMPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+            K+  G LAL+ Q+WT++++  E KGF +L+     +
+Sbjct  61  KKDHHGGLALQHQDWTIQEEDGESKGFKNLEAVFTHI  97
+
+
+> UniRef90_D5DC61 Uncharacterized protein n=12 Tax=Bacillus TaxID=55087 
+RepID=D5DC61_BACMD
+Length=102
+
+ Score = 116 bits (290),  Expect = 5e-31, Method: Composition-based stats.
+ Identities = 36/97 (37%), Positives = 66/97 (68%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME+  R  ++ E    ++ ++  Y L  V ++EE GEGN YY+GYT+ K+D +  ++ P+
+Sbjct  1   MEYVGREAIVSELTHHMDDILNKYNLQGVSVYEEEGEGNHYYLGYTVKKNDYVFMVNKPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+           +K++ G+LA+EKQEWT++ +  E  G+ SL++A +++
+Sbjct  61  IKDKDGKLAVEKQEWTLQGNDGETNGYASLEDAFQQI  97
+
+
+> UniRef90_U5L8D2 Uncharacterized protein n=2 Tax=Bacillus TaxID=55087 
+RepID=U5L8D2_9BACI
+Length=100
+
+ Score = 115 bits (289),  Expect = 7e-31, Method: Composition-based stats.
+ Identities = 34/100 (34%), Positives = 51/100 (51%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME   R  ++ +   + E  +  YG D +G +EE G+G RYY G T+ KDD    IH PF
+Sbjct  1   MESMTREQILADLQRSFEGYLNEYGADSIGTYEEPGQGGRYYFGCTVKKDDRTFHIHTPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGR---EKKGFHSLQEAMEEV  97
+            + E G        WT   D     +K+G+  L+ A++E+
+Sbjct  61  AQQEDGRFTALGNGWTAETDDPMLQDKRGYGDLESALKEI  100
+
+
+> UniRef90_A0A0B6AEH4 Uncharacterized protein n=12 Tax=Bacillus 
+TaxID=55087 RepID=A0A0B6AEH4_BACMB
+Length=102
+
+ Score = 115 bits (289),  Expect = 8e-31, Method: Composition-based stats.
+ Identities = 38/97 (39%), Positives = 65/97 (67%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME+  R   I E    ++ ++  Y L  V ++EE GEGN YY+GYT+ K+D++  ++ P+
+Sbjct  1   MEYVKRETAISELTHHMDDILNKYNLQGVSVYEEEGEGNHYYLGYTVKKNDQVFMLNRPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+           +K++ G+LA+EKQEWTV+ +  E  G  SL++A +++
+Sbjct  61  LKDKDGKLAVEKQEWTVQGNEGETNGHASLEDAFQKI  97
+
+
+> UniRef90_UPI00047E4596 hypothetical protein n=1 Tax=Bacillus 
+bogoriensis TaxID=246272 RepID=UPI00047E4596
+Length=104
+
+ Score = 114 bits (285),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 46/98 (47%), Positives = 64/98 (65%), Gaps = 1/98 (1%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME   R  +++E  D+LE +M  Y +D +GIFEE GE   YY+GYTI K D +  +H PF
+Sbjct  1   MESVTRETILQEMNDSLERIMNKYDVDDIGIFEEQGEAEEYYIGYTIRKADAVFMVHRPF  60
+
+Query  61  VKNERGELALEKQEWTVR-KDGREKKGFHSLQEAMEEV  97
+            K+E+G LA  +++WTV  +DG +  GF SL EAM+ V
+Sbjct  61  YKDEQGLLAPHEKKWTVEFEDGEDFHGFSSLDEAMDNV  98
+
+
+> UniRef90_A0A0A5GHU0 Uncharacterized protein n=1 Tax=Pontibacillus 
+marinus BH030004 = DSM 16465 TaxID=1385511 RepID=A0A0A5GHU0_9BACI
+Length=102
+
+ Score = 113 bits (284),  Expect = 5e-30, Method: Composition-based stats.
+ Identities = 38/97 (39%), Positives = 61/97 (63%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME+     ++ +F ++L  +++ Y L +  I+EE GEG+ YY+GYT+ K  +   IHMPF
+Sbjct  1   MEYISVETILNDFKESLSVLIKQYNLAEASIYEEEGEGDTYYIGYTVLKGGKTYHIHMPF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+            KN+   LAL K EWT++ +  E KG+ SL +  E++
+Sbjct  61  EKNDEDHLALGKPEWTIQAEEGEYKGYESLDQVFEKI  97
+
+
+> UniRef90_UPI000825CA28 UPI000825CA28 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000825CA28
+Length=101
+
+ Score = 112 bits (280),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 33/100 (33%), Positives = 57/100 (57%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME+  R  ++ E   +   +M+ Y L+ +G+FEE G   +YY+GYTIN++     IH  +
+Sbjct  1   MEYVTRENIMNELQQSFHSLMDTYNLEDIGLFEEQGPNGQYYMGYTINQNGGTYFIHQTY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGR---EKKGFHSLQEAMEEV  97
+             N  G LAL  +EWT+  D     +K G+ S+++  +++
+Sbjct  61  KTNSNGHLALIGKEWTIETDEPNTDDKTGYESIEDVFQQL  100
+
+
+> UniRef90_UPI000400A111 hypothetical protein n=1 Tax=Bacillus 
+sp. FJAT-14578 TaxID=1208600 RepID=UPI000400A111
+Length=99
+
+ Score = 109 bits (273),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 39/97 (40%), Positives = 66/97 (68%), Gaps = 0/97 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M F  R   + E + +LEP++E Y LD++GI+EE G  + YY+GYT+ K + +  IH P+
+Sbjct  1   MHFLKREERMNEMLHSLEPLLEQYHLDEIGIYEEEGVNDLYYMGYTVKKGEHVYMIHQPY  60
+
+Query  61  VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEV  97
+           VKNE+ EL+L++ +WT++ +  E KG+ SL++   ++
+Sbjct  61  VKNEKEELSLQESQWTIQSEHNESKGYSSLEDVFNQI  97
+
+
+> UniRef90_UPI0002FD221C hypothetical protein n=1 Tax=Bacillus 
+massiliosenegalensis TaxID=1287657 RepID=UPI0002FD221C
+Length=100
+
+ Score = 109 bits (272),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 30/100 (30%), Positives = 55/100 (55%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           ME+  RS +IE   +  +  +E + LD++GI+EE G+ +  ++GYT+ K+ +   +H  F
+Sbjct  1   MEYITRSNLIEGLQEPFQQYLEQFELDEIGIYEEDGQDDITHMGYTVTKNGQTYHLHTSF  60
+
+Query  61  VKNERGELALEKQEWTVRKDGR---EKKGFHSLQEAMEEV  97
+            KNE+  L      WT+ +D     ++ G+  L+    E+
+Sbjct  61  RKNEQERLTPLNNLWTLERDEPSSEDRTGYRDLESIFREI  100
+
+
+> UniRef90_UPI0005527088 hypothetical protein n=1 Tax=Bacillus 
+sp. FJAT-14578 TaxID=1208600 RepID=UPI0005527088
+Length=106
+
+ Score = 98.8 bits (245),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 21/100 (21%), Positives = 48/100 (48%), Gaps = 0/100 (0%)
+
+Query  1    MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+            M F     V  +    ++   + YG++ + ++ E  + + +Y+GY   KD + I + +P 
+Sbjct  3    MLFLSWDTVYNDKKRLIKLFEKEYGIEPIEMYSEETQPDLHYIGYRFKKDGKQIVVKIPL  62
+
+Query  61   VKNERGELALEKQEWTVRKDGREKKGFHSLQEAMEEVIHS  100
+            VK++    A ++  W +  D +    + +++EA   + H 
+Sbjct  63   VKDQADRFAAQQNRWEMLIDEKTTGTYKNIREAFHMLQHD  102
+
+
+> UniRef90_A0A0U1KMT9 Uncharacterized protein n=1 Tax=Paraliobacillus 
+sp. PM-2 TaxID=1462524 RepID=A0A0U1KMT9_9BACI
+Length=104
+
+ Score = 96.1 bits (238),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 26/101 (26%), Positives = 50/101 (50%), Gaps = 4/101 (4%)
+
+Query  1    MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+            ME  P+  +I +  D L    E+   + + IFE+H      ++GY I K +++  +++P+
+Sbjct  1    MELLPKQQIINQLHDQLPIWKESCTAEHISIFEQHYNEVLCHLGYKILKKEQIYEVYLPY  60
+
+Query  61   VKNERGELALEKQEWTVRK----DGREKKGFHSLQEAMEEV  97
+            +K +  +L      WT+         +KKG+  LQE +  +
+Sbjct  61   LKYDTDKLIALTPIWTITHVNTVKSYQKKGYEFLQEVIHAL  101
+
+
+> UniRef90_A0A143MIK9 Uncharacterized protein n=1 Tax=Geobacillus 
+subterraneus TaxID=129338 RepID=A0A143MIK9_9BACI
+Length=131
+
+ Score = 95.3 bits (236),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMP  59
+           MEF PRSVVI+EFIDTLEPMMEAYGLDQVGIFEEHGEGNRYY+GYTINKDDEMITIHMP
+Sbjct  1   MEFVPRSVVIDEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYIGYTINKDDEMITIHMP  59
+
+
+> UniRef90_UPI00065BD78E hypothetical protein n=1 Tax=Bacillus 
+cereus TaxID=1396 RepID=UPI00065BD78E
+Length=108
+
+ Score = 93.7 bits (232),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 27/98 (28%), Positives = 44/98 (45%), Gaps = 2/98 (2%)
+
+Query  3    FAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPFVK  62
+            F   SV+  +     + M E Y    V +  E  +    ++GY ++    +  + MP+ K
+Sbjct  6    FFRMSVIRNDLDRFSQDMKERYNCRVVTLINESADKESVHMGYCVSNSAGVFNVLMPYEK  65
+
+Query  63   NERGELALEKQEWTVRK--DGREKKGFHSLQEAMEEVI  98
+            NER E A+    WTV     G    G+ +L  AME ++
+Sbjct  66   NERNEYAVTDNTWTVTHIQTGEVTDGYKTLGHAMEYIL  103
+
+
+> UniRef90_UPI0008371CFD UPI0008371CFD related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008371CFD
+Length=112
+
+ Score = 94.1 bits (233),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 21/101 (21%), Positives = 50/101 (50%), Gaps = 3/101 (3%)
+
+Query  1    MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+            M++     ++++F DT + +   Y  + V ++E+    +   +GY I KD E   +++ +
+Sbjct  1    MDYIHYKDLLQQFKDTQKQIEAQYSFEHVDLYEKTIHHDILNLGYRIRKDKEEFHVYLRY  60
+
+Query  61   VKNERGELALEKQEWT---VRKDGREKKGFHSLQEAMEEVI  98
+            +  ++  L      WT   +  +  +K+G+ +L EA+  + 
+Sbjct  61   LHLDQERLLPFTPIWTCRWISSNSIQKRGYDTLLEALLSIQ  101
+
+
+> UniRef90_UPI00031DAE9A hypothetical protein n=1 Tax=Amphibacillus 
+jilinensis TaxID=1216008 RepID=UPI00031DAE9A
+Length=113
+
+ Score = 89.1 bits (220),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 20/100 (20%), Positives = 46/100 (46%), Gaps = 3/100 (3%)
+
+Query  1   MEFAPRSVVIEEFIDTLEPMMEAYGLDQVGIFEEHGEGNRYYVGYTINKDDEMITIHMPF  60
+           M+    + V     + L+ + + +  + + I+E++ E    ++GY I +      I++ +
+Sbjct  1   MQQLYYADVHRHLANNLKQIQQQHQFEHLTIYEKNIENEILHLGYEIKRKQTTFRIYLRY  60
+
+Query  61  VKNERGELALEKQEWT---VRKDGREKKGFHSLQEAMEEV  97
+           +K E+  L      WT   +  +   K+G+ S  EA+  +
+Sbjct  61  LKLEQQSLLPFTPVWTCEKIEDNHLTKRGYDSFLEALLSI  100
+
+
+> UniRef90_UPI0006A7EF03 hypothetical protein n=1 Tax=Bacillus 
+sp. FJAT-26652 TaxID=1684141 RepID=UPI0006A7EF03
+Length=185
+
+ Score = 86.8 bits (214),  Expect = 7e-19, Method: Composition-based stats.
+ Identities = 20/100 (20%), Positives = 45/100 (45%), Gaps = 5/100 (5%)
+
+Query  3    FAPRSVVIEEFIDTLEPMMEAYGLDQ----VGIFEEHGEGNRYYVGYTINKDDEMITIHM  58
+            F  ++V++ +     + M E          VG+ E+    +  ++GY +  +     + M
+Sbjct  6    FFNKTVIVNDLNKFAQGMQENMSTADNDIIVGVLEKDIASDFCHMGYYVQANGLEFEVLM  65
+
+Query  59   PFVKNERGELALEKQEWTVRKDGREK-KGFHSLQEAMEEV  97
+            P+  +  GE A+   +W V  DG+   + + +L + M+ +
+Sbjct  66   PYEISREGEYAIFDNKWQVLHDGKTLEEDYKTLGDVMDAI  105
+
+
+> UniRef90_UPI0005892244 hypothetical protein n=1 Tax=Bacillus 
+sp. REN51N TaxID=1590026 RepID=UPI0005892244
+Length=107
+
+ Score = 82.2 bits (202),  Expect = 9e-18, Method: Composition-based stats.
+ Identities = 26/101 (26%), Positives = 47/101 (47%), Gaps = 4/101 (4%)
+
+Query  1    MEFAPRSVVIEEFIDTLEPMMEAYGL-DQVGIFEEHGEG-NRYYVGYTINKDDEMITIHM  58
+            M F     +I       + + E YG+   V ++ E  E  +  Y+GY+    +E + I M
+Sbjct  1    MNFLEEQTIINSMEQHAKGIKEMYGIPSNVQVYTEETEDPSICYLGYSFTWKEEPVIIKM  60
+
+Query  59   PFVKNERGELALEKQE--WTVRKDGREKKGFHSLQEAMEEV  97
+             ++KNE  +L+  +QE  W V+    E     +L +A + +
+Sbjct  61   KYIKNEVHQLSGIQQENYWHVKHGIHESSQHRTLGDAFDVL  101
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.157    0.464    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0483    0.140     1.90     42.6     43.6 
+
+Effective search space used: 441275782615
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

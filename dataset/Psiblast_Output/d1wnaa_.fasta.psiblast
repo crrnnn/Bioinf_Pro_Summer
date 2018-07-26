@@ -1,0 +1,1601 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1wnaa_
+
+Length=127
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q72IG8 Uncharacterized protein n=8 Tax=Thermus TaxID=2...  251     3e-83
+  UniRef90_A0A0B0SC34 Uncharacterized protein n=2 Tax=Thermus Tax...  214     9e-69
+  UniRef90_G8NAY0 Uncharacterized protein n=1 Tax=Thermus sp. CCB...  208     4e-66
+  UniRef90_UPI000375417F hypothetical protein n=1 Tax=Thermus ign...  207     8e-66
+  UniRef90_UPI0003B44815 hypothetical protein n=1 Tax=Thermus isl...  206     1e-65
+  UniRef90_UPI00056F8B43 hypothetical protein n=1 Tax=Thermus amy...  192     3e-60
+  UniRef90_UPI00056DC950 hypothetical protein n=2 Tax=Thermus Tax...  185     3e-57
+  UniRef90_B7A6P7 Uncharacterized protein n=2 Tax=Thermus aquatic...  183     1e-56
+  UniRef90_E8PMU2 Uncharacterized protein n=4 Tax=Thermus TaxID=2...  183     2e-56
+  UniRef90_K7RFT1 Uncharacterized protein n=2 Tax=Thermus oshimai...  178     2e-54
+  UniRef90_A0A0A2WR41 Uncharacterized protein n=1 Tax=Thermus fil...  162     4e-48
+  UniRef90_F2NQS8 Uncharacterized protein n=1 Tax=Marinithermus h...  119     2e-31
+  UniRef90_D7BAE0 Uncharacterized protein n=1 Tax=Meiothermus sil...  117     2e-30
+  UniRef90_UPI00037F0A90 hypothetical protein n=1 Tax=Meiothermus...  115     9e-30
+  UniRef90_A0A0D0P3K4 Uncharacterized protein n=4 Tax=Meiothermus...  114     3e-29
+  UniRef90_UPI000480D33F hypothetical protein n=1 Tax=Meiothermus...  113     5e-29
+  UniRef90_UPI0004800BF5 hypothetical protein n=1 Tax=Meiothermus...  109     9e-28
+  UniRef90_UPI0004817159 hypothetical protein n=1 Tax=Meiothermus...  94.7    7e-22
+  UniRef90_E4U970 Uncharacterized protein n=1 Tax=Oceanithermus p...  92.8    3e-21
+  UniRef90_UPI000559731F hypothetical protein n=1 Tax=Deinococcus...  75.1    2e-14
+  UniRef90_UPI000555AAB8 hypothetical protein n=1 Tax=Deinococcus...  72.4    2e-13
+  UniRef90_E6RGA2 Uncharacterized protein n=1 Tax=Deinococcus des...  71.2    5e-13
+  UniRef90_A0A072N769 Uncharacterized protein n=1 Tax=Deinococcus...  70.9    6e-13
+  UniRef90_Q1IWR9 Uncharacterized protein n=2 Tax=Deinococcus geo...  67.4    1e-11
+  UniRef90_L0A4M4 Uncharacterized protein n=1 Tax=Deinococcus per...  66.2    3e-11
+  UniRef90_A0A0A7KDG7 Uncharacterized protein n=1 Tax=Deinococcus...  65.9    5e-11
+  UniRef90_UPI000369DE52 hypothetical protein n=1 Tax=Deinococcus...  62.8    7e-10
+  UniRef90_UPI00037BFDFE hypothetical protein n=1 Tax=Deinococcus...  62.8    8e-10
+  UniRef90_UPI000486059E hypothetical protein n=1 Tax=Deinococcus...  62.0    1e-09
+  UniRef90_UPI000497F0F8 hypothetical protein n=1 Tax=Deinococcus...  61.2    2e-09
+  UniRef90_UPI0006858945 hypothetical protein n=1 Tax=Deinococcus...  59.7    7e-09
+  UniRef90_UPI000690CF44 hypothetical protein n=1 Tax=Deinococcus...  58.2    2e-08
+  UniRef90_UPI0003463076 hypothetical protein n=1 Tax=Deinococcus...  56.6    9e-08
+  UniRef90_A0A172TDJ8 Uncharacterized protein n=1 Tax=Deinococcus...  54.3    6e-07
+  UniRef90_UPI0003B60A8C hypothetical protein n=2 Tax=Deinococcus...  48.5    5e-05
+  UniRef90_Q9RVX1 Uncharacterized protein n=2 Tax=Deinococcus rad...  48.5    6e-05
+
+
+> UniRef90_Q72IG8 Uncharacterized protein n=8 Tax=Thermus TaxID=270 
+RepID=Q72IG8_THET2
+Length=131
+
+ Score = 251 bits (641),  Expect = 3e-83, Method: Compositional matrix adjust.
+ Identities = 127/127 (100%), Positives = 127/127 (100%), Gaps = 0/127 (0%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP
+Sbjct  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+
+Query  61   DAFGPAFPGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            DAFGPAFPGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP
+Sbjct  61   DAFGPAFPGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+
+Query  121  TDPGIYL  127
+            TDPGIYL
+Sbjct  121  TDPGIYL  127
+
+
+> UniRef90_A0A0B0SC34 Uncharacterized protein n=2 Tax=Thermus TaxID=270 
+RepID=A0A0B0SC34_9DEIN
+Length=131
+
+ Score = 214 bits (545),  Expect = 9e-69, Method: Compositional matrix adjust.
+ Identities = 106/127 (83%), Positives = 120/127 (94%), Gaps = 0/127 (0%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M RVG+RAAPR++L+AL+ AL G++L+EAKVYLITDWQD+RD+ARYALLLH GKKDLLVP
+Sbjct  1    MERVGLRAAPRLTLKALEEALRGVRLAEAKVYLITDWQDRRDKARYALLLHGGKKDLLVP  60
+
+Query  61   DAFGPAFPGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            DAFGPAFPGGEEAL+ELV LLL  GARRFYEAVVSPGEMTALLDLPPEEL+KRV+A+ANP
+Sbjct  61   DAFGPAFPGGEEALAELVRLLLQGGARRFYEAVVSPGEMTALLDLPPEELVKRVVAVANP  120
+
+Query  121  TDPGIYL  127
+            TDPGIYL
+Sbjct  121  TDPGIYL  127
+
+
+> UniRef90_G8NAY0 Uncharacterized protein n=1 Tax=Thermus sp. CCB_US3_UF1 
+TaxID=1111069 RepID=G8NAY0_9DEIN
+Length=136
+
+ Score = 208 bits (529),  Expect = 4e-66, Method: Compositional matrix adjust.
+ Identities = 104/127 (82%), Positives = 114/127 (90%), Gaps = 0/127 (0%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M R+G+RAAPR++LEALK AL G +L EAKVYL+TDWQD+R++ARYALLLH GKKDLL P
+Sbjct  1    MERIGLRAAPRLTLEALKEALKGFRLPEAKVYLVTDWQDRREKARYALLLHGGKKDLLTP  60
+
+Query  61   DAFGPAFPGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            DAFGPAFPGGEEAL+ELV  LL  GARRFYEAVVSPGEMTALLDLPPE LLKRV AIANP
+Sbjct  61   DAFGPAFPGGEEALAELVAYLLQGGARRFYEAVVSPGEMTALLDLPPEVLLKRVGAIANP  120
+
+Query  121  TDPGIYL  127
+            TDPGIYL
+Sbjct  121  TDPGIYL  127
+
+
+> UniRef90_UPI000375417F hypothetical protein n=1 Tax=Thermus igniterrae 
+TaxID=88189 RepID=UPI000375417F
+Length=130
+
+ Score = 207 bits (526),  Expect = 8e-66, Method: Compositional matrix adjust.
+ Identities = 101/127 (80%), Positives = 114/127 (90%), Gaps = 0/127 (0%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M R+G+R APR +LEALK AL GL+LSEAKVYLITDWQD+R++ARYALL+H G++DLLVP
+Sbjct  1    MERIGLRGAPRTTLEALKEALKGLRLSEAKVYLITDWQDRREKARYALLIHGGRRDLLVP  60
+
+Query  61   DAFGPAFPGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            DAFGPAFPGGE ALS+L+ LLL  GARRFYEAVVSPGEMTALLDLPP+ LL RV AIANP
+Sbjct  61   DAFGPAFPGGEAALSQLMALLLQGGARRFYEAVVSPGEMTALLDLPPQALLARVNAIANP  120
+
+Query  121  TDPGIYL  127
+            TDPGIYL
+Sbjct  121  TDPGIYL  127
+
+
+> UniRef90_UPI0003B44815 hypothetical protein n=1 Tax=Thermus islandicus 
+TaxID=540988 RepID=UPI0003B44815
+Length=131
+
+ Score = 206 bits (525),  Expect = 1e-65, Method: Compositional matrix adjust.
+ Identities = 101/127 (80%), Positives = 114/127 (90%), Gaps = 0/127 (0%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M RVG+R+AP+ +LEALK AL G++L EAKVYLITDWQD+RDQARYALL+HT +KDLL P
+Sbjct  1    MERVGLRSAPKATLEALKEALRGIRLPEAKVYLITDWQDRRDQARYALLVHTQRKDLLTP  60
+
+Query  61   DAFGPAFPGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            DAFGPAFPGGEEALSELV LLL +GARRFYEAVVSPGE+TALL  P EE+L+RV AIANP
+Sbjct  61   DAFGPAFPGGEEALSELVALLLERGARRFYEAVVSPGELTALLGYPTEEVLRRVNAIANP  120
+
+Query  121  TDPGIYL  127
+            TDPGIYL
+Sbjct  121  TDPGIYL  127
+
+
+> UniRef90_UPI00056F8B43 hypothetical protein n=1 Tax=Thermus amyloliquefaciens 
+TaxID=1449080 RepID=UPI00056F8B43
+Length=131
+
+ Score = 192 bits (489),  Expect = 3e-60, Method: Compositional matrix adjust.
+ Identities = 94/127 (74%), Positives = 109/127 (86%), Gaps = 0/127 (0%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M RVG+RA+PR++LEALK AL G++  EAKVY +TDWQD+R QARYA+++H GKKDLL P
+Sbjct  1    MERVGLRASPRLTLEALKEALKGVRFPEAKVYFLTDWQDRRPQARYAVVIHGGKKDLLTP  60
+
+Query  61   DAFGPAFPGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            DAFGPAFPGGEEALSELV LLL  GA++FYEAVVSP E+  LLDLPPE L+ RV AIANP
+Sbjct  61   DAFGPAFPGGEEALSELVELLLRLGAKKFYEAVVSPAELPELLDLPPEALIPRVNAIANP  120
+
+Query  121  TDPGIYL  127
+            TDPGIYL
+Sbjct  121  TDPGIYL  127
+
+
+> UniRef90_UPI00056DC950 hypothetical protein n=2 Tax=Thermus TaxID=270 
+RepID=UPI00056DC950
+Length=131
+
+ Score = 185 bits (469),  Expect = 3e-57, Method: Compositional matrix adjust.
+ Identities = 99/127 (78%), Positives = 112/127 (88%), Gaps = 0/127 (0%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M RVG+RAAPR++LEALK AL G++  EAKVY +TDWQD+R++ARYA+++H GKKDLL P
+Sbjct  1    MERVGLRAAPRLTLEALKEALKGVRFPEAKVYFLTDWQDRREEARYAVVIHGGKKDLLTP  60
+
+Query  61   DAFGPAFPGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            DAFGPAFPGGE ALSELV LLL +GARRFYEAVVSPGEMTALL L PEELL RV AIANP
+Sbjct  61   DAFGPAFPGGEAALSELVALLLERGARRFYEAVVSPGEMTALLSLLPEELLARVNAIANP  120
+
+Query  121  TDPGIYL  127
+            TDPGIYL
+Sbjct  121  TDPGIYL  127
+
+
+> UniRef90_B7A6P7 Uncharacterized protein n=2 Tax=Thermus aquaticus 
+TaxID=271 RepID=B7A6P7_THEAQ
+Length=131
+
+ Score = 183 bits (465),  Expect = 1e-56, Method: Compositional matrix adjust.
+ Identities = 98/127 (77%), Positives = 114/127 (90%), Gaps = 0/127 (0%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M R+G+R+APRV+L+ALK AL G++  EAKVYLITDWQD+RD+ARYALL+H GKKDLLVP
+Sbjct  1    MERLGLRSAPRVTLQALKEALKGVRFPEAKVYLITDWQDQRDKARYALLIHGGKKDLLVP  60
+
+Query  61   DAFGPAFPGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            DAFGPAFPGGEEAL+ELV LLL +GA+RFYEAVVSPGEM+ LL LPPEEL+ RV A+ANP
+Sbjct  61   DAFGPAFPGGEEALAELVALLLERGAKRFYEAVVSPGEMSTLLSLPPEELIARVNAVANP  120
+
+Query  121  TDPGIYL  127
+            TDP IYL
+Sbjct  121  TDPHIYL  127
+
+
+> UniRef90_E8PMU2 Uncharacterized protein n=4 Tax=Thermus TaxID=270 
+RepID=E8PMU2_THESS
+Length=131
+
+ Score = 183 bits (465),  Expect = 2e-56, Method: Compositional matrix adjust.
+ Identities = 99/127 (78%), Positives = 112/127 (88%), Gaps = 0/127 (0%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M RVG+RA+PR++LEALK AL G++  EAKVY ITDWQD+R QARYALL+H GKKDLL P
+Sbjct  1    MERVGLRASPRITLEALKEALKGVRFPEAKVYFITDWQDRRHQARYALLIHGGKKDLLTP  60
+
+Query  61   DAFGPAFPGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            DAFGPAF GGEEALSELV LLL  GAR+FYEAVVSPGE+T LL+LPPEELL+R+ AIANP
+Sbjct  61   DAFGPAFQGGEEALSELVSLLLDLGARKFYEAVVSPGELTGLLNLPPEELLRRINAIANP  120
+
+Query  121  TDPGIYL  127
+            TDPGIYL
+Sbjct  121  TDPGIYL  127
+
+
+> UniRef90_K7RFT1 Uncharacterized protein n=2 Tax=Thermus oshimai 
+TaxID=56957 RepID=K7RFT1_THEOS
+Length=129
+
+ Score = 178 bits (451),  Expect = 2e-54, Method: Compositional matrix adjust.
+ Identities = 99/126 (79%), Positives = 113/126 (90%), Gaps = 1/126 (1%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M R+G+RAAPR+SLEALK AL GLKL E +VYLITDWQD+RD+ARYALLLH GKKDLL+P
+Sbjct  1    MERIGLRAAPRLSLEALKEALRGLKLPETQVYLITDWQDRRDKARYALLLH-GKKDLLIP  59
+
+Query  61   DAFGPAFPGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            DAFGPAFPGGEEAL+E + LL A GAR+FYEAVV+PGE+TALL LPPEELLKRV A+ANP
+Sbjct  60   DAFGPAFPGGEEALAEAIRLLEAGGARKFYEAVVAPGELTALLSLPPEELLKRVQAVANP  119
+
+Query  121  TDPGIY  126
+             DPG+Y
+Sbjct  120  ADPGLY  125
+
+
+> UniRef90_A0A0A2WR41 Uncharacterized protein n=1 Tax=Thermus filiformis 
+TaxID=276 RepID=A0A0A2WR41_THEFI
+Length=130
+
+ Score = 162 bits (409),  Expect = 4e-48, Method: Compositional matrix adjust.
+ Identities = 78/127 (61%), Positives = 101/127 (80%), Gaps = 0/127 (0%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M RVG+RA+P+ +L+AL+ AL G++L EAKVYLITDWQD+RDQARYA+L+HT KKD+L  
+Sbjct  1    MERVGLRASPQATLKALEEALRGVRLQEAKVYLITDWQDRRDQARYAVLVHTPKKDVLSL  60
+
+Query  61   DAFGPAFPGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            DAFGPAFPGGEEAL+ L+  L +QGA RFYEAV+    +  L +   +E+L+ VMA ANP
+Sbjct  61   DAFGPAFPGGEEALARLLDFLRSQGASRFYEAVLPRSALYTLFEREDQEVLRAVMASANP  120
+
+Query  121  TDPGIYL  127
+             DPG+Y+
+Sbjct  121  ADPGLYV  127
+
+
+> UniRef90_F2NQS8 Uncharacterized protein n=1 Tax=Marinithermus 
+hydrothermalis (strain DSM 14884 / JCM 11576 / T1) TaxID=869210 
+RepID=F2NQS8_MARHT
+Length=130
+
+ Score = 119 bits (298),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 61/124 (49%), Positives = 78/124 (63%), Gaps = 1/124 (1%)
+
+Query  4    VGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVPDAF  63
+            +G R AP ++L+AL+ AL         V L+TDWQD+RD+ARYAL +   K  +L  DAF
+Sbjct  4    IGFRGAPEMTLKALQDALKNTHFPSLIVTLVTDWQDQRDRARYALFIRGAKTPILTEDAF  63
+
+Query  64   GPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANPTD  122
+            GPAF   G  AL+E V  L  +G R+FYEAV+ P E   L DL PE   +R++A ANPTD
+Sbjct  64   GPAFGEPGRRALAEAVAWLEQKGVRKFYEAVLPPSEYQGLFDLEPETAYRRLVASANPTD  123
+
+Query  123  PGIY  126
+              IY
+Sbjct  124  TAIY  127
+
+
+> UniRef90_D7BAE0 Uncharacterized protein n=1 Tax=Meiothermus silvanus 
+(strain ATCC 700542 / DSM 9946 / VI-R2) TaxID=526227 
+RepID=D7BAE0_MEISD
+Length=136
+
+ Score = 117 bits (292),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 58/127 (46%), Positives = 85/127 (67%), Gaps = 1/127 (1%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M  +G+R AP+ +L AL  AL G +  +  V  +TDWQD+R +ARYA+ +  GK  LL  
+Sbjct  1    MEVLGVRGAPKQTLAALMEALKGARFPDLIVTFVTDWQDQRKKARYAVFVRGGKHPLLTM  60
+
+Query  61   DAFGPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIAN  119
+            DAFGPAF P G+ AL ELV  L  +G R++YE+V+ P E  AL ++ P+++ +++ A AN
+Sbjct  61   DAFGPAFGPEGDRALVELVQWLQDKGVRKWYESVIPPSEYAALFEIDPDDVYRQLAANAN  120
+
+Query  120  PTDPGIY  126
+            P+DP +Y
+Sbjct  121  PSDPALY  127
+
+
+> UniRef90_UPI00037F0A90 hypothetical protein n=1 Tax=Meiothermus 
+timidus TaxID=307124 RepID=UPI00037F0A90
+Length=138
+
+ Score = 115 bits (287),  Expect = 9e-30, Method: Compositional matrix adjust.
+ Identities = 65/126 (52%), Positives = 82/126 (65%), Gaps = 2/126 (2%)
+
+Query  4    VGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTG-KKDLLVPDA  62
+            VG+RAAP+ +LE L+ AL     +   V L+TDWQD+R QARYA+    G K  +L  DA
+Sbjct  6    VGLRAAPKETLEDLQQALRSASFNRLVVTLVTDWQDQRKQARYAVFARGGLKTPVLSLDA  65
+
+Query  63   FGPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANPT  121
+            FGPAF   GEEAL+ LV  L  +G   FYEAV+ P E +AL    PEE+ KR++A ANP 
+Sbjct  66   FGPAFGKPGEEALAALVQWLREKGVTHFYEAVLPPSEYSALFLEDPEEVYKRLVAAANPI  125
+
+Query  122  DPGIYL  127
+            DP +YL
+Sbjct  126  DPALYL  131
+
+
+> UniRef90_A0A0D0P3K4 Uncharacterized protein n=4 Tax=Meiothermus 
+TaxID=65551 RepID=A0A0D0P3K4_MEIRU
+Length=136
+
+ Score = 114 bits (284),  Expect = 3e-29, Method: Compositional matrix adjust.
+ Identities = 62/125 (50%), Positives = 78/125 (62%), Gaps = 1/125 (1%)
+
+Query  4    VGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVPDAF  63
+            VG+R AP  +L ALK AL G+   EA    ITDWQD+R QAR+AL +  GK  +L  DAF
+Sbjct  4    VGLRGAPHETLRALKEALKGVDFPEAVAIYITDWQDRRAQARFALFVRQGKHRVLSRDAF  63
+
+Query  64   GPAFP-GGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANPTD  122
+            GP F   G+ AL +L   L+ +G   F EAVV+P E  AL +L  E   K +MA ANPTD
+Sbjct  64   GPRFGLEGDAALKDLTLWLIERGVTDFKEAVVAPSEFAALFELEAETAQKLIMASANPTD  123
+
+Query  123  PGIYL  127
+            P +Y+
+Sbjct  124  PMLYI  128
+
+
+> UniRef90_UPI000480D33F hypothetical protein n=1 Tax=Meiothermus 
+cerbereus TaxID=65552 RepID=UPI000480D33F
+Length=136
+
+ Score = 113 bits (282),  Expect = 5e-29, Method: Compositional matrix adjust.
+ Identities = 59/125 (47%), Positives = 79/125 (63%), Gaps = 1/125 (1%)
+
+Query  4    VGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVPDAF  63
+            VG+R AP+ +L ALK AL G+  SEA V  ITDWQD+R  AR+A+ +  GK  +L  DAF
+Sbjct  4    VGLRGAPQKTLLALKEALKGVDFSEATVTYITDWQDQRANARFAIFVREGKHRILSLDAF  63
+
+Query  64   GPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANPTD  122
+            GP F   G+ AL E+    + +G   F EAVV+P E  AL +L  +EL + + A  NPTD
+Sbjct  64   GPRFGAAGDAALREITLWFIERGVTDFKEAVVAPSEYAALFELEDQELERLIEATGNPTD  123
+
+Query  123  PGIYL  127
+            P +Y+
+Sbjct  124  PVLYI  128
+
+
+> UniRef90_UPI0004800BF5 hypothetical protein n=1 Tax=Meiothermus 
+rufus TaxID=604332 RepID=UPI0004800BF5
+Length=130
+
+ Score = 109 bits (273),  Expect = 9e-28, Method: Compositional matrix adjust.
+ Identities = 58/128 (45%), Positives = 77/128 (60%), Gaps = 1/128 (1%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M  VG+R AP  +L AL+ AL G++  +A    ITDWQD+R QARYA+ +  G++ +L  
+Sbjct  1    MKIVGLRGAPNETLAALQEALKGIQFPQASATYITDWQDQRAQARYAIYVQDGRRRVLSL  60
+
+Query  61   DAFGPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIAN  119
+            DAFGP F P G  AL  L   L+ QG  +F EA++ P E   L  L   E+ K + A AN
+Sbjct  61   DAFGPRFGPQGHAALQTLTRWLVQQGVEQFKEAILPPSEYANLFGLEEAEIQKALAAKAN  120
+
+Query  120  PTDPGIYL  127
+            P DP +YL
+Sbjct  121  PADPALYL  128
+
+
+> UniRef90_UPI0004817159 hypothetical protein n=1 Tax=Meiothermus 
+chliarophilus TaxID=52023 RepID=UPI0004817159
+Length=139
+
+ Score = 94.7 bits (234),  Expect = 7e-22, Method: Compositional matrix adjust.
+ Identities = 58/126 (46%), Positives = 79/126 (63%), Gaps = 2/126 (2%)
+
+Query  4    VGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTG-KKDLLVPDA  62
+            VG+RAAP+ +LE L+ AL G       V L+TDWQD+R +ARYA+    G K  +L  DA
+Sbjct  6    VGLRAAPKETLEDLQQALRGASFERLIVTLVTDWQDQRGKARYAVFARGGVKTPVLSFDA  65
+
+Query  63   FGPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANPT  121
+            FGPAF    ++AL+ LV  L  +G   FYE V+ P E  A+    PE + ++++A ANPT
+Sbjct  66   FGPAFGAASDDALAALVQWLQEKGVTHFYEVVLPPSEYAAVFVEDPEAVYQQLVAAANPT  125
+
+Query  122  DPGIYL  127
+            DP +YL
+Sbjct  126  DPVLYL  131
+
+
+> UniRef90_E4U970 Uncharacterized protein n=1 Tax=Oceanithermus 
+profundus (strain DSM 14977 / NBRC 100410 / VKM B-2274 / 506) 
+TaxID=670487 RepID=E4U970_OCEP5
+Length=129
+
+ Score = 92.8 bits (229),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 57/127 (45%), Positives = 73/127 (57%), Gaps = 1/127 (1%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M R+G +  P  +LE LK  L  L     KV L+TD Q +R++ARY + L  GK  LL  
+Sbjct  1    MERIGFKGLPEETLEQLKPRLKKLHFPSLKVVLVTDRQGRRERARYRVFLVGGKHALLTE  60
+
+Query  61   DAFGPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIAN  119
+            DAFGPA+   GE AL+ELV LL   GA  F EAV+ P    AL  +      +R++A AN
+Sbjct  61   DAFGPAYGEAGERALAELVQLLRKGGAYNFKEAVLPPDVYAALDAMDEAAARERLLANAN  120
+
+Query  120  PTDPGIY  126
+            P DP +Y
+Sbjct  121  PADPRLY  127
+
+
+> UniRef90_UPI000559731F hypothetical protein n=1 Tax=Deinococcus 
+misasensis TaxID=392413 RepID=UPI000559731F
+Length=129
+
+ Score = 75.1 bits (183),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 47/127 (37%), Positives = 70/127 (55%), Gaps = 7/127 (6%)
+
+Query  4    VGMRAAPRVSLEAL--KAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVPD  61
+             G   AP+ +L  L  K+ LG     E    ++TD+Q  R+ ARY++L+H  +  +L   
+Sbjct  7    TGTIGAPKETLALLLEKSTLG----PETMFVVLTDFQGHRNIARYSVLVHNKEASVLSVP  62
+
+Query  62   AFGPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            AFGP +   G EAL ++V   +A G   F E VV+P +   +   P EE LK +++ ANP
+Sbjct  63   AFGPHYGEAGIEALRDVVQSAIASGVTNFKETVVNPYDFQRMTSDPDEEDLKVLLSKANP  122
+
+Query  121  TDPGIYL  127
+            TD  IY+
+Sbjct  123  TDHNIYI  129
+
+
+> UniRef90_UPI000555AAB8 hypothetical protein n=1 Tax=Deinococcus 
+sp. YIM 77859 TaxID=1540221 RepID=UPI000555AAB8
+Length=143
+
+ Score = 72.4 bits (176),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 47/123 (38%), Positives = 73/123 (59%), Gaps = 2/123 (2%)
+
+Query  5    GMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVPDAFG  64
+            G+  AP  +L+A+ A L GL   + ++ LITD QD++ + RYA LL  G++ L+   AFG
+Sbjct  8    GVPGAPLETLQAMLAHLEGLGEVDGQLILITDRQDEQPRGRYAALLTVGEEALVTAPAFG  67
+
+Query  65   PAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANPTDP  123
+            PA+ P G +AL++L     A+G     E V+   +   +L  P E  + R++A +NP+DP
+Sbjct  68   PAYGPAGAQALADLTRWAQARG-WPVRETVLPGSDFVRVLAEPEEAEVARLIAASNPSDP  126
+
+Query  124  GIY  126
+             IY
+Sbjct  127  AIY  129
+
+
+> UniRef90_E6RGA2 Uncharacterized protein n=1 Tax=Deinococcus deserti 
+(strain VCD115 / DSM 17065 / LMG 22923) TaxID=546414 
+RepID=E6RGA2_DEIDV
+Length=147
+
+ Score = 71.2 bits (173),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 49/122 (40%), Positives = 65/122 (53%), Gaps = 6/122 (5%)
+
+Query  10   PRVSLEALKAALGGLKLSEAKVYL---ITDWQDKRDQARY-ALLLHTGKKDLLVPDAFGP  65
+            P   LE L AAL G +           +TDWQ  R  ARY A+LL    + L++   FGP
+Sbjct  10   PGAPLETLNAALSGAQTLNLNGGRLLLVTDWQGHRPLARYGAVLLPASGEPLVLTATFGP  69
+
+Query  66   AF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANPTDPG  124
+             F P G +AL+ELV     QG     E V+SP     +L+ P  E ++ ++A +NPTDPG
+Sbjct  70   RFGPTGAQALAELVTWAQEQGLV-LRETVLSPSAFMQVLEEPDHEEIRHLVAASNPTDPG  128
+
+Query  125  IY  126
+            IY
+Sbjct  129  IY  130
+
+
+> UniRef90_A0A072N769 Uncharacterized protein n=1 Tax=Deinococcus 
+sp. RL TaxID=1489678 RepID=A0A072N769_9DEIO
+Length=137
+
+ Score = 70.9 bits (172),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 46/124 (37%), Positives = 71/124 (57%), Gaps = 2/124 (2%)
+
+Query  4    VGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVPDAF  63
+            +G+  AP  +   L A L       A +YLI+D Q +RD ARYA L+  G + ++   A+
+Sbjct  7    LGLPGAPLETHRELMALLAAQGEGPATLYLISDGQAERDAARYAALVTWGDEAVVTVPAY  66
+
+Query  64   GPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANPTD  122
+            GPA+ P G +AL+ELV    A+G     E V++P ++  +L  P  E + R+ A +NP+D
+Sbjct  67   GPAYGPAGAKALAELVAWTQARG-WPVRETVLNPSDLVRVLAEPDAEEVARLTAASNPSD  125
+
+Query  123  PGIY  126
+            P +Y
+Sbjct  126  PRLY  129
+
+
+> UniRef90_Q1IWR9 Uncharacterized protein n=2 Tax=Deinococcus geothermalis 
+TaxID=68909 RepID=Q1IWR9_DEIGD
+Length=128
+
+ Score = 67.4 bits (163),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 43/114 (38%), Positives = 67/114 (59%), Gaps = 2/114 (2%)
+
+Query  14   LEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVPDAFGPAF-PGGEE  72
+            ++A+ A L  ++  E ++ LITD +D+R QARY  LL  G + L+   AFGPA+ P G  
+Sbjct  1    MQAVLAHLEKIEAPEGRLVLITDREDERLQARYGALLTFGGEALVTAPAFGPAYGPEGAR  60
+
+Query  73   ALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANPTDPGIY  126
+            AL+EL      +G     E V+S  +   +L  P  + ++R++A +NP+DP IY
+Sbjct  61   ALAELTRWAQERGW-PVRETVLSASDFVRVLAEPDADEVRRLLAASNPSDPAIY  113
+
+
+> UniRef90_L0A4M4 Uncharacterized protein n=1 Tax=Deinococcus peraridilitoris 
+(strain DSM 19664 / LMG 22246 / CIP 109416 / 
+KR-200) TaxID=937777 RepID=L0A4M4_DEIPD
+Length=132
+
+ Score = 66.2 bits (160),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 36/125 (29%), Positives = 65/125 (52%), Gaps = 1/125 (1%)
+
+Query  4    VGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVPDAF  63
+            +G+  AP  +L  L+     + L+   +  +T+ Q +R  ARY  ++    K  ++ +AF
+Sbjct  7    LGVVGAPNETLRILERTFADIDLTGGAITFVTESQGQRANARYGAVIEAAGKTYVIVEAF  66
+
+Query  64   GPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANPTD  122
+            G  F PGG E L  L     + G + + E+++S  +   +L  P E  +++++  ANP+D
+Sbjct  67   GGQFGPGGVEGLQALARWAQSSGIQTYRESILSTYDFNRVLREPDEGEIQQLIVSANPSD  126
+
+Query  123  PGIYL  127
+              IYL
+Sbjct  127  VNIYL  131
+
+
+> UniRef90_A0A0A7KDG7 Uncharacterized protein n=1 Tax=Deinococcus 
+swuensis TaxID=1182571 RepID=A0A0A7KDG7_9DEIO
+Length=143
+
+ Score = 65.9 bits (159),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 47/127 (37%), Positives = 68/127 (54%), Gaps = 4/127 (3%)
+
+Query  4    VGMRAAPRVSLEALKAALGGLKLSEA--KVYLITDWQDKRDQARYALLLHTGKKDLLVPD  61
+            +G+  AP  +L A+ A L   +   A  ++ L+TD Q  R  A YA +L  G    +   
+Sbjct  7    LGVPGAPHETLNAVMAHLEQHRAGGAAGQLILVTDRQGDRGHAGYAAVLIAGPVVTVAAQ  66
+
+Query  62   AFGPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            AFGP F P G EAL +LV    A       E V++  + T ++D P    ++R+MA +NP
+Sbjct  67   AFGPRFGPAGMEALEQLVRWAQAH-EWPVRETVLNVSDFTRVIDEPETAEIRRLMAASNP  125
+
+Query  121  TDPGIYL  127
+            +DPGIYL
+Sbjct  126  SDPGIYL  132
+
+
+> UniRef90_UPI000369DE52 hypothetical protein n=1 Tax=Deinococcus 
+apachensis TaxID=309886 RepID=UPI000369DE52
+Length=143
+
+ Score = 62.8 bits (151),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 41/123 (33%), Positives = 67/123 (54%), Gaps = 2/123 (2%)
+
+Query  5    GMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVPDAFG  64
+            G+  AP  +L A+ + L G+  +  ++ LI+D Q  R   RYA LL  G + L+   AFG
+Sbjct  8    GVPGAPLETLHAILSRLEGMNRAGGRLILISDRQGDRPATRYAALLTLGDEALITAPAFG  67
+
+Query  65   PAFP-GGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANPTDP  123
+            P +   G +AL++L      +G     E ++ P +   +L  P E+ + R++A +NP+DP
+Sbjct  68   PEYGVAGAQALADLTRWAQGRG-WPVRETILPPPDFVRVLAEPDEDEVARLIAASNPSDP  126
+
+Query  124  GIY  126
+             IY
+Sbjct  127  AIY  129
+
+
+> UniRef90_UPI00037BFDFE hypothetical protein n=1 Tax=Deinococcus 
+aquatilis TaxID=519440 RepID=UPI00037BFDFE
+Length=163
+
+ Score = 62.8 bits (151),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 44/125 (35%), Positives = 69/125 (55%), Gaps = 4/125 (3%)
+
+Query  4    VGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVPDAF  63
+            +G+  AP+ +  A++A L G   +  ++ L+TD Q  R  A YA LL  G + ++   AF
+Sbjct  24   LGVAGAPQETWGAVQAHLEGSVRAGGRLILVTDRQGDRLNAAYAALLVQGTQAVIAAPAF  83
+
+Query  64   GPAF--PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANPT  121
+            GP +  PG  EAL+ELV     +      E V++P +   +L  P  E + R++A + P+
+Sbjct  84   GPRYGRPGA-EALAELVNWTQERN-WPVRETVLNPSDFVRVLAEPDAEEVGRLIAASTPS  141
+
+Query  122  DPGIY  126
+            DPGIY
+Sbjct  142  DPGIY  146
+
+
+> UniRef90_UPI000486059E hypothetical protein n=1 Tax=Deinococcus 
+pimensis TaxID=309888 RepID=UPI000486059E
+Length=132
+
+ Score = 62.0 bits (149),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 44/125 (35%), Positives = 64/125 (51%), Gaps = 1/125 (1%)
+
+Query  4    VGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVPDAF  63
+            +G+  AP  +L  L+AA+G   L+   + L+TD Q +R +  Y  LL    +  L   +F
+Sbjct  7    LGVVGAPLETLAELRAAVGDRSLAGGTLVLVTDRQGERGRGAYGALLWVDAQLWLTVASF  66
+
+Query  64   GPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANPTD  122
+            GP F   G  ALS+LV      G     E VV   +   +L  P E  L+ V+A +NP+D
+Sbjct  67   GPRFGEDGARALSDLVRWAGEGGITAIRETVVPVPQFNRVLREPDEAELRAVIAASNPSD  126
+
+Query  123  PGIYL  127
+             GIY+
+Sbjct  127  AGIYV  131
+
+
+> UniRef90_UPI000497F0F8 hypothetical protein n=1 Tax=Deinococcus 
+frigens TaxID=249403 RepID=UPI000497F0F8
+Length=151
+
+ Score = 61.2 bits (147),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 44/127 (35%), Positives = 69/127 (54%), Gaps = 4/127 (3%)
+
+Query  4    VGMRAAPRVSLEALKAALGGLKLSEA--KVYLITDWQDKRDQARYALLLHTGKKDLLVPD  61
+            +G+  AP+ +L A+ A L       A  ++ ++TD Q  RD+A YA +L  G    +   
+Sbjct  13   LGVPGAPQETLSAVMAHLEQHSAEGAAGQLIVVTDRQGDRDRAGYAAVLIAGPVVTVAAQ  72
+
+Query  62   AFGPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            AFGP F   G EAL +LV      G     E V++  + T ++D P    +++++A +NP
+Sbjct  73   AFGPRFGHSGMEALEQLVRWAQDHG-WPVRETVLNVSDFTRVIDEPDTREIRKLVAASNP  131
+
+Query  121  TDPGIYL  127
+            +DPGIYL
+Sbjct  132  SDPGIYL  138
+
+
+> UniRef90_UPI0006858945 hypothetical protein n=1 Tax=Deinococcus 
+phoenicis TaxID=1476583 RepID=UPI0006858945
+Length=150
+
+ Score = 59.7 bits (143),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 44/127 (35%), Positives = 69/127 (54%), Gaps = 2/127 (2%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M  +G+  AP  +L A+ + L GL+    ++ LITD Q  R  ARYA LL  G++ +L  
+Sbjct  4    MDPLGVPGAPLETLHAVLSRLEGLERPGGRLILITDRQGDRAHARYAALLTAGEEAILAA  63
+
+Query  61   DAFGPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIAN  119
+             AFGP +   G +AL+EL      +G     E V++  +   +L  P  + + R++A + 
+Sbjct  64   PAFGPRYGAAGIQALAELTRRAQERG-WPVRETVLNASDFVRVLAEPDGDEVARLIAASA  122
+
+Query  120  PTDPGIY  126
+            P+DP IY
+Sbjct  123  PSDPAIY  129
+
+
+> UniRef90_UPI000690CF44 hypothetical protein n=1 Tax=Deinococcus 
+marmoris TaxID=249408 RepID=UPI000690CF44
+Length=151
+
+ Score = 58.2 bits (139),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 44/128 (34%), Positives = 71/128 (55%), Gaps = 6/128 (5%)
+
+Query  4    VGMRAAPRVSLEALKAALGGLKLSEA--KVYLITDWQDKRDQARYALLLHTGKKDLLVPD  61
+            +G+  AP+ +L A+ A L       A  ++ L+TD Q  RD+A YA++L  G    +   
+Sbjct  13   LGVPGAPQETLTAMMAHLERFHSGGAVGQLILVTDRQGDRDRAGYAVVLIAGPVVTVAAQ  72
+
+Query  62   AFGPAFPG-GEEALSELVGLLLAQGARRFY-EAVVSPGEMTALLDLPPEELLKRVMAIAN  119
+            AFGP +   G +AL +LV    AQ       E V++  + T ++D P    +++++A +N
+Sbjct  73   AFGPRYGQPGMQALEQLV--RWAQDHEWLVRETVLNGSDFTRVIDEPDAGEIRKLVAASN  130
+
+Query  120  PTDPGIYL  127
+            P+DPGIYL
+Sbjct  131  PSDPGIYL  138
+
+
+> UniRef90_UPI0003463076 hypothetical protein n=1 Tax=Deinococcus 
+wulumuqiensis TaxID=980427 RepID=UPI0003463076
+Length=146
+
+ Score = 56.6 bits (135),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 47/129 (36%), Positives = 72/129 (56%), Gaps = 8/129 (6%)
+
+Query  4    VGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYA--LLLHTGKKDLLV--  59
+            +G+ AAP  + +A++  L    L+ A++ LITD Q +R QA YA  +LL  G ++  V  
+Sbjct  7    LGVPAAPLETWQAMQTRLDDADLTGARLILITDRQGERSQAGYAALVLLGQGPQETAVIS  66
+
+Query  60   PDAFGPAF-PGGEEALSELVGLLLAQGAR-RFYEAVVSPGEMTALLDLPPEELLKRVMAI  117
+              AFGP +   G  AL+ELV    A GA     E ++S G++  +L  P  + +  ++A 
+Sbjct  67   APAFGPRYGAAGRAALAELVN--WADGAGLPTAETILSGGDVQRVLAEPDADEVANLIAA  124
+
+Query  118  ANPTDPGIY  126
+            +NP DP IY
+Sbjct  125  SNPADPAIY  133
+
+
+> UniRef90_A0A172TDJ8 Uncharacterized protein n=1 Tax=Deinococcus 
+puniceus TaxID=1182568 RepID=A0A172TDJ8_9DEIO
+Length=146
+
+ Score = 54.3 bits (129),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 40/125 (32%), Positives = 66/125 (53%), Gaps = 4/125 (3%)
+
+Query  4    VGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVPDAF  63
+            +G+  AP+ +  A++A L     +  ++ L+TD Q  R  A YA L+    + ++   AF
+Sbjct  7    LGVPGAPQETWGAVQAHLADSARAGGRLILVTDRQGDRQNAAYAALIVQAGQAVIAAPAF  66
+
+Query  64   GPAF--PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANPT  121
+            GP +  PG  EAL+ELV     +      E V++  +   +L  P    + R++A +NP+
+Sbjct  67   GPRYGRPGA-EALAELVKWAHERD-WPVRETVLNSSDFVRVLAEPDAGEVGRLIAASNPS  124
+
+Query  122  DPGIY  126
+            DPGIY
+Sbjct  125  DPGIY  129
+
+
+> UniRef90_UPI0003B60A8C hypothetical protein n=2 Tax=Deinococcus 
+TaxID=1298 RepID=UPI0003B60A8C
+Length=144
+
+ Score = 48.5 bits (114),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 36/132 (27%), Positives = 64/132 (48%), Gaps = 10/132 (8%)
+
+Query  4    VGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLL-----HTG---KK  55
+            +G+  A   +L  +++   G+ L    + ++TD Q  R+ ARY  ++       G    +
+Sbjct  7    IGLPGASLETLNEVRSRFQGVDLQGGHLLMVTDTQGHREGARYGAVVVPPASAQGLGVDR  66
+
+Query  56   DLLVPDAFGPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRV  114
+             +++  +FGP F   G+EAL+ L       G     E V+  G+   +L+ P    + R+
+Sbjct  67   AVVISPSFGPRFGAAGQEALAGLADWAAGAGLV-LRETVLPAGDFVRVLEEPDTREVNRL  125
+
+Query  115  MAIANPTDPGIY  126
+            +A +NP D GIY
+Sbjct  126  VAASNPVDAGIY  137
+
+
+> UniRef90_Q9RVX1 Uncharacterized protein n=2 Tax=Deinococcus radiodurans 
+TaxID=1299 RepID=Q9RVX1_DEIRA
+Length=149
+
+ Score = 48.5 bits (114),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 44/128 (34%), Positives = 68/128 (53%), Gaps = 6/128 (5%)
+
+Query  4    VGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGK----KDLLV  59
+            +G+ AAP  + +A++A L    L+ A++ LITD Q +R  A YA L+  G+    + +L 
+Sbjct  11   LGVPAAPLETWQAMQARLNDADLTGARLILITDRQGERPWAGYAALVTLGRGAAEEAILS  70
+
+Query  60   PDAFGPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIA  118
+              AFGP +   G  AL+ELV    + G R   E ++  G+   +L  P    +  ++A  
+Sbjct  71   APAFGPRYGAAGAAALAELVRWADSAGIRP-TETILGSGDFQRVLAEPDAGEVAALIAAT  129
+
+Query  119  NPTDPGIY  126
+            NP DP IY
+Sbjct  130  NPADPAIY  137
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.138    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 441033908530
+Results from round 2
+
+
+Query= d1wnaa_
+
+Length=127
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_G8NAY0 Uncharacterized protein n=1 Tax=Thermus sp. CCB...  183     1e-56
+  UniRef90_A0A0B0SC34 Uncharacterized protein n=2 Tax=Thermus Tax...  182     4e-56
+  UniRef90_D7BAE0 Uncharacterized protein n=1 Tax=Meiothermus sil...  180     2e-55
+  UniRef90_UPI0003B44815 hypothetical protein n=1 Tax=Thermus isl...  180     4e-55
+  UniRef90_UPI00056F8B43 hypothetical protein n=1 Tax=Thermus amy...  179     6e-55
+  UniRef90_UPI000375417F hypothetical protein n=1 Tax=Thermus ign...  177     4e-54
+  UniRef90_E8PMU2 Uncharacterized protein n=4 Tax=Thermus TaxID=2...  173     1e-52
+  UniRef90_B7A6P7 Uncharacterized protein n=2 Tax=Thermus aquatic...  171     7e-52
+  UniRef90_A0A0D0P3K4 Uncharacterized protein n=4 Tax=Meiothermus...  171     1e-51
+  UniRef90_UPI00056DC950 hypothetical protein n=2 Tax=Thermus Tax...  169     5e-51
+  UniRef90_F2NQS8 Uncharacterized protein n=1 Tax=Marinithermus h...  168     8e-51
+  UniRef90_UPI000480D33F hypothetical protein n=1 Tax=Meiothermus...  168     2e-50
+  UniRef90_Q72IG8 Uncharacterized protein n=8 Tax=Thermus TaxID=2...  165     2e-49
+  UniRef90_A0A0A2WR41 Uncharacterized protein n=1 Tax=Thermus fil...  165     3e-49
+  UniRef90_UPI00037BFDFE hypothetical protein n=1 Tax=Deinococcus...  165     5e-49
+  UniRef90_UPI00037F0A90 hypothetical protein n=1 Tax=Meiothermus...  163     1e-48
+  UniRef90_UPI0004800BF5 hypothetical protein n=1 Tax=Meiothermus...  163     2e-48
+  UniRef90_UPI000497F0F8 hypothetical protein n=1 Tax=Deinococcus...  162     4e-48
+  UniRef90_UPI0006858945 hypothetical protein n=1 Tax=Deinococcus...  162     5e-48
+  UniRef90_A0A172TDJ8 Uncharacterized protein n=1 Tax=Deinococcus...  161     6e-48
+  UniRef90_UPI000690CF44 hypothetical protein n=1 Tax=Deinococcus...  161     1e-47
+  UniRef90_UPI000369DE52 hypothetical protein n=1 Tax=Deinococcus...  161     1e-47
+  UniRef90_UPI000555AAB8 hypothetical protein n=1 Tax=Deinococcus...  160     4e-47
+  UniRef90_A0A0A7KDG7 Uncharacterized protein n=1 Tax=Deinococcus...  159     5e-47
+  UniRef90_L0A4M4 Uncharacterized protein n=1 Tax=Deinococcus per...  156     8e-46
+  UniRef90_UPI0004817159 hypothetical protein n=1 Tax=Meiothermus...  153     7e-45
+  UniRef90_UPI000559731F hypothetical protein n=1 Tax=Deinococcus...  153     9e-45
+  UniRef90_K7RFT1 Uncharacterized protein n=2 Tax=Thermus oshimai...  150     1e-43
+  UniRef90_E4U970 Uncharacterized protein n=1 Tax=Oceanithermus p...  149     3e-43
+  UniRef90_UPI000486059E hypothetical protein n=1 Tax=Deinococcus...  147     2e-42
+  UniRef90_A0A072N769 Uncharacterized protein n=1 Tax=Deinococcus...  147     3e-42
+  UniRef90_Q1IWR9 Uncharacterized protein n=2 Tax=Deinococcus geo...  145     2e-41
+  UniRef90_E6RGA2 Uncharacterized protein n=1 Tax=Deinococcus des...  141     9e-40
+  UniRef90_UPI0003463076 hypothetical protein n=1 Tax=Deinococcus...  139     3e-39
+  UniRef90_UPI0003B60A8C hypothetical protein n=2 Tax=Deinococcus...  136     8e-38
+  UniRef90_Q9RVX1 Uncharacterized protein n=2 Tax=Deinococcus rad...  135     2e-37
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_G8NAY0 Uncharacterized protein n=1 Tax=Thermus sp. CCB_US3_UF1 
+TaxID=1111069 RepID=G8NAY0_9DEIN
+Length=136
+
+ Score = 183 bits (466),  Expect = 1e-56, Method: Composition-based stats.
+ Identities = 104/127 (82%), Positives = 114/127 (90%), Gaps = 0/127 (0%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M R+G+RAAPR++LEALK AL G +L EAKVYL+TDWQD+R++ARYALLLH GKKDLL P
+Sbjct  1    MERIGLRAAPRLTLEALKEALKGFRLPEAKVYLVTDWQDRREKARYALLLHGGKKDLLTP  60
+
+Query  61   DAFGPAFPGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            DAFGPAFPGGEEAL+ELV  LL  GARRFYEAVVSPGEMTALLDLPPE LLKRV AIANP
+Sbjct  61   DAFGPAFPGGEEALAELVAYLLQGGARRFYEAVVSPGEMTALLDLPPEVLLKRVGAIANP  120
+
+Query  121  TDPGIYL  127
+            TDPGIYL
+Sbjct  121  TDPGIYL  127
+
+
+> UniRef90_A0A0B0SC34 Uncharacterized protein n=2 Tax=Thermus TaxID=270 
+RepID=A0A0B0SC34_9DEIN
+Length=131
+
+ Score = 182 bits (463),  Expect = 4e-56, Method: Composition-based stats.
+ Identities = 106/127 (83%), Positives = 120/127 (94%), Gaps = 0/127 (0%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M RVG+RAAPR++L+AL+ AL G++L+EAKVYLITDWQD+RD+ARYALLLH GKKDLLVP
+Sbjct  1    MERVGLRAAPRLTLKALEEALRGVRLAEAKVYLITDWQDRRDKARYALLLHGGKKDLLVP  60
+
+Query  61   DAFGPAFPGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            DAFGPAFPGGEEAL+ELV LLL  GARRFYEAVVSPGEMTALLDLPPEEL+KRV+A+ANP
+Sbjct  61   DAFGPAFPGGEEALAELVRLLLQGGARRFYEAVVSPGEMTALLDLPPEELVKRVVAVANP  120
+
+Query  121  TDPGIYL  127
+            TDPGIYL
+Sbjct  121  TDPGIYL  127
+
+
+> UniRef90_D7BAE0 Uncharacterized protein n=1 Tax=Meiothermus silvanus 
+(strain ATCC 700542 / DSM 9946 / VI-R2) TaxID=526227 
+RepID=D7BAE0_MEISD
+Length=136
+
+ Score = 180 bits (458),  Expect = 2e-55, Method: Composition-based stats.
+ Identities = 58/127 (46%), Positives = 85/127 (67%), Gaps = 1/127 (1%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M  +G+R AP+ +L AL  AL G +  +  V  +TDWQD+R +ARYA+ +  GK  LL  
+Sbjct  1    MEVLGVRGAPKQTLAALMEALKGARFPDLIVTFVTDWQDQRKKARYAVFVRGGKHPLLTM  60
+
+Query  61   DAFGPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIAN  119
+            DAFGPAF P G+ AL ELV  L  +G R++YE+V+ P E  AL ++ P+++ +++ A AN
+Sbjct  61   DAFGPAFGPEGDRALVELVQWLQDKGVRKWYESVIPPSEYAALFEIDPDDVYRQLAANAN  120
+
+Query  120  PTDPGIY  126
+            P+DP +Y
+Sbjct  121  PSDPALY  127
+
+
+> UniRef90_UPI0003B44815 hypothetical protein n=1 Tax=Thermus islandicus 
+TaxID=540988 RepID=UPI0003B44815
+Length=131
+
+ Score = 180 bits (456),  Expect = 4e-55, Method: Composition-based stats.
+ Identities = 101/127 (80%), Positives = 114/127 (90%), Gaps = 0/127 (0%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M RVG+R+AP+ +LEALK AL G++L EAKVYLITDWQD+RDQARYALL+HT +KDLL P
+Sbjct  1    MERVGLRSAPKATLEALKEALRGIRLPEAKVYLITDWQDRRDQARYALLVHTQRKDLLTP  60
+
+Query  61   DAFGPAFPGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            DAFGPAFPGGEEALSELV LLL +GARRFYEAVVSPGE+TALL  P EE+L+RV AIANP
+Sbjct  61   DAFGPAFPGGEEALSELVALLLERGARRFYEAVVSPGELTALLGYPTEEVLRRVNAIANP  120
+
+Query  121  TDPGIYL  127
+            TDPGIYL
+Sbjct  121  TDPGIYL  127
+
+
+> UniRef90_UPI00056F8B43 hypothetical protein n=1 Tax=Thermus amyloliquefaciens 
+TaxID=1449080 RepID=UPI00056F8B43
+Length=131
+
+ Score = 179 bits (455),  Expect = 6e-55, Method: Composition-based stats.
+ Identities = 94/127 (74%), Positives = 109/127 (86%), Gaps = 0/127 (0%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M RVG+RA+PR++LEALK AL G++  EAKVY +TDWQD+R QARYA+++H GKKDLL P
+Sbjct  1    MERVGLRASPRLTLEALKEALKGVRFPEAKVYFLTDWQDRRPQARYAVVIHGGKKDLLTP  60
+
+Query  61   DAFGPAFPGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            DAFGPAFPGGEEALSELV LLL  GA++FYEAVVSP E+  LLDLPPE L+ RV AIANP
+Sbjct  61   DAFGPAFPGGEEALSELVELLLRLGAKKFYEAVVSPAELPELLDLPPEALIPRVNAIANP  120
+
+Query  121  TDPGIYL  127
+            TDPGIYL
+Sbjct  121  TDPGIYL  127
+
+
+> UniRef90_UPI000375417F hypothetical protein n=1 Tax=Thermus igniterrae 
+TaxID=88189 RepID=UPI000375417F
+Length=130
+
+ Score = 177 bits (449),  Expect = 4e-54, Method: Composition-based stats.
+ Identities = 101/127 (80%), Positives = 114/127 (90%), Gaps = 0/127 (0%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M R+G+R APR +LEALK AL GL+LSEAKVYLITDWQD+R++ARYALL+H G++DLLVP
+Sbjct  1    MERIGLRGAPRTTLEALKEALKGLRLSEAKVYLITDWQDRREKARYALLIHGGRRDLLVP  60
+
+Query  61   DAFGPAFPGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            DAFGPAFPGGE ALS+L+ LLL  GARRFYEAVVSPGEMTALLDLPP+ LL RV AIANP
+Sbjct  61   DAFGPAFPGGEAALSQLMALLLQGGARRFYEAVVSPGEMTALLDLPPQALLARVNAIANP  120
+
+Query  121  TDPGIYL  127
+            TDPGIYL
+Sbjct  121  TDPGIYL  127
+
+
+> UniRef90_E8PMU2 Uncharacterized protein n=4 Tax=Thermus TaxID=270 
+RepID=E8PMU2_THESS
+Length=131
+
+ Score = 173 bits (440),  Expect = 1e-52, Method: Composition-based stats.
+ Identities = 99/127 (78%), Positives = 112/127 (88%), Gaps = 0/127 (0%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M RVG+RA+PR++LEALK AL G++  EAKVY ITDWQD+R QARYALL+H GKKDLL P
+Sbjct  1    MERVGLRASPRITLEALKEALKGVRFPEAKVYFITDWQDRRHQARYALLIHGGKKDLLTP  60
+
+Query  61   DAFGPAFPGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            DAFGPAF GGEEALSELV LLL  GAR+FYEAVVSPGE+T LL+LPPEELL+R+ AIANP
+Sbjct  61   DAFGPAFQGGEEALSELVSLLLDLGARKFYEAVVSPGELTGLLNLPPEELLRRINAIANP  120
+
+Query  121  TDPGIYL  127
+            TDPGIYL
+Sbjct  121  TDPGIYL  127
+
+
+> UniRef90_B7A6P7 Uncharacterized protein n=2 Tax=Thermus aquaticus 
+TaxID=271 RepID=B7A6P7_THEAQ
+Length=131
+
+ Score = 171 bits (434),  Expect = 7e-52, Method: Composition-based stats.
+ Identities = 98/127 (77%), Positives = 114/127 (90%), Gaps = 0/127 (0%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M R+G+R+APRV+L+ALK AL G++  EAKVYLITDWQD+RD+ARYALL+H GKKDLLVP
+Sbjct  1    MERLGLRSAPRVTLQALKEALKGVRFPEAKVYLITDWQDQRDKARYALLIHGGKKDLLVP  60
+
+Query  61   DAFGPAFPGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            DAFGPAFPGGEEAL+ELV LLL +GA+RFYEAVVSPGEM+ LL LPPEEL+ RV A+ANP
+Sbjct  61   DAFGPAFPGGEEALAELVALLLERGAKRFYEAVVSPGEMSTLLSLPPEELIARVNAVANP  120
+
+Query  121  TDPGIYL  127
+            TDP IYL
+Sbjct  121  TDPHIYL  127
+
+
+> UniRef90_A0A0D0P3K4 Uncharacterized protein n=4 Tax=Meiothermus 
+TaxID=65551 RepID=A0A0D0P3K4_MEIRU
+Length=136
+
+ Score = 171 bits (433),  Expect = 1e-51, Method: Composition-based stats.
+ Identities = 63/128 (49%), Positives = 79/128 (62%), Gaps = 1/128 (1%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M  VG+R AP  +L ALK AL G+   EA    ITDWQD+R QAR+AL +  GK  +L  
+Sbjct  1    MEIVGLRGAPHETLRALKEALKGVDFPEAVAIYITDWQDRRAQARFALFVRQGKHRVLSR  60
+
+Query  61   DAFGPAFP-GGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIAN  119
+            DAFGP F   G+ AL +L   L+ +G   F EAVV+P E  AL +L  E   K +MA AN
+Sbjct  61   DAFGPRFGLEGDAALKDLTLWLIERGVTDFKEAVVAPSEFAALFELEAETAQKLIMASAN  120
+
+Query  120  PTDPGIYL  127
+            PTDP +Y+
+Sbjct  121  PTDPMLYI  128
+
+
+> UniRef90_UPI00056DC950 hypothetical protein n=2 Tax=Thermus TaxID=270 
+RepID=UPI00056DC950
+Length=131
+
+ Score = 169 bits (429),  Expect = 5e-51, Method: Composition-based stats.
+ Identities = 99/127 (78%), Positives = 112/127 (88%), Gaps = 0/127 (0%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M RVG+RAAPR++LEALK AL G++  EAKVY +TDWQD+R++ARYA+++H GKKDLL P
+Sbjct  1    MERVGLRAAPRLTLEALKEALKGVRFPEAKVYFLTDWQDRREEARYAVVIHGGKKDLLTP  60
+
+Query  61   DAFGPAFPGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            DAFGPAFPGGE ALSELV LLL +GARRFYEAVVSPGEMTALL L PEELL RV AIANP
+Sbjct  61   DAFGPAFPGGEAALSELVALLLERGARRFYEAVVSPGEMTALLSLLPEELLARVNAIANP  120
+
+Query  121  TDPGIYL  127
+            TDPGIYL
+Sbjct  121  TDPGIYL  127
+
+
+> UniRef90_F2NQS8 Uncharacterized protein n=1 Tax=Marinithermus 
+hydrothermalis (strain DSM 14884 / JCM 11576 / T1) TaxID=869210 
+RepID=F2NQS8_MARHT
+Length=130
+
+ Score = 168 bits (427),  Expect = 8e-51, Method: Composition-based stats.
+ Identities = 62/127 (49%), Positives = 79/127 (62%), Gaps = 1/127 (1%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M  +G R AP ++L+AL+ AL         V L+TDWQD+RD+ARYAL +   K  +L  
+Sbjct  1    MEIIGFRGAPEMTLKALQDALKNTHFPSLIVTLVTDWQDQRDRARYALFIRGAKTPILTE  60
+
+Query  61   DAFGPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIAN  119
+            DAFGPAF   G  AL+E V  L  +G R+FYEAV+ P E   L DL PE   +R++A AN
+Sbjct  61   DAFGPAFGEPGRRALAEAVAWLEQKGVRKFYEAVLPPSEYQGLFDLEPETAYRRLVASAN  120
+
+Query  120  PTDPGIY  126
+            PTD  IY
+Sbjct  121  PTDTAIY  127
+
+
+> UniRef90_UPI000480D33F hypothetical protein n=1 Tax=Meiothermus 
+cerbereus TaxID=65552 RepID=UPI000480D33F
+Length=136
+
+ Score = 168 bits (425),  Expect = 2e-50, Method: Composition-based stats.
+ Identities = 60/128 (47%), Positives = 80/128 (63%), Gaps = 1/128 (1%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M  VG+R AP+ +L ALK AL G+  SEA V  ITDWQD+R  AR+A+ +  GK  +L  
+Sbjct  1    MEIVGLRGAPQKTLLALKEALKGVDFSEATVTYITDWQDQRANARFAIFVREGKHRILSL  60
+
+Query  61   DAFGPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIAN  119
+            DAFGP F   G+ AL E+    + +G   F EAVV+P E  AL +L  +EL + + A  N
+Sbjct  61   DAFGPRFGAAGDAALREITLWFIERGVTDFKEAVVAPSEYAALFELEDQELERLIEATGN  120
+
+Query  120  PTDPGIYL  127
+            PTDP +Y+
+Sbjct  121  PTDPVLYI  128
+
+
+> UniRef90_Q72IG8 Uncharacterized protein n=8 Tax=Thermus TaxID=270 
+RepID=Q72IG8_THET2
+Length=131
+
+ Score = 165 bits (417),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 127/127 (100%), Positives = 127/127 (100%), Gaps = 0/127 (0%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP
+Sbjct  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+
+Query  61   DAFGPAFPGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            DAFGPAFPGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP
+Sbjct  61   DAFGPAFPGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+
+Query  121  TDPGIYL  127
+            TDPGIYL
+Sbjct  121  TDPGIYL  127
+
+
+> UniRef90_A0A0A2WR41 Uncharacterized protein n=1 Tax=Thermus filiformis 
+TaxID=276 RepID=A0A0A2WR41_THEFI
+Length=130
+
+ Score = 165 bits (417),  Expect = 3e-49, Method: Composition-based stats.
+ Identities = 78/127 (61%), Positives = 101/127 (80%), Gaps = 0/127 (0%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M RVG+RA+P+ +L+AL+ AL G++L EAKVYLITDWQD+RDQARYA+L+HT KKD+L  
+Sbjct  1    MERVGLRASPQATLKALEEALRGVRLQEAKVYLITDWQDRRDQARYAVLVHTPKKDVLSL  60
+
+Query  61   DAFGPAFPGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            DAFGPAFPGGEEAL+ L+  L +QGA RFYEAV+    +  L +   +E+L+ VMA ANP
+Sbjct  61   DAFGPAFPGGEEALARLLDFLRSQGASRFYEAVLPRSALYTLFEREDQEVLRAVMASANP  120
+
+Query  121  TDPGIYL  127
+             DPG+Y+
+Sbjct  121  ADPGLYV  127
+
+
+> UniRef90_UPI00037BFDFE hypothetical protein n=1 Tax=Deinococcus 
+aquatilis TaxID=519440 RepID=UPI00037BFDFE
+Length=163
+
+ Score = 165 bits (418),  Expect = 5e-49, Method: Composition-based stats.
+ Identities = 43/126 (34%), Positives = 68/126 (54%), Gaps = 2/126 (2%)
+
+Query  2    VRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVPD  61
+              +G+  AP+ +  A++A L G   +  ++ L+TD Q  R  A YA LL  G + ++   
+Sbjct  22   DPLGVAGAPQETWGAVQAHLEGSVRAGGRLILVTDRQGDRLNAAYAALLVQGTQAVIAAP  81
+
+Query  62   AFGPAFP-GGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            AFGP +   G EAL+ELV     +      E V++P +   +L  P  E + R++A + P
+Sbjct  82   AFGPRYGRPGAEALAELVNWTQERN-WPVRETVLNPSDFVRVLAEPDAEEVGRLIAASTP  140
+
+Query  121  TDPGIY  126
+            +DPGIY
+Sbjct  141  SDPGIY  146
+
+
+> UniRef90_UPI00037F0A90 hypothetical protein n=1 Tax=Meiothermus 
+timidus TaxID=307124 RepID=UPI00037F0A90
+Length=138
+
+ Score = 163 bits (413),  Expect = 1e-48, Method: Composition-based stats.
+ Identities = 65/126 (52%), Positives = 82/126 (65%), Gaps = 2/126 (2%)
+
+Query  4    VGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTG-KKDLLVPDA  62
+            VG+RAAP+ +LE L+ AL     +   V L+TDWQD+R QARYA+    G K  +L  DA
+Sbjct  6    VGLRAAPKETLEDLQQALRSASFNRLVVTLVTDWQDQRKQARYAVFARGGLKTPVLSLDA  65
+
+Query  63   FGPAFP-GGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANPT  121
+            FGPAF   GEEAL+ LV  L  +G   FYEAV+ P E +AL    PEE+ KR++A ANP 
+Sbjct  66   FGPAFGKPGEEALAALVQWLREKGVTHFYEAVLPPSEYSALFLEDPEEVYKRLVAAANPI  125
+
+Query  122  DPGIYL  127
+            DP +YL
+Sbjct  126  DPALYL  131
+
+
+> UniRef90_UPI0004800BF5 hypothetical protein n=1 Tax=Meiothermus 
+rufus TaxID=604332 RepID=UPI0004800BF5
+Length=130
+
+ Score = 163 bits (412),  Expect = 2e-48, Method: Composition-based stats.
+ Identities = 58/128 (45%), Positives = 77/128 (60%), Gaps = 1/128 (1%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M  VG+R AP  +L AL+ AL G++  +A    ITDWQD+R QARYA+ +  G++ +L  
+Sbjct  1    MKIVGLRGAPNETLAALQEALKGIQFPQASATYITDWQDQRAQARYAIYVQDGRRRVLSL  60
+
+Query  61   DAFGPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIAN  119
+            DAFGP F P G  AL  L   L+ QG  +F EA++ P E   L  L   E+ K + A AN
+Sbjct  61   DAFGPRFGPQGHAALQTLTRWLVQQGVEQFKEAILPPSEYANLFGLEEAEIQKALAAKAN  120
+
+Query  120  PTDPGIYL  127
+            P DP +YL
+Sbjct  121  PADPALYL  128
+
+
+> UniRef90_UPI000497F0F8 hypothetical protein n=1 Tax=Deinococcus 
+frigens TaxID=249403 RepID=UPI000497F0F8
+Length=151
+
+ Score = 162 bits (411),  Expect = 4e-48, Method: Composition-based stats.
+ Identities = 44/129 (34%), Positives = 69/129 (53%), Gaps = 4/129 (3%)
+
+Query  2    VRVGMRAAPRVSLEALKAALGGLKLSEA--KVYLITDWQDKRDQARYALLLHTGKKDLLV  59
+              +G+  AP+ +L A+ A L       A  ++ ++TD Q  RD+A YA +L  G    + 
+Sbjct  11   DPLGVPGAPQETLSAVMAHLEQHSAEGAAGQLIVVTDRQGDRDRAGYAAVLIAGPVVTVA  70
+
+Query  60   PDAFGPAFP-GGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIA  118
+              AFGP F   G EAL +LV      G     E V++  + T ++D P    +++++A +
+Sbjct  71   AQAFGPRFGHSGMEALEQLVRWAQDHG-WPVRETVLNVSDFTRVIDEPDTREIRKLVAAS  129
+
+Query  119  NPTDPGIYL  127
+            NP+DPGIYL
+Sbjct  130  NPSDPGIYL  138
+
+
+> UniRef90_UPI0006858945 hypothetical protein n=1 Tax=Deinococcus 
+phoenicis TaxID=1476583 RepID=UPI0006858945
+Length=150
+
+ Score = 162 bits (410),  Expect = 5e-48, Method: Composition-based stats.
+ Identities = 44/127 (35%), Positives = 69/127 (54%), Gaps = 2/127 (2%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M  +G+  AP  +L A+ + L GL+    ++ LITD Q  R  ARYA LL  G++ +L  
+Sbjct  4    MDPLGVPGAPLETLHAVLSRLEGLERPGGRLILITDRQGDRAHARYAALLTAGEEAILAA  63
+
+Query  61   DAFGPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIAN  119
+             AFGP +   G +AL+EL      +G     E V++  +   +L  P  + + R++A + 
+Sbjct  64   PAFGPRYGAAGIQALAELTRRAQERG-WPVRETVLNASDFVRVLAEPDGDEVARLIAASA  122
+
+Query  120  PTDPGIY  126
+            P+DP IY
+Sbjct  123  PSDPAIY  129
+
+
+> UniRef90_A0A172TDJ8 Uncharacterized protein n=1 Tax=Deinococcus 
+puniceus TaxID=1182568 RepID=A0A172TDJ8_9DEIO
+Length=146
+
+ Score = 161 bits (409),  Expect = 6e-48, Method: Composition-based stats.
+ Identities = 39/126 (31%), Positives = 65/126 (52%), Gaps = 2/126 (2%)
+
+Query  2    VRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVPD  61
+              +G+  AP+ +  A++A L     +  ++ L+TD Q  R  A YA L+    + ++   
+Sbjct  5    DPLGVPGAPQETWGAVQAHLADSARAGGRLILVTDRQGDRQNAAYAALIVQAGQAVIAAP  64
+
+Query  62   AFGPAFP-GGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            AFGP +   G EAL+ELV     +      E V++  +   +L  P    + R++A +NP
+Sbjct  65   AFGPRYGRPGAEALAELVKWAHERD-WPVRETVLNSSDFVRVLAEPDAGEVGRLIAASNP  123
+
+Query  121  TDPGIY  126
+            +DPGIY
+Sbjct  124  SDPGIY  129
+
+
+> UniRef90_UPI000690CF44 hypothetical protein n=1 Tax=Deinococcus 
+marmoris TaxID=249408 RepID=UPI000690CF44
+Length=151
+
+ Score = 161 bits (408),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 42/129 (33%), Positives = 69/129 (53%), Gaps = 4/129 (3%)
+
+Query  2    VRVGMRAAPRVSLEALKAALGGLKLSEA--KVYLITDWQDKRDQARYALLLHTGKKDLLV  59
+              +G+  AP+ +L A+ A L       A  ++ L+TD Q  RD+A YA++L  G    + 
+Sbjct  11   DPLGVPGAPQETLTAMMAHLERFHSGGAVGQLILVTDRQGDRDRAGYAVVLIAGPVVTVA  70
+
+Query  60   PDAFGPAFP-GGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIA  118
+              AFGP +   G +AL +LV            E V++  + T ++D P    +++++A +
+Sbjct  71   AQAFGPRYGQPGMQALEQLVRWAQDH-EWLVRETVLNGSDFTRVIDEPDAGEIRKLVAAS  129
+
+Query  119  NPTDPGIYL  127
+            NP+DPGIYL
+Sbjct  130  NPSDPGIYL  138
+
+
+> UniRef90_UPI000369DE52 hypothetical protein n=1 Tax=Deinococcus 
+apachensis TaxID=309886 RepID=UPI000369DE52
+Length=143
+
+ Score = 161 bits (407),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 41/126 (33%), Positives = 67/126 (53%), Gaps = 2/126 (2%)
+
+Query  2    VRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVPD  61
+               G+  AP  +L A+ + L G+  +  ++ LI+D Q  R   RYA LL  G + L+   
+Sbjct  5    DPYGVPGAPLETLHAILSRLEGMNRAGGRLILISDRQGDRPATRYAALLTLGDEALITAP  64
+
+Query  62   AFGPAFP-GGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            AFGP +   G +AL++L      +G     E ++ P +   +L  P E+ + R++A +NP
+Sbjct  65   AFGPEYGVAGAQALADLTRWAQGRG-WPVRETILPPPDFVRVLAEPDEDEVARLIAASNP  123
+
+Query  121  TDPGIY  126
+            +DP IY
+Sbjct  124  SDPAIY  129
+
+
+> UniRef90_UPI000555AAB8 hypothetical protein n=1 Tax=Deinococcus 
+sp. YIM 77859 TaxID=1540221 RepID=UPI000555AAB8
+Length=143
+
+ Score = 160 bits (404),  Expect = 4e-47, Method: Composition-based stats.
+ Identities = 47/126 (37%), Positives = 73/126 (58%), Gaps = 2/126 (2%)
+
+Query  2    VRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVPD  61
+               G+  AP  +L+A+ A L GL   + ++ LITD QD++ + RYA LL  G++ L+   
+Sbjct  5    DPFGVPGAPLETLQAMLAHLEGLGEVDGQLILITDRQDEQPRGRYAALLTVGEEALVTAP  64
+
+Query  62   AFGPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            AFGPA+ P G +AL++L     A+G     E V+   +   +L  P E  + R++A +NP
+Sbjct  65   AFGPAYGPAGAQALADLTRWAQARG-WPVRETVLPGSDFVRVLAEPEEAEVARLIAASNP  123
+
+Query  121  TDPGIY  126
+            +DP IY
+Sbjct  124  SDPAIY  129
+
+
+> UniRef90_A0A0A7KDG7 Uncharacterized protein n=1 Tax=Deinococcus 
+swuensis TaxID=1182571 RepID=A0A0A7KDG7_9DEIO
+Length=143
+
+ Score = 159 bits (403),  Expect = 5e-47, Method: Composition-based stats.
+ Identities = 47/129 (36%), Positives = 68/129 (53%), Gaps = 4/129 (3%)
+
+Query  2    VRVGMRAAPRVSLEALKAALGGLKLSEA--KVYLITDWQDKRDQARYALLLHTGKKDLLV  59
+              +G+  AP  +L A+ A L   +   A  ++ L+TD Q  R  A YA +L  G    + 
+Sbjct  5    DPLGVPGAPHETLNAVMAHLEQHRAGGAAGQLILVTDRQGDRGHAGYAAVLIAGPVVTVA  64
+
+Query  60   PDAFGPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIA  118
+              AFGP F P G EAL +LV    A       E V++  + T ++D P    ++R+MA +
+Sbjct  65   AQAFGPRFGPAGMEALEQLVRWAQAH-EWPVRETVLNVSDFTRVIDEPETAEIRRLMAAS  123
+
+Query  119  NPTDPGIYL  127
+            NP+DPGIYL
+Sbjct  124  NPSDPGIYL  132
+
+
+> UniRef90_L0A4M4 Uncharacterized protein n=1 Tax=Deinococcus peraridilitoris 
+(strain DSM 19664 / LMG 22246 / CIP 109416 / 
+KR-200) TaxID=937777 RepID=L0A4M4_DEIPD
+Length=132
+
+ Score = 156 bits (394),  Expect = 8e-46, Method: Composition-based stats.
+ Identities = 36/127 (28%), Positives = 65/127 (51%), Gaps = 1/127 (1%)
+
+Query  2    VRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVPD  61
+              +G+  AP  +L  L+     + L+   +  +T+ Q +R  ARY  ++    K  ++ +
+Sbjct  5    EPLGVVGAPNETLRILERTFADIDLTGGAITFVTESQGQRANARYGAVIEAAGKTYVIVE  64
+
+Query  62   AFGPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            AFG  F PGG E L  L     + G + + E+++S  +   +L  P E  +++++  ANP
+Sbjct  65   AFGGQFGPGGVEGLQALARWAQSSGIQTYRESILSTYDFNRVLREPDEGEIQQLIVSANP  124
+
+Query  121  TDPGIYL  127
+            +D  IYL
+Sbjct  125  SDVNIYL  131
+
+
+> UniRef90_UPI0004817159 hypothetical protein n=1 Tax=Meiothermus 
+chliarophilus TaxID=52023 RepID=UPI0004817159
+Length=139
+
+ Score = 153 bits (388),  Expect = 7e-45, Method: Composition-based stats.
+ Identities = 55/129 (43%), Positives = 75/129 (58%), Gaps = 2/129 (2%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTG-KKDLLV  59
+            +  VG+RAAP+ +LE L+ AL G       V L+TDWQD+R +ARYA+    G K  +L 
+Sbjct  3    LNVVGLRAAPKETLEDLQQALRGASFERLIVTLVTDWQDQRGKARYAVFARGGVKTPVLS  62
+
+Query  60   PDAFGPAFPGGEEALSEL-VGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIA  118
+             DAFGPAF    +      V  L  +G   FYE V+ P E  A+    PE + ++++A A
+Sbjct  63   FDAFGPAFGAASDDALAALVQWLQEKGVTHFYEVVLPPSEYAAVFVEDPEAVYQQLVAAA  122
+
+Query  119  NPTDPGIYL  127
+            NPTDP +YL
+Sbjct  123  NPTDPVLYL  131
+
+
+> UniRef90_UPI000559731F hypothetical protein n=1 Tax=Deinococcus 
+misasensis TaxID=392413 RepID=UPI000559731F
+Length=129
+
+ Score = 153 bits (387),  Expect = 9e-45, Method: Composition-based stats.
+ Identities = 44/127 (35%), Positives = 66/127 (52%), Gaps = 3/127 (2%)
+
+Query  2    VRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVPD  61
+               G   AP+ +L  L          E    ++TD+Q  R+ ARY++L+H  +  +L   
+Sbjct  5    EITGTIGAPKETLALLLE--KSTLGPETMFVVLTDFQGHRNIARYSVLVHNKEASVLSVP  62
+
+Query  62   AFGPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            AFGP +   G EAL ++V   +A G   F E VV+P +   +   P EE LK +++ ANP
+Sbjct  63   AFGPHYGEAGIEALRDVVQSAIASGVTNFKETVVNPYDFQRMTSDPDEEDLKVLLSKANP  122
+
+Query  121  TDPGIYL  127
+            TD  IY+
+Sbjct  123  TDHNIYI  129
+
+
+> UniRef90_K7RFT1 Uncharacterized protein n=2 Tax=Thermus oshimai 
+TaxID=56957 RepID=K7RFT1_THEOS
+Length=129
+
+ Score = 150 bits (380),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 99/126 (79%), Positives = 113/126 (90%), Gaps = 1/126 (1%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M R+G+RAAPR+SLEALK AL GLKL E +VYLITDWQD+RD+ARYALLLH GKKDLL+P
+Sbjct  1    MERIGLRAAPRLSLEALKEALRGLKLPETQVYLITDWQDRRDKARYALLLH-GKKDLLIP  59
+
+Query  61   DAFGPAFPGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            DAFGPAFPGGEEAL+E + LL A GAR+FYEAVV+PGE+TALL LPPEELLKRV A+ANP
+Sbjct  60   DAFGPAFPGGEEALAEAIRLLEAGGARKFYEAVVAPGELTALLSLPPEELLKRVQAVANP  119
+
+Query  121  TDPGIY  126
+             DPG+Y
+Sbjct  120  ADPGLY  125
+
+
+> UniRef90_E4U970 Uncharacterized protein n=1 Tax=Oceanithermus 
+profundus (strain DSM 14977 / NBRC 100410 / VKM B-2274 / 506) 
+TaxID=670487 RepID=E4U970_OCEP5
+Length=129
+
+ Score = 149 bits (376),  Expect = 3e-43, Method: Composition-based stats.
+ Identities = 57/127 (45%), Positives = 73/127 (57%), Gaps = 1/127 (1%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVP  60
+            M R+G +  P  +LE LK  L  L     KV L+TD Q +R++ARY + L  GK  LL  
+Sbjct  1    MERIGFKGLPEETLEQLKPRLKKLHFPSLKVVLVTDRQGRRERARYRVFLVGGKHALLTE  60
+
+Query  61   DAFGPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIAN  119
+            DAFGPA+   GE AL+ELV LL   GA  F EAV+ P    AL  +      +R++A AN
+Sbjct  61   DAFGPAYGEAGERALAELVQLLRKGGAYNFKEAVLPPDVYAALDAMDEAAARERLLANAN  120
+
+Query  120  PTDPGIY  126
+            P DP +Y
+Sbjct  121  PADPRLY  127
+
+
+> UniRef90_UPI000486059E hypothetical protein n=1 Tax=Deinococcus 
+pimensis TaxID=309888 RepID=UPI000486059E
+Length=132
+
+ Score = 147 bits (372),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 44/127 (35%), Positives = 64/127 (50%), Gaps = 1/127 (1%)
+
+Query  2    VRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVPD  61
+              +G+  AP  +L  L+AA+G   L+   + L+TD Q +R +  Y  LL    +  L   
+Sbjct  5    DPLGVVGAPLETLAELRAAVGDRSLAGGTLVLVTDRQGERGRGAYGALLWVDAQLWLTVA  64
+
+Query  62   AFGPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            +FGP F   G  ALS+LV      G     E VV   +   +L  P E  L+ V+A +NP
+Sbjct  65   SFGPRFGEDGARALSDLVRWAGEGGITAIRETVVPVPQFNRVLREPDEAELRAVIAASNP  124
+
+Query  121  TDPGIYL  127
+            +D GIY+
+Sbjct  125  SDAGIYV  131
+
+
+> UniRef90_A0A072N769 Uncharacterized protein n=1 Tax=Deinococcus 
+sp. RL TaxID=1489678 RepID=A0A072N769_9DEIO
+Length=137
+
+ Score = 147 bits (371),  Expect = 3e-42, Method: Composition-based stats.
+ Identities = 46/126 (37%), Positives = 71/126 (56%), Gaps = 2/126 (2%)
+
+Query  2    VRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVPD  61
+              +G+  AP  +   L A L       A +YLI+D Q +RD ARYA L+  G + ++   
+Sbjct  5    DPLGLPGAPLETHRELMALLAAQGEGPATLYLISDGQAERDAARYAALVTWGDEAVVTVP  64
+
+Query  62   AFGPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANP  120
+            A+GPA+ P G +AL+ELV    A+G     E V++P ++  +L  P  E + R+ A +NP
+Sbjct  65   AYGPAYGPAGAKALAELVAWTQARG-WPVRETVLNPSDLVRVLAEPDAEEVARLTAASNP  123
+
+Query  121  TDPGIY  126
+            +DP +Y
+Sbjct  124  SDPRLY  129
+
+
+> UniRef90_Q1IWR9 Uncharacterized protein n=2 Tax=Deinococcus geothermalis 
+TaxID=68909 RepID=Q1IWR9_DEIGD
+Length=128
+
+ Score = 145 bits (365),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 43/114 (38%), Positives = 67/114 (59%), Gaps = 2/114 (2%)
+
+Query  14   LEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGKKDLLVPDAFGPAF-PGGEE  72
+            ++A+ A L  ++  E ++ LITD +D+R QARY  LL  G + L+   AFGPA+ P G  
+Sbjct  1    MQAVLAHLEKIEAPEGRLVLITDREDERLQARYGALLTFGGEALVTAPAFGPAYGPEGAR  60
+
+Query  73   ALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIANPTDPGIY  126
+            AL+EL      +G     E V+S  +   +L  P  + ++R++A +NP+DP IY
+Sbjct  61   ALAELTRWAQERG-WPVRETVLSASDFVRVLAEPDADEVRRLLAASNPSDPAIY  113
+
+
+> UniRef90_E6RGA2 Uncharacterized protein n=1 Tax=Deinococcus deserti 
+(strain VCD115 / DSM 17065 / LMG 22923) TaxID=546414 
+RepID=E6RGA2_DEIDV
+Length=147
+
+ Score = 141 bits (355),  Expect = 9e-40, Method: Composition-based stats.
+ Identities = 49/128 (38%), Positives = 72/128 (56%), Gaps = 3/128 (2%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARY-ALLLHTGKKDLLV  59
+            +  +G+  AP  +L A  +    L L+  ++ L+TDWQ  R  ARY A+LL    + L++
+Sbjct  4    LDPLGVPGAPLETLNAALSGAQTLNLNGGRLLLVTDWQGHRPLARYGAVLLPASGEPLVL  63
+
+Query  60   PDAFGPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMAIA  118
+               FGP F P G +AL+ELV     QG     E V+SP     +L+ P  E ++ ++A +
+Sbjct  64   TATFGPRFGPTGAQALAELVTWAQEQGLV-LRETVLSPSAFMQVLEEPDHEEIRHLVAAS  122
+
+Query  119  NPTDPGIY  126
+            NPTDPGIY
+Sbjct  123  NPTDPGIY  130
+
+
+> UniRef90_UPI0003463076 hypothetical protein n=1 Tax=Deinococcus 
+wulumuqiensis TaxID=980427 RepID=UPI0003463076
+Length=146
+
+ Score = 139 bits (351),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 43/130 (33%), Positives = 69/130 (53%), Gaps = 6/130 (5%)
+
+Query  2    VRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTG----KKDL  57
+              +G+ AAP  + +A++  L    L+ A++ LITD Q +R QA YA L+  G    +  +
+Sbjct  5    DPLGVPAAPLETWQAMQTRLDDADLTGARLILITDRQGERSQAGYAALVLLGQGPQETAV  64
+
+Query  58   LVPDAFGPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMA  116
+            +   AFGP +   G  AL+ELV      G     E ++S G++  +L  P  + +  ++A
+Sbjct  65   ISAPAFGPRYGAAGRAALAELVNWADGAGL-PTAETILSGGDVQRVLAEPDADEVANLIA  123
+
+Query  117  IANPTDPGIY  126
+             +NP DP IY
+Sbjct  124  ASNPADPAIY  133
+
+
+> UniRef90_UPI0003B60A8C hypothetical protein n=2 Tax=Deinococcus 
+TaxID=1298 RepID=UPI0003B60A8C
+Length=144
+
+ Score = 136 bits (342),  Expect = 8e-38, Method: Composition-based stats.
+ Identities = 35/135 (26%), Positives = 64/135 (47%), Gaps = 10/135 (7%)
+
+Query  1    MVRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLH--------T  52
+            +  +G+  A   +L  +++   G+ L    + ++TD Q  R+ ARY  ++          
+Sbjct  4    VDPIGLPGASLETLNEVRSRFQGVDLQGGHLLMVTDTQGHREGARYGAVVVPPASAQGLG  63
+
+Query  53   GKKDLLVPDAFGPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELL  111
+              + +++  +FGP F   G+EAL+ L       G     E V+  G+   +L+ P    +
+Sbjct  64   VDRAVVISPSFGPRFGAAGQEALAGLADWAAGAGLV-LRETVLPAGDFVRVLEEPDTREV  122
+
+Query  112  KRVMAIANPTDPGIY  126
+             R++A +NP D GIY
+Sbjct  123  NRLVAASNPVDAGIY  137
+
+
+> UniRef90_Q9RVX1 Uncharacterized protein n=2 Tax=Deinococcus radiodurans 
+TaxID=1299 RepID=Q9RVX1_DEIRA
+Length=149
+
+ Score = 135 bits (340),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 44/130 (34%), Positives = 68/130 (52%), Gaps = 6/130 (5%)
+
+Query  2    VRVGMRAAPRVSLEALKAALGGLKLSEAKVYLITDWQDKRDQARYALLLHTGK----KDL  57
+              +G+ AAP  + +A++A L    L+ A++ LITD Q +R  A YA L+  G+    + +
+Sbjct  9    DPLGVPAAPLETWQAMQARLNDADLTGARLILITDRQGERPWAGYAALVTLGRGAAEEAI  68
+
+Query  58   LVPDAFGPAF-PGGEEALSELVGLLLAQGARRFYEAVVSPGEMTALLDLPPEELLKRVMA  116
+            L   AFGP +   G  AL+ELV    + G R   E ++  G+   +L  P    +  ++A
+Sbjct  69   LSAPAFGPRYGAAGAAALAELVRWADSAGIRPT-ETILGSGDFQRVLAEPDAGEVAALIA  127
+
+Query  117  IANPTDPGIY  126
+              NP DP IY
+Sbjct  128  ATNPADPAIY  137
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.153    0.465    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0473    0.140     1.90     42.6     43.6 
+
+Effective search space used: 441033908530
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,2220 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1v8ca2
+
+Length=78
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q5SLZ2 Molybdopterin converting factor, subunit 1 (Moa...  152     1e-44
+  UniRef90_H7GDY8 Molybdopterin converting factor n=2 Tax=Thermus...  119     6e-32
+  UniRef90_A0A1J0LTY2 Molybdopterin converting factor subunit 1 M...  111     7e-29
+  UniRef90_UPI00056E49A3 molybdopterin converting factor n=1 Tax=...  103     1e-25
+  UniRef90_UPI00056DAAF4 molybdopterin converting factor n=1 Tax=...  99.4    4e-24
+  UniRef90_A0A0B0S6C4 Molybdopterin converting factor n=1 Tax=The...  91.3    5e-21
+  UniRef90_A0A0N1KQN3 Molybdopterin converting factor n=6 Tax=The...  91.3    5e-21
+  UniRef90_A0A0A2WX45 Molybdopterin converting factor n=1 Tax=The...  87.0    2e-19
+  UniRef90_K7QW71 MoaD family protein n=2 Tax=Thermus oshimai Tax...  87.0    2e-19
+  UniRef90_UPI00056EFA91 molybdopterin converting factor n=1 Tax=...  83.6    4e-18
+  UniRef90_A0A0N0BLE3 Sulfur carrier protein CysO n=2 Tax=Thermus...  81.3    3e-17
+  UniRef90_E4U9C5 Molybdopterin synthase subunit MoaD n=1 Tax=Oce...  61.6    5e-10
+  UniRef90_A0A0S7BH08 Uncharacterized protein n=1 Tax=Longilinea ...  43.5    8e-04
+  UniRef90_A0A1F8TTB0 Uncharacterized protein n=2 Tax=Chloroflexi...  43.1    0.001
+  UniRef90_A0A1F8KQ89 Uncharacterized protein n=1 Tax=Chloroflexi...  42.0    0.002
+  UniRef90_UPI0005ADFAE3 UPI0005ADFAE3 related cluster n=1 Tax=un...  40.8    0.006
+
+
+> UniRef90_Q5SLZ2 Molybdopterin converting factor, subunit 1 (MoaD) 
+n=8 Tax=Thermus thermophilus TaxID=274 RepID=Q5SLZ2_THET8
+Length=169
+
+ Score = 152 bits (383),  Expect = 1e-44, Method: Compositional matrix adjust.
+ Identities = 78/78 (100%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  1    GFERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEV  60
+            GFERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEV
+Sbjct  89   GFERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEV  148
+
+Query  61   EGEEAERWFERIAFAASR  78
+            EGEEAERWFERIAFAASR
+Sbjct  149  EGEEAERWFERIAFAASR  166
+
+
+> UniRef90_H7GDY8 Molybdopterin converting factor n=2 Tax=Thermus 
+TaxID=270 RepID=H7GDY8_9DEIN
+Length=169
+
+ Score = 119 bits (299),  Expect = 6e-32, Method: Compositional matrix adjust.
+ Identities = 61/78 (78%), Positives = 64/78 (82%), Gaps = 0/78 (0%)
+
+Query  1    GFERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEV  60
+            G E  FGA PPWLLE YL EWGG +  +G Y LPGA VRFREVEPLKVGSLSIPQL VEV
+Sbjct  89   GLEGRFGALPPWLLEHYLTEWGGRKLADGTYTLPGARVRFREVEPLKVGSLSIPQLFVEV  148
+
+Query  61   EGEEAERWFERIAFAASR  78
+            EGEEAE+WFERIA AASR
+Sbjct  149  EGEEAEKWFERIALAASR  166
+
+
+> UniRef90_A0A1J0LTY2 Molybdopterin converting factor subunit 1 
+MoaD n=1 Tax=Thermus brockianus TaxID=56956 RepID=A0A1J0LTY2_THEBO
+Length=169
+
+ Score = 111 bits (278),  Expect = 7e-29, Method: Compositional matrix adjust.
+ Identities = 58/76 (76%), Positives = 61/76 (80%), Gaps = 0/76 (0%)
+
+Query  3    ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEG  62
+            E TFGA PPWLLE YL  WGG + GEG Y LPGA+VRF E EPL+VGSLSIPQL V VEG
+Sbjct  91   EATFGALPPWLLEEYLVSWGGRKLGEGHYALPGAMVRFAEAEPLRVGSLSIPQLWVGVEG  150
+
+Query  63   EEAERWFERIAFAASR  78
+            EEAE WF RIAFAASR
+Sbjct  151  EEAEAWFNRIAFAASR  166
+
+
+> UniRef90_UPI00056E49A3 molybdopterin converting factor n=1 Tax=Thermus 
+caliditerrae TaxID=1330700 RepID=UPI00056E49A3
+Length=169
+
+ Score = 103 bits (257),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 52/78 (67%), Positives = 59/78 (76%), Gaps = 0/78 (0%)
+
+Query  1    GFERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEV  60
+            G E  FGA PPWLLERYL EWGG +EGE  Y LPGA VRF E EPL+ GSL +PQL V+V
+Sbjct  89   GLEGRFGALPPWLLERYLAEWGGRKEGEDTYALPGARVRFAEAEPLRAGSLVVPQLFVQV  148
+
+Query  61   EGEEAERWFERIAFAASR  78
+            EGE+A+ W+ RI  AASR
+Sbjct  149  EGEKAQAWWARILLAASR  166
+
+
+> UniRef90_UPI00056DAAF4 molybdopterin converting factor n=1 Tax=Thermus 
+tengchongensis TaxID=1214928 RepID=UPI00056DAAF4
+Length=169
+
+ Score = 99.4 bits (246),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 50/77 (65%), Positives = 58/77 (75%), Gaps = 0/77 (0%)
+
+Query  2    FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+            F + FGA P WLLERYL EWGG +  EGVY LPGA V F E EPL+VGSL +PQL V+VE
+Sbjct  90   FAQRFGALPAWLLERYLSEWGGRKLEEGVYALPGARVHFAEAEPLRVGSLVVPQLLVQVE  149
+
+Query  62   GEEAERWFERIAFAASR  78
+            GE+A+ W+ RI  AASR
+Sbjct  150  GEKAQAWWARILLAASR  166
+
+
+> UniRef90_A0A0B0S6C4 Molybdopterin converting factor n=1 Tax=Thermus 
+sp. 2.9 TaxID=1577051 RepID=A0A0B0S6C4_9DEIN
+Length=169
+
+ Score = 91.3 bits (225),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 57/77 (74%), Positives = 59/77 (77%), Gaps = 0/77 (0%)
+
+Query  2    FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+              R FGAFP WLLE YL  WGG R  EG+Y LPGA VRF E EPLKVGSLS+PQL VEVE
+Sbjct  90   LTRNFGAFPAWLLEEYLASWGGKRPEEGLYALPGAKVRFAEAEPLKVGSLSVPQLWVEVE  149
+
+Query  62   GEEAERWFERIAFAASR  78
+            GEEAE WF RI FAASR
+Sbjct  150  GEEAEAWFNRIVFAASR  166
+
+
+> UniRef90_A0A0N1KQN3 Molybdopterin converting factor n=6 Tax=Thermus 
+TaxID=270 RepID=A0A0N1KQN3_THESC
+Length=169
+
+ Score = 91.3 bits (225),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 55/77 (71%), Positives = 62/77 (81%), Gaps = 0/77 (0%)
+
+Query  2    FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+            F + FGA P WLLERYL EWGG +  EGVY LPGA VRF E EPL+VGSLS+PQL+VEVE
+Sbjct  90   FAQRFGALPAWLLERYLSEWGGRKLEEGVYALPGARVRFAEAEPLRVGSLSLPQLQVEVE  149
+
+Query  62   GEEAERWFERIAFAASR  78
+            GEEAE WF+RI  AA+R
+Sbjct  150  GEEAEAWFQRIQLAAAR  166
+
+
+> UniRef90_A0A0A2WX45 Molybdopterin converting factor n=1 Tax=Thermus 
+filiformis TaxID=276 RepID=A0A0A2WX45_THEFI
+Length=169
+
+ Score = 87.0 bits (214),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 46/77 (60%), Positives = 56/77 (73%), Gaps = 1/77 (1%)
+
+Query  2    FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+            F R +GA  PWLLE YL+  G  +EGE V+ LPGA VRFRE+ P +VGSL +PQL VEVE
+Sbjct  91   FRRVYGALRPWLLEAYLKGLGARKEGE-VFHLPGARVRFRELPPHRVGSLEVPQLEVEVE  149
+
+Query  62   GEEAERWFERIAFAASR  78
+            G EA RWFE++   A+R
+Sbjct  150  GPEALRWFEKLELYAAR  166
+
+
+> UniRef90_K7QW71 MoaD family protein n=2 Tax=Thermus oshimai TaxID=56957 
+RepID=K7QW71_THEOS
+Length=170
+
+ Score = 87.0 bits (214),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 53/77 (69%), Positives = 59/77 (77%), Gaps = 0/77 (0%)
+
+Query  2    FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+            F + +G  P WLLE YL  WGG +EGEGVYRL GA VRF EVEPL+VG LS+P+LRVEVE
+Sbjct  91   FRQDYGGLPAWLLEEYLRSWGGAKEGEGVYRLKGAWVRFFEVEPLQVGRLSVPRLRVEVE  150
+
+Query  62   GEEAERWFERIAFAASR  78
+            GEE E W  RIA AASR
+Sbjct  151  GEEGEAWAGRIALAASR  167
+
+
+> UniRef90_UPI00056EFA91 molybdopterin converting factor n=1 Tax=Thermus 
+amyloliquefaciens TaxID=1449080 RepID=UPI00056EFA91
+Length=169
+
+ Score = 83.6 bits (205),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 53/73 (73%), Positives = 57/73 (78%), Gaps = 0/73 (0%)
+
+Query  6    FGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGEEA  65
+            FGA PPWLL RYL EWGGTR  EG Y LPGA VRFRE  PL+ GSLS+ QL VEVEGEEA
+Sbjct  94   FGALPPWLLARYLLEWGGTRLDEGAYALPGATVRFREEAPLRAGSLSVRQLWVEVEGEEA  153
+
+Query  66   ERWFERIAFAASR  78
+            E WF+RI  AA+R
+Sbjct  154  EAWFQRIGLAAAR  166
+
+
+> UniRef90_A0A0N0BLE3 Sulfur carrier protein CysO n=2 Tax=Thermus 
+aquaticus TaxID=271 RepID=A0A0N0BLE3_THEAQ
+Length=170
+
+ Score = 81.3 bits (199),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 51/71 (72%), Positives = 56/71 (79%), Gaps = 0/71 (0%)
+
+Query  8    AFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGEEAER  67
+            A PPWL E YL  WGG +E EGV+RLPGA VRF E  PL+VGSL IP+LRVEVEGEEAE 
+Sbjct  97   ALPPWLFEAYLRSWGGEKEAEGVFRLPGARVRFAEAPPLEVGSLRIPRLRVEVEGEEAEA  156
+
+Query  68   WFERIAFAASR  78
+            W+ RIA AASR
+Sbjct  157  WWGRIALAASR  167
+
+
+> UniRef90_E4U9C5 Molybdopterin synthase subunit MoaD n=1 Tax=Oceanithermus 
+profundus (strain DSM 14977 / NBRC 100410 / VKM 
+B-2274 / 506) TaxID=670487 RepID=E4U9C5_OCEP5
+Length=179
+
+ Score = 61.6 bits (148),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 35/73 (48%), Positives = 41/73 (56%), Gaps = 1/73 (1%)
+
+Query  6    FGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGEEA  65
+             G   PWLL  YL  WG     +G +R+ GA VRFR + P  VG L   +L VEV G EA
+Sbjct  105  LGGVSPWLLADYLRRWGAVEADDG-WRVDGAWVRFRALPPRVVGGLRTSRLEVEVGGAEA  163
+
+Query  66   ERWFERIAFAASR  78
+             RW ERI+  A R
+Sbjct  164  RRWAERISVGAMR  176
+
+
+> UniRef90_A0A0S7BH08 Uncharacterized protein n=1 Tax=Longilinea 
+arvoryzae TaxID=360412 RepID=A0A0S7BH08_9CHLR
+Length=85
+
+ Score = 43.5 bits (101),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 23/63 (37%), Positives = 33/63 (52%), Gaps = 0/63 (0%)
+
+Query  3   ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEG  62
+            R   A P WL+  YL E GG  + +G     G   R  ++E   +GSL + Q+R+E + 
+Sbjct  5   NRELRALPLWLMRDYLLELGGVEKPDGSIEGDGWQARLTQLEDFSIGSLKVGQIRLEWQA  64
+
+Query  63  EEA  65
+           EEA
+Sbjct  65  EEA  67
+
+
+> UniRef90_A0A1F8TTB0 Uncharacterized protein n=2 Tax=Chloroflexi 
+TaxID=200795 RepID=A0A1F8TTB0_9CHLR
+Length=85
+
+ Score = 43.1 bits (100),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 26/66 (39%), Positives = 38/66 (58%), Gaps = 2/66 (3%)
+
+Query  8   AFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGEE--A  65
+             P +LL+ YL+E GGT   E   +  G  VR   +EP ++GSL + Q R+ VE E+  A
+Sbjct  10  GIPYFLLKEYLQEMGGTLIEENFLQGDGWSVRLERMEPFRLGSLEVGQTRLTVEMEDQVA  69
+
+Query  66  ERWFER  71
+           + + ER
+Sbjct  70  DDFIER  75
+
+
+> UniRef90_A0A1F8KQ89 Uncharacterized protein n=1 Tax=Chloroflexi 
+bacterium GWB2_49_20 TaxID=1797612 RepID=A0A1F8KQ89_9CHLR
+Length=85
+
+ Score = 42.0 bits (97),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 22/57 (39%), Positives = 33/57 (58%), Gaps = 0/57 (0%)
+
+Query  8   AFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGEE  64
+             P +LL+ YL+E GG+   E + R  G  V    +EP ++GSL + Q R+ +E EE
+Sbjct  10  GIPYYLLKEYLQELGGSLVDENLVRGDGWSVHLESMEPFRLGSLEVGQTRLTMELEE  66
+
+
+> UniRef90_UPI0005ADFAE3 UPI0005ADFAE3 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0005ADFAE3
+Length=88
+
+ Score = 40.8 bits (94),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 21/64 (33%), Positives = 34/64 (53%), Gaps = 0/64 (0%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+           F+      P WL+  YLEE GG    +G     G      +++  ++G +S+ QLR+E+ 
+Sbjct  6   FDAPIRGVPLWLMREYLEEAGGRALPDGSVAGDGWRATITQLDDFRIGKISVGQLRLELS  65
+
+Query  62  GEEA  65
+           G+EA
+Sbjct  66  GDEA  69
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.142    0.446    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 443331707685
+Results from round 2
+
+
+Query= d1v8ca2
+
+Length=78
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_Q5SLZ2 Molybdopterin converting factor, subunit 1 (Moa...  112     3e-29
+  UniRef90_H7GDY8 Molybdopterin converting factor n=2 Tax=Thermus...  112     4e-29
+  UniRef90_A0A1J0LTY2 Molybdopterin converting factor subunit 1 M...  106     5e-27
+  UniRef90_UPI00056E49A3 molybdopterin converting factor n=1 Tax=...  105     2e-26
+  UniRef90_UPI00056DAAF4 molybdopterin converting factor n=1 Tax=...  105     2e-26
+  UniRef90_A0A0A2WX45 Molybdopterin converting factor n=1 Tax=The...  93.1    1e-21
+  UniRef90_A0A0N1KQN3 Molybdopterin converting factor n=6 Tax=The...  93.1    1e-21
+  UniRef90_K7QW71 MoaD family protein n=2 Tax=Thermus oshimai Tax...  88.1    7e-20
+  UniRef90_A0A0B0S6C4 Molybdopterin converting factor n=1 Tax=The...  88.1    8e-20
+  UniRef90_E4U9C5 Molybdopterin synthase subunit MoaD n=1 Tax=Oce...  84.6    2e-18
+  UniRef90_A0A0N0BLE3 Sulfur carrier protein CysO n=2 Tax=Thermus...  82.7    1e-17
+  UniRef90_UPI00056EFA91 molybdopterin converting factor n=1 Tax=...  81.2    4e-17
+  UniRef90_A0A1F8TTB0 Uncharacterized protein n=2 Tax=Chloroflexi...  78.1    1e-16
+  UniRef90_A0A0S7BH08 Uncharacterized protein n=1 Tax=Longilinea ...  72.7    1e-14
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A1F8KQ89 Uncharacterized protein n=1 Tax=Chloroflexi...  69.2    3e-13
+  UniRef90_A0A1J4ZPE5 Uncharacterized protein n=1 Tax=Anaerolinea...  66.9    2e-12
+  UniRef90_UPI0005ADFAE3 UPI0005ADFAE3 related cluster n=1 Tax=un...  64.6    1e-11
+  UniRef90_A0A1F8QMW7 Uncharacterized protein n=1 Tax=Chloroflexi...  56.1    2e-08
+  UniRef90_I0I9D0 Uncharacterized protein n=1 Tax=Caldilinea aero...  53.8    1e-07
+  UniRef90_A0A0S7BK52 Uncharacterized protein n=1 Tax=Longilinea ...  53.0    3e-07
+  UniRef90_A0A1J5ACU7 Uncharacterized protein n=1 Tax=Anaerolinea...  45.7    1e-04
+  UniRef90_G7W7J9 Uncharacterized protein n=1 Tax=Desulfosporosin...  43.0    0.001
+  UniRef90_UPI000478BD38 hypothetical protein n=1 Tax=Alkaliphilu...  41.9    0.003
+  UniRef90_V4XZJ7 MoaD family protein, archaeal n=1 Tax=unculture...  43.4    0.003
+  UniRef90_UPI00094CE3CC UPI00094CE3CC related cluster n=1 Tax=un...  41.9    0.003
+  UniRef90_UPI000910A3AA UPI000910A3AA related cluster n=1 Tax=un...  40.7    0.007
+
+
+> UniRef90_Q5SLZ2 Molybdopterin converting factor, subunit 1 (MoaD) 
+n=8 Tax=Thermus thermophilus TaxID=274 RepID=Q5SLZ2_THET8
+Length=169
+
+ Score = 112 bits (281),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 78/78 (100%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  1    GFERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEV  60
+            GFERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEV
+Sbjct  89   GFERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEV  148
+
+Query  61   EGEEAERWFERIAFAASR  78
+            EGEEAERWFERIAFAASR
+Sbjct  149  EGEEAERWFERIAFAASR  166
+
+
+> UniRef90_H7GDY8 Molybdopterin converting factor n=2 Tax=Thermus 
+TaxID=270 RepID=H7GDY8_9DEIN
+Length=169
+
+ Score = 112 bits (280),  Expect = 4e-29, Method: Composition-based stats.
+ Identities = 61/78 (78%), Positives = 64/78 (82%), Gaps = 0/78 (0%)
+
+Query  1    GFERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEV  60
+            G E  FGA PPWLLE YL EWGG +  +G Y LPGA VRFREVEPLKVGSLSIPQL VEV
+Sbjct  89   GLEGRFGALPPWLLEHYLTEWGGRKLADGTYTLPGARVRFREVEPLKVGSLSIPQLFVEV  148
+
+Query  61   EGEEAERWFERIAFAASR  78
+            EGEEAE+WFERIA AASR
+Sbjct  149  EGEEAEKWFERIALAASR  166
+
+
+> UniRef90_A0A1J0LTY2 Molybdopterin converting factor subunit 1 
+MoaD n=1 Tax=Thermus brockianus TaxID=56956 RepID=A0A1J0LTY2_THEBO
+Length=169
+
+ Score = 106 bits (266),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 58/76 (76%), Positives = 61/76 (80%), Gaps = 0/76 (0%)
+
+Query  3    ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEG  62
+            E TFGA PPWLLE YL  WGG + GEG Y LPGA+VRF E EPL+VGSLSIPQL V VEG
+Sbjct  91   EATFGALPPWLLEEYLVSWGGRKLGEGHYALPGAMVRFAEAEPLRVGSLSIPQLWVGVEG  150
+
+Query  63   EEAERWFERIAFAASR  78
+            EEAE WF RIAFAASR
+Sbjct  151  EEAEAWFNRIAFAASR  166
+
+
+> UniRef90_UPI00056E49A3 molybdopterin converting factor n=1 Tax=Thermus 
+caliditerrae TaxID=1330700 RepID=UPI00056E49A3
+Length=169
+
+ Score = 105 bits (262),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 52/78 (67%), Positives = 59/78 (76%), Gaps = 0/78 (0%)
+
+Query  1    GFERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEV  60
+            G E  FGA PPWLLERYL EWGG +EGE  Y LPGA VRF E EPL+ GSL +PQL V+V
+Sbjct  89   GLEGRFGALPPWLLERYLAEWGGRKEGEDTYALPGARVRFAEAEPLRAGSLVVPQLFVQV  148
+
+Query  61   EGEEAERWFERIAFAASR  78
+            EGE+A+ W+ RI  AASR
+Sbjct  149  EGEKAQAWWARILLAASR  166
+
+
+> UniRef90_UPI00056DAAF4 molybdopterin converting factor n=1 Tax=Thermus 
+tengchongensis TaxID=1214928 RepID=UPI00056DAAF4
+Length=169
+
+ Score = 105 bits (262),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 50/77 (65%), Positives = 58/77 (75%), Gaps = 0/77 (0%)
+
+Query  2    FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+            F + FGA P WLLERYL EWGG +  EGVY LPGA V F E EPL+VGSL +PQL V+VE
+Sbjct  90   FAQRFGALPAWLLERYLSEWGGRKLEEGVYALPGARVHFAEAEPLRVGSLVVPQLLVQVE  149
+
+Query  62   GEEAERWFERIAFAASR  78
+            GE+A+ W+ RI  AASR
+Sbjct  150  GEKAQAWWARILLAASR  166
+
+
+> UniRef90_A0A0A2WX45 Molybdopterin converting factor n=1 Tax=Thermus 
+filiformis TaxID=276 RepID=A0A0A2WX45_THEFI
+Length=169
+
+ Score = 93.1 bits (230),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 46/77 (60%), Positives = 56/77 (73%), Gaps = 1/77 (1%)
+
+Query  2    FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+            F R +GA  PWLLE YL+  G  +EGE V+ LPGA VRFRE+ P +VGSL +PQL VEVE
+Sbjct  91   FRRVYGALRPWLLEAYLKGLGARKEGE-VFHLPGARVRFRELPPHRVGSLEVPQLEVEVE  149
+
+Query  62   GEEAERWFERIAFAASR  78
+            G EA RWFE++   A+R
+Sbjct  150  GPEALRWFEKLELYAAR  166
+
+
+> UniRef90_A0A0N1KQN3 Molybdopterin converting factor n=6 Tax=Thermus 
+TaxID=270 RepID=A0A0N1KQN3_THESC
+Length=169
+
+ Score = 93.1 bits (230),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 55/77 (71%), Positives = 62/77 (81%), Gaps = 0/77 (0%)
+
+Query  2    FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+            F + FGA P WLLERYL EWGG +  EGVY LPGA VRF E EPL+VGSLS+PQL+VEVE
+Sbjct  90   FAQRFGALPAWLLERYLSEWGGRKLEEGVYALPGARVRFAEAEPLRVGSLSLPQLQVEVE  149
+
+Query  62   GEEAERWFERIAFAASR  78
+            GEEAE WF+RI  AA+R
+Sbjct  150  GEEAEAWFQRIQLAAAR  166
+
+
+> UniRef90_K7QW71 MoaD family protein n=2 Tax=Thermus oshimai TaxID=56957 
+RepID=K7QW71_THEOS
+Length=170
+
+ Score = 88.1 bits (217),  Expect = 7e-20, Method: Composition-based stats.
+ Identities = 53/77 (69%), Positives = 59/77 (77%), Gaps = 0/77 (0%)
+
+Query  2    FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+            F + +G  P WLLE YL  WGG +EGEGVYRL GA VRF EVEPL+VG LS+P+LRVEVE
+Sbjct  91   FRQDYGGLPAWLLEEYLRSWGGAKEGEGVYRLKGAWVRFFEVEPLQVGRLSVPRLRVEVE  150
+
+Query  62   GEEAERWFERIAFAASR  78
+            GEE E W  RIA AASR
+Sbjct  151  GEEGEAWAGRIALAASR  167
+
+
+> UniRef90_A0A0B0S6C4 Molybdopterin converting factor n=1 Tax=Thermus 
+sp. 2.9 TaxID=1577051 RepID=A0A0B0S6C4_9DEIN
+Length=169
+
+ Score = 88.1 bits (217),  Expect = 8e-20, Method: Composition-based stats.
+ Identities = 57/78 (73%), Positives = 59/78 (76%), Gaps = 0/78 (0%)
+
+Query  1    GFERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEV  60
+               R FGAFP WLLE YL  WGG R  EG+Y LPGA VRF E EPLKVGSLS+PQL VEV
+Sbjct  89   ALTRNFGAFPAWLLEEYLASWGGKRPEEGLYALPGAKVRFAEAEPLKVGSLSVPQLWVEV  148
+
+Query  61   EGEEAERWFERIAFAASR  78
+            EGEEAE WF RI FAASR
+Sbjct  149  EGEEAEAWFNRIVFAASR  166
+
+
+> UniRef90_E4U9C5 Molybdopterin synthase subunit MoaD n=1 Tax=Oceanithermus 
+profundus (strain DSM 14977 / NBRC 100410 / VKM 
+B-2274 / 506) TaxID=670487 RepID=E4U9C5_OCEP5
+Length=179
+
+ Score = 84.6 bits (208),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 35/77 (45%), Positives = 42/77 (55%), Gaps = 1/77 (1%)
+
+Query  2    FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+            +    G   PWLL  YL  WG     +G +R+ GA VRFR + P  VG L   +L VEV 
+Sbjct  101  WRAELGGVSPWLLADYLRRWGAVEADDG-WRVDGAWVRFRALPPRVVGGLRTSRLEVEVG  159
+
+Query  62   GEEAERWFERIAFAASR  78
+            G EA RW ERI+  A R
+Sbjct  160  GAEARRWAERISVGAMR  176
+
+
+> UniRef90_A0A0N0BLE3 Sulfur carrier protein CysO n=2 Tax=Thermus 
+aquaticus TaxID=271 RepID=A0A0N0BLE3_THEAQ
+Length=170
+
+ Score = 82.7 bits (203),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 51/71 (72%), Positives = 56/71 (79%), Gaps = 0/71 (0%)
+
+Query  8    AFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGEEAER  67
+            A PPWL E YL  WGG +E EGV+RLPGA VRF E  PL+VGSL IP+LRVEVEGEEAE 
+Sbjct  97   ALPPWLFEAYLRSWGGEKEAEGVFRLPGARVRFAEAPPLEVGSLRIPRLRVEVEGEEAEA  156
+
+Query  68   WFERIAFAASR  78
+            W+ RIA AASR
+Sbjct  157  WWGRIALAASR  167
+
+
+> UniRef90_UPI00056EFA91 molybdopterin converting factor n=1 Tax=Thermus 
+amyloliquefaciens TaxID=1449080 RepID=UPI00056EFA91
+Length=169
+
+ Score = 81.2 bits (199),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 53/78 (68%), Positives = 58/78 (74%), Gaps = 0/78 (0%)
+
+Query  1    GFERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEV  60
+               + FGA PPWLL RYL EWGGTR  EG Y LPGA VRFRE  PL+ GSLS+ QL VEV
+Sbjct  89   ALAQRFGALPPWLLARYLLEWGGTRLDEGAYALPGATVRFREEAPLRAGSLSVRQLWVEV  148
+
+Query  61   EGEEAERWFERIAFAASR  78
+            EGEEAE WF+RI  AA+R
+Sbjct  149  EGEEAEAWFQRIGLAAAR  166
+
+
+> UniRef90_A0A1F8TTB0 Uncharacterized protein n=2 Tax=Chloroflexi 
+TaxID=200795 RepID=A0A1F8TTB0_9CHLR
+Length=85
+
+ Score = 78.1 bits (191),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 27/76 (36%), Positives = 39/76 (51%), Gaps = 2/76 (3%)
+
+Query  5   TFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGEE  64
+                P +LL+ YL+E GGT   E   +  G  VR   +EP ++GSL + Q R+ VE E+
+Sbjct  7   EMRGIPYFLLKEYLQEMGGTLIEENFLQGDGWSVRLERMEPFRLGSLEVGQTRLTVEMED  66
+
+Query  65  --AERWFERIAFAASR  78
+             A+ + ER      R
+Sbjct  67  QVADDFIERFQKKTLR  82
+
+
+> UniRef90_A0A0S7BH08 Uncharacterized protein n=1 Tax=Longilinea 
+arvoryzae TaxID=360412 RepID=A0A0S7BH08_9CHLR
+Length=85
+
+ Score = 72.7 bits (177),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 23/63 (37%), Positives = 33/63 (52%), Gaps = 0/63 (0%)
+
+Query  3   ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEG  62
+            R   A P WL+  YL E GG  + +G     G   R  ++E   +GSL + Q+R+E + 
+Sbjct  5   NRELRALPLWLMRDYLLELGGVEKPDGSIEGDGWQARLTQLEDFSIGSLKVGQIRLEWQA  64
+
+Query  63  EEA  65
+           EEA
+Sbjct  65  EEA  67
+
+
+> UniRef90_A0A1F8KQ89 Uncharacterized protein n=1 Tax=Chloroflexi 
+bacterium GWB2_49_20 TaxID=1797612 RepID=A0A1F8KQ89_9CHLR
+Length=85
+
+ Score = 69.2 bits (168),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 25/69 (36%), Positives = 38/69 (55%), Gaps = 2/69 (3%)
+
+Query  5   TFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGEE  64
+                P +LL+ YL+E GG+   E + R  G  V    +EP ++GSL + Q R+ +E EE
+Sbjct  7   EMRGIPYYLLKEYLQELGGSLVDENLVRGDGWSVHLESMEPFRLGSLEVGQTRLTMELEE  66
+
+Query  65  --AERWFER  71
+             AE + +R
+Sbjct  67  RIAEDFQQR  75
+
+
+> UniRef90_A0A1J4ZPE5 Uncharacterized protein n=1 Tax=Anaerolineae 
+bacterium CG2_30_57_67 TaxID=1805003 RepID=A0A1J4ZPE5_9CHLR
+Length=85
+
+ Score = 66.9 bits (162),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 25/77 (32%), Positives = 37/77 (48%), Gaps = 2/77 (3%)
+
+Query  4   RTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGE  63
+           R     P +LL+ YL+E GGT   E +    G  VR   + P ++GSL + Q R+ +E  
+Sbjct  6   REMRGIPYFLLKEYLQELGGTALAENLIAGEGWRVRLERMTPFRLGSLEVGQTRLTMEIR  65
+
+Query  64  EA--ERWFERIAFAASR  78
+           E   + +  R A    R
+Sbjct  66  EEIFDDFMARFALKTLR  82
+
+
+> UniRef90_UPI0005ADFAE3 UPI0005ADFAE3 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0005ADFAE3
+Length=88
+
+ Score = 64.6 bits (156),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 21/64 (33%), Positives = 34/64 (53%), Gaps = 0/64 (0%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+           F+      P WL+  YLEE GG    +G     G      +++  ++G +S+ QLR+E+ 
+Sbjct  6   FDAPIRGVPLWLMREYLEEAGGRALPDGSVAGDGWRATITQLDDFRIGKISVGQLRLELS  65
+
+Query  62  GEEA  65
+           G+EA
+Sbjct  66  GDEA  69
+
+
+> UniRef90_A0A1F8QMW7 Uncharacterized protein n=1 Tax=Chloroflexi 
+bacterium RBG_16_57_11 TaxID=1797651 RepID=A0A1F8QMW7_9CHLR
+Length=88
+
+ Score = 56.1 bits (134),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 18/57 (32%), Positives = 28/57 (49%), Gaps = 0/57 (0%)
+
+Query  7   GAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGE  63
+              P  L   YL + GG+   +G    PG       VE  ++GS+ + Q+ VE+EG+
+Sbjct  12  RGIPLKLFRDYLIDLGGSLAADGDVEGPGWQAHLERVEDFQIGSVRVGQVHVEIEGQ  68
+
+
+> UniRef90_I0I9D0 Uncharacterized protein n=1 Tax=Caldilinea aerophila 
+(strain DSM 14535 / JCM 11387 / NBRC 104270 / STL-6-O1) 
+TaxID=926550 RepID=I0I9D0_CALAS
+Length=86
+
+ Score = 53.8 bits (128),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 24/78 (31%), Positives = 35/78 (45%), Gaps = 2/78 (3%)
+
+Query  3   ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEG  62
+           E  +   P WL++ YL + GG   G+      G     R  E   +GSL +    V  EG
+Sbjct  6   EHDYYGVPVWLMKEYLFQLGGRPVGDNQVEGDGWRATLRAAEWRSIGSLRVGGATVVFEG  65
+
+Query  63  EEA--ERWFERIAFAASR  78
+           E+A  +  FER+ +   R
+Sbjct  66  EQATLDALFERLHWKTLR  83
+
+
+> UniRef90_A0A0S7BK52 Uncharacterized protein n=1 Tax=Longilinea 
+arvoryzae TaxID=360412 RepID=A0A0S7BK52_9CHLR
+Length=86
+
+ Score = 53.0 bits (126),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 18/63 (29%), Positives = 27/63 (43%), Gaps = 0/63 (0%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+             R     P W+L  Y  + GG  + +G Y   G   R  +   LK G ++    R+E  
+Sbjct  5   ITRELRGLPEWVLREYFTKLGGLPQPDGSYAGDGWQARLIQQPDLKRGGMTFCVYRLEFS  64
+
+Query  62  GEE  64
+           GE+
+Sbjct  65  GEQ  67
+
+
+> UniRef90_A0A1J5ACU7 Uncharacterized protein n=1 Tax=Anaerolineae 
+bacterium CG2_30_64_16 TaxID=1805005 RepID=A0A1J5ACU7_9CHLR
+Length=89
+
+ Score = 45.7 bits (107),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 16/58 (28%), Positives = 23/58 (40%), Gaps = 0/58 (0%)
+
+Query  6   FGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGE  63
+                 WL+  YL E GG     G+    G   R    EP+ +G++ +    VE  G 
+Sbjct  12  LRGIGAWLVTAYLTELGGQEMEPGLVVGDGWQARVAAGEPVNIGAIRLGVTGVEFSGP  69
+
+
+> UniRef90_G7W7J9 Uncharacterized protein n=1 Tax=Desulfosporosinus 
+orientis (strain ATCC 19365 / DSM 765 / NCIMB 8382 / VKM 
+B-1628) TaxID=768706 RepID=G7W7J9_DESOD
+Length=87
+
+ Score = 43.0 bits (100),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 27/62 (44%), Gaps = 0/62 (0%)
+
+Query  5   TFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGEE  64
+                P   LE Y    GG R+G+G+Y  P   V   +     +GS+ IP  RV    EE
+Sbjct  9   EMRGMPHRALEEYFLSIGGKRDGDGMYFGPNWQVDLSDTWACPLGSIQIPATRVTFRVEE  68
+
+Query  65  AE  66
+            +
+Sbjct  69  KD  70
+
+
+> UniRef90_UPI000478BD38 hypothetical protein n=1 Tax=Alkaliphilus 
+transvaalensis TaxID=114628 RepID=UPI000478BD38
+Length=86
+
+ Score = 41.9 bits (97),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 17/60 (28%), Positives = 29/60 (48%), Gaps = 1/60 (2%)
+
+Query  5   TFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGEE  64
+             G  P W   +Y EE G  +EGE  +      V   E E + +GS+ + ++++   G+E
+Sbjct  9   DMGGIPTWEFVQYFEELGCKQEGEDTFLDKNWRVNLVESEEM-LGSIKMTRVKITFIGDE  67
+
+
+> UniRef90_V4XZJ7 MoaD family protein, archaeal n=1 Tax=uncultured 
+archaeon A07HB70 TaxID=1412872 RepID=V4XZJ7_9ARCH
+Length=194
+
+ Score = 43.4 bits (101),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 21/78 (27%), Positives = 30/78 (38%), Gaps = 2/78 (3%)
+
+Query  3    ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEG  62
+            ER++      L   YL   GG +  E      G  V   E       +LS+ Q+ V  EG
+Sbjct  114  ERSYRGISRRLAVHYLTGLGGEKSAENRVEGDGWTVNLEESTATVGPTLSLTQVDVRFEG  173
+
+Query  63   EEA--ERWFERIAFAASR  78
+            + A  +    R +  A R
+Sbjct  174  DPASLDALVSRFSRKAMR  191
+
+
+> UniRef90_UPI00094CE3CC UPI00094CE3CC related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00094CE3CC
+Length=87
+
+ Score = 41.9 bits (97),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 21/68 (31%), Positives = 27/68 (40%), Gaps = 1/68 (1%)
+
+Query  5   TFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGEE  64
+                P   LE Y    GG + G G Y  P   VR  +     +GS+ IP   V    +E
+Sbjct  9   EMRGMPHRDLEDYFLALGGKQVGHGNYCGPNWEVRLSDEWTCTLGSIRIPATLVTFRVKE  68
+
+Query  65  AERWFERI  72
+            E W E +
+Sbjct  69  -EDWPEML  75
+
+
+> UniRef90_UPI000910A3AA UPI000910A3AA related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000910A3AA
+Length=87
+
+ Score = 40.7 bits (94),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 15/51 (29%), Positives = 26/51 (51%), Gaps = 0/51 (0%)
+
+Query  14  LERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGEE  64
+            E Y ++ GG    EGV+   G      +   + +GS+ +PQ+ VE+  E+
+Sbjct  18  FEEYFKQIGGMETAEGVFESEGWKAVLGQETYITMGSIKLPQVDVEITCED  68
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.144    0.414    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0439    0.140     1.90     42.6     43.6 
+
+Effective search space used: 443331707685
+Results from round 3
+
+
+Query= d1v8ca2
+
+Length=78
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_H7GDY8 Molybdopterin converting factor n=2 Tax=Thermus...  107     3e-27
+  UniRef90_Q5SLZ2 Molybdopterin converting factor, subunit 1 (Moa...  106     4e-27
+  UniRef90_A0A1J0LTY2 Molybdopterin converting factor subunit 1 M...  103     1e-25
+  UniRef90_UPI00056DAAF4 molybdopterin converting factor n=1 Tax=...  100     2e-24
+  UniRef90_UPI00056E49A3 molybdopterin converting factor n=1 Tax=...  98.5    1e-23
+  UniRef90_A0A1F8TTB0 Uncharacterized protein n=2 Tax=Chloroflexi...  91.5    5e-22
+  UniRef90_A0A1F8KQ89 Uncharacterized protein n=1 Tax=Chloroflexi...  90.8    1e-21
+  UniRef90_A0A1J4ZPE5 Uncharacterized protein n=1 Tax=Anaerolinea...  87.3    3e-20
+  UniRef90_A0A0N1KQN3 Molybdopterin converting factor n=6 Tax=The...  88.5    6e-20
+  UniRef90_A0A0A2WX45 Molybdopterin converting factor n=1 Tax=The...  86.9    3e-19
+  UniRef90_A0A0B0S6C4 Molybdopterin converting factor n=1 Tax=The...  85.4    8e-19
+  UniRef90_I0I9D0 Uncharacterized protein n=1 Tax=Caldilinea aero...  83.1    1e-18
+  UniRef90_K7QW71 MoaD family protein n=2 Tax=Thermus oshimai Tax...  82.7    8e-18
+  UniRef90_UPI0005ADFAE3 UPI0005ADFAE3 related cluster n=1 Tax=un...  80.8    1e-17
+  UniRef90_E4U9C5 Molybdopterin synthase subunit MoaD n=1 Tax=Oce...  80.8    5e-17
+  UniRef90_A0A0S7BH08 Uncharacterized protein n=1 Tax=Longilinea ...  78.4    7e-17
+  UniRef90_A0A0S7BK52 Uncharacterized protein n=1 Tax=Longilinea ...  77.7    1e-16
+  UniRef90_G7W7J9 Uncharacterized protein n=1 Tax=Desulfosporosin...  76.9    3e-16
+  UniRef90_A0A0N0BLE3 Sulfur carrier protein CysO n=2 Tax=Thermus...  78.1    6e-16
+  UniRef90_UPI00056EFA91 molybdopterin converting factor n=1 Tax=...  76.1    3e-15
+  UniRef90_A0A1F8QMW7 Uncharacterized protein n=1 Tax=Chloroflexi...  73.4    6e-15
+  UniRef90_A0A1J5ACU7 Uncharacterized protein n=1 Tax=Anaerolinea...  66.1    5e-12
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI00094CE3CC UPI00094CE3CC related cluster n=1 Tax=un...  65.4    6e-12
+  UniRef90_A0A0F2JFY4 Uncharacterized protein n=1 Tax=Desulfospor...  64.6    1e-11
+  UniRef90_UPI0009102CCF UPI0009102CCF related cluster n=1 Tax=un...  62.7    7e-11
+  UniRef90_A0A0F2SKF9 Uncharacterized protein n=1 Tax=Peptococcac...  62.3    1e-10
+  UniRef90_J7IUA1 Uncharacterized protein n=2 Tax=Desulfosporosin...  61.9    1e-10
+  UniRef90_A0A101WLB1 Uncharacterized protein n=1 Tax=Desulfospor...  60.3    6e-10
+  UniRef90_G2FU54 Uncharacterized protein n=2 Tax=Desulfosporosin...  58.4    3e-09
+  UniRef90_V4XZJ7 MoaD family protein, archaeal n=1 Tax=unculture...  55.7    6e-08
+  UniRef90_W0E509 Uncharacterized protein n=1 Tax=Desulfitobacter...  53.8    2e-07
+  UniRef90_M0HG34 Uncharacterized protein n=3 Tax=Haloferax TaxID...  53.0    3e-07
+  UniRef90_M0CPG2 Uncharacterized protein n=2 Tax=Haloterrigena T...  52.6    4e-07
+  UniRef90_UPI000678AFA6 hypothetical protein n=1 Tax=Halopiger s...  52.3    5e-07
+  UniRef90_D4GVB1 Ubiquitin-like protein n=14 Tax=Haloferax TaxID...  51.9    6e-07
+  UniRef90_L9WGQ1 Uncharacterized protein n=1 Tax=Natronorubrum b...  51.9    7e-07
+  UniRef90_UPI000478BD38 hypothetical protein n=1 Tax=Alkaliphilu...  50.3    2e-06
+  UniRef90_UPI000910A3AA UPI000910A3AA related cluster n=1 Tax=un...  49.9    4e-06
+  UniRef90_E4NMQ5 Uncharacterized protein n=2 Tax=Halogeometricum...  49.9    4e-06
+  UniRef90_UPI0006780570 hypothetical protein n=1 Tax=Halopiger d...  49.9    4e-06
+  UniRef90_L9YG92 Uncharacterized protein n=2 Tax=Natrinema TaxID...  49.9    4e-06
+  UniRef90_L9W4I5 Uncharacterized protein n=1 Tax=Natronorubrum s...  49.9    4e-06
+  UniRef90_UPI0006B4EB41 hypothetical protein n=1 Tax=Halolamina ...  49.6    5e-06
+  UniRef90_I3R6R5 Uncharacterized protein n=1 Tax=Haloferax medit...  49.6    6e-06
+  UniRef90_A0A179EIV1 Uncharacterized protein n=1 Tax=Haloterrige...  49.2    6e-06
+  UniRef90_I7C1E5 Uncharacterized protein n=2 Tax=Natrinema TaxID...  49.2    7e-06
+  UniRef90_A0A0U5CYZ0 Ubiquitin-like protein n=2 Tax=Halobacteriu...  48.0    2e-05
+  UniRef90_A0A1H8N4S9 Uncharacterized protein n=1 Tax=Halogranum ...  48.0    2e-05
+  UniRef90_J2ZZM5 Uncharacterized protein n=1 Tax=Halogranum sala...  48.0    2e-05
+  UniRef90_W0JIZ2 Uncharacterized protein n=1 Tax=Halostagnicola ...  47.2    3e-05
+  UniRef90_A6TVP1 Uncharacterized protein n=1 Tax=Alkaliphilus me...  47.2    4e-05
+  UniRef90_UPI0006767F9E hypothetical protein n=1 Tax=haloarchaeo...  47.6    4e-05
+  UniRef90_A0A151AF07 Uncharacterized protein n=1 Tax=Halalkalico...  47.2    4e-05
+  UniRef90_L0JNY9 Uncharacterized protein n=3 Tax=Natrialbaceae T...  46.9    5e-05
+  UniRef90_A0A0W1R6I9 Uncharacterized protein n=1 Tax=Haloprofund...  46.9    5e-05
+  UniRef90_A0A1F9Z803 Uncharacterized protein n=1 Tax=Euryarchaeo...  46.5    6e-05
+  UniRef90_A0A0F7PCK7 Uncharacterized protein n=1 Tax=Halanaeroar...  46.5    7e-05
+  UniRef90_L9W0I1 Uncharacterized protein n=1 Tax=Natronorubrum t...  46.5    7e-05
+  UniRef90_U1PIB2 Uncharacterized protein n=1 Tax=Haloquadratum w...  46.5    8e-05
+  UniRef90_UPI000679D0E9 hypothetical protein n=1 Tax=Halobellus ...  46.1    9e-05
+  UniRef90_UPI000679985E hypothetical protein n=1 Tax=Haladaptatu...  46.1    9e-05
+  UniRef90_D2RWY0 Uncharacterized protein n=2 Tax=Haloterrigena T...  46.1    9e-05
+  UniRef90_A0A1H5W2R4 Uncharacterized protein n=1 Tax=Halobellus ...  46.1    9e-05
+  UniRef90_A0A1D8S6Z2 Uncharacterized protein n=2 Tax=unclassifie...  45.7    1e-04
+  UniRef90_D8J8Z5 Uncharacterized protein n=1 Tax=Halalkalicoccus...  45.7    1e-04
+  UniRef90_L9YA27 Uncharacterized protein n=1 Tax=Natrinema versi...  45.7    1e-04
+  UniRef90_L9XE80 Uncharacterized protein n=1 Tax=Natronolimnobiu...  45.3    2e-04
+  UniRef90_UPI00005B8D95 UPI00005B8D95 related cluster n=1 Tax=un...  45.3    2e-04
+  UniRef90_UPI000677E794 hypothetical protein n=1 Tax=Halopiger g...  44.6    3e-04
+  UniRef90_A0A0W1SVG7 Uncharacterized protein n=1 Tax=Haloferax s...  44.6    3e-04
+  UniRef90_F8D4M0 Uncharacterized protein n=1 Tax=Halopiger xanad...  44.2    5e-04
+  UniRef90_L0AEN7 Uncharacterized protein n=1 Tax=Natronobacteriu...  43.8    6e-04
+  UniRef90_UPI0006777D17 hypothetical protein n=1 Tax=Haloplanus ...  43.4    9e-04
+  UniRef90_A0A0T5XAN3 Uncharacterized protein n=1 Tax=Acetomicrob...  43.4    0.001
+  UniRef90_L0JVN7 Uncharacterized protein n=3 Tax=Natronococcus T...  42.6    0.001
+  UniRef90_Q5V0N7 Uncharacterized protein n=13 Tax=Haloarcula Tax...  42.6    0.001
+  UniRef90_A0A0P7GBJ1 Uncharacterized protein n=4 Tax=Halolamina ...  42.2    0.002
+  UniRef90_UPI0003F91035 hypothetical protein n=1 Tax=Carboxydoth...  42.2    0.002
+  UniRef90_M1XLM5 Ubiquitin-like protein n=1 Tax=Natronomonas moo...  41.5    0.004
+  UniRef90_A0A1F2PEF0 Uncharacterized protein n=1 Tax=Acetobacter...  40.7    0.007
+  UniRef90_I4BTZ5 Uncharacterized protein n=2 Tax=Acetomicrobium ...  40.7    0.008
+  UniRef90_A0A1A5X152 Uncharacterized protein n=4 Tax=Bacillales ...  40.3    0.009
+  UniRef90_M0LJL2 Uncharacterized protein n=1 Tax=Halobiforma lac...  40.3    0.009
+
+
+> UniRef90_H7GDY8 Molybdopterin converting factor n=2 Tax=Thermus 
+TaxID=270 RepID=H7GDY8_9DEIN
+Length=169
+
+ Score = 107 bits (268),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 61/78 (78%), Positives = 64/78 (82%), Gaps = 0/78 (0%)
+
+Query  1    GFERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEV  60
+            G E  FGA PPWLLE YL EWGG +  +G Y LPGA VRFREVEPLKVGSLSIPQL VEV
+Sbjct  89   GLEGRFGALPPWLLEHYLTEWGGRKLADGTYTLPGARVRFREVEPLKVGSLSIPQLFVEV  148
+
+Query  61   EGEEAERWFERIAFAASR  78
+            EGEEAE+WFERIA AASR
+Sbjct  149  EGEEAEKWFERIALAASR  166
+
+
+> UniRef90_Q5SLZ2 Molybdopterin converting factor, subunit 1 (MoaD) 
+n=8 Tax=Thermus thermophilus TaxID=274 RepID=Q5SLZ2_THET8
+Length=169
+
+ Score = 106 bits (266),  Expect = 4e-27, Method: Composition-based stats.
+ Identities = 78/78 (100%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  1    GFERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEV  60
+            GFERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEV
+Sbjct  89   GFERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEV  148
+
+Query  61   EGEEAERWFERIAFAASR  78
+            EGEEAERWFERIAFAASR
+Sbjct  149  EGEEAERWFERIAFAASR  166
+
+
+> UniRef90_A0A1J0LTY2 Molybdopterin converting factor subunit 1 
+MoaD n=1 Tax=Thermus brockianus TaxID=56956 RepID=A0A1J0LTY2_THEBO
+Length=169
+
+ Score = 103 bits (257),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 58/76 (76%), Positives = 61/76 (80%), Gaps = 0/76 (0%)
+
+Query  3    ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEG  62
+            E TFGA PPWLLE YL  WGG + GEG Y LPGA+VRF E EPL+VGSLSIPQL V VEG
+Sbjct  91   EATFGALPPWLLEEYLVSWGGRKLGEGHYALPGAMVRFAEAEPLRVGSLSIPQLWVGVEG  150
+
+Query  63   EEAERWFERIAFAASR  78
+            EEAE WF RIAFAASR
+Sbjct  151  EEAEAWFNRIAFAASR  166
+
+
+> UniRef90_UPI00056DAAF4 molybdopterin converting factor n=1 Tax=Thermus 
+tengchongensis TaxID=1214928 RepID=UPI00056DAAF4
+Length=169
+
+ Score = 100 bits (249),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 50/77 (65%), Positives = 58/77 (75%), Gaps = 0/77 (0%)
+
+Query  2    FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+            F + FGA P WLLERYL EWGG +  EGVY LPGA V F E EPL+VGSL +PQL V+VE
+Sbjct  90   FAQRFGALPAWLLERYLSEWGGRKLEEGVYALPGARVHFAEAEPLRVGSLVVPQLLVQVE  149
+
+Query  62   GEEAERWFERIAFAASR  78
+            GE+A+ W+ RI  AASR
+Sbjct  150  GEKAQAWWARILLAASR  166
+
+
+> UniRef90_UPI00056E49A3 molybdopterin converting factor n=1 Tax=Thermus 
+caliditerrae TaxID=1330700 RepID=UPI00056E49A3
+Length=169
+
+ Score = 98.5 bits (244),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 52/78 (67%), Positives = 59/78 (76%), Gaps = 0/78 (0%)
+
+Query  1    GFERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEV  60
+            G E  FGA PPWLLERYL EWGG +EGE  Y LPGA VRF E EPL+ GSL +PQL V+V
+Sbjct  89   GLEGRFGALPPWLLERYLAEWGGRKEGEDTYALPGARVRFAEAEPLRAGSLVVPQLFVQV  148
+
+Query  61   EGEEAERWFERIAFAASR  78
+            EGE+A+ W+ RI  AASR
+Sbjct  149  EGEKAQAWWARILLAASR  166
+
+
+> UniRef90_A0A1F8TTB0 Uncharacterized protein n=2 Tax=Chloroflexi 
+TaxID=200795 RepID=A0A1F8TTB0_9CHLR
+Length=85
+
+ Score = 91.5 bits (226),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 27/79 (34%), Positives = 39/79 (49%), Gaps = 2/79 (3%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+                   P +LL+ YL+E GGT   E   +  G  VR   +EP ++GSL + Q R+ VE
+Sbjct  4   LVHEMRGIPYFLLKEYLQEMGGTLIEENFLQGDGWSVRLERMEPFRLGSLEVGQTRLTVE  63
+
+Query  62  GEE--AERWFERIAFAASR  78
+            E+  A+ + ER      R
+Sbjct  64  MEDQVADDFIERFQKKTLR  82
+
+
+> UniRef90_A0A1F8KQ89 Uncharacterized protein n=1 Tax=Chloroflexi 
+bacterium GWB2_49_20 TaxID=1797612 RepID=A0A1F8KQ89_9CHLR
+Length=85
+
+ Score = 90.8 bits (224),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 26/79 (33%), Positives = 39/79 (49%), Gaps = 2/79 (3%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+                   P +LL+ YL+E GG+   E + R  G  V    +EP ++GSL + Q R+ +E
+Sbjct  4   LVHEMRGIPYYLLKEYLQELGGSLVDENLVRGDGWSVHLESMEPFRLGSLEVGQTRLTME  63
+
+Query  62  GEE--AERWFERIAFAASR  78
+            EE  AE + +R      R
+Sbjct  64  LEERIAEDFQQRFFKKTLR  82
+
+
+> UniRef90_A0A1J4ZPE5 Uncharacterized protein n=1 Tax=Anaerolineae 
+bacterium CG2_30_57_67 TaxID=1805003 RepID=A0A1J4ZPE5_9CHLR
+Length=85
+
+ Score = 87.3 bits (215),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 25/77 (32%), Positives = 37/77 (48%), Gaps = 2/77 (3%)
+
+Query  4   RTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGE  63
+           R     P +LL+ YL+E GGT   E +    G  VR   + P ++GSL + Q R+ +E  
+Sbjct  6   REMRGIPYFLLKEYLQELGGTALAENLIAGEGWRVRLERMTPFRLGSLEVGQTRLTMEIR  65
+
+Query  64  EA--ERWFERIAFAASR  78
+           E   + +  R A    R
+Sbjct  66  EEIFDDFMARFALKTLR  82
+
+
+> UniRef90_A0A0N1KQN3 Molybdopterin converting factor n=6 Tax=Thermus 
+TaxID=270 RepID=A0A0N1KQN3_THESC
+Length=169
+
+ Score = 88.5 bits (218),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 55/77 (71%), Positives = 62/77 (81%), Gaps = 0/77 (0%)
+
+Query  2    FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+            F + FGA P WLLERYL EWGG +  EGVY LPGA VRF E EPL+VGSLS+PQL+VEVE
+Sbjct  90   FAQRFGALPAWLLERYLSEWGGRKLEEGVYALPGARVRFAEAEPLRVGSLSLPQLQVEVE  149
+
+Query  62   GEEAERWFERIAFAASR  78
+            GEEAE WF+RI  AA+R
+Sbjct  150  GEEAEAWFQRIQLAAAR  166
+
+
+> UniRef90_A0A0A2WX45 Molybdopterin converting factor n=1 Tax=Thermus 
+filiformis TaxID=276 RepID=A0A0A2WX45_THEFI
+Length=169
+
+ Score = 86.9 bits (214),  Expect = 3e-19, Method: Composition-based stats.
+ Identities = 46/77 (60%), Positives = 56/77 (73%), Gaps = 1/77 (1%)
+
+Query  2    FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+            F R +GA  PWLLE YL+  G  +EGE V+ LPGA VRFRE+ P +VGSL +PQL VEVE
+Sbjct  91   FRRVYGALRPWLLEAYLKGLGARKEGE-VFHLPGARVRFRELPPHRVGSLEVPQLEVEVE  149
+
+Query  62   GEEAERWFERIAFAASR  78
+            G EA RWFE++   A+R
+Sbjct  150  GPEALRWFEKLELYAAR  166
+
+
+> UniRef90_A0A0B0S6C4 Molybdopterin converting factor n=1 Tax=Thermus 
+sp. 2.9 TaxID=1577051 RepID=A0A0B0S6C4_9DEIN
+Length=169
+
+ Score = 85.4 bits (210),  Expect = 8e-19, Method: Composition-based stats.
+ Identities = 57/78 (73%), Positives = 59/78 (76%), Gaps = 0/78 (0%)
+
+Query  1    GFERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEV  60
+               R FGAFP WLLE YL  WGG R  EG+Y LPGA VRF E EPLKVGSLS+PQL VEV
+Sbjct  89   ALTRNFGAFPAWLLEEYLASWGGKRPEEGLYALPGAKVRFAEAEPLKVGSLSVPQLWVEV  148
+
+Query  61   EGEEAERWFERIAFAASR  78
+            EGEEAE WF RI FAASR
+Sbjct  149  EGEEAEAWFNRIVFAASR  166
+
+
+> UniRef90_I0I9D0 Uncharacterized protein n=1 Tax=Caldilinea aerophila 
+(strain DSM 14535 / JCM 11387 / NBRC 104270 / STL-6-O1) 
+TaxID=926550 RepID=I0I9D0_CALAS
+Length=86
+
+ Score = 83.1 bits (204),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 24/79 (30%), Positives = 35/79 (44%), Gaps = 2/79 (3%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+            E  +   P WL++ YL + GG   G+      G     R  E   +GSL +    V  E
+Sbjct  5   VEHDYYGVPVWLMKEYLFQLGGRPVGDNQVEGDGWRATLRAAEWRSIGSLRVGGATVVFE  64
+
+Query  62  GEEA--ERWFERIAFAASR  78
+           GE+A  +  FER+ +   R
+Sbjct  65  GEQATLDALFERLHWKTLR  83
+
+
+> UniRef90_K7QW71 MoaD family protein n=2 Tax=Thermus oshimai TaxID=56957 
+RepID=K7QW71_THEOS
+Length=170
+
+ Score = 82.7 bits (203),  Expect = 8e-18, Method: Composition-based stats.
+ Identities = 53/77 (69%), Positives = 59/77 (77%), Gaps = 0/77 (0%)
+
+Query  2    FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+            F + +G  P WLLE YL  WGG +EGEGVYRL GA VRF EVEPL+VG LS+P+LRVEVE
+Sbjct  91   FRQDYGGLPAWLLEEYLRSWGGAKEGEGVYRLKGAWVRFFEVEPLQVGRLSVPRLRVEVE  150
+
+Query  62   GEEAERWFERIAFAASR  78
+            GEE E W  RIA AASR
+Sbjct  151  GEEGEAWAGRIALAASR  167
+
+
+> UniRef90_UPI0005ADFAE3 UPI0005ADFAE3 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0005ADFAE3
+Length=88
+
+ Score = 80.8 bits (198),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 21/64 (33%), Positives = 34/64 (53%), Gaps = 0/64 (0%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+           F+      P WL+  YLEE GG    +G     G      +++  ++G +S+ QLR+E+ 
+Sbjct  6   FDAPIRGVPLWLMREYLEEAGGRALPDGSVAGDGWRATITQLDDFRIGKISVGQLRLELS  65
+
+Query  62  GEEA  65
+           G+EA
+Sbjct  66  GDEA  69
+
+
+> UniRef90_E4U9C5 Molybdopterin synthase subunit MoaD n=1 Tax=Oceanithermus 
+profundus (strain DSM 14977 / NBRC 100410 / VKM 
+B-2274 / 506) TaxID=670487 RepID=E4U9C5_OCEP5
+Length=179
+
+ Score = 80.8 bits (198),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 35/77 (45%), Positives = 42/77 (55%), Gaps = 1/77 (1%)
+
+Query  2    FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+            +    G   PWLL  YL  WG     +G +R+ GA VRFR + P  VG L   +L VEV 
+Sbjct  101  WRAELGGVSPWLLADYLRRWGAVEADDG-WRVDGAWVRFRALPPRVVGGLRTSRLEVEVG  159
+
+Query  62   GEEAERWFERIAFAASR  78
+            G EA RW ERI+  A R
+Sbjct  160  GAEARRWAERISVGAMR  176
+
+
+> UniRef90_A0A0S7BH08 Uncharacterized protein n=1 Tax=Longilinea 
+arvoryzae TaxID=360412 RepID=A0A0S7BH08_9CHLR
+Length=85
+
+ Score = 78.4 bits (192),  Expect = 7e-17, Method: Composition-based stats.
+ Identities = 23/63 (37%), Positives = 33/63 (52%), Gaps = 0/63 (0%)
+
+Query  3   ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEG  62
+            R   A P WL+  YL E GG  + +G     G   R  ++E   +GSL + Q+R+E + 
+Sbjct  5   NRELRALPLWLMRDYLLELGGVEKPDGSIEGDGWQARLTQLEDFSIGSLKVGQIRLEWQA  64
+
+Query  63  EEA  65
+           EEA
+Sbjct  65  EEA  67
+
+
+> UniRef90_A0A0S7BK52 Uncharacterized protein n=1 Tax=Longilinea 
+arvoryzae TaxID=360412 RepID=A0A0S7BK52_9CHLR
+Length=86
+
+ Score = 77.7 bits (190),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 19/79 (24%), Positives = 30/79 (38%), Gaps = 2/79 (3%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+             R     P W+L  Y  + GG  + +G Y   G   R  +   LK G ++    R+E  
+Sbjct  5   ITRELRGLPEWVLREYFTKLGGLPQPDGSYAGDGWQARLIQQPDLKRGGMTFCVYRLEFS  64
+
+Query  62  GEEA--ERWFERIAFAASR  78
+           GE+      + +      R
+Sbjct  65  GEQDVLRVVWPQFELKILR  83
+
+
+> UniRef90_G7W7J9 Uncharacterized protein n=1 Tax=Desulfosporosinus 
+orientis (strain ATCC 19365 / DSM 765 / NCIMB 8382 / VKM 
+B-1628) TaxID=768706 RepID=G7W7J9_DESOD
+Length=87
+
+ Score = 76.9 bits (188),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 27/62 (44%), Gaps = 0/62 (0%)
+
+Query  5   TFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGEE  64
+                P   LE Y    GG R+G+G+Y  P   V   +     +GS+ IP  RV    EE
+Sbjct  9   EMRGMPHRALEEYFLSIGGKRDGDGMYFGPNWQVDLSDTWACPLGSIQIPATRVTFRVEE  68
+
+Query  65  AE  66
+            +
+Sbjct  69  KD  70
+
+
+> UniRef90_A0A0N0BLE3 Sulfur carrier protein CysO n=2 Tax=Thermus 
+aquaticus TaxID=271 RepID=A0A0N0BLE3_THEAQ
+Length=170
+
+ Score = 78.1 bits (191),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 51/71 (72%), Positives = 56/71 (79%), Gaps = 0/71 (0%)
+
+Query  8    AFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGEEAER  67
+            A PPWL E YL  WGG +E EGV+RLPGA VRF E  PL+VGSL IP+LRVEVEGEEAE 
+Sbjct  97   ALPPWLFEAYLRSWGGEKEAEGVFRLPGARVRFAEAPPLEVGSLRIPRLRVEVEGEEAEA  156
+
+Query  68   WFERIAFAASR  78
+            W+ RIA AASR
+Sbjct  157  WWGRIALAASR  167
+
+
+> UniRef90_UPI00056EFA91 molybdopterin converting factor n=1 Tax=Thermus 
+amyloliquefaciens TaxID=1449080 RepID=UPI00056EFA91
+Length=169
+
+ Score = 76.1 bits (186),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 53/78 (68%), Positives = 58/78 (74%), Gaps = 0/78 (0%)
+
+Query  1    GFERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEV  60
+               + FGA PPWLL RYL EWGGTR  EG Y LPGA VRFRE  PL+ GSLS+ QL VEV
+Sbjct  89   ALAQRFGALPPWLLARYLLEWGGTRLDEGAYALPGATVRFREEAPLRAGSLSVRQLWVEV  148
+
+Query  61   EGEEAERWFERIAFAASR  78
+            EGEEAE WF+RI  AA+R
+Sbjct  149  EGEEAEAWFQRIGLAAAR  166
+
+
+> UniRef90_A0A1F8QMW7 Uncharacterized protein n=1 Tax=Chloroflexi 
+bacterium RBG_16_57_11 TaxID=1797651 RepID=A0A1F8QMW7_9CHLR
+Length=88
+
+ Score = 73.4 bits (179),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 20/74 (27%), Positives = 32/74 (43%), Gaps = 2/74 (3%)
+
+Query  7   GAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEG--EE  64
+              P  L   YL + GG+   +G    PG       VE  ++GS+ + Q+ VE+EG  E 
+Sbjct  12  RGIPLKLFRDYLIDLGGSLAADGDVEGPGWQAHLERVEDFQIGSVRVGQVHVEIEGQSET  71
+
+Query  65  AERWFERIAFAASR  78
+            +    ++     R
+Sbjct  72  LDALLSQLEKKLLR  85
+
+
+> UniRef90_A0A1J5ACU7 Uncharacterized protein n=1 Tax=Anaerolineae 
+bacterium CG2_30_64_16 TaxID=1805005 RepID=A0A1J5ACU7_9CHLR
+Length=89
+
+ Score = 66.1 bits (160),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 16/58 (28%), Positives = 23/58 (40%), Gaps = 0/58 (0%)
+
+Query  6   FGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGE  63
+                 WL+  YL E GG     G+    G   R    EP+ +G++ +    VE  G 
+Sbjct  12  LRGIGAWLVTAYLTELGGQEMEPGLVVGDGWQARVAAGEPVNIGAIRLGVTGVEFSGP  69
+
+
+> UniRef90_UPI00094CE3CC UPI00094CE3CC related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00094CE3CC
+Length=87
+
+ Score = 65.4 bits (158),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 21/68 (31%), Positives = 27/68 (40%), Gaps = 1/68 (1%)
+
+Query  5   TFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGEE  64
+                P   LE Y    GG + G G Y  P   VR  +     +GS+ IP   V    +E
+Sbjct  9   EMRGMPHRDLEDYFLALGGKQVGHGNYCGPNWEVRLSDEWTCTLGSIRIPATLVTFRVKE  68
+
+Query  65  AERWFERI  72
+            E W E +
+Sbjct  69  -EDWPEML  75
+
+
+> UniRef90_A0A0F2JFY4 Uncharacterized protein n=1 Tax=Desulfosporosinus 
+sp. I2 TaxID=1617025 RepID=A0A0F2JFY4_9FIRM
+Length=87
+
+ Score = 64.6 bits (156),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 20/74 (27%), Positives = 30/74 (41%), Gaps = 1/74 (1%)
+
+Query  5   TFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGEE  64
+                P   L+ Y    GG + G+G+Y  P   V   +     +GS+ IP  +V    +E
+Sbjct  9   EMRGMPHRDLQDYFLSIGGKQVGKGLYIGPNWEVELSDEWLCTLGSIQIPATKVTFRADE  68
+
+Query  65  AERWFERIAFAASR  78
+            E W E +     R
+Sbjct  69  EE-WTEIVQAFRLR  81
+
+
+> UniRef90_UPI0009102CCF UPI0009102CCF related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009102CCF
+Length=87
+
+ Score = 62.7 bits (151),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 22/74 (30%), Positives = 29/74 (39%), Gaps = 1/74 (1%)
+
+Query  5   TFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGEE  64
+                P   LE Y    GG  +G+G Y  P   V   +     +GS+ IP  +V    +E
+Sbjct  9   EMRGMPHCDLEEYFLSIGGKWDGKGTYFAPNWEVNLSDTWSCTLGSIQIPATQVIFRVDE  68
+
+Query  65  AERWFERIAFAASR  78
+            E W E I     R
+Sbjct  69  -EDWPEIIRAFRLR  81
+
+
+> UniRef90_A0A0F2SKF9 Uncharacterized protein n=1 Tax=Peptococcaceae 
+bacterium BRH_c23 TaxID=1629714 RepID=A0A0F2SKF9_9FIRM
+Length=87
+
+ Score = 62.3 bits (150),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 19/66 (29%), Positives = 26/66 (39%), Gaps = 1/66 (2%)
+
+Query  5   TFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGEE  64
+                P   L  Y    GG + G+G+Y  P   V   +     +GS+ IP  +V     E
+Sbjct  9   EMRGMPHQDLVDYFLSIGGKQIGQGLYLGPDWEVNLSDDWTCTIGSIQIPATQVIFRVNE  68
+
+Query  65  AERWFE  70
+            E W E
+Sbjct  69  -EDWPE  73
+
+
+> UniRef90_J7IUA1 Uncharacterized protein n=2 Tax=Desulfosporosinus 
+TaxID=79206 RepID=J7IUA1_DESMD
+Length=87
+
+ Score = 61.9 bits (149),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 14/65 (22%), Positives = 23/65 (35%), Gaps = 0/65 (0%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+           +       P   L  Y    GG  +  G    P   V   +    ++GS+ +P  RV  +
+Sbjct  6   YTLEMRGMPRRDLLEYFVSIGGKSDERGTLIGPNWQVDLSDTWLCQLGSIQVPATRVTFK  65
+
+Query  62  GEEAE  66
+             E +
+Sbjct  66  VMEKD  70
+
+
+> UniRef90_A0A101WLB1 Uncharacterized protein n=1 Tax=Desulfosporosinus 
+sp. BRH_c37 TaxID=1734396 RepID=A0A101WLB1_9FIRM
+Length=87
+
+ Score = 60.3 bits (145),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 22/74 (30%), Positives = 27/74 (36%), Gaps = 1/74 (1%)
+
+Query  5   TFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGEE  64
+                P   LE Y    GG + G G Y      VR  E     +GS+ IP  +V     E
+Sbjct  9   EMRGMPHRDLEEYFLAIGGKQVGLGNYIGLNWEVRLSEEWTCTLGSIQIPATQVTFWVNE  68
+
+Query  65  AERWFERIAFAASR  78
+            E W E +     R
+Sbjct  69  -EAWSEMLKAFRLR  81
+
+
+> UniRef90_G2FU54 Uncharacterized protein n=2 Tax=Desulfosporosinus 
+TaxID=79206 RepID=G2FU54_9FIRM
+Length=87
+
+ Score = 58.4 bits (140),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 17/66 (26%), Positives = 23/66 (35%), Gaps = 1/66 (2%)
+
+Query  5   TFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGEE  64
+                P   LE Y    GG   G+G Y  P   V+  +     +  + IP   V     E
+Sbjct  9   EMRGMPHRDLEEYFLAIGGKYVGQGTYLGPNWEVKLSDEWTCSLRLIQIPATLVTFRVNE  68
+
+Query  65  AERWFE  70
+            E W +
+Sbjct  69  -EDWQQ  73
+
+
+> UniRef90_V4XZJ7 MoaD family protein, archaeal n=1 Tax=uncultured 
+archaeon A07HB70 TaxID=1412872 RepID=V4XZJ7_9ARCH
+Length=194
+
+ Score = 55.7 bits (133),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 21/78 (27%), Positives = 30/78 (38%), Gaps = 2/78 (3%)
+
+Query  3    ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEG  62
+            ER++      L   YL   GG +  E      G  V   E       +LS+ Q+ V  EG
+Sbjct  114  ERSYRGISRRLAVHYLTGLGGEKSAENRVEGDGWTVNLEESTATVGPTLSLTQVDVRFEG  173
+
+Query  63   EEA--ERWFERIAFAASR  78
+            + A  +    R +  A R
+Sbjct  174  DPASLDALVSRFSRKAMR  191
+
+
+> UniRef90_W0E509 Uncharacterized protein n=1 Tax=Desulfitobacterium 
+metallireducens DSM 15288 TaxID=871968 RepID=W0E509_9FIRM
+Length=87
+
+ Score = 53.8 bits (128),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 10/61 (16%), Positives = 20/61 (33%), Gaps = 0/61 (0%)
+
+Query  5   TFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGEE  64
+                   L   Y    GG        + P   +     + + +GS+ +P + +  E +E
+Sbjct  9   EMRGIKRQLFLDYFLALGGNLTSSEHIQGPNWKIHLGAEQAINLGSIRLPVVHITFEADE  68
+
+Query  65  A  65
+            
+Sbjct  69  E  69
+
+
+> UniRef90_M0HG34 Uncharacterized protein n=3 Tax=Haloferax TaxID=2251 
+RepID=M0HG34_9EURY
+Length=88
+
+ Score = 53.0 bits (126),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 20/78 (26%), Positives = 30/78 (38%), Gaps = 2/78 (3%)
+
+Query  3   ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEG  62
+           ER F    P L+  YL   GG  E +     P   V           S+ + ++++  EG
+Sbjct  8   ERAFRGISPRLVRHYLTNLGGDVESDTRVVGPDWTVDIETEAVSITSSIELTEVQLTFEG  67
+
+Query  63  EEA--ERWFERIAFAASR  78
+            E   +   E+ A  A R
+Sbjct  68  SEETLDDLVEQFAQKAMR  85
+
+
+> UniRef90_M0CPG2 Uncharacterized protein n=2 Tax=Haloterrigena 
+TaxID=121871 RepID=M0CPG2_9EURY
+Length=86
+
+ Score = 52.6 bits (125),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 26/80 (33%), Positives = 34/80 (43%), Gaps = 4/80 (5%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVG-SLSIPQLRVEV  60
+            ER+F      L+ RYL   GG R  +           F   E + VG SL + ++ V  
+Sbjct  5   LERSFRGISERLVVRYLTNLGGERVADDTVAGDDWTATFSS-ETIGVGPSLQLTEVTVVF  63
+
+Query  61  EGEEA--ERWFERIAFAASR  78
+           EGEE   E   E+ A  A R
+Sbjct  64  EGEETTLEPLVEQFAQKAMR  83
+
+
+> UniRef90_UPI000678AFA6 hypothetical protein n=1 Tax=Halopiger 
+salifodinae TaxID=1202768 RepID=UPI000678AFA6
+Length=86
+
+ Score = 52.3 bits (124),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 25/80 (31%), Positives = 35/80 (44%), Gaps = 4/80 (5%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVG-SLSIPQLRVEV  60
+            ER+F      L  RYL + GG R GE      G        E + +G ++ + ++ V  
+Sbjct  5   LERSFRGISERLAIRYLTKLGGDRVGENTVEGDGWTATLSS-EKVDIGPTMQLTEVTVVF  63
+
+Query  61  EGEEA--ERWFERIAFAASR  78
+           EGEE   E   E+ A  A R
+Sbjct  64  EGEEDTLEPLVEQFAQKAMR  83
+
+
+> UniRef90_D4GVB1 Ubiquitin-like protein n=14 Tax=Haloferax TaxID=2251 
+RepID=D4GVB1_HALVD
+Length=85
+
+ Score = 51.9 bits (123),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 23/78 (29%), Positives = 35/78 (45%), Gaps = 2/78 (3%)
+
+Query  3   ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEG  62
+           +R F    P L  +YLE  GG  +G+G    P   V     E     S+ + ++++  EG
+Sbjct  5   QRAFRGISPRLAIQYLEGLGGEADGDGRVVGPDWAVDIETEEVTITSSIQLTEVQLAFEG  64
+
+Query  63  EEA--ERWFERIAFAASR  78
+           +E   +   ER A  A R
+Sbjct  65  DEETLDDLVERFARKAMR  82
+
+
+> UniRef90_L9WGQ1 Uncharacterized protein n=1 Tax=Natronorubrum 
+bangense JCM 10635 TaxID=1227500 RepID=L9WGQ1_9EURY
+Length=86
+
+ Score = 51.9 bits (123),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 22/80 (28%), Positives = 33/80 (41%), Gaps = 4/80 (5%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVG-SLSIPQLRVEV  60
+            ER+F      L  RYL + GG +  +           F   E + VG SL++ ++ +  
+Sbjct  5   VERSFRGISERLTVRYLTKLGGEQVDDDTVEGDNWTATFSS-ETVSVGPSLTLTEITIVF  63
+
+Query  61  EGE--EAERWFERIAFAASR  78
+           EGE    E   +  A  A R
+Sbjct  64  EGEPDHLEPLVDEFAQKAMR  83
+
+
+> UniRef90_UPI000478BD38 hypothetical protein n=1 Tax=Alkaliphilus 
+transvaalensis TaxID=114628 RepID=UPI000478BD38
+Length=86
+
+ Score = 50.3 bits (119),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 17/61 (28%), Positives = 29/61 (48%), Gaps = 1/61 (2%)
+
+Query  5   TFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGEE  64
+             G  P W   +Y EE G  +EGE  +      V   E E + +GS+ + ++++   G+E
+Sbjct  9   DMGGIPTWEFVQYFEELGCKQEGEDTFLDKNWRVNLVESEEM-LGSIKMTRVKITFIGDE  67
+
+Query  65  A  65
+            
+Sbjct  68  K  68
+
+
+> UniRef90_UPI000910A3AA UPI000910A3AA related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000910A3AA
+Length=87
+
+ Score = 49.9 bits (118),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 17/68 (25%), Positives = 29/68 (43%), Gaps = 2/68 (3%)
+
+Query  5   TFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGEE  64
+               F     E Y ++ GG    EGV+   G      +   + +GS+ +PQ+ VE+  E 
+Sbjct  9   KMRGFKRKSFEEYFKQIGGMETAEGVFESEGWKAVLGQETYITMGSIKLPQVDVEITCE-  67
+
+Query  65  AERWFERI  72
+            +  F + 
+Sbjct  68  -DDIFGKF  74
+
+
+> UniRef90_E4NMQ5 Uncharacterized protein n=2 Tax=Halogeometricum 
+borinquense TaxID=60847 RepID=E4NMQ5_HALBP
+Length=92
+
+ Score = 49.9 bits (118),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 18/79 (23%), Positives = 34/79 (43%), Gaps = 4/79 (5%)
+
+Query  3   ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVG-SLSIPQLRVEVE  61
+           E++F      L  +YLE  GG R  E      G        + + +G ++ + ++ V  E
+Sbjct  12  EKSFRGISMRLAGQYLENLGGERVAEDRVEGDGWTASLSAQK-VPIGPTIELTEVTVTFE  70
+
+Query  62  GEEA--ERWFERIAFAASR  78
+           G+ +  +   +R +  A R
+Sbjct  71  GDPSILDDLIDRFSQKAMR  89
+
+
+> UniRef90_UPI0006780570 hypothetical protein n=1 Tax=Halopiger 
+djelfamassiliensis TaxID=1293047 RepID=UPI0006780570
+Length=88
+
+ Score = 49.9 bits (118),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 24/79 (30%), Positives = 30/79 (38%), Gaps = 2/79 (3%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+            ER+F      L  RYL   GG R GE      G              SL++ ++ V  E
+Sbjct  7   IERSFRGISERLAVRYLTSLGGERVGENAVEGEGWTATLSSETVGVGPSLTLTEVTVVFE  66
+
+Query  62  G--EEAERWFERIAFAASR  78
+           G  +  E   ER A  A R
+Sbjct  67  GDVDTVEPLVERFAQKAMR  85
+
+
+> UniRef90_L9YG92 Uncharacterized protein n=2 Tax=Natrinema TaxID=88723 
+RepID=L9YG92_9EURY
+Length=86
+
+ Score = 49.9 bits (118),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 24/80 (30%), Positives = 35/80 (44%), Gaps = 4/80 (5%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVG-SLSIPQLRVEV  60
+            ER+F      L+ RYL   GG R  E           F   E + +G SL++ ++ +  
+Sbjct  5   IERSFRGISERLVVRYLTNLGGERAAEDTVAGDDWTATFSS-ESVAIGPSLTLTEVTIVF  63
+
+Query  61  EGEEA--ERWFERIAFAASR  78
+           EG+E   E   E+ A  A R
+Sbjct  64  EGDEDTLEPLVEQFAQKAMR  83
+
+
+> UniRef90_L9W4I5 Uncharacterized protein n=1 Tax=Natronorubrum 
+sulfidifaciens JCM 14089 TaxID=1230460 RepID=L9W4I5_9EURY
+Length=86
+
+ Score = 49.9 bits (118),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 20/79 (25%), Positives = 29/79 (37%), Gaps = 2/79 (3%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+            ER+F      L  RYL   GG +  +      G    F         SL++ ++ +E  
+Sbjct  5   VERSFRGISERLTVRYLTGLGGEQVADDTVSGDGWTATFASETVAVGPSLTLTEITIEFT  64
+
+Query  62  GEEA--ERWFERIAFAASR  78
+           GE    E   +  A  A R
+Sbjct  65  GESEVLEDLVDAFAQKAMR  83
+
+
+> UniRef90_UPI0006B4EB41 hypothetical protein n=1 Tax=Halolamina 
+sediminis TaxID=1480675 RepID=UPI0006B4EB41
+Length=88
+
+ Score = 49.6 bits (117),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 20/83 (24%), Positives = 30/83 (36%), Gaps = 8/83 (10%)
+
+Query  3   ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVG-SLSIPQLRVEVE  61
+            + F      L   YLE  GGT   +      G        E + +G SL + ++ +  E
+Sbjct  4   TKEFRGISVRLARNYLENLGGTAVDDTTVEGDGWRADLS-AEKVSIGPSLQLTEVTIAFE  62
+
+Query  62  GEEA------ERWFERIAFAASR  78
+            +EA      E   E  +  A R
+Sbjct  63  ADEAFGEGRFEELIEDFSRKAMR  85
+
+
+> UniRef90_I3R6R5 Uncharacterized protein n=1 Tax=Haloferax mediterranei 
+(strain ATCC 33500 / DSM 1411 / JCM 8866 / NBRC 14739 
+/ NCIMB 2177 / R-4) TaxID=523841 RepID=I3R6R5_HALMT
+Length=85
+
+ Score = 49.6 bits (117),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 21/78 (27%), Positives = 32/78 (41%), Gaps = 2/78 (3%)
+
+Query  3   ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEG  62
+           ER F      L  +YLE  GG  E E     P   V     E     S+ + ++++  EG
+Sbjct  5   ERAFRGISTRLAIQYLEGLGGEAESETRVVGPDWTVDLDTEEVTITNSIQLTEVQLTFEG  64
+
+Query  63  EEA--ERWFERIAFAASR  78
+           ++   +   ER +  A R
+Sbjct  65  DDETLDDLIERFSRKAMR  82
+
+
+> UniRef90_A0A179EIV1 Uncharacterized protein n=1 Tax=Haloterrigena 
+sp. H13 TaxID=1416969 RepID=A0A179EIV1_9EURY
+Length=86
+
+ Score = 49.2 bits (116),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 23/79 (29%), Positives = 33/79 (42%), Gaps = 4/79 (5%)
+
+Query  3   ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVG-SLSIPQLRVEVE  61
+           ER+F      L+ RYL   GG +  +      G    F   E + +G SL + ++ +  E
+Sbjct  6   ERSFRGISERLVVRYLTNLGGEQVDDDTVEGEGWTATFSS-ETVAIGPSLQLTEVTIVFE  64
+
+Query  62  GEEA--ERWFERIAFAASR  78
+           GE    E   E  A  A R
+Sbjct  65  GEAETLEPLVENFAQKAMR  83
+
+
+> UniRef90_I7C1E5 Uncharacterized protein n=2 Tax=Natrinema TaxID=88723 
+RepID=I7C1E5_NATSJ
+Length=86
+
+ Score = 49.2 bits (116),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 22/79 (28%), Positives = 30/79 (38%), Gaps = 2/79 (3%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+            +R+F      L+ RYL   GG R  E                     SL++ ++ V  E
+Sbjct  5   IKRSFRGISERLVGRYLTNLGGERVAEDTVVGDDWTATVSSESVAVGPSLTLTEVTVVFE  64
+
+Query  62  GEEA--ERWFERIAFAASR  78
+           G+E   E   ER A  A R
+Sbjct  65  GDEDTLEPLVERFAQKAMR  83
+
+
+> UniRef90_A0A0U5CYZ0 Ubiquitin-like protein n=2 Tax=Halobacterium 
+TaxID=2239 RepID=A0A0U5CYZ0_9EURY
+Length=88
+
+ Score = 48.0 bits (113),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 18/82 (22%), Positives = 27/82 (33%), Gaps = 6/82 (7%)
+
+Query  3   ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEG  62
+           E+ F      L   YLE  GGT   +      G        +     S+ + ++ V  E 
+Sbjct  4   EKEFRGISVRLARNYLESLGGTAVDDHTVEGDGWRAELSAEKVAIGPSMELTEVTVAFEA  63
+
+Query  63  EEA------ERWFERIAFAASR  78
+           +EA      +   E     A R
+Sbjct  64  DEAFGEDAFDELIEDFRRKAMR  85
+
+
+> UniRef90_A0A1H8N4S9 Uncharacterized protein n=1 Tax=Halogranum 
+amylolyticum TaxID=660520 RepID=A0A1H8N4S9_9EURY
+Length=88
+
+ Score = 48.0 bits (113),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 21/79 (27%), Positives = 33/79 (42%), Gaps = 4/79 (5%)
+
+Query  3   ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVG-SLSIPQLRVEVE  61
+           E+ F      L   YLE+ GG +  E               E + VG ++S+ ++ +  E
+Sbjct  8   EKAFRGISERLAIHYLEKLGGEQVEEDTVAGDDWRASLSS-EKVGVGPTVSLTEVTIIFE  66
+
+Query  62  GEEA--ERWFERIAFAASR  78
+           G EA  +   ER +  A R
+Sbjct  67  GVEATLDDLVERFSQKAMR  85
+
+
+> UniRef90_J2ZZM5 Uncharacterized protein n=1 Tax=Halogranum salarium 
+B-1 TaxID=1210908 RepID=J2ZZM5_9EURY
+Length=88
+
+ Score = 48.0 bits (113),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 20/79 (25%), Positives = 34/79 (43%), Gaps = 4/79 (5%)
+
+Query  3   ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVG-SLSIPQLRVEVE  61
+           E+ F      L   YLE  GG + G+               E + +G ++S+ ++ V  +
+Sbjct  8   EKAFRGISQRLAIHYLENLGGEQVGDDTVTGDDWEASLSN-EKVSIGPTVSLTEVTVVFQ  66
+
+Query  62  GEEA--ERWFERIAFAASR  78
+           G+EA  E   E+ +  A R
+Sbjct  67  GDEATLEPLIEQFSQKAMR  85
+
+
+> UniRef90_W0JIZ2 Uncharacterized protein n=1 Tax=Halostagnicola 
+larsenii XH-48 TaxID=797299 RepID=W0JIZ2_9EURY
+Length=86
+
+ Score = 47.2 bits (111),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 22/79 (28%), Positives = 28/79 (35%), Gaps = 2/79 (3%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+            ER+F      L  RYL   GG R  +                     SL++ ++ V  E
+Sbjct  5   IERSFRGISERLAARYLTNLGGERVDDRTIEGDRWSASLASETVEVGPSLTLTEVTVVFE  64
+
+Query  62  GEEA--ERWFERIAFAASR  78
+           GEE   E   E  A  A R
+Sbjct  65  GEEGHLETLVEEFAQKAMR  83
+
+
+> UniRef90_A6TVP1 Uncharacterized protein n=1 Tax=Alkaliphilus 
+metalliredigens (strain QYMF) TaxID=293826 RepID=A6TVP1_ALKMQ
+Length=85
+
+ Score = 47.2 bits (111),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 15/62 (24%), Positives = 24/62 (39%), Gaps = 1/62 (2%)
+
+Query  4   RTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGE  63
+                     L  Y +E      G G Y   G  V   E +  ++GS+ +P++ +   GE
+Sbjct  7   HETRGVTRAELAEYFKELASCEAG-GAYYGKGWQVILAEEKICRLGSIKLPEVTITFHGE  65
+
+Query  64  EA  65
+           E 
+Sbjct  66  EG  67
+
+
+> UniRef90_UPI0006767F9E hypothetical protein n=1 Tax=haloarchaeon 
+3A1_DGR TaxID=1071085 RepID=UPI0006767F9E
+Length=151
+
+ Score = 47.6 bits (112),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 19/84 (23%), Positives = 28/84 (33%), Gaps = 8/84 (10%)
+
+Query  3    ERTFGAFPPWLLERYLEEWGGTREGEGV------YRLPGAVVRFREVEPLKVGSLSIPQL  56
+            ER++      L   YL   GGT  G             G             GSL++ ++
+Sbjct  65   ERSYRGISRRLAAHYLRNLGGTLVGTDEPAEATRVDGDGWTAELSAEPVAVAGSLTLTEV  124
+
+Query  57   RVEVEGEEA--ERWFERIAFAASR  78
+             V   G+    +   ER +  A R
+Sbjct  125  TVGFTGDPEVLDDLIERFSQKAMR  148
+
+
+> UniRef90_A0A151AF07 Uncharacterized protein n=1 Tax=Halalkalicoccus 
+paucihalophilus TaxID=1008153 RepID=A0A151AF07_9EURY
+Length=84
+
+ Score = 47.2 bits (111),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 22/79 (28%), Positives = 29/79 (37%), Gaps = 2/79 (3%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+            ER+F      L   YL   GG  E +      G        +     S+S+ ++ V  E
+Sbjct  3   VERSFRGISQRLARHYLSNLGGEEESDDRVVGEGWEADLSSRKVSIGPSMSLTEVTVVFE  62
+
+Query  62  GEEA--ERWFERIAFAASR  78
+           GEE   E   E  A  A R
+Sbjct  63  GEEEVLEPLIEDFAQKAMR  81
+
+
+> UniRef90_L0JNY9 Uncharacterized protein n=3 Tax=Natrialbaceae 
+TaxID=1644061 RepID=L0JNY9_NATP1
+Length=86
+
+ Score = 46.9 bits (110),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 20/79 (25%), Positives = 30/79 (38%), Gaps = 2/79 (3%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+            ER+F      L+ RYL   GG +  +           F         SL + ++ +  E
+Sbjct  5   LERSFRGISERLVVRYLTNLGGEQVDDTTVEGEDWTATFSSERVGVGPSLQLTEVTIVFE  64
+
+Query  62  GEEA--ERWFERIAFAASR  78
+           G+E   E   E+ A  A R
+Sbjct  65  GDEETLEPLVEQFAQKAMR  83
+
+
+> UniRef90_A0A0W1R6I9 Uncharacterized protein n=1 Tax=Haloprofundus 
+marisrubri TaxID=1514971 RepID=A0A0W1R6I9_9EURY
+Length=101
+
+ Score = 46.9 bits (110),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 18/80 (23%), Positives = 30/80 (38%), Gaps = 4/80 (5%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVG-SLSIPQLRVEV  60
+            E++F      L   YL   GG R  E               + + +G +L I ++ +  
+Sbjct  20  VEKSFRGISERLAAHYLTNLGGERVEEDRVVGDDWEATLSSKK-VDIGPTLDITEVTLVF  78
+
+Query  61  EG--EEAERWFERIAFAASR  78
+           EG  E  +   E+ +  A R
+Sbjct  79  EGDAETLDPLIEQFSQKAMR  98
+
+
+> UniRef90_A0A1F9Z803 Uncharacterized protein n=1 Tax=Euryarchaeota 
+archaeon RBG_16_68_13 TaxID=1797982 RepID=A0A1F9Z803_9EURY
+Length=82
+
+ Score = 46.5 bits (109),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 24/79 (30%), Positives = 31/79 (39%), Gaps = 4/79 (5%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIP--QLRVE  59
+            E      P   L  YL E GG   G+ + R PG  V F      ++GSL IP   LR+E
+Sbjct  3   VEEPLRGIPRVTLVDYLVELGGVEVGD-LVRGPGWDVSFEVSSD-RIGSLDIPVVVLRIE  60
+
+Query  60  VEGEEAERWFERIAFAASR  78
+               +     E +     R
+Sbjct  61  GRVRDVRALVEGLRPKTVR  79
+
+
+> UniRef90_A0A0F7PCK7 Uncharacterized protein n=1 Tax=Halanaeroarchaeum 
+sulfurireducens TaxID=1604004 RepID=A0A0F7PCK7_9EURY
+Length=84
+
+ Score = 46.5 bits (109),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 21/80 (26%), Positives = 31/80 (39%), Gaps = 4/80 (5%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVG-SLSIPQLRVEV  60
+            ER+F      L  +YL   GG    +     P         E + +G SL + ++ V  
+Sbjct  3   VERSFRGISIRLARQYLIGLGGEVRDDETVVGPDWTATLS-AERVAIGPSLELTEVTVVF  61
+
+Query  61  EGEEA--ERWFERIAFAASR  78
+           +G E   E   ER +  A R
+Sbjct  62  DGPETTLEDLVERFSRKAIR  81
+
+
+> UniRef90_L9W0I1 Uncharacterized protein n=1 Tax=Natronorubrum 
+tibetense GA33 TaxID=1114856 RepID=L9W0I1_9EURY
+Length=101
+
+ Score = 46.5 bits (109),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 17/67 (25%), Positives = 27/67 (40%), Gaps = 2/67 (3%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVG-SLSIPQLRVEV  60
+            ER+F      L  RYL   GG +  +               E + +G SL++ ++ V  
+Sbjct  5   VERSFRGISERLAVRYLTNLGGEQVADDTVAGDDWTATLSS-ETVGIGPSLTLTEVTVVF  63
+
+Query  61  EGEEAER  67
+           EG+E   
+Sbjct  64  EGDEKRS  70
+
+
+> UniRef90_U1PIB2 Uncharacterized protein n=1 Tax=Haloquadratum 
+walsbyi J07HQW1 TaxID=1238424 RepID=U1PIB2_9EURY
+Length=125
+
+ Score = 46.5 bits (109),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 17/80 (21%), Positives = 30/80 (38%), Gaps = 4/80 (5%)
+
+Query  2    FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVG-SLSIPQLRVEV  60
+             ER++      L   YLE+ GG        +           E + VG +L + ++ V  
+Sbjct  44   VERSYRGISVRLARHYLEKLGGEVVDTNNIQAESWSATLS-AETVGVGPTLELTEVTVAF  102
+
+Query  61   EGEEA--ERWFERIAFAASR  78
+             G +   +   +R +  A R
+Sbjct  103  TGSQDALDTLIDRFSQKAMR  122
+
+
+> UniRef90_UPI000679D0E9 hypothetical protein n=1 Tax=Halobellus 
+rufus TaxID=1448860 RepID=UPI000679D0E9
+Length=89
+
+ Score = 46.1 bits (108),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 18/79 (23%), Positives = 32/79 (41%), Gaps = 4/79 (5%)
+
+Query  3   ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVG-SLSIPQLRVEVE  61
+           E+++      L   YLE+ GG    +             + E + +G +L + ++ V  E
+Sbjct  9   EKSYRGISLRLARHYLEKLGGEVVDDERVEGDAWTASLSD-EKVSIGPTLKLTEVTVVFE  67
+
+Query  62  G--EEAERWFERIAFAASR  78
+           G  E  E   +R +  A R
+Sbjct  68  GDPEALEELIDRFSQKAMR  86
+
+
+> UniRef90_UPI000679985E hypothetical protein n=1 Tax=Haladaptatus 
+cibarius TaxID=453847 RepID=UPI000679985E
+Length=84
+
+ Score = 46.1 bits (108),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 19/79 (24%), Positives = 33/79 (42%), Gaps = 4/79 (5%)
+
+Query  3   ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVG-SLSIPQLRVEVE  61
+           E++F      L   YLE  GG  E +G     G        E + +G ++ + ++ V  E
+Sbjct  4   EKSFRGINERLARVYLENLGGEVEEDGDVSGDGWEASLSS-EKVSIGPTVELTEITVVFE  62
+
+Query  62  GEEA--ERWFERIAFAASR  78
+           G+E   +   +  +  A R
+Sbjct  63  GDEETLDSLVDEFSQKAMR  81
+
+
+> UniRef90_D2RWY0 Uncharacterized protein n=2 Tax=Haloterrigena 
+TaxID=121871 RepID=D2RWY0_HALTV
+Length=86
+
+ Score = 46.1 bits (108),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 22/80 (28%), Positives = 31/80 (39%), Gaps = 4/80 (5%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVG-SLSIPQLRVEV  60
+            ER+F      L  RYL   GG R  +               E + +G SL + ++ V  
+Sbjct  5   VERSFRGISERLAIRYLTNLGGERVDDDTVAGEDWTATLSS-EKVGIGPSLQLTEVTVVF  63
+
+Query  61  EGEEA--ERWFERIAFAASR  78
+           EG+E   E   +  A  A R
+Sbjct  64  EGDEQRLESLVDDFAQKAMR  83
+
+
+> UniRef90_A0A1H5W2R4 Uncharacterized protein n=1 Tax=Halobellus 
+limi TaxID=699433 RepID=A0A1H5W2R4_9EURY
+Length=89
+
+ Score = 46.1 bits (108),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 19/79 (24%), Positives = 33/79 (42%), Gaps = 4/79 (5%)
+
+Query  3   ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVG-SLSIPQLRVEVE  61
+           E++F      L   YLE+ GG   G+               E + +G +L + ++ V  E
+Sbjct  9   EKSFRGISLRLARHYLEKLGGDAVGDERVEADDWAASLS-AEKVSIGPTLKLTEVTVVFE  67
+
+Query  62  GEEA--ERWFERIAFAASR  78
+           G+ A  +   +R +  A R
+Sbjct  68  GDPAALDDLIDRFSQKAMR  86
+
+
+> UniRef90_A0A1D8S6Z2 Uncharacterized protein n=2 Tax=unclassified 
+Halobacteria TaxID=1855410 RepID=A0A1D8S6Z2_9EURY
+Length=84
+
+ Score = 45.7 bits (107),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 26/80 (33%), Positives = 35/80 (44%), Gaps = 4/80 (5%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVG-SLSIPQLRVEV  60
+            ERTF    P L+  YLE  G     +     PG    F   E + +G S+ + ++ +  
+Sbjct  3   VERTFRGITPDLVRIYLESVGAETVEDERATGPGWEAEFA-AEKIAIGPSIELTEITITF  61
+
+Query  61  EGEEA--ERWFERIAFAASR  78
+           EGEEA  E   E  A  A R
+Sbjct  62  EGEEAVLEDVVETFARKAVR  81
+
+
+> UniRef90_D8J8Z5 Uncharacterized protein n=1 Tax=Halalkalicoccus 
+jeotgali (strain DSM 18796 / CECT 7217 / JCM 14584 / KCTC 
+4019 / B3) TaxID=795797 RepID=D8J8Z5_HALJB
+Length=84
+
+ Score = 45.7 bits (107),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 22/78 (28%), Positives = 29/78 (37%), Gaps = 2/78 (3%)
+
+Query  3   ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEG  62
+           ER+F      L   YL   GGT E +               +     SLS+ ++ +  EG
+Sbjct  4   ERSFRGISQRLARHYLSNLGGTVESDDRVVGESWEASLSSQKVSIGPSLSLTEVTIVFEG  63
+
+Query  63  EEA--ERWFERIAFAASR  78
+           EE   E   E  A  A R
+Sbjct  64  EEETLEPLIEDFAQKAMR  81
+
+
+> UniRef90_L9YA27 Uncharacterized protein n=1 Tax=Natrinema versiforme 
+JCM 10478 TaxID=1227496 RepID=L9YA27_9EURY
+Length=86
+
+ Score = 45.7 bits (107),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 22/80 (28%), Positives = 33/80 (41%), Gaps = 4/80 (5%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVG-SLSIPQLRVEV  60
+            ER+F      L+ RYL   GG +              F   E + +G SL + ++ +  
+Sbjct  5   IERSFRGISERLVIRYLTNLGGEQVAADTVEGEDWTATFSS-EQVGIGPSLKLTEITIVF  63
+
+Query  61  EGEEA--ERWFERIAFAASR  78
+           EG++   E   ER A  A R
+Sbjct  64  EGDDDTLEPLVERFAQKAMR  83
+
+
+> UniRef90_L9XE80 Uncharacterized protein n=1 Tax=Natronolimnobius 
+innermongolicus JCM 12255 TaxID=1227499 RepID=L9XE80_9EURY
+Length=88
+
+ Score = 45.3 bits (106),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 23/82 (28%), Positives = 35/82 (43%), Gaps = 6/82 (7%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVG-SLSIPQLRVEV  60
+            ER+F      L+ RYL   GG +  E               E + +G +L++ ++ +  
+Sbjct  5   VERSFRGISERLVVRYLTNLGGEQVAEDTVEGDDWTATLSS-ESVGIGPTLTLTEVTIVF  63
+
+Query  61  E--GEEA--ERWFERIAFAASR  78
+           E  G+EA  E   ER A  A R
+Sbjct  64  ETDGDEAQLEELIERFAQKAMR  85
+
+
+> UniRef90_UPI00005B8D95 UPI00005B8D95 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00005B8D95
+Length=84
+
+ Score = 45.3 bits (106),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 20/78 (26%), Positives = 27/78 (35%), Gaps = 2/78 (3%)
+
+Query  3   ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEG  62
+            RTF      L   YLE  GG   GE      G             GS+ + ++ +  EG
+Sbjct  4   TRTFRGISKRLAISYLEGLGGEHNGESRVEGDGWAATLDARTVSPAGSIRLSEVEIRFEG  63
+
+Query  63  --EEAERWFERIAFAASR  78
+             +E +   E     A R
+Sbjct  64  DRDELDPVIEAFERKAVR  81
+
+
+> UniRef90_UPI000677E794 hypothetical protein n=1 Tax=Halopiger 
+goleamassiliensis TaxID=1293048 RepID=UPI000677E794
+Length=86
+
+ Score = 44.6 bits (104),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 24/79 (30%), Positives = 30/79 (38%), Gaps = 2/79 (3%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+            ER+F      L  RYL   GG R  E   R  G V            SLS+ ++ +  E
+Sbjct  5   IERSFRGITERLAVRYLTNLGGERVAEDRVRGDGWVATLTSRSVEVGPSLSVTEVTLVFE  64
+
+Query  62  GEEA--ERWFERIAFAASR  78
+           GE    E   E+    A R
+Sbjct  65  GEAETVEPLVEQFERKAMR  83
+
+
+> UniRef90_A0A0W1SVG7 Uncharacterized protein n=1 Tax=Haloferax 
+sp. SB29 TaxID=1544718 RepID=A0A0W1SVG7_9EURY
+Length=85
+
+ Score = 44.6 bits (104),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 20/78 (26%), Positives = 31/78 (40%), Gaps = 2/78 (3%)
+
+Query  3   ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEG  62
+           ER F      L+ +YLE  GG  +GE     P   V           S+ + ++++  EG
+Sbjct  5   ERAFRGISTRLVVQYLEGLGGEADGERRVVGPDWTVDIDTEVVTITSSIQLTEVQLTFEG  64
+
+Query  63  EEA--ERWFERIAFAASR  78
+           +E   +      A  A R
+Sbjct  65  DEETLDELIPTFAQKAMR  82
+
+
+> UniRef90_F8D4M0 Uncharacterized protein n=1 Tax=Halopiger xanaduensis 
+(strain DSM 18323 / JCM 14033 / SH-6) TaxID=797210 
+RepID=F8D4M0_HALXS
+Length=85
+
+ Score = 44.2 bits (103),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 22/79 (28%), Positives = 32/79 (41%), Gaps = 4/79 (5%)
+
+Query  3   ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVG-SLSIPQLRVEVE  61
+           ER+F      L  RYL   GG    +G              E + +G S+S+ ++ V  E
+Sbjct  5   ERSFRGISERLAIRYLTNLGGEHREDGTVASEDWTATVSS-EKVDIGPSMSLTEVTVVFE  63
+
+Query  62  GEEA--ERWFERIAFAASR  78
+           G E   E   ++ A  A R
+Sbjct  64  GNEETLEPLVDKFAQKAMR  82
+
+
+> UniRef90_L0AEN7 Uncharacterized protein n=1 Tax=Natronobacterium 
+gregoryi (strain ATCC 43098 / DSM 3393 / CCM 3738 / CIP 
+104747 / JCM 8860 / NBRC 102187 / NCIMB 2189 / SP2) TaxID=797304 
+RepID=L0AEN7_NATGS
+Length=88
+
+ Score = 43.8 bits (102),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 22/81 (27%), Positives = 36/81 (44%), Gaps = 4/81 (5%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRL-PGAVVRFREVEPLKVG-SLSIPQLRVE  59
+            ER+F      L  RYL   GG +  +       GA +     + +++G SL++ ++ V 
+Sbjct  5   IERSFRGISERLAVRYLTNLGGKQIDDDTVEDEDGAWLATLSSDTVEIGPSLTLTEITVV  64
+
+Query  60  VEGEEA--ERWFERIAFAASR  78
+            EG+E   E   +  A  A R
+Sbjct  65  FEGDETELEELVDDFAQKAMR  85
+
+
+> UniRef90_UPI0006777D17 hypothetical protein n=1 Tax=Haloplanus 
+natans TaxID=376171 RepID=UPI0006777D17
+Length=90
+
+ Score = 43.4 bits (101),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 21/78 (27%), Positives = 29/78 (37%), Gaps = 2/78 (3%)
+
+Query  3   ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEG  62
+           ER+F      L  +YLE  G  R  +             E       S+S+ Q+ +  EG
+Sbjct  10  ERSFRGISTRLAVKYLETLGAERVDDDRVEAEDWAADLAEQTVTVGPSVSLTQVDLVFEG  69
+
+Query  63  --EEAERWFERIAFAASR  78
+             E  +   ER A  A R
+Sbjct  70  DPETLDPLIERFARKAMR  87
+
+
+> UniRef90_A0A0T5XAN3 Uncharacterized protein n=1 Tax=Acetomicrobium 
+hydrogeniformans ATCC BAA-1850 TaxID=592015 RepID=A0A0T5XAN3_9BACT
+Length=86
+
+ Score = 43.4 bits (101),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 13/76 (17%), Positives = 30/76 (39%), Gaps = 2/76 (3%)
+
+Query  5   TFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVE--VEG  62
+                       +  + GG  E   VY+ P       E + +K+G+++   +R++  VE 
+Sbjct  8   EMRTIKKEEFIEWFRQMGGKEEEPDVYKGPFWNAHIDEPKNIKLGAMNFISIRIKIVVED  67
+
+Query  63  EEAERWFERIAFAASR  78
+           ++ + +  +      R
+Sbjct  68  DKYDDFMSKFRLRFLR  83
+
+
+> UniRef90_L0JVN7 Uncharacterized protein n=3 Tax=Natronococcus 
+TaxID=29287 RepID=L0JVN7_9EURY
+Length=88
+
+ Score = 42.6 bits (99),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 20/79 (25%), Positives = 27/79 (34%), Gaps = 2/79 (3%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVE  61
+            ER+F      L  RYL   GG R  E                     SL++ ++ V  E
+Sbjct  7   VERSFRGISERLARRYLTNLGGERVDEETVAGEDWTATISSETVGVGPSLTLTEVTVVFE  66
+
+Query  62  GEEA--ERWFERIAFAASR  78
+           G+    +   E  A  A R
+Sbjct  67  GDPDALDGLVEDFAQKAMR  85
+
+
+> UniRef90_Q5V0N7 Uncharacterized protein n=13 Tax=Haloarcula TaxID=2237 
+RepID=Q5V0N7_HALMA
+Length=84
+
+ Score = 42.6 bits (99),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 21/78 (27%), Positives = 31/78 (40%), Gaps = 2/78 (3%)
+
+Query  3   ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEG  62
+           ER+F          YLE  GG + GE      G      E +     SL + ++ ++ +G
+Sbjct  4   ERSFRGISVRAAIGYLENLGGEQRGEATVEGDGWAATLSEEKVAIGPSLQLNEVTIQFDG  63
+
+Query  63  --EEAERWFERIAFAASR  78
+             E  E   E+ A  A R
+Sbjct  64  DPETLEPLIEKFAQKAMR  81
+
+
+> UniRef90_A0A0P7GBJ1 Uncharacterized protein n=4 Tax=Halolamina 
+TaxID=1075397 RepID=A0A0P7GBJ1_9EURY
+Length=89
+
+ Score = 42.2 bits (98),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 18/83 (22%), Positives = 30/83 (36%), Gaps = 8/83 (10%)
+
+Query  3   ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVG-SLSIPQLRVEVE  61
+           E+ F      L   YLE  GGT   +         V     E + +G S+ + ++ V  E
+Sbjct  5   EKQFRGISMRLARNYLENLGGTAVDDTTVEADDWRVDLS-AEKVAIGPSIELTEVSVAFE  63
+
+Query  62  GEEA------ERWFERIAFAASR  78
+            ++       E+     +  A R
+Sbjct  64  ADDEFGEENFEQLVADFSRKAMR  86
+
+
+> UniRef90_UPI0003F91035 hypothetical protein n=1 Tax=Carboxydothermus 
+ferrireducens TaxID=54265 RepID=UPI0003F91035
+Length=86
+
+ Score = 42.2 bits (98),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 16/58 (28%), Positives = 25/58 (43%), Gaps = 0/58 (0%)
+
+Query  8   AFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQLRVEVEGEEA  65
+                 +E Y E     +EG+  Y   G VV     EP  +G +S P+ R+   G++ 
+Sbjct  11  GISLSEIEEYFENICEKKEGKHKYLGKGWVVELVPEEPRTLGKISRPRTRIIFSGDKE  68
+
+
+> UniRef90_M1XLM5 Ubiquitin-like protein n=1 Tax=Natronomonas moolapensis 
+(strain DSM 18674 / JCM 14361 / 8.8.11) TaxID=268739 
+RepID=M1XLM5_NATM8
+Length=86
+
+ Score = 41.5 bits (96),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 24/80 (30%), Positives = 33/80 (41%), Gaps = 4/80 (5%)
+
+Query  3   ERTFGAFPPWLLERYLEEWGGTREGEGVYRLPG--AVVRFREVEPLKVGSLSIPQLRVEV  60
+            R F      L   YLE  GG R  E   R+ G        E +   +GS+++ ++ +  
+Sbjct  4   TREFRGISKRLAANYLEGLGGERLDEAGDRIEGARWSAALSERKVNPMGSITLNEVEIRF  63
+
+Query  61  EGEEA--ERWFERIAFAASR  78
+           EGE    E   ER A  A R
+Sbjct  64  EGEAEALEPLIERFAQKAMR  83
+
+
+> UniRef90_A0A1F2PEF0 Uncharacterized protein n=1 Tax=Acetobacterium 
+wieringae TaxID=52694 RepID=A0A1F2PEF0_9FIRM
+Length=100
+
+ Score = 40.7 bits (94),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 16/75 (21%), Positives = 26/75 (35%), Gaps = 3/75 (4%)
+
+Query  6   FGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRF--REVEPLKVGSLSIPQLRVEVEGE  63
+               P W  +RYL +      G+  Y   G  V       E + V SL    + + VE +
+Sbjct  24  MRGIPKWEFDRYLRK-KAETIGKDCYTGAGWQVTLSPERQESIGVCSLVAVDVTLVVEKD  82
+
+Query  64  EAERWFERIAFAASR  78
+           + + +         R
+Sbjct  83  QFDDFLRSFRKNFLR  97
+
+
+> UniRef90_I4BTZ5 Uncharacterized protein n=2 Tax=Acetomicrobium 
+mobile (strain ATCC BAA-54 / DSM 13181 / NGA) TaxID=891968 
+RepID=I4BTZ5_ACEMN
+Length=88
+
+ Score = 40.7 bits (94),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 14/76 (18%), Positives = 27/76 (36%), Gaps = 2/76 (3%)
+
+Query  5   TFGAFPPWLLERYLEEWGGTREGEGVYRLPGAVVRFREVEPLKVGSLSIPQ--LRVEVEG  62
+                       +  + GG    +G +  P       E   +K+G++  P   +R+ VE 
+Sbjct  10  EMRTIKRDEFLNWFRQIGGIEGDDGFFEGPSWKAYIGETSKVKLGAMDFPVVYVRILVEE  69
+
+Query  63  EEAERWFERIAFAASR  78
+           E+ E + +       R
+Sbjct  70  EQFEDFMKAFRLRFLR  85
+
+
+> UniRef90_A0A1A5X152 Uncharacterized protein n=4 Tax=Bacillales 
+TaxID=1385 RepID=A0A1A5X152_9BACL
+Length=93
+
+ Score = 40.3 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 15/85 (18%), Positives = 25/85 (29%), Gaps = 8/85 (9%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEG----VYRLPGAVVRFREVEPLKVGS-LSIPQL  56
+            E      P   L  YL E GG    +       R  G        E +++ S   +  +
+Sbjct  6   LELELRGIPLSHLVAYLVECGGDPPPDETLPITVRGQGWQAEVLREESVRITSRFHVNAV  65
+
+Query  57  RVEVEGEEA---ERWFERIAFAASR  78
+            +    ++     R  +R      R
+Sbjct  66  FIRFHADDDHTLNRLMDRFRIKVMR  90
+
+
+> UniRef90_M0LJL2 Uncharacterized protein n=1 Tax=Halobiforma lacisalsi 
+AJ5 TaxID=358396 RepID=M0LJL2_9EURY
+Length=90
+
+ Score = 40.3 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 22/81 (27%), Positives = 34/81 (42%), Gaps = 4/81 (5%)
+
+Query  2   FERTFGAFPPWLLERYLEEWGGTREGEGVYRL-PGAVVRFREVEPLKVG-SLSIPQLRVE  59
+            ER+F      L  RYL   GG R  +       G        + +++G SL++ ++ V 
+Sbjct  7   VERSFRGISERLTVRYLTNLGGERVADDAVADEDGEWTATFSSDTVEIGPSLTLTEITVV  66
+
+Query  60  VEGEEA--ERWFERIAFAASR  78
+            EG+E   E   +  A  A R
+Sbjct  67  FEGDEDALESLVDDFAQKAMR  87
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.145    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0446    0.140     1.90     42.6     43.6 
+
+Effective search space used: 443331707685
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

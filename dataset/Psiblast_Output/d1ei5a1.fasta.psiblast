@@ -1,0 +1,4128 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1ei5a1
+
+Length=82
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q9ZBA9 D-aminopeptidase n=3 Tax=Ochrobactrum TaxID=528...  164     5e-46
+  UniRef90_UPI000463BAF2 D-aminopeptidase n=1 Tax=Ochrobactrum rh...  126     2e-32
+  UniRef90_A6WYS5 D-aminopeptidase n=13 Tax=Ochrobactrum TaxID=52...  125     4e-32
+  UniRef90_Q8YD27 D-aminopeptidase n=35 Tax=Brucellaceae TaxID=11...  113     1e-27
+  UniRef90_UPI00039BC93C D-aminopeptidase n=1 Tax=Pseudochrobactr...  65.9    2e-10
+  UniRef90_A0A1C0S9G0 D-aminopeptidase n=1 Tax=Ensifer sp. LC14 T...  60.1    1e-08
+  UniRef90_UPI00055363FC D-aminopeptidase n=1 Tax=Chelativorans s...  51.6    1e-05
+  UniRef90_A0A0L8C2G9 D-aminopeptidase n=3 Tax=Ensifer TaxID=1065...  51.2    2e-05
+  UniRef90_T0K9H4 Uncharacterized protein n=2 Tax=Colletotrichum ...  51.6    2e-05
+  UniRef90_A0A0Q9E5Z0 D-aminopeptidase n=6 Tax=Sinorhizobium/Ensi...  50.8    2e-05
+  UniRef90_A0A0D1XSF0 Uncharacterized protein n=1 Tax=Verruconis ...  50.1    5e-05
+  UniRef90_A0A0T6YDY2 D-aminopeptidase n=5 Tax=Sinorhizobium/Ensi...  49.3    7e-05
+  UniRef90_N4UV62 D-aminopeptidase n=1 Tax=Colletotrichum orbicul...  49.3    8e-05
+  UniRef90_A0A1A9GFF8 Aminopeptidase n=1 Tax=Shinella sp. HZN7 Ta...  48.9    1e-04
+  UniRef90_A0A0Q7R887 D-aminopeptidase n=4 Tax=Ensifer TaxID=1065...  47.4    4e-04
+  UniRef90_UPI0003F83BFD D-aminopeptidase n=1 Tax=Pleomorphomonas...  45.4    0.001
+  UniRef90_UPI0002E8A4C9 hypothetical protein n=1 Tax=Pseudaminob...  45.1    0.002
+  UniRef90_UPI0006847FF4 aminopeptidase n=1 Tax=Gemmobacter necta...  45.1    0.002
+  UniRef90_W9Y0G6 Uncharacterized protein n=1 Tax=Capronia corona...  44.7    0.003
+  UniRef90_UPI00056BBABB D-aminopeptidase n=1 Tax=Rhizobium sp. O...  44.3    0.003
+  UniRef90_UPI00048DD968 D-aminopeptidase n=1 Tax=Rhizobium selen...  44.3    0.004
+  UniRef90_UPI0006C7637A aminopeptidase n=1 Tax=Gemmobacter sp. L...  43.5    0.007
+  UniRef90_A0A1G3G563 Aminopeptidase n=1 Tax=Rhodobacterales bact...  43.5    0.007
+  UniRef90_R1EYS7 Putative beta-lactamase family protein n=1 Tax=...  43.1    0.009
+  UniRef90_A0A1A9GAP8 Aminopeptidase n=2 Tax=Rhizobiaceae TaxID=8...  43.1    0.010
+
+
+> UniRef90_Q9ZBA9 D-aminopeptidase n=3 Tax=Ochrobactrum TaxID=528 
+RepID=DAP_OCHAN
+Length=520
+
+ Score = 164 bits (415),  Expect = 5e-46, Method: Compositional matrix adjust.
+ Identities = 82/82 (100%), Positives = 82/82 (100%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI
+Sbjct  336  EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  395
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+            RRDGETIELVRASENLRLSMKR
+Sbjct  396  RRDGETIELVRASENLRLSMKR  417
+
+
+> UniRef90_UPI000463BAF2 D-aminopeptidase n=1 Tax=Ochrobactrum 
+rhizosphaerae TaxID=571254 RepID=UPI000463BAF2
+Length=520
+
+ Score = 126 bits (317),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 62/82 (76%), Positives = 69/82 (84%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            E  R EAD+AWFGSWL  +TGLVLSLEDAG GR+KARFGT PEMMDV SANEARS++TTI
+Sbjct  336  EPQRAEADTAWFGSWLCQDTGLVLSLEDAGCGRLKARFGTGPEMMDVESANEARSSMTTI  395
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+            RRDG+ IEL+R  ENLRL M R
+Sbjct  396  RRDGDVIELLRDDENLRLMMNR  417
+
+
+> UniRef90_A6WYS5 D-aminopeptidase n=13 Tax=Ochrobactrum TaxID=528 
+RepID=DAP_OCHA4
+Length=520
+
+ Score = 125 bits (315),  Expect = 4e-32, Method: Compositional matrix adjust.
+ Identities = 61/82 (74%), Positives = 67/82 (82%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            E  RV AD+ WFGSWLD ETGLVLSLEDAG GRMKARFGT PEMMDVV  NEARS++T I
+Sbjct  336  EQVRVAADAVWFGSWLDHETGLVLSLEDAGRGRMKARFGTGPEMMDVVGENEARSSMTAI  395
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+            RRDG+TI L R  ENL L+M+R
+Sbjct  396  RRDGDTIHLAREDENLSLTMQR  417
+
+
+> UniRef90_Q8YD27 D-aminopeptidase n=35 Tax=Brucellaceae TaxID=118882 
+RepID=DAP_BRUME
+Length=518
+
+ Score = 113 bits (282),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 52/79 (66%), Positives = 62/79 (78%), Gaps = 0/79 (0%)
+
+Query  4    RVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRD  63
+            R +A+  WFGSWL+ ETGLVLSLEDAG GRMKARFGT PE MD+   NEA+S++TT+RRD
+Sbjct  339  RAQANPGWFGSWLNPETGLVLSLEDAGGGRMKARFGTGPEKMDISGENEAQSSMTTLRRD  398
+
+Query  64   GETIELVRASENLRLSMKR  82
+            G+ I L R  ENL L+M R
+Sbjct  399  GDMIHLARKDENLHLAMHR  417
+
+
+> UniRef90_UPI00039BC93C D-aminopeptidase n=1 Tax=Pseudochrobactrum 
+sp. AO18b TaxID=1201036 RepID=UPI00039BC93C
+Length=519
+
+ Score = 65.9 bits (159),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 32/78 (41%), Positives = 47/78 (60%), Gaps = 0/78 (0%)
+
+Query  5    VEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDG  64
+            +  D+ W+G++ D  T L LSL  A  G++ ARFGTSPEMMD+ +    +S+   ++R G
+Sbjct  341  LPVDAGWYGNYFDPSTKLSLSLTPAVGGQVHARFGTSPEMMDMQADGSLQSSGMVLQRKG  400
+
+Query  65   ETIELVRASENLRLSMKR  82
+            + I L R  ENL   + R
+Sbjct  401  DEIALRRDGENLSAKLHR  418
+
+
+> UniRef90_A0A1C0S9G0 D-aminopeptidase n=1 Tax=Ensifer sp. LC14 
+TaxID=1873714 RepID=A0A1C0S9G0_9RHIZ
+Length=520
+
+ Score = 60.1 bits (144),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 31/71 (44%), Positives = 41/71 (58%), Gaps = 0/71 (0%)
+
+Query  12   FGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETIELVR  71
+            FGS+LD ETGL L     G  R+   F TSPE + + +   ARS   T+ RDG T+ + R
+Sbjct  348  FGSYLDSETGLALVASPLGSSRLALHFATSPETLAIGADGVARSPAATLARDGATLSMER  407
+
+Query  72   ASENLRLSMKR  82
+              ENL +S +R
+Sbjct  408  TRENLAVSAER  418
+
+
+> UniRef90_UPI00055363FC D-aminopeptidase n=1 Tax=Chelativorans 
+sp. J32 TaxID=935840 RepID=UPI00055363FC
+Length=516
+
+ Score = 51.6 bits (122),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 29/75 (39%), Positives = 40/75 (53%), Gaps = 1/75 (1%)
+
+Query  8    DSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETI  67
+            D  W GS+LD   GL+L +  +G G M+AR+ TSPE +         S   T+ R G+T+
+Sbjct  341  DPDWNGSYLDQSNGLLLEIHISGEG-MEARYATSPERLFPGPGGTLVSPSMTLARAGDTV  399
+
+Query  68   ELVRASENLRLSMKR  82
+             L R  ENL  +  R
+Sbjct  400  RLERPRENLVATANR  414
+
+
+> UniRef90_A0A0L8C2G9 D-aminopeptidase n=3 Tax=Ensifer TaxID=106591 
+RepID=A0A0L8C2G9_ENSAD
+Length=520
+
+ Score = 51.2 bits (121),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 26/75 (35%), Positives = 43/75 (57%), Gaps = 0/75 (0%)
+
+Query  8    DSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETI  67
+            D   FG++L+ ETGL LS    G GR++ RF T+ E + + +   ARS   ++  +G  +
+Sbjct  344  DGRQFGTYLEPETGLALSTRPLGPGRIELRFATAGEPLQIAADGIARSGAVSLTANGTGL  403
+
+Query  68   ELVRASENLRLSMKR  82
+            ++ R  ENL  + +R
+Sbjct  404  QMERERENLATTAER  418
+
+
+> UniRef90_T0K9H4 Uncharacterized protein n=2 Tax=Colletotrichum 
+gloeosporioides TaxID=474922 RepID=T0K9H4_COLGC
+Length=781
+
+ Score = 51.6 bits (122),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 24/82 (29%), Positives = 44/82 (54%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            E + V+ADS+WFG++LD++T L +++     G++   +  S E +++     A S     
+Sbjct  350  EPAPVDADSSWFGTFLDEQTQLAITVSQGAKGKVNISYAGSAEAINLKDPKHAESPGIVA  409
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+            + DG  +++ R  EN  L   R
+Sbjct  410  KIDGNQLKIHRVKENRALKASR  431
+
+
+> UniRef90_A0A0Q9E5Z0 D-aminopeptidase n=6 Tax=Sinorhizobium/Ensifer 
+group TaxID=227292 RepID=A0A0Q9E5Z0_9RHIZ
+Length=520
+
+ Score = 50.8 bits (120),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 28/75 (37%), Positives = 42/75 (56%), Gaps = 0/75 (0%)
+
+Query  8    DSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETI  67
+            D+   G++LD ETGL L    +G  R++ +F TSPE + V +   A SA  T+   G ++
+Sbjct  344  DAKGTGNYLDAETGLALVTRPSGSSRVELQFATSPESLSVSADGSAGSAAVTLTAQGASL  403
+
+Query  68   ELVRASENLRLSMKR  82
+             + R  ENL +S  R
+Sbjct  404  RMERPRENLTVSADR  418
+
+
+> UniRef90_A0A0D1XSF0 Uncharacterized protein n=1 Tax=Verruconis 
+gallopava TaxID=253628 RepID=A0A0D1XSF0_9PEZI
+Length=536
+
+ Score = 50.1 bits (118),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 25/80 (31%), Positives = 43/80 (54%), Gaps = 0/80 (0%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRR  62
+            S V     WFG++LD+ET L +++  A  G++   +    E++ +V+ + A S       
+Sbjct  352  SDVSPVPQWFGTFLDEETQLCVTVAKAAAGQVSITYARDAELVRLVAPDRAESQDNVASI  411
+
+Query  63   DGETIELVRASENLRLSMKR  82
+            DG+T+ + R  EN RL  +R
+Sbjct  412  DGDTLHVHRVGENRRLKARR  431
+
+
+> UniRef90_A0A0T6YDY2 D-aminopeptidase n=5 Tax=Sinorhizobium/Ensifer 
+group TaxID=227292 RepID=A0A0T6YDY2_9RHIZ
+Length=520
+
+ Score = 49.3 bits (116),  Expect = 7e-05, Method: Compositional matrix adjust.
+ Identities = 27/70 (39%), Positives = 37/70 (53%), Gaps = 0/70 (0%)
+
+Query  13   GSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETIELVRA  72
+            GS+LD ETGL L    AG  R+   F T  E + V     A+SA  T+R +G ++ + R 
+Sbjct  349  GSYLDPETGLALVTRPAGKSRVALNFATGAETLAVGPDGSAQSAAVTLRVEGASLHMERP  408
+
+Query  73   SENLRLSMKR  82
+             ENL +   R
+Sbjct  409  RENLTVHAAR  418
+
+
+> UniRef90_N4UV62 D-aminopeptidase n=1 Tax=Colletotrichum orbiculare 
+(strain 104-T / ATCC 96160 / CBS 514.97 / LARS 414 / MAFF 
+240422) TaxID=1213857 RepID=N4UV62_COLOR
+Length=535
+
+ Score = 49.3 bits (116),  Expect = 8e-05, Method: Compositional matrix adjust.
+ Identities = 27/82 (33%), Positives = 41/82 (50%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            EV  VEAD AWFG++LD+ET L +++     GR+   +  SPE + +     A S     
+Sbjct  350  EVEPVEADPAWFGTFLDEETQLAITVSQGVKGRVVVYYTGSPEPVVLTDPTHAESPGMKA  409
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+               G+ + + R  EN  +   R
+Sbjct  410  EIVGDQLRIRRLKENKEIMASR  431
+
+
+> UniRef90_A0A1A9GFF8 Aminopeptidase n=1 Tax=Shinella sp. HZN7 
+TaxID=879274 RepID=A0A1A9GFF8_9RHIZ
+Length=520
+
+ Score = 48.9 bits (115),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 27/71 (38%), Positives = 40/71 (56%), Gaps = 1/71 (1%)
+
+Query  6    EADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGE  65
+             AD AW G +LD   GL+L ++  G   + A + T+ E + + S N A ++  T+ RDG+
+Sbjct  343  HADPAWNGDYLDRTNGLLLRVKADG-AMLDAHYATASERLRLTSENTAEASSMTLARDGD  401
+
+Query  66   TIELVRASENL  76
+             I L R  ENL
+Sbjct  402  AIRLSRPGENL  412
+
+
+> UniRef90_A0A0Q7R887 D-aminopeptidase n=4 Tax=Ensifer TaxID=106591 
+RepID=A0A0Q7R887_9RHIZ
+Length=520
+
+ Score = 47.4 bits (111),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 25/75 (33%), Positives = 43/75 (57%), Gaps = 0/75 (0%)
+
+Query  8    DSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETI  67
+            +S  FG++L+ ETGL LS    G G ++ RF T+ E + + +   ARS   ++  +G  +
+Sbjct  344  NSEQFGTYLEPETGLALSTRPLGSGWLELRFATAGESLQIAADAIARSGSVSLTPNGTGL  403
+
+Query  68   ELVRASENLRLSMKR  82
+             + R  ENL+ + +R
+Sbjct  404  HMERERENLQTTAER  418
+
+
+> UniRef90_UPI0003F83BFD D-aminopeptidase n=1 Tax=Pleomorphomonas 
+koreensis TaxID=257440 RepID=UPI0003F83BFD
+Length=518
+
+ Score = 45.4 bits (106),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 26/73 (36%), Positives = 42/73 (58%), Gaps = 1/73 (1%)
+
+Query  5    VEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDG  64
+            + AD AW G++L+  +GL+L +   G+  + ARF    E++ V     ARS   T+ RDG
+Sbjct  340  MPADPAWNGAYLEPSSGLLLDVSTHGNAVL-ARFAGGTEVLSVGEDGVARSRGMTLVRDG  398
+
+Query  65   ETIELVRASENLR  77
+            + + + R  +NLR
+Sbjct  399  QDLAIDRPGDNLR  411
+
+
+> UniRef90_UPI0002E8A4C9 hypothetical protein n=1 Tax=Pseudaminobacter 
+salicylatoxidans TaxID=93369 RepID=UPI0002E8A4C9
+Length=532
+
+ Score = 45.1 bits (105),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 25/69 (36%), Positives = 38/69 (55%), Gaps = 1/69 (1%)
+
+Query  9    SAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETIE  68
+            S W G +++  TGLVL++  A    + A F  SPE + +     ARS  T + RDG+ + 
+Sbjct  345  SGWEGRYIEPSTGLVLTVT-AQEDHLTASFAGSPERLALGQDGIARSVATILERDGDAMR  403
+
+Query  69   LVRASENLR  77
+            + R  ENL+
+Sbjct  404  IERPGENLK  412
+
+
+> UniRef90_UPI0006847FF4 aminopeptidase n=1 Tax=Gemmobacter nectariphilus 
+TaxID=220343 RepID=UPI0006847FF4
+Length=518
+
+ Score = 45.1 bits (105),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 26/69 (38%), Positives = 36/69 (52%), Gaps = 1/69 (1%)
+
+Query  8    DSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETI  67
+            +  W G W+  ETGL   LE  G   +  RFGTSPE +  ++     SA  T+ R G+ +
+Sbjct  340  EPGWQGRWICPETGLTARLEP-GAASVVMRFGTSPEELRQLAPGRLGSAHVTLERQGDRL  398
+
+Query  68   ELVRASENL  76
+             + R  ENL
+Sbjct  399  LMRRPLENL  407
+
+
+> UniRef90_W9Y0G6 Uncharacterized protein n=1 Tax=Capronia coronata 
+CBS 617.96 TaxID=1182541 RepID=W9Y0G6_9EURO
+Length=543
+
+ Score = 44.7 bits (104),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 23/75 (31%), Positives = 36/75 (48%), Gaps = 0/75 (0%)
+
+Query  8    DSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETI  67
+            D  W G++LD +TGL + +   G G +  ++  +PE + VV A  A S       DG  +
+Sbjct  361  DPDWTGTYLDSDTGLAIVVSPGGPGELLVKYHGNPEKLRVVEACRAESNSMVATLDGSCL  420
+
+Query  68   ELVRASENLRLSMKR  82
+             L    +N  L  +R
+Sbjct  421  HLYVPQDNRTLHAQR  435
+
+
+> UniRef90_UPI00056BBABB D-aminopeptidase n=1 Tax=Rhizobium sp. 
+OK665 TaxID=1500305 RepID=UPI00056BBABB
+Length=519
+
+ Score = 44.3 bits (103),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 26/77 (34%), Positives = 38/77 (49%), Gaps = 1/77 (1%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            E  RV     W G +L+  TGL+L ++     R+   FG  PE + +     ARS    +
+Sbjct  337  EPPRVRPHPGWSGDYLEPTTGLLLRVK-VRKDRLDTNFGGRPEKLMLGPDGIARSPPMIL  395
+
+Query  61   RRDGETIELVRASENLR  77
+             R G+T+ L R  +NLR
+Sbjct  396  ERVGDTLRLERPGDNLR  412
+
+
+> UniRef90_UPI00048DD968 D-aminopeptidase n=1 Tax=Rhizobium selenitireducens 
+TaxID=448181 RepID=UPI00048DD968
+Length=517
+
+ Score = 44.3 bits (103),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 26/82 (32%), Positives = 43/82 (52%), Gaps = 1/82 (1%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+             V+  EA   W G +LD ETGL++++  + H  +  RF  + + + +     ARS    +
+Sbjct  335  PVTGQEAGPDWAGRYLDPETGLLVTVAKS-HRGISLRFAGASDALTLSDDGIARSDAVEL  393
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+             RDG+ + + R  ENL +S  R
+Sbjct  394  SRDGDVVRMQRPRENLDISATR  415
+
+
+> UniRef90_UPI0006C7637A aminopeptidase n=1 Tax=Gemmobacter sp. 
+LW-1 TaxID=1529005 RepID=UPI0006C7637A
+Length=522
+
+ Score = 43.5 bits (101),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 23/68 (34%), Positives = 36/68 (53%), Gaps = 1/68 (1%)
+
+Query  9    SAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETIE  68
+              W G WLD E  L L   D   G ++  +  SP ++  VSA++A +    +RR+G  + 
+Sbjct  343  QGWGGLWLDPEADLFLRTTDT-PGGVRLHYAVSPVLLAPVSASQAEAPGILLRREGGALV  401
+
+Query  69   LVRASENL  76
+            + R +ENL
+Sbjct  402  MERPAENL  409
+
+
+> UniRef90_A0A1G3G563 Aminopeptidase n=1 Tax=Rhodobacterales bacterium 
+RIFCSPHIGHO2_02_FULL_62_130 TaxID=1802014 RepID=A0A1G3G563_9RHOB
+Length=509
+
+ Score = 43.5 bits (101),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 23/68 (34%), Positives = 39/68 (57%), Gaps = 3/68 (4%)
+
+Query  10   AWFGSWLDDETGLVL-SLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETIE  68
+             W G WLD+  GL++ +++DAG   +  R+  SP  + V +   AR    T+ R GE + 
+Sbjct  343  GWDGIWLDEANGLLVRTVQDAGG--VVLRYAPSPSRLTVAADGVARGGGVTLTRTGEGLT  400
+
+Query  69   LVRASENL  76
+            ++R +EN+
+Sbjct  401  MLRPAENM  408
+
+
+> UniRef90_R1EYS7 Putative beta-lactamase family protein n=1 Tax=Botryosphaeria 
+parva (strain UCR-NP2) TaxID=1287680 RepID=R1EYS7_BOTPV
+Length=485
+
+ Score = 43.1 bits (100),  Expect = 0.009, Method: Compositional matrix adjust.
+ Identities = 22/82 (27%), Positives = 41/82 (50%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            E   V     WFG +LD E+ + +++     G++   +   PE + +V   EARS     
+Sbjct  299  EPQAVSPAQEWFGVFLDRESRMAVTVSPGSSGKLLIAYPRHPESVALVGPKEARSRDLAA  358
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+              DG+++ + R  +NL++  +R
+Sbjct  359  TIDGDSLRIDRIEDNLKIDAQR  380
+
+
+> UniRef90_A0A1A9GAP8 Aminopeptidase n=2 Tax=Rhizobiaceae TaxID=82115 
+RepID=A0A1A9GAP8_9RHIZ
+Length=520
+
+ Score = 43.1 bits (100),  Expect = 0.010, Method: Compositional matrix adjust.
+ Identities = 26/66 (39%), Positives = 34/66 (52%), Gaps = 1/66 (2%)
+
+Query  11   WFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETIELV  70
+            W G W+  ETGL+  LE  G      RFGTSPE +  +      S+  T+ R GE + + 
+Sbjct  342  WGGQWMSRETGLLARLE-PGLDAAILRFGTSPESLSQMEDGGLASSSVTVSRAGEDLLMQ  400
+
+Query  71   RASENL  76
+            RA EN 
+Sbjct  401  RAQENY  406
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.127    0.356    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 437226641605
+Results from round 2
+
+
+Query= d1ei5a1
+
+Length=82
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A6WYS5 D-aminopeptidase n=13 Tax=Ochrobactrum TaxID=52...  124     2e-31
+  UniRef90_UPI000463BAF2 D-aminopeptidase n=1 Tax=Ochrobactrum rh...  123     4e-31
+  UniRef90_Q8YD27 D-aminopeptidase n=35 Tax=Brucellaceae TaxID=11...  123     4e-31
+  UniRef90_Q9ZBA9 D-aminopeptidase n=3 Tax=Ochrobactrum TaxID=528...  122     9e-31
+  UniRef90_N4UV62 D-aminopeptidase n=1 Tax=Colletotrichum orbicul...  115     2e-28
+  UniRef90_T0K9H4 Uncharacterized protein n=2 Tax=Colletotrichum ...  115     1e-27
+  UniRef90_UPI00039BC93C D-aminopeptidase n=1 Tax=Pseudochrobactr...  112     5e-27
+  UniRef90_A0A0D1XSF0 Uncharacterized protein n=1 Tax=Verruconis ...  106     6e-25
+  UniRef90_UPI00055363FC D-aminopeptidase n=1 Tax=Chelativorans s...  105     1e-24
+  UniRef90_A0A0L8C2G9 D-aminopeptidase n=3 Tax=Ensifer TaxID=1065...  102     2e-23
+  UniRef90_A0A0T6YDY2 D-aminopeptidase n=5 Tax=Sinorhizobium/Ensi...  101     4e-23
+  UniRef90_A0A0Q7R887 D-aminopeptidase n=4 Tax=Ensifer TaxID=1065...  99.7    1e-22
+  UniRef90_A0A1C0S9G0 D-aminopeptidase n=1 Tax=Ensifer sp. LC14 T...  99.7    2e-22
+  UniRef90_A0A0Q9E5Z0 D-aminopeptidase n=6 Tax=Sinorhizobium/Ensi...  96.3    3e-21
+  UniRef90_UPI0003F83BFD D-aminopeptidase n=1 Tax=Pleomorphomonas...  94.7    9e-21
+  UniRef90_A0A1A9GFF8 Aminopeptidase n=1 Tax=Shinella sp. HZN7 Ta...  94.7    1e-20
+  UniRef90_UPI0002E8A4C9 hypothetical protein n=1 Tax=Pseudaminob...  94.0    2e-20
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI00056BBABB D-aminopeptidase n=1 Tax=Rhizobium sp. O...  92.8    4e-20
+  UniRef90_A0A0D2D883 Uncharacterized protein n=7 Tax=Herpotrichi...  88.2    2e-18
+  UniRef90_A0A0D2YGI8 Uncharacterized protein n=15 Tax=Fusarium T...  87.4    4e-18
+  UniRef90_W9Y0G6 Uncharacterized protein n=1 Tax=Capronia corona...  86.6    7e-18
+  UniRef90_UPI00048DD968 D-aminopeptidase n=1 Tax=Rhizobium selen...  86.3    1e-17
+  UniRef90_A0A0D2AJK6 Uncharacterized protein n=1 Tax=Verruconis ...  85.1    2e-17
+  UniRef90_A0A0U1M9J4 Uncharacterized protein n=1 Tax=Talaromyces...  85.1    3e-17
+  UniRef90_A0A0D1Z2A7 Uncharacterized protein n=1 Tax=Verruconis ...  85.1    3e-17
+  UniRef90_A0A1F5LKB6 Uncharacterized protein n=1 Tax=Penicillium...  84.7    4e-17
+  UniRef90_I1RTM7 Uncharacterized protein n=3 Tax=Fusarium sambuc...  84.3    6e-17
+  UniRef90_R1EYS7 Putative beta-lactamase family protein n=1 Tax=...  83.9    6e-17
+  UniRef90_W2RKL4 Uncharacterized protein n=1 Tax=Cyphellophora e...  83.9    7e-17
+  UniRef90_UPI0003F69B5C D-aminopeptidase n=1 Tax=Pleomorphomonas...  81.6    4e-16
+  UniRef90_A0A150V8B8 Uncharacterized protein n=1 Tax=Acidomyces ...  80.5    1e-15
+  UniRef90_W6Q4V6 D-aminopeptidase n=1 Tax=Penicillium roqueforti...  80.1    1e-15
+  UniRef90_A0A0L1IY49 Putative penicillin-binding protein n=2 Tax...  80.1    2e-15
+  UniRef90_A0A0D1YL57 Uncharacterized protein n=1 Tax=Exophiala s...  79.3    3e-15
+  UniRef90_K9GFZ9 Beta-lactamase family protein n=7 Tax=Penicilli...  78.5    6e-15
+  UniRef90_A0A194X7N3 Beta-lactamase-type transpeptidase n=1 Tax=...  77.8    1e-14
+  UniRef90_A0A1I4TY37 D-stereospecific aminopeptidase Serine pept...  77.4    2e-14
+  UniRef90_C7ZD61 Putative uncharacterized protein n=1 Tax=Nectri...  77.0    2e-14
+  UniRef90_S8BCP1 Uncharacterized protein n=1 Tax=Penicillium oxa...  76.6    3e-14
+  UniRef90_UPI0006847FF4 aminopeptidase n=1 Tax=Gemmobacter necta...  75.5    6e-14
+  UniRef90_B6H6G7 Pc15g00200 protein n=2 Tax=Penicillium chrysoge...  75.1    1e-13
+  UniRef90_M2ZAM4 Uncharacterized protein n=1 Tax=Pseudocercospor...  74.7    1e-13
+  UniRef90_M3ASF3 Beta-lactamase/transpeptidase-like protein n=1 ...  73.2    5e-13
+  UniRef90_B8NWC0 Penicillin-binding protein, putative n=6 Tax=As...  72.8    5e-13
+  UniRef90_A0A136IZQ8 Glycine d-alanine aminopeptidase n=1 Tax=Mi...  72.8    7e-13
+  UniRef90_A0A074VWP4 Beta-lactamase/transpeptidase-like protein ...  71.6    1e-12
+  UniRef90_K2RWC0 Beta-lactamase-related protein n=1 Tax=Macropho...  72.0    1e-12
+  UniRef90_A0A074X0V4 Beta-lactamase/transpeptidase-like protein ...  70.5    4e-12
+  UniRef90_UPI0004287C2D aminopeptidase n=1 Tax=Pseudodonghicola ...  70.1    5e-12
+  UniRef90_Q3IX78 D-aminopeptidase n=6 Tax=Rhodobacter TaxID=1060...  69.7    7e-12
+  UniRef90_A0A139HGP4 Uncharacterized protein n=1 Tax=Mycosphaere...  69.3    1e-11
+  UniRef90_A0A1G3G563 Aminopeptidase n=1 Tax=Rhodobacterales bact...  69.3    1e-11
+  UniRef90_UPI0009214132 UPI0009214132 related cluster n=1 Tax=un...  67.8    3e-11
+  UniRef90_UPI00048F1205 D-aminopeptidase n=1 Tax=Rhizobium selen...  67.8    4e-11
+  UniRef90_A0A0F7TNQ5 Uncharacterized protein n=1 Tax=Penicillium...  67.4    4e-11
+  UniRef90_A0A0D6MQK8 D-aminopeptidase n=1 Tax=Tanticharoenia sak...  67.4    5e-11
+  UniRef90_A0A0D2DIB0 Uncharacterized protein n=1 Tax=Exophiala x...  67.4    5e-11
+  UniRef90_A0A0D1Y2N6 Uncharacterized protein n=1 Tax=Exophiala s...  66.2    1e-10
+  UniRef90_G7XTI3 Peptidase n=2 Tax=Aspergillus TaxID=5052 RepID=...  66.2    2e-10
+  UniRef90_A0A072PQA2 Uncharacterized protein n=1 Tax=Exophiala a...  65.8    2e-10
+  UniRef90_A2QT63 Aspergillus niger contig An09c0040, genomic con...  65.1    3e-10
+  UniRef90_G6XMD4 D-aminopeptidase n=2 Tax=Gluconobacter TaxID=44...  64.3    6e-10
+  UniRef90_K7SK12 D-aminopeptidase n=13 Tax=Gluconobacter TaxID=4...  63.5    1e-09
+  UniRef90_C8S549 Beta-lactamase n=1 Tax=Rhodobacter sp. SW2 TaxI...  63.5    1e-09
+  UniRef90_A0A0A1TA81 Uncharacterized protein n=1 Tax=Torrubiella...  63.1    1e-09
+  UniRef90_A0A167KSZ4 Beta-lactamase-type transpeptidase fold dom...  63.1    2e-09
+  UniRef90_UPI0006C7637A aminopeptidase n=1 Tax=Gemmobacter sp. L...  63.1    2e-09
+  UniRef90_A0A1B6VKW7 D-aminopeptidase n=2 Tax=Gluconobacter TaxI...  62.8    2e-09
+  UniRef90_A0A109J8X7 Aminopeptidase n=3 Tax=Rhizobium TaxID=379 ...  62.8    2e-09
+  UniRef90_UPI000479DBED aminopeptidase n=1 Tax=Inquilinus limosu...  62.8    2e-09
+  UniRef90_N6U3P8 Beta-lactamase n=2 Tax=Rhizobium TaxID=379 RepI...  62.0    3e-09
+  UniRef90_UPI000486B81A aminopeptidase n=1 Tax=Rhodospirillales ...  61.6    4e-09
+  UniRef90_A0A0A0DB03 Aminopeptidase n=1 Tax=Inquilinus limosus M...  61.2    6e-09
+  UniRef90_A0A074Y4A8 Uncharacterized protein n=1 Tax=Aureobasidi...  61.2    8e-09
+  UniRef90_A0A135LBB3 Peptidase S12, aminopeptidase DmpB, domain ...  60.8    9e-09
+  UniRef90_A0A162KMF3 Beta-lactamase-type transpeptidase fold dom...  60.8    1e-08
+  UniRef90_F9WYA7 Uncharacterized protein n=2 Tax=Zymoseptoria Ta...  60.4    1e-08
+  UniRef90_UPI00054D49C9 D-aminopeptidase n=1 Tax=Agrobacterium r...  60.1    2e-08
+  UniRef90_UPI0004725B0E aminopeptidase n=1 Tax=Asaia astilbis Ta...  59.7    2e-08
+  UniRef90_A0A0T1WX32 Aminopeptidase n=1 Tax=Rhizobium sp. Root48...  59.7    2e-08
+  UniRef90_A0A0W0A5V1 Aminopeptidase n=2 Tax=Roseomonas TaxID=125...  59.7    2e-08
+  UniRef90_A0A074WZD5 Beta-lactamase/transpeptidase-like protein ...  59.7    2e-08
+  UniRef90_A0A1A9GAP8 Aminopeptidase n=2 Tax=Rhizobiaceae TaxID=8...  59.3    3e-08
+  UniRef90_A0A0S6XTY7 Uncharacterized protein n=1 Tax=fungal sp. ...  58.9    3e-08
+  UniRef90_G3JAZ4 Beta-lactamase-type transpeptidase fold domain ...  58.9    4e-08
+  UniRef90_J4KPQ5 Beta-lactamase-type transpeptidase n=3 Tax=Cord...  58.9    4e-08
+  UniRef90_A0A023D3Q8 D-aminopeptidase n=1 Tax=Acidomonas methano...  57.7    1e-07
+  UniRef90_A0A0N1H4F8 D-aminopeptidase n=1 Tax=Phialophora attae ...  57.4    2e-07
+  UniRef90_A0A0G2DYT0 Putative beta-lactamase family protein n=1 ...  55.8    5e-07
+  UniRef90_A0A021X1X7 D-aminopeptidase Dap n=1 Tax=Shinella sp. D...  55.4    6e-07
+  UniRef90_Q0FTP4 D-aminopeptidase n=1 Tax=Pelagibaca bermudensis...  54.3    1e-06
+  UniRef90_S5YZV0 D-aminopeptidase n=1 Tax=Paracoccus aminophilus...  52.7    5e-06
+  UniRef90_Q5FRJ7 D-aminopeptidase n=9 Tax=Gluconobacter TaxID=44...  52.7    5e-06
+  UniRef90_A0A060Q8M0 D-alanyl-D-alanine carboxypeptidase n=2 Tax...  52.7    5e-06
+  UniRef90_UPI00037E6FFF hypothetical protein n=1 Tax=Saccharibac...  52.0    1e-05
+  UniRef90_S7ZSR3 Uncharacterized protein n=1 Tax=Penicillium oxa...  50.4    3e-05
+  UniRef90_UPI0006B496DC aminopeptidase n=1 Tax=Pseudorhodobacter...  50.4    3e-05
+  UniRef90_D0D6W3 D-aminopeptidase n=1 Tax=Citreicella sp. SE45 T...  49.3    8e-05
+  UniRef90_A0A086Y7D1 D-aminopeptidase n=1 Tax=Haematobacter miss...  48.9    1e-04
+  UniRef90_UPI0006B5AE3F aminopeptidase n=1 Tax=Pseudorhodobacter...  48.5    1e-04
+  UniRef90_A0A086Y572 D-aminopeptidase n=2 Tax=Haematobacter mass...  47.3    3e-04
+  UniRef90_A0A086XXP2 D-aminopeptidase n=1 Tax=Paenirhodobacter e...  47.3    4e-04
+  UniRef90_A0A1D8UVN4 Aminopeptidase n=3 Tax=Kozakia baliensis Ta...  46.6    7e-04
+  UniRef90_UPI000476DFC8 D-aminopeptidase n=1 Tax=Meganema peride...  45.8    0.001
+
+
+> UniRef90_A6WYS5 D-aminopeptidase n=13 Tax=Ochrobactrum TaxID=528 
+RepID=DAP_OCHA4
+Length=520
+
+ Score = 124 bits (310),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 61/82 (74%), Positives = 67/82 (82%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            E  RV AD+ WFGSWLD ETGLVLSLEDAG GRMKARFGT PEMMDVV  NEARS++T I
+Sbjct  336  EQVRVAADAVWFGSWLDHETGLVLSLEDAGRGRMKARFGTGPEMMDVVGENEARSSMTAI  395
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+            RRDG+TI L R  ENL L+M+R
+Sbjct  396  RRDGDTIHLAREDENLSLTMQR  417
+
+
+> UniRef90_UPI000463BAF2 D-aminopeptidase n=1 Tax=Ochrobactrum 
+rhizosphaerae TaxID=571254 RepID=UPI000463BAF2
+Length=520
+
+ Score = 123 bits (308),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 62/82 (76%), Positives = 69/82 (84%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            E  R EAD+AWFGSWL  +TGLVLSLEDAG GR+KARFGT PEMMDV SANEARS++TTI
+Sbjct  336  EPQRAEADTAWFGSWLCQDTGLVLSLEDAGCGRLKARFGTGPEMMDVESANEARSSMTTI  395
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+            RRDG+ IEL+R  ENLRL M R
+Sbjct  396  RRDGDVIELLRDDENLRLMMNR  417
+
+
+> UniRef90_Q8YD27 D-aminopeptidase n=35 Tax=Brucellaceae TaxID=118882 
+RepID=DAP_BRUME
+Length=518
+
+ Score = 123 bits (308),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 52/82 (63%), Positives = 63/82 (77%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            +  R +A+  WFGSWL+ ETGLVLSLEDAG GRMKARFGT PE MD+   NEA+S++TT+
+Sbjct  336  KPVRAQANPGWFGSWLNPETGLVLSLEDAGGGRMKARFGTGPEKMDISGENEAQSSMTTL  395
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+            RRDG+ I L R  ENL L+M R
+Sbjct  396  RRDGDMIHLARKDENLHLAMHR  417
+
+
+> UniRef90_Q9ZBA9 D-aminopeptidase n=3 Tax=Ochrobactrum TaxID=528 
+RepID=DAP_OCHAN
+Length=520
+
+ Score = 122 bits (305),  Expect = 9e-31, Method: Composition-based stats.
+ Identities = 82/82 (100%), Positives = 82/82 (100%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI
+Sbjct  336  EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  395
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+            RRDGETIELVRASENLRLSMKR
+Sbjct  396  RRDGETIELVRASENLRLSMKR  417
+
+
+> UniRef90_N4UV62 D-aminopeptidase n=1 Tax=Colletotrichum orbiculare 
+(strain 104-T / ATCC 96160 / CBS 514.97 / LARS 414 / MAFF 
+240422) TaxID=1213857 RepID=N4UV62_COLOR
+Length=535
+
+ Score = 115 bits (288),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 27/82 (33%), Positives = 41/82 (50%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            EV  VEAD AWFG++LD+ET L +++     GR+   +  SPE + +     A S     
+Sbjct  350  EVEPVEADPAWFGTFLDEETQLAITVSQGVKGRVVVYYTGSPEPVVLTDPTHAESPGMKA  409
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+               G+ + + R  EN  +   R
+Sbjct  410  EIVGDQLRIRRLKENKEIMASR  431
+
+
+> UniRef90_T0K9H4 Uncharacterized protein n=2 Tax=Colletotrichum 
+gloeosporioides TaxID=474922 RepID=T0K9H4_COLGC
+Length=781
+
+ Score = 115 bits (287),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 24/82 (29%), Positives = 44/82 (54%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            E + V+ADS+WFG++LD++T L +++     G++   +  S E +++     A S     
+Sbjct  350  EPAPVDADSSWFGTFLDEQTQLAITVSQGAKGKVNISYAGSAEAINLKDPKHAESPGIVA  409
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+            + DG  +++ R  EN  L   R
+Sbjct  410  KIDGNQLKIHRVKENRALKASR  431
+
+
+> UniRef90_UPI00039BC93C D-aminopeptidase n=1 Tax=Pseudochrobactrum 
+sp. AO18b TaxID=1201036 RepID=UPI00039BC93C
+Length=519
+
+ Score = 112 bits (279),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 32/78 (41%), Positives = 47/78 (60%), Gaps = 0/78 (0%)
+
+Query  5    VEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDG  64
+            +  D+ W+G++ D  T L LSL  A  G++ ARFGTSPEMMD+ +    +S+   ++R G
+Sbjct  341  LPVDAGWYGNYFDPSTKLSLSLTPAVGGQVHARFGTSPEMMDMQADGSLQSSGMVLQRKG  400
+
+Query  65   ETIELVRASENLRLSMKR  82
+            + I L R  ENL   + R
+Sbjct  401  DEIALRRDGENLSAKLHR  418
+
+
+> UniRef90_A0A0D1XSF0 Uncharacterized protein n=1 Tax=Verruconis 
+gallopava TaxID=253628 RepID=A0A0D1XSF0_9PEZI
+Length=536
+
+ Score = 106 bits (264),  Expect = 6e-25, Method: Composition-based stats.
+ Identities = 25/80 (31%), Positives = 43/80 (54%), Gaps = 0/80 (0%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRR  62
+            S V     WFG++LD+ET L +++  A  G++   +    E++ +V+ + A S       
+Sbjct  352  SDVSPVPQWFGTFLDEETQLCVTVAKAAAGQVSITYARDAELVRLVAPDRAESQDNVASI  411
+
+Query  63   DGETIELVRASENLRLSMKR  82
+            DG+T+ + R  EN RL  +R
+Sbjct  412  DGDTLHVHRVGENRRLKARR  431
+
+
+> UniRef90_UPI00055363FC D-aminopeptidase n=1 Tax=Chelativorans 
+sp. J32 TaxID=935840 RepID=UPI00055363FC
+Length=516
+
+ Score = 105 bits (262),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 29/77 (38%), Positives = 40/77 (52%), Gaps = 1/77 (1%)
+
+Query  6    EADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGE  65
+              D  W GS+LD   GL+L +  +G G M+AR+ TSPE +         S   T+ R G+
+Sbjct  339  PVDPDWNGSYLDQSNGLLLEIHISGEG-MEARYATSPERLFPGPGGTLVSPSMTLARAGD  397
+
+Query  66   TIELVRASENLRLSMKR  82
+            T+ L R  ENL  +  R
+Sbjct  398  TVRLERPRENLVATANR  414
+
+
+> UniRef90_A0A0L8C2G9 D-aminopeptidase n=3 Tax=Ensifer TaxID=106591 
+RepID=A0A0L8C2G9_ENSAD
+Length=520
+
+ Score = 102 bits (254),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 26/75 (35%), Positives = 43/75 (57%), Gaps = 0/75 (0%)
+
+Query  8    DSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETI  67
+            D   FG++L+ ETGL LS    G GR++ RF T+ E + + +   ARS   ++  +G  +
+Sbjct  344  DGRQFGTYLEPETGLALSTRPLGPGRIELRFATAGEPLQIAADGIARSGAVSLTANGTGL  403
+
+Query  68   ELVRASENLRLSMKR  82
+            ++ R  ENL  + +R
+Sbjct  404  QMERERENLATTAER  418
+
+
+> UniRef90_A0A0T6YDY2 D-aminopeptidase n=5 Tax=Sinorhizobium/Ensifer 
+group TaxID=227292 RepID=A0A0T6YDY2_9RHIZ
+Length=520
+
+ Score = 101 bits (251),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 29/82 (35%), Positives = 41/82 (50%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            E +    D+   GS+LD ETGL L    AG  R+   F T  E + V     A+SA  T+
+Sbjct  337  EPATGTWDADGTGSYLDPETGLALVTRPAGKSRVALNFATGAETLAVGPDGSAQSAAVTL  396
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+            R +G ++ + R  ENL +   R
+Sbjct  397  RVEGASLHMERPRENLTVHAAR  418
+
+
+> UniRef90_A0A0Q7R887 D-aminopeptidase n=4 Tax=Ensifer TaxID=106591 
+RepID=A0A0Q7R887_9RHIZ
+Length=520
+
+ Score = 99.7 bits (247),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 25/75 (33%), Positives = 43/75 (57%), Gaps = 0/75 (0%)
+
+Query  8    DSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETI  67
+            +S  FG++L+ ETGL LS    G G ++ RF T+ E + + +   ARS   ++  +G  +
+Sbjct  344  NSEQFGTYLEPETGLALSTRPLGSGWLELRFATAGESLQIAADAIARSGSVSLTPNGTGL  403
+
+Query  68   ELVRASENLRLSMKR  82
+             + R  ENL+ + +R
+Sbjct  404  HMERERENLQTTAER  418
+
+
+> UniRef90_A0A1C0S9G0 D-aminopeptidase n=1 Tax=Ensifer sp. LC14 
+TaxID=1873714 RepID=A0A1C0S9G0_9RHIZ
+Length=520
+
+ Score = 99.7 bits (247),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 31/71 (44%), Positives = 41/71 (58%), Gaps = 0/71 (0%)
+
+Query  12   FGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETIELVR  71
+            FGS+LD ETGL L     G  R+   F TSPE + + +   ARS   T+ RDG T+ + R
+Sbjct  348  FGSYLDSETGLALVASPLGSSRLALHFATSPETLAIGADGVARSPAATLARDGATLSMER  407
+
+Query  72   ASENLRLSMKR  82
+              ENL +S +R
+Sbjct  408  TRENLAVSAER  418
+
+
+> UniRef90_A0A0Q9E5Z0 D-aminopeptidase n=6 Tax=Sinorhizobium/Ensifer 
+group TaxID=227292 RepID=A0A0Q9E5Z0_9RHIZ
+Length=520
+
+ Score = 96.3 bits (238),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 28/75 (37%), Positives = 42/75 (56%), Gaps = 0/75 (0%)
+
+Query  8    DSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETI  67
+            D+   G++LD ETGL L    +G  R++ +F TSPE + V +   A SA  T+   G ++
+Sbjct  344  DAKGTGNYLDAETGLALVTRPSGSSRVELQFATSPESLSVSADGSAGSAAVTLTAQGASL  403
+
+Query  68   ELVRASENLRLSMKR  82
+             + R  ENL +S  R
+Sbjct  404  RMERPRENLTVSADR  418
+
+
+> UniRef90_UPI0003F83BFD D-aminopeptidase n=1 Tax=Pleomorphomonas 
+koreensis TaxID=257440 RepID=UPI0003F83BFD
+Length=518
+
+ Score = 94.7 bits (234),  Expect = 9e-21, Method: Composition-based stats.
+ Identities = 27/78 (35%), Positives = 43/78 (55%), Gaps = 1/78 (1%)
+
+Query  5    VEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDG  64
+            + AD AW G++L+  +GL+L +   G+  + ARF    E++ V     ARS   T+ RDG
+Sbjct  340  MPADPAWNGAYLEPSSGLLLDVSTHGNAVL-ARFAGGTEVLSVGEDGVARSRGMTLVRDG  398
+
+Query  65   ETIELVRASENLRLSMKR  82
+            + + + R  +NLR    R
+Sbjct  399  QDLAIDRPGDNLRGMASR  416
+
+
+> UniRef90_A0A1A9GFF8 Aminopeptidase n=1 Tax=Shinella sp. HZN7 
+TaxID=879274 RepID=A0A1A9GFF8_9RHIZ
+Length=520
+
+ Score = 94.7 bits (234),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 28/77 (36%), Positives = 42/77 (55%), Gaps = 1/77 (1%)
+
+Query  6    EADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGE  65
+             AD AW G +LD   GL+L ++  G   + A + T+ E + + S N A ++  T+ RDG+
+Sbjct  343  HADPAWNGDYLDRTNGLLLRVKADG-AMLDAHYATASERLRLTSENTAEASSMTLARDGD  401
+
+Query  66   TIELVRASENLRLSMKR  82
+             I L R  ENL  +  R
+Sbjct  402  AIRLSRPGENLSANAVR  418
+
+
+> UniRef90_UPI0002E8A4C9 hypothetical protein n=1 Tax=Pseudaminobacter 
+salicylatoxidans TaxID=93369 RepID=UPI0002E8A4C9
+Length=532
+
+ Score = 94.0 bits (232),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 26/82 (32%), Positives = 41/82 (50%), Gaps = 1/82 (1%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            + +     S W G +++  TGLVL++  A    + A F  SPE + +     ARS  T +
+Sbjct  337  KPAGARPGSGWEGRYIEPSTGLVLTVT-AQEDHLTASFAGSPERLALGQDGIARSVATIL  395
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+             RDG+ + + R  ENL+    R
+Sbjct  396  ERDGDAMRIERPGENLKSVAIR  417
+
+
+> UniRef90_UPI00056BBABB D-aminopeptidase n=1 Tax=Rhizobium sp. 
+OK665 TaxID=1500305 RepID=UPI00056BBABB
+Length=519
+
+ Score = 92.8 bits (229),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 26/82 (32%), Positives = 40/82 (49%), Gaps = 1/82 (1%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            E  RV     W G +L+  TGL+L ++     R+   FG  PE + +     ARS    +
+Sbjct  337  EPPRVRPHPGWSGDYLEPTTGLLLRVKVR-KDRLDTNFGGRPEKLMLGPDGIARSPPMIL  395
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+             R G+T+ L R  +NLR +  +
+Sbjct  396  ERVGDTLRLERPGDNLRSTATK  417
+
+
+> UniRef90_A0A0D2D883 Uncharacterized protein n=7 Tax=Herpotrichiellaceae 
+TaxID=43219 RepID=A0A0D2D883_9EURO
+Length=541
+
+ Score = 88.2 bits (217),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 24/85 (28%), Positives = 40/85 (47%), Gaps = 3/85 (4%)
+
+Query  1    EVSRVEADS--AWFGSWLDDETGLVLSLEDA-GHGRMKARFGTSPEMMDVVSANEARSAV  57
+            E   +       WFGS+LD ET L + +      G++K  +    E + +V AN+A S  
+Sbjct  347  EPPPLAVQPVQQWFGSFLDPETQLSIRVRPGDVAGKIKIDYVRGEETLRLVDANKAESPD  406
+
+Query  58   TTIRRDGETIELVRASENLRLSMKR  82
+                 DG+ + + R  +N  L+ +R
+Sbjct  407  VEASIDGDILHVRRLDDNRVLTARR  431
+
+
+> UniRef90_A0A0D2YGI8 Uncharacterized protein n=15 Tax=Fusarium 
+TaxID=5506 RepID=A0A0D2YGI8_FUSO4
+Length=536
+
+ Score = 87.4 bits (215),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 21/81 (26%), Positives = 39/81 (48%), Gaps = 0/81 (0%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+             + V+A  AW G +LDD T L +++++   G++   +    E +++       S      
+Sbjct  351  PTLVDASPAWPGIYLDDGTQLAVTIKNGKKGQIVVNYANYAEPVNLTDPERGESRAMVAV  410
+
+Query  62   RDGETIELVRASENLRLSMKR  82
+             DG+ + + R  EN  L+ KR
+Sbjct  411  VDGDNLRIHRLKENRTLNAKR  431
+
+
+> UniRef90_W9Y0G6 Uncharacterized protein n=1 Tax=Capronia coronata 
+CBS 617.96 TaxID=1182541 RepID=W9Y0G6_9EURO
+Length=543
+
+ Score = 86.6 bits (213),  Expect = 7e-18, Method: Composition-based stats.
+ Identities = 23/78 (29%), Positives = 36/78 (46%), Gaps = 0/78 (0%)
+
+Query  5    VEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDG  64
+               D  W G++LD +TGL + +   G G +  ++  +PE + VV A  A S       DG
+Sbjct  358  ASPDPDWTGTYLDSDTGLAIVVSPGGPGELLVKYHGNPEKLRVVEACRAESNSMVATLDG  417
+
+Query  65   ETIELVRASENLRLSMKR  82
+              + L    +N  L  +R
+Sbjct  418  SCLHLYVPQDNRTLHAQR  435
+
+
+> UniRef90_UPI00048DD968 D-aminopeptidase n=1 Tax=Rhizobium selenitireducens 
+TaxID=448181 RepID=UPI00048DD968
+Length=517
+
+ Score = 86.3 bits (212),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 25/77 (32%), Positives = 41/77 (53%), Gaps = 1/77 (1%)
+
+Query  6    EADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGE  65
+            EA   W G +LD ETGL++++  +  G +  RF  + + + +     ARS    + RDG+
+Sbjct  340  EAGPDWAGRYLDPETGLLVTVAKSHRG-ISLRFAGASDALTLSDDGIARSDAVELSRDGD  398
+
+Query  66   TIELVRASENLRLSMKR  82
+             + + R  ENL +S  R
+Sbjct  399  VVRMQRPRENLDISATR  415
+
+
+> UniRef90_A0A0D2AJK6 Uncharacterized protein n=1 Tax=Verruconis 
+gallopava TaxID=253628 RepID=A0A0D2AJK6_9PEZI
+Length=475
+
+ Score = 85.1 bits (209),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 21/78 (27%), Positives = 35/78 (45%), Gaps = 0/78 (0%)
+
+Query  5    VEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDG  64
+             E  S WFGS+LD  T L + +   G G++   +   PE + +     ARS     R   
+Sbjct  293  AEPVSEWFGSFLDQSTQLAIRVSSYGKGKISVTYAGYPETLTLTDERNARSESMIARIQE  352
+
+Query  65   ETIELVRASENLRLSMKR  82
+            +++ +    +N  L+  R
+Sbjct  353  DSLHIHCLGDNRVLNAFR  370
+
+
+> UniRef90_A0A0U1M9J4 Uncharacterized protein n=1 Tax=Talaromyces 
+islandicus TaxID=28573 RepID=A0A0U1M9J4_TALIS
+Length=536
+
+ Score = 85.1 bits (209),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 20/83 (24%), Positives = 40/83 (48%), Gaps = 1/83 (1%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDA-GHGRMKARFGTSPEMMDVVSANEARSAVTT  59
+            E + V+  SAW GS+LD +T L +++      G +   +    E + +  ++   +   +
+Sbjct  349  EYAPVDPSSAWTGSFLDKDTQLSITVSKGSATGELSIAYAGHSETIKLTDSSHGEAQGMS  408
+
+Query  60   IRRDGETIELVRASENLRLSMKR  82
+               DG+ + + R  EN +L  +R
+Sbjct  409  ANIDGDVLRIHRVIENRKLEARR  431
+
+
+> UniRef90_A0A0D1Z2A7 Uncharacterized protein n=1 Tax=Verruconis 
+gallopava TaxID=253628 RepID=A0A0D1Z2A7_9PEZI
+Length=536
+
+ Score = 85.1 bits (209),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 21/78 (27%), Positives = 35/78 (45%), Gaps = 0/78 (0%)
+
+Query  5    VEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDG  64
+             E  S WFGS+LD  T L + +   G G++   +   PE + +     ARS     R   
+Sbjct  354  AEPVSEWFGSFLDQSTQLAIRVSSYGKGKISVTYAGYPETLTLTDERNARSESMIARIQE  413
+
+Query  65   ETIELVRASENLRLSMKR  82
+            +++ +    +N  L+  R
+Sbjct  414  DSLHIHCLGDNRVLNAFR  431
+
+
+> UniRef90_A0A1F5LKB6 Uncharacterized protein n=1 Tax=Penicillium 
+arizonense TaxID=1835702 RepID=A0A1F5LKB6_9EURO
+Length=540
+
+ Score = 84.7 bits (208),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 22/83 (27%), Positives = 44/83 (53%), Gaps = 1/83 (1%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGH-GRMKARFGTSPEMMDVVSANEARSAVTT  59
+            EV+ ++  + WFG++LD +T L + +  A   G +   +  SPE + + S    +S    
+Sbjct  349  EVTSIQPANEWFGAFLDMDTQLSIVVTKAEKQGEVAISYAGSPEPIRLNSPVSGKSNSMI  408
+
+Query  60   IRRDGETIELVRASENLRLSMKR  82
+               DG+++ + R  +N +L+ +R
+Sbjct  409  ATIDGDSLIIHRLGDNRKLAARR  431
+
+
+> UniRef90_I1RTM7 Uncharacterized protein n=3 Tax=Fusarium sambucinum 
+species complex TaxID=569360 RepID=I1RTM7_GIBZE
+Length=536
+
+ Score = 84.3 bits (207),  Expect = 6e-17, Method: Composition-based stats.
+ Identities = 18/81 (22%), Positives = 36/81 (44%), Gaps = 0/81 (0%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+             + V+A   W G +LD+ T LV+++     G++   +    E + +       S      
+Sbjct  351  PALVDASPTWPGVYLDEGTQLVITVTLGQKGQVLVTYANYVEPVKLTDPERGESKGMAAV  410
+
+Query  62   RDGETIELVRASENLRLSMKR  82
+             +G+ + + R  EN  ++ KR
+Sbjct  411  INGDILRIQRLKENRAITAKR  431
+
+
+> UniRef90_R1EYS7 Putative beta-lactamase family protein n=1 Tax=Botryosphaeria 
+parva (strain UCR-NP2) TaxID=1287680 RepID=R1EYS7_BOTPV
+Length=485
+
+ Score = 83.9 bits (206),  Expect = 6e-17, Method: Composition-based stats.
+ Identities = 22/82 (27%), Positives = 41/82 (50%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            E   V     WFG +LD E+ + +++     G++   +   PE + +V   EARS     
+Sbjct  299  EPQAVSPAQEWFGVFLDRESRMAVTVSPGSSGKLLIAYPRHPESVALVGPKEARSRDLAA  358
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+              DG+++ + R  +NL++  +R
+Sbjct  359  TIDGDSLRIDRIEDNLKIDAQR  380
+
+
+> UniRef90_W2RKL4 Uncharacterized protein n=1 Tax=Cyphellophora 
+europaea CBS 101466 TaxID=1220924 RepID=W2RKL4_9EURO
+Length=538
+
+ Score = 83.9 bits (206),  Expect = 7e-17, Method: Composition-based stats.
+ Identities = 21/80 (26%), Positives = 40/80 (50%), Gaps = 0/80 (0%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRR  62
+              V     WFG++LD  +GL + +   G G +  ++  +PE M V+ A  A+S       
+Sbjct  354  EPVSPGPDWFGTYLDSVSGLAIVVSRGGAGEVSIKYHRAPEKMRVLEAYRAQSDGMVAVL  413
+
+Query  63   DGETIELVRASENLRLSMKR  82
+            +G++++L    +N  +  +R
+Sbjct  414  NGDSLQLHVRQDNRTIHAQR  433
+
+
+> UniRef90_UPI0003F69B5C D-aminopeptidase n=1 Tax=Pleomorphomonas 
+oryzae TaxID=261934 RepID=UPI0003F69B5C
+Length=519
+
+ Score = 81.6 bits (200),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 23/78 (29%), Positives = 39/78 (50%), Gaps = 1/78 (1%)
+
+Query  5    VEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDG  64
+            + AD  W G +L++ +GL L +   G+  + A  G   E++       ARS    + R+G
+Sbjct  341  IPADQNWAGGYLEESSGLSLDITAHGNAIL-ASLGGGTEVLSFGEDGIARSVGMILSREG  399
+
+Query  65   ETIELVRASENLRLSMKR  82
+            + + + R  +NLR   KR
+Sbjct  400  DDLRIERPGDNLRGLAKR  417
+
+
+> UniRef90_A0A150V8B8 Uncharacterized protein n=1 Tax=Acidomyces 
+richmondensis BFW TaxID=766039 RepID=A0A150V8B8_9PEZI
+Length=544
+
+ Score = 80.5 bits (197),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 25/83 (30%), Positives = 37/83 (45%), Gaps = 6/83 (7%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGH-GRMKARFGTSPEMMDVVSANEARSAVTT  59
+            E +R      WFG +LD ET L +++E     G +  R+    E + + S   A     T
+Sbjct  357  EPAR-----NWFGDFLDAETQLYITVEKGKESGTLSIRYARDAEFVRLTSDTRAECRTMT  411
+
+Query  60   IRRDGETIELVRASENLRLSMKR  82
+               DG+ + + R SEN  L   R
+Sbjct  412  AEIDGDVLHITRISENRILRATR  434
+
+
+> UniRef90_W6Q4V6 D-aminopeptidase n=1 Tax=Penicillium roqueforti 
+(strain FM164) TaxID=1365484 RepID=W6Q4V6_PENRF
+Length=537
+
+ Score = 80.1 bits (196),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 21/81 (26%), Positives = 39/81 (48%), Gaps = 1/81 (1%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDAGH-GRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+            S V+  + W G++LD +T L + +      G +  R+  S E + + + N  +S      
+Sbjct  351  STVQPAADWVGAFLDQDTQLSIVITKGARDGEVAIRYDGSAEPIKLSAPNHGKSDSMVAT  410
+
+Query  62   RDGETIELVRASENLRLSMKR  82
+             DG+ + + R  +N  LS +R
+Sbjct  411  IDGDFLSIHRVVDNRILSARR  431
+
+
+> UniRef90_A0A0L1IY49 Putative penicillin-binding protein n=2 Tax=Aspergillus 
+TaxID=5052 RepID=A0A0L1IY49_ASPNO
+Length=552
+
+ Score = 80.1 bits (196),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 22/78 (28%), Positives = 40/78 (51%), Gaps = 0/78 (0%)
+
+Query  5    VEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDG  64
+            V     WFG++   + GLV+ +     G +   +G S E +  V   +A+S+ TT   +G
+Sbjct  371  VNPSPDWFGTFYHPDAGLVVEVGHGRQGHLTVTYGGSGEALACVEEGKAQSSNTTATING  430
+
+Query  65   ETIELVRASENLRLSMKR  82
+            +T+ L R ++N  +  +R
+Sbjct  431  DTLTLHRLADNHVIHAER  448
+
+
+> UniRef90_A0A0D1YL57 Uncharacterized protein n=1 Tax=Exophiala 
+spinifera TaxID=91928 RepID=A0A0D1YL57_9EURO
+Length=540
+
+ Score = 79.3 bits (194),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 24/79 (30%), Positives = 40/79 (51%), Gaps = 1/79 (1%)
+
+Query  5    VEADSAWFGSWLDDETGLVLSLEDA-GHGRMKARFGTSPEMMDVVSANEARSAVTTIRRD  63
+            V A   W G++LD +TGL + +  A   G++   +   PE + V+ A +ARS       D
+Sbjct  357  VSAGPDWPGTYLDPDTGLAIVVSKASAPGQLSFTYHLKPEKVRVIEAYKARSDGIVANLD  416
+
+Query  64   GETIELVRASENLRLSMKR  82
+            G+++ +    +N  L  KR
+Sbjct  417  GDSLHVHLPHDNRTLHAKR  435
+
+
+> UniRef90_K9GFZ9 Beta-lactamase family protein n=7 Tax=Penicillium 
+TaxID=5073 RepID=K9GFZ9_PEND1
+Length=538
+
+ Score = 78.5 bits (192),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 20/81 (25%), Positives = 40/81 (49%), Gaps = 1/81 (1%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDAGH-GRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+            + V+A + W G++LD +T L + +      G +   +  S + + + + N  RS      
+Sbjct  352  ASVQATADWVGAFLDQDTQLSIVITKGAQDGEVAITYDGSADTIKLSTPNHGRSNSAVAT  411
+
+Query  62   RDGETIELVRASENLRLSMKR  82
+             DG+++ + R  +N  LS +R
+Sbjct  412  VDGDSLSIHRVGDNRILSARR  432
+
+
+> UniRef90_A0A194X7N3 Beta-lactamase-type transpeptidase n=1 Tax=Phialocephala 
+scopiformis TaxID=149040 RepID=A0A194X7N3_9HELO
+Length=546
+
+ Score = 77.8 bits (190),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 17/82 (21%), Positives = 37/82 (45%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            +   V++   W G++LD ET L ++++    G +  ++    E M V+    A+S     
+Sbjct  352  KQEIVQSSQNWIGTYLDPETQLAITVKADVAGELLVKYHRKAEKMRVIEPFRAQSDDMVA  411
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+              +G  + +    +N  +  +R
+Sbjct  412  TLEGSLLHMHVPKDNRNIHAQR  433
+
+
+> UniRef90_A0A1I4TY37 D-stereospecific aminopeptidase Serine peptidase. 
+MEROPS family S12 n=1 Tax=Pleomorphomonas diazotrophica 
+TaxID=1166257 RepID=A0A1I4TY37_9RHIZ
+Length=519
+
+ Score = 77.4 bits (189),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 23/77 (30%), Positives = 37/77 (48%), Gaps = 1/77 (1%)
+
+Query  6    EADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGE  65
+             AD  W G +L+  +GL L +   G+  + A  G  PE++       ARS    + R+  
+Sbjct  342  PADPGWAGRYLEPTSGLSLDVAVHGNAIL-ANLGGGPEVLTFGEDGVARSTGMLLSREDG  400
+
+Query  66   TIELVRASENLRLSMKR  82
+             + L R  +NLR  ++R
+Sbjct  401  GLRLDRPGDNLRGVVER  417
+
+
+> UniRef90_C7ZD61 Putative uncharacterized protein n=1 Tax=Nectria 
+haematococca (strain 77-13-4 / ATCC MYA-4622 / FGSC 9596 
+/ MPVI) TaxID=660122 RepID=C7ZD61_NECH7
+Length=534
+
+ Score = 77.0 bits (188),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 16/78 (21%), Positives = 34/78 (44%), Gaps = 0/78 (0%)
+
+Query  5    VEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDG  64
+            V     WFG+++DD T L +++  +  G++   +    E + +   +   S   T     
+Sbjct  353  VAPTPDWFGTFIDDRTFLAITVSPSVKGKVSIYYAGYAESITLTEPSRGVSRDMTATLTL  412
+
+Query  65   ETIELVRASENLRLSMKR  82
+            +T+ + R  ++  L   R
+Sbjct  413  DTLHIERLKDHRTLRAVR  430
+
+
+> UniRef90_S8BCP1 Uncharacterized protein n=1 Tax=Penicillium oxalicum 
+(strain 114-2 / CGMCC 5302) TaxID=933388 RepID=S8BCP1_PENO1
+Length=537
+
+ Score = 76.6 bits (187),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 24/85 (28%), Positives = 46/85 (54%), Gaps = 3/85 (4%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDA-GHGRMKARFGTSPE--MMDVVSANEARSAV  57
+            E + VE   AW+G++LD+ T L +++  +   G +   +G+  E   + +  A   +S  
+Sbjct  347  ESTPVEPAPAWYGAYLDEATQLAVTVAKSRRPGEVLITYGSHLESAPLKMTDATSGKSRS  406
+
+Query  58   TTIRRDGETIELVRASENLRLSMKR  82
+             T    G+T+++ R SEN +L+ +R
+Sbjct  407  MTGSISGDTLQIHRISENRKLNARR  431
+
+
+> UniRef90_UPI0006847FF4 aminopeptidase n=1 Tax=Gemmobacter nectariphilus 
+TaxID=220343 RepID=UPI0006847FF4
+Length=518
+
+ Score = 75.5 bits (184),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 26/81 (32%), Positives = 41/81 (51%), Gaps = 1/81 (1%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            + + +  +  W G W+  ETGL   LE  G   +  RFGTSPE +  ++     SA  T+
+Sbjct  333  DPAPLALEPGWQGRWICPETGLTARLEP-GAASVVMRFGTSPEELRQLAPGRLGSAHVTL  391
+
+Query  61   RRDGETIELVRASENLRLSMK  81
+             R G+ + + R  ENL   ++
+Sbjct  392  ERQGDRLLMRRPLENLVTMLE  412
+
+
+> UniRef90_B6H6G7 Pc15g00200 protein n=2 Tax=Penicillium chrysogenum 
+complex TaxID=254878 RepID=B6H6G7_PENRW
+Length=538
+
+ Score = 75.1 bits (183),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 18/81 (22%), Positives = 37/81 (46%), Gaps = 1/81 (1%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDAGH-GRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+            + ++A  +W G++LD +T L + +      G +   +  S E + +   N  +S      
+Sbjct  352  ASIQAAESWVGAFLDQDTQLSIVITKGARDGEVAISYDGSAEPIKLSVPNHGKSDSMVAT  411
+
+Query  62   RDGETIELVRASENLRLSMKR  82
+             D + + + R  +N  LS +R
+Sbjct  412  IDEDLLSIHRVRDNRMLSARR  432
+
+
+> UniRef90_M2ZAM4 Uncharacterized protein n=1 Tax=Pseudocercospora 
+fijiensis (strain CIRAD86) TaxID=383855 RepID=M2ZAM4_PSEFD
+Length=533
+
+ Score = 74.7 bits (182),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 17/77 (22%), Positives = 31/77 (40%), Gaps = 0/77 (0%)
+
+Query  6    EADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGE  65
+                 W GS+LD+ T L++ +E      +   +    E   +   + A S       +G+
+Sbjct  347  APSPEWNGSFLDEATQLLIKVESENDKEVVIAYAGHEEKPQLTGPSTAESKTMLASINGD  406
+
+Query  66   TIELVRASENLRLSMKR  82
+            T+ + R  E+  L   R
+Sbjct  407  TLNIERKREHRMLKAAR  423
+
+
+> UniRef90_M3ASF3 Beta-lactamase/transpeptidase-like protein n=1 
+Tax=Sphaerulina musiva (strain SO2202) TaxID=692275 RepID=M3ASF3_SPHMS
+Length=537
+
+ Score = 73.2 bits (178),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 20/84 (24%), Positives = 39/84 (46%), Gaps = 2/84 (2%)
+
+Query  1    EVSRV--EADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVT  58
+            E  +        W G++LD ET L++ +E+   G++   +  + E + + SA  A S   
+Sbjct  347  EPEKALSTPAPEWQGNFLDTETQLLVHVENIEDGQVSITYHMATEKVPLTSAIHAESKSI  406
+
+Query  59   TIRRDGETIELVRASENLRLSMKR  82
+                 G+ + + R  E+  L+ +R
+Sbjct  407  IANIAGDELHVERQREHRTLNARR  430
+
+
+> UniRef90_B8NWC0 Penicillin-binding protein, putative n=6 Tax=Aspergillus 
+TaxID=5052 RepID=B8NWC0_ASPFN
+Length=494
+
+ Score = 72.8 bits (177),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 24/82 (29%), Positives = 36/82 (44%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            +   V     WFG++ D +  LV+ +   G G +   +  S E +     NEA S  T  
+Sbjct  309  QSDPVNPSPDWFGTFYDPDAQLVVEIRHGGQGHVIVSYAGSDETLICAGENEAGSNNTVG  368
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+              DG   +L R  +N  L +KR
+Sbjct  369  IIDGGIPKLRRLVDNRVLDVKR  390
+
+
+> UniRef90_A0A136IZQ8 Glycine d-alanine aminopeptidase n=1 Tax=Microdochium 
+bolleyi TaxID=196109 RepID=A0A136IZQ8_9PEZI
+Length=547
+
+ Score = 72.8 bits (177),  Expect = 7e-13, Method: Composition-based stats.
+ Identities = 23/79 (29%), Positives = 39/79 (49%), Gaps = 2/79 (3%)
+
+Query  6    EADSAWFGSWLDDETGLVLSLEDA--GHGRMKARFGTSPEMMDVVSANEARSAVTTIRRD  63
+                AW G +LD+ET L +++E    G G++K  +  + E + + S+  A S       D
+Sbjct  358  PPHPAWAGEFLDEETKLRINVELGETGKGKVKITYLCATETVPLKSSTTAESPGARAEID  417
+
+Query  64   GETIELVRASENLRLSMKR  82
+            G+ + L R  +N  L  +R
+Sbjct  418  GDVLRLHRIVDNRVLVGRR  436
+
+
+> UniRef90_A0A074VWP4 Beta-lactamase/transpeptidase-like protein 
+n=1 Tax=Aureobasidium melanogenum CBS 110374 TaxID=1043003 
+RepID=A0A074VWP4_9PEZI
+Length=484
+
+ Score = 71.6 bits (174),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 24/87 (28%), Positives = 43/87 (49%), Gaps = 5/87 (6%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAG---HGRMKARFG--TSPEMMDVVSANEARS  55
+            E   +   +AW G + D+ET L +++E+      G +   +G  T+ E+  +VS  EA+S
+Sbjct  287  EPQTINVPAAWKGHFFDEETQLYVAVEEGNREKPGTISVSYGPGTAGEIARLVSETEAKS  346
+
+Query  56   AVTTIRRDGETIELVRASENLRLSMKR  82
+                +  DG+ + + R  +N  L   R
+Sbjct  347  DGMKLTLDGDVLHVERNDDNRILKAVR  373
+
+
+> UniRef90_K2RWC0 Beta-lactamase-related protein n=1 Tax=Macrophomina 
+phaseolina (strain MS6) TaxID=1126212 RepID=K2RWC0_MACPH
+Length=550
+
+ Score = 72.0 bits (175),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 18/80 (23%), Positives = 40/80 (50%), Gaps = 0/80 (0%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRR  62
+              +E    WFG +LD+ + L ++++ AG  ++   +    E + +V A  ARS     + 
+Sbjct  366  ETIEPAQEWFGVFLDEASQLAVTVKPAGKAKVSISYTGDSEAVPLVDATNARSRRMVAQV  425
+
+Query  63   DGETIELVRASENLRLSMKR  82
+            + + + +    +NL++  +R
+Sbjct  426  ERDVLRVHCLDDNLKIQARR  445
+
+
+> UniRef90_A0A074X0V4 Beta-lactamase/transpeptidase-like protein 
+n=1 Tax=Aureobasidium namibiae CBS 147.97 TaxID=1043004 RepID=A0A074X0V4_9PEZI
+Length=549
+
+ Score = 70.5 bits (171),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 23/87 (26%), Positives = 42/87 (48%), Gaps = 5/87 (6%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDA---GHGRMKARFG--TSPEMMDVVSANEARS  55
+            E   +   +AW G +LD+ET L + +E+      G +   +G  T  E+  + S  EA++
+Sbjct  352  EPQTIAFPAAWKGHYLDEETQLYVGIEEGDREKPGTISVSYGPGTGGEVARLTSETEAKA  411
+
+Query  56   AVTTIRRDGETIELVRASENLRLSMKR  82
+                ++ +G+ + + R  EN  L   R
+Sbjct  412  DGMKLKLEGDVLHVERIDENRSLRAVR  438
+
+
+> UniRef90_UPI0004287C2D aminopeptidase n=1 Tax=Pseudodonghicola 
+xiamenensis TaxID=337702 RepID=UPI0004287C2D
+Length=537
+
+ Score = 70.1 bits (170),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 20/71 (28%), Positives = 35/71 (49%), Gaps = 1/71 (1%)
+
+Query  10   AWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETIEL  69
+             W G WLD+E+ L++   D   G ++  + TSP ++  +    A      + RDG+ + +
+Sbjct  344  GWNGLWLDEESSLLIRTVDRPTG-VRLDYATSPSLLRPMPDGSAEGRGLRLYRDGDRLRM  402
+
+Query  70   VRASENLRLSM  80
+             R  ENL +  
+Sbjct  403  DRPGENLHVEA  413
+
+
+> UniRef90_Q3IX78 D-aminopeptidase n=6 Tax=Rhodobacter TaxID=1060 
+RepID=DAP_RHOS4
+Length=516
+
+ Score = 69.7 bits (169),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 22/72 (31%), Positives = 37/72 (51%), Gaps = 1/72 (1%)
+
+Query  10   AWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETIEL  69
+             W G WLD E+GL+L + +   G +  RF T P+ +        R A  ++ R+G  + +
+Sbjct  342  GWAGQWLDPESGLLLRVGEDAEG-LTLRFATGPDRLTAGEDGVPRGAGVSLAREGAMLVM  400
+
+Query  70   VRASENLRLSMK  81
+             R S+NL +  +
+Sbjct  401  NRTSDNLTVRAE  412
+
+
+> UniRef90_A0A139HGP4 Uncharacterized protein n=1 Tax=Mycosphaerella 
+eumusae TaxID=321146 RepID=A0A139HGP4_9PEZI
+Length=532
+
+ Score = 69.3 bits (168),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 16/77 (21%), Positives = 30/77 (39%), Gaps = 0/77 (0%)
+
+Query  6    EADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGE  65
+                 W G +LDD   L++ ++      +   +    E   +  +N A S     R  G+
+Sbjct  347  APSPEWKGCFLDDAAQLLIQVKSENDKEVAITYAGDEEKSKLTGSNTAESKTMLARIAGD  406
+
+Query  66   TIELVRASENLRLSMKR  82
+            T+ + R  ++  L   R
+Sbjct  407  TLHIERKRDHRTLKATR  423
+
+
+> UniRef90_A0A1G3G563 Aminopeptidase n=1 Tax=Rhodobacterales bacterium 
+RIFCSPHIGHO2_02_FULL_62_130 TaxID=1802014 RepID=A0A1G3G563_9RHOB
+Length=509
+
+ Score = 69.3 bits (168),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 21/79 (27%), Positives = 36/79 (46%), Gaps = 2/79 (3%)
+
+Query  4    RVEADS-AWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRR  62
+                    W G WLD+  GL++       G +  R+  SP  + V +   AR    T+ R
+Sbjct  336  DAPVVPVGWDGIWLDEANGLLVRTVQDAGGVV-LRYAPSPSRLTVAADGVARGGGVTLTR  394
+
+Query  63   DGETIELVRASENLRLSMK  81
+             GE + ++R +EN+ +  +
+Sbjct  395  TGEGLTMLRPAENMVVRAR  413
+
+
+> UniRef90_UPI0009214132 UPI0009214132 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009214132
+Length=523
+
+ Score = 67.8 bits (164),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 20/69 (29%), Positives = 37/69 (54%), Gaps = 0/69 (0%)
+
+Query  7    ADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGET  66
+                W G++++ ETGL   ++ A  G+++ RFG S E +D+ +   A +  T +R   + 
+Sbjct  343  PVPGWLGAYMEPETGLSARIDMASEGQVRLRFGHSAERLDLQADGTAGAGRTRLRPGPDG  402
+
+Query  67   IELVRASEN  75
+            + + R  EN
+Sbjct  403  LWMDRPQEN  411
+
+
+> UniRef90_UPI00048F1205 D-aminopeptidase n=1 Tax=Rhizobium selenitireducens 
+TaxID=448181 RepID=UPI00048F1205
+Length=521
+
+ Score = 67.8 bits (164),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 24/72 (33%), Positives = 36/72 (50%), Gaps = 1/72 (1%)
+
+Query  10   AWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETIEL  69
+             W G WLD+E GL+L       G +K  +  SP  + V +   AR     + RDGE + +
+Sbjct  345  GWDGLWLDEERGLILRTVQDATG-VKLYYSPSPSRLTVGTDGIARGQGLRLERDGEVLVM  403
+
+Query  70   VRASENLRLSMK  81
+             R+ ENL +  +
+Sbjct  404  HRSQENLLVRAR  415
+
+
+> UniRef90_A0A0F7TNQ5 Uncharacterized protein n=1 Tax=Penicillium 
+brasilianum TaxID=104259 RepID=A0A0F7TNQ5_9EURO
+Length=538
+
+ Score = 67.4 bits (163),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 20/85 (24%), Positives = 39/85 (46%), Gaps = 3/85 (4%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGH-GRMKARFGTSPE--MMDVVSANEARSAV  57
+            E + VE    W+G +LD  T L +++  +   G +   +    E   + +  AN  ++  
+Sbjct  348  ENAPVEPAVEWYGVFLDKATQLAITVAKSSKSGEVLITYSAHLEAAPLKLTDANTGKART  407
+
+Query  58   TTIRRDGETIELVRASENLRLSMKR  82
+             T    G+ + + R S+N +L  +R
+Sbjct  408  MTGSIVGDVLRIHRVSDNRKLEARR  432
+
+
+> UniRef90_A0A0D6MQK8 D-aminopeptidase n=1 Tax=Tanticharoenia sakaeratensis 
+NBRC 103193 TaxID=1231623 RepID=A0A0D6MQK8_9PROT
+Length=523
+
+ Score = 67.4 bits (163),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 23/81 (28%), Positives = 39/81 (48%), Gaps = 0/81 (0%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+             S    D+   G +L+ ETGL   +     GR+  R+    EM++V+S   A+S    + 
+Sbjct  338  PSGHAPDTGLPGVYLEMETGLSARVSLTPEGRVGLRYLGGTEMLEVLSDGSAQSETARLA  397
+
+Query  62   RDGETIELVRASENLRLSMKR  82
+              G  + +VR  EN   +++R
+Sbjct  398  PSGSDLSMVRPGENRTTTLRR  418
+
+
+> UniRef90_A0A0D2DIB0 Uncharacterized protein n=1 Tax=Exophiala 
+xenobiotica TaxID=348802 RepID=A0A0D2DIB0_9EURO
+Length=553
+
+ Score = 67.4 bits (163),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 21/83 (25%), Positives = 38/83 (46%), Gaps = 3/83 (4%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGH-GRMKARFGTSPEMMDVVSANEARSAV--  57
+            E   V+    WFGS+ DDE  + L++      G ++  +  +PE + +  A  A S    
+Sbjct  359  ETQVVQPGEEWFGSYFDDEAQMFLTVAKGKKPGEIQISYVRAPETVKLTDATHAESPSLK  418
+
+Query  58   TTIRRDGETIELVRASENLRLSM  80
+             ++  DG+ I + R  +N  +  
+Sbjct  419  VSLEGDGQIIVIQRIEDNRTVRA  441
+
+
+> UniRef90_A0A0D1Y2N6 Uncharacterized protein n=1 Tax=Exophiala 
+sideris TaxID=1016849 RepID=A0A0D1Y2N6_9EURO
+Length=539
+
+ Score = 66.2 bits (160),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 20/83 (24%), Positives = 40/83 (48%), Gaps = 1/83 (1%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGH-GRMKARFGTSPEMMDVVSANEARSAVTT  59
+            E   V+    WFGS+ D+   +VL++E++   G++   +   PE + +  A  A+S    
+Sbjct  351  ETPVVQPGKEWFGSYFDEVAQMVLTVEESKKPGQIMICYVRGPETVKLTDATHAKSPSLN  410
+
+Query  60   IRRDGETIELVRASENLRLSMKR  82
+            +  +G  I + R  +N  +   +
+Sbjct  411  VSLEGNIIVVERIEDNRTVRATK  433
+
+
+> UniRef90_G7XTI3 Peptidase n=2 Tax=Aspergillus TaxID=5052 RepID=G7XTI3_ASPKW
+Length=746
+
+ Score = 66.2 bits (160),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 17/79 (22%), Positives = 31/79 (39%), Gaps = 0/79 (0%)
+
+Query  4    RVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRD  63
+                   W G + D +  LV+ +   G G +   +    E + +    EA+S + T    
+Sbjct  561  PSMPAPNWAGIYFDPDAQLVVEVRLGGPGEVIVTYTGDDETLKLTEEFEAQSDLATATLC  620
+
+Query  64   GETIELVRASENLRLSMKR  82
+             + + + R  EN  +  KR
+Sbjct  621  SDILIIHRKYENRNIQAKR  639
+
+
+> UniRef90_A0A072PQA2 Uncharacterized protein n=1 Tax=Exophiala 
+aquamarina CBS 119918 TaxID=1182545 RepID=A0A072PQA2_9EURO
+Length=539
+
+ Score = 65.8 bits (159),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 21/83 (25%), Positives = 40/83 (48%), Gaps = 1/83 (1%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGH-GRMKARFGTSPEMMDVVSANEARSAVTT  59
+            E   V+A   WFGS+ D+   + L++ +    G +   +  SPE + +  A  A+S    
+Sbjct  351  ETPVVQAGKEWFGSYFDEVAQMFLTVAEGKKPGEVVLSYVRSPEKVKLTDATHAKSTSLN  410
+
+Query  60   IRRDGETIELVRASENLRLSMKR  82
+            +  +G+ I + R  +N  +  K+
+Sbjct  411  VSLEGDVIVVERMEDNRIVRAKK  433
+
+
+> UniRef90_A2QT63 Aspergillus niger contig An09c0040, genomic contig 
+n=3 Tax=Aspergillus niger TaxID=5061 RepID=A2QT63_ASPNC
+Length=597
+
+ Score = 65.1 bits (157),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 19/76 (25%), Positives = 33/76 (43%), Gaps = 0/76 (0%)
+
+Query  7    ADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGET  66
+              + W G + D +  LV+ +   G G +   +    E + +    EARS + T     +T
+Sbjct  415  PVANWVGFYFDPDAQLVVEVRLGGPGEVILTYTGDEETLKLTERCEARSDLATATLCSDT  474
+
+Query  67   IELVRASENLRLSMKR  82
+            + L R  +N  +  KR
+Sbjct  475  LLLHRKYDNRHIQAKR  490
+
+
+> UniRef90_G6XMD4 D-aminopeptidase n=2 Tax=Gluconobacter TaxID=441 
+RepID=G6XMD4_9PROT
+Length=541
+
+ Score = 64.3 bits (155),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 22/71 (31%), Positives = 38/71 (54%), Gaps = 1/71 (1%)
+
+Query  12   FGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETIELVR  71
+            +G++L+ ETGL   +E A  G  + R+   PEM+D +S + A+    T+   G+ + + R
+Sbjct  368  YGTYLERETGLSARIEPAPDG-ARLRYMMIPEMLDGLSPDRAQGTGVTVTAQGDEVRMER  426
+
+Query  72   ASENLRLSMKR  82
+              EN    + R
+Sbjct  427  PGENRTGILTR  437
+
+
+> UniRef90_K7SK12 D-aminopeptidase n=13 Tax=Gluconobacter TaxID=441 
+RepID=K7SK12_GLUOY
+Length=521
+
+ Score = 63.5 bits (153),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 22/77 (29%), Positives = 37/77 (48%), Gaps = 2/77 (3%)
+
+Query  1    EVSRVEADS-AWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTT  59
+            E  R        +G++L+ ETGL   +E    G  + R+   PEM++ VS + A +    
+Sbjct  336  EPDRTTQQPLELYGTYLEQETGLSARIEPTPGG-AQLRYLMVPEMLEGVSPSRAETPNVR  394
+
+Query  60   IRRDGETIELVRASENL  76
+            + R G+ + + R  EN 
+Sbjct  395  LVRQGDEVRMERPGENR  411
+
+
+> UniRef90_C8S549 Beta-lactamase n=1 Tax=Rhodobacter sp. SW2 TaxID=371731 
+RepID=C8S549_9RHOB
+Length=526
+
+ Score = 63.5 bits (153),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 22/73 (30%), Positives = 36/73 (49%), Gaps = 1/73 (1%)
+
+Query  10   AWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETIEL  69
+             W G WLD E  L L   D   G ++  +  SP ++   S   A +    +RR+G+ + +
+Sbjct  344  GWDGLWLDRERALFLRTRDVPAG-VRLDYAASPVVLTPTSETRAEAPGLVLRREGDLLVM  402
+
+Query  70   VRASENLRLSMKR  82
+             R +ENL +  +R
+Sbjct  403  ERQTENLTVRAER  415
+
+
+> UniRef90_A0A0A1TA81 Uncharacterized protein n=1 Tax=Torrubiella 
+hemipterigena TaxID=1531966 RepID=A0A0A1TA81_9HYPO
+Length=536
+
+ Score = 63.1 bits (152),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 21/86 (24%), Positives = 37/86 (43%), Gaps = 4/86 (5%)
+
+Query  1    EVSR--VEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVT  58
+            E  +   EA S W G +LD  T L + ++      +  ++  + E +  V A  A+    
+Sbjct  345  EPEKPICEASSEWAGIYLDPVTELAIIVDVVDKVYVNVKYHRATEKLSTVDARTAKKPDG  404
+
+Query  59   T--IRRDGETIELVRASENLRLSMKR  82
+            T   + DG+ + +    EN R+   R
+Sbjct  405  TFEAKIDGDQLHVYVVGENRRIVANR  430
+
+
+> UniRef90_A0A167KSZ4 Beta-lactamase-type transpeptidase fold domain 
+containing protein n=1 Tax=Isaria fumosorosea ARSEF 2679 
+TaxID=1081104 RepID=A0A167KSZ4_9HYPO
+Length=539
+
+ Score = 63.1 bits (152),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 21/81 (26%), Positives = 41/81 (51%), Gaps = 1/81 (1%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDA-GHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+            S VE + A+ G++LD E+ L +++      G++   +  +   +  V AN+A S+  T  
+Sbjct  354  SAVEPNPAFIGTYLDPESDLAVTIGKGEAEGKLSFFYHRAAVDITPVEANKAVSSDVTAF  413
+
+Query  62   RDGETIELVRASENLRLSMKR  82
+             DG+ +E+    +N +    R
+Sbjct  414  LDGDVLEITLPKDNRKFRATR  434
+
+
+> UniRef90_UPI0006C7637A aminopeptidase n=1 Tax=Gemmobacter sp. 
+LW-1 TaxID=1529005 RepID=UPI0006C7637A
+Length=522
+
+ Score = 63.1 bits (152),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 23/72 (32%), Positives = 38/72 (53%), Gaps = 1/72 (1%)
+
+Query  10   AWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETIEL  69
+             W G WLD E  L L   D   G ++  +  SP ++  VSA++A +    +RR+G  + +
+Sbjct  344  GWGGLWLDPEADLFLRTTDTPGG-VRLHYAVSPVLLAPVSASQAEAPGILLRREGGALVM  402
+
+Query  70   VRASENLRLSMK  81
+             R +ENL +  +
+Sbjct  403  ERPAENLIVRAE  414
+
+
+> UniRef90_A0A1B6VKW7 D-aminopeptidase n=2 Tax=Gluconobacter TaxID=441 
+RepID=A0A1B6VKW7_9PROT
+Length=521
+
+ Score = 62.8 bits (151),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 26/77 (34%), Positives = 39/77 (51%), Gaps = 2/77 (3%)
+
+Query  1    EVSRVEADS-AWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTT  59
+            E  R        +G++++ ETGL   +E A  G  K R+   PEM++ VSA+ A +    
+Sbjct  336  EPDRTTQPPHELYGTFIERETGLSARIEPAPGG-AKLRYLMVPEMLEGVSASRAETPGVQ  394
+
+Query  60   IRRDGETIELVRASENL  76
+            I R G+ I + R  EN 
+Sbjct  395  IVRQGDEIRMERPGENR  411
+
+
+> UniRef90_A0A109J8X7 Aminopeptidase n=3 Tax=Rhizobium TaxID=379 
+RepID=A0A109J8X7_9RHIZ
+Length=520
+
+ Score = 62.8 bits (151),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 22/72 (31%), Positives = 36/72 (50%), Gaps = 1/72 (1%)
+
+Query  10   AWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETIEL  69
+             W G WLDD+ GL+L       G +K  +  S   + V +   AR     +++ GE + +
+Sbjct  344  GWDGLWLDDDQGLILRTVQDTAG-IKLHYAPSAARLTVSADGVARGHALALKKQGEMLVM  402
+
+Query  70   VRASENLRLSMK  81
+             R SENL ++ +
+Sbjct  403  RRESENLEVTAR  414
+
+
+> UniRef90_UPI000479DBED aminopeptidase n=1 Tax=Inquilinus limosus 
+TaxID=171674 RepID=UPI000479DBED
+Length=518
+
+ Score = 62.8 bits (151),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 23/75 (31%), Positives = 39/75 (52%), Gaps = 1/75 (1%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            + +       W GS+ + ETGLV  ++ AG GR++ R+G S E +D+     A +  T +
+Sbjct  336  KPAAGLPAPDWLGSYTEPETGLVARIDMAG-GRVRLRYGHSAERLDLRPDGGAGNGRTRL  394
+
+Query  61   RRDGETIELVRASEN  75
+            R   + + + R  EN
+Sbjct  395  RPAADGLWMDRPQEN  409
+
+
+> UniRef90_N6U3P8 Beta-lactamase n=2 Tax=Rhizobium TaxID=379 RepID=N6U3P8_9RHIZ
+Length=519
+
+ Score = 62.0 bits (149),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 23/79 (29%), Positives = 34/79 (43%), Gaps = 1/79 (1%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRR  62
+                A   W G WLD+  GL L  ED   G ++  + T+P +        A +    +RR
+Sbjct  337  EDAVAAEGWTGLWLDETQGLYLRTEDQKEG-VRLLYATAPGLCTPAPDGTAHARDIVLRR  395
+
+Query  63   DGETIELVRASENLRLSMK  81
+            D   + + R  ENL +  K
+Sbjct  396  DEGRLLMERPGENLCVIAK  414
+
+
+> UniRef90_UPI000486B81A aminopeptidase n=1 Tax=Rhodospirillales 
+bacterium URHD0088 TaxID=1380394 RepID=UPI000486B81A
+Length=520
+
+ Score = 61.6 bits (148),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 19/76 (25%), Positives = 40/76 (53%), Gaps = 1/76 (1%)
+
+Query  7    ADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGE-  65
+                W G++++ ETGL   ++ A  G+++ R+G + E +D+     A ++  T+   G+ 
+Sbjct  343  PAPTWLGAYVEPETGLAARIDAASAGQVRLRYGHTAEQLDLQQDGSASASAGTVLWFGDG  402
+
+Query  66   TIELVRASENLRLSMK  81
+             + + R  EN R  ++
+Sbjct  403  GLWMDRPQENQRSKLR  418
+
+
+> UniRef90_A0A0A0DB03 Aminopeptidase n=1 Tax=Inquilinus limosus 
+MP06 TaxID=1398085 RepID=A0A0A0DB03_9PROT
+Length=518
+
+ Score = 61.2 bits (147),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 21/78 (27%), Positives = 38/78 (49%), Gaps = 2/78 (3%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRR  62
+            + + A   W G++++ ETGL     D   G+++ R+G S E +D+     A +  T +R 
+Sbjct  339  ADLPA-PEWLGAYIEPETGLSAR-ADMADGKVRLRYGHSAEKLDLQPDGSAGNGRTRLRP  396
+
+Query  63   DGETIELVRASENLRLSM  80
+              + + L R  EN    +
+Sbjct  397  AADGLWLDRPQENQSTRL  414
+
+
+> UniRef90_A0A074Y4A8 Uncharacterized protein n=1 Tax=Aureobasidium 
+subglaciale EXF-2481 TaxID=1043005 RepID=A0A074Y4A8_9PEZI
+Length=549
+
+ Score = 61.2 bits (147),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 25/87 (29%), Positives = 42/87 (48%), Gaps = 5/87 (6%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDA---GHGRMKARFG--TSPEMMDVVSANEARS  55
+            E   +   +AW G +LD+ET L +++ED      G +   +G   + E   +VS  EA S
+Sbjct  352  EKQIINVSTAWEGKYLDEETQLYIAIEDGDREKPGTISVNYGPGNAGETARLVSELEAES  411
+
+Query  56   AVTTIRRDGETIELVRASENLRLSMKR  82
+                +  +GE + + R S++  L   R
+Sbjct  412  DGMHLTLEGEILHVKRTSDHRVLKAAR  438
+
+
+> UniRef90_A0A135LBB3 Peptidase S12, aminopeptidase DmpB, domain 
+C n=1 Tax=Penicillium patulum TaxID=5078 RepID=A0A135LBB3_PENPA
+Length=540
+
+ Score = 60.8 bits (146),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 19/82 (23%), Positives = 36/82 (44%), Gaps = 3/82 (4%)
+
+Query  4    RVEADSAWFGSWLDDETGLVLSLED---AGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+              E D  W G +LD +T L +++     A  G +  ++  S     +  A   +S   + 
+Sbjct  353  PREVDMYWNGVYLDPDTQLSIAVVPTNGAIDGELDIKYDGSATRFKLDEATWGKSDSMSG  412
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+              D  T+ + R ++N  L+ +R
+Sbjct  413  SIDTNTLTINRLADNRTLNARR  434
+
+
+> UniRef90_A0A162KMF3 Beta-lactamase-type transpeptidase fold domain 
+containing protein n=2 Tax=Cordyceps confragosa TaxID=1105325 
+RepID=A0A162KMF3_CORDF
+Length=539
+
+ Score = 60.8 bits (146),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 19/79 (24%), Positives = 38/79 (48%), Gaps = 1/79 (1%)
+
+Query  5    VEADSAWFGSWLDDETGLVLSLEDAGH-GRMKARFGTSPEMMDVVSANEARSAVTTIRRD  63
+            VE + A+ G++LD E+ L +++      G++   +  +   +  V AN+A S   T   D
+Sbjct  356  VEPNPAFIGTYLDPESDLAVTISKGEEEGKLSFSYHRAAVDITPVEANKAVSNDVTAVLD  415
+
+Query  64   GETIELVRASENLRLSMKR  82
+             + +E+    +N +    R
+Sbjct  416  RDVLEITLPKDNRKFRANR  434
+
+
+> UniRef90_F9WYA7 Uncharacterized protein n=2 Tax=Zymoseptoria 
+TaxID=1047167 RepID=F9WYA7_ZYMTI
+Length=553
+
+ Score = 60.4 bits (145),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 14/92 (15%), Positives = 32/92 (35%), Gaps = 11/92 (12%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSL--EDAGHGRMKARFGTSPEMMDVVSANEARSAVTT  59
+             + +     W G++L+ +  L+L++         +   +  +P  + + S   A SA   
+Sbjct  348  PASITPSPKWTGAYLNPQNNLLLTVVPSPGKPSTLSVTYAVAPAEVTLASPTTAESAGML  407
+
+Query  60   IRRD---------GETIELVRASENLRLSMKR  82
+                          + + + R  EN     +R
+Sbjct  408  ASIAPSSSSDVSPQQNLSITRLRENTIFQARR  439
+
+
+> UniRef90_UPI00054D49C9 D-aminopeptidase n=1 Tax=Agrobacterium 
+rhizogenes TaxID=359 RepID=UPI00054D49C9
+Length=528
+
+ Score = 60.1 bits (144),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 23/78 (29%), Positives = 36/78 (46%), Gaps = 1/78 (1%)
+
+Query  4    RVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRD  63
+                 + W G WLD+  GL L  ED   G ++  + T+P M    +    R+   T+R+ 
+Sbjct  338  DAAPANGWTGLWLDEAQGLYLRAEDRPEG-VQLHYATAPIMCTPQTDGTLRARDVTLRQA  396
+
+Query  64   GETIELVRASENLRLSMK  81
+               + + R SENL +  K
+Sbjct  397  ESQLLMERPSENLSVIAK  414
+
+
+> UniRef90_UPI0004725B0E aminopeptidase n=1 Tax=Asaia astilbis 
+TaxID=610244 RepID=UPI0004725B0E
+Length=519
+
+ Score = 59.7 bits (143),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 21/77 (27%), Positives = 38/77 (49%), Gaps = 1/77 (1%)
+
+Query  6    EADSAWFGSWLDDETGLVLSLEDAGHG-RMKARFGTSPEMMDVVSANEARSAVTTIRRDG  64
+              ++A  G +LD ETGL  S+     G R+  R+   PE+++  + + A    T +   G
+Sbjct  338  PGNTALLGHYLDRETGLSASVSPTASGTRLSLRYAYPPEILEPWTQDGAGQDATRLSLSG  397
+
+Query  65   ETIELVRASENLRLSMK  81
+            + + + R  EN  +S+ 
+Sbjct  398  DGLLMARPQENRSVSLS  414
+
+
+> UniRef90_A0A0T1WX32 Aminopeptidase n=1 Tax=Rhizobium sp. Root482 
+TaxID=1736543 RepID=A0A0T1WX32_9RHIZ
+Length=520
+
+ Score = 59.7 bits (143),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 24/76 (32%), Positives = 33/76 (43%), Gaps = 1/76 (1%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+                    +W G W+  ETGL+  L+  G   +  R+GTS E +         S+   I 
+Sbjct  336  PKPQPLRESWAGQWISLETGLLARLDP-GVDTVALRYGTSVETLTETPEGGLASSAVRIA  394
+
+Query  62   RDGETIELVRASENLR  77
+            RDGE I + R  EN  
+Sbjct  395  RDGEDIVMQRPQENFA  410
+
+
+> UniRef90_A0A0W0A5V1 Aminopeptidase n=2 Tax=Roseomonas TaxID=125216 
+RepID=A0A0W0A5V1_9PROT
+Length=520
+
+ Score = 59.7 bits (143),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 22/69 (32%), Positives = 37/69 (54%), Gaps = 0/69 (0%)
+
+Query  13   GSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETIELVRA  72
+            G +L+ ETGL   +E    GR++  F    E++       A SA + + R+G+ + L RA
+Sbjct  347  GCYLEPETGLATRVEAMPDGRLRLGFSGGAEILSACVEGGAASAASRLFREGDAVILERA  406
+
+Query  73   SENLRLSMK  81
+             +NLR  ++
+Sbjct  407  GDNLRTRLE  415
+
+
+> UniRef90_A0A074WZD5 Beta-lactamase/transpeptidase-like protein 
+n=1 Tax=Aureobasidium pullulans EXF-150 TaxID=1043002 RepID=A0A074WZD5_AURPU
+Length=548
+
+ Score = 59.7 bits (143),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 21/87 (24%), Positives = 39/87 (45%), Gaps = 5/87 (6%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDA---GHGRMKARFG--TSPEMMDVVSANEARS  55
+            E   +   +AW G++LDDET L + +E+      G +   +G   + E   + S  +A+S
+Sbjct  351  EPQTIGMPAAWKGNFLDDETQLYVGVEEGDREKPGTIAVNYGPGNAGETARLTSETQAKS  410
+
+Query  56   AVTTIRRDGETIELVRASENLRLSMKR  82
+                +  +   + + R  +N  L   R
+Sbjct  411  DSMQLTLEDNVLHVKRIDDNRTLRAVR  437
+
+
+> UniRef90_A0A1A9GAP8 Aminopeptidase n=2 Tax=Rhizobiaceae TaxID=82115 
+RepID=A0A1A9GAP8_9RHIZ
+Length=520
+
+ Score = 59.3 bits (142),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 25/74 (34%), Positives = 35/74 (47%), Gaps = 1/74 (1%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+             +       W G W+  ETGL+  LE      +  RFGTSPE +  +      S+  T+ 
+Sbjct  333  PAPQPLGERWGGQWMSRETGLLARLEPGLDAAI-LRFGTSPESLSQMEDGGLASSSVTVS  391
+
+Query  62   RDGETIELVRASEN  75
+            R GE + + RA EN
+Sbjct  392  RAGEDLLMQRAQEN  405
+
+
+> UniRef90_A0A0S6XTY7 Uncharacterized protein n=1 Tax=fungal sp. 
+No.11243 TaxID=1603295 RepID=A0A0S6XTY7_9FUNG
+Length=486
+
+ Score = 58.9 bits (141),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 21/85 (25%), Positives = 36/85 (42%), Gaps = 5/85 (6%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLE--DAGHGRMKARFGTSPEMMDVVSANEA---RSAV  57
+            S VEA   W G +LD ET L + ++      G++   +   P+ + V          S  
+Sbjct  295  SAVEASPDWDGVFLDKETQLAVQVKRVPGEKGKINIAYAGRPDTIAVGDDATQAGNVSGT  354
+
+Query  58   TTIRRDGETIELVRASENLRLSMKR  82
+            +T     E + L   + N+ L+ K+
+Sbjct  355  STATIKDEMLTLHMEASNITLTAKK  379
+
+
+> UniRef90_G3JAZ4 Beta-lactamase-type transpeptidase fold domain 
+containing protein n=1 Tax=Cordyceps militaris (strain CM01) 
+TaxID=983644 RepID=G3JAZ4_CORMM
+Length=537
+
+ Score = 58.9 bits (141),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 22/82 (27%), Positives = 41/82 (50%), Gaps = 1/82 (1%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLEDA-GHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            VS VE  + + G++LD E+ L +++      G++   +  S   +  V+AN+A S   T 
+Sbjct  351  VSAVEPSAGFLGTYLDPESDLAVTVGKGEAAGKLSFLYHRSAVDLTPVAANKAVSKDVTA  410
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+              DG+ +E+   ++N      R
+Sbjct  411  VLDGDVLEVTIPADNRTFRAHR  432
+
+
+> UniRef90_J4KPQ5 Beta-lactamase-type transpeptidase n=3 Tax=Cordycipitaceae 
+TaxID=474943 RepID=J4KPQ5_BEAB2
+Length=539
+
+ Score = 58.9 bits (141),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 22/79 (28%), Positives = 38/79 (48%), Gaps = 1/79 (1%)
+
+Query  5    VEADSAWFGSWLDDETGLVLSLEDA-GHGRMKARFGTSPEMMDVVSANEARSAVTTIRRD  63
+            VE  SA+ G++LD E+ L +++      G++   +  S   +  V AN+A S   T   D
+Sbjct  356  VEPASAFIGTYLDPESDLAVTIGKGEAEGKLAFGYYRSAVDITPVEANKAVSIDVTALLD  415
+
+Query  64   GETIELVRASENLRLSMKR  82
+            G+ + +    +N R    R
+Sbjct  416  GDVLNITVPKDNRRFRAHR  434
+
+
+> UniRef90_A0A023D3Q8 D-aminopeptidase n=1 Tax=Acidomonas methanolica 
+NBRC 104435 TaxID=1231351 RepID=A0A023D3Q8_ACIMT
+Length=515
+
+ Score = 57.7 bits (138),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 18/81 (22%), Positives = 37/81 (46%), Gaps = 1/81 (1%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+            V+   A+S   G++L++ETGL + +     G +   +    E ++ +  +EA    T + 
+Sbjct  333  VAPSPAESRLTGTFLEEETGLAVRVTRGARG-VSVSYLYGAETLEEIGPDEAGRDATRLT  391
+
+Query  62   RDGETIELVRASENLRLSMKR  82
+                 + + R  EN    ++R
+Sbjct  392  LADGVVRMHRPQENRTSLLRR  412
+
+
+> UniRef90_A0A0N1H4F8 D-aminopeptidase n=1 Tax=Phialophora attae 
+TaxID=1664694 RepID=A0A0N1H4F8_9EURO
+Length=545
+
+ Score = 57.4 bits (137),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 14/73 (19%), Positives = 30/73 (41%), Gaps = 1/73 (1%)
+
+Query  10   AWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGET-IE  68
+            +W G++ D +  L + +       ++  +G   E +D+     A S   TI    +  + 
+Sbjct  365  SWTGNYFDLDARLAVVVRQDKPHHIQVNYGGHDEGLDLTGRGTATSKYMTIDTAPDGPLA  424
+
+Query  69   LVRASENLRLSMK  81
+            + R  EN   + +
+Sbjct  425  IHRPKENREFAAQ  437
+
+
+> UniRef90_A0A0G2DYT0 Putative beta-lactamase family protein n=1 
+Tax=Diplodia seriata TaxID=420778 RepID=A0A0G2DYT0_9PEZI
+Length=556
+
+ Score = 55.8 bits (133),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 18/79 (23%), Positives = 34/79 (43%), Gaps = 2/79 (3%)
+
+Query  6    EADSAWFGSWLDDETGLVLSLED-AGHGRMKARFGTSPEMMDVVS-ANEARSAVTTIRRD  63
+            +    WFG +LD ET L + +    G G +   +      + +      ARS       D
+Sbjct  373  QPAPEWFGVFLDAETQLAVVVRPGGGGGEVSILWAGDDFRVPLGDHPRNARSRDVIASVD  432
+
+Query  64   GETIELVRASENLRLSMKR  82
+            G+++ +    +N+++  KR
+Sbjct  433  GDSLRVQCLVDNVKIEAKR  451
+
+
+> UniRef90_A0A021X1X7 D-aminopeptidase Dap n=1 Tax=Shinella sp. 
+DD12 TaxID=1410620 RepID=A0A021X1X7_9RHIZ
+Length=518
+
+ Score = 55.4 bits (132),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 25/74 (34%), Positives = 33/74 (45%), Gaps = 1/74 (1%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+             +       W G W+  ETGL+  LE  G      RFGTSPE +         S+   + 
+Sbjct  334  PASKPLGERWGGQWMSRETGLLARLEP-GFDSATLRFGTSPESLLEAEEGSLASSSVKVA  392
+
+Query  62   RDGETIELVRASEN  75
+            R GE + + RA EN
+Sbjct  393  RAGEDLLMQRAQEN  406
+
+
+> UniRef90_Q0FTP4 D-aminopeptidase n=1 Tax=Pelagibaca bermudensis 
+(strain JCM 13377 / KCTC 12554 / HTCC2601) TaxID=314265 RepID=Q0FTP4_PELBH
+Length=520
+
+ Score = 54.3 bits (129),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 18/66 (27%), Positives = 29/66 (44%), Gaps = 1/66 (2%)
+
+Query  10   AWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETIEL  69
+             W G WLD+  GL  +L+  G   ++  +   P+  +        +A   I RDG  + +
+Sbjct  344  EWDGLWLDEARGLTATLKT-GRRAVELGYAVGPQPTEAGQDGALAAAGVRITRDGAGLAM  402
+
+Query  70   VRASEN  75
+             R  EN
+Sbjct  403  ARPGEN  408
+
+
+> UniRef90_S5YZV0 D-aminopeptidase n=1 Tax=Paracoccus aminophilus 
+JCM 7686 TaxID=1367847 RepID=S5YZV0_PARAH
+Length=521
+
+ Score = 52.7 bits (125),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 21/81 (26%), Positives = 37/81 (46%), Gaps = 2/81 (2%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            +    +A   W G W+DDE GL +       G +K  +  + +M+   S + A     T+
+Sbjct  336  DPEP-QAALGWDGLWMDDEQGLFIRTTSTPAG-VKLNYQHTAQMLTPTSDSRAEFHGITL  393
+
+Query  61   RRDGETIELVRASENLRLSMK  81
+             R  E + + R  ENL ++ +
+Sbjct  394  ERGPEGLTMRREDENLSVTGR  414
+
+
+> UniRef90_Q5FRJ7 D-aminopeptidase n=9 Tax=Gluconobacter TaxID=441 
+RepID=DAP_GLUOX
+Length=525
+
+ Score = 52.7 bits (125),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 24/87 (28%), Positives = 39/87 (45%), Gaps = 6/87 (7%)
+
+Query  1    EVSRVEADS-AWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTT  59
+            E  R      A +G++L+ ETGL   +E A  G  K R+   PE+++ +SA  A +    
+Sbjct  336  EPERSTQQPTALYGTYLERETGLSARIEPAPGG-AKLRYLMVPELLEGISATRAEAGSVV  394
+
+Query  60   I----RRDGETIELVRASENLRLSMKR  82
+            +      +G    + R  EN    + R
+Sbjct  395  VKAQETAEGAEAVMERPGENRTSILAR  421
+
+
+> UniRef90_A0A060Q8M0 D-alanyl-D-alanine carboxypeptidase n=2 Tax=Saccharibacter 
+sp. AM169 TaxID=1343158 RepID=A0A060Q8M0_9PROT
+Length=530
+
+ Score = 52.7 bits (125),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 25/93 (27%), Positives = 42/93 (45%), Gaps = 13/93 (14%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+             S  +A  A  G WLD+ETGL   +  A  G+++ R+   PE +D++S   A +    +R
+Sbjct  331  PSGRQAPHALEGLWLDEETGLSARITAAAPGKLQLRYLMLPETLDIISPQLAEAGNLRVR  390
+
+Query  62   -RDGETIE------------LVRASENLRLSMK  81
+               GE ++            + R  EN    ++
+Sbjct  391  HIQGEHMQASTQEIPTPHIIMERPGENRHALLR  423
+
+
+> UniRef90_UPI00037E6FFF hypothetical protein n=1 Tax=Saccharibacter 
+floricola TaxID=231053 RepID=UPI00037E6FFF
+Length=532
+
+ Score = 52.0 bits (123),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 24/68 (35%), Positives = 35/68 (51%), Gaps = 0/68 (0%)
+
+Query  10   AWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETIEL  69
+             + G WLD ETGL   +E      ++ R+   PE + + SA EA +A   + R  E I +
+Sbjct  348  DFNGVWLDKETGLSARIETVNASSLRLRYLMVPEDIPLHSATEAGNAGVQLERTAEGIVM  407
+
+Query  70   VRASENLR  77
+             R +EN R
+Sbjct  408  TRPAENRR  415
+
+
+> UniRef90_S7ZSR3 Uncharacterized protein n=1 Tax=Penicillium oxalicum 
+(strain 114-2 / CGMCC 5302) TaxID=933388 RepID=S7ZSR3_PENO1
+Length=533
+
+ Score = 50.4 bits (119),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 14/82 (17%), Positives = 37/82 (45%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            +  +V  +  + G++ D E  L   +++   G +  R+    E + + S+N   +   ++
+Sbjct  347  QAQQVHVNQDFLGTFFDPEARLSCPVQEGESGTIVIRYSDHEERVLLSSSNTGSTETLSV  406
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+                +++ L R  +N  +  +R
+Sbjct  407  ELGIDSVRLYRRDDNRLVVARR  428
+
+
+> UniRef90_UPI0006B496DC aminopeptidase n=1 Tax=Pseudorhodobacter 
+psychrotolerans TaxID=1678131 RepID=UPI0006B496DC
+Length=518
+
+ Score = 50.4 bits (119),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 13/66 (20%), Positives = 25/66 (38%), Gaps = 2/66 (3%)
+
+Query  10   AWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETIEL  69
+             W G W+    GL+  L  +G            E + + + +  R+    + R  + + L
+Sbjct  344  GWDGQWIGP-NGLLTRL-QSGRDYADLYHAGGAERLTLAADDTLRAPGVVLSRGKDGVTL  401
+
+Query  70   VRASEN  75
+             R  +N
+Sbjct  402  TRVKDN  407
+
+
+> UniRef90_D0D6W3 D-aminopeptidase n=1 Tax=Citreicella sp. SE45 
+TaxID=501479 RepID=D0D6W3_9RHOB
+Length=518
+
+ Score = 49.3 bits (116),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 21/75 (28%), Positives = 33/75 (44%), Gaps = 4/75 (5%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEA-RSAVTTI  60
+                    +W G WLD E G++  +E  G      ++GT     ++    EA RS    I
+Sbjct  336  PEPAPIAQSWDGQWLDTERGMLARIET-GRRTATLQYGTGD--AELTCDGEALRSDGLVI  392
+
+Query  61   RRDGETIELVRASEN  75
+             R G+ + ++R  EN
+Sbjct  393  TRAGDGLTMLRPGEN  407
+
+
+> UniRef90_A0A086Y7D1 D-aminopeptidase n=1 Tax=Haematobacter missouriensis 
+TaxID=366616 RepID=A0A086Y7D1_9RHOB
+Length=509
+
+ Score = 48.9 bits (115),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 20/80 (25%), Positives = 33/80 (41%), Gaps = 3/80 (4%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+             + V     W G WL  ETGL  S+   G    + R+ TSPE +         +    + 
+Sbjct  330  PAMVPPPEIWDGHWLCRETGL--SVRIDGGTVPRLRYATSPEPLTFR-DGGLEATGIRLE  386
+
+Query  62   RDGETIELVRASENLRLSMK  81
+            R    I + R+++ L   ++
+Sbjct  387  RGEGGIMMTRSADRLSAQLE  406
+
+
+> UniRef90_UPI0006B5AE3F aminopeptidase n=1 Tax=Pseudorhodobacter 
+psychrotolerans TaxID=1678131 RepID=UPI0006B5AE3F
+Length=518
+
+ Score = 48.5 bits (114),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 16/79 (20%), Positives = 27/79 (34%), Gaps = 2/79 (3%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+             +       W G W+    GL+  LE  G    K R  +  E + + +     S    + 
+Sbjct  336  PAEPPLPDGWDGQWIGP-NGLLTRLE-CGRNFAKLRHASGVERLTLAADGALSSPGAVLA  393
+
+Query  62   RDGETIELVRASENLRLSM  80
+            R    + L R  +N    +
+Sbjct  394  RGATGVTLTRPKDNTEAML  412
+
+
+> UniRef90_A0A086Y572 D-aminopeptidase n=2 Tax=Haematobacter massiliensis 
+TaxID=195105 RepID=A0A086Y572_9RHOB
+Length=517
+
+ Score = 47.3 bits (111),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 20/81 (25%), Positives = 32/81 (40%), Gaps = 3/81 (4%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            +  RV     W G WL  ETGL  S+   G    + R+ TSPE +         +    +
+Sbjct  332  DPVRVPPGEVWDGHWLCRETGL--SVRIDGGTAPRLRYATSPEPLTFRQGG-LEATDIRL  388
+
+Query  61   RRDGETIELVRASENLRLSMK  81
+             R      + R ++ L   ++
+Sbjct  389  ERGQGGFVMTRRADRLIAQLE  409
+
+
+> UniRef90_A0A086XXP2 D-aminopeptidase n=1 Tax=Paenirhodobacter 
+enshiensis TaxID=1105367 RepID=A0A086XXP2_9RHOB
+Length=518
+
+ Score = 47.3 bits (111),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 21/66 (32%), Positives = 28/66 (42%), Gaps = 2/66 (3%)
+
+Query  10   AWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETIEL  69
+             W G WLD E G+V  +  +G       + T P  M         +  TTIRRDG  + +
+Sbjct  344  GWDGIWLDRERGMVAQI-VSGRRSATLHYATRPLSMQFDGEG-LSAPGTTIRRDGTALSM  401
+
+Query  70   VRASEN  75
+                EN
+Sbjct  402  ALPGEN  407
+
+
+> UniRef90_A0A1D8UVN4 Aminopeptidase n=3 Tax=Kozakia baliensis 
+TaxID=153496 RepID=A0A1D8UVN4_9PROT
+Length=518
+
+ Score = 46.6 bits (109),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 20/77 (26%), Positives = 36/77 (47%), Gaps = 1/77 (1%)
+
+Query  6    EADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGE  65
+              +    G +LD +TGL   +E A   R++  +   PE+++    + A +  T +   GE
+Sbjct  339  PGNPHIPGIYLDSDTGLSARIE-AEDARLRVGYTYPPEILENWRDDGAGTDGTRLSLRGE  397
+
+Query  66   TIELVRASENLRLSMKR  82
+             + + R  EN    +KR
+Sbjct  398  DLWMERPQENRSGWLKR  414
+
+
+> UniRef90_UPI000476DFC8 D-aminopeptidase n=1 Tax=Meganema perideroedes 
+TaxID=217219 RepID=UPI000476DFC8
+Length=521
+
+ Score = 45.8 bits (107),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 23/73 (32%), Positives = 32/73 (44%), Gaps = 2/73 (3%)
+
+Query  5    VEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDG  64
+                + W  SW+  ETGL+  +     G    RF    E +         S ++ I R+G
+Sbjct  340  APISAEWVRSWIGAETGLIARISRHEGGG-SLRFAVGAEPLR-EHEGALVSPLSRIEREG  397
+
+Query  65   ETIELVRASENLR  77
+            E + L RASENL 
+Sbjct  398  EGLILRRASENLT  410
+
+
+
+Lambda      K        H        a         alpha
+   0.303    0.136    0.360    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0431    0.140     1.90     42.6     43.6 
+
+Effective search space used: 437226641605
+Results from round 3
+
+
+Query= d1ei5a1
+
+Length=82
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_N4UV62 D-aminopeptidase n=1 Tax=Colletotrichum orbicul...  112     2e-27
+  UniRef90_T0K9H4 Uncharacterized protein n=2 Tax=Colletotrichum ...  111     2e-26
+  UniRef90_A0A0D1XSF0 Uncharacterized protein n=1 Tax=Verruconis ...  108     9e-26
+  UniRef90_W9Y0G6 Uncharacterized protein n=1 Tax=Capronia corona...  106     4e-25
+  UniRef90_A0A0D2AJK6 Uncharacterized protein n=1 Tax=Verruconis ...  104     1e-24
+  UniRef90_A0A0D2D883 Uncharacterized protein n=7 Tax=Herpotrichi...  104     2e-24
+  UniRef90_A0A0D1Z2A7 Uncharacterized protein n=1 Tax=Verruconis ...  104     2e-24
+  UniRef90_W2RKL4 Uncharacterized protein n=1 Tax=Cyphellophora e...  104     2e-24
+  UniRef90_A0A0D2YGI8 Uncharacterized protein n=15 Tax=Fusarium T...  104     3e-24
+  UniRef90_A0A1F5LKB6 Uncharacterized protein n=1 Tax=Penicillium...  104     3e-24
+  UniRef90_A0A0U1M9J4 Uncharacterized protein n=1 Tax=Talaromyces...  103     7e-24
+  UniRef90_Q8YD27 D-aminopeptidase n=35 Tax=Brucellaceae TaxID=11...  103     8e-24
+  UniRef90_W6Q4V6 D-aminopeptidase n=1 Tax=Penicillium roqueforti...  102     1e-23
+  UniRef90_A0A150V8B8 Uncharacterized protein n=1 Tax=Acidomyces ...  102     1e-23
+  UniRef90_I1RTM7 Uncharacterized protein n=3 Tax=Fusarium sambuc...  100     6e-23
+  UniRef90_R1EYS7 Putative beta-lactamase family protein n=1 Tax=...  100     7e-23
+  UniRef90_A0A194X7N3 Beta-lactamase-type transpeptidase n=1 Tax=...  100     7e-23
+  UniRef90_Q9ZBA9 D-aminopeptidase n=3 Tax=Ochrobactrum TaxID=528...  100     9e-23
+  UniRef90_A6WYS5 D-aminopeptidase n=13 Tax=Ochrobactrum TaxID=52...  100     9e-23
+  UniRef90_UPI000463BAF2 D-aminopeptidase n=1 Tax=Ochrobactrum rh...  99.8    1e-22
+  UniRef90_A0A0D1YL57 Uncharacterized protein n=1 Tax=Exophiala s...  99.8    1e-22
+  UniRef90_M3ASF3 Beta-lactamase/transpeptidase-like protein n=1 ...  99.4    2e-22
+  UniRef90_S8BCP1 Uncharacterized protein n=1 Tax=Penicillium oxa...  97.1    1e-21
+  UniRef90_B6H6G7 Pc15g00200 protein n=2 Tax=Penicillium chrysoge...  96.7    2e-21
+  UniRef90_A0A0T6YDY2 D-aminopeptidase n=5 Tax=Sinorhizobium/Ensi...  96.7    2e-21
+  UniRef90_A0A0L1IY49 Putative penicillin-binding protein n=2 Tax...  96.7    2e-21
+  UniRef90_K9GFZ9 Beta-lactamase family protein n=7 Tax=Penicilli...  96.4    2e-21
+  UniRef90_C7ZD61 Putative uncharacterized protein n=1 Tax=Nectri...  96.4    3e-21
+  UniRef90_A0A074VWP4 Beta-lactamase/transpeptidase-like protein ...  95.2    4e-21
+  UniRef90_G7XTI3 Peptidase n=2 Tax=Aspergillus TaxID=5052 RepID=...  96.0    7e-21
+  UniRef90_A0A074X0V4 Beta-lactamase/transpeptidase-like protein ...  94.8    1e-20
+  UniRef90_B8NWC0 Penicillin-binding protein, putative n=6 Tax=As...  93.7    2e-20
+  UniRef90_A0A0D2DIB0 Uncharacterized protein n=1 Tax=Exophiala x...  93.7    2e-20
+  UniRef90_UPI00039BC93C D-aminopeptidase n=1 Tax=Pseudochrobactr...  93.7    2e-20
+  UniRef90_A0A136IZQ8 Glycine d-alanine aminopeptidase n=1 Tax=Mi...  93.7    2e-20
+  UniRef90_UPI00056BBABB D-aminopeptidase n=1 Tax=Rhizobium sp. O...  93.3    3e-20
+  UniRef90_UPI00048DD968 D-aminopeptidase n=1 Tax=Rhizobium selen...  92.9    4e-20
+  UniRef90_M2ZAM4 Uncharacterized protein n=1 Tax=Pseudocercospor...  92.9    5e-20
+  UniRef90_A0A072PQA2 Uncharacterized protein n=1 Tax=Exophiala a...  92.5    5e-20
+  UniRef90_A0A139HGP4 Uncharacterized protein n=1 Tax=Mycosphaere...  92.5    5e-20
+  UniRef90_A2QT63 Aspergillus niger contig An09c0040, genomic con...  92.5    6e-20
+  UniRef90_UPI00055363FC D-aminopeptidase n=1 Tax=Chelativorans s...  92.1    8e-20
+  UniRef90_A0A0F7TNQ5 Uncharacterized protein n=1 Tax=Penicillium...  91.7    1e-19
+  UniRef90_A0A0D1Y2N6 Uncharacterized protein n=1 Tax=Exophiala s...  91.7    1e-19
+  UniRef90_K2RWC0 Beta-lactamase-related protein n=1 Tax=Macropho...  89.8    6e-19
+  UniRef90_A0A167KSZ4 Beta-lactamase-type transpeptidase fold dom...  89.4    7e-19
+  UniRef90_A0A1A9GFF8 Aminopeptidase n=1 Tax=Shinella sp. HZN7 Ta...  89.4    8e-19
+  UniRef90_UPI0002E8A4C9 hypothetical protein n=1 Tax=Pseudaminob...  88.3    2e-18
+  UniRef90_A0A162KMF3 Beta-lactamase-type transpeptidase fold dom...  88.3    2e-18
+  UniRef90_A0A074WZD5 Beta-lactamase/transpeptidase-like protein ...  87.5    3e-18
+  UniRef90_A0A0L8C2G9 D-aminopeptidase n=3 Tax=Ensifer TaxID=1065...  87.1    4e-18
+  UniRef90_UPI0009214132 UPI0009214132 related cluster n=1 Tax=un...  86.7    7e-18
+  UniRef90_A0A0Q7R887 D-aminopeptidase n=4 Tax=Ensifer TaxID=1065...  86.0    1e-17
+  UniRef90_A0A0Q9E5Z0 D-aminopeptidase n=6 Tax=Sinorhizobium/Ensi...  86.0    1e-17
+  UniRef90_A0A1C0S9G0 D-aminopeptidase n=1 Tax=Ensifer sp. LC14 T...  85.2    2e-17
+  UniRef90_G3JAZ4 Beta-lactamase-type transpeptidase fold domain ...  84.8    3e-17
+  UniRef90_A0A0D6MQK8 D-aminopeptidase n=1 Tax=Tanticharoenia sak...  84.4    5e-17
+  UniRef90_UPI0006847FF4 aminopeptidase n=1 Tax=Gemmobacter necta...  84.0    5e-17
+  UniRef90_UPI000479DBED aminopeptidase n=1 Tax=Inquilinus limosu...  84.0    5e-17
+  UniRef90_UPI00048F1205 D-aminopeptidase n=1 Tax=Rhizobium selen...  84.0    6e-17
+  UniRef90_J4KPQ5 Beta-lactamase-type transpeptidase n=3 Tax=Cord...  84.0    6e-17
+  UniRef90_UPI0004287C2D aminopeptidase n=1 Tax=Pseudodonghicola ...  84.0    7e-17
+  UniRef90_A0A1G3G563 Aminopeptidase n=1 Tax=Rhodobacterales bact...  83.3    1e-16
+  UniRef90_A0A074Y4A8 Uncharacterized protein n=1 Tax=Aureobasidi...  83.3    1e-16
+  UniRef90_UPI0003F83BFD D-aminopeptidase n=1 Tax=Pleomorphomonas...  82.9    1e-16
+  UniRef90_C8S549 Beta-lactamase n=1 Tax=Rhodobacter sp. SW2 TaxI...  82.9    1e-16
+  UniRef90_A0A0A0DB03 Aminopeptidase n=1 Tax=Inquilinus limosus M...  82.9    2e-16
+  UniRef90_A0A135LBB3 Peptidase S12, aminopeptidase DmpB, domain ...  82.1    3e-16
+  UniRef90_K7SK12 D-aminopeptidase n=13 Tax=Gluconobacter TaxID=4...  81.3    5e-16
+  UniRef90_UPI000486B81A aminopeptidase n=1 Tax=Rhodospirillales ...  81.3    5e-16
+  UniRef90_G6XMD4 D-aminopeptidase n=2 Tax=Gluconobacter TaxID=44...  81.0    8e-16
+  UniRef90_A0A1B6VKW7 D-aminopeptidase n=2 Tax=Gluconobacter TaxI...  81.0    8e-16
+  UniRef90_A0A0A1TA81 Uncharacterized protein n=1 Tax=Torrubiella...  80.6    9e-16
+  UniRef90_UPI0006C7637A aminopeptidase n=1 Tax=Gemmobacter sp. L...  80.2    1e-15
+  UniRef90_Q3IX78 D-aminopeptidase n=6 Tax=Rhodobacter TaxID=1060...  79.8    2e-15
+  UniRef90_N6U3P8 Beta-lactamase n=2 Tax=Rhizobium TaxID=379 RepI...  79.4    2e-15
+  UniRef90_UPI0003F69B5C D-aminopeptidase n=1 Tax=Pleomorphomonas...  79.4    3e-15
+  UniRef90_UPI00054D49C9 D-aminopeptidase n=1 Tax=Agrobacterium r...  79.0    4e-15
+  UniRef90_UPI0004725B0E aminopeptidase n=1 Tax=Asaia astilbis Ta...  78.3    6e-15
+  UniRef90_A0A1I4TY37 D-stereospecific aminopeptidase Serine pept...  77.9    1e-14
+  UniRef90_A0A023D3Q8 D-aminopeptidase n=1 Tax=Acidomonas methano...  77.5    1e-14
+  UniRef90_F9WYA7 Uncharacterized protein n=2 Tax=Zymoseptoria Ta...  77.5    1e-14
+  UniRef90_A0A0T1WX32 Aminopeptidase n=1 Tax=Rhizobium sp. Root48...  77.5    1e-14
+  UniRef90_A0A0S6XTY7 Uncharacterized protein n=1 Tax=fungal sp. ...  77.1    1e-14
+  UniRef90_S5YZV0 D-aminopeptidase n=1 Tax=Paracoccus aminophilus...  77.1    2e-14
+  UniRef90_S7ZSR3 Uncharacterized protein n=1 Tax=Penicillium oxa...  75.9    4e-14
+  UniRef90_A0A1A9GAP8 Aminopeptidase n=2 Tax=Rhizobiaceae TaxID=8...  75.9    5e-14
+  UniRef90_A0A0N1H4F8 D-aminopeptidase n=1 Tax=Phialophora attae ...  75.6    6e-14
+  UniRef90_A0A086Y7D1 D-aminopeptidase n=1 Tax=Haematobacter miss...  75.6    6e-14
+  UniRef90_A0A1D8UVN4 Aminopeptidase n=3 Tax=Kozakia baliensis Ta...  74.8    1e-13
+  UniRef90_UPI00037E6FFF hypothetical protein n=1 Tax=Saccharibac...  74.8    1e-13
+  UniRef90_A0A086Y572 D-aminopeptidase n=2 Tax=Haematobacter mass...  74.8    1e-13
+  UniRef90_A0A109J8X7 Aminopeptidase n=3 Tax=Rhizobium TaxID=379 ...  74.0    2e-13
+  UniRef90_A0A0G2DYT0 Putative beta-lactamase family protein n=1 ...  72.5    8e-13
+  UniRef90_A0A060Q8M0 D-alanyl-D-alanine carboxypeptidase n=2 Tax...  72.1    9e-13
+  UniRef90_Q5FRJ7 D-aminopeptidase n=9 Tax=Gluconobacter TaxID=44...  72.1    1e-12
+  UniRef90_D0D6W3 D-aminopeptidase n=1 Tax=Citreicella sp. SE45 T...  71.3    2e-12
+  UniRef90_A0A0W0A5V1 Aminopeptidase n=2 Tax=Roseomonas TaxID=125...  70.6    3e-12
+  UniRef90_A0A021X1X7 D-aminopeptidase Dap n=1 Tax=Shinella sp. D...  69.8    6e-12
+  UniRef90_Q0FTP4 D-aminopeptidase n=1 Tax=Pelagibaca bermudensis...  66.7    7e-11
+  UniRef90_UPI0006B496DC aminopeptidase n=1 Tax=Pseudorhodobacter...  66.3    9e-11
+  UniRef90_UPI0006B5AE3F aminopeptidase n=1 Tax=Pseudorhodobacter...  65.2    2e-10
+  UniRef90_UPI000476DFC8 D-aminopeptidase n=1 Tax=Meganema peride...  63.2    1e-09
+  UniRef90_A0A086XXP2 D-aminopeptidase n=1 Tax=Paenirhodobacter e...  62.1    3e-09
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A060QI76 D-alanyl-D-alanine carboxypeptidase n=2 Tax...  60.5    1e-08
+  UniRef90_UPI00082C31A0 UPI00082C31A0 related cluster n=1 Tax=un...  54.4    1e-06
+  UniRef90_A0A149V6B8 Aminopeptidase (Fragment) n=1 Tax=Gluconoba...  44.4    0.002
+
+
+> UniRef90_N4UV62 D-aminopeptidase n=1 Tax=Colletotrichum orbiculare 
+(strain 104-T / ATCC 96160 / CBS 514.97 / LARS 414 / MAFF 
+240422) TaxID=1213857 RepID=N4UV62_COLOR
+Length=535
+
+ Score = 112 bits (282),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 27/82 (33%), Positives = 41/82 (50%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            EV  VEAD AWFG++LD+ET L +++     GR+   +  SPE + +     A S     
+Sbjct  350  EVEPVEADPAWFGTFLDEETQLAITVSQGVKGRVVVYYTGSPEPVVLTDPTHAESPGMKA  409
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+               G+ + + R  EN  +   R
+Sbjct  410  EIVGDQLRIRRLKENKEIMASR  431
+
+
+> UniRef90_T0K9H4 Uncharacterized protein n=2 Tax=Colletotrichum 
+gloeosporioides TaxID=474922 RepID=T0K9H4_COLGC
+Length=781
+
+ Score = 111 bits (278),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 24/82 (29%), Positives = 44/82 (54%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            E + V+ADS+WFG++LD++T L +++     G++   +  S E +++     A S     
+Sbjct  350  EPAPVDADSSWFGTFLDEQTQLAITVSQGAKGKVNISYAGSAEAINLKDPKHAESPGIVA  409
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+            + DG  +++ R  EN  L   R
+Sbjct  410  KIDGNQLKIHRVKENRALKASR  431
+
+
+> UniRef90_A0A0D1XSF0 Uncharacterized protein n=1 Tax=Verruconis 
+gallopava TaxID=253628 RepID=A0A0D1XSF0_9PEZI
+Length=536
+
+ Score = 108 bits (271),  Expect = 9e-26, Method: Composition-based stats.
+ Identities = 25/80 (31%), Positives = 43/80 (54%), Gaps = 0/80 (0%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRR  62
+            S V     WFG++LD+ET L +++  A  G++   +    E++ +V+ + A S       
+Sbjct  352  SDVSPVPQWFGTFLDEETQLCVTVAKAAAGQVSITYARDAELVRLVAPDRAESQDNVASI  411
+
+Query  63   DGETIELVRASENLRLSMKR  82
+            DG+T+ + R  EN RL  +R
+Sbjct  412  DGDTLHVHRVGENRRLKARR  431
+
+
+> UniRef90_W9Y0G6 Uncharacterized protein n=1 Tax=Capronia coronata 
+CBS 617.96 TaxID=1182541 RepID=W9Y0G6_9EURO
+Length=543
+
+ Score = 106 bits (266),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 23/80 (29%), Positives = 36/80 (45%), Gaps = 0/80 (0%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRR  62
+                 D  W G++LD +TGL + +   G G +  ++  +PE + VV A  A S       
+Sbjct  356  EIASPDPDWTGTYLDSDTGLAIVVSPGGPGELLVKYHGNPEKLRVVEACRAESNSMVATL  415
+
+Query  63   DGETIELVRASENLRLSMKR  82
+            DG  + L    +N  L  +R
+Sbjct  416  DGSCLHLYVPQDNRTLHAQR  435
+
+
+> UniRef90_A0A0D2AJK6 Uncharacterized protein n=1 Tax=Verruconis 
+gallopava TaxID=253628 RepID=A0A0D2AJK6_9PEZI
+Length=475
+
+ Score = 104 bits (261),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 21/80 (26%), Positives = 35/80 (44%), Gaps = 0/80 (0%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRR  62
+               E  S WFGS+LD  T L + +   G G++   +   PE + +     ARS     R 
+Sbjct  291  PSAEPVSEWFGSFLDQSTQLAIRVSSYGKGKISVTYAGYPETLTLTDERNARSESMIARI  350
+
+Query  63   DGETIELVRASENLRLSMKR  82
+              +++ +    +N  L+  R
+Sbjct  351  QEDSLHIHCLGDNRVLNAFR  370
+
+
+> UniRef90_A0A0D2D883 Uncharacterized protein n=7 Tax=Herpotrichiellaceae 
+TaxID=43219 RepID=A0A0D2D883_9EURO
+Length=541
+
+ Score = 104 bits (261),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 25/85 (29%), Positives = 41/85 (48%), Gaps = 3/85 (4%)
+
+Query  1    EVSR--VEADSAWFGSWLDDETGLVLSLEDAG-HGRMKARFGTSPEMMDVVSANEARSAV  57
+            E     V+    WFGS+LD ET L + +      G++K  +    E + +V AN+A S  
+Sbjct  347  EPPPLAVQPVQQWFGSFLDPETQLSIRVRPGDVAGKIKIDYVRGEETLRLVDANKAESPD  406
+
+Query  58   TTIRRDGETIELVRASENLRLSMKR  82
+                 DG+ + + R  +N  L+ +R
+Sbjct  407  VEASIDGDILHVRRLDDNRVLTARR  431
+
+
+> UniRef90_A0A0D1Z2A7 Uncharacterized protein n=1 Tax=Verruconis 
+gallopava TaxID=253628 RepID=A0A0D1Z2A7_9PEZI
+Length=536
+
+ Score = 104 bits (261),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 21/80 (26%), Positives = 35/80 (44%), Gaps = 0/80 (0%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRR  62
+               E  S WFGS+LD  T L + +   G G++   +   PE + +     ARS     R 
+Sbjct  352  PSAEPVSEWFGSFLDQSTQLAIRVSSYGKGKISVTYAGYPETLTLTDERNARSESMIARI  411
+
+Query  63   DGETIELVRASENLRLSMKR  82
+              +++ +    +N  L+  R
+Sbjct  412  QEDSLHIHCLGDNRVLNAFR  431
+
+
+> UniRef90_W2RKL4 Uncharacterized protein n=1 Tax=Cyphellophora 
+europaea CBS 101466 TaxID=1220924 RepID=W2RKL4_9EURO
+Length=538
+
+ Score = 104 bits (261),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 21/80 (26%), Positives = 40/80 (50%), Gaps = 0/80 (0%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRR  62
+              V     WFG++LD  +GL + +   G G +  ++  +PE M V+ A  A+S       
+Sbjct  354  EPVSPGPDWFGTYLDSVSGLAIVVSRGGAGEVSIKYHRAPEKMRVLEAYRAQSDGMVAVL  413
+
+Query  63   DGETIELVRASENLRLSMKR  82
+            +G++++L    +N  +  +R
+Sbjct  414  NGDSLQLHVRQDNRTIHAQR  433
+
+
+> UniRef90_A0A0D2YGI8 Uncharacterized protein n=15 Tax=Fusarium 
+TaxID=5506 RepID=A0A0D2YGI8_FUSO4
+Length=536
+
+ Score = 104 bits (260),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 21/81 (26%), Positives = 39/81 (48%), Gaps = 0/81 (0%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+             + V+A  AW G +LDD T L +++++   G++   +    E +++       S      
+Sbjct  351  PTLVDASPAWPGIYLDDGTQLAVTIKNGKKGQIVVNYANYAEPVNLTDPERGESRAMVAV  410
+
+Query  62   RDGETIELVRASENLRLSMKR  82
+             DG+ + + R  EN  L+ KR
+Sbjct  411  VDGDNLRIHRLKENRTLNAKR  431
+
+
+> UniRef90_A0A1F5LKB6 Uncharacterized protein n=1 Tax=Penicillium 
+arizonense TaxID=1835702 RepID=A0A1F5LKB6_9EURO
+Length=540
+
+ Score = 104 bits (260),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 22/83 (27%), Positives = 44/83 (53%), Gaps = 1/83 (1%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGH-GRMKARFGTSPEMMDVVSANEARSAVTT  59
+            EV+ ++  + WFG++LD +T L + +  A   G +   +  SPE + + S    +S    
+Sbjct  349  EVTSIQPANEWFGAFLDMDTQLSIVVTKAEKQGEVAISYAGSPEPIRLNSPVSGKSNSMI  408
+
+Query  60   IRRDGETIELVRASENLRLSMKR  82
+               DG+++ + R  +N +L+ +R
+Sbjct  409  ATIDGDSLIIHRLGDNRKLAARR  431
+
+
+> UniRef90_A0A0U1M9J4 Uncharacterized protein n=1 Tax=Talaromyces 
+islandicus TaxID=28573 RepID=A0A0U1M9J4_TALIS
+Length=536
+
+ Score = 103 bits (257),  Expect = 7e-24, Method: Composition-based stats.
+ Identities = 20/83 (24%), Positives = 40/83 (48%), Gaps = 1/83 (1%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDA-GHGRMKARFGTSPEMMDVVSANEARSAVTT  59
+            E + V+  SAW GS+LD +T L +++      G +   +    E + +  ++   +   +
+Sbjct  349  EYAPVDPSSAWTGSFLDKDTQLSITVSKGSATGELSIAYAGHSETIKLTDSSHGEAQGMS  408
+
+Query  60   IRRDGETIELVRASENLRLSMKR  82
+               DG+ + + R  EN +L  +R
+Sbjct  409  ANIDGDVLRIHRVIENRKLEARR  431
+
+
+> UniRef90_Q8YD27 D-aminopeptidase n=35 Tax=Brucellaceae TaxID=118882 
+RepID=DAP_BRUME
+Length=518
+
+ Score = 103 bits (257),  Expect = 8e-24, Method: Composition-based stats.
+ Identities = 52/82 (63%), Positives = 63/82 (77%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            +  R +A+  WFGSWL+ ETGLVLSLEDAG GRMKARFGT PE MD+   NEA+S++TT+
+Sbjct  336  KPVRAQANPGWFGSWLNPETGLVLSLEDAGGGRMKARFGTGPEKMDISGENEAQSSMTTL  395
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+            RRDG+ I L R  ENL L+M R
+Sbjct  396  RRDGDMIHLARKDENLHLAMHR  417
+
+
+> UniRef90_W6Q4V6 D-aminopeptidase n=1 Tax=Penicillium roqueforti 
+(strain FM164) TaxID=1365484 RepID=W6Q4V6_PENRF
+Length=537
+
+ Score = 102 bits (256),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 21/81 (26%), Positives = 39/81 (48%), Gaps = 1/81 (1%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDAGH-GRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+            S V+  + W G++LD +T L + +      G +  R+  S E + + + N  +S      
+Sbjct  351  STVQPAADWVGAFLDQDTQLSIVITKGARDGEVAIRYDGSAEPIKLSAPNHGKSDSMVAT  410
+
+Query  62   RDGETIELVRASENLRLSMKR  82
+             DG+ + + R  +N  LS +R
+Sbjct  411  IDGDFLSIHRVVDNRILSARR  431
+
+
+> UniRef90_A0A150V8B8 Uncharacterized protein n=1 Tax=Acidomyces 
+richmondensis BFW TaxID=766039 RepID=A0A150V8B8_9PEZI
+Length=544
+
+ Score = 102 bits (256),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 25/83 (30%), Positives = 36/83 (43%), Gaps = 1/83 (1%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGH-GRMKARFGTSPEMMDVVSANEARSAVTT  59
+            E    E    WFG +LD ET L +++E     G +  R+    E + + S   A     T
+Sbjct  352  EYPVYEPARNWFGDFLDAETQLYITVEKGKESGTLSIRYARDAEFVRLTSDTRAECRTMT  411
+
+Query  60   IRRDGETIELVRASENLRLSMKR  82
+               DG+ + + R SEN  L   R
+Sbjct  412  AEIDGDVLHITRISENRILRATR  434
+
+
+> UniRef90_I1RTM7 Uncharacterized protein n=3 Tax=Fusarium sambucinum 
+species complex TaxID=569360 RepID=I1RTM7_GIBZE
+Length=536
+
+ Score = 100 bits (251),  Expect = 6e-23, Method: Composition-based stats.
+ Identities = 18/81 (22%), Positives = 36/81 (44%), Gaps = 0/81 (0%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+             + V+A   W G +LD+ T LV+++     G++   +    E + +       S      
+Sbjct  351  PALVDASPTWPGVYLDEGTQLVITVTLGQKGQVLVTYANYVEPVKLTDPERGESKGMAAV  410
+
+Query  62   RDGETIELVRASENLRLSMKR  82
+             +G+ + + R  EN  ++ KR
+Sbjct  411  INGDILRIQRLKENRAITAKR  431
+
+
+> UniRef90_R1EYS7 Putative beta-lactamase family protein n=1 Tax=Botryosphaeria 
+parva (strain UCR-NP2) TaxID=1287680 RepID=R1EYS7_BOTPV
+Length=485
+
+ Score = 100 bits (249),  Expect = 7e-23, Method: Composition-based stats.
+ Identities = 22/82 (27%), Positives = 41/82 (50%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            E   V     WFG +LD E+ + +++     G++   +   PE + +V   EARS     
+Sbjct  299  EPQAVSPAQEWFGVFLDRESRMAVTVSPGSSGKLLIAYPRHPESVALVGPKEARSRDLAA  358
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+              DG+++ + R  +NL++  +R
+Sbjct  359  TIDGDSLRIDRIEDNLKIDAQR  380
+
+
+> UniRef90_A0A194X7N3 Beta-lactamase-type transpeptidase n=1 Tax=Phialocephala 
+scopiformis TaxID=149040 RepID=A0A194X7N3_9HELO
+Length=546
+
+ Score = 100 bits (250),  Expect = 7e-23, Method: Composition-based stats.
+ Identities = 17/82 (21%), Positives = 37/82 (45%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            +   V++   W G++LD ET L ++++    G +  ++    E M V+    A+S     
+Sbjct  352  KQEIVQSSQNWIGTYLDPETQLAITVKADVAGELLVKYHRKAEKMRVIEPFRAQSDDMVA  411
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+              +G  + +    +N  +  +R
+Sbjct  412  TLEGSLLHMHVPKDNRNIHAQR  433
+
+
+> UniRef90_Q9ZBA9 D-aminopeptidase n=3 Tax=Ochrobactrum TaxID=528 
+RepID=DAP_OCHAN
+Length=520
+
+ Score = 100 bits (249),  Expect = 9e-23, Method: Composition-based stats.
+ Identities = 82/82 (100%), Positives = 82/82 (100%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI
+Sbjct  336  EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  395
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+            RRDGETIELVRASENLRLSMKR
+Sbjct  396  RRDGETIELVRASENLRLSMKR  417
+
+
+> UniRef90_A6WYS5 D-aminopeptidase n=13 Tax=Ochrobactrum TaxID=528 
+RepID=DAP_OCHA4
+Length=520
+
+ Score = 100 bits (249),  Expect = 9e-23, Method: Composition-based stats.
+ Identities = 61/82 (74%), Positives = 67/82 (82%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            E  RV AD+ WFGSWLD ETGLVLSLEDAG GRMKARFGT PEMMDVV  NEARS++T I
+Sbjct  336  EQVRVAADAVWFGSWLDHETGLVLSLEDAGRGRMKARFGTGPEMMDVVGENEARSSMTAI  395
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+            RRDG+TI L R  ENL L+M+R
+Sbjct  396  RRDGDTIHLAREDENLSLTMQR  417
+
+
+> UniRef90_UPI000463BAF2 D-aminopeptidase n=1 Tax=Ochrobactrum 
+rhizosphaerae TaxID=571254 RepID=UPI000463BAF2
+Length=520
+
+ Score = 99.8 bits (248),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 62/82 (76%), Positives = 69/82 (84%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            E  R EAD+AWFGSWL  +TGLVLSLEDAG GR+KARFGT PEMMDV SANEARS++TTI
+Sbjct  336  EPQRAEADTAWFGSWLCQDTGLVLSLEDAGCGRLKARFGTGPEMMDVESANEARSSMTTI  395
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+            RRDG+ IEL+R  ENLRL M R
+Sbjct  396  RRDGDVIELLRDDENLRLMMNR  417
+
+
+> UniRef90_A0A0D1YL57 Uncharacterized protein n=1 Tax=Exophiala 
+spinifera TaxID=91928 RepID=A0A0D1YL57_9EURO
+Length=540
+
+ Score = 99.8 bits (248),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 24/81 (30%), Positives = 40/81 (49%), Gaps = 1/81 (1%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDA-GHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+              V A   W G++LD +TGL + +  A   G++   +   PE + V+ A +ARS      
+Sbjct  355  EIVSAGPDWPGTYLDPDTGLAIVVSKASAPGQLSFTYHLKPEKVRVIEAYKARSDGIVAN  414
+
+Query  62   RDGETIELVRASENLRLSMKR  82
+             DG+++ +    +N  L  KR
+Sbjct  415  LDGDSLHVHLPHDNRTLHAKR  435
+
+
+> UniRef90_M3ASF3 Beta-lactamase/transpeptidase-like protein n=1 
+Tax=Sphaerulina musiva (strain SO2202) TaxID=692275 RepID=M3ASF3_SPHMS
+Length=537
+
+ Score = 99.4 bits (247),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 20/82 (24%), Positives = 39/82 (48%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            E +       W G++LD ET L++ +E+   G++   +  + E + + SA  A S     
+Sbjct  349  EKALSTPAPEWQGNFLDTETQLLVHVENIEDGQVSITYHMATEKVPLTSAIHAESKSIIA  408
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+               G+ + + R  E+  L+ +R
+Sbjct  409  NIAGDELHVERQREHRTLNARR  430
+
+
+> UniRef90_S8BCP1 Uncharacterized protein n=1 Tax=Penicillium oxalicum 
+(strain 114-2 / CGMCC 5302) TaxID=933388 RepID=S8BCP1_PENO1
+Length=537
+
+ Score = 97.1 bits (241),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 24/85 (28%), Positives = 46/85 (54%), Gaps = 3/85 (4%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAG-HGRMKARFGTSPE--MMDVVSANEARSAV  57
+            E + VE   AW+G++LD+ T L +++  +   G +   +G+  E   + +  A   +S  
+Sbjct  347  ESTPVEPAPAWYGAYLDEATQLAVTVAKSRRPGEVLITYGSHLESAPLKMTDATSGKSRS  406
+
+Query  58   TTIRRDGETIELVRASENLRLSMKR  82
+             T    G+T+++ R SEN +L+ +R
+Sbjct  407  MTGSISGDTLQIHRISENRKLNARR  431
+
+
+> UniRef90_B6H6G7 Pc15g00200 protein n=2 Tax=Penicillium chrysogenum 
+complex TaxID=254878 RepID=B6H6G7_PENRW
+Length=538
+
+ Score = 96.7 bits (240),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 18/81 (22%), Positives = 37/81 (46%), Gaps = 1/81 (1%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDAGH-GRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+            + ++A  +W G++LD +T L + +      G +   +  S E + +   N  +S      
+Sbjct  352  ASIQAAESWVGAFLDQDTQLSIVITKGARDGEVAISYDGSAEPIKLSVPNHGKSDSMVAT  411
+
+Query  62   RDGETIELVRASENLRLSMKR  82
+             D + + + R  +N  LS +R
+Sbjct  412  IDEDLLSIHRVRDNRMLSARR  432
+
+
+> UniRef90_A0A0T6YDY2 D-aminopeptidase n=5 Tax=Sinorhizobium/Ensifer 
+group TaxID=227292 RepID=A0A0T6YDY2_9RHIZ
+Length=520
+
+ Score = 96.7 bits (240),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 29/82 (35%), Positives = 41/82 (50%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            E +    D+   GS+LD ETGL L    AG  R+   F T  E + V     A+SA  T+
+Sbjct  337  EPATGTWDADGTGSYLDPETGLALVTRPAGKSRVALNFATGAETLAVGPDGSAQSAAVTL  396
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+            R +G ++ + R  ENL +   R
+Sbjct  397  RVEGASLHMERPRENLTVHAAR  418
+
+
+> UniRef90_A0A0L1IY49 Putative penicillin-binding protein n=2 Tax=Aspergillus 
+TaxID=5052 RepID=A0A0L1IY49_ASPNO
+Length=552
+
+ Score = 96.7 bits (240),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 22/78 (28%), Positives = 40/78 (51%), Gaps = 0/78 (0%)
+
+Query  5    VEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDG  64
+            V     WFG++   + GLV+ +     G +   +G S E +  V   +A+S+ TT   +G
+Sbjct  371  VNPSPDWFGTFYHPDAGLVVEVGHGRQGHLTVTYGGSGEALACVEEGKAQSSNTTATING  430
+
+Query  65   ETIELVRASENLRLSMKR  82
+            +T+ L R ++N  +  +R
+Sbjct  431  DTLTLHRLADNHVIHAER  448
+
+
+> UniRef90_K9GFZ9 Beta-lactamase family protein n=7 Tax=Penicillium 
+TaxID=5073 RepID=K9GFZ9_PEND1
+Length=538
+
+ Score = 96.4 bits (239),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 20/81 (25%), Positives = 40/81 (49%), Gaps = 1/81 (1%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDAG-HGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+            + V+A + W G++LD +T L + +      G +   +  S + + + + N  RS      
+Sbjct  352  ASVQATADWVGAFLDQDTQLSIVITKGAQDGEVAITYDGSADTIKLSTPNHGRSNSAVAT  411
+
+Query  62   RDGETIELVRASENLRLSMKR  82
+             DG+++ + R  +N  LS +R
+Sbjct  412  VDGDSLSIHRVGDNRILSARR  432
+
+
+> UniRef90_C7ZD61 Putative uncharacterized protein n=1 Tax=Nectria 
+haematococca (strain 77-13-4 / ATCC MYA-4622 / FGSC 9596 
+/ MPVI) TaxID=660122 RepID=C7ZD61_NECH7
+Length=534
+
+ Score = 96.4 bits (239),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 16/78 (21%), Positives = 34/78 (44%), Gaps = 0/78 (0%)
+
+Query  5    VEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDG  64
+            V     WFG+++DD T L +++  +  G++   +    E + +   +   S   T     
+Sbjct  353  VAPTPDWFGTFIDDRTFLAITVSPSVKGKVSIYYAGYAESITLTEPSRGVSRDMTATLTL  412
+
+Query  65   ETIELVRASENLRLSMKR  82
+            +T+ + R  ++  L   R
+Sbjct  413  DTLHIERLKDHRTLRAVR  430
+
+
+> UniRef90_A0A074VWP4 Beta-lactamase/transpeptidase-like protein 
+n=1 Tax=Aureobasidium melanogenum CBS 110374 TaxID=1043003 
+RepID=A0A074VWP4_9PEZI
+Length=484
+
+ Score = 95.2 bits (236),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 24/87 (28%), Positives = 43/87 (49%), Gaps = 5/87 (6%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDA---GHGRMKARFG--TSPEMMDVVSANEARS  55
+            E   +   +AW G + D+ET L +++E+      G +   +G  T+ E+  +VS  EA+S
+Sbjct  287  EPQTINVPAAWKGHFFDEETQLYVAVEEGNREKPGTISVSYGPGTAGEIARLVSETEAKS  346
+
+Query  56   AVTTIRRDGETIELVRASENLRLSMKR  82
+                +  DG+ + + R  +N  L   R
+Sbjct  347  DGMKLTLDGDVLHVERNDDNRILKAVR  373
+
+
+> UniRef90_G7XTI3 Peptidase n=2 Tax=Aspergillus TaxID=5052 RepID=G7XTI3_ASPKW
+Length=746
+
+ Score = 96.0 bits (238),  Expect = 7e-21, Method: Composition-based stats.
+ Identities = 17/79 (22%), Positives = 31/79 (39%), Gaps = 0/79 (0%)
+
+Query  4    RVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRD  63
+                   W G + D +  LV+ +   G G +   +    E + +    EA+S + T    
+Sbjct  561  PSMPAPNWAGIYFDPDAQLVVEVRLGGPGEVIVTYTGDDETLKLTEEFEAQSDLATATLC  620
+
+Query  64   GETIELVRASENLRLSMKR  82
+             + + + R  EN  +  KR
+Sbjct  621  SDILIIHRKYENRNIQAKR  639
+
+
+> UniRef90_A0A074X0V4 Beta-lactamase/transpeptidase-like protein 
+n=1 Tax=Aureobasidium namibiae CBS 147.97 TaxID=1043004 RepID=A0A074X0V4_9PEZI
+Length=549
+
+ Score = 94.8 bits (235),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 23/87 (26%), Positives = 42/87 (48%), Gaps = 5/87 (6%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDA---GHGRMKARFG--TSPEMMDVVSANEARS  55
+            E   +   +AW G +LD+ET L + +E+      G +   +G  T  E+  + S  EA++
+Sbjct  352  EPQTIAFPAAWKGHYLDEETQLYVGIEEGDREKPGTISVSYGPGTGGEVARLTSETEAKA  411
+
+Query  56   AVTTIRRDGETIELVRASENLRLSMKR  82
+                ++ +G+ + + R  EN  L   R
+Sbjct  412  DGMKLKLEGDVLHVERIDENRSLRAVR  438
+
+
+> UniRef90_B8NWC0 Penicillin-binding protein, putative n=6 Tax=Aspergillus 
+TaxID=5052 RepID=B8NWC0_ASPFN
+Length=494
+
+ Score = 93.7 bits (232),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 24/82 (29%), Positives = 36/82 (44%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            +   V     WFG++ D +  LV+ +   G G +   +  S E +     NEA S  T  
+Sbjct  309  QSDPVNPSPDWFGTFYDPDAQLVVEIRHGGQGHVIVSYAGSDETLICAGENEAGSNNTVG  368
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+              DG   +L R  +N  L +KR
+Sbjct  369  IIDGGIPKLRRLVDNRVLDVKR  390
+
+
+> UniRef90_A0A0D2DIB0 Uncharacterized protein n=1 Tax=Exophiala 
+xenobiotica TaxID=348802 RepID=A0A0D2DIB0_9EURO
+Length=553
+
+ Score = 93.7 bits (232),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 20/83 (24%), Positives = 37/83 (45%), Gaps = 3/83 (4%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAG-HGRMKARFGTSPEMMDVVSANEARSAVTT  59
+            E   V+    WFGS+ DDE  + L++      G ++  +  +PE + +  A  A S    
+Sbjct  359  ETQVVQPGEEWFGSYFDDEAQMFLTVAKGKKPGEIQISYVRAPETVKLTDATHAESPSLK  418
+
+Query  60   IRRDGET--IELVRASENLRLSM  80
+            +  +G+   I + R  +N  +  
+Sbjct  419  VSLEGDGQIIVIQRIEDNRTVRA  441
+
+
+> UniRef90_UPI00039BC93C D-aminopeptidase n=1 Tax=Pseudochrobactrum 
+sp. AO18b TaxID=1201036 RepID=UPI00039BC93C
+Length=519
+
+ Score = 93.7 bits (232),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 32/82 (39%), Positives = 48/82 (59%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            +   +  D+ W+G++ D  T L LSL  A  G++ ARFGTSPEMMD+ +    +S+   +
+Sbjct  337  KTEVLPVDAGWYGNYFDPSTKLSLSLTPAVGGQVHARFGTSPEMMDMQADGSLQSSGMVL  396
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+            +R G+ I L R  ENL   + R
+Sbjct  397  QRKGDEIALRRDGENLSAKLHR  418
+
+
+> UniRef90_A0A136IZQ8 Glycine d-alanine aminopeptidase n=1 Tax=Microdochium 
+bolleyi TaxID=196109 RepID=A0A136IZQ8_9PEZI
+Length=547
+
+ Score = 93.7 bits (232),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 23/79 (29%), Positives = 39/79 (49%), Gaps = 2/79 (3%)
+
+Query  6    EADSAWFGSWLDDETGLVLSLEDA--GHGRMKARFGTSPEMMDVVSANEARSAVTTIRRD  63
+                AW G +LD+ET L +++E    G G++K  +  + E + + S+  A S       D
+Sbjct  358  PPHPAWAGEFLDEETKLRINVELGETGKGKVKITYLCATETVPLKSSTTAESPGARAEID  417
+
+Query  64   GETIELVRASENLRLSMKR  82
+            G+ + L R  +N  L  +R
+Sbjct  418  GDVLRLHRIVDNRVLVGRR  436
+
+
+> UniRef90_UPI00056BBABB D-aminopeptidase n=1 Tax=Rhizobium sp. 
+OK665 TaxID=1500305 RepID=UPI00056BBABB
+Length=519
+
+ Score = 93.3 bits (231),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 26/82 (32%), Positives = 40/82 (49%), Gaps = 1/82 (1%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            E  RV     W G +L+  TGL+L ++     R+   FG  PE + +     ARS    +
+Sbjct  337  EPPRVRPHPGWSGDYLEPTTGLLLRVKVRKD-RLDTNFGGRPEKLMLGPDGIARSPPMIL  395
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+             R G+T+ L R  +NLR +  +
+Sbjct  396  ERVGDTLRLERPGDNLRSTATK  417
+
+
+> UniRef90_UPI00048DD968 D-aminopeptidase n=1 Tax=Rhizobium selenitireducens 
+TaxID=448181 RepID=UPI00048DD968
+Length=517
+
+ Score = 92.9 bits (230),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 25/77 (32%), Positives = 41/77 (53%), Gaps = 1/77 (1%)
+
+Query  6    EADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGE  65
+            EA   W G +LD ETGL++++  +  G +  RF  + + + +     ARS    + RDG+
+Sbjct  340  EAGPDWAGRYLDPETGLLVTVAKSHRG-ISLRFAGASDALTLSDDGIARSDAVELSRDGD  398
+
+Query  66   TIELVRASENLRLSMKR  82
+             + + R  ENL +S  R
+Sbjct  399  VVRMQRPRENLDISATR  415
+
+
+> UniRef90_M2ZAM4 Uncharacterized protein n=1 Tax=Pseudocercospora 
+fijiensis (strain CIRAD86) TaxID=383855 RepID=M2ZAM4_PSEFD
+Length=533
+
+ Score = 92.9 bits (230),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 17/77 (22%), Positives = 31/77 (40%), Gaps = 0/77 (0%)
+
+Query  6    EADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGE  65
+                 W GS+LD+ T L++ +E      +   +    E   +   + A S       +G+
+Sbjct  347  APSPEWNGSFLDEATQLLIKVESENDKEVVIAYAGHEEKPQLTGPSTAESKTMLASINGD  406
+
+Query  66   TIELVRASENLRLSMKR  82
+            T+ + R  E+  L   R
+Sbjct  407  TLNIERKREHRMLKAAR  423
+
+
+> UniRef90_A0A072PQA2 Uncharacterized protein n=1 Tax=Exophiala 
+aquamarina CBS 119918 TaxID=1182545 RepID=A0A072PQA2_9EURO
+Length=539
+
+ Score = 92.5 bits (229),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 21/83 (25%), Positives = 40/83 (48%), Gaps = 1/83 (1%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAG-HGRMKARFGTSPEMMDVVSANEARSAVTT  59
+            E   V+A   WFGS+ D+   + L++ +    G +   +  SPE + +  A  A+S    
+Sbjct  351  ETPVVQAGKEWFGSYFDEVAQMFLTVAEGKKPGEVVLSYVRSPEKVKLTDATHAKSTSLN  410
+
+Query  60   IRRDGETIELVRASENLRLSMKR  82
+            +  +G+ I + R  +N  +  K+
+Sbjct  411  VSLEGDVIVVERMEDNRIVRAKK  433
+
+
+> UniRef90_A0A139HGP4 Uncharacterized protein n=1 Tax=Mycosphaerella 
+eumusae TaxID=321146 RepID=A0A139HGP4_9PEZI
+Length=532
+
+ Score = 92.5 bits (229),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 16/77 (21%), Positives = 30/77 (39%), Gaps = 0/77 (0%)
+
+Query  6    EADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGE  65
+                 W G +LDD   L++ ++      +   +    E   +  +N A S     R  G+
+Sbjct  347  APSPEWKGCFLDDAAQLLIQVKSENDKEVAITYAGDEEKSKLTGSNTAESKTMLARIAGD  406
+
+Query  66   TIELVRASENLRLSMKR  82
+            T+ + R  ++  L   R
+Sbjct  407  TLHIERKRDHRTLKATR  423
+
+
+> UniRef90_A2QT63 Aspergillus niger contig An09c0040, genomic contig 
+n=3 Tax=Aspergillus niger TaxID=5061 RepID=A2QT63_ASPNC
+Length=597
+
+ Score = 92.5 bits (229),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 19/76 (25%), Positives = 33/76 (43%), Gaps = 0/76 (0%)
+
+Query  7    ADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGET  66
+              + W G + D +  LV+ +   G G +   +    E + +    EARS + T     +T
+Sbjct  415  PVANWVGFYFDPDAQLVVEVRLGGPGEVILTYTGDEETLKLTERCEARSDLATATLCSDT  474
+
+Query  67   IELVRASENLRLSMKR  82
+            + L R  +N  +  KR
+Sbjct  475  LLLHRKYDNRHIQAKR  490
+
+
+> UniRef90_UPI00055363FC D-aminopeptidase n=1 Tax=Chelativorans 
+sp. J32 TaxID=935840 RepID=UPI00055363FC
+Length=516
+
+ Score = 92.1 bits (228),  Expect = 8e-20, Method: Composition-based stats.
+ Identities = 29/80 (36%), Positives = 40/80 (50%), Gaps = 1/80 (1%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRR  62
+                 D  W GS+LD   GL+L +  +G G M+AR+ TSPE +         S   T+ R
+Sbjct  336  QAYPVDPDWNGSYLDQSNGLLLEIHISGEG-MEARYATSPERLFPGPGGTLVSPSMTLAR  394
+
+Query  63   DGETIELVRASENLRLSMKR  82
+             G+T+ L R  ENL  +  R
+Sbjct  395  AGDTVRLERPRENLVATANR  414
+
+
+> UniRef90_A0A0F7TNQ5 Uncharacterized protein n=1 Tax=Penicillium 
+brasilianum TaxID=104259 RepID=A0A0F7TNQ5_9EURO
+Length=538
+
+ Score = 91.7 bits (227),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 20/85 (24%), Positives = 39/85 (46%), Gaps = 3/85 (4%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGH-GRMKARFGTSPE--MMDVVSANEARSAV  57
+            E + VE    W+G +LD  T L +++  +   G +   +    E   + +  AN  ++  
+Sbjct  348  ENAPVEPAVEWYGVFLDKATQLAITVAKSSKSGEVLITYSAHLEAAPLKLTDANTGKART  407
+
+Query  58   TTIRRDGETIELVRASENLRLSMKR  82
+             T    G+ + + R S+N +L  +R
+Sbjct  408  MTGSIVGDVLRIHRVSDNRKLEARR  432
+
+
+> UniRef90_A0A0D1Y2N6 Uncharacterized protein n=1 Tax=Exophiala 
+sideris TaxID=1016849 RepID=A0A0D1Y2N6_9EURO
+Length=539
+
+ Score = 91.7 bits (227),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 20/83 (24%), Positives = 40/83 (48%), Gaps = 1/83 (1%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAG-HGRMKARFGTSPEMMDVVSANEARSAVTT  59
+            E   V+    WFGS+ D+   +VL++E++   G++   +   PE + +  A  A+S    
+Sbjct  351  ETPVVQPGKEWFGSYFDEVAQMVLTVEESKKPGQIMICYVRGPETVKLTDATHAKSPSLN  410
+
+Query  60   IRRDGETIELVRASENLRLSMKR  82
+            +  +G  I + R  +N  +   +
+Sbjct  411  VSLEGNIIVVERIEDNRTVRATK  433
+
+
+> UniRef90_K2RWC0 Beta-lactamase-related protein n=1 Tax=Macrophomina 
+phaseolina (strain MS6) TaxID=1126212 RepID=K2RWC0_MACPH
+Length=550
+
+ Score = 89.8 bits (222),  Expect = 6e-19, Method: Composition-based stats.
+ Identities = 18/80 (23%), Positives = 40/80 (50%), Gaps = 0/80 (0%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRR  62
+              +E    WFG +LD+ + L ++++ AG  ++   +    E + +V A  ARS     + 
+Sbjct  366  ETIEPAQEWFGVFLDEASQLAVTVKPAGKAKVSISYTGDSEAVPLVDATNARSRRMVAQV  425
+
+Query  63   DGETIELVRASENLRLSMKR  82
+            + + + +    +NL++  +R
+Sbjct  426  ERDVLRVHCLDDNLKIQARR  445
+
+
+> UniRef90_A0A167KSZ4 Beta-lactamase-type transpeptidase fold domain 
+containing protein n=1 Tax=Isaria fumosorosea ARSEF 2679 
+TaxID=1081104 RepID=A0A167KSZ4_9HYPO
+Length=539
+
+ Score = 89.4 bits (221),  Expect = 7e-19, Method: Composition-based stats.
+ Identities = 21/81 (26%), Positives = 41/81 (51%), Gaps = 1/81 (1%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDA-GHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+            S VE + A+ G++LD E+ L +++      G++   +  +   +  V AN+A S+  T  
+Sbjct  354  SAVEPNPAFIGTYLDPESDLAVTIGKGEAEGKLSFFYHRAAVDITPVEANKAVSSDVTAF  413
+
+Query  62   RDGETIELVRASENLRLSMKR  82
+             DG+ +E+    +N +    R
+Sbjct  414  LDGDVLEITLPKDNRKFRATR  434
+
+
+> UniRef90_A0A1A9GFF8 Aminopeptidase n=1 Tax=Shinella sp. HZN7 
+TaxID=879274 RepID=A0A1A9GFF8_9RHIZ
+Length=520
+
+ Score = 89.4 bits (221),  Expect = 8e-19, Method: Composition-based stats.
+ Identities = 29/83 (35%), Positives = 44/83 (53%), Gaps = 2/83 (2%)
+
+Query  1    EVSRV-EADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTT  59
+            E +    AD AW G +LD   GL+L ++  G   + A + T+ E + + S N A ++  T
+Sbjct  337  EPAAANHADPAWNGDYLDRTNGLLLRVKADGA-MLDAHYATASERLRLTSENTAEASSMT  395
+
+Query  60   IRRDGETIELVRASENLRLSMKR  82
+            + RDG+ I L R  ENL  +  R
+Sbjct  396  LARDGDAIRLSRPGENLSANAVR  418
+
+
+> UniRef90_UPI0002E8A4C9 hypothetical protein n=1 Tax=Pseudaminobacter 
+salicylatoxidans TaxID=93369 RepID=UPI0002E8A4C9
+Length=532
+
+ Score = 88.3 bits (218),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 26/82 (32%), Positives = 41/82 (50%), Gaps = 1/82 (1%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            + +     S W G +++  TGLVL++  A    + A F  SPE + +     ARS  T +
+Sbjct  337  KPAGARPGSGWEGRYIEPSTGLVLTVT-AQEDHLTASFAGSPERLALGQDGIARSVATIL  395
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+             RDG+ + + R  ENL+    R
+Sbjct  396  ERDGDAMRIERPGENLKSVAIR  417
+
+
+> UniRef90_A0A162KMF3 Beta-lactamase-type transpeptidase fold domain 
+containing protein n=2 Tax=Cordyceps confragosa TaxID=1105325 
+RepID=A0A162KMF3_CORDF
+Length=539
+
+ Score = 88.3 bits (218),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 19/80 (24%), Positives = 38/80 (48%), Gaps = 1/80 (1%)
+
+Query  4    RVEADSAWFGSWLDDETGLVLSLEDAGH-GRMKARFGTSPEMMDVVSANEARSAVTTIRR  62
+             VE + A+ G++LD E+ L +++      G++   +  +   +  V AN+A S   T   
+Sbjct  355  AVEPNPAFIGTYLDPESDLAVTISKGEEEGKLSFSYHRAAVDITPVEANKAVSNDVTAVL  414
+
+Query  63   DGETIELVRASENLRLSMKR  82
+            D + +E+    +N +    R
+Sbjct  415  DRDVLEITLPKDNRKFRANR  434
+
+
+> UniRef90_A0A074WZD5 Beta-lactamase/transpeptidase-like protein 
+n=1 Tax=Aureobasidium pullulans EXF-150 TaxID=1043002 RepID=A0A074WZD5_AURPU
+Length=548
+
+ Score = 87.5 bits (216),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 21/87 (24%), Positives = 39/87 (45%), Gaps = 5/87 (6%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDA---GHGRMKARFG--TSPEMMDVVSANEARS  55
+            E   +   +AW G++LDDET L + +E+      G +   +G   + E   + S  +A+S
+Sbjct  351  EPQTIGMPAAWKGNFLDDETQLYVGVEEGDREKPGTIAVNYGPGNAGETARLTSETQAKS  410
+
+Query  56   AVTTIRRDGETIELVRASENLRLSMKR  82
+                +  +   + + R  +N  L   R
+Sbjct  411  DSMQLTLEDNVLHVKRIDDNRTLRAVR  437
+
+
+> UniRef90_A0A0L8C2G9 D-aminopeptidase n=3 Tax=Ensifer TaxID=106591 
+RepID=A0A0L8C2G9_ENSAD
+Length=520
+
+ Score = 87.1 bits (215),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 25/71 (35%), Positives = 42/71 (59%), Gaps = 0/71 (0%)
+
+Query  12   FGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETIELVR  71
+            FG++L+ ETGL LS    G GR++ RF T+ E + + +   ARS   ++  +G  +++ R
+Sbjct  348  FGTYLEPETGLALSTRPLGPGRIELRFATAGEPLQIAADGIARSGAVSLTANGTGLQMER  407
+
+Query  72   ASENLRLSMKR  82
+              ENL  + +R
+Sbjct  408  ERENLATTAER  418
+
+
+> UniRef90_UPI0009214132 UPI0009214132 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009214132
+Length=523
+
+ Score = 86.7 bits (214),  Expect = 7e-18, Method: Composition-based stats.
+ Identities = 20/75 (27%), Positives = 39/75 (52%), Gaps = 0/75 (0%)
+
+Query  7    ADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGET  66
+                W G++++ ETGL   ++ A  G+++ RFG S E +D+ +   A +  T +R   + 
+Sbjct  343  PVPGWLGAYMEPETGLSARIDMASEGQVRLRFGHSAERLDLQADGTAGAGRTRLRPGPDG  402
+
+Query  67   IELVRASENLRLSMK  81
+            + + R  EN    ++
+Sbjct  403  LWMDRPQENQSSLLR  417
+
+
+> UniRef90_A0A0Q7R887 D-aminopeptidase n=4 Tax=Ensifer TaxID=106591 
+RepID=A0A0Q7R887_9RHIZ
+Length=520
+
+ Score = 86.0 bits (212),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 25/82 (30%), Positives = 46/82 (56%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            + +  + +S  FG++L+ ETGL LS    G G ++ RF T+ E + + +   ARS   ++
+Sbjct  337  KAAAGDWNSEQFGTYLEPETGLALSTRPLGSGWLELRFATAGESLQIAADAIARSGSVSL  396
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+              +G  + + R  ENL+ + +R
+Sbjct  397  TPNGTGLHMERERENLQTTAER  418
+
+
+> UniRef90_A0A0Q9E5Z0 D-aminopeptidase n=6 Tax=Sinorhizobium/Ensifer 
+group TaxID=227292 RepID=A0A0Q9E5Z0_9RHIZ
+Length=520
+
+ Score = 86.0 bits (212),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 29/82 (35%), Positives = 44/82 (54%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            E +    D+   G++LD ETGL L    +G  R++ +F TSPE + V +   A SA  T+
+Sbjct  337  ETTSGSWDAKGTGNYLDAETGLALVTRPSGSSRVELQFATSPESLSVSADGSAGSAAVTL  396
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+               G ++ + R  ENL +S  R
+Sbjct  397  TAQGASLRMERPRENLTVSADR  418
+
+
+> UniRef90_A0A1C0S9G0 D-aminopeptidase n=1 Tax=Ensifer sp. LC14 
+TaxID=1873714 RepID=A0A1C0S9G0_9RHIZ
+Length=520
+
+ Score = 85.2 bits (210),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 31/71 (44%), Positives = 41/71 (58%), Gaps = 0/71 (0%)
+
+Query  12   FGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETIELVR  71
+            FGS+LD ETGL L     G  R+   F TSPE + + +   ARS   T+ RDG T+ + R
+Sbjct  348  FGSYLDSETGLALVASPLGSSRLALHFATSPETLAIGADGVARSPAATLARDGATLSMER  407
+
+Query  72   ASENLRLSMKR  82
+              ENL +S +R
+Sbjct  408  TRENLAVSAER  418
+
+
+> UniRef90_G3JAZ4 Beta-lactamase-type transpeptidase fold domain 
+containing protein n=1 Tax=Cordyceps militaris (strain CM01) 
+TaxID=983644 RepID=G3JAZ4_CORMM
+Length=537
+
+ Score = 84.8 bits (209),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 22/82 (27%), Positives = 41/82 (50%), Gaps = 1/82 (1%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLEDA-GHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            VS VE  + + G++LD E+ L +++      G++   +  S   +  V+AN+A S   T 
+Sbjct  351  VSAVEPSAGFLGTYLDPESDLAVTVGKGEAAGKLSFLYHRSAVDLTPVAANKAVSKDVTA  410
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+              DG+ +E+   ++N      R
+Sbjct  411  VLDGDVLEVTIPADNRTFRAHR  432
+
+
+> UniRef90_A0A0D6MQK8 D-aminopeptidase n=1 Tax=Tanticharoenia sakaeratensis 
+NBRC 103193 TaxID=1231623 RepID=A0A0D6MQK8_9PROT
+Length=523
+
+ Score = 84.4 bits (208),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 23/81 (28%), Positives = 39/81 (48%), Gaps = 0/81 (0%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+             S    D+   G +L+ ETGL   +     GR+  R+    EM++V+S   A+S    + 
+Sbjct  338  PSGHAPDTGLPGVYLEMETGLSARVSLTPEGRVGLRYLGGTEMLEVLSDGSAQSETARLA  397
+
+Query  62   RDGETIELVRASENLRLSMKR  82
+              G  + +VR  EN   +++R
+Sbjct  398  PSGSDLSMVRPGENRTTTLRR  418
+
+
+> UniRef90_UPI0006847FF4 aminopeptidase n=1 Tax=Gemmobacter nectariphilus 
+TaxID=220343 RepID=UPI0006847FF4
+Length=518
+
+ Score = 84.0 bits (207),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 25/81 (31%), Positives = 40/81 (49%), Gaps = 1/81 (1%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            + + +  +  W G W+  ETGL   LE      +  RFGTSPE +  ++     SA  T+
+Sbjct  333  DPAPLALEPGWQGRWICPETGLTARLEPGAA-SVVMRFGTSPEELRQLAPGRLGSAHVTL  391
+
+Query  61   RRDGETIELVRASENLRLSMK  81
+             R G+ + + R  ENL   ++
+Sbjct  392  ERQGDRLLMRRPLENLVTMLE  412
+
+
+> UniRef90_UPI000479DBED aminopeptidase n=1 Tax=Inquilinus limosus 
+TaxID=171674 RepID=UPI000479DBED
+Length=518
+
+ Score = 84.0 bits (207),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 23/80 (29%), Positives = 40/80 (50%), Gaps = 1/80 (1%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            + +       W GS+ + ETGLV  ++ AG GR++ R+G S E +D+     A +  T +
+Sbjct  336  KPAAGLPAPDWLGSYTEPETGLVARIDMAG-GRVRLRYGHSAERLDLRPDGGAGNGRTRL  394
+
+Query  61   RRDGETIELVRASENLRLSM  80
+            R   + + + R  EN    +
+Sbjct  395  RPAADGLWMDRPQENQSSRL  414
+
+
+> UniRef90_UPI00048F1205 D-aminopeptidase n=1 Tax=Rhizobium selenitireducens 
+TaxID=448181 RepID=UPI00048F1205
+Length=521
+
+ Score = 84.0 bits (207),  Expect = 6e-17, Method: Composition-based stats.
+ Identities = 24/80 (30%), Positives = 36/80 (45%), Gaps = 1/80 (1%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+                     W G WLD+E GL+L       G +K  +  SP  + V +   AR     + 
+Sbjct  337  PDASVRPEGWDGLWLDEERGLILRTVQDATG-VKLYYSPSPSRLTVGTDGIARGQGLRLE  395
+
+Query  62   RDGETIELVRASENLRLSMK  81
+            RDGE + + R+ ENL +  +
+Sbjct  396  RDGEVLVMHRSQENLLVRAR  415
+
+
+> UniRef90_J4KPQ5 Beta-lactamase-type transpeptidase n=3 Tax=Cordycipitaceae 
+TaxID=474943 RepID=J4KPQ5_BEAB2
+Length=539
+
+ Score = 84.0 bits (207),  Expect = 6e-17, Method: Composition-based stats.
+ Identities = 23/81 (28%), Positives = 39/81 (48%), Gaps = 1/81 (1%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDA-GHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+            S VE  SA+ G++LD E+ L +++      G++   +  S   +  V AN+A S   T  
+Sbjct  354  SGVEPASAFIGTYLDPESDLAVTIGKGEAEGKLAFGYYRSAVDITPVEANKAVSIDVTAL  413
+
+Query  62   RDGETIELVRASENLRLSMKR  82
+             DG+ + +    +N R    R
+Sbjct  414  LDGDVLNITVPKDNRRFRAHR  434
+
+
+> UniRef90_UPI0004287C2D aminopeptidase n=1 Tax=Pseudodonghicola 
+xiamenensis TaxID=337702 RepID=UPI0004287C2D
+Length=537
+
+ Score = 84.0 bits (207),  Expect = 7e-17, Method: Composition-based stats.
+ Identities = 20/74 (27%), Positives = 35/74 (47%), Gaps = 1/74 (1%)
+
+Query  7    ADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGET  66
+                W G WLD+E+ L++   D   G ++  + TSP ++  +    A      + RDG+ 
+Sbjct  341  PAQGWNGLWLDEESSLLIRTVDRPTG-VRLDYATSPSLLRPMPDGSAEGRGLRLYRDGDR  399
+
+Query  67   IELVRASENLRLSM  80
+            + + R  ENL +  
+Sbjct  400  LRMDRPGENLHVEA  413
+
+
+> UniRef90_A0A1G3G563 Aminopeptidase n=1 Tax=Rhodobacterales bacterium 
+RIFCSPHIGHO2_02_FULL_62_130 TaxID=1802014 RepID=A0A1G3G563_9RHOB
+Length=509
+
+ Score = 83.3 bits (205),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 21/80 (26%), Positives = 36/80 (45%), Gaps = 1/80 (1%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+                     W G WLD+  GL++       G +  R+  SP  + V +   AR    T+ 
+Sbjct  335  PDAPVVPVGWDGIWLDEANGLLVRTVQDAGG-VVLRYAPSPSRLTVAADGVARGGGVTLT  393
+
+Query  62   RDGETIELVRASENLRLSMK  81
+            R GE + ++R +EN+ +  +
+Sbjct  394  RTGEGLTMLRPAENMVVRAR  413
+
+
+> UniRef90_A0A074Y4A8 Uncharacterized protein n=1 Tax=Aureobasidium 
+subglaciale EXF-2481 TaxID=1043005 RepID=A0A074Y4A8_9PEZI
+Length=549
+
+ Score = 83.3 bits (205),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 25/87 (29%), Positives = 42/87 (48%), Gaps = 5/87 (6%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDA---GHGRMKARFG--TSPEMMDVVSANEARS  55
+            E   +   +AW G +LD+ET L +++ED      G +   +G   + E   +VS  EA S
+Sbjct  352  EKQIINVSTAWEGKYLDEETQLYIAIEDGDREKPGTISVNYGPGNAGETARLVSELEAES  411
+
+Query  56   AVTTIRRDGETIELVRASENLRLSMKR  82
+                +  +GE + + R S++  L   R
+Sbjct  412  DGMHLTLEGEILHVKRTSDHRVLKAAR  438
+
+
+> UniRef90_UPI0003F83BFD D-aminopeptidase n=1 Tax=Pleomorphomonas 
+koreensis TaxID=257440 RepID=UPI0003F83BFD
+Length=518
+
+ Score = 82.9 bits (204),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 27/77 (35%), Positives = 42/77 (55%), Gaps = 1/77 (1%)
+
+Query  6    EADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGE  65
+             AD AW G++L+  +GL+L +   G+  + ARF    E++ V     ARS   T+ RDG+
+Sbjct  341  PADPAWNGAYLEPSSGLLLDVSTHGNA-VLARFAGGTEVLSVGEDGVARSRGMTLVRDGQ  399
+
+Query  66   TIELVRASENLRLSMKR  82
+             + + R  +NLR    R
+Sbjct  400  DLAIDRPGDNLRGMASR  416
+
+
+> UniRef90_C8S549 Beta-lactamase n=1 Tax=Rhodobacter sp. SW2 TaxID=371731 
+RepID=C8S549_9RHOB
+Length=526
+
+ Score = 82.9 bits (204),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 22/75 (29%), Positives = 36/75 (48%), Gaps = 1/75 (1%)
+
+Query  8    DSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETI  67
+               W G WLD E  L L   D   G ++  +  SP ++   S   A +    +RR+G+ +
+Sbjct  342  GQGWDGLWLDRERALFLRTRDVPAG-VRLDYAASPVVLTPTSETRAEAPGLVLRREGDLL  400
+
+Query  68   ELVRASENLRLSMKR  82
+             + R +ENL +  +R
+Sbjct  401  VMERQTENLTVRAER  415
+
+
+> UniRef90_A0A0A0DB03 Aminopeptidase n=1 Tax=Inquilinus limosus 
+MP06 TaxID=1398085 RepID=A0A0A0DB03_9PROT
+Length=518
+
+ Score = 82.9 bits (204),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 20/80 (25%), Positives = 37/80 (46%), Gaps = 1/80 (1%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            + +       W G++++ ETGL     D   G+++ R+G S E +D+     A +  T +
+Sbjct  336  KPAADLPAPEWLGAYIEPETGLSAR-ADMADGKVRLRYGHSAEKLDLQPDGSAGNGRTRL  394
+
+Query  61   RRDGETIELVRASENLRLSM  80
+            R   + + L R  EN    +
+Sbjct  395  RPAADGLWLDRPQENQSTRL  414
+
+
+> UniRef90_A0A135LBB3 Peptidase S12, aminopeptidase DmpB, domain 
+C n=1 Tax=Penicillium patulum TaxID=5078 RepID=A0A135LBB3_PENPA
+Length=540
+
+ Score = 82.1 bits (202),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 18/82 (22%), Positives = 35/82 (43%), Gaps = 3/82 (4%)
+
+Query  4    RVEADSAWFGSWLDDETGLVLSLEDAG---HGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+              E D  W G +LD +T L +++        G +  ++  S     +  A   +S   + 
+Sbjct  353  PREVDMYWNGVYLDPDTQLSIAVVPTNGAIDGELDIKYDGSATRFKLDEATWGKSDSMSG  412
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+              D  T+ + R ++N  L+ +R
+Sbjct  413  SIDTNTLTINRLADNRTLNARR  434
+
+
+> UniRef90_K7SK12 D-aminopeptidase n=13 Tax=Gluconobacter TaxID=441 
+RepID=K7SK12_GLUOY
+Length=521
+
+ Score = 81.3 bits (200),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 23/82 (28%), Positives = 39/82 (48%), Gaps = 2/82 (2%)
+
+Query  1    EVSRVEADS-AWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTT  59
+            E  R        +G++L+ ETGL   +E    G  + R+   PEM++ VS + A +    
+Sbjct  336  EPDRTTQQPLELYGTYLEQETGLSARIEPTPGG-AQLRYLMVPEMLEGVSPSRAETPNVR  394
+
+Query  60   IRRDGETIELVRASENLRLSMK  81
+            + R G+ + + R  EN    +K
+Sbjct  395  LVRQGDEVRMERPGENRVGILK  416
+
+
+> UniRef90_UPI000486B81A aminopeptidase n=1 Tax=Rhodospirillales 
+bacterium URHD0088 TaxID=1380394 RepID=UPI000486B81A
+Length=520
+
+ Score = 81.3 bits (200),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 19/82 (23%), Positives = 41/82 (50%), Gaps = 1/82 (1%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            +         W G++++ ETGL   ++ A  G+++ R+G + E +D+     A ++  T+
+Sbjct  337  KPDGTLPAPTWLGAYVEPETGLAARIDAASAGQVRLRYGHTAEQLDLQQDGSASASAGTV  396
+
+Query  61   RRDGE-TIELVRASENLRLSMK  81
+               G+  + + R  EN R  ++
+Sbjct  397  LWFGDGGLWMDRPQENQRSKLR  418
+
+
+> UniRef90_G6XMD4 D-aminopeptidase n=2 Tax=Gluconobacter TaxID=441 
+RepID=G6XMD4_9PROT
+Length=541
+
+ Score = 81.0 bits (199),  Expect = 8e-16, Method: Composition-based stats.
+ Identities = 23/77 (30%), Positives = 40/77 (52%), Gaps = 1/77 (1%)
+
+Query  6    EADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGE  65
+            +   A +G++L+ ETGL   +E A  G  + R+   PEM+D +S + A+    T+   G+
+Sbjct  362  QQPDALYGTYLERETGLSARIEPAPDG-ARLRYMMIPEMLDGLSPDRAQGTGVTVTAQGD  420
+
+Query  66   TIELVRASENLRLSMKR  82
+             + + R  EN    + R
+Sbjct  421  EVRMERPGENRTGILTR  437
+
+
+> UniRef90_A0A1B6VKW7 D-aminopeptidase n=2 Tax=Gluconobacter TaxID=441 
+RepID=A0A1B6VKW7_9PROT
+Length=521
+
+ Score = 81.0 bits (199),  Expect = 8e-16, Method: Composition-based stats.
+ Identities = 26/82 (32%), Positives = 41/82 (50%), Gaps = 2/82 (2%)
+
+Query  1    EVSRV-EADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTT  59
+            E  R  +     +G++++ ETGL   +E A  G  K R+   PEM++ VSA+ A +    
+Sbjct  336  EPDRTTQPPHELYGTFIERETGLSARIEPAPGG-AKLRYLMVPEMLEGVSASRAETPGVQ  394
+
+Query  60   IRRDGETIELVRASENLRLSMK  81
+            I R G+ I + R  EN    + 
+Sbjct  395  IVRQGDEIRMERPGENRVGILT  416
+
+
+> UniRef90_A0A0A1TA81 Uncharacterized protein n=1 Tax=Torrubiella 
+hemipterigena TaxID=1531966 RepID=A0A0A1TA81_9HYPO
+Length=536
+
+ Score = 80.6 bits (198),  Expect = 9e-16, Method: Composition-based stats.
+ Identities = 21/84 (25%), Positives = 36/84 (43%), Gaps = 2/84 (2%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTT-  59
+            E    EA S W G +LD  T L + ++      +  ++  + E +  V A  A+    T 
+Sbjct  347  EKPICEASSEWAGIYLDPVTELAIIVDVVDKVYVNVKYHRATEKLSTVDARTAKKPDGTF  406
+
+Query  60   -IRRDGETIELVRASENLRLSMKR  82
+              + DG+ + +    EN R+   R
+Sbjct  407  EAKIDGDQLHVYVVGENRRIVANR  430
+
+
+> UniRef90_UPI0006C7637A aminopeptidase n=1 Tax=Gemmobacter sp. 
+LW-1 TaxID=1529005 RepID=UPI0006C7637A
+Length=522
+
+ Score = 80.2 bits (197),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 23/73 (32%), Positives = 38/73 (52%), Gaps = 1/73 (1%)
+
+Query  9    SAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETIE  68
+              W G WLD E  L L   D   G ++  +  SP ++  VSA++A +    +RR+G  + 
+Sbjct  343  QGWGGLWLDPEADLFLRTTDTPGG-VRLHYAVSPVLLAPVSASQAEAPGILLRREGGALV  401
+
+Query  69   LVRASENLRLSMK  81
+            + R +ENL +  +
+Sbjct  402  MERPAENLIVRAE  414
+
+
+> UniRef90_Q3IX78 D-aminopeptidase n=6 Tax=Rhodobacter TaxID=1060 
+RepID=DAP_RHOS4
+Length=516
+
+ Score = 79.8 bits (196),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 23/81 (28%), Positives = 39/81 (48%), Gaps = 1/81 (1%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            E  +      W G WLD E+GL+L + +   G +  RF T P+ +        R A  ++
+Sbjct  333  EAPKGARPEGWAGQWLDPESGLLLRVGEDAEG-LTLRFATGPDRLTAGEDGVPRGAGVSL  391
+
+Query  61   RRDGETIELVRASENLRLSMK  81
+             R+G  + + R S+NL +  +
+Sbjct  392  AREGAMLVMNRTSDNLTVRAE  412
+
+
+> UniRef90_N6U3P8 Beta-lactamase n=2 Tax=Rhizobium TaxID=379 RepID=N6U3P8_9RHIZ
+Length=519
+
+ Score = 79.4 bits (195),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 23/79 (29%), Positives = 34/79 (43%), Gaps = 1/79 (1%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRR  62
+                A   W G WLD+  GL L  ED   G ++  + T+P +        A +    +RR
+Sbjct  337  EDAVAAEGWTGLWLDETQGLYLRTEDQKEG-VRLLYATAPGLCTPAPDGTAHARDIVLRR  395
+
+Query  63   DGETIELVRASENLRLSMK  81
+            D   + + R  ENL +  K
+Sbjct  396  DEGRLLMERPGENLCVIAK  414
+
+
+> UniRef90_UPI0003F69B5C D-aminopeptidase n=1 Tax=Pleomorphomonas 
+oryzae TaxID=261934 RepID=UPI0003F69B5C
+Length=519
+
+ Score = 79.4 bits (195),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 23/78 (29%), Positives = 39/78 (50%), Gaps = 1/78 (1%)
+
+Query  5    VEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDG  64
+            + AD  W G +L++ +GL L +   G+  + A  G   E++       ARS    + R+G
+Sbjct  341  IPADQNWAGGYLEESSGLSLDITAHGNA-ILASLGGGTEVLSFGEDGIARSVGMILSREG  399
+
+Query  65   ETIELVRASENLRLSMKR  82
+            + + + R  +NLR   KR
+Sbjct  400  DDLRIERPGDNLRGLAKR  417
+
+
+> UniRef90_UPI00054D49C9 D-aminopeptidase n=1 Tax=Agrobacterium 
+rhizogenes TaxID=359 RepID=UPI00054D49C9
+Length=528
+
+ Score = 79.0 bits (194),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 23/79 (29%), Positives = 36/79 (46%), Gaps = 1/79 (1%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRR  62
+                  + W G WLD+  GL L  ED   G ++  + T+P M    +    R+   T+R+
+Sbjct  337  DDAAPANGWTGLWLDEAQGLYLRAEDRPEG-VQLHYATAPIMCTPQTDGTLRARDVTLRQ  395
+
+Query  63   DGETIELVRASENLRLSMK  81
+                + + R SENL +  K
+Sbjct  396  AESQLLMERPSENLSVIAK  414
+
+
+> UniRef90_UPI0004725B0E aminopeptidase n=1 Tax=Asaia astilbis 
+TaxID=610244 RepID=UPI0004725B0E
+Length=519
+
+ Score = 78.3 bits (192),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 21/79 (27%), Positives = 38/79 (48%), Gaps = 1/79 (1%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDAGHG-RMKARFGTSPEMMDVVSANEARSAVTTIR  61
+                 ++A  G +LD ETGL  S+     G R+  R+   PE+++  + + A    T + 
+Sbjct  335  QTQPGNTALLGHYLDRETGLSASVSPTASGTRLSLRYAYPPEILEPWTQDGAGQDATRLS  394
+
+Query  62   RDGETIELVRASENLRLSM  80
+              G+ + + R  EN  +S+
+Sbjct  395  LSGDGLLMARPQENRSVSL  413
+
+
+> UniRef90_A0A1I4TY37 D-stereospecific aminopeptidase Serine peptidase. 
+MEROPS family S12 n=1 Tax=Pleomorphomonas diazotrophica 
+TaxID=1166257 RepID=A0A1I4TY37_9RHIZ
+Length=519
+
+ Score = 77.9 bits (191),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 23/77 (30%), Positives = 37/77 (48%), Gaps = 1/77 (1%)
+
+Query  6    EADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGE  65
+             AD  W G +L+  +GL L +   G+  + A  G  PE++       ARS    + R+  
+Sbjct  342  PADPGWAGRYLEPTSGLSLDVAVHGNA-ILANLGGGPEVLTFGEDGVARSTGMLLSREDG  400
+
+Query  66   TIELVRASENLRLSMKR  82
+             + L R  +NLR  ++R
+Sbjct  401  GLRLDRPGDNLRGVVER  417
+
+
+> UniRef90_A0A023D3Q8 D-aminopeptidase n=1 Tax=Acidomonas methanolica 
+NBRC 104435 TaxID=1231351 RepID=A0A023D3Q8_ACIMT
+Length=515
+
+ Score = 77.5 bits (190),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 18/81 (22%), Positives = 37/81 (46%), Gaps = 1/81 (1%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+            V+   A+S   G++L++ETGL + +     G +   +    E ++ +  +EA    T + 
+Sbjct  333  VAPSPAESRLTGTFLEEETGLAVRVTRGARG-VSVSYLYGAETLEEIGPDEAGRDATRLT  391
+
+Query  62   RDGETIELVRASENLRLSMKR  82
+                 + + R  EN    ++R
+Sbjct  392  LADGVVRMHRPQENRTSLLRR  412
+
+
+> UniRef90_F9WYA7 Uncharacterized protein n=2 Tax=Zymoseptoria 
+TaxID=1047167 RepID=F9WYA7_ZYMTI
+Length=553
+
+ Score = 77.5 bits (190),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 14/92 (15%), Positives = 32/92 (35%), Gaps = 11/92 (12%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSL--EDAGHGRMKARFGTSPEMMDVVSANEARSAVTT  59
+             + +     W G++L+ +  L+L++         +   +  +P  + + S   A SA   
+Sbjct  348  PASITPSPKWTGAYLNPQNNLLLTVVPSPGKPSTLSVTYAVAPAEVTLASPTTAESAGML  407
+
+Query  60   IRRDGET---------IELVRASENLRLSMKR  82
+                  +         + + R  EN     +R
+Sbjct  408  ASIAPSSSSDVSPQQNLSITRLRENTIFQARR  439
+
+
+> UniRef90_A0A0T1WX32 Aminopeptidase n=1 Tax=Rhizobium sp. Root482 
+TaxID=1736543 RepID=A0A0T1WX32_9RHIZ
+Length=520
+
+ Score = 77.5 bits (190),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 23/79 (29%), Positives = 33/79 (42%), Gaps = 1/79 (1%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+                    +W G W+  ETGL+  L+      +  R+GTS E +         S+   I 
+Sbjct  336  PKPQPLRESWAGQWISLETGLLARLDPGVD-TVALRYGTSVETLTETPEGGLASSAVRIA  394
+
+Query  62   RDGETIELVRASENLRLSM  80
+            RDGE I + R  EN    +
+Sbjct  395  RDGEDIVMQRPQENFAGRL  413
+
+
+> UniRef90_A0A0S6XTY7 Uncharacterized protein n=1 Tax=fungal sp. 
+No.11243 TaxID=1603295 RepID=A0A0S6XTY7_9FUNG
+Length=486
+
+ Score = 77.1 bits (189),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 21/85 (25%), Positives = 36/85 (42%), Gaps = 5/85 (6%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLE--DAGHGRMKARFGTSPEMMDVVSANEA---RSAV  57
+            S VEA   W G +LD ET L + ++      G++   +   P+ + V          S  
+Sbjct  295  SAVEASPDWDGVFLDKETQLAVQVKRVPGEKGKINIAYAGRPDTIAVGDDATQAGNVSGT  354
+
+Query  58   TTIRRDGETIELVRASENLRLSMKR  82
+            +T     E + L   + N+ L+ K+
+Sbjct  355  STATIKDEMLTLHMEASNITLTAKK  379
+
+
+> UniRef90_S5YZV0 D-aminopeptidase n=1 Tax=Paracoccus aminophilus 
+JCM 7686 TaxID=1367847 RepID=S5YZV0_PARAH
+Length=521
+
+ Score = 77.1 bits (189),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 21/81 (26%), Positives = 37/81 (46%), Gaps = 2/81 (2%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            +    +A   W G W+DDE GL +       G +K  +  + +M+   S + A     T+
+Sbjct  336  DPEP-QAALGWDGLWMDDEQGLFIRTTSTPAG-VKLNYQHTAQMLTPTSDSRAEFHGITL  393
+
+Query  61   RRDGETIELVRASENLRLSMK  81
+             R  E + + R  ENL ++ +
+Sbjct  394  ERGPEGLTMRREDENLSVTGR  414
+
+
+> UniRef90_S7ZSR3 Uncharacterized protein n=1 Tax=Penicillium oxalicum 
+(strain 114-2 / CGMCC 5302) TaxID=933388 RepID=S7ZSR3_PENO1
+Length=533
+
+ Score = 75.9 bits (186),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 14/82 (17%), Positives = 37/82 (45%), Gaps = 0/82 (0%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            +  +V  +  + G++ D E  L   +++   G +  R+    E + + S+N   +   ++
+Sbjct  347  QAQQVHVNQDFLGTFFDPEARLSCPVQEGESGTIVIRYSDHEERVLLSSSNTGSTETLSV  406
+
+Query  61   RRDGETIELVRASENLRLSMKR  82
+                +++ L R  +N  +  +R
+Sbjct  407  ELGIDSVRLYRRDDNRLVVARR  428
+
+
+> UniRef90_A0A1A9GAP8 Aminopeptidase n=2 Tax=Rhizobiaceae TaxID=82115 
+RepID=A0A1A9GAP8_9RHIZ
+Length=520
+
+ Score = 75.9 bits (186),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 25/74 (34%), Positives = 35/74 (47%), Gaps = 1/74 (1%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+             +       W G W+  ETGL+  LE      +  RFGTSPE +  +      S+  T+ 
+Sbjct  333  PAPQPLGERWGGQWMSRETGLLARLEPGLDAAI-LRFGTSPESLSQMEDGGLASSSVTVS  391
+
+Query  62   RDGETIELVRASEN  75
+            R GE + + RA EN
+Sbjct  392  RAGEDLLMQRAQEN  405
+
+
+> UniRef90_A0A0N1H4F8 D-aminopeptidase n=1 Tax=Phialophora attae 
+TaxID=1664694 RepID=A0A0N1H4F8_9EURO
+Length=545
+
+ Score = 75.6 bits (185),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 14/73 (19%), Positives = 30/73 (41%), Gaps = 1/73 (1%)
+
+Query  10   AWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGET-IE  68
+            +W G++ D +  L + +       ++  +G   E +D+     A S   TI    +  + 
+Sbjct  365  SWTGNYFDLDARLAVVVRQDKPHHIQVNYGGHDEGLDLTGRGTATSKYMTIDTAPDGPLA  424
+
+Query  69   LVRASENLRLSMK  81
+            + R  EN   + +
+Sbjct  425  IHRPKENREFAAQ  437
+
+
+> UniRef90_A0A086Y7D1 D-aminopeptidase n=1 Tax=Haematobacter missouriensis 
+TaxID=366616 RepID=A0A086Y7D1_9RHOB
+Length=509
+
+ Score = 75.6 bits (185),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 19/80 (24%), Positives = 33/80 (41%), Gaps = 3/80 (4%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+             + V     W G WL  ETGL + +   G    + R+ TSPE +         +    + 
+Sbjct  330  PAMVPPPEIWDGHWLCRETGLSVRI--DGGTVPRLRYATSPEPLTFR-DGGLEATGIRLE  386
+
+Query  62   RDGETIELVRASENLRLSMK  81
+            R    I + R+++ L   ++
+Sbjct  387  RGEGGIMMTRSADRLSAQLE  406
+
+
+> UniRef90_A0A1D8UVN4 Aminopeptidase n=3 Tax=Kozakia baliensis 
+TaxID=153496 RepID=A0A1D8UVN4_9PROT
+Length=518
+
+ Score = 74.8 bits (183),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 20/77 (26%), Positives = 36/77 (47%), Gaps = 1/77 (1%)
+
+Query  6    EADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGE  65
+              +    G +LD +TGL   +E A   R++  +   PE+++    + A +  T +   GE
+Sbjct  339  PGNPHIPGIYLDSDTGLSARIE-AEDARLRVGYTYPPEILENWRDDGAGTDGTRLSLRGE  397
+
+Query  66   TIELVRASENLRLSMKR  82
+             + + R  EN    +KR
+Sbjct  398  DLWMERPQENRSGWLKR  414
+
+
+> UniRef90_UPI00037E6FFF hypothetical protein n=1 Tax=Saccharibacter 
+floricola TaxID=231053 RepID=UPI00037E6FFF
+Length=532
+
+ Score = 74.8 bits (183),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 24/72 (33%), Positives = 35/72 (49%), Gaps = 0/72 (0%)
+
+Query  6    EADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGE  65
+                 + G WLD ETGL   +E      ++ R+   PE + + SA EA +A   + R  E
+Sbjct  344  TIAHDFNGVWLDKETGLSARIETVNASSLRLRYLMVPEDIPLHSATEAGNAGVQLERTAE  403
+
+Query  66   TIELVRASENLR  77
+             I + R +EN R
+Sbjct  404  GIVMTRPAENRR  415
+
+
+> UniRef90_A0A086Y572 D-aminopeptidase n=2 Tax=Haematobacter massiliensis 
+TaxID=195105 RepID=A0A086Y572_9RHOB
+Length=517
+
+ Score = 74.8 bits (183),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 19/81 (23%), Positives = 32/81 (40%), Gaps = 3/81 (4%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            +  RV     W G WL  ETGL + +   G    + R+ TSPE +         +    +
+Sbjct  332  DPVRVPPGEVWDGHWLCRETGLSVRI--DGGTAPRLRYATSPEPLTFRQ-GGLEATDIRL  388
+
+Query  61   RRDGETIELVRASENLRLSMK  81
+             R      + R ++ L   ++
+Sbjct  389  ERGQGGFVMTRRADRLIAQLE  409
+
+
+> UniRef90_A0A109J8X7 Aminopeptidase n=3 Tax=Rhizobium TaxID=379 
+RepID=A0A109J8X7_9RHIZ
+Length=520
+
+ Score = 74.0 bits (181),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 22/74 (30%), Positives = 36/74 (49%), Gaps = 1/74 (1%)
+
+Query  8    DSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETI  67
+               W G WLDD+ GL+L       G +K  +  S   + V +   AR     +++ GE +
+Sbjct  342  PEGWDGLWLDDDQGLILRTVQDTAG-IKLHYAPSAARLTVSADGVARGHALALKKQGEML  400
+
+Query  68   ELVRASENLRLSMK  81
+             + R SENL ++ +
+Sbjct  401  VMRRESENLEVTAR  414
+
+
+> UniRef90_A0A0G2DYT0 Putative beta-lactamase family protein n=1 
+Tax=Diplodia seriata TaxID=420778 RepID=A0A0G2DYT0_9PEZI
+Length=556
+
+ Score = 72.5 bits (177),  Expect = 8e-13, Method: Composition-based stats.
+ Identities = 18/79 (23%), Positives = 34/79 (43%), Gaps = 2/79 (3%)
+
+Query  6    EADSAWFGSWLDDETGLVLSLED-AGHGRMKARFGTSPEMMDVVS-ANEARSAVTTIRRD  63
+            +    WFG +LD ET L + +    G G +   +      + +      ARS       D
+Sbjct  373  QPAPEWFGVFLDAETQLAVVVRPGGGGGEVSILWAGDDFRVPLGDHPRNARSRDVIASVD  432
+
+Query  64   GETIELVRASENLRLSMKR  82
+            G+++ +    +N+++  KR
+Sbjct  433  GDSLRVQCLVDNVKIEAKR  451
+
+
+> UniRef90_A0A060Q8M0 D-alanyl-D-alanine carboxypeptidase n=2 Tax=Saccharibacter 
+sp. AM169 TaxID=1343158 RepID=A0A060Q8M0_9PROT
+Length=530
+
+ Score = 72.1 bits (176),  Expect = 9e-13, Method: Composition-based stats.
+ Identities = 26/93 (28%), Positives = 41/93 (44%), Gaps = 13/93 (14%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+             S  +A  A  G WLD+ETGL   +  A  G+++ R+   PE +D++S   A +    +R
+Sbjct  331  PSGRQAPHALEGLWLDEETGLSARITAAAPGKLQLRYLMLPETLDIISPQLAEAGNLRVR  390
+
+Query  62   -RDGE------------TIELVRASENLRLSMK  81
+               GE             I + R  EN    ++
+Sbjct  391  HIQGEHMQASTQEIPTPHIIMERPGENRHALLR  423
+
+
+> UniRef90_Q5FRJ7 D-aminopeptidase n=9 Tax=Gluconobacter TaxID=441 
+RepID=DAP_GLUOX
+Length=525
+
+ Score = 72.1 bits (176),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 24/87 (28%), Positives = 39/87 (45%), Gaps = 6/87 (7%)
+
+Query  1    EVSRVEADS-AWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTT  59
+            E  R      A +G++L+ ETGL   +E A  G  K R+   PE+++ +SA  A +    
+Sbjct  336  EPERSTQQPTALYGTYLERETGLSARIEPAPGG-AKLRYLMVPELLEGISATRAEAGSVV  394
+
+Query  60   I----RRDGETIELVRASENLRLSMKR  82
+            +      +G    + R  EN    + R
+Sbjct  395  VKAQETAEGAEAVMERPGENRTSILAR  421
+
+
+> UniRef90_D0D6W3 D-aminopeptidase n=1 Tax=Citreicella sp. SE45 
+TaxID=501479 RepID=D0D6W3_9RHOB
+Length=518
+
+ Score = 71.3 bits (174),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 19/80 (24%), Positives = 31/80 (39%), Gaps = 2/80 (3%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+                    +W G WLD E G++  +E  G      ++GT    +        RS    I 
+Sbjct  336  PEPAPIAQSWDGQWLDTERGMLARIE-TGRRTATLQYGTGDAELTCDGE-ALRSDGLVIT  393
+
+Query  62   RDGETIELVRASENLRLSMK  81
+            R G+ + ++R  EN    + 
+Sbjct  394  RAGDGLTMLRPGENTTRRLT  413
+
+
+> UniRef90_A0A0W0A5V1 Aminopeptidase n=2 Tax=Roseomonas TaxID=125216 
+RepID=A0A0W0A5V1_9PROT
+Length=520
+
+ Score = 70.6 bits (172),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 22/69 (32%), Positives = 37/69 (54%), Gaps = 0/69 (0%)
+
+Query  13   GSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRRDGETIELVRA  72
+            G +L+ ETGL   +E    GR++  F    E++       A SA + + R+G+ + L RA
+Sbjct  347  GCYLEPETGLATRVEAMPDGRLRLGFSGGAEILSACVEGGAASAASRLFREGDAVILERA  406
+
+Query  73   SENLRLSMK  81
+             +NLR  ++
+Sbjct  407  GDNLRTRLE  415
+
+
+> UniRef90_A0A021X1X7 D-aminopeptidase Dap n=1 Tax=Shinella sp. 
+DD12 TaxID=1410620 RepID=A0A021X1X7_9RHIZ
+Length=518
+
+ Score = 69.8 bits (170),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 25/74 (34%), Positives = 33/74 (45%), Gaps = 1/74 (1%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+             +       W G W+  ETGL+  LE  G      RFGTSPE +         S+   + 
+Sbjct  334  PASKPLGERWGGQWMSRETGLLARLEP-GFDSATLRFGTSPESLLEAEEGSLASSSVKVA  392
+
+Query  62   RDGETIELVRASEN  75
+            R GE + + RA EN
+Sbjct  393  RAGEDLLMQRAQEN  406
+
+
+> UniRef90_Q0FTP4 D-aminopeptidase n=1 Tax=Pelagibaca bermudensis 
+(strain JCM 13377 / KCTC 12554 / HTCC2601) TaxID=314265 RepID=Q0FTP4_PELBH
+Length=520
+
+ Score = 66.7 bits (162),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 17/73 (23%), Positives = 28/73 (38%), Gaps = 1/73 (1%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRR  62
+                    W G WLD+  GL  +L+      ++  +   P+  +        +A   I R
+Sbjct  337  EPTFIAEEWDGLWLDEARGLTATLKTGRRA-VELGYAVGPQPTEAGQDGALAAAGVRITR  395
+
+Query  63   DGETIELVRASEN  75
+            DG  + + R  EN
+Sbjct  396  DGAGLAMARPGEN  408
+
+
+> UniRef90_UPI0006B496DC aminopeptidase n=1 Tax=Pseudorhodobacter 
+psychrotolerans TaxID=1678131 RepID=UPI0006B496DC
+Length=518
+
+ Score = 66.3 bits (161),  Expect = 9e-11, Method: Composition-based stats.
+ Identities = 13/74 (18%), Positives = 25/74 (34%), Gaps = 2/74 (3%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+                     W G W+    GL+  L  +G            E + + + +  R+    + 
+Sbjct  336  PEATALPDGWDGQWIGP-NGLLTRL-QSGRDYADLYHAGGAERLTLAADDTLRAPGVVLS  393
+
+Query  62   RDGETIELVRASEN  75
+            R  + + L R  +N
+Sbjct  394  RGKDGVTLTRVKDN  407
+
+
+> UniRef90_UPI0006B5AE3F aminopeptidase n=1 Tax=Pseudorhodobacter 
+psychrotolerans TaxID=1678131 RepID=UPI0006B5AE3F
+Length=518
+
+ Score = 65.2 bits (158),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 16/80 (20%), Positives = 27/80 (34%), Gaps = 2/80 (3%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIR  61
+             +       W G W+    GL+  LE  G    K R  +  E + + +     S    + 
+Sbjct  336  PAEPPLPDGWDGQWIGP-NGLLTRLE-CGRNFAKLRHASGVERLTLAADGALSSPGAVLA  393
+
+Query  62   RDGETIELVRASENLRLSMK  81
+            R    + L R  +N    + 
+Sbjct  394  RGATGVTLTRPKDNTEAMLT  413
+
+
+> UniRef90_UPI000476DFC8 D-aminopeptidase n=1 Tax=Meganema perideroedes 
+TaxID=217219 RepID=UPI000476DFC8
+Length=521
+
+ Score = 63.2 bits (153),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 23/79 (29%), Positives = 34/79 (43%), Gaps = 2/79 (3%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTIRR  62
+                  + W  SW+  ETGL+  +     G    RF    E +         S ++ I R
+Sbjct  338  PAAPISAEWVRSWIGAETGLIARISRHEGGG-SLRFAVGAEPLR-EHEGALVSPLSRIER  395
+
+Query  63   DGETIELVRASENLRLSMK  81
+            +GE + L RASENL   ++
+Sbjct  396  EGEGLILRRASENLTERLR  414
+
+
+> UniRef90_A0A086XXP2 D-aminopeptidase n=1 Tax=Paenirhodobacter 
+enshiensis TaxID=1105367 RepID=A0A086XXP2_9RHOB
+Length=518
+
+ Score = 62.1 bits (150),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 22/80 (28%), Positives = 31/80 (39%), Gaps = 2/80 (3%)
+
+Query  1    EVSRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI  60
+            E +       W G WLD E G+V  +  +G       + T P  M         +  TTI
+Sbjct  335  EPAAPLLPEGWDGIWLDRERGMVAQI-VSGRRSATLHYATRPLSMQFDGEG-LSAPGTTI  392
+
+Query  61   RRDGETIELVRASENLRLSM  80
+            RRDG  + +    EN    +
+Sbjct  393  RRDGTALSMALPGENTVRRL  412
+
+
+> UniRef90_A0A060QI76 D-alanyl-D-alanine carboxypeptidase n=2 Tax=Asaia 
+TaxID=91914 RepID=A0A060QI76_9PROT
+Length=528
+
+ Score = 60.5 bits (146),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 18/91 (20%), Positives = 36/91 (40%), Gaps = 10/91 (11%)
+
+Query  2    VSRVEADSAWFGSWLDDETGLVLSLED-----AGHGRMKARFGTSPEMMDVVSANEARSA  56
+             ++   + A  G +LD + GL  ++       A    +  R+   PE +D  + + A   
+Sbjct  334  PTKAPGNPAIIGHYLDAQNGLSATVTSSDQNGASGNNLALRYAYPPERLDNWTQSGAGRD  393
+
+Query  57   VTTIRRDGE-----TIELVRASENLRLSMKR  82
+             TT+    +      + + R  EN +  + R
+Sbjct  394  GTTVTFQDDRHPERGLIMNRPQENTQRILSR  424
+
+
+> UniRef90_UPI00082C31A0 UPI00082C31A0 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00082C31A0
+Length=524
+
+ Score = 54.4 bits (130),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 12/79 (15%), Positives = 32/79 (41%), Gaps = 2/79 (3%)
+
+Query  3    SRVEADSAWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEMMDVVSANEARSAVTTI-R  61
+                 +S   G + + ETGL   ++      ++ R+   P+ +  +++ +A +    + +
+Sbjct  337  PTATIESQLTGVYRERETGLSARIDP-NDNTLRLRYLMLPDTLTSITSTQAENGAVRLQQ  395
+
+Query  62   RDGETIELVRASENLRLSM  80
+                T+ +    EN    +
+Sbjct  396  LSDNTLRMEHLKENRTTHL  414
+
+
+> UniRef90_A0A149V6B8 Aminopeptidase (Fragment) n=1 Tax=Gluconobacter 
+japonicus TaxID=376620 RepID=A0A149V6B8_GLUJA
+Length=268
+
+ Score = 44.4 bits (104),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 15/45 (33%), Positives = 22/45 (49%), Gaps = 2/45 (4%)
+
+Query  1    EVSRVEADS-AWFGSWLDDETGLVLSLEDAGHGRMKARFGTSPEM  44
+            E  R        +G++L+ ETGL   +E A  G  + R+   PEM
+Sbjct  225  EPERTTQQPLELYGTYLEQETGLSARIEPAPGG-AQLRYLMVPEM  268
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.166    0.499    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0505    0.140     1.90     42.6     43.6 
+
+Effective search space used: 437226641605
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

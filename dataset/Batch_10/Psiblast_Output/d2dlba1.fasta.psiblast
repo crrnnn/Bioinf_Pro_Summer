@@ -1,0 +1,283 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d2dlba1
+
+Length=70
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_O34498 SPBc2 prophage-derived uncharacterized protein ...  138     2e-40
+  UniRef90_A0A0H3E2F6 Uncharacterized protein n=3 Tax=Bacillus su...  99.4    3e-25
+  UniRef90_A0A0A0TY67 Uncharacterized protein n=2 Tax=Bacillus Ta...  98.2    8e-25
+  UniRef90_T5HLJ7 Uncharacterized protein n=5 Tax=Bacillaceae Tax...  55.8    2e-08
+  UniRef90_M5PAC9 Uncharacterized protein n=3 Tax=Bacillus TaxID=...  45.1    2e-04
+  UniRef90_A0A1J6GRQ7 Uncharacterized protein n=1 Tax=Bacillus li...  43.9    4e-04
+
+
+> UniRef90_O34498 SPBc2 prophage-derived uncharacterized protein 
+YopT n=8 Tax=root TaxID=1 RepID=YOPT_BACSU
+Length=72
+
+ Score = 138 bits (347),  Expect = 2e-40, Method: Compositional matrix adjust.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1   AGYLNNIALNLEIVLKNKADSPEVSETLVTRICENLLLSKEVSFLKADGSVENFKLSDME  60
+           AGYLNNIALNLEIVLKNKADSPEVSETLVTRICENLLLSKEVSFLKADGSVENFKLSDME
+Sbjct  2   AGYLNNIALNLEIVLKNKADSPEVSETLVTRICENLLLSKEVSFLKADGSVENFKLSDME  61
+
+Query  61  YEITNTEELP  70
+           YEITNTEELP
+Sbjct  62  YEITNTEELP  71
+
+
+> UniRef90_A0A0H3E2F6 Uncharacterized protein n=3 Tax=Bacillus 
+subtilis group TaxID=653685 RepID=A0A0H3E2F6_BACA1
+Length=71
+
+ Score = 99.4 bits (246),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 47/68 (69%), Positives = 59/68 (87%), Gaps = 0/68 (0%)
+
+Query  1   AGYLNNIALNLEIVLKNKADSPEVSETLVTRICENLLLSKEVSFLKADGSVENFKLSDME  60
+           AGYLNNI+LNLEI+LKNKA + E+S  +V R+CE LL+++EVSF +ADG+VE FKL D+E
+Sbjct  2   AGYLNNISLNLEIILKNKAKNEEISVGIVERLCEKLLVAREVSFAQADGTVEKFKLCDIE  61
+
+Query  61  YEITNTEE  68
+           YEITNTEE
+Sbjct  62  YEITNTEE  69
+
+
+> UniRef90_A0A0A0TY67 Uncharacterized protein n=2 Tax=Bacillus 
+TaxID=55087 RepID=A0A0A0TY67_BACIU
+Length=71
+
+ Score = 98.2 bits (243),  Expect = 8e-25, Method: Compositional matrix adjust.
+ Identities = 44/69 (64%), Positives = 62/69 (90%), Gaps = 0/69 (0%)
+
+Query  1   AGYLNNIALNLEIVLKNKADSPEVSETLVTRICENLLLSKEVSFLKADGSVENFKLSDME  60
+           AGYLNN++L+LEIVLKNKA + EVS++L  R+CE L++++EV FL+ADG+VE FKL+D++
+Sbjct  2   AGYLNNVSLHLEIVLKNKAKNEEVSQSLAERLCEKLMVAREVCFLQADGTVEKFKLNDID  61
+
+Query  61  YEITNTEEL  69
+           YEI+NTEE+
+Sbjct  62  YEISNTEEI  70
+
+
+> UniRef90_T5HLJ7 Uncharacterized protein n=5 Tax=Bacillaceae TaxID=186817 
+RepID=T5HLJ7_BACLI
+Length=84
+
+ Score = 55.8 bits (133),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 28/66 (42%), Positives = 43/66 (65%), Gaps = 0/66 (0%)
+
+Query  3   YLNNIALNLEIVLKNKADSPEVSETLVTRICENLLLSKEVSFLKADGSVENFKLSDMEYE  62
+           YLNN +L ++ +++N A S E S+     I E L+ + +V F+K DG  E F++ ++EYE
+Sbjct  6   YLNNCSLQIDTIIENAASSTEYSKNKAEFILEKLMEAYKVVFVKVDGETEEFEICNLEYE  65
+
+Query  63  ITNTEE  68
+           I NTEE
+Sbjct  66  IENTEE  71
+
+
+> UniRef90_M5PAC9 Uncharacterized protein n=3 Tax=Bacillus TaxID=55087 
+RepID=M5PAC9_9BACI
+Length=90
+
+ Score = 45.1 bits (105),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 23/67 (34%), Positives = 39/67 (58%), Gaps = 0/67 (0%)
+
+Query  3   YLNNIALNLEIVLKNKADSPEVSETLVTRICENLLLSKEVSFLKADGSVENFKLSDMEYE  62
+           YLNN  L ++  ++N ADS + S+     + E L  + ++ F+  DG  E F + ++EYE
+Sbjct  6   YLNNCLLQIDTFIENSADSVKSSKNKAEFLLEKLQEAYKIVFINIDGEAEEFDICNLEYE  65
+
+Query  63  ITNTEEL  69
+           + +TEE 
+Sbjct  66  VEDTEEW  72
+
+
+> UniRef90_A0A1J6GRQ7 Uncharacterized protein n=1 Tax=Bacillus 
+licheniformis TaxID=1402 RepID=A0A1J6GRQ7_BACLI
+Length=67
+
+ Score = 43.9 bits (102),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 23/54 (43%), Positives = 34/54 (63%), Gaps = 0/54 (0%)
+
+Query  15  LKNKADSPEVSETLVTRICENLLLSKEVSFLKADGSVENFKLSDMEYEITNTEE  68
+           ++N A S E S+     I E L+ + +V F+K DG  E F++ ++EYEI NTEE
+Sbjct  1   MENAASSTEYSKNKAEFILEKLMEAYKVVFVKVDGETEEFEICNLEYEIENTEE  54
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.129    0.339    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 438359863900
+Results from round 2
+
+
+Query= d2dlba1
+
+Length=70
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A0A0TY67 Uncharacterized protein n=2 Tax=Bacillus Ta...  92.8    1e-22
+  UniRef90_A0A0H3E2F6 Uncharacterized protein n=3 Tax=Bacillus su...  91.3    4e-22
+  UniRef90_O34498 SPBc2 prophage-derived uncharacterized protein ...  89.3    2e-21
+  UniRef90_T5HLJ7 Uncharacterized protein n=5 Tax=Bacillaceae Tax...  87.8    1e-20
+  UniRef90_M5PAC9 Uncharacterized protein n=3 Tax=Bacillus TaxID=...  86.6    4e-20
+  UniRef90_A0A1J6GRQ7 Uncharacterized protein n=1 Tax=Bacillus li...  68.9    2e-13
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_A0A0A0TY67 Uncharacterized protein n=2 Tax=Bacillus 
+TaxID=55087 RepID=A0A0A0TY67_BACIU
+Length=71
+
+ Score = 92.8 bits (229),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 44/69 (64%), Positives = 62/69 (90%), Gaps = 0/69 (0%)
+
+Query  1   AGYLNNIALNLEIVLKNKADSPEVSETLVTRICENLLLSKEVSFLKADGSVENFKLSDME  60
+           AGYLNN++L+LEIVLKNKA + EVS++L  R+CE L++++EV FL+ADG+VE FKL+D++
+Sbjct  2   AGYLNNVSLHLEIVLKNKAKNEEVSQSLAERLCEKLMVAREVCFLQADGTVEKFKLNDID  61
+
+Query  61  YEITNTEEL  69
+           YEI+NTEE+
+Sbjct  62  YEISNTEEI  70
+
+
+> UniRef90_A0A0H3E2F6 Uncharacterized protein n=3 Tax=Bacillus 
+subtilis group TaxID=653685 RepID=A0A0H3E2F6_BACA1
+Length=71
+
+ Score = 91.3 bits (225),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 47/68 (69%), Positives = 59/68 (87%), Gaps = 0/68 (0%)
+
+Query  1   AGYLNNIALNLEIVLKNKADSPEVSETLVTRICENLLLSKEVSFLKADGSVENFKLSDME  60
+           AGYLNNI+LNLEI+LKNKA + E+S  +V R+CE LL+++EVSF +ADG+VE FKL D+E
+Sbjct  2   AGYLNNISLNLEIILKNKAKNEEISVGIVERLCEKLLVAREVSFAQADGTVEKFKLCDIE  61
+
+Query  61  YEITNTEE  68
+           YEITNTEE
+Sbjct  62  YEITNTEE  69
+
+
+> UniRef90_O34498 SPBc2 prophage-derived uncharacterized protein 
+YopT n=8 Tax=root TaxID=1 RepID=YOPT_BACSU
+Length=72
+
+ Score = 89.3 bits (220),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1   AGYLNNIALNLEIVLKNKADSPEVSETLVTRICENLLLSKEVSFLKADGSVENFKLSDME  60
+           AGYLNNIALNLEIVLKNKADSPEVSETLVTRICENLLLSKEVSFLKADGSVENFKLSDME
+Sbjct  2   AGYLNNIALNLEIVLKNKADSPEVSETLVTRICENLLLSKEVSFLKADGSVENFKLSDME  61
+
+Query  61  YEITNTEELP  70
+           YEITNTEELP
+Sbjct  62  YEITNTEELP  71
+
+
+> UniRef90_T5HLJ7 Uncharacterized protein n=5 Tax=Bacillaceae TaxID=186817 
+RepID=T5HLJ7_BACLI
+Length=84
+
+ Score = 87.8 bits (216),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 28/66 (42%), Positives = 43/66 (65%), Gaps = 0/66 (0%)
+
+Query  3   YLNNIALNLEIVLKNKADSPEVSETLVTRICENLLLSKEVSFLKADGSVENFKLSDMEYE  62
+           YLNN +L ++ +++N A S E S+     I E L+ + +V F+K DG  E F++ ++EYE
+Sbjct  6   YLNNCSLQIDTIIENAASSTEYSKNKAEFILEKLMEAYKVVFVKVDGETEEFEICNLEYE  65
+
+Query  63  ITNTEE  68
+           I NTEE
+Sbjct  66  IENTEE  71
+
+
+> UniRef90_M5PAC9 Uncharacterized protein n=3 Tax=Bacillus TaxID=55087 
+RepID=M5PAC9_9BACI
+Length=90
+
+ Score = 86.6 bits (213),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 23/67 (34%), Positives = 39/67 (58%), Gaps = 0/67 (0%)
+
+Query  3   YLNNIALNLEIVLKNKADSPEVSETLVTRICENLLLSKEVSFLKADGSVENFKLSDMEYE  62
+           YLNN  L ++  ++N ADS + S+     + E L  + ++ F+  DG  E F + ++EYE
+Sbjct  6   YLNNCLLQIDTFIENSADSVKSSKNKAEFLLEKLQEAYKIVFINIDGEAEEFDICNLEYE  65
+
+Query  63  ITNTEEL  69
+           + +TEE 
+Sbjct  66  VEDTEEW  72
+
+
+> UniRef90_A0A1J6GRQ7 Uncharacterized protein n=1 Tax=Bacillus 
+licheniformis TaxID=1402 RepID=A0A1J6GRQ7_BACLI
+Length=67
+
+ Score = 68.9 bits (167),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 23/54 (43%), Positives = 34/54 (63%), Gaps = 0/54 (0%)
+
+Query  15  LKNKADSPEVSETLVTRICENLLLSKEVSFLKADGSVENFKLSDMEYEITNTEE  68
+           ++N A S E S+     I E L+ + +V F+K DG  E F++ ++EYEI NTEE
+Sbjct  1   MENAASSTEYSKNKAEFILEKLMEAYKVVFVKVDGETEEFEICNLEYEIENTEE  54
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.135    0.344    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0415    0.140     1.90     42.6     43.6 
+
+Effective search space used: 438359863900
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

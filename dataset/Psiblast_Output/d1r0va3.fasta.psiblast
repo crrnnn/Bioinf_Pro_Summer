@@ -1,0 +1,519 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1r0va3
+
+Length=75
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_O29362 tRNA-splicing endonuclease n=6 Tax=Archaeoglobu...  145     8e-41
+  UniRef90_D3RY25 tRNA intron endonuclease n=1 Tax=Ferroglobus pl...  60.5    4e-09
+  UniRef90_F2KNL1 tRNA intron endonuclease n=1 Tax=Archaeoglobus ...  54.3    7e-07
+  UniRef90_N0BDW4 tRNA intron endonuclease n=1 Tax=Archaeoglobus ...  51.6    7e-06
+  UniRef90_A0A0A7GHH2 tRNA-intron endonuclease n=1 Tax=Geoglobus ...  50.8    1e-05
+  UniRef90_A0A0F7IFG8 tRNA-intron endonuclease n=2 Tax=Geoglobus ...  47.8    1e-04
+  UniRef90_F6BCQ4 tRNA-splicing endonuclease n=2 Tax=Methanotorri...  41.6    0.008
+
+
+> UniRef90_O29362 tRNA-splicing endonuclease n=6 Tax=Archaeoglobus 
+fulgidus TaxID=2234 RepID=ENDA_ARCFU
+Length=305
+
+ Score = 145 bits (367),  Expect = 8e-41, Method: Compositional matrix adjust.
+ Identities = 74/75 (99%), Positives = 75/75 (100%), Gaps = 0/75 (0%)
+
+Query  1    GEQKEELPEIAGVLSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLN  60
+            GEQKEELPEIAG+LSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLN
+Sbjct  140  GEQKEELPEIAGILSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLN  199
+
+Query  61   ADREELVKRAREVER  75
+            ADREELVKRAREVER
+Sbjct  200  ADREELVKRAREVER  214
+
+
+> UniRef90_D3RY25 tRNA intron endonuclease n=1 Tax=Ferroglobus 
+placidus (strain DSM 10642 / AEDII12DO) TaxID=589924 RepID=D3RY25_FERPA
+Length=294
+
+ Score = 60.5 bits (145),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 33/66 (50%), Positives = 43/66 (65%), Gaps = 0/66 (0%)
+
+Query  1    GEQKEELPEIAGVLSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLN  60
+            G  +E+L E+ G L  E VI +  EIF +YFYG+EK   V LSL+ESLYLL+ G L +  
+Sbjct  134  GRHEEKLREVRGFLCGERVIVEDVEIFRKYFYGTEKSGYVALSLVESLYLLEKGFLIMDE  193
+
+Query  61   ADREEL  66
+             + EEL
+Sbjct  194  EEAEEL  199
+
+
+> UniRef90_F2KNL1 tRNA intron endonuclease n=1 Tax=Archaeoglobus 
+veneficus (strain DSM 11195 / SNP6) TaxID=693661 RepID=F2KNL1_ARCVS
+Length=320
+
+ Score = 54.3 bits (129),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 34/78 (44%), Positives = 46/78 (59%), Gaps = 4/78 (5%)
+
+Query  1    GEQKEELPEIAGVLSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLN  60
+            G Q+E+L    G  + + VIT + EIF  +FYGS    +VTLSLIE+LYL+D G L +  
+Sbjct  148  GGQEEKLVTFRGTFTGDRVITDRKEIFEEHFYGSLGWGVVTLSLIEALYLVDAGFLEVYA  207
+
+Query  61   ADR----EELVKRAREVE  74
+              R    EEL K +  +E
+Sbjct  208  RGRRMSFEELWKASLSIE  225
+
+
+> UniRef90_N0BDW4 tRNA intron endonuclease n=1 Tax=Archaeoglobus 
+sulfaticallidus PM70-1 TaxID=387631 RepID=N0BDW4_9EURY
+Length=315
+
+ Score = 51.6 bits (122),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 30/74 (41%), Positives = 45/74 (61%), Gaps = 1/74 (1%)
+
+Query  1    GEQKEELPEIAGVLSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLN  60
+            G+ K    +I G  + + V+T   EIFSR+F+GSEK  +V LS++ESLY+++ G L  LN
+Sbjct  148  GKTKGIDKKIEGYFAGDRVLTDDLEIFSRFFFGSEKDGMVALSILESLYMIEEGILT-LN  206
+
+Query  61   ADREELVKRAREVE  74
+                E   +A  +E
+Sbjct  207  LSLNEFRAKAEAIE  220
+
+
+> UniRef90_A0A0A7GHH2 tRNA-intron endonuclease n=1 Tax=Geoglobus 
+acetivorans TaxID=565033 RepID=A0A0A7GHH2_9EURY
+Length=300
+
+ Score = 50.8 bits (120),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 26/72 (36%), Positives = 46/72 (64%), Gaps = 1/72 (1%)
+
+Query  1    GEQKEELPEIAGVLSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLN  60
+            G   EEL + +   S  Y IT+ TE++ RYFYG  +G+ V +S+ E LYL++ G +   +
+Sbjct  135  GNHYEELKKFSSRFSGGYFITENTELYRRYFYGVLRGNRVIMSIYEGLYLMETGIME-AD  193
+
+Query  61   ADREELVKRARE  72
+             +++E+++ AR+
+Sbjct  194  VEKKEVLELARK  205
+
+
+> UniRef90_A0A0F7IFG8 tRNA-intron endonuclease n=2 Tax=Geoglobus 
+ahangari TaxID=113653 RepID=A0A0F7IFG8_9EURY
+Length=303
+
+ Score = 47.8 bits (112),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 25/72 (35%), Positives = 43/72 (60%), Gaps = 1/72 (1%)
+
+Query  1    GEQKEELPEIAGVLSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLN  60
+            G   EEL E     ++ + +T   E+  +YFYG +KG+ V LS+ E+LYL++ G L+  +
+Sbjct  137  GNHSEELREFEARFANGFFVTDYLELHRKYFYGVQKGNRVVLSIFEALYLMEEGFLS-SS  195
+
+Query  61   ADREELVKRARE  72
+             D E+++   R+
+Sbjct  196  VDEEKVLSFGRQ  207
+
+
+> UniRef90_F6BCQ4 tRNA-splicing endonuclease n=2 Tax=Methanotorris 
+TaxID=196119 RepID=F6BCQ4_METIK
+Length=175
+
+ Score = 41.6 bits (96),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 28/74 (38%), Positives = 43/74 (58%), Gaps = 8/74 (11%)
+
+Query  9   EIAGVLSDEYVITKQTEIFSRY---FYGSEKGDLVTLSLIESLYLLDLGKLNLLNADR--  63
+           +I G+LSD+ V+       SR    +YG +  D ++LSLIE+LYL  LG L + +++   
+Sbjct  5   QIVGILSDDRVVVFDKNGISRLCSRYYGEKNDDFLSLSLIEALYLTSLGWLVVKDSNGRL  64
+
+Query  64  ---EELVKRAREVE  74
+              EEL + AR +E
+Sbjct  65  LSFEELYEYARNIE  78
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.137    0.357    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 447910507245
+Results from round 2
+
+
+Query= d1r0va3
+
+Length=75
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_F2KNL1 tRNA intron endonuclease n=1 Tax=Archaeoglobus ...  85.4    3e-18
+  UniRef90_A0A0A7GHH2 tRNA-intron endonuclease n=1 Tax=Geoglobus ...  82.3    4e-17
+  UniRef90_A0A0F7IFG8 tRNA-intron endonuclease n=2 Tax=Geoglobus ...  82.3    4e-17
+  UniRef90_N0BDW4 tRNA intron endonuclease n=1 Tax=Archaeoglobus ...  80.8    1e-16
+  UniRef90_O29362 tRNA-splicing endonuclease n=6 Tax=Archaeoglobu...  78.9    6e-16
+  UniRef90_D3RY25 tRNA intron endonuclease n=1 Tax=Ferroglobus pl...  74.2    3e-14
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_D2REQ8 tRNA intron endonuclease n=1 Tax=Archaeoglobus ...  48.8    5e-05
+  UniRef90_A0A098EBP9 Putative tRNA-splicing endonuclease n=1 Tax...  44.2    0.001
+
+
+> UniRef90_F2KNL1 tRNA intron endonuclease n=1 Tax=Archaeoglobus 
+veneficus (strain DSM 11195 / SNP6) TaxID=693661 RepID=F2KNL1_ARCVS
+Length=320
+
+ Score = 85.4 bits (210),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 34/78 (44%), Positives = 46/78 (59%), Gaps = 4/78 (5%)
+
+Query  1    GEQKEELPEIAGVLSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLN  60
+            G Q+E+L    G  + + VIT + EIF  +FYGS    +VTLSLIE+LYL+D G L +  
+Sbjct  148  GGQEEKLVTFRGTFTGDRVITDRKEIFEEHFYGSLGWGVVTLSLIEALYLVDAGFLEVYA  207
+
+Query  61   ADR----EELVKRAREVE  74
+              R    EEL K +  +E
+Sbjct  208  RGRRMSFEELWKASLSIE  225
+
+
+> UniRef90_A0A0A7GHH2 tRNA-intron endonuclease n=1 Tax=Geoglobus 
+acetivorans TaxID=565033 RepID=A0A0A7GHH2_9EURY
+Length=300
+
+ Score = 82.3 bits (202),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 26/72 (36%), Positives = 46/72 (64%), Gaps = 1/72 (1%)
+
+Query  1    GEQKEELPEIAGVLSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLN  60
+            G   EEL + +   S  Y IT+ TE++ RYFYG  +G+ V +S+ E LYL++ G +   +
+Sbjct  135  GNHYEELKKFSSRFSGGYFITENTELYRRYFYGVLRGNRVIMSIYEGLYLMETGIME-AD  193
+
+Query  61   ADREELVKRARE  72
+             +++E+++ AR+
+Sbjct  194  VEKKEVLELARK  205
+
+
+> UniRef90_A0A0F7IFG8 tRNA-intron endonuclease n=2 Tax=Geoglobus 
+ahangari TaxID=113653 RepID=A0A0F7IFG8_9EURY
+Length=303
+
+ Score = 82.3 bits (202),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 25/72 (35%), Positives = 43/72 (60%), Gaps = 1/72 (1%)
+
+Query  1    GEQKEELPEIAGVLSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLN  60
+            G   EEL E     ++ + +T   E+  +YFYG +KG+ V LS+ E+LYL++ G L+  +
+Sbjct  137  GNHSEELREFEARFANGFFVTDYLELHRKYFYGVQKGNRVVLSIFEALYLMEEGFLS-SS  195
+
+Query  61   ADREELVKRARE  72
+             D E+++   R+
+Sbjct  196  VDEEKVLSFGRQ  207
+
+
+> UniRef90_N0BDW4 tRNA intron endonuclease n=1 Tax=Archaeoglobus 
+sulfaticallidus PM70-1 TaxID=387631 RepID=N0BDW4_9EURY
+Length=315
+
+ Score = 80.8 bits (198),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 30/74 (41%), Positives = 45/74 (61%), Gaps = 1/74 (1%)
+
+Query  1    GEQKEELPEIAGVLSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLN  60
+            G+ K    +I G  + + V+T   EIFSR+F+GSEK  +V LS++ESLY+++ G L  LN
+Sbjct  148  GKTKGIDKKIEGYFAGDRVLTDDLEIFSRFFFGSEKDGMVALSILESLYMIEEGILT-LN  206
+
+Query  61   ADREELVKRAREVE  74
+                E   +A  +E
+Sbjct  207  LSLNEFRAKAEAIE  220
+
+
+> UniRef90_O29362 tRNA-splicing endonuclease n=6 Tax=Archaeoglobus 
+fulgidus TaxID=2234 RepID=ENDA_ARCFU
+Length=305
+
+ Score = 78.9 bits (193),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 74/75 (99%), Positives = 75/75 (100%), Gaps = 0/75 (0%)
+
+Query  1    GEQKEELPEIAGVLSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLN  60
+            GEQKEELPEIAG+LSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLN
+Sbjct  140  GEQKEELPEIAGILSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLN  199
+
+Query  61   ADREELVKRAREVER  75
+            ADREELVKRAREVER
+Sbjct  200  ADREELVKRAREVER  214
+
+
+> UniRef90_D3RY25 tRNA intron endonuclease n=1 Tax=Ferroglobus 
+placidus (strain DSM 10642 / AEDII12DO) TaxID=589924 RepID=D3RY25_FERPA
+Length=294
+
+ Score = 74.2 bits (181),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 34/72 (47%), Positives = 44/72 (61%), Gaps = 0/72 (0%)
+
+Query  1    GEQKEELPEIAGVLSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLN  60
+            G  +E+L E+ G L  E VI +  EIF +YFYG+EK   V LSL+ESLYLL+ G L +  
+Sbjct  134  GRHEEKLREVRGFLCGERVIVEDVEIFRKYFYGTEKSGYVALSLVESLYLLEKGFLIMDE  193
+
+Query  61   ADREELVKRARE  72
+             + EEL     E
+Sbjct  194  EEAEELRSAVDE  205
+
+
+> UniRef90_D2REQ8 tRNA intron endonuclease n=1 Tax=Archaeoglobus 
+profundus (strain DSM 5631 / JCM 9629 / NBRC 100127 / Av18) 
+TaxID=572546 RepID=D2REQ8_ARCPA
+Length=313
+
+ Score = 48.8 bits (115),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 23/64 (36%), Positives = 35/64 (55%), Gaps = 1/64 (2%)
+
+Query  1    GEQKEELPEIAGVLSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLN  60
+            G  +EE   + GVL +  + T    +   YFYGS KGD+  LS++E  YL++ G L +  
+Sbjct  143  GRHEEEEFNVKGVLVENRIFTDGF-LHRTYFYGSMKGDMTILSILEGAYLVEKGCLEVYK  201
+
+Query  61   ADRE  64
+            A  +
+Sbjct  202  AGSK  205
+
+
+> UniRef90_A0A098EBP9 Putative tRNA-splicing endonuclease n=1 Tax=groundwater 
+metagenome TaxID=717931 RepID=A0A098EBP9_9ZZZZ
+Length=196
+
+ Score = 44.2 bits (103),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 22/71 (31%), Positives = 39/71 (55%), Gaps = 4/71 (6%)
+
+Query  7   LPEIAGVLSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLNADR---  63
+           + +I G LS   +I++   I    F G E   L   S+IE LYL++ G L + + D+   
+Sbjct  1   MKKIRGALSGTRIISRDKSIEKYIFLGDEAKKLGGFSVIEGLYLVEKGILEVYDKDKNLN  60
+
+Query  64  -EELVKRAREV  73
+            EEL+++ +++
+Sbjct  61  FEELLEKGKKL  71
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.142    0.345    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0433    0.140     1.90     42.6     43.6 
+
+Effective search space used: 447910507245
+Results from round 3
+
+
+Query= d1r0va3
+
+Length=75
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_F2KNL1 tRNA intron endonuclease n=1 Tax=Archaeoglobus ...  80.4    2e-16
+  UniRef90_A0A0A7GHH2 tRNA-intron endonuclease n=1 Tax=Geoglobus ...  76.5    4e-15
+  UniRef90_A0A0F7IFG8 tRNA-intron endonuclease n=2 Tax=Geoglobus ...  75.4    1e-14
+  UniRef90_N0BDW4 tRNA intron endonuclease n=1 Tax=Archaeoglobus ...  73.8    6e-14
+  UniRef90_O29362 tRNA-splicing endonuclease n=6 Tax=Archaeoglobu...  72.7    1e-13
+  UniRef90_D3RY25 tRNA intron endonuclease n=1 Tax=Ferroglobus pl...  71.5    3e-13
+  UniRef90_D2REQ8 tRNA intron endonuclease n=1 Tax=Archaeoglobus ...  66.9    2e-11
+  UniRef90_A0A098EBP9 Putative tRNA-splicing endonuclease n=1 Tax...  62.7    2e-10
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A1J5J7K0 tRNA-intron lyase n=1 Tax=Candidatus Altiar...  52.3    1e-06
+
+
+> UniRef90_F2KNL1 tRNA intron endonuclease n=1 Tax=Archaeoglobus 
+veneficus (strain DSM 11195 / SNP6) TaxID=693661 RepID=F2KNL1_ARCVS
+Length=320
+
+ Score = 80.4 bits (197),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 34/78 (44%), Positives = 46/78 (59%), Gaps = 4/78 (5%)
+
+Query  1    GEQKEELPEIAGVLSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLN  60
+            G Q+E+L    G  + + VIT + EIF  +FYGS    +VTLSLIE+LYL+D G L +  
+Sbjct  148  GGQEEKLVTFRGTFTGDRVITDRKEIFEEHFYGSLGWGVVTLSLIEALYLVDAGFLEVYA  207
+
+Query  61   ADR----EELVKRAREVE  74
+              R    EEL K +  +E
+Sbjct  208  RGRRMSFEELWKASLSIE  225
+
+
+> UniRef90_A0A0A7GHH2 tRNA-intron endonuclease n=1 Tax=Geoglobus 
+acetivorans TaxID=565033 RepID=A0A0A7GHH2_9EURY
+Length=300
+
+ Score = 76.5 bits (187),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 26/72 (36%), Positives = 46/72 (64%), Gaps = 1/72 (1%)
+
+Query  1    GEQKEELPEIAGVLSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLN  60
+            G   EEL + +   S  Y IT+ TE++ RYFYG  +G+ V +S+ E LYL++ G +   +
+Sbjct  135  GNHYEELKKFSSRFSGGYFITENTELYRRYFYGVLRGNRVIMSIYEGLYLMETGIME-AD  193
+
+Query  61   ADREELVKRARE  72
+             +++E+++ AR+
+Sbjct  194  VEKKEVLELARK  205
+
+
+> UniRef90_A0A0F7IFG8 tRNA-intron endonuclease n=2 Tax=Geoglobus 
+ahangari TaxID=113653 RepID=A0A0F7IFG8_9EURY
+Length=303
+
+ Score = 75.4 bits (184),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 25/72 (35%), Positives = 43/72 (60%), Gaps = 1/72 (1%)
+
+Query  1    GEQKEELPEIAGVLSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLN  60
+            G   EEL E     ++ + +T   E+  +YFYG +KG+ V LS+ E+LYL++ G L+  +
+Sbjct  137  GNHSEELREFEARFANGFFVTDYLELHRKYFYGVQKGNRVVLSIFEALYLMEEGFLS-SS  195
+
+Query  61   ADREELVKRARE  72
+             D E+++   R+
+Sbjct  196  VDEEKVLSFGRQ  207
+
+
+> UniRef90_N0BDW4 tRNA intron endonuclease n=1 Tax=Archaeoglobus 
+sulfaticallidus PM70-1 TaxID=387631 RepID=N0BDW4_9EURY
+Length=315
+
+ Score = 73.8 bits (180),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 30/74 (41%), Positives = 45/74 (61%), Gaps = 1/74 (1%)
+
+Query  1    GEQKEELPEIAGVLSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLN  60
+            G+ K    +I G  + + V+T   EIFSR+F+GSEK  +V LS++ESLY+++ G L L N
+Sbjct  148  GKTKGIDKKIEGYFAGDRVLTDDLEIFSRFFFGSEKDGMVALSILESLYMIEEGILTL-N  206
+
+Query  61   ADREELVKRAREVE  74
+                E   +A  +E
+Sbjct  207  LSLNEFRAKAEAIE  220
+
+
+> UniRef90_O29362 tRNA-splicing endonuclease n=6 Tax=Archaeoglobus 
+fulgidus TaxID=2234 RepID=ENDA_ARCFU
+Length=305
+
+ Score = 72.7 bits (177),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 74/75 (99%), Positives = 75/75 (100%), Gaps = 0/75 (0%)
+
+Query  1    GEQKEELPEIAGVLSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLN  60
+            GEQKEELPEIAG+LSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLN
+Sbjct  140  GEQKEELPEIAGILSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLN  199
+
+Query  61   ADREELVKRAREVER  75
+            ADREELVKRAREVER
+Sbjct  200  ADREELVKRAREVER  214
+
+
+> UniRef90_D3RY25 tRNA intron endonuclease n=1 Tax=Ferroglobus 
+placidus (strain DSM 10642 / AEDII12DO) TaxID=589924 RepID=D3RY25_FERPA
+Length=294
+
+ Score = 71.5 bits (174),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 34/72 (47%), Positives = 44/72 (61%), Gaps = 0/72 (0%)
+
+Query  1    GEQKEELPEIAGVLSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLN  60
+            G  +E+L E+ G L  E VI +  EIF +YFYG+EK   V LSL+ESLYLL+ G L +  
+Sbjct  134  GRHEEKLREVRGFLCGERVIVEDVEIFRKYFYGTEKSGYVALSLVESLYLLEKGFLIMDE  193
+
+Query  61   ADREELVKRARE  72
+             + EEL     E
+Sbjct  194  EEAEELRSAVDE  205
+
+
+> UniRef90_D2REQ8 tRNA intron endonuclease n=1 Tax=Archaeoglobus 
+profundus (strain DSM 5631 / JCM 9629 / NBRC 100127 / Av18) 
+TaxID=572546 RepID=D2REQ8_ARCPA
+Length=313
+
+ Score = 66.9 bits (162),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 23/64 (36%), Positives = 35/64 (55%), Gaps = 1/64 (2%)
+
+Query  1    GEQKEELPEIAGVLSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLN  60
+            G  +EE   + GVL +  + T    +   YFYGS KGD+  LS++E  YL++ G L +  
+Sbjct  143  GRHEEEEFNVKGVLVENRIFTDGF-LHRTYFYGSMKGDMTILSILEGAYLVEKGCLEVYK  201
+
+Query  61   ADRE  64
+            A  +
+Sbjct  202  AGSK  205
+
+
+> UniRef90_A0A098EBP9 Putative tRNA-splicing endonuclease n=1 Tax=groundwater 
+metagenome TaxID=717931 RepID=A0A098EBP9_9ZZZZ
+Length=196
+
+ Score = 62.7 bits (151),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 22/71 (31%), Positives = 39/71 (55%), Gaps = 4/71 (6%)
+
+Query  7   LPEIAGVLSDEYVITKQTEIFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLNADR---  63
+           + +I G LS   +I++   I    F G E   L   S+IE LYL++ G L + + D+   
+Sbjct  1   MKKIRGALSGTRIISRDKSIEKYIFLGDEAKKLGGFSVIEGLYLVEKGILEVYDKDKNLN  60
+
+Query  64  -EELVKRAREV  73
+            EEL+++ +++
+Sbjct  61  FEELLEKGKKL  71
+
+
+> UniRef90_A0A1J5J7K0 tRNA-intron lyase n=1 Tax=Candidatus Altiarchaeum 
+sp. CG2_30_32_3053 TaxID=1803514 RepID=A0A1J5J7K0_9EURY
+Length=189
+
+ Score = 52.3 bits (124),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 19/74 (26%), Positives = 37/74 (50%), Gaps = 5/74 (7%)
+
+Query  7   LPEIAGVLSDEYVITKQTE-IFSRYFYGSEKGDLVTLSLIESLYLLDLGKLNLLNADR--  63
+           + ++ G+LS   ++ +    I    F G E   L   S+IE LYL++ G L + + +R  
+Sbjct  1   MKKVTGILSGTRILCRDKSTIEKYIFLGDEAKKLGGFSVIEGLYLIEKGTLEVYDKNRII  60
+
+Query  64  --EELVKRAREVER  75
+               L+++ + + R
+Sbjct  61  NFATLLEKGKNLTR  74
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.145    0.349    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0440    0.140     1.90     42.6     43.6 
+
+Effective search space used: 447910507245
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

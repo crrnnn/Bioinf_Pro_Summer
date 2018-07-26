@@ -1,0 +1,925 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1ufia_
+
+Length=48
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_G5B4U7 Major centromere autoantigen B n=1 Tax=Heteroce...  108     1e-27
+  UniRef90_G1Q0X0 Uncharacterized protein n=6 Tax=Boreoeutheria T...  106     3e-27
+  UniRef90_F1S8B9 Uncharacterized protein n=2 Tax=Sus scrofa TaxI...  106     3e-27
+  UniRef90_F6PI44 Uncharacterized protein n=15 Tax=Boreoeutheria ...  107     7e-27
+  UniRef90_L5M836 Major centromere autoantigen B n=3 Tax=Myotis T...  107     8e-27
+  UniRef90_G3WMU9 Uncharacterized protein n=2 Tax=Sarcophilus har...  105     3e-26
+  UniRef90_M1EJF7 Centromere protein B, 80kDa (Fragment) n=1 Tax=...  105     9e-26
+  UniRef90_UPI00072DEC5A PREDICTED: major centromere autoantigen ...  105     1e-25
+  UniRef90_UPI0003C17123 PREDICTED: major centromere autoantigen ...  105     2e-25
+  UniRef90_UPI00057AC320 PREDICTED: major centromere autoantigen ...  105     2e-25
+  UniRef90_G3UNH8 Uncharacterized protein n=1 Tax=Loxodonta afric...  104     3e-25
+  UniRef90_UPI0002C5563C PREDICTED: major centromere autoantigen ...  105     4e-25
+  UniRef90_UPI00034F4C80 PREDICTED: major centromere autoantigen ...  105     6e-25
+  UniRef90_UPI0005F48A8F PREDICTED: major centromere autoantigen ...  105     6e-25
+  UniRef90_UPI0004F3FE0E PREDICTED: LOW QUALITY PROTEIN: major ce...  105     7e-25
+  UniRef90_F6WYF8 Uncharacterized protein n=2 Tax=Monodelphis dom...  105     7e-25
+  UniRef90_G1LW80 Uncharacterized protein (Fragment) n=16 Tax=Bor...  105     7e-25
+  UniRef90_W5P3Q5 Major centromere autoantigen B (Fragment) n=14 ...  105     7e-25
+  UniRef90_P27790 Major centromere autoantigen B n=26 Tax=Boreoeu...  105     8e-25
+  UniRef90_P07199 Major centromere autoantigen B n=13 Tax=Primate...  105     8e-25
+  UniRef90_I3N785 Uncharacterized protein n=5 Tax=Boreoeutheria T...  105     8e-25
+  UniRef90_UPI0006608BD7 PREDICTED: major centromere autoantigen ...  105     9e-25
+  UniRef90_UPI000333A5AD PREDICTED: major centromere autoantigen ...  103     1e-24
+  UniRef90_H0W8P9 Uncharacterized protein n=1 Tax=Cavia porcellus...  103     2e-24
+  UniRef90_Q71VN3 Centromere protein B (Fragment) n=3 Tax=Euarcho...  95.9    2e-24
+  UniRef90_UPI0003F1731E PREDICTED: major centromere autoantigen ...  103     3e-24
+  UniRef90_F7FE48 Uncharacterized protein (Fragment) n=3 Tax=Bore...  100     7e-24
+  UniRef90_UPI0005405D15 PREDICTED: LOW QUALITY PROTEIN: major ce...  102     7e-24
+  UniRef90_P49451 Major centromere autoantigen B (Fragment) n=2 T...  98.2    1e-23
+  UniRef90_F6WAY4 Uncharacterized protein n=1 Tax=Ornithorhynchus...  100     4e-23
+  UniRef90_UPI0003291E77 PREDICTED: major centromere autoantigen ...  95.9    2e-22
+  UniRef90_S9WSM7 Major centromere autoantigen B-like protein n=1...  95.1    5e-22
+
+
+> UniRef90_G5B4U7 Major centromere autoantigen B n=1 Tax=Heterocephalus 
+glaber TaxID=10181 RepID=G5B4U7_HETGA
+Length=219
+
+ Score = 108 bits (269),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 46/48 (96%), Positives = 47/48 (98%), Gaps = 0/48 (0%)
+
+Query  1    HMPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+             +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  158  EVPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  205
+
+
+> UniRef90_G1Q0X0 Uncharacterized protein n=6 Tax=Boreoeutheria 
+TaxID=1437010 RepID=G1Q0X0_MYOLU
+Length=181
+
+ Score = 106 bits (265),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 46/48 (96%), Positives = 47/48 (98%), Gaps = 0/48 (0%)
+
+Query  1    HMPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+             +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  120  EVPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  167
+
+
+> UniRef90_F1S8B9 Uncharacterized protein n=2 Tax=Sus scrofa TaxID=9823 
+RepID=F1S8B9_PIG
+Length=178
+
+ Score = 106 bits (264),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 46/48 (96%), Positives = 47/48 (98%), Gaps = 0/48 (0%)
+
+Query  1    HMPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+             +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  117  EVPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  164
+
+
+> UniRef90_F6PI44 Uncharacterized protein n=15 Tax=Boreoeutheria 
+TaxID=1437010 RepID=F6PI44_HORSE
+Length=260
+
+ Score = 107 bits (267),  Expect = 7e-27, Method: Compositional matrix adjust.
+ Identities = 46/48 (96%), Positives = 47/48 (98%), Gaps = 0/48 (0%)
+
+Query  1    HMPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+             +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  199  EVPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  246
+
+
+> UniRef90_L5M836 Major centromere autoantigen B n=3 Tax=Myotis 
+TaxID=9434 RepID=L5M836_MYODS
+Length=256
+
+ Score = 107 bits (266),  Expect = 8e-27, Method: Compositional matrix adjust.
+ Identities = 46/48 (96%), Positives = 47/48 (98%), Gaps = 0/48 (0%)
+
+Query  1    HMPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+             +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  195  EVPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  242
+
+
+> UniRef90_G3WMU9 Uncharacterized protein n=2 Tax=Sarcophilus harrisii 
+TaxID=9305 RepID=G3WMU9_SARHA
+Length=228
+
+ Score = 105 bits (261),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  168  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  214
+
+
+> UniRef90_M1EJF7 Centromere protein B, 80kDa (Fragment) n=1 Tax=Mustela 
+putorius furo TaxID=9669 RepID=M1EJF7_MUSPF
+Length=300
+
+ Score = 105 bits (261),  Expect = 9e-26, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  241  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  287
+
+
+> UniRef90_UPI00072DEC5A PREDICTED: major centromere autoantigen 
+B, partial n=1 Tax=Acinonyx jubatus TaxID=32536 RepID=UPI00072DEC5A
+Length=310
+
+ Score = 105 bits (261),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  250  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  296
+
+
+> UniRef90_UPI0003C17123 PREDICTED: major centromere autoantigen 
+B, partial n=1 Tax=Pantholops hodgsonii TaxID=59538 RepID=UPI0003C17123
+Length=412
+
+ Score = 105 bits (261),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  352  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  398
+
+
+> UniRef90_UPI00057AC320 PREDICTED: major centromere autoantigen 
+B n=1 Tax=Camelus bactrianus TaxID=9837 RepID=UPI00057AC320
+Length=422
+
+ Score = 105 bits (261),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  362  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  408
+
+
+> UniRef90_G3UNH8 Uncharacterized protein n=1 Tax=Loxodonta africana 
+TaxID=9785 RepID=G3UNH8_LOXAF
+Length=379
+
+ Score = 104 bits (259),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 45/47 (96%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            MPVP+FGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVT+KN
+Sbjct  319  MPVPTFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTKKN  365
+
+
+> UniRef90_UPI0002C5563C PREDICTED: major centromere autoantigen 
+B n=1 Tax=Odobenus rosmarus divergens TaxID=9708 RepID=UPI0002C5563C
+Length=493
+
+ Score = 105 bits (261),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  433  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  479
+
+
+> UniRef90_UPI00034F4C80 PREDICTED: major centromere autoantigen 
+B n=1 Tax=Heterocephalus glaber TaxID=10181 RepID=UPI00034F4C80
+Length=549
+
+ Score = 105 bits (261),  Expect = 6e-25, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  489  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  535
+
+
+> UniRef90_UPI0005F48A8F PREDICTED: major centromere autoantigen 
+B, partial n=2 Tax=Colobus angolensis palliatus TaxID=336983 
+RepID=UPI0005F48A8F
+Length=560
+
+ Score = 105 bits (261),  Expect = 6e-25, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  500  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  546
+
+
+> UniRef90_UPI0004F3FE0E PREDICTED: LOW QUALITY PROTEIN: major 
+centromere autoantigen B n=2 Tax=Boreoeutheria TaxID=1437010 
+RepID=UPI0004F3FE0E
+Length=581
+
+ Score = 105 bits (261),  Expect = 7e-25, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  521  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  567
+
+
+> UniRef90_F6WYF8 Uncharacterized protein n=2 Tax=Monodelphis domestica 
+TaxID=13616 RepID=F6WYF8_MONDO
+Length=586
+
+ Score = 105 bits (261),  Expect = 7e-25, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  527  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  573
+
+
+> UniRef90_G1LW80 Uncharacterized protein (Fragment) n=16 Tax=Boreoeutheria 
+TaxID=1437010 RepID=G1LW80_AILME
+Length=591
+
+ Score = 105 bits (261),  Expect = 7e-25, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  531  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  577
+
+
+> UniRef90_W5P3Q5 Major centromere autoantigen B (Fragment) n=14 
+Tax=Boreoeutheria TaxID=1437010 RepID=W5P3Q5_SHEEP
+Length=596
+
+ Score = 105 bits (261),  Expect = 7e-25, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  536  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  582
+
+
+> UniRef90_P27790 Major centromere autoantigen B n=26 Tax=Boreoeutheria 
+TaxID=1437010 RepID=CENPB_MOUSE
+Length=599
+
+ Score = 105 bits (261),  Expect = 8e-25, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  539  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  585
+
+
+> UniRef90_P07199 Major centromere autoantigen B n=13 Tax=Primates 
+TaxID=9443 RepID=CENPB_HUMAN
+Length=599
+
+ Score = 105 bits (261),  Expect = 8e-25, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  539  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  585
+
+
+> UniRef90_I3N785 Uncharacterized protein n=5 Tax=Boreoeutheria 
+TaxID=1437010 RepID=I3N785_ICTTR
+Length=626
+
+ Score = 105 bits (261),  Expect = 8e-25, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  544  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  590
+
+
+> UniRef90_UPI0006608BD7 PREDICTED: major centromere autoantigen 
+B n=1 Tax=Mesocricetus auratus TaxID=10036 RepID=UPI0006608BD7
+Length=660
+
+ Score = 105 bits (261),  Expect = 9e-25, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  600  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  646
+
+
+> UniRef90_UPI000333A5AD PREDICTED: major centromere autoantigen 
+B n=1 Tax=Echinops telfairi TaxID=9371 RepID=UPI000333A5AD
+Length=494
+
+ Score = 103 bits (256),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 45/47 (96%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVT+KN
+Sbjct  434  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTKKN  480
+
+
+> UniRef90_H0W8P9 Uncharacterized protein n=1 Tax=Cavia porcellus 
+TaxID=10141 RepID=H0W8P9_CAVPO
+Length=508
+
+ Score = 103 bits (256),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  448  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  494
+
+
+> UniRef90_Q71VN3 Centromere protein B (Fragment) n=3 Tax=Euarchontoglires 
+TaxID=314146 RepID=Q71VN3_HUMAN
+Length=59
+
+ Score = 95.9 bits (237),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  4   VPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+           VPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  1   VPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  45
+
+
+> UniRef90_UPI0003F1731E PREDICTED: major centromere autoantigen 
+B n=4 Tax=Afrotheria TaxID=311790 RepID=UPI0003F1731E
+Length=655
+
+ Score = 103 bits (257),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 45/47 (96%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVT+KN
+Sbjct  595  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTKKN  641
+
+
+> UniRef90_F7FE48 Uncharacterized protein (Fragment) n=3 Tax=Boreoeutheria 
+TaxID=1437010 RepID=F7FE48_CALJA
+Length=439
+
+ Score = 100 bits (250),  Expect = 7e-24, Method: Composition-based stats.
+ Identities = 44/47 (94%), Positives = 46/47 (98%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPS GEAMAYFAMVKRYLTSFPID+RVQSHILHLEHDLVHVTRKN
+Sbjct  379  VPVPSLGEAMAYFAMVKRYLTSFPIDERVQSHILHLEHDLVHVTRKN  425
+
+
+> UniRef90_UPI0005405D15 PREDICTED: LOW QUALITY PROTEIN: major 
+centromere autoantigen B n=1 Tax=Loxodonta africana TaxID=9785 
+RepID=UPI0005405D15
+Length=669
+
+ Score = 102 bits (254),  Expect = 7e-24, Method: Composition-based stats.
+ Identities = 44/47 (94%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVP+FGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVT+KN
+Sbjct  609  VPVPTFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTKKN  655
+
+
+> UniRef90_P49451 Major centromere autoantigen B (Fragment) n=2 
+Tax=Laurasiatheria TaxID=314145 RepID=CENPB_SHEEP
+Length=239
+
+ Score = 98.2 bits (243),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 45/47 (96%), Positives = 46/47 (98%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTS PIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  179  VPVPSFGEAMAYFAMVKRYLTSSPIDDRVQSHILHLEHDLVHVTRKN  225
+
+
+> UniRef90_F6WAY4 Uncharacterized protein n=1 Tax=Ornithorhynchus 
+anatinus TaxID=9258 RepID=F6WAY4_ORNAN
+Length=555
+
+ Score = 100 bits (248),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 43/47 (91%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPID+RVQSHILHLEHDLVHVTR++
+Sbjct  495  VPVPSFGEAMAYFAMVKRYLTSFPIDERVQSHILHLEHDLVHVTRRS  541
+
+
+> UniRef90_UPI0003291E77 PREDICTED: major centromere autoantigen 
+B, partial n=1 Tax=Dasypus novemcinctus TaxID=9361 RepID=UPI0003291E77
+Length=309
+
+ Score = 95.9 bits (237),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 44/47 (94%), Positives = 46/47 (98%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPID RVQSHILHLEHDLVHVTRK+
+Sbjct  249  VPVPSFGEAMAYFAMVKRYLTSFPIDGRVQSHILHLEHDLVHVTRKS  295
+
+
+> UniRef90_S9WSM7 Major centromere autoantigen B-like protein n=1 
+Tax=Camelus ferus TaxID=419612 RepID=S9WSM7_CAMFR
+Length=399
+
+ Score = 95.1 bits (235),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 42/42 (100%), Positives = 42/42 (100%), Gaps = 0/42 (0%)
+
+Query  7    FGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            FGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  344  FGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  385
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.138    0.425    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 452545296435
+Results from round 2
+
+
+Query= d1ufia_
+
+Length=48
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_G3UNH8 Uncharacterized protein n=1 Tax=Loxodonta afric...  104     3e-25
+  UniRef90_UPI00057AC320 PREDICTED: major centromere autoantigen ...  104     3e-25
+  UniRef90_H0W8P9 Uncharacterized protein n=1 Tax=Cavia porcellus...  105     3e-25
+  UniRef90_UPI0002C5563C PREDICTED: major centromere autoantigen ...  104     4e-25
+  UniRef90_UPI0003C17123 PREDICTED: major centromere autoantigen ...  103     5e-25
+  UniRef90_UPI00034F4C80 PREDICTED: major centromere autoantigen ...  104     6e-25
+  UniRef90_UPI0005F48A8F PREDICTED: major centromere autoantigen ...  104     7e-25
+  UniRef90_UPI0004F3FE0E PREDICTED: LOW QUALITY PROTEIN: major ce...  104     8e-25
+  UniRef90_UPI000333A5AD PREDICTED: major centromere autoantigen ...  103     8e-25
+  UniRef90_G1LW80 Uncharacterized protein (Fragment) n=16 Tax=Bor...  104     8e-25
+  UniRef90_W5P3Q5 Major centromere autoantigen B (Fragment) n=14 ...  104     8e-25
+  UniRef90_P27790 Major centromere autoantigen B n=26 Tax=Boreoeu...  104     8e-25
+  UniRef90_P07199 Major centromere autoantigen B n=13 Tax=Primate...  104     8e-25
+  UniRef90_I3N785 Uncharacterized protein n=5 Tax=Boreoeutheria T...  104     9e-25
+  UniRef90_L5M836 Major centromere autoantigen B n=3 Tax=Myotis T...  101     1e-24
+  UniRef90_UPI0006608BD7 PREDICTED: major centromere autoantigen ...  104     1e-24
+  UniRef90_F6WYF8 Uncharacterized protein n=2 Tax=Monodelphis dom...  104     1e-24
+  UniRef90_F6PI44 Uncharacterized protein n=15 Tax=Boreoeutheria ...  100     2e-24
+  UniRef90_UPI0003F1731E PREDICTED: major centromere autoantigen ...  103     2e-24
+  UniRef90_UPI0005405D15 PREDICTED: LOW QUALITY PROTEIN: major ce...  103     3e-24
+  UniRef90_UPI00072DEC5A PREDICTED: major centromere autoantigen ...  100     3e-24
+  UniRef90_F7FE48 Uncharacterized protein (Fragment) n=3 Tax=Bore...  101     4e-24
+  UniRef90_F6WAY4 Uncharacterized protein n=1 Tax=Ornithorhynchus...  102     5e-24
+  UniRef90_G3WMU9 Uncharacterized protein n=2 Tax=Sarcophilus har...  98.9    6e-24
+  UniRef90_P49451 Major centromere autoantigen B (Fragment) n=2 T...  98.1    1e-23
+  UniRef90_M1EJF7 Centromere protein B, 80kDa (Fragment) n=1 Tax=...  98.9    1e-23
+  UniRef90_F1S8B9 Uncharacterized protein n=2 Tax=Sus scrofa TaxI...  96.2    2e-23
+  UniRef90_G1Q0X0 Uncharacterized protein n=6 Tax=Boreoeutheria T...  95.4    5e-23
+  UniRef90_UPI0003291E77 PREDICTED: major centromere autoantigen ...  97.0    9e-23
+  UniRef90_G5B4U7 Major centromere autoantigen B n=1 Tax=Heteroce...  93.1    7e-22
+  UniRef90_S9WSM7 Major centromere autoantigen B-like protein n=1...  94.7    1e-21
+  UniRef90_Q71VN3 Centromere protein B (Fragment) n=3 Tax=Euarcho...  84.3    6e-20
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_G3UNH8 Uncharacterized protein n=1 Tax=Loxodonta africana 
+TaxID=9785 RepID=G3UNH8_LOXAF
+Length=379
+
+ Score = 104 bits (259),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 45/48 (94%), Positives = 47/48 (98%), Gaps = 0/48 (0%)
+
+Query  1    HMPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+             MPVP+FGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVT+KN
+Sbjct  318  DMPVPTFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTKKN  365
+
+
+> UniRef90_UPI00057AC320 PREDICTED: major centromere autoantigen 
+B n=1 Tax=Camelus bactrianus TaxID=9837 RepID=UPI00057AC320
+Length=422
+
+ Score = 104 bits (260),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  362  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  408
+
+
+> UniRef90_H0W8P9 Uncharacterized protein n=1 Tax=Cavia porcellus 
+TaxID=10141 RepID=H0W8P9_CAVPO
+Length=508
+
+ Score = 105 bits (261),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 46/48 (96%), Positives = 47/48 (98%), Gaps = 0/48 (0%)
+
+Query  1    HMPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+             +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  447  EVPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  494
+
+
+> UniRef90_UPI0002C5563C PREDICTED: major centromere autoantigen 
+B n=1 Tax=Odobenus rosmarus divergens TaxID=9708 RepID=UPI0002C5563C
+Length=493
+
+ Score = 104 bits (260),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  433  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  479
+
+
+> UniRef90_UPI0003C17123 PREDICTED: major centromere autoantigen 
+B, partial n=1 Tax=Pantholops hodgsonii TaxID=59538 RepID=UPI0003C17123
+Length=412
+
+ Score = 103 bits (258),  Expect = 5e-25, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  352  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  398
+
+
+> UniRef90_UPI00034F4C80 PREDICTED: major centromere autoantigen 
+B n=1 Tax=Heterocephalus glaber TaxID=10181 RepID=UPI00034F4C80
+Length=549
+
+ Score = 104 bits (260),  Expect = 6e-25, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  489  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  535
+
+
+> UniRef90_UPI0005F48A8F PREDICTED: major centromere autoantigen 
+B, partial n=2 Tax=Colobus angolensis palliatus TaxID=336983 
+RepID=UPI0005F48A8F
+Length=560
+
+ Score = 104 bits (260),  Expect = 7e-25, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  500  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  546
+
+
+> UniRef90_UPI0004F3FE0E PREDICTED: LOW QUALITY PROTEIN: major 
+centromere autoantigen B n=2 Tax=Boreoeutheria TaxID=1437010 
+RepID=UPI0004F3FE0E
+Length=581
+
+ Score = 104 bits (260),  Expect = 8e-25, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  521  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  567
+
+
+> UniRef90_UPI000333A5AD PREDICTED: major centromere autoantigen 
+B n=1 Tax=Echinops telfairi TaxID=9371 RepID=UPI000333A5AD
+Length=494
+
+ Score = 103 bits (258),  Expect = 8e-25, Method: Composition-based stats.
+ Identities = 45/47 (96%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVT+KN
+Sbjct  434  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTKKN  480
+
+
+> UniRef90_G1LW80 Uncharacterized protein (Fragment) n=16 Tax=Boreoeutheria 
+TaxID=1437010 RepID=G1LW80_AILME
+Length=591
+
+ Score = 104 bits (260),  Expect = 8e-25, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  531  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  577
+
+
+> UniRef90_W5P3Q5 Major centromere autoantigen B (Fragment) n=14 
+Tax=Boreoeutheria TaxID=1437010 RepID=W5P3Q5_SHEEP
+Length=596
+
+ Score = 104 bits (260),  Expect = 8e-25, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  536  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  582
+
+
+> UniRef90_P27790 Major centromere autoantigen B n=26 Tax=Boreoeutheria 
+TaxID=1437010 RepID=CENPB_MOUSE
+Length=599
+
+ Score = 104 bits (260),  Expect = 8e-25, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  539  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  585
+
+
+> UniRef90_P07199 Major centromere autoantigen B n=13 Tax=Primates 
+TaxID=9443 RepID=CENPB_HUMAN
+Length=599
+
+ Score = 104 bits (260),  Expect = 8e-25, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  539  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  585
+
+
+> UniRef90_I3N785 Uncharacterized protein n=5 Tax=Boreoeutheria 
+TaxID=1437010 RepID=I3N785_ICTTR
+Length=626
+
+ Score = 104 bits (260),  Expect = 9e-25, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  544  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  590
+
+
+> UniRef90_L5M836 Major centromere autoantigen B n=3 Tax=Myotis 
+TaxID=9434 RepID=L5M836_MYODS
+Length=256
+
+ Score = 101 bits (252),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  196  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  242
+
+
+> UniRef90_UPI0006608BD7 PREDICTED: major centromere autoantigen 
+B n=1 Tax=Mesocricetus auratus TaxID=10036 RepID=UPI0006608BD7
+Length=660
+
+ Score = 104 bits (260),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  600  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  646
+
+
+> UniRef90_F6WYF8 Uncharacterized protein n=2 Tax=Monodelphis domestica 
+TaxID=13616 RepID=F6WYF8_MONDO
+Length=586
+
+ Score = 104 bits (259),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  527  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  573
+
+
+> UniRef90_F6PI44 Uncharacterized protein n=15 Tax=Boreoeutheria 
+TaxID=1437010 RepID=F6PI44_HORSE
+Length=260
+
+ Score = 100 bits (250),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  200  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  246
+
+
+> UniRef90_UPI0003F1731E PREDICTED: major centromere autoantigen 
+B n=4 Tax=Afrotheria TaxID=311790 RepID=UPI0003F1731E
+Length=655
+
+ Score = 103 bits (258),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 45/47 (96%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVT+KN
+Sbjct  595  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTKKN  641
+
+
+> UniRef90_UPI0005405D15 PREDICTED: LOW QUALITY PROTEIN: major 
+centromere autoantigen B n=1 Tax=Loxodonta africana TaxID=9785 
+RepID=UPI0005405D15
+Length=669
+
+ Score = 103 bits (257),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 44/47 (94%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVP+FGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVT+KN
+Sbjct  609  VPVPTFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTKKN  655
+
+
+> UniRef90_UPI00072DEC5A PREDICTED: major centromere autoantigen 
+B, partial n=1 Tax=Acinonyx jubatus TaxID=32536 RepID=UPI00072DEC5A
+Length=310
+
+ Score = 100 bits (250),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  250  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  296
+
+
+> UniRef90_F7FE48 Uncharacterized protein (Fragment) n=3 Tax=Boreoeutheria 
+TaxID=1437010 RepID=F7FE48_CALJA
+Length=439
+
+ Score = 101 bits (252),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 44/47 (94%), Positives = 46/47 (98%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPS GEAMAYFAMVKRYLTSFPID+RVQSHILHLEHDLVHVTRKN
+Sbjct  379  VPVPSLGEAMAYFAMVKRYLTSFPIDERVQSHILHLEHDLVHVTRKN  425
+
+
+> UniRef90_F6WAY4 Uncharacterized protein n=1 Tax=Ornithorhynchus 
+anatinus TaxID=9258 RepID=F6WAY4_ORNAN
+Length=555
+
+ Score = 102 bits (254),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 43/47 (91%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPID+RVQSHILHLEHDLVHVTR++
+Sbjct  495  VPVPSFGEAMAYFAMVKRYLTSFPIDERVQSHILHLEHDLVHVTRRS  541
+
+
+> UniRef90_G3WMU9 Uncharacterized protein n=2 Tax=Sarcophilus harrisii 
+TaxID=9305 RepID=G3WMU9_SARHA
+Length=228
+
+ Score = 98.9 bits (245),  Expect = 6e-24, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  168  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  214
+
+
+> UniRef90_P49451 Major centromere autoantigen B (Fragment) n=2 
+Tax=Laurasiatheria TaxID=314145 RepID=CENPB_SHEEP
+Length=239
+
+ Score = 98.1 bits (243),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 45/47 (96%), Positives = 46/47 (98%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTS PIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  179  VPVPSFGEAMAYFAMVKRYLTSSPIDDRVQSHILHLEHDLVHVTRKN  225
+
+
+> UniRef90_M1EJF7 Centromere protein B, 80kDa (Fragment) n=1 Tax=Mustela 
+putorius furo TaxID=9669 RepID=M1EJF7_MUSPF
+Length=300
+
+ Score = 98.9 bits (245),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  241  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  287
+
+
+> UniRef90_F1S8B9 Uncharacterized protein n=2 Tax=Sus scrofa TaxID=9823 
+RepID=F1S8B9_PIG
+Length=178
+
+ Score = 96.2 bits (238),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  118  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  164
+
+
+> UniRef90_G1Q0X0 Uncharacterized protein n=6 Tax=Boreoeutheria 
+TaxID=1437010 RepID=G1Q0X0_MYOLU
+Length=181
+
+ Score = 95.4 bits (236),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  121  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  167
+
+
+> UniRef90_UPI0003291E77 PREDICTED: major centromere autoantigen 
+B, partial n=1 Tax=Dasypus novemcinctus TaxID=9361 RepID=UPI0003291E77
+Length=309
+
+ Score = 97.0 bits (240),  Expect = 9e-23, Method: Composition-based stats.
+ Identities = 44/47 (94%), Positives = 46/47 (98%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPID RVQSHILHLEHDLVHVTRK+
+Sbjct  249  VPVPSFGEAMAYFAMVKRYLTSFPIDGRVQSHILHLEHDLVHVTRKS  295
+
+
+> UniRef90_G5B4U7 Major centromere autoantigen B n=1 Tax=Heterocephalus 
+glaber TaxID=10181 RepID=G5B4U7_HETGA
+Length=219
+
+ Score = 93.1 bits (230),  Expect = 7e-22, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  2    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  159  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  205
+
+
+> UniRef90_S9WSM7 Major centromere autoantigen B-like protein n=1 
+Tax=Camelus ferus TaxID=419612 RepID=S9WSM7_CAMFR
+Length=399
+
+ Score = 94.7 bits (234),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 42/42 (100%), Positives = 42/42 (100%), Gaps = 0/42 (0%)
+
+Query  7    FGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+            FGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  344  FGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  385
+
+
+> UniRef90_Q71VN3 Centromere protein B (Fragment) n=3 Tax=Euarchontoglires 
+TaxID=314146 RepID=Q71VN3_HUMAN
+Length=59
+
+ Score = 84.3 bits (207),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  4   VPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  48
+           VPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN
+Sbjct  1   VPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN  45
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.142    0.445    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0437    0.140     1.90     42.6     43.6 
+
+Effective search space used: 452545296435
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,121 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1kp6a_
+
+Length=79
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P16948 KP6 killer toxin n=1 Tax=Ustilago maydis P6 vir...  166     1e-49
+
+
+> UniRef90_P16948 KP6 killer toxin n=1 Tax=Ustilago maydis P6 virus 
+TaxID=11010 RepID=KP6T_UMV6
+Length=219
+
+ Score = 166 bits (421),  Expect = 1e-49, Method: Compositional matrix adjust.
+ Identities = 79/79 (100%), Positives = 79/79 (100%), Gaps = 0/79 (0%)
+
+Query  1    NNAFCAGFGLSCKWECWCTAHGTGNELRYATAAGCGDHLSKSYYDARAGHCLFSDDLRNQ  60
+            NNAFCAGFGLSCKWECWCTAHGTGNELRYATAAGCGDHLSKSYYDARAGHCLFSDDLRNQ
+Sbjct  28   NNAFCAGFGLSCKWECWCTAHGTGNELRYATAAGCGDHLSKSYYDARAGHCLFSDDLRNQ  87
+
+Query  61   FYSHCSSLNNNMSCRSLSK  79
+            FYSHCSSLNNNMSCRSLSK
+Sbjct  88   FYSHCSSLNNNMSCRSLSK  106
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.132    0.468    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 441805441165
+Results from round 2
+
+
+Query= d1kp6a_
+
+Length=79
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P16948 KP6 killer toxin n=1 Tax=Ustilago maydis P6 vir...  164     7e-49
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_P16948 KP6 killer toxin n=1 Tax=Ustilago maydis P6 virus 
+TaxID=11010 RepID=KP6T_UMV6
+Length=219
+
+ Score = 164 bits (416),  Expect = 7e-49, Method: Composition-based stats.
+ Identities = 79/79 (100%), Positives = 79/79 (100%), Gaps = 0/79 (0%)
+
+Query  1    NNAFCAGFGLSCKWECWCTAHGTGNELRYATAAGCGDHLSKSYYDARAGHCLFSDDLRNQ  60
+            NNAFCAGFGLSCKWECWCTAHGTGNELRYATAAGCGDHLSKSYYDARAGHCLFSDDLRNQ
+Sbjct  28   NNAFCAGFGLSCKWECWCTAHGTGNELRYATAAGCGDHLSKSYYDARAGHCLFSDDLRNQ  87
+
+Query  61   FYSHCSSLNNNMSCRSLSK  79
+            FYSHCSSLNNNMSCRSLSK
+Sbjct  88   FYSHCSSLNNNMSCRSLSK  106
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.132    0.468    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0420    0.140     1.90     42.6     43.6 
+
+Effective search space used: 441805441165
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

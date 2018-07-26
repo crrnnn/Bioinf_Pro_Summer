@@ -1,0 +1,2189 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1osya_
+
+Length=114
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P80412 Immunomodulatory protein FIP-Fve n=2 Tax=Flammu...  231     7e-76
+  UniRef90_G5CJT8 Fungal immunomodulatory protein n=2 Tax=Agarico...  157     6e-47
+  UniRef90_E7FH75 Immunomodulatory protein n=1 Tax=Ganoderma micr...  150     1e-43
+  UniRef90_P14945 Immunomodulatory protein Ling Zhi-8 n=2 Tax=Gan...  149     2e-43
+  UniRef90_Q52PH4 Immunomodulatory protein n=2 Tax=Ganoderma TaxI...  147     6e-43
+  UniRef90_C7ZE17 Putative uncharacterized protein n=1 Tax=Nectri...  140     4e-40
+  UniRef90_UPI0004410AA3 immunomodulatory protein FIP-Fve n=1 Tax...  139     1e-39
+  UniRef90_UPI00044145E9 immunomodulatory protein n=1 Tax=Dichomi...  134     1e-37
+  UniRef90_A0A084RZK6 Uncharacterized protein n=3 Tax=Stachybotry...  126     1e-34
+  UniRef90_UPI000462318D immunomodulatory protein FIP-Fve n=1 Tax...  113     1e-29
+  UniRef90_A0A0C2WMX8 Uncharacterized protein n=1 Tax=Amanita mus...  107     2e-27
+  UniRef90_A0A0C2WK68 Uncharacterized protein n=1 Tax=Amanita mus...  104     4e-26
+  UniRef90_UPI000462399F Fve family of fungal immunomodulatory pr...  102     2e-25
+  UniRef90_A0A0C5BFA5 Postia placenta isolate Mad-698-R immunomod...  100     2e-24
+  UniRef90_A0A0C2WQ98 Uncharacterized protein n=1 Tax=Amanita mus...  99.8    3e-24
+  UniRef90_A0A067MEZ4 Uncharacterized protein n=1 Tax=Botryobasid...  97.1    3e-23
+  UniRef90_UPI00044111E9 immunomodulatory protein n=1 Tax=Dichomi...  92.0    3e-21
+  UniRef90_M2QVQ0 Lectin FIP-fve n=1 Tax=Ceriporiopsis subvermisp...  90.1    1e-20
+  UniRef90_A0A0H2SFW9 Kinase-like protein n=1 Tax=Schizopora para...  93.6    1e-19
+  UniRef90_M2PWI3 Lectin FIP-fve n=1 Tax=Ceriporiopsis subvermisp...  82.8    3e-17
+  UniRef90_A0A0D2Q4N7 Uncharacterized protein n=1 Tax=Hypholoma s...  81.6    2e-15
+  UniRef90_UPI0004412F0B hypothetical protein AURDEDRAFT_57009 n=...  66.6    2e-11
+  UniRef90_K5W7W1 Uncharacterized protein n=1 Tax=Phanerochaete c...  57.8    9e-09
+  UniRef90_M2R9U0 Uncharacterized protein n=1 Tax=Ceriporiopsis s...  51.2    3e-06
+  UniRef90_A0A0G4DCC8 Immunomodulatory protein n=1 Tax=Bacillus t...  51.6    3e-05
+  UniRef90_J7T287 Uncharacterized protein n=2 Tax=Bacillus cereus...  47.0    0.001
+  UniRef90_J8NAH2 Uncharacterized protein n=1 Tax=Bacillus cereus...  45.8    0.003
+
+
+> UniRef90_P80412 Immunomodulatory protein FIP-Fve n=2 Tax=Flammulina 
+velutipes TaxID=38945 RepID=FVE_FLAVE
+Length=114
+
+ Score = 231 bits (589),  Expect = 7e-76, Method: Compositional matrix adjust.
+ Identities = 114/114 (100%), Positives = 114/114 (100%), Gaps = 0/114 (0%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV
+Sbjct  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEWKKT  114
+            ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEWKKT
+Sbjct  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEWKKT  114
+
+
+> UniRef90_G5CJT8 Fungal immunomodulatory protein n=2 Tax=Agaricomycetes 
+TaxID=155619 RepID=G5CJT8_9APHY
+Length=113
+
+ Score = 157 bits (398),  Expect = 6e-47, Method: Compositional matrix adjust.
+ Identities = 75/111 (68%), Positives = 92/111 (83%), Gaps = 2/111 (2%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            + T+LTF+LA+ VKKI FDYTPNWGRG+PSSYIDNLTFPKVLTDK Y+YRVVV+G DLGV
+Sbjct  4    TVTALTFRLAWEVKKISFDYTPNWGRGSPSSYIDNLTFPKVLTDKAYTYRVVVSGRDLGV  63
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEW  111
+              ++ V   G Q INFL+Y+ GYG+ADT TIQV+VV P TG  +++IIA+W
+Sbjct  64   RPSYEVASDGSQKINFLEYHNGYGIADTNTIQVYVVDPSTG--DDFIIAQW  112
+
+
+> UniRef90_E7FH75 Immunomodulatory protein n=1 Tax=Ganoderma microsporum 
+TaxID=34462 RepID=E7FH75_GANMI
+Length=134
+
+ Score = 150 bits (378),  Expect = 1e-43, Method: Compositional matrix adjust.
+ Identities = 71/111 (64%), Positives = 89/111 (80%), Gaps = 2/111 (2%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            S T+L F LA+ VK++ FDYTPNWGRG PSS+ID +TFP VLTDK Y+YRVVV+G DLGV
+Sbjct  2    SDTALIFTLAWNVKQLAFDYTPNWGRGRPSSFIDTVTFPTVLTDKAYTYRVVVSGKDLGV  61
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEW  111
+              ++AV   G Q INFL+YN GYG+ADT TIQV+V+ PDTGN+  +I+A+W
+Sbjct  62   RPSYAVESDGSQKINFLEYNSGYGIADTNTIQVYVIDPDTGNN--FIVAQW  110
+
+
+> UniRef90_P14945 Immunomodulatory protein Ling Zhi-8 n=2 Tax=Ganoderma 
+lucidum TaxID=5315 RepID=LZ8_GANLU
+Length=111
+
+ Score = 149 bits (375),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Identities = 70/111 (63%), Positives = 90/111 (81%), Gaps = 2/111 (2%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            S T+L F+LA+ VKK+ FDYTPNWGRG P+++ID +TFPKVLTDK Y+YRV V+G +LGV
+Sbjct  2    SDTALIFRLAWDVKKLSFDYTPNWGRGNPNNFIDTVTFPKVLTDKAYTYRVAVSGRNLGV  61
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEW  111
+            + ++AV   G Q +NFL+YN GYG+ADT TIQVFVV PDT N  ++IIA+W
+Sbjct  62   KPSYAVESDGSQKVNFLEYNSGYGIADTNTIQVFVVDPDTNN--DFIIAQW  110
+
+
+> UniRef90_Q52PH4 Immunomodulatory protein n=2 Tax=Ganoderma TaxID=5314 
+RepID=Q52PH4_9APHY
+Length=111
+
+ Score = 147 bits (371),  Expect = 6e-43, Method: Compositional matrix adjust.
+ Identities = 68/111 (61%), Positives = 88/111 (79%), Gaps = 2/111 (2%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            S T+L F+LA+ VKK+ FDYTP WGRG PS ++DN+TFP+VL DK Y+YRVVV+G DLGV
+Sbjct  2    SDTALIFRLAWDVKKLSFDYTPTWGRGNPSRFVDNVTFPQVLADKAYTYRVVVSGRDLGV  61
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEW  111
+              ++AV   G Q +NFL+YN+GYG+ADT TIQVFV+ PDT    ++IIA+W
+Sbjct  62   RPSYAVGSDGSQKVNFLEYNQGYGIADTNTIQVFVIDPDT--DADFIIAQW  110
+
+
+> UniRef90_C7ZE17 Putative uncharacterized protein n=1 Tax=Nectria 
+haematococca (strain 77-13-4 / ATCC MYA-4622 / FGSC 9596 
+/ MPVI) TaxID=660122 RepID=C7ZE17_NECH7
+Length=114
+
+ Score = 140 bits (353),  Expect = 4e-40, Method: Compositional matrix adjust.
+ Identities = 64/110 (58%), Positives = 85/110 (77%), Gaps = 2/110 (2%)
+
+Query  3    TSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVES  62
+            +++ F +    KK+ FDYTPNWGRG+P+SYIDNLTFP+VLT+K Y YRVV  G DLGV  
+Sbjct  7    SAVLFYIVASQKKLSFDYTPNWGRGSPNSYIDNLTFPRVLTNKPYKYRVVKAGQDLGVRD  66
+
+Query  63   NFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEWK  112
+            +++V   G Q +NFL+YN G G+ADT+TIQV+VV PD GN  +Y++A+WK
+Sbjct  67   SYSVQSDGSQKVNFLEYNAGRGIADTQTIQVYVVDPDNGN--QYLVAQWK  114
+
+
+> UniRef90_UPI0004410AA3 immunomodulatory protein FIP-Fve n=1 Tax=Dichomitus 
+squalens (strain LYAD-421) TaxID=732165 RepID=UPI0004410AA3
+Length=115
+
+ Score = 139 bits (350),  Expect = 1e-39, Method: Compositional matrix adjust.
+ Identities = 64/110 (58%), Positives = 85/110 (77%), Gaps = 2/110 (2%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            ++T++TF L +  KK+ FDYTPNW RG PSSY+DN+ FPKVLTDKKYSYRV+V+G DLGV
+Sbjct  6    NSTAITFALVWAEKKLTFDYTPNWVRGHPSSYVDNVVFPKVLTDKKYSYRVLVSGKDLGV  65
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAE  110
+               ++V   G Q +NFL+YN G G+AD+ TIQV+ V PD GN+  Y++A+
+Sbjct  66   RDGYSVQSDGSQKVNFLEYNAGRGIADSNTIQVYAVDPDDGNN--YLVAQ  113
+
+
+> UniRef90_UPI00044145E9 immunomodulatory protein n=1 Tax=Dichomitus 
+squalens (strain LYAD-421) TaxID=732165 RepID=UPI00044145E9
+Length=111
+
+ Score = 134 bits (336),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 57/109 (52%), Positives = 82/109 (75%), Gaps = 2/109 (2%)
+
+Query  3    TSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVES  62
+            TS+   LA   +++ FDYTP WGRG+P+SY+DN+TFP VL DK Y YRV+V   DLG+  
+Sbjct  4    TSVLLALAAQHQRVHFDYTPAWGRGSPASYVDNVTFPHVLDDKAYQYRVIVGDKDLGLRK  63
+
+Query  63   NFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEW  111
+            ++++ P G Q +NFL+YN GYG+AD+  I+V+VV P++GN  +Y+IA+W
+Sbjct  64   SYSIQPDGSQKVNFLEYNGGYGIADSNRIRVYVVDPESGN--QYLIAQW  110
+
+
+> UniRef90_A0A084RZK6 Uncharacterized protein n=3 Tax=Stachybotrys 
+TaxID=74721 RepID=A0A084RZK6_STACH
+Length=112
+
+ Score = 126 bits (317),  Expect = 1e-34, Method: Compositional matrix adjust.
+ Identities = 56/100 (56%), Positives = 76/100 (76%), Gaps = 2/100 (2%)
+
+Query  13   VKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQ  72
+            V KI+ DYTPNWGRG+PSSYIDN+ FP+VLTD++Y YRVV   +DLGV   +A+   G Q
+Sbjct  15   VGKINVDYTPNWGRGSPSSYIDNVKFPRVLTDRQYKYRVVKGSTDLGVRDAYAIESDGSQ  74
+
+Query  73   TINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEWK  112
+             INFL+YN G G+ D+ TI++++V PDTGN  + ++ +WK
+Sbjct  75   KINFLEYNSGRGIEDSTTIKIYIVEPDTGN--QSLLVQWK  112
+
+
+> UniRef90_UPI000462318D immunomodulatory protein FIP-Fve n=1 Tax=Trametes 
+versicolor (strain FP-101664) TaxID=717944 RepID=UPI000462318D
+Length=114
+
+ Score = 113 bits (283),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 50/111 (45%), Positives = 76/111 (68%), Gaps = 2/111 (2%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            S +S+    A  + K+ FDYTP+WG G P++YIDN+TFP+VLTDK+Y+YRV  + + LG+
+Sbjct  5    SPSSVLLHFASTLGKVHFDYTPHWGHGNPNTYIDNVTFPRVLTDKQYTYRVCWDETSLGI  64
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEW  111
+            ++  AV   G Q ++F Q+N G G+     I+V+VV PD G   +Y++A+W
+Sbjct  65   KNALAVQSDGSQMLDFGQWNCGRGINQMHRIRVYVVDPDNG--SQYLVAQW  113
+
+
+> UniRef90_A0A0C2WMX8 Uncharacterized protein n=1 Tax=Amanita muscaria 
+Koide BX008 TaxID=946122 RepID=A0A0C2WMX8_AMAMU
+Length=114
+
+ Score = 107 bits (268),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 55/97 (57%), Positives = 66/97 (68%), Gaps = 1/97 (1%)
+
+Query  5    LTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNF  64
+            L F L   VKKIDFDYTPN+ R T S Y D +TFPKVLTDK Y Y+VVV+G D G   +F
+Sbjct  10   LAFLLVSQVKKIDFDYTPNYYRPT-SGYTDAVTFPKVLTDKAYEYKVVVDGVDKGTRRDF  68
+
+Query  65   AVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTG  101
+            +V P G Q +NFL YN G G+    +IQV+ V P+TG
+Sbjct  69   SVAPDGSQKVNFLAYNAGLGIPTGSSIQVYAVDPNTG  105
+
+
+> UniRef90_A0A0C2WK68 Uncharacterized protein n=1 Tax=Amanita muscaria 
+Koide BX008 TaxID=946122 RepID=A0A0C2WK68_AMAMU
+Length=114
+
+ Score = 104 bits (260),  Expect = 4e-26, Method: Compositional matrix adjust.
+ Identities = 53/97 (55%), Positives = 65/97 (67%), Gaps = 1/97 (1%)
+
+Query  5    LTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNF  64
+            L F L   VKKIDFDYTP++ R T S Y D +TFPKVL +K Y Y+VVV+G   G+  + 
+Sbjct  10   LVFLLVSQVKKIDFDYTPHYYRPT-SGYTDAVTFPKVLANKAYKYQVVVDGVSKGIRRDH  68
+
+Query  65   AVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTG  101
+            AV P G Q INFL YN GYG+ +  + QV+ V PDTG
+Sbjct  69   AVAPDGSQKINFLDYNAGYGIPNKSSTQVYAVDPDTG  105
+
+
+> UniRef90_UPI000462399F Fve family of fungal immunomodulatory 
+protein n=1 Tax=Trametes versicolor (strain FP-101664) TaxID=717944 
+RepID=UPI000462399F
+Length=112
+
+ Score = 102 bits (255),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 47/98 (48%), Positives = 66/98 (67%), Gaps = 2/98 (2%)
+
+Query  13   VKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQ  72
+            ++K+ FDYTP W R      I ++TFP VL DK+YSYRVV   SDLG+ S   V   G +
+Sbjct  15   LRKVHFDYTPQWTRDAAQRDITSVTFPCVLVDKRYSYRVVCEDSDLGIRSGTGVYAGGSE  74
+
+Query  73   TINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAE  110
+            T+NFL+YN G G++ T  ++V+VV PD+GN  +Y+ A+
+Sbjct  75   TVNFLEYNHGRGISQTHRLRVYVVDPDSGN--QYLDAQ  110
+
+
+> UniRef90_A0A0C5BFA5 Postia placenta isolate Mad-698-R immunomodulatory 
+protein FIP-ppl mRNA (Fragment) n=1 Tax=Postia placenta 
+TaxID=104341 RepID=A0A0C5BFA5_9APHY
+Length=124
+
+ Score = 100 bits (249),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 47/92 (51%), Positives = 61/92 (66%), Gaps = 4/92 (4%)
+
+Query  16   IDFDYTPNWGR---GTPSS-YIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGG  71
+            +DFDYTP W R   G P   Y+D +TFPKVL DK+Y YRVV   +DLG+   + V   G 
+Sbjct  26   VDFDYTPKWKRVEWGAPGQFYLDEVTFPKVLKDKRYKYRVVSGSTDLGIREPYDVQADGS  85
+
+Query  72   QTINFLQYNKGYGVADTKTIQVFVVIPDTGNS  103
+            Q INFL+YN+GYG+ DT T+ V++V P+T   
+Sbjct  86   QRINFLEYNQGYGIRDTNTVTVYLVDPETATE  117
+
+
+> UniRef90_A0A0C2WQ98 Uncharacterized protein n=1 Tax=Amanita muscaria 
+Koide BX008 TaxID=946122 RepID=A0A0C2WQ98_AMAMU
+Length=114
+
+ Score = 99.8 bits (247),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 49/105 (47%), Positives = 70/105 (67%), Gaps = 2/105 (2%)
+
+Query  4    SLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESN  63
+            +L F L   +KKI FDYTPN+ R  P  + D +TFPKVL DK Y Y+V+V+G   G+  +
+Sbjct  9    ALAFLLVSQIKKIHFDYTPNYYRPMPG-FTDAVTFPKVLADKAYEYQVIVDGVSKGIRRD  67
+
+Query  64   FAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYII  108
+            ++V P G Q +NFL YN+G+G+ ++   QV+VV P+T N   YI+
+Sbjct  68   YSVAPDGSQKVNFLGYNEGHGILNSSNTQVYVVDPET-NIAYYIL  111
+
+
+> UniRef90_A0A067MEZ4 Uncharacterized protein n=1 Tax=Botryobasidium 
+botryosum FD-172 SS1 TaxID=930990 RepID=A0A067MEZ4_9HOMO
+Length=112
+
+ Score = 97.1 bits (240),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 52/111 (47%), Positives = 73/111 (66%), Gaps = 5/111 (5%)
+
+Query  3    TSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVES  62
+            T+  F L   + K+ +DYTPNW +     YI+++TF KVL DK Y+YRV+    DLGV+ 
+Sbjct  6    TAQIFHLVASLPKLSYDYTPNWVK--DRQYINSVTFAKVLADKAYTYRVMAGDKDLGVKP  63
+
+Query  63   NFAVTPSGGQTINFLQYNKGYGV-ADTKTIQVFVVIPDTGNSEEYIIAEWK  112
+            ++AV   G Q INFL+YN GYG+  +  T+ V+VV P+TGN  +Y IA+ K
+Sbjct  64   SYAVGSDGSQKINFLEYNGGYGIDGNANTVYVYVVDPETGN--QYKIAQSK  112
+
+
+> UniRef90_UPI00044111E9 immunomodulatory protein n=1 Tax=Dichomitus 
+squalens (strain LYAD-421) TaxID=732165 RepID=UPI00044111E9
+Length=123
+
+ Score = 92.0 bits (227),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 51/108 (47%), Positives = 67/108 (62%), Gaps = 4/108 (4%)
+
+Query  3    TSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVES  62
+            T+  F L +   KI FDYTP+W  G P  YI+ + FPKVLTDK YSYRV  +  D GV +
+Sbjct  7    TATIFALVWTQTKICFDYTPDWIDGGPR-YINGVVFPKVLTDKNYSYRVESD-RDYGVRA  64
+
+Query  63   NFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAE  110
+             + V   G Q +NFL YN G G+   + I+V+VV PD G +  Y++AE
+Sbjct  65   GYQVQADGSQKVNFLDYNYGLGIEPYRGIKVYVVDPDDGKN--YLVAE  110
+
+
+> UniRef90_M2QVQ0 Lectin FIP-fve n=1 Tax=Ceriporiopsis subvermispora 
+(strain B) TaxID=914234 RepID=M2QVQ0_CERS8
+Length=113
+
+ Score = 90.1 bits (222),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 44/89 (49%), Positives = 54/89 (61%), Gaps = 2/89 (2%)
+
+Query  24   WGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNKGY  83
+            W RG P  Y D++T P V TDK Y YRVV    DLG    + +   G QTIN L+YNKGY
+Sbjct  16   WKRGNPKVYFDHVTLPGVPTDKAYQYRVVKGDLDLGTRPTYELNKDGSQTINLLEYNKGY  75
+
+Query  84   GVADTKTIQVFVVIPDTGNSEEYIIAEWK  112
+            G+ +   I VFVV P+ G   E ++AEWK
+Sbjct  76   GIHEETPINVFVVDPEDGM--ETLVAEWK  102
+
+
+> UniRef90_A0A0H2SFW9 Kinase-like protein n=1 Tax=Schizopora paradoxa 
+TaxID=27342 RepID=A0A0H2SFW9_9HOMO
+Length=666
+
+ Score = 93.6 bits (231),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 44/95 (46%), Positives = 60/95 (63%), Gaps = 3/95 (3%)
+
+Query  22   PNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNK  81
+            P W RG PS YID LT P + +DK+Y YRVV   +DLG++  +     G Q IN L+YN+
+Sbjct  570  PTWKRGNPSIYIDELTIPLLPSDKQYQYRVVKGDTDLGIKETYPREIGGSQRINLLEYNE  629
+
+Query  82   GYGVADTKTIQVFVVIP--DTGNSEEYIIAEWKKT  114
+            GYG+ DT  I+V+ V P  + GN E  ++A W K+
+Sbjct  630  GYGIQDTVPIKVYAVDPEEEEGNRET-LVASWSKS  663
+
+
+> UniRef90_M2PWI3 Lectin FIP-fve n=1 Tax=Ceriporiopsis subvermispora 
+(strain B) TaxID=914234 RepID=M2PWI3_CERS8
+Length=168
+
+ Score = 82.8 bits (203),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 36/89 (40%), Positives = 57/89 (64%), Gaps = 2/89 (2%)
+
+Query  24   WGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNKGY  83
+            W RG P+ Y+D++T P+V  DK Y  RV+ +  DLG++    +   G QTIN  +YNK Y
+Sbjct  45   WKRGNPTDYVDHVTLPRVPADKIYQCRVMKSNLDLGIQPTHPLNEDGSQTINLTEYNKRY  104
+
+Query  84   GVADTKTIQVFVVIPDTGNSEEYIIAEWK  112
+            G+ DT+ I+V+V+  D  ++ E  +A+W+
+Sbjct  105  GIHDTQNIKVYVI--DPADNTEKPVAKWE  131
+
+
+> UniRef90_A0A0D2Q4N7 Uncharacterized protein n=1 Tax=Hypholoma 
+sublateritium FD-334 SS-4 TaxID=945553 RepID=A0A0D2Q4N7_9AGAR
+Length=668
+
+ Score = 81.6 bits (200),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 42/89 (47%), Positives = 57/89 (64%), Gaps = 6/89 (7%)
+
+Query  23   NWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNKG  82
+            NWG     +Y+D +T P VL DK Y YRV    SDLG+   + ++  G Q INFL+YNKG
+Sbjct  360  NWG---ARNYVDEVTLPFVLIDKPYRYRVRSGISDLGIRETYELSADGSQRINFLEYNKG  416
+
+Query  83   YGVADTKTIQVFVVIPDTGNSEEYIIAEW  111
+            YG+ D+  I++FVV P+ GN  E ++A W
+Sbjct  417  YGIIDSMHIKIFVVDPE-GN--EALVAYW  442
+
+
+ Score = 44.7 bits (104),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 25/72 (35%), Positives = 39/72 (54%), Gaps = 0/72 (0%)
+
+Query  28   TPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNKGYGVAD  87
+            T SS + +++   VL +K Y  R++ +G+DLGV     +T      I+  +YN G G+  
+Sbjct  469  TDSSLVLSVSINHVLNNKDYMLRIMRDGADLGVHPAGPLTADKTLNIDLTKYNDGQGLPV  528
+
+Query  88   TKTIQVFVVIPD  99
+               I+V VV PD
+Sbjct  529  QSLIKVLVVDPD  540
+
+
+> UniRef90_UPI0004412F0B hypothetical protein AURDEDRAFT_57009 
+n=1 Tax=Auricularia subglabra (strain TFB-10046 / SS5) TaxID=717982 
+RepID=UPI0004412F0B
+Length=148
+
+ Score = 66.6 bits (161),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 32/95 (34%), Positives = 54/95 (57%), Gaps = 6/95 (6%)
+
+Query  24   WGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNKGY  83
+            W RG  + +ID L  P+      Y YRV+ + +DLGV   + +   G Q +N L+YN+GY
+Sbjct  50   WKRGDSNVHIDRLVIPQPPGGGTYLYRVLKDETDLGVRPTYLLEADGSQVVNLLEYNQGY  109
+
+Query  84   GVADTKTIQVFVVIPDTGNSEEYIIAE-----WKK  113
+            G+ D++ ++VFV   +  +  E +IA+     W++
+Sbjct  110  GIHDSRRVRVFVG-EEGSDGREILIADRTSGAWRR  143
+
+
+> UniRef90_K5W7W1 Uncharacterized protein n=1 Tax=Phanerochaete 
+carnosa (strain HHB-10118-sp) TaxID=650164 RepID=K5W7W1_PHACS
+Length=72
+
+ Score = 57.8 bits (138),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 34/111 (31%), Positives = 48/111 (43%), Gaps = 43/111 (39%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            S+++  F L  ++ ++ FDYTP+W RG P+SYID +  P                     
+Sbjct  4    SSSAALFYLVQIMSRVCFDYTPDWQRGNPNSYIDMVKLP---------------------  42
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEW  111
+                                KGYGV    TIQ++ V PD GN  +Y+IA W
+Sbjct  43   --------------------KGYGVEQGSTIQIYAVDPDDGN--QYLIARW  71
+
+
+> UniRef90_M2R9U0 Uncharacterized protein n=1 Tax=Ceriporiopsis 
+subvermispora (strain B) TaxID=914234 RepID=M2R9U0_CERS8
+Length=88
+
+ Score = 51.2 bits (121),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 23/57 (40%), Positives = 31/57 (54%), Gaps = 0/57 (0%)
+
+Query  22  PNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQ  78
+           P W RG P+ Y+D +T P    DK   YRV+ +G+DLGV     +   G QT+   Q
+Sbjct  8   PVWRRGNPTIYVDYVTIPHAPADKVCQYRVIKSGTDLGVRPTQPLNEDGSQTVKLRQ  64
+
+
+> UniRef90_A0A0G4DCC8 Immunomodulatory protein n=1 Tax=Bacillus 
+thuringiensis subsp. tolworthi TaxID=1442 RepID=A0A0G4DCC8_BACTO
+Length=726
+
+ Score = 51.6 bits (122),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 39/95 (41%), Positives = 51/95 (54%), Gaps = 8/95 (8%)
+
+Query  20   YTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQ-  78
+            +  NW   T S Y+D +TF +V   KK  YRVV+NG+D+G    +     G  TI F Q 
+Sbjct  598  HIKNWE--TTSYYVDGITFSEVPQGKKMKYRVVLNGNDIGTSYPYQTNGKGTDTILFTQD  655
+
+Query  79   -YN-KGYGVAD-TKTIQVFVVIPDTGNSEEYIIAE  110
+             Y+  G+GV+     I VF + PDTG   EY IA 
+Sbjct  656  YYDMDGWGVSKYDNHIVVFAIDPDTG--LEYEIAH  688
+
+
+> UniRef90_J7T287 Uncharacterized protein n=2 Tax=Bacillus cereus 
+TaxID=1396 RepID=J7T287_BACCE
+Length=888
+
+ Score = 47.0 bits (110),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 31/102 (30%), Positives = 55/102 (54%), Gaps = 15/102 (15%)
+
+Query  13   VKKIDFDYTPNWGRGTPSSYIDNLTFPKV---LTDKKYSYRVVVNGSDL--GVESNFAVT  67
+            ++KI  D T  WG  + S+Y++ + F  +   + D+  +YRVV  G+ +  G++ +F VT
+Sbjct  775  IQKIYKDTTELWGEDSGSTYLNGVLFKNIEPFMGDQVKAYRVVYQGARIPSGIDESFDVT  834
+
+Query  68   P-------SGGQTINFLQYNKGYG---VADTKTIQVFVVIPD  99
+                     G   +NFL+YNKG G   +    +I+++ V+ D
+Sbjct  835  KPAYAYNKDGSVKVNFLEYNKGMGIDFIPTIDSIRIYAVLTD  876
+
+
+> UniRef90_J8NAH2 Uncharacterized protein n=1 Tax=Bacillus cereus 
+VDM034 TaxID=1053248 RepID=J8NAH2_BACCE
+Length=898
+
+ Score = 45.8 bits (107),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 25/77 (32%), Positives = 44/77 (57%), Gaps = 7/77 (9%)
+
+Query  20   YTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQY  79
+            YTP       S Y+D + F K +   K  Y++ ++G    + S+     +G + +NFL++
+Sbjct  705  YTPR------SQYVDGVNFSK-MPATKVRYQLEIDGKLTEIRSDAVSDANGNRLVNFLKF  757
+
+Query  80   NKGYGVADTKTIQVFVV  96
+            N G+G++ TK I+V+VV
+Sbjct  758  NAGHGISYTKNIKVYVV  774
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.134    0.395    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 448903755465
+Results from round 2
+
+
+Query= d1osya_
+
+Length=114
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_E7FH75 Immunomodulatory protein n=1 Tax=Ganoderma micr...  169     2e-51
+  UniRef90_P80412 Immunomodulatory protein FIP-Fve n=2 Tax=Flammu...  169     3e-51
+  UniRef90_P14945 Immunomodulatory protein Ling Zhi-8 n=2 Tax=Gan...  168     5e-51
+  UniRef90_Q52PH4 Immunomodulatory protein n=2 Tax=Ganoderma TaxI...  167     9e-51
+  UniRef90_G5CJT8 Fungal immunomodulatory protein n=2 Tax=Agarico...  167     2e-50
+  UniRef90_C7ZE17 Putative uncharacterized protein n=1 Tax=Nectri...  165     7e-50
+  UniRef90_UPI00044145E9 immunomodulatory protein n=1 Tax=Dichomi...  163     4e-49
+  UniRef90_UPI0004410AA3 immunomodulatory protein FIP-Fve n=1 Tax...  162     1e-48
+  UniRef90_UPI000462318D immunomodulatory protein FIP-Fve n=1 Tax...  158     3e-47
+  UniRef90_A0A084RZK6 Uncharacterized protein n=3 Tax=Stachybotry...  149     1e-43
+  UniRef90_UPI00044111E9 immunomodulatory protein n=1 Tax=Dichomi...  135     4e-38
+  UniRef90_UPI000462399F Fve family of fungal immunomodulatory pr...  134     6e-38
+  UniRef90_A0A0C2WQ98 Uncharacterized protein n=1 Tax=Amanita mus...  133     3e-37
+  UniRef90_A0A067MEZ4 Uncharacterized protein n=1 Tax=Botryobasid...  132     8e-37
+  UniRef90_A0A0C2WMX8 Uncharacterized protein n=1 Tax=Amanita mus...  131     1e-36
+  UniRef90_A0A0C2WK68 Uncharacterized protein n=1 Tax=Amanita mus...  130     4e-36
+  UniRef90_M2QVQ0 Lectin FIP-fve n=1 Tax=Ceriporiopsis subvermisp...  129     5e-36
+  UniRef90_A0A0H2SFW9 Kinase-like protein n=1 Tax=Schizopora para...  136     5e-35
+  UniRef90_A0A0C5BFA5 Postia placenta isolate Mad-698-R immunomod...  123     3e-33
+  UniRef90_M2PWI3 Lectin FIP-fve n=1 Tax=Ceriporiopsis subvermisp...  124     3e-33
+  UniRef90_A0A0D2Q4N7 Uncharacterized protein n=1 Tax=Hypholoma s...  118     2e-28
+  UniRef90_UPI0004412F0B hypothetical protein AURDEDRAFT_57009 n=...  108     4e-27
+  UniRef90_K5W7W1 Uncharacterized protein n=1 Tax=Phanerochaete c...  93.6    3e-22
+  UniRef90_M2R9U0 Uncharacterized protein n=1 Tax=Ceriporiopsis s...  81.3    2e-17
+  UniRef90_A0A0G4DCC8 Immunomodulatory protein n=1 Tax=Bacillus t...  87.0    2e-17
+  UniRef90_J7T287 Uncharacterized protein n=2 Tax=Bacillus cereus...  85.5    1e-16
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_J8NAH2 Uncharacterized protein n=1 Tax=Bacillus cereus...  62.8    6e-09
+  UniRef90_A0A193D1V7 Uncharacterized protein n=1 Tax=Bacillus th...  58.9    1e-07
+  UniRef90_A0A1B2DME3 Uncharacterized protein n=1 Tax=Paenibacill...  58.2    2e-07
+  UniRef90_R8TMK4 Uncharacterized protein (Fragment) n=1 Tax=Baci...  57.8    2e-07
+  UniRef90_N1LNI9 Uncharacterized protein n=1 Tax=Bacillus sp. Ge...  57.0    5e-07
+  UniRef90_UPI00040EDA99 Iota toxin protein Ib n=1 Tax=Bacillus t...  56.2    1e-06
+  UniRef90_J8NYG1 Uncharacterized protein n=1 Tax=Bacillus cereus...  54.3    4e-06
+  UniRef90_N1LHK0 Hemolysin BL binding component n=1 Tax=Bacillus...  53.5    7e-06
+  UniRef90_UPI0009475088 UPI0009475088 related cluster n=1 Tax=un...  48.9    2e-04
+  UniRef90_A0A139ZL18 Vip1-02 n=1 Tax=Bacillus thuringiensis TaxI...  47.8    5e-04
+  UniRef90_A0A150CLR1 Uncharacterized protein n=1 Tax=Bacillus ce...  47.0    0.001
+  UniRef90_V9I0N3 Vip4 n=2 Tax=Bacillus thuringiensis TaxID=1428 ...  45.8    0.002
+  UniRef90_A0A0J7D8D3 Iota toxin protein Ib n=3 Tax=Bacillus cere...  45.1    0.004
+  UniRef90_B3ZYH5 Clostridial binary toxin B/anthrax toxin PA fam...  44.3    0.007
+
+
+> UniRef90_E7FH75 Immunomodulatory protein n=1 Tax=Ganoderma microsporum 
+TaxID=34462 RepID=E7FH75_GANMI
+Length=134
+
+ Score = 169 bits (429),  Expect = 2e-51, Method: Composition-based stats.
+ Identities = 71/111 (64%), Positives = 89/111 (80%), Gaps = 2/111 (2%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            S T+L F LA+ VK++ FDYTPNWGRG PSS+ID +TFP VLTDK Y+YRVVV+G DLGV
+Sbjct  2    SDTALIFTLAWNVKQLAFDYTPNWGRGRPSSFIDTVTFPTVLTDKAYTYRVVVSGKDLGV  61
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEW  111
+              ++AV   G Q INFL+YN GYG+ADT TIQV+V+ PDTGN+  +I+A+W
+Sbjct  62   RPSYAVESDGSQKINFLEYNSGYGIADTNTIQVYVIDPDTGNN--FIVAQW  110
+
+
+> UniRef90_P80412 Immunomodulatory protein FIP-Fve n=2 Tax=Flammulina 
+velutipes TaxID=38945 RepID=FVE_FLAVE
+Length=114
+
+ Score = 169 bits (427),  Expect = 3e-51, Method: Composition-based stats.
+ Identities = 114/114 (100%), Positives = 114/114 (100%), Gaps = 0/114 (0%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV
+Sbjct  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEWKKT  114
+            ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEWKKT
+Sbjct  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEWKKT  114
+
+
+> UniRef90_P14945 Immunomodulatory protein Ling Zhi-8 n=2 Tax=Ganoderma 
+lucidum TaxID=5315 RepID=LZ8_GANLU
+Length=111
+
+ Score = 168 bits (425),  Expect = 5e-51, Method: Composition-based stats.
+ Identities = 70/111 (63%), Positives = 90/111 (81%), Gaps = 2/111 (2%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            S T+L F+LA+ VKK+ FDYTPNWGRG P+++ID +TFPKVLTDK Y+YRV V+G +LGV
+Sbjct  2    SDTALIFRLAWDVKKLSFDYTPNWGRGNPNNFIDTVTFPKVLTDKAYTYRVAVSGRNLGV  61
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEW  111
+            + ++AV   G Q +NFL+YN GYG+ADT TIQVFVV PDT N  ++IIA+W
+Sbjct  62   KPSYAVESDGSQKVNFLEYNSGYGIADTNTIQVFVVDPDTNN--DFIIAQW  110
+
+
+> UniRef90_Q52PH4 Immunomodulatory protein n=2 Tax=Ganoderma TaxID=5314 
+RepID=Q52PH4_9APHY
+Length=111
+
+ Score = 167 bits (423),  Expect = 9e-51, Method: Composition-based stats.
+ Identities = 68/111 (61%), Positives = 88/111 (79%), Gaps = 2/111 (2%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            S T+L F+LA+ VKK+ FDYTP WGRG PS ++DN+TFP+VL DK Y+YRVVV+G DLGV
+Sbjct  2    SDTALIFRLAWDVKKLSFDYTPTWGRGNPSRFVDNVTFPQVLADKAYTYRVVVSGRDLGV  61
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEW  111
+              ++AV   G Q +NFL+YN+GYG+ADT TIQVFV+ PDT    ++IIA+W
+Sbjct  62   RPSYAVGSDGSQKVNFLEYNQGYGIADTNTIQVFVIDPDT--DADFIIAQW  110
+
+
+> UniRef90_G5CJT8 Fungal immunomodulatory protein n=2 Tax=Agaricomycetes 
+TaxID=155619 RepID=G5CJT8_9APHY
+Length=113
+
+ Score = 167 bits (422),  Expect = 2e-50, Method: Composition-based stats.
+ Identities = 75/111 (68%), Positives = 92/111 (83%), Gaps = 2/111 (2%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            + T+LTF+LA+ VKKI FDYTPNWGRG+PSSYIDNLTFPKVLTDK Y+YRVVV+G DLGV
+Sbjct  4    TVTALTFRLAWEVKKISFDYTPNWGRGSPSSYIDNLTFPKVLTDKAYTYRVVVSGRDLGV  63
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEW  111
+              ++ V   G Q INFL+Y+ GYG+ADT TIQV+VV P TG+  ++IIA+W
+Sbjct  64   RPSYEVASDGSQKINFLEYHNGYGIADTNTIQVYVVDPSTGD--DFIIAQW  112
+
+
+> UniRef90_C7ZE17 Putative uncharacterized protein n=1 Tax=Nectria 
+haematococca (strain 77-13-4 / ATCC MYA-4622 / FGSC 9596 
+/ MPVI) TaxID=660122 RepID=C7ZE17_NECH7
+Length=114
+
+ Score = 165 bits (418),  Expect = 7e-50, Method: Composition-based stats.
+ Identities = 64/112 (57%), Positives = 86/112 (77%), Gaps = 2/112 (2%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            + +++ F +    KK+ FDYTPNWGRG+P+SYIDNLTFP+VLT+K Y YRVV  G DLGV
+Sbjct  5    NDSAVLFYIVASQKKLSFDYTPNWGRGSPNSYIDNLTFPRVLTNKPYKYRVVKAGQDLGV  64
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEWK  112
+              +++V   G Q +NFL+YN G G+ADT+TIQV+VV PD GN  +Y++A+WK
+Sbjct  65   RDSYSVQSDGSQKVNFLEYNAGRGIADTQTIQVYVVDPDNGN--QYLVAQWK  114
+
+
+> UniRef90_UPI00044145E9 immunomodulatory protein n=1 Tax=Dichomitus 
+squalens (strain LYAD-421) TaxID=732165 RepID=UPI00044145E9
+Length=111
+
+ Score = 163 bits (413),  Expect = 4e-49, Method: Composition-based stats.
+ Identities = 57/110 (52%), Positives = 82/110 (75%), Gaps = 2/110 (2%)
+
+Query  2    ATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVE  61
+             TS+   LA   +++ FDYTP WGRG+P+SY+DN+TFP VL DK Y YRV+V   DLG+ 
+Sbjct  3    DTSVLLALAAQHQRVHFDYTPAWGRGSPASYVDNVTFPHVLDDKAYQYRVIVGDKDLGLR  62
+
+Query  62   SNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEW  111
+             ++++ P G Q +NFL+YN GYG+AD+  I+V+VV P++GN  +Y+IA+W
+Sbjct  63   KSYSIQPDGSQKVNFLEYNGGYGIADSNRIRVYVVDPESGN--QYLIAQW  110
+
+
+> UniRef90_UPI0004410AA3 immunomodulatory protein FIP-Fve n=1 Tax=Dichomitus 
+squalens (strain LYAD-421) TaxID=732165 RepID=UPI0004410AA3
+Length=115
+
+ Score = 162 bits (410),  Expect = 1e-48, Method: Composition-based stats.
+ Identities = 64/110 (58%), Positives = 85/110 (77%), Gaps = 2/110 (2%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            ++T++TF L +  KK+ FDYTPNW RG PSSY+DN+ FPKVLTDKKYSYRV+V+G DLGV
+Sbjct  6    NSTAITFALVWAEKKLTFDYTPNWVRGHPSSYVDNVVFPKVLTDKKYSYRVLVSGKDLGV  65
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAE  110
+               ++V   G Q +NFL+YN G G+AD+ TIQV+ V PD GN+  Y++A+
+Sbjct  66   RDGYSVQSDGSQKVNFLEYNAGRGIADSNTIQVYAVDPDDGNN--YLVAQ  113
+
+
+> UniRef90_UPI000462318D immunomodulatory protein FIP-Fve n=1 Tax=Trametes 
+versicolor (strain FP-101664) TaxID=717944 RepID=UPI000462318D
+Length=114
+
+ Score = 158 bits (400),  Expect = 3e-47, Method: Composition-based stats.
+ Identities = 50/111 (45%), Positives = 76/111 (68%), Gaps = 2/111 (2%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            S +S+    A  + K+ FDYTP+WG G P++YIDN+TFP+VLTDK+Y+YRV  + + LG+
+Sbjct  5    SPSSVLLHFASTLGKVHFDYTPHWGHGNPNTYIDNVTFPRVLTDKQYTYRVCWDETSLGI  64
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEW  111
+            ++  AV   G Q ++F Q+N G G+     I+V+VV PD G   +Y++A+W
+Sbjct  65   KNALAVQSDGSQMLDFGQWNCGRGINQMHRIRVYVVDPDNG--SQYLVAQW  113
+
+
+> UniRef90_A0A084RZK6 Uncharacterized protein n=3 Tax=Stachybotrys 
+TaxID=74721 RepID=A0A084RZK6_STACH
+Length=112
+
+ Score = 149 bits (377),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 57/112 (51%), Positives = 78/112 (70%), Gaps = 2/112 (2%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            + T         V KI+ DYTPNWGRG+PSSYIDN+ FP+VLTD++Y YRVV   +DLGV
+Sbjct  3    AQTHFLVPFVAAVGKINVDYTPNWGRGSPSSYIDNVKFPRVLTDRQYKYRVVKGSTDLGV  62
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEWK  112
+               +A+   G Q INFL+YN G G+ D+ TI++++V PDTGN  + ++ +WK
+Sbjct  63   RDAYAIESDGSQKINFLEYNSGRGIEDSTTIKIYIVEPDTGN--QSLLVQWK  112
+
+
+> UniRef90_UPI00044111E9 immunomodulatory protein n=1 Tax=Dichomitus 
+squalens (strain LYAD-421) TaxID=732165 RepID=UPI00044111E9
+Length=123
+
+ Score = 135 bits (340),  Expect = 4e-38, Method: Composition-based stats.
+ Identities = 51/109 (47%), Positives = 67/109 (61%), Gaps = 4/109 (4%)
+
+Query  2    ATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVE  61
+             T+  F L +   KI FDYTP+W  G P  YI+ + FPKVLTDK YSYRV  +  D GV 
+Sbjct  6    TTATIFALVWTQTKICFDYTPDWIDGGPR-YINGVVFPKVLTDKNYSYRVE-SDRDYGVR  63
+
+Query  62   SNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAE  110
+            + + V   G Q +NFL YN G G+   + I+V+VV PD G +  Y++AE
+Sbjct  64   AGYQVQADGSQKVNFLDYNYGLGIEPYRGIKVYVVDPDDGKN--YLVAE  110
+
+
+> UniRef90_UPI000462399F Fve family of fungal immunomodulatory 
+protein n=1 Tax=Trametes versicolor (strain FP-101664) TaxID=717944 
+RepID=UPI000462399F
+Length=112
+
+ Score = 134 bits (338),  Expect = 6e-38, Method: Composition-based stats.
+ Identities = 47/101 (47%), Positives = 66/101 (65%), Gaps = 2/101 (2%)
+
+Query  10   AYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPS  69
+               ++K+ FDYTP W R      I ++TFP VL DK+YSYRVV   SDLG+ S   V   
+Sbjct  12   VATLRKVHFDYTPQWTRDAAQRDITSVTFPCVLVDKRYSYRVVCEDSDLGIRSGTGVYAG  71
+
+Query  70   GGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAE  110
+            G +T+NFL+YN G G++ T  ++V+VV PD+GN  +Y+ A+
+Sbjct  72   GSETVNFLEYNHGRGISQTHRLRVYVVDPDSGN--QYLDAQ  110
+
+
+> UniRef90_A0A0C2WQ98 Uncharacterized protein n=1 Tax=Amanita muscaria 
+Koide BX008 TaxID=946122 RepID=A0A0C2WQ98_AMAMU
+Length=114
+
+ Score = 133 bits (334),  Expect = 3e-37, Method: Composition-based stats.
+ Identities = 49/108 (45%), Positives = 71/108 (66%), Gaps = 2/108 (2%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            +  +L F L   +KKI FDYTPN+ R  P  + D +TFPKVL DK Y Y+V+V+G   G+
+Sbjct  6    TNEALAFLLVSQIKKIHFDYTPNYYRPMPG-FTDAVTFPKVLADKAYEYQVIVDGVSKGI  64
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYII  108
+              +++V P G Q +NFL YN+G+G+ ++   QV+VV P+T N   YI+
+Sbjct  65   RRDYSVAPDGSQKVNFLGYNEGHGILNSSNTQVYVVDPET-NIAYYIL  111
+
+
+> UniRef90_A0A067MEZ4 Uncharacterized protein n=1 Tax=Botryobasidium 
+botryosum FD-172 SS1 TaxID=930990 RepID=A0A067MEZ4_9HOMO
+Length=112
+
+ Score = 132 bits (331),  Expect = 8e-37, Method: Composition-based stats.
+ Identities = 52/112 (46%), Positives = 73/112 (65%), Gaps = 5/112 (4%)
+
+Query  2    ATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVE  61
+             T+  F L   + K+ +DYTPNW +     YI+++TF KVL DK Y+YRV+    DLGV+
+Sbjct  5    TTAQIFHLVASLPKLSYDYTPNWVKD--RQYINSVTFAKVLADKAYTYRVMAGDKDLGVK  62
+
+Query  62   SNFAVTPSGGQTINFLQYNKGYGV-ADTKTIQVFVVIPDTGNSEEYIIAEWK  112
+             ++AV   G Q INFL+YN GYG+  +  T+ V+VV P+TGN  +Y IA+ K
+Sbjct  63   PSYAVGSDGSQKINFLEYNGGYGIDGNANTVYVYVVDPETGN--QYKIAQSK  112
+
+
+> UniRef90_A0A0C2WMX8 Uncharacterized protein n=1 Tax=Amanita muscaria 
+Koide BX008 TaxID=946122 RepID=A0A0C2WMX8_AMAMU
+Length=114
+
+ Score = 131 bits (330),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 55/103 (53%), Positives = 68/103 (66%), Gaps = 1/103 (1%)
+
+Query  5    LTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNF  64
+            L F L   VKKIDFDYTPN+ R T S Y D +TFPKVLTDK Y Y+VVV+G D G   +F
+Sbjct  10   LAFLLVSQVKKIDFDYTPNYYRPT-SGYTDAVTFPKVLTDKAYEYKVVVDGVDKGTRRDF  68
+
+Query  65   AVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYI  107
+            +V P G Q +NFL YN G G+    +IQV+ V P+TG +   +
+Sbjct  69   SVAPDGSQKVNFLAYNAGLGIPTGSSIQVYAVDPNTGIAYYIL  111
+
+
+> UniRef90_A0A0C2WK68 Uncharacterized protein n=1 Tax=Amanita muscaria 
+Koide BX008 TaxID=946122 RepID=A0A0C2WK68_AMAMU
+Length=114
+
+ Score = 130 bits (326),  Expect = 4e-36, Method: Composition-based stats.
+ Identities = 53/103 (51%), Positives = 67/103 (65%), Gaps = 1/103 (1%)
+
+Query  5    LTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNF  64
+            L F L   VKKIDFDYTP++ R T S Y D +TFPKVL +K Y Y+VVV+G   G+  + 
+Sbjct  10   LVFLLVSQVKKIDFDYTPHYYRPT-SGYTDAVTFPKVLANKAYKYQVVVDGVSKGIRRDH  68
+
+Query  65   AVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYI  107
+            AV P G Q INFL YN GYG+ +  + QV+ V PDTG +   +
+Sbjct  69   AVAPDGSQKINFLDYNAGYGIPNKSSTQVYAVDPDTGIAYYIL  111
+
+
+> UniRef90_M2QVQ0 Lectin FIP-fve n=1 Tax=Ceriporiopsis subvermispora 
+(strain B) TaxID=914234 RepID=M2QVQ0_CERS8
+Length=113
+
+ Score = 129 bits (325),  Expect = 5e-36, Method: Composition-based stats.
+ Identities = 44/90 (49%), Positives = 54/90 (60%), Gaps = 2/90 (2%)
+
+Query  23   NWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNKG  82
+             W RG P  Y D++T P V TDK Y YRVV    DLG    + +   G QTIN L+YNKG
+Sbjct  15   TWKRGNPKVYFDHVTLPGVPTDKAYQYRVVKGDLDLGTRPTYELNKDGSQTINLLEYNKG  74
+
+Query  83   YGVADTKTIQVFVVIPDTGNSEEYIIAEWK  112
+            YG+ +   I VFVV P+ G   E ++AEWK
+Sbjct  75   YGIHEETPINVFVVDPEDGM--ETLVAEWK  102
+
+
+> UniRef90_A0A0H2SFW9 Kinase-like protein n=1 Tax=Schizopora paradoxa 
+TaxID=27342 RepID=A0A0H2SFW9_9HOMO
+Length=666
+
+ Score = 136 bits (343),  Expect = 5e-35, Method: Composition-based stats.
+ Identities = 42/94 (45%), Positives = 59/94 (63%), Gaps = 1/94 (1%)
+
+Query  22   PNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNK  81
+            P W RG PS YID LT P + +DK+Y YRVV   +DLG++  +     G Q IN L+YN+
+Sbjct  570  PTWKRGNPSIYIDELTIPLLPSDKQYQYRVVKGDTDLGIKETYPREIGGSQRINLLEYNE  629
+
+Query  82   GYGVADTKTIQVFVVIPDTGN-SEEYIIAEWKKT  114
+            GYG+ DT  I+V+ V P+    + E ++A W K+
+Sbjct  630  GYGIQDTVPIKVYAVDPEEEEGNRETLVASWSKS  663
+
+
+> UniRef90_A0A0C5BFA5 Postia placenta isolate Mad-698-R immunomodulatory 
+protein FIP-ppl mRNA (Fragment) n=1 Tax=Postia placenta 
+TaxID=104341 RepID=A0A0C5BFA5_9APHY
+Length=124
+
+ Score = 123 bits (308),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 49/101 (49%), Positives = 66/101 (65%), Gaps = 6/101 (6%)
+
+Query  16   IDFDYTPNWGR---GTPSS-YIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGG  71
+            +DFDYTP W R   G P   Y+D +TFPKVL DK+Y YRVV   +DLG+   + V   G 
+Sbjct  26   VDFDYTPKWKRVEWGAPGQFYLDEVTFPKVLKDKRYKYRVVSGSTDLGIREPYDVQADGS  85
+
+Query  72   QTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEWK  112
+            Q INFL+YN+GYG+ DT T+ V++V P+T    EY + + +
+Sbjct  86   QRINFLEYNQGYGIRDTNTVTVYLVDPETA--TEYKLTQSQ  124
+
+
+> UniRef90_M2PWI3 Lectin FIP-fve n=1 Tax=Ceriporiopsis subvermispora 
+(strain B) TaxID=914234 RepID=M2PWI3_CERS8
+Length=168
+
+ Score = 124 bits (311),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 38/93 (41%), Positives = 59/93 (63%), Gaps = 3/93 (3%)
+
+Query  21   TPN-WGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQY  79
+            TP  W RG P+ Y+D++T P+V  DK Y  RV+ +  DLG++    +   G QTIN  +Y
+Sbjct  41   TPTIWKRGNPTDYVDHVTLPRVPADKIYQCRVMKSNLDLGIQPTHPLNEDGSQTINLTEY  100
+
+Query  80   NKGYGVADTKTIQVFVVIPDTGNSEEYIIAEWK  112
+            NK YG+ DT+ I+V+V+ P   ++ E  +A+W+
+Sbjct  101  NKRYGIHDTQNIKVYVIDP--ADNTEKPVAKWE  131
+
+
+> UniRef90_A0A0D2Q4N7 Uncharacterized protein n=1 Tax=Hypholoma 
+sublateritium FD-334 SS-4 TaxID=945553 RepID=A0A0D2Q4N7_9AGAR
+Length=668
+
+ Score = 118 bits (295),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 39/92 (42%), Positives = 54/92 (59%), Gaps = 5/92 (5%)
+
+Query  22   PNWGRGT--PSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQY  79
+            P W        +Y+D +T P VL DK Y YRV    SDLG+   + ++  G Q INFL+Y
+Sbjct  354  PQWKYVNWGARNYVDEVTLPFVLIDKPYRYRVRSGISDLGIRETYELSADGSQRINFLEY  413
+
+Query  80   NKGYGVADTKTIQVFVVIPDTGNSEEYIIAEW  111
+            NKGYG+ D+  I++FVV P+     E ++A W
+Sbjct  414  NKGYGIIDSMHIKIFVVDPE---GNEALVAYW  442
+
+
+ Score = 62.8 bits (151),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 26/84 (31%), Positives = 43/84 (51%), Gaps = 1/84 (1%)
+
+Query  28   TPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNKGYGVAD  87
+            T SS + +++   VL +K Y  R++ +G+DLGV     +T      I+  +YN G G+  
+Sbjct  469  TDSSLVLSVSINHVLNNKDYMLRIMRDGADLGVHPAGPLTADKTLNIDLTKYNDGQGLPV  528
+
+Query  88   TKTIQVFVVIPDTGNSEEYIIAEW  111
+               I+V VV PD       +++ W
+Sbjct  529  QSLIKVLVVDPD-ARGLGTLVSGW  551
+
+
+> UniRef90_UPI0004412F0B hypothetical protein AURDEDRAFT_57009 
+n=1 Tax=Auricularia subglabra (strain TFB-10046 / SS5) TaxID=717982 
+RepID=UPI0004412F0B
+Length=148
+
+ Score = 108 bits (269),  Expect = 4e-27, Method: Composition-based stats.
+ Identities = 32/95 (34%), Positives = 54/95 (57%), Gaps = 6/95 (6%)
+
+Query  24   WGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNKGY  83
+            W RG  + +ID L  P+      Y YRV+ + +DLGV   + +   G Q +N L+YN+GY
+Sbjct  50   WKRGDSNVHIDRLVIPQPPGGGTYLYRVLKDETDLGVRPTYLLEADGSQVVNLLEYNQGY  109
+
+Query  84   GVADTKTIQVFVVIPDTGNSEEYIIAE-----WKK  113
+            G+ D++ ++VFV   +  +  E +IA+     W++
+Sbjct  110  GIHDSRRVRVFVGE-EGSDGREILIADRTSGAWRR  143
+
+
+> UniRef90_K5W7W1 Uncharacterized protein n=1 Tax=Phanerochaete 
+carnosa (strain HHB-10118-sp) TaxID=650164 RepID=K5W7W1_PHACS
+Length=72
+
+ Score = 93.6 bits (231),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 34/111 (31%), Positives = 48/111 (43%), Gaps = 43/111 (39%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            S+++  F L  ++ ++ FDYTP+W RG P+SYID +  P                     
+Sbjct  4    SSSAALFYLVQIMSRVCFDYTPDWQRGNPNSYIDMVKLP---------------------  42
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEW  111
+                                KGYGV    TIQ++ V PD GN  +Y+IA W
+Sbjct  43   --------------------KGYGVEQGSTIQIYAVDPDDGN--QYLIARW  71
+
+
+> UniRef90_M2R9U0 Uncharacterized protein n=1 Tax=Ceriporiopsis 
+subvermispora (strain B) TaxID=914234 RepID=M2R9U0_CERS8
+Length=88
+
+ Score = 81.3 bits (199),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 23/57 (40%), Positives = 31/57 (54%), Gaps = 0/57 (0%)
+
+Query  22  PNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQ  78
+           P W RG P+ Y+D +T P    DK   YRV+ +G+DLGV     +   G QT+   Q
+Sbjct  8   PVWRRGNPTIYVDYVTIPHAPADKVCQYRVIKSGTDLGVRPTQPLNEDGSQTVKLRQ  64
+
+
+> UniRef90_A0A0G4DCC8 Immunomodulatory protein n=1 Tax=Bacillus 
+thuringiensis subsp. tolworthi TaxID=1442 RepID=A0A0G4DCC8_BACTO
+Length=726
+
+ Score = 87.0 bits (214),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 39/99 (39%), Positives = 53/99 (54%), Gaps = 8/99 (8%)
+
+Query  20   YTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQ-  78
+            +  NW   T S Y+D +TF +V   KK  YRVV+NG+D+G    +     G  TI F Q 
+Sbjct  598  HIKNWE--TTSYYVDGITFSEVPQGKKMKYRVVLNGNDIGTSYPYQTNGKGTDTILFTQD  655
+
+Query  79   -YN-KGYGVAD-TKTIQVFVVIPDTGNSEEYIIAEWKKT  114
+             Y+  G+GV+     I VF + PDTG   EY IA  + +
+Sbjct  656  YYDMDGWGVSKYDNHIVVFAIDPDTG--LEYEIAHHEPS  692
+
+
+> UniRef90_J7T287 Uncharacterized protein n=2 Tax=Bacillus cereus 
+TaxID=1396 RepID=J7T287_BACCE
+Length=888
+
+ Score = 85.5 bits (210),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 30/114 (26%), Positives = 54/114 (47%), Gaps = 15/114 (13%)
+
+Query  12   LVKKIDFDYTPNWGRGTPSSYIDNLTFPKV---LTDKKYSYRVVVNGSDLG---------  59
+             ++KI  D T  WG  + S+Y++ + F  +   + D+  +YRVV  G+ +          
+Sbjct  774  EIQKIYKDTTELWGEDSGSTYLNGVLFKNIEPFMGDQVKAYRVVYQGARIPSGIDESFDV  833
+
+Query  60   VESNFAVTPSGGQTINFLQYNKGYG---VADTKTIQVFVVIPDTGNSEEYIIAE  110
+             +  +A    G   +NFL+YNKG G   +    +I+++ V+ D      Y  A+
+Sbjct  834  TKPAYAYNKDGSVKVNFLEYNKGMGIDFIPTIDSIRIYAVLTDNRQVLVYRKAD  887
+
+
+> UniRef90_J8NAH2 Uncharacterized protein n=1 Tax=Bacillus cereus 
+VDM034 TaxID=1053248 RepID=J8NAH2_BACCE
+Length=898
+
+ Score = 62.8 bits (151),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 25/86 (29%), Positives = 46/86 (53%), Gaps = 2/86 (2%)
+
+Query  17   DFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINF  76
+             ++   NW     S Y+D + F K+   K   Y++ ++G    + S+     +G + +NF
+Sbjct  697  YYNEFKNWYTPR-SQYVDGVNFSKMPATKV-RYQLEIDGKLTEIRSDAVSDANGNRLVNF  754
+
+Query  77   LQYNKGYGVADTKTIQVFVVIPDTGN  102
+            L++N G+G++ TK I+V+VV     N
+Sbjct  755  LKFNAGHGISYTKNIKVYVVDEKNDN  780
+
+
+> UniRef90_A0A193D1V7 Uncharacterized protein n=1 Tax=Bacillus 
+thuringiensis serovar coreanensis TaxID=180843 RepID=A0A193D1V7_BACTU
+Length=688
+
+ Score = 58.9 bits (141),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 21/75 (28%), Positives = 35/75 (47%), Gaps = 1/75 (1%)
+
+Query  28   TPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNKGYGVAD  87
+              S+ +D +TF KV   K   Y++ ++G    ++    V   G ++INF  +N G G+  
+Sbjct  273  NGSTSVDGITFSKVPNTKV-RYQLEIDGRLTDIKPASQVDSQGRRSINFKDFNNGNGIYT  331
+
+Query  88   TKTIQVFVVIPDTGN  102
+               I V+ V     N
+Sbjct  332  GSNISVYAVDERNDN  346
+
+
+> UniRef90_A0A1B2DME3 Uncharacterized protein n=1 Tax=Paenibacillus 
+sp. BIHB4019 TaxID=1870819 RepID=A0A1B2DME3_9BACL
+Length=798
+
+ Score = 58.2 bits (139),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 23/92 (25%), Positives = 39/92 (42%), Gaps = 4/92 (4%)
+
+Query  20   YTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQY  79
+               +W      +Y+D +    V  D    Y++V    D G    +A   SG   +N+ +Y
+Sbjct  708  TVKSWNIDESVNYVDGVYL-HVEPDYVCEYKLVAADEDRGTHPRYAPDASGTLYVNYTEY  766
+
+Query  80   NKGYGVADTKTIQVFVVIPDTGNSEEYIIAEW  111
+            N G+G ++     V+ V P        ++AEW
+Sbjct  767  NAGHGFSENTHSLVYAVYP---GLSPVLVAEW  795
+
+
+> UniRef90_R8TMK4 Uncharacterized protein (Fragment) n=1 Tax=Bacillus 
+cereus VD184 TaxID=1053242 RepID=R8TMK4_BACCE
+Length=454
+
+ Score = 57.8 bits (138),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 24/78 (31%), Positives = 39/78 (50%), Gaps = 2/78 (3%)
+
+Query  30   SSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNKGYGVADTK  89
+             SY++ + F     D K  Y++ ++     +   + + P G + INFL++N G G+   K
+Sbjct  372  GSYMNGIFFKAP--DSKVRYQIAIDNQPTVILPGYPLNPQGVRYINFLEFNAGMGIPLNK  429
+
+Query  90   TIQVFVVIPDTGNSEEYI  107
+             I+VFVV     N  E I
+Sbjct  430  QIRVFVVDEKNDNLREQI  447
+
+
+> UniRef90_N1LNI9 Uncharacterized protein n=1 Tax=Bacillus sp. 
+GeD10 TaxID=1301086 RepID=N1LNI9_9BACI
+Length=968
+
+ Score = 57.0 bits (136),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 23/80 (29%), Positives = 37/80 (46%), Gaps = 2/80 (3%)
+
+Query  23   NWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNKG  82
+             W   + + YID +TF KV T K   Y++ ++G    ++    V   G ++INF  +N G
+Sbjct  777  QWQ-SSKTGYIDGITFSKVPTTKV-RYQLEIDGKLTDIKPASQVDSQGKRSINFKDFNNG  834
+
+Query  83   YGVADTKTIQVFVVIPDTGN  102
+              +     I V+ V     N
+Sbjct  835  NSIYAGSQISVYAVDERNDN  854
+
+
+> UniRef90_UPI00040EDA99 Iota toxin protein Ib n=1 Tax=Bacillus 
+thuringiensis TaxID=1428 RepID=UPI00040EDA99
+Length=1106
+
+ Score = 56.2 bits (134),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 22/80 (28%), Positives = 39/80 (49%), Gaps = 2/80 (3%)
+
+Query  31   SYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNKGYGVADTKT  90
+             YID +T  KV   K   Y++ ++G    ++   AV   G + INF  +N G  +   + 
+Sbjct  788  GYIDGVTLSKVPNTKV-RYQLEIDGKLTDIKPASAVDSQGKRYINFKDFNAGNSIYAGQH  846
+
+Query  91   IQVFVVIPDTGNSEEYIIAE  110
+            + V+ +  +  N+ +  IAE
+Sbjct  847  VSVYAID-EKNNNLKVKIAE  865
+
+
+> UniRef90_J8NYG1 Uncharacterized protein n=1 Tax=Bacillus cereus 
+VDM062 TaxID=1053250 RepID=J8NYG1_BACCE
+Length=931
+
+ Score = 54.3 bits (129),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 22/75 (29%), Positives = 40/75 (53%), Gaps = 1/75 (1%)
+
+Query  33   IDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNKGYGVADTKTIQ  92
+            ID +TFP++ + K   Y++ ++G    + S+  +  SG + +NF ++N G G+   K I 
+Sbjct  749  IDGITFPRIPSTKV-RYQLEIDGKMTDIRSDAVIDASGTRYVNFHKFNNGNGIDMYKRII  807
+
+Query  93   VFVVIPDTGNSEEYI  107
+            VF V     N +  +
+Sbjct  808  VFAVDEKNDNLKAKL  822
+
+
+ Score = 47.4 bits (111),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 25/80 (31%), Positives = 43/80 (54%), Gaps = 4/80 (5%)
+
+Query  30   SSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNKGYG--VAD  87
+            + YI+ +T+ KV  +  + Y++ VNG+   +       P+G   INFL +N G G  + +
+Sbjct  841  NRYINGITYGKVPLE-NFKYQLYVNGNWTSILYG-DAKPNGKMYINFLSFNNGRGYHIVN  898
+
+Query  88   TKTIQVFVVIPDTGNSEEYI  107
+              TIQ+F V  +  N + Y+
+Sbjct  899  GFTIQIFTVNINDNNKKTYL  918
+
+
+> UniRef90_N1LHK0 Hemolysin BL binding component n=1 Tax=Bacillus 
+sp. GeD10 TaxID=1301086 RepID=N1LHK0_9BACI
+Length=1096
+
+ Score = 53.5 bits (127),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 19/72 (26%), Positives = 32/72 (44%), Gaps = 1/72 (1%)
+
+Query  31   SYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNKGYGVADTKT  90
+             Y+D +TF KV   K   Y++ ++G    ++    +   G + INF  +N G  +     
+Sbjct  780  GYLDGVTFSKVPNTKV-RYQLEIDGKLTDIKPASQIDSQGKRYINFKDFNNGNSIYAGSQ  838
+
+Query  91   IQVFVVIPDTGN  102
+            I V+ V     N
+Sbjct  839  ISVYAVDEKNDN  850
+
+
+> UniRef90_UPI0009475088 UPI0009475088 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009475088
+Length=889
+
+ Score = 48.9 bits (115),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 23/107 (21%), Positives = 41/107 (38%), Gaps = 6/107 (6%)
+
+Query  6    TFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKY---SYRVVVNGSDLG--V  60
+             F+    VK    DY+         +Y + + F   + +       YR+   G D     
+Sbjct  780  LFKSEQYVKSFYKDYSLIRVFANNDNYYNGVKFSGNMENITKHIPKYRIKCTGRDNFDVT  839
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYI  107
+              +  +   G  T+NFL +N G G+     I ++ +  D G+  + I
+Sbjct  840  RKSPDLNSDGTLTLNFLDFNAGKGLLWGNYITIYAIN-DYGDEFKII  885
+
+
+> UniRef90_A0A139ZL18 Vip1-02 n=1 Tax=Bacillus thuringiensis TaxID=1428 
+RepID=A0A139ZL18_BACTU
+Length=874
+
+ Score = 47.8 bits (112),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 19/83 (23%), Positives = 37/83 (45%), Gaps = 11/83 (13%)
+
+Query  33   IDNLTFPKVLTDKKY--SYRVVVNGSDLG-----VESNFAVTPSGGQTINFLQYNKGYGV  85
+            +DN+ F  +   + Y   YRV   G+          +++ +   G   +N L+YN G G+
+Sbjct  784  LDNVVFKNITPFQNYVTKYRVKYVGTIPAWSFDKTLNSYELNSDGSLMVNILEYNDGRGI  843
+
+Query  86   ---ADTKTIQVFVVIPDTGNSEE  105
+               + +K + ++ +  D G   E
+Sbjct  844  DLNSPSKNVTIYAI-TDDGREIE  865
+
+
+> UniRef90_A0A150CLR1 Uncharacterized protein n=1 Tax=Bacillus 
+cereus TaxID=1396 RepID=A0A150CLR1_BACCE
+Length=874
+
+ Score = 47.0 bits (110),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 25/104 (24%), Positives = 44/104 (42%), Gaps = 13/104 (13%)
+
+Query  12   LVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKY--SYRVVVNG-----SDLGVESNF  64
+             +K    DY+      T +  +DN+ F  +   + Y   YRV   G     S     +++
+Sbjct  765  DIKAKYSDYSE--KLDTWNMRLDNVVFKNISPFQNYVTKYRVKYVGAIPQWSFDKTLNSY  822
+
+Query  65   AVTPSGGQTINFLQYNKGYGV---ADTKTIQVFVVIPDTGNSEE  105
+             +   G   +N L+YN G G+   + +K + ++ V  D G   E
+Sbjct  823  ELKSDGSLMVNILEYNDGMGIDINSPSKNVTIYAV-TDDGREIE  865
+
+
+> UniRef90_V9I0N3 Vip4 n=2 Tax=Bacillus thuringiensis TaxID=1428 
+RepID=V9I0N3_BACTU
+Length=965
+
+ Score = 45.8 bits (107),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 17/73 (23%), Positives = 30/73 (41%), Gaps = 3/73 (4%)
+
+Query  27   GTPSSYIDNLTFPKVLTDKKY---SYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNKGY  83
+                SY D   F ++     +    Y+V +NG        +    +G   +N L+YN G 
+Sbjct  878  PGGGSYTDGWYFERIPDGVLHCVTKYKVSINGGKPVTRDRYNPDKNGRMEVNLLEYNGGR  937
+
+Query  84   GVADTKTIQVFVV  96
+            GV +   I+ + +
+Sbjct  938  GVKEGSRIEAWAI  950
+
+
+> UniRef90_A0A0J7D8D3 Iota toxin protein Ib n=3 Tax=Bacillus cereus 
+group TaxID=86661 RepID=A0A0J7D8D3_BACCE
+Length=976
+
+ Score = 45.1 bits (105),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 19/88 (22%), Positives = 40/88 (45%), Gaps = 10/88 (11%)
+
+Query  22   PNWGRG--------TPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPS-GGQ  72
+            P+W             + Y + + F KV  +    Y+++++      +    V P+    
+Sbjct  868  PSWKHDFVWDVVNWNGTEYHNGIKFSKVP-NLNLQYQLLIHERPSNNKRLTEVKPAYKNG  926
+
+Query  73   TINFLQYNKGYGVADTKTIQVFVVIPDT  100
+             +NFL++N+G G++    I++F V P+ 
+Sbjct  927  HLNFLEFNEGQGISLDNDIEIFAVDPNN  954
+
+
+> UniRef90_B3ZYH5 Clostridial binary toxin B/anthrax toxin PA family 
+protein n=2 Tax=Bacillus cereus group TaxID=86661 RepID=B3ZYH5_BACCE
+Length=976
+
+ Score = 44.3 bits (103),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 21/70 (30%), Positives = 37/70 (53%), Gaps = 2/70 (3%)
+
+Query  28   TPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLG-VESNFAVTPSGGQTINFLQYNKGYGVA  86
+              ++YI+++    V    K+ Y+V +NG ++G +++      +G   INFL  N G G  
+Sbjct  768  NGTNYINSINL-NVNKPIKWKYKVKMNGKEVGDLKNISEPDANGVIKINFLDLNNGSGFL  826
+
+Query  87   DTKTIQVFVV  96
+             T  I+V+ V
+Sbjct  827  STDHIEVYAV  836
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.134    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0405    0.140     1.90     42.6     43.6 
+
+Effective search space used: 448903755465
+Results from round 3
+
+
+Query= d1osya_
+
+Length=114
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_Q52PH4 Immunomodulatory protein n=2 Tax=Ganoderma TaxI...  162     1e-48
+  UniRef90_E7FH75 Immunomodulatory protein n=1 Tax=Ganoderma micr...  161     4e-48
+  UniRef90_P14945 Immunomodulatory protein Ling Zhi-8 n=2 Tax=Gan...  160     7e-48
+  UniRef90_G5CJT8 Fungal immunomodulatory protein n=2 Tax=Agarico...  159     1e-47
+  UniRef90_C7ZE17 Putative uncharacterized protein n=1 Tax=Nectri...  158     4e-47
+  UniRef90_P80412 Immunomodulatory protein FIP-Fve n=2 Tax=Flammu...  157     7e-47
+  UniRef90_UPI00044145E9 immunomodulatory protein n=1 Tax=Dichomi...  156     2e-46
+  UniRef90_UPI0004410AA3 immunomodulatory protein FIP-Fve n=1 Tax...  156     4e-46
+  UniRef90_UPI000462318D immunomodulatory protein FIP-Fve n=1 Tax...  152     6e-45
+  UniRef90_A0A084RZK6 Uncharacterized protein n=3 Tax=Stachybotry...  146     2e-42
+  UniRef90_UPI00044111E9 immunomodulatory protein n=1 Tax=Dichomi...  132     6e-37
+  UniRef90_UPI000462399F Fve family of fungal immunomodulatory pr...  130     4e-36
+  UniRef90_M2QVQ0 Lectin FIP-fve n=1 Tax=Ceriporiopsis subvermisp...  129     7e-36
+  UniRef90_A0A0C2WMX8 Uncharacterized protein n=1 Tax=Amanita mus...  128     2e-35
+  UniRef90_A0A0C2WQ98 Uncharacterized protein n=1 Tax=Amanita mus...  128     3e-35
+  UniRef90_A0A0C2WK68 Uncharacterized protein n=1 Tax=Amanita mus...  127     8e-35
+  UniRef90_A0A067MEZ4 Uncharacterized protein n=1 Tax=Botryobasid...  125     2e-34
+  UniRef90_A0A0H2SFW9 Kinase-like protein n=1 Tax=Schizopora para...  133     5e-34
+  UniRef90_M2PWI3 Lectin FIP-fve n=1 Tax=Ceriporiopsis subvermisp...  122     3e-32
+  UniRef90_A0A0C5BFA5 Postia placenta isolate Mad-698-R immunomod...  119     9e-32
+  UniRef90_A0A0D2Q4N7 Uncharacterized protein n=1 Tax=Hypholoma s...  121     2e-29
+  UniRef90_UPI0004412F0B hypothetical protein AURDEDRAFT_57009 n=...  106     1e-26
+  UniRef90_K5W7W1 Uncharacterized protein n=1 Tax=Phanerochaete c...  90.9    2e-21
+  UniRef90_J8NAH2 Uncharacterized protein n=1 Tax=Bacillus cereus...  98.6    3e-21
+  UniRef90_J7T287 Uncharacterized protein n=2 Tax=Bacillus cereus...  94.0    1e-19
+  UniRef90_A0A1B2DME3 Uncharacterized protein n=1 Tax=Paenibacill...  91.7    6e-19
+  UniRef90_N1LNI9 Uncharacterized protein n=1 Tax=Bacillus sp. Ge...  90.5    2e-18
+  UniRef90_A0A193D1V7 Uncharacterized protein n=1 Tax=Bacillus th...  89.8    3e-18
+  UniRef90_UPI00040EDA99 Iota toxin protein Ib n=1 Tax=Bacillus t...  88.6    1e-17
+  UniRef90_UPI0009475088 UPI0009475088 related cluster n=1 Tax=un...  88.2    1e-17
+  UniRef90_A0A0G4DCC8 Immunomodulatory protein n=1 Tax=Bacillus t...  87.8    1e-17
+  UniRef90_R8TMK4 Uncharacterized protein (Fragment) n=1 Tax=Baci...  86.3    2e-17
+  UniRef90_M2R9U0 Uncharacterized protein n=1 Tax=Ceriporiopsis s...  80.1    5e-17
+  UniRef90_N1LHK0 Hemolysin BL binding component n=1 Tax=Bacillus...  86.3    7e-17
+  UniRef90_J8NYG1 Uncharacterized protein n=1 Tax=Bacillus cereus...  83.6    5e-16
+  UniRef90_A0A150CLR1 Uncharacterized protein n=1 Tax=Bacillus ce...  76.3    1e-13
+  UniRef90_A0A139ZL18 Vip1-02 n=1 Tax=Bacillus thuringiensis TaxI...  74.0    9e-13
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A0E1QH35 Putative Clostridial binary toxin B superfa...  61.3    2e-08
+  UniRef90_B3ZYH5 Clostridial binary toxin B/anthrax toxin PA fam...  55.9    1e-06
+  UniRef90_A0A0J7D8D3 Iota toxin protein Ib n=3 Tax=Bacillus cere...  55.5    2e-06
+  UniRef90_V9I0N3 Vip4 n=2 Tax=Bacillus thuringiensis TaxID=1428 ...  54.3    4e-06
+  UniRef90_UPI0005F91B0C hypothetical protein n=1 Tax=Clostridium...  48.2    2e-05
+  UniRef90_S5YZN2 Iota Ib/vip n=1 Tax=Bacillus thuringiensis TaxI...  50.1    9e-05
+  UniRef90_R8T157 Uncharacterized protein n=1 Tax=Bacillus cereus...  50.1    1e-04
+  UniRef90_A0A1C4DU18 Vip4 n=1 Tax=Bacillus cereus TaxID=1396 Rep...  49.7    1e-04
+  UniRef90_A0A1B1W6Y6 Vegetative insecticidal protein Vip1S n=7 T...  49.7    1e-04
+  UniRef90_A0A139ZL20 Vip1-04 n=1 Tax=Bacillus thuringiensis TaxI...  49.3    2e-04
+  UniRef90_N1LYD7 Uncharacterized protein n=1 Tax=Bacillus sp. Ge...  44.7    0.006
+  UniRef90_A0A142GQB7 Uncharacterized protein n=1 Tax=Bacillus th...  43.5    0.006
+  UniRef90_A0A0F5RWM9 Ricin-type beta-trefoil lectin domain prote...  43.9    0.008
+
+
+> UniRef90_Q52PH4 Immunomodulatory protein n=2 Tax=Ganoderma TaxID=5314 
+RepID=Q52PH4_9APHY
+Length=111
+
+ Score = 162 bits (409),  Expect = 1e-48, Method: Composition-based stats.
+ Identities = 68/111 (61%), Positives = 88/111 (79%), Gaps = 2/111 (2%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            S T+L F+LA+ VKK+ FDYTP WGRG PS ++DN+TFP+VL DK Y+YRVVV+G DLGV
+Sbjct  2    SDTALIFRLAWDVKKLSFDYTPTWGRGNPSRFVDNVTFPQVLADKAYTYRVVVSGRDLGV  61
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEW  111
+              ++AV   G Q +NFL+YN+GYG+ADT TIQVFV+ PDT    ++IIA+W
+Sbjct  62   RPSYAVGSDGSQKVNFLEYNQGYGIADTNTIQVFVIDPDTD--ADFIIAQW  110
+
+
+> UniRef90_E7FH75 Immunomodulatory protein n=1 Tax=Ganoderma microsporum 
+TaxID=34462 RepID=E7FH75_GANMI
+Length=134
+
+ Score = 161 bits (408),  Expect = 4e-48, Method: Composition-based stats.
+ Identities = 71/111 (64%), Positives = 89/111 (80%), Gaps = 2/111 (2%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            S T+L F LA+ VK++ FDYTPNWGRG PSS+ID +TFP VLTDK Y+YRVVV+G DLGV
+Sbjct  2    SDTALIFTLAWNVKQLAFDYTPNWGRGRPSSFIDTVTFPTVLTDKAYTYRVVVSGKDLGV  61
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEW  111
+              ++AV   G Q INFL+YN GYG+ADT TIQV+V+ PDTGN+  +I+A+W
+Sbjct  62   RPSYAVESDGSQKINFLEYNSGYGIADTNTIQVYVIDPDTGNN--FIVAQW  110
+
+
+> UniRef90_P14945 Immunomodulatory protein Ling Zhi-8 n=2 Tax=Ganoderma 
+lucidum TaxID=5315 RepID=LZ8_GANLU
+Length=111
+
+ Score = 160 bits (404),  Expect = 7e-48, Method: Composition-based stats.
+ Identities = 70/111 (63%), Positives = 90/111 (81%), Gaps = 2/111 (2%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            S T+L F+LA+ VKK+ FDYTPNWGRG P+++ID +TFPKVLTDK Y+YRV V+G +LGV
+Sbjct  2    SDTALIFRLAWDVKKLSFDYTPNWGRGNPNNFIDTVTFPKVLTDKAYTYRVAVSGRNLGV  61
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEW  111
+            + ++AV   G Q +NFL+YN GYG+ADT TIQVFVV PDT N  ++IIA+W
+Sbjct  62   KPSYAVESDGSQKVNFLEYNSGYGIADTNTIQVFVVDPDTNN--DFIIAQW  110
+
+
+> UniRef90_G5CJT8 Fungal immunomodulatory protein n=2 Tax=Agaricomycetes 
+TaxID=155619 RepID=G5CJT8_9APHY
+Length=113
+
+ Score = 159 bits (403),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 75/111 (68%), Positives = 92/111 (83%), Gaps = 2/111 (2%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            + T+LTF+LA+ VKKI FDYTPNWGRG+PSSYIDNLTFPKVLTDK Y+YRVVV+G DLGV
+Sbjct  4    TVTALTFRLAWEVKKISFDYTPNWGRGSPSSYIDNLTFPKVLTDKAYTYRVVVSGRDLGV  63
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEW  111
+              ++ V   G Q INFL+Y+ GYG+ADT TIQV+VV P TG+  ++IIA+W
+Sbjct  64   RPSYEVASDGSQKINFLEYHNGYGIADTNTIQVYVVDPSTGD--DFIIAQW  112
+
+
+> UniRef90_C7ZE17 Putative uncharacterized protein n=1 Tax=Nectria 
+haematococca (strain 77-13-4 / ATCC MYA-4622 / FGSC 9596 
+/ MPVI) TaxID=660122 RepID=C7ZE17_NECH7
+Length=114
+
+ Score = 158 bits (400),  Expect = 4e-47, Method: Composition-based stats.
+ Identities = 64/112 (57%), Positives = 86/112 (77%), Gaps = 2/112 (2%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            + +++ F +    KK+ FDYTPNWGRG+P+SYIDNLTFP+VLT+K Y YRVV  G DLGV
+Sbjct  5    NDSAVLFYIVASQKKLSFDYTPNWGRGSPNSYIDNLTFPRVLTNKPYKYRVVKAGQDLGV  64
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEWK  112
+              +++V   G Q +NFL+YN G G+ADT+TIQV+VV PD GN  +Y++A+WK
+Sbjct  65   RDSYSVQSDGSQKVNFLEYNAGRGIADTQTIQVYVVDPDNGN--QYLVAQWK  114
+
+
+> UniRef90_P80412 Immunomodulatory protein FIP-Fve n=2 Tax=Flammulina 
+velutipes TaxID=38945 RepID=FVE_FLAVE
+Length=114
+
+ Score = 157 bits (398),  Expect = 7e-47, Method: Composition-based stats.
+ Identities = 114/114 (100%), Positives = 114/114 (100%), Gaps = 0/114 (0%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV
+Sbjct  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEWKKT  114
+            ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEWKKT
+Sbjct  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEWKKT  114
+
+
+> UniRef90_UPI00044145E9 immunomodulatory protein n=1 Tax=Dichomitus 
+squalens (strain LYAD-421) TaxID=732165 RepID=UPI00044145E9
+Length=111
+
+ Score = 156 bits (395),  Expect = 2e-46, Method: Composition-based stats.
+ Identities = 57/110 (52%), Positives = 82/110 (75%), Gaps = 2/110 (2%)
+
+Query  2    ATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVE  61
+             TS+   LA   +++ FDYTP WGRG+P+SY+DN+TFP VL DK Y YRV+V   DLG+ 
+Sbjct  3    DTSVLLALAAQHQRVHFDYTPAWGRGSPASYVDNVTFPHVLDDKAYQYRVIVGDKDLGLR  62
+
+Query  62   SNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEW  111
+             ++++ P G Q +NFL+YN GYG+AD+  I+V+VV P++GN  +Y+IA+W
+Sbjct  63   KSYSIQPDGSQKVNFLEYNGGYGIADSNRIRVYVVDPESGN--QYLIAQW  110
+
+
+> UniRef90_UPI0004410AA3 immunomodulatory protein FIP-Fve n=1 Tax=Dichomitus 
+squalens (strain LYAD-421) TaxID=732165 RepID=UPI0004410AA3
+Length=115
+
+ Score = 156 bits (393),  Expect = 4e-46, Method: Composition-based stats.
+ Identities = 64/110 (58%), Positives = 85/110 (77%), Gaps = 2/110 (2%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            ++T++TF L +  KK+ FDYTPNW RG PSSY+DN+ FPKVLTDKKYSYRV+V+G DLGV
+Sbjct  6    NSTAITFALVWAEKKLTFDYTPNWVRGHPSSYVDNVVFPKVLTDKKYSYRVLVSGKDLGV  65
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAE  110
+               ++V   G Q +NFL+YN G G+AD+ TIQV+ V PD GN+  Y++A+
+Sbjct  66   RDGYSVQSDGSQKVNFLEYNAGRGIADSNTIQVYAVDPDDGNN--YLVAQ  113
+
+
+> UniRef90_UPI000462318D immunomodulatory protein FIP-Fve n=1 Tax=Trametes 
+versicolor (strain FP-101664) TaxID=717944 RepID=UPI000462318D
+Length=114
+
+ Score = 152 bits (385),  Expect = 6e-45, Method: Composition-based stats.
+ Identities = 50/111 (45%), Positives = 76/111 (68%), Gaps = 2/111 (2%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            S +S+    A  + K+ FDYTP+WG G P++YIDN+TFP+VLTDK+Y+YRV  + + LG+
+Sbjct  5    SPSSVLLHFASTLGKVHFDYTPHWGHGNPNTYIDNVTFPRVLTDKQYTYRVCWDETSLGI  64
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEW  111
+            ++  AV   G Q ++F Q+N G G+     I+V+VV PD G   +Y++A+W
+Sbjct  65   KNALAVQSDGSQMLDFGQWNCGRGINQMHRIRVYVVDPDNG--SQYLVAQW  113
+
+
+> UniRef90_A0A084RZK6 Uncharacterized protein n=3 Tax=Stachybotrys 
+TaxID=74721 RepID=A0A084RZK6_STACH
+Length=112
+
+ Score = 146 bits (368),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 57/112 (51%), Positives = 78/112 (70%), Gaps = 2/112 (2%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            + T         V KI+ DYTPNWGRG+PSSYIDN+ FP+VLTD++Y YRVV   +DLGV
+Sbjct  3    AQTHFLVPFVAAVGKINVDYTPNWGRGSPSSYIDNVKFPRVLTDRQYKYRVVKGSTDLGV  62
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEWK  112
+               +A+   G Q INFL+YN G G+ D+ TI++++V PDTGN  + ++ +WK
+Sbjct  63   RDAYAIESDGSQKINFLEYNSGRGIEDSTTIKIYIVEPDTGN--QSLLVQWK  112
+
+
+> UniRef90_UPI00044111E9 immunomodulatory protein n=1 Tax=Dichomitus 
+squalens (strain LYAD-421) TaxID=732165 RepID=UPI00044111E9
+Length=123
+
+ Score = 132 bits (333),  Expect = 6e-37, Method: Composition-based stats.
+ Identities = 51/109 (47%), Positives = 67/109 (61%), Gaps = 4/109 (4%)
+
+Query  2    ATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVE  61
+             T+  F L +   KI FDYTP+W  G P  YI+ + FPKVLTDK YSYRV  +  D GV 
+Sbjct  6    TTATIFALVWTQTKICFDYTPDWIDGGP-RYINGVVFPKVLTDKNYSYRVE-SDRDYGVR  63
+
+Query  62   SNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAE  110
+            + + V   G Q +NFL YN G G+   + I+V+VV PD G +  Y++AE
+Sbjct  64   AGYQVQADGSQKVNFLDYNYGLGIEPYRGIKVYVVDPDDGKN--YLVAE  110
+
+
+> UniRef90_UPI000462399F Fve family of fungal immunomodulatory 
+protein n=1 Tax=Trametes versicolor (strain FP-101664) TaxID=717944 
+RepID=UPI000462399F
+Length=112
+
+ Score = 130 bits (326),  Expect = 4e-36, Method: Composition-based stats.
+ Identities = 47/101 (47%), Positives = 66/101 (65%), Gaps = 2/101 (2%)
+
+Query  10   AYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPS  69
+               ++K+ FDYTP W R      I ++TFP VL DK+YSYRVV   SDLG+ S   V   
+Sbjct  12   VATLRKVHFDYTPQWTRDAAQRDITSVTFPCVLVDKRYSYRVVCEDSDLGIRSGTGVYAG  71
+
+Query  70   GGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAE  110
+            G +T+NFL+YN G G++ T  ++V+VV PD+GN  +Y+ A+
+Sbjct  72   GSETVNFLEYNHGRGISQTHRLRVYVVDPDSGN--QYLDAQ  110
+
+
+> UniRef90_M2QVQ0 Lectin FIP-fve n=1 Tax=Ceriporiopsis subvermispora 
+(strain B) TaxID=914234 RepID=M2QVQ0_CERS8
+Length=113
+
+ Score = 129 bits (325),  Expect = 7e-36, Method: Composition-based stats.
+ Identities = 44/91 (48%), Positives = 54/91 (59%), Gaps = 2/91 (2%)
+
+Query  23   NWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNKG  82
+             W RG P  Y D++T P V TDK Y YRVV    DLG    + +   G QTIN L+YNKG
+Sbjct  15   TWKRGNPKVYFDHVTLPGVPTDKAYQYRVVKGDLDLGTRPTYELNKDGSQTINLLEYNKG  74
+
+Query  83   YGVADTKTIQVFVVIPDTGNSEEYIIAEWKK  113
+            YG+ +   I VFVV P+ G   E ++AEWK 
+Sbjct  75   YGIHEETPINVFVVDPEDG--METLVAEWKP  103
+
+
+> UniRef90_A0A0C2WMX8 Uncharacterized protein n=1 Tax=Amanita muscaria 
+Koide BX008 TaxID=946122 RepID=A0A0C2WMX8_AMAMU
+Length=114
+
+ Score = 128 bits (322),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 55/107 (51%), Positives = 69/107 (64%), Gaps = 1/107 (1%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            +   L F L   VKKIDFDYTPN+ R T S Y D +TFPKVLTDK Y Y+VVV+G D G 
+Sbjct  6    ANEGLAFLLVSQVKKIDFDYTPNYYRPT-SGYTDAVTFPKVLTDKAYEYKVVVDGVDKGT  64
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYI  107
+              +F+V P G Q +NFL YN G G+    +IQV+ V P+TG +   +
+Sbjct  65   RRDFSVAPDGSQKVNFLAYNAGLGIPTGSSIQVYAVDPNTGIAYYIL  111
+
+
+> UniRef90_A0A0C2WQ98 Uncharacterized protein n=1 Tax=Amanita muscaria 
+Koide BX008 TaxID=946122 RepID=A0A0C2WQ98_AMAMU
+Length=114
+
+ Score = 128 bits (321),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 46/107 (43%), Positives = 69/107 (64%), Gaps = 1/107 (1%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            +  +L F L   +KKI FDYTPN+ R  P  + D +TFPKVL DK Y Y+V+V+G   G+
+Sbjct  6    TNEALAFLLVSQIKKIHFDYTPNYYRPMPG-FTDAVTFPKVLADKAYEYQVIVDGVSKGI  64
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYI  107
+              +++V P G Q +NFL YN+G+G+ ++   QV+VV P+T  +   +
+Sbjct  65   RRDYSVAPDGSQKVNFLGYNEGHGILNSSNTQVYVVDPETNIAYYIL  111
+
+
+> UniRef90_A0A0C2WK68 Uncharacterized protein n=1 Tax=Amanita muscaria 
+Koide BX008 TaxID=946122 RepID=A0A0C2WK68_AMAMU
+Length=114
+
+ Score = 127 bits (318),  Expect = 8e-35, Method: Composition-based stats.
+ Identities = 53/106 (50%), Positives = 67/106 (63%), Gaps = 1/106 (1%)
+
+Query  2    ATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVE  61
+               L F L   VKKIDFDYTP++ R T S Y D +TFPKVL +K Y Y+VVV+G   G+ 
+Sbjct  7    NEGLVFLLVSQVKKIDFDYTPHYYRPT-SGYTDAVTFPKVLANKAYKYQVVVDGVSKGIR  65
+
+Query  62   SNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYI  107
+             + AV P G Q INFL YN GYG+ +  + QV+ V PDTG +   +
+Sbjct  66   RDHAVAPDGSQKINFLDYNAGYGIPNKSSTQVYAVDPDTGIAYYIL  111
+
+
+> UniRef90_A0A067MEZ4 Uncharacterized protein n=1 Tax=Botryobasidium 
+botryosum FD-172 SS1 TaxID=930990 RepID=A0A067MEZ4_9HOMO
+Length=112
+
+ Score = 125 bits (315),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 52/112 (46%), Positives = 73/112 (65%), Gaps = 5/112 (4%)
+
+Query  2    ATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVE  61
+             T+  F L   + K+ +DYTPNW +     YI+++TF KVL DK Y+YRV+    DLGV+
+Sbjct  5    TTAQIFHLVASLPKLSYDYTPNWVKD--RQYINSVTFAKVLADKAYTYRVMAGDKDLGVK  62
+
+Query  62   SNFAVTPSGGQTINFLQYNKGYGVA-DTKTIQVFVVIPDTGNSEEYIIAEWK  112
+             ++AV   G Q INFL+YN GYG+  +  T+ V+VV P+TGN  +Y IA+ K
+Sbjct  63   PSYAVGSDGSQKINFLEYNGGYGIDGNANTVYVYVVDPETGN--QYKIAQSK  112
+
+
+> UniRef90_A0A0H2SFW9 Kinase-like protein n=1 Tax=Schizopora paradoxa 
+TaxID=27342 RepID=A0A0H2SFW9_9HOMO
+Length=666
+
+ Score = 133 bits (335),  Expect = 5e-34, Method: Composition-based stats.
+ Identities = 42/94 (45%), Positives = 59/94 (63%), Gaps = 1/94 (1%)
+
+Query  22   PNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNK  81
+            P W RG PS YID LT P + +DK+Y YRVV   +DLG++  +     G Q IN L+YN+
+Sbjct  570  PTWKRGNPSIYIDELTIPLLPSDKQYQYRVVKGDTDLGIKETYPREIGGSQRINLLEYNE  629
+
+Query  82   GYGVADTKTIQVFVVIPDTGN-SEEYIIAEWKKT  114
+            GYG+ DT  I+V+ V P+    + E ++A W K+
+Sbjct  630  GYGIQDTVPIKVYAVDPEEEEGNRETLVASWSKS  663
+
+
+> UniRef90_M2PWI3 Lectin FIP-fve n=1 Tax=Ceriporiopsis subvermispora 
+(strain B) TaxID=914234 RepID=M2PWI3_CERS8
+Length=168
+
+ Score = 122 bits (305),  Expect = 3e-32, Method: Composition-based stats.
+ Identities = 38/93 (41%), Positives = 59/93 (63%), Gaps = 3/93 (3%)
+
+Query  21   TPN-WGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQY  79
+            TP  W RG P+ Y+D++T P+V  DK Y  RV+ +  DLG++    +   G QTIN  +Y
+Sbjct  41   TPTIWKRGNPTDYVDHVTLPRVPADKIYQCRVMKSNLDLGIQPTHPLNEDGSQTINLTEY  100
+
+Query  80   NKGYGVADTKTIQVFVVIPDTGNSEEYIIAEWK  112
+            NK YG+ DT+ I+V+V+ P   ++ E  +A+W+
+Sbjct  101  NKRYGIHDTQNIKVYVIDP--ADNTEKPVAKWE  131
+
+
+> UniRef90_A0A0C5BFA5 Postia placenta isolate Mad-698-R immunomodulatory 
+protein FIP-ppl mRNA (Fragment) n=1 Tax=Postia placenta 
+TaxID=104341 RepID=A0A0C5BFA5_9APHY
+Length=124
+
+ Score = 119 bits (298),  Expect = 9e-32, Method: Composition-based stats.
+ Identities = 47/101 (47%), Positives = 65/101 (64%), Gaps = 6/101 (6%)
+
+Query  16   IDFDYTPNWGRGTPSS----YIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGG  71
+            +DFDYTP W R    +    Y+D +TFPKVL DK+Y YRVV   +DLG+   + V   G 
+Sbjct  26   VDFDYTPKWKRVEWGAPGQFYLDEVTFPKVLKDKRYKYRVVSGSTDLGIREPYDVQADGS  85
+
+Query  72   QTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEWK  112
+            Q INFL+YN+GYG+ DT T+ V++V P+T    EY + + +
+Sbjct  86   QRINFLEYNQGYGIRDTNTVTVYLVDPETA--TEYKLTQSQ  124
+
+
+> UniRef90_A0A0D2Q4N7 Uncharacterized protein n=1 Tax=Hypholoma 
+sublateritium FD-334 SS-4 TaxID=945553 RepID=A0A0D2Q4N7_9AGAR
+Length=668
+
+ Score = 121 bits (303),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 39/94 (41%), Positives = 54/94 (57%), Gaps = 5/94 (5%)
+
+Query  22   PNWGRGTPS--SYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQY  79
+            P W        +Y+D +T P VL DK Y YRV    SDLG+   + ++  G Q INFL+Y
+Sbjct  354  PQWKYVNWGARNYVDEVTLPFVLIDKPYRYRVRSGISDLGIRETYELSADGSQRINFLEY  413
+
+Query  80   NKGYGVADTKTIQVFVVIPDTGNSEEYIIAEWKK  113
+            NKGYG+ D+  I++FVV P+     E ++A W  
+Sbjct  414  NKGYGIIDSMHIKIFVVDPE---GNEALVAYWNP  444
+
+
+ Score = 66.3 bits (160),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 26/90 (29%), Positives = 42/90 (47%), Gaps = 2/90 (2%)
+
+Query  24   WGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNKGY  83
+            W     SS + +++   VL +K Y  R++ +G+DLGV     +T      I+  +YN G 
+Sbjct  467  WTTD--SSLVLSVSINHVLNNKDYMLRIMRDGADLGVHPAGPLTADKTLNIDLTKYNDGQ  524
+
+Query  84   GVADTKTIQVFVVIPDTGNSEEYIIAEWKK  113
+            G+     I+V VV PD       +   W+ 
+Sbjct  525  GLPVQSLIKVLVVDPDARGLGTLVSGWWQP  554
+
+
+> UniRef90_UPI0004412F0B hypothetical protein AURDEDRAFT_57009 
+n=1 Tax=Auricularia subglabra (strain TFB-10046 / SS5) TaxID=717982 
+RepID=UPI0004412F0B
+Length=148
+
+ Score = 106 bits (265),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 32/95 (34%), Positives = 54/95 (57%), Gaps = 6/95 (6%)
+
+Query  24   WGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNKGY  83
+            W RG  + +ID L  P+      Y YRV+ + +DLGV   + +   G Q +N L+YN+GY
+Sbjct  50   WKRGDSNVHIDRLVIPQPPGGGTYLYRVLKDETDLGVRPTYLLEADGSQVVNLLEYNQGY  109
+
+Query  84   GVADTKTIQVFVVIPDTGNSEEYIIAE-----WKK  113
+            G+ D++ ++VF V  +  +  E +IA+     W++
+Sbjct  110  GIHDSRRVRVF-VGEEGSDGREILIADRTSGAWRR  143
+
+
+> UniRef90_K5W7W1 Uncharacterized protein n=1 Tax=Phanerochaete 
+carnosa (strain HHB-10118-sp) TaxID=650164 RepID=K5W7W1_PHACS
+Length=72
+
+ Score = 90.9 bits (224),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 34/111 (31%), Positives = 48/111 (43%), Gaps = 43/111 (39%)
+
+Query  1    SATSLTFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGV  60
+            S+++  F L  ++ ++ FDYTP+W RG P+SYID +  PK                    
+Sbjct  4    SSSAALFYLVQIMSRVCFDYTPDWQRGNPNSYIDMVKLPK--------------------  43
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEW  111
+                                 GYGV    TIQ++ V PD GN  +Y+IA W
+Sbjct  44   ---------------------GYGVEQGSTIQIYAVDPDDGN--QYLIARW  71
+
+
+> UniRef90_J8NAH2 Uncharacterized protein n=1 Tax=Bacillus cereus 
+VDM034 TaxID=1053248 RepID=J8NAH2_BACCE
+Length=898
+
+ Score = 98.6 bits (244),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 28/97 (29%), Positives = 50/97 (52%), Gaps = 3/97 (3%)
+
+Query  17   DFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINF  76
+             ++   NW     S Y+D + F K+   K   Y++ ++G    + S+     +G + +NF
+Sbjct  697  YYNEFKNWYTPR-SQYVDGVNFSKMPATKV-RYQLEIDGKLTEIRSDAVSDANGNRLVNF  754
+
+Query  77   LQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEWKK  113
+            L++N G+G++ TK I+V+VV     N  +   AE K 
+Sbjct  755  LKFNAGHGISYTKNIKVYVVDEKNDN-FKIKAAEHKP  790
+
+
+ Score = 48.6 bits (114),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 19/69 (28%), Positives = 26/69 (38%), Gaps = 0/69 (0%)
+
+Query  38   FPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVI  97
+            FP  + DK   Y++  +       +       G   INFL YN GYG       +V+ V 
+Sbjct  827  FPPSILDKITKYKIQHSSIGDVTRNRQNFKHDGRLEINFLDYNNGYGFPLFPVTKVWAVT  886
+
+Query  98   PDTGNSEEY  106
+                  E Y
+Sbjct  887  KGNREIEVY  895
+
+
+> UniRef90_J7T287 Uncharacterized protein n=2 Tax=Bacillus cereus 
+TaxID=1396 RepID=J7T287_BACCE
+Length=888
+
+ Score = 94.0 bits (232),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 30/114 (26%), Positives = 54/114 (47%), Gaps = 15/114 (13%)
+
+Query  12   LVKKIDFDYTPNWGRGTPSSYIDNLTFPKV---LTDKKYSYRVVVNGSDLG---------  59
+             ++KI  D T  WG  + S+Y++ + F  +   + D+  +YRVV  G+ +          
+Sbjct  774  EIQKIYKDTTELWGEDSGSTYLNGVLFKNIEPFMGDQVKAYRVVYQGARIPSGIDESFDV  833
+
+Query  60   VESNFAVTPSGGQTINFLQYNKGYG---VADTKTIQVFVVIPDTGNSEEYIIAE  110
+             +  +A    G   +NFL+YNKG G   +    +I+++ V+ D      Y  A+
+Sbjct  834  TKPAYAYNKDGSVKVNFLEYNKGMGIDFIPTIDSIRIYAVLTDNRQVLVYRKAD  887
+
+
+> UniRef90_A0A1B2DME3 Uncharacterized protein n=1 Tax=Paenibacillus 
+sp. BIHB4019 TaxID=1870819 RepID=A0A1B2DME3_9BACL
+Length=798
+
+ Score = 91.7 bits (226),  Expect = 6e-19, Method: Composition-based stats.
+ Identities = 23/95 (24%), Positives = 40/95 (42%), Gaps = 4/95 (4%)
+
+Query  20   YTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQY  79
+               +W      +Y+D +    V  D    Y++V    D G    +A   SG   +N+ +Y
+Sbjct  708  TVKSWNIDESVNYVDGVYL-HVEPDYVCEYKLVAADEDRGTHPRYAPDASGTLYVNYTEY  766
+
+Query  80   NKGYGVADTKTIQVFVVIPDTGNSEEYIIAEWKKT  114
+            N G+G ++     V+ V P        ++AEW  +
+Sbjct  767  NAGHGFSENTHSLVYAVYP---GLSPVLVAEWVPS  798
+
+
+> UniRef90_N1LNI9 Uncharacterized protein n=1 Tax=Bacillus sp. 
+GeD10 TaxID=1301086 RepID=N1LNI9_9BACI
+Length=968
+
+ Score = 90.5 bits (223),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 25/90 (28%), Positives = 42/90 (47%), Gaps = 3/90 (3%)
+
+Query  23   NWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNKG  82
+             W   + + YID +TF KV T K   Y++ ++G    ++    V   G ++INF  +N G
+Sbjct  777  QWQ-SSKTGYIDGITFSKVPTTKV-RYQLEIDGKLTDIKPASQVDSQGKRSINFKDFNNG  834
+
+Query  83   YGVADTKTIQVFVVIPDTGNSEEYIIAEWK  112
+              +     I V+ V     N  +  +AE +
+Sbjct  835  NSIYAGSQISVYAVDERNDN-LKVKVAEHQ  863
+
+
+ Score = 50.5 bits (119),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 21/84 (25%), Positives = 36/84 (43%), Gaps = 5/84 (6%)
+
+Query  24   WGRGTPSSYIDNLTFPKVLTDKKY---SYRVVVNGSDLGVESNFAVTPSGGQTINFLQYN  80
+            W +G  S YI+ + F  +    +Y    Y++  NG     ++   + P+    INFL YN
+Sbjct  879  WIKGAGS-YINGMYFKPIPAGMEYSIKQYKLQFNGQ-TVTKNRNNLEPNRSIGINFLDYN  936
+
+Query  81   KGYGVADTKTIQVFVVIPDTGNSE  104
+             G G+     I +  +  +  N  
+Sbjct  937  NGKGLPTGTKIDITAITTNGTNVF  960
+
+
+> UniRef90_A0A193D1V7 Uncharacterized protein n=1 Tax=Bacillus 
+thuringiensis serovar coreanensis TaxID=180843 RepID=A0A193D1V7_BACTU
+Length=688
+
+ Score = 89.8 bits (221),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 23/85 (27%), Positives = 40/85 (47%), Gaps = 2/85 (2%)
+
+Query  28   TPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNKGYGVAD  87
+              S+ +D +TF KV   K   Y++ ++G    ++    V   G ++INF  +N G G+  
+Sbjct  273  NGSTSVDGITFSKVPNTKV-RYQLEIDGRLTDIKPASQVDSQGRRSINFKDFNNGNGIYT  331
+
+Query  88   TKTIQVFVVIPDTGNSEEYIIAEWK  112
+               I V+ V     N  +  +A+ K
+Sbjct  332  GSNISVYAVDERNDN-LKMKVADHK  355
+
+
+> UniRef90_UPI00040EDA99 Iota toxin protein Ib n=1 Tax=Bacillus 
+thuringiensis TaxID=1428 RepID=UPI00040EDA99
+Length=1106
+
+ Score = 88.6 bits (218),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 22/80 (28%), Positives = 38/80 (48%), Gaps = 2/80 (3%)
+
+Query  31   SYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNKGYGVADTKT  90
+             YID +T  KV   K   Y++ ++G    ++   AV   G + INF  +N G  +   + 
+Sbjct  788  GYIDGVTLSKVPNTKV-RYQLEIDGKLTDIKPASAVDSQGKRYINFKDFNAGNSIYAGQH  846
+
+Query  91   IQVFVVIPDTGNSEEYIIAE  110
+            + V+ +     N+ +  IAE
+Sbjct  847  VSVYAIDEKN-NNLKVKIAE  865
+
+
+> UniRef90_UPI0009475088 UPI0009475088 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009475088
+Length=889
+
+ Score = 88.2 bits (217),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 23/107 (21%), Positives = 41/107 (38%), Gaps = 6/107 (6%)
+
+Query  6    TFQLAYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKY---SYRVVVNGSDLG--V  60
+             F+    VK    DY+         +Y + + F   + +       YR+   G D     
+Sbjct  780  LFKSEQYVKSFYKDYSLIRVFANNDNYYNGVKFSGNMENITKHIPKYRIKCTGRDNFDVT  839
+
+Query  61   ESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYI  107
+              +  +   G  T+NFL +N G G+     I ++ +  D G+  + I
+Sbjct  840  RKSPDLNSDGTLTLNFLDFNAGKGLLWGNYITIYAIN-DYGDEFKII  885
+
+
+> UniRef90_A0A0G4DCC8 Immunomodulatory protein n=1 Tax=Bacillus 
+thuringiensis subsp. tolworthi TaxID=1442 RepID=A0A0G4DCC8_BACTO
+Length=726
+
+ Score = 87.8 bits (216),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 39/99 (39%), Positives = 53/99 (54%), Gaps = 8/99 (8%)
+
+Query  20   YTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQ-  78
+            +  NW   T S Y+D +TF +V   KK  YRVV+NG+D+G    +     G  TI F Q 
+Sbjct  598  HIKNWE--TTSYYVDGITFSEVPQGKKMKYRVVLNGNDIGTSYPYQTNGKGTDTILFTQD  655
+
+Query  79   -YN-KGYGVAD-TKTIQVFVVIPDTGNSEEYIIAEWKKT  114
+             Y+  G+GV+     I VF + PDTG   EY IA  + +
+Sbjct  656  YYDMDGWGVSKYDNHIVVFAIDPDTG--LEYEIAHHEPS  692
+
+
+> UniRef90_R8TMK4 Uncharacterized protein (Fragment) n=1 Tax=Bacillus 
+cereus VD184 TaxID=1053242 RepID=R8TMK4_BACCE
+Length=454
+
+ Score = 86.3 bits (212),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 24/78 (31%), Positives = 39/78 (50%), Gaps = 2/78 (3%)
+
+Query  30   SSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNKGYGVADTK  89
+             SY++ + F     D K  Y++ ++     +   + + P G + INFL++N G G+   K
+Sbjct  372  GSYMNGIFFKA--PDSKVRYQIAIDNQPTVILPGYPLNPQGVRYINFLEFNAGMGIPLNK  429
+
+Query  90   TIQVFVVIPDTGNSEEYI  107
+             I+VFVV     N  E I
+Sbjct  430  QIRVFVVDEKNDNLREQI  447
+
+
+ Score = 45.5 bits (106),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 21/103 (20%), Positives = 41/103 (40%), Gaps = 6/103 (6%)
+
+Query  12   LVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGG  71
+             ++K     T        SS I+ + F K    K   Y++ +N +   + S+  +   G 
+Sbjct  261  DIQKAHVFDTFIAQYDIFSSNIEGIKFSKTSHTKV-RYQLFLNNTWKEIRSD-VLNEDGT  318
+
+Query  72   QTINFLQYNKGYGVADTKTIQV-FVVIPDTGNSEEYIIAEWKK  113
+              I+  ++N G G+   ++  V + V     N  +  +AE   
+Sbjct  319  --IDLTKWNGGNGLPAHQSSFVLYAVDEKNDN-LKVKVAERHP  358
+
+
+> UniRef90_M2R9U0 Uncharacterized protein n=1 Tax=Ceriporiopsis 
+subvermispora (strain B) TaxID=914234 RepID=M2R9U0_CERS8
+Length=88
+
+ Score = 80.1 bits (196),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 23/57 (40%), Positives = 31/57 (54%), Gaps = 0/57 (0%)
+
+Query  22  PNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQ  78
+           P W RG P+ Y+D +T P    DK   YRV+ +G+DLGV     +   G QT+   Q
+Sbjct  8   PVWRRGNPTIYVDYVTIPHAPADKVCQYRVIKSGTDLGVRPTQPLNEDGSQTVKLRQ  64
+
+
+> UniRef90_N1LHK0 Hemolysin BL binding component n=1 Tax=Bacillus 
+sp. GeD10 TaxID=1301086 RepID=N1LHK0_9BACI
+Length=1096
+
+ Score = 86.3 bits (212),  Expect = 7e-17, Method: Composition-based stats.
+ Identities = 20/77 (26%), Positives = 34/77 (44%), Gaps = 1/77 (1%)
+
+Query  31   SYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNKGYGVADTKT  90
+             Y+D +TF KV   K   Y++ ++G    ++    +   G + INF  +N G  +     
+Sbjct  780  GYLDGVTFSKVPNTKV-RYQLEIDGKLTDIKPASQIDSQGKRYINFKDFNNGNSIYAGSQ  838
+
+Query  91   IQVFVVIPDTGNSEEYI  107
+            I V+ V     N +  I
+Sbjct  839  ISVYAVDEKNDNLKVKI  855
+
+
+> UniRef90_J8NYG1 Uncharacterized protein n=1 Tax=Bacillus cereus 
+VDM062 TaxID=1053250 RepID=J8NYG1_BACCE
+Length=931
+
+ Score = 83.6 bits (205),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 22/75 (29%), Positives = 40/75 (53%), Gaps = 1/75 (1%)
+
+Query  33   IDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNKGYGVADTKTIQ  92
+            ID +TFP++ + K   Y++ ++G    + S+  +  SG + +NF ++N G G+   K I 
+Sbjct  749  IDGITFPRIPSTKV-RYQLEIDGKMTDIRSDAVIDASGTRYVNFHKFNNGNGIDMYKRII  807
+
+Query  93   VFVVIPDTGNSEEYI  107
+            VF V     N +  +
+Sbjct  808  VFAVDEKNDNLKAKL  822
+
+
+ Score = 55.9 bits (133),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 25/81 (31%), Positives = 43/81 (53%), Gaps = 4/81 (5%)
+
+Query  29   PSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNKGYG--VA  86
+             + YI+ +T+ KV  +  + Y++ VNG+   +       P+G   INFL +N G G  + 
+Sbjct  840  NNRYINGITYGKVPLE-NFKYQLYVNGNWTSILYG-DAKPNGKMYINFLSFNNGRGYHIV  897
+
+Query  87   DTKTIQVFVVIPDTGNSEEYI  107
+            +  TIQ+F V  +  N + Y+
+Sbjct  898  NGFTIQIFTVNINDNNKKTYL  918
+
+
+> UniRef90_A0A150CLR1 Uncharacterized protein n=1 Tax=Bacillus 
+cereus TaxID=1396 RepID=A0A150CLR1_BACCE
+Length=874
+
+ Score = 76.3 bits (186),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 25/105 (24%), Positives = 44/105 (42%), Gaps = 13/105 (12%)
+
+Query  12   LVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKY--SYRVVVNG-----SDLGVESNF  64
+             +K    DY+      T +  +DN+ F  +   + Y   YRV   G     S     +++
+Sbjct  765  DIKAKYSDYSE--KLDTWNMRLDNVVFKNISPFQNYVTKYRVKYVGAIPQWSFDKTLNSY  822
+
+Query  65   AVTPSGGQTINFLQYNKGYGV---ADTKTIQVFVVIPDTGNSEEY  106
+             +   G   +N L+YN G G+   + +K + ++ V  D G   E 
+Sbjct  823  ELKSDGSLMVNILEYNDGMGIDINSPSKNVTIYAV-TDDGREIEV  866
+
+
+> UniRef90_A0A139ZL18 Vip1-02 n=1 Tax=Bacillus thuringiensis TaxID=1428 
+RepID=A0A139ZL18_BACTU
+Length=874
+
+ Score = 74.0 bits (180),  Expect = 9e-13, Method: Composition-based stats.
+ Identities = 23/105 (22%), Positives = 43/105 (41%), Gaps = 13/105 (12%)
+
+Query  12   LVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKY--SYRVVVNGSDLG-----VESNF  64
+             +K    DY+      T    +DN+ F  +   + Y   YRV   G+          +++
+Sbjct  765  DIKVKYNDYSE--KLDTWDMRLDNVVFKNITPFQNYVTKYRVKYVGTIPAWSFDKTLNSY  822
+
+Query  65   AVTPSGGQTINFLQYNKGYGV---ADTKTIQVFVVIPDTGNSEEY  106
+             +   G   +N L+YN G G+   + +K + ++ +  D G   E 
+Sbjct  823  ELNSDGSLMVNILEYNDGRGIDLNSPSKNVTIYAI-TDDGREIEV  866
+
+
+> UniRef90_A0A0E1QH35 Putative Clostridial binary toxin B superfamily 
+protein n=1 Tax=Clostridium botulinum TaxID=1491 RepID=A0A0E1QH35_CLOBO
+Length=902
+
+ Score = 61.3 bits (147),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 24/111 (22%), Positives = 45/111 (41%), Gaps = 11/111 (10%)
+
+Query  7    FQLAYLVKKIDFDY---TPNWGRGTPS--SYIDNLTFPKVLTDKKY---SYRVVVNG--S  56
+            F+    VK    D+     +W         Y +++TF K + +       YR+   G  +
+Sbjct  785  FRNEQYVKSFYTDHKLEVHHWRDPDYGDLYYGNSITFTKDMREISKHIPKYRIKCTGGHN  844
+
+Query  57   DLGVESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYI  107
+                 S++  +  G   INFL YN G G+     I ++ +  + G+  + +
+Sbjct  845  FNITRSSYEPSSDGTLKINFLDYNGGKGLFFHDYITIYAIN-NYGDEFKIL  894
+
+
+> UniRef90_B3ZYH5 Clostridial binary toxin B/anthrax toxin PA family 
+protein n=2 Tax=Bacillus cereus group TaxID=86661 RepID=B3ZYH5_BACCE
+Length=976
+
+ Score = 55.9 bits (133),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 27/102 (26%), Positives = 46/102 (45%), Gaps = 11/102 (11%)
+
+Query  10   AYLVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLG-VESNFAVTP  68
+            A+  K +  D      +   ++YI+++    V    K+ Y+V +NG ++G +++      
+Sbjct  756  AHTFKSVHSD------KKNGTNYINSINL-NVNKPIKWKYKVKMNGKEVGDLKNISEPDA  808
+
+Query  69   SGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAE  110
+            +G   INFL  N G G   T  I+V+ V           IAE
+Sbjct  809  NGVIKINFLDLNNGSGFLSTDHIEVYAVKE---GLRPVKIAE  847
+
+
+> UniRef90_A0A0J7D8D3 Iota toxin protein Ib n=3 Tax=Bacillus cereus 
+group TaxID=86661 RepID=A0A0J7D8D3_BACCE
+Length=976
+
+ Score = 55.5 bits (132),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 20/95 (21%), Positives = 43/95 (45%), Gaps = 10/95 (11%)
+
+Query  22   PNWGRG--------TPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPS-GGQ  72
+            P+W             + Y + + F KV  +    Y+++++      +    V P+    
+Sbjct  868  PSWKHDFVWDVVNWNGTEYHNGIKFSKVP-NLNLQYQLLIHERPSNNKRLTEVKPAYKNG  926
+
+Query  73   TINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYI  107
+             +NFL++N+G G++    I++F V P+  + +  I
+Sbjct  927  HLNFLEFNEGQGISLDNDIEIFAVDPNNHDLKVLI  961
+
+
+> UniRef90_V9I0N3 Vip4 n=2 Tax=Bacillus thuringiensis TaxID=1428 
+RepID=V9I0N3_BACTU
+Length=965
+
+ Score = 54.3 bits (129),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 17/75 (23%), Positives = 29/75 (39%), Gaps = 3/75 (4%)
+
+Query  25   GRGTPSSYIDNLTFPKVLTDK---KYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYNK  81
+                  SY D   F ++          Y+V +NG        +    +G   +N L+YN 
+Sbjct  876  KAPGGGSYTDGWYFERIPDGVLHCVTKYKVSINGGKPVTRDRYNPDKNGRMEVNLLEYNG  935
+
+Query  82   GYGVADTKTIQVFVV  96
+            G GV +   I+ + +
+Sbjct  936  GRGVKEGSRIEAWAI  950
+
+
+> UniRef90_UPI0005F91B0C hypothetical protein n=1 Tax=Clostridium 
+botulinum TaxID=1491 RepID=UPI0005F91B0C
+Length=65
+
+ Score = 48.2 bits (113),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 12/48 (25%), Positives = 24/48 (50%), Gaps = 1/48 (2%)
+
+Query  60   VESNFAVTPSGGQTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYI  107
+              S++ ++  G   INFL YN G G+     I ++ +  + G+  + +
+Sbjct  11   TRSSYELSSDGTLKINFLDYNGGNGLYFHDYITIYAIN-NYGDEFKIL  57
+
+
+> UniRef90_S5YZN2 Iota Ib/vip n=1 Tax=Bacillus thuringiensis TaxID=1428 
+RepID=S5YZN2_BACTU
+Length=950
+
+ Score = 50.1 bits (118),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 17/102 (17%), Positives = 38/102 (37%), Gaps = 8/102 (8%)
+
+Query  12   LVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGG  71
+             ++K        W        + ++TF +V +     Y+  ++G+   ++    V  +G 
+Sbjct  753  DIQKKHV--FEQWNYDPTRYGLTSVTFTRVPS-STIRYQWKIDGNWGSIKPAPPVDANGK  809
+
+Query  72   QTINFLQYNKGYGVADTKTIQVFVVIPDTGNSEEYIIAEWKK  113
+            +TIN                Q++ V     N  +  +AE+ +
+Sbjct  810  RTINL----DSREYTPVIHAQLYAVDEKNDN-LKVKVAEYDR  846
+
+
+> UniRef90_R8T157 Uncharacterized protein n=1 Tax=Bacillus cereus 
+VD184 TaxID=1053242 RepID=R8T157_BACCE
+Length=946
+
+ Score = 50.1 bits (118),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 21/88 (24%), Positives = 39/88 (44%), Gaps = 6/88 (7%)
+
+Query  27   GTPSS-YIDNLTFPKVLTDKKYSYRVVVNGSD-LGVESNFAVTPSGGQTINFLQYNKG--  82
+            G+P+  YID + F ++   K   Y++  NG++   +  + +V   G Q I  +    G  
+Sbjct  763  GSPNDAYIDQIKFSRIPNSKV-RYQLRYNGTEWKPILPDSSVEDDGNQRILHIGQRTGGL  821
+
+Query  83   YGVADTKTIQVFVVIPDTGNSEEYIIAE  110
+             G      ++V+ V     N  +  IA+
+Sbjct  822  SGPRANTRVEVYAVDEQDEN-LKVKIAD  848
+
+
+> UniRef90_A0A1C4DU18 Vip4 n=1 Tax=Bacillus cereus TaxID=1396 RepID=A0A1C4DU18_BACCE
+Length=927
+
+ Score = 49.7 bits (117),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 16/94 (17%), Positives = 36/94 (38%), Gaps = 9/94 (10%)
+
+Query  21   TPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGGQTINFLQYN  80
+               W   +    +  +TF +V + K   Y+    G    V+    V  +G +T+      
+Sbjct  737  FEKWNFNSNGESVTGVTFTRVPSSKI-RYQWKTTGGWGSVQPAPPVDANGKRTVTL----  791
+
+Query  81   KGYGVADTKTIQVFVVIPDTGNSEEYIIAEWKKT  114
+                 + T  ++++ V     N  +  +AE+ ++
+Sbjct  792  ---SFSPTSPVELYAVDEKNEN-LKVKVAEFGQS  821
+
+
+> UniRef90_A0A1B1W6Y6 Vegetative insecticidal protein Vip1S n=7 
+Tax=Bacillus thuringiensis TaxID=1428 RepID=A0A1B1W6Y6_BACTU
+Length=878
+
+ Score = 49.7 bits (117),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 20/111 (18%), Positives = 44/111 (40%), Gaps = 18/111 (16%)
+
+Query  12   LVKKIDFDYT--PNWGRGTPSSYIDNLTFP--KVLTDKKYSYRVVVNGSDLG-----VES  62
+             +K+I  D++   +W       + +++TF   K L +    YRV    ++       ++ 
+Sbjct  771  EIKEIYKDFSESKDW------PWFNDVTFKNIKPLENYVKQYRVDFWNTNSDRSFNRIKD  824
+
+Query  63   NFAVTPSGGQTINFLQYNKGYG--VADTKTIQVFVVIPDTGNSEEYIIAEW  111
+            ++ V   G   +N  +YN+GY   +     + +  +    G       + W
+Sbjct  825  SYPVNEDGSVKVNMTEYNEGYPLRIESAYHLNISAI-TYDGREIPVYSSSW  874
+
+
+> UniRef90_A0A139ZL20 Vip1-04 n=1 Tax=Bacillus thuringiensis TaxID=1428 
+RepID=A0A139ZL20_BACTU
+Length=872
+
+ Score = 49.3 bits (116),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 23/108 (21%), Positives = 41/108 (38%), Gaps = 19/108 (18%)
+
+Query  12   LVKKIDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKY--SYRVVVNGSDLG--------VE  61
+             +KKI  DYT         +Y+D +TF  +   + Y   YRV    +  G          
+Sbjct  770  DIKKIYKDYTEV----KNGAYLDAVTFKNIKPLQNYVTKYRVKNRPATPGWGVIPIDKTL  825
+
+Query  62   SNFAVTPSGGQTINFLQYNKGYGVADT-KTIQVFVVIPDTGNSEEYII  108
+             +  V   G   +N   Y+   G+    + + ++ +   T +  E +I
+Sbjct  826  DSGPVNNDGDVKVNLQDYSN-NGINTAFEKVDIYAI---TNDGREILI  869
+
+
+> UniRef90_N1LYD7 Uncharacterized protein n=1 Tax=Bacillus sp. 
+GeD10 TaxID=1301086 RepID=N1LYD7_9BACI
+Length=1194
+
+ Score = 44.7 bits (104),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 18/86 (21%), Positives = 38/86 (44%), Gaps = 6/86 (7%)
+
+Query  16    IDFDYTPNWGRGTPSSYIDNLTFPKVLTDKKYSYRVVVNGSDLGVESNFAVTPSGG---Q  72
+             +  +Y  +W      +Y++ +    + T+    Y+  +NG D  +     V   G     
+Sbjct  1085  VCTNYVYSWDVTN-DAYLNGVYV-DIPTNLNVLYKFKINGIDTTIIKPQLVKNYGNWSRF  1142
+
+Query  73    TINFLQYNKGYGVA-DTKTIQVFVVI  97
+              +N L+ N G+GV   T  ++++V+ 
+Sbjct  1143  YVNMLEANLGHGVNIKTNNVELYVID  1168
+
+
+> UniRef90_A0A142GQB7 Uncharacterized protein n=1 Tax=Bacillus 
+thuringiensis TaxID=1428 RepID=A0A142GQB7_BACTU
+Length=214
+
+ Score = 43.5 bits (101),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 17/104 (16%), Positives = 41/104 (39%), Gaps = 11/104 (11%)
+
+Query  12   LVKKIDFDYTPNWGRGTPSSYIDNLTFP--KVLTDKKYSYRVVVNGSDLG-----VESNF  64
+             +K+   D++ +        + +++TF   K L +    YR+    ++       ++ ++
+Sbjct  105  EIKEKYKDFSESISWD--GEWFNSVTFKNIKPLENYVKQYRIDFWNTNSDRSFNRIKDSY  162
+
+Query  65   AVTPSGGQTINFLQYNKGYG--VADTKTIQVFVVIPDTGNSEEY  106
+             V   G   +N  +YN+GY   +     + +  +  D      Y
+Sbjct  163  LVNEDGSVKVNMTEYNEGYPLRIESDYHLNISAITYDGREISVY  206
+
+
+> UniRef90_A0A0F5RWM9 Ricin-type beta-trefoil lectin domain protein 
+n=4 Tax=Bacillus TaxID=55087 RepID=A0A0F5RWM9_9BACI
+Length=471
+
+ Score = 43.9 bits (102),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 22/118 (19%), Positives = 46/118 (39%), Gaps = 11/118 (9%)
+
+Query  4    SLTFQLAYLVKKIDFDYT--PNWGRGTPSSYIDNLTFPKVLTD---KKYSYRVVVNGSDL  58
+            +  F +   +++     T   ++ +     +     F K+  D   +  SY V +NG+  
+Sbjct  354  AQKFFIVSEIQEAHIIDTWLKSYEKVDGKEHYHGFYFKKMEVDVLSEVISYEVKINGNHF  413
+
+Query  59   G--VESNFAVTPSGGQTINFLQYNKGYGVA---DTKTIQVFVVIPDTGNSEEYIIAEW  111
+            G      ++ +  G   +NF +YN  YG+    +   +Q++ V  D    +      W
+Sbjct  414  GNATSERYSPSEDGRIKVNFFEYNA-YGINHPVEGDKLQIWAVKKDRSTEKVIDTIIW  470
+
+
+
+Lambda      K        H        a         alpha
+   0.306    0.131    0.379    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0399    0.140     1.90     42.6     43.6 
+
+Effective search space used: 448903755465
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

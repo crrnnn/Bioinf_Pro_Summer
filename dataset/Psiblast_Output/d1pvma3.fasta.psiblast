@@ -1,0 +1,191 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1pvma3
+
+Length=36
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q9HLD9 Uncharacterized protein n=2 Tax=Thermoplasma ac...  81.3    7e-18
+  UniRef90_Q978T0 Uncharacterized protein n=2 Tax=Thermoplasma vo...  74.3    3e-15
+  UniRef90_T0N637 Uncharacterized protein n=1 Tax=Thermoplasmatal...  52.8    1e-07
+  UniRef90_T0M111 Uncharacterized protein n=1 Tax=Thermoplasmatal...  52.8    2e-07
+
+
+> UniRef90_Q9HLD9 Uncharacterized protein n=2 Tax=Thermoplasma 
+acidophilum TaxID=2303 RepID=Q9HLD9_THEAC
+Length=178
+
+ Score = 81.3 bits (199),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 36/36 (100%), Positives = 36/36 (100%), Gaps = 0/36 (0%)
+
+Query  1    QHLCPKCGVGVLEPVYNEKGEIKVFRCSNPACDYEE  36
+            QHLCPKCGVGVLEPVYNEKGEIKVFRCSNPACDYEE
+Sbjct  143  QHLCPKCGVGVLEPVYNEKGEIKVFRCSNPACDYEE  178
+
+
+> UniRef90_Q978T0 Uncharacterized protein n=2 Tax=Thermoplasma 
+volcanium TaxID=50339 RepID=Q978T0_THEVO
+Length=174
+
+ Score = 74.3 bits (181),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 32/36 (89%), Positives = 35/36 (97%), Gaps = 0/36 (0%)
+
+Query  1    QHLCPKCGVGVLEPVYNEKGEIKVFRCSNPACDYEE  36
+            +HLCPKCGVGVL PVY++KGEIKVFRCSNPACDYEE
+Sbjct  139  KHLCPKCGVGVLVPVYDQKGEIKVFRCSNPACDYEE  174
+
+
+> UniRef90_T0N637 Uncharacterized protein n=1 Tax=Thermoplasmatales 
+archaeon Gpl TaxID=261391 RepID=T0N637_9EURY
+Length=176
+
+ Score = 52.8 bits (125),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 21/35 (60%), Positives = 24/35 (69%), Gaps = 0/35 (0%)
+
+Query  2    HLCPKCGVGVLEPVYNEKGEIKVFRCSNPACDYEE  36
+            ++CPKC  G LEPVYN+ GEIK FRC    C Y E
+Sbjct  142  YICPKCNSGKLEPVYNDNGEIKFFRCDREDCGYIE  176
+
+
+> UniRef90_T0M111 Uncharacterized protein n=1 Tax=Thermoplasmatales 
+archaeon Gpl TaxID=261391 RepID=T0M111_9EURY
+Length=176
+
+ Score = 52.8 bits (125),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 20/33 (61%), Positives = 25/33 (76%), Gaps = 0/33 (0%)
+
+Query  4    CPKCGVGVLEPVYNEKGEIKVFRCSNPACDYEE  36
+            CP C VG +EPVYN KGEI VF+C+N +C + E
+Sbjct  144  CPVCMVGTMEPVYNAKGEITVFKCNNESCGHME  176
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.142    0.477    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 450836505210
+Results from round 2
+
+
+Query= d1pvma3
+
+Length=36
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_Q9HLD9 Uncharacterized protein n=2 Tax=Thermoplasma ac...  71.9    2e-14
+  UniRef90_Q978T0 Uncharacterized protein n=2 Tax=Thermoplasma vo...  68.4    4e-13
+  UniRef90_T0N637 Uncharacterized protein n=1 Tax=Thermoplasmatal...  67.7    9e-13
+  UniRef90_T0M111 Uncharacterized protein n=1 Tax=Thermoplasmatal...  65.4    5e-12
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_Q9HLD9 Uncharacterized protein n=2 Tax=Thermoplasma 
+acidophilum TaxID=2303 RepID=Q9HLD9_THEAC
+Length=178
+
+ Score = 71.9 bits (175),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 36/36 (100%), Positives = 36/36 (100%), Gaps = 0/36 (0%)
+
+Query  1    QHLCPKCGVGVLEPVYNEKGEIKVFRCSNPACDYEE  36
+            QHLCPKCGVGVLEPVYNEKGEIKVFRCSNPACDYEE
+Sbjct  143  QHLCPKCGVGVLEPVYNEKGEIKVFRCSNPACDYEE  178
+
+
+> UniRef90_Q978T0 Uncharacterized protein n=2 Tax=Thermoplasma 
+volcanium TaxID=50339 RepID=Q978T0_THEVO
+Length=174
+
+ Score = 68.4 bits (166),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 32/36 (89%), Positives = 35/36 (97%), Gaps = 0/36 (0%)
+
+Query  1    QHLCPKCGVGVLEPVYNEKGEIKVFRCSNPACDYEE  36
+            +HLCPKCGVGVL PVY++KGEIKVFRCSNPACDYEE
+Sbjct  139  KHLCPKCGVGVLVPVYDQKGEIKVFRCSNPACDYEE  174
+
+
+> UniRef90_T0N637 Uncharacterized protein n=1 Tax=Thermoplasmatales 
+archaeon Gpl TaxID=261391 RepID=T0N637_9EURY
+Length=176
+
+ Score = 67.7 bits (164),  Expect = 9e-13, Method: Composition-based stats.
+ Identities = 21/35 (60%), Positives = 24/35 (69%), Gaps = 0/35 (0%)
+
+Query  2    HLCPKCGVGVLEPVYNEKGEIKVFRCSNPACDYEE  36
+            ++CPKC  G LEPVYN+ GEIK FRC    C Y E
+Sbjct  142  YICPKCNSGKLEPVYNDNGEIKFFRCDREDCGYIE  176
+
+
+> UniRef90_T0M111 Uncharacterized protein n=1 Tax=Thermoplasmatales 
+archaeon Gpl TaxID=261391 RepID=T0M111_9EURY
+Length=176
+
+ Score = 65.4 bits (158),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 20/36 (56%), Positives = 26/36 (72%), Gaps = 0/36 (0%)
+
+Query  1    QHLCPKCGVGVLEPVYNEKGEIKVFRCSNPACDYEE  36
+            +  CP C VG +EPVYN KGEI VF+C+N +C + E
+Sbjct  141  KFRCPVCMVGTMEPVYNAKGEITVFKCNNESCGHME  176
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.144    0.479    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0421    0.140     1.90     42.6     43.6 
+
+Effective search space used: 450836505210
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

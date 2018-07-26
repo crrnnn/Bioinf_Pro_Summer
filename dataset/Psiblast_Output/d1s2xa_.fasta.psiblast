@@ -1,0 +1,265 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1s2xa_
+
+Length=180
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q75X62 Cag pathogenicity island protein n=245 Tax=Heli...  353     1e-121
+  UniRef90_M3SNX6 CagZ n=1 Tax=Helicobacter pylori GAM96Ai TaxID=...  187     2e-56 
+  UniRef90_D3XNT5 Cag pathogenicity island protein CagY n=1 Tax=H...  125     1e-33 
+  UniRef90_UPI00040861CA hypothetical protein n=2 Tax=Helicobacte...  99.0    1e-23 
+  UniRef90_J0NNT0 CagZ domain protein (Fragment) n=1 Tax=Helicoba...  92.8    2e-21 
+
+
+> UniRef90_Q75X62 Cag pathogenicity island protein n=245 Tax=Helicobacter 
+pylori TaxID=210 RepID=Q75X62_HELPX
+Length=199
+
+ Score = 353 bits (907),  Expect = 1e-121, Method: Compositional matrix adjust.
+ Identities = 173/178 (97%), Positives = 175/178 (98%), Gaps = 0/178 (0%)
+
+Query  3    ELGFNEAERQKILDSNSSLMRNANEVRDKFIQNYATSLKDSNDPQDFLRRVQELRINMQK  62
+            ELGFNEAERQKILDSN SLM NANEVRDKFIQNYA+SLKDSNDPQDFLRRVQELRINMQK
+Sbjct  2    ELGFNEAERQKILDSNRSLMGNANEVRDKFIQNYASSLKDSNDPQDFLRRVQELRINMQK  61
+
+Query  63   NFISFDAYYNYLNNLVLASYNRCKQEKTFAESTIKNELTLGEFVAEISDNFNNFTCDEVA  122
+            NFISFDAYYNYLNNLVLASYNRCKQEKTFAESTIKNELTLGEFVAEISDNFNNF CDEVA
+Sbjct  62   NFISFDAYYNYLNNLVLASYNRCKQEKTFAESTIKNELTLGEFVAEISDNFNNFMCDEVA  121
+
+Query  123  RISDLVASYLPREYLPPFIDGNMMGVAFQILGIDDFGKKLNEIVQDIGTKYIILSKNK  180
+            RISDLVASYLPREYLPPFIDGNMMGVAFQILGIDDFG+KLNEIVQDIGTKYIILSKNK
+Sbjct  122  RISDLVASYLPREYLPPFIDGNMMGVAFQILGIDDFGRKLNEIVQDIGTKYIILSKNK  179
+
+
+> UniRef90_M3SNX6 CagZ n=1 Tax=Helicobacter pylori GAM96Ai TaxID=1159058 
+RepID=M3SNX6_HELPX
+Length=196
+
+ Score = 187 bits (475),  Expect = 2e-56, Method: Compositional matrix adjust.
+ Identities = 96/179 (54%), Positives = 130/179 (73%), Gaps = 3/179 (2%)
+
+Query  3    ELGFNEAERQKILDSNSSLMRNANEVRDKFIQNYATSLKDSNDPQD-FLRRVQELRINMQ  61
+            ELGF E E+QKIL+S S L+ NA + R+ F  NY + LKD   P++ FL  VQ+L+I++ 
+Sbjct  2    ELGFKEIEQQKILNSQSGLIANAYDAREIFANNYLSGLKDV--PREKFLEVVQQLQIHLG  59
+
+Query  62   KNFISFDAYYNYLNNLVLASYNRCKQEKTFAESTIKNELTLGEFVAEISDNFNNFTCDEV  121
+            ++ + F+ Y  YL N+V  SY+RC  E  +AE TI++ L   E + +I+++FNNFT D V
+Sbjct  60   EHLVDFNQYAQYLRNIVSMSYDRCYAELVYAERTIEDALKREELILDIANSFNNFTNDHV  119
+
+Query  122  ARISDLVASYLPREYLPPFIDGNMMGVAFQILGIDDFGKKLNEIVQDIGTKYIILSKNK  180
+             +IS+LVASY+  EYLP +IDGN+ GV  +ILGIDDFG K+NEI+QDIGTKY ILSKNK
+Sbjct  120  FQISNLVASYVSSEYLPTYIDGNLKGVMLKILGIDDFGNKINEIIQDIGTKYSILSKNK  178
+
+
+> UniRef90_D3XNT5 Cag pathogenicity island protein CagY n=1 Tax=Helicobacter 
+pylori TaxID=210 RepID=D3XNT5_HELPX
+Length=77
+
+ Score = 125 bits (313),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 62/72 (86%), Positives = 63/72 (88%), Gaps = 0/72 (0%)
+
+Query  22  MRNANEVRDKFIQNYATSLKDSNDPQDFLRRVQELRINMQKNFISFDAYYNYLNNLVLAS  81
+           M NANEVRDKFIQNYATSLKDSNDPQDFLRRVQELRINMQKNFISFDAYYNYLNNLVLAS
+Sbjct  1   MGNANEVRDKFIQNYATSLKDSNDPQDFLRRVQELRINMQKNFISFDAYYNYLNNLVLAS  60
+
+Query  82  YNRCKQEKTFAE  93
+           Y   +  K F  
+Sbjct  61  YTSLQTRKDFCR  72
+
+
+> UniRef90_UPI00040861CA hypothetical protein n=2 Tax=Helicobacter 
+pylori TaxID=210 RepID=UPI00040861CA
+Length=64
+
+ Score = 99.0 bits (245),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 49/62 (79%), Positives = 52/62 (84%), Gaps = 0/62 (0%)
+
+Query  3   ELGFNEAERQKILDSNSSLMRNANEVRDKFIQNYATSLKDSNDPQDFLRRVQELRINMQK  62
+           ELGFNEAERQKILDSNSSLMRNANEVRDKFIQNYATSLKDSNDPQDF  +   ++    K
+Sbjct  2   ELGFNEAERQKILDSNSSLMRNANEVRDKFIQNYATSLKDSNDPQDFFEKGSRVKNQYAK  61
+
+Query  63  NF  64
+            F
+Sbjct  62  EF  63
+
+
+> UniRef90_J0NNT0 CagZ domain protein (Fragment) n=1 Tax=Helicobacter 
+pylori Hp H-10 TaxID=992063 RepID=J0NNT0_HELPX
+Length=48
+
+ Score = 92.8 bits (229),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 45/47 (96%), Positives = 46/47 (98%), Gaps = 0/47 (0%)
+
+Query  8   EAERQKILDSNSSLMRNANEVRDKFIQNYATSLKDSNDPQDFLRRVQ  54
+           + ERQKILDSNSSLMRNANEVRDKFIQNYATSLKDSNDPQDFLRRVQ
+Sbjct  2   KQERQKILDSNSSLMRNANEVRDKFIQNYATSLKDSNDPQDFLRRVQ  48
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.136    0.379    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 445336119690
+Results from round 2
+
+
+Query= d1s2xa_
+
+Length=180
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_Q75X62 Cag pathogenicity island protein n=245 Tax=Heli...  288     8e-96
+  UniRef90_M3SNX6 CagZ n=1 Tax=Helicobacter pylori GAM96Ai TaxID=...  252     1e-81
+  UniRef90_D3XNT5 Cag pathogenicity island protein CagY n=1 Tax=H...  106     3e-26
+  UniRef90_UPI00040861CA hypothetical protein n=2 Tax=Helicobacte...  88.5    1e-19
+  UniRef90_J0NNT0 CagZ domain protein (Fragment) n=1 Tax=Helicoba...  72.7    8e-14
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_Q75X62 Cag pathogenicity island protein n=245 Tax=Helicobacter 
+pylori TaxID=210 RepID=Q75X62_HELPX
+Length=199
+
+ Score = 288 bits (737),  Expect = 8e-96, Method: Composition-based stats.
+ Identities = 173/178 (97%), Positives = 175/178 (98%), Gaps = 0/178 (0%)
+
+Query  3    ELGFNEAERQKILDSNSSLMRNANEVRDKFIQNYATSLKDSNDPQDFLRRVQELRINMQK  62
+            ELGFNEAERQKILDSN SLM NANEVRDKFIQNYA+SLKDSNDPQDFLRRVQELRINMQK
+Sbjct  2    ELGFNEAERQKILDSNRSLMGNANEVRDKFIQNYASSLKDSNDPQDFLRRVQELRINMQK  61
+
+Query  63   NFISFDAYYNYLNNLVLASYNRCKQEKTFAESTIKNELTLGEFVAEISDNFNNFTCDEVA  122
+            NFISFDAYYNYLNNLVLASYNRCKQEKTFAESTIKNELTLGEFVAEISDNFNNF CDEVA
+Sbjct  62   NFISFDAYYNYLNNLVLASYNRCKQEKTFAESTIKNELTLGEFVAEISDNFNNFMCDEVA  121
+
+Query  123  RISDLVASYLPREYLPPFIDGNMMGVAFQILGIDDFGKKLNEIVQDIGTKYIILSKNK  180
+            RISDLVASYLPREYLPPFIDGNMMGVAFQILGIDDFG+KLNEIVQDIGTKYIILSKNK
+Sbjct  122  RISDLVASYLPREYLPPFIDGNMMGVAFQILGIDDFGRKLNEIVQDIGTKYIILSKNK  179
+
+
+> UniRef90_M3SNX6 CagZ n=1 Tax=Helicobacter pylori GAM96Ai TaxID=1159058 
+RepID=M3SNX6_HELPX
+Length=196
+
+ Score = 252 bits (643),  Expect = 1e-81, Method: Composition-based stats.
+ Identities = 96/179 (54%), Positives = 130/179 (73%), Gaps = 3/179 (2%)
+
+Query  3    ELGFNEAERQKILDSNSSLMRNANEVRDKFIQNYATSLKDSNDPQD-FLRRVQELRINMQ  61
+            ELGF E E+QKIL+S S L+ NA + R+ F  NY + LKD   P++ FL  VQ+L+I++ 
+Sbjct  2    ELGFKEIEQQKILNSQSGLIANAYDAREIFANNYLSGLKDV--PREKFLEVVQQLQIHLG  59
+
+Query  62   KNFISFDAYYNYLNNLVLASYNRCKQEKTFAESTIKNELTLGEFVAEISDNFNNFTCDEV  121
+            ++ + F+ Y  YL N+V  SY+RC  E  +AE TI++ L   E + +I+++FNNFT D V
+Sbjct  60   EHLVDFNQYAQYLRNIVSMSYDRCYAELVYAERTIEDALKREELILDIANSFNNFTNDHV  119
+
+Query  122  ARISDLVASYLPREYLPPFIDGNMMGVAFQILGIDDFGKKLNEIVQDIGTKYIILSKNK  180
+             +IS+LVASY+  EYLP +IDGN+ GV  +ILGIDDFG K+NEI+QDIGTKY ILSKNK
+Sbjct  120  FQISNLVASYVSSEYLPTYIDGNLKGVMLKILGIDDFGNKINEIIQDIGTKYSILSKNK  178
+
+
+> UniRef90_D3XNT5 Cag pathogenicity island protein CagY n=1 Tax=Helicobacter 
+pylori TaxID=210 RepID=D3XNT5_HELPX
+Length=77
+
+ Score = 106 bits (264),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 62/73 (85%), Positives = 63/73 (86%), Gaps = 0/73 (0%)
+
+Query  22  MRNANEVRDKFIQNYATSLKDSNDPQDFLRRVQELRINMQKNFISFDAYYNYLNNLVLAS  81
+           M NANEVRDKFIQNYATSLKDSNDPQDFLRRVQELRINMQKNFISFDAYYNYLNNLVLAS
+Sbjct  1   MGNANEVRDKFIQNYATSLKDSNDPQDFLRRVQELRINMQKNFISFDAYYNYLNNLVLAS  60
+
+Query  82  YNRCKQEKTFAES  94
+           Y   +  K F   
+Sbjct  61  YTSLQTRKDFCRK  73
+
+
+> UniRef90_UPI00040861CA hypothetical protein n=2 Tax=Helicobacter 
+pylori TaxID=210 RepID=UPI00040861CA
+Length=64
+
+ Score = 88.5 bits (218),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 49/62 (79%), Positives = 52/62 (84%), Gaps = 0/62 (0%)
+
+Query  3   ELGFNEAERQKILDSNSSLMRNANEVRDKFIQNYATSLKDSNDPQDFLRRVQELRINMQK  62
+           ELGFNEAERQKILDSNSSLMRNANEVRDKFIQNYATSLKDSNDPQDF  +   ++    K
+Sbjct  2   ELGFNEAERQKILDSNSSLMRNANEVRDKFIQNYATSLKDSNDPQDFFEKGSRVKNQYAK  61
+
+Query  63  NF  64
+            F
+Sbjct  62  EF  63
+
+
+> UniRef90_J0NNT0 CagZ domain protein (Fragment) n=1 Tax=Helicobacter 
+pylori Hp H-10 TaxID=992063 RepID=J0NNT0_HELPX
+Length=48
+
+ Score = 72.7 bits (177),  Expect = 8e-14, Method: Composition-based stats.
+ Identities = 45/47 (96%), Positives = 46/47 (98%), Gaps = 0/47 (0%)
+
+Query  8   EAERQKILDSNSSLMRNANEVRDKFIQNYATSLKDSNDPQDFLRRVQ  54
+           + ERQKILDSNSSLMRNANEVRDKFIQNYATSLKDSNDPQDFLRRVQ
+Sbjct  2   KQERQKILDSNSSLMRNANEVRDKFIQNYATSLKDSNDPQDFLRRVQ  48
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.141    0.377    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0424    0.140     1.90     42.6     43.6 
+
+Effective search space used: 445336119690
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

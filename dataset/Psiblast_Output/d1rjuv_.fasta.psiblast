@@ -1,0 +1,167 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1rjuv_
+
+Length=36
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P0CX80 Copper metallothionein 1-1 n=8 Tax=Saccharomyce...  70.5    9e-15
+  UniRef90_J4U064 CUP1-1-like protein n=1 Tax=Saccharomyces kudri...  64.3    2e-12
+  UniRef90_A0A0L8RI40 Uncharacterized protein n=1 Tax=Saccharomyc...  63.5    5e-12
+
+
+> UniRef90_P0CX80 Copper metallothionein 1-1 n=8 Tax=Saccharomyces 
+cerevisiae TaxID=4932 RepID=MTCU1_YEAST
+Length=61
+
+ Score = 70.5 bits (171),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 36/36 (100%), Positives = 36/36 (100%), Gaps = 0/36 (0%)
+
+Query  1   HECQCQCGSCKNNEQCQKSCSCPTGCNSDDKCPCGN  36
+           HECQCQCGSCKNNEQCQKSCSCPTGCNSDDKCPCGN
+Sbjct  13  HECQCQCGSCKNNEQCQKSCSCPTGCNSDDKCPCGN  48
+
+
+> UniRef90_J4U064 CUP1-1-like protein n=1 Tax=Saccharomyces kudriavzevii 
+(strain ATCC MYA-4449 / AS 2.2408 / CBS 8840 / NBRC 
+1802 / NCYC 2889) TaxID=226230 RepID=J4U064_SACK1
+Length=60
+
+ Score = 64.3 bits (155),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 32/35 (91%), Positives = 33/35 (94%), Gaps = 0/35 (0%)
+
+Query  1   HECQCQCGSCKNNEQCQKSCSCPTGCNSDDKCPCG  35
+           HECQCQCGSCKNN+QCQKSC CP GCNSDDKCPCG
+Sbjct  13  HECQCQCGSCKNNKQCQKSCRCPIGCNSDDKCPCG  47
+
+
+> UniRef90_A0A0L8RI40 Uncharacterized protein n=1 Tax=Saccharomyces 
+eubayanus TaxID=1080349 RepID=A0A0L8RI40_SACEU
+Length=60
+
+ Score = 63.5 bits (153),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 31/36 (86%), Positives = 35/36 (97%), Gaps = 0/36 (0%)
+
+Query  1   HECQCQCGSCKNNEQCQKSCSCPTGCNSDDKCPCGN  36
+           H+CQC+CGSCK NEQCQKSC+CPTGC+SDDKCPCGN
+Sbjct  13  HQCQCKCGSCKTNEQCQKSCNCPTGCDSDDKCPCGN  48
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.132    0.523    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 450836505210
+Results from round 2
+
+
+Query= d1rjuv_
+
+Length=36
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P0CX80 Copper metallothionein 1-1 n=8 Tax=Saccharomyce...  50.0    6e-07
+  UniRef90_A0A0L8RI40 Uncharacterized protein n=1 Tax=Saccharomyc...  49.2    1e-06
+  UniRef90_J4U064 CUP1-1-like protein n=1 Tax=Saccharomyces kudri...  48.5    3e-06
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_P0CX80 Copper metallothionein 1-1 n=8 Tax=Saccharomyces 
+cerevisiae TaxID=4932 RepID=MTCU1_YEAST
+Length=61
+
+ Score = 50.0 bits (118),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 36/36 (100%), Positives = 36/36 (100%), Gaps = 0/36 (0%)
+
+Query  1   HECQCQCGSCKNNEQCQKSCSCPTGCNSDDKCPCGN  36
+           HECQCQCGSCKNNEQCQKSCSCPTGCNSDDKCPCGN
+Sbjct  13  HECQCQCGSCKNNEQCQKSCSCPTGCNSDDKCPCGN  48
+
+
+> UniRef90_A0A0L8RI40 Uncharacterized protein n=1 Tax=Saccharomyces 
+eubayanus TaxID=1080349 RepID=A0A0L8RI40_SACEU
+Length=60
+
+ Score = 49.2 bits (116),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 31/36 (86%), Positives = 35/36 (97%), Gaps = 0/36 (0%)
+
+Query  1   HECQCQCGSCKNNEQCQKSCSCPTGCNSDDKCPCGN  36
+           H+CQC+CGSCK NEQCQKSC+CPTGC+SDDKCPCGN
+Sbjct  13  HQCQCKCGSCKTNEQCQKSCNCPTGCDSDDKCPCGN  48
+
+
+> UniRef90_J4U064 CUP1-1-like protein n=1 Tax=Saccharomyces kudriavzevii 
+(strain ATCC MYA-4449 / AS 2.2408 / CBS 8840 / NBRC 
+1802 / NCYC 2889) TaxID=226230 RepID=J4U064_SACK1
+Length=60
+
+ Score = 48.5 bits (114),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 32/35 (91%), Positives = 33/35 (94%), Gaps = 0/35 (0%)
+
+Query  1   HECQCQCGSCKNNEQCQKSCSCPTGCNSDDKCPCG  35
+           HECQCQCGSCKNN+QCQKSC CP GCNSDDKCPCG
+Sbjct  13  HECQCQCGSCKNNKQCQKSCRCPIGCNSDDKCPCG  47
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.141    0.557    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0431    0.140     1.90     42.6     43.6 
+
+Effective search space used: 450836505210
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

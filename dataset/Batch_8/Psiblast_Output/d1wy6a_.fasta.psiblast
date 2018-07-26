@@ -1,0 +1,974 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1wy6a_
+
+Length=159
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q970G9 Uncharacterized protein n=1 Tax=Sulfolobus toko...  313     2e-106
+  UniRef90_V9SA58 Uncharacterized protein n=5 Tax=Sulfolobus acid...  156     8e-45 
+  UniRef90_C3NHV0 Uncharacterized protein n=14 Tax=Sulfolobus Tax...  115     4e-29 
+  UniRef90_A0A1C8ZQM1 Uncharacterized protein n=1 Tax=Sulfolobus ...  115     6e-29 
+  UniRef90_H2C2E9 Uncharacterized protein n=1 Tax=Metallosphaera ...  112     5e-28 
+  UniRef90_A0A088E8A9 Uncharacterized protein n=2 Tax=Metallospha...  112     7e-28 
+  UniRef90_F4G279 Uncharacterized protein n=1 Tax=Metallosphaera ...  109     9e-27 
+  UniRef90_W7KJC6 Uncharacterized protein n=2 Tax=Sulfolobales ar...  102     5e-24 
+  UniRef90_A0A031LLF9 Uncharacterized protein n=1 Tax=Candidatus ...  98.2    2e-22 
+  UniRef90_F4B9J0 Uncharacterized protein n=2 Tax=Acidianus hospi...  97.1    4e-22 
+
+
+> UniRef90_Q970G9 Uncharacterized protein n=1 Tax=Sulfolobus tokodaii 
+(strain DSM 16993 / JCM 10545 / NBRC 100140 / 7) TaxID=273063 
+RepID=Q970G9_SULTO
+Length=173
+
+ Score = 313 bits (802),  Expect = 2e-106, Method: Compositional matrix adjust.
+ Identities = 159/161 (99%), Positives = 159/161 (99%), Gaps = 2/161 (1%)
+
+Query  1    EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI  60
+            EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI
+Sbjct  7    EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI  66
+
+Query  61   GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREIL--NEVSA  118
+            GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREIL  NEVSA
+Sbjct  67   GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILKNNEVSA  126
+
+Query  119  SILVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL  159
+            SILVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL
+Sbjct  127  SILVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL  167
+
+
+> UniRef90_V9SA58 Uncharacterized protein n=5 Tax=Sulfolobus acidocaldarius 
+TaxID=2285 RepID=V9SA58_9CREN
+Length=173
+
+ Score = 156 bits (394),  Expect = 8e-45, Method: Compositional matrix adjust.
+ Identities = 75/157 (48%), Positives = 115/157 (73%), Gaps = 3/157 (2%)
+
+Query  3    IRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKIGS  62
+            ++KLMDAKK L DG ++EG KI+ E+ K+S + EYNWFICN++++I C  +F VL+ IGS
+Sbjct  9    LKKLMDAKKLLSDGIVEEGDKIIKELAKTSPRDEYNWFICNIVDTISCDTLFVVLEDIGS  68
+
+Query  63   YFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREI--LNE-VSAS  119
+             FDL KCQNL++++ CG+  N  +++ + ALD L  QGK+++LE+I +++  LNE     
+Sbjct  69   NFDLSKCQNLRTIINCGIKLNINSKYFDMALDYLTAQGKKEQLEDISKDLFKLNEQPKPE  128
+
+Query  120  ILVAIANALRRVGDERDATTLLIEACKKGEKEACNAV  156
+            I++ I NAL+++G  R+A  L+ EACK+G K+AC +V
+Sbjct  129  IVIKIVNALKKIGSTREANDLMNEACKRGIKDACASV  165
+
+
+> UniRef90_C3NHV0 Uncharacterized protein n=14 Tax=Sulfolobus TaxID=2284 
+RepID=C3NHV0_SULIN
+Length=170
+
+ Score = 115 bits (288),  Expect = 4e-29, Method: Compositional matrix adjust.
+ Identities = 56/154 (36%), Positives = 101/154 (66%), Gaps = 1/154 (1%)
+
+Query  1    EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI  60
+            E+ RKL++AKK +LDG++++G++++ +   S    E NW ICN++++ DC  + + LD I
+Sbjct  6    ELRRKLIEAKKLILDGFVEQGIELLSKTITSENIKESNWIICNVIDTADCDAVVKTLDSI  65
+
+Query  61   GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNE-VSAS  119
+            G  FD+  C N+K +V C  + N  +E+V+ ALDI+V   K+D L+++  ++ NE ++  
+Sbjct  66   GKIFDMSPCANIKRIVYCYALVNKASEYVDLALDIIVKSNKKDALDKLYNDLKNEKINPE  125
+
+Query  120  ILVAIANALRRVGDERDATTLLIEACKKGEKEAC  153
+             L+ I  A +++G  +++  +L +AC+ G KEAC
+Sbjct  126  FLLKIGIAYKKLGAVKESNEVLRKACENGLKEAC  159
+
+
+> UniRef90_A0A1C8ZQM1 Uncharacterized protein n=1 Tax=Sulfolobus 
+sp. A20 TaxID=1891280 RepID=A0A1C8ZQM1_9CREN
+Length=170
+
+ Score = 115 bits (287),  Expect = 6e-29, Method: Compositional matrix adjust.
+ Identities = 55/154 (36%), Positives = 102/154 (66%), Gaps = 1/154 (1%)
+
+Query  1    EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI  60
+            E+ RKL++AKK +LDG++++G+ ++ +   S    E NW ICN++++ +C+ +  VLD +
+Sbjct  6    ELRRKLIEAKKLILDGFVEQGIDLLSKTITSENIKESNWVICNIIDAAECKAVVSVLDSL  65
+
+Query  61   GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILN-EVSAS  119
+            G  F++  C N+K +  C  I    +E+V+ AL+ ++  GK+D+L+++  EI+N  VSA 
+Sbjct  66   GKIFNISVCANVKRIPYCYAILKKTSENVDLALEAIISSGKKDQLDKLYSEIINMNVSAE  125
+
+Query  120  ILVAIANALRRVGDERDATTLLIEACKKGEKEAC  153
+             L+ IANA +++G  +++  ++ + C+ G KEAC
+Sbjct  126  FLIKIANAYKKLGAIKESNEIIKKICESGVKEAC  159
+
+
+> UniRef90_H2C2E9 Uncharacterized protein n=1 Tax=Metallosphaera 
+yellowstonensis MK1 TaxID=671065 RepID=H2C2E9_9CREN
+Length=169
+
+ Score = 112 bits (281),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 56/159 (35%), Positives = 98/159 (62%), Gaps = 1/159 (1%)
+
+Query  1    EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI  60
+            E+ + LM+AK+ +++G + +G +++ ++  SS   E NW ICN++++ +C+Y+ + L+ I
+Sbjct  7    ELQKSLMEAKERIVNGDVKQGTELIGKVVNSSNIREANWVICNIIDAAECKYVVETLESI  66
+
+Query  61   GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNEVSASI  120
+            G  FD+  C NLK V+ C  +   LNE+V+ AL  LV + + D L+ + +E++N      
+Sbjct  67   GKIFDITTCGNLKRVITCHAMRGVLNEYVDIALGALVKRRREDLLDRLAQELMN-ADPKF  125
+
+Query  121  LVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL  159
+            LV +A+A   +G+ R    LL  AC+KG  EAC  +N +
+Sbjct  126  LVKLASAYGELGNTRKQGDLLRVACEKGLTEACRNINQV  164
+
+
+> UniRef90_A0A088E8A9 Uncharacterized protein n=2 Tax=Metallosphaera 
+sedula TaxID=43687 RepID=A0A088E8A9_9CREN
+Length=169
+
+ Score = 112 bits (280),  Expect = 7e-28, Method: Compositional matrix adjust.
+ Identities = 58/159 (36%), Positives = 99/159 (62%), Gaps = 1/159 (1%)
+
+Query  1    EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI  60
+            E+++ LM+AK+ ++ G +  GV+I+ +   SS   E NW ICN++++ DC Y+ + L+ I
+Sbjct  7    ELVKSLMEAKESIISGDVKRGVEIIEKTVNSSNIKEANWVICNVIDAADCAYVVETLNAI  66
+
+Query  61   GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNEVSASI  120
+            G  FD+  C NLK V+ C +     +E V+ AL  LV + + D+L++I  E   E+ A +
+Sbjct  67   GKIFDVTACGNLKRVISCFMRAGKDSEFVDLALSALVQKRREDQLDKILAET-GEIPAPL  125
+
+Query  121  LVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL  159
+            L+ +A+A  ++G+ +    LL +AC+KG KEAC  +N +
+Sbjct  126  LLKLASAYGKIGNRKKEQELLKQACEKGLKEACRDINQI  164
+
+
+> UniRef90_F4G279 Uncharacterized protein n=1 Tax=Metallosphaera 
+cuprina (strain Ar-4) TaxID=1006006 RepID=F4G279_METCR
+Length=169
+
+ Score = 109 bits (272),  Expect = 9e-27, Method: Compositional matrix adjust.
+ Identities = 63/161 (39%), Positives = 103/161 (64%), Gaps = 5/161 (3%)
+
+Query  1    EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI  60
+            E+++ LM+AK+ +L G + +GV+I+ +   SS   E NW ICN++++ DC+Y+ + L+ I
+Sbjct  7    ELLKSLMEAKERILSGDVKQGVEIIGKNVNSSNIKESNWVICNVIDAADCQYVVETLESI  66
+
+Query  61   GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEI--GREILNEVSA  118
+            G  FD+  C NLK VVEC    +  +E V+ AL  LV + K D+L+++  G   LN+   
+Sbjct  67   GKIFDITVCGNLKRVVECYAKRSLDSEFVDLALTSLVEKRKLDQLDKVILG---LNDSLP  123
+
+Query  119  SILVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL  159
+            S+LV +A+A  ++G+++    LL  AC+KG KEAC  +N +
+Sbjct  124  SLLVKLASAYAKLGNKKMEEELLKRACEKGLKEACRNINQV  164
+
+
+> UniRef90_W7KJC6 Uncharacterized protein n=2 Tax=Sulfolobales 
+archaeon AZ1 TaxID=1326980 RepID=W7KJC6_9CREN
+Length=169
+
+ Score = 102 bits (254),  Expect = 5e-24, Method: Compositional matrix adjust.
+ Identities = 51/159 (32%), Positives = 96/159 (60%), Gaps = 3/159 (2%)
+
+Query  1    EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI  60
+            ++ + L  AK+ +++G+  EG++++ +   SS   E NW ICN++++  C  +  VLD I
+Sbjct  10   QLFKSLTYAKELIINGHTKEGIEVIEKAVNSSNIKEANWVICNIIDAASCNAVVSVLDSI  69
+
+Query  61   GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNEVSASI  120
+            G  FD+  C N+K V++C       +E V+ A++ L+ +GK+D+L+++  E+       I
+Sbjct  70   GKIFDISACGNVKRVIKCYDSAKRDSEFVDIAINALIARGKKDQLDKLLPEL---TYGKI  126
+
+Query  121  LVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL  159
+            L+ ++    +  +E+ A  L+ +AC++GEKEAC  +N L
+Sbjct  127  LLKLSQVYAKFKEEKKARELMKKACEQGEKEACENINQL  165
+
+
+> UniRef90_A0A031LLF9 Uncharacterized protein n=1 Tax=Candidatus 
+Acidianus copahuensis TaxID=1160895 RepID=A0A031LLF9_9CREN
+Length=168
+
+ Score = 98.2 bits (243),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 53/159 (33%), Positives = 94/159 (59%), Gaps = 2/159 (1%)
+
+Query  1    EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI  60
+            E+I+ L +AK+ +LDGY+ +G+ ++ +   S    E NW ICN+++++ C+ +  VLD I
+Sbjct  7    ELIKSLTEAKELILDGYLKQGIDLIEKTVTSDNIKESNWVICNIIDAVPCQNLVTVLDNI  66
+
+Query  61   GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNEVSASI  120
+            G  FD+  C N+K V+ C    N  NE V+ A+D +V + K ++L+++ +E+ N  +  I
+Sbjct  67   GKMFDISVCGNVKRVISCYSKVNKYNELVDIAIDSIVQKRKVEQLDKVLQELGN--NGMI  124
+
+Query  121  LVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL  159
+               +A A  ++   + A  L  +AC+ G  EAC  +N +
+Sbjct  125  YYKLALAYEKLNYSKKAQELKKKACENGIAEACQNINQV  163
+
+
+> UniRef90_F4B9J0 Uncharacterized protein n=2 Tax=Acidianus hospitalis 
+TaxID=563177 RepID=F4B9J0_ACIHW
+Length=157
+
+ Score = 97.1 bits (240),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 48/154 (31%), Positives = 93/154 (60%), Gaps = 2/154 (1%)
+
+Query  6    LMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKIGSYFD  65
+            + +AK+ ++DGY+ +G++++ +   S+  S+ NW ICN++++  C Y+ +VLD IG  FD
+Sbjct  1    MTEAKERIIDGYVKQGIELIEKTVSSNNISQANWVICNIIDAAKCEYLVEVLDSIGKIFD  60
+
+Query  66   LDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNEVSASILVAIA  125
+            +  C N+K V+ C       +E V+ A++ +V +GK+D+L+++  ++ N  +   L  ++
+Sbjct  61   ISVCGNVKRVISCYAKVGKYSEFVDIAINSIVNRGKKDQLDKVLNDVGN--NGEFLYKLS  118
+
+Query  126  NALRRVGDERDATTLLIEACKKGEKEACNAVNTL  159
+             A  ++ D + A  L  +AC  G  EAC  +N +
+Sbjct  119  LAYEKLHDLKKAQELRKKACDSGIPEACENINQV  152
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.386    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 436922058390
+Results from round 2
+
+
+Query= d1wy6a_
+
+Length=159
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_H2C2E9 Uncharacterized protein n=1 Tax=Metallosphaera ...  212     9e-67
+  UniRef90_A0A088E8A9 Uncharacterized protein n=2 Tax=Metallospha...  208     4e-65
+  UniRef90_F4G279 Uncharacterized protein n=1 Tax=Metallosphaera ...  204     7e-64
+  UniRef90_F4B9J0 Uncharacterized protein n=2 Tax=Acidianus hospi...  202     5e-63
+  UniRef90_A0A031LLF9 Uncharacterized protein n=1 Tax=Candidatus ...  199     2e-61
+  UniRef90_W7KJC6 Uncharacterized protein n=2 Tax=Sulfolobales ar...  195     4e-60
+  UniRef90_C3NHV0 Uncharacterized protein n=14 Tax=Sulfolobus Tax...  194     1e-59
+  UniRef90_A0A1C8ZQM1 Uncharacterized protein n=1 Tax=Sulfolobus ...  187     6e-57
+  UniRef90_Q970G9 Uncharacterized protein n=1 Tax=Sulfolobus toko...  184     1e-55
+  UniRef90_V9SA58 Uncharacterized protein n=5 Tax=Sulfolobus acid...  178     3e-53
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI0006D1D953 hypothetical protein n=1 Tax=Sulfolobus ...  56.2    2e-06
+  UniRef90_A0A1G2BR63 Uncharacterized protein n=1 Tax=Candidatus ...  48.5    6e-04
+  UniRef90_Q96XS7 Uncharacterized protein n=1 Tax=Sulfolobus toko...  46.5    0.002
+
+
+> UniRef90_H2C2E9 Uncharacterized protein n=1 Tax=Metallosphaera 
+yellowstonensis MK1 TaxID=671065 RepID=H2C2E9_9CREN
+Length=169
+
+ Score = 212 bits (540),  Expect = 9e-67, Method: Composition-based stats.
+ Identities = 56/159 (35%), Positives = 98/159 (62%), Gaps = 1/159 (1%)
+
+Query  1    EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI  60
+            E+ + LM+AK+ +++G + +G +++ ++  SS   E NW ICN++++ +C+Y+ + L+ I
+Sbjct  7    ELQKSLMEAKERIVNGDVKQGTELIGKVVNSSNIREANWVICNIIDAAECKYVVETLESI  66
+
+Query  61   GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNEVSASI  120
+            G  FD+  C NLK V+ C  +   LNE+V+ AL  LV + + D L+ + +E++N      
+Sbjct  67   GKIFDITTCGNLKRVITCHAMRGVLNEYVDIALGALVKRRREDLLDRLAQELMN-ADPKF  125
+
+Query  121  LVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL  159
+            LV +A+A   +G+ R    LL  AC+KG  EAC  +N +
+Sbjct  126  LVKLASAYGELGNTRKQGDLLRVACEKGLTEACRNINQV  164
+
+
+> UniRef90_A0A088E8A9 Uncharacterized protein n=2 Tax=Metallosphaera 
+sedula TaxID=43687 RepID=A0A088E8A9_9CREN
+Length=169
+
+ Score = 208 bits (529),  Expect = 4e-65, Method: Composition-based stats.
+ Identities = 58/159 (36%), Positives = 99/159 (62%), Gaps = 1/159 (1%)
+
+Query  1    EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI  60
+            E+++ LM+AK+ ++ G +  GV+I+ +   SS   E NW ICN++++ DC Y+ + L+ I
+Sbjct  7    ELVKSLMEAKESIISGDVKRGVEIIEKTVNSSNIKEANWVICNVIDAADCAYVVETLNAI  66
+
+Query  61   GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNEVSASI  120
+            G  FD+  C NLK V+ C +     +E V+ AL  LV + + D+L++I  E   E+ A +
+Sbjct  67   GKIFDVTACGNLKRVISCFMRAGKDSEFVDLALSALVQKRREDQLDKILAETG-EIPAPL  125
+
+Query  121  LVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL  159
+            L+ +A+A  ++G+ +    LL +AC+KG KEAC  +N +
+Sbjct  126  LLKLASAYGKIGNRKKEQELLKQACEKGLKEACRDINQI  164
+
+
+> UniRef90_F4G279 Uncharacterized protein n=1 Tax=Metallosphaera 
+cuprina (strain Ar-4) TaxID=1006006 RepID=F4G279_METCR
+Length=169
+
+ Score = 204 bits (520),  Expect = 7e-64, Method: Composition-based stats.
+ Identities = 61/159 (38%), Positives = 102/159 (64%), Gaps = 1/159 (1%)
+
+Query  1    EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI  60
+            E+++ LM+AK+ +L G + +GV+I+ +   SS   E NW ICN++++ DC+Y+ + L+ I
+Sbjct  7    ELLKSLMEAKERILSGDVKQGVEIIGKNVNSSNIKESNWVICNVIDAADCQYVVETLESI  66
+
+Query  61   GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNEVSASI  120
+            G  FD+  C NLK VVEC    +  +E V+ AL  LV + K D+L+++   + N+   S+
+Sbjct  67   GKIFDITVCGNLKRVVECYAKRSLDSEFVDLALTSLVEKRKLDQLDKVILGL-NDSLPSL  125
+
+Query  121  LVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL  159
+            LV +A+A  ++G+++    LL  AC+KG KEAC  +N +
+Sbjct  126  LVKLASAYAKLGNKKMEEELLKRACEKGLKEACRNINQV  164
+
+
+> UniRef90_F4B9J0 Uncharacterized protein n=2 Tax=Acidianus hospitalis 
+TaxID=563177 RepID=F4B9J0_ACIHW
+Length=157
+
+ Score = 202 bits (513),  Expect = 5e-63, Method: Composition-based stats.
+ Identities = 48/154 (31%), Positives = 93/154 (60%), Gaps = 2/154 (1%)
+
+Query  6    LMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKIGSYFD  65
+            + +AK+ ++DGY+ +G++++ +   S+  S+ NW ICN++++  C Y+ +VLD IG  FD
+Sbjct  1    MTEAKERIIDGYVKQGIELIEKTVSSNNISQANWVICNIIDAAKCEYLVEVLDSIGKIFD  60
+
+Query  66   LDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNEVSASILVAIA  125
+            +  C N+K V+ C       +E V+ A++ +V +GK+D+L+++  ++ N  +   L  ++
+Sbjct  61   ISVCGNVKRVISCYAKVGKYSEFVDIAINSIVNRGKKDQLDKVLNDVGN--NGEFLYKLS  118
+
+Query  126  NALRRVGDERDATTLLIEACKKGEKEACNAVNTL  159
+             A  ++ D + A  L  +AC  G  EAC  +N +
+Sbjct  119  LAYEKLHDLKKAQELRKKACDSGIPEACENINQV  152
+
+
+> UniRef90_A0A031LLF9 Uncharacterized protein n=1 Tax=Candidatus 
+Acidianus copahuensis TaxID=1160895 RepID=A0A031LLF9_9CREN
+Length=168
+
+ Score = 199 bits (505),  Expect = 2e-61, Method: Composition-based stats.
+ Identities = 53/159 (33%), Positives = 94/159 (59%), Gaps = 2/159 (1%)
+
+Query  1    EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI  60
+            E+I+ L +AK+ +LDGY+ +G+ ++ +   S    E NW ICN+++++ C+ +  VLD I
+Sbjct  7    ELIKSLTEAKELILDGYLKQGIDLIEKTVTSDNIKESNWVICNIIDAVPCQNLVTVLDNI  66
+
+Query  61   GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNEVSASI  120
+            G  FD+  C N+K V+ C    N  NE V+ A+D +V + K ++L+++ +E+ N  +  I
+Sbjct  67   GKMFDISVCGNVKRVISCYSKVNKYNELVDIAIDSIVQKRKVEQLDKVLQELGN--NGMI  124
+
+Query  121  LVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL  159
+               +A A  ++   + A  L  +AC+ G  EAC  +N +
+Sbjct  125  YYKLALAYEKLNYSKKAQELKKKACENGIAEACQNINQV  163
+
+
+> UniRef90_W7KJC6 Uncharacterized protein n=2 Tax=Sulfolobales 
+archaeon AZ1 TaxID=1326980 RepID=W7KJC6_9CREN
+Length=169
+
+ Score = 195 bits (496),  Expect = 4e-60, Method: Composition-based stats.
+ Identities = 51/159 (32%), Positives = 96/159 (60%), Gaps = 3/159 (2%)
+
+Query  1    EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI  60
+            ++ + L  AK+ +++G+  EG++++ +   SS   E NW ICN++++  C  +  VLD I
+Sbjct  10   QLFKSLTYAKELIINGHTKEGIEVIEKAVNSSNIKEANWVICNIIDAASCNAVVSVLDSI  69
+
+Query  61   GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNEVSASI  120
+            G  FD+  C N+K V++C       +E V+ A++ L+ +GK+D+L+++  E+       I
+Sbjct  70   GKIFDISACGNVKRVIKCYDSAKRDSEFVDIAINALIARGKKDQLDKLLPEL---TYGKI  126
+
+Query  121  LVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL  159
+            L+ ++    +  +E+ A  L+ +AC++GEKEAC  +N L
+Sbjct  127  LLKLSQVYAKFKEEKKARELMKKACEQGEKEACENINQL  165
+
+
+> UniRef90_C3NHV0 Uncharacterized protein n=14 Tax=Sulfolobus TaxID=2284 
+RepID=C3NHV0_SULIN
+Length=170
+
+ Score = 194 bits (493),  Expect = 1e-59, Method: Composition-based stats.
+ Identities = 56/160 (35%), Positives = 103/160 (64%), Gaps = 1/160 (1%)
+
+Query  1    EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI  60
+            E+ RKL++AKK +LDG++++G++++ +   S    E NW ICN++++ DC  + + LD I
+Sbjct  6    ELRRKLIEAKKLILDGFVEQGIELLSKTITSENIKESNWIICNVIDTADCDAVVKTLDSI  65
+
+Query  61   GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNE-VSAS  119
+            G  FD+  C N+K +V C  + N  +E+V+ ALDI+V   K+D L+++  ++ NE ++  
+Sbjct  66   GKIFDMSPCANIKRIVYCYALVNKASEYVDLALDIIVKSNKKDALDKLYNDLKNEKINPE  125
+
+Query  120  ILVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL  159
+             L+ I  A +++G  +++  +L +AC+ G KEAC  +  +
+Sbjct  126  FLLKIGIAYKKLGAVKESNEVLRKACENGLKEACENIKEI  165
+
+
+> UniRef90_A0A1C8ZQM1 Uncharacterized protein n=1 Tax=Sulfolobus 
+sp. A20 TaxID=1891280 RepID=A0A1C8ZQM1_9CREN
+Length=170
+
+ Score = 187 bits (474),  Expect = 6e-57, Method: Composition-based stats.
+ Identities = 55/160 (34%), Positives = 104/160 (65%), Gaps = 1/160 (1%)
+
+Query  1    EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI  60
+            E+ RKL++AKK +LDG++++G+ ++ +   S    E NW ICN++++ +C+ +  VLD +
+Sbjct  6    ELRRKLIEAKKLILDGFVEQGIDLLSKTITSENIKESNWVICNIIDAAECKAVVSVLDSL  65
+
+Query  61   GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILN-EVSAS  119
+            G  F++  C N+K +  C  I    +E+V+ AL+ ++  GK+D+L+++  EI+N  VSA 
+Sbjct  66   GKIFNISVCANVKRIPYCYAILKKTSENVDLALEAIISSGKKDQLDKLYSEIINMNVSAE  125
+
+Query  120  ILVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL  159
+             L+ IANA +++G  +++  ++ + C+ G KEAC  +  +
+Sbjct  126  FLIKIANAYKKLGAIKESNEIIKKICESGVKEACENIKDI  165
+
+
+> UniRef90_Q970G9 Uncharacterized protein n=1 Tax=Sulfolobus tokodaii 
+(strain DSM 16993 / JCM 10545 / NBRC 100140 / 7) TaxID=273063 
+RepID=Q970G9_SULTO
+Length=173
+
+ Score = 184 bits (466),  Expect = 1e-55, Method: Composition-based stats.
+ Identities = 159/161 (99%), Positives = 159/161 (99%), Gaps = 2/161 (1%)
+
+Query  1    EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI  60
+            EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI
+Sbjct  7    EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI  66
+
+Query  61   GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREIL--NEVSA  118
+            GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREIL  NEVSA
+Sbjct  67   GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILKNNEVSA  126
+
+Query  119  SILVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL  159
+            SILVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL
+Sbjct  127  SILVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL  167
+
+
+> UniRef90_V9SA58 Uncharacterized protein n=5 Tax=Sulfolobus acidocaldarius 
+TaxID=2285 RepID=V9SA58_9CREN
+Length=173
+
+ Score = 178 bits (451),  Expect = 3e-53, Method: Composition-based stats.
+ Identities = 72/157 (46%), Positives = 113/157 (72%), Gaps = 3/157 (2%)
+
+Query  3    IRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKIGS  62
+            ++KLMDAKK L DG ++EG KI+ E+ K+S + EYNWFICN++++I C  +F VL+ IGS
+Sbjct  9    LKKLMDAKKLLSDGIVEEGDKIIKELAKTSPRDEYNWFICNIVDTISCDTLFVVLEDIGS  68
+
+Query  63   YFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILN---EVSAS  119
+             FDL KCQNL++++ CG+  N  +++ + ALD L  QGK+++LE+I +++     +    
+Sbjct  69   NFDLSKCQNLRTIINCGIKLNINSKYFDMALDYLTAQGKKEQLEDISKDLFKLNEQPKPE  128
+
+Query  120  ILVAIANALRRVGDERDATTLLIEACKKGEKEACNAV  156
+            I++ I NAL+++G  R+A  L+ EACK+G K+AC +V
+Sbjct  129  IVIKIVNALKKIGSTREANDLMNEACKRGIKDACASV  165
+
+
+> UniRef90_UPI0006D1D953 hypothetical protein n=1 Tax=Sulfolobus 
+sp. JCM 16833 TaxID=1294262 RepID=UPI0006D1D953
+Length=632
+
+ Score = 56.2 bits (134),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 32/151 (21%), Positives = 61/151 (40%), Gaps = 6/151 (4%)
+
+Query  9    AKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKIGSYFDLDK  68
+            A + L  G I   ++I+ +     +K E   F C L+   +C +   V D      +L  
+Sbjct  160  AIEMLNKGNIKGSIEIIKKNRNKMSKLELAKFSCELISKGNCEFTNFVYDD-KELLNLVV  218
+
+Query  69   CQN--LKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNEVSASILVAIAN  126
+              N  +  ++ C V      E    +  +++ + K D+++++    L       L  IA 
+Sbjct  219  NSNCSINPLLRCLVSGLKAKEFQEVS-KLVIKKNKFDEVKQVSD--LPNFPPDWLFLIAR  275
+
+Query  127  ALRRVGDERDATTLLIEACKKGEKEACNAVN  157
+                +G+       L +AC+K   +AC  +N
+Sbjct  276  EFNEIGEREKYLEYLKKACQKNVNQACVELN  306
+
+
+> UniRef90_A0A1G2BR63 Uncharacterized protein n=1 Tax=Candidatus 
+Komeilibacteria bacterium RIFCSPLOWO2_02_FULL_48_11 TaxID=1798553 
+RepID=A0A1G2BR63_9BACT
+Length=732
+
+ Score = 48.5 bits (114),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 28/143 (20%), Positives = 59/143 (41%), Gaps = 18/143 (13%)
+
+Query  6    LMDAKKFLLDGYIDEGVKIVLEITKSSTKSEY-NWFI-CNLLESIDCRYMFQVLDKIGSY  63
+            L+ AK + ++G IDE +K++ E+   +   E  +WF+  NL+ +   +   + L+K G  
+Sbjct  586  LLLAKTYFIEGKIDESIKVMEELVAQNPVYEQPHWFLGLNLMRAGQTKRGLEELEK-GKN  644
+
+Query  64   FDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNEVSASILVA  123
+            F L    N++ +++         E +    ++L+ Q                 +      
+Sbjct  645  FGLAFKSNIQYLIDVYAQAKQY-EKIPMLYEMLIAQ--------------EPDNYGFYAN  689
+
+Query  124  IANALRRVGDERDATTLLIEACK  146
+            +A     +GD+  A   + +A  
+Sbjct  690  LAATYAELGDKPKALKFIKKAVD  712
+
+
+> UniRef90_Q96XS7 Uncharacterized protein n=1 Tax=Sulfolobus tokodaii 
+(strain DSM 16993 / JCM 10545 / NBRC 100140 / 7) TaxID=273063 
+RepID=Q96XS7_SULTO
+Length=514
+
+ Score = 46.5 bits (109),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 26/115 (23%), Positives = 45/115 (39%), Gaps = 19/115 (17%)
+
+Query  39   WFICNLLESIDCRYMFQVLDKIGSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVI  98
+            W IC      +C+ + +         D  KC+NL   VEC    +     V       + 
+Sbjct  103  WSICK---ETNCKTIIRYSK---KSQDYLKCKNLVRFVECFAKADEEFLFVQT-----IS  151
+
+Query  99   QGKRDKLEEIGREILNEVSASILVAIANALRRVGDERDATTLLIEACKKGEKEAC  153
+            + K+ +LE+I     +++ A     ++              LL+ ACK G ++AC
+Sbjct  152  KMKKSELEKISN---SDLPAKYYYLLSQFY-----LDKRAELLMRACKDGYRQAC  198
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.141    0.385    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0430    0.140     1.90     42.6     43.6 
+
+Effective search space used: 436922058390
+Results from round 3
+
+
+Query= d1wy6a_
+
+Length=159
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_H2C2E9 Uncharacterized protein n=1 Tax=Metallosphaera ...  194     8e-60
+  UniRef90_A0A088E8A9 Uncharacterized protein n=2 Tax=Metallospha...  192     5e-59
+  UniRef90_F4G279 Uncharacterized protein n=1 Tax=Metallosphaera ...  189     6e-58
+  UniRef90_F4B9J0 Uncharacterized protein n=2 Tax=Acidianus hospi...  186     6e-57
+  UniRef90_A0A031LLF9 Uncharacterized protein n=1 Tax=Candidatus ...  180     3e-54
+  UniRef90_W7KJC6 Uncharacterized protein n=2 Tax=Sulfolobales ar...  178     1e-53
+  UniRef90_C3NHV0 Uncharacterized protein n=14 Tax=Sulfolobus Tax...  175     2e-52
+  UniRef90_A0A1C8ZQM1 Uncharacterized protein n=1 Tax=Sulfolobus ...  171     1e-50
+  UniRef90_Q970G9 Uncharacterized protein n=1 Tax=Sulfolobus toko...  167     6e-49
+  UniRef90_V9SA58 Uncharacterized protein n=5 Tax=Sulfolobus acid...  163     1e-47
+  UniRef90_UPI0006D1D953 hypothetical protein n=1 Tax=Sulfolobus ...  145     8e-38
+  UniRef90_A0A1G2BR63 Uncharacterized protein n=1 Tax=Candidatus ...  125     2e-30
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI0006D1065B hypothetical protein n=1 Tax=Sulfolobus ...  79.0    4e-15
+  UniRef90_A0A1J4U9Q1 Uncharacterized protein n=1 Tax=Candidatus ...  67.0    6e-10
+  UniRef90_A0A1J4WSK1 Uncharacterized protein n=1 Tax=Parcubacter...  64.7    3e-09
+  UniRef90_A0A1F6P6S3 Uncharacterized protein n=1 Tax=Candidatus ...  60.5    7e-08
+  UniRef90_A0A0G0DTF9 O-antigen polymerase n=1 Tax=Parcubacteria ...  50.1    1e-04
+  UniRef90_Q96XS7 Uncharacterized protein n=1 Tax=Sulfolobus toko...  47.4    0.001
+
+
+> UniRef90_H2C2E9 Uncharacterized protein n=1 Tax=Metallosphaera 
+yellowstonensis MK1 TaxID=671065 RepID=H2C2E9_9CREN
+Length=169
+
+ Score = 194 bits (493),  Expect = 8e-60, Method: Composition-based stats.
+ Identities = 56/159 (35%), Positives = 98/159 (62%), Gaps = 1/159 (1%)
+
+Query  1    EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI  60
+            E+ + LM+AK+ +++G + +G +++ ++  SS   E NW ICN++++ +C+Y+ + L+ I
+Sbjct  7    ELQKSLMEAKERIVNGDVKQGTELIGKVVNSSNIREANWVICNIIDAAECKYVVETLESI  66
+
+Query  61   GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNEVSASI  120
+            G  FD+  C NLK V+ C  +   LNE+V+ AL  LV + + D L+ + +E++N      
+Sbjct  67   GKIFDITTCGNLKRVITCHAMRGVLNEYVDIALGALVKRRREDLLDRLAQELMN-ADPKF  125
+
+Query  121  LVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL  159
+            LV +A+A   +G+ R    LL  AC+KG  EAC  +N +
+Sbjct  126  LVKLASAYGELGNTRKQGDLLRVACEKGLTEACRNINQV  164
+
+
+> UniRef90_A0A088E8A9 Uncharacterized protein n=2 Tax=Metallosphaera 
+sedula TaxID=43687 RepID=A0A088E8A9_9CREN
+Length=169
+
+ Score = 192 bits (488),  Expect = 5e-59, Method: Composition-based stats.
+ Identities = 58/159 (36%), Positives = 99/159 (62%), Gaps = 1/159 (1%)
+
+Query  1    EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI  60
+            E+++ LM+AK+ ++ G +  GV+I+ +   SS   E NW ICN++++ DC Y+ + L+ I
+Sbjct  7    ELVKSLMEAKESIISGDVKRGVEIIEKTVNSSNIKEANWVICNVIDAADCAYVVETLNAI  66
+
+Query  61   GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNEVSASI  120
+            G  FD+  C NLK V+ C +     +E V+ AL  LV + + D+L++I  E   E+ A +
+Sbjct  67   GKIFDVTACGNLKRVISCFMRAGKDSEFVDLALSALVQKRREDQLDKILAETG-EIPAPL  125
+
+Query  121  LVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL  159
+            L+ +A+A  ++G+ +    LL +AC+KG KEAC  +N +
+Sbjct  126  LLKLASAYGKIGNRKKEQELLKQACEKGLKEACRDINQI  164
+
+
+> UniRef90_F4G279 Uncharacterized protein n=1 Tax=Metallosphaera 
+cuprina (strain Ar-4) TaxID=1006006 RepID=F4G279_METCR
+Length=169
+
+ Score = 189 bits (481),  Expect = 6e-58, Method: Composition-based stats.
+ Identities = 61/159 (38%), Positives = 102/159 (64%), Gaps = 1/159 (1%)
+
+Query  1    EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI  60
+            E+++ LM+AK+ +L G + +GV+I+ +   SS   E NW ICN++++ DC+Y+ + L+ I
+Sbjct  7    ELLKSLMEAKERILSGDVKQGVEIIGKNVNSSNIKESNWVICNVIDAADCQYVVETLESI  66
+
+Query  61   GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNEVSASI  120
+            G  FD+  C NLK VVEC    +  +E V+ AL  LV + K D+L+++   + N+   S+
+Sbjct  67   GKIFDITVCGNLKRVVECYAKRSLDSEFVDLALTSLVEKRKLDQLDKVILGL-NDSLPSL  125
+
+Query  121  LVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL  159
+            LV +A+A  ++G+++    LL  AC+KG KEAC  +N +
+Sbjct  126  LVKLASAYAKLGNKKMEEELLKRACEKGLKEACRNINQV  164
+
+
+> UniRef90_F4B9J0 Uncharacterized protein n=2 Tax=Acidianus hospitalis 
+TaxID=563177 RepID=F4B9J0_ACIHW
+Length=157
+
+ Score = 186 bits (473),  Expect = 6e-57, Method: Composition-based stats.
+ Identities = 48/154 (31%), Positives = 93/154 (60%), Gaps = 2/154 (1%)
+
+Query  6    LMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKIGSYFD  65
+            + +AK+ ++DGY+ +G++++ +   S+  S+ NW ICN++++  C Y+ +VLD IG  FD
+Sbjct  1    MTEAKERIIDGYVKQGIELIEKTVSSNNISQANWVICNIIDAAKCEYLVEVLDSIGKIFD  60
+
+Query  66   LDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNEVSASILVAIA  125
+            +  C N+K V+ C       +E V+ A++ +V +GK+D+L+++  ++ N  +   L  ++
+Sbjct  61   ISVCGNVKRVISCYAKVGKYSEFVDIAINSIVNRGKKDQLDKVLNDVGN--NGEFLYKLS  118
+
+Query  126  NALRRVGDERDATTLLIEACKKGEKEACNAVNTL  159
+             A  ++ D + A  L  +AC  G  EAC  +N +
+Sbjct  119  LAYEKLHDLKKAQELRKKACDSGIPEACENINQV  152
+
+
+> UniRef90_A0A031LLF9 Uncharacterized protein n=1 Tax=Candidatus 
+Acidianus copahuensis TaxID=1160895 RepID=A0A031LLF9_9CREN
+Length=168
+
+ Score = 180 bits (456),  Expect = 3e-54, Method: Composition-based stats.
+ Identities = 53/159 (33%), Positives = 94/159 (59%), Gaps = 2/159 (1%)
+
+Query  1    EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI  60
+            E+I+ L +AK+ +LDGY+ +G+ ++ +   S    E NW ICN+++++ C+ +  VLD I
+Sbjct  7    ELIKSLTEAKELILDGYLKQGIDLIEKTVTSDNIKESNWVICNIIDAVPCQNLVTVLDNI  66
+
+Query  61   GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNEVSASI  120
+            G  FD+  C N+K V+ C    N  NE V+ A+D +V + K ++L+++ +E+ N  +  I
+Sbjct  67   GKMFDISVCGNVKRVISCYSKVNKYNELVDIAIDSIVQKRKVEQLDKVLQELGN--NGMI  124
+
+Query  121  LVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL  159
+               +A A  ++   + A  L  +AC+ G  EAC  +N +
+Sbjct  125  YYKLALAYEKLNYSKKAQELKKKACENGIAEACQNINQV  163
+
+
+> UniRef90_W7KJC6 Uncharacterized protein n=2 Tax=Sulfolobales 
+archaeon AZ1 TaxID=1326980 RepID=W7KJC6_9CREN
+Length=169
+
+ Score = 178 bits (452),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 51/159 (32%), Positives = 96/159 (60%), Gaps = 3/159 (2%)
+
+Query  1    EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI  60
+            ++ + L  AK+ +++G+  EG++++ +   SS   E NW ICN++++  C  +  VLD I
+Sbjct  10   QLFKSLTYAKELIINGHTKEGIEVIEKAVNSSNIKEANWVICNIIDAASCNAVVSVLDSI  69
+
+Query  61   GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNEVSASI  120
+            G  FD+  C N+K V++C       +E V+ A++ L+ +GK+D+L+++  E+       I
+Sbjct  70   GKIFDISACGNVKRVIKCYDSAKRDSEFVDIAINALIARGKKDQLDKLLPEL---TYGKI  126
+
+Query  121  LVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL  159
+            L+ ++    +  +E+ A  L+ +AC++GEKEAC  +N L
+Sbjct  127  LLKLSQVYAKFKEEKKARELMKKACEQGEKEACENINQL  165
+
+
+> UniRef90_C3NHV0 Uncharacterized protein n=14 Tax=Sulfolobus TaxID=2284 
+RepID=C3NHV0_SULIN
+Length=170
+
+ Score = 175 bits (444),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 56/160 (35%), Positives = 103/160 (64%), Gaps = 1/160 (1%)
+
+Query  1    EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI  60
+            E+ RKL++AKK +LDG++++G++++ +   S    E NW ICN++++ DC  + + LD I
+Sbjct  6    ELRRKLIEAKKLILDGFVEQGIELLSKTITSENIKESNWIICNVIDTADCDAVVKTLDSI  65
+
+Query  61   GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNE-VSAS  119
+            G  FD+  C N+K +V C  + N  +E+V+ ALDI+V   K+D L+++  ++ NE ++  
+Sbjct  66   GKIFDMSPCANIKRIVYCYALVNKASEYVDLALDIIVKSNKKDALDKLYNDLKNEKINPE  125
+
+Query  120  ILVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL  159
+             L+ I  A +++G  +++  +L +AC+ G KEAC  +  +
+Sbjct  126  FLLKIGIAYKKLGAVKESNEVLRKACENGLKEACENIKEI  165
+
+
+> UniRef90_A0A1C8ZQM1 Uncharacterized protein n=1 Tax=Sulfolobus 
+sp. A20 TaxID=1891280 RepID=A0A1C8ZQM1_9CREN
+Length=170
+
+ Score = 171 bits (433),  Expect = 1e-50, Method: Composition-based stats.
+ Identities = 55/160 (34%), Positives = 104/160 (65%), Gaps = 1/160 (1%)
+
+Query  1    EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI  60
+            E+ RKL++AKK +LDG++++G+ ++ +   S    E NW ICN++++ +C+ +  VLD +
+Sbjct  6    ELRRKLIEAKKLILDGFVEQGIDLLSKTITSENIKESNWVICNIIDAAECKAVVSVLDSL  65
+
+Query  61   GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILN-EVSAS  119
+            G  F++  C N+K +  C  I    +E+V+ AL+ ++  GK+D+L+++  EI+N  VSA 
+Sbjct  66   GKIFNISVCANVKRIPYCYAILKKTSENVDLALEAIISSGKKDQLDKLYSEIINMNVSAE  125
+
+Query  120  ILVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL  159
+             L+ IANA +++G  +++  ++ + C+ G KEAC  +  +
+Sbjct  126  FLIKIANAYKKLGAIKESNEIIKKICESGVKEACENIKDI  165
+
+
+> UniRef90_Q970G9 Uncharacterized protein n=1 Tax=Sulfolobus tokodaii 
+(strain DSM 16993 / JCM 10545 / NBRC 100140 / 7) TaxID=273063 
+RepID=Q970G9_SULTO
+Length=173
+
+ Score = 167 bits (422),  Expect = 6e-49, Method: Composition-based stats.
+ Identities = 159/161 (99%), Positives = 159/161 (99%), Gaps = 2/161 (1%)
+
+Query  1    EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI  60
+            EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI
+Sbjct  7    EIIRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKI  66
+
+Query  61   GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREIL--NEVSA  118
+            GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREIL  NEVSA
+Sbjct  67   GSYFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILKNNEVSA  126
+
+Query  119  SILVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL  159
+            SILVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL
+Sbjct  127  SILVAIANALRRVGDERDATTLLIEACKKGEKEACNAVNTL  167
+
+
+> UniRef90_V9SA58 Uncharacterized protein n=5 Tax=Sulfolobus acidocaldarius 
+TaxID=2285 RepID=V9SA58_9CREN
+Length=173
+
+ Score = 163 bits (413),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 72/157 (46%), Positives = 113/157 (72%), Gaps = 3/157 (2%)
+
+Query  3    IRKLMDAKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKIGS  62
+            ++KLMDAKK L DG ++EG KI+ E+ K+S + EYNWFICN++++I C  +F VL+ IGS
+Sbjct  9    LKKLMDAKKLLSDGIVEEGDKIIKELAKTSPRDEYNWFICNIVDTISCDTLFVVLEDIGS  68
+
+Query  63   YFDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREIL---NEVSAS  119
+             FDL KCQNL++++ CG+  N  +++ + ALD L  QGK+++LE+I +++     +    
+Sbjct  69   NFDLSKCQNLRTIINCGIKLNINSKYFDMALDYLTAQGKKEQLEDISKDLFKLNEQPKPE  128
+
+Query  120  ILVAIANALRRVGDERDATTLLIEACKKGEKEACNAV  156
+            I++ I NAL+++G  R+A  L+ EACK+G K+AC +V
+Sbjct  129  IVIKIVNALKKIGSTREANDLMNEACKRGIKDACASV  165
+
+
+> UniRef90_UPI0006D1D953 hypothetical protein n=1 Tax=Sulfolobus 
+sp. JCM 16833 TaxID=1294262 RepID=UPI0006D1D953
+Length=632
+
+ Score = 145 bits (367),  Expect = 8e-38, Method: Composition-based stats.
+ Identities = 32/151 (21%), Positives = 61/151 (40%), Gaps = 6/151 (4%)
+
+Query  9    AKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKIGSYFDLDK  68
+            A + L  G I   ++I+ +     +K E   F C L+   +C +   V D      +L  
+Sbjct  160  AIEMLNKGNIKGSIEIIKKNRNKMSKLELAKFSCELISKGNCEFTNFVYDD-KELLNLVV  218
+
+Query  69   CQN--LKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNEVSASILVAIAN  126
+              N  +  ++ C V      E    +  +++ + K D+++++    L       L  IA 
+Sbjct  219  NSNCSINPLLRCLVSGLKAKEFQEVS-KLVIKKNKFDEVKQVSD--LPNFPPDWLFLIAR  275
+
+Query  127  ALRRVGDERDATTLLIEACKKGEKEACNAVN  157
+                +G+       L +AC+K   +AC  +N
+Sbjct  276  EFNEIGEREKYLEYLKKACQKNVNQACVELN  306
+
+
+> UniRef90_A0A1G2BR63 Uncharacterized protein n=1 Tax=Candidatus 
+Komeilibacteria bacterium RIFCSPLOWO2_02_FULL_48_11 TaxID=1798553 
+RepID=A0A1G2BR63_9BACT
+Length=732
+
+ Score = 125 bits (315),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 28/143 (20%), Positives = 59/143 (41%), Gaps = 18/143 (13%)
+
+Query  6    LMDAKKFLLDGYIDEGVKIVLEITKSSTKSEY-NWFI-CNLLESIDCRYMFQVLDKIGSY  63
+            L+ AK + ++G IDE +K++ E+   +   E  +WF+  NL+ +   +   + L+K G  
+Sbjct  586  LLLAKTYFIEGKIDESIKVMEELVAQNPVYEQPHWFLGLNLMRAGQTKRGLEELEK-GKN  644
+
+Query  64   FDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNEVSASILVA  123
+            F L    N++ +++         E +    ++L+ Q                 +      
+Sbjct  645  FGLAFKSNIQYLIDVYAQAKQY-EKIPMLYEMLIAQ--------------EPDNYGFYAN  689
+
+Query  124  IANALRRVGDERDATTLLIEACK  146
+            +A     +GD+  A   + +A  
+Sbjct  690  LAATYAELGDKPKALKFIKKAVD  712
+
+
+> UniRef90_UPI0006D1065B hypothetical protein n=1 Tax=Sulfolobus 
+metallicus TaxID=47303 RepID=UPI0006D1065B
+Length=221
+
+ Score = 79.0 bits (193),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 29/156 (19%), Positives = 64/156 (41%), Gaps = 7/156 (4%)
+
+Query  4    RKLMD-AKKFLLDGYIDEGVKIVLEITKSSTKSEYNWFICNLLESIDCRYMFQVLDKIGS  62
+            + +++ A   L +G   + +++V +     +K E + ++C L+    C  +  +L+    
+Sbjct  42   KSVIEKALSDLREGQFKKSIQLVYKNKDKISKLELSKYVCELIMKGRCEDLKFILED-KE  100
+
+Query  63   YFDLDKCQN--LKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNEVSASI  120
+              +L    N  L   ++C +     N     A  +++ +GK   LE    +    V    
+Sbjct  101  MINLAINSNCSLVPFLKCELSTLDQNGFQEIA-KLMIRKGKCKDLESFISQA--NVPPEW  157
+
+Query  121  LVAIANALRRVGDERDATTLLIEACKKGEKEACNAV  156
+            +  +A     +G++      L  +C KG  +AC  +
+Sbjct  158  IFYLAREFNDIGNKEKYINYLKISCNKGFNQACVEL  193
+
+
+> UniRef90_A0A1J4U9Q1 Uncharacterized protein n=1 Tax=Candidatus 
+Magasanikbacteria bacterium CG1_02_41_34 TaxID=1805239 RepID=A0A1J4U9Q1_9BACT
+Length=748
+
+ Score = 67.0 bits (162),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 24/143 (17%), Positives = 53/143 (37%), Gaps = 18/143 (13%)
+
+Query  6    LMDAKKFLLDGYIDEGVKIVLEITKSST-KSEYNWFI-CNLLESIDCRYMFQVLDKIGSY  63
+            L+ AK  +L+G +D GV+ + ++  +    +E  WF    L+E  +     + L+  GS 
+Sbjct  601  LLLAKNDILNGNVDGGVERLHQLLDTDPSIAEVRWFYGLALIEQGNKDSGLEELEASGS-  659
+
+Query  64   FDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNEVSASILVA  123
+            F      N+  V++    +      +     +L+ +              +   ++    
+Sbjct  660  FGFTVDSNIVYVIDLYAQDEQYEHIIPL-YQLLIQR--------------HPGESTWYAR  704
+
+Query  124  IANALRRVGDERDATTLLIEACK  146
+            IA     +G   +    +  A +
+Sbjct  705  IAATYAAMGQRDNVIEAINTAVE  727
+
+
+> UniRef90_A0A1J4WSK1 Uncharacterized protein n=1 Tax=Parcubacteria 
+group bacterium CG1_02_44_65 TaxID=1805311 RepID=A0A1J4WSK1_9BACT
+Length=738
+
+ Score = 64.7 bits (156),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 20/143 (14%), Positives = 53/143 (37%), Gaps = 18/143 (13%)
+
+Query  6    LMDAKKFLLDGYIDEGVKIVLEITKSSTKS-EYNWFI-CNLLESIDCRYMFQVLDKIGSY  63
+            ++ A+ +L+ G  ++G++++ ++T ++    E +WF+   L+           L++ G  
+Sbjct  593  ILLARNYLMQGETEKGLELLKKLTGANPDYSETHWFLGLALINDGRKAEGLTELER-GFA  651
+
+Query  64   FDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNEVSASILVA  123
+            F      N+  ++          + V      L+               +   +A     
+Sbjct  652  FGSAFEGNISFLISLYAEAKDYAKIVPL-YKKLIE--------------IKPANAVYYAG  696
+
+Query  124  IANALRRVGDERDATTLLIEACK  146
+            +      +GD+ +    L +A +
+Sbjct  697  LVATYAELGDKENVLFYLNKAVE  719
+
+
+> UniRef90_A0A1F6P6S3 Uncharacterized protein n=1 Tax=Candidatus 
+Magasanikbacteria bacterium RIFOXYC2_FULL_39_8 TaxID=1798702 
+RepID=A0A1F6P6S3_9BACT
+Length=746
+
+ Score = 60.5 bits (145),  Expect = 7e-08, Method: Composition-based stats.
+ Identities = 23/144 (16%), Positives = 57/144 (40%), Gaps = 18/144 (13%)
+
+Query  6    LMDAKKFLLDGYIDEGVKIVLEITKSST-KSEYNWFI-CNLLESIDCRYMFQVLDKIGSY  63
+             + +K +LL+G  D+ ++++ E+        E +WF    L+E+ D  +  + L+K GS 
+Sbjct  600  FLLSKNYLLEGKNDDALRLLGELVSQYPDTFEVHWFYGLVLVETGDIVHGLEELEK-GSG  658
+
+Query  64   FDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNEVSASILVA  123
+            F      N++ +++         + +    +++                 +  +  +   
+Sbjct  659  FGFRHTGNIEFMIDLYAEQKAYEKIIPLYKNLIAA---------------DMNNGLLYAR  703
+
+Query  124  IANALRRVGDERDATTLLIEACKK  147
+            +A     +GD       + +A +K
+Sbjct  704  LAATYATLGDTDSMIESINKAVEK  727
+
+
+> UniRef90_A0A0G0DTF9 O-antigen polymerase n=1 Tax=Parcubacteria 
+group bacterium GW2011_GWA2_36_10 TaxID=1618808 RepID=A0A0G0DTF9_9BACT
+Length=728
+
+ Score = 50.1 bits (118),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 20/144 (14%), Positives = 51/144 (35%), Gaps = 18/144 (13%)
+
+Query  6    LMDAKKFLLDGYIDEGVKIVLEITKSS-TKSEYNWFICNLLESIDC-RYMFQVLDKIGSY  63
+             + A+  L  G + E    +  + + +   SE +WF+  +L + D         +K    
+Sbjct  580  FLRARYLLASGNLSEAENTLRVLIEKNDNFSEPHWFLGVVLSAGDNFEGAVTEFEKAMDL  639
+
+Query  64   -FDLDKCQNLKSVVECGVINNTLNEHVNKALDILVIQGKRDKLEEIGREILNEVSASILV  122
+             F L K   +  +++         + +    ++L+ +              N  +A+   
+Sbjct  640  GFALGKGNKILYLIDIYASLGDYKKIIPL-YELLIQE--------------NPNNANWYA  684
+
+Query  123  AIANALRRVGDERDATTLLIEACK  146
+             +A+    + D+      + +A +
+Sbjct  685  RLASVYAILEDDDKVIEYMSKAIE  708
+
+
+> UniRef90_Q96XS7 Uncharacterized protein n=1 Tax=Sulfolobus tokodaii 
+(strain DSM 16993 / JCM 10545 / NBRC 100140 / 7) TaxID=273063 
+RepID=Q96XS7_SULTO
+Length=514
+
+ Score = 47.4 bits (111),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 26/122 (21%), Positives = 47/122 (39%), Gaps = 19/122 (16%)
+
+Query  34   KSEYNWFICNLLESIDCRYMFQVLDKIGSYFDLDKCQNLKSVVECGVINNTLNEHVNKAL  93
+                 W IC   +  +C+ + +         D  KC+NL   VEC    +     V    
+Sbjct  98   IFRLRWSIC---KETNCKTIIRY---SKKSQDYLKCKNLVRFVECFAKADEEFLFVQT--  149
+
+Query  94   DILVIQGKRDKLEEIGREILNEVSASILVAIANALRRVGDERDATTLLIEACKKGEKEAC  153
+               + + K+ +LE+I     +++ A     ++              LL+ ACK G ++AC
+Sbjct  150  ---ISKMKKSELEKISN---SDLPAKYYYLLSQFY-----LDKRAELLMRACKDGYRQAC  198
+
+Query  154  NA  155
+            + 
+Sbjct  199  SE  200
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.134    0.347    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0413    0.140     1.90     42.6     43.6 
+
+Effective search space used: 436922058390
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

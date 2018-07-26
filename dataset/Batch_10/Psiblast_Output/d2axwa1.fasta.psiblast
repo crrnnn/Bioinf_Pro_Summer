@@ -1,0 +1,3393 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d2axwa1
+
+Length=121
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q47038 Protein AfaD n=41 Tax=Escherichia coli TaxID=56...  248     4e-82
+  UniRef90_Q8KWG5 Invasin, putative n=5 Tax=Escherichia coli TaxI...  143     1e-40
+  UniRef90_P46006 Protein AggB n=5 Tax=Escherichia coli TaxID=562...  132     1e-36
+  UniRef90_Q9X4L4 Invasin homolog AafB n=3 Tax=Escherichia coli T...  129     2e-35
+  UniRef90_A0A0Q3BLZ6 Adhesin n=8 Tax=Escherichia coli TaxID=562 ...  124     2e-33
+  UniRef90_Q9XDG6 AfaD n=2 Tax=Escherichia coli TaxID=562 RepID=Q...  122     1e-32
+  UniRef90_UPI0007A09EB3 UPI0007A09EB3 related cluster n=1 Tax=un...  119     1e-31
+  UniRef90_V6G042 Enterobacteria AfaD invasin protein n=3 Tax=Esc...  117     5e-31
+  UniRef90_UPI00069BCEAF adhesin n=2 Tax=Shigella sonnei TaxID=62...  116     2e-30
+  UniRef90_D8EF36 Uncharacterized protein n=4 Tax=Escherichia col...  116     3e-30
+  UniRef90_B3V224 HdaB n=3 Tax=Escherichia coli TaxID=562 RepID=B...  114     1e-29
+  UniRef90_A0A193M269 Adhesin n=1 Tax=Escherichia coli TaxID=562 ...  110     8e-28
+  UniRef90_UPI0003EE1207 adhesin n=3 Tax=Escherichia coli TaxID=5...  107     6e-27
+  UniRef90_Q9XDG7 Adhesin n=8 Tax=Escherichia coli TaxID=562 RepI...  106     2e-26
+  UniRef90_A0A0D1B3X4 LG58.unitig_0_quiver, whole genome shotgun ...  82.8    2e-17
+  UniRef90_A0A063XPE6 Adhesin n=2 Tax=Enterobacteriaceae TaxID=54...  82.4    3e-17
+  UniRef90_UPI00055E8AD5 UPI00055E8AD5 related cluster n=4 Tax=un...  78.6    4e-16
+  UniRef90_A0A0L6ZS79 Uncharacterized protein n=1 Tax=Escherichia...  77.8    2e-15
+  UniRef90_A0A0R9PXF2 Invasin n=6 Tax=Salmonella enterica I TaxID...  76.6    5e-15
+  UniRef90_A0A0D1CTB7 LG58.unitig_0_quiver, whole genome shotgun ...  73.2    8e-14
+  UniRef90_UPI0002A40D9E hypothetical protein n=1 Tax=Escherichia...  72.4    8e-14
+  UniRef90_A0A034T3D1 Invasin protein n=1 Tax=Edwardsiella piscic...  66.2    3e-11
+  UniRef90_A0A1J7XCR7 Uncharacterized protein n=1 Tax=Serratia fo...  65.1    9e-11
+  UniRef90_A0A0V9H8A7 Uncharacterized protein n=6 Tax=Escherichia...  63.5    2e-10
+  UniRef90_UPI00050B52A2 hypothetical protein n=1 Tax=Escherichia...  63.2    4e-10
+  UniRef90_D4BUN4 Uncharacterized protein n=3 Tax=Providencia ret...  62.4    9e-10
+  UniRef90_A0A1D8N1S3 Invasin n=3 Tax=Edwardsiella hoshinae TaxID...  61.2    2e-09
+  UniRef90_A0A089UJE3 Uncharacterized protein n=1 Tax=Cedecea net...  58.2    2e-08
+  UniRef90_A0A0A8VIN5 Putative fimbrial structural subunit n=4 Ta...  57.0    5e-08
+  UniRef90_UPI000478D208 UPI000478D208 related cluster n=2 Tax=Lo...  56.6    7e-08
+  UniRef90_UPI0007733ECF UPI0007733ECF related cluster n=1 Tax=un...  56.6    9e-08
+  UniRef90_UPI0006AC5EF2 hypothetical protein n=1 Tax=Salmonella ...  56.2    1e-07
+  UniRef90_UPI000694010D hypothetical protein n=1 Tax=Aeromonas p...  55.5    2e-07
+  UniRef90_UPI00050AB3EB hypothetical protein n=1 Tax=Escherichia...  55.5    2e-07
+  UniRef90_L0MML6 Enterobacteria AfaD invasin protein n=1 Tax=Ser...  53.9    6e-07
+  UniRef90_C0Q6S0 Putative fimbriae subunit n=112 Tax=Salmonella ...  53.5    9e-07
+  UniRef90_A0A1K2D134 AfaD invasin protein n=1 Tax=Pantoea ananas...  50.8    7e-06
+  UniRef90_A0A0H3BSU6 Putative invasin protein n=1 Tax=Salmonella...  48.9    2e-05
+  UniRef90_E0LZA3 AfaD invasin n=2 Tax=Pantoea TaxID=53335 RepID=...  49.3    3e-05
+  UniRef90_UPI00083D9DF3 UPI00083D9DF3 related cluster n=2 Tax=Pa...  48.5    5e-05
+  UniRef90_UPI00044F8756 pilin structural protein SafD n=1 Tax=Es...  47.8    1e-04
+  UniRef90_UPI00066628E0 hypothetical protein n=1 Tax=Escherichia...  47.4    1e-04
+  UniRef90_A0A1K2CW02 AfaD invasin protein n=2 Tax=Enterobacteral...  47.4    1e-04
+  UniRef90_A0A076LKZ6 Invasin protein n=1 Tax=Edwardsiella anguil...  43.9    0.001
+  UniRef90_Q48BA6 Invasin protein AfaD n=3 Tax=Pseudomonas savast...  42.4    0.009
+
+
+> UniRef90_Q47038 Protein AfaD n=41 Tax=Escherichia coli TaxID=562 
+RepID=AFAD_ECOLX
+Length=147
+
+ Score = 248 bits (634),  Expect = 4e-82, Method: Compositional matrix adjust.
+ Identities = 121/121 (100%), Positives = 121/121 (100%), Gaps = 0/121 (0%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRH  60
+            AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRH
+Sbjct  27   AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRH  86
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVPQ  120
+            ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVPQ
+Sbjct  87   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVPQ  146
+
+Query  121  E  121
+            E
+Sbjct  147  E  147
+
+
+> UniRef90_Q8KWG5 Invasin, putative n=5 Tax=Escherichia coli TaxID=562 
+RepID=Q8KWG5_ECOLX
+Length=146
+
+ Score = 143 bits (360),  Expect = 1e-40, Method: Compositional matrix adjust.
+ Identities = 67/119 (56%), Positives = 85/119 (71%), Gaps = 1/119 (1%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDG-R  59
+            AE++L S   + +QLRDG K+ATGR+ CRE HTGFHVWMN RQ  GR E Y+VQ+  G +
+Sbjct  25   AEINLVSHRNTESQLRDGMKLATGRMTCRETHTGFHVWMNARQDGGRPEHYIVQNSKGIQ  84
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVV  118
+            HELRVR GG+GW    GE  +G+ R G+EEQ  FDV+ DG+Q + PGEY  S+ G C+V
+Sbjct  85   HELRVRIGGNGWISSFGEAQRGIFRLGKEEQAIFDVIVDGDQKVIPGEYMLSISGECIV  143
+
+
+> UniRef90_P46006 Protein AggB n=5 Tax=Escherichia coli TaxID=562 
+RepID=AGGB_ECOLX
+Length=145
+
+ Score = 132 bits (333),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 64/121 (53%), Positives = 86/121 (71%), Gaps = 2/121 (2%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQ-SKDGR  59
+            AE+ L S    G+QLRDG K+ATGRI CRE H GFH+W+N  Q +G+   Y+VQ +++ +
+Sbjct  25   AEITLISHKTLGSQLRDGMKLATGRIACREPHDGFHIWINASQ-NGKVGHYIVQNNRETK  83
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            HEL+V+ GG GWS    EG +GV R G+E+Q  FD+M+DGNQ  APGEY FSV G C++ 
+Sbjct  84   HELKVKIGGGGWSSSLIEGQRGVYRQGEEKQAIFDIMSDGNQYSAPGEYIFSVSGECLIS  143
+
+Query  120  Q  120
+            +
+Sbjct  144  R  144
+
+
+> UniRef90_Q9X4L4 Invasin homolog AafB n=3 Tax=Escherichia coli 
+TaxID=562 RepID=Q9X4L4_ECOLX
+Length=146
+
+ Score = 129 bits (325),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 67/111 (60%), Positives = 78/111 (70%), Gaps = 1/111 (1%)
+
+Query  12   GTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQ-SKDGRHELRVRTGGDG  70
+            G QL DG  +ATGRIICRE HTGFH+ MN RQV+GR   Y+VQ SKD + +L VR G +G
+Sbjct  36   GEQLFDGDILATGRIICRERHTGFHIQMNARQVEGRPGHYIVQGSKDTQSKLWVRLGREG  95
+
+Query  71   WSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVPQE  121
+            W+   G G +G+ R GQEEQV FDVMADGNQ   PGEY FSV G C+   E
+Sbjct  96   WTSPTGGGQQGIVRSGQEEQVIFDVMADGNQWAKPGEYIFSVSGKCLTSWE  146
+
+
+> UniRef90_A0A0Q3BLZ6 Adhesin n=8 Tax=Escherichia coli TaxID=562 
+RepID=A0A0Q3BLZ6_ECOLX
+Length=144
+
+ Score = 124 bits (312),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 63/121 (52%), Positives = 79/121 (65%), Gaps = 1/121 (1%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRH  60
+            AE+ L S   +G+QLRDG  +ATGRIICRE HTGF +WMN+RQ  G    YV+Q+  G  
+Sbjct  23   AEITLVSHRSTGSQLRDGMILATGRIICREIHTGFQIWMNDRQEGGHPRHYVIQNSKGNQ  82
+
+Query  61   -ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+             ELRVR GG+ W     E  +G  R G+E+QV FDV+ DG Q I PG+Y FSV G C+  
+Sbjct  83   GELRVRIGGNSWFSSLDEEWQGWIRLGKEKQVNFDVIVDGEQYIPPGKYIFSVSGKCMAS  142
+
+Query  120  Q  120
+            +
+Sbjct  143  E  143
+
+
+> UniRef90_Q9XDG6 AfaD n=2 Tax=Escherichia coli TaxID=562 RepID=Q9XDG6_ECOLX
+Length=150
+
+ Score = 122 bits (306),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 62/118 (53%), Positives = 81/118 (69%), Gaps = 2/118 (2%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGR  59
+            AEL L+ R   G++LRDG ++ATGRIICREAHTGFHVWMN R+ +GR    ++Q K D R
+Sbjct  28   AELSLDVRKAMGSELRDGERIATGRIICREAHTGFHVWMNGREDEGRPGHLLIQGKHDSR  87
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+            +E+R R  G+GWS +  EG   + + G+EEQ  FDV++DG Q     EY  SV G+CV
+Sbjct  88   NEIRARVEGEGWSAIT-EGEHRLVKAGEEEQAVFDVVSDGRQRAGADEYVLSVSGSCV  144
+
+
+> UniRef90_UPI0007A09EB3 UPI0007A09EB3 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007A09EB3
+Length=141
+
+ Score = 119 bits (299),  Expect = 1e-31, Method: Compositional matrix adjust.
+ Identities = 60/118 (51%), Positives = 78/118 (66%), Gaps = 2/118 (2%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGR-  59
+            AE++L  + G  + L DG ++ATGRI+CREAHTGFHVW+N   V  R   Y++Q K GR 
+Sbjct  25   AEVNLVPQRGVTSNLPDGLRIATGRIVCREAHTGFHVWINAHPVGNRVGSYIIQGKQGRG  84
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+            HELRVR  GD WSP   +  +G+ R  Q EQ  FDV+ADG Q + P EY ++V G C+
+Sbjct  85   HELRVRIDGDRWSPSVTK-REGMVRHTQNEQAVFDVVADGKQHVVPDEYIYTVTGECL  141
+
+
+> UniRef90_V6G042 Enterobacteria AfaD invasin protein n=3 Tax=Escherichia 
+coli TaxID=562 RepID=V6G042_ECOLX
+Length=115
+
+ Score = 117 bits (293),  Expect = 5e-31, Method: Compositional matrix adjust.
+ Identities = 58/105 (55%), Positives = 74/105 (70%), Gaps = 1/105 (1%)
+
+Query  14   QLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQ-SKDGRHELRVRTGGDGWS  72
+            +LRDG K+ATGRIICREAHTGFH+ +N RQ + R   Y++Q  +D RHELRVR  G+GWS
+Sbjct  11   ELRDGMKIATGRIICREAHTGFHIRINARQQESRPGHYIIQGRRDSRHELRVRIAGEGWS  70
+
+Query  73   PVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+            P    G +G+   GQ EQ  FDV+ADG+Q +   EY +SV G C+
+Sbjct  71   PSVTGGQEGMVSYGQREQGVFDVVADGSQRVEADEYIYSVTGECL  115
+
+
+> UniRef90_UPI00069BCEAF adhesin n=2 Tax=Shigella sonnei TaxID=624 
+RepID=UPI00069BCEAF
+Length=130
+
+ Score = 116 bits (291),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 62/117 (53%), Positives = 80/117 (68%), Gaps = 2/117 (2%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGR  59
+            AEL L+ R  +G++LRDG K+ATGRIICREAHTGF++ +N R+ + R   +++Q K DGR
+Sbjct  8    AELSLDVRKSAGSELRDGEKIATGRIICREAHTGFYIRINGREDESRLGHWLIQGKHDGR  67
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGAC  116
+            +ELRVR  G+GWS V  EG   + + G EEQ  FDV+ADG Q     EY  SV G C
+Sbjct  68   NELRVRVDGEGWSVVT-EGEHWLVKAGTEEQAVFDVVADGKQHAGTDEYILSVSGNC  123
+
+
+> UniRef90_D8EF36 Uncharacterized protein n=4 Tax=Escherichia coli 
+TaxID=562 RepID=D8EF36_ECOLX
+Length=140
+
+ Score = 116 bits (290),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 55/117 (47%), Positives = 75/117 (64%), Gaps = 0/117 (0%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRH  60
+            AEL L  +   G  L DG ++A GRI+CR+AH+GF +WMN ++   R+E  +      +H
+Sbjct  24   AELALYPQHNKGGNLVDGVRIAKGRIVCRDAHSGFRIWMNAQKAGERSEYIIKGRTKNQH  83
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+            E+RVR GGDGWSP   +   G++R G EE   FDV+ DG+Q +AP EY FSV G C+
+Sbjct  84   EIRVRLGGDGWSPSVLKEQYGMARSGTEEGAIFDVLLDGDQYVAPDEYVFSVRGLCL  140
+
+
+> UniRef90_B3V224 HdaB n=3 Tax=Escherichia coli TaxID=562 RepID=B3V224_ECOLX
+Length=142
+
+ Score = 114 bits (286),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 55/119 (46%), Positives = 77/119 (65%), Gaps = 1/119 (1%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDG-R  59
+            A++ L +    G  L DG K+ATGRIIC++ H+GF VW+N RQ  G A +Y+VQS +G +
+Sbjct  24   ADITLMNHKYMGNLLHDGVKLATGRIICQDTHSGFRVWINARQEGGGAGKYIVQSTEGPQ  83
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVV  118
+            H LR+R GG+GWS    +G +GV    +E+   F +  DGNQ + PG+Y FSV G C +
+Sbjct  84   HNLRIRIGGNGWSSFVEKGIQGVFNTIKEDASIFYIEVDGNQQVHPGKYLFSVSGECYI  142
+
+
+> UniRef90_A0A193M269 Adhesin n=1 Tax=Escherichia coli TaxID=562 
+RepID=A0A193M269_ECOLX
+Length=144
+
+ Score = 110 bits (274),  Expect = 8e-28, Method: Compositional matrix adjust.
+ Identities = 52/118 (44%), Positives = 74/118 (63%), Gaps = 1/118 (1%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGR  59
+             EL+L  R G    L DG K+ATGRI+C   H GF++W+N   V+     Y++Q + D R
+Sbjct  27   VELNLVPRNGVIGDLYDGTKIATGRIVCHGEHMGFNLWINSPSVENNPGHYIIQGRQDSR  86
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+            H+L VR  G+GWSP   EG +G++R GQ+EQ  F V+ DG Q++   EY +S+ G C+
+Sbjct  87   HKLYVRIDGEGWSPSVREGREGMARYGQDEQAVFHVVLDGRQNVVADEYVYSITGECL  144
+
+
+> UniRef90_UPI0003EE1207 adhesin n=3 Tax=Escherichia coli TaxID=562 
+RepID=UPI0003EE1207
+Length=142
+
+ Score = 107 bits (268),  Expect = 6e-27, Method: Compositional matrix adjust.
+ Identities = 48/118 (41%), Positives = 75/118 (64%), Gaps = 1/118 (1%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGR  59
+            AEL L S    G  L DG ++ATG+I+CR++H+GFHVWMN ++   + E Y+++ + + +
+Sbjct  25   AELELSSLNRMGGNLSDGTRIATGQILCRDSHSGFHVWMNAQKAGYQPEHYIIRGQLNSQ  84
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+            +E+RVR  GD WSP   +G  GV R   +E+  FD++ DG Q++    Y  S+ G C+
+Sbjct  85   NEIRVRLTGDRWSPSVDKGQNGVIRISADERAIFDILVDGRQNVEADRYILSLHGVCL  142
+
+
+> UniRef90_Q9XDG7 Adhesin n=8 Tax=Escherichia coli TaxID=562 RepID=Q9XDG7_ECOLX
+Length=139
+
+ Score = 106 bits (265),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 54/117 (46%), Positives = 70/117 (60%), Gaps = 2/117 (2%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGR  59
+             EL L +  G   +L+DG KVATGRIICR  +T FH+WMN RQ+      Y++  + D  
+Sbjct  23   VELSLNTSDGRSGELKDGTKVATGRIICRGTYTSFHIWMNSRQMGNIPGHYIILGRHDSH  82
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGAC  116
+            +E+RVR  G GW P   + G+G+   G  EQ  FDV+ DGNQ + P EY  SV G C
+Sbjct  83   NEMRVRLDGAGWLPSVSD-GQGMVSTGIPEQHTFDVVIDGNQLLGPDEYILSVSGEC  138
+
+
+> UniRef90_A0A0D1B3X4 LG58.unitig_0_quiver, whole genome shotgun 
+sequence n=2 Tax=Kosakonia radicincitans YD4 TaxID=1544796 
+RepID=A0A0D1B3X4_9ENTR
+Length=147
+
+ Score = 82.8 bits (203),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 42/119 (35%), Positives = 66/119 (55%), Gaps = 2/119 (2%)
+
+Query  2    ELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGRH  60
+            E+ L+ R    T LRDG  +  G +  +E HTG+ VW++  +      RYV+  K +  H
+Sbjct  30   EIRLDMRPPQDTFLRDGTVIGHGWLAFQEVHTGYQVWLDASRSSAAPGRYVLVGKRNSAH  89
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            +LR+R  G+GW   + EG  G+     +E+  FD++ DG+QD+A  EY  +   A +VP
+Sbjct  90   QLRIRLAGEGWES-ENEGEGGIVSATTDERTRFDIVIDGHQDVAADEYVITASAAAIVP  147
+
+
+> UniRef90_A0A063XPE6 Adhesin n=2 Tax=Enterobacteriaceae TaxID=543 
+RepID=A0A063XPE6_9ENTR
+Length=147
+
+ Score = 82.4 bits (202),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 42/119 (35%), Positives = 64/119 (54%), Gaps = 2/119 (2%)
+
+Query  2    ELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGRH  60
+            E+ L  R    T+LRDG  +  GR++ +EAH+G+ VW+N ++      RYV+  K D  H
+Sbjct  30   EVTLNIRPPQDTKLRDGTVIGRGRMVFQEAHSGYLVWLNAQKSTSAPGRYVLTGKRDSAH  89
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            +LR+R  G+GWS    + G G+ R     +  F ++ DGNQ     EY  +     +VP
+Sbjct  90   QLRIRLAGEGWSGENKDRG-GIVRSTSATRASFQIVIDGNQQAVADEYVITANALAIVP  147
+
+
+> UniRef90_UPI00055E8AD5 UPI00055E8AD5 related cluster n=4 Tax=unknown 
+TaxID= RepID=UPI00055E8AD5
+Length=115
+
+ Score = 78.6 bits (192),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 39/108 (36%), Positives = 60/108 (56%), Gaps = 2/108 (2%)
+
+Query  13   TQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGRHELRVRTGGDGW  71
+            T+LRDG  +  GR++ +EAH+G+ VW+N ++      RYV+  K D  H+LR+R  G+GW
+Sbjct  9    TKLRDGTVIGRGRMVFQEAHSGYLVWLNAQKSTSAPGRYVLTGKRDSAHQLRIRLAGEGW  68
+
+Query  72   SPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            S    + G G+ R     +  F ++ DGNQ     EY  +     +VP
+Sbjct  69   SGENKDRG-GIVRSTSATRASFQIVIDGNQQAVADEYVITANALAIVP  115
+
+
+> UniRef90_A0A0L6ZS79 Uncharacterized protein n=1 Tax=Escherichia 
+coli TaxID=562 RepID=A0A0L6ZS79_ECOLX
+Length=144
+
+ Score = 77.8 bits (190),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 40/118 (34%), Positives = 60/118 (51%), Gaps = 1/118 (1%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRH  60
+            AE+ L+ +   G  LR+G K+A GRI C EAHT F +W+N +        Y++  K   +
+Sbjct  24   AEITLDEQFVIGGDLRNGTKIAKGRIFCPEAHTEFRIWVNSQAQKKGTGHYILLGKHSEN  83
+
+Query  61   E-LRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+              + +R  GDGW     E    +++        FDV+ DG+Q +   EY  SV G C+
+Sbjct  84   NRMNIRLEGDGWRVSSIEAKNSLTKFWSGNIATFDVVVDGDQKVPSDEYFISVSGYCI  141
+
+
+> UniRef90_A0A0R9PXF2 Invasin n=6 Tax=Salmonella enterica I TaxID=59201 
+RepID=A0A0R9PXF2_SALNE
+Length=145
+
+ Score = 76.6 bits (187),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 41/120 (34%), Positives = 67/120 (56%), Gaps = 2/120 (2%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGR-  59
+             ++ L S     +Q+RDG  +  GRI  ++AH+G+ VW+N  +     +RYV+  K  R 
+Sbjct  27   VDITLNSALNLNSQIRDGQLIGYGRISTQQAHSGYQVWLNAERNGESPDRYVLTGKSNRQ  86
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            H+L V  G +GW P   +GG+G+ +  +E Q  FD++A+G+Q +    Y  +V G    P
+Sbjct  87   HKLYVIIGQNGWVP-DNKGGEGIIKRTREMQEQFDIVANGHQSVPVDTYVITVQGRYFEP  145
+
+
+> UniRef90_A0A0D1CTB7 LG58.unitig_0_quiver, whole genome shotgun 
+sequence n=3 Tax=Kosakonia radicincitans YD4 TaxID=1544796 
+RepID=A0A0D1CTB7_9ENTR
+Length=147
+
+ Score = 73.2 bits (178),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 38/108 (35%), Positives = 57/108 (53%), Gaps = 2/108 (2%)
+
+Query  13   TQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGRHELRVRTGGDGW  71
+            T+LRDG  +  GRI+ + AH+G+  W+N ++      RYV+  K D  H+LRVR  G+ W
+Sbjct  41   TKLRDGTVIGCGRIVFQAAHSGYLAWLNAQKSAPTPGRYVLTGKRDSAHQLRVRLAGEDW  100
+
+Query  72   SPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            S    + G G+       +  F ++ DGNQ  A  EY  +     +VP
+Sbjct  101  SGESTDRG-GIVSTTSATRASFQIVIDGNQQAAADEYVITANALAIVP  147
+
+
+> UniRef90_UPI0002A40D9E hypothetical protein n=1 Tax=Escherichia 
+coli TaxID=562 RepID=UPI0002A40D9E
+Length=98
+
+ Score = 72.4 bits (176),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 35/71 (49%), Positives = 50/71 (70%), Gaps = 2/71 (3%)
+
+Query  1   AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQ-SKDGR  59
+           AE+ L S     +QLRDG K+ATGRI CRE H GF++W+N  Q +G+   Y+VQ +++ +
+Sbjct  25  AEITLISHKTLESQLRDGMKLATGRIACREPHNGFYIWINASQ-NGKVGHYIVQNNRETK  83
+
+Query  60  HELRVRTGGDG  70
+           HEL+V+ GG G
+Sbjct  84  HELKVKIGGGG  94
+
+
+> UniRef90_A0A034T3D1 Invasin protein n=1 Tax=Edwardsiella piscicida 
+TaxID=1263550 RepID=A0A034T3D1_9GAMM
+Length=145
+
+ Score = 66.2 bits (160),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 38/117 (32%), Positives = 62/117 (53%), Gaps = 6/117 (5%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGR-  59
+             ++ L S     +Q+RDG  ++ GRI  ++   G+ VW++  +      RYV+  K+ R 
+Sbjct  27   VDITLNSVSNLSSQVRDGQMISRGRITGQQIRQGYQVWLDAERNGDAPNRYVLTGKNSRQ  86
+
+Query  60   HELRVRTGGDGWSP--VKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGG  114
+            H+L V  G +GW P    G G    +R GQE+   FD++A+GNQ +    Y  ++ G
+Sbjct  87   HKLYVIIGQEGWVPDTKDGLGIIKYTRKGQEQ---FDIVANGNQSVPIDTYVITIQG  140
+
+
+> UniRef90_A0A1J7XCR7 Uncharacterized protein n=1 Tax=Serratia 
+fonticola TaxID=47917 RepID=A0A1J7XCR7_SERFO
+Length=150
+
+ Score = 65.1 bits (157),  Expect = 9e-11, Method: Compositional matrix adjust.
+ Identities = 35/104 (34%), Positives = 49/104 (47%), Gaps = 2/104 (2%)
+
+Query  17   DGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDG-RHELRVRTGGDGWSPVK  75
+            DG ++  GRI   E HTGF +W    +   R ERYV+  +    H+LRVR  G+ W P  
+Sbjct  48   DGKRLGEGRISLHELHTGFQIWSEAPKSTERPERYVLTGRQSDAHKLRVRLEGNDWEPDT  107
+
+Query  76   GEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+              G   +   G +   FF ++ DG Q I    Y   + G  + P
+Sbjct  108  KTGEGLILNTGDDAARFF-IVVDGEQKIVADNYPIQITGVALTP  150
+
+
+> UniRef90_A0A0V9H8A7 Uncharacterized protein n=6 Tax=Escherichia 
+coli TaxID=562 RepID=A0A0V9H8A7_ECOLX
+Length=140
+
+ Score = 63.5 bits (153),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 39/118 (33%), Positives = 63/118 (53%), Gaps = 3/118 (3%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDG-RAERYVVQSKDG-  58
+            AE++LE+R  SG+ L DG  +ATG + C +      V +N + V+G ++  Y +Q ++  
+Sbjct  20   AEINLETRAFSGSYLYDGDIIATGSVFCDDGEVSRVVLLNIKPVNGSQSNVYHLQGRNKP  79
+
+Query  59   RHELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGAC  116
+             +EL VR  G+GWSP   + G G+ +    +Q  F V+A+G Q +    Y       C
+Sbjct  80   SNELTVRIEGNGWSP-SDKVGNGIYKKLINKQDQFYVVANGRQHVRADIYTIRASSIC  136
+
+
+> UniRef90_UPI00050B52A2 hypothetical protein n=1 Tax=Escherichia 
+coli TaxID=562 RepID=UPI00050B52A2
+Length=142
+
+ Score = 63.2 bits (152),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 39/118 (33%), Positives = 59/118 (50%), Gaps = 3/118 (3%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRA-ERYVVQSKDG-  58
+            AE++L SR  S   L DG  +ATGR+ C E        +N +  D  + + Y++Q K+  
+Sbjct  22   AEMNLVSRMVSERDLSDGDIIATGRVFCEENEISSVSLLNIQSTDDASGKVYMLQGKESV  81
+
+Query  59   RHELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGAC  116
+             ++L VR  GDGW    GE GKG+ +  + +   F V+ +G Q + P  Y       C
+Sbjct  82   MNKLIVRLEGDGWRS-SGEAGKGIYKIQENKSEQFYVVVNGRQHVNPDVYTIKASSIC  138
+
+
+> UniRef90_D4BUN4 Uncharacterized protein n=3 Tax=Providencia rettgeri 
+TaxID=587 RepID=D4BUN4_PRORE
+Length=162
+
+ Score = 62.4 bits (150),  Expect = 9e-10, Method: Compositional matrix adjust.
+ Identities = 38/95 (40%), Positives = 46/95 (48%), Gaps = 2/95 (2%)
+
+Query  9    GGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRHELRVRTGG  68
+            G S   L DG  +A GR+I  E H GF VW    QV G+  RY + S  G H L +R  G
+Sbjct  54   GLSAGSLGDGRLIAQGRVIYSEPHQGFRVWSEGTQVQGQVHRYQLMSARG-HPLNIRLAG  112
+
+Query  69   DGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDI  103
+              W P   + GKG+     E    FDV  DG Q +
+Sbjct  113  KDWQP-DAQSGKGIVSQTGELSQPFDVEVDGAQTL  146
+
+
+> UniRef90_A0A1D8N1S3 Invasin n=3 Tax=Edwardsiella hoshinae TaxID=93378 
+RepID=A0A1D8N1S3_9GAMM
+Length=145
+
+ Score = 61.2 bits (147),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 38/120 (32%), Positives = 61/120 (51%), Gaps = 2/120 (2%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGR-  59
+             ++ L S      QLRDG ++  G+I  ++AH GF VW+   +      RY++  K+ R 
+Sbjct  27   VDITLNSVANLSPQLRDGQRIGQGQIQTQQAHRGFQVWLEAPRSSEAPNRYILMGKNNRQ  86
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            H+L V  G  GW P   +GG G+ +  ++ Q  FD++ +G Q      Y  +V G  + P
+Sbjct  87   HKLFVIIGQAGWQP-DSQGGLGIIKLTRDRQARFDIVVNGGQYAPIDTYTVTVQGRYLEP  145
+
+
+> UniRef90_A0A089UJE3 Uncharacterized protein n=1 Tax=Cedecea neteri 
+TaxID=158822 RepID=A0A089UJE3_9ENTR
+Length=146
+
+ Score = 58.2 bits (139),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 35/117 (30%), Positives = 54/117 (46%), Gaps = 4/117 (3%)
+
+Query  2    ELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGR-H  60
+            ++ L+ +      +  G +V +G+  CR  H   HVW+N  +VD  A  Y+V+ K  + +
+Sbjct  29   DIRLQPKTMFVKAINVGDEVVSGQFSCRGKH---HVWLNAEKVDDVANTYIVRGKHNQGN  85
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+             + V  GG GW        KGV+         F + A  NQ   P  Y F+V G C+
+Sbjct  86   IIYVTLGGQGWIVDDSAERKGVTTVDTLSDTRFTIFASVNQTPRPDVYTFNVAGECL  142
+
+
+> UniRef90_A0A0A8VIN5 Putative fimbrial structural subunit n=4 
+Tax=Yersinia ruckeri TaxID=29486 RepID=A0A0A8VIN5_YERRU
+Length=134
+
+ Score = 57.0 bits (136),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 32/101 (32%), Positives = 49/101 (49%), Gaps = 2/101 (2%)
+
+Query  20   KVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGR-HELRVRTGGDGWSPVKGEG  78
+            ++  GRI     H GF VW +  +   +   YV+  K+   ++LRVR     W P   EG
+Sbjct  35   RIGQGRIQYYGNHLGFQVWSDANKSGAQPNSYVLLGKNNSSNKLRVRIEKKDWQP-DHEG  93
+
+Query  79   GKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            GKG+      E   FDV+ DG+Q +    Y  ++  A ++P
+Sbjct  94   GKGIILHYGGETATFDVVIDGDQTVVADHYSLALNAAVLLP  134
+
+
+> UniRef90_UPI000478D208 UPI000478D208 related cluster n=2 Tax=Lonsdalea 
+quercina TaxID=71657 RepID=UPI000478D208
+Length=161
+
+ Score = 56.6 bits (135),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 29/106 (27%), Positives = 52/106 (49%), Gaps = 1/106 (1%)
+
+Query  15   LRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGRHELRVRTGGDGWSP  73
+            ++DG ++  G ++  EAH GF +W   +        +V+  K +  H+LR+R    G + 
+Sbjct  56   VKDGMRLGQGTLVSHEAHAGFRLWSEVQTSSFPTGHFVLSGKQNDAHKLRIRLVPRGLTA  115
+
+Query  74   VKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+                G   +    ++++V FDV+ADG Q +    YR  + G  + P
+Sbjct  116  EGSPGSSEMVLNTKDDRVVFDVIADGEQRVEADHYRLDISGTALPP  161
+
+
+> UniRef90_UPI0007733ECF UPI0007733ECF related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007733ECF
+Length=175
+
+ Score = 56.6 bits (135),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 35/117 (30%), Positives = 54/117 (46%), Gaps = 4/117 (3%)
+
+Query  2    ELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGR-H  60
+            E+ L+ +      +  G +V +G+  CR  H   H+W+N  +VD  A  Y+V+ K  + +
+Sbjct  29   EIRLQPQTMFMNAINVGDEVMSGQFSCRGKH---HIWLNAEKVDDVANTYIVRGKHNQGN  85
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+             + V  GG GW        KGV+         F + A  NQ   P  Y F+V G C+
+Sbjct  86   IIYVTLGGQGWIVDDSAERKGVTTVDTLSDTRFILAASVNQTPRPDVYSFNVAGECL  142
+
+
+> UniRef90_UPI0006AC5EF2 hypothetical protein n=1 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=UPI0006AC5EF2
+Length=142
+
+ Score = 56.2 bits (134),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 35/120 (29%), Positives = 53/120 (44%), Gaps = 4/120 (3%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRH  60
+            A L +  R        DG  V  G+I+C   H+GFH++      D    +Y    K   +
+Sbjct  24   AHLEINIRPVLNNIQHDGEHVGNGQIVCSNDHSGFHIYGGYGTEDIYPWKYNAHGKSNPY  83
+
+Query  61   -ELRVRTGGDGWSPVKGE-GGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVV  118
+             +L VR  GD W  +K E    G+ +   EE   F ++ DG Q +   EY   + G C++
+Sbjct  84   NKLTVRLEGDNW--IKNEQDYPGIVKFSSEEAAEFRIVIDGKQKVPADEYTIRIFGECII  141
+
+
+> UniRef90_UPI000694010D hypothetical protein n=1 Tax=Aeromonas 
+popoffii TaxID=70856 RepID=UPI000694010D
+Length=149
+
+ Score = 55.5 bits (132),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 31/101 (31%), Positives = 49/101 (49%), Gaps = 2/101 (2%)
+
+Query  20   KVATGRIICREAHTGFHVWMNERQVDGRAERYV-VQSKDGRHELRVRTGGDGWSPVKGEG  78
+            ++  G I     H GF VW +  +   +  RYV +   +  ++LR+R    GW P   EG
+Sbjct  50   RIGKGLIEYDGGHLGFQVWSDATKSGPQPNRYVLIGQNNSNNKLRIRIEYPGWQP-DNEG  108
+
+Query  79   GKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            GKG+          FDV+ DG+Q +    Y  ++ GA ++P
+Sbjct  109  GKGIILRDGGNSATFDVVVDGDQTVIADHYSLALKGAVLLP  149
+
+
+> UniRef90_UPI00050AB3EB hypothetical protein n=1 Tax=Escherichia 
+coli TaxID=562 RepID=UPI00050AB3EB
+Length=144
+
+ Score = 55.5 bits (132),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 38/116 (33%), Positives = 54/116 (47%), Gaps = 3/116 (3%)
+
+Query  3    LHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRA-ERYVVQSKDG-RH  60
+            + LESR  SG +L DG  +ATG + C      +   MN    D      Y +Q ++   +
+Sbjct  24   MSLESRVTSGGELFDGDIIATGIVYCEGGDVSWLGLMNIHHGDNTLGNVYTLQGRNMLTN  83
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGAC  116
+            EL VR  GDGW P    G KG+ +        F V+ +G+Q++ P  Y      AC
+Sbjct  84   ELVVRIEGDGWHP-SNIGKKGIYKTKVSGSEQFHVVVNGHQNVNPDVYTIKANSAC  138
+
+
+> UniRef90_L0MML6 Enterobacteria AfaD invasin protein n=1 Tax=Serratia 
+marcescens FGI94 TaxID=1249634 RepID=L0MML6_SERMA
+Length=145
+
+ Score = 53.9 bits (128),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 32/108 (30%), Positives = 55/108 (51%), Gaps = 2/108 (2%)
+
+Query  2    ELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQ-SKDGRH  60
+            +L L  +  +  QL DG  + +G++     H GF VW+   + +G AERY+++ S +  H
+Sbjct  29   DLKLSMQPINERQLSDGQIIGSGQVTYPGEHRGFQVWLTAEKQNGAAERYILRGSNNNAH  88
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEY  108
+             + VR     W P    G +G+     E +  F+++ DG+Q +A   Y
+Sbjct  89   RMFVRLERPEWHP-DDIGKQGIILYTGEARADFNIVIDGDQAVAADNY  135
+
+
+> UniRef90_C0Q6S0 Putative fimbriae subunit n=112 Tax=Salmonella 
+TaxID=590 RepID=C0Q6S0_SALPC
+Length=156
+
+ Score = 53.5 bits (127),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 31/106 (29%), Positives = 51/106 (48%), Gaps = 3/106 (3%)
+
+Query  17   DGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQ-SKDGRHELRVRTGGDGWSPVK  75
+            DG  +A G +    +H+GF VW +E++        ++   +D RH ++VR  G+GW P  
+Sbjct  51   DGMVLAQGWVTYHGSHSGFRVWSDEQKAGNTPTVLLLSGQQDPRHHIQVRLEGEGWQPDT  110
+
+Query  76   GEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVPQE  121
+              G   + R    +   F V+ DGNQ++    +      AC + QE
+Sbjct  111  VNGRGAILRTA-ADNASFSVVVDGNQEVPADTWTLDF-KACALAQE  154
+
+
+> UniRef90_A0A1K2D134 AfaD invasin protein n=1 Tax=Pantoea ananas 
+TaxID=553 RepID=A0A1K2D134_PANAN
+Length=148
+
+ Score = 50.8 bits (120),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 38/120 (32%), Positives = 56/120 (47%), Gaps = 11/120 (9%)
+
+Query  5    LESRGGSGTQ---LRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRHE  61
+            L+    SG Q   +RDG  +  GR+   + H GF +W       GR+   V+  +  RH 
+Sbjct  32   LQLTATSGLQAGPIRDGTLLMRGRVSSNDPHGGFRLWCAADAAGGRSAHCVLTGQ--RHS  89
+
+Query  62   ---LRVRTGGDGWSP-VKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+               LRVR  G+GW P +  EG  G+     E  V F + ADG+Q+ A   +  ++  A  
+Sbjct  90   GNTLRVRVSGEGWQPELPPEG--GMMTVNAERSVAFRIEADGDQNAAADTWAVAMSAATT  147
+
+
+> UniRef90_A0A0H3BSU6 Putative invasin protein n=1 Tax=Salmonella 
+newport (strain SL254) TaxID=423368 RepID=A0A0H3BSU6_SALNS
+Length=83
+
+ Score = 48.9 bits (115),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 28/84 (33%), Positives = 46/84 (55%), Gaps = 2/84 (2%)
+
+Query  37   VWMNERQVDGRAERYVVQSKDGR-HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDV  95
+            +W+N  +     +RYV+  K  R H+L V  G +GW P   +GG+G+ +  +E Q  FD+
+Sbjct  1    MWLNAERNGESPDRYVLTGKSNRQHKLYVIIGQNGWVP-DNKGGEGIIKRTREMQEQFDI  59
+
+Query  96   MADGNQDIAPGEYRFSVGGACVVP  119
+            +A+G+Q +    Y  +V G    P
+Sbjct  60   VANGHQSVPVDTYVITVQGRYFEP  83
+
+
+> UniRef90_E0LZA3 AfaD invasin n=2 Tax=Pantoea TaxID=53335 RepID=E0LZA3_9GAMM
+Length=150
+
+ Score = 49.3 bits (116),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 30/105 (29%), Positives = 56/105 (53%), Gaps = 3/105 (3%)
+
+Query  15   LRDGAKVATGRIICREAHTGFHVWMNERQVDGRA-ERYVVQ-SKDGRHELRVRTGGDGWS  72
+            +RDG K+  G ++  + HTGF +  +E+ V G+   RYV+   ++  H+LRVR       
+Sbjct  45   VRDGTKLGRGTLVSYDIHTGFQLR-SEQAVSGQQGGRYVLTGQQNPAHQLRVRLVPQQQV  103
+
+Query  73   PVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+              +    + ++    E+++ FD++ADG+Q +    Y  ++ G  V
+Sbjct  104  VTEMADMQVITVHTGEDRMVFDILADGDQRVKADTYSLNIAGQVV  148
+
+
+> UniRef90_UPI00083D9DF3 UPI00083D9DF3 related cluster n=2 Tax=Pantoea 
+ananas TaxID=553 RepID=UPI00083D9DF3
+Length=148
+
+ Score = 48.5 bits (114),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 32/102 (31%), Positives = 48/102 (47%), Gaps = 2/102 (2%)
+
+Query  15   LRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQ-SKDGRHELRVRTGGDGWSP  73
+            +RDG  +  GR+     H GF +W       G + R V+   + G + LRVR  G+GW P
+Sbjct  45   VRDGTLLMRGRVSSNAPHGGFRLWCAAYAAGGSSARCVLTGQRHGGNTLRVRLSGEGWQP  104
+
+Query  74   VKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGA  115
+                 G G+     E  V F + ADG+Q+ A   +  ++  A
+Sbjct  105  GPPPEG-GLMTVNAERSVAFRIEADGDQNAAADTWTVALSAA  145
+
+
+> UniRef90_UPI00044F8756 pilin structural protein SafD n=1 Tax=Escherichia 
+coli TaxID=562 RepID=UPI00044F8756
+Length=156
+
+ Score = 47.8 bits (112),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 29/106 (27%), Positives = 48/106 (45%), Gaps = 2/106 (2%)
+
+Query  17   DGAKVATGRIICREAHTGFHVWMNERQV-DGRAERYVVQSKDGRHELRVRTGGDGWSPVK  75
+            DG  +A G +    +H+GF VW +E++  D      +   +D  H L+VR  G+ W P  
+Sbjct  51   DGMVLAQGWVTYHGSHSGFRVWSDEQKAGDSPGVLLLSGQQDTHHHLQVRLEGEEWQP-D  109
+
+Query  76   GEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVPQE  121
+               G GV      +   F V+ DG+Q++    +        +V +E
+Sbjct  110  TASGHGVILRTAADNASFRVVVDGDQEVPADTWTLDFKACALVHEE  155
+
+
+> UniRef90_UPI00066628E0 hypothetical protein n=1 Tax=Escherichia 
+coli TaxID=562 RepID=UPI00066628E0
+Length=144
+
+ Score = 47.4 bits (111),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 31/125 (25%), Positives = 55/125 (44%), Gaps = 19/125 (15%)
+
+Query  3    LHLESRGGSGTQLRDGAKVATGRIICRE----------AHTGFHVWMNERQVDGRAERYV  52
+            + LES   S  ++ DG  +ATG++ C E           + G HV+ N   + G+ +   
+Sbjct  24   IDLESIMVSEGEMNDGDVIATGQVFCEENNISKVSLLNIYMGDHVYSNVYTLQGKNKE--  81
+
+Query  53   VQSKDGRHELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSV  112
+                   ++L VR  GDGW     + G G+ +  + +   F V+ +G+Q++    Y    
+Sbjct  82   ------ENKLMVRIEGDGWHS-SDKAGNGIYKKQKNKSEQFYVVINGHQNVKSDIYSIKA  134
+
+Query  113  GGACV  117
+               C+
+Sbjct  135  SSICL  139
+
+
+> UniRef90_A0A1K2CW02 AfaD invasin protein n=2 Tax=Enterobacterales 
+TaxID=91347 RepID=A0A1K2CW02_PANAN
+Length=148
+
+ Score = 47.4 bits (111),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 33/107 (31%), Positives = 48/107 (45%), Gaps = 6/107 (6%)
+
+Query  14   QLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRH---ELRVRTGGDG  70
+            Q+RDG  +  GR+   + H GF +W         + R V+  +  RH    LRVR  G+G
+Sbjct  44   QVRDGTLLMRGRVSSNDPHGGFRLWCATHAPGDSSVRCVLTGQ--RHAGNTLRVRLSGEG  101
+
+Query  71   WSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+            W P     G G+     E  V F + ADG+Q  A   +  ++  A  
+Sbjct  102  WQPGPPPEG-GMMTFNAERSVAFRIEADGDQQAAADTWAMALSAATT  147
+
+
+> UniRef90_A0A076LKZ6 Invasin protein n=1 Tax=Edwardsiella anguillarum 
+ET080813 TaxID=667120 RepID=A0A076LKZ6_9GAMM
+Length=83
+
+ Score = 43.9 bits (102),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 27/81 (33%), Positives = 43/81 (53%), Gaps = 6/81 (7%)
+
+Query  37   VWMNERQVDGRAERYVVQSKDGR-HELRVRTGGDGWSP--VKGEGGKGVSRPGQEEQVFF  93
+            +W++  +      RYV+  K+ R H+L V  G +GW P    G G    +R GQE+   F
+Sbjct  1    MWLDAERNGDAPNRYVLTGKNSRQHKLYVIIGQEGWVPDTKDGLGIIKYTRKGQEQ---F  57
+
+Query  94   DVMADGNQDIAPGEYRFSVGG  114
+            D++A+GNQ +    Y  ++ G
+Sbjct  58   DIVANGNQSVPIDTYVITIQG  78
+
+
+> UniRef90_Q48BA6 Invasin protein AfaD n=3 Tax=Pseudomonas savastanoi 
+TaxID=29438 RepID=Q48BA6_PSE14
+Length=149
+
+ Score = 42.4 bits (98),  Expect = 0.009, Method: Compositional matrix adjust.
+ Identities = 31/105 (30%), Positives = 51/105 (49%), Gaps = 4/105 (4%)
+
+Query  15   LRDGAKVATGRIICREAHTGFHVWMNERQVD-GRAERYVVQ-SKDGRHELRVRTGGDGWS  72
+            +R+GA V  G++     HTGF +   E Q D GR +   +   +D  H L+VR  G GW 
+Sbjct  46   IRNGALVMIGQVNDPGIHTGFRI-QQELQADTGRPQVLRLHGLRDSTHILQVRLEGQGWQ  104
+
+Query  73   PVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+            P   +    V+    +  V F ++ADG+Q +A   +  ++    +
+Sbjct  105  PDPRDVAGQVTY-VTDNSVQFRLVADGDQTVAADSWEVAINAIVI  148
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.137    0.422    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 436746253185
+Results from round 2
+
+
+Query= d2axwa1
+
+Length=121
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_Q47038 Protein AfaD n=41 Tax=Escherichia coli TaxID=56...  175     4e-53
+  UniRef90_Q8KWG5 Invasin, putative n=5 Tax=Escherichia coli TaxI...  173     2e-52
+  UniRef90_P46006 Protein AggB n=5 Tax=Escherichia coli TaxID=562...  165     3e-49
+  UniRef90_A0A193M269 Adhesin n=1 Tax=Escherichia coli TaxID=562 ...  163     7e-49
+  UniRef90_UPI0003EE1207 adhesin n=3 Tax=Escherichia coli TaxID=5...  163     1e-48
+  UniRef90_A0A0Q3BLZ6 Adhesin n=8 Tax=Escherichia coli TaxID=562 ...  163     2e-48
+  UniRef90_Q9X4L4 Invasin homolog AafB n=3 Tax=Escherichia coli T...  161     8e-48
+  UniRef90_UPI0007A09EB3 UPI0007A09EB3 related cluster n=1 Tax=un...  160     2e-47
+  UniRef90_D8EF36 Uncharacterized protein n=4 Tax=Escherichia col...  159     4e-47
+  UniRef90_Q9XDG6 AfaD n=2 Tax=Escherichia coli TaxID=562 RepID=Q...  155     1e-45
+  UniRef90_A0A063XPE6 Adhesin n=2 Tax=Enterobacteriaceae TaxID=54...  155     1e-45
+  UniRef90_A0A0L6ZS79 Uncharacterized protein n=1 Tax=Escherichia...  155     2e-45
+  UniRef90_B3V224 HdaB n=3 Tax=Escherichia coli TaxID=562 RepID=B...  152     2e-44
+  UniRef90_A0A0D1B3X4 LG58.unitig_0_quiver, whole genome shotgun ...  152     4e-44
+  UniRef90_Q9XDG7 Adhesin n=8 Tax=Escherichia coli TaxID=562 RepI...  150     1e-43
+  UniRef90_V6G042 Enterobacteria AfaD invasin protein n=3 Tax=Esc...  148     3e-43
+  UniRef90_A0A0D1CTB7 LG58.unitig_0_quiver, whole genome shotgun ...  148     1e-42
+  UniRef90_UPI00069BCEAF adhesin n=2 Tax=Shigella sonnei TaxID=62...  146     5e-42
+  UniRef90_A0A0R9PXF2 Invasin n=6 Tax=Salmonella enterica I TaxID...  146     7e-42
+  UniRef90_UPI00055E8AD5 UPI00055E8AD5 related cluster n=4 Tax=un...  142     2e-40
+  UniRef90_UPI0006AC5EF2 hypothetical protein n=1 Tax=Salmonella ...  138     7e-39
+  UniRef90_A0A034T3D1 Invasin protein n=1 Tax=Edwardsiella piscic...  136     6e-38
+  UniRef90_UPI00050B52A2 hypothetical protein n=1 Tax=Escherichia...  134     3e-37
+  UniRef90_UPI00044F8756 pilin structural protein SafD n=1 Tax=Es...  133     8e-37
+  UniRef90_A0A0V9H8A7 Uncharacterized protein n=6 Tax=Escherichia...  133     9e-37
+  UniRef90_A0A1D8N1S3 Invasin n=3 Tax=Edwardsiella hoshinae TaxID...  133     1e-36
+  UniRef90_A0A1J7XCR7 Uncharacterized protein n=1 Tax=Serratia fo...  131     4e-36
+  UniRef90_L0MML6 Enterobacteria AfaD invasin protein n=1 Tax=Ser...  128     5e-35
+  UniRef90_A0A0A8VIN5 Putative fimbrial structural subunit n=4 Ta...  128     6e-35
+  UniRef90_UPI000694010D hypothetical protein n=1 Tax=Aeromonas p...  128     8e-35
+  UniRef90_C0Q6S0 Putative fimbriae subunit n=112 Tax=Salmonella ...  127     2e-34
+  UniRef90_UPI00066628E0 hypothetical protein n=1 Tax=Escherichia...  124     2e-33
+  UniRef90_UPI00050AB3EB hypothetical protein n=1 Tax=Escherichia...  123     7e-33
+  UniRef90_UPI0007733ECF UPI0007733ECF related cluster n=1 Tax=un...  123     1e-32
+  UniRef90_A0A1K2CW02 AfaD invasin protein n=2 Tax=Enterobacteral...  122     1e-32
+  UniRef90_UPI000478D208 UPI000478D208 related cluster n=2 Tax=Lo...  122     1e-32
+  UniRef90_A0A089UJE3 Uncharacterized protein n=1 Tax=Cedecea net...  121     2e-32
+  UniRef90_A0A1K2D134 AfaD invasin protein n=1 Tax=Pantoea ananas...  121     4e-32
+  UniRef90_D4BUN4 Uncharacterized protein n=3 Tax=Providencia ret...  118     6e-31
+  UniRef90_UPI00083D9DF3 UPI00083D9DF3 related cluster n=2 Tax=Pa...  115     7e-30
+  UniRef90_E0LZA3 AfaD invasin n=2 Tax=Pantoea TaxID=53335 RepID=...  112     8e-29
+  UniRef90_A0A0H3BSU6 Putative invasin protein n=1 Tax=Salmonella...  102     1e-25
+  UniRef90_A0A076LKZ6 Invasin protein n=1 Tax=Edwardsiella anguil...  98.5    5e-24
+  UniRef90_UPI0002A40D9E hypothetical protein n=1 Tax=Escherichia...  98.1    1e-23
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI0002E0A4F1 hypothetical protein n=2 Tax=Pantoea ana...  105     4e-26
+  UniRef90_Q48BA6 Invasin protein AfaD n=3 Tax=Pseudomonas savast...  95.4    5e-22
+  UniRef90_UPI00051DA5E8 hypothetical protein n=1 Tax=Pantoea ana...  81.9    6e-17
+  UniRef90_UPI00048DD7BE hypothetical protein n=1 Tax=Phaseolibac...  80.4    2e-16
+  UniRef90_A0A198FUH2 Uncharacterized protein n=2 Tax=Cosenzaea m...  77.7    9e-16
+  UniRef90_A0A1B7JKZ9 Uncharacterized protein n=1 Tax=Proteus hau...  71.1    5e-13
+  UniRef90_UPI00077A14F7 UPI00077A14F7 related cluster n=1 Tax=un...  70.0    2e-12
+  UniRef90_Q53997 SefD n=16 Tax=Salmonella choleraesuis TaxID=289...  68.0    7e-12
+  UniRef90_B2Q5R1 Uncharacterized protein n=1 Tax=Providencia stu...  67.7    8e-12
+  UniRef90_G5LX66 Uncharacterized protein n=1 Tax=Salmonella ente...  62.3    2e-10
+  UniRef90_UPI00026D25EF pilin structural protein SafD n=3 Tax=Pa...  62.7    5e-10
+  UniRef90_UPI0001789D00 hypothetical protein n=4 Tax=Escherichia...  56.5    9e-08
+  UniRef90_UPI0005807984 hypothetical protein n=1 Tax=Pantoea sp....  55.3    2e-07
+  UniRef90_G5LJH6 Putative fimbrial structural subunit n=1 Tax=Sa...  52.3    8e-07
+  UniRef90_J1GGC3 Uncharacterized protein n=1 Tax=Enterobacter sp...  48.4    2e-05
+  UniRef90_UPI0005087D8C pilus assembly protein n=1 Tax=Salmonell...  45.7    6e-04
+
+
+> UniRef90_Q47038 Protein AfaD n=41 Tax=Escherichia coli TaxID=562 
+RepID=AFAD_ECOLX
+Length=147
+
+ Score = 175 bits (443),  Expect = 4e-53, Method: Composition-based stats.
+ Identities = 121/121 (100%), Positives = 121/121 (100%), Gaps = 0/121 (0%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRH  60
+            AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRH
+Sbjct  27   AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRH  86
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVPQ  120
+            ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVPQ
+Sbjct  87   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVPQ  146
+
+Query  121  E  121
+            E
+Sbjct  147  E  147
+
+
+> UniRef90_Q8KWG5 Invasin, putative n=5 Tax=Escherichia coli TaxID=562 
+RepID=Q8KWG5_ECOLX
+Length=146
+
+ Score = 173 bits (439),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 67/119 (56%), Positives = 85/119 (71%), Gaps = 1/119 (1%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDG-R  59
+            AE++L S   + +QLRDG K+ATGR+ CRE HTGFHVWMN RQ  GR E Y+VQ+  G +
+Sbjct  25   AEINLVSHRNTESQLRDGMKLATGRMTCRETHTGFHVWMNARQDGGRPEHYIVQNSKGIQ  84
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVV  118
+            HELRVR GG+GW    GE  +G+ R G+EEQ  FDV+ DG+Q + PGEY  S+ G C+V
+Sbjct  85   HELRVRIGGNGWISSFGEAQRGIFRLGKEEQAIFDVIVDGDQKVIPGEYMLSISGECIV  143
+
+
+> UniRef90_P46006 Protein AggB n=5 Tax=Escherichia coli TaxID=562 
+RepID=AGGB_ECOLX
+Length=145
+
+ Score = 165 bits (417),  Expect = 3e-49, Method: Composition-based stats.
+ Identities = 64/121 (53%), Positives = 86/121 (71%), Gaps = 2/121 (2%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQ-SKDGR  59
+            AE+ L S    G+QLRDG K+ATGRI CRE H GFH+W+N  Q +G+   Y+VQ +++ +
+Sbjct  25   AEITLISHKTLGSQLRDGMKLATGRIACREPHDGFHIWINASQ-NGKVGHYIVQNNRETK  83
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            HEL+V+ GG GWS    EG +GV R G+E+Q  FD+M+DGNQ  APGEY FSV G C++ 
+Sbjct  84   HELKVKIGGGGWSSSLIEGQRGVYRQGEEKQAIFDIMSDGNQYSAPGEYIFSVSGECLIS  143
+
+Query  120  Q  120
+            +
+Sbjct  144  R  144
+
+
+> UniRef90_A0A193M269 Adhesin n=1 Tax=Escherichia coli TaxID=562 
+RepID=A0A193M269_ECOLX
+Length=144
+
+ Score = 163 bits (414),  Expect = 7e-49, Method: Composition-based stats.
+ Identities = 52/118 (44%), Positives = 74/118 (63%), Gaps = 1/118 (1%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGR  59
+             EL+L  R G    L DG K+ATGRI+C   H GF++W+N   V+     Y++Q + D R
+Sbjct  27   VELNLVPRNGVIGDLYDGTKIATGRIVCHGEHMGFNLWINSPSVENNPGHYIIQGRQDSR  86
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+            H+L VR  G+GWSP   EG +G++R GQ+EQ  F V+ DG Q++   EY +S+ G C+
+Sbjct  87   HKLYVRIDGEGWSPSVREGREGMARYGQDEQAVFHVVLDGRQNVVADEYVYSITGECL  144
+
+
+> UniRef90_UPI0003EE1207 adhesin n=3 Tax=Escherichia coli TaxID=562 
+RepID=UPI0003EE1207
+Length=142
+
+ Score = 163 bits (413),  Expect = 1e-48, Method: Composition-based stats.
+ Identities = 48/118 (41%), Positives = 75/118 (64%), Gaps = 1/118 (1%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGR  59
+            AEL L S    G  L DG ++ATG+I+CR++H+GFHVWMN ++   + E Y+++ + + +
+Sbjct  25   AELELSSLNRMGGNLSDGTRIATGQILCRDSHSGFHVWMNAQKAGYQPEHYIIRGQLNSQ  84
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+            +E+RVR  GD WSP   +G  GV R   +E+  FD++ DG Q++    Y  S+ G C+
+Sbjct  85   NEIRVRLTGDRWSPSVDKGQNGVIRISADERAIFDILVDGRQNVEADRYILSLHGVCL  142
+
+
+> UniRef90_A0A0Q3BLZ6 Adhesin n=8 Tax=Escherichia coli TaxID=562 
+RepID=A0A0Q3BLZ6_ECOLX
+Length=144
+
+ Score = 163 bits (412),  Expect = 2e-48, Method: Composition-based stats.
+ Identities = 63/121 (52%), Positives = 80/121 (66%), Gaps = 1/121 (1%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQS-KDGR  59
+            AE+ L S   +G+QLRDG  +ATGRIICRE HTGF +WMN+RQ  G    YV+Q+ K  +
+Sbjct  23   AEITLVSHRSTGSQLRDGMILATGRIICREIHTGFQIWMNDRQEGGHPRHYVIQNSKGNQ  82
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+             ELRVR GG+ W     E  +G  R G+E+QV FDV+ DG Q I PG+Y FSV G C+  
+Sbjct  83   GELRVRIGGNSWFSSLDEEWQGWIRLGKEKQVNFDVIVDGEQYIPPGKYIFSVSGKCMAS  142
+
+Query  120  Q  120
+            +
+Sbjct  143  E  143
+
+
+> UniRef90_Q9X4L4 Invasin homolog AafB n=3 Tax=Escherichia coli 
+TaxID=562 RepID=Q9X4L4_ECOLX
+Length=146
+
+ Score = 161 bits (408),  Expect = 8e-48, Method: Composition-based stats.
+ Identities = 69/122 (57%), Positives = 81/122 (66%), Gaps = 2/122 (2%)
+
+Query  2    ELHLE-SRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQS-KDGR  59
+            E+ LE      G QL DG  +ATGRIICRE HTGFH+ MN RQV+GR   Y+VQ  KD +
+Sbjct  25   EISLEGLHRNMGEQLFDGDILATGRIICRERHTGFHIQMNARQVEGRPGHYIVQGSKDTQ  84
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+             +L VR G +GW+   G G +G+ R GQEEQV FDVMADGNQ   PGEY FSV G C+  
+Sbjct  85   SKLWVRLGREGWTSPTGGGQQGIVRSGQEEQVIFDVMADGNQWAKPGEYIFSVSGKCLTS  144
+
+Query  120  QE  121
+             E
+Sbjct  145  WE  146
+
+
+> UniRef90_UPI0007A09EB3 UPI0007A09EB3 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007A09EB3
+Length=141
+
+ Score = 160 bits (405),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 60/118 (51%), Positives = 78/118 (66%), Gaps = 2/118 (2%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGR-  59
+            AE++L  + G  + L DG ++ATGRI+CREAHTGFHVW+N   V  R   Y++Q K GR 
+Sbjct  25   AEVNLVPQRGVTSNLPDGLRIATGRIVCREAHTGFHVWINAHPVGNRVGSYIIQGKQGRG  84
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+            HELRVR  GD WSP   +  +G+ R  Q EQ  FDV+ADG Q + P EY ++V G C+
+Sbjct  85   HELRVRIDGDRWSPSVTK-REGMVRHTQNEQAVFDVVADGKQHVVPDEYIYTVTGECL  141
+
+
+> UniRef90_D8EF36 Uncharacterized protein n=4 Tax=Escherichia coli 
+TaxID=562 RepID=D8EF36_ECOLX
+Length=140
+
+ Score = 159 bits (402),  Expect = 4e-47, Method: Composition-based stats.
+ Identities = 55/117 (47%), Positives = 75/117 (64%), Gaps = 0/117 (0%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRH  60
+            AEL L  +   G  L DG ++A GRI+CR+AH+GF +WMN ++   R+E  +      +H
+Sbjct  24   AELALYPQHNKGGNLVDGVRIAKGRIVCRDAHSGFRIWMNAQKAGERSEYIIKGRTKNQH  83
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+            E+RVR GGDGWSP   +   G++R G EE   FDV+ DG+Q +AP EY FSV G C+
+Sbjct  84   EIRVRLGGDGWSPSVLKEQYGMARSGTEEGAIFDVLLDGDQYVAPDEYVFSVRGLCL  140
+
+
+> UniRef90_Q9XDG6 AfaD n=2 Tax=Escherichia coli TaxID=562 RepID=Q9XDG6_ECOLX
+Length=150
+
+ Score = 155 bits (393),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 62/121 (51%), Positives = 82/121 (68%), Gaps = 2/121 (2%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGR  59
+            AEL L+ R   G++LRDG ++ATGRIICREAHTGFHVWMN R+ +GR    ++Q K D R
+Sbjct  28   AELSLDVRKAMGSELRDGERIATGRIICREAHTGFHVWMNGREDEGRPGHLLIQGKHDSR  87
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            +E+R R  G+GWS +  EG   + + G+EEQ  FDV++DG Q     EY  SV G+CV  
+Sbjct  88   NEIRARVEGEGWSAIT-EGEHRLVKAGEEEQAVFDVVSDGRQRAGADEYVLSVSGSCVDS  146
+
+Query  120  Q  120
+            +
+Sbjct  147  R  147
+
+
+> UniRef90_A0A063XPE6 Adhesin n=2 Tax=Enterobacteriaceae TaxID=543 
+RepID=A0A063XPE6_9ENTR
+Length=147
+
+ Score = 155 bits (393),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 41/119 (34%), Positives = 64/119 (54%), Gaps = 2/119 (2%)
+
+Query  2    ELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGRH  60
+            E+ L  R    T+LRDG  +  GR++ +EAH+G+ VW+N ++      RYV+  K D  H
+Sbjct  30   EVTLNIRPPQDTKLRDGTVIGRGRMVFQEAHSGYLVWLNAQKSTSAPGRYVLTGKRDSAH  89
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            +LR+R  G+GWS  + +   G+ R     +  F ++ DGNQ     EY  +     +VP
+Sbjct  90   QLRIRLAGEGWS-GENKDRGGIVRSTSATRASFQIVIDGNQQAVADEYVITANALAIVP  147
+
+
+> UniRef90_A0A0L6ZS79 Uncharacterized protein n=1 Tax=Escherichia 
+coli TaxID=562 RepID=A0A0L6ZS79_ECOLX
+Length=144
+
+ Score = 155 bits (392),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 40/118 (34%), Positives = 60/118 (51%), Gaps = 1/118 (1%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRH  60
+            AE+ L+ +   G  LR+G K+A GRI C EAHT F +W+N +        Y++  K   +
+Sbjct  24   AEITLDEQFVIGGDLRNGTKIAKGRIFCPEAHTEFRIWVNSQAQKKGTGHYILLGKHSEN  83
+
+Query  61   -ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+              + +R  GDGW     E    +++        FDV+ DG+Q +   EY  SV G C+
+Sbjct  84   NRMNIRLEGDGWRVSSIEAKNSLTKFWSGNIATFDVVVDGDQKVPSDEYFISVSGYCI  141
+
+
+> UniRef90_B3V224 HdaB n=3 Tax=Escherichia coli TaxID=562 RepID=B3V224_ECOLX
+Length=142
+
+ Score = 152 bits (384),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 55/119 (46%), Positives = 77/119 (65%), Gaps = 1/119 (1%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDG-R  59
+            A++ L +    G  L DG K+ATGRIIC++ H+GF VW+N RQ  G A +Y+VQS +G +
+Sbjct  24   ADITLMNHKYMGNLLHDGVKLATGRIICQDTHSGFRVWINARQEGGGAGKYIVQSTEGPQ  83
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVV  118
+            H LR+R GG+GWS    +G +GV    +E+   F +  DGNQ + PG+Y FSV G C +
+Sbjct  84   HNLRIRIGGNGWSSFVEKGIQGVFNTIKEDASIFYIEVDGNQQVHPGKYLFSVSGECYI  142
+
+
+> UniRef90_A0A0D1B3X4 LG58.unitig_0_quiver, whole genome shotgun 
+sequence n=2 Tax=Kosakonia radicincitans YD4 TaxID=1544796 
+RepID=A0A0D1B3X4_9ENTR
+Length=147
+
+ Score = 152 bits (384),  Expect = 4e-44, Method: Composition-based stats.
+ Identities = 42/119 (35%), Positives = 65/119 (55%), Gaps = 2/119 (2%)
+
+Query  2    ELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGRH  60
+            E+ L+ R    T LRDG  +  G +  +E HTG+ VW++  +      RYV+  K +  H
+Sbjct  30   EIRLDMRPPQDTFLRDGTVIGHGWLAFQEVHTGYQVWLDASRSSAAPGRYVLVGKRNSAH  89
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            +LR+R  G+GW     EG  G+     +E+  FD++ DG+QD+A  EY  +   A +VP
+Sbjct  90   QLRIRLAGEGWESE-NEGEGGIVSATTDERTRFDIVIDGHQDVAADEYVITASAAAIVP  147
+
+
+> UniRef90_Q9XDG7 Adhesin n=8 Tax=Escherichia coli TaxID=562 RepID=Q9XDG7_ECOLX
+Length=139
+
+ Score = 150 bits (379),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 54/117 (46%), Positives = 70/117 (60%), Gaps = 2/117 (2%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGR  59
+             EL L +  G   +L+DG KVATGRIICR  +T FH+WMN RQ+      Y++  + D  
+Sbjct  23   VELSLNTSDGRSGELKDGTKVATGRIICRGTYTSFHIWMNSRQMGNIPGHYIILGRHDSH  82
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGAC  116
+            +E+RVR  G GW P   +G +G+   G  EQ  FDV+ DGNQ + P EY  SV G C
+Sbjct  83   NEMRVRLDGAGWLPSVSDG-QGMVSTGIPEQHTFDVVIDGNQLLGPDEYILSVSGEC  138
+
+
+> UniRef90_V6G042 Enterobacteria AfaD invasin protein n=3 Tax=Escherichia 
+coli TaxID=562 RepID=V6G042_ECOLX
+Length=115
+
+ Score = 148 bits (375),  Expect = 3e-43, Method: Composition-based stats.
+ Identities = 58/106 (55%), Positives = 74/106 (70%), Gaps = 1/106 (1%)
+
+Query  13   TQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGRHELRVRTGGDGW  71
+             +LRDG K+ATGRIICREAHTGFH+ +N RQ + R   Y++Q + D RHELRVR  G+GW
+Sbjct  10   GELRDGMKIATGRIICREAHTGFHIRINARQQESRPGHYIIQGRRDSRHELRVRIAGEGW  69
+
+Query  72   SPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+            SP    G +G+   GQ EQ  FDV+ADG+Q +   EY +SV G C+
+Sbjct  70   SPSVTGGQEGMVSYGQREQGVFDVVADGSQRVEADEYIYSVTGECL  115
+
+
+> UniRef90_A0A0D1CTB7 LG58.unitig_0_quiver, whole genome shotgun 
+sequence n=3 Tax=Kosakonia radicincitans YD4 TaxID=1544796 
+RepID=A0A0D1CTB7_9ENTR
+Length=147
+
+ Score = 148 bits (374),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 39/119 (33%), Positives = 60/119 (50%), Gaps = 2/119 (2%)
+
+Query  2    ELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGRH  60
+            ++ L       T+LRDG  +  GRI+ + AH+G+  W+N ++      RYV+  K D  H
+Sbjct  30   DVTLNIHPLQETKLRDGTVIGCGRIVFQAAHSGYLAWLNAQKSAPTPGRYVLTGKRDSAH  89
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            +LRVR  G+ WS    + G G+       +  F ++ DGNQ  A  EY  +     +VP
+Sbjct  90   QLRVRLAGEDWSGESTDRG-GIVSTTSATRASFQIVIDGNQQAAADEYVITANALAIVP  147
+
+
+> UniRef90_UPI00069BCEAF adhesin n=2 Tax=Shigella sonnei TaxID=624 
+RepID=UPI00069BCEAF
+Length=130
+
+ Score = 146 bits (368),  Expect = 5e-42, Method: Composition-based stats.
+ Identities = 61/117 (52%), Positives = 79/117 (68%), Gaps = 2/117 (2%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGR  59
+            AEL L+ R  +G++LRDG K+ATGRIICREAHTGF++ +N R+ + R   +++Q K DGR
+Sbjct  8    AELSLDVRKSAGSELRDGEKIATGRIICREAHTGFYIRINGREDESRLGHWLIQGKHDGR  67
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGAC  116
+            +ELRVR  G+GWS    EG   + + G EEQ  FDV+ADG Q     EY  SV G C
+Sbjct  68   NELRVRVDGEGWSV-VTEGEHWLVKAGTEEQAVFDVVADGKQHAGTDEYILSVSGNC  123
+
+
+> UniRef90_A0A0R9PXF2 Invasin n=6 Tax=Salmonella enterica I TaxID=59201 
+RepID=A0A0R9PXF2_SALNE
+Length=145
+
+ Score = 146 bits (368),  Expect = 7e-42, Method: Composition-based stats.
+ Identities = 41/120 (34%), Positives = 67/120 (56%), Gaps = 2/120 (2%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGR-  59
+             ++ L S     +Q+RDG  +  GRI  ++AH+G+ VW+N  +     +RYV+  K  R 
+Sbjct  27   VDITLNSALNLNSQIRDGQLIGYGRISTQQAHSGYQVWLNAERNGESPDRYVLTGKSNRQ  86
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            H+L V  G +GW P   +GG+G+ +  +E Q  FD++A+G+Q +    Y  +V G    P
+Sbjct  87   HKLYVIIGQNGWVP-DNKGGEGIIKRTREMQEQFDIVANGHQSVPVDTYVITVQGRYFEP  145
+
+
+> UniRef90_UPI00055E8AD5 UPI00055E8AD5 related cluster n=4 Tax=unknown 
+TaxID= RepID=UPI00055E8AD5
+Length=115
+
+ Score = 142 bits (357),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 39/116 (34%), Positives = 62/116 (53%), Gaps = 2/116 (2%)
+
+Query  5    LESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGRHELR  63
+            +  R    T+LRDG  +  GR++ +EAH+G+ VW+N ++      RYV+  K D  H+LR
+Sbjct  1    MNIRPPQDTKLRDGTVIGRGRMVFQEAHSGYLVWLNAQKSTSAPGRYVLTGKRDSAHQLR  60
+
+Query  64   VRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            +R  G+GWS  + +   G+ R     +  F ++ DGNQ     EY  +     +VP
+Sbjct  61   IRLAGEGWS-GENKDRGGIVRSTSATRASFQIVIDGNQQAVADEYVITANALAIVP  115
+
+
+> UniRef90_UPI0006AC5EF2 hypothetical protein n=1 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=UPI0006AC5EF2
+Length=142
+
+ Score = 138 bits (348),  Expect = 7e-39, Method: Composition-based stats.
+ Identities = 33/119 (28%), Positives = 51/119 (43%), Gaps = 2/119 (2%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGR-  59
+            A L +  R        DG  V  G+I+C   H+GFH++      D    +Y    K    
+Sbjct  24   AHLEINIRPVLNNIQHDGEHVGNGQIVCSNDHSGFHIYGGYGTEDIYPWKYNAHGKSNPY  83
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVV  118
+            ++L VR  GD W     +   G+ +   EE   F ++ DG Q +   EY   + G C++
+Sbjct  84   NKLTVRLEGDNWI-KNEQDYPGIVKFSSEEAAEFRIVIDGKQKVPADEYTIRIFGECII  141
+
+
+> UniRef90_A0A034T3D1 Invasin protein n=1 Tax=Edwardsiella piscicida 
+TaxID=1263550 RepID=A0A034T3D1_9GAMM
+Length=145
+
+ Score = 136 bits (342),  Expect = 6e-38, Method: Composition-based stats.
+ Identities = 35/118 (30%), Positives = 63/118 (53%), Gaps = 2/118 (2%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGR-  59
+             ++ L S     +Q+RDG  ++ GRI  ++   G+ VW++  +      RYV+  K+ R 
+Sbjct  27   VDITLNSVSNLSSQVRDGQMISRGRITGQQIRQGYQVWLDAERNGDAPNRYVLTGKNSRQ  86
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+            H+L V  G +GW P   + G G+ +  ++ Q  FD++A+GNQ +    Y  ++ G  +
+Sbjct  87   HKLYVIIGQEGWVP-DTKDGLGIIKYTRKGQEQFDIVANGNQSVPIDTYVITIQGRYL  143
+
+
+> UniRef90_UPI00050B52A2 hypothetical protein n=1 Tax=Escherichia 
+coli TaxID=562 RepID=UPI00050B52A2
+Length=142
+
+ Score = 134 bits (337),  Expect = 3e-37, Method: Composition-based stats.
+ Identities = 39/118 (33%), Positives = 59/118 (50%), Gaps = 3/118 (3%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAER-YVVQSKDG-  58
+            AE++L SR  S   L DG  +ATGR+ C E        +N +  D  + + Y++Q K+  
+Sbjct  22   AEMNLVSRMVSERDLSDGDIIATGRVFCEENEISSVSLLNIQSTDDASGKVYMLQGKESV  81
+
+Query  59   RHELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGAC  116
+             ++L VR  GDGW    GE GKG+ +  + +   F V+ +G Q + P  Y       C
+Sbjct  82   MNKLIVRLEGDGWRSS-GEAGKGIYKIQENKSEQFYVVVNGRQHVNPDVYTIKASSIC  138
+
+
+> UniRef90_UPI00044F8756 pilin structural protein SafD n=1 Tax=Escherichia 
+coli TaxID=562 RepID=UPI00044F8756
+Length=156
+
+ Score = 133 bits (335),  Expect = 8e-37, Method: Composition-based stats.
+ Identities = 28/106 (26%), Positives = 48/106 (45%), Gaps = 2/106 (2%)
+
+Query  17   DGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQS-KDGRHELRVRTGGDGWSPVK  75
+            DG  +A G +    +H+GF VW +E++        ++   +D  H L+VR  G+ W P  
+Sbjct  51   DGMVLAQGWVTYHGSHSGFRVWSDEQKAGDSPGVLLLSGQQDTHHHLQVRLEGEEWQP-D  109
+
+Query  76   GEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVPQE  121
+               G GV      +   F V+ DG+Q++    +        +V +E
+Sbjct  110  TASGHGVILRTAADNASFRVVVDGDQEVPADTWTLDFKACALVHEE  155
+
+
+> UniRef90_A0A0V9H8A7 Uncharacterized protein n=6 Tax=Escherichia 
+coli TaxID=562 RepID=A0A0V9H8A7_ECOLX
+Length=140
+
+ Score = 133 bits (334),  Expect = 9e-37, Method: Composition-based stats.
+ Identities = 39/118 (33%), Positives = 63/118 (53%), Gaps = 3/118 (3%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDG-RAERYVVQSKD-G  58
+            AE++LE+R  SG+ L DG  +ATG + C +      V +N + V+G ++  Y +Q ++  
+Sbjct  20   AEINLETRAFSGSYLYDGDIIATGSVFCDDGEVSRVVLLNIKPVNGSQSNVYHLQGRNKP  79
+
+Query  59   RHELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGAC  116
+             +EL VR  G+GWSP   + G G+ +    +Q  F V+A+G Q +    Y       C
+Sbjct  80   SNELTVRIEGNGWSPSD-KVGNGIYKKLINKQDQFYVVANGRQHVRADIYTIRASSIC  136
+
+
+> UniRef90_A0A1D8N1S3 Invasin n=3 Tax=Edwardsiella hoshinae TaxID=93378 
+RepID=A0A1D8N1S3_9GAMM
+Length=145
+
+ Score = 133 bits (334),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 38/120 (32%), Positives = 61/120 (51%), Gaps = 2/120 (2%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGR-  59
+             ++ L S      QLRDG ++  G+I  ++AH GF VW+   +      RY++  K+ R 
+Sbjct  27   VDITLNSVANLSPQLRDGQRIGQGQIQTQQAHRGFQVWLEAPRSSEAPNRYILMGKNNRQ  86
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            H+L V  G  GW P   +GG G+ +  ++ Q  FD++ +G Q      Y  +V G  + P
+Sbjct  87   HKLFVIIGQAGWQP-DSQGGLGIIKLTRDRQARFDIVVNGGQYAPIDTYTVTVQGRYLEP  145
+
+
+> UniRef90_A0A1J7XCR7 Uncharacterized protein n=1 Tax=Serratia 
+fonticola TaxID=47917 RepID=A0A1J7XCR7_SERFO
+Length=150
+
+ Score = 131 bits (330),  Expect = 4e-36, Method: Composition-based stats.
+ Identities = 34/111 (31%), Positives = 53/111 (48%), Gaps = 2/111 (2%)
+
+Query  10   GSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDG-RHELRVRTGG  68
+             +   + DG ++  GRI   E HTGF +W    +   R ERYV+  +    H+LRVR  G
+Sbjct  41   VNTGHVADGKRLGEGRISLHELHTGFQIWSEAPKSTERPERYVLTGRQSDAHKLRVRLEG  100
+
+Query  69   DGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            + W P   + G+G+     ++   F ++ DG Q I    Y   + G  + P
+Sbjct  101  NDWEP-DTKTGEGLILNTGDDAARFFIVVDGEQKIVADNYPIQITGVALTP  150
+
+
+> UniRef90_L0MML6 Enterobacteria AfaD invasin protein n=1 Tax=Serratia 
+marcescens FGI94 TaxID=1249634 RepID=L0MML6_SERMA
+Length=145
+
+ Score = 128 bits (322),  Expect = 5e-35, Method: Composition-based stats.
+ Identities = 31/110 (28%), Positives = 54/110 (49%), Gaps = 2/110 (2%)
+
+Query  2    ELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQS-KDGRH  60
+            +L L  +  +  QL DG  + +G++     H GF VW+   + +G AERY+++   +  H
+Sbjct  29   DLKLSMQPINERQLSDGQIIGSGQVTYPGEHRGFQVWLTAEKQNGAAERYILRGSNNNAH  88
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRF  110
+             + VR     W P    G +G+     E +  F+++ DG+Q +A   Y  
+Sbjct  89   RMFVRLERPEWHPDDI-GKQGIILYTGEARADFNIVIDGDQAVAADNYAV  137
+
+
+> UniRef90_A0A0A8VIN5 Putative fimbrial structural subunit n=4 
+Tax=Yersinia ruckeri TaxID=29486 RepID=A0A0A8VIN5_YERRU
+Length=134
+
+ Score = 128 bits (321),  Expect = 6e-35, Method: Composition-based stats.
+ Identities = 36/120 (30%), Positives = 58/120 (48%), Gaps = 3/120 (3%)
+
+Query  2    ELHLESRGGSGTQLRDGAK-VATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGR-  59
+            +L+L+   G  +   +G + +  GRI     H GF VW +  +   +   YV+  K+   
+Sbjct  16   QLNLQMNNGLLSGHVNGERRIGQGRIQYYGNHLGFQVWSDANKSGAQPNSYVLLGKNNSS  75
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            ++LRVR     W P   EGGKG+      E   FDV+ DG+Q +    Y  ++  A ++P
+Sbjct  76   NKLRVRIEKKDWQP-DHEGGKGIILHYGGETATFDVVIDGDQTVVADHYSLALNAAVLLP  134
+
+
+> UniRef90_UPI000694010D hypothetical protein n=1 Tax=Aeromonas 
+popoffii TaxID=70856 RepID=UPI000694010D
+Length=149
+
+ Score = 128 bits (321),  Expect = 8e-35, Method: Composition-based stats.
+ Identities = 35/120 (29%), Positives = 59/120 (49%), Gaps = 3/120 (3%)
+
+Query  2    ELHLESRGGSGTQLRDGA-KVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDG-R  59
+            +L+L+   G  +   +G  ++  G I     H GF VW +  +   +  RYV+  ++   
+Sbjct  31   QLNLQINSGLLSGRINGEFRIGKGLIEYDGGHLGFQVWSDATKSGPQPNRYVLIGQNNSN  90
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            ++LR+R    GW P   EGGKG+          FDV+ DG+Q +    Y  ++ GA ++P
+Sbjct  91   NKLRIRIEYPGWQP-DNEGGKGIILRDGGNSATFDVVVDGDQTVIADHYSLALKGAVLLP  149
+
+
+> UniRef90_C0Q6S0 Putative fimbriae subunit n=112 Tax=Salmonella 
+TaxID=590 RepID=C0Q6S0_SALPC
+Length=156
+
+ Score = 127 bits (319),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 27/110 (25%), Positives = 50/110 (45%), Gaps = 2/110 (2%)
+
+Query  13   TQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQS-KDGRHELRVRTGGDGW  71
+              + DG  +A G +    +H+GF VW +E++        ++   +D RH ++VR  G+GW
+Sbjct  47   GHVPDGMVLAQGWVTYHGSHSGFRVWSDEQKAGNTPTVLLLSGQQDPRHHIQVRLEGEGW  106
+
+Query  72   SPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVPQE  121
+             P    G   + R    +   F V+ DGNQ++    +        +  ++
+Sbjct  107  QPDTVNGRGAILR-TAADNASFSVVVDGNQEVPADTWTLDFKACALAQED  155
+
+
+> UniRef90_UPI00066628E0 hypothetical protein n=1 Tax=Escherichia 
+coli TaxID=562 RepID=UPI00066628E0
+Length=144
+
+ Score = 124 bits (311),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 31/121 (26%), Positives = 56/121 (46%), Gaps = 3/121 (2%)
+
+Query  3    LHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDG-RAERYVVQSKDGR-H  60
+            + LES   S  ++ DG  +ATG++ C E +      +N    D   +  Y +Q K+   +
+Sbjct  24   IDLESIMVSEGEMNDGDVIATGQVFCEENNISKVSLLNIYMGDHVYSNVYTLQGKNKEEN  83
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVPQ  120
+            +L VR  GDGW     + G G+ +  + +   F V+ +G+Q++    Y       C+   
+Sbjct  84   KLMVRIEGDGWHSSD-KAGNGIYKKQKNKSEQFYVVINGHQNVKSDIYSIKASSICLYSY  142
+
+Query  121  E  121
+            +
+Sbjct  143  Q  143
+
+
+> UniRef90_UPI00050AB3EB hypothetical protein n=1 Tax=Escherichia 
+coli TaxID=562 RepID=UPI00050AB3EB
+Length=144
+
+ Score = 123 bits (308),  Expect = 7e-33, Method: Composition-based stats.
+ Identities = 38/116 (33%), Positives = 54/116 (47%), Gaps = 3/116 (3%)
+
+Query  3    LHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAE-RYVVQSKDG-RH  60
+            + LESR  SG +L DG  +ATG + C      +   MN    D      Y +Q ++   +
+Sbjct  24   MSLESRVTSGGELFDGDIIATGIVYCEGGDVSWLGLMNIHHGDNTLGNVYTLQGRNMLTN  83
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGAC  116
+            EL VR  GDGW P    G KG+ +        F V+ +G+Q++ P  Y      AC
+Sbjct  84   ELVVRIEGDGWHPS-NIGKKGIYKTKVSGSEQFHVVVNGHQNVNPDVYTIKANSAC  138
+
+
+> UniRef90_UPI0007733ECF UPI0007733ECF related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007733ECF
+Length=175
+
+ Score = 123 bits (309),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 35/120 (29%), Positives = 55/120 (46%), Gaps = 4/120 (3%)
+
+Query  2    ELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGR-H  60
+            E+ L+ +      +  G +V +G+  CR  H   H+W+N  +VD  A  Y+V+ K  + +
+Sbjct  29   EIRLQPQTMFMNAINVGDEVMSGQFSCRGKH---HIWLNAEKVDDVANTYIVRGKHNQGN  85
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVPQ  120
+             + V  GG GW        KGV+         F + A  NQ   P  Y F+V G C+  +
+Sbjct  86   IIYVTLGGQGWIVDDSAERKGVTTVDTLSDTRFILAASVNQTPRPDVYSFNVAGECLPVE  145
+
+
+> UniRef90_A0A1K2CW02 AfaD invasin protein n=2 Tax=Enterobacterales 
+TaxID=91347 RepID=A0A1K2CW02_PANAN
+Length=148
+
+ Score = 122 bits (307),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 31/108 (29%), Positives = 47/108 (44%), Gaps = 2/108 (2%)
+
+Query  11   SGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQS-KDGRHELRVRTGGD  69
+               Q+RDG  +  GR+   + H GF +W         + R V+   +   + LRVR  G+
+Sbjct  41   QAGQVRDGTLLMRGRVSSNDPHGGFRLWCATHAPGDSSVRCVLTGQRHAGNTLRVRLSGE  100
+
+Query  70   GWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+            GW P     G G+     E  V F + ADG+Q  A   +  ++  A  
+Sbjct  101  GWQPGPPPEG-GMMTFNAERSVAFRIEADGDQQAAADTWAMALSAATT  147
+
+
+> UniRef90_UPI000478D208 UPI000478D208 related cluster n=2 Tax=Lonsdalea 
+quercina TaxID=71657 RepID=UPI000478D208
+Length=161
+
+ Score = 122 bits (307),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 30/113 (27%), Positives = 53/113 (47%), Gaps = 1/113 (1%)
+
+Query  8    RGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGRHELRVRT  66
+             G     ++DG ++  G ++  EAH GF +W   +        +V+  K +  H+LR+R 
+Sbjct  49   HGLQAHVVKDGMRLGQGTLVSHEAHAGFRLWSEVQTSSFPTGHFVLSGKQNDAHKLRIRL  108
+
+Query  67   GGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+               G +     G   +    ++++V FDV+ADG Q +    YR  + G  + P
+Sbjct  109  VPRGLTAEGSPGSSEMVLNTKDDRVVFDVIADGEQRVEADHYRLDISGTALPP  161
+
+
+> UniRef90_A0A089UJE3 Uncharacterized protein n=1 Tax=Cedecea neteri 
+TaxID=158822 RepID=A0A089UJE3_9ENTR
+Length=146
+
+ Score = 121 bits (305),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 35/118 (30%), Positives = 54/118 (46%), Gaps = 4/118 (3%)
+
+Query  2    ELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGR-H  60
+            ++ L+ +      +  G +V +G+  CR  H   HVW+N  +VD  A  Y+V+ K  + +
+Sbjct  29   DIRLQPKTMFVKAINVGDEVVSGQFSCRGKH---HVWLNAEKVDDVANTYIVRGKHNQGN  85
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVV  118
+             + V  GG GW        KGV+         F + A  NQ   P  Y F+V G C+ 
+Sbjct  86   IIYVTLGGQGWIVDDSAERKGVTTVDTLSDTRFTIFASVNQTPRPDVYTFNVAGECLP  143
+
+
+> UniRef90_A0A1K2D134 AfaD invasin protein n=1 Tax=Pantoea ananas 
+TaxID=553 RepID=A0A1K2D134_PANAN
+Length=148
+
+ Score = 121 bits (303),  Expect = 4e-32, Method: Composition-based stats.
+ Identities = 35/117 (30%), Positives = 53/117 (45%), Gaps = 5/117 (4%)
+
+Query  5    LESRGGSGTQ---LRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQS-KDGRH  60
+            L+    SG Q   +RDG  +  GR+   + H GF +W       GR+   V+   +   +
+Sbjct  32   LQLTATSGLQAGPIRDGTLLMRGRVSSNDPHGGFRLWCAADAAGGRSAHCVLTGQRHSGN  91
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+             LRVR  G+GW P     G G+     E  V F + ADG+Q+ A   +  ++  A  
+Sbjct  92   TLRVRVSGEGWQPELPPEG-GMMTVNAERSVAFRIEADGDQNAAADTWAVAMSAATT  147
+
+
+> UniRef90_D4BUN4 Uncharacterized protein n=3 Tax=Providencia rettgeri 
+TaxID=587 RepID=D4BUN4_PRORE
+Length=162
+
+ Score = 118 bits (296),  Expect = 6e-31, Method: Composition-based stats.
+ Identities = 38/109 (35%), Positives = 48/109 (44%), Gaps = 2/109 (2%)
+
+Query  11   SGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRHELRVRTGGDG  70
+            S   L DG  +A GR+I  E H GF VW    QV G+  RY + S  G H L +R  G  
+Sbjct  56   SAGSLGDGRLIAQGRVIYSEPHQGFRVWSEGTQVQGQVHRYQLMSARG-HPLNIRLAGKD  114
+
+Query  71   WSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            W P   + GKG+     E    FDV  DG Q +    +        + P
+Sbjct  115  WQP-DAQSGKGIVSQTGELSQPFDVEVDGAQTLPMDTWVLRFQAVVLQP  162
+
+
+> UniRef90_UPI00083D9DF3 UPI00083D9DF3 related cluster n=2 Tax=Pantoea 
+ananas TaxID=553 RepID=UPI00083D9DF3
+Length=148
+
+ Score = 115 bits (288),  Expect = 7e-30, Method: Composition-based stats.
+ Identities = 37/121 (31%), Positives = 54/121 (45%), Gaps = 5/121 (4%)
+
+Query  1    AELHLESRGGSGTQ---LRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQS-K  56
+            AE  L+     G Q   +RDG  +  GR+     H GF +W       G + R V+   +
+Sbjct  28   AEPVLQLTTTPGLQAGPVRDGTLLMRGRVSSNAPHGGFRLWCAAYAAGGSSARCVLTGQR  87
+
+Query  57   DGRHELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGAC  116
+             G + LRVR  G+GW P     G G+     E  V F + ADG+Q+ A   +  ++  A 
+Sbjct  88   HGGNTLRVRLSGEGWQPGPPPEG-GLMTVNAERSVAFRIEADGDQNAAADTWTVALSAAT  146
+
+Query  117  V  117
+             
+Sbjct  147  T  147
+
+
+> UniRef90_E0LZA3 AfaD invasin n=2 Tax=Pantoea TaxID=53335 RepID=E0LZA3_9GAMM
+Length=150
+
+ Score = 112 bits (281),  Expect = 8e-29, Method: Composition-based stats.
+ Identities = 28/112 (25%), Positives = 53/112 (47%), Gaps = 1/112 (1%)
+
+Query  8    RGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGRHELRVRT  66
+             G     +RDG K+  G ++  + HTGF +   +     +  RYV+  + +  H+LRVR 
+Sbjct  38   HGLQAGAVRDGTKLGRGTLVSYDIHTGFQLRSEQAVSGQQGGRYVLTGQQNPAHQLRVRL  97
+
+Query  67   GGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVV  118
+                    +    + ++    E+++ FD++ADG+Q +    Y  ++ G  V 
+Sbjct  98   VPQQQVVTEMADMQVITVHTGEDRMVFDILADGDQRVKADTYSLNIAGQVVT  149
+
+
+> UniRef90_UPI0002E0A4F1 hypothetical protein n=2 Tax=Pantoea ananas 
+TaxID=553 RepID=UPI0002E0A4F1
+Length=148
+
+ Score = 105 bits (263),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 25/108 (23%), Positives = 42/108 (39%), Gaps = 2/108 (2%)
+
+Query  11   SGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQS-KDGRHELRVRTGGD  69
+                +RDG  +  GR+     H+GF +        G   R  +   +D  H LRVR  G 
+Sbjct  41   QAGPVRDGTLLIAGRVSSNAPHSGFRLRCEAEAEPGHPGRCTLAGQRDPGHRLRVRLSGP  100
+
+Query  70   GWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+            GW       G  +     +    F + ADG+Q +    +  ++  + +
+Sbjct  101  GWQAGAAGDGT-MMVYTTDGSTAFRLEADGDQHVEADTWTVALSASVM  147
+
+
+> UniRef90_A0A0H3BSU6 Putative invasin protein n=1 Tax=Salmonella 
+newport (strain SL254) TaxID=423368 RepID=A0A0H3BSU6_SALNS
+Length=83
+
+ Score = 102 bits (255),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 28/84 (33%), Positives = 46/84 (55%), Gaps = 2/84 (2%)
+
+Query  37   VWMNERQVDGRAERYVVQSKDGR-HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDV  95
+            +W+N  +     +RYV+  K  R H+L V  G +GW P   +GG+G+ +  +E Q  FD+
+Sbjct  1    MWLNAERNGESPDRYVLTGKSNRQHKLYVIIGQNGWVP-DNKGGEGIIKRTREMQEQFDI  59
+
+Query  96   MADGNQDIAPGEYRFSVGGACVVP  119
+            +A+G+Q +    Y  +V G    P
+Sbjct  60   VANGHQSVPVDTYVITVQGRYFEP  83
+
+
+> UniRef90_A0A076LKZ6 Invasin protein n=1 Tax=Edwardsiella anguillarum 
+ET080813 TaxID=667120 RepID=A0A076LKZ6_9GAMM
+Length=83
+
+ Score = 98.5 bits (244),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 24/82 (29%), Positives = 44/82 (54%), Gaps = 2/82 (2%)
+
+Query  37   VWMNERQVDGRAERYVVQSKDGR-HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDV  95
+            +W++  +      RYV+  K+ R H+L V  G +GW P   + G G+ +  ++ Q  FD+
+Sbjct  1    MWLDAERNGDAPNRYVLTGKNSRQHKLYVIIGQEGWVP-DTKDGLGIIKYTRKGQEQFDI  59
+
+Query  96   MADGNQDIAPGEYRFSVGGACV  117
+            +A+GNQ +    Y  ++ G  +
+Sbjct  60   VANGNQSVPIDTYVITIQGRYL  81
+
+
+> UniRef90_UPI0002A40D9E hypothetical protein n=1 Tax=Escherichia 
+coli TaxID=562 RepID=UPI0002A40D9E
+Length=98
+
+ Score = 98.1 bits (243),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 35/71 (49%), Positives = 50/71 (70%), Gaps = 2/71 (3%)
+
+Query  1   AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQ-SKDGR  59
+           AE+ L S     +QLRDG K+ATGRI CRE H GF++W+N  Q +G+   Y+VQ +++ +
+Sbjct  25  AEITLISHKTLESQLRDGMKLATGRIACREPHNGFYIWINASQ-NGKVGHYIVQNNRETK  83
+
+Query  60  HELRVRTGGDG  70
+           HEL+V+ GG G
+Sbjct  84  HELKVKIGGGG  94
+
+
+> UniRef90_Q48BA6 Invasin protein AfaD n=3 Tax=Pseudomonas savastanoi 
+TaxID=29438 RepID=Q48BA6_PSE14
+Length=149
+
+ Score = 95.4 bits (236),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 31/117 (26%), Positives = 51/117 (44%), Gaps = 3/117 (3%)
+
+Query  3    LHLESRGGS-GTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQS-KDGRH  60
+            L L+   G     +R+GA V  G++     HTGF +    +   GR +   +   +D  H
+Sbjct  33   LKLQPAAGLRAGHIRNGALVMIGQVNDPGIHTGFRIQQELQADTGRPQVLRLHGLRDSTH  92
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+             L+VR  G GW P       G      +  V F ++ADG+Q +A   +  ++    +
+Sbjct  93   ILQVRLEGQGWQP-DPRDVAGQVTYVTDNSVQFRLVADGDQTVAADSWEVAINAIVI  148
+
+
+> UniRef90_UPI00051DA5E8 hypothetical protein n=1 Tax=Pantoea ananas 
+TaxID=553 RepID=UPI00051DA5E8
+Length=147
+
+ Score = 81.9 bits (201),  Expect = 6e-17, Method: Composition-based stats.
+ Identities = 24/118 (20%), Positives = 46/118 (39%), Gaps = 3/118 (3%)
+
+Query  3    LHLESRGGS-GTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRHE  61
+            + L+S  G    ++ DG  +A G +     H GF +W +     G    Y  +  + R+ 
+Sbjct  32   VELQSTKGLPAGKVADGTVIAHGTLTHNGDHLGFQLWPDPENGGGNGNIYRFRGINSRYP  91
+
+Query  62   LRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            LRV     GW      G   +     +  + +D++  G+Q +    +   +    + P
+Sbjct  92   LRVTVRTVGWHAGDQVGK--LINLTSQASIGYDIVTAGDQVLPSDIWPIQLQAGVIQP  147
+
+
+> UniRef90_UPI00048DD7BE hypothetical protein n=1 Tax=Phaseolibacter 
+flectens TaxID=86187 RepID=UPI00048DD7BE
+Length=147
+
+ Score = 80.4 bits (197),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 21/112 (19%), Positives = 46/112 (41%), Gaps = 2/112 (2%)
+
+Query  8    RGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGR-HELRVRT  66
+            R  +   + +   +  G I     H GF + +  + V      Y++   +   ++++VR 
+Sbjct  36   RDFTIDDVAENTILNEGTIFYPFPHQGFSIKLEAQPVIEFPGTYILTGINNHNNKIQVRL  95
+
+Query  67   GGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVV  118
+             G+GW P        ++   QE+ V F ++   N  I   ++ F++    + 
+Sbjct  96   EGNGWRPDISNPSI-MTLTSQEQSVKFKIVLSKNTKIPMDKFNFNIKAIAIT  146
+
+
+> UniRef90_A0A198FUH2 Uncharacterized protein n=2 Tax=Cosenzaea 
+myxofaciens ATCC 19692 TaxID=1354337 RepID=A0A198FUH2_9GAMM
+Length=112
+
+ Score = 77.7 bits (190),  Expect = 9e-16, Method: Composition-based stats.
+ Identities = 20/108 (19%), Positives = 44/108 (41%), Gaps = 4/108 (4%)
+
+Query  8    RGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRA-ERYVVQSKDGRHELRVRT  66
+            +G     + D   + +G I+    H GF++  N+      +  ++ +  ++G + L+V+ 
+Sbjct  3    QGMLAGTIFDNTLIGSGNILYAGDHDGFYLLSNKEMNKNISDGKWYLIGRNG-NFLKVKI  61
+
+Query  67   GGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGG  114
+             G  W          +    + +   F +  DG Q++ P  Y   + G
+Sbjct  62   SGKEWLYDDN--QSALISTDKSKIKEFFLYVDGKQNVVPDTYTIELNG  107
+
+
+> UniRef90_A0A1B7JKZ9 Uncharacterized protein n=1 Tax=Proteus hauseri 
+ATCC 700826 TaxID=1354271 RepID=A0A1B7JKZ9_PROHU
+Length=151
+
+ Score = 71.1 bits (173),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 22/118 (19%), Positives = 48/118 (41%), Gaps = 5/118 (4%)
+
+Query  2    ELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRHE  61
+            ++ + +         DG  +  G I   + H GF +  N+R++       ++  K   + 
+Sbjct  37   DISINN-KNLSGYYSDGTVIGYGMISHLDEHKGFLISTNQRKLSITENNIIITGKTNINN  95
+
+Query  62   LRVRT-GGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVV  118
+                   G+ W   +           +E++ +F ++ +G Q I P +Y  S+ GA ++
+Sbjct  96   TINIKIAGNNWRTDED---NNFILITKEKEAYFQLILNGEQYIKPDKYNISLNGAYII  150
+
+
+> UniRef90_UPI00077A14F7 UPI00077A14F7 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00077A14F7
+Length=147
+
+ Score = 70.0 bits (170),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 27/110 (25%), Positives = 45/110 (41%), Gaps = 2/110 (2%)
+
+Query  8    RGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQ-SKDGRHELRVRT  66
+            +     ++ DGA++AT  +         +VW+     +     Y++   K G  EL VR 
+Sbjct  36   QNLHAGRMNDGAELATIHVSGMSESCVLNVWIEPPGKEIMPGHYILTDRKKGGGELNVRL  95
+
+Query  67   GGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGAC  116
+             GD W P   + GKGV           +V+++G+Q I        +   C
+Sbjct  96   SGDNWKP-DTQAGKGVLSKFTSRLATLNVVSNGDQFIESHISSMQISAQC  144
+
+
+> UniRef90_Q53997 SefD n=16 Tax=Salmonella choleraesuis TaxID=28901 
+RepID=Q53997_SALEN
+Length=148
+
+ Score = 68.0 bits (165),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 22/94 (23%), Positives = 40/94 (43%), Gaps = 5/94 (5%)
+
+Query  20   KVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDG-RHELRVRTGGDGWSPVKGEG  78
+             + TG +  RE      +  +  ++      Y+++ ++   H+LR+R GG+ W P     
+Sbjct  52   IIGTGHLFNREGKK-ILISSSLEKIKNTPGAYIIRGQNNSAHKLRIRIGGEDWQPDNS--  108
+
+Query  79   GKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSV  112
+            G G+          F++   GN DI    Y  S+
+Sbjct  109  GIGMVSHSDFTNE-FNIYFFGNGDIPVDTYLISI  141
+
+
+> UniRef90_B2Q5R1 Uncharacterized protein n=1 Tax=Providencia stuartii 
+ATCC 25827 TaxID=471874 RepID=B2Q5R1_PROST
+Length=138
+
+ Score = 67.7 bits (164),  Expect = 8e-12, Method: Composition-based stats.
+ Identities = 25/118 (21%), Positives = 49/118 (42%), Gaps = 7/118 (6%)
+
+Query  3    LHLESRGGSG---TQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGR  59
+            L L  R   G     + DG  +A G I     + GF +W +    +GR++RY + S    
+Sbjct  22   LSLNIRPVDGLKSGVITDGTLLAKGEISDNGDYCGFKIWSDAPLNNGRSQRYRLFS--SG  79
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+             +L +R                + +  + +   F++++DG Q I+   +   + G+ +
+Sbjct  80   KQLNIRLSAPELI-HDELNKISIIK-SKNKTELFEIVSDGTQKISSASWEIILNGSVL  135
+
+
+> UniRef90_G5LX66 Uncharacterized protein n=1 Tax=Salmonella enterica 
+subsp. enterica serovar Alachua str. R6-377 TaxID=913241 
+RepID=G5LX66_SALET
+Length=47
+
+ Score = 62.3 bits (150),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 14/46 (30%), Positives = 25/46 (54%), Gaps = 0/46 (0%)
+
+Query  74   VKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+               +GG+G+ +  +E Q  FD++A+G+Q +    Y  +V G    P
+Sbjct  2    PDNKGGEGIIKRTREMQEQFDIVANGHQSVPVDTYVITVQGRYFEP  47
+
+
+> UniRef90_UPI00026D25EF pilin structural protein SafD n=3 Tax=Pantoea 
+TaxID=53335 RepID=UPI00026D25EF
+Length=147
+
+ Score = 62.7 bits (151),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 26/119 (22%), Positives = 44/119 (37%), Gaps = 7/119 (6%)
+
+Query  4    HLESRGGSGTQLR-----DGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDG  58
+            +L  +    T+L      DG  +A   +         +VW    Q +     Y +  + G
+Sbjct  27   NLAIKIVPDTELHSGIFPDGTTLAVIYLSGMNQKCAVNVWSPSAQNETTPGSYTLYDRPG  86
+
+Query  59   RHE-LRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGAC  116
+             +  LRVR  G+GW P   + G GV            ++ +G Q I    +  ++   C
+Sbjct  87   GNRPLRVRLVGEGWQP-DIQFGTGVMLNDPSGFATLKLITNGEQYIESHTWPINISVQC  144
+
+
+> UniRef90_UPI0001789D00 hypothetical protein n=4 Tax=Escherichia 
+coli TaxID=562 RepID=UPI0001789D00
+Length=149
+
+ Score = 56.5 bits (135),  Expect = 9e-08, Method: Composition-based stats.
+ Identities = 24/116 (21%), Positives = 46/116 (40%), Gaps = 6/116 (5%)
+
+Query  2    ELHLESRGGSGTQ-LRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDG-R  59
+            E+ +        Q  ++   + TG +      +   V  N  +V G+   Y+ + K+  +
+Sbjct  33   EISINMDNEKLNQSTQNNHVLGTGYVKSDGK-SYVIVSSNAEKVPGQQATYIFRGKNNPQ  91
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGA  115
+            + + +R GG+GW P K   G G+S         F++    N  + P  Y   +   
+Sbjct  92   NRIAIRLGGEGWHPDKT--GLGISSR-INMLSKFELYFSNNYRVNPDVYLIHLFAK  144
+
+
+> UniRef90_UPI0005807984 hypothetical protein n=1 Tax=Pantoea sp. 
+MBLJ3 TaxID=1562889 RepID=UPI0005807984
+Length=159
+
+ Score = 55.3 bits (132),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 21/109 (19%), Positives = 39/109 (36%), Gaps = 2/109 (2%)
+
+Query  9    GGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRHE-LRVRTG  67
+              S  ++ D   +A   I          +W      +    +Y +  K    + + V+  
+Sbjct  37   NLSAGKIADNTPLARIHISGISKKCNLSIWDEMAANETIPGQYTLMDKVTGKKAIEVKLT  96
+
+Query  68   GDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGAC  116
+            G+ W P     GKGV +         D++ +G+Q I+P      +   C
+Sbjct  97   GENWQP-DTARGKGVLKRIPGWNADLDLVTNGSQYISPKTISIQLTARC  144
+
+
+> UniRef90_G5LJH6 Putative fimbrial structural subunit n=1 Tax=Salmonella 
+enterica subsp. enterica serovar Alachua str. R6-377 
+TaxID=913241 RepID=G5LJH6_SALET
+Length=46
+
+ Score = 52.3 bits (124),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 8/43 (19%), Positives = 17/43 (40%), Gaps = 0/43 (0%)
+
+Query  79   GKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVPQE  121
+            G+G       +   F V+ DGNQ++    +        +  ++
+Sbjct  3    GRGAILRTAADNASFSVVVDGNQEVPADTWTLDFKACALAQED  45
+
+
+> UniRef90_J1GGC3 Uncharacterized protein n=1 Tax=Enterobacter 
+sp. Ag1 TaxID=1202448 RepID=J1GGC3_9ENTR
+Length=60
+
+ Score = 48.4 bits (114),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 12/53 (23%), Positives = 24/53 (45%), Gaps = 3/53 (6%)
+
+Query  10  GSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRHEL  62
+                +  G +V +G+  CR  H   ++W N  + D  A   +V+ K  ++ +
+Sbjct  1   MFMKAINAGDEVMSGQFSCRGKH---YIWPNAEKADDVANTCLVRGKQNQNNI  50
+
+
+> UniRef90_UPI0005087D8C pilus assembly protein n=1 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=UPI0005087D8C
+Length=164
+
+ Score = 45.7 bits (107),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 21/112 (19%), Positives = 40/112 (36%), Gaps = 3/112 (3%)
+
+Query  3    LHLESRGG-SGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAER-YVVQSKDGRH  60
+            + LE   G    +  DG  +A   +        F V      + G A   + +  ++   
+Sbjct  47   VSLEQVPGLMAGKGHDGMDIAKLTVSSNVI-KEFGVRGVSAPILGSAGHAWKITGRNSGK  105
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSV  112
+             + V    +  +    E   GV+    +     D++  G+QDI P  Y  ++
+Sbjct  106  SIIVGFSPNVATARGPEVWNGVTWDTFDTNTPVDIVTIGDQDIPPDTYPLTL  157
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.146    0.441    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0445    0.140     1.90     42.6     43.6 
+
+Effective search space used: 436746253185
+Results from round 3
+
+
+Query= d2axwa1
+
+Length=121
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_Q47038 Protein AfaD n=41 Tax=Escherichia coli TaxID=56...  163     2e-48
+  UniRef90_Q8KWG5 Invasin, putative n=5 Tax=Escherichia coli TaxI...  160     1e-47
+  UniRef90_A0A193M269 Adhesin n=1 Tax=Escherichia coli TaxID=562 ...  157     3e-46
+  UniRef90_A0A0Q3BLZ6 Adhesin n=8 Tax=Escherichia coli TaxID=562 ...  155     2e-45
+  UniRef90_UPI0003EE1207 adhesin n=3 Tax=Escherichia coli TaxID=5...  154     3e-45
+  UniRef90_UPI0007A09EB3 UPI0007A09EB3 related cluster n=1 Tax=un...  152     3e-44
+  UniRef90_P46006 Protein AggB n=5 Tax=Escherichia coli TaxID=562...  151     6e-44
+  UniRef90_D8EF36 Uncharacterized protein n=4 Tax=Escherichia col...  151     7e-44
+  UniRef90_Q9X4L4 Invasin homolog AafB n=3 Tax=Escherichia coli T...  150     3e-43
+  UniRef90_A0A0L6ZS79 Uncharacterized protein n=1 Tax=Escherichia...  149     5e-43
+  UniRef90_Q9XDG6 AfaD n=2 Tax=Escherichia coli TaxID=562 RepID=Q...  148     8e-43
+  UniRef90_V6G042 Enterobacteria AfaD invasin protein n=3 Tax=Esc...  146     1e-42
+  UniRef90_A0A063XPE6 Adhesin n=2 Tax=Enterobacteriaceae TaxID=54...  148     2e-42
+  UniRef90_A0A0D1B3X4 LG58.unitig_0_quiver, whole genome shotgun ...  145     3e-41
+  UniRef90_A0A0D1CTB7 LG58.unitig_0_quiver, whole genome shotgun ...  144     3e-41
+  UniRef90_Q9XDG7 Adhesin n=8 Tax=Escherichia coli TaxID=562 RepI...  143     5e-41
+  UniRef90_A0A0R9PXF2 Invasin n=6 Tax=Salmonella enterica I TaxID...  143     1e-40
+  UniRef90_B3V224 HdaB n=3 Tax=Escherichia coli TaxID=562 RepID=B...  141     3e-40
+  UniRef90_A0A1J7XCR7 Uncharacterized protein n=1 Tax=Serratia fo...  138     8e-39
+  UniRef90_UPI00069BCEAF adhesin n=2 Tax=Shigella sonnei TaxID=62...  137     1e-38
+  UniRef90_UPI00044F8756 pilin structural protein SafD n=1 Tax=Es...  137     2e-38
+  UniRef90_UPI00055E8AD5 UPI00055E8AD5 related cluster n=4 Tax=un...  134     9e-38
+  UniRef90_A0A034T3D1 Invasin protein n=1 Tax=Edwardsiella piscic...  135     1e-37
+  UniRef90_C0Q6S0 Putative fimbriae subunit n=112 Tax=Salmonella ...  133     1e-36
+  UniRef90_A0A1D8N1S3 Invasin n=3 Tax=Edwardsiella hoshinae TaxID...  131     3e-36
+  UniRef90_UPI0006AC5EF2 hypothetical protein n=1 Tax=Salmonella ...  129     2e-35
+  UniRef90_A0A1K2CW02 AfaD invasin protein n=2 Tax=Enterobacteral...  129     2e-35
+  UniRef90_A0A0A8VIN5 Putative fimbrial structural subunit n=4 Ta...  129     3e-35
+  UniRef90_UPI000694010D hypothetical protein n=1 Tax=Aeromonas p...  128     5e-35
+  UniRef90_A0A1K2D134 AfaD invasin protein n=1 Tax=Pantoea ananas...  128     5e-35
+  UniRef90_UPI0007733ECF UPI0007733ECF related cluster n=1 Tax=un...  126     6e-34
+  UniRef90_UPI0002E0A4F1 hypothetical protein n=2 Tax=Pantoea ana...  125     9e-34
+  UniRef90_L0MML6 Enterobacteria AfaD invasin protein n=1 Tax=Ser...  125     9e-34
+  UniRef90_A0A0V9H8A7 Uncharacterized protein n=6 Tax=Escherichia...  124     2e-33
+  UniRef90_UPI00050B52A2 hypothetical protein n=1 Tax=Escherichia...  124     2e-33
+  UniRef90_UPI00083D9DF3 UPI00083D9DF3 related cluster n=2 Tax=Pa...  123     4e-33
+  UniRef90_D4BUN4 Uncharacterized protein n=3 Tax=Providencia ret...  123     1e-32
+  UniRef90_A0A089UJE3 Uncharacterized protein n=1 Tax=Cedecea net...  122     1e-32
+  UniRef90_UPI000478D208 UPI000478D208 related cluster n=2 Tax=Lo...  123     1e-32
+  UniRef90_UPI00066628E0 hypothetical protein n=1 Tax=Escherichia...  121     4e-32
+  UniRef90_E0LZA3 AfaD invasin n=2 Tax=Pantoea TaxID=53335 RepID=...  117     1e-30
+  UniRef90_UPI00050AB3EB hypothetical protein n=1 Tax=Escherichia...  114     1e-29
+  UniRef90_UPI00051DA5E8 hypothetical protein n=1 Tax=Pantoea ana...  114     2e-29
+  UniRef90_Q48BA6 Invasin protein AfaD n=3 Tax=Pseudomonas savast...  112     1e-28
+  UniRef90_UPI00048DD7BE hypothetical protein n=1 Tax=Phaseolibac...  110     8e-28
+  UniRef90_UPI00077A14F7 UPI00077A14F7 related cluster n=1 Tax=un...  108     4e-27
+  UniRef90_UPI00026D25EF pilin structural protein SafD n=3 Tax=Pa...  105     6e-26
+  UniRef90_A0A0H3BSU6 Putative invasin protein n=1 Tax=Salmonella...  102     1e-25
+  UniRef90_UPI0005807984 hypothetical protein n=1 Tax=Pantoea sp....  104     2e-25
+  UniRef90_A0A076LKZ6 Invasin protein n=1 Tax=Edwardsiella anguil...  100     8e-25
+  UniRef90_A0A198FUH2 Uncharacterized protein n=2 Tax=Cosenzaea m...  96.1    8e-23
+  UniRef90_B2Q5R1 Uncharacterized protein n=1 Tax=Providencia stu...  95.3    4e-22
+  UniRef90_A0A1B7JKZ9 Uncharacterized protein n=1 Tax=Proteus hau...  93.0    3e-21
+  UniRef90_UPI0002A40D9E hypothetical protein n=1 Tax=Escherichia...  90.7    7e-21
+  UniRef90_UPI0001789D00 hypothetical protein n=4 Tax=Escherichia...  90.3    3e-20
+  UniRef90_Q53997 SefD n=16 Tax=Salmonella choleraesuis TaxID=289...  90.3    3e-20
+  UniRef90_UPI0005087D8C pilus assembly protein n=1 Tax=Salmonell...  87.6    5e-19
+  UniRef90_G5LX66 Uncharacterized protein n=1 Tax=Salmonella ente...  62.6    1e-10
+  UniRef90_G5LJH6 Putative fimbrial structural subunit n=1 Tax=Sa...  56.0    3e-08
+  UniRef90_J1GGC3 Uncharacterized protein n=1 Tax=Enterobacter sp...  53.3    4e-07
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A0L5XTR9 Pilus assembly protein n=4 Tax=Salmonella e...  78.4    2e-15
+  UniRef90_M7RG67 Saf-pilin pilus formation protein n=5 Tax=Salmo...  72.2    2e-13
+  UniRef90_A0A0V1YDN5 Pilus assembly protein n=5 Tax=Salmonella c...  71.8    3e-13
+  UniRef90_UPI0004E23A03 pilus assembly protein n=2 Tax=Salmonell...  70.3    1e-12
+  UniRef90_UPI0003BD1A91 UPI0003BD1A91 related cluster n=4 Tax=un...  66.0    5e-11
+  UniRef90_A0A0B1RDH0 Uncharacterized protein n=1 Tax=Pantoea rod...  64.1    2e-10
+  UniRef90_A1E999 SafA n=16 Tax=Salmonella choleraesuis TaxID=289...  58.0    3e-08
+  UniRef90_A0A1J7AGA0 Pilus assembly protein n=6 Tax=Salmonella c...  55.3    2e-07
+  UniRef90_A0A1C3AIV1 Pilus assembly protein n=15 Tax=Salmonella ...  53.7    8e-07
+  UniRef90_UPI00044A6577 lipoprotein n=2 Tax=Escherichia coli Tax...  53.3    1e-06
+  UniRef90_UPI00069B382E pilus assembly protein n=1 Tax=Salmonell...  53.0    1e-06
+  UniRef90_V7IKN8 Saf-pilin pilus formation protein n=11 Tax=Salm...  52.6    3e-06
+  UniRef90_A0A100NTS1 Saf-pilin pilus formation protein n=9 Tax=S...  50.3    1e-05
+  UniRef90_I3VZP8 Putative lipoprotein n=5 Tax=Salmonella TaxID=5...  49.5    2e-05
+  UniRef90_A0A085U7D1 Uncharacterized protein n=1 Tax=Yersinia ru...  49.1    3e-05
+  UniRef90_UPI0005B4D3C1 pilus assembly protein n=2 Tax=Salmonell...  49.1    4e-05
+  UniRef90_UPI0003BDC821 Saf-pilin pilus formation protein SafA n...  48.7    5e-05
+  UniRef90_A0A1J3YNI1 Saf-pilin pilus formation protein SafA n=17...  47.6    1e-04
+  UniRef90_UPI00071AC635 UPI00071AC635 related cluster n=1 Tax=un...  47.6    1e-04
+  UniRef90_Q8Z946 Probable lipoprotein n=46 Tax=Salmonella choler...  47.2    2e-04
+  UniRef90_A0A0T7RPB5 Lipoprotein n=10 Tax=Salmonella choleraesui...  46.8    2e-04
+  UniRef90_G9W0N1 Saf-pilin pilus formation protein n=2 Tax=Salmo...  46.4    3e-04
+  UniRef90_UPI0003BD79F2 Saf-pilin pilus formation protein SafA n...  46.4    3e-04
+  UniRef90_G4C4N1 Saf-pilin pilus formation protein n=8 Tax=Salmo...  46.0    6e-04
+  UniRef90_A0A0B1RAP7 Uncharacterized protein n=1 Tax=Pantoea rod...  44.9    9e-04
+
+
+> UniRef90_Q47038 Protein AfaD n=41 Tax=Escherichia coli TaxID=562 
+RepID=AFAD_ECOLX
+Length=147
+
+ Score = 163 bits (413),  Expect = 2e-48, Method: Composition-based stats.
+ Identities = 121/121 (100%), Positives = 121/121 (100%), Gaps = 0/121 (0%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRH  60
+            AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRH
+Sbjct  27   AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRH  86
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVPQ  120
+            ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVPQ
+Sbjct  87   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVPQ  146
+
+Query  121  E  121
+            E
+Sbjct  147  E  147
+
+
+> UniRef90_Q8KWG5 Invasin, putative n=5 Tax=Escherichia coli TaxID=562 
+RepID=Q8KWG5_ECOLX
+Length=146
+
+ Score = 160 bits (406),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 67/119 (56%), Positives = 85/119 (71%), Gaps = 1/119 (1%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDG-R  59
+            AE++L S   + +QLRDG K+ATGR+ CRE HTGFHVWMN RQ  GR E Y+VQ+  G +
+Sbjct  25   AEINLVSHRNTESQLRDGMKLATGRMTCRETHTGFHVWMNARQDGGRPEHYIVQNSKGIQ  84
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVV  118
+            HELRVR GG+GW    GE  +G+ R G+EEQ  FDV+ DG+Q + PGEY  S+ G C+V
+Sbjct  85   HELRVRIGGNGWISSFGEAQRGIFRLGKEEQAIFDVIVDGDQKVIPGEYMLSISGECIV  143
+
+
+> UniRef90_A0A193M269 Adhesin n=1 Tax=Escherichia coli TaxID=562 
+RepID=A0A193M269_ECOLX
+Length=144
+
+ Score = 157 bits (398),  Expect = 3e-46, Method: Composition-based stats.
+ Identities = 52/118 (44%), Positives = 74/118 (63%), Gaps = 1/118 (1%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGR  59
+             EL+L  R G    L DG K+ATGRI+C   H GF++W+N   V+     Y++Q + D R
+Sbjct  27   VELNLVPRNGVIGDLYDGTKIATGRIVCHGEHMGFNLWINSPSVENNPGHYIIQGRQDSR  86
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+            H+L VR  G+GWSP   EG +G++R GQ+EQ  F V+ DG Q++   EY +S+ G C+
+Sbjct  87   HKLYVRIDGEGWSPSVREGREGMARYGQDEQAVFHVVLDGRQNVVADEYVYSITGECL  144
+
+
+> UniRef90_A0A0Q3BLZ6 Adhesin n=8 Tax=Escherichia coli TaxID=562 
+RepID=A0A0Q3BLZ6_ECOLX
+Length=144
+
+ Score = 155 bits (392),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 63/121 (52%), Positives = 80/121 (66%), Gaps = 1/121 (1%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQS-KDGR  59
+            AE+ L S   +G+QLRDG  +ATGRIICRE HTGF +WMN+RQ  G    YV+Q+ K  +
+Sbjct  23   AEITLVSHRSTGSQLRDGMILATGRIICREIHTGFQIWMNDRQEGGHPRHYVIQNSKGNQ  82
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+             ELRVR GG+ W     E  +G  R G+E+QV FDV+ DG Q I PG+Y FSV G C+  
+Sbjct  83   GELRVRIGGNSWFSSLDEEWQGWIRLGKEKQVNFDVIVDGEQYIPPGKYIFSVSGKCMAS  142
+
+Query  120  Q  120
+            +
+Sbjct  143  E  143
+
+
+> UniRef90_UPI0003EE1207 adhesin n=3 Tax=Escherichia coli TaxID=562 
+RepID=UPI0003EE1207
+Length=142
+
+ Score = 154 bits (390),  Expect = 3e-45, Method: Composition-based stats.
+ Identities = 48/118 (41%), Positives = 75/118 (64%), Gaps = 1/118 (1%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGR  59
+            AEL L S    G  L DG ++ATG+I+CR++H+GFHVWMN ++   + E Y+++ + + +
+Sbjct  25   AELELSSLNRMGGNLSDGTRIATGQILCRDSHSGFHVWMNAQKAGYQPEHYIIRGQLNSQ  84
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+            +E+RVR  GD WSP   +G  GV R   +E+  FD++ DG Q++    Y  S+ G C+
+Sbjct  85   NEIRVRLTGDRWSPSVDKGQNGVIRISADERAIFDILVDGRQNVEADRYILSLHGVCL  142
+
+
+> UniRef90_UPI0007A09EB3 UPI0007A09EB3 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007A09EB3
+Length=141
+
+ Score = 152 bits (384),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 59/118 (50%), Positives = 77/118 (65%), Gaps = 2/118 (2%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDG-R  59
+            AE++L  + G  + L DG ++ATGRI+CREAHTGFHVW+N   V  R   Y++Q K G  
+Sbjct  25   AEVNLVPQRGVTSNLPDGLRIATGRIVCREAHTGFHVWINAHPVGNRVGSYIIQGKQGRG  84
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+            HELRVR  GD WSP   +  +G+ R  Q EQ  FDV+ADG Q + P EY ++V G C+
+Sbjct  85   HELRVRIDGDRWSPSVTK-REGMVRHTQNEQAVFDVVADGKQHVVPDEYIYTVTGECL  141
+
+
+> UniRef90_P46006 Protein AggB n=5 Tax=Escherichia coli TaxID=562 
+RepID=AGGB_ECOLX
+Length=145
+
+ Score = 151 bits (382),  Expect = 6e-44, Method: Composition-based stats.
+ Identities = 64/121 (53%), Positives = 85/121 (70%), Gaps = 2/121 (2%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQ-SKDGR  59
+            AE+ L S    G+QLRDG K+ATGRI CRE H GFH+W+N  Q  G+   Y+VQ +++ +
+Sbjct  25   AEITLISHKTLGSQLRDGMKLATGRIACREPHDGFHIWINASQN-GKVGHYIVQNNRETK  83
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            HEL+V+ GG GWS    EG +GV R G+E+Q  FD+M+DGNQ  APGEY FSV G C++ 
+Sbjct  84   HELKVKIGGGGWSSSLIEGQRGVYRQGEEKQAIFDIMSDGNQYSAPGEYIFSVSGECLIS  143
+
+Query  120  Q  120
+            +
+Sbjct  144  R  144
+
+
+> UniRef90_D8EF36 Uncharacterized protein n=4 Tax=Escherichia coli 
+TaxID=562 RepID=D8EF36_ECOLX
+Length=140
+
+ Score = 151 bits (381),  Expect = 7e-44, Method: Composition-based stats.
+ Identities = 56/118 (47%), Positives = 79/118 (67%), Gaps = 2/118 (2%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGR  59
+            AEL L  +   G  L DG ++A GRI+CR+AH+GF +WMN ++   R+E Y+++ +   +
+Sbjct  24   AELALYPQHNKGGNLVDGVRIAKGRIVCRDAHSGFRIWMNAQKAGERSE-YIIKGRTKNQ  82
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+            HE+RVR GGDGWSP   +   G++R G EE   FDV+ DG+Q +AP EY FSV G C+
+Sbjct  83   HEIRVRLGGDGWSPSVLKEQYGMARSGTEEGAIFDVLLDGDQYVAPDEYVFSVRGLCL  140
+
+
+> UniRef90_Q9X4L4 Invasin homolog AafB n=3 Tax=Escherichia coli 
+TaxID=562 RepID=Q9X4L4_ECOLX
+Length=146
+
+ Score = 150 bits (378),  Expect = 3e-43, Method: Composition-based stats.
+ Identities = 69/122 (57%), Positives = 81/122 (66%), Gaps = 2/122 (2%)
+
+Query  2    ELHLE-SRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQS-KDGR  59
+            E+ LE      G QL DG  +ATGRIICRE HTGFH+ MN RQV+GR   Y+VQ  KD +
+Sbjct  25   EISLEGLHRNMGEQLFDGDILATGRIICRERHTGFHIQMNARQVEGRPGHYIVQGSKDTQ  84
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+             +L VR G +GW+   G G +G+ R GQEEQV FDVMADGNQ   PGEY FSV G C+  
+Sbjct  85   SKLWVRLGREGWTSPTGGGQQGIVRSGQEEQVIFDVMADGNQWAKPGEYIFSVSGKCLTS  144
+
+Query  120  QE  121
+             E
+Sbjct  145  WE  146
+
+
+> UniRef90_A0A0L6ZS79 Uncharacterized protein n=1 Tax=Escherichia 
+coli TaxID=562 RepID=A0A0L6ZS79_ECOLX
+Length=144
+
+ Score = 149 bits (376),  Expect = 5e-43, Method: Composition-based stats.
+ Identities = 40/118 (34%), Positives = 60/118 (51%), Gaps = 1/118 (1%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGR-  59
+            AE+ L+ +   G  LR+G K+A GRI C EAHT F +W+N +        Y++  K    
+Sbjct  24   AEITLDEQFVIGGDLRNGTKIAKGRIFCPEAHTEFRIWVNSQAQKKGTGHYILLGKHSEN  83
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+            + + +R  GDGW     E    +++        FDV+ DG+Q +   EY  SV G C+
+Sbjct  84   NRMNIRLEGDGWRVSSIEAKNSLTKFWSGNIATFDVVVDGDQKVPSDEYFISVSGYCI  141
+
+
+> UniRef90_Q9XDG6 AfaD n=2 Tax=Escherichia coli TaxID=562 RepID=Q9XDG6_ECOLX
+Length=150
+
+ Score = 148 bits (375),  Expect = 8e-43, Method: Composition-based stats.
+ Identities = 61/121 (50%), Positives = 80/121 (66%), Gaps = 2/121 (2%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKD-GR  59
+            AEL L+ R   G++LRDG ++ATGRIICREAHTGFHVWMN R+ +GR    ++Q K   R
+Sbjct  28   AELSLDVRKAMGSELRDGERIATGRIICREAHTGFHVWMNGREDEGRPGHLLIQGKHDSR  87
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            +E+R R  G+GWS    EG   + + G+EEQ  FDV++DG Q     EY  SV G+CV  
+Sbjct  88   NEIRARVEGEGWSA-ITEGEHRLVKAGEEEQAVFDVVSDGRQRAGADEYVLSVSGSCVDS  146
+
+Query  120  Q  120
+            +
+Sbjct  147  R  147
+
+
+> UniRef90_V6G042 Enterobacteria AfaD invasin protein n=3 Tax=Escherichia 
+coli TaxID=562 RepID=V6G042_ECOLX
+Length=115
+
+ Score = 146 bits (370),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 58/108 (54%), Positives = 74/108 (69%), Gaps = 1/108 (1%)
+
+Query  11   SGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGRHELRVRTGGD  69
+               +LRDG K+ATGRIICREAHTGFH+ +N RQ + R   Y++Q + D RHELRVR  G+
+Sbjct  8    QTGELRDGMKIATGRIICREAHTGFHIRINARQQESRPGHYIIQGRRDSRHELRVRIAGE  67
+
+Query  70   GWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+            GWSP    G +G+   GQ EQ  FDV+ADG+Q +   EY +SV G C+
+Sbjct  68   GWSPSVTGGQEGMVSYGQREQGVFDVVADGSQRVEADEYIYSVTGECL  115
+
+
+> UniRef90_A0A063XPE6 Adhesin n=2 Tax=Enterobacteriaceae TaxID=543 
+RepID=A0A063XPE6_9ENTR
+Length=147
+
+ Score = 148 bits (373),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 41/119 (34%), Positives = 64/119 (54%), Gaps = 2/119 (2%)
+
+Query  2    ELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGRH  60
+            E+ L  R    T+LRDG  +  GR++ +EAH+G+ VW+N ++      RYV+  K D  H
+Sbjct  30   EVTLNIRPPQDTKLRDGTVIGRGRMVFQEAHSGYLVWLNAQKSTSAPGRYVLTGKRDSAH  89
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            +LR+R  G+GWS  + +   G+ R     +  F ++ DGNQ     EY  +     +VP
+Sbjct  90   QLRIRLAGEGWS-GENKDRGGIVRSTSATRASFQIVIDGNQQAVADEYVITANALAIVP  147
+
+
+> UniRef90_A0A0D1B3X4 LG58.unitig_0_quiver, whole genome shotgun 
+sequence n=2 Tax=Kosakonia radicincitans YD4 TaxID=1544796 
+RepID=A0A0D1B3X4_9ENTR
+Length=147
+
+ Score = 145 bits (365),  Expect = 3e-41, Method: Composition-based stats.
+ Identities = 42/119 (35%), Positives = 66/119 (55%), Gaps = 2/119 (2%)
+
+Query  2    ELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGRH  60
+            E+ L+ R    T LRDG  +  G +  +E HTG+ VW++  +      RYV+  K +  H
+Sbjct  30   EIRLDMRPPQDTFLRDGTVIGHGWLAFQEVHTGYQVWLDASRSSAAPGRYVLVGKRNSAH  89
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            +LR+R  G+GW   + EG  G+     +E+  FD++ DG+QD+A  EY  +   A +VP
+Sbjct  90   QLRIRLAGEGWE-SENEGEGGIVSATTDERTRFDIVIDGHQDVAADEYVITASAAAIVP  147
+
+
+> UniRef90_A0A0D1CTB7 LG58.unitig_0_quiver, whole genome shotgun 
+sequence n=3 Tax=Kosakonia radicincitans YD4 TaxID=1544796 
+RepID=A0A0D1CTB7_9ENTR
+Length=147
+
+ Score = 144 bits (364),  Expect = 3e-41, Method: Composition-based stats.
+ Identities = 39/119 (33%), Positives = 60/119 (50%), Gaps = 2/119 (2%)
+
+Query  2    ELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGRH  60
+            ++ L       T+LRDG  +  GRI+ + AH+G+  W+N ++      RYV+  K D  H
+Sbjct  30   DVTLNIHPLQETKLRDGTVIGCGRIVFQAAHSGYLAWLNAQKSAPTPGRYVLTGKRDSAH  89
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            +LRVR  G+ WS    + G G+       +  F ++ DGNQ  A  EY  +     +VP
+Sbjct  90   QLRVRLAGEDWSGESTDRG-GIVSTTSATRASFQIVIDGNQQAAADEYVITANALAIVP  147
+
+
+> UniRef90_Q9XDG7 Adhesin n=8 Tax=Escherichia coli TaxID=562 RepID=Q9XDG7_ECOLX
+Length=139
+
+ Score = 143 bits (362),  Expect = 5e-41, Method: Composition-based stats.
+ Identities = 53/117 (45%), Positives = 68/117 (58%), Gaps = 2/117 (2%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKD-GR  59
+             EL L +  G   +L+DG KVATGRIICR  +T FH+WMN RQ+      Y++  +    
+Sbjct  23   VELSLNTSDGRSGELKDGTKVATGRIICRGTYTSFHIWMNSRQMGNIPGHYIILGRHDSH  82
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGAC  116
+            +E+RVR  G GW P     G+G+   G  EQ  FDV+ DGNQ + P EY  SV G C
+Sbjct  83   NEMRVRLDGAGWLPSVS-DGQGMVSTGIPEQHTFDVVIDGNQLLGPDEYILSVSGEC  138
+
+
+> UniRef90_A0A0R9PXF2 Invasin n=6 Tax=Salmonella enterica I TaxID=59201 
+RepID=A0A0R9PXF2_SALNE
+Length=145
+
+ Score = 143 bits (360),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 40/120 (33%), Positives = 67/120 (56%), Gaps = 2/120 (2%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDG-R  59
+             ++ L S     +Q+RDG  +  GRI  ++AH+G+ VW+N  +     +RYV+  K   +
+Sbjct  27   VDITLNSALNLNSQIRDGQLIGYGRISTQQAHSGYQVWLNAERNGESPDRYVLTGKSNRQ  86
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            H+L V  G +GW P   +GG+G+ +  +E Q  FD++A+G+Q +    Y  +V G    P
+Sbjct  87   HKLYVIIGQNGWVP-DNKGGEGIIKRTREMQEQFDIVANGHQSVPVDTYVITVQGRYFEP  145
+
+
+> UniRef90_B3V224 HdaB n=3 Tax=Escherichia coli TaxID=562 RepID=B3V224_ECOLX
+Length=142
+
+ Score = 141 bits (357),  Expect = 3e-40, Method: Composition-based stats.
+ Identities = 55/119 (46%), Positives = 77/119 (65%), Gaps = 1/119 (1%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDG-R  59
+            A++ L +    G  L DG K+ATGRIIC++ H+GF VW+N RQ  G A +Y+VQS +G +
+Sbjct  24   ADITLMNHKYMGNLLHDGVKLATGRIICQDTHSGFRVWINARQEGGGAGKYIVQSTEGPQ  83
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVV  118
+            H LR+R GG+GWS    +G +GV    +E+   F +  DGNQ + PG+Y FSV G C +
+Sbjct  84   HNLRIRIGGNGWSSFVEKGIQGVFNTIKEDASIFYIEVDGNQQVHPGKYLFSVSGECYI  142
+
+
+> UniRef90_A0A1J7XCR7 Uncharacterized protein n=1 Tax=Serratia 
+fonticola TaxID=47917 RepID=A0A1J7XCR7_SERFO
+Length=150
+
+ Score = 138 bits (349),  Expect = 8e-39, Method: Composition-based stats.
+ Identities = 34/111 (31%), Positives = 53/111 (48%), Gaps = 2/111 (2%)
+
+Query  10   GSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDG-RHELRVRTGG  68
+             +   + DG ++  GRI   E HTGF +W    +   R ERYV+  +    H+LRVR  G
+Sbjct  41   VNTGHVADGKRLGEGRISLHELHTGFQIWSEAPKSTERPERYVLTGRQSDAHKLRVRLEG  100
+
+Query  69   DGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            + W P   + G+G+     ++   F ++ DG Q I    Y   + G  + P
+Sbjct  101  NDWEP-DTKTGEGLILNTGDDAARFFIVVDGEQKIVADNYPIQITGVALTP  150
+
+
+> UniRef90_UPI00069BCEAF adhesin n=2 Tax=Shigella sonnei TaxID=624 
+RepID=UPI00069BCEAF
+Length=130
+
+ Score = 137 bits (346),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 60/117 (51%), Positives = 78/117 (67%), Gaps = 2/117 (2%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKD-GR  59
+            AEL L+ R  +G++LRDG K+ATGRIICREAHTGF++ +N R+ + R   +++Q K  GR
+Sbjct  8    AELSLDVRKSAGSELRDGEKIATGRIICREAHTGFYIRINGREDESRLGHWLIQGKHDGR  67
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGAC  116
+            +ELRVR  G+GWS    EG   + + G EEQ  FDV+ADG Q     EY  SV G C
+Sbjct  68   NELRVRVDGEGWSV-VTEGEHWLVKAGTEEQAVFDVVADGKQHAGTDEYILSVSGNC  123
+
+
+> UniRef90_UPI00044F8756 pilin structural protein SafD n=1 Tax=Escherichia 
+coli TaxID=562 RepID=UPI00044F8756
+Length=156
+
+ Score = 137 bits (346),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 28/111 (25%), Positives = 48/111 (43%), Gaps = 2/111 (2%)
+
+Query  12   GTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQS-KDGRHELRVRTGGDG  70
+                 DG  +A G +    +H+GF VW +E++        ++   +D  H L+VR  G+ 
+Sbjct  46   AGHEPDGMVLAQGWVTYHGSHSGFRVWSDEQKAGDSPGVLLLSGQQDTHHHLQVRLEGEE  105
+
+Query  71   WSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVPQE  121
+            W P     G GV      +   F V+ DG+Q++    +        +V +E
+Sbjct  106  WQP-DTASGHGVILRTAADNASFRVVVDGDQEVPADTWTLDFKACALVHEE  155
+
+
+> UniRef90_UPI00055E8AD5 UPI00055E8AD5 related cluster n=4 Tax=unknown 
+TaxID= RepID=UPI00055E8AD5
+Length=115
+
+ Score = 134 bits (338),  Expect = 9e-38, Method: Composition-based stats.
+ Identities = 39/116 (34%), Positives = 62/116 (53%), Gaps = 2/116 (2%)
+
+Query  5    LESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGRHELR  63
+            +  R    T+LRDG  +  GR++ +EAH+G+ VW+N ++      RYV+  K D  H+LR
+Sbjct  1    MNIRPPQDTKLRDGTVIGRGRMVFQEAHSGYLVWLNAQKSTSAPGRYVLTGKRDSAHQLR  60
+
+Query  64   VRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            +R  G+GWS  + +   G+ R     +  F ++ DGNQ     EY  +     +VP
+Sbjct  61   IRLAGEGWS-GENKDRGGIVRSTSATRASFQIVIDGNQQAVADEYVITANALAIVP  115
+
+
+> UniRef90_A0A034T3D1 Invasin protein n=1 Tax=Edwardsiella piscicida 
+TaxID=1263550 RepID=A0A034T3D1_9GAMM
+Length=145
+
+ Score = 135 bits (341),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 34/118 (29%), Positives = 63/118 (53%), Gaps = 2/118 (2%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDG-R  59
+             ++ L S     +Q+RDG  ++ GRI  ++   G+ VW++  +      RYV+  K+  +
+Sbjct  27   VDITLNSVSNLSSQVRDGQMISRGRITGQQIRQGYQVWLDAERNGDAPNRYVLTGKNSRQ  86
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+            H+L V  G +GW P   + G G+ +  ++ Q  FD++A+GNQ +    Y  ++ G  +
+Sbjct  87   HKLYVIIGQEGWVP-DTKDGLGIIKYTRKGQEQFDIVANGNQSVPIDTYVITIQGRYL  143
+
+
+> UniRef90_C0Q6S0 Putative fimbriae subunit n=112 Tax=Salmonella 
+TaxID=590 RepID=C0Q6S0_SALPC
+Length=156
+
+ Score = 133 bits (335),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 27/111 (24%), Positives = 50/111 (45%), Gaps = 2/111 (2%)
+
+Query  12   GTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQS-KDGRHELRVRTGGDG  70
+               + DG  +A G +    +H+GF VW +E++        ++   +D RH ++VR  G+G
+Sbjct  46   AGHVPDGMVLAQGWVTYHGSHSGFRVWSDEQKAGNTPTVLLLSGQQDPRHHIQVRLEGEG  105
+
+Query  71   WSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVPQE  121
+            W P     G+G       +   F V+ DGNQ++    +        +  ++
+Sbjct  106  WQP-DTVNGRGAILRTAADNASFSVVVDGNQEVPADTWTLDFKACALAQED  155
+
+
+> UniRef90_A0A1D8N1S3 Invasin n=3 Tax=Edwardsiella hoshinae TaxID=93378 
+RepID=A0A1D8N1S3_9GAMM
+Length=145
+
+ Score = 131 bits (330),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 37/120 (31%), Positives = 61/120 (51%), Gaps = 2/120 (2%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDG-R  59
+             ++ L S      QLRDG ++  G+I  ++AH GF VW+   +      RY++  K+  +
+Sbjct  27   VDITLNSVANLSPQLRDGQRIGQGQIQTQQAHRGFQVWLEAPRSSEAPNRYILMGKNNRQ  86
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            H+L V  G  GW P   +GG G+ +  ++ Q  FD++ +G Q      Y  +V G  + P
+Sbjct  87   HKLFVIIGQAGWQP-DSQGGLGIIKLTRDRQARFDIVVNGGQYAPIDTYTVTVQGRYLEP  145
+
+
+> UniRef90_UPI0006AC5EF2 hypothetical protein n=1 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=UPI0006AC5EF2
+Length=142
+
+ Score = 129 bits (325),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 33/119 (28%), Positives = 51/119 (43%), Gaps = 2/119 (2%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGR-  59
+            A L +  R        DG  V  G+I+C   H+GFH++      D    +Y    K    
+Sbjct  24   AHLEINIRPVLNNIQHDGEHVGNGQIVCSNDHSGFHIYGGYGTEDIYPWKYNAHGKSNPY  83
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVV  118
+            ++L VR  GD W     +   G+ +   EE   F ++ DG Q +   EY   + G C++
+Sbjct  84   NKLTVRLEGDNWI-KNEQDYPGIVKFSSEEAAEFRIVIDGKQKVPADEYTIRIFGECII  141
+
+
+> UniRef90_A0A1K2CW02 AfaD invasin protein n=2 Tax=Enterobacterales 
+TaxID=91347 RepID=A0A1K2CW02_PANAN
+Length=148
+
+ Score = 129 bits (326),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 32/108 (30%), Positives = 48/108 (44%), Gaps = 2/108 (2%)
+
+Query  9    GGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQS-KDGRHELRVRTG  67
+            G    Q+RDG  +  GR+   + H GF +W         + R V+   +   + LRVR  
+Sbjct  39   GLQAGQVRDGTLLMRGRVSSNDPHGGFRLWCATHAPGDSSVRCVLTGQRHAGNTLRVRLS  98
+
+Query  68   GDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGA  115
+            G+GW P     G G+     E  V F + ADG+Q  A   +  ++  A
+Sbjct  99   GEGWQPGPPPEG-GMMTFNAERSVAFRIEADGDQQAAADTWAMALSAA  145
+
+
+> UniRef90_A0A0A8VIN5 Putative fimbrial structural subunit n=4 
+Tax=Yersinia ruckeri TaxID=29486 RepID=A0A0A8VIN5_YERRU
+Length=134
+
+ Score = 129 bits (324),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 36/120 (30%), Positives = 58/120 (48%), Gaps = 3/120 (3%)
+
+Query  2    ELHLESRGGSGTQLRDGAK-VATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDG-R  59
+            +L+L+   G  +   +G + +  GRI     H GF VW +  +   +   YV+  K+   
+Sbjct  16   QLNLQMNNGLLSGHVNGERRIGQGRIQYYGNHLGFQVWSDANKSGAQPNSYVLLGKNNSS  75
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            ++LRVR     W P   EGGKG+      E   FDV+ DG+Q +    Y  ++  A ++P
+Sbjct  76   NKLRVRIEKKDWQP-DHEGGKGIILHYGGETATFDVVIDGDQTVVADHYSLALNAAVLLP  134
+
+
+> UniRef90_UPI000694010D hypothetical protein n=1 Tax=Aeromonas 
+popoffii TaxID=70856 RepID=UPI000694010D
+Length=149
+
+ Score = 128 bits (323),  Expect = 5e-35, Method: Composition-based stats.
+ Identities = 35/120 (29%), Positives = 59/120 (49%), Gaps = 3/120 (3%)
+
+Query  2    ELHLESRGGSGTQLRDGA-KVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRH  60
+            +L+L+   G  +   +G  ++  G I     H GF VW +  +   +  RYV+  ++  +
+Sbjct  31   QLNLQINSGLLSGRINGEFRIGKGLIEYDGGHLGFQVWSDATKSGPQPNRYVLIGQNNSN  90
+
+Query  61   -ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+             +LR+R    GW P   EGGKG+          FDV+ DG+Q +    Y  ++ GA ++P
+Sbjct  91   NKLRIRIEYPGWQP-DNEGGKGIILRDGGNSATFDVVVDGDQTVIADHYSLALKGAVLLP  149
+
+
+> UniRef90_A0A1K2D134 AfaD invasin protein n=1 Tax=Pantoea ananas 
+TaxID=553 RepID=A0A1K2D134_PANAN
+Length=148
+
+ Score = 128 bits (323),  Expect = 5e-35, Method: Composition-based stats.
+ Identities = 32/108 (30%), Positives = 49/108 (45%), Gaps = 2/108 (2%)
+
+Query  9    GGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQS-KDGRHELRVRTG  67
+            G     +RDG  +  GR+   + H GF +W       GR+   V+   +   + LRVR  
+Sbjct  39   GLQAGPIRDGTLLMRGRVSSNDPHGGFRLWCAADAAGGRSAHCVLTGQRHSGNTLRVRVS  98
+
+Query  68   GDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGA  115
+            G+GW P     G G+     E  V F + ADG+Q+ A   +  ++  A
+Sbjct  99   GEGWQPELPPEG-GMMTVNAERSVAFRIEADGDQNAAADTWAVAMSAA  145
+
+
+> UniRef90_UPI0007733ECF UPI0007733ECF related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007733ECF
+Length=175
+
+ Score = 126 bits (318),  Expect = 6e-34, Method: Composition-based stats.
+ Identities = 35/120 (29%), Positives = 55/120 (46%), Gaps = 4/120 (3%)
+
+Query  2    ELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGR-H  60
+            E+ L+ +      +  G +V +G+  CR  H   H+W+N  +VD  A  Y+V+ K  + +
+Sbjct  29   EIRLQPQTMFMNAINVGDEVMSGQFSCRGKH---HIWLNAEKVDDVANTYIVRGKHNQGN  85
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVPQ  120
+             + V  GG GW        KGV+         F + A  NQ   P  Y F+V G C+  +
+Sbjct  86   IIYVTLGGQGWIVDDSAERKGVTTVDTLSDTRFILAASVNQTPRPDVYSFNVAGECLPVE  145
+
+
+> UniRef90_UPI0002E0A4F1 hypothetical protein n=2 Tax=Pantoea ananas 
+TaxID=553 RepID=UPI0002E0A4F1
+Length=148
+
+ Score = 125 bits (314),  Expect = 9e-34, Method: Composition-based stats.
+ Identities = 26/110 (24%), Positives = 43/110 (39%), Gaps = 2/110 (2%)
+
+Query  9    GGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQS-KDGRHELRVRTG  67
+            G     +RDG  +  GR+     H+GF +        G   R  +   +D  H LRVR  
+Sbjct  39   GLQAGPVRDGTLLIAGRVSSNAPHSGFRLRCEAEAEPGHPGRCTLAGQRDPGHRLRVRLS  98
+
+Query  68   GDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+            G GW       G  +     +    F + ADG+Q +    +  ++  + +
+Sbjct  99   GPGWQAGAAGDGT-MMVYTTDGSTAFRLEADGDQHVEADTWTVALSASVM  147
+
+
+> UniRef90_L0MML6 Enterobacteria AfaD invasin protein n=1 Tax=Serratia 
+marcescens FGI94 TaxID=1249634 RepID=L0MML6_SERMA
+Length=145
+
+ Score = 125 bits (314),  Expect = 9e-34, Method: Composition-based stats.
+ Identities = 31/110 (28%), Positives = 54/110 (49%), Gaps = 2/110 (2%)
+
+Query  2    ELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQS-KDGRH  60
+            +L L  +  +  QL DG  + +G++     H GF VW+   + +G AERY+++   +  H
+Sbjct  29   DLKLSMQPINERQLSDGQIIGSGQVTYPGEHRGFQVWLTAEKQNGAAERYILRGSNNNAH  88
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRF  110
+             + VR     W P    G +G+     E +  F+++ DG+Q +A   Y  
+Sbjct  89   RMFVRLERPEWHPDDI-GKQGIILYTGEARADFNIVIDGDQAVAADNYAV  137
+
+
+> UniRef90_A0A0V9H8A7 Uncharacterized protein n=6 Tax=Escherichia 
+coli TaxID=562 RepID=A0A0V9H8A7_ECOLX
+Length=140
+
+ Score = 124 bits (312),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 39/118 (33%), Positives = 63/118 (53%), Gaps = 3/118 (3%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDG-RAERYVVQSKD-G  58
+            AE++LE+R  SG+ L DG  +ATG + C +      V +N + V+G ++  Y +Q ++  
+Sbjct  20   AEINLETRAFSGSYLYDGDIIATGSVFCDDGEVSRVVLLNIKPVNGSQSNVYHLQGRNKP  79
+
+Query  59   RHELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGAC  116
+             +EL VR  G+GWSP   + G G+ +    +Q  F V+A+G Q +    Y       C
+Sbjct  80   SNELTVRIEGNGWSPSD-KVGNGIYKKLINKQDQFYVVANGRQHVRADIYTIRASSIC  136
+
+
+> UniRef90_UPI00050B52A2 hypothetical protein n=1 Tax=Escherichia 
+coli TaxID=562 RepID=UPI00050B52A2
+Length=142
+
+ Score = 124 bits (312),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 39/118 (33%), Positives = 59/118 (50%), Gaps = 3/118 (3%)
+
+Query  1    AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAER-YVVQSKDG-  58
+            AE++L SR  S   L DG  +ATGR+ C E        +N +  D  + + Y++Q K+  
+Sbjct  22   AEMNLVSRMVSERDLSDGDIIATGRVFCEENEISSVSLLNIQSTDDASGKVYMLQGKESV  81
+
+Query  59   RHELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGAC  116
+             ++L VR  GDGW    GE GKG+ +  + +   F V+ +G Q + P  Y       C
+Sbjct  82   MNKLIVRLEGDGWRSS-GEAGKGIYKIQENKSEQFYVVVNGRQHVNPDVYTIKASSIC  138
+
+
+> UniRef90_UPI00083D9DF3 UPI00083D9DF3 related cluster n=2 Tax=Pantoea 
+ananas TaxID=553 RepID=UPI00083D9DF3
+Length=148
+
+ Score = 123 bits (310),  Expect = 4e-33, Method: Composition-based stats.
+ Identities = 36/119 (30%), Positives = 53/119 (45%), Gaps = 5/119 (4%)
+
+Query  1    AELHLESR---GGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQS-K  56
+            AE  L+     G     +RDG  +  GR+     H GF +W       G + R V+   +
+Sbjct  28   AEPVLQLTTTPGLQAGPVRDGTLLMRGRVSSNAPHGGFRLWCAAYAAGGSSARCVLTGQR  87
+
+Query  57   DGRHELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGA  115
+             G + LRVR  G+GW P     G G+     E  V F + ADG+Q+ A   +  ++  A
+Sbjct  88   HGGNTLRVRLSGEGWQPGPPPEG-GLMTVNAERSVAFRIEADGDQNAAADTWTVALSAA  145
+
+
+> UniRef90_D4BUN4 Uncharacterized protein n=3 Tax=Providencia rettgeri 
+TaxID=587 RepID=D4BUN4_PRORE
+Length=162
+
+ Score = 123 bits (308),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 38/111 (34%), Positives = 48/111 (43%), Gaps = 2/111 (2%)
+
+Query  9    GGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRHELRVRTGG  68
+            G S   L DG  +A GR+I  E H GF VW    QV G+  RY + S    H L +R  G
+Sbjct  54   GLSAGSLGDGRLIAQGRVIYSEPHQGFRVWSEGTQVQGQVHRYQLMSAR-GHPLNIRLAG  112
+
+Query  69   DGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+              W P   + GKG+     E    FDV  DG Q +    +        + P
+Sbjct  113  KDWQP-DAQSGKGIVSQTGELSQPFDVEVDGAQTLPMDTWVLRFQAVVLQP  162
+
+
+> UniRef90_A0A089UJE3 Uncharacterized protein n=1 Tax=Cedecea neteri 
+TaxID=158822 RepID=A0A089UJE3_9ENTR
+Length=146
+
+ Score = 122 bits (307),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 35/118 (30%), Positives = 54/118 (46%), Gaps = 4/118 (3%)
+
+Query  2    ELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGR-H  60
+            ++ L+ +      +  G +V +G+  CR  H   HVW+N  +VD  A  Y+V+ K  + +
+Sbjct  29   DIRLQPKTMFVKAINVGDEVVSGQFSCRGKH---HVWLNAEKVDDVANTYIVRGKHNQGN  85
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVV  118
+             + V  GG GW        KGV+         F + A  NQ   P  Y F+V G C+ 
+Sbjct  86   IIYVTLGGQGWIVDDSAERKGVTTVDTLSDTRFTIFASVNQTPRPDVYTFNVAGECLP  143
+
+
+> UniRef90_UPI000478D208 UPI000478D208 related cluster n=2 Tax=Lonsdalea 
+quercina TaxID=71657 RepID=UPI000478D208
+Length=161
+
+ Score = 123 bits (308),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 30/113 (27%), Positives = 52/113 (46%), Gaps = 1/113 (1%)
+
+Query  8    RGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDG-RHELRVRT  66
+             G     ++DG ++  G ++  EAH GF +W   +        +V+  K    H+LR+R 
+Sbjct  49   HGLQAHVVKDGMRLGQGTLVSHEAHAGFRLWSEVQTSSFPTGHFVLSGKQNDAHKLRIRL  108
+
+Query  67   GGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+               G +     G   +    ++++V FDV+ADG Q +    YR  + G  + P
+Sbjct  109  VPRGLTAEGSPGSSEMVLNTKDDRVVFDVIADGEQRVEADHYRLDISGTALPP  161
+
+
+> UniRef90_UPI00066628E0 hypothetical protein n=1 Tax=Escherichia 
+coli TaxID=562 RepID=UPI00066628E0
+Length=144
+
+ Score = 121 bits (303),  Expect = 4e-32, Method: Composition-based stats.
+ Identities = 31/121 (26%), Positives = 56/121 (46%), Gaps = 3/121 (2%)
+
+Query  3    LHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDG-RAERYVVQSKDGR-H  60
+            + LES   S  ++ DG  +ATG++ C E +      +N    D   +  Y +Q K+   +
+Sbjct  24   IDLESIMVSEGEMNDGDVIATGQVFCEENNISKVSLLNIYMGDHVYSNVYTLQGKNKEEN  83
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVPQ  120
+            +L VR  GDGW     + G G+ +  + +   F V+ +G+Q++    Y       C+   
+Sbjct  84   KLMVRIEGDGWHSSD-KAGNGIYKKQKNKSEQFYVVINGHQNVKSDIYSIKASSICLYSY  142
+
+Query  121  E  121
+            +
+Sbjct  143  Q  143
+
+
+> UniRef90_E0LZA3 AfaD invasin n=2 Tax=Pantoea TaxID=53335 RepID=E0LZA3_9GAMM
+Length=150
+
+ Score = 117 bits (293),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 30/120 (25%), Positives = 57/120 (48%), Gaps = 2/120 (2%)
+
+Query  2    ELHLES-RGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSK-DGR  59
+            +L L+   G     +RDG K+  G ++  + HTGF +   +     +  RYV+  + +  
+Sbjct  31   QLVLQMNHGLQAGAVRDGTKLGRGTLVSYDIHTGFQLRSEQAVSGQQGGRYVLTGQQNPA  90
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            H+LRVR         +    + ++    E+++ FD++ADG+Q +    Y  ++ G  V  
+Sbjct  91   HQLRVRLVPQQQVVTEMADMQVITVHTGEDRMVFDILADGDQRVKADTYSLNIAGQVVTQ  150
+
+
+> UniRef90_UPI00050AB3EB hypothetical protein n=1 Tax=Escherichia 
+coli TaxID=562 RepID=UPI00050AB3EB
+Length=144
+
+ Score = 114 bits (286),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 38/121 (31%), Positives = 55/121 (45%), Gaps = 3/121 (2%)
+
+Query  3    LHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAE-RYVVQSKDG-RH  60
+            + LESR  SG +L DG  +ATG + C      +   MN    D      Y +Q ++   +
+Sbjct  24   MSLESRVTSGGELFDGDIIATGIVYCEGGDVSWLGLMNIHHGDNTLGNVYTLQGRNMLTN  83
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVPQ  120
+            EL VR  GDGW P    G KG+ +        F V+ +G+Q++ P  Y      AC    
+Sbjct  84   ELVVRIEGDGWHPSNI-GKKGIYKTKVSGSEQFHVVVNGHQNVNPDVYTIKANSACSSSH  142
+
+Query  121  E  121
+            +
+Sbjct  143  Q  143
+
+
+> UniRef90_UPI00051DA5E8 hypothetical protein n=1 Tax=Pantoea ananas 
+TaxID=553 RepID=UPI00051DA5E8
+Length=147
+
+ Score = 114 bits (285),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 24/118 (20%), Positives = 46/118 (39%), Gaps = 3/118 (3%)
+
+Query  3    LHLESRGGS-GTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRHE  61
+            + L+S  G    ++ DG  +A G +     H GF +W +     G    Y  +  + R+ 
+Sbjct  32   VELQSTKGLPAGKVADGTVIAHGTLTHNGDHLGFQLWPDPENGGGNGNIYRFRGINSRYP  91
+
+Query  62   LRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            LRV     GW      G   +     +  + +D++  G+Q +    +   +    + P
+Sbjct  92   LRVTVRTVGWHAGDQVGK--LINLTSQASIGYDIVTAGDQVLPSDIWPIQLQAGVIQP  147
+
+
+> UniRef90_Q48BA6 Invasin protein AfaD n=3 Tax=Pseudomonas savastanoi 
+TaxID=29438 RepID=Q48BA6_PSE14
+Length=149
+
+ Score = 112 bits (281),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 31/117 (26%), Positives = 51/117 (44%), Gaps = 3/117 (3%)
+
+Query  3    LHLESRGGS-GTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQS-KDGRH  60
+            L L+   G     +R+GA V  G++     HTGF +    +   GR +   +   +D  H
+Sbjct  33   LKLQPAAGLRAGHIRNGALVMIGQVNDPGIHTGFRIQQELQADTGRPQVLRLHGLRDSTH  92
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+             L+VR  G GW P       G      +  V F ++ADG+Q +A   +  ++    +
+Sbjct  93   ILQVRLEGQGWQP-DPRDVAGQVTYVTDNSVQFRLVADGDQTVAADSWEVAINAIVI  148
+
+
+> UniRef90_UPI00048DD7BE hypothetical protein n=1 Tax=Phaseolibacter 
+flectens TaxID=86187 RepID=UPI00048DD7BE
+Length=147
+
+ Score = 110 bits (275),  Expect = 8e-28, Method: Composition-based stats.
+ Identities = 21/113 (19%), Positives = 46/113 (41%), Gaps = 2/113 (2%)
+
+Query  8    RGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGR-HELRVRT  66
+            R  +   + +   +  G I     H GF + +  + V      Y++   +   ++++VR 
+Sbjct  36   RDFTIDDVAENTILNEGTIFYPFPHQGFSIKLEAQPVIEFPGTYILTGINNHNNKIQVRL  95
+
+Query  67   GGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+             G+GW P        ++   QE+ V F ++   N  I   ++ F++    +  
+Sbjct  96   EGNGWRPDISNPSI-MTLTSQEQSVKFKIVLSKNTKIPMDKFNFNIKAIAITQ  147
+
+
+> UniRef90_UPI00077A14F7 UPI00077A14F7 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00077A14F7
+Length=147
+
+ Score = 108 bits (270),  Expect = 4e-27, Method: Composition-based stats.
+ Identities = 27/110 (25%), Positives = 45/110 (41%), Gaps = 2/110 (2%)
+
+Query  8    RGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQS-KDGRHELRVRT  66
+            +     ++ DGA++AT  +         +VW+     +     Y++   K G  EL VR 
+Sbjct  36   QNLHAGRMNDGAELATIHVSGMSESCVLNVWIEPPGKEIMPGHYILTDRKKGGGELNVRL  95
+
+Query  67   GGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGAC  116
+             GD W P   + GKGV           +V+++G+Q I        +   C
+Sbjct  96   SGDNWKP-DTQAGKGVLSKFTSRLATLNVVSNGDQFIESHISSMQISAQC  144
+
+
+> UniRef90_UPI00026D25EF pilin structural protein SafD n=3 Tax=Pantoea 
+TaxID=53335 RepID=UPI00026D25EF
+Length=147
+
+ Score = 105 bits (262),  Expect = 6e-26, Method: Composition-based stats.
+ Identities = 26/119 (22%), Positives = 44/119 (37%), Gaps = 7/119 (6%)
+
+Query  4    HLESRGGSGTQLR-----DGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDG  58
+            +L  +    T+L      DG  +A   +         +VW    Q +     Y +  + G
+Sbjct  27   NLAIKIVPDTELHSGIFPDGTTLAVIYLSGMNQKCAVNVWSPSAQNETTPGSYTLYDRPG  86
+
+Query  59   RHE-LRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGAC  116
+             +  LRVR  G+GW P   + G GV            ++ +G Q I    +  ++   C
+Sbjct  87   GNRPLRVRLVGEGWQP-DIQFGTGVMLNDPSGFATLKLITNGEQYIESHTWPINISVQC  144
+
+
+> UniRef90_A0A0H3BSU6 Putative invasin protein n=1 Tax=Salmonella 
+newport (strain SL254) TaxID=423368 RepID=A0A0H3BSU6_SALNS
+Length=83
+
+ Score = 102 bits (255),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 27/84 (32%), Positives = 46/84 (55%), Gaps = 2/84 (2%)
+
+Query  37   VWMNERQVDGRAERYVVQSKDG-RHELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDV  95
+            +W+N  +     +RYV+  K   +H+L V  G +GW P   +GG+G+ +  +E Q  FD+
+Sbjct  1    MWLNAERNGESPDRYVLTGKSNRQHKLYVIIGQNGWVP-DNKGGEGIIKRTREMQEQFDI  59
+
+Query  96   MADGNQDIAPGEYRFSVGGACVVP  119
+            +A+G+Q +    Y  +V G    P
+Sbjct  60   VANGHQSVPVDTYVITVQGRYFEP  83
+
+
+> UniRef90_UPI0005807984 hypothetical protein n=1 Tax=Pantoea sp. 
+MBLJ3 TaxID=1562889 RepID=UPI0005807984
+Length=159
+
+ Score = 104 bits (260),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 21/109 (19%), Positives = 39/109 (36%), Gaps = 2/109 (2%)
+
+Query  9    GGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRHE-LRVRTG  67
+              S  ++ D   +A   I          +W      +    +Y +  K    + + V+  
+Sbjct  37   NLSAGKIADNTPLARIHISGISKKCNLSIWDEMAANETIPGQYTLMDKVTGKKAIEVKLT  96
+
+Query  68   GDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGAC  116
+            G+ W P     GKGV +         D++ +G+Q I+P      +   C
+Sbjct  97   GENWQP-DTARGKGVLKRIPGWNADLDLVTNGSQYISPKTISIQLTARC  144
+
+
+> UniRef90_A0A076LKZ6 Invasin protein n=1 Tax=Edwardsiella anguillarum 
+ET080813 TaxID=667120 RepID=A0A076LKZ6_9GAMM
+Length=83
+
+ Score = 100 bits (249),  Expect = 8e-25, Method: Composition-based stats.
+ Identities = 23/82 (28%), Positives = 44/82 (54%), Gaps = 2/82 (2%)
+
+Query  37   VWMNERQVDGRAERYVVQSKDG-RHELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDV  95
+            +W++  +      RYV+  K+  +H+L V  G +GW P   + G G+ +  ++ Q  FD+
+Sbjct  1    MWLDAERNGDAPNRYVLTGKNSRQHKLYVIIGQEGWVP-DTKDGLGIIKYTRKGQEQFDI  59
+
+Query  96   MADGNQDIAPGEYRFSVGGACV  117
+            +A+GNQ +    Y  ++ G  +
+Sbjct  60   VANGNQSVPIDTYVITIQGRYL  81
+
+
+> UniRef90_A0A198FUH2 Uncharacterized protein n=2 Tax=Cosenzaea 
+myxofaciens ATCC 19692 TaxID=1354337 RepID=A0A198FUH2_9GAMM
+Length=112
+
+ Score = 96.1 bits (238),  Expect = 8e-23, Method: Composition-based stats.
+ Identities = 19/109 (17%), Positives = 45/109 (41%), Gaps = 4/109 (4%)
+
+Query  7    SRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRA-ERYVVQSKDGRHELRVR  65
+            ++G     + D   + +G I+    H GF++  N+      +  ++ +  ++  + L+V+
+Sbjct  2    NQGMLAGTIFDNTLIGSGNILYAGDHDGFYLLSNKEMNKNISDGKWYLIGRN-GNFLKVK  60
+
+Query  66   TGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGG  114
+              G  W     +    +    + +   F +  DG Q++ P  Y   + G
+Sbjct  61   ISGKEWLYDDNQ--SALISTDKSKIKEFFLYVDGKQNVVPDTYTIELNG  107
+
+
+> UniRef90_B2Q5R1 Uncharacterized protein n=1 Tax=Providencia stuartii 
+ATCC 25827 TaxID=471874 RepID=B2Q5R1_PROST
+Length=138
+
+ Score = 95.3 bits (236),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 25/118 (21%), Positives = 49/118 (42%), Gaps = 7/118 (6%)
+
+Query  3    LHLESRGGSG---TQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGR  59
+            L L  R   G     + DG  +A G I     + GF +W +    +GR++RY + S    
+Sbjct  22   LSLNIRPVDGLKSGVITDGTLLAKGEISDNGDYCGFKIWSDAPLNNGRSQRYRLFS--SG  79
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACV  117
+             +L +R                + +  + +   F++++DG Q I+   +   + G+ +
+Sbjct  80   KQLNIRLSAPELI-HDELNKISIIK-SKNKTELFEIVSDGTQKISSASWEIILNGSVL  135
+
+
+> UniRef90_A0A1B7JKZ9 Uncharacterized protein n=1 Tax=Proteus hauseri 
+ATCC 700826 TaxID=1354271 RepID=A0A1B7JKZ9_PROHU
+Length=151
+
+ Score = 93.0 bits (230),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 21/118 (18%), Positives = 51/118 (43%), Gaps = 5/118 (4%)
+
+Query  2    ELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQS-KDGRH  60
+            ++ + +         DG  +  G I   + H GF +  N+R++       ++    +  +
+Sbjct  37   DISINN-KNLSGYYSDGTVIGYGMISHLDEHKGFLISTNQRKLSITENNIIITGKTNINN  95
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVV  118
+             + ++  G+ W   +           +E++ +F ++ +G Q I P +Y  S+ GA ++
+Sbjct  96   TINIKIAGNNWRTDED---NNFILITKEKEAYFQLILNGEQYIKPDKYNISLNGAYII  150
+
+
+> UniRef90_UPI0002A40D9E hypothetical protein n=1 Tax=Escherichia 
+coli TaxID=562 RepID=UPI0002A40D9E
+Length=98
+
+ Score = 90.7 bits (224),  Expect = 7e-21, Method: Composition-based stats.
+ Identities = 35/71 (49%), Positives = 49/71 (69%), Gaps = 2/71 (3%)
+
+Query  1   AELHLESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQ-SKDGR  59
+           AE+ L S     +QLRDG K+ATGRI CRE H GF++W+N  Q  G+   Y+VQ +++ +
+Sbjct  25  AEITLISHKTLESQLRDGMKLATGRIACREPHNGFYIWINASQN-GKVGHYIVQNNRETK  83
+
+Query  60  HELRVRTGGDG  70
+           HEL+V+ GG G
+Sbjct  84  HELKVKIGGGG  94
+
+
+> UniRef90_UPI0001789D00 hypothetical protein n=4 Tax=Escherichia 
+coli TaxID=562 RepID=UPI0001789D00
+Length=149
+
+ Score = 90.3 bits (223),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 24/116 (21%), Positives = 46/116 (40%), Gaps = 6/116 (5%)
+
+Query  2    ELHLESRGGSGTQ-LRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDG-R  59
+            E+ +        Q  ++   + TG +      +   V  N  +V G+   Y+ + K+  +
+Sbjct  33   EISINMDNEKLNQSTQNNHVLGTGYVKSDG-KSYVIVSSNAEKVPGQQATYIFRGKNNPQ  91
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGA  115
+            + + +R GG+GW P K   G G+S         F++    N  + P  Y   +   
+Sbjct  92   NRIAIRLGGEGWHPDKT--GLGISSR-INMLSKFELYFSNNYRVNPDVYLIHLFAK  144
+
+
+> UniRef90_Q53997 SefD n=16 Tax=Salmonella choleraesuis TaxID=28901 
+RepID=Q53997_SALEN
+Length=148
+
+ Score = 90.3 bits (223),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 25/117 (21%), Positives = 46/117 (39%), Gaps = 8/117 (7%)
+
+Query  2    ELHLESRGGSG---TQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDG  58
+            EL L  +        ++     + TG +  RE      +  +  ++      Y+++ ++ 
+Sbjct  31   ELKLMIKINEAVFYDRITSNKIIGTGHLFNREGKK-ILISSSLEKIKNTPGAYIIRGQNN  89
+
+Query  59   -RHELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGG  114
+              H+LR+R GG+ W P     G G+          F++   GN DI    Y  S+  
+Sbjct  90   SAHKLRIRIGGEDWQPDNS--GIGMVSHSDFTNE-FNIYFFGNGDIPVDTYLISIYA  143
+
+
+> UniRef90_UPI0005087D8C pilus assembly protein n=1 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=UPI0005087D8C
+Length=164
+
+ Score = 87.6 bits (216),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 21/112 (19%), Positives = 40/112 (36%), Gaps = 3/112 (3%)
+
+Query  3    LHLESRGG-SGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAER-YVVQSKDGRH  60
+            + LE   G    +  DG  +A   +        F V      + G A   + +  ++   
+Sbjct  47   VSLEQVPGLMAGKGHDGMDIAKLTVSSNVIK-EFGVRGVSAPILGSAGHAWKITGRNSGK  105
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSV  112
+             + V    +  +    E   GV+    +     D++  G+QDI P  Y  ++
+Sbjct  106  SIIVGFSPNVATARGPEVWNGVTWDTFDTNTPVDIVTIGDQDIPPDTYPLTL  157
+
+
+> UniRef90_A0A0L5XTR9 Pilus assembly protein n=4 Tax=Salmonella 
+enterica I TaxID=59201 RepID=A0A0L5XTR9_SALET
+Length=164
+
+ Score = 78.4 bits (192),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 19/112 (17%), Positives = 39/112 (35%), Gaps = 3/112 (3%)
+
+Query  3    LHLESRGGS-GTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAER-YVVQSKDGRH  60
+            + LE   G    +  DG  +A   +        F V      + G A   + +  ++   
+Sbjct  47   VSLEQVPGLTAGRGHDGMDIAKLTVSSASIK-EFGVRGVASPILGSAGHAWKITGRNSGK  105
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSV  112
+             + V    +  +    E   G +    +     +++  G+QDI P  Y  ++
+Sbjct  106  SIVVGFSPNIATARGPEMWNGETWSTFDTNTPVNIITIGDQDIPPDTYPLTL  157
+
+
+> UniRef90_M7RG67 Saf-pilin pilus formation protein n=5 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=M7RG67_SALDU
+Length=150
+
+ Score = 72.2 bits (176),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 18/112 (16%), Positives = 38/112 (34%), Gaps = 3/112 (3%)
+
+Query  3    LHLESRGG-SGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAER-YVVQSKDGRH  60
+            + LE   G    +  DG  +A   +        F        + G A   + +  K+   
+Sbjct  33   VSLEQVPGLMAGRGHDGMDIAKLTVSSASI-QEFGARGVSGSILGSAGSEWKITGKNSGE  91
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSV  112
+             + V    +  +    +   G +    +     +++  G+QDI P  Y  ++
+Sbjct  92   SILVGFSTNVATAKGPKMWNGETWSTFDTNAPVNIVITGDQDIPPDTYPLTL  143
+
+
+> UniRef90_A0A0V1YDN5 Pilus assembly protein n=5 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=A0A0V1YDN5_SALET
+Length=164
+
+ Score = 71.8 bits (175),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 16/112 (14%), Positives = 38/112 (34%), Gaps = 3/112 (3%)
+
+Query  3    LHLESRGG-SGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAER-YVVQSKDGRH  60
+            + L+   G    +  DG  +A   +    +   F        + G     + +  ++   
+Sbjct  47   VSLDQVPGLMAGRGHDGMDIAKLTVSS-GSIKEFGARGISSSILGSTGSEWKITGRNSGK  105
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSV  112
+             + V    +  +    +   G +    +     +++  G+QDI P  Y  +V
+Sbjct  106  SIIVGFSTNVATARGPKMWNGETWSTFDTNTPVNIVITGDQDIPPDTYPLTV  157
+
+
+> UniRef90_UPI0004E23A03 pilus assembly protein n=2 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=UPI0004E23A03
+Length=164
+
+ Score = 70.3 bits (171),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 19/119 (16%), Positives = 39/119 (33%), Gaps = 3/119 (3%)
+
+Query  3    LHLESRGG-SGTQLRDGAKVATGRIICREAHTGFHVWMNERQ-VDGRAERYVVQSKDGRH  60
+            + L+   G    +  DG  +A   +        F V       + G A  + +  ++   
+Sbjct  47   VSLDQVPGLMAGREHDGMNIAKLTVSSTSIKQ-FGVRGVSGTLMSGSASAWEINGRNSGK  105
+
+Query  61   ELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+             + V    +  +    +   G +          +++  G+QDI P  Y  +V      P
+Sbjct  106  PIIVGLASNAATGKGPKMWNGETWNTFNTNTPVNIVTIGDQDIPPDTYPMTVDVVGYQP  164
+
+
+> UniRef90_UPI0003BD1A91 UPI0003BD1A91 related cluster n=4 Tax=unknown 
+TaxID= RepID=UPI0003BD1A91
+Length=164
+
+ Score = 66.0 bits (160),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 20/120 (17%), Positives = 38/120 (32%), Gaps = 4/120 (3%)
+
+Query  3    LHLESRGGS-GTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAER-YVVQSKDGRH  60
+            +  +   G    +  DG  +A   +        F V      +       + V  K+  +
+Sbjct  46   ISFDQVPGLVAGKAHDGMDIAKLTVNSTSIK-EFGVRPVASTLLDSGGSAWKVDGKNSGN  104
+
+Query  61   ELRVRTGGDGW-SPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            ++ V    +            G S    +     D++  G+QDI+P  Y  +V      P
+Sbjct  105  QITVGYSNNNMGRTHGPMMWNGRSWFTFDTNAPLDIVVMGDQDISPDTYPLTVDVVGYQP  164
+
+
+> UniRef90_G5LX66 Uncharacterized protein n=1 Tax=Salmonella enterica 
+subsp. enterica serovar Alachua str. R6-377 TaxID=913241 
+RepID=G5LX66_SALET
+Length=47
+
+ Score = 62.6 bits (151),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 14/45 (31%), Positives = 25/45 (56%), Gaps = 0/45 (0%)
+
+Query  75   KGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+              +GG+G+ +  +E Q  FD++A+G+Q +    Y  +V G    P
+Sbjct  3    DNKGGEGIIKRTREMQEQFDIVANGHQSVPVDTYVITVQGRYFEP  47
+
+
+> UniRef90_A0A0B1RDH0 Uncharacterized protein n=1 Tax=Pantoea rodasii 
+TaxID=1076549 RepID=A0A0B1RDH0_9GAMM
+Length=150
+
+ Score = 64.1 bits (155),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 23/117 (20%), Positives = 41/117 (35%), Gaps = 3/117 (3%)
+
+Query  2    ELHLESRG-GSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQS-KDGR  59
+            ++ +  R   +   L D   +AT +   R  +     W   + V+     + +   K G 
+Sbjct  29   QMRIIPRTHLTAGVLPDNTVLATIQFWGRRENCVLEAWNTFKDVESMPGEFTMSDDKGGM  88
+
+Query  60   HELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGAC  116
+              L V+  G+ W P   + GKG+S  G +      +   G Q          +   C
+Sbjct  89   TRLNVKLSGENWQP-NSQTGKGLSFMGIDNNTTLILSTRGEQFTDASTLLIDLTAIC  144
+
+
+> UniRef90_A1E999 SafA n=16 Tax=Salmonella choleraesuis TaxID=28901 
+RepID=A1E999_SALEN
+Length=165
+
+ Score = 58.0 bits (139),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 19/116 (16%), Positives = 33/116 (28%), Gaps = 3/116 (3%)
+
+Query  6    ESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAER-YVVQSKDGRHELRV  64
+            +  G    Q   G  +A   +        +            A   + +  K+    L V
+Sbjct  51   QVPGLMAGQKPAGMNIAKLTVDSASIK-EYGARGVANTTLDAAGSAWKITGKNSGTILTV  109
+
+Query  65   RTGGDGWS-PVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+                +  S     +   G S    +     D++  G Q+I P  Y  +V      P
+Sbjct  110  GFSNNNMSRGHGAQMWNGRSWFTFDTNAPLDIVTIGAQNIPPDTYPITVDVVGYQP  165
+
+
+> UniRef90_G5LJH6 Putative fimbrial structural subunit n=1 Tax=Salmonella 
+enterica subsp. enterica serovar Alachua str. R6-377 
+TaxID=913241 RepID=G5LJH6_SALET
+Length=46
+
+ Score = 56.0 bits (134),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 8/44 (18%), Positives = 17/44 (39%), Gaps = 0/44 (0%)
+
+Query  78   GGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVPQE  121
+             G+G       +   F V+ DGNQ++    +        +  ++
+Sbjct  2    NGRGAILRTAADNASFSVVVDGNQEVPADTWTLDFKACALAQED  45
+
+
+> UniRef90_A0A1J7AGA0 Pilus assembly protein n=6 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=A0A1J7AGA0_SALON
+Length=164
+
+ Score = 55.3 bits (132),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 19/120 (16%), Positives = 38/120 (32%), Gaps = 4/120 (3%)
+
+Query  3    LHLESRGGSGTQLRDG-AKVATGRIICREAHTGFHVW-MNERQVDGRAERYVVQSKDGRH  60
+            + L+   G      D    +A   +        F V  ++   ++     + +  K+G +
+Sbjct  46   ISLDQMPGLMAGKNDNDMDIAKLTVDSTSIK-EFGVRGISGSLMNNAGSTWKITGKNGGN  104
+
+Query  61   ELRVRTGGDG-WSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+             + V    +            G      +  V  D++    QDI+P  Y  +V      P
+Sbjct  105  PIVVGFSSNDVAKSHVPLMWNGREWTTFDTNVPVDIVVIAGQDISPDTYPLTVDVVGYQP  164
+
+
+> UniRef90_J1GGC3 Uncharacterized protein n=1 Tax=Enterobacter 
+sp. Ag1 TaxID=1202448 RepID=J1GGC3_9ENTR
+Length=60
+
+ Score = 53.3 bits (127),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 12/54 (22%), Positives = 24/54 (44%), Gaps = 3/54 (6%)
+
+Query  10  GSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRHELR  63
+                +  G +V +G+  CR  H   ++W N  + D  A   +V+ K  ++ + 
+Sbjct  1   MFMKAINAGDEVMSGQFSCRGKH---YIWPNAEKADDVANTCLVRGKQNQNNII  51
+
+
+> UniRef90_A0A1C3AIV1 Pilus assembly protein n=15 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=A0A1C3AIV1_SALET
+Length=166
+
+ Score = 53.7 bits (128),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 16/114 (14%), Positives = 33/114 (29%), Gaps = 5/114 (4%)
+
+Query  3    LHLESRGGS-GTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAE-RYVVQSKDGRH  60
+            + L+   G        G  +A   +        F        +   A   + +  K+  +
+Sbjct  47   VSLDQVPGLIAGDEPTGTAIAKLTVDSTSVK-EFGARGASGVMMDNAGIVWRITGKNSGN  105
+
+Query  61   ELRVRTGGDGWS--PVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSV  112
+             L V       +      +   G      +  V   +   G Q+I+P  Y  ++
+Sbjct  106  SLTVGLSPKDVTNNSQGRQTWNGREWITFDTNVPLYITTVGEQNISPDTYPLTL  159
+
+
+> UniRef90_UPI00044A6577 lipoprotein n=2 Tax=Escherichia coli TaxID=562 
+RepID=UPI00044A6577
+Length=164
+
+ Score = 53.3 bits (127),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 21/117 (18%), Positives = 36/117 (31%), Gaps = 1/117 (1%)
+
+Query  3    LHLESRGGS-GTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRHE  61
+            + L    G     ++    +AT  +      T         +    A+ + +  K+    
+Sbjct  47   VRLAPLPGLQAGPIKANTVIATVTVTSPTVKTYAFGEDFSAKNIVNADTWDIYGKNSGKP  106
+
+Query  62   LRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVV  118
+            LRV    D  SPV      G            DV   G+++I    Y  ++  A   
+Sbjct  107  LRVYVNADNGSPVTTINSGGHQWFVYNINQRLDVKVAGDRNIPADSYPLNINIAAYQ  163
+
+
+> UniRef90_UPI00069B382E pilus assembly protein n=1 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=UPI00069B382E
+Length=164
+
+ Score = 53.0 bits (126),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 20/120 (17%), Positives = 38/120 (32%), Gaps = 4/120 (3%)
+
+Query  3    LHLESRGGSGTQLRDG-AKVATGRIICREAHTGFHVW-MNERQVDGRAERYVVQSKDGRH  60
+            + L+   G      D    +A   +        F    ++  Q+DG    + +   +G +
+Sbjct  46   VSLDQMPGLMAGKNDNDMDIAKLTVDSTSIK-EFGARGISATQMDGAGSAWKITGNNGGN  104
+
+Query  61   ELRVRTGGDG-WSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+             + V    +            G      +  V  D++    QDI+P  Y  +V      P
+Sbjct  105  PIIVGFSNNDMAKSHVPVMWNGKKWSTFDTNVPVDIVVVAGQDISPDTYPLTVDVVGYQP  164
+
+
+> UniRef90_V7IKN8 Saf-pilin pilus formation protein n=11 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=V7IKN8_SALET
+Length=181
+
+ Score = 52.6 bits (125),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 21/121 (17%), Positives = 35/121 (29%), Gaps = 5/121 (4%)
+
+Query  3    LHLESRGGS-GTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAER-YVVQSKDGRH  60
+            + L    G        G K+A   +        F V     ++       + V  K+   
+Sbjct  62   VSLIPVSGLKAGPNALGTKIAKLEVNSTTLK-EFGVRGIANKIVDLTGTAWRVAGKNTGR  120
+
+Query  61   ELRVRTGGDGWS-PVKGEGGKGVSRPGQEEQVFFDVMADG-NQDIAPGEYRFSVGGACVV  118
+            E+ V    D        E   GV+          D++  G  Q++    Y  +V      
+Sbjct  121  EIIVGLSNDSLRRADGTEKWNGVNWMTFNSNDALDIVLTGAAQNVTADTYPITVDVVGYQ  180
+
+Query  119  P  119
+            P
+Sbjct  181  P  181
+
+
+> UniRef90_A0A100NTS1 Saf-pilin pilus formation protein n=9 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=A0A100NTS1_SALCE
+Length=164
+
+ Score = 50.3 bits (119),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 19/116 (16%), Positives = 35/116 (30%), Gaps = 3/116 (3%)
+
+Query  6    ESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAER-YVVQSKDGRHELRV  64
+            +  G    +      +A   +        F V      +   +   + +  K+G + + V
+Sbjct  50   QMPGLMAGKNAKDMDIAKLTVDSTSIK-EFGVRGISGTLMNDSGSEWKITGKNGGNPIIV  108
+
+Query  65   RTGGDGW-SPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+            R                G      +  V  D++A   QDI+P  Y  +V      P
+Sbjct  109  RFSDYDLNKTHVPVMWNGRKWLTFDTNVPIDIIAVAGQDISPDTYPLTVDVVGYQP  164
+
+
+> UniRef90_I3VZP8 Putative lipoprotein n=5 Tax=Salmonella TaxID=590 
+RepID=I3VZP8_9ENTR
+Length=164
+
+ Score = 49.5 bits (117),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 15/109 (14%), Positives = 34/109 (31%), Gaps = 2/109 (2%)
+
+Query  6    ESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAE-RYVVQSKDGRHELRV  64
+            +    +  + +  +++AT  +        F +  +   +       + ++ K+   E+ V
+Sbjct  51   QVPNLTAGRFKSNSEIATIAVSSSSVKK-FAIAADFHGIALHNGDTWNIRGKNTGKEITV  109
+
+Query  65   RTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVG  113
+               G+   P       G             V   G+Q I    Y  +V 
+Sbjct  110  YFYGEVAKPQGSVSYNGHQWFIYNINDKLGVKLAGDQTIPADVYPMTVN  158
+
+
+> UniRef90_A0A085U7D1 Uncharacterized protein n=1 Tax=Yersinia 
+ruckeri TaxID=29486 RepID=A0A085U7D1_YERRU
+Length=163
+
+ Score = 49.1 bits (116),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 18/115 (16%), Positives = 32/115 (28%), Gaps = 4/115 (3%)
+
+Query  4    HLESRGGS-GTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAERYVVQSKDGRHEL  62
+             + S        +     +A G I   EA T   V +        +      +    + L
+Sbjct  46   DINSIPSLVAGDMSTSTIIAKGTIRFGEA-TSDKVRVEFVNGTNISGTTRQITTTNGNTL  104
+
+Query  63   RVRTGGDGWSPVKGEGGKGVSRPGQEEQVFF--DVMADGNQDIAPGEYRFSVGGA  115
+             V+               G+      E   F  D++A   Q++    Y+  V   
+Sbjct  105  NVKLSPGVGVSFSSVNNTGIIFGNTTESDTFSYDIIAFSGQNVKADTYKIEVSAQ  159
+
+
+> UniRef90_UPI0005B4D3C1 pilus assembly protein n=2 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=UPI0005B4D3C1
+Length=165
+
+ Score = 49.1 bits (116),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 15/120 (13%), Positives = 34/120 (28%), Gaps = 4/120 (3%)
+
+Query  3    LHLESRG-GSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAER-YVVQSKDGRH  60
+            + L+         +     +A   +        F        +   +   + +  K+   
+Sbjct  47   VSLDQVPDLIAGTVPSQTAIAKLTVDSTSIK-EFGARGVSGSLMDSSGSAWKITGKNSGK  105
+
+Query  61   ELRVRTGGDGWS-PVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+             L V       +     +   G +    +  V  D++  G Q++ P  Y  +V      P
+Sbjct  106  SLTVGFSAKSMNNSHGPQMWNGRNWLAFDTNVPLDIIMIGAQEVPPDTYPMTVDVVGYQP  165
+
+
+> UniRef90_UPI0003BDC821 Saf-pilin pilus formation protein SafA 
+n=1 Tax=Salmonella choleraesuis TaxID=28901 RepID=UPI0003BDC821
+Length=164
+
+ Score = 48.7 bits (115),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 21/111 (19%), Positives = 36/111 (32%), Gaps = 2/111 (2%)
+
+Query  9    GGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAE-RYVVQSKDGRHELRVRTG  67
+            G     ++    +AT  +    A   F +  +    D R    + +  K+    ++V   
+Sbjct  54   GLKAGVIKSNTDIATIAVSSIAAKQ-FAIAADFNAKDLRNGDTWTLHGKNTGKGIKVYFY  112
+
+Query  68   GDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVV  118
+            G+  SP       G      +      V   G Q+IA   Y  +V  A   
+Sbjct  113  GETTSPKGSVNYNGHQWIIYDINDKLGVKLAGEQNIAADVYPMTVNIAAYQ  163
+
+
+> UniRef90_A0A1J3YNI1 Saf-pilin pilus formation protein SafA n=17 
+Tax=Salmonella choleraesuis TaxID=28901 RepID=A0A1J3YNI1_SALET
+Length=165
+
+ Score = 47.6 bits (112),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 19/114 (17%), Positives = 37/114 (32%), Gaps = 7/114 (6%)
+
+Query  9    GGSGTQLRDGAKVATGRIICREAHTGFHV---WMNERQVDGRAERYVVQSKDGRHELRVR  65
+            G    Q  +G  +A  ++    +   F V   +     V   ++ + V+ K+  + + V 
+Sbjct  54   GLMAGQHGNGDVIAQLKVS--GSIKQFAVTGDYSKPETVGNNSDVWKVKGKN-GNTITVS  110
+
+Query  66   TGGDGWSPVKG-EGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVV  118
+              G  W+       G              DV+  G Q +    Y  ++  A   
+Sbjct  111  FQGTKWASKGSLVDGSAHKWWIYNMGDGIDVILSGAQTVNADIYPVTLNVAAYQ  164
+
+
+> UniRef90_UPI00071AC635 UPI00071AC635 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00071AC635
+Length=165
+
+ Score = 47.6 bits (112),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 15/120 (13%), Positives = 33/120 (28%), Gaps = 4/120 (3%)
+
+Query  3    LHLESRGGS-GTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAER-YVVQSKDGRH  60
+            + L+   G    +      VA   +        + V              + +  K+  +
+Sbjct  47   ISLDQAPGLIAGRSHIDTVVAKLTVNSTSIK-EYGVRGVSSSTLNDLGSMWNITGKNSGN  105
+
+Query  61   ELRVRTGGDGWS-PVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+             + V             +   G+           +++   +QDI+P  Y  +V      P
+Sbjct  106  TVAVGFSNKSLVNSQGPQTWNGLRWYTFNANDPVNIVLVRDQDISPDTYPLTVDVVGYQP  165
+
+
+> UniRef90_Q8Z946 Probable lipoprotein n=46 Tax=Salmonella choleraesuis 
+TaxID=28901 RepID=Q8Z946_SALTI
+Length=164
+
+ Score = 47.2 bits (111),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 16/111 (14%), Positives = 37/111 (33%), Gaps = 2/111 (2%)
+
+Query  9    GGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAE-RYVVQSKDGRHELRVRTG  67
+            G     ++   ++AT  +    A   F +  + +  +      + +  K+    ++V   
+Sbjct  54   GLKAGVIKSNTEIATIAVSSVAAKQ-FAIAADFKAKNVMNGDTWTLYGKNTGKGIKVYFY  112
+
+Query  68   GDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVV  118
+            G+  SP       G      +      V   G+Q++    +  +V  A   
+Sbjct  113  GETTSPKGNVNYNGHQWIIYDINDKLGVKLAGDQNVPADVFPMTVNIAAYQ  163
+
+
+> UniRef90_A0A0T7RPB5 Lipoprotein n=10 Tax=Salmonella choleraesuis 
+TaxID=28901 RepID=A0A0T7RPB5_SALET
+Length=164
+
+ Score = 46.8 bits (110),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 15/114 (13%), Positives = 37/114 (32%), Gaps = 2/114 (2%)
+
+Query  6    ESRGGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAE-RYVVQSKDGRHELRV  64
+            +    +  + +  A++AT  +    A   F +  +   ++      + ++ K+    + V
+Sbjct  51   QVPNLAAGRFKGNAEIATIAVSSSSAKQ-FAIAADFNALNLYNGDTWTIRGKNTGKGIIV  109
+
+Query  65   RTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVV  118
+               G+   P       G             +   G+Q+I    +  +V  A   
+Sbjct  110  YFYGEAAKPQGSVSYNGHQWFIYNINDKLGIKLAGDQNIPADVFPMTVNIAAYQ  163
+
+
+> UniRef90_G9W0N1 Saf-pilin pilus formation protein n=2 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=G9W0N1_SALET
+Length=139
+
+ Score = 46.4 bits (109),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 17/111 (15%), Positives = 36/111 (32%), Gaps = 2/111 (2%)
+
+Query  9    GGSGTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAE-RYVVQSKDGRHELRVRTG  67
+            G     ++    +AT  +    A   F +  + +  D      + +  K+    ++V   
+Sbjct  29   GLKAGVIKSNTDIATIAVSSVAAKQ-FAIAADFKAKDVMNGDTWTLYGKNTGKGIKVYFY  87
+
+Query  68   GDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVV  118
+            G+  SP       G      +      V   G+Q++    +  +V  A   
+Sbjct  88   GETTSPKGDVNYNGHQWIIYDINDKLGVKLAGDQNVPADVFPMTVNIAAYQ  138
+
+
+> UniRef90_UPI0003BD79F2 Saf-pilin pilus formation protein SafA 
+n=1 Tax=Salmonella choleraesuis TaxID=28901 RepID=UPI0003BD79F2
+Length=165
+
+ Score = 46.4 bits (109),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 17/114 (15%), Positives = 36/114 (32%), Gaps = 7/114 (6%)
+
+Query  9    GGSGTQLRDGAKVATGRIICREAHTGFHV---WMNERQVDGRAERYVVQSKDGRHELRVR  65
+            G    Q   G  +A  ++        F +   +     V+  ++ + V+ K+  + + V 
+Sbjct  54   GLRAGQHSSGDVIAQLKVSGSVKQ--FAITGDYSKPETVNSSSDVWKVKGKN-GNTMTVS  110
+
+Query  66   TGGDGWSPVKG-EGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVV  118
+              G  W+       G              +V+  G Q +    Y  ++  A   
+Sbjct  111  FQGSKWTSKGSLVDGAAHKWWIYNMGDGINVVLSGAQTVNADIYPVTLNVAAYQ  164
+
+
+> UniRef90_G4C4N1 Saf-pilin pilus formation protein n=8 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=G4C4N1_SALIN
+Length=187
+
+ Score = 46.0 bits (108),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 15/120 (13%), Positives = 31/120 (26%), Gaps = 4/120 (3%)
+
+Query  3    LHLESRGGS-GTQLRDGAKVATGRIICREAHTGFHVWMNERQVDGRAER-YVVQSKDGRH  60
+            + LE   G      +    VA   +        + V      +       + +  K+   
+Sbjct  69   ISLEQTPGLIAGTGKPDTVVAKLTVNSTSIK-EYGVRGVSSTMLNDLGSMWNITGKNSGS  127
+
+Query  61   ELRVRTGGDGW-SPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVVP  119
+             + V             +   G+           ++    +Q+I P  Y  +V      P
+Sbjct  128  TVAVGFSSQSLNKSHSPQTWNGLRWYTFNVNDPVNIALVRDQNIPPDTYPLTVDVVGYQP  187
+
+
+> UniRef90_A0A0B1RAP7 Uncharacterized protein n=1 Tax=Pantoea rodasii 
+TaxID=1076549 RepID=A0A0B1RAP7_9GAMM
+Length=136
+
+ Score = 44.9 bits (105),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 18/121 (15%), Positives = 44/121 (36%), Gaps = 5/121 (4%)
+
+Query  2    ELHLESRG-GSGTQLRDGAKVATGRI-ICREAHTGFHVWMNERQVDGRAERYVVQSK-DG  58
+            E+ +  R   +  +++  A  A+ +I I      G   W    + D       ++ K + 
+Sbjct  18   EIKISPRNDLNSGEVKHAAIFASFQIDIFPPTRLGLR-WT-PGKSDVNKTIAKIRGKHNN  75
+
+Query  59   RHELRVRTGGDGWSPVKGEGGKGVSRPGQEEQVFFDVMADGNQDIAPGEYRFSVGGACVV  118
+            +H L +    + + P K      +    +   +   +   G+Q++    Y  S+  +  +
+Sbjct  76   KHILTLIITTETYKPTKIYDDGWIITNNKMTTLTGSIRPFGDQNVPSDTYTISLDASAFI  135
+
+Query  119  P  119
+             
+Sbjct  136  S  136
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.153    0.455    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0477    0.140     1.90     42.6     43.6 
+
+Effective search space used: 436746253185
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,2722 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1tula_
+
+Length=102
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q06691 Telokin-like protein 20 n=6 Tax=Autographa cali...  214     2e-68
+  UniRef90_O92445 AcMNPV orf82 n=6 Tax=Bombyx mori nuclear polyhe...  202     1e-63
+  UniRef90_A1YRC7 Telokin-like protein n=1 Tax=Maruca vitrata nuc...  200     4e-63
+  UniRef90_L0CLN3 Tlp protein n=1 Tax=Thysanoplusia orichalcea nu...  189     8e-59
+  UniRef90_V9LSY6 DekiORF72 n=1 Tax=Dendrolimus kikuchii nucleopo...  124     3e-33
+  UniRef90_A0A172WZC7 Tlp20 n=1 Tax=Catopsilia pomona nucleopolyh...  120     4e-31
+  UniRef90_A0A126FC50 TELOKIN-like protein n=1 Tax=Lonomia obliqu...  117     2e-30
+  UniRef90_B0FDU2 Tlp-20 n=1 Tax=Orgyia leucostigma NPV TaxID=490...  71.2    6e-13
+  UniRef90_W5VL52 TLP-20 n=2 Tax=Buzura suppressaria nuclear poly...  69.7    2e-12
+  UniRef90_A0A0A7KRG0 Ac82 n=1 Tax=Agrotis segetum nucleopolyhedr...  69.7    2e-12
+  UniRef90_B6D609 Telokinin-like peptide n=1 Tax=Agrotis ipsilon ...  69.3    3e-12
+  UniRef90_B7SVW0 Putative uncharacterized protein n=1 Tax=Spodop...  66.6    2e-11
+  UniRef90_A1YJ70 Telokinin-like peptide n=1 Tax=Spodoptera frugi...  65.9    4e-11
+  UniRef90_Q287I3 ORF-89 n=1 Tax=Agrotis segetum nuclear polyhedr...  65.1    7e-11
+  UniRef90_A0EYW8 Telokin-like protein 20 n=1 Tax=Ectropis obliqu...  65.9    7e-11
+  UniRef90_Q9J859 ORF78 n=3 Tax=Spodoptera exigua multiple nucleo...  63.9    2e-10
+  UniRef90_C3TWY1 TLP-20 n=1 Tax=Euproctis pseudoconspersa nucleo...  64.7    2e-10
+  UniRef90_A0A097P933 Tlp-20 n=1 Tax=Sucra jujuba nucleopolyhedro...  62.8    6e-10
+  UniRef90_Q0IL26 Tlp-20 n=1 Tax=Leucania separata nucleopolyhedr...  63.2    9e-10
+  UniRef90_Q80PB1 Orf2 n=1 Tax=Spodoptera litura multicapsid nucl...  61.6    1e-09
+  UniRef90_Q8JM51 Putative uncharacterized protein n=7 Tax=Alphab...  61.6    1e-09
+  UniRef90_Q91BE7 Telokin-like protein-20 n=2 Tax=Spodoptera litu...  60.5    3e-09
+  UniRef90_Q4KT00 ORF-80 peptide n=4 Tax=Chrysodeixis chalcites n...  60.5    4e-09
+  UniRef90_Q0N426 Tlp20/ac83-like protein n=1 Tax=Clanis bilineat...  59.7    2e-08
+  UniRef90_Q461Z1 Orf75 n=1 Tax=Trichoplusia ni single nucleopoly...  58.9    2e-08
+  UniRef90_M1JNW8 Telokin-like protein-20 n=1 Tax=Spodoptera litt...  57.8    3e-08
+  UniRef90_A0A1B1V5H4 Ac82 n=1 Tax=Malacosoma sp. alphabaculoviru...  58.2    3e-08
+  UniRef90_A0A1D8QNL7 Telokin-like protein n=7 Tax=Lymantria disp...  57.0    5e-08
+  UniRef90_D4N2C3 Telokin-like protein n=1 Tax=Lymantria xylina M...  56.6    6e-08
+  UniRef90_D7F5T8 Tlp-20 n=1 Tax=Apocheima cinerarium nucleopolyh...  57.0    7e-08
+  UniRef90_S5N3M0 TLP n=3 Tax=Alphabaculovirus TaxID=558016 RepID...  55.5    1e-07
+  UniRef90_Q91GH9 Putative uncharacterized protein n=1 Tax=Epiphy...  55.5    1e-07
+  UniRef90_A0A068LMN3 Tlp-like protein n=1 Tax=Peridroma alphabac...  54.7    3e-07
+  UniRef90_A0A1B1MQW7 Telokin-like protein n=1 Tax=Lymantria disp...  54.3    7e-07
+  UniRef90_Q6VTR2 Telokin-like protein-20 n=3 Tax=Alphabaculoviru...  53.1    8e-07
+  UniRef90_A0A0E3JAT6 Telokin like protein 20 n=11 Tax=Alphabacul...  53.9    9e-07
+  UniRef90_Q1HH27 Telokin-like protein-20 n=1 Tax=Antheraea perny...  53.1    9e-07
+  UniRef90_A0A0B4UK94 Telokin-like protein-20 n=1 Tax=Condylorrhi...  52.8    1e-06
+  UniRef90_S5MK40 Tlp n=1 Tax=Hemileuca sp. nucleopolyhedrovirus ...  54.7    1e-06
+  UniRef90_S5MKW0 TLP n=1 Tax=Choristoneura rosaceana alphabaculo...  52.8    1e-06
+  UniRef90_Q2NP03 Telokin-like peptide n=1 Tax=Hyphantria cunea n...  52.4    2e-06
+  UniRef90_A0A0B4ZZH4 Telokinin-like peptide n=3 Tax=Chrysodeixis...  53.1    2e-06
+  UniRef90_O10335 Telokin-like protein 20 homolog n=2 Tax=Alphaba...  50.4    7e-06
+  UniRef90_A0A0E3URB4 Tlp n=1 Tax=Lambdina fiscellaria nucleopoly...  49.3    6e-05
+
+
+> UniRef90_Q06691 Telokin-like protein 20 n=6 Tax=Autographa californica 
+multiple nucleopolyhedrovirus TaxID=307456 RepID=TLP20_NPVAC
+Length=180
+
+ Score = 214 bits (545),  Expect = 2e-68, Method: Compositional matrix adjust.
+ Identities = 101/101 (100%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  2    TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  61
+            TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG
+Sbjct  8    TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  67
+
+Query  62   NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIWR  102
+            NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIWR
+Sbjct  68   NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIWR  108
+
+
+> UniRef90_O92445 AcMNPV orf82 n=6 Tax=Bombyx mori nuclear polyhedrosis 
+virus TaxID=271108 RepID=O92445_NPVBM
+Length=181
+
+ Score = 202 bits (514),  Expect = 1e-63, Method: Compositional matrix adjust.
+ Identities = 96/101 (95%), Positives = 98/101 (97%), Gaps = 0/101 (0%)
+
+Query  2    TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  61
+            TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASS QLRLLYKNAYS VSCG
+Sbjct  8    TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSQQLRLLYKNAYSAVSCG  67
+
+Query  62   NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIWR  102
+            NY +LCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI+R
+Sbjct  68   NYSILCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIYR  108
+
+
+> UniRef90_A1YRC7 Telokin-like protein n=1 Tax=Maruca vitrata nucleopolyhedrovirus 
+TaxID=1307954 RepID=A1YRC7_9ABAC
+Length=176
+
+ Score = 200 bits (509),  Expect = 4e-63, Method: Compositional matrix adjust.
+ Identities = 93/101 (92%), Positives = 98/101 (97%), Gaps = 0/101 (0%)
+
+Query  2    TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  61
+            TPDIIVNAQIN +DENVLDFIIEDEYYLKKRGVGAH+IKVASSPQL LLYKNAYSTVSCG
+Sbjct  8    TPDIIVNAQINDDDENVLDFIIEDEYYLKKRGVGAHVIKVASSPQLGLLYKNAYSTVSCG  67
+
+Query  62   NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIWR  102
+            NYG+LCNLVQNGEYDLNAIMFNCAEIKLNK Q+LFQTKIW+
+Sbjct  68   NYGILCNLVQNGEYDLNAIMFNCAEIKLNKNQLLFQTKIWQ  108
+
+
+> UniRef90_L0CLN3 Tlp protein n=1 Tax=Thysanoplusia orichalcea 
+nucleopolyhedrovirus TaxID=101850 RepID=L0CLN3_9ABAC
+Length=180
+
+ Score = 189 bits (481),  Expect = 8e-59, Method: Compositional matrix adjust.
+ Identities = 88/101 (87%), Positives = 94/101 (93%), Gaps = 0/101 (0%)
+
+Query  2    TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  61
+            TPDIIVNAQ NS D N+LDFIIEDEYYLKKRGVGAH+IKVASSPQL+ LYKNAYSTVSCG
+Sbjct  5    TPDIIVNAQFNSSDINILDFIIEDEYYLKKRGVGAHVIKVASSPQLKPLYKNAYSTVSCG  64
+
+Query  62   NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIWR  102
+            NYG+LCNLVQNGEYDL AIMFNCAEIKLNKG +LFQ KIW+
+Sbjct  65   NYGILCNLVQNGEYDLTAIMFNCAEIKLNKGDVLFQIKIWQ  105
+
+
+> UniRef90_V9LSY6 DekiORF72 n=1 Tax=Dendrolimus kikuchii nucleopolyhedrovirus 
+TaxID=1219875 RepID=V9LSY6_9ABAC
+Length=181
+
+ Score = 124 bits (311),  Expect = 3e-33, Method: Compositional matrix adjust.
+ Identities = 55/101 (54%), Positives = 75/101 (74%), Gaps = 0/101 (0%)
+
+Query  1    GTPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSC  60
+             TPDI+VN +    D +VL+FII +EY+LK+ G+GAH IKV SSP L  L++N Y T+SC
+Sbjct  7    STPDIVVNVEPADNDVDVLNFIIGNEYHLKRLGIGAHAIKVISSPHLERLHRNHYCTISC  66
+
+Query  61   GNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+            G Y +LCNLV   EYD+  I+FN +E +L+KG +LF+TKI+
+Sbjct  67   GTYAILCNLVHGSEYDVETILFNRSETRLDKGGVLFKTKIY  107
+
+
+> UniRef90_A0A172WZC7 Tlp20 n=1 Tax=Catopsilia pomona nucleopolyhedrovirus 
+TaxID=1850906 RepID=A0A172WZC7_9ABAC
+Length=246
+
+ Score = 120 bits (301),  Expect = 4e-31, Method: Compositional matrix adjust.
+ Identities = 62/106 (58%), Positives = 77/106 (73%), Gaps = 6/106 (6%)
+
+Query  2    TPDIIVNAQINSE----DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAY--  55
+            T DI+V    +S+    D  VL F+IEDEY+LKK  VGA+ IKV SSP L+ LYKN Y  
+Sbjct  8    TADIVVRVAFDSDSGKNDTVVLSFMIEDEYHLKKLSVGAYAIKVISSPHLKHLYKNHYYL  67
+
+Query  56   STVSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+            ST+SCG Y +LCNLV+NGEYD+NAIMFN AE KL K  +LF+ K++
+Sbjct  68   STISCGKYTILCNLVENGEYDINAIMFNHAETKLIKNDVLFKIKMF  113
+
+
+> UniRef90_A0A126FC50 TELOKIN-like protein n=1 Tax=Lonomia obliqua 
+multiple nucleopolyhedrovirus TaxID=134394 RepID=A0A126FC50_9ABAC
+Length=200
+
+ Score = 117 bits (294),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 53/99 (54%), Positives = 76/99 (77%), Gaps = 0/99 (0%)
+
+Query  2    TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  61
+            TPDI+VNA  +  ++N+L+FII+DEY+LKK G+G H++KV SS  L+ LY NA+  V+  
+Sbjct  8    TPDIVVNAVFDEYNQNLLNFIIQDEYHLKKLGIGGHVVKVNSSDNLKHLYTNAFCIVTSK  67
+
+Query  62   NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+            NYG+LCNL+++ + D+N I+FNCA  KLNKG +LF+ K 
+Sbjct  68   NYGILCNLLEDSKSDINVILFNCAISKLNKGDVLFRVKF  106
+
+
+> UniRef90_B0FDU2 Tlp-20 n=1 Tax=Orgyia leucostigma NPV TaxID=490711 
+RepID=B0FDU2_9ABAC
+Length=248
+
+ Score = 71.2 bits (173),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 39/98 (40%), Positives = 58/98 (59%), Gaps = 1/98 (1%)
+
+Query  1    GTPDIIVNAQINSED-ENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT DI V   ++ ED +N+L FI++DEY+LKK  VGA+ + +  +  L  L +   ST+S
+Sbjct  7    GTVDIAVYTTLDKEDNKNILSFIVQDEYHLKKLAVGAYSLNILDTQLLNDLSERNCSTIS  66
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQ  97
+            CGN+ +  N  +     LNAI+FN     L KG  +F+
+Sbjct  67   CGNFVICHNFTEQKNNALNAILFNTKPTILKKGVCIFK  104
+
+
+> UniRef90_W5VL52 TLP-20 n=2 Tax=Buzura suppressaria nuclear polyhedrosis 
+virus TaxID=74320 RepID=W5VL52_NPVBS
+Length=224
+
+ Score = 69.7 bits (169),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 37/98 (38%), Positives = 63/98 (64%), Gaps = 3/98 (3%)
+
+Query  1    GTPDIIVNAQINSEDE-NVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT +I+V A ++ +D+ N+L FI++DEY+LKK  +GA+ + +  +  L  L++   +T+S
+Sbjct  7    GTVNILVYATLDQQDDDNILSFIVQDEYHLKKLAIGAYSLNILDTRLLNNLWRYHCATIS  66
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQ  97
+            CGNY +  N  ++G  +LN I+FN     L KG  +F+
+Sbjct  67   CGNYVICHNFTEDG--NLNVILFNTRPTILKKGVCIFK  102
+
+
+> UniRef90_A0A0A7KRG0 Ac82 n=1 Tax=Agrotis segetum nucleopolyhedrovirus 
+B TaxID=1580580 RepID=A0A0A7KRG0_9ABAC
+Length=209
+
+ Score = 69.7 bits (169),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 38/98 (39%), Positives = 60/98 (61%), Gaps = 2/98 (2%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT DI V+  ++ E D+NVL FI+ +EY+LKK  VGA+ + +  +  L  L + A +T++
+Sbjct  7    GTVDISVHVTLDKEADKNVLSFIVREEYHLKKLAVGAYSLNILDTQLLNDLAQRACNTIA  66
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQ  97
+            CGNY ++ N  +N    +N I+FN     L KG  +F+
+Sbjct  67   CGNYVIVYNFTENSNK-INVILFNTKPTILKKGNCIFK  103
+
+
+> UniRef90_B6D609 Telokinin-like peptide n=1 Tax=Agrotis ipsilon 
+multiple nucleopolyhedrovirus TaxID=208013 RepID=B6D609_9ABAC
+Length=210
+
+ Score = 69.3 bits (168),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 38/98 (39%), Positives = 60/98 (61%), Gaps = 2/98 (2%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT DI V+  ++ E D+NVL FI+ +EY+LKK  VGA+ + +  +  L  L + A +T++
+Sbjct  7    GTVDISVHVTLDKEADKNVLSFIVREEYHLKKLAVGAYSLNILDTQLLNDLAQRACTTIA  66
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQ  97
+            CGNY ++ N  +N    +N I+FN     L KG  +F+
+Sbjct  67   CGNYVIVYNFTENSN-KINVILFNIKPSILKKGNCIFK  103
+
+
+> UniRef90_B7SVW0 Putative uncharacterized protein n=1 Tax=Spodoptera 
+litura nucleopolyhedrovirus II TaxID=566270 RepID=B7SVW0_9ABAC
+Length=209
+
+ Score = 66.6 bits (161),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 39/98 (40%), Positives = 59/98 (60%), Gaps = 2/98 (2%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT DI V+  ++ E   NVL FI+ +EY+LKK  VGA+ I +  +  L  L ++  +TV+
+Sbjct  7    GTVDISVHVTLDKEAKRNVLSFIVREEYHLKKLAVGAYNINILDTQLLNSLAQHKCNTVA  66
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQ  97
+            CG+Y V+ N V+N    +N I+FN     L KG  +F+
+Sbjct  67   CGDYVVVYNFVENSNR-INVILFNIKPTILKKGNCIFK  103
+
+
+> UniRef90_A1YJ70 Telokinin-like peptide n=1 Tax=Spodoptera frugiperda 
+nuclear polyhedrosis virus TaxID=10455 RepID=A1YJ70_NPVSF
+Length=196
+
+ Score = 65.9 bits (159),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 37/99 (37%), Positives = 57/99 (58%), Gaps = 2/99 (2%)
+
+Query  1    GTPDIIVNAQINSED--ENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTV  58
+            GT DI V+  ++ E    NVL FI+ +EY+LKK  VGA+ I +  +  L  L +   +TV
+Sbjct  7    GTIDISVHVTLDKESSKRNVLSFIVREEYHLKKLAVGAYNINILDTQLLNNLSQYKCNTV  66
+
+Query  59   SCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQ  97
+            +CG+Y ++ N  +N    +N I+FN     L KG  +F+
+Sbjct  67   ACGDYVIVYNFTENTSNRINVILFNIKPTILKKGNCIFK  105
+
+
+> UniRef90_Q287I3 ORF-89 n=1 Tax=Agrotis segetum nuclear polyhedrosis 
+virus TaxID=31508 RepID=Q287I3_NPVAS
+Length=187
+
+ Score = 65.1 bits (157),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 35/98 (36%), Positives = 60/98 (61%), Gaps = 2/98 (2%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT DI V+  ++ E D++VL FI+ +EY+LKK  VGA+ + +  +  L  L + + +T++
+Sbjct  7    GTVDISVHVTLDKEADKSVLSFIVREEYHLKKLAVGAYSLNILDTQLLNDLARKSCATIA  66
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQ  97
+            CG+Y +  N  +N    +N I+FN     L KG+ +F+
+Sbjct  67   CGDYVIAYNFTENSNK-INVILFNIKPSVLKKGKCIFK  103
+
+
+> UniRef90_A0EYW8 Telokin-like protein 20 n=1 Tax=Ectropis obliqua 
+nucleopolyhedrovirus TaxID=59376 RepID=A0EYW8_9ABAC
+Length=284
+
+ Score = 65.9 bits (159),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 37/103 (36%), Positives = 59/103 (57%), Gaps = 6/103 (6%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT  I V   ++ E D N+L FI++DEY+LKK  VGA+ + +  +  L  L +++Y  V 
+Sbjct  20   GTVSIAVYTIVDKENDYNILSFIVQDEYHLKKLAVGAYNLNILDTQLLNTLEESSYHVVV  79
+
+Query  60   CGNYGVLCNLV-----QNGEYDLNAIMFNCAEIKLNKGQMLFQ  97
+            CG++ +  N+V     +     LN I+FNC  + LNK   +F+
+Sbjct  80   CGDFVITHNIVDRKYARTPNTKLNVILFNCKPVVLNKSDCIFK  122
+
+
+> UniRef90_Q9J859 ORF78 n=3 Tax=Spodoptera exigua multiple nucleopolyhedrovirus 
+TaxID=10454 RepID=Q9J859_9ABAC
+Length=196
+
+ Score = 63.9 bits (154),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 38/98 (39%), Positives = 58/98 (59%), Gaps = 2/98 (2%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT DI V+  ++ E   NVL FI+ +EY+LKK  VGA+ I +  +  L  L ++  +T++
+Sbjct  7    GTIDISVHVTLDKEAKRNVLSFIVREEYHLKKLAVGAYNITILDTQLLNSLQQHRCNTIA  66
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQ  97
+            CG+Y V+ N V N    +N I+FN     L KG  +F+
+Sbjct  67   CGDYVVVYNFVDNSN-KINVILFNIKPTILKKGNCIFK  103
+
+
+> UniRef90_C3TWY1 TLP-20 n=1 Tax=Euproctis pseudoconspersa nucleopolyhedrovirus 
+TaxID=307467 RepID=C3TWY1_9ABAC
+Length=285
+
+ Score = 64.7 bits (156),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 38/101 (38%), Positives = 56/101 (55%), Gaps = 4/101 (4%)
+
+Query  1    GTPDI----IVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYS  56
+            GT DI    I++  IN  D+ VL FI++DEY+LKK  +GA+ + +  +  L  L +    
+Sbjct  40   GTVDISVYTILDKDINDCDKKVLSFIVQDEYHLKKLAIGAYTLNILDTQLLSDLMERDCV  99
+
+Query  57   TVSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQ  97
+            TVSCG++ V  N  +     LN I+FN     L KG  +F+
+Sbjct  100  TVSCGDFVVCHNFTELANCGLNVILFNIKPTILKKGVCIFK  140
+
+
+> UniRef90_A0A097P933 Tlp-20 n=1 Tax=Sucra jujuba nucleopolyhedrovirus 
+TaxID=1563660 RepID=A0A097P933_9ABAC
+Length=240
+
+ Score = 62.8 bits (151),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 33/81 (41%), Positives = 51/81 (63%), Gaps = 2/81 (2%)
+
+Query  17   NVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCGNYGVLCNLVQNGEYD  76
+            N+L FI++DEY+LKK  +GA+ + +  +  L+ L  +   TVSCG+Y +  N+ +NG   
+Sbjct  25   NILSFIVQDEYHLKKLTIGAYNLNILPTQLLKDLRNHYCVTVSCGDYVITHNVNENG--G  82
+
+Query  77   LNAIMFNCAEIKLNKGQMLFQ  97
+            LN IMFN   + L +G  LF+
+Sbjct  83   LNVIMFNSKPLTLKRGACLFK  103
+
+
+> UniRef90_Q0IL26 Tlp-20 n=1 Tax=Leucania separata nucleopolyhedrovirus 
+TaxID=1307956 RepID=Q0IL26_NPVLS
+Length=285
+
+ Score = 63.2 bits (152),  Expect = 9e-10, Method: Compositional matrix adjust.
+ Identities = 37/93 (40%), Positives = 57/93 (61%), Gaps = 2/93 (2%)
+
+Query  5    IIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCGNYG  64
+            + V+   N ED NVL FI++DE +LKK  +GA+ +K+  +  L+ L +     VS G+Y 
+Sbjct  13   VYVSMDRNDEDRNVLSFIVQDECHLKKLAIGAYALKILDTKLLQSLGERKCIVVSGGDYV  72
+
+Query  65   VLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQ  97
+            ++ N+  N    +NAI+FN   IKL+KG  LF+
+Sbjct  73   IVHNI--NEANGINAILFNKNPIKLHKGMCLFK  103
+
+
+> UniRef90_Q80PB1 Orf2 n=1 Tax=Spodoptera litura multicapsid nucleopolyhedrovirus 
+TaxID=46242 RepID=Q80PB1_NPVST
+Length=193
+
+ Score = 61.6 bits (148),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 37/98 (38%), Positives = 57/98 (58%), Gaps = 2/98 (2%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT DI V+  ++ E  +NVL FI+ +EY+LKK  VGA+ I +  +  L  L      T++
+Sbjct  7    GTIDISVHVTLDKEAKKNVLSFIVREEYHLKKLAVGAYSINILDTQLLNNLSLYQCKTIA  66
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQ  97
+            CG+Y ++ N V+N    +N I+FN     L KG  +F+
+Sbjct  67   CGDYVIVYNFVENSNR-INVILFNIKPTILKKGNCIFK  103
+
+
+> UniRef90_Q8JM51 Putative uncharacterized protein n=7 Tax=Alphabaculovirus 
+TaxID=558016 RepID=Q8JM51_9ABAC
+Length=195
+
+ Score = 61.6 bits (148),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 35/97 (36%), Positives = 58/97 (60%), Gaps = 2/97 (2%)
+
+Query  2    TPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSC  60
+            T DI V+  ++ E ++N+L FI+ +EY+LKK  VGA+ + +  +  L  L + A +TV+C
+Sbjct  8    TVDISVHVTLDKEANKNILSFIVREEYHLKKLAVGAYSLNILDTQLLNDLAQRAGTTVAC  67
+
+Query  61   GNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQ  97
+            G+Y +  N  +N    +N I+FN     L KG  +F+
+Sbjct  68   GDYVICYNFTENSN-KINVILFNIKPTVLKKGGCIFK  103
+
+
+> UniRef90_Q91BE7 Telokin-like protein-20 n=2 Tax=Spodoptera litura 
+multicapsid nucleopolyhedrovirus TaxID=46242 RepID=Q91BE7_NPVST
+Length=197
+
+ Score = 60.5 bits (145),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 39/103 (38%), Positives = 61/103 (59%), Gaps = 8/103 (8%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQL--RLLYKNAY--  55
+            GT DI V+  +  E D+ VL FI++DE +LKK  +GA+ I V  S ++  +LL  N +  
+Sbjct  7    GTVDIAVDVNLTDENDKKVLSFIVQDECHLKKLAIGAYAINVIDSNKILNKLLNDNDHVL  66
+
+Query  56   -STVSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQ  97
+               V+CG + + CN  +N    +NAI+FN + + L KG  +F+
+Sbjct  67   NKIVACGEFLIACN--ENESNGINAILFNKSCVTLKKGVCIFK  107
+
+
+> UniRef90_Q4KT00 ORF-80 peptide n=4 Tax=Chrysodeixis chalcites 
+nucleopolyhedrovirus TaxID=320432 RepID=Q4KT00_9ABAC
+Length=235
+
+ Score = 60.5 bits (145),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 40/100 (40%), Positives = 58/100 (58%), Gaps = 5/100 (5%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNA--YST  57
+            GT DI V   ++ E DEN+L FI++DEY+LKK  VGA+ + +  +  L  L +N    ST
+Sbjct  7    GTVDIAVYVTLDKENDENILSFIVQDEYHLKKLAVGAYNLNILDTQLLAKLIQNQSRSST  66
+
+Query  58   VSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQ  97
+            +  G+Y V+ N   N   +LN I+FN     L KG  +F+
+Sbjct  67   IVGGDYVVVYNF--NMSNNLNVILFNIKPTILKKGACIFK  104
+
+
+> UniRef90_Q0N426 Tlp20/ac83-like protein n=1 Tax=Clanis bilineata 
+nucleopolyhedrovirus TaxID=1307957 RepID=Q0N426_9ABAC
+Length=289
+
+ Score = 59.7 bits (143),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 33/91 (36%), Positives = 54/91 (59%), Gaps = 7/91 (8%)
+
+Query  17   NVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYS------TVSCGNYGVLCNLV  70
+            +VL FI+ DEY+LKK  VGA+ + +  S  L++++    S      TVSCG++ V+ N  
+Sbjct  64   DVLSFIVRDEYHLKKLAVGAYSLNILDSHHLKIMHDAVKSANATVQTVSCGDFVVVYNYT  123
+
+Query  71   QNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+            +  + +LNAI+FN     L K  ++F+  I+
+Sbjct  124  EMSK-NLNAILFNAKPTILKKDGVIFKVIIY  153
+
+
+> UniRef90_Q461Z1 Orf75 n=1 Tax=Trichoplusia ni single nucleopolyhedrovirus 
+TaxID=332054 RepID=Q461Z1_9ABAC
+Length=278
+
+ Score = 58.9 bits (141),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 40/100 (40%), Positives = 58/100 (58%), Gaps = 5/100 (5%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNA--YST  57
+            GT DI V   ++ E D+N+L FI++DEY+LKK  VGA+ + +  +  L  L +N    ST
+Sbjct  40   GTVDIAVYVTLDKENDKNILSFIVQDEYHLKKLAVGAYNLNILDTQLLAKLAQNQCRSST  99
+
+Query  58   VSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQ  97
+            +  G+Y V+ N   N   +LN I+FN     L KG  +FQ
+Sbjct  100  IVGGDYVVVYNF--NVCNNLNVILFNIKPTVLKKGTSIFQ  137
+
+
+> UniRef90_M1JNW8 Telokin-like protein-20 n=1 Tax=Spodoptera littoralis 
+nuclear polyhedrosis virus TaxID=10456 RepID=M1JNW8_NPVSL
+Length=193
+
+ Score = 57.8 bits (138),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 37/103 (36%), Positives = 61/103 (59%), Gaps = 8/103 (8%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQL--RLLYKNAY--  55
+            GT DI V+  ++ + D+ VL FI++DE +LKK  +GA+ I V  S ++  +LL   ++  
+Sbjct  7    GTVDIAVDVSLSDDNDKKVLSFIVQDECHLKKLAIGAYAINVIDSNKILNKLLNDGSHRL  66
+
+Query  56   -STVSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQ  97
+               V+CG + + CN  +N    +NAI+FN   + L KG  +F+
+Sbjct  67   DKIVACGEFLIACN--ENESNSINAILFNKNCVTLKKGVCIFK  107
+
+
+> UniRef90_A0A1B1V5H4 Ac82 n=1 Tax=Malacosoma sp. alphabaculovirus 
+TaxID=1881632 RepID=A0A1B1V5H4_9ABAC
+Length=237
+
+ Score = 58.2 bits (139),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 31/84 (37%), Positives = 51/84 (61%), Gaps = 2/84 (2%)
+
+Query  14   EDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCGNYGVLCNLVQNG  73
+            +++N+L FI++DEY+LKK  VGA+ + +  +  L  L     + ++CG+Y V+ N+  + 
+Sbjct  52   DNKNILSFIVQDEYHLKKLTVGAYNLNILDTQLLSNLSSVHCNVIACGDYVVVFNVTDSN  111
+
+Query  74   EYDLNAIMFNCAEIKLNKGQMLFQ  97
+               LNAI+FN     L KG  LF+
+Sbjct  112  R--LNAILFNAKPTILKKGSCLFK  133
+
+
+> UniRef90_A0A1D8QNL7 Telokin-like protein n=7 Tax=Lymantria dispar 
+multicapsid nuclear polyhedrosis virus TaxID=10449 RepID=A0A1D8QNL7_NPVLD
+Length=193
+
+ Score = 57.0 bits (136),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 36/82 (44%), Positives = 48/82 (59%), Gaps = 4/82 (5%)
+
+Query  17   NVLDFIIEDEYYLKKRGVGAHIIKVASSPQLR-LLYKNAYSTVSCGNYGVLCNLVQNGEY  75
+            + L FI++DEY+LKK  VGA+ I V  +  L  LL K  Y T+ CGNY V+ N  Q  E 
+Sbjct  24   HTLSFIVQDEYHLKKLTVGAYNINVLDTRLLDGLLEKRCY-TIVCGNYNVIYNFTQ--EK  80
+
+Query  76   DLNAIMFNCAEIKLNKGQMLFQ  97
+             L  I+FN + I L K   +F+
+Sbjct  81   TLRVILFNASPIVLKKHSCIFK  102
+
+
+> UniRef90_D4N2C3 Telokin-like protein n=1 Tax=Lymantria xylina 
+MNPV TaxID=745177 RepID=D4N2C3_9ABAC
+Length=188
+
+ Score = 56.6 bits (135),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 33/84 (39%), Positives = 47/84 (56%), Gaps = 2/84 (2%)
+
+Query  14   EDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCGNYGVLCNLVQNG  73
+            E  + L FI++DEY+LKK  VGA+ I V  +  L  L K    T+ CGNY V+ N  +  
+Sbjct  21   EFRHTLSFIVQDEYHLKKLTVGAYNINVLDTQLLDGLLKKRCYTIVCGNYNVIYNFTE--  78
+
+Query  74   EYDLNAIMFNCAEIKLNKGQMLFQ  97
+            E  L  ++FN + I L K   +F+
+Sbjct  79   EKKLRVMLFNASPIVLKKHSCIFK  102
+
+
+> UniRef90_D7F5T8 Tlp-20 n=1 Tax=Apocheima cinerarium nucleopolyhedrovirus 
+TaxID=307461 RepID=D7F5T8_9ABAC
+Length=229
+
+ Score = 57.0 bits (136),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 36/99 (36%), Positives = 59/99 (60%), Gaps = 4/99 (4%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT +I V   ++ E ++N+L FI++DEY+LKK  VGA+ + +  +  L  L +   ST+S
+Sbjct  20   GTVNIAVYTTLDKEKNKNILSFIVQDEYHLKKLPVGAYSLNILDTQLLNNLSEYVCSTIS  79
+
+Query  60   CGNYGVLCNLVQNGEYD-LNAIMFNCAEIKLNKGQMLFQ  97
+            CG+Y V  N  +  +Y+ L+ I+FN     L K   +F+
+Sbjct  80   CGDYVVCHNFTE--QYNKLSVILFNTKPTILKKNHCIFK  116
+
+
+> UniRef90_S5N3M0 TLP n=3 Tax=Alphabaculovirus TaxID=558016 RepID=S5N3M0_NPVCF
+Length=155
+
+ Score = 55.5 bits (132),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 33/103 (32%), Positives = 60/103 (58%), Gaps = 8/103 (8%)
+
+Query  2    TPDIIVNAQI--NSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            TPDI+V  ++    +D  VL+F  E+E+ L K   GAH ++V +SP+L  L+   Y+ ++
+Sbjct  8    TPDIVVKVRVVFADDDVTVLEFEAENEHCLMK---GAHDVRVIASPELDALHNGPYNLIT  64
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAE-IKLNKGQMLFQTKIW  101
+             GNY    NLV +  +    +++  ++ IK++    +F+ K+W
+Sbjct  65   LGNYTFHYNLVDSDRFGAQVMLYVKSDNIKISGA--VFRLKVW  105
+
+
+> UniRef90_Q91GH9 Putative uncharacterized protein n=1 Tax=Epiphyas 
+postvittana nucleopolyhedrovirus TaxID=70600 RepID=Q91GH9_NPVEP
+Length=154
+
+ Score = 55.5 bits (132),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 34/102 (33%), Positives = 54/102 (53%), Gaps = 6/102 (6%)
+
+Query  2    TPDIIVNAQINSEDEN--VLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            T DI+VNA+    DE+  +L F  + E  L +   GAH + V  S +L  L+  AYS  +
+Sbjct  8    TSDIVVNARFVDTDEDTILLKFFTDKEQRLMR---GAHDVHVVPSSELEALHNGAYSKFT  64
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+             GNY V  NL++N    +  ++F   E  +    ++F+ K+W
+Sbjct  65   NGNYTVDVNLLKNDHRAVQVMLF-AKEDNVILNDVVFEIKVW  105
+
+
+> UniRef90_A0A068LMN3 Tlp-like protein n=1 Tax=Peridroma alphabaculovirus 
+TaxID=1346829 RepID=A0A068LMN3_9ABAC
+Length=181
+
+ Score = 54.7 bits (130),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 33/99 (33%), Positives = 58/99 (59%), Gaps = 3/99 (3%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQL-RLLYKNAYSTV  58
+            GT DI  +  ++ + ++NVL FI+ +EY+LKK  VGA+ + +  +  L  L  ++  +TV
+Sbjct  7    GTVDISAHVTLDRDANKNVLSFIVREEYHLKKLAVGAYSLNILDTQLLNNLSERHNCTTV  66
+
+Query  59   SCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQ  97
+            +CG+Y ++ N  +N    +N I+FN     L K   +F+
+Sbjct  67   ACGDYVIVHNFTENSN-KINVILFNIKPTVLKKDVCIFK  104
+
+
+> UniRef90_A0A1B1MQW7 Telokin-like protein n=1 Tax=Lymantria dispar 
+multicapsid nuclear polyhedrosis virus TaxID=10449 RepID=A0A1B1MQW7_NPVLD
+Length=235
+
+ Score = 54.3 bits (129),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 32/84 (38%), Positives = 47/84 (56%), Gaps = 2/84 (2%)
+
+Query  14   EDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCGNYGVLCNLVQNG  73
+            E ++ L FI++DEY+LKK  VGA+ I V  +  L  L +     + CGNY V+ N  Q  
+Sbjct  21   EFKHTLSFIVQDEYHLKKLTVGAYNINVLDTRLLDGLAEKICFAIVCGNYNVIYNFTQ--  78
+
+Query  74   EYDLNAIMFNCAEIKLNKGQMLFQ  97
+            E  L  I+FN + + L K   +F+
+Sbjct  79   EKSLRVILFNASPVVLKKHSCIFK  102
+
+
+> UniRef90_Q6VTR2 Telokin-like protein-20 n=3 Tax=Alphabaculovirus 
+TaxID=558016 RepID=Q6VTR2_NPVCD
+Length=153
+
+ Score = 53.1 bits (126),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 32/102 (31%), Positives = 55/102 (54%), Gaps = 6/102 (6%)
+
+Query  2    TPDIIVNAQI--NSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            T DI+V A++   S+ E VL+F  E+E+ L K   G H +++  S +L  L+ N ++ ++
+Sbjct  8    TSDIVVRARVVPASDGETVLEFGAENEHRLMK---GPHDVRIMPSDELEALHDNPHAVIT  64
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+            CG Y V  NL      +  A++    +  L  G  +F+ K+W
+Sbjct  65   CGEYTVEFNLSSRDRREAQALLSVKQDDVLVSGG-VFRLKLW  105
+
+
+> UniRef90_A0A0E3JAT6 Telokin like protein 20 n=11 Tax=Alphabaculovirus 
+TaxID=558016 RepID=A0A0E3JAT6_9ABAC
+Length=225
+
+ Score = 53.9 bits (128),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 35/100 (35%), Positives = 52/100 (52%), Gaps = 5/100 (5%)
+
+Query  1    GTPDIIVNAQINSEDEN---VLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYST  57
+            GT DI      + E E     L F+++DEY+LKK  VGA+ + +  +  L  L+    +T
+Sbjct  20   GTVDIATYVVQDREPEKNIITLSFVVQDEYHLKKLAVGAYCVNILDTRLLSNLHNKQCAT  79
+
+Query  58   VSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQ  97
+            ++CG + V  N  QN    +NAI+ N     L KG  LF+
+Sbjct  80   IACGYFVVTYN--QNETGGINAILLNTRPTILKKGSCLFK  117
+
+
+> UniRef90_Q1HH27 Telokin-like protein-20 n=1 Tax=Antheraea pernyi 
+nuclear polyhedrosis virus TaxID=161494 RepID=Q1HH27_NPVAP
+Length=152
+
+ Score = 53.1 bits (126),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 30/105 (29%), Positives = 58/105 (55%), Gaps = 12/105 (11%)
+
+Query  2    TPDIIVNAQI--NSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            T DI+V A+    S+ + VL+F+ E+E+ L +   GAH +++  S +L  L+ + +S ++
+Sbjct  8    TSDIVVKARAVSASDGQTVLEFVAENEHRLMR---GAHDVRIVPSAELEALHDSPHSVIT  64
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQM---LFQTKIW  101
+            CG+Y V  NL         A++F    +K +   +   +F+ ++W
+Sbjct  65   CGDYTVEFNLSSRDLRAGQAMLF----VKRDDASVAGAVFRLRLW  105
+
+
+> UniRef90_A0A0B4UK94 Telokin-like protein-20 n=1 Tax=Condylorrhiza 
+vestigialis MNPV TaxID=1592576 RepID=A0A0B4UK94_9ABAC
+Length=153
+
+ Score = 52.8 bits (125),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 31/102 (30%), Positives = 58/102 (57%), Gaps = 6/102 (6%)
+
+Query  2    TPDIIVNAQI--NSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            T DI+V A++   ++ E VL+F  ++E+ L K   GAH +++  S +L  L+ + +S ++
+Sbjct  8    TSDIVVRARVVLANDGETVLEFGAKNEHRLMK---GAHDVRIVPSDELEALHDSPHSVIT  64
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+            CG+Y V  NL    + +  A++    +  L  G  +F+ K+W
+Sbjct  65   CGDYTVEFNLSSRDKREAQALLSVKRDDMLVSG-AVFRLKLW  105
+
+
+> UniRef90_S5MK40 Tlp n=1 Tax=Hemileuca sp. nucleopolyhedrovirus 
+TaxID=1367203 RepID=S5MK40_9ABAC
+Length=351
+
+ Score = 54.7 bits (130),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 33/98 (34%), Positives = 53/98 (54%), Gaps = 2/98 (2%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT +I V   +  + D N+L FI++DEY+LKK  VGA+ + +  +  L  L +     +S
+Sbjct  63   GTVNIAVYVTLERKVDRNILSFIVQDEYHLKKLAVGAYSLNILHTQLLNNLIEYDCKVIS  122
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQ  97
+            CG++ V+C+        LN I+FN     L K   +F+
+Sbjct  123  CGDF-VICHNYSEHNNGLNVILFNTKPTILKKESCIFK  159
+
+
+> UniRef90_S5MKW0 TLP n=1 Tax=Choristoneura rosaceana alphabaculovirus 
+TaxID=1367205 RepID=S5MKW0_9ABAC
+Length=155
+
+ Score = 52.8 bits (125),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 32/105 (30%), Positives = 60/105 (57%), Gaps = 12/105 (11%)
+
+Query  2    TPDIIVNAQINSEDEN--VLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            T DI+V A++   D++  VL+F  E+E+ L K   GAH ++V +SP+L  L+   Y+ ++
+Sbjct  8    TSDIVVKARVLVADDDGMVLEFEAENEHCLMK---GAHDVRVIASPELDALHNGPYNEIT  64
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQM---LFQTKIW  101
+             G+Y    NL+ +  +    ++F    +K N  ++   +F+ K+W
+Sbjct  65   LGDYTFHYNLIDSDRFGAQVMLF----VKRNNIKISGAVFRLKVW  105
+
+
+> UniRef90_Q2NP03 Telokin-like peptide n=1 Tax=Hyphantria cunea 
+nuclear polyhedrosis virus TaxID=28288 RepID=Q2NP03_NPVHC
+Length=155
+
+ Score = 52.4 bits (124),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 32/103 (31%), Positives = 58/103 (56%), Gaps = 8/103 (8%)
+
+Query  2    TPDIIVNAQINSEDEN--VLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            T DI+V A++  ED++  VL+F  E+E+ L K   GAH + V  SP+L  L+   Y+ ++
+Sbjct  8    TSDIVVRARVLVEDDDNTVLEFEAENEHRLMK---GAHEVHVVVSPELDALHNGPYNEIT  64
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMF-NCAEIKLNKGQMLFQTKIW  101
+             G+Y    NL+++  +    ++F    +IK+     +F+  +W
+Sbjct  65   LGDYTFHYNLMESNRFGAQVMLFVKKDDIKI--AGPVFRLHVW  105
+
+
+> UniRef90_A0A0B4ZZH4 Telokinin-like peptide n=3 Tax=Chrysodeixis 
+includens nucleopolyhedrovirus TaxID=1207438 RepID=A0A0B4ZZH4_9ABAC
+Length=239
+
+ Score = 53.1 bits (126),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 37/95 (39%), Positives = 54/95 (57%), Gaps = 5/95 (5%)
+
+Query  1   GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNA--YST  57
+           GT DI V   ++ + D+N+L FI++DEY+LKK  VGA+ + +  +  L  L +N    ST
+Sbjct  7   GTVDIAVYVTLDKDNDKNILSFIVQDEYHLKKLAVGAYNLNILDTQLLAKLAQNQCRSST  66
+
+Query  58  VSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKG  92
+           +  G Y V+ N   N   +LN I+FN     L KG
+Sbjct  67  IVEGEYVVVYNF--NIRNNLNVILFNIKPTVLKKG  99
+
+
+> UniRef90_O10335 Telokin-like protein 20 homolog n=2 Tax=Alphabaculovirus 
+TaxID=558016 RepID=TLP20_NPVOP
+Length=155
+
+ Score = 50.4 bits (119),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 31/103 (30%), Positives = 58/103 (56%), Gaps = 8/103 (8%)
+
+Query  2    TPDIIVNAQ--INSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            T DI+V A+  I  ++  +L+F  E+E+ L +   GAH ++V +SP+L  L+   Y+ ++
+Sbjct  8    TSDIVVRARVLIADDEGTLLEFEAENEHCLMR---GAHEVRVIASPELDALHNGPYNEIA  64
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMF-NCAEIKLNKGQMLFQTKIW  101
+             G+Y    NLV    +    ++F    +IK++    +F+ K+W
+Sbjct  65   LGDYTFHFNLVAANRFGAQVMLFAKRDDIKVSGA--VFRLKVW  105
+
+
+> UniRef90_A0A0E3URB4 Tlp n=1 Tax=Lambdina fiscellaria nucleopolyhedrovirus 
+TaxID=1642929 RepID=A0A0E3URB4_9ABAC
+Length=284
+
+ Score = 49.3 bits (116),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 33/103 (32%), Positives = 57/103 (55%), Gaps = 7/103 (7%)
+
+Query  1    GTPDIIVNAQINSEDEN---VLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYST  57
+            GT  I V   ++  ++N   VL F+++DEY+LKK  VGA+ I+V ++  L  L +N    
+Sbjct  7    GTDSIAVRVTVDKSNDNENSVLLFVVQDEYHLKKLTVGAYDIRVTNAQTLIELSRNPTRN  66
+
+Query  58   ---VSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQ  97
+               V+C +Y V+C+        +N ++ N   + L KG+ +F+
+Sbjct  67   SLIVTCDDY-VICHNFTETPNAINFLLLNKKPLILKKGKCMFK  108
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.138    0.408    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 438012730055
+Results from round 2
+
+
+Query= d1tula_
+
+Length=102
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_Q06691 Telokin-like protein 20 n=6 Tax=Autographa cali...  152     5e-44
+  UniRef90_B7SVW0 Putative uncharacterized protein n=1 Tax=Spodop...  149     1e-42
+  UniRef90_B0FDU2 Tlp-20 n=1 Tax=Orgyia leucostigma NPV TaxID=490...  149     2e-42
+  UniRef90_L0CLN3 Tlp protein n=1 Tax=Thysanoplusia orichalcea nu...  146     8e-42
+  UniRef90_B6D609 Telokinin-like peptide n=1 Tax=Agrotis ipsilon ...  147     8e-42
+  UniRef90_A1YRC7 Telokin-like protein n=1 Tax=Maruca vitrata nuc...  146     9e-42
+  UniRef90_A1YJ70 Telokinin-like peptide n=1 Tax=Spodoptera frugi...  146     1e-41
+  UniRef90_Q287I3 ORF-89 n=1 Tax=Agrotis segetum nuclear polyhedr...  145     3e-41
+  UniRef90_A0A0A7KRG0 Ac82 n=1 Tax=Agrotis segetum nucleopolyhedr...  144     6e-41
+  UniRef90_Q80PB1 Orf2 n=1 Tax=Spodoptera litura multicapsid nucl...  143     1e-40
+  UniRef90_O92445 AcMNPV orf82 n=6 Tax=Bombyx mori nuclear polyhe...  143     2e-40
+  UniRef90_Q9J859 ORF78 n=3 Tax=Spodoptera exigua multiple nucleo...  140     3e-39
+  UniRef90_V9LSY6 DekiORF72 n=1 Tax=Dendrolimus kikuchii nucleopo...  139     3e-39
+  UniRef90_W5VL52 TLP-20 n=2 Tax=Buzura suppressaria nuclear poly...  139     1e-38
+  UniRef90_D7F5T8 Tlp-20 n=1 Tax=Apocheima cinerarium nucleopolyh...  136     2e-37
+  UniRef90_Q8JM51 Putative uncharacterized protein n=7 Tax=Alphab...  135     2e-37
+  UniRef90_A0A068LMN3 Tlp-like protein n=1 Tax=Peridroma alphabac...  134     2e-37
+  UniRef90_S5MK40 Tlp n=1 Tax=Hemileuca sp. nucleopolyhedrovirus ...  137     1e-36
+  UniRef90_C3TWY1 TLP-20 n=1 Tax=Euproctis pseudoconspersa nucleo...  134     3e-36
+  UniRef90_D4N2C3 Telokin-like protein n=1 Tax=Lymantria xylina M...  132     3e-36
+  UniRef90_A0A172WZC7 Tlp20 n=1 Tax=Catopsilia pomona nucleopolyh...  132     1e-35
+  UniRef90_A0A1D8QNL7 Telokin-like protein n=7 Tax=Lymantria disp...  130     2e-35
+  UniRef90_A0A097P933 Tlp-20 n=1 Tax=Sucra jujuba nucleopolyhedro...  128     2e-34
+  UniRef90_Q0IL26 Tlp-20 n=1 Tax=Leucania separata nucleopolyhedr...  129     3e-34
+  UniRef90_A0A1B1MQW7 Telokin-like protein n=1 Tax=Lymantria disp...  128     4e-34
+  UniRef90_A0A126FC50 TELOKIN-like protein n=1 Tax=Lonomia obliqu...  127     4e-34
+  UniRef90_A0A1B1V5H4 Ac82 n=1 Tax=Malacosoma sp. alphabaculoviru...  127     7e-34
+  UniRef90_S5N3M0 TLP n=3 Tax=Alphabaculovirus TaxID=558016 RepID...  125     8e-34
+  UniRef90_Q4KT00 ORF-80 peptide n=4 Tax=Chrysodeixis chalcites n...  126     1e-33
+  UniRef90_Q2NP03 Telokin-like peptide n=1 Tax=Hyphantria cunea n...  124     2e-33
+  UniRef90_S5MKW0 TLP n=1 Tax=Choristoneura rosaceana alphabaculo...  123     2e-33
+  UniRef90_A0A0B4UK94 Telokin-like protein-20 n=1 Tax=Condylorrhi...  123     3e-33
+  UniRef90_A0A0E3JAT6 Telokin like protein 20 n=11 Tax=Alphabacul...  125     4e-33
+  UniRef90_Q6VTR2 Telokin-like protein-20 n=3 Tax=Alphabaculoviru...  123     5e-33
+  UniRef90_Q461Z1 Orf75 n=1 Tax=Trichoplusia ni single nucleopoly...  124     2e-32
+  UniRef90_O10335 Telokin-like protein 20 homolog n=2 Tax=Alphaba...  121     2e-32
+  UniRef90_A0A0B4ZZH4 Telokinin-like peptide n=3 Tax=Chrysodeixis...  123     3e-32
+  UniRef90_A0EYW8 Telokin-like protein 20 n=1 Tax=Ectropis obliqu...  122     2e-31
+  UniRef90_Q1HH27 Telokin-like protein-20 n=1 Tax=Antheraea perny...  118     3e-31
+  UniRef90_Q0N426 Tlp20/ac83-like protein n=1 Tax=Clanis bilineat...  121     6e-31
+  UniRef90_M1JNW8 Telokin-like protein-20 n=1 Tax=Spodoptera litt...  115     1e-29
+  UniRef90_Q91BE7 Telokin-like protein-20 n=2 Tax=Spodoptera litu...  114     2e-29
+  UniRef90_A0A0E3URB4 Tlp n=1 Tax=Lambdina fiscellaria nucleopoly...  113     3e-28
+  UniRef90_Q91GH9 Putative uncharacterized protein n=1 Tax=Epiphy...  104     8e-26
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A162GUV3 Uncharacterized protein n=1 Tax=Urbanus pro...  101     3e-24
+  UniRef90_Q80LN1 Putative uncharacterized protein n=2 Tax=Alphab...  79.5    5e-16
+  UniRef90_A0A0M3WNI4 Uncharacterized protein n=1 Tax=Perigonia l...  78.7    1e-15
+  UniRef90_Q6QXL3 ORF93 n=1 Tax=Agrotis segetum granulosis virus ...  59.5    7e-09
+  UniRef90_Q9DVU8 PxGV-Corf83 protein n=2 Tax=Plutella xylostella...  56.0    9e-08
+  UniRef90_A0A0C5AQ90 Tlp20 n=1 Tax=Spodoptera frugiperda granulo...  55.2    2e-07
+  UniRef90_A0A161CD46 Uncharacterized protein n=1 Tax=Mocis sp. g...  52.5    2e-06
+  UniRef90_B6S6Z2 Telokinik-like protein-20 n=2 Tax=Pseudalatia u...  50.2    8e-06
+  UniRef90_Q9PYS5 ORF119 n=2 Tax=Betabaculovirus TaxID=558017 Rep...  50.2    9e-06
+
+
+> UniRef90_Q06691 Telokin-like protein 20 n=6 Tax=Autographa californica 
+multiple nucleopolyhedrovirus TaxID=307456 RepID=TLP20_NPVAC
+Length=180
+
+ Score = 152 bits (384),  Expect = 5e-44, Method: Composition-based stats.
+ Identities = 101/101 (100%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  2    TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  61
+            TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG
+Sbjct  8    TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  67
+
+Query  62   NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIWR  102
+            NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIWR
+Sbjct  68   NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIWR  108
+
+
+> UniRef90_B7SVW0 Putative uncharacterized protein n=1 Tax=Spodoptera 
+litura nucleopolyhedrovirus II TaxID=566270 RepID=B7SVW0_9ABAC
+Length=209
+
+ Score = 149 bits (376),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 39/99 (39%), Positives = 59/99 (60%), Gaps = 2/99 (2%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT DI V+  ++ E   NVL FI+ +EY+LKK  VGA+ I +  +  L  L ++  +TV+
+Sbjct  7    GTVDISVHVTLDKEAKRNVLSFIVREEYHLKKLAVGAYNINILDTQLLNSLAQHKCNTVA  66
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQT  98
+            CG+Y V+ N V+N    +N I+FN     L KG  +F+ 
+Sbjct  67   CGDYVVVYNFVENSNR-INVILFNIKPTILKKGNCIFKI  104
+
+
+> UniRef90_B0FDU2 Tlp-20 n=1 Tax=Orgyia leucostigma NPV TaxID=490711 
+RepID=B0FDU2_9ABAC
+Length=248
+
+ Score = 149 bits (378),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 39/99 (39%), Positives = 58/99 (59%), Gaps = 1/99 (1%)
+
+Query  1    GTPDIIVNAQINSED-ENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT DI V   ++ ED +N+L FI++DEY+LKK  VGA+ + +  +  L  L +   ST+S
+Sbjct  7    GTVDIAVYTTLDKEDNKNILSFIVQDEYHLKKLAVGAYSLNILDTQLLNDLSERNCSTIS  66
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQT  98
+            CGN+ +  N  +     LNAI+FN     L KG  +F+ 
+Sbjct  67   CGNFVICHNFTEQKNNALNAILFNTKPTILKKGVCIFKI  105
+
+
+> UniRef90_L0CLN3 Tlp protein n=1 Tax=Thysanoplusia orichalcea 
+nucleopolyhedrovirus TaxID=101850 RepID=L0CLN3_9ABAC
+Length=180
+
+ Score = 146 bits (369),  Expect = 8e-42, Method: Composition-based stats.
+ Identities = 88/101 (87%), Positives = 94/101 (93%), Gaps = 0/101 (0%)
+
+Query  2    TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  61
+            TPDIIVNAQ NS D N+LDFIIEDEYYLKKRGVGAH+IKVASSPQL+ LYKNAYSTVSCG
+Sbjct  5    TPDIIVNAQFNSSDINILDFIIEDEYYLKKRGVGAHVIKVASSPQLKPLYKNAYSTVSCG  64
+
+Query  62   NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIWR  102
+            NYG+LCNLVQNGEYDL AIMFNCAEIKLNKG +LFQ KIW+
+Sbjct  65   NYGILCNLVQNGEYDLTAIMFNCAEIKLNKGDVLFQIKIWQ  105
+
+
+> UniRef90_B6D609 Telokinin-like peptide n=1 Tax=Agrotis ipsilon 
+multiple nucleopolyhedrovirus TaxID=208013 RepID=B6D609_9ABAC
+Length=210
+
+ Score = 147 bits (371),  Expect = 8e-42, Method: Composition-based stats.
+ Identities = 38/99 (38%), Positives = 60/99 (61%), Gaps = 2/99 (2%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT DI V+  ++ E D+NVL FI+ +EY+LKK  VGA+ + +  +  L  L + A +T++
+Sbjct  7    GTVDISVHVTLDKEADKNVLSFIVREEYHLKKLAVGAYSLNILDTQLLNDLAQRACTTIA  66
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQT  98
+            CGNY ++ N  +N    +N I+FN     L KG  +F+ 
+Sbjct  67   CGNYVIVYNFTENS-NKINVILFNIKPSILKKGNCIFKL  104
+
+
+> UniRef90_A1YRC7 Telokin-like protein n=1 Tax=Maruca vitrata nucleopolyhedrovirus 
+TaxID=1307954 RepID=A1YRC7_9ABAC
+Length=176
+
+ Score = 146 bits (368),  Expect = 9e-42, Method: Composition-based stats.
+ Identities = 93/101 (92%), Positives = 98/101 (97%), Gaps = 0/101 (0%)
+
+Query  2    TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  61
+            TPDIIVNAQIN +DENVLDFIIEDEYYLKKRGVGAH+IKVASSPQL LLYKNAYSTVSCG
+Sbjct  8    TPDIIVNAQINDDDENVLDFIIEDEYYLKKRGVGAHVIKVASSPQLGLLYKNAYSTVSCG  67
+
+Query  62   NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIWR  102
+            NYG+LCNLVQNGEYDLNAIMFNCAEIKLNK Q+LFQTKIW+
+Sbjct  68   NYGILCNLVQNGEYDLNAIMFNCAEIKLNKNQLLFQTKIWQ  108
+
+
+> UniRef90_A1YJ70 Telokinin-like peptide n=1 Tax=Spodoptera frugiperda 
+nuclear polyhedrosis virus TaxID=10455 RepID=A1YJ70_NPVSF
+Length=196
+
+ Score = 146 bits (368),  Expect = 1e-41, Method: Composition-based stats.
+ Identities = 37/100 (37%), Positives = 57/100 (57%), Gaps = 2/100 (2%)
+
+Query  1    GTPDIIVNAQINSE--DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTV  58
+            GT DI V+  ++ E    NVL FI+ +EY+LKK  VGA+ I +  +  L  L +   +TV
+Sbjct  7    GTIDISVHVTLDKESSKRNVLSFIVREEYHLKKLAVGAYNINILDTQLLNNLSQYKCNTV  66
+
+Query  59   SCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQT  98
+            +CG+Y ++ N  +N    +N I+FN     L KG  +F+ 
+Sbjct  67   ACGDYVIVYNFTENTSNRINVILFNIKPTILKKGNCIFKI  106
+
+
+> UniRef90_Q287I3 ORF-89 n=1 Tax=Agrotis segetum nuclear polyhedrosis 
+virus TaxID=31508 RepID=Q287I3_NPVAS
+Length=187
+
+ Score = 145 bits (366),  Expect = 3e-41, Method: Composition-based stats.
+ Identities = 35/99 (35%), Positives = 60/99 (61%), Gaps = 2/99 (2%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT DI V+  ++ E D++VL FI+ +EY+LKK  VGA+ + +  +  L  L + + +T++
+Sbjct  7    GTVDISVHVTLDKEADKSVLSFIVREEYHLKKLAVGAYSLNILDTQLLNDLARKSCATIA  66
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQT  98
+            CG+Y +  N  +N    +N I+FN     L KG+ +F+ 
+Sbjct  67   CGDYVIAYNFTENS-NKINVILFNIKPSVLKKGKCIFKL  104
+
+
+> UniRef90_A0A0A7KRG0 Ac82 n=1 Tax=Agrotis segetum nucleopolyhedrovirus 
+B TaxID=1580580 RepID=A0A0A7KRG0_9ABAC
+Length=209
+
+ Score = 144 bits (365),  Expect = 6e-41, Method: Composition-based stats.
+ Identities = 38/99 (38%), Positives = 60/99 (61%), Gaps = 2/99 (2%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT DI V+  ++ E D+NVL FI+ +EY+LKK  VGA+ + +  +  L  L + A +T++
+Sbjct  7    GTVDISVHVTLDKEADKNVLSFIVREEYHLKKLAVGAYSLNILDTQLLNDLAQRACNTIA  66
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQT  98
+            CGNY ++ N  +N    +N I+FN     L KG  +F+ 
+Sbjct  67   CGNYVIVYNFTENS-NKINVILFNTKPTILKKGNCIFKL  104
+
+
+> UniRef90_Q80PB1 Orf2 n=1 Tax=Spodoptera litura multicapsid nucleopolyhedrovirus 
+TaxID=46242 RepID=Q80PB1_NPVST
+Length=193
+
+ Score = 143 bits (362),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 37/99 (37%), Positives = 57/99 (58%), Gaps = 2/99 (2%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT DI V+  ++ E  +NVL FI+ +EY+LKK  VGA+ I +  +  L  L      T++
+Sbjct  7    GTIDISVHVTLDKEAKKNVLSFIVREEYHLKKLAVGAYSINILDTQLLNNLSLYQCKTIA  66
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQT  98
+            CG+Y ++ N V+N    +N I+FN     L KG  +F+ 
+Sbjct  67   CGDYVIVYNFVENSNR-INVILFNIKPTILKKGNCIFKI  104
+
+
+> UniRef90_O92445 AcMNPV orf82 n=6 Tax=Bombyx mori nuclear polyhedrosis 
+virus TaxID=271108 RepID=O92445_NPVBM
+Length=181
+
+ Score = 143 bits (360),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 96/101 (95%), Positives = 98/101 (97%), Gaps = 0/101 (0%)
+
+Query  2    TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  61
+            TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASS QLRLLYKNAYS VSCG
+Sbjct  8    TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSQQLRLLYKNAYSAVSCG  67
+
+Query  62   NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIWR  102
+            NY +LCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI+R
+Sbjct  68   NYSILCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIYR  108
+
+
+> UniRef90_Q9J859 ORF78 n=3 Tax=Spodoptera exigua multiple nucleopolyhedrovirus 
+TaxID=10454 RepID=Q9J859_9ABAC
+Length=196
+
+ Score = 140 bits (353),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 38/99 (38%), Positives = 58/99 (59%), Gaps = 2/99 (2%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT DI V+  ++ E   NVL FI+ +EY+LKK  VGA+ I +  +  L  L ++  +T++
+Sbjct  7    GTIDISVHVTLDKEAKRNVLSFIVREEYHLKKLAVGAYNITILDTQLLNSLQQHRCNTIA  66
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQT  98
+            CG+Y V+ N V N    +N I+FN     L KG  +F+ 
+Sbjct  67   CGDYVVVYNFVDNS-NKINVILFNIKPTILKKGNCIFKI  104
+
+
+> UniRef90_V9LSY6 DekiORF72 n=1 Tax=Dendrolimus kikuchii nucleopolyhedrovirus 
+TaxID=1219875 RepID=V9LSY6_9ABAC
+Length=181
+
+ Score = 139 bits (352),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 55/101 (54%), Positives = 75/101 (74%), Gaps = 0/101 (0%)
+
+Query  1    GTPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSC  60
+             TPDI+VN +    D +VL+FII +EY+LK+ G+GAH IKV SSP L  L++N Y T+SC
+Sbjct  7    STPDIVVNVEPADNDVDVLNFIIGNEYHLKRLGIGAHAIKVISSPHLERLHRNHYCTISC  66
+
+Query  61   GNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+            G Y +LCNLV   EYD+  I+FN +E +L+KG +LF+TKI+
+Sbjct  67   GTYAILCNLVHGSEYDVETILFNRSETRLDKGGVLFKTKIY  107
+
+
+> UniRef90_W5VL52 TLP-20 n=2 Tax=Buzura suppressaria nuclear polyhedrosis 
+virus TaxID=74320 RepID=W5VL52_NPVBS
+Length=224
+
+ Score = 139 bits (351),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 37/99 (37%), Positives = 62/99 (63%), Gaps = 3/99 (3%)
+
+Query  1    GTPDIIVNAQINS-EDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT +I+V A ++  +D+N+L FI++DEY+LKK  +GA+ + +  +  L  L++   +T+S
+Sbjct  7    GTVNILVYATLDQQDDDNILSFIVQDEYHLKKLAIGAYSLNILDTRLLNNLWRYHCATIS  66
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQT  98
+            CGNY +  N  ++G   LN I+FN     L KG  +F+ 
+Sbjct  67   CGNYVICHNFTEDGN--LNVILFNTRPTILKKGVCIFKI  103
+
+
+> UniRef90_D7F5T8 Tlp-20 n=1 Tax=Apocheima cinerarium nucleopolyhedrovirus 
+TaxID=307461 RepID=D7F5T8_9ABAC
+Length=229
+
+ Score = 136 bits (343),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 35/99 (35%), Positives = 56/99 (57%), Gaps = 2/99 (2%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT +I V   ++ E ++N+L FI++DEY+LKK  VGA+ + +  +  L  L +   ST+S
+Sbjct  20   GTVNIAVYTTLDKEKNKNILSFIVQDEYHLKKLPVGAYSLNILDTQLLNNLSEYVCSTIS  79
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQT  98
+            CG+Y V  N  +     L+ I+FN     L K   +F+ 
+Sbjct  80   CGDYVVCHNFTEQ-YNKLSVILFNTKPTILKKNHCIFKI  117
+
+
+> UniRef90_Q8JM51 Putative uncharacterized protein n=7 Tax=Alphabaculovirus 
+TaxID=558016 RepID=Q8JM51_9ABAC
+Length=195
+
+ Score = 135 bits (340),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 35/98 (36%), Positives = 58/98 (59%), Gaps = 2/98 (2%)
+
+Query  2    TPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSC  60
+            T DI V+  ++ E ++N+L FI+ +EY+LKK  VGA+ + +  +  L  L + A +TV+C
+Sbjct  8    TVDISVHVTLDKEANKNILSFIVREEYHLKKLAVGAYSLNILDTQLLNDLAQRAGTTVAC  67
+
+Query  61   GNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQT  98
+            G+Y +  N  +N    +N I+FN     L KG  +F+ 
+Sbjct  68   GDYVICYNFTENS-NKINVILFNIKPTVLKKGGCIFKI  104
+
+
+> UniRef90_A0A068LMN3 Tlp-like protein n=1 Tax=Peridroma alphabaculovirus 
+TaxID=1346829 RepID=A0A068LMN3_9ABAC
+Length=181
+
+ Score = 134 bits (339),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 33/100 (33%), Positives = 57/100 (57%), Gaps = 3/100 (3%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNA-YSTV  58
+            GT DI  +  ++ + ++NVL FI+ +EY+LKK  VGA+ + +  +  L  L +    +TV
+Sbjct  7    GTVDISAHVTLDRDANKNVLSFIVREEYHLKKLAVGAYSLNILDTQLLNNLSERHNCTTV  66
+
+Query  59   SCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQT  98
+            +CG+Y ++ N  +N    +N I+FN     L K   +F+ 
+Sbjct  67   ACGDYVIVHNFTENS-NKINVILFNIKPTVLKKDVCIFKI  105
+
+
+> UniRef90_S5MK40 Tlp n=1 Tax=Hemileuca sp. nucleopolyhedrovirus 
+TaxID=1367203 RepID=S5MK40_9ABAC
+Length=351
+
+ Score = 137 bits (345),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 32/99 (32%), Positives = 52/99 (53%), Gaps = 2/99 (2%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT +I V   +  + D N+L FI++DEY+LKK  VGA+ + +  +  L  L +     +S
+Sbjct  63   GTVNIAVYVTLERKVDRNILSFIVQDEYHLKKLAVGAYSLNILHTQLLNNLIEYDCKVIS  122
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQT  98
+            CG++ +  N  +     LN I+FN     L K   +F+ 
+Sbjct  123  CGDFVICHNYSE-HNNGLNVILFNTKPTILKKESCIFKI  160
+
+
+> UniRef90_C3TWY1 TLP-20 n=1 Tax=Euproctis pseudoconspersa nucleopolyhedrovirus 
+TaxID=307467 RepID=C3TWY1_9ABAC
+Length=285
+
+ Score = 134 bits (339),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 36/102 (35%), Positives = 55/102 (54%), Gaps = 4/102 (4%)
+
+Query  1    GTPDIIVNAQINSE----DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYS  56
+            GT DI V   ++ +    D+ VL FI++DEY+LKK  +GA+ + +  +  L  L +    
+Sbjct  40   GTVDISVYTILDKDINDCDKKVLSFIVQDEYHLKKLAIGAYTLNILDTQLLSDLMERDCV  99
+
+Query  57   TVSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQT  98
+            TVSCG++ V  N  +     LN I+FN     L KG  +F+ 
+Sbjct  100  TVSCGDFVVCHNFTELANCGLNVILFNIKPTILKKGVCIFKI  141
+
+
+> UniRef90_D4N2C3 Telokin-like protein n=1 Tax=Lymantria xylina 
+MNPV TaxID=745177 RepID=D4N2C3_9ABAC
+Length=188
+
+ Score = 132 bits (332),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 35/100 (35%), Positives = 54/100 (54%), Gaps = 3/100 (3%)
+
+Query  2    TPDIIVNAQINSED-ENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSC  60
+            T +I     ++ E+  + L FI++DEY+LKK  VGA+ I V  +  L  L K    T+ C
+Sbjct  8    TVNIAAYVTLDKEEFRHTLSFIVQDEYHLKKLTVGAYNINVLDTQLLDGLLKKRCYTIVC  67
+
+Query  61   GNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+            GNY V+ N  +  E  L  ++FN + I L K   +F+  +
+Sbjct  68   GNYNVIYNFTE--EKKLRVMLFNASPIVLKKHSCIFKIVV  105
+
+
+> UniRef90_A0A172WZC7 Tlp20 n=1 Tax=Catopsilia pomona nucleopolyhedrovirus 
+TaxID=1850906 RepID=A0A172WZC7_9ABAC
+Length=246
+
+ Score = 132 bits (332),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 62/106 (58%), Positives = 77/106 (73%), Gaps = 6/106 (6%)
+
+Query  2    TPDIIVNAQINSE----DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAY--  55
+            T DI+V    +S+    D  VL F+IEDEY+LKK  VGA+ IKV SSP L+ LYKN Y  
+Sbjct  8    TADIVVRVAFDSDSGKNDTVVLSFMIEDEYHLKKLSVGAYAIKVISSPHLKHLYKNHYYL  67
+
+Query  56   STVSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+            ST+SCG Y +LCNLV+NGEYD+NAIMFN AE KL K  +LF+ K++
+Sbjct  68   STISCGKYTILCNLVENGEYDINAIMFNHAETKLIKNDVLFKIKMF  113
+
+
+> UniRef90_A0A1D8QNL7 Telokin-like protein n=7 Tax=Lymantria dispar 
+multicapsid nuclear polyhedrosis virus TaxID=10449 RepID=A0A1D8QNL7_NPVLD
+Length=193
+
+ Score = 130 bits (327),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 36/100 (36%), Positives = 54/100 (54%), Gaps = 3/100 (3%)
+
+Query  2    TPDIIVNAQINSED-ENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSC  60
+            T +I     ++ E+  + L FI++DEY+LKK  VGA+ I V  +  L  L +    T+ C
+Sbjct  8    TVNIAAYVTLDKEEFRHTLSFIVQDEYHLKKLTVGAYNINVLDTRLLDGLLEKRCYTIVC  67
+
+Query  61   GNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+            GNY V+ N  Q  E  L  I+FN + I L K   +F+  +
+Sbjct  68   GNYNVIYNFTQ--EKTLRVILFNASPIVLKKHSCIFKIVV  105
+
+
+> UniRef90_A0A097P933 Tlp-20 n=1 Tax=Sucra jujuba nucleopolyhedrovirus 
+TaxID=1563660 RepID=A0A097P933_9ABAC
+Length=240
+
+ Score = 128 bits (323),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 36/100 (36%), Positives = 58/100 (58%), Gaps = 4/100 (4%)
+
+Query  1    GTPDIIVNAQINS--EDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTV  58
+            G  +I V   ++   +  N+L FI++DEY+LKK  +GA+ + +  +  L+ L  +   TV
+Sbjct  7    GIVNIAVYTTLDKGEDGNNILSFIVQDEYHLKKLTIGAYNLNILPTQLLKDLRNHYCVTV  66
+
+Query  59   SCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQT  98
+            SCG+Y +  N+ +NG   LN IMFN   + L +G  LF+ 
+Sbjct  67   SCGDYVITHNVNENG--GLNVIMFNSKPLTLKRGACLFKI  104
+
+
+> UniRef90_Q0IL26 Tlp-20 n=1 Tax=Leucania separata nucleopolyhedrovirus 
+TaxID=1307956 RepID=Q0IL26_NPVLS
+Length=285
+
+ Score = 129 bits (326),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 39/99 (39%), Positives = 59/99 (60%), Gaps = 4/99 (4%)
+
+Query  2    TPDIIVNAQIN--SEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            T DI V   ++   ED NVL FI++DE +LKK  +GA+ +K+  +  L+ L +     VS
+Sbjct  8    TVDIAVYVSMDRNDEDRNVLSFIVQDECHLKKLAIGAYALKILDTKLLQSLGERKCIVVS  67
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQT  98
+             G+Y ++ N+  N    +NAI+FN   IKL+KG  LF+ 
+Sbjct  68   GGDYVIVHNI--NEANGINAILFNKNPIKLHKGMCLFKI  104
+
+
+> UniRef90_A0A1B1MQW7 Telokin-like protein n=1 Tax=Lymantria dispar 
+multicapsid nuclear polyhedrosis virus TaxID=10449 RepID=A0A1B1MQW7_NPVLD
+Length=235
+
+ Score = 128 bits (322),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 34/100 (34%), Positives = 54/100 (54%), Gaps = 3/100 (3%)
+
+Query  2    TPDIIVNAQINSED-ENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSC  60
+            T +I     ++ E+ ++ L FI++DEY+LKK  VGA+ I V  +  L  L +     + C
+Sbjct  8    TVNIAAYVTLDKEEFKHTLSFIVQDEYHLKKLTVGAYNINVLDTRLLDGLAEKICFAIVC  67
+
+Query  61   GNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+            GNY V+ N  Q  E  L  I+FN + + L K   +F+  +
+Sbjct  68   GNYNVIYNFTQ--EKSLRVILFNASPVVLKKHSCIFKIVV  105
+
+
+> UniRef90_A0A126FC50 TELOKIN-like protein n=1 Tax=Lonomia obliqua 
+multiple nucleopolyhedrovirus TaxID=134394 RepID=A0A126FC50_9ABAC
+Length=200
+
+ Score = 127 bits (319),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 53/99 (54%), Positives = 76/99 (77%), Gaps = 0/99 (0%)
+
+Query  2    TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  61
+            TPDI+VNA  +  ++N+L+FII+DEY+LKK G+G H++KV SS  L+ LY NA+  V+  
+Sbjct  8    TPDIVVNAVFDEYNQNLLNFIIQDEYHLKKLGIGGHVVKVNSSDNLKHLYTNAFCIVTSK  67
+
+Query  62   NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+            NYG+LCNL+++ + D+N I+FNCA  KLNKG +LF+ K 
+Sbjct  68   NYGILCNLLEDSKSDINVILFNCAISKLNKGDVLFRVKF  106
+
+
+> UniRef90_A0A1B1V5H4 Ac82 n=1 Tax=Malacosoma sp. alphabaculovirus 
+TaxID=1881632 RepID=A0A1B1V5H4_9ABAC
+Length=237
+
+ Score = 127 bits (320),  Expect = 7e-34, Method: Composition-based stats.
+ Identities = 34/98 (35%), Positives = 56/98 (57%), Gaps = 3/98 (3%)
+
+Query  3    PDIIVNAQIN-SEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  61
+             DI V    +  +++N+L FI++DEY+LKK  VGA+ + +  +  L  L     + ++CG
+Sbjct  40   VDIAVYVICDQKDNKNILSFIVQDEYHLKKLTVGAYNLNILDTQLLSNLSSVHCNVIACG  99
+
+Query  62   NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTK  99
+            +Y V+ N+  +    LNAI+FN     L KG  LF+ +
+Sbjct  100  DYVVVFNVTDSNR--LNAILFNAKPTILKKGSCLFKIE  135
+
+
+> UniRef90_S5N3M0 TLP n=3 Tax=Alphabaculovirus TaxID=558016 RepID=S5N3M0_NPVCF
+Length=155
+
+ Score = 125 bits (314),  Expect = 8e-34, Method: Composition-based stats.
+ Identities = 32/102 (31%), Positives = 56/102 (55%), Gaps = 6/102 (6%)
+
+Query  2    TPDIIVNAQ--INSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            TPDI+V  +     +D  VL+F  E+E+ L K   GAH ++V +SP+L  L+   Y+ ++
+Sbjct  8    TPDIVVKVRVVFADDDVTVLEFEAENEHCLMK---GAHDVRVIASPELDALHNGPYNLIT  64
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+             GNY    NLV +  +    +++  ++     G  +F+ K+W
+Sbjct  65   LGNYTFHYNLVDSDRFGAQVMLYVKSDNIKISGA-VFRLKVW  105
+
+
+> UniRef90_Q4KT00 ORF-80 peptide n=4 Tax=Chrysodeixis chalcites 
+nucleopolyhedrovirus TaxID=320432 RepID=Q4KT00_9ABAC
+Length=235
+
+ Score = 126 bits (318),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 40/101 (40%), Positives = 58/101 (57%), Gaps = 5/101 (5%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNA--YST  57
+            GT DI V   ++ E DEN+L FI++DEY+LKK  VGA+ + +  +  L  L +N    ST
+Sbjct  7    GTVDIAVYVTLDKENDENILSFIVQDEYHLKKLAVGAYNLNILDTQLLAKLIQNQSRSST  66
+
+Query  58   VSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQT  98
+            +  G+Y V+ N   N   +LN I+FN     L KG  +F+ 
+Sbjct  67   IVGGDYVVVYNF--NMSNNLNVILFNIKPTILKKGACIFKI  105
+
+
+> UniRef90_Q2NP03 Telokin-like peptide n=1 Tax=Hyphantria cunea 
+nuclear polyhedrosis virus TaxID=28288 RepID=Q2NP03_NPVHC
+Length=155
+
+ Score = 124 bits (311),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 29/102 (28%), Positives = 53/102 (52%), Gaps = 6/102 (6%)
+
+Query  2    TPDIIVNAQI--NSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            T DI+V A++    +D  VL+F  E+E+ L K   GAH + V  SP+L  L+   Y+ ++
+Sbjct  8    TSDIVVRARVLVEDDDNTVLEFEAENEHRLMK---GAHEVHVVVSPELDALHNGPYNEIT  64
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+             G+Y    NL+++  +    ++F   +        +F+  +W
+Sbjct  65   LGDYTFHYNLMESNRFGAQVMLFVKKDDI-KIAGPVFRLHVW  105
+
+
+> UniRef90_S5MKW0 TLP n=1 Tax=Choristoneura rosaceana alphabaculovirus 
+TaxID=1367205 RepID=S5MKW0_9ABAC
+Length=155
+
+ Score = 123 bits (310),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 30/102 (29%), Positives = 55/102 (54%), Gaps = 6/102 (6%)
+
+Query  2    TPDIIVNAQI--NSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            T DI+V A++    +D  VL+F  E+E+ L K   GAH ++V +SP+L  L+   Y+ ++
+Sbjct  8    TSDIVVKARVLVADDDGMVLEFEAENEHCLMK---GAHDVRVIASPELDALHNGPYNEIT  64
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+             G+Y    NL+ +  +    ++F      +     +F+ K+W
+Sbjct  65   LGDYTFHYNLIDSDRFGAQVMLFVKR-NNIKISGAVFRLKVW  105
+
+
+> UniRef90_A0A0B4UK94 Telokin-like protein-20 n=1 Tax=Condylorrhiza 
+vestigialis MNPV TaxID=1592576 RepID=A0A0B4UK94_9ABAC
+Length=153
+
+ Score = 123 bits (310),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 31/102 (30%), Positives = 58/102 (57%), Gaps = 6/102 (6%)
+
+Query  2    TPDIIVNAQ--INSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            T DI+V A+  + ++ E VL+F  ++E+ L K   GAH +++  S +L  L+ + +S ++
+Sbjct  8    TSDIVVRARVVLANDGETVLEFGAKNEHRLMK---GAHDVRIVPSDELEALHDSPHSVIT  64
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+            CG+Y V  NL    + +  A++    +  L  G  +F+ K+W
+Sbjct  65   CGDYTVEFNLSSRDKREAQALLSVKRDDMLVSGA-VFRLKLW  105
+
+
+> UniRef90_A0A0E3JAT6 Telokin like protein 20 n=11 Tax=Alphabaculovirus 
+TaxID=558016 RepID=A0A0E3JAT6_9ABAC
+Length=225
+
+ Score = 125 bits (314),  Expect = 4e-33, Method: Composition-based stats.
+ Identities = 35/104 (34%), Positives = 53/104 (51%), Gaps = 5/104 (5%)
+
+Query  1    GTPDIIVNAQINSEDEN---VLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYST  57
+            GT DI      + E E     L F+++DEY+LKK  VGA+ + +  +  L  L+    +T
+Sbjct  20   GTVDIATYVVQDREPEKNIITLSFVVQDEYHLKKLAVGAYCVNILDTRLLSNLHNKQCAT  79
+
+Query  58   VSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+            ++CG + V  N  QN    +NAI+ N     L KG  LF+   +
+Sbjct  80   IACGYFVVTYN--QNETGGINAILLNTRPTILKKGSCLFKISYY  121
+
+
+> UniRef90_Q6VTR2 Telokin-like protein-20 n=3 Tax=Alphabaculovirus 
+TaxID=558016 RepID=Q6VTR2_NPVCD
+Length=153
+
+ Score = 123 bits (308),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 32/102 (31%), Positives = 55/102 (54%), Gaps = 6/102 (6%)
+
+Query  2    TPDIIVNAQI--NSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            T DI+V A++   S+ E VL+F  E+E+ L K   G H +++  S +L  L+ N ++ ++
+Sbjct  8    TSDIVVRARVVPASDGETVLEFGAENEHRLMK---GPHDVRIMPSDELEALHDNPHAVIT  64
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+            CG Y V  NL      +  A++    +  L  G  +F+ K+W
+Sbjct  65   CGEYTVEFNLSSRDRREAQALLSVKQDDVLVSGG-VFRLKLW  105
+
+
+> UniRef90_Q461Z1 Orf75 n=1 Tax=Trichoplusia ni single nucleopolyhedrovirus 
+TaxID=332054 RepID=Q461Z1_9ABAC
+Length=278
+
+ Score = 124 bits (313),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 40/101 (40%), Positives = 58/101 (57%), Gaps = 5/101 (5%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAY--ST  57
+            GT DI V   ++ E D+N+L FI++DEY+LKK  VGA+ + +  +  L  L +N    ST
+Sbjct  40   GTVDIAVYVTLDKENDKNILSFIVQDEYHLKKLAVGAYNLNILDTQLLAKLAQNQCRSST  99
+
+Query  58   VSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQT  98
+            +  G+Y V+ N   N   +LN I+FN     L KG  +FQ 
+Sbjct  100  IVGGDYVVVYNF--NVCNNLNVILFNIKPTVLKKGTSIFQI  138
+
+
+> UniRef90_O10335 Telokin-like protein 20 homolog n=2 Tax=Alphabaculovirus 
+TaxID=558016 RepID=TLP20_NPVOP
+Length=155
+
+ Score = 121 bits (304),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 28/102 (27%), Positives = 54/102 (53%), Gaps = 6/102 (6%)
+
+Query  2    TPDIIVNAQI--NSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            T DI+V A++    ++  +L+F  E+E+ L +   GAH ++V +SP+L  L+   Y+ ++
+Sbjct  8    TSDIVVRARVLIADDEGTLLEFEAENEHCLMR---GAHEVRVIASPELDALHNGPYNEIA  64
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+             G+Y    NLV    +    ++F   +        +F+ K+W
+Sbjct  65   LGDYTFHFNLVAANRFGAQVMLFAKRDDI-KVSGAVFRLKVW  105
+
+
+> UniRef90_A0A0B4ZZH4 Telokinin-like peptide n=3 Tax=Chrysodeixis 
+includens nucleopolyhedrovirus TaxID=1207438 RepID=A0A0B4ZZH4_9ABAC
+Length=239
+
+ Score = 123 bits (309),  Expect = 3e-32, Method: Composition-based stats.
+ Identities = 37/98 (38%), Positives = 55/98 (56%), Gaps = 5/98 (5%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAY--ST  57
+            GT DI V   ++ + D+N+L FI++DEY+LKK  VGA+ + +  +  L  L +N    ST
+Sbjct  7    GTVDIAVYVTLDKDNDKNILSFIVQDEYHLKKLAVGAYNLNILDTQLLAKLAQNQCRSST  66
+
+Query  58   VSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQML  95
+            +  G Y V+ N   N   +LN I+FN     L KG  +
+Sbjct  67   IVEGEYVVVYNF--NIRNNLNVILFNIKPTVLKKGACI  102
+
+
+> UniRef90_A0EYW8 Telokin-like protein 20 n=1 Tax=Ectropis obliqua 
+nucleopolyhedrovirus TaxID=59376 RepID=A0EYW8_9ABAC
+Length=284
+
+ Score = 122 bits (307),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 36/104 (35%), Positives = 59/104 (57%), Gaps = 6/104 (6%)
+
+Query  1    GTPDIIVNAQINSEDE-NVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT  I V   ++ E++ N+L FI++DEY+LKK  VGA+ + +  +  L  L +++Y  V 
+Sbjct  20   GTVSIAVYTIVDKENDYNILSFIVQDEYHLKKLAVGAYNLNILDTQLLNTLEESSYHVVV  79
+
+Query  60   CGNYGVLCNLVQN-----GEYDLNAIMFNCAEIKLNKGQMLFQT  98
+            CG++ +  N+V           LN I+FNC  + LNK   +F+ 
+Sbjct  80   CGDFVITHNIVDRKYARTPNTKLNVILFNCKPVVLNKSDCIFKI  123
+
+
+> UniRef90_Q1HH27 Telokin-like protein-20 n=1 Tax=Antheraea pernyi 
+nuclear polyhedrosis virus TaxID=161494 RepID=Q1HH27_NPVAP
+Length=152
+
+ Score = 118 bits (296),  Expect = 3e-31, Method: Composition-based stats.
+ Identities = 30/102 (29%), Positives = 56/102 (55%), Gaps = 6/102 (6%)
+
+Query  2    TPDIIVNAQI--NSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            T DI+V A+    S+ + VL+F+ E+E+ L +   GAH +++  S +L  L+ + +S ++
+Sbjct  8    TSDIVVKARAVSASDGQTVLEFVAENEHRLMR---GAHDVRIVPSAELEALHDSPHSVIT  64
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+            CG+Y V  NL         A++F   +     G  +F+ ++W
+Sbjct  65   CGDYTVEFNLSSRDLRAGQAMLFVKRDDASVAGA-VFRLRLW  105
+
+
+> UniRef90_Q0N426 Tlp20/ac83-like protein n=1 Tax=Clanis bilineata 
+nucleopolyhedrovirus TaxID=1307957 RepID=Q0N426_9ABAC
+Length=289
+
+ Score = 121 bits (303),  Expect = 6e-31, Method: Composition-based stats.
+ Identities = 37/109 (34%), Positives = 60/109 (55%), Gaps = 9/109 (8%)
+
+Query  1    GTPDIIVNAQINSEDE--NVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYS--  56
+            GT +I V      ++   +VL FI+ DEY+LKK  VGA+ + +  S  L++++    S  
+Sbjct  46   GTVNIAVYVTHEKDNNFNDVLSFIVRDEYHLKKLAVGAYSLNILDSHHLKIMHDAVKSAN  105
+
+Query  57   ----TVSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+                TVSCG++ V+ N  +  +  LNAI+FN     L K  ++F+  I+
+Sbjct  106  ATVQTVSCGDFVVVYNYTEMSKN-LNAILFNAKPTILKKDGVIFKVIIY  153
+
+
+> UniRef90_M1JNW8 Telokin-like protein-20 n=1 Tax=Spodoptera littoralis 
+nuclear polyhedrosis virus TaxID=10456 RepID=M1JNW8_NPVSL
+Length=193
+
+ Score = 115 bits (288),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 37/105 (35%), Positives = 60/105 (57%), Gaps = 8/105 (8%)
+
+Query  1    GTPDIIVNAQI-NSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQL--RLLYKNAY--  55
+            GT DI V+  + +  D+ VL FI++DE +LKK  +GA+ I V  S ++  +LL   ++  
+Sbjct  7    GTVDIAVDVSLSDDNDKKVLSFIVQDECHLKKLAIGAYAINVIDSNKILNKLLNDGSHRL  66
+
+Query  56   -STVSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTK  99
+               V+CG + + CN  +N    +NAI+FN   + L KG  +F+  
+Sbjct  67   DKIVACGEFLIACN--ENESNSINAILFNKNCVTLKKGVCIFKIH  109
+
+
+> UniRef90_Q91BE7 Telokin-like protein-20 n=2 Tax=Spodoptera litura 
+multicapsid nucleopolyhedrovirus TaxID=46242 RepID=Q91BE7_NPVST
+Length=197
+
+ Score = 114 bits (287),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 39/105 (37%), Positives = 61/105 (58%), Gaps = 8/105 (8%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQL--RLLYKNAY--  55
+            GT DI V+  +  E D+ VL FI++DE +LKK  +GA+ I V  S ++  +LL  N +  
+Sbjct  7    GTVDIAVDVNLTDENDKKVLSFIVQDECHLKKLAIGAYAINVIDSNKILNKLLNDNDHVL  66
+
+Query  56   -STVSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTK  99
+               V+CG + + CN  +N    +NAI+FN + + L KG  +F+  
+Sbjct  67   NKIVACGEFLIACN--ENESNGINAILFNKSCVTLKKGVCIFKIH  109
+
+
+> UniRef90_A0A0E3URB4 Tlp n=1 Tax=Lambdina fiscellaria nucleopolyhedrovirus 
+TaxID=1642929 RepID=A0A0E3URB4_9ABAC
+Length=284
+
+ Score = 113 bits (284),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 32/104 (31%), Positives = 56/104 (54%), Gaps = 7/104 (7%)
+
+Query  1    GTPDIIVNAQINSEDEN---VLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYS-  56
+            GT  I V   ++  ++N   VL F+++DEY+LKK  VGA+ I+V ++  L  L +N    
+Sbjct  7    GTDSIAVRVTVDKSNDNENSVLLFVVQDEYHLKKLTVGAYDIRVTNAQTLIELSRNPTRN  66
+
+Query  57   --TVSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQT  98
+               V+C +Y +  N  +     +N ++ N   + L KG+ +F+ 
+Sbjct  67   SLIVTCDDYVICHNFTE-TPNAINFLLLNKKPLILKKGKCMFKL  109
+
+
+> UniRef90_Q91GH9 Putative uncharacterized protein n=1 Tax=Epiphyas 
+postvittana nucleopolyhedrovirus TaxID=70600 RepID=Q91GH9_NPVEP
+Length=154
+
+ Score = 104 bits (260),  Expect = 8e-26, Method: Composition-based stats.
+ Identities = 34/102 (33%), Positives = 54/102 (53%), Gaps = 6/102 (6%)
+
+Query  2    TPDIIVNAQINSEDEN--VLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            T DI+VNA+    DE+  +L F  + E  L +   GAH + V  S +L  L+  AYS  +
+Sbjct  8    TSDIVVNARFVDTDEDTILLKFFTDKEQRLMR---GAHDVHVVPSSELEALHNGAYSKFT  64
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+             GNY V  NL++N    +  ++F   E  +    ++F+ K+W
+Sbjct  65   NGNYTVDVNLLKNDHRAVQVMLF-AKEDNVILNDVVFEIKVW  105
+
+
+> UniRef90_A0A162GUV3 Uncharacterized protein n=1 Tax=Urbanus proteus 
+nucleopolyhedrovirus TaxID=1675866 RepID=A0A162GUV3_9BACU
+Length=174
+
+ Score = 101 bits (251),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 32/99 (32%), Positives = 51/99 (52%), Gaps = 6/99 (6%)
+
+Query  4   DIIVNAQINSEDENV--LDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  61
+           DI V       +ENV  L F+++D+Y+LKK   GA+ + +  +  +  ++ N   TV+ G
+Sbjct  2   DIAVYVLGKKNNENVYELSFMLQDDYHLKKL--GAYGLLILPTQLIANMHNNRCDTVAYG  59
+
+Query  62  NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+           +Y ++ N        LN I+FN     L K Q LF+  I
+Sbjct  60  DYIIVYNCT--DTNSLNVILFNLKPCLLKKEQCLFKILI  96
+
+
+> UniRef90_Q80LN1 Putative uncharacterized protein n=2 Tax=Alphabaculovirus 
+TaxID=558016 RepID=Q80LN1_NPVAH
+Length=196
+
+ Score = 79.5 bits (195),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 27/97 (28%), Positives = 48/97 (49%), Gaps = 4/97 (4%)
+
+Query  5    IIVNAQIN-SEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYK--NAYSTVSCG  61
+            I V+  +   ++ENVL F + DE +LK+   GA+ +K+  +  L  L    + Y+    G
+Sbjct  12   ISVSVMLTRKKNENVLSFTVNDETHLKQLTCGAYHLKIVETSLLDPLINSYHYYAPQVFG  71
+
+Query  62   NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQT  98
+            +Y V+ N+  N    +  I+FN       +  ++FQ 
+Sbjct  72   DYTVIYNVNANSRQ-VKMILFNITSTVFKRDSVIFQI  107
+
+
+> UniRef90_A0A0M3WNI4 Uncharacterized protein n=1 Tax=Perigonia 
+lusca single nucleopolyhedrovirus TaxID=1675865 RepID=A0A0M3WNI4_9BACU
+Length=253
+
+ Score = 78.7 bits (193),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 30/105 (29%), Positives = 45/105 (43%), Gaps = 8/105 (8%)
+
+Query  1    GTPDIIVNAQINSEDENVL----DFIIEDEYYLKKRGVGAHIIKVASSPQLRLL-YKNAY  55
+            GT +I V  Q   +   +      FI++D+Y+ KK GVGA+  KV  +  L  L      
+Sbjct  40   GTINISVYVQEQQQHHQLQQQELSFIVQDDYHXKKLGVGAYRFKVLDTQLLGKLPRDRPP  99
+
+Query  56   STVSCGNY--GVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQT  98
+            + +    Y      N  +    +LN  M N  E  L KG  +F+ 
+Sbjct  100  TIIVADGYCSVFCVNFTERI-GELNVCMLNMKETILKKGACIFKI  143
+
+
+> UniRef90_Q6QXL3 ORF93 n=1 Tax=Agrotis segetum granulosis virus 
+TaxID=10464 RepID=Q6QXL3_GVAS
+Length=177
+
+ Score = 59.5 bits (143),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 25/100 (25%), Positives = 46/100 (46%), Gaps = 6/100 (6%)
+
+Query  4    DIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSC-GN  62
+             II+   +  E    + F ++++Y L+K  +GA+ +++  S +L  L    +  V C  N
+Sbjct  10   SIIIYPVLEEEQ---IMFKVKEDYNLQKLSIGAYKLQILESEKLDHLKDIHHHIVVCNKN  66
+
+Query  63   YGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIWR  102
+            Y V+ N V+        I+ +   + L K Q +F     R
+Sbjct  67   YLVVHNAVEGDAMSAVLILLDS--VVLKKDQNIFMVTFPR  104
+
+
+> UniRef90_Q9DVU8 PxGV-Corf83 protein n=2 Tax=Plutella xylostella 
+granulovirus TaxID=98383 RepID=Q9DVU8_9BBAC
+Length=139
+
+ Score = 56.0 bits (134),  Expect = 9e-08, Method: Composition-based stats.
+ Identities = 21/99 (21%), Positives = 46/99 (46%), Gaps = 8/99 (8%)
+
+Query  2   TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  61
+           T  I V      +    +DF +++EY+L+K+G GA+ + V ++ ++         TV   
+Sbjct  8   TDMIGVYPVFLDDK---IDFKVDNEYHLQKQGKGAYAVSVTNNDKIS----RGTLTVESA  60
+
+Query  62  NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+           +Y V+ N + +G+  ++ ++     I       +F   +
+Sbjct  61  DYNVVYNYLSSGD-GISVLLIIKKPISFKAHDTVFSISL  98
+
+
+> UniRef90_A0A0C5AQ90 Tlp20 n=1 Tax=Spodoptera frugiperda granulovirus 
+TaxID=307454 RepID=A0A0C5AQ90_9BBAC
+Length=179
+
+ Score = 55.2 bits (132),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 20/95 (21%), Positives = 44/95 (46%), Gaps = 6/95 (6%)
+
+Query  2   TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLL-YKNAYSTVSC  60
+           T +I++   +     N +   +++EY+L+K GVGA+ + V    +L  L + + +  +  
+Sbjct  8   TDNIVLYPILED---NRITLGVKEEYHLQKVGVGAYRVTVLDCERLDHLRHTHHHIVMER  64
+
+Query  61  GNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQML  95
+               ++ N    G   + A++      K+ K  +L
+Sbjct  65  RECVLIHNCFVEG--GITAVLIVTEPFKMRKDSVL  97
+
+
+> UniRef90_A0A161CD46 Uncharacterized protein n=1 Tax=Mocis sp. 
+granulovirus TaxID=1675863 RepID=A0A161CD46_9BBAC
+Length=152
+
+ Score = 52.5 bits (125),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 25/95 (26%), Positives = 45/95 (47%), Gaps = 6/95 (6%)
+
+Query  2   TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  61
+           T +I++   +     N +   +++EYYL+K GVGA+ + V +S +L  L    +  +   
+Sbjct  9   TDNILLYPILED---NCITLAVKEEYYLQKLGVGAYRVTVLNSDKLDHLRHTQHQIIMER  65
+
+Query  62  -NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQML  95
+            N  +L N    G   + AI+      K+ K  +L
+Sbjct  66  PNCVLLHNCFSEG--GVTAILVVTEPFKIEKNSVL  98
+
+
+> UniRef90_B6S6Z2 Telokinik-like protein-20 n=2 Tax=Pseudalatia 
+unipuncta granulosis virus TaxID=36355 RepID=B6S6Z2_GVPU
+Length=164
+
+ Score = 50.2 bits (119),  Expect = 8e-06, Method: Composition-based stats.
+ Identities = 25/98 (26%), Positives = 46/98 (47%), Gaps = 12/98 (12%)
+
+Query  2   TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS--  59
+           T +I++   +     N +   +++EY+L+K GVGA+ + V  S QL  L+   +  V   
+Sbjct  9   TDNIVLYPILED---NRITLAVKEEYFLQKVGVGAYRVTVLESEQLDHLHHTQHHIVMER  65
+
+Query  60  --CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQML  95
+             C    +L N  + G   + A++      K+ K  +L
+Sbjct  66  PGC---LLLHNCYREG--GITAVLIVTEPFKITKNSVL  98
+
+
+> UniRef90_Q9PYS5 ORF119 n=2 Tax=Betabaculovirus TaxID=558017 RepID=Q9PYS5_GVXN
+Length=161
+
+ Score = 50.2 bits (119),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 26/98 (27%), Positives = 45/98 (46%), Gaps = 12/98 (12%)
+
+Query  2   TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS--  59
+           T +I++   +     N +   +++EY+L+K GVGAH + V  S QL  L+   +  V   
+Sbjct  9   TDNIVLYPILED---NRITLAVKEEYFLQKVGVGAHRVTVLESEQLDHLHYTQHHIVMER  65
+
+Query  60  --CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQML  95
+             C    +L N    G   + A++      K+ K  +L
+Sbjct  66  SGC---LLLHNCYSEG--GITAVLIVTEPFKITKNSVL  98
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.158    0.478    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0482    0.140     1.90     42.6     43.6 
+
+Effective search space used: 438012730055
+Results from round 3
+
+
+Query= d1tula_
+
+Length=102
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_B0FDU2 Tlp-20 n=1 Tax=Orgyia leucostigma NPV TaxID=490...  148     5e-42
+  UniRef90_B7SVW0 Putative uncharacterized protein n=1 Tax=Spodop...  146     2e-41
+  UniRef90_B6D609 Telokinin-like peptide n=1 Tax=Agrotis ipsilon ...  144     2e-40
+  UniRef90_A1YJ70 Telokinin-like peptide n=1 Tax=Spodoptera frugi...  143     2e-40
+  UniRef90_Q06691 Telokin-like protein 20 n=6 Tax=Autographa cali...  141     1e-39
+  UniRef90_A0A0A7KRG0 Ac82 n=1 Tax=Agrotis segetum nucleopolyhedr...  141     1e-39
+  UniRef90_Q80PB1 Orf2 n=1 Tax=Spodoptera litura multicapsid nucl...  140     2e-39
+  UniRef90_Q287I3 ORF-89 n=1 Tax=Agrotis segetum nuclear polyhedr...  139     3e-39
+  UniRef90_Q9J859 ORF78 n=3 Tax=Spodoptera exigua multiple nucleo...  139     9e-39
+  UniRef90_W5VL52 TLP-20 n=2 Tax=Buzura suppressaria nuclear poly...  139     1e-38
+  UniRef90_L0CLN3 Tlp protein n=1 Tax=Thysanoplusia orichalcea nu...  137     1e-38
+  UniRef90_A1YRC7 Telokin-like protein n=1 Tax=Maruca vitrata nuc...  136     7e-38
+  UniRef90_D7F5T8 Tlp-20 n=1 Tax=Apocheima cinerarium nucleopolyh...  137     7e-38
+  UniRef90_S5MK40 Tlp n=1 Tax=Hemileuca sp. nucleopolyhedrovirus ...  139     1e-37
+  UniRef90_A0A068LMN3 Tlp-like protein n=1 Tax=Peridroma alphabac...  135     2e-37
+  UniRef90_Q8JM51 Putative uncharacterized protein n=7 Tax=Alphab...  133     1e-36
+  UniRef90_O92445 AcMNPV orf82 n=6 Tax=Bombyx mori nuclear polyhe...  132     2e-36
+  UniRef90_D4N2C3 Telokin-like protein n=1 Tax=Lymantria xylina M...  132     3e-36
+  UniRef90_C3TWY1 TLP-20 n=1 Tax=Euproctis pseudoconspersa nucleo...  134     3e-36
+  UniRef90_A0A097P933 Tlp-20 n=1 Tax=Sucra jujuba nucleopolyhedro...  132     7e-36
+  UniRef90_A0A1D8QNL7 Telokin-like protein n=7 Tax=Lymantria disp...  130     2e-35
+  UniRef90_V9LSY6 DekiORF72 n=1 Tax=Dendrolimus kikuchii nucleopo...  129     4e-35
+  UniRef90_A0A1B1V5H4 Ac82 n=1 Tax=Malacosoma sp. alphabaculoviru...  128     3e-34
+  UniRef90_A0A1B1MQW7 Telokin-like protein n=1 Tax=Lymantria disp...  127     5e-34
+  UniRef90_A0A0E3JAT6 Telokin like protein 20 n=11 Tax=Alphabacul...  126     1e-33
+  UniRef90_Q0IL26 Tlp-20 n=1 Tax=Leucania separata nucleopolyhedr...  128     1e-33
+  UniRef90_Q4KT00 ORF-80 peptide n=4 Tax=Chrysodeixis chalcites n...  126     2e-33
+  UniRef90_A0A172WZC7 Tlp20 n=1 Tax=Catopsilia pomona nucleopolyh...  126     3e-33
+  UniRef90_A0A126FC50 TELOKIN-like protein n=1 Tax=Lonomia obliqu...  122     2e-32
+  UniRef90_A0A0B4ZZH4 Telokinin-like peptide n=3 Tax=Chrysodeixis...  122     4e-32
+  UniRef90_Q461Z1 Orf75 n=1 Tax=Trichoplusia ni single nucleopoly...  123     4e-32
+  UniRef90_Q0N426 Tlp20/ac83-like protein n=1 Tax=Clanis bilineat...  121     4e-31
+  UniRef90_A0EYW8 Telokin-like protein 20 n=1 Tax=Ectropis obliqu...  120     7e-31
+  UniRef90_A0A0B4UK94 Telokin-like protein-20 n=1 Tax=Condylorrhi...  117     9e-31
+  UniRef90_S5N3M0 TLP n=3 Tax=Alphabaculovirus TaxID=558016 RepID...  116     1e-30
+  UniRef90_S5MKW0 TLP n=1 Tax=Choristoneura rosaceana alphabaculo...  116     2e-30
+  UniRef90_Q2NP03 Telokin-like peptide n=1 Tax=Hyphantria cunea n...  116     2e-30
+  UniRef90_Q6VTR2 Telokin-like protein-20 n=3 Tax=Alphabaculoviru...  114     1e-29
+  UniRef90_O10335 Telokin-like protein 20 homolog n=2 Tax=Alphaba...  113     3e-29
+  UniRef90_A0A162GUV3 Uncharacterized protein n=1 Tax=Urbanus pro...  112     8e-29
+  UniRef90_M1JNW8 Telokin-like protein-20 n=1 Tax=Spodoptera litt...  112     2e-28
+  UniRef90_Q1HH27 Telokin-like protein-20 n=1 Tax=Antheraea perny...  110     3e-28
+  UniRef90_Q91BE7 Telokin-like protein-20 n=2 Tax=Spodoptera litu...  111     5e-28
+  UniRef90_A0A0E3URB4 Tlp n=1 Tax=Lambdina fiscellaria nucleopoly...  112     9e-28
+  UniRef90_A0A0C5AQ90 Tlp20 n=1 Tax=Spodoptera frugiperda granulo...  98.7    3e-23
+  UniRef90_Q91GH9 Putative uncharacterized protein n=1 Tax=Epiphy...  94.5    5e-22
+  UniRef90_Q80LN1 Putative uncharacterized protein n=2 Tax=Alphab...  95.6    5e-22
+  UniRef90_A0A0M3WNI4 Uncharacterized protein n=1 Tax=Perigonia l...  93.3    7e-21
+  UniRef90_Q6QXL3 ORF93 n=1 Tax=Agrotis segetum granulosis virus ...  91.0    2e-20
+  UniRef90_B6S6Z2 Telokinik-like protein-20 n=2 Tax=Pseudalatia u...  89.8    4e-20
+  UniRef90_A0A161CD46 Uncharacterized protein n=1 Tax=Mocis sp. g...  89.4    4e-20
+  UniRef90_Q9PYS5 ORF119 n=2 Tax=Betabaculovirus TaxID=558017 Rep...  88.3    1e-19
+  UniRef90_Q9DVU8 PxGV-Corf83 protein n=2 Tax=Plutella xylostella...  81.7    3e-17
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A5IZU5 Tlp20 n=1 Tax=Spodoptera litura granulovirus Ta...  49.0    3e-05
+  UniRef90_K4EQF2 Telokin-like protein 20 n=1 Tax=Epinotia aporem...  47.5    9e-05
+  UniRef90_A0A0R7EYZ5 Uncharacterized protein n=1 Tax=Diatraea sa...  46.3    1e-04
+  UniRef90_UPI000941A80A UPI000941A80A related cluster n=1 Tax=un...  46.7    1e-04
+
+
+> UniRef90_B0FDU2 Tlp-20 n=1 Tax=Orgyia leucostigma NPV TaxID=490711 
+RepID=B0FDU2_9ABAC
+Length=248
+
+ Score = 148 bits (375),  Expect = 5e-42, Method: Composition-based stats.
+ Identities = 39/101 (39%), Positives = 58/101 (57%), Gaps = 1/101 (1%)
+
+Query  1    GTPDIIVNAQINSED-ENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT DI V   ++ ED +N+L FI++DEY+LKK  VGA+ + +  +  L  L +   ST+S
+Sbjct  7    GTVDIAVYTTLDKEDNKNILSFIVQDEYHLKKLAVGAYSLNILDTQLLNDLSERNCSTIS  66
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+            CGN+ +  N  +     LNAI+FN     L KG  +F+   
+Sbjct  67   CGNFVICHNFTEQKNNALNAILFNTKPTILKKGVCIFKIVY  107
+
+
+> UniRef90_B7SVW0 Putative uncharacterized protein n=1 Tax=Spodoptera 
+litura nucleopolyhedrovirus II TaxID=566270 RepID=B7SVW0_9ABAC
+Length=209
+
+ Score = 146 bits (368),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 39/101 (39%), Positives = 59/101 (58%), Gaps = 2/101 (2%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT DI V+  ++ E   NVL FI+ +EY+LKK  VGA+ I +  +  L  L ++  +TV+
+Sbjct  7    GTVDISVHVTLDKEAKRNVLSFIVREEYHLKKLAVGAYNINILDTQLLNSLAQHKCNTVA  66
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+            CG+Y V+ N V+N    +N I+FN     L KG  +F+   
+Sbjct  67   CGDYVVVYNFVENSNR-INVILFNIKPTILKKGNCIFKIVY  106
+
+
+> UniRef90_B6D609 Telokinin-like peptide n=1 Tax=Agrotis ipsilon 
+multiple nucleopolyhedrovirus TaxID=208013 RepID=B6D609_9ABAC
+Length=210
+
+ Score = 144 bits (363),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 38/101 (38%), Positives = 60/101 (59%), Gaps = 2/101 (2%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT DI V+  ++ E D+NVL FI+ +EY+LKK  VGA+ + +  +  L  L + A +T++
+Sbjct  7    GTVDISVHVTLDKEADKNVLSFIVREEYHLKKLAVGAYSLNILDTQLLNDLAQRACTTIA  66
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+            CGNY ++ N  +N    +N I+FN     L KG  +F+   
+Sbjct  67   CGNYVIVYNFTENS-NKINVILFNIKPSILKKGNCIFKLIY  106
+
+
+> UniRef90_A1YJ70 Telokinin-like peptide n=1 Tax=Spodoptera frugiperda 
+nuclear polyhedrosis virus TaxID=10455 RepID=A1YJ70_NPVSF
+Length=196
+
+ Score = 143 bits (361),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 37/102 (36%), Positives = 57/102 (56%), Gaps = 2/102 (2%)
+
+Query  1    GTPDIIVNAQINSE--DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTV  58
+            GT DI V+  ++ E    NVL FI+ +EY+LKK  VGA+ I +  +  L  L +   +TV
+Sbjct  7    GTIDISVHVTLDKESSKRNVLSFIVREEYHLKKLAVGAYNINILDTQLLNNLSQYKCNTV  66
+
+Query  59   SCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+            +CG+Y ++ N  +N    +N I+FN     L KG  +F+   
+Sbjct  67   ACGDYVIVYNFTENTSNRINVILFNIKPTILKKGNCIFKIVY  108
+
+
+> UniRef90_Q06691 Telokin-like protein 20 n=6 Tax=Autographa californica 
+multiple nucleopolyhedrovirus TaxID=307456 RepID=TLP20_NPVAC
+Length=180
+
+ Score = 141 bits (355),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 101/101 (100%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  2    TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  61
+            TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG
+Sbjct  8    TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  67
+
+Query  62   NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIWR  102
+            NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIWR
+Sbjct  68   NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIWR  108
+
+
+> UniRef90_A0A0A7KRG0 Ac82 n=1 Tax=Agrotis segetum nucleopolyhedrovirus 
+B TaxID=1580580 RepID=A0A0A7KRG0_9ABAC
+Length=209
+
+ Score = 141 bits (357),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 38/101 (38%), Positives = 60/101 (59%), Gaps = 2/101 (2%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT DI V+  ++ E D+NVL FI+ +EY+LKK  VGA+ + +  +  L  L + A +T++
+Sbjct  7    GTVDISVHVTLDKEADKNVLSFIVREEYHLKKLAVGAYSLNILDTQLLNDLAQRACNTIA  66
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+            CGNY ++ N  +N    +N I+FN     L KG  +F+   
+Sbjct  67   CGNYVIVYNFTENS-NKINVILFNTKPTILKKGNCIFKLIY  106
+
+
+> UniRef90_Q80PB1 Orf2 n=1 Tax=Spodoptera litura multicapsid nucleopolyhedrovirus 
+TaxID=46242 RepID=Q80PB1_NPVST
+Length=193
+
+ Score = 140 bits (353),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 37/99 (37%), Positives = 57/99 (58%), Gaps = 2/99 (2%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT DI V+  ++ E  +NVL FI+ +EY+LKK  VGA+ I +  +  L  L      T++
+Sbjct  7    GTIDISVHVTLDKEAKKNVLSFIVREEYHLKKLAVGAYSINILDTQLLNNLSLYQCKTIA  66
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQT  98
+            CG+Y ++ N V+N    +N I+FN     L KG  +F+ 
+Sbjct  67   CGDYVIVYNFVENSNR-INVILFNIKPTILKKGNCIFKI  104
+
+
+> UniRef90_Q287I3 ORF-89 n=1 Tax=Agrotis segetum nuclear polyhedrosis 
+virus TaxID=31508 RepID=Q287I3_NPVAS
+Length=187
+
+ Score = 139 bits (352),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 35/101 (35%), Positives = 60/101 (59%), Gaps = 2/101 (2%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT DI V+  ++ E D++VL FI+ +EY+LKK  VGA+ + +  +  L  L + + +T++
+Sbjct  7    GTVDISVHVTLDKEADKSVLSFIVREEYHLKKLAVGAYSLNILDTQLLNDLARKSCATIA  66
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+            CG+Y +  N  +N    +N I+FN     L KG+ +F+   
+Sbjct  67   CGDYVIAYNFTENS-NKINVILFNIKPSVLKKGKCIFKLIY  106
+
+
+> UniRef90_Q9J859 ORF78 n=3 Tax=Spodoptera exigua multiple nucleopolyhedrovirus 
+TaxID=10454 RepID=Q9J859_9ABAC
+Length=196
+
+ Score = 139 bits (350),  Expect = 9e-39, Method: Composition-based stats.
+ Identities = 38/101 (38%), Positives = 58/101 (57%), Gaps = 2/101 (2%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT DI V+  ++ E   NVL FI+ +EY+LKK  VGA+ I +  +  L  L ++  +T++
+Sbjct  7    GTIDISVHVTLDKEAKRNVLSFIVREEYHLKKLAVGAYNITILDTQLLNSLQQHRCNTIA  66
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+            CG+Y V+ N V N    +N I+FN     L KG  +F+   
+Sbjct  67   CGDYVVVYNFVDNS-NKINVILFNIKPTILKKGNCIFKIVY  106
+
+
+> UniRef90_W5VL52 TLP-20 n=2 Tax=Buzura suppressaria nuclear polyhedrosis 
+virus TaxID=74320 RepID=W5VL52_NPVBS
+Length=224
+
+ Score = 139 bits (351),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 37/101 (37%), Positives = 62/101 (61%), Gaps = 3/101 (3%)
+
+Query  1    GTPDIIVNAQINS-EDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT +I+V A ++  +D+N+L FI++DEY+LKK  +GA+ + +  +  L  L++   +T+S
+Sbjct  7    GTVNILVYATLDQQDDDNILSFIVQDEYHLKKLAIGAYSLNILDTRLLNNLWRYHCATIS  66
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+            CGNY +  N  ++G   LN I+FN     L KG  +F+   
+Sbjct  67   CGNYVICHNFTEDGN--LNVILFNTRPTILKKGVCIFKIIY  105
+
+
+> UniRef90_L0CLN3 Tlp protein n=1 Tax=Thysanoplusia orichalcea 
+nucleopolyhedrovirus TaxID=101850 RepID=L0CLN3_9ABAC
+Length=180
+
+ Score = 137 bits (347),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 88/101 (87%), Positives = 94/101 (93%), Gaps = 0/101 (0%)
+
+Query  2    TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  61
+            TPDIIVNAQ NS D N+LDFIIEDEYYLKKRGVGAH+IKVASSPQL+ LYKNAYSTVSCG
+Sbjct  5    TPDIIVNAQFNSSDINILDFIIEDEYYLKKRGVGAHVIKVASSPQLKPLYKNAYSTVSCG  64
+
+Query  62   NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIWR  102
+            NYG+LCNLVQNGEYDL AIMFNCAEIKLNKG +LFQ KIW+
+Sbjct  65   NYGILCNLVQNGEYDLTAIMFNCAEIKLNKGDVLFQIKIWQ  105
+
+
+> UniRef90_A1YRC7 Telokin-like protein n=1 Tax=Maruca vitrata nucleopolyhedrovirus 
+TaxID=1307954 RepID=A1YRC7_9ABAC
+Length=176
+
+ Score = 136 bits (343),  Expect = 7e-38, Method: Composition-based stats.
+ Identities = 93/101 (92%), Positives = 98/101 (97%), Gaps = 0/101 (0%)
+
+Query  2    TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  61
+            TPDIIVNAQIN +DENVLDFIIEDEYYLKKRGVGAH+IKVASSPQL LLYKNAYSTVSCG
+Sbjct  8    TPDIIVNAQINDDDENVLDFIIEDEYYLKKRGVGAHVIKVASSPQLGLLYKNAYSTVSCG  67
+
+Query  62   NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIWR  102
+            NYG+LCNLVQNGEYDLNAIMFNCAEIKLNK Q+LFQTKIW+
+Sbjct  68   NYGILCNLVQNGEYDLNAIMFNCAEIKLNKNQLLFQTKIWQ  108
+
+
+> UniRef90_D7F5T8 Tlp-20 n=1 Tax=Apocheima cinerarium nucleopolyhedrovirus 
+TaxID=307461 RepID=D7F5T8_9ABAC
+Length=229
+
+ Score = 137 bits (346),  Expect = 7e-38, Method: Composition-based stats.
+ Identities = 35/101 (35%), Positives = 56/101 (55%), Gaps = 2/101 (2%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT +I V   ++ E ++N+L FI++DEY+LKK  VGA+ + +  +  L  L +   ST+S
+Sbjct  20   GTVNIAVYTTLDKEKNKNILSFIVQDEYHLKKLPVGAYSLNILDTQLLNNLSEYVCSTIS  79
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+            CG+Y V  N  +     L+ I+FN     L K   +F+   
+Sbjct  80   CGDYVVCHNFTEQ-YNKLSVILFNTKPTILKKNHCIFKIVY  119
+
+
+> UniRef90_S5MK40 Tlp n=1 Tax=Hemileuca sp. nucleopolyhedrovirus 
+TaxID=1367203 RepID=S5MK40_9ABAC
+Length=351
+
+ Score = 139 bits (352),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 32/102 (31%), Positives = 52/102 (51%), Gaps = 2/102 (2%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT +I V   +  + D N+L FI++DEY+LKK  VGA+ + +  +  L  L +     +S
+Sbjct  63   GTVNIAVYVTLERKVDRNILSFIVQDEYHLKKLAVGAYSLNILHTQLLNNLIEYDCKVIS  122
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+            CG++ +  N  +     LN I+FN     L K   +F+    
+Sbjct  123  CGDFVICHNYSE-HNNGLNVILFNTKPTILKKESCIFKIIYP  163
+
+
+> UniRef90_A0A068LMN3 Tlp-like protein n=1 Tax=Peridroma alphabaculovirus 
+TaxID=1346829 RepID=A0A068LMN3_9ABAC
+Length=181
+
+ Score = 135 bits (340),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 33/100 (33%), Positives = 57/100 (57%), Gaps = 3/100 (3%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNA-YSTV  58
+            GT DI  +  ++ + ++NVL FI+ +EY+LKK  VGA+ + +  +  L  L +    +TV
+Sbjct  7    GTVDISAHVTLDRDANKNVLSFIVREEYHLKKLAVGAYSLNILDTQLLNNLSERHNCTTV  66
+
+Query  59   SCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQT  98
+            +CG+Y ++ N  +N    +N I+FN     L K   +F+ 
+Sbjct  67   ACGDYVIVHNFTENS-NKINVILFNIKPTVLKKDVCIFKI  105
+
+
+> UniRef90_Q8JM51 Putative uncharacterized protein n=7 Tax=Alphabaculovirus 
+TaxID=558016 RepID=Q8JM51_9ABAC
+Length=195
+
+ Score = 133 bits (335),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 35/100 (35%), Positives = 58/100 (58%), Gaps = 2/100 (2%)
+
+Query  2    TPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSC  60
+            T DI V+  ++ E ++N+L FI+ +EY+LKK  VGA+ + +  +  L  L + A +TV+C
+Sbjct  8    TVDISVHVTLDKEANKNILSFIVREEYHLKKLAVGAYSLNILDTQLLNDLAQRAGTTVAC  67
+
+Query  61   GNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+            G+Y +  N  +N    +N I+FN     L KG  +F+   
+Sbjct  68   GDYVICYNFTENS-NKINVILFNIKPTVLKKGGCIFKIVY  106
+
+
+> UniRef90_O92445 AcMNPV orf82 n=6 Tax=Bombyx mori nuclear polyhedrosis 
+virus TaxID=271108 RepID=O92445_NPVBM
+Length=181
+
+ Score = 132 bits (333),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 96/101 (95%), Positives = 98/101 (97%), Gaps = 0/101 (0%)
+
+Query  2    TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  61
+            TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASS QLRLLYKNAYS VSCG
+Sbjct  8    TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSQQLRLLYKNAYSAVSCG  67
+
+Query  62   NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIWR  102
+            NY +LCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI+R
+Sbjct  68   NYSILCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIYR  108
+
+
+> UniRef90_D4N2C3 Telokin-like protein n=1 Tax=Lymantria xylina 
+MNPV TaxID=745177 RepID=D4N2C3_9ABAC
+Length=188
+
+ Score = 132 bits (333),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 35/101 (35%), Positives = 54/101 (53%), Gaps = 3/101 (3%)
+
+Query  2    TPDIIVNAQINSED-ENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSC  60
+            T +I     ++ E+  + L FI++DEY+LKK  VGA+ I V  +  L  L K    T+ C
+Sbjct  8    TVNIAAYVTLDKEEFRHTLSFIVQDEYHLKKLTVGAYNINVLDTQLLDGLLKKRCYTIVC  67
+
+Query  61   GNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+            GNY V+ N  +  E  L  ++FN + I L K   +F+  + 
+Sbjct  68   GNYNVIYNFTE--EKKLRVMLFNASPIVLKKHSCIFKIVVP  106
+
+
+> UniRef90_C3TWY1 TLP-20 n=1 Tax=Euproctis pseudoconspersa nucleopolyhedrovirus 
+TaxID=307467 RepID=C3TWY1_9ABAC
+Length=285
+
+ Score = 134 bits (339),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 36/104 (35%), Positives = 55/104 (53%), Gaps = 4/104 (4%)
+
+Query  1    GTPDIIVNAQINSE----DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYS  56
+            GT DI V   ++ +    D+ VL FI++DEY+LKK  +GA+ + +  +  L  L +    
+Sbjct  40   GTVDISVYTILDKDINDCDKKVLSFIVQDEYHLKKLAIGAYTLNILDTQLLSDLMERDCV  99
+
+Query  57   TVSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+            TVSCG++ V  N  +     LN I+FN     L KG  +F+   
+Sbjct  100  TVSCGDFVVCHNFTELANCGLNVILFNIKPTILKKGVCIFKIIY  143
+
+
+> UniRef90_A0A097P933 Tlp-20 n=1 Tax=Sucra jujuba nucleopolyhedrovirus 
+TaxID=1563660 RepID=A0A097P933_9ABAC
+Length=240
+
+ Score = 132 bits (334),  Expect = 7e-36, Method: Composition-based stats.
+ Identities = 36/102 (35%), Positives = 58/102 (57%), Gaps = 4/102 (4%)
+
+Query  1    GTPDIIVNAQINS--EDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTV  58
+            G  +I V   ++   +  N+L FI++DEY+LKK  +GA+ + +  +  L+ L  +   TV
+Sbjct  7    GIVNIAVYTTLDKGEDGNNILSFIVQDEYHLKKLTIGAYNLNILPTQLLKDLRNHYCVTV  66
+
+Query  59   SCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+            SCG+Y +  N+ +NG   LN IMFN   + L +G  LF+   
+Sbjct  67   SCGDYVITHNVNENG--GLNVIMFNSKPLTLKRGACLFKILY  106
+
+
+> UniRef90_A0A1D8QNL7 Telokin-like protein n=7 Tax=Lymantria dispar 
+multicapsid nuclear polyhedrosis virus TaxID=10449 RepID=A0A1D8QNL7_NPVLD
+Length=193
+
+ Score = 130 bits (327),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 36/101 (36%), Positives = 54/101 (53%), Gaps = 3/101 (3%)
+
+Query  2    TPDIIVNAQINSED-ENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSC  60
+            T +I     ++ E+  + L FI++DEY+LKK  VGA+ I V  +  L  L +    T+ C
+Sbjct  8    TVNIAAYVTLDKEEFRHTLSFIVQDEYHLKKLTVGAYNINVLDTRLLDGLLEKRCYTIVC  67
+
+Query  61   GNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+            GNY V+ N  Q  E  L  I+FN + I L K   +F+  + 
+Sbjct  68   GNYNVIYNFTQ--EKTLRVILFNASPIVLKKHSCIFKIVVP  106
+
+
+> UniRef90_V9LSY6 DekiORF72 n=1 Tax=Dendrolimus kikuchii nucleopolyhedrovirus 
+TaxID=1219875 RepID=V9LSY6_9ABAC
+Length=181
+
+ Score = 129 bits (324),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 55/101 (54%), Positives = 75/101 (74%), Gaps = 0/101 (0%)
+
+Query  1    GTPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSC  60
+             TPDI+VN +    D +VL+FII +EY+LK+ G+GAH IKV SSP L  L++N Y T+SC
+Sbjct  7    STPDIVVNVEPADNDVDVLNFIIGNEYHLKRLGIGAHAIKVISSPHLERLHRNHYCTISC  66
+
+Query  61   GNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+            G Y +LCNLV   EYD+  I+FN +E +L+KG +LF+TKI+
+Sbjct  67   GTYAILCNLVHGSEYDVETILFNRSETRLDKGGVLFKTKIY  107
+
+
+> UniRef90_A0A1B1V5H4 Ac82 n=1 Tax=Malacosoma sp. alphabaculovirus 
+TaxID=1881632 RepID=A0A1B1V5H4_9ABAC
+Length=237
+
+ Score = 128 bits (323),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 34/98 (35%), Positives = 56/98 (57%), Gaps = 3/98 (3%)
+
+Query  3    PDIIVNAQIN-SEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  61
+             DI V    +  +++N+L FI++DEY+LKK  VGA+ + +  +  L  L     + ++CG
+Sbjct  40   VDIAVYVICDQKDNKNILSFIVQDEYHLKKLTVGAYNLNILDTQLLSNLSSVHCNVIACG  99
+
+Query  62   NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTK  99
+            +Y V+ N+  +    LNAI+FN     L KG  LF+ +
+Sbjct  100  DYVVVFNVTDSNR--LNAILFNAKPTILKKGSCLFKIE  135
+
+
+> UniRef90_A0A1B1MQW7 Telokin-like protein n=1 Tax=Lymantria dispar 
+multicapsid nuclear polyhedrosis virus TaxID=10449 RepID=A0A1B1MQW7_NPVLD
+Length=235
+
+ Score = 127 bits (321),  Expect = 5e-34, Method: Composition-based stats.
+ Identities = 34/101 (34%), Positives = 54/101 (53%), Gaps = 3/101 (3%)
+
+Query  2    TPDIIVNAQINSED-ENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSC  60
+            T +I     ++ E+ ++ L FI++DEY+LKK  VGA+ I V  +  L  L +     + C
+Sbjct  8    TVNIAAYVTLDKEEFKHTLSFIVQDEYHLKKLTVGAYNINVLDTRLLDGLAEKICFAIVC  67
+
+Query  61   GNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+            GNY V+ N  Q  E  L  I+FN + + L K   +F+  + 
+Sbjct  68   GNYNVIYNFTQ--EKSLRVILFNASPVVLKKHSCIFKIVVP  106
+
+
+> UniRef90_A0A0E3JAT6 Telokin like protein 20 n=11 Tax=Alphabaculovirus 
+TaxID=558016 RepID=A0A0E3JAT6_9ABAC
+Length=225
+
+ Score = 126 bits (318),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 35/104 (34%), Positives = 53/104 (51%), Gaps = 5/104 (5%)
+
+Query  1    GTPDIIVNAQINSEDEN---VLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYST  57
+            GT DI      + E E     L F+++DEY+LKK  VGA+ + +  +  L  L+    +T
+Sbjct  20   GTVDIATYVVQDREPEKNIITLSFVVQDEYHLKKLAVGAYCVNILDTRLLSNLHNKQCAT  79
+
+Query  58   VSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+            ++CG + V  N  QN    +NAI+ N     L KG  LF+   +
+Sbjct  80   IACGYFVVTYN--QNETGGINAILLNTRPTILKKGSCLFKISYY  121
+
+
+> UniRef90_Q0IL26 Tlp-20 n=1 Tax=Leucania separata nucleopolyhedrovirus 
+TaxID=1307956 RepID=Q0IL26_NPVLS
+Length=285
+
+ Score = 128 bits (322),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 39/99 (39%), Positives = 59/99 (60%), Gaps = 4/99 (4%)
+
+Query  2    TPDIIVNAQIN--SEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            T DI V   ++   ED NVL FI++DE +LKK  +GA+ +K+  +  L+ L +     VS
+Sbjct  8    TVDIAVYVSMDRNDEDRNVLSFIVQDECHLKKLAIGAYALKILDTKLLQSLGERKCIVVS  67
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQT  98
+             G+Y ++ N+  N    +NAI+FN   IKL+KG  LF+ 
+Sbjct  68   GGDYVIVHNI--NEANGINAILFNKNPIKLHKGMCLFKI  104
+
+
+> UniRef90_Q4KT00 ORF-80 peptide n=4 Tax=Chrysodeixis chalcites 
+nucleopolyhedrovirus TaxID=320432 RepID=Q4KT00_9ABAC
+Length=235
+
+ Score = 126 bits (316),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 40/103 (39%), Positives = 58/103 (56%), Gaps = 5/103 (5%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNA--YST  57
+            GT DI V   ++ E DEN+L FI++DEY+LKK  VGA+ + +  +  L  L +N    ST
+Sbjct  7    GTVDIAVYVTLDKENDENILSFIVQDEYHLKKLAVGAYNLNILDTQLLAKLIQNQSRSST  66
+
+Query  58   VSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+            +  G+Y V+ N   N   +LN I+FN     L KG  +F+   
+Sbjct  67   IVGGDYVVVYNF--NMSNNLNVILFNIKPTILKKGACIFKIVY  107
+
+
+> UniRef90_A0A172WZC7 Tlp20 n=1 Tax=Catopsilia pomona nucleopolyhedrovirus 
+TaxID=1850906 RepID=A0A172WZC7_9ABAC
+Length=246
+
+ Score = 126 bits (317),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 62/106 (58%), Positives = 77/106 (73%), Gaps = 6/106 (6%)
+
+Query  2    TPDIIVNAQINSE----DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAY--  55
+            T DI+V    +S+    D  VL F+IEDEY+LKK  VGA+ IKV SSP L+ LYKN Y  
+Sbjct  8    TADIVVRVAFDSDSGKNDTVVLSFMIEDEYHLKKLSVGAYAIKVISSPHLKHLYKNHYYL  67
+
+Query  56   STVSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+            ST+SCG Y +LCNLV+NGEYD+NAIMFN AE KL K  +LF+ K++
+Sbjct  68   STISCGKYTILCNLVENGEYDINAIMFNHAETKLIKNDVLFKIKMF  113
+
+
+> UniRef90_A0A126FC50 TELOKIN-like protein n=1 Tax=Lonomia obliqua 
+multiple nucleopolyhedrovirus TaxID=134394 RepID=A0A126FC50_9ABAC
+Length=200
+
+ Score = 122 bits (308),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 53/99 (54%), Positives = 76/99 (77%), Gaps = 0/99 (0%)
+
+Query  2    TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  61
+            TPDI+VNA  +  ++N+L+FII+DEY+LKK G+G H++KV SS  L+ LY NA+  V+  
+Sbjct  8    TPDIVVNAVFDEYNQNLLNFIIQDEYHLKKLGIGGHVVKVNSSDNLKHLYTNAFCIVTSK  67
+
+Query  62   NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+            NYG+LCNL+++ + D+N I+FNCA  KLNKG +LF+ K 
+Sbjct  68   NYGILCNLLEDSKSDINVILFNCAISKLNKGDVLFRVKF  106
+
+
+> UniRef90_A0A0B4ZZH4 Telokinin-like peptide n=3 Tax=Chrysodeixis 
+includens nucleopolyhedrovirus TaxID=1207438 RepID=A0A0B4ZZH4_9ABAC
+Length=239
+
+ Score = 122 bits (308),  Expect = 4e-32, Method: Composition-based stats.
+ Identities = 37/101 (37%), Positives = 55/101 (54%), Gaps = 5/101 (5%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAY--ST  57
+            GT DI V   ++ + D+N+L FI++DEY+LKK  VGA+ + +  +  L  L +N    ST
+Sbjct  7    GTVDIAVYVTLDKDNDKNILSFIVQDEYHLKKLAVGAYNLNILDTQLLAKLAQNQCRSST  66
+
+Query  58   VSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQT  98
+            +  G Y V+ N   N   +LN I+FN     L KG  +   
+Sbjct  67   IVEGEYVVVYNF--NIRNNLNVILFNIKPTVLKKGACILII  105
+
+
+> UniRef90_Q461Z1 Orf75 n=1 Tax=Trichoplusia ni single nucleopolyhedrovirus 
+TaxID=332054 RepID=Q461Z1_9ABAC
+Length=278
+
+ Score = 123 bits (310),  Expect = 4e-32, Method: Composition-based stats.
+ Identities = 40/103 (39%), Positives = 58/103 (56%), Gaps = 5/103 (5%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAY--ST  57
+            GT DI V   ++ E D+N+L FI++DEY+LKK  VGA+ + +  +  L  L +N    ST
+Sbjct  40   GTVDIAVYVTLDKENDKNILSFIVQDEYHLKKLAVGAYNLNILDTQLLAKLAQNQCRSST  99
+
+Query  58   VSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+            +  G+Y V+ N   N   +LN I+FN     L KG  +FQ   
+Sbjct  100  IVGGDYVVVYNF--NVCNNLNVILFNIKPTVLKKGTSIFQIVY  140
+
+
+> UniRef90_Q0N426 Tlp20/ac83-like protein n=1 Tax=Clanis bilineata 
+nucleopolyhedrovirus TaxID=1307957 RepID=Q0N426_9ABAC
+Length=289
+
+ Score = 121 bits (304),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 37/109 (34%), Positives = 60/109 (55%), Gaps = 9/109 (8%)
+
+Query  1    GTPDIIVNAQINSEDE--NVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYS--  56
+            GT +I V      ++   +VL FI+ DEY+LKK  VGA+ + +  S  L++++    S  
+Sbjct  46   GTVNIAVYVTHEKDNNFNDVLSFIVRDEYHLKKLAVGAYSLNILDSHHLKIMHDAVKSAN  105
+
+Query  57   ----TVSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+                TVSCG++ V+ N  +  +  LNAI+FN     L K  ++F+  I+
+Sbjct  106  ATVQTVSCGDFVVVYNYTEMSKN-LNAILFNAKPTILKKDGVIFKVIIY  153
+
+
+> UniRef90_A0EYW8 Telokin-like protein 20 n=1 Tax=Ectropis obliqua 
+nucleopolyhedrovirus TaxID=59376 RepID=A0EYW8_9ABAC
+Length=284
+
+ Score = 120 bits (302),  Expect = 7e-31, Method: Composition-based stats.
+ Identities = 36/106 (34%), Positives = 59/106 (56%), Gaps = 6/106 (6%)
+
+Query  1    GTPDIIVNAQINSEDE-NVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            GT  I V   ++ E++ N+L FI++DEY+LKK  VGA+ + +  +  L  L +++Y  V 
+Sbjct  20   GTVSIAVYTIVDKENDYNILSFIVQDEYHLKKLAVGAYNLNILDTQLLNTLEESSYHVVV  79
+
+Query  60   CGNYGVLCNLVQNG-----EYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+            CG++ +  N+V           LN I+FNC  + LNK   +F+   
+Sbjct  80   CGDFVITHNIVDRKYARTPNTKLNVILFNCKPVVLNKSDCIFKIVY  125
+
+
+> UniRef90_A0A0B4UK94 Telokin-like protein-20 n=1 Tax=Condylorrhiza 
+vestigialis MNPV TaxID=1592576 RepID=A0A0B4UK94_9ABAC
+Length=153
+
+ Score = 117 bits (293),  Expect = 9e-31, Method: Composition-based stats.
+ Identities = 30/102 (29%), Positives = 56/102 (55%), Gaps = 6/102 (6%)
+
+Query  2    TPDIIVN--AQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            T DI+V     + ++ E VL+F  ++E+ L K   GAH +++  S +L  L+ + +S ++
+Sbjct  8    TSDIVVRARVVLANDGETVLEFGAKNEHRLMK---GAHDVRIVPSDELEALHDSPHSVIT  64
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+            CG+Y V  NL    + +  A++    +  L  G  +F+ K+W
+Sbjct  65   CGDYTVEFNLSSRDKREAQALLSVKRDDMLVSGA-VFRLKLW  105
+
+
+> UniRef90_S5N3M0 TLP n=3 Tax=Alphabaculovirus TaxID=558016 RepID=S5N3M0_NPVCF
+Length=155
+
+ Score = 116 bits (292),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 31/102 (30%), Positives = 54/102 (53%), Gaps = 6/102 (6%)
+
+Query  2    TPDIIV--NAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            TPDI+V        +D  VL+F  E+E+ L K   GAH ++V +SP+L  L+   Y+ ++
+Sbjct  8    TPDIVVKVRVVFADDDVTVLEFEAENEHCLMK---GAHDVRVIASPELDALHNGPYNLIT  64
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+             GNY    NLV +  +    +++  ++        +F+ K+W
+Sbjct  65   LGNYTFHYNLVDSDRFGAQVMLYVKSDNI-KISGAVFRLKVW  105
+
+
+> UniRef90_S5MKW0 TLP n=1 Tax=Choristoneura rosaceana alphabaculovirus 
+TaxID=1367205 RepID=S5MKW0_9ABAC
+Length=155
+
+ Score = 116 bits (291),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 30/102 (29%), Positives = 55/102 (54%), Gaps = 6/102 (6%)
+
+Query  2    TPDIIVNAQI--NSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            T DI+V A++    +D  VL+F  E+E+ L K   GAH ++V +SP+L  L+   Y+ ++
+Sbjct  8    TSDIVVKARVLVADDDGMVLEFEAENEHCLMK---GAHDVRVIASPELDALHNGPYNEIT  64
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+             G+Y    NL+ +  +    ++F      +     +F+ K+W
+Sbjct  65   LGDYTFHYNLIDSDRFGAQVMLFVKR-NNIKISGAVFRLKVW  105
+
+
+> UniRef90_Q2NP03 Telokin-like peptide n=1 Tax=Hyphantria cunea 
+nuclear polyhedrosis virus TaxID=28288 RepID=Q2NP03_NPVHC
+Length=155
+
+ Score = 116 bits (291),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 29/102 (28%), Positives = 53/102 (52%), Gaps = 6/102 (6%)
+
+Query  2    TPDIIVNAQI--NSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            T DI+V A++    +D  VL+F  E+E+ L K   GAH + V  SP+L  L+   Y+ ++
+Sbjct  8    TSDIVVRARVLVEDDDNTVLEFEAENEHRLMK---GAHEVHVVVSPELDALHNGPYNEIT  64
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+             G+Y    NL+++  +    ++F   +        +F+  +W
+Sbjct  65   LGDYTFHYNLMESNRFGAQVMLFVKKDDI-KIAGPVFRLHVW  105
+
+
+> UniRef90_Q6VTR2 Telokin-like protein-20 n=3 Tax=Alphabaculovirus 
+TaxID=558016 RepID=Q6VTR2_NPVCD
+Length=153
+
+ Score = 114 bits (286),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 32/102 (31%), Positives = 55/102 (54%), Gaps = 6/102 (6%)
+
+Query  2    TPDIIVNAQI--NSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            T DI+V A++   S+ E VL+F  E+E+ L K   G H +++  S +L  L+ N ++ ++
+Sbjct  8    TSDIVVRARVVPASDGETVLEFGAENEHRLMK---GPHDVRIMPSDELEALHDNPHAVIT  64
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+            CG Y V  NL      +  A++    +  L  G  +F+ K+W
+Sbjct  65   CGEYTVEFNLSSRDRREAQALLSVKQDDVLVSGG-VFRLKLW  105
+
+
+> UniRef90_O10335 Telokin-like protein 20 homolog n=2 Tax=Alphabaculovirus 
+TaxID=558016 RepID=TLP20_NPVOP
+Length=155
+
+ Score = 113 bits (283),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 28/102 (27%), Positives = 54/102 (53%), Gaps = 6/102 (6%)
+
+Query  2    TPDIIVNAQI--NSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            T DI+V A++    ++  +L+F  E+E+ L +   GAH ++V +SP+L  L+   Y+ ++
+Sbjct  8    TSDIVVRARVLIADDEGTLLEFEAENEHCLMR---GAHEVRVIASPELDALHNGPYNEIA  64
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+             G+Y    NLV    +    ++F   +        +F+ K+W
+Sbjct  65   LGDYTFHFNLVAANRFGAQVMLFAKRDDI-KVSGAVFRLKVW  105
+
+
+> UniRef90_A0A162GUV3 Uncharacterized protein n=1 Tax=Urbanus proteus 
+nucleopolyhedrovirus TaxID=1675866 RepID=A0A162GUV3_9BACU
+Length=174
+
+ Score = 112 bits (281),  Expect = 8e-29, Method: Composition-based stats.
+ Identities = 32/99 (32%), Positives = 51/99 (52%), Gaps = 6/99 (6%)
+
+Query  4   DIIVNAQINSEDENV--LDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  61
+           DI V       +ENV  L F+++D+Y+LKK   GA+ + +  +  +  ++ N   TV+ G
+Sbjct  2   DIAVYVLGKKNNENVYELSFMLQDDYHLKKL--GAYGLLILPTQLIANMHNNRCDTVAYG  59
+
+Query  62  NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+           +Y ++ N        LN I+FN     L K Q LF+  I
+Sbjct  60  DYIIVYNCT--DTNSLNVILFNLKPCLLKKEQCLFKILI  96
+
+
+> UniRef90_M1JNW8 Telokin-like protein-20 n=1 Tax=Spodoptera littoralis 
+nuclear polyhedrosis virus TaxID=10456 RepID=M1JNW8_NPVSL
+Length=193
+
+ Score = 112 bits (280),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 37/106 (35%), Positives = 60/106 (57%), Gaps = 8/106 (8%)
+
+Query  1    GTPDIIVNAQI-NSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQL--RLLYKNAY--  55
+            GT DI V+  + +  D+ VL FI++DE +LKK  +GA+ I V  S ++  +LL   ++  
+Sbjct  7    GTVDIAVDVSLSDDNDKKVLSFIVQDECHLKKLAIGAYAINVIDSNKILNKLLNDGSHRL  66
+
+Query  56   -STVSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+               V+CG + + CN  +N    +NAI+FN   + L KG  +F+   
+Sbjct  67   DKIVACGEFLIACN--ENESNSINAILFNKNCVTLKKGVCIFKIHY  110
+
+
+> UniRef90_Q1HH27 Telokin-like protein-20 n=1 Tax=Antheraea pernyi 
+nuclear polyhedrosis virus TaxID=161494 RepID=Q1HH27_NPVAP
+Length=152
+
+ Score = 110 bits (276),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 30/102 (29%), Positives = 56/102 (55%), Gaps = 6/102 (6%)
+
+Query  2    TPDIIVNAQI--NSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            T DI+V A+    S+ + VL+F+ E+E+ L +   GAH +++  S +L  L+ + +S ++
+Sbjct  8    TSDIVVKARAVSASDGQTVLEFVAENEHRLMR---GAHDVRIVPSAELEALHDSPHSVIT  64
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+            CG+Y V  NL         A++F   +     G  +F+ ++W
+Sbjct  65   CGDYTVEFNLSSRDLRAGQAMLFVKRDDASVAGA-VFRLRLW  105
+
+
+> UniRef90_Q91BE7 Telokin-like protein-20 n=2 Tax=Spodoptera litura 
+multicapsid nucleopolyhedrovirus TaxID=46242 RepID=Q91BE7_NPVST
+Length=197
+
+ Score = 111 bits (278),  Expect = 5e-28, Method: Composition-based stats.
+ Identities = 39/106 (37%), Positives = 61/106 (58%), Gaps = 8/106 (8%)
+
+Query  1    GTPDIIVNAQINSE-DENVLDFIIEDEYYLKKRGVGAHIIKVASSPQL--RLLYKNAY--  55
+            GT DI V+  +  E D+ VL FI++DE +LKK  +GA+ I V  S ++  +LL  N +  
+Sbjct  7    GTVDIAVDVNLTDENDKKVLSFIVQDECHLKKLAIGAYAINVIDSNKILNKLLNDNDHVL  66
+
+Query  56   -STVSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+               V+CG + + CN  +N    +NAI+FN + + L KG  +F+   
+Sbjct  67   NKIVACGEFLIACN--ENESNGINAILFNKSCVTLKKGVCIFKIHY  110
+
+
+> UniRef90_A0A0E3URB4 Tlp n=1 Tax=Lambdina fiscellaria nucleopolyhedrovirus 
+TaxID=1642929 RepID=A0A0E3URB4_9ABAC
+Length=284
+
+ Score = 112 bits (281),  Expect = 9e-28, Method: Composition-based stats.
+ Identities = 32/104 (31%), Positives = 56/104 (54%), Gaps = 7/104 (7%)
+
+Query  1    GTPDIIVNAQINSEDEN---VLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYS-  56
+            GT  I V   ++  ++N   VL F+++DEY+LKK  VGA+ I+V ++  L  L +N    
+Sbjct  7    GTDSIAVRVTVDKSNDNENSVLLFVVQDEYHLKKLTVGAYDIRVTNAQTLIELSRNPTRN  66
+
+Query  57   --TVSCGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQT  98
+               V+C +Y +  N  +     +N ++ N   + L KG+ +F+ 
+Sbjct  67   SLIVTCDDYVICHNFTE-TPNAINFLLLNKKPLILKKGKCMFKL  109
+
+
+> UniRef90_A0A0C5AQ90 Tlp20 n=1 Tax=Spodoptera frugiperda granulovirus 
+TaxID=307454 RepID=A0A0C5AQ90_9BBAC
+Length=179
+
+ Score = 98.7 bits (245),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 21/102 (21%), Positives = 43/102 (42%), Gaps = 6/102 (6%)
+
+Query  2    TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS-C  60
+            T +I++   +     N +   +++EY+L+K GVGA+ + V    +L  L    +  V   
+Sbjct  8    TDNIVLYPILED---NRITLGVKEEYHLQKVGVGAYRVTVLDCERLDHLRHTHHHIVMER  64
+
+Query  61   GNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIWR  102
+                ++ N    G   + A++      K+ K  +L      +
+Sbjct  65   RECVLIHNCFVEG--GITAVLIVTEPFKMRKDSVLCHIAFPK  104
+
+
+> UniRef90_Q91GH9 Putative uncharacterized protein n=1 Tax=Epiphyas 
+postvittana nucleopolyhedrovirus TaxID=70600 RepID=Q91GH9_NPVEP
+Length=154
+
+ Score = 94.5 bits (234),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 34/102 (33%), Positives = 54/102 (53%), Gaps = 6/102 (6%)
+
+Query  2    TPDIIVNAQINSEDEN--VLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS  59
+            T DI+VNA+    DE+  +L F  + E  L +   GAH + V  S +L  L+  AYS  +
+Sbjct  8    TSDIVVNARFVDTDEDTILLKFFTDKEQRLMR---GAHDVHVVPSSELEALHNGAYSKFT  64
+
+Query  60   CGNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+             GNY V  NL++N    +  ++F   E  +    ++F+ K+W
+Sbjct  65   NGNYTVDVNLLKNDHRAVQVMLF-AKEDNVILNDVVFEIKVW  105
+
+
+> UniRef90_Q80LN1 Putative uncharacterized protein n=2 Tax=Alphabaculovirus 
+TaxID=558016 RepID=Q80LN1_NPVAH
+Length=196
+
+ Score = 95.6 bits (237),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 27/100 (27%), Positives = 48/100 (48%), Gaps = 4/100 (4%)
+
+Query  5    IIVNAQIN-SEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYK--NAYSTVSCG  61
+            I V+  +   ++ENVL F + DE +LK+   GA+ +K+  +  L  L    + Y+    G
+Sbjct  12   ISVSVMLTRKKNENVLSFTVNDETHLKQLTCGAYHLKIVETSLLDPLINSYHYYAPQVFG  71
+
+Query  62   NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIW  101
+            +Y V+ N+  N    +  I+FN       +  ++FQ    
+Sbjct  72   DYTVIYNVNANSRQ-VKMILFNITSTVFKRDSVIFQIVYP  110
+
+
+> UniRef90_A0A0M3WNI4 Uncharacterized protein n=1 Tax=Perigonia 
+lusca single nucleopolyhedrovirus TaxID=1675865 RepID=A0A0M3WNI4_9BACU
+Length=253
+
+ Score = 93.3 bits (231),  Expect = 7e-21, Method: Composition-based stats.
+ Identities = 30/107 (28%), Positives = 46/107 (43%), Gaps = 8/107 (7%)
+
+Query  1    GTPDIIVNAQINSEDENVL----DFIIEDEYYLKKRGVGAHIIKVASSPQLRLL-YKNAY  55
+            GT +I V  Q   +   +      FI++D+Y+ KK GVGA+  KV  +  L  L      
+Sbjct  40   GTINISVYVQEQQQHHQLQQQELSFIVQDDYHXKKLGVGAYRFKVLDTQLLGKLPRDRPP  99
+
+Query  56   STVSCGNY--GVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+            + +    Y      N  +    +LN  M N  E  L KG  +F+  +
+Sbjct  100  TIIVADGYCSVFCVNFTERI-GELNVCMLNMKETILKKGACIFKILL  145
+
+
+> UniRef90_Q6QXL3 ORF93 n=1 Tax=Agrotis segetum granulosis virus 
+TaxID=10464 RepID=Q6QXL3_GVAS
+Length=177
+
+ Score = 91.0 bits (225),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 25/101 (25%), Positives = 46/101 (46%), Gaps = 6/101 (6%)
+
+Query  3    PDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSC-G  61
+              II+   +  E    + F ++++Y L+K  +GA+ +++  S +L  L    +  V C  
+Sbjct  9    DSIIIYPVLEEEQ---IMFKVKEDYNLQKLSIGAYKLQILESEKLDHLKDIHHHIVVCNK  65
+
+Query  62   NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKIWR  102
+            NY V+ N V+        I+ +   + L K Q +F     R
+Sbjct  66   NYLVVHNAVEGDAMSAVLILLDS--VVLKKDQNIFMVTFPR  104
+
+
+> UniRef90_B6S6Z2 Telokinik-like protein-20 n=2 Tax=Pseudalatia 
+unipuncta granulosis virus TaxID=36355 RepID=B6S6Z2_GVPU
+Length=164
+
+ Score = 89.8 bits (222),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 24/95 (25%), Positives = 45/95 (47%), Gaps = 6/95 (6%)
+
+Query  2   TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  61
+           T +I++   +     N +   +++EY+L+K GVGA+ + V  S QL  L+   +  V   
+Sbjct  9   TDNIVLYPILED---NRITLAVKEEYFLQKVGVGAYRVTVLESEQLDHLHHTQHHIVMER  65
+
+Query  62  -NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQML  95
+               +L N  + G   + A++      K+ K  +L
+Sbjct  66  PGCLLLHNCYREG--GITAVLIVTEPFKITKNSVL  98
+
+
+> UniRef90_A0A161CD46 Uncharacterized protein n=1 Tax=Mocis sp. 
+granulovirus TaxID=1675863 RepID=A0A161CD46_9BBAC
+Length=152
+
+ Score = 89.4 bits (221),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 25/100 (25%), Positives = 45/100 (45%), Gaps = 6/100 (6%)
+
+Query  2    TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  61
+            T +I++   +     N +   +++EYYL+K GVGA+ + V +S +L  L    +  +   
+Sbjct  9    TDNILLYPILED---NCITLAVKEEYYLQKLGVGAYRVTVLNSDKLDHLRHTQHQIIMER  65
+
+Query  62   -NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+             N  +L N    G   + AI+      K+ K  +L     
+Sbjct  66   PNCVLLHNCFSEG--GVTAILVVTEPFKIEKNSVLCHIAF  103
+
+
+> UniRef90_Q9PYS5 ORF119 n=2 Tax=Betabaculovirus TaxID=558017 RepID=Q9PYS5_GVXN
+Length=161
+
+ Score = 88.3 bits (218),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 25/95 (26%), Positives = 44/95 (46%), Gaps = 6/95 (6%)
+
+Query  2   TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  61
+           T +I++   +     N +   +++EY+L+K GVGAH + V  S QL  L+   +  V   
+Sbjct  9   TDNIVLYPILED---NRITLAVKEEYFLQKVGVGAHRVTVLESEQLDHLHYTQHHIVMER  65
+
+Query  62  -NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQML  95
+               +L N    G   + A++      K+ K  +L
+Sbjct  66  SGCLLLHNCYSEG--GITAVLIVTEPFKITKNSVL  98
+
+
+> UniRef90_Q9DVU8 PxGV-Corf83 protein n=2 Tax=Plutella xylostella 
+granulovirus TaxID=98383 RepID=Q9DVU8_9BBAC
+Length=139
+
+ Score = 81.7 bits (201),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 21/99 (21%), Positives = 46/99 (46%), Gaps = 8/99 (8%)
+
+Query  2   TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  61
+           T  I V      +    +DF +++EY+L+K+G GA+ + V ++ ++         TV   
+Sbjct  8   TDMIGVYPVFLDDK---IDFKVDNEYHLQKQGKGAYAVSVTNNDKIS----RGTLTVESA  60
+
+Query  62  NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+           +Y V+ N + +G+  ++ ++     I       +F   +
+Sbjct  61  DYNVVYNYLSSGD-GISVLLIIKKPISFKAHDTVFSISL  98
+
+
+> UniRef90_A5IZU5 Tlp20 n=1 Tax=Spodoptera litura granulovirus 
+TaxID=359919 RepID=A5IZU5_9BBAC
+Length=173
+
+ Score = 49.0 bits (116),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 19/100 (19%), Positives = 42/100 (42%), Gaps = 5/100 (5%)
+
+Query  2    TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVS-C  60
+            T  I++   + +E    +   ++ +Y L K  V    ++V ++  L  L    +  ++  
+Sbjct  12   TDTIVLYPILENEQ---ITLKVKHDYRLHKLNVSVFKLRVENNNLLSHLTDIHHQILTDL  68
+
+Query  61   GNYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTKI  100
+             N  VL     +   ++  ++ N A + LNK  +L +   
+Sbjct  69   DNVIVLHTCCSDKGLNIALMVLNDA-LVLNKDDILCRIVY  107
+
+
+> UniRef90_K4EQF2 Telokin-like protein 20 n=1 Tax=Epinotia aporema 
+granulovirus TaxID=166056 RepID=K4EQF2_9BBAC
+Length=153
+
+ Score = 47.5 bits (112),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 24/100 (24%), Positives = 46/100 (46%), Gaps = 10/100 (10%)
+
+Query  1    GTPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSC  60
+            G   I++ A+I ++    + F+ + +Y L+K GVGA+ ++         L         C
+Sbjct  12   GAESIVLCAEIANDK---VKFVTKRDYNLQKLGVGAYKLEFDDC-IANELDTRP---QVC  64
+
+Query  61   GN-YGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLFQTK  99
+             + + V+ N   N    L  I+   AE+ L+K   +F+ +
+Sbjct  65   DDRFVVVVNKTAN--NALVGILITNAEMNLDKNSPIFELQ  102
+
+
+> UniRef90_A0A0R7EYZ5 Uncharacterized protein n=1 Tax=Diatraea 
+saccharalis granulovirus TaxID=1675862 RepID=A0A0R7EYZ5_9BBAC
+Length=103
+
+ Score = 46.3 bits (109),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 21/94 (22%), Positives = 43/94 (46%), Gaps = 9/94 (10%)
+
+Query  3   PDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCGN  62
+             I++  ++     N+  F  ++EY L+K  +GA+ + +    +      N  + V   +
+Sbjct  7   DMIVLYCEMED---NLCVFKSKNEYKLEKVNIGAYKLSI---EKCVDWSDN-TTRVMNDS  59
+
+Query  63  YGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLF  96
+           Y ++ N V  G   +  I+    +I L K Q++F
+Sbjct  60  YVIIVNNVDGG--GVVGILILLKDITLKKDQVVF  91
+
+
+> UniRef90_UPI000941A80A UPI000941A80A related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000941A80A
+Length=131
+
+ Score = 46.7 bits (110),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 21/95 (22%), Positives = 44/95 (46%), Gaps = 8/95 (8%)
+
+Query  2   TPDIIVNAQINSEDENVLDFIIEDEYYLKKRGVGAHIIKVASSPQLRLLYKNAYSTVSCG  61
+           T +I V  ++  E EN L+  ++ EY LKK G+GA+ + + +   +           +  
+Sbjct  9   TDNITVYCKL--EHENRLEGRVKYEYNLKKLGIGAYKLFIENYDNVA-----GPVKTANS  61
+
+Query  62  NYGVLCNLVQNGEYDLNAIMFNCAEIKLNKGQMLF  96
+           N+ ++ N V   + +   ++    ++ L   Q +F
+Sbjct  62  NFVIVVNEVYE-KNEAVGVLILLDDVMLRANQTIF  95
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.164    0.493    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0503    0.140     1.90     42.6     43.6 
+
+Effective search space used: 438012730055
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

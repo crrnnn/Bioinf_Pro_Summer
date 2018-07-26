@@ -1,0 +1,1675 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1b33n_
+
+Length=67
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P20116 Phycobilisome 7.8 kDa linker polypeptide, allop...  137     2e-40
+  UniRef90_P50036 Phycobilisome 7.8 kDa linker polypeptide, allop...  129     3e-37
+  UniRef90_A0A0T7BMF3 Phycobilisome 7.8 kDa linker polypeptide, a...  128     1e-36
+  UniRef90_A0A0P8BLR4 Phycobilisome 7.8 kDa linker polypeptide, a...  126     4e-36
+  UniRef90_K9RYM2 Phycobilisome 7.8 kDa linker polypeptide, allop...  126     5e-36
+  UniRef90_K9WRP5 Phycobilisome 7.8 kDa linker polypeptide, allop...  125     1e-35
+  UniRef90_A0A0C2LS61 Phycobilisome 7.8 kDa linker polypeptide, a...  125     1e-35
+  UniRef90_K9ZDI9 Phycobilisome 7.8 kDa linker polypeptide, allop...  125     1e-35
+  UniRef90_U9VKE8 Phycobilisome 7.8 kDa linker polypeptide, allop...  125     2e-35
+  UniRef90_UPI00083AB0E4 UPI00083AB0E4 related cluster n=1 Tax=un...  124     3e-35
+  UniRef90_X5JIM5 Phycobilisome small core linker polypeptide n=1...  124     3e-35
+  UniRef90_A0A0C2QJA3 Phycobilisome 7.8 kDa linker polypeptide, a...  124     3e-35
+  UniRef90_O68971 Phycobilisome 7.8 kDa linker polypeptide, allop...  124     5e-35
+  UniRef90_A0A0V7ZLZ5 Phycobilisome 7.8 kDa linker polypeptide, a...  123     9e-35
+  UniRef90_M1X1P6 Phycobilisome 7.8 kDa linker polypeptide, allop...  122     1e-34
+  UniRef90_K9TCF9 Phycobilisome 7.8 kDa linker polypeptide, allop...  122     2e-34
+  UniRef90_L8M2A6 Phycobilisome 7.8 kDa linker polypeptide, allop...  122     2e-34
+  UniRef90_Q2JLK0 Phycobilisome 7.8 kDa linker polypeptide, allop...  122     3e-34
+  UniRef90_V5NYA3 Phycobilisome 7.8 kDa linker polypeptide, allop...  120     7e-34
+  UniRef90_Q01950 Phycobilisome 7.8 kDa linker polypeptide, allop...  120     8e-34
+  UniRef90_UPI0008F98B17 UPI0008F98B17 related cluster n=1 Tax=un...  120     1e-33
+  UniRef90_F4XLJ6 Phycobilisome 7.8 kDa linker polypeptide, allop...  120     1e-33
+  UniRef90_A0A1J0AG14 CpcD phycobilisome linker domain-containing...  119     2e-33
+  UniRef90_P80558 Phycobilisome 7.8 kDa linker polypeptide, allop...  119     5e-33
+  UniRef90_A0A0D6AIJ5 Phycobilisome 7.8 kDa linker polypeptide, a...  117     1e-32
+  UniRef90_A0A098TMZ4 Phycobilisome 7.8 kDa linker polypeptide, a...  117     2e-32
+  UniRef90_K9SVX5 Phycobilisome 7.8 kDa linker polypeptide, allop...  115     7e-32
+  UniRef90_K9SPW6 Phycobilisome 7.8 kDa linker polypeptide, allop...  115     9e-32
+  UniRef90_P06114 Phycobilisome 7.8 kDa linker polypeptide, allop...  112     2e-30
+  UniRef90_UPI00057100E4 photosystem I reaction center subunit XI...  103     4e-27
+  UniRef90_Q7NL78 Phycobilisome 7.8 kDa linker polypeptide, allop...  103     5e-27
+  UniRef90_A0A0G8B0U8 Phycobilisome 7.8 kDa linker polypeptide, a...  102     1e-26
+  UniRef90_A0A182ASY5 Phycobilisome 7.8 kDa linker polypeptide, a...  101     4e-26
+  UniRef90_Q3AZN2 Phycobilisome 7.8 kDa linker polypeptide, allop...  98.6    4e-25
+  UniRef90_UPI0002001816 photosystem I reaction center subunit XI...  98.2    5e-25
+  UniRef90_A5GV83 Phycobilisome 7.8 kDa linker polypeptide, allop...  98.2    7e-25
+  UniRef90_K9PC45 Phycobilisome 7.8 kDa linker polypeptide, allop...  97.1    2e-24
+  UniRef90_Q55095 Linker polypeptide (Fragment) n=1 Tax=Synechocy...  95.1    7e-24
+  UniRef90_A3Z982 Phycobilisome 7.8 kDa linker polypeptide, allop...  95.5    8e-24
+  UniRef90_A0A0J6EAH8 Photosystem I reaction center subunit XII n...  93.2    5e-23
+  UniRef90_M2Y574 Phycobilisome core linker protein (ApcC) n=1 Ta...  89.7    8e-21
+  UniRef90_R7QFE8 Phycobilisome core linker polypeptide (Lc), all...  83.6    6e-19
+  UniRef90_Q7XY43 Phycobilisome 7.8 kDa linker polypeptide n=1 Ta...  80.9    6e-18
+  UniRef90_M1UUN7 Phycocyanin-associated rod linker protein n=1 T...  79.7    3e-17
+  UniRef90_Q8GUE6 Core linker Lc7.8 n=1 Tax=Cyanophora paradoxa T...  63.9    3e-11
+
+
+> UniRef90_P20116 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=57 Tax=Cyanobacteria TaxID=1117 
+RepID=PYC1_MASLA
+Length=67
+
+ Score = 137 bits (346),  Expect = 2e-40, Method: Compositional matrix adjust.
+ Identities = 67/67 (100%), Positives = 67/67 (100%), Gaps = 0/67 (0%)
+
+Query  1   GRLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQ  60
+           GRLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQ
+Sbjct  1   GRLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQ  60
+
+Query  61  GINTGLA  67
+           GINTGLA
+Sbjct  61  GINTGLA  67
+
+
+> UniRef90_P50036 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=19 Tax=Cyanobacteria TaxID=1117 
+RepID=PYC1_THEEB
+Length=67
+
+ Score = 129 bits (325),  Expect = 3e-37, Method: Compositional matrix adjust.
+ Identities = 62/66 (94%), Positives = 64/66 (97%), Gaps = 0/66 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+FKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVEL TGK G
+Sbjct  2   RMFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELFTGKPG  61
+
+Query  62  INTGLA  67
+           +NTGLA
+Sbjct  62  VNTGLA  67
+
+
+> UniRef90_A0A0T7BMF3 Phycobilisome 7.8 kDa linker polypeptide, 
+allophycocyanin-associated, core n=1 Tax=Calothrix sp. 336/3 
+TaxID=1337936 RepID=A0A0T7BMF3_9CYAN
+Length=68
+
+ Score = 128 bits (321),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 61/67 (91%), Positives = 64/67 (96%), Gaps = 0/67 (0%)
+
+Query  1   GRLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQ  60
+            RLFKITACVPSQTRIRTQRELQNTYFTKLV Y+NWF EQQRIQKMGGKIVKVELATGKQ
+Sbjct  2   ARLFKITACVPSQTRIRTQRELQNTYFTKLVAYDNWFLEQQRIQKMGGKIVKVELATGKQ  61
+
+Query  61  GINTGLA  67
+           G+NTGL+
+Sbjct  62  GLNTGLS  68
+
+
+> UniRef90_A0A0P8BLR4 Phycobilisome 7.8 kDa linker polypeptide, 
+allophycocyanin-associated, core n=3 Tax=Cyanobacteria TaxID=1117 
+RepID=A0A0P8BLR4_9CYAN
+Length=67
+
+ Score = 126 bits (317),  Expect = 4e-36, Method: Compositional matrix adjust.
+ Identities = 58/66 (88%), Positives = 64/66 (97%), Gaps = 0/66 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+F++TACVPSQTRIRTQRELQNTYFTKLVPY+NWF+EQQRIQKMGG IVKVELATG+QG
+Sbjct  2   RMFRVTACVPSQTRIRTQRELQNTYFTKLVPYDNWFKEQQRIQKMGGTIVKVELATGRQG  61
+
+Query  62  INTGLA  67
+            NTGLA
+Sbjct  62  ANTGLA  67
+
+
+> UniRef90_K9RYM2 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=6 Tax=Cyanobacteria TaxID=1117 
+RepID=K9RYM2_SYNP3
+Length=67
+
+ Score = 126 bits (317),  Expect = 5e-36, Method: Compositional matrix adjust.
+ Identities = 60/65 (92%), Positives = 63/65 (97%), Gaps = 0/65 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           RLFKITACVPSQTRIRTQRELQNTYFTKLVPY+NWF+EQQRIQKMGGKIVKVEL+TGK G
+Sbjct  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYDNWFKEQQRIQKMGGKIVKVELSTGKPG  61
+
+Query  62  INTGL  66
+            NTGL
+Sbjct  62  ANTGL  66
+
+
+> UniRef90_K9WRP5 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=1 Tax=Cylindrospermum stagnale 
+PCC 7417 TaxID=56107 RepID=K9WRP5_9NOST
+Length=67
+
+ Score = 125 bits (315),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 60/66 (91%), Positives = 61/66 (92%), Gaps = 0/66 (0%)
+
+Query  1   GRLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQ  60
+            RLFKITAC+PSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQK GGKIVKVELA GKQ
+Sbjct  2   SRLFKITACIPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKAGGKIVKVELAIGKQ  61
+
+Query  61  GINTGL  66
+           G N GL
+Sbjct  62  GTNAGL  67
+
+
+> UniRef90_A0A0C2LS61 Phycobilisome 7.8 kDa linker polypeptide, 
+allophycocyanin-associated, core n=7 Tax=Nostocales TaxID=1161 
+RepID=A0A0C2LS61_9CYAN
+Length=68
+
+ Score = 125 bits (314),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 60/66 (91%), Positives = 61/66 (92%), Gaps = 0/66 (0%)
+
+Query  1   GRLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQ  60
+            R FK+TACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQK GG IVKVELATGKQ
+Sbjct  2   ARYFKVTACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKAGGTIVKVELATGKQ  61
+
+Query  61  GINTGL  66
+           G NTGL
+Sbjct  62  GTNTGL  67
+
+
+> UniRef90_K9ZDI9 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=3 Tax=Nostocales TaxID=1161 
+RepID=K9ZDI9_ANACC
+Length=68
+
+ Score = 125 bits (314),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 60/67 (90%), Positives = 61/67 (91%), Gaps = 0/67 (0%)
+
+Query  1   GRLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQ  60
+            RLFKITACVPS TR RTQRELQNTYFTKLVPYENWFREQQRIQKMGG IVKVELATGKQ
+Sbjct  2   ARLFKITACVPSLTRTRTQRELQNTYFTKLVPYENWFREQQRIQKMGGTIVKVELATGKQ  61
+
+Query  61  GINTGLA  67
+           G N GL+
+Sbjct  62  GTNAGLS  68
+
+
+> UniRef90_U9VKE8 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=2 Tax=Leptolyngbya TaxID=47251 
+RepID=U9VKE8_9CYAN
+Length=67
+
+ Score = 125 bits (313),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 58/66 (88%), Positives = 64/66 (97%), Gaps = 0/66 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+F+ITACVPSQ+RIRTQRELQNT+FTKLVPY++WFREQQRIQKMGGKIVKVELATGK G
+Sbjct  2   RMFRITACVPSQSRIRTQRELQNTFFTKLVPYDSWFREQQRIQKMGGKIVKVELATGKPG  61
+
+Query  62  INTGLA  67
+            NTGLA
+Sbjct  62  ANTGLA  67
+
+
+> UniRef90_UPI00083AB0E4 UPI00083AB0E4 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00083AB0E4
+Length=67
+
+ Score = 124 bits (312),  Expect = 3e-35, Method: Compositional matrix adjust.
+ Identities = 58/66 (88%), Positives = 62/66 (94%), Gaps = 0/66 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+FK+TACVPS TR RTQRELQNTYFTKLVPY+NWFREQQRIQKMGGKIVKVELATGK G
+Sbjct  2   RMFKVTACVPSLTRTRTQRELQNTYFTKLVPYDNWFREQQRIQKMGGKIVKVELATGKAG  61
+
+Query  62  INTGLA  67
+            NTG+A
+Sbjct  62  ANTGIA  67
+
+
+> UniRef90_X5JIM5 Phycobilisome small core linker polypeptide n=1 
+Tax=Richelia intracellularis TaxID=1164990 RepID=X5JIM5_9NOST
+Length=65
+
+ Score = 124 bits (312),  Expect = 3e-35, Method: Compositional matrix adjust.
+ Identities = 58/64 (91%), Positives = 62/64 (97%), Gaps = 0/64 (0%)
+
+Query  3   LFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQGI  62
+           +FK+TACVPSQ+RIRTQRELQNTYFTKLVPYENWF EQQRIQKMGGKIVKVELATG+QG 
+Sbjct  1   MFKVTACVPSQSRIRTQRELQNTYFTKLVPYENWFTEQQRIQKMGGKIVKVELATGRQGT  60
+
+Query  63  NTGL  66
+           NTGL
+Sbjct  61  NTGL  64
+
+
+> UniRef90_A0A0C2QJA3 Phycobilisome 7.8 kDa linker polypeptide, 
+allophycocyanin-associated, core n=1 Tax=Scytonema tolypothrichoides 
+VB-61278 TaxID=1233231 RepID=A0A0C2QJA3_9CYAN
+Length=68
+
+ Score = 124 bits (312),  Expect = 3e-35, Method: Compositional matrix adjust.
+ Identities = 60/67 (90%), Positives = 62/67 (93%), Gaps = 0/67 (0%)
+
+Query  1   GRLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQ  60
+            RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWF EQQRIQK GGKIVKVELATGK+
+Sbjct  2   ARLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFSEQQRIQKAGGKIVKVELATGKR  61
+
+Query  61  GINTGLA  67
+             NTGL+
+Sbjct  62  QTNTGLS  68
+
+
+> UniRef90_O68971 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=38 Tax=Cyanobacteria TaxID=1117 
+RepID=O68971_SYNP2
+Length=67
+
+ Score = 124 bits (310),  Expect = 5e-35, Method: Compositional matrix adjust.
+ Identities = 58/66 (88%), Positives = 62/66 (94%), Gaps = 0/66 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+FKITACVPSQ+RIRTQRELQNTYFTKLVPY+NWFREQQRI KMGGKIVKV+LATGK G
+Sbjct  2   RMFKITACVPSQSRIRTQRELQNTYFTKLVPYDNWFREQQRIMKMGGKIVKVQLATGKPG  61
+
+Query  62  INTGLA  67
+            NTGL 
+Sbjct  62  TNTGLT  67
+
+
+> UniRef90_A0A0V7ZLZ5 Phycobilisome 7.8 kDa linker polypeptide, 
+allophycocyanin-associated, core n=1 Tax=Mastigocoleus testarum 
+BC008 TaxID=371196 RepID=A0A0V7ZLZ5_9CYAN
+Length=67
+
+ Score = 123 bits (309),  Expect = 9e-35, Method: Compositional matrix adjust.
+ Identities = 58/65 (89%), Positives = 62/65 (95%), Gaps = 0/65 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+FKITACVPS+TR RTQRELQNT+FTKLVPYENWF EQQRIQKMGGKIVKV+LATGKQG
+Sbjct  2   RMFKITACVPSKTRTRTQRELQNTFFTKLVPYENWFSEQQRIQKMGGKIVKVQLATGKQG  61
+
+Query  62  INTGL  66
+            NTGL
+Sbjct  62  TNTGL  66
+
+
+> UniRef90_M1X1P6 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=2 Tax=Richelia intracellularis 
+TaxID=1164990 RepID=M1X1P6_9NOST
+Length=67
+
+ Score = 122 bits (307),  Expect = 1e-34, Method: Compositional matrix adjust.
+ Identities = 57/65 (88%), Positives = 61/65 (94%), Gaps = 0/65 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+FK+TACVPSQ+RIRTQRELQNTYFTKLVPYENWF EQQRIQKMGG+IV V LATGKQG
+Sbjct  2   RMFKVTACVPSQSRIRTQRELQNTYFTKLVPYENWFGEQQRIQKMGGRIVSVHLATGKQG  61
+
+Query  62  INTGL  66
+            NTGL
+Sbjct  62  TNTGL  66
+
+
+> UniRef90_K9TCF9 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=13 Tax=Cyanobacteria TaxID=1117 
+RepID=K9TCF9_9CYAN
+Length=67
+
+ Score = 122 bits (307),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 54/66 (82%), Positives = 64/66 (97%), Gaps = 0/66 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+FK+TACVPSQ+RIRTQRELQNTYFTKLVPY+NWF+EQQRI KMGGKI+KV+LATGK G
+Sbjct  2   RMFKVTACVPSQSRIRTQRELQNTYFTKLVPYDNWFKEQQRIMKMGGKIIKVQLATGKPG  61
+
+Query  62  INTGLA  67
+           +NTG++
+Sbjct  62  MNTGIS  67
+
+
+> UniRef90_L8M2A6 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=1 Tax=Xenococcus sp. PCC 7305 
+TaxID=102125 RepID=L8M2A6_9CYAN
+Length=67
+
+ Score = 122 bits (307),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 57/66 (86%), Positives = 62/66 (94%), Gaps = 0/66 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           RLFK+TACVPSQTRIRTQRELQNTYFTKLVP++NWFREQQRI KMGGKI+KVELATG + 
+Sbjct  2   RLFKVTACVPSQTRIRTQRELQNTYFTKLVPFDNWFREQQRIMKMGGKIIKVELATGIKN  61
+
+Query  62  INTGLA  67
+            NTGLA
+Sbjct  62  TNTGLA  67
+
+
+> UniRef90_Q2JLK0 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=2 Tax=Synechococcus TaxID=1129 
+RepID=Q2JLK0_SYNJB
+Length=67
+
+ Score = 122 bits (305),  Expect = 3e-34, Method: Compositional matrix adjust.
+ Identities = 57/65 (88%), Positives = 62/65 (95%), Gaps = 0/65 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+FKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQK GG+I+KVELATGK G
+Sbjct  2   RMFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKSGGRILKVELATGKPG  61
+
+Query  62  INTGL  66
+           ++ GL
+Sbjct  62  MDVGL  66
+
+
+> UniRef90_V5NYA3 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=8 Tax=Cyanobacteria TaxID=1117 
+RepID=V5NYA3_9CYAN
+Length=67
+
+ Score = 120 bits (302),  Expect = 7e-34, Method: Compositional matrix adjust.
+ Identities = 58/65 (89%), Positives = 60/65 (92%), Gaps = 0/65 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R FKITACVPSQTRIRTQRELQNTYFTKLV ++NWF EQQRI KMGGKIVKVELATGKQG
+Sbjct  2   RSFKITACVPSQTRIRTQRELQNTYFTKLVSFDNWFAEQQRIMKMGGKIVKVELATGKQG  61
+
+Query  62  INTGL  66
+            NTGL
+Sbjct  62  ANTGL  66
+
+
+> UniRef90_Q01950 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=18 Tax=Terrabacteria group TaxID=1783272 
+RepID=PYC1_SYNY3
+Length=67
+
+ Score = 120 bits (302),  Expect = 8e-34, Method: Compositional matrix adjust.
+ Identities = 57/66 (86%), Positives = 61/66 (92%), Gaps = 0/66 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+F+ITACVPSQTRIRTQRELQNTYFTKLVPY+N FREQQRI KMGGKIVKVELATG+ G
+Sbjct  2   RMFRITACVPSQTRIRTQRELQNTYFTKLVPYDNSFREQQRIMKMGGKIVKVELATGRPG  61
+
+Query  62  INTGLA  67
+            N GLA
+Sbjct  62  TNAGLA  67
+
+
+> UniRef90_UPI0008F98B17 UPI0008F98B17 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008F98B17
+Length=67
+
+ Score = 120 bits (301),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 56/65 (86%), Positives = 61/65 (94%), Gaps = 0/65 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+FKITAC+PS  RIRTQRELQNTYFTKLVPY+ WFREQQRI KMGGKI+KVELATGKQG
+Sbjct  2   RMFKITACMPSFNRIRTQRELQNTYFTKLVPYDAWFREQQRIMKMGGKILKVELATGKQG  61
+
+Query  62  INTGL  66
+           +NTGL
+Sbjct  62  VNTGL  66
+
+
+> UniRef90_F4XLJ6 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=3 Tax=Moorea producens TaxID=1155739 
+RepID=F4XLJ6_9CYAN
+Length=66
+
+ Score = 120 bits (300),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 56/65 (86%), Positives = 62/65 (95%), Gaps = 0/65 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R F+ITACVPSQ+RIRTQRELQNT+FTKLV Y+NWFREQQRIQKMGGKI+KV+LATGKQG
+Sbjct  2   RTFEITACVPSQSRIRTQRELQNTFFTKLVSYDNWFREQQRIQKMGGKIIKVKLATGKQG  61
+
+Query  62  INTGL  66
+            NTGL
+Sbjct  62  TNTGL  66
+
+
+> UniRef90_A0A1J0AG14 CpcD phycobilisome linker domain-containing 
+protein n=2 Tax=Cyanobacteria TaxID=1117 RepID=A0A1J0AG14_9CYAN
+Length=67
+
+ Score = 119 bits (299),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 55/66 (83%), Positives = 62/66 (94%), Gaps = 0/66 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+FKITACVPSQTRIRTQRELQNT+FTKLVPY++WF+EQQRIQKMGG IVKV+LATGK G
+Sbjct  2   RMFKITACVPSQTRIRTQRELQNTFFTKLVPYDSWFKEQQRIQKMGGTIVKVQLATGKPG  61
+
+Query  62  INTGLA  67
+            N GL+
+Sbjct  62  TNAGLS  67
+
+
+> UniRef90_P80558 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=8 Tax=Nostocales TaxID=1161 
+RepID=PYC1_NOSS1
+Length=68
+
+ Score = 119 bits (297),  Expect = 5e-33, Method: Compositional matrix adjust.
+ Identities = 57/66 (86%), Positives = 59/66 (89%), Gaps = 0/66 (0%)
+
+Query  1   GRLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQ  60
+            RLFKITA VPS +R RTQRELQNTYFTKLVPYENWFREQQRIQK GGKI+KVELATGKQ
+Sbjct  2   SRLFKITALVPSLSRTRTQRELQNTYFTKLVPYENWFREQQRIQKAGGKIIKVELATGKQ  61
+
+Query  61  GINTGL  66
+           G N GL
+Sbjct  62  GTNAGL  67
+
+
+> UniRef90_A0A0D6AIJ5 Phycobilisome 7.8 kDa linker polypeptide, 
+allophycocyanin-associated, core n=5 Tax=Chroococcales TaxID=1118 
+RepID=A0A0D6AIJ5_9CHRO
+Length=67
+
+ Score = 117 bits (294),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 53/65 (82%), Positives = 61/65 (94%), Gaps = 0/65 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+F++TACVPSQ+RIRTQRELQNTYFTKLVPY+NWF+EQQRIQKMGG IVKV+L TG+ G
+Sbjct  2   RMFQVTACVPSQSRIRTQRELQNTYFTKLVPYDNWFKEQQRIQKMGGSIVKVKLVTGRPG  61
+
+Query  62  INTGL  66
+            NTGL
+Sbjct  62  ANTGL  66
+
+
+> UniRef90_A0A098TMZ4 Phycobilisome 7.8 kDa linker polypeptide, 
+allophycocyanin-associated, core n=2 Tax=Synechococcales TaxID=1890424 
+RepID=A0A098TMZ4_9CYAN
+Length=67
+
+ Score = 117 bits (293),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 55/65 (85%), Positives = 59/65 (91%), Gaps = 0/65 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+FK+TACVPS TRIRTQRELQNTYFTKLVP+ NWF EQQRI KMGGKIVKVELATGK G
+Sbjct  2   RMFKVTACVPSLTRIRTQRELQNTYFTKLVPFGNWFSEQQRIMKMGGKIVKVELATGKAG  61
+
+Query  62  INTGL  66
+            NTG+
+Sbjct  62  TNTGI  66
+
+
+> UniRef90_K9SVX5 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=1 Tax=Synechococcus sp. PCC 
+7502 TaxID=1173263 RepID=K9SVX5_9SYNE
+Length=67
+
+ Score = 115 bits (289),  Expect = 7e-32, Method: Compositional matrix adjust.
+ Identities = 54/66 (82%), Positives = 60/66 (91%), Gaps = 0/66 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           RLFK+TA VPSQTRIRTQRELQNTYFTKL+ Y+NWFREQQRI K GG+I+KVELATGK G
+Sbjct  2   RLFKVTAVVPSQTRIRTQRELQNTYFTKLISYDNWFREQQRITKAGGRIIKVELATGKIG  61
+
+Query  62  INTGLA  67
+            NTGL+
+Sbjct  62  ANTGLS  67
+
+
+> UniRef90_K9SPW6 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=1 Tax=Pseudanabaena sp. PCC 
+7367 TaxID=82654 RepID=K9SPW6_9CYAN
+Length=67
+
+ Score = 115 bits (289),  Expect = 9e-32, Method: Compositional matrix adjust.
+ Identities = 54/64 (84%), Positives = 59/64 (92%), Gaps = 0/64 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+FKITACVPSQTRIRTQRELQNT+FTKLVPY+NWF EQQRI KMGG I+KVELA+GK G
+Sbjct  2   RMFKITACVPSQTRIRTQRELQNTFFTKLVPYDNWFAEQQRIMKMGGTIMKVELASGKVG  61
+
+Query  62  INTG  65
+            NTG
+Sbjct  62  RNTG  65
+
+
+> UniRef90_P06114 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=3 Tax=Synechococcus TaxID=1129 
+RepID=PYC1_SYNP6
+Length=67
+
+ Score = 112 bits (280),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 50/65 (77%), Positives = 60/65 (92%), Gaps = 0/65 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+F+ITAC+PS ++IRTQRELQNT+FTKLVPY+ WFREQQRIQK+GGKI+KVELATG+  
+Sbjct  2   RMFRITACLPSPSKIRTQRELQNTFFTKLVPYDAWFREQQRIQKLGGKIIKVELATGRPN  61
+
+Query  62  INTGL  66
+            NTGL
+Sbjct  62  TNTGL  66
+
+
+> UniRef90_UPI00057100E4 photosystem I reaction center subunit 
+XII n=1 Tax=Synechococcus sp. PCC 7336 TaxID=195250 RepID=UPI00057100E4
+Length=67
+
+ Score = 103 bits (258),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 47/66 (71%), Positives = 55/66 (83%), Gaps = 0/66 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+FKITAC P+ T IRTQRELQNTY TK V Y+NWF EQQRIQK GGKI+KVEL TG +G
+Sbjct  2   RMFKITACFPTTTNIRTQRELQNTYVTKCVNYDNWFAEQQRIQKAGGKILKVELTTGSKG  61
+
+Query  62  INTGLA  67
+           +N G++
+Sbjct  62  VNVGIS  67
+
+
+> UniRef90_Q7NL78 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=2 Tax=Gloeobacter TaxID=33071 
+RepID=Q7NL78_GLOVI
+Length=69
+
+ Score = 103 bits (257),  Expect = 5e-27, Method: Compositional matrix adjust.
+ Identities = 47/66 (71%), Positives = 55/66 (83%), Gaps = 0/66 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R FK+TAC+PS  R+RT RELQNT+FTKLVPYENWF EQQRIQK GGK++ V+L TG QG
+Sbjct  3   RYFKVTACIPSLKRVRTGRELQNTFFTKLVPYENWFTEQQRIQKAGGKVLSVKLFTGVQG  62
+
+Query  62  INTGLA  67
+            NTG+ 
+Sbjct  63  ANTGVG  68
+
+
+> UniRef90_A0A0G8B0U8 Phycobilisome 7.8 kDa linker polypeptide, 
+allophycocyanin-associated, core n=4 Tax=Candidatus Synechococcus 
+spongiarum TaxID=431041 RepID=A0A0G8B0U8_9SYNE
+Length=66
+
+ Score = 102 bits (255),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 48/65 (74%), Positives = 54/65 (83%), Gaps = 0/65 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           RLFKITAC+P+Q  IR QRELQNTYFTK VPY++WF EQQRIQK GGKI+KVEL  G+Q 
+Sbjct  2   RLFKITACLPTQRNIRAQRELQNTYFTKWVPYDSWFAEQQRIQKQGGKILKVELCAGRQQ  61
+
+Query  62  INTGL  66
+            N GL
+Sbjct  62  DNVGL  66
+
+
+> UniRef90_A0A182ASY5 Phycobilisome 7.8 kDa linker polypeptide, 
+allophycocyanin-associated, core n=6 Tax=cellular organisms 
+TaxID=131567 RepID=A0A182ASY5_9CYAN
+Length=66
+
+ Score = 101 bits (251),  Expect = 4e-26, Method: Compositional matrix adjust.
+ Identities = 47/64 (73%), Positives = 54/64 (84%), Gaps = 0/64 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           RLFKITAC+P   + RTQRELQNTYFTK VPYE+WF EQQRI K GGKI+KVELATG++ 
+Sbjct  2   RLFKITACIPCPEKSRTQRELQNTYFTKWVPYESWFAEQQRIMKQGGKILKVELATGRRQ  61
+
+Query  62  INTG  65
+           +N G
+Sbjct  62  VNVG  65
+
+
+> UniRef90_Q3AZN2 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=18 Tax=Synechococcus TaxID=1129 
+RepID=Q3AZN2_SYNS9
+Length=66
+
+ Score = 98.6 bits (244),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 43/64 (67%), Positives = 54/64 (84%), Gaps = 0/64 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           RLFK+TAC+PS  ++R QRELQNT+FTK VPY++WF EQQRIQK GG+I+KVEL TG + 
+Sbjct  2   RLFKVTACIPSPEKVRAQRELQNTFFTKWVPYDSWFAEQQRIQKQGGRIIKVELCTGGRQ  61
+
+Query  62  INTG  65
+           +N G
+Sbjct  62  VNVG  65
+
+
+> UniRef90_UPI0002001816 photosystem I reaction center subunit 
+XII n=1 Tax=Synechococcus sp. CB0205 TaxID=232363 RepID=UPI0002001816
+Length=66
+
+ Score = 98.2 bits (243),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 45/64 (70%), Positives = 53/64 (83%), Gaps = 0/64 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           RLFKITAC+PS  + RTQRELQNT+FTK VPYE+WF EQQRI K GGKI+KVEL  G++ 
+Sbjct  2   RLFKITACIPSPEKTRTQRELQNTFFTKWVPYESWFAEQQRIMKQGGKILKVELVAGRRQ  61
+
+Query  62  INTG  65
+           +N G
+Sbjct  62  VNLG  65
+
+
+> UniRef90_A5GV83 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=1 Tax=Synechococcus sp. (strain 
+RCC307) TaxID=316278 RepID=A5GV83_SYNR3
+Length=66
+
+ Score = 98.2 bits (243),  Expect = 7e-25, Method: Compositional matrix adjust.
+ Identities = 44/64 (69%), Positives = 54/64 (84%), Gaps = 0/64 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           RLFK+TAC+PS  +I+TQRE+QNT+FTK VPYE+WF EQQRI K GGKI+KVEL TG++ 
+Sbjct  2   RLFKVTACIPSPEKIQTQREIQNTFFTKWVPYESWFAEQQRIMKQGGKIIKVELVTGRRQ  61
+
+Query  62  INTG  65
+            N G
+Sbjct  62  ANVG  65
+
+
+> UniRef90_K9PC45 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=3 Tax=Cyanobacteria TaxID=1117 
+RepID=K9PC45_CYAGP
+Length=66
+
+ Score = 97.1 bits (240),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 44/64 (69%), Positives = 53/64 (83%), Gaps = 0/64 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           RLFKITAC+P   ++R+QRELQNTYFTK VPY +WF EQQRI K GG+I+KVELATG++ 
+Sbjct  2   RLFKITACIPCPEKVRSQRELQNTYFTKWVPYHSWFAEQQRIMKQGGRILKVELATGRRQ  61
+
+Query  62  INTG  65
+            N G
+Sbjct  62  QNCG  65
+
+
+> UniRef90_Q55095 Linker polypeptide (Fragment) n=1 Tax=Synechocystis 
+sp. TaxID=1143 RepID=Q55095_9SYNC
+Length=50
+
+ Score = 95.1 bits (235),  Expect = 7e-24, Method: Compositional matrix adjust.
+ Identities = 43/49 (88%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKI  50
+           R+FKITACVPSQ+RIRTQRELQNTYFTKLV Y+NWF EQQRI KMGGKI
+Sbjct  2   RMFKITACVPSQSRIRTQRELQNTYFTKLVSYDNWFNEQQRIMKMGGKI  50
+
+
+> UniRef90_A3Z982 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=1 Tax=Synechococcus sp. RS9917 
+TaxID=221360 RepID=A3Z982_9SYNE
+Length=66
+
+ Score = 95.5 bits (236),  Expect = 8e-24, Method: Compositional matrix adjust.
+ Identities = 41/64 (64%), Positives = 53/64 (83%), Gaps = 0/64 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           RLFK+TAC+PS  + R+QRELQNT+FTK VPY++WF EQQRI K GG+I+KVEL +G+  
+Sbjct  2   RLFKVTACIPSPEKTRSQRELQNTFFTKWVPYDSWFAEQQRIMKQGGRILKVELCSGRPQ  61
+
+Query  62  INTG  65
+           +N G
+Sbjct  62  VNVG  65
+
+
+> UniRef90_A0A0J6EAH8 Photosystem I reaction center subunit XII 
+n=1 Tax=Synechococcus sp. GFB01 TaxID=1662190 RepID=A0A0J6EAH8_9SYNE
+Length=66
+
+ Score = 93.2 bits (230),  Expect = 5e-23, Method: Compositional matrix adjust.
+ Identities = 43/64 (67%), Positives = 52/64 (81%), Gaps = 0/64 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           RLFKITAC+P   + RTQRELQNT+FTK VP+E+WF EQQRI K GG+I++VELATG+  
+Sbjct  2   RLFKITACIPCPEKSRTQRELQNTFFTKWVPFESWFAEQQRIMKQGGRILRVELATGRPQ  61
+
+Query  62  INTG  65
+            N G
+Sbjct  62  RNVG  65
+
+
+> UniRef90_M2Y574 Phycobilisome core linker protein (ApcC) n=1 
+Tax=Galdieria sulphuraria TaxID=130081 RepID=M2Y574_GALSU
+Length=138
+
+ Score = 89.7 bits (221),  Expect = 8e-21, Method: Compositional matrix adjust.
+ Identities = 43/65 (66%), Positives = 49/65 (75%), Gaps = 0/65 (0%)
+
+Query  1    GRLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQ  60
+            GR FKIT C PSQ+R  + RELQN Y TKLVP+ +W+ EQQRI KMGGKI KVELA GK+
+Sbjct  72   GRCFKITYCQPSQSRGFSGRELQNVYTTKLVPFSSWYAEQQRIMKMGGKIFKVELAVGKK  131
+
+Query  61   GINTG  65
+              N G
+Sbjct  132  ERNVG  136
+
+
+> UniRef90_R7QFE8 Phycobilisome core linker polypeptide (Lc), allophycocyanin-associated 
+(ApcC) n=1 Tax=Chondrus crispus TaxID=2769 
+RepID=R7QFE8_CHOCR
+Length=94
+
+ Score = 83.6 bits (205),  Expect = 6e-19, Method: Compositional matrix adjust.
+ Identities = 38/64 (59%), Positives = 51/64 (80%), Gaps = 0/64 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R FK+T  +PS++R+ T RELQN Y TK+VP+ +W+ EQQRIQKMGGKI+KVEL++G Q 
+Sbjct  29  RSFKVTFVLPSESRLFTFRELQNVYTTKIVPFSSWYAEQQRIQKMGGKILKVELSSGGQM  88
+
+Query  62  INTG  65
+            + G
+Sbjct  89  RSVG  92
+
+
+> UniRef90_Q7XY43 Phycobilisome 7.8 kDa linker polypeptide n=1 
+Tax=Griffithsia japonica TaxID=83288 RepID=Q7XY43_GRIJA
+Length=96
+
+ Score = 80.9 bits (198),  Expect = 6e-18, Method: Compositional matrix adjust.
+ Identities = 39/65 (60%), Positives = 48/65 (74%), Gaps = 0/65 (0%)
+
+Query  1   GRLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQ  60
+            R FKIT  +PS++R+ T RELQN Y TK+VP+ +W+ EQQRIQKMGGKI KVEL  G Q
+Sbjct  30  SRAFKITYVLPSESRLFTYRELQNVYTTKVVPFSSWYAEQQRIQKMGGKIFKVELTAGGQ  89
+
+Query  61  GINTG  65
+             + G
+Sbjct  90  MRSCG  94
+
+
+> UniRef90_M1UUN7 Phycocyanin-associated rod linker protein n=1 
+Tax=Cyanidioschyzon merolae (strain 10D) TaxID=280699 RepID=M1UUN7_CYAM1
+Length=127
+
+ Score = 79.7 bits (195),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 35/64 (55%), Positives = 48/64 (75%), Gaps = 0/64 (0%)
+
+Query  2    RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+            R+FK++  +PSQ+R+ + RELQN   TK+VP+ +W+ EQQRI KMGG+I KVELA+G   
+Sbjct  62   RMFKVSYVLPSQSRVDSGRELQNVATTKMVPFTSWYSEQQRIMKMGGRITKVELASGVPQ  121
+
+Query  62   INTG  65
+             N G
+Sbjct  122  RNVG  125
+
+
+> UniRef90_Q8GUE6 Core linker Lc7.8 n=1 Tax=Cyanophora paradoxa 
+TaxID=2762 RepID=Q8GUE6_CYAPA
+Length=107
+
+ Score = 63.9 bits (154),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 31/62 (50%), Positives = 41/62 (66%), Gaps = 4/62 (6%)
+
+Query  1   GRLFKITACVPS----QTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELA  56
+            R FK+T  +P+    + R +T     NTY+TK V + NWF EQQ+IQK GGKI+KV+LA
+Sbjct  38  ARKFKVTVVMPAKKTGEVRDQTVALFTNTYYTKYVDFSNWFAEQQKIQKAGGKILKVKLA  97
+
+Query  57  TG  58
+            G
+Sbjct  98  NG  99
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.398    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 442780773820
+Results from round 2
+
+
+Query= d1b33n_
+
+Length=67
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_K9RYM2 Phycobilisome 7.8 kDa linker polypeptide, allop...  120     1e-33
+  UniRef90_K9TCF9 Phycobilisome 7.8 kDa linker polypeptide, allop...  120     1e-33
+  UniRef90_U9VKE8 Phycobilisome 7.8 kDa linker polypeptide, allop...  120     2e-33
+  UniRef90_O68971 Phycobilisome 7.8 kDa linker polypeptide, allop...  120     2e-33
+  UniRef90_P50036 Phycobilisome 7.8 kDa linker polypeptide, allop...  119     4e-33
+  UniRef90_P20116 Phycobilisome 7.8 kDa linker polypeptide, allop...  118     5e-33
+  UniRef90_A0A0T7BMF3 Phycobilisome 7.8 kDa linker polypeptide, a...  118     1e-32
+  UniRef90_L8M2A6 Phycobilisome 7.8 kDa linker polypeptide, allop...  117     2e-32
+  UniRef90_Q2JLK0 Phycobilisome 7.8 kDa linker polypeptide, allop...  117     2e-32
+  UniRef90_UPI00083AB0E4 UPI00083AB0E4 related cluster n=1 Tax=un...  117     2e-32
+  UniRef90_Q01950 Phycobilisome 7.8 kDa linker polypeptide, allop...  117     2e-32
+  UniRef90_UPI0008F98B17 UPI0008F98B17 related cluster n=1 Tax=un...  116     3e-32
+  UniRef90_A0A0P8BLR4 Phycobilisome 7.8 kDa linker polypeptide, a...  116     3e-32
+  UniRef90_V5NYA3 Phycobilisome 7.8 kDa linker polypeptide, allop...  116     4e-32
+  UniRef90_A0A098TMZ4 Phycobilisome 7.8 kDa linker polypeptide, a...  116     5e-32
+  UniRef90_P06114 Phycobilisome 7.8 kDa linker polypeptide, allop...  116     5e-32
+  UniRef90_K9ZDI9 Phycobilisome 7.8 kDa linker polypeptide, allop...  115     8e-32
+  UniRef90_K9WRP5 Phycobilisome 7.8 kDa linker polypeptide, allop...  115     8e-32
+  UniRef90_K9SPW6 Phycobilisome 7.8 kDa linker polypeptide, allop...  115     8e-32
+  UniRef90_A0A0D6AIJ5 Phycobilisome 7.8 kDa linker polypeptide, a...  115     8e-32
+  UniRef90_A0A0C2QJA3 Phycobilisome 7.8 kDa linker polypeptide, a...  115     8e-32
+  UniRef90_A0A1J0AG14 CpcD phycobilisome linker domain-containing...  115     1e-31
+  UniRef90_A0A0C2LS61 Phycobilisome 7.8 kDa linker polypeptide, a...  115     2e-31
+  UniRef90_M1X1P6 Phycobilisome 7.8 kDa linker polypeptide, allop...  114     2e-31
+  UniRef90_A3Z982 Phycobilisome 7.8 kDa linker polypeptide, allop...  113     6e-31
+  UniRef90_X5JIM5 Phycobilisome small core linker polypeptide n=1...  113     6e-31
+  UniRef90_A0A182ASY5 Phycobilisome 7.8 kDa linker polypeptide, a...  112     2e-30
+  UniRef90_K9PC45 Phycobilisome 7.8 kDa linker polypeptide, allop...  111     3e-30
+  UniRef90_A0A0G8B0U8 Phycobilisome 7.8 kDa linker polypeptide, a...  111     4e-30
+  UniRef90_A0A0V7ZLZ5 Phycobilisome 7.8 kDa linker polypeptide, a...  111     4e-30
+  UniRef90_Q3AZN2 Phycobilisome 7.8 kDa linker polypeptide, allop...  111     6e-30
+  UniRef90_P80558 Phycobilisome 7.8 kDa linker polypeptide, allop...  110     9e-30
+  UniRef90_M2Y574 Phycobilisome core linker protein (ApcC) n=1 Ta...  112     9e-30
+  UniRef90_A0A0J6EAH8 Photosystem I reaction center subunit XII n...  110     1e-29
+  UniRef90_F4XLJ6 Phycobilisome 7.8 kDa linker polypeptide, allop...  110     1e-29
+  UniRef90_K9SVX5 Phycobilisome 7.8 kDa linker polypeptide, allop...  110     1e-29
+  UniRef90_UPI0002001816 photosystem I reaction center subunit XI...  108     5e-29
+  UniRef90_A5GV83 Phycobilisome 7.8 kDa linker polypeptide, allop...  108     6e-29
+  UniRef90_UPI00057100E4 photosystem I reaction center subunit XI...  107     1e-28
+  UniRef90_Q7NL78 Phycobilisome 7.8 kDa linker polypeptide, allop...  106     3e-28
+  UniRef90_R7QFE8 Phycobilisome core linker polypeptide (Lc), all...  102     3e-26
+  UniRef90_M1UUN7 Phycocyanin-associated rod linker protein n=1 T...  101     9e-26
+  UniRef90_Q7XY43 Phycobilisome 7.8 kDa linker polypeptide n=1 Ta...  101     1e-25
+  UniRef90_Q55095 Linker polypeptide (Fragment) n=1 Tax=Synechocy...  93.1    4e-23
+  UniRef90_Q8GUE6 Core linker Lc7.8 n=1 Tax=Cyanophora paradoxa T...  81.1    7e-18
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_K9RYM2 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=6 Tax=Cyanobacteria TaxID=1117 
+RepID=K9RYM2_SYNP3
+Length=67
+
+ Score = 120 bits (301),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 60/65 (92%), Positives = 63/65 (97%), Gaps = 0/65 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           RLFKITACVPSQTRIRTQRELQNTYFTKLVPY+NWF+EQQRIQKMGGKIVKVEL+TGK G
+Sbjct  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYDNWFKEQQRIQKMGGKIVKVELSTGKPG  61
+
+Query  62  INTGL  66
+            NTGL
+Sbjct  62  ANTGL  66
+
+
+> UniRef90_K9TCF9 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=13 Tax=Cyanobacteria TaxID=1117 
+RepID=K9TCF9_9CYAN
+Length=67
+
+ Score = 120 bits (301),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 54/66 (82%), Positives = 64/66 (97%), Gaps = 0/66 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+FK+TACVPSQ+RIRTQRELQNTYFTKLVPY+NWF+EQQRI KMGGKI+KV+LATGK G
+Sbjct  2   RMFKVTACVPSQSRIRTQRELQNTYFTKLVPYDNWFKEQQRIMKMGGKIIKVQLATGKPG  61
+
+Query  62  INTGLA  67
+           +NTG++
+Sbjct  62  MNTGIS  67
+
+
+> UniRef90_U9VKE8 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=2 Tax=Leptolyngbya TaxID=47251 
+RepID=U9VKE8_9CYAN
+Length=67
+
+ Score = 120 bits (300),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 58/66 (88%), Positives = 64/66 (97%), Gaps = 0/66 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+F+ITACVPSQ+RIRTQRELQNT+FTKLVPY++WFREQQRIQKMGGKIVKVELATGK G
+Sbjct  2   RMFRITACVPSQSRIRTQRELQNTFFTKLVPYDSWFREQQRIQKMGGKIVKVELATGKPG  61
+
+Query  62  INTGLA  67
+            NTGLA
+Sbjct  62  ANTGLA  67
+
+
+> UniRef90_O68971 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=38 Tax=Cyanobacteria TaxID=1117 
+RepID=O68971_SYNP2
+Length=67
+
+ Score = 120 bits (300),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 58/66 (88%), Positives = 62/66 (94%), Gaps = 0/66 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+FKITACVPSQ+RIRTQRELQNTYFTKLVPY+NWFREQQRI KMGGKIVKV+LATGK G
+Sbjct  2   RMFKITACVPSQSRIRTQRELQNTYFTKLVPYDNWFREQQRIMKMGGKIVKVQLATGKPG  61
+
+Query  62  INTGLA  67
+            NTGL 
+Sbjct  62  TNTGLT  67
+
+
+> UniRef90_P50036 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=19 Tax=Cyanobacteria TaxID=1117 
+RepID=PYC1_THEEB
+Length=67
+
+ Score = 119 bits (298),  Expect = 4e-33, Method: Composition-based stats.
+ Identities = 62/66 (94%), Positives = 64/66 (97%), Gaps = 0/66 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+FKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVEL TGK G
+Sbjct  2   RMFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELFTGKPG  61
+
+Query  62  INTGLA  67
+           +NTGLA
+Sbjct  62  VNTGLA  67
+
+
+> UniRef90_P20116 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=57 Tax=Cyanobacteria TaxID=1117 
+RepID=PYC1_MASLA
+Length=67
+
+ Score = 118 bits (297),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 67/67 (100%), Positives = 67/67 (100%), Gaps = 0/67 (0%)
+
+Query  1   GRLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQ  60
+           GRLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQ
+Sbjct  1   GRLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQ  60
+
+Query  61  GINTGLA  67
+           GINTGLA
+Sbjct  61  GINTGLA  67
+
+
+> UniRef90_A0A0T7BMF3 Phycobilisome 7.8 kDa linker polypeptide, 
+allophycocyanin-associated, core n=1 Tax=Calothrix sp. 336/3 
+TaxID=1337936 RepID=A0A0T7BMF3_9CYAN
+Length=68
+
+ Score = 118 bits (295),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 61/67 (91%), Positives = 64/67 (96%), Gaps = 0/67 (0%)
+
+Query  1   GRLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQ  60
+            RLFKITACVPSQTRIRTQRELQNTYFTKLV Y+NWF EQQRIQKMGGKIVKVELATGKQ
+Sbjct  2   ARLFKITACVPSQTRIRTQRELQNTYFTKLVAYDNWFLEQQRIQKMGGKIVKVELATGKQ  61
+
+Query  61  GINTGLA  67
+           G+NTGL+
+Sbjct  62  GLNTGLS  68
+
+
+> UniRef90_L8M2A6 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=1 Tax=Xenococcus sp. PCC 7305 
+TaxID=102125 RepID=L8M2A6_9CYAN
+Length=67
+
+ Score = 117 bits (294),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 57/66 (86%), Positives = 62/66 (94%), Gaps = 0/66 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           RLFK+TACVPSQTRIRTQRELQNTYFTKLVP++NWFREQQRI KMGGKI+KVELATG + 
+Sbjct  2   RLFKVTACVPSQTRIRTQRELQNTYFTKLVPFDNWFREQQRIMKMGGKIIKVELATGIKN  61
+
+Query  62  INTGLA  67
+            NTGLA
+Sbjct  62  TNTGLA  67
+
+
+> UniRef90_Q2JLK0 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=2 Tax=Synechococcus TaxID=1129 
+RepID=Q2JLK0_SYNJB
+Length=67
+
+ Score = 117 bits (294),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 57/65 (88%), Positives = 62/65 (95%), Gaps = 0/65 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+FKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQK GG+I+KVELATGK G
+Sbjct  2   RMFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKSGGRILKVELATGKPG  61
+
+Query  62  INTGL  66
+           ++ GL
+Sbjct  62  MDVGL  66
+
+
+> UniRef90_UPI00083AB0E4 UPI00083AB0E4 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00083AB0E4
+Length=67
+
+ Score = 117 bits (294),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 58/66 (88%), Positives = 62/66 (94%), Gaps = 0/66 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+FK+TACVPS TR RTQRELQNTYFTKLVPY+NWFREQQRIQKMGGKIVKVELATGK G
+Sbjct  2   RMFKVTACVPSLTRTRTQRELQNTYFTKLVPYDNWFREQQRIQKMGGKIVKVELATGKAG  61
+
+Query  62  INTGLA  67
+            NTG+A
+Sbjct  62  ANTGIA  67
+
+
+> UniRef90_Q01950 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=18 Tax=Terrabacteria group TaxID=1783272 
+RepID=PYC1_SYNY3
+Length=67
+
+ Score = 117 bits (293),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 57/66 (86%), Positives = 61/66 (92%), Gaps = 0/66 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+F+ITACVPSQTRIRTQRELQNTYFTKLVPY+N FREQQRI KMGGKIVKVELATG+ G
+Sbjct  2   RMFRITACVPSQTRIRTQRELQNTYFTKLVPYDNSFREQQRIMKMGGKIVKVELATGRPG  61
+
+Query  62  INTGLA  67
+            N GLA
+Sbjct  62  TNAGLA  67
+
+
+> UniRef90_UPI0008F98B17 UPI0008F98B17 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008F98B17
+Length=67
+
+ Score = 116 bits (292),  Expect = 3e-32, Method: Composition-based stats.
+ Identities = 56/65 (86%), Positives = 61/65 (94%), Gaps = 0/65 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+FKITAC+PS  RIRTQRELQNTYFTKLVPY+ WFREQQRI KMGGKI+KVELATGKQG
+Sbjct  2   RMFKITACMPSFNRIRTQRELQNTYFTKLVPYDAWFREQQRIMKMGGKILKVELATGKQG  61
+
+Query  62  INTGL  66
+           +NTGL
+Sbjct  62  VNTGL  66
+
+
+> UniRef90_A0A0P8BLR4 Phycobilisome 7.8 kDa linker polypeptide, 
+allophycocyanin-associated, core n=3 Tax=Cyanobacteria TaxID=1117 
+RepID=A0A0P8BLR4_9CYAN
+Length=67
+
+ Score = 116 bits (292),  Expect = 3e-32, Method: Composition-based stats.
+ Identities = 58/66 (88%), Positives = 64/66 (97%), Gaps = 0/66 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+F++TACVPSQTRIRTQRELQNTYFTKLVPY+NWF+EQQRIQKMGG IVKVELATG+QG
+Sbjct  2   RMFRVTACVPSQTRIRTQRELQNTYFTKLVPYDNWFKEQQRIQKMGGTIVKVELATGRQG  61
+
+Query  62  INTGLA  67
+            NTGLA
+Sbjct  62  ANTGLA  67
+
+
+> UniRef90_V5NYA3 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=8 Tax=Cyanobacteria TaxID=1117 
+RepID=V5NYA3_9CYAN
+Length=67
+
+ Score = 116 bits (291),  Expect = 4e-32, Method: Composition-based stats.
+ Identities = 58/65 (89%), Positives = 60/65 (92%), Gaps = 0/65 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R FKITACVPSQTRIRTQRELQNTYFTKLV ++NWF EQQRI KMGGKIVKVELATGKQG
+Sbjct  2   RSFKITACVPSQTRIRTQRELQNTYFTKLVSFDNWFAEQQRIMKMGGKIVKVELATGKQG  61
+
+Query  62  INTGL  66
+            NTGL
+Sbjct  62  ANTGL  66
+
+
+> UniRef90_A0A098TMZ4 Phycobilisome 7.8 kDa linker polypeptide, 
+allophycocyanin-associated, core n=2 Tax=Synechococcales TaxID=1890424 
+RepID=A0A098TMZ4_9CYAN
+Length=67
+
+ Score = 116 bits (291),  Expect = 5e-32, Method: Composition-based stats.
+ Identities = 55/65 (85%), Positives = 59/65 (91%), Gaps = 0/65 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+FK+TACVPS TRIRTQRELQNTYFTKLVP+ NWF EQQRI KMGGKIVKVELATGK G
+Sbjct  2   RMFKVTACVPSLTRIRTQRELQNTYFTKLVPFGNWFSEQQRIMKMGGKIVKVELATGKAG  61
+
+Query  62  INTGL  66
+            NTG+
+Sbjct  62  TNTGI  66
+
+
+> UniRef90_P06114 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=3 Tax=Synechococcus TaxID=1129 
+RepID=PYC1_SYNP6
+Length=67
+
+ Score = 116 bits (291),  Expect = 5e-32, Method: Composition-based stats.
+ Identities = 50/65 (77%), Positives = 60/65 (92%), Gaps = 0/65 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+F+ITAC+PS ++IRTQRELQNT+FTKLVPY+ WFREQQRIQK+GGKI+KVELATG+  
+Sbjct  2   RMFRITACLPSPSKIRTQRELQNTFFTKLVPYDAWFREQQRIQKLGGKIIKVELATGRPN  61
+
+Query  62  INTGL  66
+            NTGL
+Sbjct  62  TNTGL  66
+
+
+> UniRef90_K9ZDI9 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=3 Tax=Nostocales TaxID=1161 
+RepID=K9ZDI9_ANACC
+Length=68
+
+ Score = 115 bits (289),  Expect = 8e-32, Method: Composition-based stats.
+ Identities = 60/67 (90%), Positives = 61/67 (91%), Gaps = 0/67 (0%)
+
+Query  1   GRLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQ  60
+            RLFKITACVPS TR RTQRELQNTYFTKLVPYENWFREQQRIQKMGG IVKVELATGKQ
+Sbjct  2   ARLFKITACVPSLTRTRTQRELQNTYFTKLVPYENWFREQQRIQKMGGTIVKVELATGKQ  61
+
+Query  61  GINTGLA  67
+           G N GL+
+Sbjct  62  GTNAGLS  68
+
+
+> UniRef90_K9WRP5 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=1 Tax=Cylindrospermum stagnale 
+PCC 7417 TaxID=56107 RepID=K9WRP5_9NOST
+Length=67
+
+ Score = 115 bits (289),  Expect = 8e-32, Method: Composition-based stats.
+ Identities = 60/66 (91%), Positives = 61/66 (92%), Gaps = 0/66 (0%)
+
+Query  1   GRLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQ  60
+            RLFKITAC+PSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQK GGKIVKVELA GKQ
+Sbjct  2   SRLFKITACIPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKAGGKIVKVELAIGKQ  61
+
+Query  61  GINTGL  66
+           G N GL
+Sbjct  62  GTNAGL  67
+
+
+> UniRef90_K9SPW6 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=1 Tax=Pseudanabaena sp. PCC 
+7367 TaxID=82654 RepID=K9SPW6_9CYAN
+Length=67
+
+ Score = 115 bits (289),  Expect = 8e-32, Method: Composition-based stats.
+ Identities = 54/64 (84%), Positives = 59/64 (92%), Gaps = 0/64 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+FKITACVPSQTRIRTQRELQNT+FTKLVPY+NWF EQQRI KMGG I+KVELA+GK G
+Sbjct  2   RMFKITACVPSQTRIRTQRELQNTFFTKLVPYDNWFAEQQRIMKMGGTIMKVELASGKVG  61
+
+Query  62  INTG  65
+            NTG
+Sbjct  62  RNTG  65
+
+
+> UniRef90_A0A0D6AIJ5 Phycobilisome 7.8 kDa linker polypeptide, 
+allophycocyanin-associated, core n=5 Tax=Chroococcales TaxID=1118 
+RepID=A0A0D6AIJ5_9CHRO
+Length=67
+
+ Score = 115 bits (289),  Expect = 8e-32, Method: Composition-based stats.
+ Identities = 53/65 (82%), Positives = 61/65 (94%), Gaps = 0/65 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+F++TACVPSQ+RIRTQRELQNTYFTKLVPY+NWF+EQQRIQKMGG IVKV+L TG+ G
+Sbjct  2   RMFQVTACVPSQSRIRTQRELQNTYFTKLVPYDNWFKEQQRIQKMGGSIVKVKLVTGRPG  61
+
+Query  62  INTGL  66
+            NTGL
+Sbjct  62  ANTGL  66
+
+
+> UniRef90_A0A0C2QJA3 Phycobilisome 7.8 kDa linker polypeptide, 
+allophycocyanin-associated, core n=1 Tax=Scytonema tolypothrichoides 
+VB-61278 TaxID=1233231 RepID=A0A0C2QJA3_9CYAN
+Length=68
+
+ Score = 115 bits (289),  Expect = 8e-32, Method: Composition-based stats.
+ Identities = 60/67 (90%), Positives = 62/67 (93%), Gaps = 0/67 (0%)
+
+Query  1   GRLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQ  60
+            RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWF EQQRIQK GGKIVKVELATGK+
+Sbjct  2   ARLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFSEQQRIQKAGGKIVKVELATGKR  61
+
+Query  61  GINTGLA  67
+             NTGL+
+Sbjct  62  QTNTGLS  68
+
+
+> UniRef90_A0A1J0AG14 CpcD phycobilisome linker domain-containing 
+protein n=2 Tax=Cyanobacteria TaxID=1117 RepID=A0A1J0AG14_9CYAN
+Length=67
+
+ Score = 115 bits (288),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 55/66 (83%), Positives = 62/66 (94%), Gaps = 0/66 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+FKITACVPSQTRIRTQRELQNT+FTKLVPY++WF+EQQRIQKMGG IVKV+LATGK G
+Sbjct  2   RMFKITACVPSQTRIRTQRELQNTFFTKLVPYDSWFKEQQRIQKMGGTIVKVQLATGKPG  61
+
+Query  62  INTGLA  67
+            N GL+
+Sbjct  62  TNAGLS  67
+
+
+> UniRef90_A0A0C2LS61 Phycobilisome 7.8 kDa linker polypeptide, 
+allophycocyanin-associated, core n=7 Tax=Nostocales TaxID=1161 
+RepID=A0A0C2LS61_9CYAN
+Length=68
+
+ Score = 115 bits (287),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 60/66 (91%), Positives = 61/66 (92%), Gaps = 0/66 (0%)
+
+Query  1   GRLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQ  60
+            R FK+TACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQK GG IVKVELATGKQ
+Sbjct  2   ARYFKVTACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKAGGTIVKVELATGKQ  61
+
+Query  61  GINTGL  66
+           G NTGL
+Sbjct  62  GTNTGL  67
+
+
+> UniRef90_M1X1P6 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=2 Tax=Richelia intracellularis 
+TaxID=1164990 RepID=M1X1P6_9NOST
+Length=67
+
+ Score = 114 bits (286),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 57/65 (88%), Positives = 61/65 (94%), Gaps = 0/65 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+FK+TACVPSQ+RIRTQRELQNTYFTKLVPYENWF EQQRIQKMGG+IV V LATGKQG
+Sbjct  2   RMFKVTACVPSQSRIRTQRELQNTYFTKLVPYENWFGEQQRIQKMGGRIVSVHLATGKQG  61
+
+Query  62  INTGL  66
+            NTGL
+Sbjct  62  TNTGL  66
+
+
+> UniRef90_A3Z982 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=1 Tax=Synechococcus sp. RS9917 
+TaxID=221360 RepID=A3Z982_9SYNE
+Length=66
+
+ Score = 113 bits (283),  Expect = 6e-31, Method: Composition-based stats.
+ Identities = 41/64 (64%), Positives = 53/64 (83%), Gaps = 0/64 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           RLFK+TAC+PS  + R+QRELQNT+FTK VPY++WF EQQRI K GG+I+KVEL +G+  
+Sbjct  2   RLFKVTACIPSPEKTRSQRELQNTFFTKWVPYDSWFAEQQRIMKQGGRILKVELCSGRPQ  61
+
+Query  62  INTG  65
+           +N G
+Sbjct  62  VNVG  65
+
+
+> UniRef90_X5JIM5 Phycobilisome small core linker polypeptide n=1 
+Tax=Richelia intracellularis TaxID=1164990 RepID=X5JIM5_9NOST
+Length=65
+
+ Score = 113 bits (283),  Expect = 6e-31, Method: Composition-based stats.
+ Identities = 58/64 (91%), Positives = 62/64 (97%), Gaps = 0/64 (0%)
+
+Query  3   LFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQGI  62
+           +FK+TACVPSQ+RIRTQRELQNTYFTKLVPYENWF EQQRIQKMGGKIVKVELATG+QG 
+Sbjct  1   MFKVTACVPSQSRIRTQRELQNTYFTKLVPYENWFTEQQRIQKMGGKIVKVELATGRQGT  60
+
+Query  63  NTGL  66
+           NTGL
+Sbjct  61  NTGL  64
+
+
+> UniRef90_A0A182ASY5 Phycobilisome 7.8 kDa linker polypeptide, 
+allophycocyanin-associated, core n=6 Tax=cellular organisms 
+TaxID=131567 RepID=A0A182ASY5_9CYAN
+Length=66
+
+ Score = 112 bits (280),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 47/64 (73%), Positives = 54/64 (84%), Gaps = 0/64 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           RLFKITAC+P   + RTQRELQNTYFTK VPYE+WF EQQRI K GGKI+KVELATG++ 
+Sbjct  2   RLFKITACIPCPEKSRTQRELQNTYFTKWVPYESWFAEQQRIMKQGGKILKVELATGRRQ  61
+
+Query  62  INTG  65
+           +N G
+Sbjct  62  VNVG  65
+
+
+> UniRef90_K9PC45 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=3 Tax=Cyanobacteria TaxID=1117 
+RepID=K9PC45_CYAGP
+Length=66
+
+ Score = 111 bits (279),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 44/64 (69%), Positives = 53/64 (83%), Gaps = 0/64 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           RLFKITAC+P   ++R+QRELQNTYFTK VPY +WF EQQRI K GG+I+KVELATG++ 
+Sbjct  2   RLFKITACIPCPEKVRSQRELQNTYFTKWVPYHSWFAEQQRIMKQGGRILKVELATGRRQ  61
+
+Query  62  INTG  65
+            N G
+Sbjct  62  QNCG  65
+
+
+> UniRef90_A0A0G8B0U8 Phycobilisome 7.8 kDa linker polypeptide, 
+allophycocyanin-associated, core n=4 Tax=Candidatus Synechococcus 
+spongiarum TaxID=431041 RepID=A0A0G8B0U8_9SYNE
+Length=66
+
+ Score = 111 bits (278),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 48/65 (74%), Positives = 54/65 (83%), Gaps = 0/65 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           RLFKITAC+P+Q  IR QRELQNTYFTK VPY++WF EQQRIQK GGKI+KVEL  G+Q 
+Sbjct  2   RLFKITACLPTQRNIRAQRELQNTYFTKWVPYDSWFAEQQRIQKQGGKILKVELCAGRQQ  61
+
+Query  62  INTGL  66
+            N GL
+Sbjct  62  DNVGL  66
+
+
+> UniRef90_A0A0V7ZLZ5 Phycobilisome 7.8 kDa linker polypeptide, 
+allophycocyanin-associated, core n=1 Tax=Mastigocoleus testarum 
+BC008 TaxID=371196 RepID=A0A0V7ZLZ5_9CYAN
+Length=67
+
+ Score = 111 bits (278),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 58/65 (89%), Positives = 62/65 (95%), Gaps = 0/65 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+FKITACVPS+TR RTQRELQNT+FTKLVPYENWF EQQRIQKMGGKIVKV+LATGKQG
+Sbjct  2   RMFKITACVPSKTRTRTQRELQNTFFTKLVPYENWFSEQQRIQKMGGKIVKVQLATGKQG  61
+
+Query  62  INTGL  66
+            NTGL
+Sbjct  62  TNTGL  66
+
+
+> UniRef90_Q3AZN2 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=18 Tax=Synechococcus TaxID=1129 
+RepID=Q3AZN2_SYNS9
+Length=66
+
+ Score = 111 bits (277),  Expect = 6e-30, Method: Composition-based stats.
+ Identities = 43/64 (67%), Positives = 54/64 (84%), Gaps = 0/64 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           RLFK+TAC+PS  ++R QRELQNT+FTK VPY++WF EQQRIQK GG+I+KVEL TG + 
+Sbjct  2   RLFKVTACIPSPEKVRAQRELQNTFFTKWVPYDSWFAEQQRIQKQGGRIIKVELCTGGRQ  61
+
+Query  62  INTG  65
+           +N G
+Sbjct  62  VNVG  65
+
+
+> UniRef90_P80558 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=8 Tax=Nostocales TaxID=1161 
+RepID=PYC1_NOSS1
+Length=68
+
+ Score = 110 bits (276),  Expect = 9e-30, Method: Composition-based stats.
+ Identities = 57/66 (86%), Positives = 59/66 (89%), Gaps = 0/66 (0%)
+
+Query  1   GRLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQ  60
+            RLFKITA VPS +R RTQRELQNTYFTKLVPYENWFREQQRIQK GGKI+KVELATGKQ
+Sbjct  2   SRLFKITALVPSLSRTRTQRELQNTYFTKLVPYENWFREQQRIQKAGGKIIKVELATGKQ  61
+
+Query  61  GINTGL  66
+           G N GL
+Sbjct  62  GTNAGL  67
+
+
+> UniRef90_M2Y574 Phycobilisome core linker protein (ApcC) n=1 
+Tax=Galdieria sulphuraria TaxID=130081 RepID=M2Y574_GALSU
+Length=138
+
+ Score = 112 bits (281),  Expect = 9e-30, Method: Composition-based stats.
+ Identities = 43/65 (66%), Positives = 49/65 (75%), Gaps = 0/65 (0%)
+
+Query  1    GRLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQ  60
+            GR FKIT C PSQ+R  + RELQN Y TKLVP+ +W+ EQQRI KMGGKI KVELA GK+
+Sbjct  72   GRCFKITYCQPSQSRGFSGRELQNVYTTKLVPFSSWYAEQQRIMKMGGKIFKVELAVGKK  131
+
+Query  61   GINTG  65
+              N G
+Sbjct  132  ERNVG  136
+
+
+> UniRef90_A0A0J6EAH8 Photosystem I reaction center subunit XII 
+n=1 Tax=Synechococcus sp. GFB01 TaxID=1662190 RepID=A0A0J6EAH8_9SYNE
+Length=66
+
+ Score = 110 bits (275),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 43/64 (67%), Positives = 52/64 (81%), Gaps = 0/64 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           RLFKITAC+P   + RTQRELQNT+FTK VP+E+WF EQQRI K GG+I++VELATG+  
+Sbjct  2   RLFKITACIPCPEKSRTQRELQNTFFTKWVPFESWFAEQQRIMKQGGRILRVELATGRPQ  61
+
+Query  62  INTG  65
+            N G
+Sbjct  62  RNVG  65
+
+
+> UniRef90_F4XLJ6 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=3 Tax=Moorea producens TaxID=1155739 
+RepID=F4XLJ6_9CYAN
+Length=66
+
+ Score = 110 bits (274),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 56/65 (86%), Positives = 62/65 (95%), Gaps = 0/65 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R F+ITACVPSQ+RIRTQRELQNT+FTKLV Y+NWFREQQRIQKMGGKI+KV+LATGKQG
+Sbjct  2   RTFEITACVPSQSRIRTQRELQNTFFTKLVSYDNWFREQQRIQKMGGKIIKVKLATGKQG  61
+
+Query  62  INTGL  66
+            NTGL
+Sbjct  62  TNTGL  66
+
+
+> UniRef90_K9SVX5 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=1 Tax=Synechococcus sp. PCC 
+7502 TaxID=1173263 RepID=K9SVX5_9SYNE
+Length=67
+
+ Score = 110 bits (274),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 54/66 (82%), Positives = 60/66 (91%), Gaps = 0/66 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           RLFK+TA VPSQTRIRTQRELQNTYFTKL+ Y+NWFREQQRI K GG+I+KVELATGK G
+Sbjct  2   RLFKVTAVVPSQTRIRTQRELQNTYFTKLISYDNWFREQQRITKAGGRIIKVELATGKIG  61
+
+Query  62  INTGLA  67
+            NTGL+
+Sbjct  62  ANTGLS  67
+
+
+> UniRef90_UPI0002001816 photosystem I reaction center subunit 
+XII n=1 Tax=Synechococcus sp. CB0205 TaxID=232363 RepID=UPI0002001816
+Length=66
+
+ Score = 108 bits (271),  Expect = 5e-29, Method: Composition-based stats.
+ Identities = 45/64 (70%), Positives = 53/64 (83%), Gaps = 0/64 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           RLFKITAC+PS  + RTQRELQNT+FTK VPYE+WF EQQRI K GGKI+KVEL  G++ 
+Sbjct  2   RLFKITACIPSPEKTRTQRELQNTFFTKWVPYESWFAEQQRIMKQGGKILKVELVAGRRQ  61
+
+Query  62  INTG  65
+           +N G
+Sbjct  62  VNLG  65
+
+
+> UniRef90_A5GV83 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=1 Tax=Synechococcus sp. (strain 
+RCC307) TaxID=316278 RepID=A5GV83_SYNR3
+Length=66
+
+ Score = 108 bits (270),  Expect = 6e-29, Method: Composition-based stats.
+ Identities = 44/64 (69%), Positives = 54/64 (84%), Gaps = 0/64 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           RLFK+TAC+PS  +I+TQRE+QNT+FTK VPYE+WF EQQRI K GGKI+KVEL TG++ 
+Sbjct  2   RLFKVTACIPSPEKIQTQREIQNTFFTKWVPYESWFAEQQRIMKQGGKIIKVELVTGRRQ  61
+
+Query  62  INTG  65
+            N G
+Sbjct  62  ANVG  65
+
+
+> UniRef90_UPI00057100E4 photosystem I reaction center subunit 
+XII n=1 Tax=Synechococcus sp. PCC 7336 TaxID=195250 RepID=UPI00057100E4
+Length=67
+
+ Score = 107 bits (268),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 47/66 (71%), Positives = 55/66 (83%), Gaps = 0/66 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R+FKITAC P+ T IRTQRELQNTY TK V Y+NWF EQQRIQK GGKI+KVEL TG +G
+Sbjct  2   RMFKITACFPTTTNIRTQRELQNTYVTKCVNYDNWFAEQQRIQKAGGKILKVELTTGSKG  61
+
+Query  62  INTGLA  67
+           +N G++
+Sbjct  62  VNVGIS  67
+
+
+> UniRef90_Q7NL78 Phycobilisome 7.8 kDa linker polypeptide, allophycocyanin-associated, 
+core n=2 Tax=Gloeobacter TaxID=33071 
+RepID=Q7NL78_GLOVI
+Length=69
+
+ Score = 106 bits (266),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 47/67 (70%), Positives = 55/67 (82%), Gaps = 0/67 (0%)
+
+Query  1   GRLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQ  60
+            R FK+TAC+PS  R+RT RELQNT+FTKLVPYENWF EQQRIQK GGK++ V+L TG Q
+Sbjct  2   SRYFKVTACIPSLKRVRTGRELQNTFFTKLVPYENWFTEQQRIQKAGGKVLSVKLFTGVQ  61
+
+Query  61  GINTGLA  67
+           G NTG+ 
+Sbjct  62  GANTGVG  68
+
+
+> UniRef90_R7QFE8 Phycobilisome core linker polypeptide (Lc), allophycocyanin-associated 
+(ApcC) n=1 Tax=Chondrus crispus TaxID=2769 
+RepID=R7QFE8_CHOCR
+Length=94
+
+ Score = 102 bits (254),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 38/64 (59%), Positives = 51/64 (80%), Gaps = 0/64 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+           R FK+T  +PS++R+ T RELQN Y TK+VP+ +W+ EQQRIQKMGGKI+KVEL++G Q 
+Sbjct  29  RSFKVTFVLPSESRLFTFRELQNVYTTKIVPFSSWYAEQQRIQKMGGKILKVELSSGGQM  88
+
+Query  62  INTG  65
+            + G
+Sbjct  89  RSVG  92
+
+
+> UniRef90_M1UUN7 Phycocyanin-associated rod linker protein n=1 
+Tax=Cyanidioschyzon merolae (strain 10D) TaxID=280699 RepID=M1UUN7_CYAM1
+Length=127
+
+ Score = 101 bits (253),  Expect = 9e-26, Method: Composition-based stats.
+ Identities = 35/64 (55%), Positives = 48/64 (75%), Gaps = 0/64 (0%)
+
+Query  2    RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQG  61
+            R+FK++  +PSQ+R+ + RELQN   TK+VP+ +W+ EQQRI KMGG+I KVELA+G   
+Sbjct  62   RMFKVSYVLPSQSRVDSGRELQNVATTKMVPFTSWYSEQQRIMKMGGRITKVELASGVPQ  121
+
+Query  62   INTG  65
+             N G
+Sbjct  122  RNVG  125
+
+
+> UniRef90_Q7XY43 Phycobilisome 7.8 kDa linker polypeptide n=1 
+Tax=Griffithsia japonica TaxID=83288 RepID=Q7XY43_GRIJA
+Length=96
+
+ Score = 101 bits (251),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 39/65 (60%), Positives = 48/65 (74%), Gaps = 0/65 (0%)
+
+Query  1   GRLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELATGKQ  60
+            R FKIT  +PS++R+ T RELQN Y TK+VP+ +W+ EQQRIQKMGGKI KVEL  G Q
+Sbjct  30  SRAFKITYVLPSESRLFTYRELQNVYTTKVVPFSSWYAEQQRIQKMGGKIFKVELTAGGQ  89
+
+Query  61  GINTG  65
+             + G
+Sbjct  90  MRSCG  94
+
+
+> UniRef90_Q55095 Linker polypeptide (Fragment) n=1 Tax=Synechocystis 
+sp. TaxID=1143 RepID=Q55095_9SYNC
+Length=50
+
+ Score = 93.1 bits (230),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 43/49 (88%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  2   RLFKITACVPSQTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKI  50
+           R+FKITACVPSQ+RIRTQRELQNTYFTKLV Y+NWF EQQRI KMGGKI
+Sbjct  2   RMFKITACVPSQSRIRTQRELQNTYFTKLVSYDNWFNEQQRIMKMGGKI  50
+
+
+> UniRef90_Q8GUE6 Core linker Lc7.8 n=1 Tax=Cyanophora paradoxa 
+TaxID=2762 RepID=Q8GUE6_CYAPA
+Length=107
+
+ Score = 81.1 bits (199),  Expect = 7e-18, Method: Composition-based stats.
+ Identities = 31/64 (48%), Positives = 42/64 (66%), Gaps = 4/64 (6%)
+
+Query  1    GRLFKITACVPS----QTRIRTQRELQNTYFTKLVPYENWFREQQRIQKMGGKIVKVELA  56
+             R FK+T  +P+    + R +T     NTY+TK V + NWF EQQ+IQK GGKI+KV+LA
+Sbjct  38   ARKFKVTVVMPAKKTGEVRDQTVALFTNTYYTKYVDFSNWFAEQQKIQKAGGKILKVKLA  97
+
+Query  57   TGKQ  60
+             G +
+Sbjct  98   NGNR  101
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.148    0.468    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0454    0.140     1.90     42.6     43.6 
+
+Effective search space used: 442780773820
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

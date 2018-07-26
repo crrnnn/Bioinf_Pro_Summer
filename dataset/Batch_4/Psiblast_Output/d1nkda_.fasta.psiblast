@@ -1,0 +1,4567 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1nkda_
+
+Length=59
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_UPI00073771FB hypothetical protein, partial n=1 Tax=Sa...  109     1e-29
+  UniRef90_P03051 Regulatory protein rop n=77 Tax=root TaxID=1 Re...  109     2e-29
+  UniRef90_A0A0D0LJT0 Regulatory protein n=103 Tax=root TaxID=1 R...  109     2e-29
+  UniRef90_B8QJ12 Rop/rom protein n=79 Tax=cellular organisms Tax...  108     5e-29
+  UniRef90_A0A098YHF8 Regulatory protein n=4 Tax=Gammaproteobacte...  104     2e-27
+  UniRef90_UPI00039D460E regulatory protein n=9 Tax=Enterobactera...  103     4e-27
+  UniRef90_A0A1J4QL40 Uncharacterized protein n=1 Tax=Salmonella ...  101     2e-26
+  UniRef90_UPI0003EB335E regulatory protein n=1 Tax=Salmonella ch...  99.8    1e-25
+  UniRef90_UPI000699C827 hypothetical protein n=1 Tax=Salmonella ...  99.4    3e-25
+  UniRef90_C0AQF1 Rop protein (Fragment) n=3 Tax=Bacteria TaxID=2...  98.2    5e-25
+  UniRef90_L8AT37 Regulatory protein Rop n=1 Tax=Bacillus subtili...  97.1    9e-24
+  UniRef90_L8AE36 Regulatory protein Rop n=1 Tax=Bacillus subtili...  95.1    1e-23
+  UniRef90_L8AQ06 Regulatory protein Rop n=1 Tax=Bacillus subtili...  95.1    1e-23
+  UniRef90_L8AK66 Uncharacterized protein n=5 Tax=cellular organi...  96.3    2e-22
+  UniRef90_M9H4U8 Regulatory protein rop n=3 Tax=Escherichia coli...  88.6    2e-21
+  UniRef90_Q6KCD4 Rom protein n=3 Tax=Escherichia coli TaxID=562 ...  87.4    5e-21
+  UniRef90_UPI00044512FE UPI00044512FE related cluster n=1 Tax=un...  81.6    9e-19
+  UniRef90_UPI0009269425 UPI0009269425 related cluster n=1 Tax=un...  81.6    1e-18
+  UniRef90_UPI0004D54A1F hypothetical protein n=1 Tax=Escherichia...  79.7    7e-18
+  UniRef90_Q1BZY3 Regulatory protein rop n=54 Tax=Enterobacterale...  69.7    6e-14
+  UniRef90_A0A077NG68 Regulatory protein rop n=2 Tax=Xenorhabdus ...  67.8    4e-13
+  UniRef90_A0A069WX31 Rop family protein n=3 Tax=Escherichia coli...  67.4    4e-13
+  UniRef90_A0A0K3NJ40 Putative RNA I modulator protein n=9 Tax=En...  66.2    1e-12
+  UniRef90_UPI000774FB20 UPI000774FB20 related cluster n=4 Tax=un...  65.5    2e-12
+  UniRef90_A0A167RF48 RNA I inhibition modulator protein n=18 Tax...  65.5    2e-12
+  UniRef90_UPI00083CF4B3 UPI00083CF4B3 related cluster n=1 Tax=un...  65.1    3e-12
+  UniRef90_A0A1B8H881 RNA polymerase n=1 Tax=Morganella psychroto...  63.9    7e-12
+  UniRef90_A0A0U2JMF1 Putative RNA modulator protein n=1 Tax=Edwa...  63.5    1e-11
+  UniRef90_A0A0D0N5C2 RNA polymerase n=38 Tax=Bacteria TaxID=2 Re...  63.5    1e-11
+  UniRef90_UPI0009412CA9 UPI0009412CA9 related cluster n=1 Tax=un...  63.2    2e-11
+  UniRef90_A0A0K5TBR5 Putative RNAI modulator protein n=23 Tax=Ga...  62.8    2e-11
+  UniRef90_A0A080FMY8 Rop family protein n=35 Tax=Gammaproteobact...  62.8    2e-11
+  UniRef90_UPI0007A620CE UPI0007A620CE related cluster n=1 Tax=un...  62.8    2e-11
+  UniRef90_UPI00084B07BC UPI00084B07BC related cluster n=1 Tax=un...  62.4    3e-11
+  UniRef90_UPI000847CBE8 UPI000847CBE8 related cluster n=1 Tax=un...  62.4    3e-11
+  UniRef90_UPI00069A99AA RNA polymerase n=1 Tax=Escherichia coli ...  62.0    5e-11
+  UniRef90_UPI000925FC1C UPI000925FC1C related cluster n=1 Tax=un...  61.2    9e-11
+  UniRef90_UPI000488DB6A hypothetical protein n=1 Tax=Zymobacter ...  61.2    9e-11
+  UniRef90_UPI0009449920 UPI0009449920 related cluster n=2 Tax=un...  61.2    1e-10
+  UniRef90_Q9KI27 Putative RNA one modulator protein n=2 Tax=Edwa...  60.5    2e-10
+  UniRef90_UPI00075032E0 RNA polymerase n=1 Tax=Enterobacter cloa...  60.5    2e-10
+  UniRef90_V0SU92 Rop protein n=1 Tax=Escherichia coli 113302 Tax...  61.6    2e-10
+  UniRef90_UPI0003F7C265 UPI0003F7C265 related cluster n=3 Tax=un...  59.7    3e-10
+  UniRef90_O30669 RNA one modulator n=11 Tax=Enterobacterales Tax...  58.9    6e-10
+  UniRef90_UPI00064A6DA1 UPI00064A6DA1 related cluster n=1 Tax=un...  58.9    7e-10
+  UniRef90_UPI00057A9967 hypothetical protein n=2 Tax=Plesiomonas...  58.5    1e-09
+  UniRef90_UPI0007A5D40A UPI0007A5D40A related cluster n=2 Tax=un...  57.8    2e-09
+  UniRef90_D3GMY2 ROM protein n=1 Tax=Rahnella sp. WMR114 TaxID=6...  57.8    2e-09
+  UniRef90_UPI00093A8A8E UPI00093A8A8E related cluster n=1 Tax=un...  57.4    2e-09
+  UniRef90_A0A1D3C897 Uncharacterized protein n=15 Tax=root TaxID...  57.8    3e-09
+  UniRef90_A0A1J8BKJ1 RNA polymerase n=1 Tax=Escherichia coli Tax...  56.6    4e-09
+  UniRef90_A0A0D7KVL1 RNA polymerase n=1 Tax=Citrobacter freundii...  55.8    1e-08
+  UniRef90_UPI0002DB8D4E RNA polymerase n=1 Tax=Salmonella choler...  54.7    2e-08
+  UniRef90_UPI0007353D7D UPI0007353D7D related cluster n=1 Tax=un...  52.4    2e-07
+  UniRef90_A0A085GWM7 Rop family protein n=4 Tax=Enterobacteriace...  52.4    2e-07
+  UniRef90_A0A0H5Q2C9 Uncharacterized protein n=2 Tax=uncultured ...  50.8    8e-07
+  UniRef90_UPI0009454E7D UPI0009454E7D related cluster n=1 Tax=un...  50.1    1e-06
+  UniRef90_A6TJ74 RNA one modulator-like protein n=116 Tax=Entero...  50.1    2e-06
+  UniRef90_UPI000908242D UPI000908242D related cluster n=1 Tax=un...  49.7    2e-06
+  UniRef90_A0A0K0I536 RNA polymerase n=1 Tax=Enterobacter cloacae...  49.3    3e-06
+  UniRef90_A0A0H5QJF9 Uncharacterized protein n=1 Tax=uncultured ...  49.3    3e-06
+  UniRef90_A0A0D7KWT5 RNA polymerase n=5 Tax=Enterobacteriaceae T...  48.1    7e-06
+  UniRef90_A0A0C5BDC3 Rom-like protein n=1 Tax=Escherichia coli T...  48.1    1e-05
+  UniRef90_D6HWQ3 Rop protein n=5 Tax=Escherichia coli TaxID=562 ...  47.8    1e-05
+  UniRef90_A0A0F4AE04 RNA polymerase n=8 Tax=Enterobacteriaceae T...  47.4    1e-05
+  UniRef90_A0A0N8LSL2 RNA polymerase n=22 Tax=Enterobacteriaceae ...  47.4    2e-05
+  UniRef90_A0A167AA14 RNA polymerase n=18 Tax=Proteobacteria TaxI...  47.4    2e-05
+  UniRef90_UPI0006430A33 RNA polymerase n=4 Tax=unknown TaxID= Re...  47.4    2e-05
+  UniRef90_Q52624 Rom n=5 Tax=Enterobacterales TaxID=91347 RepID=...  47.0    2e-05
+  UniRef90_D3INX7 RNA polymerase n=20 Tax=Enterobacteriaceae TaxI...  47.0    2e-05
+  UniRef90_UPI0006DAEDAF RNA polymerase n=1 Tax=Serratia marcesce...  46.6    3e-05
+  UniRef90_UPI0005E4CB2D RNA polymerase n=2 Tax=Yersinia frederik...  46.6    3e-05
+  UniRef90_A0A1J8HZN6 RNA polymerase n=15 Tax=Enterobacteriaceae ...  46.6    3e-05
+  UniRef90_J2X090 Uncharacterized protein n=7 Tax=Klebsiella pneu...  46.6    3e-05
+  UniRef90_UPI000680D69C RNA polymerase n=2 Tax=Pantoea vagans Ta...  45.8    5e-05
+  UniRef90_UPI000627766C RNA polymerase n=1 Tax=Escherichia coli ...  45.8    6e-05
+  UniRef90_A0A1J8J9X8 RNA polymerase n=5 Tax=Enterobacterales Tax...  45.8    6e-05
+  UniRef90_R4Y3G4 Uncharacterized protein n=5 Tax=Enterobacteriac...  45.8    6e-05
+  UniRef90_A0A0P6RLH5 RNA polymerase n=2 Tax=Pseudomonas TaxID=28...  45.1    1e-04
+  UniRef90_A0A0F5XU34 RNA polymerase n=3 Tax=Enterobacterales Tax...  44.3    2e-04
+  UniRef90_UPI0007E5B691 UPI0007E5B691 related cluster n=1 Tax=un...  44.3    2e-04
+  UniRef90_UPI00057B60F4 RNA polymerase n=1 Tax=Leclercia adecarb...  43.9    3e-04
+  UniRef90_UPI00071ADEDC UPI00071ADEDC related cluster n=1 Tax=un...  43.9    3e-04
+  UniRef90_A0A0T9N5Q9 Replication regulatory protein n=2 Tax=Yers...  43.5    3e-04
+  UniRef90_UPI00084AD2EE UPI00084AD2EE related cluster n=1 Tax=un...  43.5    4e-04
+  UniRef90_UPI0006D9E9E1 RNA polymerase n=1 Tax=Serratia marcesce...  43.5    4e-04
+  UniRef90_UPI0007E8F75E UPI0007E8F75E related cluster n=1 Tax=un...  43.1    4e-04
+  UniRef90_A0A0A1BCR4 RNA polymerase n=1 Tax=Pantoea sp. PSNIH2 T...  43.1    5e-04
+  UniRef90_UPI00094361A2 UPI00094361A2 related cluster n=2 Tax=un...  43.1    5e-04
+  UniRef90_A0A0J0I0D5 RNA polymerase n=2 Tax=Enterobacter sp. GN0...  43.1    6e-04
+  UniRef90_UPI00063A95C1 UPI00063A95C1 related cluster n=1 Tax=un...  42.0    0.001
+  UniRef90_Q8GGG7 Rop n=1 Tax=Enterobacter sp. RFL1396 TaxID=2115...  42.0    0.001
+  UniRef90_UPI0005F9A6AB RNA polymerase n=1 Tax=Enterobacter cloa...  42.0    0.002
+  UniRef90_A0A1J5W4X7 RNA polymerase n=1 Tax=Lelliottia nimipress...  42.0    0.002
+  UniRef90_D2TE22 RNA one modulator n=3 Tax=Erwinia pyrifoliae Ta...  42.0    0.002
+  UniRef90_UPI0002DD28DA RNA polymerase n=1 Tax=Edwardsiella tard...  41.6    0.002
+  UniRef90_UPI00081C1C7F UPI00081C1C7F related cluster n=2 Tax=un...  41.2    0.003
+  UniRef90_D3GN07 ROM protein n=3 Tax=Enterobacterales TaxID=9134...  41.2    0.003
+  UniRef90_UPI000940E633 UPI000940E633 related cluster n=1 Tax=un...  40.8    0.003
+  UniRef90_UPI000693741C hypothetical protein n=1 Tax=Klebsiella ...  41.2    0.003
+  UniRef90_UPI000806F0D2 UPI000806F0D2 related cluster n=1 Tax=un...  40.8    0.003
+  UniRef90_UPI00071AE0D4 UPI00071AE0D4 related cluster n=1 Tax=un...  40.4    0.005
+  UniRef90_A0A1A9Z2C0 Uncharacterized protein n=1 Tax=Glossina pa...  41.2    0.009
+
+
+> UniRef90_UPI00073771FB hypothetical protein, partial n=1 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=UPI00073771FB
+Length=64
+
+ Score = 109 bits (273),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 56/59 (95%), Positives = 56/59 (95%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMARFIRSQTLTLLEKLNEL   ADEQADICESLHDHADELYRSCLARFG
+Sbjct  1   MTKQEKTALNMARFIRSQTLTLLEKLNELD--ADEQADICESLHDHADELYRSCLARFG  57
+
+
+> UniRef90_P03051 Regulatory protein rop n=77 Tax=root TaxID=1 
+RepID=ROP_ECOLX
+Length=63
+
+ Score = 109 bits (273),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 56/59 (95%), Positives = 56/59 (95%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMARFIRSQTLTLLEKLNEL   ADEQADICESLHDHADELYRSCLARFG
+Sbjct  1   MTKQEKTALNMARFIRSQTLTLLEKLNELD--ADEQADICESLHDHADELYRSCLARFG  57
+
+
+> UniRef90_A0A0D0LJT0 Regulatory protein n=103 Tax=root TaxID=1 
+RepID=A0A0D0LJT0_ECOLX
+Length=63
+
+ Score = 109 bits (272),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 56/59 (95%), Positives = 56/59 (95%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMARFIRSQTLTLLEKLNEL   ADEQADICESLHDHADELYRSCLARFG
+Sbjct  1   MTKQEKTALNMARFIRSQTLTLLEKLNELD--ADEQADICESLHDHADELYRSCLARFG  57
+
+
+> UniRef90_B8QJ12 Rop/rom protein n=79 Tax=cellular organisms TaxID=131567 
+RepID=B8QJ12_ECOLX
+Length=74
+
+ Score = 108 bits (270),  Expect = 5e-29, Method: Compositional matrix adjust.
+ Identities = 55/59 (93%), Positives = 56/59 (95%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           +TKQEKTALNMARFIRSQTLTLLEKLNEL   ADEQADICESLHDHADELYRSCLARFG
+Sbjct  12  VTKQEKTALNMARFIRSQTLTLLEKLNELD--ADEQADICESLHDHADELYRSCLARFG  68
+
+
+> UniRef90_A0A098YHF8 Regulatory protein n=4 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A098YHF8_9GAMM
+Length=78
+
+ Score = 104 bits (259),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 52/59 (88%), Positives = 56/59 (95%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           +TKQEKTALNMARFI+SQTLTLLEKLNEL   AD+QADICE+LHDHADELYRSCLARFG
+Sbjct  16  VTKQEKTALNMARFIKSQTLTLLEKLNELD--ADDQADICEALHDHADELYRSCLARFG  72
+
+
+> UniRef90_UPI00039D460E regulatory protein n=9 Tax=Enterobacterales 
+TaxID=91347 RepID=UPI00039D460E
+Length=63
+
+ Score = 103 bits (256),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 52/59 (88%), Positives = 54/59 (92%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMARFIRSQTLTLLEKLNEL    D+QADICE+LHDHADELYRSCLA FG
+Sbjct  1   MTKQEKTALNMARFIRSQTLTLLEKLNEL--DVDDQADICEALHDHADELYRSCLAHFG  57
+
+
+> UniRef90_A0A1J4QL40 Uncharacterized protein n=1 Tax=Salmonella 
+enterica I TaxID=59201 RepID=A0A1J4QL40_SALET
+Length=63
+
+ Score = 101 bits (252),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 51/59 (86%), Positives = 54/59 (92%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MT+QEKTALNMARFIR+QTLTLLEKLNEL   AD+QA ICESLHDHADELYRSCL RFG
+Sbjct  1   MTRQEKTALNMARFIRAQTLTLLEKLNELD--ADDQAGICESLHDHADELYRSCLTRFG  57
+
+
+> UniRef90_UPI0003EB335E regulatory protein n=1 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=UPI0003EB335E
+Length=63
+
+ Score = 99.8 bits (247),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 50/59 (85%), Positives = 54/59 (92%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           M KQ++TALNMARFI+SQTLTLLEKLNEL   ADEQADICESLH+HADELYRSCLARF 
+Sbjct  1   MNKQQQTALNMARFIKSQTLTLLEKLNELD--ADEQADICESLHEHADELYRSCLARFS  57
+
+
+> UniRef90_UPI000699C827 hypothetical protein n=1 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=UPI000699C827
+Length=79
+
+ Score = 99.4 bits (246),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 49/58 (84%), Positives = 54/58 (93%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           + KQ++TALN+ARFI+SQTLTLLEKLNEL   ADEQADICESLHDHADELYRSCLARF
+Sbjct  17  VNKQQQTALNIARFIKSQTLTLLEKLNELD--ADEQADICESLHDHADELYRSCLARF  72
+
+
+> UniRef90_C0AQF1 Rop protein (Fragment) n=3 Tax=Bacteria TaxID=2 
+RepID=C0AQF1_9GAMM
+Length=63
+
+ Score = 98.2 bits (243),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 50/54 (93%), Positives = 51/54 (94%), Gaps = 2/54 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSC  54
+           +TKQEKTALNMARFIRSQTLTLLEKLNEL   ADEQADICESLHDHADELYRSC
+Sbjct  12  VTKQEKTALNMARFIRSQTLTLLEKLNEL--DADEQADICESLHDHADELYRSC  63
+
+
+> UniRef90_L8AT37 Regulatory protein Rop n=1 Tax=Bacillus subtilis 
+BEST7613 TaxID=1204343 RepID=L8AT37_BACIU
+Length=143
+
+ Score = 97.1 bits (240),  Expect = 9e-24, Method: Compositional matrix adjust.
+ Identities = 51/62 (82%), Positives = 53/62 (85%), Gaps = 6/62 (10%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYR----SCLA  56
+           MTKQEKTALNMARFIRSQTLTLLEKLNEL   ADEQADICESLHDHADELYR     C +
+Sbjct  1   MTKQEKTALNMARFIRSQTLTLLEKLNEL--DADEQADICESLHDHADELYRRGSLGCRS  58
+
+Query  57  RF  58
+           +F
+Sbjct  59  KF  60
+
+
+> UniRef90_L8AE36 Regulatory protein Rop n=1 Tax=Bacillus subtilis 
+BEST7613 TaxID=1204343 RepID=L8AE36_BACIU
+Length=80
+
+ Score = 95.1 bits (235),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 51/62 (82%), Positives = 53/62 (85%), Gaps = 6/62 (10%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYR----SCLA  56
+           MTKQEKTALNMARFIRSQTLTLLEKLNEL   ADEQADICESLHDHADELYR     C +
+Sbjct  1   MTKQEKTALNMARFIRSQTLTLLEKLNEL--DADEQADICESLHDHADELYRRGSLGCRS  58
+
+Query  57  RF  58
+           +F
+Sbjct  59  KF  60
+
+
+> UniRef90_L8AQ06 Regulatory protein Rop n=1 Tax=Bacillus subtilis 
+BEST7613 TaxID=1204343 RepID=L8AQ06_BACIU
+Length=80
+
+ Score = 95.1 bits (235),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 51/62 (82%), Positives = 53/62 (85%), Gaps = 6/62 (10%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYR----SCLA  56
+           MTKQEKTALNMARFIRSQTLTLLEKLNEL   ADEQADICESLHDHADELYR     C +
+Sbjct  1   MTKQEKTALNMARFIRSQTLTLLEKLNEL--DADEQADICESLHDHADELYRRGSLGCRS  58
+
+Query  57  RF  58
+           +F
+Sbjct  59  KF  60
+
+
+> UniRef90_L8AK66 Uncharacterized protein n=5 Tax=cellular organisms 
+TaxID=131567 RepID=L8AK66_BACIU
+Length=302
+
+ Score = 96.3 bits (238),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 51/62 (82%), Positives = 53/62 (85%), Gaps = 6/62 (10%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYR----SCLA  56
+           MTKQEKTALNMARFIRSQTLTLLEKLNEL   ADEQADICESLHDHADELYR     C +
+Sbjct  1   MTKQEKTALNMARFIRSQTLTLLEKLNEL--DADEQADICESLHDHADELYRRGSLGCRS  58
+
+Query  57  RF  58
+           +F
+Sbjct  59  KF  60
+
+
+> UniRef90_M9H4U8 Regulatory protein rop n=3 Tax=Escherichia coli 
+TaxID=562 RepID=M9H4U8_ECOLX
+Length=66
+
+ Score = 88.6 bits (218),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 45/49 (92%), Positives = 45/49 (92%), Gaps = 2/49 (4%)
+
+Query  11  MARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MARFIRSQTLTLLEKLNEL   ADEQADICESLHDHADELYR CLARFG
+Sbjct  1   MARFIRSQTLTLLEKLNELD--ADEQADICESLHDHADELYRGCLARFG  47
+
+
+> UniRef90_Q6KCD4 Rom protein n=3 Tax=Escherichia coli TaxID=562 
+RepID=Q6KCD4_ECOLX
+Length=50
+
+ Score = 87.4 bits (215),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 45/51 (88%), Positives = 47/51 (92%), Gaps = 2/51 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELY  51
+           MTKQEKTALNMARFIRSQTLTLLEKLNEL   ADEQADICESLHDHAD ++
+Sbjct  1   MTKQEKTALNMARFIRSQTLTLLEKLNEL--DADEQADICESLHDHADGVF  49
+
+
+> UniRef90_UPI00044512FE UPI00044512FE related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00044512FE
+Length=50
+
+ Score = 81.6 bits (200),  Expect = 9e-19, Method: Compositional matrix adjust.
+ Identities = 42/46 (91%), Positives = 42/46 (91%), Gaps = 2/46 (4%)
+
+Query  14  FIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+            IRSQTLTLLEKLNEL   ADEQADICESLHDHADELYRSCLARFG
+Sbjct  1   LIRSQTLTLLEKLNELD--ADEQADICESLHDHADELYRSCLARFG  44
+
+
+> UniRef90_UPI0009269425 UPI0009269425 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009269425
+Length=62
+
+ Score = 81.6 bits (200),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 41/52 (79%), Positives = 46/52 (88%), Gaps = 2/52 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYR  52
+           MTKQEKTA+NMARFIR+QTLTLLEK+N+L   ADEQAD+ ESLHDHA E YR
+Sbjct  13  MTKQEKTAVNMARFIRNQTLTLLEKVNDL--GADEQADMWESLHDHAAEHYR  62
+
+
+> UniRef90_UPI0004D54A1F hypothetical protein n=1 Tax=Escherichia 
+coli TaxID=562 RepID=UPI0004D54A1F
+Length=63
+
+ Score = 79.7 bits (195),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 41/59 (69%), Positives = 48/59 (81%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQE+TA+NMARFI+S +LTLLEKL+ L   ADEQA ICE LH+ ADELY+ C  RFG
+Sbjct  1   MTKQEQTAINMARFIKSHSLTLLEKLDAL--DADEQAAICEQLHEVADELYQRCRERFG  57
+
+
+> UniRef90_Q1BZY3 Regulatory protein rop n=54 Tax=Enterobacterales 
+TaxID=91347 RepID=Q1BZY3_YERPA
+Length=64
+
+ Score = 69.7 bits (169),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 38/58 (66%), Positives = 45/58 (78%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++TALNMARFIRSQ+L LLEKL+ L   ADEQA +CE LH+ A+EL  S  ARF
+Sbjct  1   MNKQQQTALNMARFIRSQSLILLEKLDAL--DADEQAAMCERLHELAEELQNSIQARF  56
+
+
+> UniRef90_A0A077NG68 Regulatory protein rop n=2 Tax=Xenorhabdus 
+bovienii TaxID=40576 RepID=A0A077NG68_XENBV
+Length=70
+
+ Score = 67.8 bits (164),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 33/59 (56%), Positives = 44/59 (75%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           M KQEK+ LN+A+FIR QTL LLEK+NEL    D++A+ CE LHD A+ LY   ++R+G
+Sbjct  12  MNKQEKSCLNIAKFIRGQTLLLLEKINEL--DLDDEAEACEKLHDDAEALYHQLVSRYG  68
+
+
+> UniRef90_A0A069WX31 Rop family protein n=3 Tax=Escherichia coli 
+3-373-03_S4_C2 TaxID=1444252 RepID=A0A069WX31_ECOLX
+Length=64
+
+ Score = 67.4 bits (163),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 36/58 (62%), Positives = 45/58 (78%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++TALNMA FI+SQ+LTLLEKL+ L   ADEQA +CE LH+ A+EL +S   RF
+Sbjct  1   MNKQQQTALNMAGFIKSQSLTLLEKLDAL--DADEQAAMCEKLHELAEELQKSIQTRF  56
+
+
+> UniRef90_A0A0K3NJ40 Putative RNA I modulator protein n=9 Tax=Enterobacterales 
+TaxID=91347 RepID=A0A0K3NJ40_ECOLX
+Length=64
+
+ Score = 66.2 bits (160),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++TALNMA+FI+SQ+LTLLEKL+ L   AD QA +CE LH+ A+EL  S   RF
+Sbjct  1   MNKQQQTALNMAKFIKSQSLTLLEKLDSL--DADAQAAMCEKLHELAEELQNSIQTRF  56
+
+
+> UniRef90_UPI000774FB20 UPI000774FB20 related cluster n=4 Tax=unknown 
+TaxID= RepID=UPI000774FB20
+Length=64
+
+ Score = 65.5 bits (158),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 36/58 (62%), Positives = 44/58 (76%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++TALNMARFI+SQ+LTLLEKL+ L   ADEQA +CE LH+ A+EL  S    F
+Sbjct  1   MNKQQQTALNMARFIKSQSLTLLEKLDAL--DADEQATLCERLHELAEELCNSVQTHF  56
+
+
+> UniRef90_A0A167RF48 RNA I inhibition modulator protein n=18 Tax=root 
+TaxID=1 RepID=A0A167RF48_ECOLX
+Length=64
+
+ Score = 65.5 bits (158),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 36/58 (62%), Positives = 44/58 (76%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++TALNMARFI+SQ+LTLLEKL+ L   ADEQA +CE LH+ A+EL  S    F
+Sbjct  1   MNKQQQTALNMARFIKSQSLTLLEKLDAL--DADEQATMCERLHELAEELCNSVQTHF  56
+
+
+> UniRef90_UPI00083CF4B3 UPI00083CF4B3 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00083CF4B3
+Length=64
+
+ Score = 65.1 bits (157),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 43/58 (74%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ+ T LNMA+FI+SQ+LTLLEKL+  +  AD QA +CE LH+ A+EL  S   RF
+Sbjct  1   MTKQQSTTLNMAKFIKSQSLTLLEKLD--SRNADAQAAMCEKLHELAEELQNSIQTRF  56
+
+
+> UniRef90_A0A1B8H881 RNA polymerase n=1 Tax=Morganella psychrotolerans 
+TaxID=368603 RepID=A0A1B8H881_9GAMM
+Length=62
+
+ Score = 63.9 bits (154),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 31/60 (52%), Positives = 44/60 (73%), Gaps = 1/60 (2%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNEL-ADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEK  +NMA F+++Q+L LLEKLNE  +D  D + ++CE LH+HA+ L+R   A+ G
+Sbjct  1   MTKQEKAVVNMANFLQAQSLLLLEKLNEQDSDNLDAETNLCEELHEHAESLHRRLNAKLG  60
+
+
+> UniRef90_A0A0U2JMF1 Putative RNA modulator protein n=1 Tax=Edwardsiella 
+ictaluri TaxID=67780 RepID=A0A0U2JMF1_EDWIC
+Length=58
+
+ Score = 63.5 bits (153),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 33/53 (62%), Positives = 43/53 (81%), Gaps = 2/53 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRS  53
+           MTKQE +A+NMA+FI++QTL LLEKLN+L    DE+AD CE LH+ A+ LYR+
+Sbjct  1   MTKQELSAVNMAKFIKAQTLILLEKLNDL--NLDERADECEHLHEMAETLYRN  51
+
+
+> UniRef90_A0A0D0N5C2 RNA polymerase n=38 Tax=Bacteria TaxID=2 
+RepID=A0A0D0N5C2_ECOLX
+Length=64
+
+ Score = 63.5 bits (153),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 42/58 (72%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++  LNMA FI+SQ+LTLLEKL+ L   ADEQA +CE LH+ A+EL  S   RF
+Sbjct  1   MNKQQQAVLNMAGFIKSQSLTLLEKLDAL--NADEQAAMCEKLHELAEELQNSIQTRF  56
+
+
+> UniRef90_UPI0009412CA9 UPI0009412CA9 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009412CA9
+Length=58
+
+ Score = 63.2 bits (152),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 35/51 (69%), Positives = 40/51 (78%), Gaps = 2/51 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELY  51
+           MTKQE TALNMA FI+SQTL LL+KLN+L    D+ AD CE LHD A+ELY
+Sbjct  1   MTKQELTALNMAGFIKSQTLILLDKLNQL--NLDDCADECEDLHDMAEELY  49
+
+
+> UniRef90_A0A0K5TBR5 Putative RNAI modulator protein n=23 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A0K5TBR5_ECOLX
+Length=64
+
+ Score = 62.8 bits (151),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 42/58 (72%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++  LNMA FI+SQ+LTLLEKL+ L   ADEQA +CE LH+ A+EL  S   RF
+Sbjct  1   MNKQQQAVLNMAGFIKSQSLTLLEKLDAL--DADEQATMCEKLHELAEELQNSIRTRF  56
+
+
+> UniRef90_A0A080FMY8 Rop family protein n=35 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A080FMY8_ECOLX
+Length=64
+
+ Score = 62.8 bits (151),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 42/58 (72%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++  LNMA FI+SQ+LTLLEKL+ L   ADEQA +CE LH+ A+EL  S   RF
+Sbjct  1   MNKQQQAVLNMAGFIKSQSLTLLEKLDAL--DADEQAAMCEKLHELAEELQNSIQTRF  56
+
+
+> UniRef90_UPI0007A620CE UPI0007A620CE related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007A620CE
+Length=64
+
+ Score = 62.8 bits (151),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 32/58 (55%), Positives = 42/58 (72%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++TALNMARFI+SQ+LTLLEKL+ L    +EQ  +CE LH+ A+E+      RF
+Sbjct  1   MNKQQQTALNMARFIKSQSLTLLEKLDAL--DTNEQVAMCERLHERAEEIQNRIQVRF  56
+
+
+> UniRef90_UPI00084B07BC UPI00084B07BC related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00084B07BC
+Length=64
+
+ Score = 62.4 bits (150),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 33/58 (57%), Positives = 42/58 (72%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++T LNMA FI+ Q LTLLEKL+  A  ADEQA +CE LH+ A++L +S   RF
+Sbjct  1   MNKQQQTVLNMAGFIKRQRLTLLEKLD--APDADEQATMCEKLHEIAEKLQKSIKTRF  56
+
+
+> UniRef90_UPI000847CBE8 UPI000847CBE8 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000847CBE8
+Length=64
+
+ Score = 62.4 bits (150),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 41/58 (71%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ +T LNMA  I+SQ+LTLLEKL+ L   ADEQA +CE LH+ A+EL  S   RF
+Sbjct  1   MNKQPQTVLNMAGVIKSQSLTLLEKLDAL--DADEQAAMCEKLHEIAEELQNSIQTRF  56
+
+
+> UniRef90_UPI00069A99AA RNA polymerase n=1 Tax=Escherichia coli 
+TaxID=562 RepID=UPI00069A99AA
+Length=64
+
+ Score = 62.0 bits (149),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 41/58 (71%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++  LNMA FI+SQ LTLLEKL+ L   ADEQA +CE LH+ A+EL  S   RF
+Sbjct  1   MNKQQQAVLNMAGFIKSQGLTLLEKLDAL--DADEQATMCEKLHELAEELQNSIRTRF  56
+
+
+> UniRef90_UPI000925FC1C UPI000925FC1C related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000925FC1C
+Length=70
+
+ Score = 61.2 bits (147),  Expect = 9e-11, Method: Compositional matrix adjust.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  33  ADEQADICESLHDHADELYRSCLARFG  59
+           ADEQADICESLHDHADELYRSCLARFG
+Sbjct  38  ADEQADICESLHDHADELYRSCLARFG  64
+
+
+> UniRef90_UPI000488DB6A hypothetical protein n=1 Tax=Zymobacter 
+palmae TaxID=33074 RepID=UPI000488DB6A
+Length=62
+
+ Score = 61.2 bits (147),  Expect = 9e-11, Method: Compositional matrix adjust.
+ Identities = 31/59 (53%), Positives = 43/59 (73%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           M K+EK+ALN+A+FI+SQTL LL+KLNEL D  D+ A+ CE LHD A+ L+     ++ 
+Sbjct  1   MGKKEKSALNVAKFIKSQTLILLDKLNELDD--DDAANACEKLHDDAEALHEVLANKWA  57
+
+
+> UniRef90_UPI0009449920 UPI0009449920 related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI0009449920
+Length=75
+
+ Score = 61.2 bits (147),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 29/53 (55%), Positives = 42/53 (79%), Gaps = 2/53 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRS  53
+           +TKQ++T L MA+FI +Q+L LLEK NEL    D +AD+CE LH++A++LYR+
+Sbjct  13  ITKQQQTTLYMAKFIPAQSLLLLEKFNEL--DLDSEADLCEKLHEYAEQLYRT  63
+
+
+> UniRef90_Q9KI27 Putative RNA one modulator protein n=2 Tax=Edwardsiella 
+TaxID=132406 RepID=Q9KI27_EDWIC
+Length=60
+
+ Score = 60.5 bits (145),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 32/52 (62%), Positives = 41/52 (79%), Gaps = 2/52 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYR  52
+           M KQE TA+NMA+FI++Q L LLEKLNEL    DE+A+ CE LHD A++L+R
+Sbjct  1   MKKQEATAINMAKFIKAQLLILLEKLNEL--DLDERANECEQLHDLAEQLHR  50
+
+
+> UniRef90_UPI00075032E0 RNA polymerase n=1 Tax=Enterobacter cloacae 
+TaxID=550 RepID=UPI00075032E0
+Length=62
+
+ Score = 60.5 bits (145),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 31/58 (53%), Positives = 42/58 (72%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M +QE  ALNMA+FIR+QTL LLEK+++L    D++A  CE LH+ A+ LY+  LAR 
+Sbjct  1   MNRQESAALNMAKFIRTQTLLLLEKIDQL--DLDDEATECEKLHEQAENLYQKLLARL  56
+
+
+> UniRef90_V0SU92 Rop protein n=1 Tax=Escherichia coli 113302 TaxID=1268977 
+RepID=V0SU92_ECOLX
+Length=123
+
+ Score = 61.6 bits (148),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 43/58 (74%), Gaps = 2/58 (3%)
+
+Query  1    MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+            + KQ++TALNMARFI+SQ+LTLLEKL+ L   AD QA +CE LH+ A+EL  S    F
+Sbjct  60   VNKQQQTALNMARFIKSQSLTLLEKLDAL--DADVQAAMCERLHELAEELQNSIQVHF  115
+
+
+> UniRef90_UPI0003F7C265 UPI0003F7C265 related cluster n=3 Tax=unknown 
+TaxID= RepID=UPI0003F7C265
+Length=58
+
+ Score = 59.7 bits (143),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 33/51 (65%), Positives = 40/51 (78%), Gaps = 2/51 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELY  51
+           MTKQE TALN+A FI+SQTL LL+KLN+L    D+ AD CE L+D A+ELY
+Sbjct  1   MTKQELTALNIAGFIKSQTLILLDKLNQL--NLDDCADECEDLYDMAEELY  49
+
+
+> UniRef90_O30669 RNA one modulator n=11 Tax=Enterobacterales TaxID=91347 
+RepID=O30669_ENTAG
+Length=61
+
+ Score = 58.9 bits (141),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 32/59 (54%), Positives = 40/59 (68%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MT+QE  ALNMA+FIR+QTL LLE+L ++    DE A  CE LHD A+ LY    A+ G
+Sbjct  1   MTRQESAALNMAKFIRAQTLLLLERLEQM--DLDEAAGCCEHLHDQAEALYAMLNAQIG  57
+
+
+> UniRef90_UPI00064A6DA1 UPI00064A6DA1 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00064A6DA1
+Length=62
+
+ Score = 58.9 bits (141),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 32/58 (55%), Positives = 42/58 (72%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M +QE  ALNMA+FIR+QTL LLEK+++L D  DE  D CE LH+ A++LY+   AR 
+Sbjct  1   MNRQESAALNMAKFIRAQTLLLLEKIDQL-DLDDEATD-CEKLHEQAEKLYQKLQARL  56
+
+
+> UniRef90_UPI00057A9967 hypothetical protein n=2 Tax=Plesiomonas 
+TaxID=702 RepID=UPI00057A9967
+Length=60
+
+ Score = 58.5 bits (140),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 36/59 (61%), Positives = 43/59 (73%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           M KQ+KTALNMA+FIR QTL LLEKL       DEQAD CE LH+ ++ LY+S +A FG
+Sbjct  1   MNKQQKTALNMAKFIRGQTLLLLEKL--NELDLDEQADQCEKLHEDSEALYQSLVAEFG  57
+
+
+> UniRef90_UPI0007A5D40A UPI0007A5D40A related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI0007A5D40A
+Length=60
+
+ Score = 57.8 bits (138),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 28/29 (97%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNEL  29
+           +TKQEKTALNMARFIRSQTLTLLEKLNEL
+Sbjct  12  VTKQEKTALNMARFIRSQTLTLLEKLNEL  40
+
+
+> UniRef90_D3GMY2 ROM protein n=1 Tax=Rahnella sp. WMR114 TaxID=657335 
+RepID=D3GMY2_9GAMM
+Length=65
+
+ Score = 57.8 bits (138),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 31/51 (61%), Positives = 39/51 (76%), Gaps = 2/51 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELY  51
+           M KQEKTALNM +FI++QTL  LEKLNEL    DE AD CE LH+ +++L+
+Sbjct  1   MNKQEKTALNMTKFIQAQTLLQLEKLNEL--NLDEIADYCERLHELSEQLH  49
+
+
+> UniRef90_UPI00093A8A8E UPI00093A8A8E related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00093A8A8E
+Length=64
+
+ Score = 57.4 bits (137),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 32/58 (55%), Positives = 39/58 (67%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++  LN A  I+SQ+LTLLEKL   A  ADEQA +CE LH+ A+EL  S   RF
+Sbjct  1   MNKQQQAVLNKAGIIKSQSLTLLEKLE--AHDADEQATMCEKLHELAEELQNSIQTRF  56
+
+
+> UniRef90_A0A1D3C897 Uncharacterized protein n=15 Tax=root TaxID=1 
+RepID=A0A1D3C897_9ENTR
+Length=79
+
+ Score = 57.8 bits (138),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 32/59 (54%), Positives = 40/59 (68%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           +T+QE  ALNMA+FIRSQTL LLE+L ++    DE A  CE LHD A+ LY    A+ G
+Sbjct  19  VTRQESAALNMAKFIRSQTLLLLERLEQM--DLDEAAGCCEHLHDQAEALYTMLNAQTG  75
+
+
+> UniRef90_A0A1J8BKJ1 RNA polymerase n=1 Tax=Escherichia coli TaxID=562 
+RepID=A0A1J8BKJ1_ECOLX
+Length=49
+
+ Score = 56.6 bits (135),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 30/49 (61%), Positives = 38/49 (78%), Gaps = 2/49 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADE  49
+           M KQ++  LNMA FI+SQ+LTLLEKL+ L   ADEQA +CE LH+ A+E
+Sbjct  1   MNKQQQAVLNMAGFIKSQSLTLLEKLDAL--DADEQAAMCEKLHELAEE  47
+
+
+> UniRef90_A0A0D7KVL1 RNA polymerase n=1 Tax=Citrobacter freundii 
+TaxID=546 RepID=A0A0D7KVL1_CITFR
+Length=62
+
+ Score = 55.8 bits (133),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 29/53 (55%), Positives = 40/53 (75%), Gaps = 2/53 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRS  53
+           MTKQ+KTALNMA+FI++Q+L LL  LNE     D +A +CE LH+ A+ L+R+
+Sbjct  1   MTKQQKTALNMAKFIQAQSLFLLGNLNE--QDLDTEAGLCEKLHEDAELLFRT  51
+
+
+> UniRef90_UPI0002DB8D4E RNA polymerase n=1 Tax=Salmonella choleraesuis 
+TaxID=28901 RepID=UPI0002DB8D4E
+Length=62
+
+ Score = 54.7 bits (130),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 28/58 (48%), Positives = 40/58 (69%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M +QE   LNM +FIR+QTL LLEK+++L    D+ A  CE LH+ A++LY+  LA+ 
+Sbjct  1   MNRQESATLNMDKFIRTQTLLLLEKIDQL--DLDDGATECEKLHEQAEKLYQKLLAKL  56
+
+
+> UniRef90_UPI0007353D7D UPI0007353D7D related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007353D7D
+Length=63
+
+ Score = 52.4 bits (124),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 27/58 (47%), Positives = 38/58 (66%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQE+TALNMA+FI+ Q+L             D++AD+CE LH+ A++LYR+   R 
+Sbjct  1   MTKQEQTALNMAKFIQGQSLL--LLDKLNELNLDKEADMCEQLHEDAEQLYRALSGRL  56
+
+
+> UniRef90_A0A085GWM7 Rop family protein n=4 Tax=Enterobacteriaceae 
+TaxID=543 RepID=A0A085GWM7_9ENTR
+Length=64
+
+ Score = 52.4 bits (124),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 27/58 (47%), Positives = 39/58 (67%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ+KTALNMA+FI++Q+L             D +AD+CE+LH+ A+ L+RS + R 
+Sbjct  2   MTKQQKTALNMAKFIQAQSLL--LLEKLNELDLDTEADLCEALHEDAEHLFRSLMTRI  57
+
+
+> UniRef90_A0A0H5Q2C9 Uncharacterized protein n=2 Tax=uncultured 
+prokaryote TaxID=198431 RepID=A0A0H5Q2C9_9ZZZZ
+Length=63
+
+ Score = 50.8 bits (120),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 34/59 (58%), Positives = 45/59 (76%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           M KQ+K+ALNMA+FIR Q+L LLEKLNEL    D++AD+CE LHD A++L+     +FG
+Sbjct  1   MNKQQKSALNMAKFIRGQSLLLLEKLNEL--NLDDEADLCEKLHDDAEKLFLVMAEKFG  57
+
+
+> UniRef90_UPI0009454E7D UPI0009454E7D related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009454E7D
+Length=58
+
+ Score = 50.1 bits (118),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 26/56 (46%), Positives = 38/56 (68%), Gaps = 2/56 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLA  56
+           MTKQ+KTALNMA+FI++Q+L             D +AD+CE LHD A+ L+R+ ++
+Sbjct  1   MTKQQKTALNMAKFIQNQSLL--LLEKLNELDLDAEADLCEKLHDDAEHLFRTPVS  54
+
+
+> UniRef90_A6TJ74 RNA one modulator-like protein n=116 Tax=Enterobacterales 
+TaxID=91347 RepID=A6TJ74_KLEP7
+Length=63
+
+ Score = 50.1 bits (118),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 35/58 (60%), Positives = 45/58 (78%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ+KTALNMA+FI+ Q+L LLEKLNEL    D +AD+CE LHD A+ L+R+  +R 
+Sbjct  1   MTKQQKTALNMAKFIQHQSLLLLEKLNEL--DLDAEADLCEKLHDDAEHLFRTLSSRL  56
+
+
+> UniRef90_UPI000908242D UPI000908242D related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000908242D
+Length=79
+
+ Score = 49.7 bits (117),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 29/59 (49%), Positives = 37/59 (63%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           +T+ E  A NMA+ IRSQTL LLE+L ++    DE A  CE LHD A+ LY    A+ G
+Sbjct  19  VTRHESAAPNMAKCIRSQTLLLLERLEQM--DLDEAAGCCEHLHDQAEALYTMLNAQTG  75
+
+
+> UniRef90_A0A0K0I536 RNA polymerase n=1 Tax=Enterobacter cloacae 
+TaxID=550 RepID=A0A0K0I536_ENTCL
+Length=59
+
+ Score = 49.3 bits (116),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 35/59 (59%), Positives = 44/59 (75%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMA+FIR Q+L LLEKLNEL    D+ AD+CE LH+ A++L+     + G
+Sbjct  1   MTKQEKTALNMAKFIRDQSLLLLEKLNEL--DMDDPADMCERLHEDAEKLWLVMRGKLG  57
+
+
+> UniRef90_A0A0H5QJF9 Uncharacterized protein n=1 Tax=uncultured 
+prokaryote TaxID=198431 RepID=A0A0H5QJF9_9ZZZZ
+Length=62
+
+ Score = 49.3 bits (116),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 33/60 (55%), Positives = 46/60 (77%), Gaps = 1/60 (2%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNEL-ADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKT LNMA+F+++Q+L LLEKLNEL  +  D + ++CE LH+HA+ L+R   A+ G
+Sbjct  1   MTKQEKTVLNMAKFLQAQSLLLLEKLNELDTNLLDAETNLCEELHEHAETLHRQLSAKLG  60
+
+
+> UniRef90_A0A0D7KWT5 RNA polymerase n=5 Tax=Enterobacteriaceae 
+TaxID=543 RepID=A0A0D7KWT5_CITFR
+Length=63
+
+ Score = 48.1 bits (113),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 25/58 (43%), Positives = 38/58 (66%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ++TALNMA+FI++Q+L             D +AD+CE LH+ A++L+R+   R 
+Sbjct  1   MTKQQRTALNMAKFIQAQSLL--LLEKLNELDLDNEADLCEKLHEDAEQLFRTLAIRL  56
+
+
+> UniRef90_A0A0C5BDC3 Rom-like protein n=1 Tax=Escherichia coli 
+TaxID=562 RepID=A0A0C5BDC3_ECOLX
+Length=80
+
+ Score = 48.1 bits (113),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 32/59 (54%), Positives = 42/59 (71%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQE  ALNMA+FIR+Q+L LL +  ++ D  DE AD CE +H+ A+ LY+   ARFG
+Sbjct  19  MTKQESAALNMAKFIRAQSLLLL-EKLDVLDLDDEAAD-CERMHEQAEALYQKLSARFG  75
+
+
+> UniRef90_D6HWQ3 Rop protein n=5 Tax=Escherichia coli TaxID=562 
+RepID=D6HWQ3_ECOLX
+Length=64
+
+ Score = 47.8 bits (112),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 26/58 (45%), Positives = 36/58 (62%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ+K ALNMA+FI+ QTL             D +AD+CE LH+ A++L R+ + R 
+Sbjct  2   MTKQQKAALNMAKFIQGQTLL--LLEKLNELDLDVEADLCEKLHEDAEQLCRTLIIRL  57
+
+
+> UniRef90_A0A0F4AE04 RNA polymerase n=8 Tax=Enterobacteriaceae 
+TaxID=543 RepID=A0A0F4AE04_9ENTR
+Length=63
+
+ Score = 47.4 bits (111),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 27/58 (47%), Positives = 35/58 (60%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQEKTALNMA+FI+ Q+L             D +AD+CE LH+ A+ L R+   R 
+Sbjct  1   MTKQEKTALNMAKFIQGQSLL--LLEKLNELNLDMEADMCEKLHEDAEMLCRTLYGRL  56
+
+
+> UniRef90_A0A0N8LSL2 RNA polymerase n=22 Tax=Enterobacteriaceae 
+TaxID=543 RepID=A0A0N8LSL2_CITFR
+Length=62
+
+ Score = 47.4 bits (111),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 32/59 (54%), Positives = 42/59 (71%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQE  ALNMA+FIR+Q+L LL +  ++ D  DE AD CE +H+ A+ LY+   ARFG
+Sbjct  1   MTKQESAALNMAKFIRAQSLLLL-EKLDMLDLDDEAAD-CERMHEQAEALYQKLSARFG  57
+
+
+> UniRef90_A0A167AA14 RNA polymerase n=18 Tax=Proteobacteria TaxID=1224 
+RepID=A0A167AA14_ECOLX
+Length=62
+
+ Score = 47.4 bits (111),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 32/59 (54%), Positives = 42/59 (71%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQE  ALNMA+FIR+Q+L LL +  ++ D  DE AD CE +H+ A+ LY+   ARFG
+Sbjct  1   MTKQESAALNMAKFIRAQSLLLL-EKLDVLDLDDEAAD-CERMHEQAEALYQKLSARFG  57
+
+
+> UniRef90_UPI0006430A33 RNA polymerase n=4 Tax=unknown TaxID= 
+RepID=UPI0006430A33
+Length=63
+
+ Score = 47.4 bits (111),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 33/58 (57%), Positives = 47/58 (81%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ+KTALNMA+FI++Q+L LLEKLNEL    D +AD+CE+LH+ A++++R+   R 
+Sbjct  1   MTKQQKTALNMAKFIQAQSLLLLEKLNEL--DFDAEADLCETLHEDAEQVFRALALRL  56
+
+
+> UniRef90_Q52624 Rom n=5 Tax=Enterobacterales TaxID=91347 RepID=Q52624_PROVU
+Length=68
+
+ Score = 47.0 bits (110),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 24/61 (39%), Positives = 40/61 (66%), Gaps = 2/61 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQT--LTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQEK  +NMA+F+++Q+  L L +     +D  D + ++CE LH+HA+ L++   A+ 
+Sbjct  1   MTKQEKAVVNMAKFLQAQSLLLLLEKLNELNSDKLDAETNLCEELHEHAESLHQQLSAKV  60
+
+Query  59  G  59
+           G
+Sbjct  61  G  61
+
+
+> UniRef90_D3INX7 RNA polymerase n=20 Tax=Enterobacteriaceae TaxID=543 
+RepID=D3INX7_ECOLX
+Length=63
+
+ Score = 47.0 bits (110),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 30/59 (51%), Positives = 40/59 (68%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           M KQ+KTA+NMA+FI+ Q+L LL++L       D +AD CE LH+ A+ LYRS  AR  
+Sbjct  1   MNKQQKTAVNMAKFIQDQSLLLLDRL--NELDLDHEADFCEKLHEDAERLYRSLSARLN  57
+
+
+> UniRef90_UPI0006DAEDAF RNA polymerase n=1 Tax=Serratia marcescens 
+TaxID=615 RepID=UPI0006DAEDAF
+Length=67
+
+ Score = 46.6 bits (109),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 33/59 (56%), Positives = 39/59 (66%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQE  ALNMA+FIR+Q+L LLEKL       DE+A  CE LH+ A+ LYR    RF 
+Sbjct  1   MTKQESAALNMAKFIRAQSLLLLEKL--DVLDLDEEATTCEQLHEAAETLYRRLETRFN  57
+
+
+> UniRef90_UPI0005E4CB2D RNA polymerase n=2 Tax=Yersinia frederiksenii 
+TaxID=29484 RepID=UPI0005E4CB2D
+Length=59
+
+ Score = 46.6 bits (109),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 25/52 (48%), Positives = 34/52 (65%), Gaps = 2/52 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYR  52
+           MTKQEKTALNMA+FI+ Q+L             D  AD+CE LH+ A++L++
+Sbjct  1   MTKQEKTALNMAKFIKDQSLL--LLEKLNELDMDAPADLCEQLHEDAEKLWQ  50
+
+
+> UniRef90_A0A1J8HZN6 RNA polymerase n=15 Tax=Enterobacteriaceae 
+TaxID=543 RepID=A0A1J8HZN6_ECOLX
+Length=59
+
+ Score = 46.6 bits (109),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 27/59 (46%), Positives = 36/59 (61%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMA+FI+ Q+L L           D  AD+CE LH+ A+ L++    + G
+Sbjct  1   MTKQEKTALNMAKFIKEQSLLL--LDKLNELDMDTPADMCERLHEDAETLWQVMRDKLG  57
+
+
+> UniRef90_J2X090 Uncharacterized protein n=7 Tax=Klebsiella pneumoniae 
+TaxID=573 RepID=J2X090_KLEPN
+Length=62
+
+ Score = 46.6 bits (109),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 34/59 (58%), Positives = 43/59 (73%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMA+FI+ Q+L LLEKLNEL    D  AD+CE LH+ A+ L++    + G
+Sbjct  4   MTKQEKTALNMAKFIKDQSLLLLEKLNEL--DMDTPADMCERLHEDAETLWQVMRDKLG  60
+
+
+> UniRef90_UPI000680D69C RNA polymerase n=2 Tax=Pantoea vagans 
+TaxID=470934 RepID=UPI000680D69C
+Length=59
+
+ Score = 45.8 bits (107),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 25/58 (43%), Positives = 36/58 (62%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ+KTALNMA+F ++Q+L             D++AD+CE LH+ A+ L+   L R 
+Sbjct  1   MTKQQKTALNMAKFTQAQSLL--LLEKLNELDLDDEADMCEKLHEGAERLHDVLLGRL  56
+
+
+> UniRef90_UPI000627766C RNA polymerase n=1 Tax=Escherichia coli 
+TaxID=562 RepID=UPI000627766C
+Length=56
+
+ Score = 45.8 bits (107),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 28/58 (48%), Positives = 37/58 (64%), Gaps = 3/58 (5%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++T LNMA FI+SQ+LTL EKL+ L DAA+     C    + A+EL +S   R 
+Sbjct  1   MNKQQQTVLNMAGFIKSQSLTLPEKLDAL-DAANRPP--CVRSAELAEELQKSIQTRL  55
+
+
+> UniRef90_A0A1J8J9X8 RNA polymerase n=5 Tax=Enterobacterales TaxID=91347 
+RepID=A0A1J8J9X8_CITFR
+Length=59
+
+ Score = 45.8 bits (107),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 35/59 (59%), Positives = 43/59 (73%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMA+FIR Q+L LLEKLNEL    D  AD+CE LH+ A+ L+ +   + G
+Sbjct  1   MTKQEKTALNMAKFIRDQSLLLLEKLNEL--DMDTAADMCERLHEDAETLWLAMRDQLG  57
+
+
+> UniRef90_R4Y3G4 Uncharacterized protein n=5 Tax=Enterobacteriaceae 
+TaxID=543 RepID=R4Y3G4_KLEPR
+Length=82
+
+ Score = 45.8 bits (107),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 34/59 (58%), Positives = 43/59 (73%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMA+FI+ Q+L LLEKLNEL    D  AD+CE LH+ A+ L++    + G
+Sbjct  24  MTKQEKTALNMAKFIKDQSLLLLEKLNEL--DMDTPADMCERLHEDAETLWQVMRDKLG  80
+
+
+> UniRef90_A0A0P6RLH5 RNA polymerase n=2 Tax=Pseudomonas TaxID=286 
+RepID=A0A0P6RLH5_9PSED
+Length=59
+
+ Score = 45.1 bits (105),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 26/56 (46%), Positives = 35/56 (63%), Gaps = 2/56 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLA  56
+           MTKQ+ TALNMA+FI+ Q+L             D +ADICE LH+ A+ L+ S +A
+Sbjct  1   MTKQQTTALNMAKFIQDQSLL--LLEKLNELDFDSEADICEKLHEDAERLHSSLMA  54
+
+
+> UniRef90_A0A0F5XU34 RNA polymerase n=3 Tax=Enterobacterales TaxID=91347 
+RepID=A0A0F5XU34_9GAMM
+Length=59
+
+ Score = 44.3 bits (103),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 26/56 (46%), Positives = 35/56 (63%), Gaps = 2/56 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLA  56
+           MTKQ+K ALNMA+FI+ Q+L             D +AD+CE LH+ A+ L+ S LA
+Sbjct  1   MTKQQKNALNMAKFIQDQSLL--LLEKLNELDCDGEADMCEKLHEDAERLHSSLLA  54
+
+
+> UniRef90_UPI0007E5B691 UPI0007E5B691 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007E5B691
+Length=74
+
+ Score = 44.3 bits (103),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 22/38 (58%), Positives = 26/38 (68%), Gaps = 2/38 (5%)
+
+Query  22  LLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           L EK +E    AD+ ADIC+  H+HADELYRS  A FG
+Sbjct  2   LPEKCHE--QNADDHADICDPPHNHADELYRSGFAYFG  37
+
+
+> UniRef90_UPI00057B60F4 RNA polymerase n=1 Tax=Leclercia adecarboxylata 
+TaxID=83655 RepID=UPI00057B60F4
+Length=59
+
+ Score = 43.9 bits (102),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 31/51 (61%), Positives = 41/51 (80%), Gaps = 2/51 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELY  51
+           MTKQ+KTALNMA+FI+ Q+L LLE+LNEL    D +AD+CE LH+ A+ L+
+Sbjct  1   MTKQQKTALNMAKFIQDQSLLLLERLNEL--DLDSEADMCEKLHEDAERLH  49
+
+
+> UniRef90_UPI00071ADEDC UPI00071ADEDC related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00071ADEDC
+Length=75
+
+ Score = 43.9 bits (102),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 23/45 (51%), Positives = 31/45 (69%), Gaps = 2/45 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHD  45
+           M +QE   LNM +FIR+QTL LLEK+++L    D+ A  CE LH+
+Sbjct  19  MNRQESATLNMDKFIRTQTLLLLEKIDQL--DLDDGATECEKLHE  61
+
+
+> UniRef90_A0A0T9N5Q9 Replication regulatory protein n=2 Tax=Yersinia 
+TaxID=444888 RepID=A0A0T9N5Q9_YERIN
+Length=63
+
+ Score = 43.5 bits (101),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 25/52 (48%), Positives = 35/52 (67%), Gaps = 2/52 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYR  52
+           M K++KTALNMA+FI+ Q+L L       A   D +AD+CE LH+  ++LYR
+Sbjct  1   MNKEQKTALNMAKFIQGQSLLL--LEKLNALDFDTEADLCEKLHEDTEQLYR  50
+
+
+> UniRef90_UPI00084AD2EE UPI00084AD2EE related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00084AD2EE
+Length=71
+
+ Score = 43.5 bits (101),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 32/48 (67%), Gaps = 2/48 (4%)
+
+Query  11  MARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MA FI+SQ+LTL EK++ L   ADEQA + E LH+ A+EL  S    F
+Sbjct  1   MAGFIKSQSLTLPEKMDGLD--ADEQATMGEKLHELAEELQNSIQTSF  46
+
+
+> UniRef90_UPI0006D9E9E1 RNA polymerase n=1 Tax=Serratia marcescens 
+TaxID=615 RepID=UPI0006D9E9E1
+Length=71
+
+ Score = 43.5 bits (101),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 29/59 (49%), Positives = 35/59 (59%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQE +ALNMA+FIR+Q L L       A   DE+A  CE LH+ A+ LY    AR  
+Sbjct  1   MTKQESSALNMAKFIRAQLLLL--LEKLDALDLDEEATTCEQLHEAAETLYHRLEARLN  57
+
+
+> UniRef90_UPI0007E8F75E UPI0007E8F75E related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007E8F75E
+Length=50
+
+ Score = 43.1 bits (100),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 25/44 (57%), Positives = 31/44 (70%), Gaps = 2/44 (5%)
+
+Query  15  IRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           I+SQ+L LLEKL+ L   ADEQA +CE LH+ A+EL  S   RF
+Sbjct  1   IKSQSLALLEKLDALD--ADEQAAMCERLHELAEELQNSIQVRF  42
+
+
+> UniRef90_A0A0A1BCR4 RNA polymerase n=1 Tax=Pantoea sp. PSNIH2 
+TaxID=1484157 RepID=A0A0A1BCR4_9GAMM
+Length=59
+
+ Score = 43.1 bits (100),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 24/58 (41%), Positives = 34/58 (59%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M+K  KTALNMA+FI+ Q+L             D +AD+CE LH+ A+ L+   LA+ 
+Sbjct  1   MSKHHKTALNMAKFIQGQSLL--LLEKLNELDLDTEADMCERLHEDAERLHAGLLAKL  56
+
+
+> UniRef90_UPI00094361A2 UPI00094361A2 related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI00094361A2
+Length=57
+
+ Score = 43.1 bits (100),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 23/45 (51%), Positives = 30/45 (67%), Gaps = 2/45 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHD  45
+           MTKQ+KTALNMA+FI++Q+L             D +AD+CE LHD
+Sbjct  1   MTKQQKTALNMAKFIQNQSLL--LLEKLNELDLDVEADLCEKLHD  43
+
+
+> UniRef90_A0A0J0I0D5 RNA polymerase n=2 Tax=Enterobacter sp. GN02600 
+TaxID=1659714 RepID=A0A0J0I0D5_9ENTR
+Length=62
+
+ Score = 43.1 bits (100),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 30/58 (52%), Positives = 37/58 (64%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M +QE   LNMA+FIR+QTL LL +  +L D  DE  D CE LH+ A+ LYR   AR 
+Sbjct  1   MNRQESAVLNMAKFIRAQTLLLL-ERIDLLDFDDEATD-CEQLHEQAEALYRKLSARL  56
+
+
+> UniRef90_UPI00063A95C1 UPI00063A95C1 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00063A95C1
+Length=63
+
+ Score = 42.0 bits (97),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 29/58 (50%), Positives = 40/58 (69%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTK ++T LNMA+FI++Q+L LLEKLN      D +A +CE LH+ A++LYR    R 
+Sbjct  1   MTKHQQTTLNMAKFIQAQSLLLLEKLN--ELDLDTEAGLCEKLHEDAEQLYRILAIRL  56
+
+
+> UniRef90_Q8GGG7 Rop n=1 Tax=Enterobacter sp. RFL1396 TaxID=211595 
+RepID=Q8GGG7_9ENTR
+Length=64
+
+ Score = 42.0 bits (97),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 26/58 (45%), Positives = 40/58 (69%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           +TKQ+K  LNMA+FI++Q+L LLEK        D +A++CE LH+ A++L+R+   R 
+Sbjct  2   ITKQQKMTLNMAKFIQAQSLLLLEK--LNELDLDTEANMCEKLHEDAEQLFRTLALRL  57
+
+
+> UniRef90_UPI0005F9A6AB RNA polymerase n=1 Tax=Enterobacter cloacae 
+TaxID=550 RepID=UPI0005F9A6AB
+Length=63
+
+ Score = 42.0 bits (97),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 22/51 (43%), Positives = 33/51 (65%), Gaps = 2/51 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELY  51
+           MTKQ+KT LNMA+FI++Q+L             D +AD+CE LH+  ++L+
+Sbjct  1   MTKQQKTVLNMAKFIQAQSLL--LLEKLNELDFDAEADLCEKLHEDTEQLF  49
+
+
+> UniRef90_A0A1J5W4X7 RNA polymerase n=1 Tax=Lelliottia nimipressuralis 
+TaxID=69220 RepID=A0A1J5W4X7_9ENTR
+Length=70
+
+ Score = 42.0 bits (97),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 31/53 (58%), Positives = 41/53 (77%), Gaps = 2/53 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRS  53
+           MTKQ KTALNMA+FI++Q+L LL+KLNEL    +  AD+CE LH+ A+ L R+
+Sbjct  1   MTKQHKTALNMAKFIQAQSLLLLDKLNELDLDTE--ADMCEKLHEDAEVLCRT  51
+
+
+> UniRef90_D2TE22 RNA one modulator n=3 Tax=Erwinia pyrifoliae 
+TaxID=79967 RepID=D2TE22_ERWP6
+Length=69
+
+ Score = 42.0 bits (97),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 33/58 (57%), Positives = 39/58 (67%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQE T LNMA+FIR QTL LLEKL ++ D  DE AD CE LH+ A+ LY+    R 
+Sbjct  3   MNKQETTTLNMAKFIRGQTLLLLEKL-DVLDLDDEAAD-CEKLHEQAEALYQKLSGRL  58
+
+
+> UniRef90_UPI0002DD28DA RNA polymerase n=1 Tax=Edwardsiella tarda 
+TaxID=636 RepID=UPI0002DD28DA
+Length=63
+
+ Score = 41.6 bits (96),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 30/58 (52%), Positives = 40/58 (69%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MT+QE +ALNMA+FIR+Q+L LLEKL+ L    +  A  CE LHD A+ LY++   R 
+Sbjct  1   MTRQESSALNMAKFIRAQSLLLLEKLDLLNLDDE--AATCERLHDLAETLYQTLTERL  56
+
+
+> UniRef90_UPI00081C1C7F UPI00081C1C7F related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI00081C1C7F
+Length=65
+
+ Score = 41.2 bits (95),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 22/50 (44%), Positives = 33/50 (66%), Gaps = 2/50 (4%)
+
+Query  4   QEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRS  53
+           ++KTALNMA+FI++Q+L             D +AD+CE LHD A+ L+R+
+Sbjct  6   RQKTALNMAKFIQNQSLL--LLEKLNELDLDVEADLCEKLHDDAEHLFRT  53
+
+
+> UniRef90_D3GN07 ROM protein n=3 Tax=Enterobacterales TaxID=91347 
+RepID=D3GN07_RAHAQ
+Length=65
+
+ Score = 41.2 bits (95),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 25/51 (49%), Positives = 34/51 (67%), Gaps = 2/51 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELY  51
+           MTKQEK ALNMA+FI++QTL L           DE A+ CE LH+ +++L+
+Sbjct  1   MTKQEKAALNMAKFIQAQTLLL--LEKLKELNLDEMANQCERLHELSEQLH  49
+
+
+> UniRef90_UPI000940E633 UPI000940E633 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000940E633
+Length=52
+
+ Score = 40.8 bits (94),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 24/44 (55%), Positives = 29/44 (66%), Gaps = 5/44 (11%)
+
+Query  8   ALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELY  51
+           +L    FI+SQTL LL+KLN L D ADE    CE  H+ A+ELY
+Sbjct  5   SLEYGGFIKSQTLILLDKLN-LGDCADE----CEDSHNMAEELY  43
+
+
+> UniRef90_UPI000693741C hypothetical protein n=1 Tax=Klebsiella 
+pneumoniae TaxID=573 RepID=UPI000693741C
+Length=75
+
+ Score = 41.2 bits (95),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 24/49 (49%), Positives = 31/49 (63%), Gaps = 2/49 (4%)
+
+Query  11  MARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MA+FIR+QTL LLE+L ++    DE A   E LHD A+ LY    A+ G
+Sbjct  1   MAKFIRAQTLLLLERLEQM--DLDEAAGGWEHLHDQAEALYAMLNAQIG  47
+
+
+> UniRef90_UPI000806F0D2 UPI000806F0D2 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000806F0D2
+Length=52
+
+ Score = 40.8 bits (94),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 23/49 (47%), Positives = 33/49 (67%), Gaps = 2/49 (4%)
+
+Query  11  MARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MA+FIR+Q+L L  KL+ LA   D++A   E +H+ A+ LY+   ARFG
+Sbjct  1   MAKFIRAQSLLLPAKLDVLA--LDDEAADRERMHEQAEALYQKLSARFG  47
+
+
+> UniRef90_UPI00071AE0D4 UPI00071AE0D4 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00071AE0D4
+Length=66
+
+ Score = 40.4 bits (93),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 22/44 (50%), Positives = 29/44 (66%), Gaps = 2/44 (5%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLH  44
+           M +QE   LNM +FIR+QTL LLEK+++L    D+ A  CE L 
+Sbjct  1   MNRQESATLNMDKFIRTQTLLLLEKIDQL--DLDDGATECEKLQ  42
+
+
+> UniRef90_A0A1A9Z2C0 Uncharacterized protein n=1 Tax=Glossina 
+pallidipes TaxID=7398 RepID=A0A1A9Z2C0_GLOPL
+Length=186
+
+ Score = 41.2 bits (95),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 20/29 (69%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  1    MTKQEKTALNMARFIRSQTLTLLEKLNEL  29
+            MTKQE++AL MA FI+SQTL LL+KL++L
+Sbjct  129  MTKQEQSALKMAGFIKSQTLVLLDKLDQL  157
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.129    0.358    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 436914222075
+Results from round 2
+
+
+Query= d1nkda_
+
+Length=59
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_L8AK66 Uncharacterized protein n=5 Tax=cellular organi...  89.3    6e-20
+  UniRef90_B8QJ12 Rop/rom protein n=79 Tax=cellular organisms Tax...  82.3    8e-19
+  UniRef90_L8AT37 Regulatory protein Rop n=1 Tax=Bacillus subtili...  83.1    2e-18
+  UniRef90_A0A1J4QL40 Uncharacterized protein n=1 Tax=Salmonella ...  80.4    3e-18
+  UniRef90_V0SU92 Rop protein n=1 Tax=Escherichia coli 113302 Tax...  81.6    4e-18
+  UniRef90_A0A098YHF8 Regulatory protein n=4 Tax=Gammaproteobacte...  80.4    5e-18
+  UniRef90_UPI000699C827 hypothetical protein n=1 Tax=Salmonella ...  80.0    7e-18
+  UniRef90_UPI00073771FB hypothetical protein, partial n=1 Tax=Sa...  79.3    1e-17
+  UniRef90_A0A0D0LJT0 Regulatory protein n=103 Tax=root TaxID=1 R...  78.9    2e-17
+  UniRef90_P03051 Regulatory protein rop n=77 Tax=root TaxID=1 Re...  78.1    2e-17
+  UniRef90_L8AE36 Regulatory protein Rop n=1 Tax=Bacillus subtili...  78.5    3e-17
+  UniRef90_UPI00039D460E regulatory protein n=9 Tax=Enterobactera...  76.6    1e-16
+  UniRef90_UPI0004D54A1F hypothetical protein n=1 Tax=Escherichia...  73.9    1e-15
+  UniRef90_UPI0003EB335E regulatory protein n=1 Tax=Salmonella ch...  73.5    2e-15
+  UniRef90_C0AQF1 Rop protein (Fragment) n=3 Tax=Bacteria TaxID=2...  73.1    3e-15
+  UniRef90_L8AQ06 Regulatory protein Rop n=1 Tax=Bacillus subtili...  73.1    4e-15
+  UniRef90_A0A077NG68 Regulatory protein rop n=2 Tax=Xenorhabdus ...  72.3    5e-15
+  UniRef90_UPI00083CF4B3 UPI00083CF4B3 related cluster n=1 Tax=un...  71.2    1e-14
+  UniRef90_UPI000847CBE8 UPI000847CBE8 related cluster n=1 Tax=un...  70.4    3e-14
+  UniRef90_UPI0009269425 UPI0009269425 related cluster n=1 Tax=un...  69.2    7e-14
+  UniRef90_UPI0009449920 UPI0009449920 related cluster n=2 Tax=un...  68.9    1e-13
+  UniRef90_A0A0K3NJ40 Putative RNA I modulator protein n=9 Tax=En...  68.5    2e-13
+  UniRef90_R4Y3G4 Uncharacterized protein n=5 Tax=Enterobacteriac...  68.5    3e-13
+  UniRef90_A0A069WX31 Rop family protein n=3 Tax=Escherichia coli...  67.7    3e-13
+  UniRef90_A0A080FMY8 Rop family protein n=35 Tax=Gammaproteobact...  67.7    3e-13
+  UniRef90_UPI00084B07BC UPI00084B07BC related cluster n=1 Tax=un...  67.7    3e-13
+  UniRef90_A0A0D0N5C2 RNA polymerase n=38 Tax=Bacteria TaxID=2 Re...  67.7    4e-13
+  UniRef90_A0A0K5TBR5 Putative RNAI modulator protein n=23 Tax=Ga...  67.3    4e-13
+  UniRef90_UPI00069A99AA RNA polymerase n=1 Tax=Escherichia coli ...  66.9    7e-13
+  UniRef90_A0A1D3C897 Uncharacterized protein n=15 Tax=root TaxID...  66.9    7e-13
+  UniRef90_Q1BZY3 Regulatory protein rop n=54 Tax=Enterobacterale...  66.5    8e-13
+  UniRef90_M9H4U8 Regulatory protein rop n=3 Tax=Escherichia coli...  66.5    1e-12
+  UniRef90_Q6KCD4 Rom protein n=3 Tax=Escherichia coli TaxID=562 ...  65.8    1e-12
+  UniRef90_A0A167RF48 RNA I inhibition modulator protein n=18 Tax...  66.2    1e-12
+  UniRef90_UPI0007A620CE UPI0007A620CE related cluster n=1 Tax=un...  65.8    2e-12
+  UniRef90_UPI000774FB20 UPI000774FB20 related cluster n=4 Tax=un...  65.4    3e-12
+  UniRef90_A0A0D7KVL1 RNA polymerase n=1 Tax=Citrobacter freundii...  64.6    5e-12
+  UniRef90_A0A0K0I536 RNA polymerase n=1 Tax=Enterobacter cloacae...  62.7    2e-11
+  UniRef90_UPI00075032E0 RNA polymerase n=1 Tax=Enterobacter cloa...  61.9    4e-11
+  UniRef90_UPI0002DB8D4E RNA polymerase n=1 Tax=Salmonella choler...  61.9    5e-11
+  UniRef90_UPI000488DB6A hypothetical protein n=1 Tax=Zymobacter ...  61.9    5e-11
+  UniRef90_UPI00064A6DA1 UPI00064A6DA1 related cluster n=1 Tax=un...  61.5    7e-11
+  UniRef90_A0A0C5BDC3 Rom-like protein n=1 Tax=Escherichia coli T...  61.5    1e-10
+  UniRef90_A0A1B8H881 RNA polymerase n=1 Tax=Morganella psychroto...  61.1    1e-10
+  UniRef90_UPI00093A8A8E UPI00093A8A8E related cluster n=1 Tax=un...  61.1    1e-10
+  UniRef90_O30669 RNA one modulator n=11 Tax=Enterobacterales Tax...  60.8    1e-10
+  UniRef90_A0A1J8HZN6 RNA polymerase n=15 Tax=Enterobacteriaceae ...  60.8    1e-10
+  UniRef90_UPI000908242D UPI000908242D related cluster n=1 Tax=un...  60.8    2e-10
+  UniRef90_J2X090 Uncharacterized protein n=7 Tax=Klebsiella pneu...  60.4    2e-10
+  UniRef90_UPI00071ADEDC UPI00071ADEDC related cluster n=1 Tax=un...  60.4    2e-10
+  UniRef90_A0A0T9N5Q9 Replication regulatory protein n=2 Tax=Yers...  59.6    3e-10
+  UniRef90_A0A0F4AE04 RNA polymerase n=8 Tax=Enterobacteriaceae T...  59.6    4e-10
+  UniRef90_UPI000627766C RNA polymerase n=1 Tax=Escherichia coli ...  59.2    4e-10
+  UniRef90_A0A0U2JMF1 Putative RNA modulator protein n=1 Tax=Edwa...  58.8    6e-10
+  UniRef90_A0A0H5Q2C9 Uncharacterized protein n=2 Tax=uncultured ...  58.8    9e-10
+  UniRef90_UPI0009412CA9 UPI0009412CA9 related cluster n=1 Tax=un...  58.5    1e-09
+  UniRef90_UPI00084AD2EE UPI00084AD2EE related cluster n=1 Tax=un...  58.1    1e-09
+  UniRef90_D6HWQ3 Rop protein n=5 Tax=Escherichia coli TaxID=562 ...  58.1    2e-09
+  UniRef90_A0A1J8BKJ1 RNA polymerase n=1 Tax=Escherichia coli Tax...  57.3    2e-09
+  UniRef90_UPI0007353D7D UPI0007353D7D related cluster n=1 Tax=un...  57.7    2e-09
+  UniRef90_A0A0J0I0D5 RNA polymerase n=2 Tax=Enterobacter sp. GN0...  57.3    2e-09
+  UniRef90_D3INX7 RNA polymerase n=20 Tax=Enterobacteriaceae TaxI...  57.3    3e-09
+  UniRef90_A0A085GWM7 Rop family protein n=4 Tax=Enterobacteriace...  57.3    3e-09
+  UniRef90_UPI0009454E7D UPI0009454E7D related cluster n=1 Tax=un...  57.3    3e-09
+  UniRef90_UPI00057A9967 hypothetical protein n=2 Tax=Plesiomonas...  56.9    4e-09
+  UniRef90_A6TJ74 RNA one modulator-like protein n=116 Tax=Entero...  56.5    5e-09
+  UniRef90_A0A1J8J9X8 RNA polymerase n=5 Tax=Enterobacterales Tax...  56.1    7e-09
+  UniRef90_UPI0005F9A6AB RNA polymerase n=1 Tax=Enterobacter cloa...  56.1    7e-09
+  UniRef90_UPI0005E4CB2D RNA polymerase n=2 Tax=Yersinia frederik...  56.1    7e-09
+  UniRef90_A0A1J5W4X7 RNA polymerase n=1 Tax=Lelliottia nimipress...  56.1    8e-09
+  UniRef90_UPI00044512FE UPI00044512FE related cluster n=1 Tax=un...  55.8    9e-09
+  UniRef90_D2TE22 RNA one modulator n=3 Tax=Erwinia pyrifoliae Ta...  56.1    1e-08
+  UniRef90_A0A0N8LSL2 RNA polymerase n=22 Tax=Enterobacteriaceae ...  55.8    1e-08
+  UniRef90_A0A167AA14 RNA polymerase n=18 Tax=Proteobacteria TaxI...  55.8    1e-08
+  UniRef90_UPI00063A95C1 UPI00063A95C1 related cluster n=1 Tax=un...  55.8    1e-08
+  UniRef90_UPI0006430A33 RNA polymerase n=4 Tax=unknown TaxID= Re...  55.4    1e-08
+  UniRef90_A0A0D7KWT5 RNA polymerase n=5 Tax=Enterobacteriaceae T...  55.0    2e-08
+  UniRef90_A0A0P6RLH5 RNA polymerase n=2 Tax=Pseudomonas TaxID=28...  54.6    2e-08
+  UniRef90_UPI0006D9E9E1 RNA polymerase n=1 Tax=Serratia marcesce...  55.0    3e-08
+  UniRef90_UPI0006DAEDAF RNA polymerase n=1 Tax=Serratia marcesce...  54.2    4e-08
+  UniRef90_D3GMY2 ROM protein n=1 Tax=Rahnella sp. WMR114 TaxID=6...  54.2    4e-08
+  UniRef90_UPI0003F7C265 UPI0003F7C265 related cluster n=3 Tax=un...  54.2    4e-08
+  UniRef90_Q9KI27 Putative RNA one modulator protein n=2 Tax=Edwa...  54.2    5e-08
+  UniRef90_UPI000925FC1C UPI000925FC1C related cluster n=1 Tax=un...  53.8    6e-08
+  UniRef90_A0A0F5XU34 RNA polymerase n=3 Tax=Enterobacterales Tax...  53.4    6e-08
+  UniRef90_A0A0H5QJF9 Uncharacterized protein n=1 Tax=uncultured ...  53.4    7e-08
+  UniRef90_A0A0A1BCR4 RNA polymerase n=1 Tax=Pantoea sp. PSNIH2 T...  53.4    8e-08
+  UniRef90_Q52624 Rom n=5 Tax=Enterobacterales TaxID=91347 RepID=...  52.7    2e-07
+  UniRef90_Q8GGG7 Rop n=1 Tax=Enterobacter sp. RFL1396 TaxID=2115...  52.3    2e-07
+  UniRef90_UPI00057B60F4 RNA polymerase n=1 Tax=Leclercia adecarb...  51.9    3e-07
+  UniRef90_UPI000680D69C RNA polymerase n=2 Tax=Pantoea vagans Ta...  51.1    5e-07
+  UniRef90_UPI0002DD28DA RNA polymerase n=1 Tax=Edwardsiella tard...  51.1    6e-07
+  UniRef90_UPI0007A5D40A UPI0007A5D40A related cluster n=2 Tax=un...  50.0    2e-06
+  UniRef90_UPI0007E5B691 UPI0007E5B691 related cluster n=1 Tax=un...  49.6    3e-06
+  UniRef90_UPI00094361A2 UPI00094361A2 related cluster n=2 Tax=un...  48.8    4e-06
+  UniRef90_UPI0007E8F75E UPI0007E8F75E related cluster n=1 Tax=un...  45.4    7e-05
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI000693741C hypothetical protein n=1 Tax=Klebsiella ...  55.8    1e-08
+  UniRef90_Q8GEG3 RNA I modulator n=1 Tax=Erwinia amylovora TaxID...  53.8    6e-08
+  UniRef90_UPI000532E20C RNA polymerase n=1 Tax=Dickeya sp. 2B12 ...  53.4    1e-07
+  UniRef90_A0A098Y7E7 RNA polymerase n=3 Tax=Gammaproteobacteria ...  52.3    2e-07
+  UniRef90_UPI00081C1C7F UPI00081C1C7F related cluster n=2 Tax=un...  51.1    5e-07
+  UniRef90_UPI000806F0D2 UPI000806F0D2 related cluster n=1 Tax=un...  50.7    7e-07
+  UniRef90_UPI00071AE0D4 UPI00071AE0D4 related cluster n=1 Tax=un...  50.7    9e-07
+  UniRef90_UPI00057C0194 RNA polymerase n=1 Tax=Enterobacter sp. ...  49.2    3e-06
+  UniRef90_A0A0P8H046 RNA polymerase n=1 Tax=Citrobacter freundii...  48.1    7e-06
+  UniRef90_UPI0008D96164 UPI0008D96164 related cluster n=1 Tax=un...  46.9    2e-05
+  UniRef90_A0A1A9Z2C0 Uncharacterized protein n=1 Tax=Glossina pa...  48.1    2e-05
+  UniRef90_A0A0P8HP72 RNA polymerase n=1 Tax=Citrobacter freundii...  46.5    3e-05
+  UniRef90_UPI00094317AE UPI00094317AE related cluster n=1 Tax=un...  45.0    1e-04
+  UniRef90_UPI0005C52F5F RNA polymerase n=1 Tax=Acinetobacter sp....  45.0    1e-04
+  UniRef90_W1I6K3 Uncultured bacterium plasmid pRGI00316 n=4 Tax=...  44.6    2e-04
+  UniRef90_UPI0007745C62 UPI0007745C62 related cluster n=1 Tax=un...  43.4    4e-04
+  UniRef90_K8W629 Rom n=1 Tax=Providencia rettgeri Dmel1 TaxID=11...  43.0    6e-04
+  UniRef90_UPI00081C19B5 UPI00081C19B5 related cluster n=1 Tax=un...  42.7    7e-04
+  UniRef90_D3GN07 ROM protein n=3 Tax=Enterobacterales TaxID=9134...  42.3    0.001
+  UniRef90_A0A0C5AXB7 Uncharacterized protein n=1 Tax=Escherichia...  41.9    0.001
+  UniRef90_A0A0H5Q4K7 Uncharacterized protein n=1 Tax=uncultured ...  40.7    0.004
+  UniRef90_W1HCQ7 RNA one modulator-like protein n=1 Tax=Escheric...  40.0    0.006
+  UniRef90_UPI000940E633 UPI000940E633 related cluster n=1 Tax=un...  40.0    0.008
+
+
+> UniRef90_L8AK66 Uncharacterized protein n=5 Tax=cellular organisms 
+TaxID=131567 RepID=L8AK66_BACIU
+Length=302
+
+ Score = 89.3 bits (220),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 49/55 (89%), Positives = 49/55 (89%), Gaps = 2/55 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCL  55
+           MTKQEKTALNMARFIRSQTLTLLEKLNEL   ADEQADICESLHDHADELYR   
+Sbjct  1   MTKQEKTALNMARFIRSQTLTLLEKLNEL--DADEQADICESLHDHADELYRRGS  53
+
+
+> UniRef90_B8QJ12 Rop/rom protein n=79 Tax=cellular organisms TaxID=131567 
+RepID=B8QJ12_ECOLX
+Length=74
+
+ Score = 82.3 bits (202),  Expect = 8e-19, Method: Composition-based stats.
+ Identities = 55/59 (93%), Positives = 56/59 (95%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           +TKQEKTALNMARFIRSQTLTLLEKLNEL   ADEQADICESLHDHADELYRSCLARFG
+Sbjct  12  VTKQEKTALNMARFIRSQTLTLLEKLNEL--DADEQADICESLHDHADELYRSCLARFG  68
+
+
+> UniRef90_L8AT37 Regulatory protein Rop n=1 Tax=Bacillus subtilis 
+BEST7613 TaxID=1204343 RepID=L8AT37_BACIU
+Length=143
+
+ Score = 83.1 bits (204),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 49/55 (89%), Positives = 49/55 (89%), Gaps = 2/55 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCL  55
+           MTKQEKTALNMARFIRSQTLTLLEKLNEL   ADEQADICESLHDHADELYR   
+Sbjct  1   MTKQEKTALNMARFIRSQTLTLLEKLNEL--DADEQADICESLHDHADELYRRGS  53
+
+
+> UniRef90_A0A1J4QL40 Uncharacterized protein n=1 Tax=Salmonella 
+enterica I TaxID=59201 RepID=A0A1J4QL40_SALET
+Length=63
+
+ Score = 80.4 bits (197),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 51/59 (86%), Positives = 54/59 (92%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MT+QEKTALNMARFIR+QTLTLLEKLNEL   AD+QA ICESLHDHADELYRSCL RFG
+Sbjct  1   MTRQEKTALNMARFIRAQTLTLLEKLNEL--DADDQAGICESLHDHADELYRSCLTRFG  57
+
+
+> UniRef90_V0SU92 Rop protein n=1 Tax=Escherichia coli 113302 TaxID=1268977 
+RepID=V0SU92_ECOLX
+Length=123
+
+ Score = 81.6 bits (200),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 43/58 (74%), Gaps = 2/58 (3%)
+
+Query  1    MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+            + KQ++TALNMARFI+SQ+LTLLEKL+ L   AD QA +CE LH+ A+EL  S    F
+Sbjct  60   VNKQQQTALNMARFIKSQSLTLLEKLDAL--DADVQAAMCERLHELAEELQNSIQVHF  115
+
+
+> UniRef90_A0A098YHF8 Regulatory protein n=4 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A098YHF8_9GAMM
+Length=78
+
+ Score = 80.4 bits (197),  Expect = 5e-18, Method: Composition-based stats.
+ Identities = 52/59 (88%), Positives = 56/59 (95%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           +TKQEKTALNMARFI+SQTLTLLEKLNEL   AD+QADICE+LHDHADELYRSCLARFG
+Sbjct  16  VTKQEKTALNMARFIKSQTLTLLEKLNEL--DADDQADICEALHDHADELYRSCLARFG  72
+
+
+> UniRef90_UPI000699C827 hypothetical protein n=1 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=UPI000699C827
+Length=79
+
+ Score = 80.0 bits (196),  Expect = 7e-18, Method: Composition-based stats.
+ Identities = 49/58 (84%), Positives = 54/58 (93%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           + KQ++TALN+ARFI+SQTLTLLEKLNEL   ADEQADICESLHDHADELYRSCLARF
+Sbjct  17  VNKQQQTALNIARFIKSQTLTLLEKLNEL--DADEQADICESLHDHADELYRSCLARF  72
+
+
+> UniRef90_UPI00073771FB hypothetical protein, partial n=1 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=UPI00073771FB
+Length=64
+
+ Score = 79.3 bits (194),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 56/59 (95%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMARFIRSQTLTLLEKLNEL   ADEQADICESLHDHADELYRSCLARFG
+Sbjct  1   MTKQEKTALNMARFIRSQTLTLLEKLNEL--DADEQADICESLHDHADELYRSCLARFG  57
+
+
+> UniRef90_A0A0D0LJT0 Regulatory protein n=103 Tax=root TaxID=1 
+RepID=A0A0D0LJT0_ECOLX
+Length=63
+
+ Score = 78.9 bits (193),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 56/59 (95%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMARFIRSQTLTLLEKLNEL   ADEQADICESLHDHADELYRSCLARFG
+Sbjct  1   MTKQEKTALNMARFIRSQTLTLLEKLNEL--DADEQADICESLHDHADELYRSCLARFG  57
+
+
+> UniRef90_P03051 Regulatory protein rop n=77 Tax=root TaxID=1 
+RepID=ROP_ECOLX
+Length=63
+
+ Score = 78.1 bits (191),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 56/59 (95%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMARFIRSQTLTLLEKLNEL   ADEQADICESLHDHADELYRSCLARFG
+Sbjct  1   MTKQEKTALNMARFIRSQTLTLLEKLNEL--DADEQADICESLHDHADELYRSCLARFG  57
+
+
+> UniRef90_L8AE36 Regulatory protein Rop n=1 Tax=Bacillus subtilis 
+BEST7613 TaxID=1204343 RepID=L8AE36_BACIU
+Length=80
+
+ Score = 78.5 bits (192),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 49/55 (89%), Positives = 49/55 (89%), Gaps = 2/55 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCL  55
+           MTKQEKTALNMARFIRSQTLTLLEKLNEL   ADEQADICESLHDHADELYR   
+Sbjct  1   MTKQEKTALNMARFIRSQTLTLLEKLNEL--DADEQADICESLHDHADELYRRGS  53
+
+
+> UniRef90_UPI00039D460E regulatory protein n=9 Tax=Enterobacterales 
+TaxID=91347 RepID=UPI00039D460E
+Length=63
+
+ Score = 76.6 bits (187),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 52/59 (88%), Positives = 54/59 (92%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMARFIRSQTLTLLEKLNEL    D+QADICE+LHDHADELYRSCLA FG
+Sbjct  1   MTKQEKTALNMARFIRSQTLTLLEKLNEL--DVDDQADICEALHDHADELYRSCLAHFG  57
+
+
+> UniRef90_UPI0004D54A1F hypothetical protein n=1 Tax=Escherichia 
+coli TaxID=562 RepID=UPI0004D54A1F
+Length=63
+
+ Score = 73.9 bits (180),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 41/59 (69%), Positives = 48/59 (81%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQE+TA+NMARFI+S +LTLLEKL+ L   ADEQA ICE LH+ ADELY+ C  RFG
+Sbjct  1   MTKQEQTAINMARFIKSHSLTLLEKLDAL--DADEQAAICEQLHEVADELYQRCRERFG  57
+
+
+> UniRef90_UPI0003EB335E regulatory protein n=1 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=UPI0003EB335E
+Length=63
+
+ Score = 73.5 bits (179),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 50/58 (86%), Positives = 54/58 (93%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++TALNMARFI+SQTLTLLEKLNEL   ADEQADICESLH+HADELYRSCLARF
+Sbjct  1   MNKQQQTALNMARFIKSQTLTLLEKLNEL--DADEQADICESLHEHADELYRSCLARF  56
+
+
+> UniRef90_C0AQF1 Rop protein (Fragment) n=3 Tax=Bacteria TaxID=2 
+RepID=C0AQF1_9GAMM
+Length=63
+
+ Score = 73.1 bits (178),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 50/54 (93%), Positives = 51/54 (94%), Gaps = 2/54 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSC  54
+           +TKQEKTALNMARFIRSQTLTLLEKLNEL   ADEQADICESLHDHADELYRSC
+Sbjct  12  VTKQEKTALNMARFIRSQTLTLLEKLNEL--DADEQADICESLHDHADELYRSC  63
+
+
+> UniRef90_L8AQ06 Regulatory protein Rop n=1 Tax=Bacillus subtilis 
+BEST7613 TaxID=1204343 RepID=L8AQ06_BACIU
+Length=80
+
+ Score = 73.1 bits (178),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 49/55 (89%), Positives = 49/55 (89%), Gaps = 2/55 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCL  55
+           MTKQEKTALNMARFIRSQTLTLLEKLNEL   ADEQADICESLHDHADELYR   
+Sbjct  1   MTKQEKTALNMARFIRSQTLTLLEKLNEL--DADEQADICESLHDHADELYRRGS  53
+
+
+> UniRef90_A0A077NG68 Regulatory protein rop n=2 Tax=Xenorhabdus 
+bovienii TaxID=40576 RepID=A0A077NG68_XENBV
+Length=70
+
+ Score = 72.3 bits (176),  Expect = 5e-15, Method: Composition-based stats.
+ Identities = 33/59 (56%), Positives = 44/59 (75%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           M KQEK+ LN+A+FIR QTL LLEK+NEL    D++A+ CE LHD A+ LY   ++R+G
+Sbjct  12  MNKQEKSCLNIAKFIRGQTLLLLEKINEL--DLDDEAEACEKLHDDAEALYHQLVSRYG  68
+
+
+> UniRef90_UPI00083CF4B3 UPI00083CF4B3 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00083CF4B3
+Length=64
+
+ Score = 71.2 bits (173),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 43/58 (74%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ+ T LNMA+FI+SQ+LTLLEKL+  +  AD QA +CE LH+ A+EL  S   RF
+Sbjct  1   MTKQQSTTLNMAKFIKSQSLTLLEKLD--SRNADAQAAMCEKLHELAEELQNSIQTRF  56
+
+
+> UniRef90_UPI000847CBE8 UPI000847CBE8 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000847CBE8
+Length=64
+
+ Score = 70.4 bits (171),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 41/58 (71%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ +T LNMA  I+SQ+LTLLEKL+ L   ADEQA +CE LH+ A+EL  S   RF
+Sbjct  1   MNKQPQTVLNMAGVIKSQSLTLLEKLDAL--DADEQAAMCEKLHEIAEELQNSIQTRF  56
+
+
+> UniRef90_UPI0009269425 UPI0009269425 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009269425
+Length=62
+
+ Score = 69.2 bits (168),  Expect = 7e-14, Method: Composition-based stats.
+ Identities = 41/52 (79%), Positives = 46/52 (88%), Gaps = 2/52 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYR  52
+           MTKQEKTA+NMARFIR+QTLTLLEK+N+L   ADEQAD+ ESLHDHA E YR
+Sbjct  13  MTKQEKTAVNMARFIRNQTLTLLEKVNDL--GADEQADMWESLHDHAAEHYR  62
+
+
+> UniRef90_UPI0009449920 UPI0009449920 related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI0009449920
+Length=75
+
+ Score = 68.9 bits (167),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 29/55 (53%), Positives = 42/55 (76%), Gaps = 2/55 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCL  55
+           +TKQ++T L MA+FI +Q+L LLEK NEL    D +AD+CE LH++A++LYR+  
+Sbjct  13  ITKQQQTTLYMAKFIPAQSLLLLEKFNEL--DLDSEADLCEKLHEYAEQLYRTLA  65
+
+
+> UniRef90_A0A0K3NJ40 Putative RNA I modulator protein n=9 Tax=Enterobacterales 
+TaxID=91347 RepID=A0A0K3NJ40_ECOLX
+Length=64
+
+ Score = 68.5 bits (166),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++TALNMA+FI+SQ+LTLLEKL+  +  AD QA +CE LH+ A+EL  S   RF
+Sbjct  1   MNKQQQTALNMAKFIKSQSLTLLEKLD--SLDADAQAAMCEKLHELAEELQNSIQTRF  56
+
+
+> UniRef90_R4Y3G4 Uncharacterized protein n=5 Tax=Enterobacteriaceae 
+TaxID=543 RepID=R4Y3G4_KLEPR
+Length=82
+
+ Score = 68.5 bits (166),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 27/59 (46%), Positives = 36/59 (61%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMA+FI+ Q+  LL          D  AD+CE LH+ A+ L++    + G
+Sbjct  24  MTKQEKTALNMAKFIKDQS--LLLLEKLNELDMDTPADMCERLHEDAETLWQVMRDKLG  80
+
+
+> UniRef90_A0A069WX31 Rop family protein n=3 Tax=Escherichia coli 
+3-373-03_S4_C2 TaxID=1444252 RepID=A0A069WX31_ECOLX
+Length=64
+
+ Score = 67.7 bits (164),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 36/58 (62%), Positives = 45/58 (78%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++TALNMA FI+SQ+LTLLEKL+ L   ADEQA +CE LH+ A+EL +S   RF
+Sbjct  1   MNKQQQTALNMAGFIKSQSLTLLEKLDAL--DADEQAAMCEKLHELAEELQKSIQTRF  56
+
+
+> UniRef90_A0A080FMY8 Rop family protein n=35 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A080FMY8_ECOLX
+Length=64
+
+ Score = 67.7 bits (164),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 42/58 (72%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++  LNMA FI+SQ+LTLLEKL+ L   ADEQA +CE LH+ A+EL  S   RF
+Sbjct  1   MNKQQQAVLNMAGFIKSQSLTLLEKLDAL--DADEQAAMCEKLHELAEELQNSIQTRF  56
+
+
+> UniRef90_UPI00084B07BC UPI00084B07BC related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00084B07BC
+Length=64
+
+ Score = 67.7 bits (164),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 33/58 (57%), Positives = 42/58 (72%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++T LNMA FI+ Q LTLLEKL+  A  ADEQA +CE LH+ A++L +S   RF
+Sbjct  1   MNKQQQTVLNMAGFIKRQRLTLLEKLD--APDADEQATMCEKLHEIAEKLQKSIKTRF  56
+
+
+> UniRef90_A0A0D0N5C2 RNA polymerase n=38 Tax=Bacteria TaxID=2 
+RepID=A0A0D0N5C2_ECOLX
+Length=64
+
+ Score = 67.7 bits (164),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 42/58 (72%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++  LNMA FI+SQ+LTLLEKL+ L   ADEQA +CE LH+ A+EL  S   RF
+Sbjct  1   MNKQQQAVLNMAGFIKSQSLTLLEKLDAL--NADEQAAMCEKLHELAEELQNSIQTRF  56
+
+
+> UniRef90_A0A0K5TBR5 Putative RNAI modulator protein n=23 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A0K5TBR5_ECOLX
+Length=64
+
+ Score = 67.3 bits (163),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 42/58 (72%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++  LNMA FI+SQ+LTLLEKL+ L   ADEQA +CE LH+ A+EL  S   RF
+Sbjct  1   MNKQQQAVLNMAGFIKSQSLTLLEKLDAL--DADEQATMCEKLHELAEELQNSIRTRF  56
+
+
+> UniRef90_UPI00069A99AA RNA polymerase n=1 Tax=Escherichia coli 
+TaxID=562 RepID=UPI00069A99AA
+Length=64
+
+ Score = 66.9 bits (162),  Expect = 7e-13, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 41/58 (71%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++  LNMA FI+SQ LTLLEKL+ L   ADEQA +CE LH+ A+EL  S   RF
+Sbjct  1   MNKQQQAVLNMAGFIKSQGLTLLEKLDAL--DADEQATMCEKLHELAEELQNSIRTRF  56
+
+
+> UniRef90_A0A1D3C897 Uncharacterized protein n=15 Tax=root TaxID=1 
+RepID=A0A1D3C897_9ENTR
+Length=79
+
+ Score = 66.9 bits (162),  Expect = 7e-13, Method: Composition-based stats.
+ Identities = 32/59 (54%), Positives = 40/59 (68%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           +T+QE  ALNMA+FIRSQTL LLE+L ++    DE A  CE LHD A+ LY    A+ G
+Sbjct  19  VTRQESAALNMAKFIRSQTLLLLERLEQM--DLDEAAGCCEHLHDQAEALYTMLNAQTG  75
+
+
+> UniRef90_Q1BZY3 Regulatory protein rop n=54 Tax=Enterobacterales 
+TaxID=91347 RepID=Q1BZY3_YERPA
+Length=64
+
+ Score = 66.5 bits (161),  Expect = 8e-13, Method: Composition-based stats.
+ Identities = 38/58 (66%), Positives = 45/58 (78%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++TALNMARFIRSQ+L LLEKL+ L   ADEQA +CE LH+ A+EL  S  ARF
+Sbjct  1   MNKQQQTALNMARFIRSQSLILLEKLDAL--DADEQAAMCERLHELAEELQNSIQARF  56
+
+
+> UniRef90_M9H4U8 Regulatory protein rop n=3 Tax=Escherichia coli 
+TaxID=562 RepID=M9H4U8_ECOLX
+Length=66
+
+ Score = 66.5 bits (161),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 45/49 (92%), Positives = 45/49 (92%), Gaps = 2/49 (4%)
+
+Query  11  MARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MARFIRSQTLTLLEKLNEL   ADEQADICESLHDHADELYR CLARFG
+Sbjct  1   MARFIRSQTLTLLEKLNEL--DADEQADICESLHDHADELYRGCLARFG  47
+
+
+> UniRef90_Q6KCD4 Rom protein n=3 Tax=Escherichia coli TaxID=562 
+RepID=Q6KCD4_ECOLX
+Length=50
+
+ Score = 65.8 bits (159),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 45/51 (88%), Positives = 47/51 (92%), Gaps = 2/51 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELY  51
+           MTKQEKTALNMARFIRSQTLTLLEKLNEL   ADEQADICESLHDHAD ++
+Sbjct  1   MTKQEKTALNMARFIRSQTLTLLEKLNEL--DADEQADICESLHDHADGVF  49
+
+
+> UniRef90_A0A167RF48 RNA I inhibition modulator protein n=18 Tax=root 
+TaxID=1 RepID=A0A167RF48_ECOLX
+Length=64
+
+ Score = 66.2 bits (160),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 36/58 (62%), Positives = 44/58 (76%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++TALNMARFI+SQ+LTLLEKL+ L   ADEQA +CE LH+ A+EL  S    F
+Sbjct  1   MNKQQQTALNMARFIKSQSLTLLEKLDAL--DADEQATMCERLHELAEELCNSVQTHF  56
+
+
+> UniRef90_UPI0007A620CE UPI0007A620CE related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007A620CE
+Length=64
+
+ Score = 65.8 bits (159),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 32/58 (55%), Positives = 42/58 (72%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++TALNMARFI+SQ+LTLLEKL+ L    +EQ  +CE LH+ A+E+      RF
+Sbjct  1   MNKQQQTALNMARFIKSQSLTLLEKLDAL--DTNEQVAMCERLHERAEEIQNRIQVRF  56
+
+
+> UniRef90_UPI000774FB20 UPI000774FB20 related cluster n=4 Tax=unknown 
+TaxID= RepID=UPI000774FB20
+Length=64
+
+ Score = 65.4 bits (158),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 36/58 (62%), Positives = 44/58 (76%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++TALNMARFI+SQ+LTLLEKL+ L   ADEQA +CE LH+ A+EL  S    F
+Sbjct  1   MNKQQQTALNMARFIKSQSLTLLEKLDAL--DADEQATLCERLHELAEELCNSVQTHF  56
+
+
+> UniRef90_A0A0D7KVL1 RNA polymerase n=1 Tax=Citrobacter freundii 
+TaxID=546 RepID=A0A0D7KVL1_CITFR
+Length=62
+
+ Score = 64.6 bits (156),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 28/58 (48%), Positives = 39/58 (67%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ+KTALNMA+FI++Q+L LL   N      D +A +CE LH+ A+ L+R+   R 
+Sbjct  1   MTKQQKTALNMAKFIQAQSLFLLG--NLNEQDLDTEAGLCEKLHEDAELLFRTLDIRL  56
+
+
+> UniRef90_A0A0K0I536 RNA polymerase n=1 Tax=Enterobacter cloacae 
+TaxID=550 RepID=A0A0K0I536_ENTCL
+Length=59
+
+ Score = 62.7 bits (151),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 28/59 (47%), Positives = 37/59 (63%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMA+FIR Q+  LL          D+ AD+CE LH+ A++L+     + G
+Sbjct  1   MTKQEKTALNMAKFIRDQS--LLLLEKLNELDMDDPADMCERLHEDAEKLWLVMRGKLG  57
+
+
+> UniRef90_UPI00075032E0 RNA polymerase n=1 Tax=Enterobacter cloacae 
+TaxID=550 RepID=UPI00075032E0
+Length=62
+
+ Score = 61.9 bits (149),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 31/58 (53%), Positives = 42/58 (72%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M +QE  ALNMA+FIR+QTL LLEK+++L    D++A  CE LH+ A+ LY+  LAR 
+Sbjct  1   MNRQESAALNMAKFIRTQTLLLLEKIDQL--DLDDEATECEKLHEQAENLYQKLLARL  56
+
+
+> UniRef90_UPI0002DB8D4E RNA polymerase n=1 Tax=Salmonella choleraesuis 
+TaxID=28901 RepID=UPI0002DB8D4E
+Length=62
+
+ Score = 61.9 bits (149),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 28/58 (48%), Positives = 40/58 (69%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M +QE   LNM +FIR+QTL LLEK+++L    D+ A  CE LH+ A++LY+  LA+ 
+Sbjct  1   MNRQESATLNMDKFIRTQTLLLLEKIDQL--DLDDGATECEKLHEQAEKLYQKLLAKL  56
+
+
+> UniRef90_UPI000488DB6A hypothetical protein n=1 Tax=Zymobacter 
+palmae TaxID=33074 RepID=UPI000488DB6A
+Length=62
+
+ Score = 61.9 bits (149),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 30/59 (51%), Positives = 42/59 (71%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           M K+EK+ALN+A+FI+SQTL LL+KLNEL    D+ A+ CE LHD A+ L+     ++ 
+Sbjct  1   MGKKEKSALNVAKFIKSQTLILLDKLNEL--DDDDAANACEKLHDDAEALHEVLANKWA  57
+
+
+> UniRef90_UPI00064A6DA1 UPI00064A6DA1 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00064A6DA1
+Length=62
+
+ Score = 61.5 bits (148),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 30/58 (52%), Positives = 42/58 (72%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M +QE  ALNMA+FIR+QTL LLEK+++L    D++A  CE LH+ A++LY+   AR 
+Sbjct  1   MNRQESAALNMAKFIRAQTLLLLEKIDQL--DLDDEATDCEKLHEQAEKLYQKLQARL  56
+
+
+> UniRef90_A0A0C5BDC3 Rom-like protein n=1 Tax=Escherichia coli 
+TaxID=562 RepID=A0A0C5BDC3_ECOLX
+Length=80
+
+ Score = 61.5 bits (148),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 28/59 (47%), Positives = 37/59 (63%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQE  ALNMA+FIR+Q+  LL          D++A  CE +H+ A+ LY+   ARFG
+Sbjct  19  MTKQESAALNMAKFIRAQS--LLLLEKLDVLDLDDEAADCERMHEQAEALYQKLSARFG  75
+
+
+> UniRef90_A0A1B8H881 RNA polymerase n=1 Tax=Morganella psychrotolerans 
+TaxID=368603 RepID=A0A1B8H881_9GAMM
+Length=62
+
+ Score = 61.1 bits (147),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 31/60 (52%), Positives = 43/60 (72%), Gaps = 1/60 (2%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELA-DAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEK  +NMA F+++Q+L LLEKLNE   D  D + ++CE LH+HA+ L+R   A+ G
+Sbjct  1   MTKQEKAVVNMANFLQAQSLLLLEKLNEQDSDNLDAETNLCEELHEHAESLHRRLNAKLG  60
+
+
+> UniRef90_UPI00093A8A8E UPI00093A8A8E related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00093A8A8E
+Length=64
+
+ Score = 61.1 bits (147),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 32/58 (55%), Positives = 39/58 (67%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++  LN A  I+SQ+LTLLEKL   A  ADEQA +CE LH+ A+EL  S   RF
+Sbjct  1   MNKQQQAVLNKAGIIKSQSLTLLEKLE--AHDADEQATMCEKLHELAEELQNSIQTRF  56
+
+
+> UniRef90_O30669 RNA one modulator n=11 Tax=Enterobacterales TaxID=91347 
+RepID=O30669_ENTAG
+Length=61
+
+ Score = 60.8 bits (146),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 32/59 (54%), Positives = 40/59 (68%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MT+QE  ALNMA+FIR+QTL LLE+L ++    DE A  CE LHD A+ LY    A+ G
+Sbjct  1   MTRQESAALNMAKFIRAQTLLLLERLEQM--DLDEAAGCCEHLHDQAEALYAMLNAQIG  57
+
+
+> UniRef90_A0A1J8HZN6 RNA polymerase n=15 Tax=Enterobacteriaceae 
+TaxID=543 RepID=A0A1J8HZN6_ECOLX
+Length=59
+
+ Score = 60.8 bits (146),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 27/59 (46%), Positives = 36/59 (61%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMA+FI+ Q+  LL          D  AD+CE LH+ A+ L++    + G
+Sbjct  1   MTKQEKTALNMAKFIKEQS--LLLLDKLNELDMDTPADMCERLHEDAETLWQVMRDKLG  57
+
+
+> UniRef90_UPI000908242D UPI000908242D related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000908242D
+Length=79
+
+ Score = 60.8 bits (146),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 29/59 (49%), Positives = 37/59 (63%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           +T+ E  A NMA+ IRSQTL LLE+L ++    DE A  CE LHD A+ LY    A+ G
+Sbjct  19  VTRHESAAPNMAKCIRSQTLLLLERLEQM--DLDEAAGCCEHLHDQAEALYTMLNAQTG  75
+
+
+> UniRef90_J2X090 Uncharacterized protein n=7 Tax=Klebsiella pneumoniae 
+TaxID=573 RepID=J2X090_KLEPN
+Length=62
+
+ Score = 60.4 bits (145),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 27/59 (46%), Positives = 36/59 (61%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMA+FI+ Q+  LL          D  AD+CE LH+ A+ L++    + G
+Sbjct  4   MTKQEKTALNMAKFIKDQS--LLLLEKLNELDMDTPADMCERLHEDAETLWQVMRDKLG  60
+
+
+> UniRef90_UPI00071ADEDC UPI00071ADEDC related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00071ADEDC
+Length=75
+
+ Score = 60.4 bits (145),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 23/45 (51%), Positives = 31/45 (69%), Gaps = 2/45 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHD  45
+           M +QE   LNM +FIR+QTL LLEK+++L    D+ A  CE LH+
+Sbjct  19  MNRQESATLNMDKFIRTQTLLLLEKIDQL--DLDDGATECEKLHE  61
+
+
+> UniRef90_A0A0T9N5Q9 Replication regulatory protein n=2 Tax=Yersinia 
+TaxID=444888 RepID=A0A0T9N5Q9_YERIN
+Length=63
+
+ Score = 59.6 bits (143),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 26/58 (45%), Positives = 36/58 (62%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M K++KTALNMA+FI+ Q+  LL      A   D +AD+CE LH+  ++LYR    R 
+Sbjct  1   MNKEQKTALNMAKFIQGQS--LLLLEKLNALDFDTEADLCEKLHEDTEQLYRVLSERL  56
+
+
+> UniRef90_A0A0F4AE04 RNA polymerase n=8 Tax=Enterobacteriaceae 
+TaxID=543 RepID=A0A0F4AE04_9ENTR
+Length=63
+
+ Score = 59.6 bits (143),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 28/59 (47%), Positives = 36/59 (61%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMA+FI+ Q+  LL          D +AD+CE LH+ A+ L R+   R  
+Sbjct  1   MTKQEKTALNMAKFIQGQS--LLLLEKLNELNLDMEADMCEKLHEDAEMLCRTLYGRLN  57
+
+
+> UniRef90_UPI000627766C RNA polymerase n=1 Tax=Escherichia coli 
+TaxID=562 RepID=UPI000627766C
+Length=56
+
+ Score = 59.2 bits (142),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 28/58 (48%), Positives = 37/58 (64%), Gaps = 3/58 (5%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++T LNMA FI+SQ+LTL EKL+ L DAA+     C    + A+EL +S   R 
+Sbjct  1   MNKQQQTVLNMAGFIKSQSLTLPEKLDAL-DAANRPP--CVRSAELAEELQKSIQTRL  55
+
+
+> UniRef90_A0A0U2JMF1 Putative RNA modulator protein n=1 Tax=Edwardsiella 
+ictaluri TaxID=67780 RepID=A0A0U2JMF1_EDWIC
+Length=58
+
+ Score = 58.8 bits (141),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 33/58 (57%), Positives = 44/58 (76%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQE +A+NMA+FI++QTL LLEKLN+L    DE+AD CE LH+ A+ LYR+   + 
+Sbjct  1   MTKQELSAVNMAKFIKAQTLILLEKLNDL--NLDERADECEHLHEMAETLYRNLEKQL  56
+
+
+> UniRef90_A0A0H5Q2C9 Uncharacterized protein n=2 Tax=uncultured 
+prokaryote TaxID=198431 RepID=A0A0H5Q2C9_9ZZZZ
+Length=63
+
+ Score = 58.8 bits (141),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 27/59 (46%), Positives = 38/59 (64%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           M KQ+K+ALNMA+FIR Q+  LL          D++AD+CE LHD A++L+     +FG
+Sbjct  1   MNKQQKSALNMAKFIRGQS--LLLLEKLNELNLDDEADLCEKLHDDAEKLFLVMAEKFG  57
+
+
+> UniRef90_UPI0009412CA9 UPI0009412CA9 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009412CA9
+Length=58
+
+ Score = 58.5 bits (140),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 35/51 (69%), Positives = 40/51 (78%), Gaps = 2/51 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELY  51
+           MTKQE TALNMA FI+SQTL LL+KLN+L    D+ AD CE LHD A+ELY
+Sbjct  1   MTKQELTALNMAGFIKSQTLILLDKLNQL--NLDDCADECEDLHDMAEELY  49
+
+
+> UniRef90_UPI00084AD2EE UPI00084AD2EE related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00084AD2EE
+Length=71
+
+ Score = 58.1 bits (139),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 25/48 (52%), Positives = 32/48 (67%), Gaps = 2/48 (4%)
+
+Query  11  MARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MA FI+SQ+LTL EK++ L   ADEQA + E LH+ A+EL  S    F
+Sbjct  1   MAGFIKSQSLTLPEKMDGL--DADEQATMGEKLHELAEELQNSIQTSF  46
+
+
+> UniRef90_D6HWQ3 Rop protein n=5 Tax=Escherichia coli TaxID=562 
+RepID=D6HWQ3_ECOLX
+Length=64
+
+ Score = 58.1 bits (139),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 27/58 (47%), Positives = 37/58 (64%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ+K ALNMA+FI+ QT  LL          D +AD+CE LH+ A++L R+ + R 
+Sbjct  2   MTKQQKAALNMAKFIQGQT--LLLLEKLNELDLDVEADLCEKLHEDAEQLCRTLIIRL  57
+
+
+> UniRef90_A0A1J8BKJ1 RNA polymerase n=1 Tax=Escherichia coli TaxID=562 
+RepID=A0A1J8BKJ1_ECOLX
+Length=49
+
+ Score = 57.3 bits (137),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 30/49 (61%), Positives = 38/49 (78%), Gaps = 2/49 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADE  49
+           M KQ++  LNMA FI+SQ+LTLLEKL+ L   ADEQA +CE LH+ A+E
+Sbjct  1   MNKQQQAVLNMAGFIKSQSLTLLEKLDAL--DADEQAAMCEKLHELAEE  47
+
+
+> UniRef90_UPI0007353D7D UPI0007353D7D related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007353D7D
+Length=63
+
+ Score = 57.7 bits (138),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 28/58 (48%), Positives = 39/58 (67%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQE+TALNMA+FI+ Q+  LL          D++AD+CE LH+ A++LYR+   R 
+Sbjct  1   MTKQEQTALNMAKFIQGQS--LLLLDKLNELNLDKEADMCEQLHEDAEQLYRALSGRL  56
+
+
+> UniRef90_A0A0J0I0D5 RNA polymerase n=2 Tax=Enterobacter sp. GN02600 
+TaxID=1659714 RepID=A0A0J0I0D5_9ENTR
+Length=62
+
+ Score = 57.3 bits (137),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 26/58 (45%), Positives = 33/58 (57%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M +QE   LNMA+FIR+QT  LL          D++A  CE LH+ A+ LYR   AR 
+Sbjct  1   MNRQESAVLNMAKFIRAQT--LLLLERIDLLDFDDEATDCEQLHEQAEALYRKLSARL  56
+
+
+> UniRef90_D3INX7 RNA polymerase n=20 Tax=Enterobacteriaceae TaxID=543 
+RepID=D3INX7_ECOLX
+Length=63
+
+ Score = 57.3 bits (137),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 28/59 (47%), Positives = 36/59 (61%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           M KQ+KTA+NMA+FI+ Q+  LL          D +AD CE LH+ A+ LYRS  AR  
+Sbjct  1   MNKQQKTAVNMAKFIQDQS--LLLLDRLNELDLDHEADFCEKLHEDAERLYRSLSARLN  57
+
+
+> UniRef90_A0A085GWM7 Rop family protein n=4 Tax=Enterobacteriaceae 
+TaxID=543 RepID=A0A085GWM7_9ENTR
+Length=64
+
+ Score = 57.3 bits (137),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 28/58 (48%), Positives = 40/58 (69%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ+KTALNMA+FI++Q+  LL          D +AD+CE+LH+ A+ L+RS + R 
+Sbjct  2   MTKQQKTALNMAKFIQAQS--LLLLEKLNELDLDTEADLCEALHEDAEHLFRSLMTRI  57
+
+
+> UniRef90_UPI0009454E7D UPI0009454E7D related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009454E7D
+Length=58
+
+ Score = 57.3 bits (137),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 27/53 (51%), Positives = 37/53 (70%), Gaps = 2/53 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRS  53
+           MTKQ+KTALNMA+FI++Q+  LL          D +AD+CE LHD A+ L+R+
+Sbjct  1   MTKQQKTALNMAKFIQNQS--LLLLEKLNELDLDAEADLCEKLHDDAEHLFRT  51
+
+
+> UniRef90_UPI00057A9967 hypothetical protein n=2 Tax=Plesiomonas 
+TaxID=702 RepID=UPI00057A9967
+Length=60
+
+ Score = 56.9 bits (136),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 32/59 (54%), Positives = 39/59 (66%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           M KQ+KTALNMA+FIR QT  LL          DEQAD CE LH+ ++ LY+S +A FG
+Sbjct  1   MNKQQKTALNMAKFIRGQT--LLLLEKLNELDLDEQADQCEKLHEDSEALYQSLVAEFG  57
+
+
+> UniRef90_A6TJ74 RNA one modulator-like protein n=116 Tax=Enterobacterales 
+TaxID=91347 RepID=A6TJ74_KLEP7
+Length=63
+
+ Score = 56.5 bits (135),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 28/58 (48%), Positives = 38/58 (66%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ+KTALNMA+FI+ Q+  LL          D +AD+CE LHD A+ L+R+  +R 
+Sbjct  1   MTKQQKTALNMAKFIQHQS--LLLLEKLNELDLDAEADLCEKLHDDAEHLFRTLSSRL  56
+
+
+> UniRef90_A0A1J8J9X8 RNA polymerase n=5 Tax=Enterobacterales TaxID=91347 
+RepID=A0A1J8J9X8_CITFR
+Length=59
+
+ Score = 56.1 bits (134),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 28/59 (47%), Positives = 36/59 (61%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMA+FIR Q+  LL          D  AD+CE LH+ A+ L+ +   + G
+Sbjct  1   MTKQEKTALNMAKFIRDQS--LLLLEKLNELDMDTAADMCERLHEDAETLWLAMRDQLG  57
+
+
+> UniRef90_UPI0005F9A6AB RNA polymerase n=1 Tax=Enterobacter cloacae 
+TaxID=550 RepID=UPI0005F9A6AB
+Length=63
+
+ Score = 56.1 bits (134),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 24/58 (41%), Positives = 36/58 (62%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ+KT LNMA+FI++Q+  LL          D +AD+CE LH+  ++L+ +   R 
+Sbjct  1   MTKQQKTVLNMAKFIQAQS--LLLLEKLNELDFDAEADLCEKLHEDTEQLFCTLAIRL  56
+
+
+> UniRef90_UPI0005E4CB2D RNA polymerase n=2 Tax=Yersinia frederiksenii 
+TaxID=29484 RepID=UPI0005E4CB2D
+Length=59
+
+ Score = 56.1 bits (134),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 27/59 (46%), Positives = 36/59 (61%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMA+FI+ Q+  LL          D  AD+CE LH+ A++L++      G
+Sbjct  1   MTKQEKTALNMAKFIKDQS--LLLLEKLNELDMDAPADLCEQLHEDAEKLWQVMGKLLG  57
+
+
+> UniRef90_A0A1J5W4X7 RNA polymerase n=1 Tax=Lelliottia nimipressuralis 
+TaxID=69220 RepID=A0A1J5W4X7_9ENTR
+Length=70
+
+ Score = 56.1 bits (134),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 26/59 (44%), Positives = 36/59 (61%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQ KTALNMA+FI++Q+  LL          D +AD+CE LH+ A+ L R+   +  
+Sbjct  1   MTKQHKTALNMAKFIQAQS--LLLLDKLNELDLDTEADMCEKLHEDAEVLCRTLSVQLN  57
+
+
+> UniRef90_UPI00044512FE UPI00044512FE related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00044512FE
+Length=50
+
+ Score = 55.8 bits (133),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 42/45 (93%), Positives = 42/45 (93%), Gaps = 2/45 (4%)
+
+Query  15  IRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           IRSQTLTLLEKLNEL   ADEQADICESLHDHADELYRSCLARFG
+Sbjct  2   IRSQTLTLLEKLNEL--DADEQADICESLHDHADELYRSCLARFG  44
+
+
+> UniRef90_D2TE22 RNA one modulator n=3 Tax=Erwinia pyrifoliae 
+TaxID=79967 RepID=D2TE22_ERWP6
+Length=69
+
+ Score = 56.1 bits (134),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 26/58 (45%), Positives = 32/58 (55%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQE T LNMA+FIR QT  LL          D++A  CE LH+ A+ LY+    R 
+Sbjct  3   MNKQETTTLNMAKFIRGQT--LLLLEKLDVLDLDDEAADCEKLHEQAEALYQKLSGRL  58
+
+
+> UniRef90_A0A0N8LSL2 RNA polymerase n=22 Tax=Enterobacteriaceae 
+TaxID=543 RepID=A0A0N8LSL2_CITFR
+Length=62
+
+ Score = 55.8 bits (133),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 28/59 (47%), Positives = 37/59 (63%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQE  ALNMA+FIR+Q+  LL          D++A  CE +H+ A+ LY+   ARFG
+Sbjct  1   MTKQESAALNMAKFIRAQS--LLLLEKLDMLDLDDEAADCERMHEQAEALYQKLSARFG  57
+
+
+> UniRef90_A0A167AA14 RNA polymerase n=18 Tax=Proteobacteria TaxID=1224 
+RepID=A0A167AA14_ECOLX
+Length=62
+
+ Score = 55.8 bits (133),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 28/59 (47%), Positives = 37/59 (63%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQE  ALNMA+FIR+Q+  LL          D++A  CE +H+ A+ LY+   ARFG
+Sbjct  1   MTKQESAALNMAKFIRAQS--LLLLEKLDVLDLDDEAADCERMHEQAEALYQKLSARFG  57
+
+
+> UniRef90_UPI00063A95C1 UPI00063A95C1 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00063A95C1
+Length=63
+
+ Score = 55.8 bits (133),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 24/58 (41%), Positives = 35/58 (60%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTK ++T LNMA+FI++Q+  LL          D +A +CE LH+ A++LYR    R 
+Sbjct  1   MTKHQQTTLNMAKFIQAQS--LLLLEKLNELDLDTEAGLCEKLHEDAEQLYRILAIRL  56
+
+
+> UniRef90_UPI000693741C hypothetical protein n=1 Tax=Klebsiella 
+pneumoniae TaxID=573 RepID=UPI000693741C
+Length=75
+
+ Score = 55.8 bits (133),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 24/49 (49%), Positives = 31/49 (63%), Gaps = 2/49 (4%)
+
+Query  11  MARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MA+FIR+QTL LLE+L ++    DE A   E LHD A+ LY    A+ G
+Sbjct  1   MAKFIRAQTLLLLERLEQM--DLDEAAGGWEHLHDQAEALYAMLNAQIG  47
+
+
+> UniRef90_UPI0006430A33 RNA polymerase n=4 Tax=unknown TaxID= 
+RepID=UPI0006430A33
+Length=63
+
+ Score = 55.4 bits (132),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 26/58 (45%), Positives = 40/58 (69%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ+KTALNMA+FI++Q+  LL          D +AD+CE+LH+ A++++R+   R 
+Sbjct  1   MTKQQKTALNMAKFIQAQS--LLLLEKLNELDFDAEADLCETLHEDAEQVFRALALRL  56
+
+
+> UniRef90_A0A0D7KWT5 RNA polymerase n=5 Tax=Enterobacteriaceae 
+TaxID=543 RepID=A0A0D7KWT5_CITFR
+Length=63
+
+ Score = 55.0 bits (131),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 26/58 (45%), Positives = 39/58 (67%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ++TALNMA+FI++Q+  LL          D +AD+CE LH+ A++L+R+   R 
+Sbjct  1   MTKQQRTALNMAKFIQAQS--LLLLEKLNELDLDNEADLCEKLHEDAEQLFRTLAIRL  56
+
+
+> UniRef90_A0A0P6RLH5 RNA polymerase n=2 Tax=Pseudomonas TaxID=286 
+RepID=A0A0P6RLH5_9PSED
+Length=59
+
+ Score = 54.6 bits (130),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 27/58 (47%), Positives = 36/58 (62%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ+ TALNMA+FI+ Q+  LL          D +ADICE LH+ A+ L+ S +A  
+Sbjct  1   MTKQQTTALNMAKFIQDQS--LLLLEKLNELDFDSEADICEKLHEDAERLHSSLMATL  56
+
+
+> UniRef90_UPI0006D9E9E1 RNA polymerase n=1 Tax=Serratia marcescens 
+TaxID=615 RepID=UPI0006D9E9E1
+Length=71
+
+ Score = 55.0 bits (131),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 29/59 (49%), Positives = 35/59 (59%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQE +ALNMA+FIR+Q   LL      A   DE+A  CE LH+ A+ LY    AR  
+Sbjct  1   MTKQESSALNMAKFIRAQL--LLLLEKLDALDLDEEATTCEQLHEAAETLYHRLEARLN  57
+
+
+> UniRef90_UPI0006DAEDAF RNA polymerase n=1 Tax=Serratia marcescens 
+TaxID=615 RepID=UPI0006DAEDAF
+Length=67
+
+ Score = 54.2 bits (129),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 29/59 (49%), Positives = 35/59 (59%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQE  ALNMA+FIR+Q+  LL          DE+A  CE LH+ A+ LYR    RF 
+Sbjct  1   MTKQESAALNMAKFIRAQS--LLLLEKLDVLDLDEEATTCEQLHEAAETLYRRLETRFN  57
+
+
+> UniRef90_D3GMY2 ROM protein n=1 Tax=Rahnella sp. WMR114 TaxID=657335 
+RepID=D3GMY2_9GAMM
+Length=65
+
+ Score = 54.2 bits (129),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 31/55 (56%), Positives = 39/55 (71%), Gaps = 2/55 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCL  55
+           M KQEKTALNM +FI++QTL  LEKLNEL    DE AD CE LH+ +++L+    
+Sbjct  1   MNKQEKTALNMTKFIQAQTLLQLEKLNEL--NLDEIADYCERLHELSEQLHEDLR  53
+
+
+> UniRef90_UPI0003F7C265 UPI0003F7C265 related cluster n=3 Tax=unknown 
+TaxID= RepID=UPI0003F7C265
+Length=58
+
+ Score = 54.2 bits (129),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 33/54 (61%), Positives = 41/54 (76%), Gaps = 2/54 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSC  54
+           MTKQE TALN+A FI+SQTL LL+KLN+L    D+ AD CE L+D A+ELY + 
+Sbjct  1   MTKQELTALNIAGFIKSQTLILLDKLNQL--NLDDCADECEDLYDMAEELYLNL  52
+
+
+> UniRef90_Q9KI27 Putative RNA one modulator protein n=2 Tax=Edwardsiella 
+TaxID=132406 RepID=Q9KI27_EDWIC
+Length=60
+
+ Score = 54.2 bits (129),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 32/58 (55%), Positives = 42/58 (72%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQE TA+NMA+FI++Q L LLEKLNEL    DE+A+ CE LHD A++L+R    + 
+Sbjct  1   MKKQEATAINMAKFIKAQLLILLEKLNEL--DLDERANECEQLHDLAEQLHRHLREQL  56
+
+
+> UniRef90_UPI000925FC1C UPI000925FC1C related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000925FC1C
+Length=70
+
+ Score = 53.8 bits (128),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 30/44 (68%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  16  RSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           R Q   L+ +       ADEQADICESLHDHADELYRSCLARFG
+Sbjct  21  RGQRYRLVFQFPIRELDADEQADICESLHDHADELYRSCLARFG  64
+
+
+> UniRef90_Q8GEG3 RNA I modulator n=1 Tax=Erwinia amylovora TaxID=552 
+RepID=Q8GEG3_ERWAM
+Length=67
+
+ Score = 53.8 bits (128),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 26/58 (45%), Positives = 33/58 (57%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTK E  ALNMA+FIR+Q+  LL          D++A  CE LH+ A+ LYR    R 
+Sbjct  1   MTKLESAALNMAKFIRAQS--LLLLEKLDVLDLDDEAAECEKLHEQAEVLYRKVSNRI  56
+
+
+> UniRef90_A0A0F5XU34 RNA polymerase n=3 Tax=Enterobacterales TaxID=91347 
+RepID=A0A0F5XU34_9GAMM
+Length=59
+
+ Score = 53.4 bits (127),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 27/58 (47%), Positives = 36/58 (62%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ+K ALNMA+FI+ Q+  LL          D +AD+CE LH+ A+ L+ S LA  
+Sbjct  1   MTKQQKNALNMAKFIQDQS--LLLLEKLNELDCDGEADMCEKLHEDAERLHSSLLATL  56
+
+
+> UniRef90_A0A0H5QJF9 Uncharacterized protein n=1 Tax=uncultured 
+prokaryote TaxID=198431 RepID=A0A0H5QJF9_9ZZZZ
+Length=62
+
+ Score = 53.4 bits (127),  Expect = 7e-08, Method: Composition-based stats.
+ Identities = 33/60 (55%), Positives = 45/60 (75%), Gaps = 1/60 (2%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADA-ADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKT LNMA+F+++Q+L LLEKLNEL     D + ++CE LH+HA+ L+R   A+ G
+Sbjct  1   MTKQEKTVLNMAKFLQAQSLLLLEKLNELDTNLLDAETNLCEELHEHAETLHRQLSAKLG  60
+
+
+> UniRef90_A0A0A1BCR4 RNA polymerase n=1 Tax=Pantoea sp. PSNIH2 
+TaxID=1484157 RepID=A0A0A1BCR4_9GAMM
+Length=59
+
+ Score = 53.4 bits (127),  Expect = 8e-08, Method: Composition-based stats.
+ Identities = 25/59 (42%), Positives = 35/59 (59%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           M+K  KTALNMA+FI+ Q+  LL          D +AD+CE LH+ A+ L+   LA+  
+Sbjct  1   MSKHHKTALNMAKFIQGQS--LLLLEKLNELDLDTEADMCERLHEDAERLHAGLLAKLN  57
+
+
+> UniRef90_UPI000532E20C RNA polymerase n=1 Tax=Dickeya sp. 2B12 
+TaxID=1577887 RepID=UPI000532E20C
+Length=67
+
+ Score = 53.4 bits (127),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 26/58 (45%), Positives = 36/58 (62%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M +QE  ALNMA+FIR+Q+  LL      A   D++A  CE LH+ A+ LY+   +RF
+Sbjct  1   MNRQESAALNMAKFIRAQS--LLLLEKLDALDLDDEAADCEKLHEQAEALYQKLNSRF  56
+
+
+> UniRef90_Q52624 Rom n=5 Tax=Enterobacterales TaxID=91347 RepID=Q52624_PROVU
+Length=68
+
+ Score = 52.7 bits (125),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 25/61 (41%), Positives = 41/61 (67%), Gaps = 2/61 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNEL--ADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQEK  +NMA+F+++Q+L LL +      +D  D + ++CE LH+HA+ L++   A+ 
+Sbjct  1   MTKQEKAVVNMAKFLQAQSLLLLLEKLNELNSDKLDAETNLCEELHEHAESLHQQLSAKV  60
+
+Query  59  G  59
+           G
+Sbjct  61  G  61
+
+
+> UniRef90_Q8GGG7 Rop n=1 Tax=Enterobacter sp. RFL1396 TaxID=211595 
+RepID=Q8GGG7_9ENTR
+Length=64
+
+ Score = 52.3 bits (124),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 23/58 (40%), Positives = 37/58 (64%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           +TKQ+K  LNMA+FI++Q+  LL          D +A++CE LH+ A++L+R+   R 
+Sbjct  2   ITKQQKMTLNMAKFIQAQS--LLLLEKLNELDLDTEANMCEKLHEDAEQLFRTLALRL  57
+
+
+> UniRef90_A0A098Y7E7 RNA polymerase n=3 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A098Y7E7_9GAMM
+Length=62
+
+ Score = 52.3 bits (124),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 28/60 (47%), Positives = 42/60 (70%), Gaps = 1/60 (2%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELAD-AADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEK  +NMA+F+++Q+L LLEKLNEL     D + ++CE LH+ A+ L++    + G
+Sbjct  1   MTKQEKAVVNMAKFLQAQSLLLLEKLNELDSYKLDTETNLCEELHEQAESLHQRLSTKLG  60
+
+
+> UniRef90_UPI00057B60F4 RNA polymerase n=1 Tax=Leclercia adecarboxylata 
+TaxID=83655 RepID=UPI00057B60F4
+Length=59
+
+ Score = 51.9 bits (123),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 26/59 (44%), Positives = 35/59 (59%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQ+KTALNMA+FI+ Q+  LL          D +AD+CE LH+ A+ L+     R  
+Sbjct  1   MTKQQKTALNMAKFIQDQS--LLLLERLNELDLDSEADMCEKLHEDAERLHAVLQDRLN  57
+
+
+> UniRef90_UPI000680D69C RNA polymerase n=2 Tax=Pantoea vagans 
+TaxID=470934 RepID=UPI000680D69C
+Length=59
+
+ Score = 51.1 bits (121),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 26/58 (45%), Positives = 37/58 (64%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ+KTALNMA+F ++Q+  LL          D++AD+CE LH+ A+ L+   L R 
+Sbjct  1   MTKQQKTALNMAKFTQAQS--LLLLEKLNELDLDDEADMCEKLHEGAERLHDVLLGRL  56
+
+
+> UniRef90_UPI00081C1C7F UPI00081C1C7F related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI00081C1C7F
+Length=65
+
+ Score = 51.1 bits (121),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 23/55 (42%), Positives = 35/55 (64%), Gaps = 2/55 (4%)
+
+Query  4   QEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           ++KTALNMA+FI++Q+  LL          D +AD+CE LHD A+ L+R+  +  
+Sbjct  6   RQKTALNMAKFIQNQS--LLLLEKLNELDLDVEADLCEKLHDDAEHLFRTLSSGL  58
+
+
+> UniRef90_UPI0002DD28DA RNA polymerase n=1 Tax=Edwardsiella tarda 
+TaxID=636 RepID=UPI0002DD28DA
+Length=63
+
+ Score = 51.1 bits (121),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 26/58 (45%), Positives = 36/58 (62%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MT+QE +ALNMA+FIR+Q+  LL          D++A  CE LHD A+ LY++   R 
+Sbjct  1   MTRQESSALNMAKFIRAQS--LLLLEKLDLLNLDDEAATCERLHDLAETLYQTLTERL  56
+
+
+> UniRef90_UPI000806F0D2 UPI000806F0D2 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000806F0D2
+Length=52
+
+ Score = 50.7 bits (120),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 23/49 (47%), Positives = 33/49 (67%), Gaps = 2/49 (4%)
+
+Query  11  MARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MA+FIR+Q+L L  KL+ LA   D++A   E +H+ A+ LY+   ARFG
+Sbjct  1   MAKFIRAQSLLLPAKLDVLA--LDDEAADRERMHEQAEALYQKLSARFG  47
+
+
+> UniRef90_UPI00071AE0D4 UPI00071AE0D4 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00071AE0D4
+Length=66
+
+ Score = 50.7 bits (120),  Expect = 9e-07, Method: Composition-based stats.
+ Identities = 22/43 (51%), Positives = 29/43 (67%), Gaps = 2/43 (5%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESL  43
+           M +QE   LNM +FIR+QTL LLEK+++L    D+ A  CE L
+Sbjct  1   MNRQESATLNMDKFIRTQTLLLLEKIDQL--DLDDGATECEKL  41
+
+
+> UniRef90_UPI0007A5D40A UPI0007A5D40A related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI0007A5D40A
+Length=60
+
+ Score = 50.0 bits (118),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 28/32 (88%), Positives = 29/32 (91%), Gaps = 0/32 (0%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADA  32
+           +TKQEKTALNMARFIRSQTLTLLEKLNEL   
+Sbjct  12  VTKQEKTALNMARFIRSQTLTLLEKLNELDAD  43
+
+
+> UniRef90_UPI0007E5B691 UPI0007E5B691 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007E5B691
+Length=74
+
+ Score = 49.6 bits (117),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 22/39 (56%), Positives = 26/39 (67%), Gaps = 2/39 (5%)
+
+Query  21  TLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+            L EK +E    AD+ ADIC+  H+HADELYRS  A FG
+Sbjct  1   MLPEKCHE--QNADDHADICDPPHNHADELYRSGFAYFG  37
+
+
+> UniRef90_UPI00057C0194 RNA polymerase n=1 Tax=Enterobacter sp. 
+Bisph1 TaxID=1274399 RepID=UPI00057C0194
+Length=63
+
+ Score = 49.2 bits (116),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 24/59 (41%), Positives = 32/59 (54%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQE TALNMA+FI  Q+  LL          D  AD+C+ LH+ A+ L  +   +  
+Sbjct  1   MTKQENTALNMAKFIHEQS--LLLLDKLNELNLDMAADMCDQLHEDAEVLCMTLFVQLN  57
+
+
+> UniRef90_UPI00094361A2 UPI00094361A2 related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI00094361A2
+Length=57
+
+ Score = 48.8 bits (115),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 24/45 (53%), Positives = 31/45 (69%), Gaps = 2/45 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHD  45
+           MTKQ+KTALNMA+FI++Q+  LL          D +AD+CE LHD
+Sbjct  1   MTKQQKTALNMAKFIQNQS--LLLLEKLNELDLDVEADLCEKLHD  43
+
+
+> UniRef90_A0A0P8H046 RNA polymerase n=1 Tax=Citrobacter freundii 
+TaxID=546 RepID=A0A0P8H046_CITFR
+Length=62
+
+ Score = 48.1 bits (113),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 24/59 (41%), Positives = 34/59 (58%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           M KQE  AL  ++FIR+Q+  LL          D++A  CE +H+ A+ LY+   ARFG
+Sbjct  1   MKKQESAALKKSKFIRAQS--LLLLEKLDVLDLDDEAADCERMHEQAEALYQKLSARFG  57
+
+
+> UniRef90_UPI0008D96164 UPI0008D96164 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008D96164
+Length=58
+
+ Score = 46.9 bits (110),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 19/43 (44%), Positives = 27/43 (63%), Gaps = 2/43 (5%)
+
+Query  11  MARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRS  53
+           MA+FI++Q+  LL          D +AD+CE LHD A+ L+RS
+Sbjct  1   MAKFIQNQS--LLLLEKLNELDLDVEADLCEKLHDDAEHLFRS  41
+
+
+> UniRef90_A0A1A9Z2C0 Uncharacterized protein n=1 Tax=Glossina 
+pallidipes TaxID=7398 RepID=A0A1A9Z2C0_GLOPL
+Length=186
+
+ Score = 48.1 bits (113),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 20/32 (63%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  1    MTKQEKTALNMARFIRSQTLTLLEKLNELADA  32
+            MTKQE++AL MA FI+SQTL LL+KL++L   
+Sbjct  129  MTKQEQSALKMAGFIKSQTLVLLDKLDQLELD  160
+
+
+> UniRef90_A0A0P8HP72 RNA polymerase n=1 Tax=Citrobacter freundii 
+TaxID=546 RepID=A0A0P8HP72_CITFR
+Length=62
+
+ Score = 46.5 bits (109),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 24/59 (41%), Positives = 32/59 (54%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQE  ALNMA+FIR+Q   LL          D++A  C  +H+  +  Y+    RFG
+Sbjct  1   MTKQESAALNMAKFIRAQX--LLLLEKLDVLDLDDEAADCXRMHEQXEAXYQXLXXRFG  57
+
+
+> UniRef90_UPI0007E8F75E UPI0007E8F75E related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007E8F75E
+Length=50
+
+ Score = 45.4 bits (106),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 25/44 (57%), Positives = 31/44 (70%), Gaps = 2/44 (5%)
+
+Query  15  IRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           I+SQ+L LLEKL+ L   ADEQA +CE LH+ A+EL  S   RF
+Sbjct  1   IKSQSLALLEKLDAL--DADEQAAMCERLHELAEELQNSIQVRF  42
+
+
+> UniRef90_UPI00094317AE UPI00094317AE related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00094317AE
+Length=64
+
+ Score = 45.0 bits (105),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 23/58 (40%), Positives = 34/58 (59%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M K ++T LN+A  I++Q+L  L K++ L   ADEQA + E LH+ A EL  +     
+Sbjct  1   MKKHQQTQLNIAGIIKNQSLPRLGKVDALC--ADEQATVRERLHELAGELQNNIQRSL  56
+
+
+> UniRef90_UPI0005C52F5F RNA polymerase n=1 Tax=Acinetobacter sp. 
+MII TaxID=1507807 RepID=UPI0005C52F5F
+Length=61
+
+ Score = 45.0 bits (105),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 20/37 (54%), Positives = 24/37 (65%), Gaps = 2/37 (5%)
+
+Query  22  LLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           LLEKL+ L   ADEQA +CE LH+ A+EL  S    F
+Sbjct  16  LLEKLDAL--DADEQATMCERLHELAEELQNSIQTHF  50
+
+
+> UniRef90_W1I6K3 Uncultured bacterium plasmid pRGI00316 n=4 Tax=root 
+TaxID=1 RepID=W1I6K3_9BACT
+Length=53
+
+ Score = 44.6 bits (104),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 19/48 (40%), Positives = 26/48 (54%), Gaps = 2/48 (4%)
+
+Query  11  MARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MA+FI+ QT  LL          D +AD+CE LH+ A+ L R+   R 
+Sbjct  1   MAKFIKGQT--LLLLEKLNELELDAEADLCEKLHEDAELLCRTLTIRL  46
+
+
+> UniRef90_UPI0007745C62 UPI0007745C62 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007745C62
+Length=61
+
+ Score = 43.4 bits (101),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 19/45 (42%), Positives = 30/45 (67%), Gaps = 2/45 (4%)
+
+Query  6   KTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADEL  50
+           ++A+N+ RFIR+Q+L +LEK+  L    D+   + E LHD A+ L
+Sbjct  8   ESAMNVTRFIRAQSLIMLEKVEAL--DFDDLTALAEKLHDDAEYL  50
+
+
+> UniRef90_K8W629 Rom n=1 Tax=Providencia rettgeri Dmel1 TaxID=1141663 
+RepID=K8W629_PRORE
+Length=62
+
+ Score = 43.0 bits (100),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 30/59 (51%), Positives = 43/59 (73%), Gaps = 1/59 (2%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELA-DAADEQADICESLHDHADELYRSCLARF  58
+           MTKQEK  LNMA+F++SQ+L LLEKLNEL  +  D + ++CE LH+ A+ L++   A+ 
+Sbjct  1   MTKQEKAVLNMAKFLQSQSLLLLEKLNELDSNNLDAETNLCEELHEQAESLHQKLRAKL  59
+
+
+> UniRef90_UPI00081C19B5 UPI00081C19B5 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00081C19B5
+Length=58
+
+ Score = 42.7 bits (99),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 18/47 (38%), Positives = 28/47 (60%), Gaps = 2/47 (4%)
+
+Query  12  ARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           A+FI++Q+  LL          D +AD+CE LHD A+ L+R+  +R 
+Sbjct  7   AKFIQNQS--LLLLEKLNELDLDAEADLCEKLHDDAEHLFRTLSSRL  51
+
+
+> UniRef90_D3GN07 ROM protein n=3 Tax=Enterobacterales TaxID=91347 
+RepID=D3GN07_RAHAQ
+Length=65
+
+ Score = 42.3 bits (98),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 25/54 (46%), Positives = 34/54 (63%), Gaps = 2/54 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSC  54
+           MTKQEK ALNMA+FI++QT  LL          DE A+ CE LH+ +++L+   
+Sbjct  1   MTKQEKAALNMAKFIQAQT--LLLLEKLKELNLDEMANQCERLHELSEQLHDDL  52
+
+
+> UniRef90_A0A0C5AXB7 Uncharacterized protein n=1 Tax=Escherichia 
+coli TaxID=562 RepID=A0A0C5AXB7_ECOLX
+Length=51
+
+ Score = 41.9 bits (97),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 21/50 (42%), Positives = 30/50 (60%), Gaps = 2/50 (4%)
+
+Query  9   LNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           +N+ RFIR+QTL +LEK+  L    D+   + E LHD A++L R    R 
+Sbjct  1   MNVTRFIRAQTLVMLEKVEAL--DFDDLTALAEKLHDDAEKLERLVTDRV  48
+
+
+> UniRef90_A0A0H5Q4K7 Uncharacterized protein n=1 Tax=uncultured 
+prokaryote TaxID=198431 RepID=A0A0H5Q4K7_9ZZZZ
+Length=60
+
+ Score = 40.7 bits (94),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 23/58 (40%), Positives = 35/58 (60%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQE +A+NMA+FI++QT  L+          DE+A+ CE LH+ A+  Y +   + 
+Sbjct  1   MTKQELSAVNMAKFIKAQT--LILLDKLNDLDLDERANECEQLHEMAETRYCNLEKQL  56
+
+
+> UniRef90_W1HCQ7 RNA one modulator-like protein n=1 Tax=Escherichia 
+coli ISC56 TaxID=1432560 RepID=W1HCQ7_ECOLX
+Length=38
+
+ Score = 40.0 bits (92),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 10/35 (29%), Positives = 16/35 (46%), Gaps = 0/35 (0%)
+
+Query  25  KLNELADAADEQADICESLHDHADELYRSCLARFG  59
+                    D  AD+CE LH+ A+ L++    + G
+Sbjct  2   LDKLNELDMDTPADMCERLHEDAETLWQVMRDKLG  36
+
+
+> UniRef90_UPI000940E633 UPI000940E633 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000940E633
+Length=52
+
+ Score = 40.0 bits (92),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 21/44 (48%), Positives = 27/44 (61%), Gaps = 5/44 (11%)
+
+Query  8   ALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELY  51
+           +L    FI+SQTL LL+KLN       + AD CE  H+ A+ELY
+Sbjct  5   SLEYGGFIKSQTLILLDKLN-----LGDCADECEDSHNMAEELY  43
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.142    0.422    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0431    0.140     1.90     42.6     43.6 
+
+Effective search space used: 436914222075
+Results from round 3
+
+
+Query= d1nkda_
+
+Length=59
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_L8AK66 Uncharacterized protein n=5 Tax=cellular organi...  90.0    4e-20
+  UniRef90_B8QJ12 Rop/rom protein n=79 Tax=cellular organisms Tax...  83.0    4e-19
+  UniRef90_L8AT37 Regulatory protein Rop n=1 Tax=Bacillus subtili...  83.8    1e-18
+  UniRef90_A0A1J4QL40 Uncharacterized protein n=1 Tax=Salmonella ...  81.9    1e-18
+  UniRef90_V0SU92 Rop protein n=1 Tax=Escherichia coli 113302 Tax...  83.0    1e-18
+  UniRef90_A0A098YHF8 Regulatory protein n=4 Tax=Gammaproteobacte...  81.1    3e-18
+  UniRef90_UPI00073771FB hypothetical protein, partial n=1 Tax=Sa...  79.9    5e-18
+  UniRef90_UPI000699C827 hypothetical protein n=1 Tax=Salmonella ...  80.3    5e-18
+  UniRef90_A0A0D0LJT0 Regulatory protein n=103 Tax=root TaxID=1 R...  79.9    6e-18
+  UniRef90_P03051 Regulatory protein rop n=77 Tax=root TaxID=1 Re...  79.6    9e-18
+  UniRef90_L8AE36 Regulatory protein Rop n=1 Tax=Bacillus subtili...  79.6    1e-17
+  UniRef90_UPI00039D460E regulatory protein n=9 Tax=Enterobactera...  77.6    5e-17
+  UniRef90_UPI0004D54A1F hypothetical protein n=1 Tax=Escherichia...  75.3    3e-16
+  UniRef90_UPI0003EB335E regulatory protein n=1 Tax=Salmonella ch...  74.6    8e-16
+  UniRef90_C0AQF1 Rop protein (Fragment) n=3 Tax=Bacteria TaxID=2...  74.2    8e-16
+  UniRef90_L8AQ06 Regulatory protein Rop n=1 Tax=Bacillus subtili...  74.2    1e-15
+  UniRef90_UPI00083CF4B3 UPI00083CF4B3 related cluster n=1 Tax=un...  73.8    1e-15
+  UniRef90_A0A077NG68 Regulatory protein rop n=2 Tax=Xenorhabdus ...  73.0    3e-15
+  UniRef90_UPI000847CBE8 UPI000847CBE8 related cluster n=1 Tax=un...  73.0    3e-15
+  UniRef90_A0A0K3NJ40 Putative RNA I modulator protein n=9 Tax=En...  71.1    1e-14
+  UniRef90_A0A080FMY8 Rop family protein n=35 Tax=Gammaproteobact...  70.3    3e-14
+  UniRef90_A0A069WX31 Rop family protein n=3 Tax=Escherichia coli...  70.3    3e-14
+  UniRef90_A0A0D0N5C2 RNA polymerase n=38 Tax=Bacteria TaxID=2 Re...  70.3    3e-14
+  UniRef90_UPI0009269425 UPI0009269425 related cluster n=1 Tax=un...  70.3    3e-14
+  UniRef90_A0A0K5TBR5 Putative RNAI modulator protein n=23 Tax=Ga...  69.9    4e-14
+  UniRef90_UPI00084B07BC UPI00084B07BC related cluster n=1 Tax=un...  69.9    4e-14
+  UniRef90_Q1BZY3 Regulatory protein rop n=54 Tax=Enterobacterale...  69.2    8e-14
+  UniRef90_UPI0009449920 UPI0009449920 related cluster n=2 Tax=un...  69.5    8e-14
+  UniRef90_UPI00069A99AA RNA polymerase n=1 Tax=Escherichia coli ...  69.2    9e-14
+  UniRef90_A0A167RF48 RNA I inhibition modulator protein n=18 Tax...  68.4    1e-13
+  UniRef90_UPI000774FB20 UPI000774FB20 related cluster n=4 Tax=un...  68.0    2e-13
+  UniRef90_UPI0007A620CE UPI0007A620CE related cluster n=1 Tax=un...  67.6    3e-13
+  UniRef90_Q6KCD4 Rom protein n=3 Tax=Escherichia coli TaxID=562 ...  67.2    4e-13
+  UniRef90_R4Y3G4 Uncharacterized protein n=5 Tax=Enterobacteriac...  67.6    4e-13
+  UniRef90_A0A1D3C897 Uncharacterized protein n=15 Tax=root TaxID...  67.2    5e-13
+  UniRef90_M9H4U8 Regulatory protein rop n=3 Tax=Escherichia coli...  66.5    9e-13
+  UniRef90_A0A0D7KVL1 RNA polymerase n=1 Tax=Citrobacter freundii...  65.7    2e-12
+  UniRef90_UPI00064A6DA1 UPI00064A6DA1 related cluster n=1 Tax=un...  64.2    7e-12
+  UniRef90_UPI00075032E0 RNA polymerase n=1 Tax=Enterobacter cloa...  63.8    8e-12
+  UniRef90_UPI00093A8A8E UPI00093A8A8E related cluster n=1 Tax=un...  63.8    1e-11
+  UniRef90_UPI0002DB8D4E RNA polymerase n=1 Tax=Salmonella choler...  63.4    1e-11
+  UniRef90_UPI000925FC1C UPI000925FC1C related cluster n=1 Tax=un...  63.4    2e-11
+  UniRef90_A0A0K0I536 RNA polymerase n=1 Tax=Enterobacter cloacae...  63.0    2e-11
+  UniRef90_UPI0009412CA9 UPI0009412CA9 related cluster n=1 Tax=un...  62.2    3e-11
+  UniRef90_A0A1B8H881 RNA polymerase n=1 Tax=Morganella psychroto...  62.2    3e-11
+  UniRef90_A0A0C5BDC3 Rom-like protein n=1 Tax=Escherichia coli T...  62.6    3e-11
+  UniRef90_UPI000488DB6A hypothetical protein n=1 Tax=Zymobacter ...  61.8    5e-11
+  UniRef90_O30669 RNA one modulator n=11 Tax=Enterobacterales Tax...  61.8    6e-11
+  UniRef90_A0A0U2JMF1 Putative RNA modulator protein n=1 Tax=Edwa...  61.5    7e-11
+  UniRef90_UPI000908242D UPI000908242D related cluster n=1 Tax=un...  61.8    8e-11
+  UniRef90_A0A1J8HZN6 RNA polymerase n=15 Tax=Enterobacteriaceae ...  60.7    1e-10
+  UniRef90_A0A0T9N5Q9 Replication regulatory protein n=2 Tax=Yers...  61.1    1e-10
+  UniRef90_J2X090 Uncharacterized protein n=7 Tax=Klebsiella pneu...  60.7    1e-10
+  UniRef90_UPI00071ADEDC UPI00071ADEDC related cluster n=1 Tax=un...  60.7    2e-10
+  UniRef90_A0A1J8BKJ1 RNA polymerase n=1 Tax=Escherichia coli Tax...  59.9    2e-10
+  UniRef90_A0A0J0I0D5 RNA polymerase n=2 Tax=Enterobacter sp. GN0...  59.9    2e-10
+  UniRef90_UPI000627766C RNA polymerase n=1 Tax=Escherichia coli ...  59.9    2e-10
+  UniRef90_A0A0F4AE04 RNA polymerase n=8 Tax=Enterobacteriaceae T...  59.5    4e-10
+  UniRef90_A0A0H5Q2C9 Uncharacterized protein n=2 Tax=uncultured ...  59.5    4e-10
+  UniRef90_UPI00084AD2EE UPI00084AD2EE related cluster n=1 Tax=un...  59.1    6e-10
+  UniRef90_UPI0003F7C265 UPI0003F7C265 related cluster n=3 Tax=un...  58.8    7e-10
+  UniRef90_UPI0005F9A6AB RNA polymerase n=1 Tax=Enterobacter cloa...  58.0    2e-09
+  UniRef90_UPI0009454E7D UPI0009454E7D related cluster n=1 Tax=un...  57.6    2e-09
+  UniRef90_D6HWQ3 Rop protein n=5 Tax=Escherichia coli TaxID=562 ...  58.0    2e-09
+  UniRef90_UPI0007353D7D UPI0007353D7D related cluster n=1 Tax=un...  57.6    2e-09
+  UniRef90_D2TE22 RNA one modulator n=3 Tax=Erwinia pyrifoliae Ta...  57.6    2e-09
+  UniRef90_A0A085GWM7 Rop family protein n=4 Tax=Enterobacteriace...  57.2    3e-09
+  UniRef90_A6TJ74 RNA one modulator-like protein n=116 Tax=Entero...  57.2    3e-09
+  UniRef90_UPI00057A9967 hypothetical protein n=2 Tax=Plesiomonas...  57.2    3e-09
+  UniRef90_A0A0N8LSL2 RNA polymerase n=22 Tax=Enterobacteriaceae ...  57.2    3e-09
+  UniRef90_A0A167AA14 RNA polymerase n=18 Tax=Proteobacteria TaxI...  57.2    3e-09
+  UniRef90_A0A1J8J9X8 RNA polymerase n=5 Tax=Enterobacterales Tax...  56.8    3e-09
+  UniRef90_UPI0005E4CB2D RNA polymerase n=2 Tax=Yersinia frederik...  56.8    4e-09
+  UniRef90_D3INX7 RNA polymerase n=20 Tax=Enterobacteriaceae TaxI...  56.8    4e-09
+  UniRef90_UPI00044512FE UPI00044512FE related cluster n=1 Tax=un...  56.4    5e-09
+  UniRef90_UPI00063A95C1 UPI00063A95C1 related cluster n=1 Tax=un...  56.4    6e-09
+  UniRef90_A0A1J5W4X7 RNA polymerase n=1 Tax=Lelliottia nimipress...  56.4    6e-09
+  UniRef90_A0A0P6RLH5 RNA polymerase n=2 Tax=Pseudomonas TaxID=28...  56.1    8e-09
+  UniRef90_UPI0006430A33 RNA polymerase n=4 Tax=unknown TaxID= Re...  56.1    8e-09
+  UniRef90_Q9KI27 Putative RNA one modulator protein n=2 Tax=Edwa...  56.1    9e-09
+  UniRef90_UPI000693741C hypothetical protein n=1 Tax=Klebsiella ...  56.1    9e-09
+  UniRef90_UPI00094317AE UPI00094317AE related cluster n=1 Tax=un...  55.7    1e-08
+  UniRef90_UPI0006D9E9E1 RNA polymerase n=1 Tax=Serratia marcesce...  55.7    1e-08
+  UniRef90_A0A0H5QJF9 Uncharacterized protein n=1 Tax=uncultured ...  55.3    1e-08
+  UniRef90_Q8GEG3 RNA I modulator n=1 Tax=Erwinia amylovora TaxID...  55.3    2e-08
+  UniRef90_UPI0006DAEDAF RNA polymerase n=1 Tax=Serratia marcesce...  55.3    2e-08
+  UniRef90_D3GMY2 ROM protein n=1 Tax=Rahnella sp. WMR114 TaxID=6...  54.9    2e-08
+  UniRef90_A0A0D7KWT5 RNA polymerase n=5 Tax=Enterobacteriaceae T...  54.9    2e-08
+  UniRef90_A0A098Y7E7 RNA polymerase n=3 Tax=Gammaproteobacteria ...  54.5    3e-08
+  UniRef90_UPI000806F0D2 UPI000806F0D2 related cluster n=1 Tax=un...  54.1    3e-08
+  UniRef90_A0A0F5XU34 RNA polymerase n=3 Tax=Enterobacterales Tax...  54.1    3e-08
+  UniRef90_A0A0A1BCR4 RNA polymerase n=1 Tax=Pantoea sp. PSNIH2 T...  53.8    5e-08
+  UniRef90_Q52624 Rom n=5 Tax=Enterobacterales TaxID=91347 RepID=...  54.1    5e-08
+  UniRef90_UPI000532E20C RNA polymerase n=1 Tax=Dickeya sp. 2B12 ...  53.4    8e-08
+  UniRef90_UPI00057B60F4 RNA polymerase n=1 Tax=Leclercia adecarb...  52.6    1e-07
+  UniRef90_UPI0002DD28DA RNA polymerase n=1 Tax=Edwardsiella tard...  52.6    2e-07
+  UniRef90_Q8GGG7 Rop n=1 Tax=Enterobacter sp. RFL1396 TaxID=2115...  51.8    3e-07
+  UniRef90_UPI00071AE0D4 UPI00071AE0D4 related cluster n=1 Tax=un...  51.8    4e-07
+  UniRef90_UPI000680D69C RNA polymerase n=2 Tax=Pantoea vagans Ta...  51.4    4e-07
+  UniRef90_UPI00081C1C7F UPI00081C1C7F related cluster n=2 Tax=un...  51.4    5e-07
+  UniRef90_UPI00057C0194 RNA polymerase n=1 Tax=Enterobacter sp. ...  50.7    9e-07
+  UniRef90_UPI0007A5D40A UPI0007A5D40A related cluster n=2 Tax=un...  50.3    1e-06
+  UniRef90_A0A0P8H046 RNA polymerase n=1 Tax=Citrobacter freundii...  50.3    1e-06
+  UniRef90_UPI00094361A2 UPI00094361A2 related cluster n=2 Tax=un...  49.1    3e-06
+  UniRef90_UPI0007E5B691 UPI0007E5B691 related cluster n=1 Tax=un...  48.7    4e-06
+  UniRef90_UPI0007745C62 UPI0007745C62 related cluster n=1 Tax=un...  48.7    5e-06
+  UniRef90_A0A1A9Z2C0 Uncharacterized protein n=1 Tax=Glossina pa...  49.9    5e-06
+  UniRef90_UPI0007E8F75E UPI0007E8F75E related cluster n=1 Tax=un...  48.0    7e-06
+  UniRef90_A0A0P8HP72 RNA polymerase n=1 Tax=Citrobacter freundii...  47.6    1e-05
+  UniRef90_UPI0005C52F5F RNA polymerase n=1 Tax=Acinetobacter sp....  47.2    2e-05
+  UniRef90_A0A0C5AXB7 Uncharacterized protein n=1 Tax=Escherichia...  46.8    2e-05
+  UniRef90_UPI0008D96164 UPI0008D96164 related cluster n=1 Tax=un...  46.0    4e-05
+  UniRef90_W1I6K3 Uncultured bacterium plasmid pRGI00316 n=4 Tax=...  44.9    1e-04
+  UniRef90_K8W629 Rom n=1 Tax=Providencia rettgeri Dmel1 TaxID=11...  44.5    2e-04
+  UniRef90_D3GN07 ROM protein n=3 Tax=Enterobacterales TaxID=9134...  44.1    2e-04
+  UniRef90_UPI00081C19B5 UPI00081C19B5 related cluster n=1 Tax=un...  42.6    7e-04
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A0H5Q4K7 Uncharacterized protein n=1 Tax=uncultured ...  43.0    5e-04
+  UniRef90_UPI000940E633 UPI000940E633 related cluster n=1 Tax=un...  42.2    0.001
+  UniRef90_A0A1C0ZM71 RNA polymerase n=3 Tax=Salmonella enterica ...  40.7    0.003
+
+
+> UniRef90_L8AK66 Uncharacterized protein n=5 Tax=cellular organisms 
+TaxID=131567 RepID=L8AK66_BACIU
+Length=302
+
+ Score = 90.0 bits (222),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 47/55 (85%), Positives = 47/55 (85%), Gaps = 2/55 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCL  55
+           MTKQEKTALNMARFIRSQTLTLLEKLN     ADEQADICESLHDHADELYR   
+Sbjct  1   MTKQEKTALNMARFIRSQTLTLLEKLN--ELDADEQADICESLHDHADELYRRGS  53
+
+
+> UniRef90_B8QJ12 Rop/rom protein n=79 Tax=cellular organisms TaxID=131567 
+RepID=B8QJ12_ECOLX
+Length=74
+
+ Score = 83.0 bits (204),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 55/59 (93%), Positives = 56/59 (95%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           +TKQEKTALNMARFIRSQTLTLLEKLNEL   ADEQADICESLHDHADELYRSCLARFG
+Sbjct  12  VTKQEKTALNMARFIRSQTLTLLEKLNEL--DADEQADICESLHDHADELYRSCLARFG  68
+
+
+> UniRef90_L8AT37 Regulatory protein Rop n=1 Tax=Bacillus subtilis 
+BEST7613 TaxID=1204343 RepID=L8AT37_BACIU
+Length=143
+
+ Score = 83.8 bits (206),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 47/55 (85%), Positives = 47/55 (85%), Gaps = 2/55 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCL  55
+           MTKQEKTALNMARFIRSQTLTLLEKLN     ADEQADICESLHDHADELYR   
+Sbjct  1   MTKQEKTALNMARFIRSQTLTLLEKLN--ELDADEQADICESLHDHADELYRRGS  53
+
+
+> UniRef90_A0A1J4QL40 Uncharacterized protein n=1 Tax=Salmonella 
+enterica I TaxID=59201 RepID=A0A1J4QL40_SALET
+Length=63
+
+ Score = 81.9 bits (201),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 51/59 (86%), Positives = 54/59 (92%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MT+QEKTALNMARFIR+QTLTLLEKLNEL   AD+QA ICESLHDHADELYRSCL RFG
+Sbjct  1   MTRQEKTALNMARFIRAQTLTLLEKLNEL--DADDQAGICESLHDHADELYRSCLTRFG  57
+
+
+> UniRef90_V0SU92 Rop protein n=1 Tax=Escherichia coli 113302 TaxID=1268977 
+RepID=V0SU92_ECOLX
+Length=123
+
+ Score = 83.0 bits (204),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 43/58 (74%), Gaps = 2/58 (3%)
+
+Query  1    MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+            + KQ++TALNMARFI+SQ+LTLLEKL+ L   AD QA +CE LH+ A+EL  S    F
+Sbjct  60   VNKQQQTALNMARFIKSQSLTLLEKLDAL--DADVQAAMCERLHELAEELQNSIQVHF  115
+
+
+> UniRef90_A0A098YHF8 Regulatory protein n=4 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A098YHF8_9GAMM
+Length=78
+
+ Score = 81.1 bits (199),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 52/59 (88%), Positives = 56/59 (95%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           +TKQEKTALNMARFI+SQTLTLLEKLNEL   AD+QADICE+LHDHADELYRSCLARFG
+Sbjct  16  VTKQEKTALNMARFIKSQTLTLLEKLNEL--DADDQADICEALHDHADELYRSCLARFG  72
+
+
+> UniRef90_UPI00073771FB hypothetical protein, partial n=1 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=UPI00073771FB
+Length=64
+
+ Score = 79.9 bits (196),  Expect = 5e-18, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 56/59 (95%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMARFIRSQTLTLLEKLNEL   ADEQADICESLHDHADELYRSCLARFG
+Sbjct  1   MTKQEKTALNMARFIRSQTLTLLEKLNEL--DADEQADICESLHDHADELYRSCLARFG  57
+
+
+> UniRef90_UPI000699C827 hypothetical protein n=1 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=UPI000699C827
+Length=79
+
+ Score = 80.3 bits (197),  Expect = 5e-18, Method: Composition-based stats.
+ Identities = 47/58 (81%), Positives = 52/58 (90%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           + KQ++TALN+ARFI+SQTLTLLEKLN     ADEQADICESLHDHADELYRSCLARF
+Sbjct  17  VNKQQQTALNIARFIKSQTLTLLEKLN--ELDADEQADICESLHDHADELYRSCLARF  72
+
+
+> UniRef90_A0A0D0LJT0 Regulatory protein n=103 Tax=root TaxID=1 
+RepID=A0A0D0LJT0_ECOLX
+Length=63
+
+ Score = 79.9 bits (196),  Expect = 6e-18, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 56/59 (95%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMARFIRSQTLTLLEKLNEL   ADEQADICESLHDHADELYRSCLARFG
+Sbjct  1   MTKQEKTALNMARFIRSQTLTLLEKLNEL--DADEQADICESLHDHADELYRSCLARFG  57
+
+
+> UniRef90_P03051 Regulatory protein rop n=77 Tax=root TaxID=1 
+RepID=ROP_ECOLX
+Length=63
+
+ Score = 79.6 bits (195),  Expect = 9e-18, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 56/59 (95%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMARFIRSQTLTLLEKLNEL   ADEQADICESLHDHADELYRSCLARFG
+Sbjct  1   MTKQEKTALNMARFIRSQTLTLLEKLNEL--DADEQADICESLHDHADELYRSCLARFG  57
+
+
+> UniRef90_L8AE36 Regulatory protein Rop n=1 Tax=Bacillus subtilis 
+BEST7613 TaxID=1204343 RepID=L8AE36_BACIU
+Length=80
+
+ Score = 79.6 bits (195),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 49/55 (89%), Positives = 49/55 (89%), Gaps = 2/55 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCL  55
+           MTKQEKTALNMARFIRSQTLTLLEKLNEL   ADEQADICESLHDHADELYR   
+Sbjct  1   MTKQEKTALNMARFIRSQTLTLLEKLNEL--DADEQADICESLHDHADELYRRGS  53
+
+
+> UniRef90_UPI00039D460E regulatory protein n=9 Tax=Enterobacterales 
+TaxID=91347 RepID=UPI00039D460E
+Length=63
+
+ Score = 77.6 bits (190),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 50/59 (85%), Positives = 52/59 (88%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMARFIRSQTLTLLEKLN      D+QADICE+LHDHADELYRSCLA FG
+Sbjct  1   MTKQEKTALNMARFIRSQTLTLLEKLN--ELDVDDQADICEALHDHADELYRSCLAHFG  57
+
+
+> UniRef90_UPI0004D54A1F hypothetical protein n=1 Tax=Escherichia 
+coli TaxID=562 RepID=UPI0004D54A1F
+Length=63
+
+ Score = 75.3 bits (184),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 41/59 (69%), Positives = 48/59 (81%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQE+TA+NMARFI+S +LTLLEKL+ L   ADEQA ICE LH+ ADELY+ C  RFG
+Sbjct  1   MTKQEQTAINMARFIKSHSLTLLEKLDAL--DADEQAAICEQLHEVADELYQRCRERFG  57
+
+
+> UniRef90_UPI0003EB335E regulatory protein n=1 Tax=Salmonella 
+choleraesuis TaxID=28901 RepID=UPI0003EB335E
+Length=63
+
+ Score = 74.6 bits (182),  Expect = 8e-16, Method: Composition-based stats.
+ Identities = 50/58 (86%), Positives = 54/58 (93%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++TALNMARFI+SQTLTLLEKLNEL   ADEQADICESLH+HADELYRSCLARF
+Sbjct  1   MNKQQQTALNMARFIKSQTLTLLEKLNEL--DADEQADICESLHEHADELYRSCLARF  56
+
+
+> UniRef90_C0AQF1 Rop protein (Fragment) n=3 Tax=Bacteria TaxID=2 
+RepID=C0AQF1_9GAMM
+Length=63
+
+ Score = 74.2 bits (181),  Expect = 8e-16, Method: Composition-based stats.
+ Identities = 48/54 (89%), Positives = 49/54 (91%), Gaps = 2/54 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSC  54
+           +TKQEKTALNMARFIRSQTLTLLEKLN     ADEQADICESLHDHADELYRSC
+Sbjct  12  VTKQEKTALNMARFIRSQTLTLLEKLN--ELDADEQADICESLHDHADELYRSC  63
+
+
+> UniRef90_L8AQ06 Regulatory protein Rop n=1 Tax=Bacillus subtilis 
+BEST7613 TaxID=1204343 RepID=L8AQ06_BACIU
+Length=80
+
+ Score = 74.2 bits (181),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 49/55 (89%), Positives = 49/55 (89%), Gaps = 2/55 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCL  55
+           MTKQEKTALNMARFIRSQTLTLLEKLNEL   ADEQADICESLHDHADELYR   
+Sbjct  1   MTKQEKTALNMARFIRSQTLTLLEKLNEL--DADEQADICESLHDHADELYRRGS  53
+
+
+> UniRef90_UPI00083CF4B3 UPI00083CF4B3 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00083CF4B3
+Length=64
+
+ Score = 73.8 bits (180),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 43/58 (74%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ+ T LNMA+FI+SQ+LTLLEKL+  +  AD QA +CE LH+ A+EL  S   RF
+Sbjct  1   MTKQQSTTLNMAKFIKSQSLTLLEKLD--SRNADAQAAMCEKLHELAEELQNSIQTRF  56
+
+
+> UniRef90_A0A077NG68 Regulatory protein rop n=2 Tax=Xenorhabdus 
+bovienii TaxID=40576 RepID=A0A077NG68_XENBV
+Length=70
+
+ Score = 73.0 bits (178),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 31/59 (53%), Positives = 42/59 (71%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           M KQEK+ LN+A+FIR QTL LLEK+N      D++A+ CE LHD A+ LY   ++R+G
+Sbjct  12  MNKQEKSCLNIAKFIRGQTLLLLEKIN--ELDLDDEAEACEKLHDDAEALYHQLVSRYG  68
+
+
+> UniRef90_UPI000847CBE8 UPI000847CBE8 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000847CBE8
+Length=64
+
+ Score = 73.0 bits (178),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 41/58 (71%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ +T LNMA  I+SQ+LTLLEKL+ L   ADEQA +CE LH+ A+EL  S   RF
+Sbjct  1   MNKQPQTVLNMAGVIKSQSLTLLEKLDAL--DADEQAAMCEKLHEIAEELQNSIQTRF  56
+
+
+> UniRef90_A0A0K3NJ40 Putative RNA I modulator protein n=9 Tax=Enterobacterales 
+TaxID=91347 RepID=A0A0K3NJ40_ECOLX
+Length=64
+
+ Score = 71.1 bits (173),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++TALNMA+FI+SQ+LTLLEKL+  +  AD QA +CE LH+ A+EL  S   RF
+Sbjct  1   MNKQQQTALNMAKFIKSQSLTLLEKLD--SLDADAQAAMCEKLHELAEELQNSIQTRF  56
+
+
+> UniRef90_A0A080FMY8 Rop family protein n=35 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A080FMY8_ECOLX
+Length=64
+
+ Score = 70.3 bits (171),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 42/58 (72%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++  LNMA FI+SQ+LTLLEKL+ L   ADEQA +CE LH+ A+EL  S   RF
+Sbjct  1   MNKQQQAVLNMAGFIKSQSLTLLEKLDAL--DADEQAAMCEKLHELAEELQNSIQTRF  56
+
+
+> UniRef90_A0A069WX31 Rop family protein n=3 Tax=Escherichia coli 
+3-373-03_S4_C2 TaxID=1444252 RepID=A0A069WX31_ECOLX
+Length=64
+
+ Score = 70.3 bits (171),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 36/58 (62%), Positives = 45/58 (78%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++TALNMA FI+SQ+LTLLEKL+ L   ADEQA +CE LH+ A+EL +S   RF
+Sbjct  1   MNKQQQTALNMAGFIKSQSLTLLEKLDAL--DADEQAAMCEKLHELAEELQKSIQTRF  56
+
+
+> UniRef90_A0A0D0N5C2 RNA polymerase n=38 Tax=Bacteria TaxID=2 
+RepID=A0A0D0N5C2_ECOLX
+Length=64
+
+ Score = 70.3 bits (171),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 42/58 (72%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++  LNMA FI+SQ+LTLLEKL+ L   ADEQA +CE LH+ A+EL  S   RF
+Sbjct  1   MNKQQQAVLNMAGFIKSQSLTLLEKLDAL--NADEQAAMCEKLHELAEELQNSIQTRF  56
+
+
+> UniRef90_UPI0009269425 UPI0009269425 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009269425
+Length=62
+
+ Score = 70.3 bits (171),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 40/52 (77%), Positives = 44/52 (85%), Gaps = 2/52 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYR  52
+           MTKQEKTA+NMARFIR+QTLTLLEK+N     ADEQAD+ ESLHDHA E YR
+Sbjct  13  MTKQEKTAVNMARFIRNQTLTLLEKVN--DLGADEQADMWESLHDHAAEHYR  62
+
+
+> UniRef90_A0A0K5TBR5 Putative RNAI modulator protein n=23 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A0K5TBR5_ECOLX
+Length=64
+
+ Score = 69.9 bits (170),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 42/58 (72%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++  LNMA FI+SQ+LTLLEKL+ L   ADEQA +CE LH+ A+EL  S   RF
+Sbjct  1   MNKQQQAVLNMAGFIKSQSLTLLEKLDAL--DADEQATMCEKLHELAEELQNSIRTRF  56
+
+
+> UniRef90_UPI00084B07BC UPI00084B07BC related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00084B07BC
+Length=64
+
+ Score = 69.9 bits (170),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 33/58 (57%), Positives = 42/58 (72%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++T LNMA FI+ Q LTLLEKL+  A  ADEQA +CE LH+ A++L +S   RF
+Sbjct  1   MNKQQQTVLNMAGFIKRQRLTLLEKLD--APDADEQATMCEKLHEIAEKLQKSIKTRF  56
+
+
+> UniRef90_Q1BZY3 Regulatory protein rop n=54 Tax=Enterobacterales 
+TaxID=91347 RepID=Q1BZY3_YERPA
+Length=64
+
+ Score = 69.2 bits (168),  Expect = 8e-14, Method: Composition-based stats.
+ Identities = 38/58 (66%), Positives = 45/58 (78%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++TALNMARFIRSQ+L LLEKL+ L   ADEQA +CE LH+ A+EL  S  ARF
+Sbjct  1   MNKQQQTALNMARFIRSQSLILLEKLDAL--DADEQAAMCERLHELAEELQNSIQARF  56
+
+
+> UniRef90_UPI0009449920 UPI0009449920 related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI0009449920
+Length=75
+
+ Score = 69.5 bits (169),  Expect = 8e-14, Method: Composition-based stats.
+ Identities = 29/58 (50%), Positives = 42/58 (72%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           +TKQ++T L MA+FI +Q+L LLEK NEL    D +AD+CE LH++A++LYR+     
+Sbjct  13  ITKQQQTTLYMAKFIPAQSLLLLEKFNEL--DLDSEADLCEKLHEYAEQLYRTLAIWL  68
+
+
+> UniRef90_UPI00069A99AA RNA polymerase n=1 Tax=Escherichia coli 
+TaxID=562 RepID=UPI00069A99AA
+Length=64
+
+ Score = 69.2 bits (168),  Expect = 9e-14, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 41/58 (71%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++  LNMA FI+SQ LTLLEKL+ L   ADEQA +CE LH+ A+EL  S   RF
+Sbjct  1   MNKQQQAVLNMAGFIKSQGLTLLEKLDAL--DADEQATMCEKLHELAEELQNSIRTRF  56
+
+
+> UniRef90_A0A167RF48 RNA I inhibition modulator protein n=18 Tax=root 
+TaxID=1 RepID=A0A167RF48_ECOLX
+Length=64
+
+ Score = 68.4 bits (166),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 36/58 (62%), Positives = 44/58 (76%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++TALNMARFI+SQ+LTLLEKL+ L   ADEQA +CE LH+ A+EL  S    F
+Sbjct  1   MNKQQQTALNMARFIKSQSLTLLEKLDAL--DADEQATMCERLHELAEELCNSVQTHF  56
+
+
+> UniRef90_UPI000774FB20 UPI000774FB20 related cluster n=4 Tax=unknown 
+TaxID= RepID=UPI000774FB20
+Length=64
+
+ Score = 68.0 bits (165),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 36/58 (62%), Positives = 44/58 (76%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++TALNMARFI+SQ+LTLLEKL+ L   ADEQA +CE LH+ A+EL  S    F
+Sbjct  1   MNKQQQTALNMARFIKSQSLTLLEKLDAL--DADEQATLCERLHELAEELCNSVQTHF  56
+
+
+> UniRef90_UPI0007A620CE UPI0007A620CE related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007A620CE
+Length=64
+
+ Score = 67.6 bits (164),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 32/58 (55%), Positives = 42/58 (72%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++TALNMARFI+SQ+LTLLEKL+ L    +EQ  +CE LH+ A+E+      RF
+Sbjct  1   MNKQQQTALNMARFIKSQSLTLLEKLDAL--DTNEQVAMCERLHERAEEIQNRIQVRF  56
+
+
+> UniRef90_Q6KCD4 Rom protein n=3 Tax=Escherichia coli TaxID=562 
+RepID=Q6KCD4_ECOLX
+Length=50
+
+ Score = 67.2 bits (163),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 45/51 (88%), Positives = 47/51 (92%), Gaps = 2/51 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELY  51
+           MTKQEKTALNMARFIRSQTLTLLEKLNEL   ADEQADICESLHDHAD ++
+Sbjct  1   MTKQEKTALNMARFIRSQTLTLLEKLNEL--DADEQADICESLHDHADGVF  49
+
+
+> UniRef90_R4Y3G4 Uncharacterized protein n=5 Tax=Enterobacteriaceae 
+TaxID=543 RepID=R4Y3G4_KLEPR
+Length=82
+
+ Score = 67.6 bits (164),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 26/59 (44%), Positives = 35/59 (59%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMA+FI+ Q+L             D  AD+CE LH+ A+ L++    + G
+Sbjct  24  MTKQEKTALNMAKFIKDQSLL--LLEKLNELDMDTPADMCERLHEDAETLWQVMRDKLG  80
+
+
+> UniRef90_A0A1D3C897 Uncharacterized protein n=15 Tax=root TaxID=1 
+RepID=A0A1D3C897_9ENTR
+Length=79
+
+ Score = 67.2 bits (163),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 32/59 (54%), Positives = 40/59 (68%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           +T+QE  ALNMA+FIRSQTL LLE+L ++    DE A  CE LHD A+ LY    A+ G
+Sbjct  19  VTRQESAALNMAKFIRSQTLLLLERLEQM--DLDEAAGCCEHLHDQAEALYTMLNAQTG  75
+
+
+> UniRef90_M9H4U8 Regulatory protein rop n=3 Tax=Escherichia coli 
+TaxID=562 RepID=M9H4U8_ECOLX
+Length=66
+
+ Score = 66.5 bits (161),  Expect = 9e-13, Method: Composition-based stats.
+ Identities = 45/49 (92%), Positives = 45/49 (92%), Gaps = 2/49 (4%)
+
+Query  11  MARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MARFIRSQTLTLLEKLNEL   ADEQADICESLHDHADELYR CLARFG
+Sbjct  1   MARFIRSQTLTLLEKLNEL--DADEQADICESLHDHADELYRGCLARFG  47
+
+
+> UniRef90_A0A0D7KVL1 RNA polymerase n=1 Tax=Citrobacter freundii 
+TaxID=546 RepID=A0A0D7KVL1_CITFR
+Length=62
+
+ Score = 65.7 bits (159),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 28/58 (48%), Positives = 39/58 (67%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ+KTALNMA+FI++Q+L LL   N      D +A +CE LH+ A+ L+R+   R 
+Sbjct  1   MTKQQKTALNMAKFIQAQSLFLLG--NLNEQDLDTEAGLCEKLHEDAELLFRTLDIRL  56
+
+
+> UniRef90_UPI00064A6DA1 UPI00064A6DA1 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00064A6DA1
+Length=62
+
+ Score = 64.2 bits (155),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 30/58 (52%), Positives = 42/58 (72%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M +QE  ALNMA+FIR+QTL LLEK+++L    D++A  CE LH+ A++LY+   AR 
+Sbjct  1   MNRQESAALNMAKFIRAQTLLLLEKIDQL--DLDDEATDCEKLHEQAEKLYQKLQARL  56
+
+
+> UniRef90_UPI00075032E0 RNA polymerase n=1 Tax=Enterobacter cloacae 
+TaxID=550 RepID=UPI00075032E0
+Length=62
+
+ Score = 63.8 bits (154),  Expect = 8e-12, Method: Composition-based stats.
+ Identities = 31/58 (53%), Positives = 42/58 (72%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M +QE  ALNMA+FIR+QTL LLEK+++L    D++A  CE LH+ A+ LY+  LAR 
+Sbjct  1   MNRQESAALNMAKFIRTQTLLLLEKIDQL--DLDDEATECEKLHEQAENLYQKLLARL  56
+
+
+> UniRef90_UPI00093A8A8E UPI00093A8A8E related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00093A8A8E
+Length=64
+
+ Score = 63.8 bits (154),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 31/58 (53%), Positives = 38/58 (66%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++  LN A  I+SQ+LTLLEKL      ADEQA +CE LH+ A+EL  S   RF
+Sbjct  1   MNKQQQAVLNKAGIIKSQSLTLLEKLEA--HDADEQATMCEKLHELAEELQNSIQTRF  56
+
+
+> UniRef90_UPI0002DB8D4E RNA polymerase n=1 Tax=Salmonella choleraesuis 
+TaxID=28901 RepID=UPI0002DB8D4E
+Length=62
+
+ Score = 63.4 bits (153),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 28/58 (48%), Positives = 40/58 (69%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M +QE   LNM +FIR+QTL LLEK+++L    D+ A  CE LH+ A++LY+  LA+ 
+Sbjct  1   MNRQESATLNMDKFIRTQTLLLLEKIDQL--DLDDGATECEKLHEQAEKLYQKLLAKL  56
+
+
+> UniRef90_UPI000925FC1C UPI000925FC1C related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000925FC1C
+Length=70
+
+ Score = 63.4 bits (153),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 30/44 (68%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  16  RSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           R Q   L+ +       ADEQADICESLHDHADELYRSCLARFG
+Sbjct  21  RGQRYRLVFQFPIRELDADEQADICESLHDHADELYRSCLARFG  64
+
+
+> UniRef90_A0A0K0I536 RNA polymerase n=1 Tax=Enterobacter cloacae 
+TaxID=550 RepID=A0A0K0I536_ENTCL
+Length=59
+
+ Score = 63.0 bits (152),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 27/59 (46%), Positives = 36/59 (61%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMA+FIR Q+L             D+ AD+CE LH+ A++L+     + G
+Sbjct  1   MTKQEKTALNMAKFIRDQSLL--LLEKLNELDMDDPADMCERLHEDAEKLWLVMRGKLG  57
+
+
+> UniRef90_UPI0009412CA9 UPI0009412CA9 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009412CA9
+Length=58
+
+ Score = 62.2 bits (150),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 41/58 (71%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQE TALNMA FI+SQTL LL+KLN+L    D+ AD CE LHD A+ELY +     
+Sbjct  1   MTKQELTALNMAGFIKSQTLILLDKLNQL--NLDDCADECEDLHDMAEELYFNLKRTL  56
+
+
+> UniRef90_A0A1B8H881 RNA polymerase n=1 Tax=Morganella psychrotolerans 
+TaxID=368603 RepID=A0A1B8H881_9GAMM
+Length=62
+
+ Score = 62.2 bits (150),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 31/60 (52%), Positives = 44/60 (73%), Gaps = 1/60 (2%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNE-LADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEK  +NMA F+++Q+L LLEKLNE  +D  D + ++CE LH+HA+ L+R   A+ G
+Sbjct  1   MTKQEKAVVNMANFLQAQSLLLLEKLNEQDSDNLDAETNLCEELHEHAESLHRRLNAKLG  60
+
+
+> UniRef90_A0A0C5BDC3 Rom-like protein n=1 Tax=Escherichia coli 
+TaxID=562 RepID=A0A0C5BDC3_ECOLX
+Length=80
+
+ Score = 62.6 bits (151),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 27/59 (46%), Positives = 36/59 (61%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQE  ALNMA+FIR+Q+L             D++A  CE +H+ A+ LY+   ARFG
+Sbjct  19  MTKQESAALNMAKFIRAQSLL--LLEKLDVLDLDDEAADCERMHEQAEALYQKLSARFG  75
+
+
+> UniRef90_UPI000488DB6A hypothetical protein n=1 Tax=Zymobacter 
+palmae TaxID=33074 RepID=UPI000488DB6A
+Length=62
+
+ Score = 61.8 bits (149),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 28/59 (47%), Positives = 40/59 (68%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           M K+EK+ALN+A+FI+SQTL LL+KLN      D+ A+ CE LHD A+ L+     ++ 
+Sbjct  1   MGKKEKSALNVAKFIKSQTLILLDKLN--ELDDDDAANACEKLHDDAEALHEVLANKWA  57
+
+
+> UniRef90_O30669 RNA one modulator n=11 Tax=Enterobacterales TaxID=91347 
+RepID=O30669_ENTAG
+Length=61
+
+ Score = 61.8 bits (149),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 32/59 (54%), Positives = 40/59 (68%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MT+QE  ALNMA+FIR+QTL LLE+L ++    DE A  CE LHD A+ LY    A+ G
+Sbjct  1   MTRQESAALNMAKFIRAQTLLLLERLEQM--DLDEAAGCCEHLHDQAEALYAMLNAQIG  57
+
+
+> UniRef90_A0A0U2JMF1 Putative RNA modulator protein n=1 Tax=Edwardsiella 
+ictaluri TaxID=67780 RepID=A0A0U2JMF1_EDWIC
+Length=58
+
+ Score = 61.5 bits (148),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 32/58 (55%), Positives = 42/58 (72%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQE +A+NMA+FI++QTL LLEKLN      DE+AD CE LH+ A+ LYR+   + 
+Sbjct  1   MTKQELSAVNMAKFIKAQTLILLEKLN--DLNLDERADECEHLHEMAETLYRNLEKQL  56
+
+
+> UniRef90_UPI000908242D UPI000908242D related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000908242D
+Length=79
+
+ Score = 61.8 bits (149),  Expect = 8e-11, Method: Composition-based stats.
+ Identities = 29/59 (49%), Positives = 37/59 (63%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           +T+ E  A NMA+ IRSQTL LLE+L ++    DE A  CE LHD A+ LY    A+ G
+Sbjct  19  VTRHESAAPNMAKCIRSQTLLLLERLEQM--DLDEAAGCCEHLHDQAEALYTMLNAQTG  75
+
+
+> UniRef90_A0A1J8HZN6 RNA polymerase n=15 Tax=Enterobacteriaceae 
+TaxID=543 RepID=A0A1J8HZN6_ECOLX
+Length=59
+
+ Score = 60.7 bits (146),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 26/59 (44%), Positives = 35/59 (59%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMA+FI+ Q+L             D  AD+CE LH+ A+ L++    + G
+Sbjct  1   MTKQEKTALNMAKFIKEQSLL--LLDKLNELDMDTPADMCERLHEDAETLWQVMRDKLG  57
+
+
+> UniRef90_A0A0T9N5Q9 Replication regulatory protein n=2 Tax=Yersinia 
+TaxID=444888 RepID=A0A0T9N5Q9_YERIN
+Length=63
+
+ Score = 61.1 bits (147),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 25/58 (43%), Positives = 35/58 (60%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M K++KTALNMA+FI+ Q+L         A   D +AD+CE LH+  ++LYR    R 
+Sbjct  1   MNKEQKTALNMAKFIQGQSLL--LLEKLNALDFDTEADLCEKLHEDTEQLYRVLSERL  56
+
+
+> UniRef90_J2X090 Uncharacterized protein n=7 Tax=Klebsiella pneumoniae 
+TaxID=573 RepID=J2X090_KLEPN
+Length=62
+
+ Score = 60.7 bits (146),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 26/59 (44%), Positives = 35/59 (59%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMA+FI+ Q+L             D  AD+CE LH+ A+ L++    + G
+Sbjct  4   MTKQEKTALNMAKFIKDQSLL--LLEKLNELDMDTPADMCERLHEDAETLWQVMRDKLG  60
+
+
+> UniRef90_UPI00071ADEDC UPI00071ADEDC related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00071ADEDC
+Length=75
+
+ Score = 60.7 bits (146),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 23/45 (51%), Positives = 31/45 (69%), Gaps = 2/45 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHD  45
+           M +QE   LNM +FIR+QTL LLEK+++L    D+ A  CE LH+
+Sbjct  19  MNRQESATLNMDKFIRTQTLLLLEKIDQL--DLDDGATECEKLHE  61
+
+
+> UniRef90_A0A1J8BKJ1 RNA polymerase n=1 Tax=Escherichia coli TaxID=562 
+RepID=A0A1J8BKJ1_ECOLX
+Length=49
+
+ Score = 59.9 bits (144),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 30/49 (61%), Positives = 38/49 (78%), Gaps = 2/49 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADE  49
+           M KQ++  LNMA FI+SQ+LTLLEKL+ L   ADEQA +CE LH+ A+E
+Sbjct  1   MNKQQQAVLNMAGFIKSQSLTLLEKLDAL--DADEQAAMCEKLHELAEE  47
+
+
+> UniRef90_A0A0J0I0D5 RNA polymerase n=2 Tax=Enterobacter sp. GN02600 
+TaxID=1659714 RepID=A0A0J0I0D5_9ENTR
+Length=62
+
+ Score = 59.9 bits (144),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 25/58 (43%), Positives = 32/58 (55%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M +QE   LNMA+FIR+QTL             D++A  CE LH+ A+ LYR   AR 
+Sbjct  1   MNRQESAVLNMAKFIRAQTLL--LLERIDLLDFDDEATDCEQLHEQAEALYRKLSARL  56
+
+
+> UniRef90_UPI000627766C RNA polymerase n=1 Tax=Escherichia coli 
+TaxID=562 RepID=UPI000627766C
+Length=56
+
+ Score = 59.9 bits (144),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 26/58 (45%), Positives = 35/58 (60%), Gaps = 3/58 (5%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQ++T LNMA FI+SQ+LTL EKL+ L   A+     C    + A+EL +S   R 
+Sbjct  1   MNKQQQTVLNMAGFIKSQSLTLPEKLDALDA-ANRPP--CVRSAELAEELQKSIQTRL  55
+
+
+> UniRef90_A0A0F4AE04 RNA polymerase n=8 Tax=Enterobacteriaceae 
+TaxID=543 RepID=A0A0F4AE04_9ENTR
+Length=63
+
+ Score = 59.5 bits (143),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 27/59 (46%), Positives = 35/59 (59%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMA+FI+ Q+L             D +AD+CE LH+ A+ L R+   R  
+Sbjct  1   MTKQEKTALNMAKFIQGQSLL--LLEKLNELNLDMEADMCEKLHEDAEMLCRTLYGRLN  57
+
+
+> UniRef90_A0A0H5Q2C9 Uncharacterized protein n=2 Tax=uncultured 
+prokaryote TaxID=198431 RepID=A0A0H5Q2C9_9ZZZZ
+Length=63
+
+ Score = 59.5 bits (143),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 26/59 (44%), Positives = 37/59 (63%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           M KQ+K+ALNMA+FIR Q+L             D++AD+CE LHD A++L+     +FG
+Sbjct  1   MNKQQKSALNMAKFIRGQSLL--LLEKLNELNLDDEADLCEKLHDDAEKLFLVMAEKFG  57
+
+
+> UniRef90_UPI00084AD2EE UPI00084AD2EE related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00084AD2EE
+Length=71
+
+ Score = 59.1 bits (142),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 25/48 (52%), Positives = 32/48 (67%), Gaps = 2/48 (4%)
+
+Query  11  MARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MA FI+SQ+LTL EK++ L   ADEQA + E LH+ A+EL  S    F
+Sbjct  1   MAGFIKSQSLTLPEKMDGL--DADEQATMGEKLHELAEELQNSIQTSF  46
+
+
+> UniRef90_UPI0003F7C265 UPI0003F7C265 related cluster n=3 Tax=unknown 
+TaxID= RepID=UPI0003F7C265
+Length=58
+
+ Score = 58.8 bits (141),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 33/58 (57%), Positives = 41/58 (71%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQE TALN+A FI+SQTL LL+KLN+L    D+ AD CE L+D A+ELY +     
+Sbjct  1   MTKQELTALNIAGFIKSQTLILLDKLNQL--NLDDCADECEDLYDMAEELYLNLKKTL  56
+
+
+> UniRef90_UPI0005F9A6AB RNA polymerase n=1 Tax=Enterobacter cloacae 
+TaxID=550 RepID=UPI0005F9A6AB
+Length=63
+
+ Score = 58.0 bits (139),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 23/58 (40%), Positives = 35/58 (60%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ+KT LNMA+FI++Q+L             D +AD+CE LH+  ++L+ +   R 
+Sbjct  1   MTKQQKTVLNMAKFIQAQSLL--LLEKLNELDFDAEADLCEKLHEDTEQLFCTLAIRL  56
+
+
+> UniRef90_UPI0009454E7D UPI0009454E7D related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009454E7D
+Length=58
+
+ Score = 57.6 bits (138),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 26/53 (49%), Positives = 36/53 (68%), Gaps = 2/53 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRS  53
+           MTKQ+KTALNMA+FI++Q+L             D +AD+CE LHD A+ L+R+
+Sbjct  1   MTKQQKTALNMAKFIQNQSLL--LLEKLNELDLDAEADLCEKLHDDAEHLFRT  51
+
+
+> UniRef90_D6HWQ3 Rop protein n=5 Tax=Escherichia coli TaxID=562 
+RepID=D6HWQ3_ECOLX
+Length=64
+
+ Score = 58.0 bits (139),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 26/58 (45%), Positives = 36/58 (62%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ+K ALNMA+FI+ QTL             D +AD+CE LH+ A++L R+ + R 
+Sbjct  2   MTKQQKAALNMAKFIQGQTLL--LLEKLNELDLDVEADLCEKLHEDAEQLCRTLIIRL  57
+
+
+> UniRef90_UPI0007353D7D UPI0007353D7D related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007353D7D
+Length=63
+
+ Score = 57.6 bits (138),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 27/58 (47%), Positives = 38/58 (66%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQE+TALNMA+FI+ Q+L             D++AD+CE LH+ A++LYR+   R 
+Sbjct  1   MTKQEQTALNMAKFIQGQSLL--LLDKLNELNLDKEADMCEQLHEDAEQLYRALSGRL  56
+
+
+> UniRef90_D2TE22 RNA one modulator n=3 Tax=Erwinia pyrifoliae 
+TaxID=79967 RepID=D2TE22_ERWP6
+Length=69
+
+ Score = 57.6 bits (138),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 25/58 (43%), Positives = 31/58 (53%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQE T LNMA+FIR QTL             D++A  CE LH+ A+ LY+    R 
+Sbjct  3   MNKQETTTLNMAKFIRGQTLL--LLEKLDVLDLDDEAADCEKLHEQAEALYQKLSGRL  58
+
+
+> UniRef90_A0A085GWM7 Rop family protein n=4 Tax=Enterobacteriaceae 
+TaxID=543 RepID=A0A085GWM7_9ENTR
+Length=64
+
+ Score = 57.2 bits (137),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 27/58 (47%), Positives = 39/58 (67%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ+KTALNMA+FI++Q+L             D +AD+CE+LH+ A+ L+RS + R 
+Sbjct  2   MTKQQKTALNMAKFIQAQSLL--LLEKLNELDLDTEADLCEALHEDAEHLFRSLMTRI  57
+
+
+> UniRef90_A6TJ74 RNA one modulator-like protein n=116 Tax=Enterobacterales 
+TaxID=91347 RepID=A6TJ74_KLEP7
+Length=63
+
+ Score = 57.2 bits (137),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 27/58 (47%), Positives = 37/58 (64%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ+KTALNMA+FI+ Q+L             D +AD+CE LHD A+ L+R+  +R 
+Sbjct  1   MTKQQKTALNMAKFIQHQSLL--LLEKLNELDLDAEADLCEKLHDDAEHLFRTLSSRL  56
+
+
+> UniRef90_UPI00057A9967 hypothetical protein n=2 Tax=Plesiomonas 
+TaxID=702 RepID=UPI00057A9967
+Length=60
+
+ Score = 57.2 bits (137),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 31/59 (53%), Positives = 38/59 (64%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           M KQ+KTALNMA+FIR QTL             DEQAD CE LH+ ++ LY+S +A FG
+Sbjct  1   MNKQQKTALNMAKFIRGQTLL--LLEKLNELDLDEQADQCEKLHEDSEALYQSLVAEFG  57
+
+
+> UniRef90_A0A0N8LSL2 RNA polymerase n=22 Tax=Enterobacteriaceae 
+TaxID=543 RepID=A0A0N8LSL2_CITFR
+Length=62
+
+ Score = 57.2 bits (137),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 27/59 (46%), Positives = 36/59 (61%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQE  ALNMA+FIR+Q+L             D++A  CE +H+ A+ LY+   ARFG
+Sbjct  1   MTKQESAALNMAKFIRAQSLL--LLEKLDMLDLDDEAADCERMHEQAEALYQKLSARFG  57
+
+
+> UniRef90_A0A167AA14 RNA polymerase n=18 Tax=Proteobacteria TaxID=1224 
+RepID=A0A167AA14_ECOLX
+Length=62
+
+ Score = 57.2 bits (137),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 27/59 (46%), Positives = 36/59 (61%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQE  ALNMA+FIR+Q+L             D++A  CE +H+ A+ LY+   ARFG
+Sbjct  1   MTKQESAALNMAKFIRAQSLL--LLEKLDVLDLDDEAADCERMHEQAEALYQKLSARFG  57
+
+
+> UniRef90_A0A1J8J9X8 RNA polymerase n=5 Tax=Enterobacterales TaxID=91347 
+RepID=A0A1J8J9X8_CITFR
+Length=59
+
+ Score = 56.8 bits (136),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 27/59 (46%), Positives = 35/59 (59%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMA+FIR Q+L             D  AD+CE LH+ A+ L+ +   + G
+Sbjct  1   MTKQEKTALNMAKFIRDQSLL--LLEKLNELDMDTAADMCERLHEDAETLWLAMRDQLG  57
+
+
+> UniRef90_UPI0005E4CB2D RNA polymerase n=2 Tax=Yersinia frederiksenii 
+TaxID=29484 RepID=UPI0005E4CB2D
+Length=59
+
+ Score = 56.8 bits (136),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 26/59 (44%), Positives = 35/59 (59%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKTALNMA+FI+ Q+L             D  AD+CE LH+ A++L++      G
+Sbjct  1   MTKQEKTALNMAKFIKDQSLL--LLEKLNELDMDAPADLCEQLHEDAEKLWQVMGKLLG  57
+
+
+> UniRef90_D3INX7 RNA polymerase n=20 Tax=Enterobacteriaceae TaxID=543 
+RepID=D3INX7_ECOLX
+Length=63
+
+ Score = 56.8 bits (136),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 27/59 (46%), Positives = 35/59 (59%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           M KQ+KTA+NMA+FI+ Q+L             D +AD CE LH+ A+ LYRS  AR  
+Sbjct  1   MNKQQKTAVNMAKFIQDQSLL--LLDRLNELDLDHEADFCEKLHEDAERLYRSLSARLN  57
+
+
+> UniRef90_UPI00044512FE UPI00044512FE related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00044512FE
+Length=50
+
+ Score = 56.4 bits (135),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 42/45 (93%), Positives = 42/45 (93%), Gaps = 2/45 (4%)
+
+Query  15  IRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           IRSQTLTLLEKLNEL   ADEQADICESLHDHADELYRSCLARFG
+Sbjct  2   IRSQTLTLLEKLNEL--DADEQADICESLHDHADELYRSCLARFG  44
+
+
+> UniRef90_UPI00063A95C1 UPI00063A95C1 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00063A95C1
+Length=63
+
+ Score = 56.4 bits (135),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 23/58 (40%), Positives = 34/58 (59%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTK ++T LNMA+FI++Q+L             D +A +CE LH+ A++LYR    R 
+Sbjct  1   MTKHQQTTLNMAKFIQAQSLL--LLEKLNELDLDTEAGLCEKLHEDAEQLYRILAIRL  56
+
+
+> UniRef90_A0A1J5W4X7 RNA polymerase n=1 Tax=Lelliottia nimipressuralis 
+TaxID=69220 RepID=A0A1J5W4X7_9ENTR
+Length=70
+
+ Score = 56.4 bits (135),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 25/59 (42%), Positives = 35/59 (59%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQ KTALNMA+FI++Q+L             D +AD+CE LH+ A+ L R+   +  
+Sbjct  1   MTKQHKTALNMAKFIQAQSLL--LLDKLNELDLDTEADMCEKLHEDAEVLCRTLSVQLN  57
+
+
+> UniRef90_A0A0P6RLH5 RNA polymerase n=2 Tax=Pseudomonas TaxID=286 
+RepID=A0A0P6RLH5_9PSED
+Length=59
+
+ Score = 56.1 bits (134),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 26/58 (45%), Positives = 35/58 (60%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ+ TALNMA+FI+ Q+L             D +ADICE LH+ A+ L+ S +A  
+Sbjct  1   MTKQQTTALNMAKFIQDQSLL--LLEKLNELDFDSEADICEKLHEDAERLHSSLMATL  56
+
+
+> UniRef90_UPI0006430A33 RNA polymerase n=4 Tax=unknown TaxID= 
+RepID=UPI0006430A33
+Length=63
+
+ Score = 56.1 bits (134),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 25/58 (43%), Positives = 39/58 (67%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ+KTALNMA+FI++Q+L             D +AD+CE+LH+ A++++R+   R 
+Sbjct  1   MTKQQKTALNMAKFIQAQSLL--LLEKLNELDFDAEADLCETLHEDAEQVFRALALRL  56
+
+
+> UniRef90_Q9KI27 Putative RNA one modulator protein n=2 Tax=Edwardsiella 
+TaxID=132406 RepID=Q9KI27_EDWIC
+Length=60
+
+ Score = 56.1 bits (134),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 32/58 (55%), Positives = 42/58 (72%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M KQE TA+NMA+FI++Q L LLEKLNEL    DE+A+ CE LHD A++L+R    + 
+Sbjct  1   MKKQEATAINMAKFIKAQLLILLEKLNEL--DLDERANECEQLHDLAEQLHRHLREQL  56
+
+
+> UniRef90_UPI000693741C hypothetical protein n=1 Tax=Klebsiella 
+pneumoniae TaxID=573 RepID=UPI000693741C
+Length=75
+
+ Score = 56.1 bits (134),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 24/49 (49%), Positives = 31/49 (63%), Gaps = 2/49 (4%)
+
+Query  11  MARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MA+FIR+QTL LLE+L ++    DE A   E LHD A+ LY    A+ G
+Sbjct  1   MAKFIRAQTLLLLERLEQM--DLDEAAGGWEHLHDQAEALYAMLNAQIG  47
+
+
+> UniRef90_UPI00094317AE UPI00094317AE related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00094317AE
+Length=64
+
+ Score = 55.7 bits (133),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 23/58 (40%), Positives = 34/58 (59%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M K ++T LN+A  I++Q+L  L K++ L   ADEQA + E LH+ A EL  +     
+Sbjct  1   MKKHQQTQLNIAGIIKNQSLPRLGKVDALC--ADEQATVRERLHELAGELQNNIQRSL  56
+
+
+> UniRef90_UPI0006D9E9E1 RNA polymerase n=1 Tax=Serratia marcescens 
+TaxID=615 RepID=UPI0006D9E9E1
+Length=71
+
+ Score = 55.7 bits (133),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 28/59 (47%), Positives = 34/59 (58%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQE +ALNMA+FIR+Q L         A   DE+A  CE LH+ A+ LY    AR  
+Sbjct  1   MTKQESSALNMAKFIRAQLLL--LLEKLDALDLDEEATTCEQLHEAAETLYHRLEARLN  57
+
+
+> UniRef90_A0A0H5QJF9 Uncharacterized protein n=1 Tax=uncultured 
+prokaryote TaxID=198431 RepID=A0A0H5QJF9_9ZZZZ
+Length=62
+
+ Score = 55.3 bits (132),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 33/60 (55%), Positives = 45/60 (75%), Gaps = 1/60 (2%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADA-ADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEKT LNMA+F+++Q+L LLEKLNEL     D + ++CE LH+HA+ L+R   A+ G
+Sbjct  1   MTKQEKTVLNMAKFLQAQSLLLLEKLNELDTNLLDAETNLCEELHEHAETLHRQLSAKLG  60
+
+
+> UniRef90_Q8GEG3 RNA I modulator n=1 Tax=Erwinia amylovora TaxID=552 
+RepID=Q8GEG3_ERWAM
+Length=67
+
+ Score = 55.3 bits (132),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 25/58 (43%), Positives = 32/58 (55%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTK E  ALNMA+FIR+Q+L             D++A  CE LH+ A+ LYR    R 
+Sbjct  1   MTKLESAALNMAKFIRAQSLL--LLEKLDVLDLDDEAAECEKLHEQAEVLYRKVSNRI  56
+
+
+> UniRef90_UPI0006DAEDAF RNA polymerase n=1 Tax=Serratia marcescens 
+TaxID=615 RepID=UPI0006DAEDAF
+Length=67
+
+ Score = 55.3 bits (132),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 28/59 (47%), Positives = 34/59 (58%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQE  ALNMA+FIR+Q+L             DE+A  CE LH+ A+ LYR    RF 
+Sbjct  1   MTKQESAALNMAKFIRAQSLL--LLEKLDVLDLDEEATTCEQLHEAAETLYRRLETRFN  57
+
+
+> UniRef90_D3GMY2 ROM protein n=1 Tax=Rahnella sp. WMR114 TaxID=657335 
+RepID=D3GMY2_9GAMM
+Length=65
+
+ Score = 54.9 bits (131),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 31/55 (56%), Positives = 39/55 (71%), Gaps = 2/55 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCL  55
+           M KQEKTALNM +FI++QTL  LEKLNEL    DE AD CE LH+ +++L+    
+Sbjct  1   MNKQEKTALNMTKFIQAQTLLQLEKLNEL--NLDEIADYCERLHELSEQLHEDLR  53
+
+
+> UniRef90_A0A0D7KWT5 RNA polymerase n=5 Tax=Enterobacteriaceae 
+TaxID=543 RepID=A0A0D7KWT5_CITFR
+Length=63
+
+ Score = 54.9 bits (131),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 25/58 (43%), Positives = 38/58 (66%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ++TALNMA+FI++Q+L             D +AD+CE LH+ A++L+R+   R 
+Sbjct  1   MTKQQRTALNMAKFIQAQSLL--LLEKLNELDLDNEADLCEKLHEDAEQLFRTLAIRL  56
+
+
+> UniRef90_A0A098Y7E7 RNA polymerase n=3 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A098Y7E7_9GAMM
+Length=62
+
+ Score = 54.5 bits (130),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 28/60 (47%), Positives = 42/60 (70%), Gaps = 1/60 (2%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELAD-AADEQADICESLHDHADELYRSCLARFG  59
+           MTKQEK  +NMA+F+++Q+L LLEKLNEL     D + ++CE LH+ A+ L++    + G
+Sbjct  1   MTKQEKAVVNMAKFLQAQSLLLLEKLNELDSYKLDTETNLCEELHEQAESLHQRLSTKLG  60
+
+
+> UniRef90_UPI000806F0D2 UPI000806F0D2 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000806F0D2
+Length=52
+
+ Score = 54.1 bits (129),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 23/49 (47%), Positives = 33/49 (67%), Gaps = 2/49 (4%)
+
+Query  11  MARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MA+FIR+Q+L L  KL+ LA   D++A   E +H+ A+ LY+   ARFG
+Sbjct  1   MAKFIRAQSLLLPAKLDVLA--LDDEAADRERMHEQAEALYQKLSARFG  47
+
+
+> UniRef90_A0A0F5XU34 RNA polymerase n=3 Tax=Enterobacterales TaxID=91347 
+RepID=A0A0F5XU34_9GAMM
+Length=59
+
+ Score = 54.1 bits (129),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 26/58 (45%), Positives = 35/58 (60%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ+K ALNMA+FI+ Q+L             D +AD+CE LH+ A+ L+ S LA  
+Sbjct  1   MTKQQKNALNMAKFIQDQSLL--LLEKLNELDCDGEADMCEKLHEDAERLHSSLLATL  56
+
+
+> UniRef90_A0A0A1BCR4 RNA polymerase n=1 Tax=Pantoea sp. PSNIH2 
+TaxID=1484157 RepID=A0A0A1BCR4_9GAMM
+Length=59
+
+ Score = 53.8 bits (128),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 24/59 (41%), Positives = 34/59 (58%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           M+K  KTALNMA+FI+ Q+L             D +AD+CE LH+ A+ L+   LA+  
+Sbjct  1   MSKHHKTALNMAKFIQGQSLL--LLEKLNELDLDTEADMCERLHEDAERLHAGLLAKLN  57
+
+
+> UniRef90_Q52624 Rom n=5 Tax=Enterobacterales TaxID=91347 RepID=Q52624_PROVU
+Length=68
+
+ Score = 54.1 bits (129),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 25/61 (41%), Positives = 41/61 (67%), Gaps = 2/61 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNEL--ADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQEK  +NMA+F+++Q+L LL +      +D  D + ++CE LH+HA+ L++   A+ 
+Sbjct  1   MTKQEKAVVNMAKFLQAQSLLLLLEKLNELNSDKLDAETNLCEELHEHAESLHQQLSAKV  60
+
+Query  59  G  59
+           G
+Sbjct  61  G  61
+
+
+> UniRef90_UPI000532E20C RNA polymerase n=1 Tax=Dickeya sp. 2B12 
+TaxID=1577887 RepID=UPI000532E20C
+Length=67
+
+ Score = 53.4 bits (127),  Expect = 8e-08, Method: Composition-based stats.
+ Identities = 25/58 (43%), Positives = 35/58 (60%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           M +QE  ALNMA+FIR+Q+L         A   D++A  CE LH+ A+ LY+   +RF
+Sbjct  1   MNRQESAALNMAKFIRAQSLL--LLEKLDALDLDDEAADCEKLHEQAEALYQKLNSRF  56
+
+
+> UniRef90_UPI00057B60F4 RNA polymerase n=1 Tax=Leclercia adecarboxylata 
+TaxID=83655 RepID=UPI00057B60F4
+Length=59
+
+ Score = 52.6 bits (125),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 25/59 (42%), Positives = 34/59 (58%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQ+KTALNMA+FI+ Q+L             D +AD+CE LH+ A+ L+     R  
+Sbjct  1   MTKQQKTALNMAKFIQDQSLL--LLERLNELDLDSEADMCEKLHEDAERLHAVLQDRLN  57
+
+
+> UniRef90_UPI0002DD28DA RNA polymerase n=1 Tax=Edwardsiella tarda 
+TaxID=636 RepID=UPI0002DD28DA
+Length=63
+
+ Score = 52.6 bits (125),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 25/58 (43%), Positives = 35/58 (60%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MT+QE +ALNMA+FIR+Q+L             D++A  CE LHD A+ LY++   R 
+Sbjct  1   MTRQESSALNMAKFIRAQSLL--LLEKLDLLNLDDEAATCERLHDLAETLYQTLTERL  56
+
+
+> UniRef90_Q8GGG7 Rop n=1 Tax=Enterobacter sp. RFL1396 TaxID=211595 
+RepID=Q8GGG7_9ENTR
+Length=64
+
+ Score = 51.8 bits (123),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 22/58 (38%), Positives = 36/58 (62%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           +TKQ+K  LNMA+FI++Q+L             D +A++CE LH+ A++L+R+   R 
+Sbjct  2   ITKQQKMTLNMAKFIQAQSLL--LLEKLNELDLDTEANMCEKLHEDAEQLFRTLALRL  57
+
+
+> UniRef90_UPI00071AE0D4 UPI00071AE0D4 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00071AE0D4
+Length=66
+
+ Score = 51.8 bits (123),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 22/43 (51%), Positives = 29/43 (67%), Gaps = 2/43 (5%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESL  43
+           M +QE   LNM +FIR+QTL LLEK+++L    D+ A  CE L
+Sbjct  1   MNRQESATLNMDKFIRTQTLLLLEKIDQL--DLDDGATECEKL  41
+
+
+> UniRef90_UPI000680D69C RNA polymerase n=2 Tax=Pantoea vagans 
+TaxID=470934 RepID=UPI000680D69C
+Length=59
+
+ Score = 51.4 bits (122),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 25/58 (43%), Positives = 36/58 (62%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQ+KTALNMA+F ++Q+L             D++AD+CE LH+ A+ L+   L R 
+Sbjct  1   MTKQQKTALNMAKFTQAQSLL--LLEKLNELDLDDEADMCEKLHEGAERLHDVLLGRL  56
+
+
+> UniRef90_UPI00081C1C7F UPI00081C1C7F related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI00081C1C7F
+Length=65
+
+ Score = 51.4 bits (122),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 22/55 (40%), Positives = 34/55 (62%), Gaps = 2/55 (4%)
+
+Query  4   QEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           ++KTALNMA+FI++Q+L             D +AD+CE LHD A+ L+R+  +  
+Sbjct  6   RQKTALNMAKFIQNQSLL--LLEKLNELDLDVEADLCEKLHDDAEHLFRTLSSGL  58
+
+
+> UniRef90_UPI00057C0194 RNA polymerase n=1 Tax=Enterobacter sp. 
+Bisph1 TaxID=1274399 RepID=UPI00057C0194
+Length=63
+
+ Score = 50.7 bits (120),  Expect = 9e-07, Method: Composition-based stats.
+ Identities = 23/59 (39%), Positives = 31/59 (53%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQE TALNMA+FI  Q+L             D  AD+C+ LH+ A+ L  +   +  
+Sbjct  1   MTKQENTALNMAKFIHEQSLL--LLDKLNELNLDMAADMCDQLHEDAEVLCMTLFVQLN  57
+
+
+> UniRef90_UPI0007A5D40A UPI0007A5D40A related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI0007A5D40A
+Length=60
+
+ Score = 50.3 bits (119),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 28/32 (88%), Positives = 29/32 (91%), Gaps = 0/32 (0%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADA  32
+           +TKQEKTALNMARFIRSQTLTLLEKLNEL   
+Sbjct  12  VTKQEKTALNMARFIRSQTLTLLEKLNELDAD  43
+
+
+> UniRef90_A0A0P8H046 RNA polymerase n=1 Tax=Citrobacter freundii 
+TaxID=546 RepID=A0A0P8H046_CITFR
+Length=62
+
+ Score = 50.3 bits (119),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 23/59 (39%), Positives = 33/59 (56%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           M KQE  AL  ++FIR+Q+L             D++A  CE +H+ A+ LY+   ARFG
+Sbjct  1   MKKQESAALKKSKFIRAQSLL--LLEKLDVLDLDDEAADCERMHEQAEALYQKLSARFG  57
+
+
+> UniRef90_UPI00094361A2 UPI00094361A2 related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI00094361A2
+Length=57
+
+ Score = 49.1 bits (116),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 23/45 (51%), Positives = 30/45 (67%), Gaps = 2/45 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHD  45
+           MTKQ+KTALNMA+FI++Q+L             D +AD+CE LHD
+Sbjct  1   MTKQQKTALNMAKFIQNQSLL--LLEKLNELDLDVEADLCEKLHD  43
+
+
+> UniRef90_UPI0007E5B691 UPI0007E5B691 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007E5B691
+Length=74
+
+ Score = 48.7 bits (115),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 21/39 (54%), Positives = 25/39 (64%), Gaps = 2/39 (5%)
+
+Query  21  TLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+            L EK +     AD+ ADIC+  H+HADELYRS  A FG
+Sbjct  1   MLPEKCH--EQNADDHADICDPPHNHADELYRSGFAYFG  37
+
+
+> UniRef90_UPI0007745C62 UPI0007745C62 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007745C62
+Length=61
+
+ Score = 48.7 bits (115),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 20/53 (38%), Positives = 31/53 (58%), Gaps = 2/53 (4%)
+
+Query  6   KTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           ++A+N+ RFIR+Q+L +LEK+  L    D+   + E LHD A+ L      R 
+Sbjct  8   ESAMNVTRFIRAQSLIMLEKVEAL--DFDDLTALAEKLHDDAEYLELLVAKRV  58
+
+
+> UniRef90_A0A1A9Z2C0 Uncharacterized protein n=1 Tax=Glossina 
+pallidipes TaxID=7398 RepID=A0A1A9Z2C0_GLOPL
+Length=186
+
+ Score = 49.9 bits (118),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 20/32 (63%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  1    MTKQEKTALNMARFIRSQTLTLLEKLNELADA  32
+            MTKQE++AL MA FI+SQTL LL+KL++L   
+Sbjct  129  MTKQEQSALKMAGFIKSQTLVLLDKLDQLELD  160
+
+
+> UniRef90_UPI0007E8F75E UPI0007E8F75E related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007E8F75E
+Length=50
+
+ Score = 48.0 bits (113),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 25/44 (57%), Positives = 31/44 (70%), Gaps = 2/44 (5%)
+
+Query  15  IRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           I+SQ+L LLEKL+ L   ADEQA +CE LH+ A+EL  S   RF
+Sbjct  1   IKSQSLALLEKLDAL--DADEQAAMCERLHELAEELQNSIQVRF  42
+
+
+> UniRef90_A0A0P8HP72 RNA polymerase n=1 Tax=Citrobacter freundii 
+TaxID=546 RepID=A0A0P8HP72_CITFR
+Length=62
+
+ Score = 47.6 bits (112),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 23/59 (39%), Positives = 31/59 (53%), Gaps = 2/59 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARFG  59
+           MTKQE  ALNMA+FIR+Q L             D++A  C  +H+  +  Y+    RFG
+Sbjct  1   MTKQESAALNMAKFIRAQXLL--LLEKLDVLDLDDEAADCXRMHEQXEAXYQXLXXRFG  57
+
+
+> UniRef90_UPI0005C52F5F RNA polymerase n=1 Tax=Acinetobacter sp. 
+MII TaxID=1507807 RepID=UPI0005C52F5F
+Length=61
+
+ Score = 47.2 bits (111),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 20/40 (50%), Positives = 25/40 (63%), Gaps = 2/40 (5%)
+
+Query  19  TLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           +  LLEKL+ L   ADEQA +CE LH+ A+EL  S    F
+Sbjct  13  SNKLLEKLDAL--DADEQATMCERLHELAEELQNSIQTHF  50
+
+
+> UniRef90_A0A0C5AXB7 Uncharacterized protein n=1 Tax=Escherichia 
+coli TaxID=562 RepID=A0A0C5AXB7_ECOLX
+Length=51
+
+ Score = 46.8 bits (110),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 21/50 (42%), Positives = 30/50 (60%), Gaps = 2/50 (4%)
+
+Query  9   LNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           +N+ RFIR+QTL +LEK+  L    D+   + E LHD A++L R    R 
+Sbjct  1   MNVTRFIRAQTLVMLEKVEAL--DFDDLTALAEKLHDDAEKLERLVTDRV  48
+
+
+> UniRef90_UPI0008D96164 UPI0008D96164 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008D96164
+Length=58
+
+ Score = 46.0 bits (108),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 18/43 (42%), Positives = 26/43 (60%), Gaps = 2/43 (5%)
+
+Query  11  MARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRS  53
+           MA+FI++Q+L             D +AD+CE LHD A+ L+RS
+Sbjct  1   MAKFIQNQSLL--LLEKLNELDLDVEADLCEKLHDDAEHLFRS  41
+
+
+> UniRef90_W1I6K3 Uncultured bacterium plasmid pRGI00316 n=4 Tax=root 
+TaxID=1 RepID=W1I6K3_9BACT
+Length=53
+
+ Score = 44.9 bits (105),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 18/48 (38%), Positives = 25/48 (52%), Gaps = 2/48 (4%)
+
+Query  11  MARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MA+FI+ QTL             D +AD+CE LH+ A+ L R+   R 
+Sbjct  1   MAKFIKGQTLL--LLEKLNELELDAEADLCEKLHEDAELLCRTLTIRL  46
+
+
+> UniRef90_K8W629 Rom n=1 Tax=Providencia rettgeri Dmel1 TaxID=1141663 
+RepID=K8W629_PRORE
+Length=62
+
+ Score = 44.5 bits (104),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 21/59 (36%), Positives = 33/59 (56%), Gaps = 1/59 (2%)
+
+Query  1   MTKQEKTALNMARF-IRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQEK  LNMA+F      L L +     ++  D + ++CE LH+ A+ L++   A+ 
+Sbjct  1   MTKQEKAVLNMAKFLQSQSLLLLEKLNELDSNNLDAETNLCEELHEQAESLHQKLRAKL  59
+
+
+> UniRef90_D3GN07 ROM protein n=3 Tax=Enterobacterales TaxID=91347 
+RepID=D3GN07_RAHAQ
+Length=65
+
+ Score = 44.1 bits (103),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 24/54 (44%), Positives = 33/54 (61%), Gaps = 2/54 (4%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSC  54
+           MTKQEK ALNMA+FI++QTL             DE A+ CE LH+ +++L+   
+Sbjct  1   MTKQEKAALNMAKFIQAQTLL--LLEKLKELNLDEMANQCERLHELSEQLHDDL  52
+
+
+> UniRef90_A0A0H5Q4K7 Uncharacterized protein n=1 Tax=uncultured 
+prokaryote TaxID=198431 RepID=A0A0H5Q4K7_9ZZZZ
+Length=60
+
+ Score = 43.0 bits (100),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 23/58 (40%), Positives = 34/58 (59%), Gaps = 2/58 (3%)
+
+Query  1   MTKQEKTALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           MTKQE +A+NMA+FI++QTL             DE+A+ CE LH+ A+  Y +   + 
+Sbjct  1   MTKQELSAVNMAKFIKAQTLI--LLDKLNDLDLDERANECEQLHEMAETRYCNLEKQL  56
+
+
+> UniRef90_UPI00081C19B5 UPI00081C19B5 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00081C19B5
+Length=58
+
+ Score = 42.6 bits (99),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 17/47 (36%), Positives = 27/47 (57%), Gaps = 2/47 (4%)
+
+Query  12  ARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           A+FI++Q+L             D +AD+CE LHD A+ L+R+  +R 
+Sbjct  7   AKFIQNQSLL--LLEKLNELDLDAEADLCEKLHDDAEHLFRTLSSRL  51
+
+
+> UniRef90_UPI000940E633 UPI000940E633 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000940E633
+Length=52
+
+ Score = 42.2 bits (98),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 21/51 (41%), Positives = 28/51 (55%), Gaps = 5/51 (10%)
+
+Query  8   ALNMARFIRSQTLTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           +L    FI+SQTL LL+KLN       + AD CE  H+ A+ELY +     
+Sbjct  5   SLEYGGFIKSQTLILLDKLN-----LGDCADECEDSHNMAEELYFNLKRTL  50
+
+
+> UniRef90_A0A1C0ZM71 RNA polymerase n=3 Tax=Salmonella enterica 
+I TaxID=59201 RepID=A0A1C0ZM71_SALET
+Length=45
+
+ Score = 40.7 bits (94),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 22/39 (56%), Positives = 27/39 (69%), Gaps = 2/39 (5%)
+
+Query  20  LTLLEKLNELADAADEQADICESLHDHADELYRSCLARF  58
+           +TLLEKL+ L   ADEQA +CE LH+ A+EL  S   RF
+Sbjct  1   MTLLEKLDAL--DADEQATMCEKLHELAEELQNSIQTRF  37
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.150    0.445    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0453    0.140     1.90     42.6     43.6 
+
+Effective search space used: 436914222075
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

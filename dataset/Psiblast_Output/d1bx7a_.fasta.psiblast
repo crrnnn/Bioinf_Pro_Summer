@@ -1,0 +1,217 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1bx7a_
+
+Length=51
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P80302 Hirustasin n=1 Tax=Hirudo medicinalis TaxID=642...  102     4e-27
+  UniRef90_P82107 Bdellastasin n=1 Tax=Hirudo medicinalis TaxID=6...  63.2    1e-11
+  UniRef90_O96858 Guamerin (Fragment) n=1 Tax=Hirudo nipponia Tax...  62.8    2e-11
+  UniRef90_P46443 Guamerin n=1 Tax=Hirudo nipponia TaxID=42736 Re...  60.1    2e-10
+  UniRef90_P81499 Piguamerin n=1 Tax=Hirudo nipponia TaxID=42736 ...  58.9    4e-10
+
+
+> UniRef90_P80302 Hirustasin n=1 Tax=Hirudo medicinalis TaxID=6421 
+RepID=ANTA_HIRME
+Length=55
+
+ Score = 102 bits (255),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 51/51 (100%), Positives = 51/51 (100%), Gaps = 0/51 (0%)
+
+Query  1   GNTCGGETCSAAQVCLKGKCVCNEVHCRIRCKYGLKKDENGCEYPCSCAKA  51
+           GNTCGGETCSAAQVCLKGKCVCNEVHCRIRCKYGLKKDENGCEYPCSCAKA
+Sbjct  3   GNTCGGETCSAAQVCLKGKCVCNEVHCRIRCKYGLKKDENGCEYPCSCAKA  53
+
+
+> UniRef90_P82107 Bdellastasin n=1 Tax=Hirudo medicinalis TaxID=6421 
+RepID=BDEL_HIRME
+Length=59
+
+ Score = 63.2 bits (152),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 28/48 (58%), Positives = 38/48 (79%), Gaps = 0/48 (0%)
+
+Query  4   CGGETCSAAQVCLKGKCVCNEVHCRIRCKYGLKKDENGCEYPCSCAKA  51
+           CG  TCS AQ+C   KCVC+++HC+++C++G KKD+NGCEY C CA A
+Sbjct  10  CGPVTCSGAQMCEVDKCVCSDLHCKVKCEHGFKKDDNGCEYACICADA  57
+
+
+> UniRef90_O96858 Guamerin (Fragment) n=1 Tax=Hirudo nipponia TaxID=42736 
+RepID=O96858_HIRNI
+Length=75
+
+ Score = 62.8 bits (151),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 29/47 (62%), Positives = 33/47 (70%), Gaps = 0/47 (0%)
+
+Query  4   CGGETCSAAQVCLKGKCVCNEVHCRIRCKYGLKKDENGCEYPCSCAK  50
+           CG +TCS AQVCL  +CVC  + C I C  G K DENGCEYPC+CA 
+Sbjct  17  CGEKTCSPAQVCLNNECVCTAIRCMIFCPNGFKVDENGCEYPCTCAD  63
+
+
+> UniRef90_P46443 Guamerin n=1 Tax=Hirudo nipponia TaxID=42736 
+RepID=GUAM_HIRNI
+Length=57
+
+ Score = 60.1 bits (144),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 28/46 (61%), Positives = 32/46 (70%), Gaps = 0/46 (0%)
+
+Query  4   CGGETCSAAQVCLKGKCVCNEVHCRIRCKYGLKKDENGCEYPCSCA  49
+           CG +TCS AQVCL  +C C  + C I C  G K DENGCEYPC+CA
+Sbjct  12  CGEKTCSPAQVCLNNECACTAIRCMIFCPNGFKVDENGCEYPCTCA  57
+
+
+> UniRef90_P81499 Piguamerin n=1 Tax=Hirudo nipponia TaxID=42736 
+RepID=PIGU_HIRNI
+Length=48
+
+ Score = 58.9 bits (141),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 30/46 (65%), Positives = 33/46 (72%), Gaps = 0/46 (0%)
+
+Query  4   CGGETCSAAQVCLKGKCVCNEVHCRIRCKYGLKKDENGCEYPCSCA  49
+           CGG+TCS AQVC  GKCVC    CR  C  G KKDENGC +PC+CA
+Sbjct  3   CGGKTCSEAQVCKDGKCVCVIGQCRKYCPNGFKKDENGCTFPCTCA  48
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.137    0.496    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 448282276155
+Results from round 2
+
+
+Query= d1bx7a_
+
+Length=51
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P80302 Hirustasin n=1 Tax=Hirudo medicinalis TaxID=642...  56.6    3e-09
+  UniRef90_O96858 Guamerin (Fragment) n=1 Tax=Hirudo nipponia Tax...  54.7    2e-08
+  UniRef90_P82107 Bdellastasin n=1 Tax=Hirudo medicinalis TaxID=6...  52.7    1e-07
+  UniRef90_P81499 Piguamerin n=1 Tax=Hirudo nipponia TaxID=42736 ...  52.0    2e-07
+  UniRef90_P46443 Guamerin n=1 Tax=Hirudo nipponia TaxID=42736 Re...  51.2    4e-07
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_P80302 Hirustasin n=1 Tax=Hirudo medicinalis TaxID=6421 
+RepID=ANTA_HIRME
+Length=55
+
+ Score = 56.6 bits (135),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 51/51 (100%), Positives = 51/51 (100%), Gaps = 0/51 (0%)
+
+Query  1   GNTCGGETCSAAQVCLKGKCVCNEVHCRIRCKYGLKKDENGCEYPCSCAKA  51
+           GNTCGGETCSAAQVCLKGKCVCNEVHCRIRCKYGLKKDENGCEYPCSCAKA
+Sbjct  3   GNTCGGETCSAAQVCLKGKCVCNEVHCRIRCKYGLKKDENGCEYPCSCAKA  53
+
+
+> UniRef90_O96858 Guamerin (Fragment) n=1 Tax=Hirudo nipponia TaxID=42736 
+RepID=O96858_HIRNI
+Length=75
+
+ Score = 54.7 bits (130),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 29/47 (62%), Positives = 33/47 (70%), Gaps = 0/47 (0%)
+
+Query  4   CGGETCSAAQVCLKGKCVCNEVHCRIRCKYGLKKDENGCEYPCSCAK  50
+           CG +TCS AQVCL  +CVC  + C I C  G K DENGCEYPC+CA 
+Sbjct  17  CGEKTCSPAQVCLNNECVCTAIRCMIFCPNGFKVDENGCEYPCTCAD  63
+
+
+> UniRef90_P82107 Bdellastasin n=1 Tax=Hirudo medicinalis TaxID=6421 
+RepID=BDEL_HIRME
+Length=59
+
+ Score = 52.7 bits (125),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 28/48 (58%), Positives = 38/48 (79%), Gaps = 0/48 (0%)
+
+Query  4   CGGETCSAAQVCLKGKCVCNEVHCRIRCKYGLKKDENGCEYPCSCAKA  51
+           CG  TCS AQ+C   KCVC+++HC+++C++G KKD+NGCEY C CA A
+Sbjct  10  CGPVTCSGAQMCEVDKCVCSDLHCKVKCEHGFKKDDNGCEYACICADA  57
+
+
+> UniRef90_P81499 Piguamerin n=1 Tax=Hirudo nipponia TaxID=42736 
+RepID=PIGU_HIRNI
+Length=48
+
+ Score = 52.0 bits (123),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 30/46 (65%), Positives = 33/46 (72%), Gaps = 0/46 (0%)
+
+Query  4   CGGETCSAAQVCLKGKCVCNEVHCRIRCKYGLKKDENGCEYPCSCA  49
+           CGG+TCS AQVC  GKCVC    CR  C  G KKDENGC +PC+CA
+Sbjct  3   CGGKTCSEAQVCKDGKCVCVIGQCRKYCPNGFKKDENGCTFPCTCA  48
+
+
+> UniRef90_P46443 Guamerin n=1 Tax=Hirudo nipponia TaxID=42736 
+RepID=GUAM_HIRNI
+Length=57
+
+ Score = 51.2 bits (121),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 28/46 (61%), Positives = 32/46 (70%), Gaps = 0/46 (0%)
+
+Query  4   CGGETCSAAQVCLKGKCVCNEVHCRIRCKYGLKKDENGCEYPCSCA  49
+           CG +TCS AQVCL  +C C  + C I C  G K DENGCEYPC+CA
+Sbjct  12  CGEKTCSPAQVCLNNECACTAIRCMIFCPNGFKVDENGCEYPCTCA  57
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.135    0.527    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0413    0.140     1.90     42.6     43.6 
+
+Effective search space used: 448282276155
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

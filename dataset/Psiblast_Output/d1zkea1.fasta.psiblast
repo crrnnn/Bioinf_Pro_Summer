@@ -1,0 +1,927 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1zkea1
+
+Length=79
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P64666 Uncharacterized protein jhp_1419 n=243 Tax=Heli...  153     4e-46
+  UniRef90_I0ESL1 Uncharacterized protein n=2 Tax=Helicobacter ce...  136     1e-39
+  UniRef90_E7A8U7 Genome n=1 Tax=Helicobacter felis (strain ATCC ...  101     6e-26
+  UniRef90_F8KTU2 Uncharacterized protein n=2 Tax=Helicobacter bi...  99.0    7e-25
+  UniRef90_E7G3L5 Uncharacterized protein n=2 Tax=Helicobacter su...  97.8    2e-24
+  UniRef90_A0A0K2XE68 Uncharacterized protein n=2 Tax=Helicobacte...  95.9    1e-23
+  UniRef90_V8CDA8 Uncharacterized protein n=1 Tax=Helicobacter ma...  82.4    2e-18
+  UniRef90_C5ZYK6 Putative uncharacterized protein n=1 Tax=Helico...  79.7    2e-17
+  UniRef90_A0A1B8J855 Uncharacterized protein n=1 Tax=Helicobacte...  79.3    3e-17
+  UniRef90_C3XN67 Uncharacterized protein n=2 Tax=Helicobacter Ta...  79.0    5e-17
+  UniRef90_A0A099BRS1 Uncharacterized protein n=2 Tax=Helicobacte...  78.6    6e-17
+  UniRef90_A0A099DM79 Uncharacterized protein n=3 Tax=Helicobacte...  78.2    9e-17
+  UniRef90_A0A099UJY8 Uncharacterized protein n=1 Tax=Helicobacte...  77.0    3e-16
+  UniRef90_A0A099B549 Uncharacterized protein n=1 Tax=Helicobacte...  76.3    5e-16
+  UniRef90_A0A0N1E6X6 Uncharacterized protein n=2 Tax=Helicobacte...  75.9    6e-16
+  UniRef90_A0A099VAN9 Uncharacterized protein n=2 Tax=Helicobacte...  75.5    9e-16
+  UniRef90_Q7MSV7 Uncharacterized protein n=1 Tax=Wolinella succi...  75.5    1e-15
+  UniRef90_A0A099V2U6 Uncharacterized protein n=4 Tax=Helicobacte...  75.1    1e-15
+  UniRef90_UPI00082D1EDE UPI00082D1EDE related cluster n=1 Tax=un...  73.6    5e-15
+  UniRef90_I7HEE8 Uncharacterized protein n=2 Tax=Helicobacter Ta...  72.4    1e-14
+  UniRef90_A0A099U1N5 Uncharacterized protein n=1 Tax=Helicobacte...  69.3    2e-13
+  UniRef90_V8CL60 Uncharacterized protein n=2 Tax=Helicobacter Ta...  60.1    7e-10
+  UniRef90_A0A099VVI1 Uncharacterized protein n=2 Tax=Helicobacte...  59.7    8e-10
+  UniRef90_A0A1B1U7L5 Uncharacterized protein n=1 Tax=Helicobacte...  56.2    2e-08
+  UniRef90_H5VAS9 Putative uncharacterized protein n=1 Tax=Helico...  48.1    9e-06
+
+
+> UniRef90_P64666 Uncharacterized protein jhp_1419 n=243 Tax=Helicobacter 
+TaxID=209 RepID=Y1419_HELPJ
+Length=79
+
+ Score = 153 bits (386),  Expect = 4e-46, Method: Compositional matrix adjust.
+ Identities = 79/79 (100%), Positives = 79/79 (100%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE
+Sbjct  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           RLKELINALNKIKKGLLVF
+Sbjct  61  RLKELINALNKIKKGLLVF  79
+
+
+> UniRef90_I0ESL1 Uncharacterized protein n=2 Tax=Helicobacter 
+cetorum TaxID=138563 RepID=I0ESL1_HELCM
+Length=79
+
+ Score = 136 bits (343),  Expect = 1e-39, Method: Compositional matrix adjust.
+ Identities = 70/79 (89%), Positives = 74/79 (94%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFEKIRKILADIED+Q+EIEMLLKLANL+LGDFIEIKRGSMDMP  VNEAFF QLSEEVE
+Sbjct  1   MFEKIRKILADIEDAQSEIEMLLKLANLNLGDFIEIKRGSMDMPSSVNEAFFAQLSEEVE  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+            LK+LINALNKIKK LLVF
+Sbjct  61  HLKDLINALNKIKKELLVF  79
+
+
+> UniRef90_E7A8U7 Genome n=1 Tax=Helicobacter felis (strain ATCC 
+49179 / NCTC 12436 / CS1) TaxID=936155 RepID=E7A8U7_HELFC
+Length=79
+
+ Score = 101 bits (252),  Expect = 6e-26, Method: Compositional matrix adjust.
+ Identities = 47/79 (59%), Positives = 68/79 (86%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFE++ +++ DIE+++ E+E+LLKLAN+SL DFI +KRGS+D+P+G++ AF+TQ+SE VE
+Sbjct  1   MFERLDQLIKDIENAKEEVELLLKLANVSLSDFILMKRGSLDIPEGLDMAFYTQISEHVE  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+            LKE INALNK K+ +LVF
+Sbjct  61  ELKECINALNKYKREMLVF  79
+
+
+> UniRef90_F8KTU2 Uncharacterized protein n=2 Tax=Helicobacter 
+bizzozeronii TaxID=56877 RepID=F8KTU2_HELBC
+Length=79
+
+ Score = 99.0 bits (245),  Expect = 7e-25, Method: Compositional matrix adjust.
+ Identities = 49/79 (62%), Positives = 65/79 (82%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFEK+  I+ +IE+S+ EIE+LLK+AN+SLGDFI +KRGS+D+P  +N AF+TQ+ E VE
+Sbjct  1   MFEKLELIIKNIENSKEEIEVLLKIANISLGDFILMKRGSLDIPDTLNMAFYTQIGEHVE  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+            LKE INALNK K+ +LVF
+Sbjct  61  ELKEHINALNKYKREMLVF  79
+
+
+> UniRef90_E7G3L5 Uncharacterized protein n=2 Tax=Helicobacter 
+suis TaxID=104628 RepID=E7G3L5_9HELI
+Length=88
+
+ Score = 97.8 bits (242),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 48/79 (61%), Positives = 65/79 (82%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFE++  I+ DIE+++ EIE+LLK+A+LSL DFI +KRGSMD+P+ +N AF+TQ+ E VE
+Sbjct  10  MFERLDLIIKDIENTKEEIELLLKIAHLSLSDFILMKRGSMDIPETLNMAFYTQIGERVE  69
+
+Query  61  RLKELINALNKIKKGLLVF  79
+            LKE INALNK K+ +LVF
+Sbjct  70  ELKEHINALNKYKREMLVF  88
+
+
+> UniRef90_A0A0K2XE68 Uncharacterized protein n=2 Tax=Helicobacter 
+TaxID=209 RepID=A0A0K2XE68_9HELI
+Length=79
+
+ Score = 95.9 bits (237),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 45/79 (57%), Positives = 65/79 (82%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFE++  I+ DIE+++ E+E+LL++A+LSL DFI +KRGS+D+P  ++ AF+TQ+SE VE
+Sbjct  1   MFERLELIIKDIENAKEEVELLLRIAHLSLSDFILMKRGSLDIPPTLDMAFYTQISERVE  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+            LKE INALNK K+ +LVF
+Sbjct  61  ELKEAINALNKYKREMLVF  79
+
+
+> UniRef90_V8CDA8 Uncharacterized protein n=1 Tax=Helicobacter 
+macacae MIT 99-5501 TaxID=1357400 RepID=V8CDA8_9HELI
+Length=79
+
+ Score = 82.4 bits (202),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 41/79 (52%), Positives = 62/79 (78%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFEKI +I+A+IE+ ++EI +LL +A +S  D+I IKRGSMDMP+G+  + +  L+EEV+
+Sbjct  1   MFEKINEIIANIEEIRDEITILLGMAKISFVDYIMIKRGSMDMPEGMQMSVWEHLNEEVD  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           +LK  I+ LNK+K+ +LVF
+Sbjct  61  KLKAQIDLLNKLKREMLVF  79
+
+
+> UniRef90_C5ZYK6 Putative uncharacterized protein n=1 Tax=Helicobacter 
+canadensis MIT 98-5491 TaxID=537970 RepID=C5ZYK6_9HELI
+Length=79
+
+ Score = 79.7 bits (195),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 40/79 (51%), Positives = 56/79 (71%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFE+I  +L  IE++Q EIE LL+LA +S  D++ IKRGS DMP  ++     Q+ EEV 
+Sbjct  1   MFERIDSLLKKIEEAQAEIEFLLRLAKISFVDYVMIKRGSQDMPPSLDMWNLQQIDEEVS  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           +LKE I++LNKIKK +L +
+Sbjct  61  KLKEAIDSLNKIKKEVLTW  79
+
+
+> UniRef90_A0A1B8J855 Uncharacterized protein n=1 Tax=Helicobacter 
+sp. CLO-3 TaxID=211 RepID=A0A1B8J855_9HELI
+Length=79
+
+ Score = 79.3 bits (194),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 40/79 (51%), Positives = 60/79 (76%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFE+I +I+A IE+ ++EI++LL +  +   D+I IKRGSMDMP+ +  +   QL+E+V+
+Sbjct  1   MFERINEIIAKIEEIRDEIQILLGMGKIDFVDYIMIKRGSMDMPEELQMSVLEQLNEQVD  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           RLKE I+ LNKIK+ +LVF
+Sbjct  61  RLKEQIDRLNKIKREMLVF  79
+
+
+> UniRef90_C3XN67 Uncharacterized protein n=2 Tax=Helicobacter 
+TaxID=209 RepID=C3XN67_9HELI
+Length=79
+
+ Score = 79.0 bits (193),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 39/79 (49%), Positives = 58/79 (73%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFE+I  IL +IE++Q EI++LL +A +S  D+I IKRG+ D+P+G+      Q+  EV 
+Sbjct  1   MFERIDGILREIEEAQAEIQLLLGMAKISFVDYIMIKRGAQDIPEGLGAWNLQQIDNEVS  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           RLK+ I+ALNKIK+ +LV+
+Sbjct  61  RLKDAIDALNKIKREVLVW  79
+
+
+> UniRef90_A0A099BRS1 Uncharacterized protein n=2 Tax=Helicobacter 
+TaxID=209 RepID=A0A099BRS1_9HELI
+Length=79
+
+ Score = 78.6 bits (192),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 39/79 (49%), Positives = 58/79 (73%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFEKI +I  +IED +++I +LL +A +SL D+I IKRGS DMP+ +      Q+ E++E
+Sbjct  1   MFEKIDEIFKNIEDIRDDINILLNIAKISLIDYIMIKRGSQDMPEHLTFTMLAQIDEQIE  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           +LK  I+ALNK+K+ LL+F
+Sbjct  61  KLKAQIDALNKLKRELLIF  79
+
+
+> UniRef90_A0A099DM79 Uncharacterized protein n=3 Tax=Helicobacter 
+TaxID=209 RepID=A0A099DM79_9HELI
+Length=79
+
+ Score = 78.2 bits (191),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 41/79 (52%), Positives = 59/79 (75%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFEKI +I  +IED +++I +LL +A +SL D+I IKRGS DMP+ ++ +   Q+  EVE
+Sbjct  1   MFEKIDEIFKNIEDIRDDINILLNIAKISLIDYIMIKRGSQDMPEHLSFSVLAQIDGEVE  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           +LK  I+ALNK+K+ LLVF
+Sbjct  61  KLKAQIDALNKLKRELLVF  79
+
+
+> UniRef90_A0A099UJY8 Uncharacterized protein n=1 Tax=Helicobacter 
+apodemus TaxID=135569 RepID=A0A099UJY8_9HELI
+Length=79
+
+ Score = 77.0 bits (188),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 39/79 (49%), Positives = 56/79 (71%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFE+I  IL +IE++Q EI +LL LA +S  D++ IKRGS D+P+G+      Q+  EV 
+Sbjct  1   MFERIDGILREIEEAQAEITLLLGLAKISFVDYVMIKRGSQDVPEGLGAWNLQQIDNEVS  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           +LKE I++LNKIKK +L +
+Sbjct  61  KLKEAIDSLNKIKKEVLTW  79
+
+
+> UniRef90_A0A099B549 Uncharacterized protein n=1 Tax=Helicobacter 
+saguini TaxID=1548018 RepID=A0A099B549_9HELI
+Length=79
+
+ Score = 76.3 bits (186),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 36/79 (46%), Positives = 58/79 (73%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFE+I +I+ +IE  ++E+ + L +A ++L D+I IKRGS DMP+G+N + F+Q+ E+V 
+Sbjct  1   MFERINQIIRNIESIEDELTIALNMAKITLEDYIMIKRGSADMPEGLNMSLFSQVDEQVM  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+            LK+ I+ LNK+K+   VF
+Sbjct  61  ALKQEIDTLNKLKREWFVF  79
+
+
+> UniRef90_A0A0N1E6X6 Uncharacterized protein n=2 Tax=Helicobacter 
+pullorum TaxID=35818 RepID=A0A0N1E6X6_9HELI
+Length=79
+
+ Score = 75.9 bits (185),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 39/79 (49%), Positives = 56/79 (71%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFE+I  IL +IE++Q EI++LL +A +S  D+I IKRGS DMP+ +      Q+  EV 
+Sbjct  1   MFERIDSILQNIEEAQAEIKLLLGMAKISFVDYIMIKRGSQDMPEELGAWNLQQIDNEVS  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           +LKE I++LNKIKK +L +
+Sbjct  61  KLKEAIDSLNKIKKEVLTW  79
+
+
+> UniRef90_A0A099VAN9 Uncharacterized protein n=2 Tax=Helicobacter 
+TaxID=209 RepID=A0A099VAN9_9HELI
+Length=79
+
+ Score = 75.5 bits (184),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 38/79 (48%), Positives = 58/79 (73%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFEK+ +I  +IED +++I +LL +A +SL D+I IKRGS DMP+ +     +Q+  E++
+Sbjct  1   MFEKMDQIFKNIEDIRDDINILLNMAKISLVDYIMIKRGSQDMPEHLTFTTLSQIDVEID  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           +LK  I+ALNK+K+ LLVF
+Sbjct  61  KLKAEIDALNKLKRELLVF  79
+
+
+> UniRef90_Q7MSV7 Uncharacterized protein n=1 Tax=Wolinella succinogenes 
+(strain ATCC 29543 / DSM 1740 / LMG 7466 / NCTC 11488 
+/ FDC 602W) TaxID=273121 RepID=Q7MSV7_WOLSU
+Length=79
+
+ Score = 75.5 bits (184),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 43/77 (56%), Positives = 53/77 (69%), Gaps = 0/77 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFEKI  IL  IE S+ EIE+LL +A +S  D+I IKRGSMDMP+ +      Q+  EV 
+Sbjct  1   MFEKIDLILRGIEASREEIEILLNMAKISFVDYIMIKRGSMDMPEHLGVWNLQQIDTEVA  60
+
+Query  61  RLKELINALNKIKKGLL  77
+           +LKE I ALNKIKK +L
+Sbjct  61  KLKEHIEALNKIKKEVL  77
+
+
+> UniRef90_A0A099V2U6 Uncharacterized protein n=4 Tax=Helicobacter 
+TaxID=209 RepID=A0A099V2U6_9HELI
+Length=79
+
+ Score = 75.1 bits (183),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 37/79 (47%), Positives = 57/79 (72%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFE+I +I+ +IE+ Q+EI + L +A +SL D+I IKRGS+DMP+ +N + F  + E+V 
+Sbjct  1   MFERINQIIKNIENIQDEITIALNMAKISLEDYIMIKRGSLDMPEHLNMSLFAAVDEQVM  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+            LK+ I+ LNK+KK   V+
+Sbjct  61  ALKKEIDVLNKLKKEWFVY  79
+
+
+> UniRef90_UPI00082D1EDE UPI00082D1EDE related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00082D1EDE
+Length=79
+
+ Score = 73.6 bits (179),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 38/79 (48%), Positives = 57/79 (72%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFE+I  I  +IED +++I +LL +A +S+ D+I IKRGS DMP+ +      Q+  EVE
+Sbjct  1   MFERIDIIFRNIEDIRDDINILLAMAKISMLDYIMIKRGSQDMPETLTFTLLGQIDVEVE  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           +LK+ I+ALNK+K+ +LVF
+Sbjct  61  KLKKEIDALNKLKREMLVF  79
+
+
+> UniRef90_I7HEE8 Uncharacterized protein n=2 Tax=Helicobacter 
+TaxID=209 RepID=I7HEE8_9HELI
+Length=79
+
+ Score = 72.4 bits (176),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 36/79 (46%), Positives = 57/79 (72%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           M+EKI +I   IED +++I +LL +A +SL D+I IKRGS DMP+ ++     Q+  E++
+Sbjct  1   MWEKIDEIFKSIEDIRDDINILLNIAKISLVDYIMIKRGSQDMPEHLSFDLLAQIDVEID  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           +LK  I++LN++K+ LLVF
+Sbjct  61  KLKAQIDSLNRLKRELLVF  79
+
+
+> UniRef90_A0A099U1N5 Uncharacterized protein n=1 Tax=Helicobacter 
+muridarum TaxID=216 RepID=A0A099U1N5_9HELI
+Length=79
+
+ Score = 69.3 bits (168),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 33/79 (42%), Positives = 56/79 (71%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           M ++I +I+ +IE+ Q+EI + L+++ L+L +++ IKRGS DMP+ +N + FT L E V 
+Sbjct  1   MLDRINQIIKNIENIQDEINISLRMSKLTLEEYVMIKRGSSDMPESLNMSIFTILDEHVN  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+            LK+ I+ LNK+K+   V+
+Sbjct  61  ALKKEIDTLNKLKREWFVY  79
+
+
+> UniRef90_V8CL60 Uncharacterized protein n=2 Tax=Helicobacter 
+TaxID=209 RepID=V8CL60_9HELI
+Length=79
+
+ Score = 60.1 bits (144),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 30/60 (50%), Positives = 44/60 (73%), Gaps = 0/60 (0%)
+
+Query  20  EMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVERLKELINALNKIKKGLLVF  79
+           ++LL +  +S  D+I IKRGSMDMP+ +  A   Q++E+V+ LKE I+ LNKIK+ +LVF
+Sbjct  20  QILLGMGKISFVDYIMIKRGSMDMPEELKMAVLEQINEQVDALKEQIDKLNKIKREMLVF  79
+
+
+> UniRef90_A0A099VVI1 Uncharacterized protein n=2 Tax=Helicobacter 
+TaxID=209 RepID=A0A099VVI1_9HELI
+Length=79
+
+ Score = 59.7 bits (143),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 40/79 (51%), Positives = 53/79 (67%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFE+I  IL +IE++Q EIE+LL +A +S  D+I IKRGS DMP  +      Q+  EV 
+Sbjct  1   MFERIDGILREIEEAQAEIELLLGMAKISFVDYIMIKRGSQDMPDELGAWNLQQIDNEVS  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           RLKE I  LNKIK+ +L +
+Sbjct  61  RLKEAIETLNKIKREVLTW  79
+
+
+> UniRef90_A0A1B1U7L5 Uncharacterized protein n=1 Tax=Helicobacter 
+sp. MIT 01-6242 TaxID=222136 RepID=A0A1B1U7L5_9HELI
+Length=79
+
+ Score = 56.2 bits (134),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 26/79 (33%), Positives = 54/79 (68%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           M ++I ++  ++E+++ E+++ L L  LS+ ++I IKRG+ D+P+ V+     ++++  E
+Sbjct  1   MLQRIDQMTQEMENAKLELQIALNLVGLSMQEYIMIKRGAQDLPESVSLWALEEVNQRAE  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           +LK  ++ LN++KK L VF
+Sbjct  61  QLKHHLDRLNRLKKELFVF  79
+
+
+> UniRef90_H5VAS9 Putative uncharacterized protein n=1 Tax=Helicobacter 
+bizzozeronii CCUG 35545 TaxID=1002805 RepID=H5VAS9_HELBI
+Length=44
+
+ Score = 48.1 bits (113),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 24/44 (55%), Positives = 34/44 (77%), Gaps = 0/44 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMP  44
+           MFEK+  I+ +IE+S+ EIE+LLK+AN+SLGDFI  + G +  P
+Sbjct  1   MFEKLELIIKNIENSKEEIEVLLKIANISLGDFIFDETGELRHP  44
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.139    0.360    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 441805441165
+Results from round 2
+
+
+Query= d1zkea1
+
+Length=79
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_C3XN67 Uncharacterized protein n=2 Tax=Helicobacter Ta...  101     7e-26
+  UniRef90_A0A099UJY8 Uncharacterized protein n=1 Tax=Helicobacte...  100     2e-25
+  UniRef90_A0A0N1E6X6 Uncharacterized protein n=2 Tax=Helicobacte...  96.1    8e-24
+  UniRef90_A0A099DM79 Uncharacterized protein n=3 Tax=Helicobacte...  95.3    2e-23
+  UniRef90_C5ZYK6 Putative uncharacterized protein n=1 Tax=Helico...  94.9    3e-23
+  UniRef90_E7A8U7 Genome n=1 Tax=Helicobacter felis (strain ATCC ...  94.5    3e-23
+  UniRef90_F8KTU2 Uncharacterized protein n=2 Tax=Helicobacter bi...  93.8    6e-23
+  UniRef90_A0A099B549 Uncharacterized protein n=1 Tax=Helicobacte...  93.8    6e-23
+  UniRef90_A0A099VAN9 Uncharacterized protein n=2 Tax=Helicobacte...  93.4    1e-22
+  UniRef90_Q7MSV7 Uncharacterized protein n=1 Tax=Wolinella succi...  93.4    1e-22
+  UniRef90_A0A099V2U6 Uncharacterized protein n=4 Tax=Helicobacte...  93.0    1e-22
+  UniRef90_A0A0K2XE68 Uncharacterized protein n=2 Tax=Helicobacte...  91.1    7e-22
+  UniRef90_UPI00082D1EDE UPI00082D1EDE related cluster n=1 Tax=un...  91.1    7e-22
+  UniRef90_I7HEE8 Uncharacterized protein n=2 Tax=Helicobacter Ta...  91.1    8e-22
+  UniRef90_E7G3L5 Uncharacterized protein n=2 Tax=Helicobacter su...  91.1    9e-22
+  UniRef90_A0A099BRS1 Uncharacterized protein n=2 Tax=Helicobacte...  90.7    1e-21
+  UniRef90_V8CDA8 Uncharacterized protein n=1 Tax=Helicobacter ma...  89.9    2e-21
+  UniRef90_A0A099U1N5 Uncharacterized protein n=1 Tax=Helicobacte...  88.8    7e-21
+  UniRef90_A0A099VVI1 Uncharacterized protein n=2 Tax=Helicobacte...  87.6    2e-20
+  UniRef90_P64666 Uncharacterized protein jhp_1419 n=243 Tax=Heli...  86.1    6e-20
+  UniRef90_A0A1B8J855 Uncharacterized protein n=1 Tax=Helicobacte...  85.3    1e-19
+  UniRef90_I0ESL1 Uncharacterized protein n=2 Tax=Helicobacter ce...  84.9    2e-19
+  UniRef90_A0A1B1U7L5 Uncharacterized protein n=1 Tax=Helicobacte...  80.7    7e-18
+  UniRef90_V8CL60 Uncharacterized protein n=2 Tax=Helicobacter Ta...  70.7    5e-14
+  UniRef90_H5VAS9 Putative uncharacterized protein n=1 Tax=Helico...  48.3    7e-06
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_C3XN67 Uncharacterized protein n=2 Tax=Helicobacter 
+TaxID=209 RepID=C3XN67_9HELI
+Length=79
+
+ Score = 101 bits (252),  Expect = 7e-26, Method: Composition-based stats.
+ Identities = 39/79 (49%), Positives = 58/79 (73%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFE+I  IL +IE++Q EI++LL +A +S  D+I IKRG+ D+P+G+      Q+  EV 
+Sbjct  1   MFERIDGILREIEEAQAEIQLLLGMAKISFVDYIMIKRGAQDIPEGLGAWNLQQIDNEVS  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           RLK+ I+ALNKIK+ +LV+
+Sbjct  61  RLKDAIDALNKIKREVLVW  79
+
+
+> UniRef90_A0A099UJY8 Uncharacterized protein n=1 Tax=Helicobacter 
+apodemus TaxID=135569 RepID=A0A099UJY8_9HELI
+Length=79
+
+ Score = 100 bits (249),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 39/79 (49%), Positives = 56/79 (71%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFE+I  IL +IE++Q EI +LL LA +S  D++ IKRGS D+P+G+      Q+  EV 
+Sbjct  1   MFERIDGILREIEEAQAEITLLLGLAKISFVDYVMIKRGSQDVPEGLGAWNLQQIDNEVS  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           +LKE I++LNKIKK +L +
+Sbjct  61  KLKEAIDSLNKIKKEVLTW  79
+
+
+> UniRef90_A0A0N1E6X6 Uncharacterized protein n=2 Tax=Helicobacter 
+pullorum TaxID=35818 RepID=A0A0N1E6X6_9HELI
+Length=79
+
+ Score = 96.1 bits (238),  Expect = 8e-24, Method: Composition-based stats.
+ Identities = 39/79 (49%), Positives = 56/79 (71%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFE+I  IL +IE++Q EI++LL +A +S  D+I IKRGS DMP+ +      Q+  EV 
+Sbjct  1   MFERIDSILQNIEEAQAEIKLLLGMAKISFVDYIMIKRGSQDMPEELGAWNLQQIDNEVS  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           +LKE I++LNKIKK +L +
+Sbjct  61  KLKEAIDSLNKIKKEVLTW  79
+
+
+> UniRef90_A0A099DM79 Uncharacterized protein n=3 Tax=Helicobacter 
+TaxID=209 RepID=A0A099DM79_9HELI
+Length=79
+
+ Score = 95.3 bits (236),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 41/79 (52%), Positives = 59/79 (75%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFEKI +I  +IED +++I +LL +A +SL D+I IKRGS DMP+ ++ +   Q+  EVE
+Sbjct  1   MFEKIDEIFKNIEDIRDDINILLNIAKISLIDYIMIKRGSQDMPEHLSFSVLAQIDGEVE  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           +LK  I+ALNK+K+ LLVF
+Sbjct  61  KLKAQIDALNKLKRELLVF  79
+
+
+> UniRef90_C5ZYK6 Putative uncharacterized protein n=1 Tax=Helicobacter 
+canadensis MIT 98-5491 TaxID=537970 RepID=C5ZYK6_9HELI
+Length=79
+
+ Score = 94.9 bits (235),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 40/79 (51%), Positives = 56/79 (71%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFE+I  +L  IE++Q EIE LL+LA +S  D++ IKRGS DMP  ++     Q+ EEV 
+Sbjct  1   MFERIDSLLKKIEEAQAEIEFLLRLAKISFVDYVMIKRGSQDMPPSLDMWNLQQIDEEVS  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           +LKE I++LNKIKK +L +
+Sbjct  61  KLKEAIDSLNKIKKEVLTW  79
+
+
+> UniRef90_E7A8U7 Genome n=1 Tax=Helicobacter felis (strain ATCC 
+49179 / NCTC 12436 / CS1) TaxID=936155 RepID=E7A8U7_HELFC
+Length=79
+
+ Score = 94.5 bits (234),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 47/79 (59%), Positives = 68/79 (86%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFE++ +++ DIE+++ E+E+LLKLAN+SL DFI +KRGS+D+P+G++ AF+TQ+SE VE
+Sbjct  1   MFERLDQLIKDIENAKEEVELLLKLANVSLSDFILMKRGSLDIPEGLDMAFYTQISEHVE  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+            LKE INALNK K+ +LVF
+Sbjct  61  ELKECINALNKYKREMLVF  79
+
+
+> UniRef90_F8KTU2 Uncharacterized protein n=2 Tax=Helicobacter 
+bizzozeronii TaxID=56877 RepID=F8KTU2_HELBC
+Length=79
+
+ Score = 93.8 bits (232),  Expect = 6e-23, Method: Composition-based stats.
+ Identities = 49/79 (62%), Positives = 65/79 (82%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFEK+  I+ +IE+S+ EIE+LLK+AN+SLGDFI +KRGS+D+P  +N AF+TQ+ E VE
+Sbjct  1   MFEKLELIIKNIENSKEEIEVLLKIANISLGDFILMKRGSLDIPDTLNMAFYTQIGEHVE  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+            LKE INALNK K+ +LVF
+Sbjct  61  ELKEHINALNKYKREMLVF  79
+
+
+> UniRef90_A0A099B549 Uncharacterized protein n=1 Tax=Helicobacter 
+saguini TaxID=1548018 RepID=A0A099B549_9HELI
+Length=79
+
+ Score = 93.8 bits (232),  Expect = 6e-23, Method: Composition-based stats.
+ Identities = 36/79 (46%), Positives = 58/79 (73%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFE+I +I+ +IE  ++E+ + L +A ++L D+I IKRGS DMP+G+N + F+Q+ E+V 
+Sbjct  1   MFERINQIIRNIESIEDELTIALNMAKITLEDYIMIKRGSADMPEGLNMSLFSQVDEQVM  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+            LK+ I+ LNK+K+   VF
+Sbjct  61  ALKQEIDTLNKLKREWFVF  79
+
+
+> UniRef90_A0A099VAN9 Uncharacterized protein n=2 Tax=Helicobacter 
+TaxID=209 RepID=A0A099VAN9_9HELI
+Length=79
+
+ Score = 93.4 bits (231),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 38/79 (48%), Positives = 58/79 (73%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFEK+ +I  +IED +++I +LL +A +SL D+I IKRGS DMP+ +     +Q+  E++
+Sbjct  1   MFEKMDQIFKNIEDIRDDINILLNMAKISLVDYIMIKRGSQDMPEHLTFTTLSQIDVEID  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           +LK  I+ALNK+K+ LLVF
+Sbjct  61  KLKAEIDALNKLKRELLVF  79
+
+
+> UniRef90_Q7MSV7 Uncharacterized protein n=1 Tax=Wolinella succinogenes 
+(strain ATCC 29543 / DSM 1740 / LMG 7466 / NCTC 11488 
+/ FDC 602W) TaxID=273121 RepID=Q7MSV7_WOLSU
+Length=79
+
+ Score = 93.4 bits (231),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 43/79 (54%), Positives = 54/79 (68%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFEKI  IL  IE S+ EIE+LL +A +S  D+I IKRGSMDMP+ +      Q+  EV 
+Sbjct  1   MFEKIDLILRGIEASREEIEILLNMAKISFVDYIMIKRGSMDMPEHLGVWNLQQIDTEVA  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           +LKE I ALNKIKK +L +
+Sbjct  61  KLKEHIEALNKIKKEVLNW  79
+
+
+> UniRef90_A0A099V2U6 Uncharacterized protein n=4 Tax=Helicobacter 
+TaxID=209 RepID=A0A099V2U6_9HELI
+Length=79
+
+ Score = 93.0 bits (230),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 37/79 (47%), Positives = 57/79 (72%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFE+I +I+ +IE+ Q+EI + L +A +SL D+I IKRGS+DMP+ +N + F  + E+V 
+Sbjct  1   MFERINQIIKNIENIQDEITIALNMAKISLEDYIMIKRGSLDMPEHLNMSLFAAVDEQVM  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+            LK+ I+ LNK+KK   V+
+Sbjct  61  ALKKEIDVLNKLKKEWFVY  79
+
+
+> UniRef90_A0A0K2XE68 Uncharacterized protein n=2 Tax=Helicobacter 
+TaxID=209 RepID=A0A0K2XE68_9HELI
+Length=79
+
+ Score = 91.1 bits (225),  Expect = 7e-22, Method: Composition-based stats.
+ Identities = 45/79 (57%), Positives = 65/79 (82%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFE++  I+ DIE+++ E+E+LL++A+LSL DFI +KRGS+D+P  ++ AF+TQ+SE VE
+Sbjct  1   MFERLELIIKDIENAKEEVELLLRIAHLSLSDFILMKRGSLDIPPTLDMAFYTQISERVE  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+            LKE INALNK K+ +LVF
+Sbjct  61  ELKEAINALNKYKREMLVF  79
+
+
+> UniRef90_UPI00082D1EDE UPI00082D1EDE related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00082D1EDE
+Length=79
+
+ Score = 91.1 bits (225),  Expect = 7e-22, Method: Composition-based stats.
+ Identities = 38/79 (48%), Positives = 57/79 (72%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFE+I  I  +IED +++I +LL +A +S+ D+I IKRGS DMP+ +      Q+  EVE
+Sbjct  1   MFERIDIIFRNIEDIRDDINILLAMAKISMLDYIMIKRGSQDMPETLTFTLLGQIDVEVE  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           +LK+ I+ALNK+K+ +LVF
+Sbjct  61  KLKKEIDALNKLKREMLVF  79
+
+
+> UniRef90_I7HEE8 Uncharacterized protein n=2 Tax=Helicobacter 
+TaxID=209 RepID=I7HEE8_9HELI
+Length=79
+
+ Score = 91.1 bits (225),  Expect = 8e-22, Method: Composition-based stats.
+ Identities = 36/79 (46%), Positives = 57/79 (72%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           M+EKI +I   IED +++I +LL +A +SL D+I IKRGS DMP+ ++     Q+  E++
+Sbjct  1   MWEKIDEIFKSIEDIRDDINILLNIAKISLVDYIMIKRGSQDMPEHLSFDLLAQIDVEID  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           +LK  I++LN++K+ LLVF
+Sbjct  61  KLKAQIDSLNRLKRELLVF  79
+
+
+> UniRef90_E7G3L5 Uncharacterized protein n=2 Tax=Helicobacter 
+suis TaxID=104628 RepID=E7G3L5_9HELI
+Length=88
+
+ Score = 91.1 bits (225),  Expect = 9e-22, Method: Composition-based stats.
+ Identities = 48/79 (61%), Positives = 65/79 (82%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFE++  I+ DIE+++ EIE+LLK+A+LSL DFI +KRGSMD+P+ +N AF+TQ+ E VE
+Sbjct  10  MFERLDLIIKDIENTKEEIELLLKIAHLSLSDFILMKRGSMDIPETLNMAFYTQIGERVE  69
+
+Query  61  RLKELINALNKIKKGLLVF  79
+            LKE INALNK K+ +LVF
+Sbjct  70  ELKEHINALNKYKREMLVF  88
+
+
+> UniRef90_A0A099BRS1 Uncharacterized protein n=2 Tax=Helicobacter 
+TaxID=209 RepID=A0A099BRS1_9HELI
+Length=79
+
+ Score = 90.7 bits (224),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 39/79 (49%), Positives = 58/79 (73%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFEKI +I  +IED +++I +LL +A +SL D+I IKRGS DMP+ +      Q+ E++E
+Sbjct  1   MFEKIDEIFKNIEDIRDDINILLNIAKISLIDYIMIKRGSQDMPEHLTFTMLAQIDEQIE  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           +LK  I+ALNK+K+ LL+F
+Sbjct  61  KLKAQIDALNKLKRELLIF  79
+
+
+> UniRef90_V8CDA8 Uncharacterized protein n=1 Tax=Helicobacter 
+macacae MIT 99-5501 TaxID=1357400 RepID=V8CDA8_9HELI
+Length=79
+
+ Score = 89.9 bits (222),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 41/79 (52%), Positives = 62/79 (78%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFEKI +I+A+IE+ ++EI +LL +A +S  D+I IKRGSMDMP+G+  + +  L+EEV+
+Sbjct  1   MFEKINEIIANIEEIRDEITILLGMAKISFVDYIMIKRGSMDMPEGMQMSVWEHLNEEVD  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           +LK  I+ LNK+K+ +LVF
+Sbjct  61  KLKAQIDLLNKLKREMLVF  79
+
+
+> UniRef90_A0A099U1N5 Uncharacterized protein n=1 Tax=Helicobacter 
+muridarum TaxID=216 RepID=A0A099U1N5_9HELI
+Length=79
+
+ Score = 88.8 bits (219),  Expect = 7e-21, Method: Composition-based stats.
+ Identities = 33/79 (42%), Positives = 56/79 (71%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           M ++I +I+ +IE+ Q+EI + L+++ L+L +++ IKRGS DMP+ +N + FT L E V 
+Sbjct  1   MLDRINQIIKNIENIQDEINISLRMSKLTLEEYVMIKRGSSDMPESLNMSIFTILDEHVN  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+            LK+ I+ LNK+K+   V+
+Sbjct  61  ALKKEIDTLNKLKREWFVY  79
+
+
+> UniRef90_A0A099VVI1 Uncharacterized protein n=2 Tax=Helicobacter 
+TaxID=209 RepID=A0A099VVI1_9HELI
+Length=79
+
+ Score = 87.6 bits (216),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 40/79 (51%), Positives = 53/79 (67%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFE+I  IL +IE++Q EIE+LL +A +S  D+I IKRGS DMP  +      Q+  EV 
+Sbjct  1   MFERIDGILREIEEAQAEIELLLGMAKISFVDYIMIKRGSQDMPDELGAWNLQQIDNEVS  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           RLKE I  LNKIK+ +L +
+Sbjct  61  RLKEAIETLNKIKREVLTW  79
+
+
+> UniRef90_P64666 Uncharacterized protein jhp_1419 n=243 Tax=Helicobacter 
+TaxID=209 RepID=Y1419_HELPJ
+Length=79
+
+ Score = 86.1 bits (212),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 79/79 (100%), Positives = 79/79 (100%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE
+Sbjct  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           RLKELINALNKIKKGLLVF
+Sbjct  61  RLKELINALNKIKKGLLVF  79
+
+
+> UniRef90_A0A1B8J855 Uncharacterized protein n=1 Tax=Helicobacter 
+sp. CLO-3 TaxID=211 RepID=A0A1B8J855_9HELI
+Length=79
+
+ Score = 85.3 bits (210),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 40/79 (51%), Positives = 60/79 (76%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFE+I +I+A IE+ ++EI++LL +  +   D+I IKRGSMDMP+ +  +   QL+E+V+
+Sbjct  1   MFERINEIIAKIEEIRDEIQILLGMGKIDFVDYIMIKRGSMDMPEELQMSVLEQLNEQVD  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           RLKE I+ LNKIK+ +LVF
+Sbjct  61  RLKEQIDRLNKIKREMLVF  79
+
+
+> UniRef90_I0ESL1 Uncharacterized protein n=2 Tax=Helicobacter 
+cetorum TaxID=138563 RepID=I0ESL1_HELCM
+Length=79
+
+ Score = 84.9 bits (209),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 70/79 (89%), Positives = 74/79 (94%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFEKIRKILADIED+Q+EIEMLLKLANL+LGDFIEIKRGSMDMP  VNEAFF QLSEEVE
+Sbjct  1   MFEKIRKILADIEDAQSEIEMLLKLANLNLGDFIEIKRGSMDMPSSVNEAFFAQLSEEVE  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+            LK+LINALNKIKK LLVF
+Sbjct  61  HLKDLINALNKIKKELLVF  79
+
+
+> UniRef90_A0A1B1U7L5 Uncharacterized protein n=1 Tax=Helicobacter 
+sp. MIT 01-6242 TaxID=222136 RepID=A0A1B1U7L5_9HELI
+Length=79
+
+ Score = 80.7 bits (198),  Expect = 7e-18, Method: Composition-based stats.
+ Identities = 26/79 (33%), Positives = 54/79 (68%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           M ++I ++  ++E+++ E+++ L L  LS+ ++I IKRG+ D+P+ V+     ++++  E
+Sbjct  1   MLQRIDQMTQEMENAKLELQIALNLVGLSMQEYIMIKRGAQDLPESVSLWALEEVNQRAE  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+           +LK  ++ LN++KK L VF
+Sbjct  61  QLKHHLDRLNRLKKELFVF  79
+
+
+> UniRef90_V8CL60 Uncharacterized protein n=2 Tax=Helicobacter 
+TaxID=209 RepID=V8CL60_9HELI
+Length=79
+
+ Score = 70.7 bits (172),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 40/79 (51%), Positives = 59/79 (75%), Gaps = 0/79 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMPKGVNEAFFTQLSEEVE  60
+           MFEKI +I+  IE+ ++EI++LL +  +S  D+I IKRGSMDMP+ +  A   Q++E+V+
+Sbjct  1   MFEKINEIIIRIEEIRDEIQILLGMGKISFVDYIMIKRGSMDMPEELKMAVLEQINEQVD  60
+
+Query  61  RLKELINALNKIKKGLLVF  79
+            LKE I+ LNKIK+ +LVF
+Sbjct  61  ALKEQIDKLNKIKREMLVF  79
+
+
+> UniRef90_H5VAS9 Putative uncharacterized protein n=1 Tax=Helicobacter 
+bizzozeronii CCUG 35545 TaxID=1002805 RepID=H5VAS9_HELBI
+Length=44
+
+ Score = 48.3 bits (114),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 24/44 (55%), Positives = 34/44 (77%), Gaps = 0/44 (0%)
+
+Query  1   MFEKIRKILADIEDSQNEIEMLLKLANLSLGDFIEIKRGSMDMP  44
+           MFEK+  I+ +IE+S+ EIE+LLK+AN+SLGDFI  + G +  P
+Sbjct  1   MFEKLELIIKNIENSKEEIEVLLKIANISLGDFIFDETGELRHP  44
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.154    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0470    0.140     1.90     42.6     43.6 
+
+Effective search space used: 441805441165
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

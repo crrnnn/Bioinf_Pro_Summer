@@ -1,0 +1,4224 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1dcea2
+
+Length=109
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q08602 Geranylgeranyl transferase type-2 subunit alpha...  231     3e-70
+  UniRef90_Q7Z2Z4 Putative uncharacterized protein DKFZp686I14200...  213     1e-65
+  UniRef90_Q9JHK4 Geranylgeranyl transferase type-2 subunit alpha...  213     1e-63
+  UniRef90_Q9JHK4-2 Isoform 2 of Geranylgeranyl transferase type-...  186     2e-55
+  UniRef90_H0YLH3 Geranylgeranyl transferase type-2 subunit alpha...  186     1e-54
+  UniRef90_Q92696 Geranylgeranyl transferase type-2 subunit alpha...  187     8e-54
+  UniRef90_UPI000695B44C PREDICTED: geranylgeranyl transferase ty...  183     1e-53
+  UniRef90_UPI000343FC78 PREDICTED: geranylgeranyl transferase ty...  186     3e-53
+  UniRef90_L5KIP7 Geranylgeranyl transferase type-2 subunit alpha...  186     3e-53
+  UniRef90_F6WB38 Uncharacterized protein n=2 Tax=Simiiformes Tax...  179     6e-53
+  UniRef90_A5A779 Geranylgeranyl transferase type-2 subunit alpha...  183     2e-52
+  UniRef90_UPI000625F0C0 PREDICTED: geranylgeranyl transferase ty...  180     4e-51
+  UniRef90_G1SIN7 Uncharacterized protein n=2 Tax=Oryctolagus cun...  177     4e-50
+  UniRef90_UPI000454606C PREDICTED: geranylgeranyl transferase ty...  165     8e-49
+  UniRef90_F6Y8L4 Uncharacterized protein n=1 Tax=Ornithorhynchus...  157     2e-46
+  UniRef90_UPI0003315AAC PREDICTED: geranylgeranyl transferase ty...  166     4e-46
+  UniRef90_UPI0003ABA716 PREDICTED: geranylgeranyl transferase ty...  166     7e-46
+  UniRef90_G3VR14 Uncharacterized protein n=2 Tax=Sarcophilus har...  154     8e-42
+  UniRef90_F6WVF8 Uncharacterized protein n=2 Tax=Monodelphis dom...  148     1e-39
+  UniRef90_UPI0000F2B0F4 PREDICTED: geranylgeranyl transferase ty...  148     1e-39
+  UniRef90_A0A1A6HWV2 Uncharacterized protein n=1 Tax=Neotoma lep...  141     4e-38
+  UniRef90_A0A151NUY7 Geranylgeranyl transferase type-2 subunit a...  144     4e-38
+  UniRef90_H9G8T8 Uncharacterized protein n=2 Tax=Anolis caroline...  133     1e-34
+  UniRef90_UPI000388AE80 PREDICTED: geranylgeranyl transferase ty...  132     5e-34
+  UniRef90_UPI0004421B14 PREDICTED: geranylgeranyl transferase ty...  130     2e-33
+  UniRef90_V8NST7 Geranylgeranyl transferase type-2 subunit alpha...  129     2e-33
+  UniRef90_UPI00074FF546 PREDICTED: geranylgeranyl transferase ty...  125     1e-31
+  UniRef90_UPI00042BFD1A PREDICTED: geranylgeranyl transferase ty...  125     2e-31
+  UniRef90_A0A0B8RRL0 Geranylgeranyl transferase type-2 subunit a...  123     9e-31
+  UniRef90_UPI0003AEE91A PREDICTED: geranylgeranyl transferase ty...  110     4e-26
+  UniRef90_S7MGS0 Geranylgeranyl transferase type-2 subunit alpha...  101     2e-22
+  UniRef90_A0A146WQG9 Geranylgeranyl transferase type-2 subunit a...  97.4    9e-22
+  UniRef90_A0A146WQZ1 Geranylgeranyl transferase type-2 subunit a...  97.4    2e-21
+  UniRef90_G7P9Y8 Putative uncharacterized protein n=2 Tax=Macaca...  97.4    3e-21
+  UniRef90_L9L2K1 Geranylgeranyl transferase type-2 subunit alpha...  95.9    9e-21
+  UniRef90_H2L733 Uncharacterized protein n=4 Tax=Oryzias latipes...  96.3    1e-20
+  UniRef90_G3NAQ1 Uncharacterized protein (Fragment) n=1 Tax=Gast...  95.1    2e-20
+  UniRef90_A0A146NP89 Geranylgeranyl transferase type-2 subunit a...  95.1    2e-20
+  UniRef90_UPI00054BB870 PREDICTED: LOW QUALITY PROTEIN: geranylg...  94.4    5e-20
+  UniRef90_F1MGN1 Geranylgeranyl transferase type-2 subunit alpha...  91.3    1e-19
+  UniRef90_B5X467 Geranylgeranyl transferase type-2 subunit alpha...  93.2    1e-19
+  UniRef90_UPI0007AD0816 UPI0007AD0816 related cluster n=4 Tax=un...  92.4    2e-19
+  UniRef90_UPI0007B8289B UPI0007B8289B related cluster n=1 Tax=un...  89.4    1e-18
+  UniRef90_UPI0006B39B91 PREDICTED: geranylgeranyl transferase ty...  90.1    1e-18
+  UniRef90_Q6DDV4 Rabggta-prov protein n=6 Tax=Xenopus TaxID=2620...  89.0    3e-18
+  UniRef90_H2UV48 Uncharacterized protein n=3 Tax=Tetraodontidae ...  89.0    3e-18
+  UniRef90_A0A0P7ULP7 Uncharacterized protein (Fragment) n=2 Tax=...  89.0    3e-18
+  UniRef90_UPI0007425798 PREDICTED: geranylgeranyl transferase ty...  88.6    4e-18
+  UniRef90_UPI0006D93558 PREDICTED: geranylgeranyl transferase ty...  88.6    5e-18
+  UniRef90_W5K0A0 Uncharacterized protein n=4 Tax=Astyanax mexica...  88.2    6e-18
+  UniRef90_A0A1A7ZAC1 Rab geranylgeranyltransferase, alpha subuni...  87.8    8e-18
+  UniRef90_UPI0007B95788 UPI0007B95788 related cluster n=2 Tax=un...  87.4    1e-17
+  UniRef90_UPI0009075F71 UPI0009075F71 related cluster n=1 Tax=un...  85.5    6e-17
+  UniRef90_I3J432 Uncharacterized protein n=20 Tax=Percomorphacea...  84.0    2e-16
+  UniRef90_Q08CG5 Zgc:153107 n=2 Tax=Danio rerio TaxID=7955 RepID...  83.2    4e-16
+  UniRef90_UPI0004962F15 PREDICTED: geranylgeranyl transferase ty...  82.0    1e-15
+  UniRef90_UPI000854EFA6 UPI000854EFA6 related cluster n=1 Tax=un...  81.6    1e-15
+  UniRef90_H3A6R2 Uncharacterized protein n=1 Tax=Latimeria chalu...  81.3    2e-15
+  UniRef90_UPI00064457FA PREDICTED: geranylgeranyl transferase ty...  80.9    2e-15
+  UniRef90_UPI0008DB4B43 UPI0008DB4B43 related cluster n=1 Tax=un...  74.7    9e-14
+  UniRef90_Q4RKY5 Chromosome 1 SCAF15025, whole genome shotgun se...  75.9    2e-13
+  UniRef90_UPI000711BC44 PREDICTED: geranylgeranyl transferase ty...  73.2    3e-13
+  UniRef90_M7BR16 Geranylgeranyl transferase type-2 subunit alpha...  70.1    9e-12
+  UniRef90_UPI0006B79FA8 PREDICTED: geranylgeranyl transferase ty...  66.6    2e-10
+  UniRef90_UPI0005D09C39 PREDICTED: geranylgeranyl transferase ty...  56.2    8e-07
+  UniRef90_UPI0007757BF4 UPI0007757BF4 related cluster n=1 Tax=un...  55.8    8e-07
+  UniRef90_A0A0S7HYU8 PGTA (Fragment) n=1 Tax=Poeciliopsis prolif...  44.3    0.001
+
+
+> UniRef90_Q08602 Geranylgeranyl transferase type-2 subunit alpha 
+n=42 Tax=Eutheria TaxID=9347 RepID=PGTA_RAT
+Length=567
+
+ Score = 231 bits (588),  Expect = 3e-70, Method: Compositional matrix adjust.
+ Identities = 109/109 (100%), Positives = 109/109 (100%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+            HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL
+Sbjct  242  HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ
+Sbjct  302  CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  350
+
+
+> UniRef90_Q7Z2Z4 Putative uncharacterized protein DKFZp686I14200 
+(Fragment) n=1 Tax=Homo sapiens TaxID=9606 RepID=Q7Z2Z4_HUMAN
+Length=358
+
+ Score = 213 bits (542),  Expect = 1e-65, Method: Compositional matrix adjust.
+ Identities = 100/109 (92%), Positives = 103/109 (94%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+            HDVLCC+HVSREEACLSVCFSRPL VGS+MGTLLL VDEAPLSVEWRTPDGRNRPSHVWL
+Sbjct  33   HDVLCCLHVSREEACLSVCFSRPLIVGSKMGTLLLTVDEAPLSVEWRTPDGRNRPSHVWL  92
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLND LPQHTFRVIWTGSD+QKECVLLK   ECWCRDSATDEQ
+Sbjct  93   CDLPAASLNDHLPQHTFRVIWTGSDTQKECVLLKGHQECWCRDSATDEQ  141
+
+
+> UniRef90_Q9JHK4 Geranylgeranyl transferase type-2 subunit alpha 
+n=4 Tax=Sciurognathi TaxID=33553 RepID=PGTA_MOUSE
+Length=567
+
+ Score = 213 bits (542),  Expect = 1e-63, Method: Compositional matrix adjust.
+ Identities = 100/109 (92%), Positives = 103/109 (94%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+            HDVLCC+HVSREEACLSVCFSRPL VGS+MGTLLL VDEAPLSVEWRTPDGRNRPSHVWL
+Sbjct  242  HDVLCCLHVSREEACLSVCFSRPLIVGSKMGTLLLTVDEAPLSVEWRTPDGRNRPSHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLND LPQHTFRVIWTGSD+QKECVLLK   ECWCRDSATDEQ
+Sbjct  302  CDLPAASLNDHLPQHTFRVIWTGSDTQKECVLLKGHQECWCRDSATDEQ  350
+
+
+> UniRef90_Q9JHK4-2 Isoform 2 of Geranylgeranyl transferase type-2 
+subunit alpha n=2 Tax=Mus musculus TaxID=10090 RepID=Q9JHK4-2
+Length=339
+
+ Score = 186 bits (473),  Expect = 2e-55, Method: Compositional matrix adjust.
+ Identities = 88/94 (94%), Positives = 91/94 (97%), Gaps = 0/94 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+            HDVLCC+HVSREEACLSVCFSRPL VGS+MGTLLL VDEAPLSVEWRTPDGRNRPSHVWL
+Sbjct  242  HDVLCCLHVSREEACLSVCFSRPLIVGSKMGTLLLTVDEAPLSVEWRTPDGRNRPSHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLK  94
+            CDLPAASLND LPQHTFRVIWTGSD+QKECVLLK
+Sbjct  302  CDLPAASLNDHLPQHTFRVIWTGSDTQKECVLLK  335
+
+
+> UniRef90_H0YLH3 Geranylgeranyl transferase type-2 subunit alpha 
+n=3 Tax=Euarchontoglires TaxID=314146 RepID=H0YLH3_HUMAN
+Length=424
+
+ Score = 186 bits (473),  Expect = 1e-54, Method: Compositional matrix adjust.
+ Identities = 89/109 (82%), Positives = 94/109 (86%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL VGSRM  LLLMVD++PL VEWRTPDGRNRPSHVWL
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPLLVGSRMEILLLMVDDSPLIVEWRTPDGRNRPSHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLNDQLPQHTFRVIWT  D QKECVLLK R E WCRDS TDEQ
+Sbjct  302  CDLPAASLNDQLPQHTFRVIWTAGDVQKECVLLKGRQEGWCRDSTTDEQ  350
+
+
+> UniRef90_Q92696 Geranylgeranyl transferase type-2 subunit alpha 
+n=63 Tax=Boreoeutheria TaxID=1437010 RepID=PGTA_HUMAN
+Length=567
+
+ Score = 187 bits (475),  Expect = 8e-54, Method: Compositional matrix adjust.
+ Identities = 89/109 (82%), Positives = 94/109 (86%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL VGSRM  LLLMVD++PL VEWRTPDGRNRPSHVWL
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPLLVGSRMEILLLMVDDSPLIVEWRTPDGRNRPSHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLNDQLPQHTFRVIWT  D QKECVLLK R E WCRDS TDEQ
+Sbjct  302  CDLPAASLNDQLPQHTFRVIWTAGDVQKECVLLKGRQEGWCRDSTTDEQ  350
+
+
+> UniRef90_UPI000695B44C PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha-like, partial n=1 Tax=Chinchilla lanigera 
+TaxID=34839 RepID=UPI000695B44C
+Length=385
+
+ Score = 183 bits (464),  Expect = 1e-53, Method: Compositional matrix adjust.
+ Identities = 86/109 (79%), Positives = 92/109 (84%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL VGS   TLLLM DE+PL VEWRTPDGRNRPSHVWL
+Sbjct  97   QDALRCLHVSRDEACLTVSFSRPLLVGSGTETLLLMADESPLIVEWRTPDGRNRPSHVWL  156
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPA SLNDQLPQHTFRV+WT  D+QKECVL K R E WCRDSATDEQ
+Sbjct  157  CDLPAGSLNDQLPQHTFRVVWTAGDAQKECVLFKGRQEAWCRDSATDEQ  205
+
+
+> UniRef90_UPI000343FC78 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha isoform X3 n=2 Tax=Laurasiatheria TaxID=314145 
+RepID=UPI000343FC78
+Length=560
+
+ Score = 186 bits (471),  Expect = 3e-53, Method: Compositional matrix adjust.
+ Identities = 88/109 (81%), Positives = 95/109 (87%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRP+ VGS   TLLLMVDE+PL+VEWRTPDGR RPSHVWL
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPILVGSGTETLLLMVDESPLAVEWRTPDGRTRPSHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLNDQLPQHTFRVIWT  D+QKECVLLK R E WCRDSATDEQ
+Sbjct  302  CDLPAASLNDQLPQHTFRVIWTAGDAQKECVLLKGRQEGWCRDSATDEQ  350
+
+
+> UniRef90_L5KIP7 Geranylgeranyl transferase type-2 subunit alpha 
+n=2 Tax=Chiroptera TaxID=9397 RepID=L5KIP7_PTEAL
+Length=593
+
+ Score = 186 bits (471),  Expect = 3e-53, Method: Compositional matrix adjust.
+ Identities = 86/109 (79%), Positives = 94/109 (86%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL VGSRM TLLL+VDE+PL+VEWRTPDGRNRPSHVW+
+Sbjct  267  QDALRCLHVSRDEACLTVSFSRPLMVGSRMETLLLVVDESPLAVEWRTPDGRNRPSHVWI  326
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP ASLNDQLPQHTFRVIWT  D+QKECVL K   E WCRDS TDEQ
+Sbjct  327  CDLPTASLNDQLPQHTFRVIWTAGDAQKECVLFKGHQEGWCRDSVTDEQ  375
+
+
+> UniRef90_F6WB38 Uncharacterized protein n=2 Tax=Simiiformes TaxID=314293 
+RepID=F6WB38_CALJA
+Length=317
+
+ Score = 179 bits (454),  Expect = 6e-53, Method: Compositional matrix adjust.
+ Identities = 87/109 (80%), Positives = 93/109 (85%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL VGSR  TLLLMVDE+PL VEWRTPDGRNRP+HVWL
+Sbjct  205  QDALRCLHVSRDEACLTVSFSRPLLVGSRTETLLLMVDESPLIVEWRTPDGRNRPNHVWL  264
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLN+Q PQHTFRVIWT  D QKECVLLK R E WCRDS TDEQ
+Sbjct  265  CDLPAASLNNQSPQHTFRVIWTEGDVQKECVLLKGRQEGWCRDSTTDEQ  313
+
+
+> UniRef90_A5A779 Geranylgeranyl transferase type-2 subunit alpha 
+n=11 Tax=Eutheria TaxID=9347 RepID=PGTA_PIG
+Length=567
+
+ Score = 183 bits (465),  Expect = 2e-52, Method: Compositional matrix adjust.
+ Identities = 87/109 (80%), Positives = 94/109 (86%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL VG    TLLLMV+E+PLSVEWRTPDGRNRPSHVWL
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPLLVGPSTETLLLMVNESPLSVEWRTPDGRNRPSHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLND LPQHTFRVIWT  ++QKECVLLK R E WCRDSATDEQ
+Sbjct  302  CDLPAASLNDHLPQHTFRVIWTAGNAQKECVLLKGRQEGWCRDSATDEQ  350
+
+
+> UniRef90_UPI000625F0C0 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha isoform X1 n=2 Tax=Aotus nancymaae TaxID=37293 
+RepID=UPI000625F0C0
+Length=574
+
+ Score = 180 bits (456),  Expect = 4e-51, Method: Compositional matrix adjust.
+ Identities = 86/109 (79%), Positives = 93/109 (85%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL VGSR  TLLLMVD++PL VEWRTPDGRN+P+HVWL
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPLLVGSRTETLLLMVDDSPLIVEWRTPDGRNQPNHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLNDQ PQHTFRVIWT  D QKECVLLK R E WCRDS TDEQ
+Sbjct  302  CDLPAASLNDQSPQHTFRVIWTEGDVQKECVLLKGRQEGWCRDSTTDEQ  350
+
+
+> UniRef90_G1SIN7 Uncharacterized protein n=2 Tax=Oryctolagus cuniculus 
+TaxID=9986 RepID=G1SIN7_RABIT
+Length=585
+
+ Score = 177 bits (449),  Expect = 4e-50, Method: Compositional matrix adjust.
+ Identities = 84/109 (77%), Positives = 90/109 (83%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+VCFSRP+ VG    TLLLM DE+PL VEWRTPDGRN+PSHVWL
+Sbjct  242  QDALHCLHVSRDEACLTVCFSRPVLVGPGTDTLLLMADESPLMVEWRTPDGRNQPSHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP ASLNDQLPQHTFRVIWT     KECVLLK R E WCRDSATDEQ
+Sbjct  302  CDLPTASLNDQLPQHTFRVIWTAGGVHKECVLLKGRQEGWCRDSATDEQ  350
+
+
+> UniRef90_UPI000454606C PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha-like, partial n=1 Tax=Ornithorhynchus anatinus 
+TaxID=9258 RepID=UPI000454606C
+Length=198
+
+ Score = 165 bits (417),  Expect = 8e-49, Method: Compositional matrix adjust.
+ Identities = 78/109 (72%), Positives = 90/109 (83%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D + C+HVSR++ACL+V FSRPL VG     LLL+VDE+PL+VEWRTPDGRN P +VWL
+Sbjct  14   QDAVLCLHVSRDDACLTVGFSRPLAVGPGAERLLLLVDESPLAVEWRTPDGRNGPGNVWL  73
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLNDQ PQHTFR++W G D+QKECVL K R E WCRDSATDEQ
+Sbjct  74   CDLPAASLNDQWPQHTFRLLWRGGDAQKECVLFKGRREGWCRDSATDEQ  122
+
+
+> UniRef90_F6Y8L4 Uncharacterized protein n=1 Tax=Ornithorhynchus 
+anatinus TaxID=9258 RepID=F6Y8L4_ORNAN
+Length=148
+
+ Score = 157 bits (397),  Expect = 2e-46, Method: Compositional matrix adjust.
+ Identities = 75/109 (69%), Positives = 88/109 (81%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D + C+HVSR++ACL+V FSRPL VG     LLL+VDE+PL+VEWRTPDGRN P +VWL
+Sbjct  4    QDAVLCLHVSRDDACLTVGFSRPLAVGPGAERLLLLVDESPLAVEWRTPDGRNGPGNVWL  63
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPA+  NDQ PQHTFR++W G D+QKECVL K R E WCRDSATDEQ
+Sbjct  64   CDLPAS--NDQWPQHTFRLLWRGGDAQKECVLFKGRREGWCRDSATDEQ  110
+
+
+> UniRef90_UPI0003315AAC PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Sorex araneus TaxID=42254 RepID=UPI0003315AAC
+Length=606
+
+ Score = 166 bits (421),  Expect = 4e-46, Method: Compositional matrix adjust.
+ Identities = 77/108 (71%), Positives = 89/108 (82%), Gaps = 0/108 (0%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+            D L C+HVSR++ACL+V FSRPL VG    TLL+MVD APL+VEWRTPDG+ RP +VWLC
+Sbjct  282  DALHCLHVSRDDACLTVSFSRPLLVGPGTETLLVMVDGAPLAVEWRTPDGKKRPCYVWLC  341
+
+Query  62   DLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            DLPAAS +DQL Q TFRV+W   D+QKECVL+K RPE WCRDSATDEQ
+Sbjct  342  DLPAASFDDQLSQQTFRVVWMAVDAQKECVLMKGRPEAWCRDSATDEQ  389
+
+
+> UniRef90_UPI0003ABA716 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha isoform X1 n=3 Tax=Cercopithecidae TaxID=9527 
+RepID=UPI0003ABA716
+Length=598
+
+ Score = 166 bits (419),  Expect = 7e-46, Method: Compositional matrix adjust.
+ Identities = 87/140 (62%), Positives = 92/140 (66%), Gaps = 31/140 (22%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL VGSR   LLLMVD++PL VEWRTPDGRNRPSHVWL
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPLLVGSRTEILLLMVDDSPLIVEWRTPDGRNRPSHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLK--------------------------  94
+            CDLP ASLNDQLPQHTFRVIWT  D QKECVLLK                          
+Sbjct  302  CDLPPASLNDQLPQHTFRVIWTAGDVQKECVLLKGDGTCSLHPLQQSPSLFSSPGCTLQP  361
+
+Query  95   -----DRPECWCRDSATDEQ  109
+                  R E WCRDS TDEQ
+Sbjct  362  PTLSPGRQEGWCRDSTTDEQ  381
+
+
+> UniRef90_G3VR14 Uncharacterized protein n=2 Tax=Sarcophilus harrisii 
+TaxID=9305 RepID=G3VR14_SARHA
+Length=568
+
+ Score = 154 bits (389),  Expect = 8e-42, Method: Compositional matrix adjust.
+ Identities = 72/109 (66%), Positives = 86/109 (79%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D + C+HVSR EACL+VCFSRP+ VG  + T++L+VDE+PL VEWRTPDG+ RP+HVWL
+Sbjct  245  QDAIRCLHVSRNEACLTVCFSRPIIVGPGIETVMLLVDESPLPVEWRTPDGKKRPNHVWL  304
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPA S NDQ  QH+F ++W   D QKECVL K R E WCRDSATDEQ
+Sbjct  305  CDLPADSFNDQDSQHSFFLMW--GDVQKECVLYKGRKESWCRDSATDEQ  351
+
+
+> UniRef90_F6WVF8 Uncharacterized protein n=2 Tax=Monodelphis domestica 
+TaxID=13616 RepID=F6WVF8_MONDO
+Length=537
+
+ Score = 148 bits (373),  Expect = 1e-39, Method: Compositional matrix adjust.
+ Identities = 68/109 (62%), Positives = 85/109 (78%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+            HD + C+HVSR EACL+ CFSRP+ VG  + T++LM D +PL VEWRTPDGR RP+++WL
+Sbjct  214  HDAIRCLHVSRSEACLTACFSRPIIVGPGVETVMLMGDGSPLHVEWRTPDGRKRPNYIWL  273
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  SL+DQ+ QH+F ++W   D QK+CVL K R E WCRDSATDEQ
+Sbjct  274  CDLPTDSLDDQISQHSFCLMW--GDVQKKCVLFKGRNETWCRDSATDEQ  320
+
+
+> UniRef90_UPI0000F2B0F4 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Monodelphis domestica TaxID=13616 
+RepID=UPI0000F2B0F4
+Length=588
+
+ Score = 148 bits (373),  Expect = 1e-39, Method: Compositional matrix adjust.
+ Identities = 68/109 (62%), Positives = 85/109 (78%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+            HD + C+HVSR EACL+ CFSRP+ VG  + T++LM D +PL VEWRTPDGR RP+++WL
+Sbjct  265  HDAIRCLHVSRSEACLTACFSRPIIVGPGVETVMLMGDGSPLHVEWRTPDGRKRPNYIWL  324
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  SL+DQ+ QH+F ++W   D QK+CVL K R E WCRDSATDEQ
+Sbjct  325  CDLPTDSLDDQISQHSFCLMW--GDVQKKCVLFKGRNETWCRDSATDEQ  371
+
+
+> UniRef90_A0A1A6HWV2 Uncharacterized protein n=1 Tax=Neotoma lepida 
+TaxID=56216 RepID=A0A1A6HWV2_NEOLE
+Length=364
+
+ Score = 141 bits (356),  Expect = 4e-38, Method: Compositional matrix adjust.
+ Identities = 74/115 (64%), Positives = 76/115 (66%), Gaps = 35/115 (30%)
+
+Query  30   MGTLLLMVDEAPLSVEWRTPDGRNRPSHVW------------------------------  59
+            MGTLLLMVDEAPLSVEWRTPDGRNRPSHVW                              
+Sbjct  1    MGTLLLMVDEAPLSVEWRTPDGRNRPSHVWVSQDWWDRDQGLGWDSGGTVRRAVRPHISL  60
+
+Query  60   -----LCDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+                 LCDLPAASLNDQLPQHTFRVIWT SD+QKECVL K R ECWCRDSATDE+
+Sbjct  61   TQRSQLCDLPAASLNDQLPQHTFRVIWTASDAQKECVLFKGRQECWCRDSATDEE  115
+
+
+> UniRef90_A0A151NUY7 Geranylgeranyl transferase type-2 subunit 
+alpha n=2 Tax=Alligator TaxID=8495 RepID=A0A151NUY7_ALLMI
+Length=565
+
+ Score = 144 bits (362),  Expect = 4e-38, Method: Compositional matrix adjust.
+ Identities = 66/104 (63%), Positives = 79/104 (76%), Gaps = 0/104 (0%)
+
+Query  6    CVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCDLPA  65
+            CV+V+RE+ACL+V FS+P+ V      L+L+ DEAPL+VEW TPDGRNRP  +WLCDLPA
+Sbjct  245  CVYVNREDACLAVAFSQPVRVTPGSHGLILLADEAPLTVEWHTPDGRNRPGVIWLCDLPA  304
+
+Query  66   ASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+             +LND  PQHTFRVIW     QKECVL K R +CW RDS T+EQ
+Sbjct  305  LALNDHWPQHTFRVIWAPGQCQKECVLFKGRKDCWYRDSVTEEQ  348
+
+
+> UniRef90_H9G8T8 Uncharacterized protein n=2 Tax=Anolis carolinensis 
+TaxID=28377 RepID=H9G8T8_ANOCA
+Length=449
+
+ Score = 133 bits (335),  Expect = 1e-34, Method: Compositional matrix adjust.
+ Identities = 58/104 (56%), Positives = 76/104 (73%), Gaps = 0/104 (0%)
+
+Query  6    CVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCDLPA  65
+            CV+V+RE+  L+V FS P+ +      L++  DE+PL V WRTPDGRNRP  +WLCDLPA
+Sbjct  129  CVYVNREDTSLAVAFSHPVAIAPASHDLIIFGDESPLVVRWRTPDGRNRPGFMWLCDLPA  188
+
+Query  66   ASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            ++LND  PQHTFR++W+   SQKECVL K   +CW +DS T+EQ
+Sbjct  189  SALNDHWPQHTFRILWSEGQSQKECVLFKGHRDCWSQDSVTEEQ  232
+
+
+> UniRef90_UPI000388AE80 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Chrysemys picta bellii TaxID=8478 
+RepID=UPI000388AE80
+Length=565
+
+ Score = 132 bits (332),  Expect = 5e-34, Method: Compositional matrix adjust.
+ Identities = 62/107 (58%), Positives = 78/107 (73%), Gaps = 0/107 (0%)
+
+Query  3    VLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCD  62
+             + CV+VSRE++ L+V FS+P+ V      LLL  DEAPL+V W TPDG+NRP  +WLCD
+Sbjct  242  TILCVYVSREDSSLAVAFSQPVVVTPGSCDLLLFADEAPLAVNWHTPDGKNRPGLMWLCD  301
+
+Query  63   LPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            LP ++LN+  PQHTFRV W G +SQKECVL K   + WCRDS T+EQ
+Sbjct  302  LPDSALNEHWPQHTFRVHWVGGESQKECVLFKGCRDGWCRDSVTEEQ  348
+
+
+> UniRef90_UPI0004421B14 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha-like isoform X4 n=1 Tax=Python bivittatus 
+TaxID=176946 RepID=UPI0004421B14
+Length=565
+
+ Score = 130 bits (328),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 57/104 (55%), Positives = 74/104 (71%), Gaps = 0/104 (0%)
+
+Query  6    CVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCDLPA  65
+            CV+V+RE A L+V FSRP+ V      L++  DE+PL V WRTPDG+N+P  +WLCDLP 
+Sbjct  245  CVYVNREHASLAVAFSRPVAVAPASHDLIVFGDESPLVVRWRTPDGKNKPGFMWLCDLPT  304
+
+Query  66   ASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            ++LN+  PQHTFRV+W     QKECVL K   +CW +DS T+EQ
+Sbjct  305  SALNNHWPQHTFRVLWAEGQVQKECVLFKGHKDCWTQDSVTEEQ  348
+
+
+> UniRef90_V8NST7 Geranylgeranyl transferase type-2 subunit alpha 
+(Fragment) n=1 Tax=Ophiophagus hannah TaxID=8665 RepID=V8NST7_OPHHA
+Length=343
+
+ Score = 129 bits (323),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 56/104 (54%), Positives = 73/104 (70%), Gaps = 0/104 (0%)
+
+Query  6    CVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCDLPA  65
+            CV+V+RE   L+V FS P+ V      L++  DE+PL V WRTPDG+N+P ++WLCDLP 
+Sbjct  23   CVYVNRENTSLAVAFSHPVAVAPASHDLIVFGDESPLVVRWRTPDGKNKPGYMWLCDLPT  82
+
+Query  66   ASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            ++LND  PQHTFRV+W     QKECVL K   +CW +DS T+EQ
+Sbjct  83   SALNDHWPQHTFRVLWAEGHVQKECVLFKGHKDCWNQDSVTEEQ  126
+
+
+> UniRef90_UPI00074FF546 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Gekko japonicus TaxID=146911 RepID=UPI00074FF546
+Length=564
+
+ Score = 125 bits (315),  Expect = 1e-31, Method: Compositional matrix adjust.
+ Identities = 57/104 (55%), Positives = 73/104 (70%), Gaps = 0/104 (0%)
+
+Query  6    CVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCDLPA  65
+            C++V+RE+A L V FS P+ V      L++  DE+PL V WRTP GRN+P  +WLC+LP 
+Sbjct  244  CLYVNREDASLVVAFSHPVAVAPASHDLVVFGDESPLVVRWRTPHGRNKPGLMWLCELPP  303
+
+Query  66   ASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            A+LND  PQHTFRV+W    SQKECVL K   +CW +DS T+EQ
+Sbjct  304  AALNDHWPQHTFRVLWAEGRSQKECVLFKGHKDCWSQDSVTEEQ  347
+
+
+> UniRef90_UPI00042BFD1A PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Chelonia mydas TaxID=8469 RepID=UPI00042BFD1A
+Length=468
+
+ Score = 125 bits (313),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 59/92 (64%), Positives = 72/92 (78%), Gaps = 2/92 (2%)
+
+Query  3    VLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCD  62
+             + CV+VSRE++ L+V FS+P+T GS    LLL  DEAPL+V WRTPDGRNRP  +WLCD
+Sbjct  256  TILCVYVSREDSSLAVAFSQPVTPGS--CDLLLFADEAPLAVNWRTPDGRNRPGLMWLCD  313
+
+Query  63   LPAASLNDQLPQHTFRVIWTGSDSQKECVLLK  94
+            LPA++LN+  PQHTFRV W G +SQKECVL K
+Sbjct  314  LPASALNEHWPQHTFRVQWAGGESQKECVLFK  345
+
+
+> UniRef90_A0A0B8RRL0 Geranylgeranyl transferase type-2 subunit 
+alpha n=4 Tax=Colubroidea TaxID=34989 RepID=A0A0B8RRL0_BOIIR
+Length=565
+
+ Score = 123 bits (309),  Expect = 9e-31, Method: Compositional matrix adjust.
+ Identities = 54/104 (52%), Positives = 71/104 (68%), Gaps = 0/104 (0%)
+
+Query  6    CVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCDLPA  65
+            CV+V+RE   L+V FS P+ V      L++  DE+PL V W TPD +N+P ++WLCDLP 
+Sbjct  245  CVYVNRENTSLAVAFSHPVAVAPASHDLIVFGDESPLVVRWHTPDRKNKPGYMWLCDLPT  304
+
+Query  66   ASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            ++LND  PQHTFRV+W     QKECVL K   +CW +DS T+EQ
+Sbjct  305  SALNDHWPQHTFRVLWAEGHVQKECVLFKGHKDCWNQDSVTEEQ  348
+
+
+> UniRef90_UPI0003AEE91A PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha isoform X2 n=1 Tax=Sus scrofa TaxID=9823 
+RepID=UPI0003AEE91A
+Length=536
+
+ Score = 110 bits (276),  Expect = 4e-26, Method: Compositional matrix adjust.
+ Identities = 60/109 (55%), Positives = 65/109 (60%), Gaps = 31/109 (28%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL V                                 L
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPLLVS-------------------------------LL  270
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLND LPQHTFRVIWT  ++QKECVLLK R E WCRDSATDEQ
+Sbjct  271  CDLPAASLNDHLPQHTFRVIWTAGNAQKECVLLKGRQEGWCRDSATDEQ  319
+
+
+> UniRef90_S7MGS0 Geranylgeranyl transferase type-2 subunit alpha 
+n=1 Tax=Myotis brandtii TaxID=109478 RepID=S7MGS0_MYOBR
+Length=639
+
+ Score = 101 bits (251),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 60/113 (53%), Positives = 69/113 (61%), Gaps = 21/113 (19%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL V S M TLLL  DE+PL+VEWRTPDGRNRPS VW+
+Sbjct  314  QDALRCLHVSRDEACLTVSFSRPLLVDSGMETLLLFADESPLAVEWRTPDGRNRPSPVWV  373
+
+Query  61   CDLPAASLNDQLPQHTFRVIWT----GSDSQKECVLLKDRPECWCRDSATDEQ  109
+                         Q  + ++      G DSQK         E WCRDSATDEQ
+Sbjct  374  S------------QDWWGIVGAEAGLGWDSQK-----SGHHEGWCRDSATDEQ  409
+
+
+> UniRef90_A0A146WQG9 Geranylgeranyl transferase type-2 subunit 
+alpha, putative n=1 Tax=Fundulus heteroclitus TaxID=8078 RepID=A0A146WQG9_FUNHE
+Length=407
+
+ Score = 97.4 bits (241),  Expect = 9e-22, Method: Compositional matrix adjust.
+ Identities = 47/106 (44%), Positives = 67/106 (63%), Gaps = 2/106 (2%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+            +++ CV+VSREE  ++V FSRP  V +R G LLL++D  P  VEWR+     + S VW+C
+Sbjct  261  EMISCVYVSREEERVAVAFSRP--VNARSGVLLLVLDGQPQRVEWRSVHPHFKHSPVWIC  318
+
+Query  62   DLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATD  107
+            DLP  +++D   +H   V WT   + ++C L   R E WCRD+ATD
+Sbjct  319  DLPPGTISDITNEHNLTVHWTEKHAHRDCALYTGRSESWCRDTATD  364
+
+
+> UniRef90_A0A146WQZ1 Geranylgeranyl transferase type-2 subunit 
+alpha, putative (Fragment) n=1 Tax=Fundulus heteroclitus TaxID=8078 
+RepID=A0A146WQZ1_FUNHE
+Length=484
+
+ Score = 97.4 bits (241),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 47/106 (44%), Positives = 67/106 (63%), Gaps = 2/106 (2%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+            +++ CV+VSREE  ++V FSRP  V +R G LLL++D  P  VEWR+     + S VW+C
+Sbjct  95   EMISCVYVSREEERVAVAFSRP--VNARSGVLLLVLDGQPQRVEWRSVHPHFKHSPVWIC  152
+
+Query  62   DLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATD  107
+            DLP  +++D   +H   V WT   + ++C L   R E WCRD+ATD
+Sbjct  153  DLPPGTISDITNEHNLTVHWTEKHAHRDCALYTGRSESWCRDTATD  198
+
+
+> UniRef90_G7P9Y8 Putative uncharacterized protein n=2 Tax=Macaca 
+TaxID=9539 RepID=G7P9Y8_MACFA
+Length=546
+
+ Score = 97.4 bits (241),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 45/60 (75%), Positives = 51/60 (85%), Gaps = 0/60 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL VGSR   LLLMVD++PL VEWRTPDGRNRPSHVW+
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPLLVGSRTEILLLMVDDSPLIVEWRTPDGRNRPSHVWV  301
+
+
+> UniRef90_L9L2K1 Geranylgeranyl transferase type-2 subunit alpha 
+n=1 Tax=Tupaia chinensis TaxID=246437 RepID=L9L2K1_TUPCH
+Length=531
+
+ Score = 95.9 bits (237),  Expect = 9e-21, Method: Compositional matrix adjust.
+ Identities = 44/60 (73%), Positives = 52/60 (87%), Gaps = 0/60 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL V +R  TLLL+VDEAPL+VEWRTPDGR+RPSHVW+
+Sbjct  245  QDALRCLHVSRDEACLTVSFSRPLLVEARTETLLLLVDEAPLTVEWRTPDGRSRPSHVWV  304
+
+
+> UniRef90_H2L733 Uncharacterized protein n=4 Tax=Oryzias latipes 
+TaxID=8090 RepID=H2L733_ORYLA
+Length=577
+
+ Score = 96.3 bits (238),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 47/109 (43%), Positives = 70/109 (64%), Gaps = 3/109 (3%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHV-WL  60
+            + + CV+VSRE+  ++V FSRP  + +R   LLL++D  PL VEWR+   R R   + W+
+Sbjct  253  ETISCVYVSREDERVAVAFSRP--INARCVGLLLVLDGQPLRVEWRSVHPRFRKRFLNWI  310
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  ++ND   +H   V WTG+ + ++C L   R E WCRD+ATD++
+Sbjct  311  CDLPPGTINDVTNEHNLTVHWTGNHTHRDCALYTGRVESWCRDTATDQE  359
+
+
+> UniRef90_G3NAQ1 Uncharacterized protein (Fragment) n=1 Tax=Gasterosteus 
+aculeatus TaxID=69293 RepID=G3NAQ1_GASAC
+Length=554
+
+ Score = 95.1 bits (235),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 46/108 (43%), Positives = 69/108 (64%), Gaps = 2/108 (2%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+            +++ CV VSREE  ++V FSRP  V ++ G L+L++D  P +VEWR+   R + S VW+C
+Sbjct  232  EMISCVLVSREEETVTVAFSRP--VDAQPGGLMLLLDGQPQTVEWRSVHPRFKHSPVWIC  289
+
+Query  62   DLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            DLP  +++D   +H   V W    + ++C L   R E WCRDSATD++
+Sbjct  290  DLPPGTISDVTNEHNLTVHWMERHAHRDCALYTGRTESWCRDSATDQE  337
+
+
+> UniRef90_A0A146NP89 Geranylgeranyl transferase type-2 subunit 
+alpha n=1 Tax=Fundulus heteroclitus TaxID=8078 RepID=A0A146NP89_FUNHE
+Length=622
+
+ Score = 95.1 bits (235),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 45/106 (42%), Positives = 67/106 (63%), Gaps = 2/106 (2%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+            +++ CV++SREE  ++V FSRP  V ++ G LLL++D  P  VEWR+     + S VW+C
+Sbjct  300  EMISCVYISREEERVAVAFSRP--VNAQSGVLLLVLDGQPQRVEWRSVHPHFKHSPVWIC  357
+
+Query  62   DLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATD  107
+            DLP  +++D   +H   V WT   + ++C L   R E WCRD+ATD
+Sbjct  358  DLPPGTISDITNEHNLTVHWTEKHAHRDCALYTGRSESWCRDTATD  403
+
+
+> UniRef90_UPI00054BB870 PREDICTED: LOW QUALITY PROTEIN: geranylgeranyl 
+transferase type-2 subunit alpha n=1 Tax=Larimichthys 
+crocea TaxID=215358 RepID=UPI00054BB870
+Length=615
+
+ Score = 94.4 bits (233),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 46/108 (43%), Positives = 69/108 (64%), Gaps = 2/108 (2%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+            +++ CV+VSR+E  ++V FSRP  V ++   LLL++D  P  VEWR+   R + S VW+C
+Sbjct  283  EMISCVYVSRDEERVAVAFSRP--VNAQSVGLLLVLDGQPQRVEWRSVHPRFKHSPVWIC  340
+
+Query  62   DLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            DLP  +++D   +H   V WT   + ++C L   R E WCRDSATD++
+Sbjct  341  DLPPGTISDITNEHNLTVHWTEKHTHRDCALYTGRTESWCRDSATDQE  388
+
+
+> UniRef90_F1MGN1 Geranylgeranyl transferase type-2 subunit alpha 
+n=2 Tax=Bos taurus TaxID=9913 RepID=F1MGN1_BOVIN
+Length=333
+
+ Score = 91.3 bits (225),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 43/56 (77%), Positives = 49/56 (88%), Gaps = 0/56 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPS  56
+             D L C+HVSR+EACL+V FSRPL VGS M TLLLMVDE+PL+VEWRTP+GRNRPS
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPLLVGSGMETLLLMVDESPLAVEWRTPEGRNRPS  297
+
+
+> UniRef90_B5X467 Geranylgeranyl transferase type-2 subunit alpha 
+n=4 Tax=Protacanthopterygii TaxID=41705 RepID=B5X467_SALSA
+Length=583
+
+ Score = 93.2 bits (230),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 45/108 (42%), Positives = 67/108 (62%), Gaps = 2/108 (2%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+            +++ CV VSREE  ++V FSRP+   S    L+L++D  P  VEWR+     R S VW+C
+Sbjct  261  EMISCVFVSREEERVAVAFSRPVNASS--SGLMLVLDGQPQRVEWRSVHPHFRHSPVWIC  318
+
+Query  62   DLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            +LP  +++D + +H   V WT   + ++C L   R E WCRDSATD++
+Sbjct  319  ELPPGTISDIINEHNLTVHWTEKHTHRDCALYTGRSESWCRDSATDQE  366
+
+
+> UniRef90_UPI0007AD0816 UPI0007AD0816 related cluster n=4 Tax=unknown 
+TaxID= RepID=UPI0007AD0816
+Length=585
+
+ Score = 92.4 bits (228),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 46/108 (43%), Positives = 66/108 (61%), Gaps = 2/108 (2%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+            +++ CV+VSRE   +SV FS+P  V ++   L+L+VD  P  V WR+   R R S VWLC
+Sbjct  258  EMISCVYVSREGERVSVAFSKP--VHAQSEGLMLVVDGQPQQVHWRSAHPRFRHSAVWLC  315
+
+Query  62   DLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            DLP  S++D   +H   + WT   + ++C L     E WCRDSATD++
+Sbjct  316  DLPPGSISDISNEHNLTIHWTEKHTHRDCALYTGSAESWCRDSATDQE  363
+
+
+> UniRef90_UPI0007B8289B UPI0007B8289B related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007B8289B
+Length=423
+
+ Score = 89.4 bits (220),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 45/108 (42%), Positives = 66/108 (61%), Gaps = 2/108 (2%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+            +++ CV+VSRE   +SV FS+P  V ++   L+L++D  P  V+WR+   R R S VWLC
+Sbjct  258  EMISCVYVSRERQRVSVAFSKP--VHAQSEGLMLVLDGLPQQVQWRSAHPRFRHSPVWLC  315
+
+Query  62   DLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            DLP  S++D   +H   V W    + ++C L     E WCRDSATD++
+Sbjct  316  DLPPGSVSDISNEHNLTVHWPEKHTHRDCALYTGSAESWCRDSATDQE  363
+
+
+> UniRef90_UPI0006B39B91 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Austrofundulus limnaeus TaxID=52670 
+RepID=UPI0006B39B91
+Length=584
+
+ Score = 90.1 bits (222),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 47/108 (44%), Positives = 69/108 (64%), Gaps = 2/108 (2%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+            +++ CV+VSREE  + V FSRP++V S +G LLL++D  P  VEW++     + S VW+C
+Sbjct  262  EMISCVYVSREEEKVVVVFSRPVSVVS-VG-LLLILDGQPQRVEWQSVHPHFKHSPVWIC  319
+
+Query  62   DLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+             LP  +++D   +H   V WT   + K+C L   R E WCRDSATD++
+Sbjct  320  SLPPGTISDPSNEHNLTVHWTERHTHKDCALYTGRTESWCRDSATDQE  367
+
+
+> UniRef90_Q6DDV4 Rabggta-prov protein n=6 Tax=Xenopus TaxID=262014 
+RepID=Q6DDV4_XENLA
+Length=565
+
+ Score = 89.0 bits (219),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 42/104 (40%), Positives = 65/104 (63%), Gaps = 3/104 (3%)
+
+Query  6    CVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCDLPA  65
+            CV VS +E C+SV FS+ + V      L+L +++ P+ V WRT   + + S  W+CDLP 
+Sbjct  245  CVMVSLDEGCVSVTFSQSVAV---QDDLILFLNDKPIFVSWRTAGRKEKRSLFWVCDLPK  301
+
+Query  66   ASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+              +ND+  Q+ F+V+W   +++KEC+L     E WCRDSAT+ +
+Sbjct  302  ECINDRCCQYKFQVLWKDGEAKKECILYPGTRETWCRDSATENE  345
+
+
+> UniRef90_H2UV48 Uncharacterized protein n=3 Tax=Tetraodontidae 
+TaxID=31031 RepID=H2UV48_TAKRU
+Length=565
+
+ Score = 89.0 bits (219),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 45/108 (42%), Positives = 67/108 (62%), Gaps = 2/108 (2%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+            +++ CV VSREE  ++V FSRP  V ++   LLL++D     VEWR+     + S VW+C
+Sbjct  245  EIISCVFVSREEERVAVAFSRP--VNAQTVGLLLVLDGQLQRVEWRSVHPHFKHSPVWIC  302
+
+Query  62   DLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            DLP  +++D + +H   V WT   + ++C L   R E WCRDSATD++
+Sbjct  303  DLPPGTISDIVNEHNLTVHWTEKHTHRDCALYTGRCESWCRDSATDQE  350
+
+
+> UniRef90_A0A0P7ULP7 Uncharacterized protein (Fragment) n=2 Tax=Scleropages 
+formosus TaxID=113540 RepID=A0A0P7ULP7_9TELE
+Length=528
+
+ Score = 89.0 bits (219),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 48/109 (44%), Positives = 65/109 (60%), Gaps = 8/109 (7%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRP---LTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHV  58
+            +++ CV+VSRE   + V FSRP   L+VG     LLL+VD  P  V WR+   R R S +
+Sbjct  284  EMISCVYVSREGERVVVAFSRPVNALSVG-----LLLVVDGQPQQVNWRSAHPRLRHSPM  338
+
+Query  59   WLCDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATD  107
+            W+CDLP  +++D   +H   V WT   + ++C L   R E WCRDSATD
+Sbjct  339  WICDLPPGTISDTSNEHNLTVHWTERHTHRDCALYTGRSESWCRDSATD  387
+
+
+> UniRef90_UPI0007425798 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Cyprinodon variegatus TaxID=28743 
+RepID=UPI0007425798
+Length=568
+
+ Score = 88.6 bits (218),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 44/106 (42%), Positives = 65/106 (61%), Gaps = 2/106 (2%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+            +++ CV+VSREE  ++V FSRP  V ++   LLL++D  P  VEW++     + S VW+C
+Sbjct  258  EMISCVYVSREEERVAVAFSRP--VNAQSVGLLLILDGQPQRVEWQSVHPHFKNSPVWIC  315
+
+Query  62   DLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATD  107
+             LP  +++D   +H   V WT   S ++C L   R E WCRD+ATD
+Sbjct  316  SLPPGTISDVANEHNLTVHWTEKHSHRDCALYTGRSESWCRDTATD  361
+
+
+> UniRef90_UPI0006D93558 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Latimeria chalumnae TaxID=7897 
+RepID=UPI0006D93558
+Length=564
+
+ Score = 88.6 bits (218),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 46/106 (43%), Positives = 62/106 (58%), Gaps = 0/106 (0%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCDL  63
+            + C++ S +   L V FSRP+ V      L+L VD  P  V+W+ P      S VW+C+L
+Sbjct  243  ITCLYASWDMGQLVVGFSRPVNVLLESSELVLFVDGRPTPVKWQNPRKTQSYSCVWICEL  302
+
+Query  64   PAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+             A  L+D   Q + RV+W G + +KEC+L   R E WCRDSATDEQ
+Sbjct  303  LAEVLDDLCHQCSLRVMWRGGEVEKECILYPGRTETWCRDSATDEQ  348
+
+
+> UniRef90_W5K0A0 Uncharacterized protein n=4 Tax=Astyanax mexicanus 
+TaxID=7994 RepID=W5K0A0_ASTMX
+Length=588
+
+ Score = 88.2 bits (217),  Expect = 6e-18, Method: Compositional matrix adjust.
+ Identities = 43/108 (40%), Positives = 66/108 (61%), Gaps = 1/108 (1%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+            +++ CV+VSRE   ++V FS+P+   +  G +L++  +    VEWR+   R R S VWLC
+Sbjct  264  ELISCVYVSREGERVAVAFSKPVNALTE-GLMLVLDGQQQQRVEWRSAHPRFRHSPVWLC  322
+
+Query  62   DLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            +LP  S++D   +H   V W    + ++C L   RPE WCRDSATD++
+Sbjct  323  ELPPGSVSDINNEHNLTVHWMEKHTHRDCALYTGRPESWCRDSATDQE  370
+
+
+> UniRef90_A0A1A7ZAC1 Rab geranylgeranyltransferase, alpha subunit 
+n=11 Tax=Nothobranchiidae TaxID=405002 RepID=A0A1A7ZAC1_NOTFU
+Length=532
+
+ Score = 87.8 bits (216),  Expect = 8e-18, Method: Compositional matrix adjust.
+ Identities = 46/111 (41%), Positives = 68/111 (61%), Gaps = 8/111 (7%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRP---LTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHV  58
+            +++ CV+VSRE+  ++V FSRP   L+VG     LLL++D  P  VEWR+     + S V
+Sbjct  261  EMISCVYVSREQERVAVTFSRPVHALSVG-----LLLVLDGQPQRVEWRSVHPHFKHSPV  315
+
+Query  59   WLCDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+             +CDLP  +++D   +H   V WT   + +EC L   R E WCRD+ATD++
+Sbjct  316  LICDLPPGTIHDTTNEHNLTVHWTEKHNHRECALYTGRTESWCRDTATDQE  366
+
+
+> UniRef90_UPI0007B95788 UPI0007B95788 related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI0007B95788
+Length=582
+
+ Score = 87.4 bits (215),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 47/108 (44%), Positives = 66/108 (61%), Gaps = 4/108 (4%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+            +++ CV+VSRE   +SV FS+  TV S    L+L++D  P  V+WR+   R R S VWLC
+Sbjct  258  EMISCVYVSRERQRVSVAFSK--TVHSE--GLMLVLDGQPQQVQWRSAHPRFRHSPVWLC  313
+
+Query  62   DLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            DLP  S++D   +H   V WT   + ++C L     E WCRDSATD++
+Sbjct  314  DLPPGSVSDISNEHNLTVHWTEKHTHRDCALYTGSAESWCRDSATDQE  361
+
+
+> UniRef90_UPI0009075F71 UPI0009075F71 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009075F71
+Length=531
+
+ Score = 85.5 bits (210),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 47/104 (45%), Positives = 55/104 (53%), Gaps = 34/104 (33%)
+
+Query  6    CVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCDLPA  65
+            CV+V+RE+ACL+V FS+P                                  V LCDLPA
+Sbjct  245  CVYVNREDACLAVAFSQP----------------------------------VRLCDLPA  270
+
+Query  66   ASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+             +LND  PQHTFRVIW     QKECVL K R +CW RDS T+EQ
+Sbjct  271  LALNDHWPQHTFRVIWAPGQCQKECVLFKGRKDCWYRDSVTEEQ  314
+
+
+> UniRef90_I3J432 Uncharacterized protein n=20 Tax=Percomorphaceae 
+TaxID=1489872 RepID=I3J432_ORENI
+Length=583
+
+ Score = 84.0 bits (206),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 42/108 (39%), Positives = 65/108 (60%), Gaps = 2/108 (2%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+            +++ CV+V+REE  ++V FSRP  V ++   L L++D  P  VEWR+     + S VW+C
+Sbjct  261  EMISCVYVNREEERVAVAFSRP--VNAQSVGLFLVLDGQPQRVEWRSVHPCFKHSPVWIC  318
+
+Query  62   DLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+             LP  +++D   +    V WT   + ++C L   R E WCRDSATD++
+Sbjct  319  SLPPGTISDITNERNLTVHWTEKHTHRDCALYTGRTESWCRDSATDQE  366
+
+
+> UniRef90_Q08CG5 Zgc:153107 n=2 Tax=Danio rerio TaxID=7955 RepID=Q08CG5_DANRE
+Length=580
+
+ Score = 83.2 bits (204),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 45/108 (42%), Positives = 66/108 (61%), Gaps = 2/108 (2%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+            +++ CV+ SRE   +SV FS+P+  GS +G L+L++D  P  V+WR    R R S V L 
+Sbjct  258  EMISCVYASREGERVSVAFSKPVHAGS-VG-LMLVLDGQPQQVQWRNAHPRLRHSPVCLR  315
+
+Query  62   DLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            DLPA S++D   +H   + WT   + ++C L     E WCRDSATD++
+Sbjct  316  DLPAGSISDTSNEHNLTIHWTDKHTHRDCALYTGCAESWCRDSATDQE  363
+
+
+> UniRef90_UPI0004962F15 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Cynoglossus semilaevis TaxID=244447 
+RepID=UPI0004962F15
+Length=574
+
+ Score = 82.0 bits (201),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 43/111 (39%), Positives = 67/111 (60%), Gaps = 8/111 (7%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRP---LTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHV  58
+            +++ CV+V R++  ++V FSRP   LTVG     LLL++D  P  VEWR+   R +   V
+Sbjct  252  EMISCVYVDRDDERVAVAFSRPVNALTVG-----LLLVLDGQPQKVEWRSVHPRFKHCPV  306
+
+Query  59   WLCDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            W+C LP  +++D   +H   V WT   + ++C L   R E +CR+SATD++
+Sbjct  307  WICVLPPGTISDTSNEHNLTVHWTEKHTHRDCALYTGRTESYCRESATDQE  357
+
+
+> UniRef90_UPI000854EFA6 UPI000854EFA6 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000854EFA6
+Length=561
+
+ Score = 81.6 bits (200),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 40/101 (40%), Positives = 59/101 (58%), Gaps = 4/101 (4%)
+
+Query  6    CVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCDLPA  65
+            C+    +   ++V FS P+ V S    L+L +DE P+ V W+TP+G+ +PS VW+CD+P 
+Sbjct  245  CILADVDVPFVTVTFSHPVLVES---DLILFIDERPVMVTWKTPEGKEKPSLVWVCDVPK  301
+
+Query  66   ASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSAT  106
+              L+    QH F+VIW   + +KEC L   +   W RDS T
+Sbjct  302  ERLSGHC-QHKFKVIWKDGEVKKECALYPGKKVTWYRDSVT  341
+
+
+> UniRef90_H3A6R2 Uncharacterized protein n=1 Tax=Latimeria chalumnae 
+TaxID=7897 RepID=H3A6R2_LATCH
+Length=574
+
+ Score = 81.3 bits (199),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 43/106 (41%), Positives = 54/106 (51%), Gaps = 0/106 (0%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCDL  63
+            + C++ S +   L V FSRP+ V      L+L VD  P  V+W+ P      S VW+  L
+Sbjct  248  ITCLYASWDMGQLVVGFSRPVNVLLESSELVLFVDGRPTPVKWQNPRKTQSYSCVWVSVL  307
+
+Query  64   PAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+                L    P  TF  +W G    KEC+L   R E WCRDSATDEQ
+Sbjct  308  RTVGLQSGAPIMTFFCVWGGGQYNKECILYPGRTETWCRDSATDEQ  353
+
+
+> UniRef90_UPI00064457FA PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Clupea harengus TaxID=7950 RepID=UPI00064457FA
+Length=581
+
+ Score = 80.9 bits (198),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 40/108 (37%), Positives = 64/108 (59%), Gaps = 4/108 (4%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+            +++ CV++SRE   + V FSRP    ++   L+L++D     VEWR+     R S VW+C
+Sbjct  261  EMISCVYMSREGERVVVAFSRP----AQAVGLMLLLDGKMQKVEWRSAPPSVRHSPVWIC  316
+
+Query  62   DLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            + P  +++D   +H   V WT   +++EC L   R E WCRD+ATD++
+Sbjct  317  EFPPGTISDINNEHNLTVHWTEKYTKRECALYTGRAESWCRDTATDQE  364
+
+
+> UniRef90_UPI0008DB4B43 UPI0008DB4B43 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008DB4B43
+Length=316
+
+ Score = 74.7 bits (182),  Expect = 9e-14, Method: Compositional matrix adjust.
+ Identities = 40/106 (38%), Positives = 57/106 (54%), Gaps = 3/106 (3%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCDL  63
+            + CVHV RE+A L+V FSRP+ V      L   +D + L+  WR+ +GR RPSH WLCDL
+Sbjct  161  VICVHVDREDATLAVIFSRPVKVNPECPELTATLDGSTLAGPWRSGEGRPRPSHTWLCDL  220
+
+Query  64   PAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+              ++L  + P H   V W    +  E  LL    E W ++   + +
+Sbjct  221  --SALPTESPAH-LEVTWGPDSAHHEVTLLPGEAEAWWQEPIVERE  263
+
+
+> UniRef90_Q4RKY5 Chromosome 1 SCAF15025, whole genome shotgun 
+sequence (Fragment) n=1 Tax=Tetraodon nigroviridis TaxID=99883 
+RepID=Q4RKY5_TETNG
+Length=668
+
+ Score = 75.9 bits (185),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 37/91 (41%), Positives = 59/91 (65%), Gaps = 2/91 (2%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+            +++ CV+VSREE  ++V FSRP  V ++   LLL++D  P  VEWR+   R + S VW+C
+Sbjct  261  EMISCVYVSREEGRVAVAFSRP--VNAQTVGLLLVLDGQPQRVEWRSVHPRLKHSPVWIC  318
+
+Query  62   DLPAASLNDQLPQHTFRVIWTGSDSQKECVL  92
+            DLP  +++D + +H   V WT   ++++C L
+Sbjct  319  DLPPGAISDAVNEHNLTVHWTEKRTRRDCAL  349
+
+
+> UniRef90_UPI000711BC44 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Alligator mississippiensis TaxID=8496 
+RepID=UPI000711BC44
+Length=326
+
+ Score = 73.2 bits (178),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 32/57 (56%), Positives = 43/57 (75%), Gaps = 0/57 (0%)
+
+Query  3    VLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVW  59
+             + CV+V+RE+ACL+V FS+P+ V      L+L+ DEAPL+VEW TPDGRNRP  +W
+Sbjct  242  TIHCVYVNREDACLAVAFSQPVRVTPGSHGLILLADEAPLTVEWHTPDGRNRPGVIW  298
+
+
+> UniRef90_M7BR16 Geranylgeranyl transferase type-2 subunit alpha 
+n=1 Tax=Chelonia mydas TaxID=8469 RepID=M7BR16_CHEMY
+Length=428
+
+ Score = 70.1 bits (170),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 32/57 (56%), Positives = 41/57 (72%), Gaps = 0/57 (0%)
+
+Query  3    VLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVW  59
+             + CV+VSRE++ L+V FS+P+ V      LLL  DEAPL+V WRTPDGRNRP  +W
+Sbjct  253  TILCVYVSREDSSLAVAFSQPVVVTPGSCDLLLFADEAPLAVNWRTPDGRNRPGLMW  309
+
+
+> UniRef90_UPI0006B79FA8 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Pseudopodoces humilis TaxID=181119 
+RepID=UPI0006B79FA8
+Length=541
+
+ Score = 66.6 bits (161),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 38/98 (39%), Positives = 53/98 (54%), Gaps = 4/98 (4%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCDL  63
+            + CVH+ RE+A ++V FSRP+ V      L   +D + L+  WR+ +GR RPSH WLC L
+Sbjct  226  VICVHIDREDATVAVIFSRPVRVNPECPELTATLDGSALTEPWRSGEGRPRPSHTWLCAL  285
+
+Query  64   PAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPE-CW  100
+            PA  L    P H   V W    + ++  LL    + CW
+Sbjct  286  PA--LPSDHPAH-LEVTWAPDSTPRDVRLLPGEAQACW  320
+
+
+> UniRef90_UPI0005D09C39 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Aquila chrysaetos canadensis TaxID=216574 
+RepID=UPI0005D09C39
+Length=638
+
+ Score = 56.2 bits (134),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 25/58 (43%), Positives = 37/58 (64%), Gaps = 0/58 (0%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+            + C++V+RE+A L+V FS P+ VG+    L   VD + L   WR+ +GR RPSH W+ 
+Sbjct  242  ILCLYVNREDATLAVTFSHPVVVGAVSSALTATVDGSVLEGAWRSGEGRPRPSHTWVS  299
+
+
+> UniRef90_UPI0007757BF4 UPI0007757BF4 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007757BF4
+Length=460
+
+ Score = 55.8 bits (133),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 26/58 (45%), Positives = 37/58 (64%), Gaps = 2/58 (3%)
+
+Query  6    CVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCDL  63
+            CV+V+RE   L+V FS P+ V      L++  DE+PL V WRTPD +N+P    +C+L
+Sbjct  193  CVYVNRENTSLAVAFSHPVAVAPASHDLIVFGDESPLVVRWRTPDRKNKPG--LMCEL  248
+
+
+> UniRef90_A0A0S7HYU8 PGTA (Fragment) n=1 Tax=Poeciliopsis prolifica 
+TaxID=188132 RepID=A0A0S7HYU8_9TELE
+Length=153
+
+ Score = 44.3 bits (103),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 18/45 (40%), Positives = 26/45 (58%), Gaps = 0/45 (0%)
+
+Query  63   LPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATD  107
+            LP  +++D   +H   V WT   + ++C L   R E WCRD+ATD
+Sbjct  1    LPPGTISDIANEHNLTVHWTEKHTHRDCALYTGRSESWCRDTATD  45
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.135    0.462    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 442037236000
+Results from round 2
+
+
+Query= d1dcea2
+
+Length=109
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_UPI000695B44C PREDICTED: geranylgeranyl transferase ty...  190     2e-56
+  UniRef90_Q7Z2Z4 Putative uncharacterized protein DKFZp686I14200...  186     2e-55
+  UniRef90_L5KIP7 Geranylgeranyl transferase type-2 subunit alpha...  190     7e-55
+  UniRef90_A5A779 Geranylgeranyl transferase type-2 subunit alpha...  188     2e-54
+  UniRef90_Q92696 Geranylgeranyl transferase type-2 subunit alpha...  186     1e-53
+  UniRef90_Q9JHK4 Geranylgeranyl transferase type-2 subunit alpha...  186     1e-53
+  UniRef90_G1SIN7 Uncharacterized protein n=2 Tax=Oryctolagus cun...  186     1e-53
+  UniRef90_UPI000343FC78 PREDICTED: geranylgeranyl transferase ty...  186     2e-53
+  UniRef90_H0YLH3 Geranylgeranyl transferase type-2 subunit alpha...  183     2e-53
+  UniRef90_UPI000625F0C0 PREDICTED: geranylgeranyl transferase ty...  184     1e-52
+  UniRef90_F6WB38 Uncharacterized protein n=2 Tax=Simiiformes Tax...  178     2e-52
+  UniRef90_Q08602 Geranylgeranyl transferase type-2 subunit alpha...  183     2e-52
+  UniRef90_UPI000454606C PREDICTED: geranylgeranyl transferase ty...  173     6e-52
+  UniRef90_V8NST7 Geranylgeranyl transferase type-2 subunit alpha...  175     3e-51
+  UniRef90_UPI00054BB870 PREDICTED: LOW QUALITY PROTEIN: geranylg...  178     3e-50
+  UniRef90_F6Y8L4 Uncharacterized protein n=1 Tax=Ornithorhynchus...  166     6e-50
+  UniRef90_A0A151NUY7 Geranylgeranyl transferase type-2 subunit a...  175     2e-49
+  UniRef90_G3VR14 Uncharacterized protein n=2 Tax=Sarcophilus har...  175     2e-49
+  UniRef90_A0A146WQZ1 Geranylgeranyl transferase type-2 subunit a...  174     2e-49
+  UniRef90_B5X467 Geranylgeranyl transferase type-2 subunit alpha...  174     5e-49
+  UniRef90_UPI0003315AAC PREDICTED: geranylgeranyl transferase ty...  174     9e-49
+  UniRef90_H9G8T8 Uncharacterized protein n=2 Tax=Anolis caroline...  171     1e-48
+  UniRef90_G3NAQ1 Uncharacterized protein (Fragment) n=1 Tax=Gast...  172     3e-48
+  UniRef90_UPI0004421B14 PREDICTED: geranylgeranyl transferase ty...  172     3e-48
+  UniRef90_UPI0003ABA716 PREDICTED: geranylgeranyl transferase ty...  172     5e-48
+  UniRef90_UPI00074FF546 PREDICTED: geranylgeranyl transferase ty...  171     6e-48
+  UniRef90_A0A146NP89 Geranylgeranyl transferase type-2 subunit a...  171     8e-48
+  UniRef90_UPI000388AE80 PREDICTED: geranylgeranyl transferase ty...  170     1e-47
+  UniRef90_UPI0000F2B0F4 PREDICTED: geranylgeranyl transferase ty...  170     2e-47
+  UniRef90_A0A0B8RRL0 Geranylgeranyl transferase type-2 subunit a...  170     2e-47
+  UniRef90_H2UV48 Uncharacterized protein n=3 Tax=Tetraodontidae ...  169     2e-47
+  UniRef90_UPI0007AD0816 UPI0007AD0816 related cluster n=4 Tax=un...  169     3e-47
+  UniRef90_F6WVF8 Uncharacterized protein n=2 Tax=Monodelphis dom...  169     3e-47
+  UniRef90_A0A146WQG9 Geranylgeranyl transferase type-2 subunit a...  165     6e-47
+  UniRef90_I3J432 Uncharacterized protein n=20 Tax=Percomorphacea...  168     1e-46
+  UniRef90_UPI0006B39B91 PREDICTED: geranylgeranyl transferase ty...  167     1e-46
+  UniRef90_UPI0004962F15 PREDICTED: geranylgeranyl transferase ty...  167     2e-46
+  UniRef90_UPI0007425798 PREDICTED: geranylgeranyl transferase ty...  165     5e-46
+  UniRef90_UPI0007B8289B UPI0007B8289B related cluster n=1 Tax=un...  163     7e-46
+  UniRef90_A0A0P7ULP7 Uncharacterized protein (Fragment) n=2 Tax=...  165     8e-46
+  UniRef90_A0A1A7ZAC1 Rab geranylgeranyltransferase, alpha subuni...  164     1e-45
+  UniRef90_W5K0A0 Uncharacterized protein n=4 Tax=Astyanax mexica...  165     1e-45
+  UniRef90_UPI0007B95788 UPI0007B95788 related cluster n=2 Tax=un...  163     4e-45
+  UniRef90_H2L733 Uncharacterized protein n=4 Tax=Oryzias latipes...  162     2e-44
+  UniRef90_Q08CG5 Zgc:153107 n=2 Tax=Danio rerio TaxID=7955 RepID...  159     1e-43
+  UniRef90_UPI00064457FA PREDICTED: geranylgeranyl transferase ty...  158     2e-43
+  UniRef90_UPI0006D93558 PREDICTED: geranylgeranyl transferase ty...  156     1e-42
+  UniRef90_Q9JHK4-2 Isoform 2 of Geranylgeranyl transferase type-...  151     4e-42
+  UniRef90_H3A6R2 Uncharacterized protein n=1 Tax=Latimeria chalu...  152     3e-41
+  UniRef90_Q6DDV4 Rabggta-prov protein n=6 Tax=Xenopus TaxID=2620...  141     3e-37
+  UniRef90_Q4RKY5 Chromosome 1 SCAF15025, whole genome shotgun se...  142     3e-37
+  UniRef90_UPI00042BFD1A PREDICTED: geranylgeranyl transferase ty...  139     1e-36
+  UniRef90_S7MGS0 Geranylgeranyl transferase type-2 subunit alpha...  132     9e-34
+  UniRef90_UPI000854EFA6 UPI000854EFA6 related cluster n=1 Tax=un...  131     2e-33
+  UniRef90_UPI0003AEE91A PREDICTED: geranylgeranyl transferase ty...  124     3e-31
+  UniRef90_UPI0008DB4B43 UPI0008DB4B43 related cluster n=1 Tax=un...  122     6e-31
+  UniRef90_A0A1A6HWV2 Uncharacterized protein n=1 Tax=Neotoma lep...  120     4e-30
+  UniRef90_UPI0006B79FA8 PREDICTED: geranylgeranyl transferase ty...  116     3e-28
+  UniRef90_UPI0009075F71 UPI0009075F71 related cluster n=1 Tax=un...  113     3e-27
+  UniRef90_G7P9Y8 Putative uncharacterized protein n=2 Tax=Macaca...  100     3e-22
+  UniRef90_L9L2K1 Geranylgeranyl transferase type-2 subunit alpha...  99.0    7e-22
+  UniRef90_F1MGN1 Geranylgeranyl transferase type-2 subunit alpha...  92.0    4e-20
+  UniRef90_UPI000711BC44 PREDICTED: geranylgeranyl transferase ty...  87.8    2e-18
+  UniRef90_M7BR16 Geranylgeranyl transferase type-2 subunit alpha...  86.6    1e-17
+  UniRef90_A0A0S7HYU8 PGTA (Fragment) n=1 Tax=Poeciliopsis prolif...  81.6    5e-17
+  UniRef90_UPI0007757BF4 UPI0007757BF4 related cluster n=1 Tax=un...  84.0    1e-16
+  UniRef90_UPI0005D09C39 PREDICTED: geranylgeranyl transferase ty...  80.1    5e-15
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI0003EBFDA8 PREDICTED: geranylgeranyl transferase ty...  85.1    5e-17
+  UniRef90_A0A0S7ICC6 PGTA (Fragment) n=1 Tax=Poeciliopsis prolif...  73.9    1e-14
+  UniRef90_UPI0007AD8A6E UPI0007AD8A6E related cluster n=1 Tax=un...  66.6    1e-10
+  UniRef90_T1JKS0 Uncharacterized protein n=1 Tax=Strigamia marit...  62.8    4e-09
+  UniRef90_C3Y8M1 Putative uncharacterized protein n=2 Tax=Branch...  62.8    5e-09
+  UniRef90_U3JVP8 Uncharacterized protein n=1 Tax=Ficedula albico...  60.5    1e-08
+  UniRef90_UPI0006965AE6 PREDICTED: geranylgeranyl transferase ty...  58.1    1e-07
+  UniRef90_UPI0003F0CD01 PREDICTED: geranylgeranyl transferase ty...  57.0    4e-07
+  UniRef90_UPI000697713E PREDICTED: geranylgeranyl transferase ty...  56.6    6e-07
+  UniRef90_F6YCL2 Uncharacterized protein (Fragment) n=1 Tax=Xeno...  55.1    7e-07
+  UniRef90_A0A147A5S2 Uncharacterized protein n=1 Tax=Fundulus he...  53.1    9e-07
+  UniRef90_UPI00081673D3 UPI00081673D3 related cluster n=1 Tax=un...  55.1    1e-06
+  UniRef90_S9XHC8 Geranylgeranyl transferase type-2 subunit alpha...  51.2    3e-05
+  UniRef90_UPI0006745E72 PREDICTED: geranylgeranyl transferase ty...  50.4    6e-05
+  UniRef90_X2A7L7 Uncharacterized protein n=1 Tax=Capitella telet...  49.7    1e-04
+  UniRef90_UPI000719C1B7 PREDICTED: geranylgeranyl transferase ty...  49.3    2e-04
+  UniRef90_A0A146WR05 Geranylgeranyl transferase type-2 subunit a...  48.1    2e-04
+  UniRef90_A0A0S7ICF1 PPUP1934 (Fragment) n=1 Tax=Poeciliopsis pr...  45.4    3e-04
+  UniRef90_V9L8Y2 Geranylgeranyl transferase type-2 subunit alpha...  46.2    0.001
+  UniRef90_UPI00053CE3D4 PREDICTED: geranylgeranyl transferase ty...  44.3    0.005
+
+
+> UniRef90_UPI000695B44C PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha-like, partial n=1 Tax=Chinchilla lanigera 
+TaxID=34839 RepID=UPI000695B44C
+Length=385
+
+ Score = 190 bits (482),  Expect = 2e-56, Method: Composition-based stats.
+ Identities = 86/109 (79%), Positives = 92/109 (84%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL VGS   TLLLM DE+PL VEWRTPDGRNRPSHVWL
+Sbjct  97   QDALRCLHVSRDEACLTVSFSRPLLVGSGTETLLLMADESPLIVEWRTPDGRNRPSHVWL  156
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPA SLNDQLPQHTFRV+WT  D+QKECVL K R E WCRDSATDEQ
+Sbjct  157  CDLPAGSLNDQLPQHTFRVVWTAGDAQKECVLFKGRQEAWCRDSATDEQ  205
+
+
+> UniRef90_Q7Z2Z4 Putative uncharacterized protein DKFZp686I14200 
+(Fragment) n=1 Tax=Homo sapiens TaxID=9606 RepID=Q7Z2Z4_HUMAN
+Length=358
+
+ Score = 186 bits (473),  Expect = 2e-55, Method: Composition-based stats.
+ Identities = 100/109 (92%), Positives = 103/109 (94%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+            HDVLCC+HVSREEACLSVCFSRPL VGS+MGTLLL VDEAPLSVEWRTPDGRNRPSHVWL
+Sbjct  33   HDVLCCLHVSREEACLSVCFSRPLIVGSKMGTLLLTVDEAPLSVEWRTPDGRNRPSHVWL  92
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLND LPQHTFRVIWTGSD+QKECVLLK   ECWCRDSATDEQ
+Sbjct  93   CDLPAASLNDHLPQHTFRVIWTGSDTQKECVLLKGHQECWCRDSATDEQ  141
+
+
+> UniRef90_L5KIP7 Geranylgeranyl transferase type-2 subunit alpha 
+n=2 Tax=Chiroptera TaxID=9397 RepID=L5KIP7_PTEAL
+Length=593
+
+ Score = 190 bits (483),  Expect = 7e-55, Method: Composition-based stats.
+ Identities = 86/109 (79%), Positives = 94/109 (86%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL VGSRM TLLL+VDE+PL+VEWRTPDGRNRPSHVW+
+Sbjct  267  QDALRCLHVSRDEACLTVSFSRPLMVGSRMETLLLVVDESPLAVEWRTPDGRNRPSHVWI  326
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP ASLNDQLPQHTFRVIWT  D+QKECVL K   E WCRDS TDEQ
+Sbjct  327  CDLPTASLNDQLPQHTFRVIWTAGDAQKECVLFKGHQEGWCRDSVTDEQ  375
+
+
+> UniRef90_A5A779 Geranylgeranyl transferase type-2 subunit alpha 
+n=11 Tax=Eutheria TaxID=9347 RepID=PGTA_PIG
+Length=567
+
+ Score = 188 bits (478),  Expect = 2e-54, Method: Composition-based stats.
+ Identities = 87/109 (80%), Positives = 94/109 (86%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL VG    TLLLMV+E+PLSVEWRTPDGRNRPSHVWL
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPLLVGPSTETLLLMVNESPLSVEWRTPDGRNRPSHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLND LPQHTFRVIWT  ++QKECVLLK R E WCRDSATDEQ
+Sbjct  302  CDLPAASLNDHLPQHTFRVIWTAGNAQKECVLLKGRQEGWCRDSATDEQ  350
+
+
+> UniRef90_Q92696 Geranylgeranyl transferase type-2 subunit alpha 
+n=63 Tax=Boreoeutheria TaxID=1437010 RepID=PGTA_HUMAN
+Length=567
+
+ Score = 186 bits (473),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 89/109 (82%), Positives = 94/109 (86%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL VGSRM  LLLMVD++PL VEWRTPDGRNRPSHVWL
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPLLVGSRMEILLLMVDDSPLIVEWRTPDGRNRPSHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLNDQLPQHTFRVIWT  D QKECVLLK R E WCRDS TDEQ
+Sbjct  302  CDLPAASLNDQLPQHTFRVIWTAGDVQKECVLLKGRQEGWCRDSTTDEQ  350
+
+
+> UniRef90_Q9JHK4 Geranylgeranyl transferase type-2 subunit alpha 
+n=4 Tax=Sciurognathi TaxID=33553 RepID=PGTA_MOUSE
+Length=567
+
+ Score = 186 bits (473),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 100/109 (92%), Positives = 103/109 (94%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+            HDVLCC+HVSREEACLSVCFSRPL VGS+MGTLLL VDEAPLSVEWRTPDGRNRPSHVWL
+Sbjct  242  HDVLCCLHVSREEACLSVCFSRPLIVGSKMGTLLLTVDEAPLSVEWRTPDGRNRPSHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLND LPQHTFRVIWTGSD+QKECVLLK   ECWCRDSATDEQ
+Sbjct  302  CDLPAASLNDHLPQHTFRVIWTGSDTQKECVLLKGHQECWCRDSATDEQ  350
+
+
+> UniRef90_G1SIN7 Uncharacterized protein n=2 Tax=Oryctolagus cuniculus 
+TaxID=9986 RepID=G1SIN7_RABIT
+Length=585
+
+ Score = 186 bits (473),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 84/109 (77%), Positives = 90/109 (83%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+VCFSRP+ VG    TLLLM DE+PL VEWRTPDGRN+PSHVWL
+Sbjct  242  QDALHCLHVSRDEACLTVCFSRPVLVGPGTDTLLLMADESPLMVEWRTPDGRNQPSHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP ASLNDQLPQHTFRVIWT     KECVLLK R E WCRDSATDEQ
+Sbjct  302  CDLPTASLNDQLPQHTFRVIWTAGGVHKECVLLKGRQEGWCRDSATDEQ  350
+
+
+> UniRef90_UPI000343FC78 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha isoform X3 n=2 Tax=Laurasiatheria TaxID=314145 
+RepID=UPI000343FC78
+Length=560
+
+ Score = 186 bits (472),  Expect = 2e-53, Method: Composition-based stats.
+ Identities = 88/109 (81%), Positives = 95/109 (87%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRP+ VGS   TLLLMVDE+PL+VEWRTPDGR RPSHVWL
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPILVGSGTETLLLMVDESPLAVEWRTPDGRTRPSHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLNDQLPQHTFRVIWT  D+QKECVLLK R E WCRDSATDEQ
+Sbjct  302  CDLPAASLNDQLPQHTFRVIWTAGDAQKECVLLKGRQEGWCRDSATDEQ  350
+
+
+> UniRef90_H0YLH3 Geranylgeranyl transferase type-2 subunit alpha 
+n=3 Tax=Euarchontoglires TaxID=314146 RepID=H0YLH3_HUMAN
+Length=424
+
+ Score = 183 bits (464),  Expect = 2e-53, Method: Composition-based stats.
+ Identities = 89/109 (82%), Positives = 94/109 (86%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL VGSRM  LLLMVD++PL VEWRTPDGRNRPSHVWL
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPLLVGSRMEILLLMVDDSPLIVEWRTPDGRNRPSHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLNDQLPQHTFRVIWT  D QKECVLLK R E WCRDS TDEQ
+Sbjct  302  CDLPAASLNDQLPQHTFRVIWTAGDVQKECVLLKGRQEGWCRDSTTDEQ  350
+
+
+> UniRef90_UPI000625F0C0 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha isoform X1 n=2 Tax=Aotus nancymaae TaxID=37293 
+RepID=UPI000625F0C0
+Length=574
+
+ Score = 184 bits (467),  Expect = 1e-52, Method: Composition-based stats.
+ Identities = 86/109 (79%), Positives = 93/109 (85%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL VGSR  TLLLMVD++PL VEWRTPDGRN+P+HVWL
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPLLVGSRTETLLLMVDDSPLIVEWRTPDGRNQPNHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLNDQ PQHTFRVIWT  D QKECVLLK R E WCRDS TDEQ
+Sbjct  302  CDLPAASLNDQSPQHTFRVIWTEGDVQKECVLLKGRQEGWCRDSTTDEQ  350
+
+
+> UniRef90_F6WB38 Uncharacterized protein n=2 Tax=Simiiformes TaxID=314293 
+RepID=F6WB38_CALJA
+Length=317
+
+ Score = 178 bits (451),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 87/109 (80%), Positives = 93/109 (85%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL VGSR  TLLLMVDE+PL VEWRTPDGRNRP+HVWL
+Sbjct  205  QDALRCLHVSRDEACLTVSFSRPLLVGSRTETLLLMVDESPLIVEWRTPDGRNRPNHVWL  264
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLN+Q PQHTFRVIWT  D QKECVLLK R E WCRDS TDEQ
+Sbjct  265  CDLPAASLNNQSPQHTFRVIWTEGDVQKECVLLKGRQEGWCRDSTTDEQ  313
+
+
+> UniRef90_Q08602 Geranylgeranyl transferase type-2 subunit alpha 
+n=42 Tax=Eutheria TaxID=9347 RepID=PGTA_RAT
+Length=567
+
+ Score = 183 bits (465),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 109/109 (100%), Positives = 109/109 (100%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+            HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL
+Sbjct  242  HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ
+Sbjct  302  CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  350
+
+
+> UniRef90_UPI000454606C PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha-like, partial n=1 Tax=Ornithorhynchus anatinus 
+TaxID=9258 RepID=UPI000454606C
+Length=198
+
+ Score = 173 bits (438),  Expect = 6e-52, Method: Composition-based stats.
+ Identities = 78/109 (72%), Positives = 90/109 (83%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D + C+HVSR++ACL+V FSRPL VG     LLL+VDE+PL+VEWRTPDGRN P +VWL
+Sbjct  14   QDAVLCLHVSRDDACLTVGFSRPLAVGPGAERLLLLVDESPLAVEWRTPDGRNGPGNVWL  73
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLNDQ PQHTFR++W G D+QKECVL K R E WCRDSATDEQ
+Sbjct  74   CDLPAASLNDQWPQHTFRLLWRGGDAQKECVLFKGRREGWCRDSATDEQ  122
+
+
+> UniRef90_V8NST7 Geranylgeranyl transferase type-2 subunit alpha 
+(Fragment) n=1 Tax=Ophiophagus hannah TaxID=8665 RepID=V8NST7_OPHHA
+Length=343
+
+ Score = 175 bits (444),  Expect = 3e-51, Method: Composition-based stats.
+ Identities = 56/107 (52%), Positives = 74/107 (69%), Gaps = 0/107 (0%)
+
+Query  3    VLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCD  62
+             + CV+V+RE   L+V FS P+ V      L++  DE+PL V WRTPDG+N+P ++WLCD
+Sbjct  20   TIRCVYVNRENTSLAVAFSHPVAVAPASHDLIVFGDESPLVVRWRTPDGKNKPGYMWLCD  79
+
+Query  63   LPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            LP ++LND  PQHTFRV+W     QKECVL K   +CW +DS T+EQ
+Sbjct  80   LPTSALNDHWPQHTFRVLWAEGHVQKECVLFKGHKDCWNQDSVTEEQ  126
+
+
+> UniRef90_UPI00054BB870 PREDICTED: LOW QUALITY PROTEIN: geranylgeranyl 
+transferase type-2 subunit alpha n=1 Tax=Larimichthys 
+crocea TaxID=215358 RepID=UPI00054BB870
+Length=615
+
+ Score = 178 bits (451),  Expect = 3e-50, Method: Composition-based stats.
+ Identities = 46/109 (42%), Positives = 69/109 (63%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV+VSR+E  ++V FSRP  V ++   LLL++D  P  VEWR+   R + S VW+
+Sbjct  282  EEMISCVYVSRDEERVAVAFSRP--VNAQSVGLLLVLDGQPQRVEWRSVHPRFKHSPVWI  339
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  +++D   +H   V WT   + ++C L   R E WCRDSATD++
+Sbjct  340  CDLPPGTISDITNEHNLTVHWTEKHTHRDCALYTGRTESWCRDSATDQE  388
+
+
+> UniRef90_F6Y8L4 Uncharacterized protein n=1 Tax=Ornithorhynchus 
+anatinus TaxID=9258 RepID=F6Y8L4_ORNAN
+Length=148
+
+ Score = 166 bits (421),  Expect = 6e-50, Method: Composition-based stats.
+ Identities = 75/109 (69%), Positives = 88/109 (81%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D + C+HVSR++ACL+V FSRPL VG     LLL+VDE+PL+VEWRTPDGRN P +VWL
+Sbjct  4    QDAVLCLHVSRDDACLTVGFSRPLAVGPGAERLLLLVDESPLAVEWRTPDGRNGPGNVWL  63
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPA+  NDQ PQHTFR++W G D+QKECVL K R E WCRDSATDEQ
+Sbjct  64   CDLPAS--NDQWPQHTFRLLWRGGDAQKECVLFKGRREGWCRDSATDEQ  110
+
+
+> UniRef90_A0A151NUY7 Geranylgeranyl transferase type-2 subunit 
+alpha n=2 Tax=Alligator TaxID=8495 RepID=A0A151NUY7_ALLMI
+Length=565
+
+ Score = 175 bits (444),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 66/107 (62%), Positives = 80/107 (75%), Gaps = 0/107 (0%)
+
+Query  3    VLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCD  62
+             + CV+V+RE+ACL+V FS+P+ V      L+L+ DEAPL+VEW TPDGRNRP  +WLCD
+Sbjct  242  TIHCVYVNREDACLAVAFSQPVRVTPGSHGLILLADEAPLTVEWHTPDGRNRPGVIWLCD  301
+
+Query  63   LPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            LPA +LND  PQHTFRVIW     QKECVL K R +CW RDS T+EQ
+Sbjct  302  LPALALNDHWPQHTFRVIWAPGQCQKECVLFKGRKDCWYRDSVTEEQ  348
+
+
+> UniRef90_G3VR14 Uncharacterized protein n=2 Tax=Sarcophilus harrisii 
+TaxID=9305 RepID=G3VR14_SARHA
+Length=568
+
+ Score = 175 bits (444),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 72/109 (66%), Positives = 86/109 (79%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D + C+HVSR EACL+VCFSRP+ VG  + T++L+VDE+PL VEWRTPDG+ RP+HVWL
+Sbjct  245  QDAIRCLHVSRNEACLTVCFSRPIIVGPGIETVMLLVDESPLPVEWRTPDGKKRPNHVWL  304
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPA S NDQ  QH+F ++W   D QKECVL K R E WCRDSATDEQ
+Sbjct  305  CDLPADSFNDQDSQHSFFLMW--GDVQKECVLYKGRKESWCRDSATDEQ  351
+
+
+> UniRef90_A0A146WQZ1 Geranylgeranyl transferase type-2 subunit 
+alpha, putative (Fragment) n=1 Tax=Fundulus heteroclitus TaxID=8078 
+RepID=A0A146WQZ1_FUNHE
+Length=484
+
+ Score = 174 bits (441),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 47/109 (43%), Positives = 68/109 (62%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV+VSREE  ++V FSRP  V +R G LLL++D  P  VEWR+     + S VW+
+Sbjct  94   EEMISCVYVSREEERVAVAFSRP--VNARSGVLLLVLDGQPQRVEWRSVHPHFKHSPVWI  151
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  +++D   +H   V WT   + ++C L   R E WCRD+ATD +
+Sbjct  152  CDLPPGTISDITNEHNLTVHWTEKHAHRDCALYTGRSESWCRDTATDLE  200
+
+
+> UniRef90_B5X467 Geranylgeranyl transferase type-2 subunit alpha 
+n=4 Tax=Protacanthopterygii TaxID=41705 RepID=B5X467_SALSA
+Length=583
+
+ Score = 174 bits (441),  Expect = 5e-49, Method: Composition-based stats.
+ Identities = 45/109 (41%), Positives = 67/109 (61%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV VSREE  ++V FSRP  V +    L+L++D  P  VEWR+     R S VW+
+Sbjct  260  EEMISCVFVSREEERVAVAFSRP--VNASSSGLMLVLDGQPQRVEWRSVHPHFRHSPVWI  317
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            C+LP  +++D + +H   V WT   + ++C L   R E WCRDSATD++
+Sbjct  318  CELPPGTISDIINEHNLTVHWTEKHTHRDCALYTGRSESWCRDSATDQE  366
+
+
+> UniRef90_UPI0003315AAC PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Sorex araneus TaxID=42254 RepID=UPI0003315AAC
+Length=606
+
+ Score = 174 bits (440),  Expect = 9e-49, Method: Composition-based stats.
+ Identities = 77/108 (71%), Positives = 89/108 (82%), Gaps = 0/108 (0%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+            D L C+HVSR++ACL+V FSRPL VG    TLL+MVD APL+VEWRTPDG+ RP +VWLC
+Sbjct  282  DALHCLHVSRDDACLTVSFSRPLLVGPGTETLLVMVDGAPLAVEWRTPDGKKRPCYVWLC  341
+
+Query  62   DLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            DLPAAS +DQL Q TFRV+W   D+QKECVL+K RPE WCRDSATDEQ
+Sbjct  342  DLPAASFDDQLSQQTFRVVWMAVDAQKECVLMKGRPEAWCRDSATDEQ  389
+
+
+> UniRef90_H9G8T8 Uncharacterized protein n=2 Tax=Anolis carolinensis 
+TaxID=28377 RepID=H9G8T8_ANOCA
+Length=449
+
+ Score = 171 bits (434),  Expect = 1e-48, Method: Composition-based stats.
+ Identities = 58/107 (54%), Positives = 77/107 (72%), Gaps = 0/107 (0%)
+
+Query  3    VLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCD  62
+             + CV+V+RE+  L+V FS P+ +      L++  DE+PL V WRTPDGRNRP  +WLCD
+Sbjct  126  TIRCVYVNREDTSLAVAFSHPVAIAPASHDLIIFGDESPLVVRWRTPDGRNRPGFMWLCD  185
+
+Query  63   LPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            LPA++LND  PQHTFR++W+   SQKECVL K   +CW +DS T+EQ
+Sbjct  186  LPASALNDHWPQHTFRILWSEGQSQKECVLFKGHRDCWSQDSVTEEQ  232
+
+
+> UniRef90_G3NAQ1 Uncharacterized protein (Fragment) n=1 Tax=Gasterosteus 
+aculeatus TaxID=69293 RepID=G3NAQ1_GASAC
+Length=554
+
+ Score = 172 bits (435),  Expect = 3e-48, Method: Composition-based stats.
+ Identities = 46/109 (42%), Positives = 69/109 (63%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV VSREE  ++V FSRP  V ++ G L+L++D  P +VEWR+   R + S VW+
+Sbjct  231  EEMISCVLVSREEETVTVAFSRP--VDAQPGGLMLLLDGQPQTVEWRSVHPRFKHSPVWI  288
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  +++D   +H   V W    + ++C L   R E WCRDSATD++
+Sbjct  289  CDLPPGTISDVTNEHNLTVHWMERHAHRDCALYTGRTESWCRDSATDQE  337
+
+
+> UniRef90_UPI0004421B14 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha-like isoform X4 n=1 Tax=Python bivittatus 
+TaxID=176946 RepID=UPI0004421B14
+Length=565
+
+ Score = 172 bits (435),  Expect = 3e-48, Method: Composition-based stats.
+ Identities = 57/107 (53%), Positives = 75/107 (70%), Gaps = 0/107 (0%)
+
+Query  3    VLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCD  62
+             + CV+V+RE A L+V FSRP+ V      L++  DE+PL V WRTPDG+N+P  +WLCD
+Sbjct  242  TIRCVYVNREHASLAVAFSRPVAVAPASHDLIVFGDESPLVVRWRTPDGKNKPGFMWLCD  301
+
+Query  63   LPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            LP ++LN+  PQHTFRV+W     QKECVL K   +CW +DS T+EQ
+Sbjct  302  LPTSALNNHWPQHTFRVLWAEGQVQKECVLFKGHKDCWTQDSVTEEQ  348
+
+
+> UniRef90_UPI0003ABA716 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha isoform X1 n=3 Tax=Cercopithecidae TaxID=9527 
+RepID=UPI0003ABA716
+Length=598
+
+ Score = 172 bits (435),  Expect = 5e-48, Method: Composition-based stats.
+ Identities = 86/140 (61%), Positives = 91/140 (65%), Gaps = 31/140 (22%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL VGSR   LLLMVD++PL VEWRTPDGRNRPSHVWL
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPLLVGSRTEILLLMVDDSPLIVEWRTPDGRNRPSHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLL---------------------------  93
+            CDLP ASLNDQLPQHTFRVIWT  D QKECVLL                           
+Sbjct  302  CDLPPASLNDQLPQHTFRVIWTAGDVQKECVLLKGDGTCSLHPLQQSPSLFSSPGCTLQP  361
+
+Query  94   ----KDRPECWCRDSATDEQ  109
+                  R E WCRDS TDEQ
+Sbjct  362  PTLSPGRQEGWCRDSTTDEQ  381
+
+
+> UniRef90_UPI00074FF546 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Gekko japonicus TaxID=146911 RepID=UPI00074FF546
+Length=564
+
+ Score = 171 bits (433),  Expect = 6e-48, Method: Composition-based stats.
+ Identities = 57/107 (53%), Positives = 74/107 (69%), Gaps = 0/107 (0%)
+
+Query  3    VLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCD  62
+             + C++V+RE+A L V FS P+ V      L++  DE+PL V WRTP GRN+P  +WLC+
+Sbjct  241  TIRCLYVNREDASLVVAFSHPVAVAPASHDLVVFGDESPLVVRWRTPHGRNKPGLMWLCE  300
+
+Query  63   LPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            LP A+LND  PQHTFRV+W    SQKECVL K   +CW +DS T+EQ
+Sbjct  301  LPPAALNDHWPQHTFRVLWAEGRSQKECVLFKGHKDCWSQDSVTEEQ  347
+
+
+> UniRef90_A0A146NP89 Geranylgeranyl transferase type-2 subunit 
+alpha n=1 Tax=Fundulus heteroclitus TaxID=8078 RepID=A0A146NP89_FUNHE
+Length=622
+
+ Score = 171 bits (433),  Expect = 8e-48, Method: Composition-based stats.
+ Identities = 45/109 (41%), Positives = 68/109 (62%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV++SREE  ++V FSRP  V ++ G LLL++D  P  VEWR+     + S VW+
+Sbjct  299  EEMISCVYISREEERVAVAFSRP--VNAQSGVLLLVLDGQPQRVEWRSVHPHFKHSPVWI  356
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  +++D   +H   V WT   + ++C L   R E WCRD+ATD +
+Sbjct  357  CDLPPGTISDITNEHNLTVHWTEKHAHRDCALYTGRSESWCRDTATDLE  405
+
+
+> UniRef90_UPI000388AE80 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Chrysemys picta bellii TaxID=8478 
+RepID=UPI000388AE80
+Length=565
+
+ Score = 170 bits (431),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 62/107 (58%), Positives = 78/107 (73%), Gaps = 0/107 (0%)
+
+Query  3    VLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCD  62
+             + CV+VSRE++ L+V FS+P+ V      LLL  DEAPL+V W TPDG+NRP  +WLCD
+Sbjct  242  TILCVYVSREDSSLAVAFSQPVVVTPGSCDLLLFADEAPLAVNWHTPDGKNRPGLMWLCD  301
+
+Query  63   LPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            LP ++LN+  PQHTFRV W G +SQKECVL K   + WCRDS T+EQ
+Sbjct  302  LPDSALNEHWPQHTFRVHWVGGESQKECVLFKGCRDGWCRDSVTEEQ  348
+
+
+> UniRef90_UPI0000F2B0F4 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Monodelphis domestica TaxID=13616 
+RepID=UPI0000F2B0F4
+Length=588
+
+ Score = 170 bits (431),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 68/109 (62%), Positives = 85/109 (78%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+            HD + C+HVSR EACL+ CFSRP+ VG  + T++LM D +PL VEWRTPDGR RP+++WL
+Sbjct  265  HDAIRCLHVSRSEACLTACFSRPIIVGPGVETVMLMGDGSPLHVEWRTPDGRKRPNYIWL  324
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  SL+DQ+ QH+F ++W   D QK+CVL K R E WCRDSATDEQ
+Sbjct  325  CDLPTDSLDDQISQHSFCLMW--GDVQKKCVLFKGRNETWCRDSATDEQ  371
+
+
+> UniRef90_A0A0B8RRL0 Geranylgeranyl transferase type-2 subunit 
+alpha n=4 Tax=Colubroidea TaxID=34989 RepID=A0A0B8RRL0_BOIIR
+Length=565
+
+ Score = 170 bits (430),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 54/107 (50%), Positives = 72/107 (67%), Gaps = 0/107 (0%)
+
+Query  3    VLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCD  62
+             + CV+V+RE   L+V FS P+ V      L++  DE+PL V W TPD +N+P ++WLCD
+Sbjct  242  TIRCVYVNRENTSLAVAFSHPVAVAPASHDLIVFGDESPLVVRWHTPDRKNKPGYMWLCD  301
+
+Query  63   LPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            LP ++LND  PQHTFRV+W     QKECVL K   +CW +DS T+EQ
+Sbjct  302  LPTSALNDHWPQHTFRVLWAEGHVQKECVLFKGHKDCWNQDSVTEEQ  348
+
+
+> UniRef90_H2UV48 Uncharacterized protein n=3 Tax=Tetraodontidae 
+TaxID=31031 RepID=H2UV48_TAKRU
+Length=565
+
+ Score = 169 bits (429),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 45/109 (41%), Positives = 67/109 (61%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV VSREE  ++V FSRP  V ++   LLL++D     VEWR+     + S VW+
+Sbjct  244  EEIISCVFVSREEERVAVAFSRP--VNAQTVGLLLVLDGQLQRVEWRSVHPHFKHSPVWI  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  +++D + +H   V WT   + ++C L   R E WCRDSATD++
+Sbjct  302  CDLPPGTISDIVNEHNLTVHWTEKHTHRDCALYTGRCESWCRDSATDQE  350
+
+
+> UniRef90_UPI0007AD0816 UPI0007AD0816 related cluster n=4 Tax=unknown 
+TaxID= RepID=UPI0007AD0816
+Length=585
+
+ Score = 169 bits (429),  Expect = 3e-47, Method: Composition-based stats.
+ Identities = 46/109 (42%), Positives = 66/109 (61%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV+VSRE   +SV FS+P  V ++   L+L+VD  P  V WR+   R R S VWL
+Sbjct  257  EEMISCVYVSREGERVSVAFSKP--VHAQSEGLMLVVDGQPQQVHWRSAHPRFRHSAVWL  314
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  S++D   +H   + WT   + ++C L     E WCRDSATD++
+Sbjct  315  CDLPPGSISDISNEHNLTIHWTEKHTHRDCALYTGSAESWCRDSATDQE  363
+
+
+> UniRef90_F6WVF8 Uncharacterized protein n=2 Tax=Monodelphis domestica 
+TaxID=13616 RepID=F6WVF8_MONDO
+Length=537
+
+ Score = 169 bits (427),  Expect = 3e-47, Method: Composition-based stats.
+ Identities = 68/109 (62%), Positives = 85/109 (78%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+            HD + C+HVSR EACL+ CFSRP+ VG  + T++LM D +PL VEWRTPDGR RP+++WL
+Sbjct  214  HDAIRCLHVSRSEACLTACFSRPIIVGPGVETVMLMGDGSPLHVEWRTPDGRKRPNYIWL  273
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  SL+DQ+ QH+F ++W   D QK+CVL K R E WCRDSATDEQ
+Sbjct  274  CDLPTDSLDDQISQHSFCLMW--GDVQKKCVLFKGRNETWCRDSATDEQ  320
+
+
+> UniRef90_A0A146WQG9 Geranylgeranyl transferase type-2 subunit 
+alpha, putative n=1 Tax=Fundulus heteroclitus TaxID=8078 RepID=A0A146WQG9_FUNHE
+Length=407
+
+ Score = 165 bits (419),  Expect = 6e-47, Method: Composition-based stats.
+ Identities = 47/109 (43%), Positives = 68/109 (62%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV+VSREE  ++V FSRP  V +R G LLL++D  P  VEWR+     + S VW+
+Sbjct  260  EEMISCVYVSREEERVAVAFSRP--VNARSGVLLLVLDGQPQRVEWRSVHPHFKHSPVWI  317
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  +++D   +H   V WT   + ++C L   R E WCRD+ATD +
+Sbjct  318  CDLPPGTISDITNEHNLTVHWTEKHAHRDCALYTGRSESWCRDTATDLE  366
+
+
+> UniRef90_I3J432 Uncharacterized protein n=20 Tax=Percomorphaceae 
+TaxID=1489872 RepID=I3J432_ORENI
+Length=583
+
+ Score = 168 bits (425),  Expect = 1e-46, Method: Composition-based stats.
+ Identities = 42/109 (39%), Positives = 65/109 (60%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV+V+REE  ++V FSRP  V ++   L L++D  P  VEWR+     + S VW+
+Sbjct  260  EEMISCVYVNREEERVAVAFSRP--VNAQSVGLFLVLDGQPQRVEWRSVHPCFKHSPVWI  317
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            C LP  +++D   +    V WT   + ++C L   R E WCRDSATD++
+Sbjct  318  CSLPPGTISDITNERNLTVHWTEKHTHRDCALYTGRTESWCRDSATDQE  366
+
+
+> UniRef90_UPI0006B39B91 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Austrofundulus limnaeus TaxID=52670 
+RepID=UPI0006B39B91
+Length=584
+
+ Score = 167 bits (424),  Expect = 1e-46, Method: Composition-based stats.
+ Identities = 45/109 (41%), Positives = 66/109 (61%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV+VSREE  + V FSRP++V      LLL++D  P  VEW++     + S VW+
+Sbjct  261  EEMISCVYVSREEEKVVVVFSRPVSV--VSVGLLLILDGQPQRVEWQSVHPHFKHSPVWI  318
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            C LP  +++D   +H   V WT   + K+C L   R E WCRDSATD++
+Sbjct  319  CSLPPGTISDPSNEHNLTVHWTERHTHKDCALYTGRTESWCRDSATDQE  367
+
+
+> UniRef90_UPI0004962F15 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Cynoglossus semilaevis TaxID=244447 
+RepID=UPI0004962F15
+Length=574
+
+ Score = 167 bits (423),  Expect = 2e-46, Method: Composition-based stats.
+ Identities = 40/109 (37%), Positives = 65/109 (60%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV+V R++  ++V FSRP  V +    LLL++D  P  VEWR+   R +   VW+
+Sbjct  251  EEMISCVYVDRDDERVAVAFSRP--VNALTVGLLLVLDGQPQKVEWRSVHPRFKHCPVWI  308
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            C LP  +++D   +H   V WT   + ++C L   R E +CR+SATD++
+Sbjct  309  CVLPPGTISDTSNEHNLTVHWTEKHTHRDCALYTGRTESYCRESATDQE  357
+
+
+> UniRef90_UPI0007425798 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Cyprinodon variegatus TaxID=28743 
+RepID=UPI0007425798
+Length=568
+
+ Score = 165 bits (419),  Expect = 5e-46, Method: Composition-based stats.
+ Identities = 44/108 (41%), Positives = 66/108 (61%), Gaps = 2/108 (2%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+            +++ CV+VSREE  ++V FSRP  V ++   LLL++D  P  VEW++     + S VW+C
+Sbjct  258  EMISCVYVSREEERVAVAFSRP--VNAQSVGLLLILDGQPQRVEWQSVHPHFKNSPVWIC  315
+
+Query  62   DLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+             LP  +++D   +H   V WT   S ++C L   R E WCRD+ATD +
+Sbjct  316  SLPPGTISDVANEHNLTVHWTEKHSHRDCALYTGRSESWCRDTATDLE  363
+
+
+> UniRef90_UPI0007B8289B UPI0007B8289B related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007B8289B
+Length=423
+
+ Score = 163 bits (413),  Expect = 7e-46, Method: Composition-based stats.
+ Identities = 45/109 (41%), Positives = 66/109 (61%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV+VSRE   +SV FS+P  V ++   L+L++D  P  V+WR+   R R S VWL
+Sbjct  257  EEMISCVYVSRERQRVSVAFSKP--VHAQSEGLMLVLDGLPQQVQWRSAHPRFRHSPVWL  314
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  S++D   +H   V W    + ++C L     E WCRDSATD++
+Sbjct  315  CDLPPGSVSDISNEHNLTVHWPEKHTHRDCALYTGSAESWCRDSATDQE  363
+
+
+> UniRef90_A0A0P7ULP7 Uncharacterized protein (Fragment) n=2 Tax=Scleropages 
+formosus TaxID=113540 RepID=A0A0P7ULP7_9TELE
+Length=528
+
+ Score = 165 bits (417),  Expect = 8e-46, Method: Composition-based stats.
+ Identities = 46/109 (42%), Positives = 64/109 (59%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV+VSRE   + V FSRP  V +    LLL+VD  P  V WR+   R R S +W+
+Sbjct  283  EEMISCVYVSREGERVVVAFSRP--VNALSVGLLLVVDGQPQQVNWRSAHPRLRHSPMWI  340
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  +++D   +H   V WT   + ++C L   R E WCRDSATD +
+Sbjct  341  CDLPPGTISDTSNEHNLTVHWTERHTHRDCALYTGRSESWCRDSATDLE  389
+
+
+> UniRef90_A0A1A7ZAC1 Rab geranylgeranyltransferase, alpha subunit 
+n=11 Tax=Nothobranchiidae TaxID=405002 RepID=A0A1A7ZAC1_NOTFU
+Length=532
+
+ Score = 164 bits (416),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 44/109 (40%), Positives = 66/109 (61%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV+VSRE+  ++V FSRP  V +    LLL++D  P  VEWR+     + S V +
+Sbjct  260  EEMISCVYVSREQERVAVTFSRP--VHALSVGLLLVLDGQPQRVEWRSVHPHFKHSPVLI  317
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  +++D   +H   V WT   + +EC L   R E WCRD+ATD++
+Sbjct  318  CDLPPGTIHDTTNEHNLTVHWTEKHNHRECALYTGRTESWCRDTATDQE  366
+
+
+> UniRef90_W5K0A0 Uncharacterized protein n=4 Tax=Astyanax mexicanus 
+TaxID=7994 RepID=W5K0A0_ASTMX
+Length=588
+
+ Score = 165 bits (418),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 45/110 (41%), Positives = 66/110 (60%), Gaps = 3/110 (3%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPL-SVEWRTPDGRNRPSHVW  59
+             +++ CV+VSRE   ++V FS+P  V +    L+L++D      VEWR+   R R S VW
+Sbjct  263  EELISCVYVSREGERVAVAFSKP--VNALTEGLMLVLDGQQQQRVEWRSAHPRFRHSPVW  320
+
+Query  60   LCDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            LC+LP  S++D   +H   V W    + ++C L   RPE WCRDSATD++
+Sbjct  321  LCELPPGSVSDINNEHNLTVHWMEKHTHRDCALYTGRPESWCRDSATDQE  370
+
+
+> UniRef90_UPI0007B95788 UPI0007B95788 related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI0007B95788
+Length=582
+
+ Score = 163 bits (413),  Expect = 4e-45, Method: Composition-based stats.
+ Identities = 44/109 (40%), Positives = 64/109 (59%), Gaps = 4/109 (4%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV+VSRE   +SV FS+ +        L+L++D  P  V+WR+   R R S VWL
+Sbjct  257  EEMISCVYVSRERQRVSVAFSKTVH----SEGLMLVLDGQPQQVQWRSAHPRFRHSPVWL  312
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  S++D   +H   V WT   + ++C L     E WCRDSATD++
+Sbjct  313  CDLPPGSVSDISNEHNLTVHWTEKHTHRDCALYTGSAESWCRDSATDQE  361
+
+
+> UniRef90_H2L733 Uncharacterized protein n=4 Tax=Oryzias latipes 
+TaxID=8090 RepID=H2L733_ORYLA
+Length=577
+
+ Score = 162 bits (409),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 47/110 (43%), Positives = 70/110 (64%), Gaps = 3/110 (3%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHV-W  59
+             + + CV+VSRE+  ++V FSRP+   +R   LLL++D  PL VEWR+   R R   + W
+Sbjct  252  EETISCVYVSREDERVAVAFSRPI--NARCVGLLLVLDGQPLRVEWRSVHPRFRKRFLNW  309
+
+Query  60   LCDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            +CDLP  ++ND   +H   V WTG+ + ++C L   R E WCRD+ATD++
+Sbjct  310  ICDLPPGTINDVTNEHNLTVHWTGNHTHRDCALYTGRVESWCRDTATDQE  359
+
+
+> UniRef90_Q08CG5 Zgc:153107 n=2 Tax=Danio rerio TaxID=7955 RepID=Q08CG5_DANRE
+Length=580
+
+ Score = 159 bits (402),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 43/109 (39%), Positives = 63/109 (58%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV+ SRE   +SV FS+P  V +    L+L++D  P  V+WR    R R S V L
+Sbjct  257  EEMISCVYASREGERVSVAFSKP--VHAGSVGLMLVLDGQPQQVQWRNAHPRLRHSPVCL  314
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+             DLPA S++D   +H   + WT   + ++C L     E WCRDSATD++
+Sbjct  315  RDLPAGSISDTSNEHNLTIHWTDKHTHRDCALYTGCAESWCRDSATDQE  363
+
+
+> UniRef90_UPI00064457FA PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Clupea harengus TaxID=7950 RepID=UPI00064457FA
+Length=581
+
+ Score = 158 bits (400),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 40/109 (37%), Positives = 64/109 (59%), Gaps = 4/109 (4%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV++SRE   + V FSRP    ++   L+L++D     VEWR+     R S VW+
+Sbjct  260  EEMISCVYMSREGERVVVAFSRP----AQAVGLMLLLDGKMQKVEWRSAPPSVRHSPVWI  315
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            C+ P  +++D   +H   V WT   +++EC L   R E WCRD+ATD++
+Sbjct  316  CEFPPGTISDINNEHNLTVHWTEKYTKRECALYTGRAESWCRDTATDQE  364
+
+
+> UniRef90_UPI0006D93558 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Latimeria chalumnae TaxID=7897 
+RepID=UPI0006D93558
+Length=564
+
+ Score = 156 bits (394),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 46/109 (42%), Positives = 63/109 (58%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             + + C++ S +   L V FSRP+ V      L+L VD  P  V+W+ P      S VW+
+Sbjct  240  EESITCLYASWDMGQLVVGFSRPVNVLLESSELVLFVDGRPTPVKWQNPRKTQSYSCVWI  299
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            C+L A  L+D   Q + RV+W G + +KEC+L   R E WCRDSATDEQ
+Sbjct  300  CELLAEVLDDLCHQCSLRVMWRGGEVEKECILYPGRTETWCRDSATDEQ  348
+
+
+> UniRef90_Q9JHK4-2 Isoform 2 of Geranylgeranyl transferase type-2 
+subunit alpha n=2 Tax=Mus musculus TaxID=10090 RepID=Q9JHK4-2
+Length=339
+
+ Score = 151 bits (382),  Expect = 4e-42, Method: Composition-based stats.
+ Identities = 88/95 (93%), Positives = 91/95 (96%), Gaps = 0/95 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+            HDVLCC+HVSREEACLSVCFSRPL VGS+MGTLLL VDEAPLSVEWRTPDGRNRPSHVWL
+Sbjct  242  HDVLCCLHVSREEACLSVCFSRPLIVGSKMGTLLLTVDEAPLSVEWRTPDGRNRPSHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKD  95
+            CDLPAASLND LPQHTFRVIWTGSD+QKECVLLK 
+Sbjct  302  CDLPAASLNDHLPQHTFRVIWTGSDTQKECVLLKG  336
+
+
+> UniRef90_H3A6R2 Uncharacterized protein n=1 Tax=Latimeria chalumnae 
+TaxID=7897 RepID=H3A6R2_LATCH
+Length=574
+
+ Score = 152 bits (385),  Expect = 3e-41, Method: Composition-based stats.
+ Identities = 43/109 (39%), Positives = 55/109 (50%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             + + C++ S +   L V FSRP+ V      L+L VD  P  V+W+ P      S VW+
+Sbjct  245  EESITCLYASWDMGQLVVGFSRPVNVLLESSELVLFVDGRPTPVKWQNPRKTQSYSCVWV  304
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+              L    L    P  TF  +W G    KEC+L   R E WCRDSATDEQ
+Sbjct  305  SVLRTVGLQSGAPIMTFFCVWGGGQYNKECILYPGRTETWCRDSATDEQ  353
+
+
+> UniRef90_Q6DDV4 Rabggta-prov protein n=6 Tax=Xenopus TaxID=262014 
+RepID=Q6DDV4_XENLA
+Length=565
+
+ Score = 141 bits (356),  Expect = 3e-37, Method: Composition-based stats.
+ Identities = 42/106 (40%), Positives = 66/106 (62%), Gaps = 3/106 (3%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCDL  63
+            + CV VS +E C+SV FS+ + V      L+L +++ P+ V WRT   + + S  W+CDL
+Sbjct  243  IRCVMVSLDEGCVSVTFSQSVAV---QDDLILFLNDKPIFVSWRTAGRKEKRSLFWVCDL  299
+
+Query  64   PAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            P   +ND+  Q+ F+V+W   +++KEC+L     E WCRDSAT+ +
+Sbjct  300  PKECINDRCCQYKFQVLWKDGEAKKECILYPGTRETWCRDSATENE  345
+
+
+> UniRef90_Q4RKY5 Chromosome 1 SCAF15025, whole genome shotgun 
+sequence (Fragment) n=1 Tax=Tetraodon nigroviridis TaxID=99883 
+RepID=Q4RKY5_TETNG
+Length=668
+
+ Score = 142 bits (358),  Expect = 3e-37, Method: Composition-based stats.
+ Identities = 37/96 (39%), Positives = 59/96 (61%), Gaps = 2/96 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV+VSREE  ++V FSRP  V ++   LLL++D  P  VEWR+   R + S VW+
+Sbjct  260  EEMISCVYVSREEGRVAVAFSRP--VNAQTVGLLLVLDGQPQRVEWRSVHPRLKHSPVWI  317
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDR  96
+            CDLP  +++D + +H   V WT   ++++C L    
+Sbjct  318  CDLPPGAISDAVNEHNLTVHWTEKRTRRDCALYTGE  353
+
+
+> UniRef90_UPI00042BFD1A PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Chelonia mydas TaxID=8469 RepID=UPI00042BFD1A
+Length=468
+
+ Score = 139 bits (349),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 57/95 (60%), Positives = 69/95 (73%), Gaps = 2/95 (2%)
+
+Query  3    VLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCD  62
+             + CV+VSRE++ L+V FS+P  V      LLL  DEAPL+V WRTPDGRNRP  +WLCD
+Sbjct  256  TILCVYVSREDSSLAVAFSQP--VTPGSCDLLLFADEAPLAVNWRTPDGRNRPGLMWLCD  313
+
+Query  63   LPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRP  97
+            LPA++LN+  PQHTFRV W G +SQKECVL K   
+Sbjct  314  LPASALNEHWPQHTFRVQWAGGESQKECVLFKGNH  348
+
+
+> UniRef90_S7MGS0 Geranylgeranyl transferase type-2 subunit alpha 
+n=1 Tax=Myotis brandtii TaxID=109478 RepID=S7MGS0_MYOBR
+Length=639
+
+ Score = 132 bits (333),  Expect = 9e-34, Method: Composition-based stats.
+ Identities = 60/113 (53%), Positives = 69/113 (61%), Gaps = 21/113 (19%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL V S M TLLL  DE+PL+VEWRTPDGRNRPS VW+
+Sbjct  314  QDALRCLHVSRDEACLTVSFSRPLLVDSGMETLLLFADESPLAVEWRTPDGRNRPSPVWV  373
+
+Query  61   CDLPAASLNDQLPQHTFRVIWT----GSDSQKECVLLKDRPECWCRDSATDEQ  109
+                         Q  + ++      G DSQK         E WCRDSATDEQ
+Sbjct  374  ------------SQDWWGIVGAEAGLGWDSQK-----SGHHEGWCRDSATDEQ  409
+
+
+> UniRef90_UPI000854EFA6 UPI000854EFA6 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000854EFA6
+Length=561
+
+ Score = 131 bits (329),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 40/103 (39%), Positives = 60/103 (58%), Gaps = 4/103 (4%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCDL  63
+            + C+    +   ++V FS P+ V S    L+L +DE P+ V W+TP+G+ +PS VW+CD+
+Sbjct  243  IRCILADVDVPFVTVTFSHPVLVES---DLILFIDERPVMVTWKTPEGKEKPSLVWVCDV  299
+
+Query  64   PAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSAT  106
+            P   L+    QH F+VIW   + +KEC L   +   W RDS T
+Sbjct  300  PKERLSGHC-QHKFKVIWKDGEVKKECALYPGKKVTWYRDSVT  341
+
+
+> UniRef90_UPI0003AEE91A PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha isoform X2 n=1 Tax=Sus scrofa TaxID=9823 
+RepID=UPI0003AEE91A
+Length=536
+
+ Score = 124 bits (312),  Expect = 3e-31, Method: Composition-based stats.
+ Identities = 60/109 (55%), Positives = 65/109 (60%), Gaps = 31/109 (28%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL V                                 L
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPLLVS-------------------------------LL  270
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLND LPQHTFRVIWT  ++QKECVLLK R E WCRDSATDEQ
+Sbjct  271  CDLPAASLNDHLPQHTFRVIWTAGNAQKECVLLKGRQEGWCRDSATDEQ  319
+
+
+> UniRef90_UPI0008DB4B43 UPI0008DB4B43 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008DB4B43
+Length=316
+
+ Score = 122 bits (305),  Expect = 6e-31, Method: Composition-based stats.
+ Identities = 40/106 (38%), Positives = 57/106 (54%), Gaps = 3/106 (3%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCDL  63
+            + CVHV RE+A L+V FSRP+ V      L   +D + L+  WR+ +GR RPSH WLCDL
+Sbjct  161  VICVHVDREDATLAVIFSRPVKVNPECPELTATLDGSTLAGPWRSGEGRPRPSHTWLCDL  220
+
+Query  64   PAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+              ++L  + P H   V W    +  E  LL    E W ++   + +
+Sbjct  221  --SALPTESPAH-LEVTWGPDSAHHEVTLLPGEAEAWWQEPIVERE  263
+
+
+> UniRef90_A0A1A6HWV2 Uncharacterized protein n=1 Tax=Neotoma lepida 
+TaxID=56216 RepID=A0A1A6HWV2_NEOLE
+Length=364
+
+ Score = 120 bits (301),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 74/115 (64%), Positives = 76/115 (66%), Gaps = 35/115 (30%)
+
+Query  30   MGTLLLMVDEAPLSVEWRTPDGRNRPSHVW------------------------------  59
+            MGTLLLMVDEAPLSVEWRTPDGRNRPSHVW                              
+Sbjct  1    MGTLLLMVDEAPLSVEWRTPDGRNRPSHVWVSQDWWDRDQGLGWDSGGTVRRAVRPHISL  60
+
+Query  60   -----LCDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+                 LCDLPAASLNDQLPQHTFRVIWT SD+QKECVL K R ECWCRDSATDE+
+Sbjct  61   TQRSQLCDLPAASLNDQLPQHTFRVIWTASDAQKECVLFKGRQECWCRDSATDEE  115
+
+
+> UniRef90_UPI0006B79FA8 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Pseudopodoces humilis TaxID=181119 
+RepID=UPI0006B79FA8
+Length=541
+
+ Score = 116 bits (291),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 36/106 (34%), Positives = 55/106 (52%), Gaps = 3/106 (3%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCDL  63
+            + CVH+ RE+A ++V FSRP+ V      L   +D + L+  WR+ +GR RPSH WLC L
+Sbjct  226  VICVHIDREDATVAVIFSRPVRVNPECPELTATLDGSALTEPWRSGEGRPRPSHTWLCAL  285
+
+Query  64   PAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            PA  L    P H   V W    + ++  LL    +   ++   + +
+Sbjct  286  PA--LPSDHPAH-LEVTWAPDSTPRDVRLLPGEAQACWQEPIVERE  328
+
+
+> UniRef90_UPI0009075F71 UPI0009075F71 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009075F71
+Length=531
+
+ Score = 113 bits (284),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 47/107 (44%), Positives = 56/107 (52%), Gaps = 34/107 (32%)
+
+Query  3    VLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCD  62
+             + CV+V+RE+ACL+V FS+P                                  V LCD
+Sbjct  242  TIHCVYVNREDACLAVAFSQP----------------------------------VRLCD  267
+
+Query  63   LPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            LPA +LND  PQHTFRVIW     QKECVL K R +CW RDS T+EQ
+Sbjct  268  LPALALNDHWPQHTFRVIWAPGQCQKECVLFKGRKDCWYRDSVTEEQ  314
+
+
+> UniRef90_G7P9Y8 Putative uncharacterized protein n=2 Tax=Macaca 
+TaxID=9539 RepID=G7P9Y8_MACFA
+Length=546
+
+ Score = 100 bits (249),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 45/61 (74%), Positives = 51/61 (84%), Gaps = 0/61 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL VGSR   LLLMVD++PL VEWRTPDGRNRPSHVW+
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPLLVGSRTEILLLMVDDSPLIVEWRTPDGRNRPSHVWV  301
+
+Query  61   C  61
+             
+Sbjct  302  S  302
+
+
+> UniRef90_L9L2K1 Geranylgeranyl transferase type-2 subunit alpha 
+n=1 Tax=Tupaia chinensis TaxID=246437 RepID=L9L2K1_TUPCH
+Length=531
+
+ Score = 99.0 bits (245),  Expect = 7e-22, Method: Composition-based stats.
+ Identities = 44/61 (72%), Positives = 52/61 (85%), Gaps = 0/61 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL V +R  TLLL+VDEAPL+VEWRTPDGR+RPSHVW+
+Sbjct  245  QDALRCLHVSRDEACLTVSFSRPLLVEARTETLLLLVDEAPLTVEWRTPDGRSRPSHVWV  304
+
+Query  61   C  61
+             
+Sbjct  305  S  305
+
+
+> UniRef90_F1MGN1 Geranylgeranyl transferase type-2 subunit alpha 
+n=2 Tax=Bos taurus TaxID=9913 RepID=F1MGN1_BOVIN
+Length=333
+
+ Score = 92.0 bits (227),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 45/71 (63%), Positives = 55/71 (77%), Gaps = 2/71 (3%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSH--V  58
+             D L C+HVSR+EACL+V FSRPL VGS M TLLLMVDE+PL+VEWRTP+GRNRPS    
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPLLVGSGMETLLLMVDESPLAVEWRTPEGRNRPSTSGS  301
+
+Query  59   WLCDLPAASLN  69
+              C  P ++++
+Sbjct  302  VTCPPPPSTIS  312
+
+
+> UniRef90_UPI000711BC44 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Alligator mississippiensis TaxID=8496 
+RepID=UPI000711BC44
+Length=326
+
+ Score = 87.8 bits (216),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 32/57 (56%), Positives = 43/57 (75%), Gaps = 0/57 (0%)
+
+Query  3    VLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVW  59
+             + CV+V+RE+ACL+V FS+P+ V      L+L+ DEAPL+VEW TPDGRNRP  +W
+Sbjct  242  TIHCVYVNREDACLAVAFSQPVRVTPGSHGLILLADEAPLTVEWHTPDGRNRPGVIW  298
+
+
+> UniRef90_M7BR16 Geranylgeranyl transferase type-2 subunit alpha 
+n=1 Tax=Chelonia mydas TaxID=8469 RepID=M7BR16_CHEMY
+Length=428
+
+ Score = 86.6 bits (213),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 32/57 (56%), Positives = 41/57 (72%), Gaps = 0/57 (0%)
+
+Query  3    VLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVW  59
+             + CV+VSRE++ L+V FS+P+ V      LLL  DEAPL+V WRTPDGRNRP  +W
+Sbjct  253  TILCVYVSREDSSLAVAFSQPVVVTPGSCDLLLFADEAPLAVNWRTPDGRNRPGLMW  309
+
+
+> UniRef90_A0A0S7HYU8 PGTA (Fragment) n=1 Tax=Poeciliopsis prolifica 
+TaxID=188132 RepID=A0A0S7HYU8_9TELE
+Length=153
+
+ Score = 81.6 bits (200),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 18/47 (38%), Positives = 27/47 (57%), Gaps = 0/47 (0%)
+
+Query  63   LPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            LP  +++D   +H   V WT   + ++C L   R E WCRD+ATD +
+Sbjct  1    LPPGTISDIANEHNLTVHWTEKHTHRDCALYTGRSESWCRDTATDLE  47
+
+
+> UniRef90_UPI0003EBFDA8 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha-like n=1 Tax=Neolamprologus brichardi TaxID=32507 
+RepID=UPI0003EBFDA8
+Length=495
+
+ Score = 85.1 bits (209),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 22/66 (33%), Positives = 35/66 (53%), Gaps = 0/66 (0%)
+
+Query  19   CFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCDLPAASLNDQLPQHTFR  78
+             FS  L+  ++   L L++D  P  VEWR+   R + S VW+C+LP  +++D   +    
+Sbjct  225  TFSLLLSCQAQSVGLFLVLDGQPQRVEWRSVHPRFKQSPVWICNLPPGTISDITNERNLT  284
+
+Query  79   VIWTGS  84
+            V WT  
+Sbjct  285  VHWTEK  290
+
+
+> UniRef90_UPI0007757BF4 UPI0007757BF4 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007757BF4
+Length=460
+
+ Score = 84.0 bits (206),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 26/61 (43%), Positives = 38/61 (62%), Gaps = 2/61 (3%)
+
+Query  3    VLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCD  62
+             + CV+V+RE   L+V FS P+ V      L++  DE+PL V WRTPD +N+P  +  C+
+Sbjct  190  TIRCVYVNRENTSLAVAFSHPVAVAPASHDLIVFGDESPLVVRWRTPDRKNKPGLM--CE  247
+
+Query  63   L  63
+            L
+Sbjct  248  L  248
+
+
+> UniRef90_UPI0005D09C39 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Aquila chrysaetos canadensis TaxID=216574 
+RepID=UPI0005D09C39
+Length=638
+
+ Score = 80.1 bits (196),  Expect = 5e-15, Method: Composition-based stats.
+ Identities = 25/58 (43%), Positives = 37/58 (64%), Gaps = 0/58 (0%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+            + C++V+RE+A L+V FS P+ VG+    L   VD + L   WR+ +GR RPSH W+ 
+Sbjct  242  ILCLYVNREDATLAVTFSHPVVVGAVSSALTATVDGSVLEGAWRSGEGRPRPSHTWVS  299
+
+
+> UniRef90_A0A0S7ICC6 PGTA (Fragment) n=1 Tax=Poeciliopsis prolifica 
+TaxID=188132 RepID=A0A0S7ICC6_9TELE
+Length=100
+
+ Score = 73.9 bits (180),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 26/61 (43%), Positives = 38/61 (62%), Gaps = 2/61 (3%)
+
+Query  1   HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+            DV+ C +VSRE+  ++V FSRP  V ++ G LLL++D  P  VEWR+     + S VW+
+Sbjct  36  EDVISCAYVSREQERVAVAFSRP--VKAQSGGLLLLLDGQPQRVEWRSVHPHFQHSPVWV  93
+
+Query  61  C  61
+            
+Sbjct  94  S  94
+
+
+> UniRef90_UPI0007AD8A6E UPI0007AD8A6E related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007AD8A6E
+Length=454
+
+ Score = 66.6 bits (161),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 21/49 (43%), Positives = 29/49 (59%), Gaps = 0/49 (0%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGR  52
+            + CVHV RE+A ++V FSRP+ V      L   +D A L   WR+ +GR
+Sbjct  226  VICVHVDREDATVAVVFSRPVKVDPECPELTATLDGAALPGPWRSGEGR  274
+
+
+> UniRef90_T1JKS0 Uncharacterized protein n=1 Tax=Strigamia maritima 
+TaxID=126957 RepID=T1JKS0_STRMM
+Length=569
+
+ Score = 62.8 bits (151),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 26/98 (27%), Positives = 44/98 (45%), Gaps = 1/98 (1%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCDL  63
+            L C++V+R E  L V   + + + S    L + VD+  +   WR+       S VW+ DL
+Sbjct  231  LLCLYVNRAEHFLIVTMKKAVNLKSSCYNLKVTVDKQIVDGNWRSTSAHETVSCVWILDL  290
+
+Query  64   PAASLNDQLPQH-TFRVIWTGSDSQKECVLLKDRPECW  100
+            P   L  +  +     V     +++K  V+ K+  E W
+Sbjct  291  PPDVLKIESSKKIDVSVSGFFEETKKLTVVFKNNTESW  328
+
+
+> UniRef90_C3Y8M1 Putative uncharacterized protein n=2 Tax=Branchiostoma 
+floridae TaxID=7739 RepID=C3Y8M1_BRAFL
+Length=566
+
+ Score = 62.8 bits (151),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 30/109 (28%), Positives = 45/109 (41%), Gaps = 4/109 (4%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+              + C+HV R    L   FS+ L   +    L ++ D   ++  W TP G +    V + 
+Sbjct  241  QSIRCLHVCRPLNRLVATFSKHLKASAAT--LNVVKDGEVITGRWHTPRGTDTFEQVLIF  298
+
+Query  62   DLPAASLNDQLPQH-TFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            + P  SL     QH    +        +ECVL    PE + RD  T+ Q
+Sbjct  299  EFPEHSLTPDRDQHIHVTLDTEAGLVGRECVLGAGHPEVFSRD-ITESQ  346
+
+
+> UniRef90_U3JVP8 Uncharacterized protein n=1 Tax=Ficedula albicollis 
+TaxID=59894 RepID=U3JVP8_FICAL
+Length=296
+
+ Score = 60.5 bits (145),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 19/45 (42%), Positives = 26/45 (58%), Gaps = 0/45 (0%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRT  48
+            + CVHV RE+A ++V FSRP+ V      L   +D A L   WR+
+Sbjct  226  VICVHVDREDATVAVVFSRPVKVDPECPELTATLDGAALPGPWRS  270
+
+
+> UniRef90_UPI0006965AE6 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha-like n=1 Tax=Lingula unguis TaxID=7574 
+RepID=UPI0006965AE6
+Length=419
+
+ Score = 58.1 bits (139),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 29/95 (31%), Positives = 42/95 (44%), Gaps = 6/95 (6%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+               + CV+VSRE   + V  S+P  +G+ +  L + +D      EW TP G N  S +WL
+Sbjct  240  QLAIDCVYVSRELRRVMVRLSKPAKIGADLS-LQVYLDGVQCIGEWTTPAGTNDHSLLWL  298
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKD  95
+             +L A        +H   V   G  S + C L   
+Sbjct  299  FNLTA---PLDGNEHKVLVAMEG--SSRSCTLKDG  328
+
+
+> UniRef90_UPI0003F0CD01 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha-like n=1 Tax=Saccoglossus kowalevskii TaxID=10224 
+RepID=UPI0003F0CD01
+Length=565
+
+ Score = 57.0 bits (136),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 26/107 (24%), Positives = 46/107 (43%), Gaps = 3/107 (3%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+              +  V + R    + VCF++PL +  +   L + ++   +   W +   R+  S VW+ 
+Sbjct  241  QSIRSVLICRSINRIVVCFTKPLDIVQQP--LSVSINGNLIKTSWYSASNRDVYSLVWIF  298
+
+Query  62   DLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDE  108
+             +P   LND        +        K C+L K   EC  +D++T E
+Sbjct  299  QIPDTVLNDDTDAVIL-ISLNNDQISKHCILKKGDTECVIKDNSTPE  344
+
+
+> UniRef90_UPI000697713E PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha-like n=1 Tax=Lingula unguis TaxID=7574 
+RepID=UPI000697713E
+Length=557
+
+ Score = 56.6 bits (135),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 31/108 (29%), Positives = 47/108 (44%), Gaps = 10/108 (9%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+               + CV+VSRE   + V  S+P  +G+ +  L + +D    + EW TP   N  S +WL
+Sbjct  240  QLAIDCVYVSRELRRVMVRLSKPAKIGADLS-LQVSLDGVQCTGEWTTPANSNDHSLLWL  298
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDE  108
+             +L A        +H   V   G  S + C L     +     S+ DE
+Sbjct  299  FNLTA---PLDGNEHKVMVAMEG--SSRSCTLKDGDEKA----SSVDE  337
+
+
+> UniRef90_F6YCL2 Uncharacterized protein (Fragment) n=1 Tax=Xenopus 
+tropicalis TaxID=8364 RepID=F6YCL2_XENTR
+Length=288
+
+ Score = 55.1 bits (131),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 19/46 (41%), Positives = 28/46 (61%), Gaps = 1/46 (2%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVG-SRMGTLLLMVDEAPLSVEWRT  48
+            + CV VS +E C+SV FS P+ +  S    L+L ++  P+ V WRT
+Sbjct  243  IRCVMVSLDEPCVSVTFSHPVEILWSVQEDLILFLNNRPIFVSWRT  288
+
+
+> UniRef90_A0A147A5S2 Uncharacterized protein n=1 Tax=Fundulus 
+heteroclitus TaxID=8078 RepID=A0A147A5S2_FUNHE
+Length=138
+
+ Score = 53.1 bits (126),  Expect = 9e-07, Method: Composition-based stats.
+ Identities = 14/34 (41%), Positives = 20/34 (59%), Gaps = 0/34 (0%)
+
+Query  28  SRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+           +R G LLL++D  P  VEWR+     + S VW+ 
+Sbjct  7   ARSGVLLLVLDGQPQRVEWRSVHPHFKHSPVWVS  40
+
+
+> UniRef90_UPI00081673D3 UPI00081673D3 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00081673D3
+Length=335
+
+ Score = 55.1 bits (131),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 16/39 (41%), Positives = 23/39 (59%), Gaps = 0/39 (0%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPL  42
+            + CV+V RE+A L+V FSRP+ V      L   +D + L
+Sbjct  208  IICVYVDREDASLAVIFSRPVRVNPECPELTATLDGSTL  246
+
+
+> UniRef90_S9XHC8 Geranylgeranyl transferase type-2 subunit alpha 
+n=1 Tax=Camelus ferus TaxID=419612 RepID=S9XHC8_CAMFR
+Length=462
+
+ Score = 51.2 bits (121),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 18/31 (58%), Positives = 21/31 (68%), Gaps = 0/31 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMG  31
+             D L C+HVSR+EACL+V FSRPL      G
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPLLAAKSAG  272
+
+
+> UniRef90_UPI0006745E72 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha-like n=1 Tax=Biomphalaria glabrata TaxID=6526 
+RepID=UPI0006745E72
+Length=478
+
+ Score = 50.4 bits (119),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 17/60 (28%), Positives = 33/60 (55%), Gaps = 2/60 (3%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVE-WRTPDGRNRPSHVWLCD  62
+            + C +VSRE+ C+ V F++ + +G +   L+L  +   +    W  P+  ++PS +W  D
+Sbjct  243  INCFYVSREDNCVLVSFTQHIQIGKKT-DLILECNGQTMPGTVWLNPNKTSQPSCLWRAD  301
+
+
+> UniRef90_X2A7L7 Uncharacterized protein n=1 Tax=Capitella teleta 
+TaxID=283909 RepID=X2A7L7_CAPTE
+Length=586
+
+ Score = 49.7 bits (117),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 17/79 (22%), Positives = 38/79 (48%), Gaps = 2/79 (3%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+               L C+  SR+   + + F + + +G     + L ++ +P++VEW +   ++  S++W 
+Sbjct  266  QLSLQCIQASRDLQRVLISFDQQVKIGFDGLVVDLSINGSPVNVEWLSA--KDNYSYIWF  323
+
+Query  61   CDLPAASLNDQLPQHTFRV  79
+              +P+  +ND        V
+Sbjct  324  ASVPSDLMNDSNSAIEITV  342
+
+
+> UniRef90_UPI000719C1B7 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha-like isoform X2 n=1 Tax=Priapulus caudatus 
+TaxID=37621 RepID=UPI000719C1B7
+Length=568
+
+ Score = 49.3 bits (116),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 26/105 (25%), Positives = 47/105 (45%), Gaps = 9/105 (9%)
+
+Query  3    VLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLS-VEWRTPDGRNRPSHVWLC  61
+             L C+H+SR+    SV  ++P+ +G    +L + VD  P+    W+     +    +W  
+Sbjct  242  ALDCIHISRDPCRASVRLTKPVKLGHDHVSLSISVDGKPVEDCRWKNATRGSDYGMLWTY  301
+
+Query  62   DLPAASLNDQLPQHTFRVIWTGSDSQKE-------CVLLKDRPEC  99
+            D+P  +L ++  +H      +  D+  +       C L  DR EC
+Sbjct  302  DVPRGTLTER-GEHVITAELSSGDNDDDDKRLSLSCTLPADRGEC  345
+
+
+> UniRef90_A0A146WR05 Geranylgeranyl transferase type-2 subunit 
+alpha, putative n=1 Tax=Fundulus heteroclitus TaxID=8078 RepID=A0A146WR05_FUNHE
+Length=361
+
+ Score = 48.1 bits (113),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 12/25 (48%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLT  25
+             +++ CV+VSREE  ++V FSRP+ 
+Sbjct  260  EEMISCVYVSREEERVAVAFSRPVN  284
+
+
+> UniRef90_A0A0S7ICF1 PPUP1934 (Fragment) n=1 Tax=Poeciliopsis 
+prolifica TaxID=188132 RepID=A0A0S7ICF1_9TELE
+Length=99
+
+ Score = 45.4 bits (106),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 13/27 (48%), Positives = 19/27 (70%), Gaps = 0/27 (0%)
+
+Query  1   HDVLCCVHVSREEACLSVCFSRPLTVG  27
+            DV+ C +VSRE+  ++V FSRP+ V 
+Sbjct  3   EDVISCAYVSREQERVAVAFSRPVKVS  29
+
+
+> UniRef90_V9L8Y2 Geranylgeranyl transferase type-2 subunit alpha 
+(Fragment) n=1 Tax=Callorhinchus milii TaxID=7868 RepID=V9L8Y2_CALMI
+Length=286
+
+ Score = 46.2 bits (108),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 20/61 (33%), Positives = 33/61 (54%), Gaps = 2/61 (3%)
+
+Query  50   DGRNRP-SHVWLCDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDE  108
+             G N P + +W C LP  +L         RVIW  + S+++C  ++ + + W R+SAT+ 
+Sbjct  10   PGNNSPTNAIWTCSLPEGALIPINSPQNVRVIWDENGSERDCYCVE-KSDGWSRESATES  68
+
+Query  109  Q  109
+            Q
+Sbjct  69   Q  69
+
+
+> UniRef90_UPI00053CE3D4 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Haliaeetus leucocephalus TaxID=52644 
+RepID=UPI00053CE3D4
+Length=394
+
+ Score = 44.3 bits (103),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 12/25 (48%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVGS  28
+            + C++V+RE+A L+V FSRP+ V  
+Sbjct  327  ILCLYVNREDATLAVTFSRPVVVSP  351
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.135    0.444    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0417    0.140     1.90     42.6     43.6 
+
+Effective search space used: 442037236000
+Results from round 3
+
+
+Query= d1dcea2
+
+Length=109
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_UPI000695B44C PREDICTED: geranylgeranyl transferase ty...  172     1e-49
+  UniRef90_L5KIP7 Geranylgeranyl transferase type-2 subunit alpha...  174     7e-49
+  UniRef90_Q7Z2Z4 Putative uncharacterized protein DKFZp686I14200...  167     4e-48
+  UniRef90_A5A779 Geranylgeranyl transferase type-2 subunit alpha...  171     5e-48
+  UniRef90_UPI000343FC78 PREDICTED: geranylgeranyl transferase ty...  169     2e-47
+  UniRef90_G1SIN7 Uncharacterized protein n=2 Tax=Oryctolagus cun...  169     2e-47
+  UniRef90_Q92696 Geranylgeranyl transferase type-2 subunit alpha...  169     2e-47
+  UniRef90_H0YLH3 Geranylgeranyl transferase type-2 subunit alpha...  167     2e-47
+  UniRef90_Q9JHK4 Geranylgeranyl transferase type-2 subunit alpha...  169     5e-47
+  UniRef90_UPI000625F0C0 PREDICTED: geranylgeranyl transferase ty...  167     1e-46
+  UniRef90_F6WB38 Uncharacterized protein n=2 Tax=Simiiformes Tax...  162     1e-46
+  UniRef90_Q08602 Geranylgeranyl transferase type-2 subunit alpha...  166     3e-46
+  UniRef90_UPI000454606C PREDICTED: geranylgeranyl transferase ty...  157     8e-46
+  UniRef90_V8NST7 Geranylgeranyl transferase type-2 subunit alpha...  161     8e-46
+  UniRef90_UPI00054BB870 PREDICTED: LOW QUALITY PROTEIN: geranylg...  164     4e-45
+  UniRef90_A0A151NUY7 Geranylgeranyl transferase type-2 subunit a...  162     1e-44
+  UniRef90_A0A146WQZ1 Geranylgeranyl transferase type-2 subunit a...  161     1e-44
+  UniRef90_H9G8T8 Uncharacterized protein n=2 Tax=Anolis caroline...  160     2e-44
+  UniRef90_G3VR14 Uncharacterized protein n=2 Tax=Sarcophilus har...  161     3e-44
+  UniRef90_B5X467 Geranylgeranyl transferase type-2 subunit alpha...  160     6e-44
+  UniRef90_UPI0003315AAC PREDICTED: geranylgeranyl transferase ty...  160     7e-44
+  UniRef90_UPI00074FF546 PREDICTED: geranylgeranyl transferase ty...  159     1e-43
+  UniRef90_UPI000388AE80 PREDICTED: geranylgeranyl transferase ty...  159     1e-43
+  UniRef90_UPI0004421B14 PREDICTED: geranylgeranyl transferase ty...  159     1e-43
+  UniRef90_F6Y8L4 Uncharacterized protein n=1 Tax=Ornithorhynchus...  150     2e-43
+  UniRef90_A0A146NP89 Geranylgeranyl transferase type-2 subunit a...  159     2e-43
+  UniRef90_A0A0B8RRL0 Geranylgeranyl transferase type-2 subunit a...  158     2e-43
+  UniRef90_G3NAQ1 Uncharacterized protein (Fragment) n=1 Tax=Gast...  158     3e-43
+  UniRef90_UPI0007AD0816 UPI0007AD0816 related cluster n=4 Tax=un...  156     1e-42
+  UniRef90_A0A146WQG9 Geranylgeranyl transferase type-2 subunit a...  154     1e-42
+  UniRef90_H2UV48 Uncharacterized protein n=3 Tax=Tetraodontidae ...  156     1e-42
+  UniRef90_I3J432 Uncharacterized protein n=20 Tax=Percomorphacea...  155     3e-42
+  UniRef90_UPI0006B39B91 PREDICTED: geranylgeranyl transferase ty...  155     3e-42
+  UniRef90_UPI0000F2B0F4 PREDICTED: geranylgeranyl transferase ty...  155     3e-42
+  UniRef90_F6WVF8 Uncharacterized protein n=2 Tax=Monodelphis dom...  154     8e-42
+  UniRef90_UPI0007B8289B UPI0007B8289B related cluster n=1 Tax=un...  152     9e-42
+  UniRef90_A0A1A7ZAC1 Rab geranylgeranyltransferase, alpha subuni...  154     1e-41
+  UniRef90_UPI0003ABA716 PREDICTED: geranylgeranyl transferase ty...  154     1e-41
+  UniRef90_UPI0004962F15 PREDICTED: geranylgeranyl transferase ty...  153     2e-41
+  UniRef90_A0A0P7ULP7 Uncharacterized protein (Fragment) n=2 Tax=...  153     2e-41
+  UniRef90_UPI0007425798 PREDICTED: geranylgeranyl transferase ty...  152     3e-41
+  UniRef90_UPI0007B95788 UPI0007B95788 related cluster n=2 Tax=un...  152     3e-41
+  UniRef90_W5K0A0 Uncharacterized protein n=4 Tax=Astyanax mexica...  152     4e-41
+  UniRef90_H2L733 Uncharacterized protein n=4 Tax=Oryzias latipes...  150     2e-40
+  UniRef90_UPI00064457FA PREDICTED: geranylgeranyl transferase ty...  147     2e-39
+  UniRef90_UPI0006D93558 PREDICTED: geranylgeranyl transferase ty...  147     3e-39
+  UniRef90_Q08CG5 Zgc:153107 n=2 Tax=Danio rerio TaxID=7955 RepID...  145     1e-38
+  UniRef90_H3A6R2 Uncharacterized protein n=1 Tax=Latimeria chalu...  143     9e-38
+  UniRef90_Q9JHK4-2 Isoform 2 of Geranylgeranyl transferase type-...  137     9e-37
+  UniRef90_Q6DDV4 Rabggta-prov protein n=6 Tax=Xenopus TaxID=2620...  134     9e-35
+  UniRef90_UPI00042BFD1A PREDICTED: geranylgeranyl transferase ty...  130     2e-33
+  UniRef90_Q4RKY5 Chromosome 1 SCAF15025, whole genome shotgun se...  130     1e-32
+  UniRef90_UPI000854EFA6 UPI000854EFA6 related cluster n=1 Tax=un...  122     2e-30
+  UniRef90_S7MGS0 Geranylgeranyl transferase type-2 subunit alpha...  117     3e-28
+  UniRef90_UPI0008DB4B43 UPI0008DB4B43 related cluster n=1 Tax=un...  112     1e-27
+  UniRef90_UPI0003AEE91A PREDICTED: geranylgeranyl transferase ty...  111     3e-26
+  UniRef90_A0A1A6HWV2 Uncharacterized protein n=1 Tax=Neotoma lep...  108     7e-26
+  UniRef90_UPI0006B79FA8 PREDICTED: geranylgeranyl transferase ty...  108     3e-25
+  UniRef90_UPI0009075F71 UPI0009075F71 related cluster n=1 Tax=un...  103     1e-23
+  UniRef90_C3Y8M1 Putative uncharacterized protein n=2 Tax=Branch...  99.0    1e-21
+  UniRef90_UPI0003F0CD01 PREDICTED: geranylgeranyl transferase ty...  97.1    5e-21
+  UniRef90_T1JKS0 Uncharacterized protein n=1 Tax=Strigamia marit...  94.0    6e-20
+  UniRef90_UPI0006965AE6 PREDICTED: geranylgeranyl transferase ty...  92.1    1e-19
+  UniRef90_UPI000697713E PREDICTED: geranylgeranyl transferase ty...  92.8    1e-19
+  UniRef90_G7P9Y8 Putative uncharacterized protein n=2 Tax=Macaca...  90.5    9e-19
+  UniRef90_F1MGN1 Geranylgeranyl transferase type-2 subunit alpha...  87.8    1e-18
+  UniRef90_L9L2K1 Geranylgeranyl transferase type-2 subunit alpha...  89.0    3e-18
+  UniRef90_UPI000719C1B7 PREDICTED: geranylgeranyl transferase ty...  85.1    7e-17
+  UniRef90_UPI000711BC44 PREDICTED: geranylgeranyl transferase ty...  82.4    1e-16
+  UniRef90_UPI0003EBFDA8 PREDICTED: geranylgeranyl transferase ty...  82.8    4e-16
+  UniRef90_M7BR16 Geranylgeranyl transferase type-2 subunit alpha...  81.6    8e-16
+  UniRef90_A0A0S7HYU8 PGTA (Fragment) n=1 Tax=Poeciliopsis prolif...  76.6    4e-15
+  UniRef90_UPI0007757BF4 UPI0007757BF4 related cluster n=1 Tax=un...  79.0    7e-15
+  UniRef90_X2A7L7 Uncharacterized protein n=1 Tax=Capitella telet...  77.0    5e-14
+  UniRef90_A0A0S7ICC6 PGTA (Fragment) n=1 Tax=Poeciliopsis prolif...  70.5    3e-13
+  UniRef90_UPI0005D09C39 PREDICTED: geranylgeranyl transferase ty...  74.3    4e-13
+  UniRef90_UPI0006745E72 PREDICTED: geranylgeranyl transferase ty...  64.7    8e-10
+  UniRef90_UPI0007AD8A6E UPI0007AD8A6E related cluster n=1 Tax=un...  64.3    1e-09
+  UniRef90_U3JVP8 Uncharacterized protein n=1 Tax=Ficedula albico...  60.1    2e-08
+  UniRef90_V9L8Y2 Geranylgeranyl transferase type-2 subunit alpha...  58.5    5e-08
+  UniRef90_F6YCL2 Uncharacterized protein (Fragment) n=1 Tax=Xeno...  55.1    8e-07
+  UniRef90_UPI00081673D3 UPI00081673D3 related cluster n=1 Tax=un...  53.1    5e-06
+  UniRef90_A0A147A5S2 Uncharacterized protein n=1 Tax=Fundulus he...  50.4    7e-06
+  UniRef90_S9XHC8 Geranylgeranyl transferase type-2 subunit alpha...  45.8    0.002
+  UniRef90_A0A146WR05 Geranylgeranyl transferase type-2 subunit a...  45.4    0.002
+  UniRef90_A0A0S7ICF1 PPUP1934 (Fragment) n=1 Tax=Poeciliopsis pr...  42.7    0.003
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_K1QZ11 Geranylgeranyl transferase type-2 subunit alpha...  56.6    6e-07
+  UniRef90_UPI00077FC73F UPI00077FC73F related cluster n=1 Tax=un...  48.9    2e-04
+  UniRef90_UPI0003593C51 PREDICTED: geranylgeranyl transferase ty...  47.4    5e-04
+  UniRef90_UPI000359EADB PREDICTED: geranylgeranyl transferase ty...  46.6    0.001
+  UniRef90_V4C0L0 Uncharacterized protein n=1 Tax=Lottia gigantea...  45.4    0.002
+  UniRef90_A0A067R2K8 Geranylgeranyl transferase type-2 subunit a...  43.9    0.008
+
+
+> UniRef90_UPI000695B44C PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha-like, partial n=1 Tax=Chinchilla lanigera 
+TaxID=34839 RepID=UPI000695B44C
+Length=385
+
+ Score = 172 bits (437),  Expect = 1e-49, Method: Composition-based stats.
+ Identities = 86/109 (79%), Positives = 92/109 (84%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL VGS   TLLLM DE+PL VEWRTPDGRNRPSHVWL
+Sbjct  97   QDALRCLHVSRDEACLTVSFSRPLLVGSGTETLLLMADESPLIVEWRTPDGRNRPSHVWL  156
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPA SLNDQLPQHTFRV+WT  D+QKECVL K R E WCRDSATDEQ
+Sbjct  157  CDLPAGSLNDQLPQHTFRVVWTAGDAQKECVLFKGRQEAWCRDSATDEQ  205
+
+
+> UniRef90_L5KIP7 Geranylgeranyl transferase type-2 subunit alpha 
+n=2 Tax=Chiroptera TaxID=9397 RepID=L5KIP7_PTEAL
+Length=593
+
+ Score = 174 bits (441),  Expect = 7e-49, Method: Composition-based stats.
+ Identities = 86/109 (79%), Positives = 94/109 (86%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL VGSRM TLLL+VDE+PL+VEWRTPDGRNRPSHVW+
+Sbjct  267  QDALRCLHVSRDEACLTVSFSRPLMVGSRMETLLLVVDESPLAVEWRTPDGRNRPSHVWI  326
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP ASLNDQLPQHTFRVIWT  D+QKECVL K   E WCRDS TDEQ
+Sbjct  327  CDLPTASLNDQLPQHTFRVIWTAGDAQKECVLFKGHQEGWCRDSVTDEQ  375
+
+
+> UniRef90_Q7Z2Z4 Putative uncharacterized protein DKFZp686I14200 
+(Fragment) n=1 Tax=Homo sapiens TaxID=9606 RepID=Q7Z2Z4_HUMAN
+Length=358
+
+ Score = 167 bits (424),  Expect = 4e-48, Method: Composition-based stats.
+ Identities = 100/109 (92%), Positives = 103/109 (94%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+            HDVLCC+HVSREEACLSVCFSRPL VGS+MGTLLL VDEAPLSVEWRTPDGRNRPSHVWL
+Sbjct  33   HDVLCCLHVSREEACLSVCFSRPLIVGSKMGTLLLTVDEAPLSVEWRTPDGRNRPSHVWL  92
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLND LPQHTFRVIWTGSD+QKECVLLK   ECWCRDSATDEQ
+Sbjct  93   CDLPAASLNDHLPQHTFRVIWTGSDTQKECVLLKGHQECWCRDSATDEQ  141
+
+
+> UniRef90_A5A779 Geranylgeranyl transferase type-2 subunit alpha 
+n=11 Tax=Eutheria TaxID=9347 RepID=PGTA_PIG
+Length=567
+
+ Score = 171 bits (434),  Expect = 5e-48, Method: Composition-based stats.
+ Identities = 87/109 (80%), Positives = 94/109 (86%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL VG    TLLLMV+E+PLSVEWRTPDGRNRPSHVWL
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPLLVGPSTETLLLMVNESPLSVEWRTPDGRNRPSHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLND LPQHTFRVIWT  ++QKECVLLK R E WCRDSATDEQ
+Sbjct  302  CDLPAASLNDHLPQHTFRVIWTAGNAQKECVLLKGRQEGWCRDSATDEQ  350
+
+
+> UniRef90_UPI000343FC78 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha isoform X3 n=2 Tax=Laurasiatheria TaxID=314145 
+RepID=UPI000343FC78
+Length=560
+
+ Score = 169 bits (429),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 88/109 (81%), Positives = 95/109 (87%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRP+ VGS   TLLLMVDE+PL+VEWRTPDGR RPSHVWL
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPILVGSGTETLLLMVDESPLAVEWRTPDGRTRPSHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLNDQLPQHTFRVIWT  D+QKECVLLK R E WCRDSATDEQ
+Sbjct  302  CDLPAASLNDQLPQHTFRVIWTAGDAQKECVLLKGRQEGWCRDSATDEQ  350
+
+
+> UniRef90_G1SIN7 Uncharacterized protein n=2 Tax=Oryctolagus cuniculus 
+TaxID=9986 RepID=G1SIN7_RABIT
+Length=585
+
+ Score = 169 bits (429),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 84/109 (77%), Positives = 90/109 (83%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+VCFSRP+ VG    TLLLM DE+PL VEWRTPDGRN+PSHVWL
+Sbjct  242  QDALHCLHVSRDEACLTVCFSRPVLVGPGTDTLLLMADESPLMVEWRTPDGRNQPSHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP ASLNDQLPQHTFRVIWT     KECVLLK R E WCRDSATDEQ
+Sbjct  302  CDLPTASLNDQLPQHTFRVIWTAGGVHKECVLLKGRQEGWCRDSATDEQ  350
+
+
+> UniRef90_Q92696 Geranylgeranyl transferase type-2 subunit alpha 
+n=63 Tax=Boreoeutheria TaxID=1437010 RepID=PGTA_HUMAN
+Length=567
+
+ Score = 169 bits (429),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 89/109 (82%), Positives = 94/109 (86%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL VGSRM  LLLMVD++PL VEWRTPDGRNRPSHVWL
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPLLVGSRMEILLLMVDDSPLIVEWRTPDGRNRPSHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLNDQLPQHTFRVIWT  D QKECVLLK R E WCRDS TDEQ
+Sbjct  302  CDLPAASLNDQLPQHTFRVIWTAGDVQKECVLLKGRQEGWCRDSTTDEQ  350
+
+
+> UniRef90_H0YLH3 Geranylgeranyl transferase type-2 subunit alpha 
+n=3 Tax=Euarchontoglires TaxID=314146 RepID=H0YLH3_HUMAN
+Length=424
+
+ Score = 167 bits (423),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 89/109 (82%), Positives = 94/109 (86%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL VGSRM  LLLMVD++PL VEWRTPDGRNRPSHVWL
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPLLVGSRMEILLLMVDDSPLIVEWRTPDGRNRPSHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLNDQLPQHTFRVIWT  D QKECVLLK R E WCRDS TDEQ
+Sbjct  302  CDLPAASLNDQLPQHTFRVIWTAGDVQKECVLLKGRQEGWCRDSTTDEQ  350
+
+
+> UniRef90_Q9JHK4 Geranylgeranyl transferase type-2 subunit alpha 
+n=4 Tax=Sciurognathi TaxID=33553 RepID=PGTA_MOUSE
+Length=567
+
+ Score = 169 bits (427),  Expect = 5e-47, Method: Composition-based stats.
+ Identities = 100/109 (92%), Positives = 103/109 (94%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+            HDVLCC+HVSREEACLSVCFSRPL VGS+MGTLLL VDEAPLSVEWRTPDGRNRPSHVWL
+Sbjct  242  HDVLCCLHVSREEACLSVCFSRPLIVGSKMGTLLLTVDEAPLSVEWRTPDGRNRPSHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLND LPQHTFRVIWTGSD+QKECVLLK   ECWCRDSATDEQ
+Sbjct  302  CDLPAASLNDHLPQHTFRVIWTGSDTQKECVLLKGHQECWCRDSATDEQ  350
+
+
+> UniRef90_UPI000625F0C0 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha isoform X1 n=2 Tax=Aotus nancymaae TaxID=37293 
+RepID=UPI000625F0C0
+Length=574
+
+ Score = 167 bits (424),  Expect = 1e-46, Method: Composition-based stats.
+ Identities = 86/109 (79%), Positives = 93/109 (85%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL VGSR  TLLLMVD++PL VEWRTPDGRN+P+HVWL
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPLLVGSRTETLLLMVDDSPLIVEWRTPDGRNQPNHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLNDQ PQHTFRVIWT  D QKECVLLK R E WCRDS TDEQ
+Sbjct  302  CDLPAASLNDQSPQHTFRVIWTEGDVQKECVLLKGRQEGWCRDSTTDEQ  350
+
+
+> UniRef90_F6WB38 Uncharacterized protein n=2 Tax=Simiiformes TaxID=314293 
+RepID=F6WB38_CALJA
+Length=317
+
+ Score = 162 bits (411),  Expect = 1e-46, Method: Composition-based stats.
+ Identities = 87/109 (80%), Positives = 93/109 (85%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL VGSR  TLLLMVDE+PL VEWRTPDGRNRP+HVWL
+Sbjct  205  QDALRCLHVSRDEACLTVSFSRPLLVGSRTETLLLMVDESPLIVEWRTPDGRNRPNHVWL  264
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLN+Q PQHTFRVIWT  D QKECVLLK R E WCRDS TDEQ
+Sbjct  265  CDLPAASLNNQSPQHTFRVIWTEGDVQKECVLLKGRQEGWCRDSTTDEQ  313
+
+
+> UniRef90_Q08602 Geranylgeranyl transferase type-2 subunit alpha 
+n=42 Tax=Eutheria TaxID=9347 RepID=PGTA_RAT
+Length=567
+
+ Score = 166 bits (421),  Expect = 3e-46, Method: Composition-based stats.
+ Identities = 109/109 (100%), Positives = 109/109 (100%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+            HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL
+Sbjct  242  HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ
+Sbjct  302  CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  350
+
+
+> UniRef90_UPI000454606C PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha-like, partial n=1 Tax=Ornithorhynchus anatinus 
+TaxID=9258 RepID=UPI000454606C
+Length=198
+
+ Score = 157 bits (397),  Expect = 8e-46, Method: Composition-based stats.
+ Identities = 78/109 (72%), Positives = 90/109 (83%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D + C+HVSR++ACL+V FSRPL VG     LLL+VDE+PL+VEWRTPDGRN P +VWL
+Sbjct  14   QDAVLCLHVSRDDACLTVGFSRPLAVGPGAERLLLLVDESPLAVEWRTPDGRNGPGNVWL  73
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLNDQ PQHTFR++W G D+QKECVL K R E WCRDSATDEQ
+Sbjct  74   CDLPAASLNDQWPQHTFRLLWRGGDAQKECVLFKGRREGWCRDSATDEQ  122
+
+
+> UniRef90_V8NST7 Geranylgeranyl transferase type-2 subunit alpha 
+(Fragment) n=1 Tax=Ophiophagus hannah TaxID=8665 RepID=V8NST7_OPHHA
+Length=343
+
+ Score = 161 bits (408),  Expect = 8e-46, Method: Composition-based stats.
+ Identities = 56/109 (51%), Positives = 74/109 (68%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+               + CV+V+RE   L+V FS P+ V      L++  DE+PL V WRTPDG+N+P ++WL
+Sbjct  18   EPTIRCVYVNRENTSLAVAFSHPVAVAPASHDLIVFGDESPLVVRWRTPDGKNKPGYMWL  77
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP ++LND  PQHTFRV+W     QKECVL K   +CW +DS T+EQ
+Sbjct  78   CDLPTSALNDHWPQHTFRVLWAEGHVQKECVLFKGHKDCWNQDSVTEEQ  126
+
+
+> UniRef90_UPI00054BB870 PREDICTED: LOW QUALITY PROTEIN: geranylgeranyl 
+transferase type-2 subunit alpha n=1 Tax=Larimichthys 
+crocea TaxID=215358 RepID=UPI00054BB870
+Length=615
+
+ Score = 164 bits (414),  Expect = 4e-45, Method: Composition-based stats.
+ Identities = 45/109 (41%), Positives = 69/109 (63%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV+VSR+E  ++V FSRP+   ++   LLL++D  P  VEWR+   R + S VW+
+Sbjct  282  EEMISCVYVSRDEERVAVAFSRPVN--AQSVGLLLVLDGQPQRVEWRSVHPRFKHSPVWI  339
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  +++D   +H   V WT   + ++C L   R E WCRDSATD++
+Sbjct  340  CDLPPGTISDITNEHNLTVHWTEKHTHRDCALYTGRTESWCRDSATDQE  388
+
+
+> UniRef90_A0A151NUY7 Geranylgeranyl transferase type-2 subunit 
+alpha n=2 Tax=Alligator TaxID=8495 RepID=A0A151NUY7_ALLMI
+Length=565
+
+ Score = 162 bits (410),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 66/109 (61%), Positives = 80/109 (73%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+               + CV+V+RE+ACL+V FS+P+ V      L+L+ DEAPL+VEW TPDGRNRP  +WL
+Sbjct  240  EPTIHCVYVNREDACLAVAFSQPVRVTPGSHGLILLADEAPLTVEWHTPDGRNRPGVIWL  299
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPA +LND  PQHTFRVIW     QKECVL K R +CW RDS T+EQ
+Sbjct  300  CDLPALALNDHWPQHTFRVIWAPGQCQKECVLFKGRKDCWYRDSVTEEQ  348
+
+
+> UniRef90_A0A146WQZ1 Geranylgeranyl transferase type-2 subunit 
+alpha, putative (Fragment) n=1 Tax=Fundulus heteroclitus TaxID=8078 
+RepID=A0A146WQZ1_FUNHE
+Length=484
+
+ Score = 161 bits (407),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 46/109 (42%), Positives = 68/109 (62%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV+VSREE  ++V FSRP+   +R G LLL++D  P  VEWR+     + S VW+
+Sbjct  94   EEMISCVYVSREEERVAVAFSRPVN--ARSGVLLLVLDGQPQRVEWRSVHPHFKHSPVWI  151
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  +++D   +H   V WT   + ++C L   R E WCRD+ATD +
+Sbjct  152  CDLPPGTISDITNEHNLTVHWTEKHAHRDCALYTGRSESWCRDTATDLE  200
+
+
+> UniRef90_H9G8T8 Uncharacterized protein n=2 Tax=Anolis carolinensis 
+TaxID=28377 RepID=H9G8T8_ANOCA
+Length=449
+
+ Score = 160 bits (404),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 58/109 (53%), Positives = 77/109 (71%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+               + CV+V+RE+  L+V FS P+ +      L++  DE+PL V WRTPDGRNRP  +WL
+Sbjct  124  EPTIRCVYVNREDTSLAVAFSHPVAIAPASHDLIIFGDESPLVVRWRTPDGRNRPGFMWL  183
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPA++LND  PQHTFR++W+   SQKECVL K   +CW +DS T+EQ
+Sbjct  184  CDLPASALNDHWPQHTFRILWSEGQSQKECVLFKGHRDCWSQDSVTEEQ  232
+
+
+> UniRef90_G3VR14 Uncharacterized protein n=2 Tax=Sarcophilus harrisii 
+TaxID=9305 RepID=G3VR14_SARHA
+Length=568
+
+ Score = 161 bits (407),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 72/109 (66%), Positives = 86/109 (79%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D + C+HVSR EACL+VCFSRP+ VG  + T++L+VDE+PL VEWRTPDG+ RP+HVWL
+Sbjct  245  QDAIRCLHVSRNEACLTVCFSRPIIVGPGIETVMLLVDESPLPVEWRTPDGKKRPNHVWL  304
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPA S NDQ  QH+F ++W   D QKECVL K R E WCRDSATDEQ
+Sbjct  305  CDLPADSFNDQDSQHSFFLMW--GDVQKECVLYKGRKESWCRDSATDEQ  351
+
+
+> UniRef90_B5X467 Geranylgeranyl transferase type-2 subunit alpha 
+n=4 Tax=Protacanthopterygii TaxID=41705 RepID=B5X467_SALSA
+Length=583
+
+ Score = 160 bits (405),  Expect = 6e-44, Method: Composition-based stats.
+ Identities = 44/109 (40%), Positives = 67/109 (61%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV VSREE  ++V FSRP+   +    L+L++D  P  VEWR+     R S VW+
+Sbjct  260  EEMISCVFVSREEERVAVAFSRPVN--ASSSGLMLVLDGQPQRVEWRSVHPHFRHSPVWI  317
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            C+LP  +++D + +H   V WT   + ++C L   R E WCRDSATD++
+Sbjct  318  CELPPGTISDIINEHNLTVHWTEKHTHRDCALYTGRSESWCRDSATDQE  366
+
+
+> UniRef90_UPI0003315AAC PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Sorex araneus TaxID=42254 RepID=UPI0003315AAC
+Length=606
+
+ Score = 160 bits (405),  Expect = 7e-44, Method: Composition-based stats.
+ Identities = 77/108 (71%), Positives = 89/108 (82%), Gaps = 0/108 (0%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+            D L C+HVSR++ACL+V FSRPL VG    TLL+MVD APL+VEWRTPDG+ RP +VWLC
+Sbjct  282  DALHCLHVSRDDACLTVSFSRPLLVGPGTETLLVMVDGAPLAVEWRTPDGKKRPCYVWLC  341
+
+Query  62   DLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            DLPAAS +DQL Q TFRV+W   D+QKECVL+K RPE WCRDSATDEQ
+Sbjct  342  DLPAASFDDQLSQQTFRVVWMAVDAQKECVLMKGRPEAWCRDSATDEQ  389
+
+
+> UniRef90_UPI00074FF546 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Gekko japonicus TaxID=146911 RepID=UPI00074FF546
+Length=564
+
+ Score = 159 bits (402),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 57/109 (52%), Positives = 74/109 (68%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+               + C++V+RE+A L V FS P+ V      L++  DE+PL V WRTP GRN+P  +WL
+Sbjct  239  EPTIRCLYVNREDASLVVAFSHPVAVAPASHDLVVFGDESPLVVRWRTPHGRNKPGLMWL  298
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            C+LP A+LND  PQHTFRV+W    SQKECVL K   +CW +DS T+EQ
+Sbjct  299  CELPPAALNDHWPQHTFRVLWAEGRSQKECVLFKGHKDCWSQDSVTEEQ  347
+
+
+> UniRef90_UPI000388AE80 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Chrysemys picta bellii TaxID=8478 
+RepID=UPI000388AE80
+Length=565
+
+ Score = 159 bits (402),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 62/109 (57%), Positives = 78/109 (72%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+               + CV+VSRE++ L+V FS+P+ V      LLL  DEAPL+V W TPDG+NRP  +WL
+Sbjct  240  EPTILCVYVSREDSSLAVAFSQPVVVTPGSCDLLLFADEAPLAVNWHTPDGKNRPGLMWL  299
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP ++LN+  PQHTFRV W G +SQKECVL K   + WCRDS T+EQ
+Sbjct  300  CDLPDSALNEHWPQHTFRVHWVGGESQKECVLFKGCRDGWCRDSVTEEQ  348
+
+
+> UniRef90_UPI0004421B14 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha-like isoform X4 n=1 Tax=Python bivittatus 
+TaxID=176946 RepID=UPI0004421B14
+Length=565
+
+ Score = 159 bits (402),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 57/109 (52%), Positives = 75/109 (69%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+               + CV+V+RE A L+V FSRP+ V      L++  DE+PL V WRTPDG+N+P  +WL
+Sbjct  240  EPTIRCVYVNREHASLAVAFSRPVAVAPASHDLIVFGDESPLVVRWRTPDGKNKPGFMWL  299
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP ++LN+  PQHTFRV+W     QKECVL K   +CW +DS T+EQ
+Sbjct  300  CDLPTSALNNHWPQHTFRVLWAEGQVQKECVLFKGHKDCWTQDSVTEEQ  348
+
+
+> UniRef90_F6Y8L4 Uncharacterized protein n=1 Tax=Ornithorhynchus 
+anatinus TaxID=9258 RepID=F6Y8L4_ORNAN
+Length=148
+
+ Score = 150 bits (378),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 75/109 (69%), Positives = 88/109 (81%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D + C+HVSR++ACL+V FSRPL VG     LLL+VDE+PL+VEWRTPDGRN P +VWL
+Sbjct  4    QDAVLCLHVSRDDACLTVGFSRPLAVGPGAERLLLLVDESPLAVEWRTPDGRNGPGNVWL  63
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPA+  NDQ PQHTFR++W G D+QKECVL K R E WCRDSATDEQ
+Sbjct  64   CDLPAS--NDQWPQHTFRLLWRGGDAQKECVLFKGRREGWCRDSATDEQ  110
+
+
+> UniRef90_A0A146NP89 Geranylgeranyl transferase type-2 subunit 
+alpha n=1 Tax=Fundulus heteroclitus TaxID=8078 RepID=A0A146NP89_FUNHE
+Length=622
+
+ Score = 159 bits (401),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 44/109 (40%), Positives = 68/109 (62%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV++SREE  ++V FSRP+   ++ G LLL++D  P  VEWR+     + S VW+
+Sbjct  299  EEMISCVYISREEERVAVAFSRPVN--AQSGVLLLVLDGQPQRVEWRSVHPHFKHSPVWI  356
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  +++D   +H   V WT   + ++C L   R E WCRD+ATD +
+Sbjct  357  CDLPPGTISDITNEHNLTVHWTEKHAHRDCALYTGRSESWCRDTATDLE  405
+
+
+> UniRef90_A0A0B8RRL0 Geranylgeranyl transferase type-2 subunit 
+alpha n=4 Tax=Colubroidea TaxID=34989 RepID=A0A0B8RRL0_BOIIR
+Length=565
+
+ Score = 158 bits (400),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 54/109 (50%), Positives = 72/109 (66%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+               + CV+V+RE   L+V FS P+ V      L++  DE+PL V W TPD +N+P ++WL
+Sbjct  240  EPTIRCVYVNRENTSLAVAFSHPVAVAPASHDLIVFGDESPLVVRWHTPDRKNKPGYMWL  299
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP ++LND  PQHTFRV+W     QKECVL K   +CW +DS T+EQ
+Sbjct  300  CDLPTSALNDHWPQHTFRVLWAEGHVQKECVLFKGHKDCWNQDSVTEEQ  348
+
+
+> UniRef90_G3NAQ1 Uncharacterized protein (Fragment) n=1 Tax=Gasterosteus 
+aculeatus TaxID=69293 RepID=G3NAQ1_GASAC
+Length=554
+
+ Score = 158 bits (399),  Expect = 3e-43, Method: Composition-based stats.
+ Identities = 44/109 (40%), Positives = 66/109 (61%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV VSREE  ++V FSRP+        L+L++D  P +VEWR+   R + S VW+
+Sbjct  231  EEMISCVLVSREEETVTVAFSRPVDAQPG--GLMLLLDGQPQTVEWRSVHPRFKHSPVWI  288
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  +++D   +H   V W    + ++C L   R E WCRDSATD++
+Sbjct  289  CDLPPGTISDVTNEHNLTVHWMERHAHRDCALYTGRTESWCRDSATDQE  337
+
+
+> UniRef90_UPI0007AD0816 UPI0007AD0816 related cluster n=4 Tax=unknown 
+TaxID= RepID=UPI0007AD0816
+Length=585
+
+ Score = 156 bits (395),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 45/109 (41%), Positives = 66/109 (61%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV+VSRE   +SV FS+P+   ++   L+L+VD  P  V WR+   R R S VWL
+Sbjct  257  EEMISCVYVSREGERVSVAFSKPVH--AQSEGLMLVVDGQPQQVHWRSAHPRFRHSAVWL  314
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  S++D   +H   + WT   + ++C L     E WCRDSATD++
+Sbjct  315  CDLPPGSISDISNEHNLTIHWTEKHTHRDCALYTGSAESWCRDSATDQE  363
+
+
+> UniRef90_A0A146WQG9 Geranylgeranyl transferase type-2 subunit 
+alpha, putative n=1 Tax=Fundulus heteroclitus TaxID=8078 RepID=A0A146WQG9_FUNHE
+Length=407
+
+ Score = 154 bits (390),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 46/109 (42%), Positives = 68/109 (62%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV+VSREE  ++V FSRP+   +R G LLL++D  P  VEWR+     + S VW+
+Sbjct  260  EEMISCVYVSREEERVAVAFSRPVN--ARSGVLLLVLDGQPQRVEWRSVHPHFKHSPVWI  317
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  +++D   +H   V WT   + ++C L   R E WCRD+ATD +
+Sbjct  318  CDLPPGTISDITNEHNLTVHWTEKHAHRDCALYTGRSESWCRDTATDLE  366
+
+
+> UniRef90_H2UV48 Uncharacterized protein n=3 Tax=Tetraodontidae 
+TaxID=31031 RepID=H2UV48_TAKRU
+Length=565
+
+ Score = 156 bits (395),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 44/109 (40%), Positives = 67/109 (61%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV VSREE  ++V FSRP+   ++   LLL++D     VEWR+     + S VW+
+Sbjct  244  EEIISCVFVSREEERVAVAFSRPVN--AQTVGLLLVLDGQLQRVEWRSVHPHFKHSPVWI  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  +++D + +H   V WT   + ++C L   R E WCRDSATD++
+Sbjct  302  CDLPPGTISDIVNEHNLTVHWTEKHTHRDCALYTGRCESWCRDSATDQE  350
+
+
+> UniRef90_I3J432 Uncharacterized protein n=20 Tax=Percomorphaceae 
+TaxID=1489872 RepID=I3J432_ORENI
+Length=583
+
+ Score = 155 bits (393),  Expect = 3e-42, Method: Composition-based stats.
+ Identities = 41/109 (38%), Positives = 65/109 (60%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV+V+REE  ++V FSRP+   ++   L L++D  P  VEWR+     + S VW+
+Sbjct  260  EEMISCVYVNREEERVAVAFSRPVN--AQSVGLFLVLDGQPQRVEWRSVHPCFKHSPVWI  317
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            C LP  +++D   +    V WT   + ++C L   R E WCRDSATD++
+Sbjct  318  CSLPPGTISDITNERNLTVHWTEKHTHRDCALYTGRTESWCRDSATDQE  366
+
+
+> UniRef90_UPI0006B39B91 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Austrofundulus limnaeus TaxID=52670 
+RepID=UPI0006B39B91
+Length=584
+
+ Score = 155 bits (393),  Expect = 3e-42, Method: Composition-based stats.
+ Identities = 45/109 (41%), Positives = 66/109 (61%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV+VSREE  + V FSRP++V      LLL++D  P  VEW++     + S VW+
+Sbjct  261  EEMISCVYVSREEEKVVVVFSRPVSV--VSVGLLLILDGQPQRVEWQSVHPHFKHSPVWI  318
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            C LP  +++D   +H   V WT   + K+C L   R E WCRDSATD++
+Sbjct  319  CSLPPGTISDPSNEHNLTVHWTERHTHKDCALYTGRTESWCRDSATDQE  367
+
+
+> UniRef90_UPI0000F2B0F4 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Monodelphis domestica TaxID=13616 
+RepID=UPI0000F2B0F4
+Length=588
+
+ Score = 155 bits (393),  Expect = 3e-42, Method: Composition-based stats.
+ Identities = 68/109 (62%), Positives = 85/109 (78%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+            HD + C+HVSR EACL+ CFSRP+ VG  + T++LM D +PL VEWRTPDGR RP+++WL
+Sbjct  265  HDAIRCLHVSRSEACLTACFSRPIIVGPGVETVMLMGDGSPLHVEWRTPDGRKRPNYIWL  324
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  SL+DQ+ QH+F ++W   D QK+CVL K R E WCRDSATDEQ
+Sbjct  325  CDLPTDSLDDQISQHSFCLMW--GDVQKKCVLFKGRNETWCRDSATDEQ  371
+
+
+> UniRef90_F6WVF8 Uncharacterized protein n=2 Tax=Monodelphis domestica 
+TaxID=13616 RepID=F6WVF8_MONDO
+Length=537
+
+ Score = 154 bits (388),  Expect = 8e-42, Method: Composition-based stats.
+ Identities = 68/109 (62%), Positives = 85/109 (78%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+            HD + C+HVSR EACL+ CFSRP+ VG  + T++LM D +PL VEWRTPDGR RP+++WL
+Sbjct  214  HDAIRCLHVSRSEACLTACFSRPIIVGPGVETVMLMGDGSPLHVEWRTPDGRKRPNYIWL  273
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  SL+DQ+ QH+F ++W   D QK+CVL K R E WCRDSATDEQ
+Sbjct  274  CDLPTDSLDDQISQHSFCLMW--GDVQKKCVLFKGRNETWCRDSATDEQ  320
+
+
+> UniRef90_UPI0007B8289B UPI0007B8289B related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007B8289B
+Length=423
+
+ Score = 152 bits (384),  Expect = 9e-42, Method: Composition-based stats.
+ Identities = 44/109 (40%), Positives = 66/109 (61%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV+VSRE   +SV FS+P+   ++   L+L++D  P  V+WR+   R R S VWL
+Sbjct  257  EEMISCVYVSRERQRVSVAFSKPVH--AQSEGLMLVLDGLPQQVQWRSAHPRFRHSPVWL  314
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  S++D   +H   V W    + ++C L     E WCRDSATD++
+Sbjct  315  CDLPPGSVSDISNEHNLTVHWPEKHTHRDCALYTGSAESWCRDSATDQE  363
+
+
+> UniRef90_A0A1A7ZAC1 Rab geranylgeranyltransferase, alpha subunit 
+n=11 Tax=Nothobranchiidae TaxID=405002 RepID=A0A1A7ZAC1_NOTFU
+Length=532
+
+ Score = 154 bits (388),  Expect = 1e-41, Method: Composition-based stats.
+ Identities = 43/109 (39%), Positives = 66/109 (61%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV+VSRE+  ++V FSRP+   +    LLL++D  P  VEWR+     + S V +
+Sbjct  260  EEMISCVYVSREQERVAVTFSRPVH--ALSVGLLLVLDGQPQRVEWRSVHPHFKHSPVLI  317
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  +++D   +H   V WT   + +EC L   R E WCRD+ATD++
+Sbjct  318  CDLPPGTIHDTTNEHNLTVHWTEKHNHRECALYTGRTESWCRDTATDQE  366
+
+
+> UniRef90_UPI0003ABA716 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha isoform X1 n=3 Tax=Cercopithecidae TaxID=9527 
+RepID=UPI0003ABA716
+Length=598
+
+ Score = 154 bits (389),  Expect = 1e-41, Method: Composition-based stats.
+ Identities = 86/140 (61%), Positives = 91/140 (65%), Gaps = 31/140 (22%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL VGSR   LLLMVD++PL VEWRTPDGRNRPSHVWL
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPLLVGSRTEILLLMVDDSPLIVEWRTPDGRNRPSHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLL---------------------------  93
+            CDLP ASLNDQLPQHTFRVIWT  D QKECVLL                           
+Sbjct  302  CDLPPASLNDQLPQHTFRVIWTAGDVQKECVLLKGDGTCSLHPLQQSPSLFSSPGCTLQP  361
+
+Query  94   ----KDRPECWCRDSATDEQ  109
+                  R E WCRDS TDEQ
+Sbjct  362  PTLSPGRQEGWCRDSTTDEQ  381
+
+
+> UniRef90_UPI0004962F15 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Cynoglossus semilaevis TaxID=244447 
+RepID=UPI0004962F15
+Length=574
+
+ Score = 153 bits (387),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 39/109 (36%), Positives = 65/109 (60%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV+V R++  ++V FSRP+   +    LLL++D  P  VEWR+   R +   VW+
+Sbjct  251  EEMISCVYVDRDDERVAVAFSRPVN--ALTVGLLLVLDGQPQKVEWRSVHPRFKHCPVWI  308
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            C LP  +++D   +H   V WT   + ++C L   R E +CR+SATD++
+Sbjct  309  CVLPPGTISDTSNEHNLTVHWTEKHTHRDCALYTGRTESYCRESATDQE  357
+
+
+> UniRef90_A0A0P7ULP7 Uncharacterized protein (Fragment) n=2 Tax=Scleropages 
+formosus TaxID=113540 RepID=A0A0P7ULP7_9TELE
+Length=528
+
+ Score = 153 bits (386),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 45/109 (41%), Positives = 64/109 (59%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV+VSRE   + V FSRP+   +    LLL+VD  P  V WR+   R R S +W+
+Sbjct  283  EEMISCVYVSREGERVVVAFSRPVN--ALSVGLLLVVDGQPQQVNWRSAHPRLRHSPMWI  340
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  +++D   +H   V WT   + ++C L   R E WCRDSATD +
+Sbjct  341  CDLPPGTISDTSNEHNLTVHWTERHTHRDCALYTGRSESWCRDSATDLE  389
+
+
+> UniRef90_UPI0007425798 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Cyprinodon variegatus TaxID=28743 
+RepID=UPI0007425798
+Length=568
+
+ Score = 152 bits (385),  Expect = 3e-41, Method: Composition-based stats.
+ Identities = 43/109 (39%), Positives = 66/109 (61%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV+VSREE  ++V FSRP+   ++   LLL++D  P  VEW++     + S VW+
+Sbjct  257  DEMISCVYVSREEERVAVAFSRPVN--AQSVGLLLILDGQPQRVEWQSVHPHFKNSPVWI  314
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            C LP  +++D   +H   V WT   S ++C L   R E WCRD+ATD +
+Sbjct  315  CSLPPGTISDVANEHNLTVHWTEKHSHRDCALYTGRSESWCRDTATDLE  363
+
+
+> UniRef90_UPI0007B95788 UPI0007B95788 related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI0007B95788
+Length=582
+
+ Score = 152 bits (385),  Expect = 3e-41, Method: Composition-based stats.
+ Identities = 44/109 (40%), Positives = 64/109 (59%), Gaps = 4/109 (4%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV+VSRE   +SV FS+ +        L+L++D  P  V+WR+   R R S VWL
+Sbjct  257  EEMISCVYVSRERQRVSVAFSKTVH----SEGLMLVLDGQPQQVQWRSAHPRFRHSPVWL  312
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLP  S++D   +H   V WT   + ++C L     E WCRDSATD++
+Sbjct  313  CDLPPGSVSDISNEHNLTVHWTEKHTHRDCALYTGSAESWCRDSATDQE  361
+
+
+> UniRef90_W5K0A0 Uncharacterized protein n=4 Tax=Astyanax mexicanus 
+TaxID=7994 RepID=W5K0A0_ASTMX
+Length=588
+
+ Score = 152 bits (384),  Expect = 4e-41, Method: Composition-based stats.
+ Identities = 44/110 (40%), Positives = 66/110 (60%), Gaps = 3/110 (3%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPL-SVEWRTPDGRNRPSHVW  59
+             +++ CV+VSRE   ++V FS+P+   +    L+L++D      VEWR+   R R S VW
+Sbjct  263  EELISCVYVSREGERVAVAFSKPVN--ALTEGLMLVLDGQQQQRVEWRSAHPRFRHSPVW  320
+
+Query  60   LCDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            LC+LP  S++D   +H   V W    + ++C L   RPE WCRDSATD++
+Sbjct  321  LCELPPGSVSDINNEHNLTVHWMEKHTHRDCALYTGRPESWCRDSATDQE  370
+
+
+> UniRef90_H2L733 Uncharacterized protein n=4 Tax=Oryzias latipes 
+TaxID=8090 RepID=H2L733_ORYLA
+Length=577
+
+ Score = 150 bits (380),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 47/110 (43%), Positives = 70/110 (64%), Gaps = 3/110 (3%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHV-W  59
+             + + CV+VSRE+  ++V FSRP  + +R   LLL++D  PL VEWR+   R R   + W
+Sbjct  252  EETISCVYVSREDERVAVAFSRP--INARCVGLLLVLDGQPLRVEWRSVHPRFRKRFLNW  309
+
+Query  60   LCDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            +CDLP  ++ND   +H   V WTG+ + ++C L   R E WCRD+ATD++
+Sbjct  310  ICDLPPGTINDVTNEHNLTVHWTGNHTHRDCALYTGRVESWCRDTATDQE  359
+
+
+> UniRef90_UPI00064457FA PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Clupea harengus TaxID=7950 RepID=UPI00064457FA
+Length=581
+
+ Score = 147 bits (372),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 40/109 (37%), Positives = 64/109 (59%), Gaps = 4/109 (4%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV++SRE   + V FSRP    ++   L+L++D     VEWR+     R S VW+
+Sbjct  260  EEMISCVYMSREGERVVVAFSRP----AQAVGLMLLLDGKMQKVEWRSAPPSVRHSPVWI  315
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            C+ P  +++D   +H   V WT   +++EC L   R E WCRD+ATD++
+Sbjct  316  CEFPPGTISDINNEHNLTVHWTEKYTKRECALYTGRAESWCRDTATDQE  364
+
+
+> UniRef90_UPI0006D93558 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Latimeria chalumnae TaxID=7897 
+RepID=UPI0006D93558
+Length=564
+
+ Score = 147 bits (370),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 46/109 (42%), Positives = 63/109 (58%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             + + C++ S +   L V FSRP+ V      L+L VD  P  V+W+ P      S VW+
+Sbjct  240  EESITCLYASWDMGQLVVGFSRPVNVLLESSELVLFVDGRPTPVKWQNPRKTQSYSCVWI  299
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            C+L A  L+D   Q + RV+W G + +KEC+L   R E WCRDSATDEQ
+Sbjct  300  CELLAEVLDDLCHQCSLRVMWRGGEVEKECILYPGRTETWCRDSATDEQ  348
+
+
+> UniRef90_Q08CG5 Zgc:153107 n=2 Tax=Danio rerio TaxID=7955 RepID=Q08CG5_DANRE
+Length=580
+
+ Score = 145 bits (366),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 42/109 (39%), Positives = 63/109 (58%), Gaps = 2/109 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV+ SRE   +SV FS+P+   +    L+L++D  P  V+WR    R R S V L
+Sbjct  257  EEMISCVYASREGERVSVAFSKPVH--AGSVGLMLVLDGQPQQVQWRNAHPRLRHSPVCL  314
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+             DLPA S++D   +H   + WT   + ++C L     E WCRDSATD++
+Sbjct  315  RDLPAGSISDTSNEHNLTIHWTDKHTHRDCALYTGCAESWCRDSATDQE  363
+
+
+> UniRef90_H3A6R2 Uncharacterized protein n=1 Tax=Latimeria chalumnae 
+TaxID=7897 RepID=H3A6R2_LATCH
+Length=574
+
+ Score = 143 bits (360),  Expect = 9e-38, Method: Composition-based stats.
+ Identities = 43/109 (39%), Positives = 55/109 (50%), Gaps = 0/109 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             + + C++ S +   L V FSRP+ V      L+L VD  P  V+W+ P      S VW+
+Sbjct  245  EESITCLYASWDMGQLVVGFSRPVNVLLESSELVLFVDGRPTPVKWQNPRKTQSYSCVWV  304
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+              L    L    P  TF  +W G    KEC+L   R E WCRDSATDEQ
+Sbjct  305  SVLRTVGLQSGAPIMTFFCVWGGGQYNKECILYPGRTETWCRDSATDEQ  353
+
+
+> UniRef90_Q9JHK4-2 Isoform 2 of Geranylgeranyl transferase type-2 
+subunit alpha n=2 Tax=Mus musculus TaxID=10090 RepID=Q9JHK4-2
+Length=339
+
+ Score = 137 bits (346),  Expect = 9e-37, Method: Composition-based stats.
+ Identities = 88/97 (91%), Positives = 91/97 (94%), Gaps = 0/97 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+            HDVLCC+HVSREEACLSVCFSRPL VGS+MGTLLL VDEAPLSVEWRTPDGRNRPSHVWL
+Sbjct  242  HDVLCCLHVSREEACLSVCFSRPLIVGSKMGTLLLTVDEAPLSVEWRTPDGRNRPSHVWL  301
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRP  97
+            CDLPAASLND LPQHTFRVIWTGSD+QKECVLLK   
+Sbjct  302  CDLPAASLNDHLPQHTFRVIWTGSDTQKECVLLKGDA  338
+
+
+> UniRef90_Q6DDV4 Rabggta-prov protein n=6 Tax=Xenopus TaxID=262014 
+RepID=Q6DDV4_XENLA
+Length=565
+
+ Score = 134 bits (338),  Expect = 9e-35, Method: Composition-based stats.
+ Identities = 42/108 (39%), Positives = 66/108 (61%), Gaps = 3/108 (3%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+              + CV VS +E C+SV FS+ + V      L+L +++ P+ V WRT   + + S  W+C
+Sbjct  241  LSIRCVMVSLDEGCVSVTFSQSVAVQ---DDLILFLNDKPIFVSWRTAGRKEKRSLFWVC  297
+
+Query  62   DLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            DLP   +ND+  Q+ F+V+W   +++KEC+L     E WCRDSAT+ +
+Sbjct  298  DLPKECINDRCCQYKFQVLWKDGEAKKECILYPGTRETWCRDSATENE  345
+
+
+> UniRef90_UPI00042BFD1A PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Chelonia mydas TaxID=8469 RepID=UPI00042BFD1A
+Length=468
+
+ Score = 130 bits (326),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 56/97 (58%), Positives = 69/97 (71%), Gaps = 2/97 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+               + CV+VSRE++ L+V FS+P+        LLL  DEAPL+V WRTPDGRNRP  +WL
+Sbjct  254  EPTILCVYVSREDSSLAVAFSQPV--TPGSCDLLLFADEAPLAVNWRTPDGRNRPGLMWL  311
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRP  97
+            CDLPA++LN+  PQHTFRV W G +SQKECVL K   
+Sbjct  312  CDLPASALNEHWPQHTFRVQWAGGESQKECVLFKGNH  348
+
+
+> UniRef90_Q4RKY5 Chromosome 1 SCAF15025, whole genome shotgun 
+sequence (Fragment) n=1 Tax=Tetraodon nigroviridis TaxID=99883 
+RepID=Q4RKY5_TETNG
+Length=668
+
+ Score = 130 bits (326),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 36/97 (37%), Positives = 59/97 (61%), Gaps = 2/97 (2%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             +++ CV+VSREE  ++V FSRP+   ++   LLL++D  P  VEWR+   R + S VW+
+Sbjct  260  EEMISCVYVSREEGRVAVAFSRPVN--AQTVGLLLVLDGQPQRVEWRSVHPRLKHSPVWI  317
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRP  97
+            CDLP  +++D + +H   V WT   ++++C L     
+Sbjct  318  CDLPPGAISDAVNEHNLTVHWTEKRTRRDCALYTGEE  354
+
+
+> UniRef90_UPI000854EFA6 UPI000854EFA6 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000854EFA6
+Length=561
+
+ Score = 122 bits (306),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 40/105 (38%), Positives = 60/105 (57%), Gaps = 4/105 (4%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+              + C+    +   ++V FS P+ V S    L+L +DE P+ V W+TP+G+ +PS VW+C
+Sbjct  241  LSIRCILADVDVPFVTVTFSHPVLVES---DLILFIDERPVMVTWKTPEGKEKPSLVWVC  297
+
+Query  62   DLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSAT  106
+            D+P   L+    QH F+VIW   + +KEC L   +   W RDS T
+Sbjct  298  DVPKERLSGHC-QHKFKVIWKDGEVKKECALYPGKKVTWYRDSVT  341
+
+
+> UniRef90_S7MGS0 Geranylgeranyl transferase type-2 subunit alpha 
+n=1 Tax=Myotis brandtii TaxID=109478 RepID=S7MGS0_MYOBR
+Length=639
+
+ Score = 117 bits (294),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 60/113 (53%), Positives = 69/113 (61%), Gaps = 21/113 (19%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL V S M TLLL  DE+PL+VEWRTPDGRNRPS VW+
+Sbjct  314  QDALRCLHVSRDEACLTVSFSRPLLVDSGMETLLLFADESPLAVEWRTPDGRNRPSPVWV  373
+
+Query  61   CDLPAASLNDQLPQHTFRVIWT----GSDSQKECVLLKDRPECWCRDSATDEQ  109
+                         Q  + ++      G DSQK         E WCRDSATDEQ
+Sbjct  374  ------------SQDWWGIVGAEAGLGWDSQK-----SGHHEGWCRDSATDEQ  409
+
+
+> UniRef90_UPI0008DB4B43 UPI0008DB4B43 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008DB4B43
+Length=316
+
+ Score = 112 bits (281),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 40/106 (38%), Positives = 57/106 (54%), Gaps = 3/106 (3%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCDL  63
+            + CVHV RE+A L+V FSRP+ V      L   +D + L+  WR+ +GR RPSH WLCDL
+Sbjct  161  VICVHVDREDATLAVIFSRPVKVNPECPELTATLDGSTLAGPWRSGEGRPRPSHTWLCDL  220
+
+Query  64   PAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+              ++L  + P H   V W    +  E  LL    E W ++   + +
+Sbjct  221  --SALPTESPAH-LEVTWGPDSAHHEVTLLPGEAEAWWQEPIVERE  263
+
+
+> UniRef90_UPI0003AEE91A PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha isoform X2 n=1 Tax=Sus scrofa TaxID=9823 
+RepID=UPI0003AEE91A
+Length=536
+
+ Score = 111 bits (277),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 60/109 (55%), Positives = 65/109 (60%), Gaps = 31/109 (28%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL V                                 L
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPLLVS-------------------------------LL  270
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPAASLND LPQHTFRVIWT  ++QKECVLLK R E WCRDSATDEQ
+Sbjct  271  CDLPAASLNDHLPQHTFRVIWTAGNAQKECVLLKGRQEGWCRDSATDEQ  319
+
+
+> UniRef90_A0A1A6HWV2 Uncharacterized protein n=1 Tax=Neotoma lepida 
+TaxID=56216 RepID=A0A1A6HWV2_NEOLE
+Length=364
+
+ Score = 108 bits (270),  Expect = 7e-26, Method: Composition-based stats.
+ Identities = 74/115 (64%), Positives = 76/115 (66%), Gaps = 35/115 (30%)
+
+Query  30   MGTLLLMVDEAPLSVEWRTPDGRNRPSHVW------------------------------  59
+            MGTLLLMVDEAPLSVEWRTPDGRNRPSHVW                              
+Sbjct  1    MGTLLLMVDEAPLSVEWRTPDGRNRPSHVWVSQDWWDRDQGLGWDSGGTVRRAVRPHISL  60
+
+Query  60   -----LCDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+                 LCDLPAASLNDQLPQHTFRVIWT SD+QKECVL K R ECWCRDSATDE+
+Sbjct  61   TQRSQLCDLPAASLNDQLPQHTFRVIWTASDAQKECVLFKGRQECWCRDSATDEE  115
+
+
+> UniRef90_UPI0006B79FA8 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Pseudopodoces humilis TaxID=181119 
+RepID=UPI0006B79FA8
+Length=541
+
+ Score = 108 bits (270),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 36/106 (34%), Positives = 55/106 (52%), Gaps = 3/106 (3%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCDL  63
+            + CVH+ RE+A ++V FSRP+ V      L   +D + L+  WR+ +GR RPSH WLC L
+Sbjct  226  VICVHIDREDATVAVIFSRPVRVNPECPELTATLDGSALTEPWRSGEGRPRPSHTWLCAL  285
+
+Query  64   PAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            PA  L    P H   V W    + ++  LL    +   ++   + +
+Sbjct  286  PA--LPSDHPAH-LEVTWAPDSTPRDVRLLPGEAQACWQEPIVERE  328
+
+
+> UniRef90_UPI0009075F71 UPI0009075F71 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009075F71
+Length=531
+
+ Score = 103 bits (258),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 46/109 (42%), Positives = 56/109 (51%), Gaps = 34/109 (31%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+               + CV+V+RE+ACL+V FS+P+                                   L
+Sbjct  240  EPTIHCVYVNREDACLAVAFSQPVR----------------------------------L  265
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            CDLPA +LND  PQHTFRVIW     QKECVL K R +CW RDS T+EQ
+Sbjct  266  CDLPALALNDHWPQHTFRVIWAPGQCQKECVLFKGRKDCWYRDSVTEEQ  314
+
+
+> UniRef90_C3Y8M1 Putative uncharacterized protein n=2 Tax=Branchiostoma 
+floridae TaxID=7739 RepID=C3Y8M1_BRAFL
+Length=566
+
+ Score = 99.0 bits (245),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 30/110 (27%), Positives = 45/110 (41%), Gaps = 4/110 (4%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+               + C+HV R    L   FS+ L   +    L ++ D   ++  W TP G +    V +
+Sbjct  240  DQSIRCLHVCRPLNRLVATFSKHLKASAAT--LNVVKDGEVITGRWHTPRGTDTFEQVLI  297
+
+Query  61   CDLPAASLNDQLPQH-TFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+             + P  SL     QH    +        +ECVL    PE + RD  T+ Q
+Sbjct  298  FEFPEHSLTPDRDQHIHVTLDTEAGLVGRECVLGAGHPEVFSRD-ITESQ  346
+
+
+> UniRef90_UPI0003F0CD01 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha-like n=1 Tax=Saccoglossus kowalevskii TaxID=10224 
+RepID=UPI0003F0CD01
+Length=565
+
+ Score = 97.1 bits (240),  Expect = 5e-21, Method: Composition-based stats.
+ Identities = 26/107 (24%), Positives = 46/107 (43%), Gaps = 3/107 (3%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+              +  V + R    + VCF++PL +  +   L + ++   +   W +   R+  S VW+ 
+Sbjct  241  QSIRSVLICRSINRIVVCFTKPLDIVQQP--LSVSINGNLIKTSWYSASNRDVYSLVWIF  298
+
+Query  62   DLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDE  108
+             +P   LND        +        K C+L K   EC  +D++T E
+Sbjct  299  QIPDTVLNDDTDAVIL-ISLNNDQISKHCILKKGDTECVIKDNSTPE  344
+
+
+> UniRef90_T1JKS0 Uncharacterized protein n=1 Tax=Strigamia maritima 
+TaxID=126957 RepID=T1JKS0_STRMM
+Length=569
+
+ Score = 94.0 bits (232),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 26/98 (27%), Positives = 44/98 (45%), Gaps = 1/98 (1%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCDL  63
+            L C++V+R E  L V   + + + S    L + VD+  +   WR+       S VW+ DL
+Sbjct  231  LLCLYVNRAEHFLIVTMKKAVNLKSSCYNLKVTVDKQIVDGNWRSTSAHETVSCVWILDL  290
+
+Query  64   PAASLNDQLPQH-TFRVIWTGSDSQKECVLLKDRPECW  100
+            P   L  +  +     V     +++K  V+ K+  E W
+Sbjct  291  PPDVLKIESSKKIDVSVSGFFEETKKLTVVFKNNTESW  328
+
+
+> UniRef90_UPI0006965AE6 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha-like n=1 Tax=Lingula unguis TaxID=7574 
+RepID=UPI0006965AE6
+Length=419
+
+ Score = 92.1 bits (227),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 32/108 (30%), Positives = 46/108 (43%), Gaps = 10/108 (9%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+               + CV+VSRE   + V  S+P  +G+   +L + +D      EW TP G N  S +WL
+Sbjct  240  QLAIDCVYVSRELRRVMVRLSKPAKIGAD-LSLQVYLDGVQCIGEWTTPAGTNDHSLLWL  298
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDE  108
+             +L A        +H   V   G  S + C L     +     S  DE
+Sbjct  299  FNLTA---PLDGNEHKVLVAMEG--SSRSCTLKDGDEKA----SNVDE  337
+
+
+> UniRef90_UPI000697713E PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha-like n=1 Tax=Lingula unguis TaxID=7574 
+RepID=UPI000697713E
+Length=557
+
+ Score = 92.8 bits (229),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 31/108 (29%), Positives = 47/108 (44%), Gaps = 10/108 (9%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+               + CV+VSRE   + V  S+P  +G+   +L + +D    + EW TP   N  S +WL
+Sbjct  240  QLAIDCVYVSRELRRVMVRLSKPAKIGAD-LSLQVSLDGVQCTGEWTTPANSNDHSLLWL  298
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDE  108
+             +L A        +H   V   G  S + C L     +     S+ DE
+Sbjct  299  FNLTA---PLDGNEHKVMVAMEG--SSRSCTLKDGDEKA----SSVDE  337
+
+
+> UniRef90_G7P9Y8 Putative uncharacterized protein n=2 Tax=Macaca 
+TaxID=9539 RepID=G7P9Y8_MACFA
+Length=546
+
+ Score = 90.5 bits (223),  Expect = 9e-19, Method: Composition-based stats.
+ Identities = 45/62 (73%), Positives = 51/62 (82%), Gaps = 0/62 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL VGSR   LLLMVD++PL VEWRTPDGRNRPSHVW+
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPLLVGSRTEILLLMVDDSPLIVEWRTPDGRNRPSHVWV  301
+
+Query  61   CD  62
+              
+Sbjct  302  SQ  303
+
+
+> UniRef90_F1MGN1 Geranylgeranyl transferase type-2 subunit alpha 
+n=2 Tax=Bos taurus TaxID=9913 RepID=F1MGN1_BOVIN
+Length=333
+
+ Score = 87.8 bits (216),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 45/71 (63%), Positives = 55/71 (77%), Gaps = 2/71 (3%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSH--V  58
+             D L C+HVSR+EACL+V FSRPL VGS M TLLLMVDE+PL+VEWRTP+GRNRPS    
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPLLVGSGMETLLLMVDESPLAVEWRTPEGRNRPSTSGS  301
+
+Query  59   WLCDLPAASLN  69
+              C  P ++++
+Sbjct  302  VTCPPPPSTIS  312
+
+
+> UniRef90_L9L2K1 Geranylgeranyl transferase type-2 subunit alpha 
+n=1 Tax=Tupaia chinensis TaxID=246437 RepID=L9L2K1_TUPCH
+Length=531
+
+ Score = 89.0 bits (219),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 44/62 (71%), Positives = 52/62 (84%), Gaps = 0/62 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+             D L C+HVSR+EACL+V FSRPL V +R  TLLL+VDEAPL+VEWRTPDGR+RPSHVW+
+Sbjct  245  QDALRCLHVSRDEACLTVSFSRPLLVEARTETLLLLVDEAPLTVEWRTPDGRSRPSHVWV  304
+
+Query  61   CD  62
+              
+Sbjct  305  SQ  306
+
+
+> UniRef90_UPI000719C1B7 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha-like isoform X2 n=1 Tax=Priapulus caudatus 
+TaxID=37621 RepID=UPI000719C1B7
+Length=568
+
+ Score = 85.1 bits (209),  Expect = 7e-17, Method: Composition-based stats.
+ Identities = 26/106 (25%), Positives = 47/106 (44%), Gaps = 9/106 (8%)
+
+Query  2    DVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLS-VEWRTPDGRNRPSHVWL  60
+              L C+H+SR+    SV  ++P+ +G    +L + VD  P+    W+     +    +W 
+Sbjct  241  LALDCIHISRDPCRASVRLTKPVKLGHDHVSLSISVDGKPVEDCRWKNATRGSDYGMLWT  300
+
+Query  61   CDLPAASLNDQLPQHTFRVIWTGSDSQKE-------CVLLKDRPEC  99
+             D+P  +L ++  +H      +  D+  +       C L  DR EC
+Sbjct  301  YDVPRGTLTERG-EHVITAELSSGDNDDDDKRLSLSCTLPADRGEC  345
+
+
+> UniRef90_UPI000711BC44 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Alligator mississippiensis TaxID=8496 
+RepID=UPI000711BC44
+Length=326
+
+ Score = 82.4 bits (202),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 32/59 (54%), Positives = 43/59 (73%), Gaps = 0/59 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVW  59
+               + CV+V+RE+ACL+V FS+P+ V      L+L+ DEAPL+VEW TPDGRNRP  +W
+Sbjct  240  EPTIHCVYVNREDACLAVAFSQPVRVTPGSHGLILLADEAPLTVEWHTPDGRNRPGVIW  298
+
+
+> UniRef90_UPI0003EBFDA8 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha-like n=1 Tax=Neolamprologus brichardi TaxID=32507 
+RepID=UPI0003EBFDA8
+Length=495
+
+ Score = 82.8 bits (203),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 22/66 (33%), Positives = 35/66 (53%), Gaps = 0/66 (0%)
+
+Query  19   CFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCDLPAASLNDQLPQHTFR  78
+             FS  L+  ++   L L++D  P  VEWR+   R + S VW+C+LP  +++D   +    
+Sbjct  225  TFSLLLSCQAQSVGLFLVLDGQPQRVEWRSVHPRFKQSPVWICNLPPGTISDITNERNLT  284
+
+Query  79   VIWTGS  84
+            V WT  
+Sbjct  285  VHWTEK  290
+
+
+> UniRef90_M7BR16 Geranylgeranyl transferase type-2 subunit alpha 
+n=1 Tax=Chelonia mydas TaxID=8469 RepID=M7BR16_CHEMY
+Length=428
+
+ Score = 81.6 bits (200),  Expect = 8e-16, Method: Composition-based stats.
+ Identities = 32/59 (54%), Positives = 41/59 (69%), Gaps = 0/59 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVW  59
+               + CV+VSRE++ L+V FS+P+ V      LLL  DEAPL+V WRTPDGRNRP  +W
+Sbjct  251  EPTILCVYVSREDSSLAVAFSQPVVVTPGSCDLLLFADEAPLAVNWRTPDGRNRPGLMW  309
+
+
+> UniRef90_A0A0S7HYU8 PGTA (Fragment) n=1 Tax=Poeciliopsis prolifica 
+TaxID=188132 RepID=A0A0S7HYU8_9TELE
+Length=153
+
+ Score = 76.6 bits (187),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 18/47 (38%), Positives = 27/47 (57%), Gaps = 0/47 (0%)
+
+Query  63   LPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDEQ  109
+            LP  +++D   +H   V WT   + ++C L   R E WCRD+ATD +
+Sbjct  1    LPPGTISDIANEHNLTVHWTEKHTHRDCALYTGRSESWCRDTATDLE  47
+
+
+> UniRef90_UPI0007757BF4 UPI0007757BF4 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007757BF4
+Length=460
+
+ Score = 79.0 bits (193),  Expect = 7e-15, Method: Composition-based stats.
+ Identities = 24/68 (35%), Positives = 39/68 (57%), Gaps = 0/68 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+               + CV+V+RE   L+V FS P+ V      L++  DE+PL V WRTPD +N+P  +  
+Sbjct  188  EPTIRCVYVNRENTSLAVAFSHPVAVAPASHDLIVFGDESPLVVRWRTPDRKNKPGLMCE  247
+
+Query  61   CDLPAASL  68
+              +  +++
+Sbjct  248  LSVEKSTV  255
+
+
+> UniRef90_X2A7L7 Uncharacterized protein n=1 Tax=Capitella teleta 
+TaxID=283909 RepID=X2A7L7_CAPTE
+Length=586
+
+ Score = 77.0 bits (188),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 17/79 (22%), Positives = 38/79 (48%), Gaps = 2/79 (3%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+               L C+  SR+   + + F + + +G     + L ++ +P++VEW +   ++  S++W 
+Sbjct  266  QLSLQCIQASRDLQRVLISFDQQVKIGFDGLVVDLSINGSPVNVEWLSA--KDNYSYIWF  323
+
+Query  61   CDLPAASLNDQLPQHTFRV  79
+              +P+  +ND        V
+Sbjct  324  ASVPSDLMNDSNSAIEITV  342
+
+
+> UniRef90_A0A0S7ICC6 PGTA (Fragment) n=1 Tax=Poeciliopsis prolifica 
+TaxID=188132 RepID=A0A0S7ICC6_9TELE
+Length=100
+
+ Score = 70.5 bits (171),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 25/60 (42%), Positives = 38/60 (63%), Gaps = 2/60 (3%)
+
+Query  1   HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+            DV+ C +VSRE+  ++V FSRP+   ++ G LLL++D  P  VEWR+     + S VW+
+Sbjct  36  EDVISCAYVSREQERVAVAFSRPVK--AQSGGLLLLLDGQPQRVEWRSVHPHFQHSPVWV  93
+
+
+> UniRef90_UPI0005D09C39 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha n=1 Tax=Aquila chrysaetos canadensis TaxID=216574 
+RepID=UPI0005D09C39
+Length=638
+
+ Score = 74.3 bits (181),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 25/57 (44%), Positives = 37/57 (65%), Gaps = 0/57 (0%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+            + C++V+RE+A L+V FS P+ VG+    L   VD + L   WR+ +GR RPSH W+
+Sbjct  242  ILCLYVNREDATLAVTFSHPVVVGAVSSALTATVDGSVLEGAWRSGEGRPRPSHTWV  298
+
+
+> UniRef90_UPI0006745E72 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha-like n=1 Tax=Biomphalaria glabrata TaxID=6526 
+RepID=UPI0006745E72
+Length=478
+
+ Score = 64.7 bits (156),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 17/60 (28%), Positives = 33/60 (55%), Gaps = 2/60 (3%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVE-WRTPDGRNRPSHVWLCD  62
+            + C +VSRE+ C+ V F++ + +G +   L+L  +   +    W  P+  ++PS +W  D
+Sbjct  243  INCFYVSREDNCVLVSFTQHIQIGKKT-DLILECNGQTMPGTVWLNPNKTSQPSCLWRAD  301
+
+
+> UniRef90_UPI0007AD8A6E UPI0007AD8A6E related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007AD8A6E
+Length=454
+
+ Score = 64.3 bits (155),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 21/49 (43%), Positives = 29/49 (59%), Gaps = 0/49 (0%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGR  52
+            + CVHV RE+A ++V FSRP+ V      L   +D A L   WR+ +GR
+Sbjct  226  VICVHVDREDATVAVVFSRPVKVDPECPELTATLDGAALPGPWRSGEGR  274
+
+
+> UniRef90_U3JVP8 Uncharacterized protein n=1 Tax=Ficedula albicollis 
+TaxID=59894 RepID=U3JVP8_FICAL
+Length=296
+
+ Score = 60.1 bits (144),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 19/45 (42%), Positives = 26/45 (58%), Gaps = 0/45 (0%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRT  48
+            + CVHV RE+A ++V FSRP+ V      L   +D A L   WR+
+Sbjct  226  VICVHVDREDATVAVVFSRPVKVDPECPELTATLDGAALPGPWRS  270
+
+
+> UniRef90_V9L8Y2 Geranylgeranyl transferase type-2 subunit alpha 
+(Fragment) n=1 Tax=Callorhinchus milii TaxID=7868 RepID=V9L8Y2_CALMI
+Length=286
+
+ Score = 58.5 bits (140),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 18/61 (30%), Positives = 32/61 (52%), Gaps = 1/61 (2%)
+
+Query  49   PDGRNRPSHVWLCDLPAASLNDQLPQHTFRVIWTGSDSQKECVLLKDRPECWCRDSATDE  108
+            P   +  + +W C LP  +L         RVIW  + S+++C  ++ + + W R+SAT+ 
+Sbjct  10   PGNNSPTNAIWTCSLPEGALIPINSPQNVRVIWDENGSERDCYCVE-KSDGWSRESATES  68
+
+Query  109  Q  109
+            Q
+Sbjct  69   Q  69
+
+
+> UniRef90_K1QZ11 Geranylgeranyl transferase type-2 subunit alpha 
+n=2 Tax=Crassostrea gigas TaxID=29159 RepID=K1QZ11_CRAGI
+Length=571
+
+ Score = 56.6 bits (135),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 20/99 (20%), Positives = 41/99 (41%), Gaps = 3/99 (3%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCDL  63
+            + CVH SR+   + V  +  + V      L + ++ +P++ EWR   G N  S +W+  +
+Sbjct  251  ISCVHASRKTNQILVLLTNYIQVNHG-HQLSVNINSSPVTGEWRNVTGTNSYSIIWILTV  309
+
+Query  64   PAASLNDQLPQHTFRVIWTGSDSQ--KECVLLKDRPECW  100
+                   +       ++     +Q  +   L + + E W
+Sbjct  310  KDGFPGGEDLSIGVTLLTESDCTQFSQGLQLAEGQDEAW  348
+
+
+> UniRef90_F6YCL2 Uncharacterized protein (Fragment) n=1 Tax=Xenopus 
+tropicalis TaxID=8364 RepID=F6YCL2_XENTR
+Length=288
+
+ Score = 55.1 bits (131),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 19/47 (40%), Positives = 28/47 (60%), Gaps = 1/47 (2%)
+
+Query  3    VLCCVHVSREEACLSVCFSRPLTVG-SRMGTLLLMVDEAPLSVEWRT  48
+             + CV VS +E C+SV FS P+ +  S    L+L ++  P+ V WRT
+Sbjct  242  SIRCVMVSLDEPCVSVTFSHPVEILWSVQEDLILFLNNRPIFVSWRT  288
+
+
+> UniRef90_UPI00081673D3 UPI00081673D3 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00081673D3
+Length=335
+
+ Score = 53.1 bits (126),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 18/58 (31%), Positives = 27/58 (47%), Gaps = 2/58 (3%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLC  61
+            + CV+V RE+A L+V FSRP+ V      L   +D + L   W           + +C
+Sbjct  208  IICVYVDREDASLAVIFSRPVRVNPECPELTATLDGSTL--NWFKLVYTGPYWFLLVC  263
+
+
+> UniRef90_A0A147A5S2 Uncharacterized protein n=1 Tax=Fundulus 
+heteroclitus TaxID=8078 RepID=A0A147A5S2_FUNHE
+Length=138
+
+ Score = 50.4 bits (119),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 14/35 (40%), Positives = 21/35 (60%), Gaps = 0/35 (0%)
+
+Query  26  VGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+           + +R G LLL++D  P  VEWR+     + S VW+
+Sbjct  5   LQARSGVLLLVLDGQPQRVEWRSVHPHFKHSPVWV  39
+
+
+> UniRef90_UPI00077FC73F UPI00077FC73F related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00077FC73F
+Length=560
+
+ Score = 48.9 bits (115),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 28/106 (26%), Positives = 41/106 (39%), Gaps = 7/106 (7%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCDL  63
+            +  V V + E  + V  S PL V S+   L L V++  +   WR+       S VWLCD 
+Sbjct  241  ILNVSVFKPEKSILVLLSEPLQVNSQ--NLKLYVNDTTVHTCWRSVSQNMPVSSVWLCDF  298
+
+Query  64   PAASLNDQLPQHTFRVIWTGSDSQK--ECVLLKDRPECWCRDSATD  107
+            P   ++         V  +  D +    C L       W + S  D
+Sbjct  299  PLDPVDTISS---VTVKLSERDIEDSLSCSLDGILSSTWKKSSRRD  341
+
+
+> UniRef90_UPI0003593C51 PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha-like isoform X2 n=1 Tax=Aplysia californica 
+TaxID=6500 RepID=UPI0003593C51
+Length=567
+
+ Score = 47.4 bits (111),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 21/89 (24%), Positives = 38/89 (43%), Gaps = 7/89 (8%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+               +  + VSR E  + + F+ P+ VG+    ++     + L V W   D  +  S +W+
+Sbjct  240  KQAINLLFVSRAEKRVLLSFALPVQVGAETSIVVDCDGSSLLDVVWHNQDRDDTFSTLWI  299
+
+Query  61   C---DLPAASLNDQLPQHTFRVIWTGSDS  86
+                D P A         T +V+  GS++
+Sbjct  300  SEGVDFPDAG----ACAVTVKVMKRGSET  324
+
+
+> UniRef90_UPI000359EADB PREDICTED: geranylgeranyl transferase 
+type-2 subunit alpha-like isoform X1 n=1 Tax=Aplysia californica 
+TaxID=6500 RepID=UPI000359EADB
+Length=744
+
+ Score = 46.6 bits (109),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 21/89 (24%), Positives = 38/89 (43%), Gaps = 7/89 (8%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+               +  + VSR E  + + F+ P+ VG+    ++     + L V W   D  +  S +W+
+Sbjct  417  KQAINLLFVSRAEKRVLLSFALPVQVGAETSIVVDCDGSSLLDVVWHNQDRDDTFSTLWI  476
+
+Query  61   C---DLPAASLNDQLPQHTFRVIWTGSDS  86
+                D P A         T +V+  GS++
+Sbjct  477  SEGVDFPDAG----ACAVTVKVMKRGSET  501
+
+
+> UniRef90_S9XHC8 Geranylgeranyl transferase type-2 subunit alpha 
+n=1 Tax=Camelus ferus TaxID=419612 RepID=S9XHC8_CAMFR
+Length=462
+
+ Score = 45.8 bits (107),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 18/31 (58%), Positives = 21/31 (68%), Gaps = 0/31 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLTVGSRMG  31
+             D L C+HVSR+EACL+V FSRPL      G
+Sbjct  242  QDALRCLHVSRDEACLTVSFSRPLLAAKSAG  272
+
+
+> UniRef90_A0A146WR05 Geranylgeranyl transferase type-2 subunit 
+alpha, putative n=1 Tax=Fundulus heteroclitus TaxID=8078 RepID=A0A146WR05_FUNHE
+Length=361
+
+ Score = 45.4 bits (106),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 12/25 (48%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  1    HDVLCCVHVSREEACLSVCFSRPLT  25
+             +++ CV+VSREE  ++V FSRP+ 
+Sbjct  260  EEMISCVYVSREEERVAVAFSRPVN  284
+
+
+> UniRef90_V4C0L0 Uncharacterized protein n=1 Tax=Lottia gigantea 
+TaxID=225164 RepID=V4C0L0_LOTGI
+Length=308
+
+ Score = 45.4 bits (106),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 14/57 (25%), Positives = 32/57 (56%), Gaps = 1/57 (2%)
+
+Query  4    LCCVHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWL  60
+            +  V++SR ++C+ V F++ L + SR  ++ L+++   +  EW     + + S  W+
+Sbjct  243  IDSVYISRHKSCILVTFTKTLLI-SRENSINLVINGKDVEGEWLNQKQQAKYSTFWI  298
+
+
+> UniRef90_A0A0S7ICF1 PPUP1934 (Fragment) n=1 Tax=Poeciliopsis 
+prolifica TaxID=188132 RepID=A0A0S7ICF1_9TELE
+Length=99
+
+ Score = 42.7 bits (99),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 13/27 (48%), Positives = 19/27 (70%), Gaps = 0/27 (0%)
+
+Query  1   HDVLCCVHVSREEACLSVCFSRPLTVG  27
+            DV+ C +VSRE+  ++V FSRP+ V 
+Sbjct  3   EDVISCAYVSREQERVAVAFSRPVKVS  29
+
+
+> UniRef90_A0A067R2K8 Geranylgeranyl transferase type-2 subunit 
+alpha n=1 Tax=Zootermopsis nevadensis TaxID=136037 RepID=A0A067R2K8_ZOONE
+Length=649
+
+ Score = 43.9 bits (102),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 18/65 (28%), Positives = 30/65 (46%), Gaps = 1/65 (2%)
+
+Query  7    VHVSREEACLSVCFSRPLTVGSRMGTLLLMVDEAPLSVEWRTPDGRNRPSHVWLCDLPAA  66
+            VHVS +  C+S+  S  +        L L ++       W++ +G  + SHVW+  LP  
+Sbjct  334  VHVSYDTVCVSLTHSVSVICDKSKIRLELQLNGDNFPTTWKSTNG-QQYSHVWISALPKE  392
+
+Query  67   SLNDQ  71
+             L+  
+Sbjct  393  LLSGD  397
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.134    0.411    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0408    0.140     1.90     42.6     43.6 
+
+Effective search space used: 442037236000
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

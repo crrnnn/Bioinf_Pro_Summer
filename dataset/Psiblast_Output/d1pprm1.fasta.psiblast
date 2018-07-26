@@ -1,0 +1,2299 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1pprm1
+
+Length=156
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P80484 Peridinin-chlorophyll a-binding protein 1, chlo...  313     1e-103
+  UniRef90_Q8GTI3 Peridinin chlorophyll-a binding protein apoprot...  268     2e-87 
+  UniRef90_P51874 Peridinin-chlorophyll a-binding protein, chloro...  268     3e-86 
+  UniRef90_G9I8I1 Chloroplast soluble peridinin-chlorophyll a-bin...  267     1e-85 
+  UniRef90_O00941 Peridinin-chlorophyll a-binding protein PCP n=1...  267     1e-85 
+  UniRef90_Q2TLN0 Chloroplast peridinin-chlorophyll a-binding pro...  259     9e-83 
+  UniRef90_G9I8Q6 Chloroplast soluble peridinin-chlorophyll a-bin...  257     7e-82 
+  UniRef90_Q8GTH7 Peridinin chlorophyll-a binding protein apoprot...  177     4e-52 
+  UniRef90_Q8H1K6 Peridinin chlorophyll-a binding protein apoprot...  155     5e-45 
+  UniRef90_Q9FEY4 Peridinin-chl a protein n=2 Tax=Heterocapsa pyg...  133     9e-36 
+  UniRef90_Q8GTH3 Peridinin chlorophyll-a binding protein apoprot...  128     1e-33 
+  UniRef90_G9I8R8 Chloroplast soluble peridinin-chlorophyll a-bin...  121     3e-31 
+  UniRef90_E1CBR8 Peridinin-chlorophyll protein n=1 Tax=Millepora...  111     3e-27 
+  UniRef90_Q38691 Precursor of peridinin-chlorophylla-protein (PC...  108     6e-27 
+  UniRef90_Q8GS40 Chloroplast soluble peridinin-chlorophyll a-bin...  110     9e-27 
+  UniRef90_G9I8P4 Chloroplast soluble peridinin-chlorophyll a-bin...  107     2e-25 
+  UniRef90_Q9FEY2 Peridinin-chl a protein (Fragment) n=1 Tax=Hete...  95.5    4e-22 
+  UniRef90_Q8GTI9 Peridinin chlorophyll-a binding protein apoprot...  91.7    5e-20 
+  UniRef90_P51889 Peridinin-chlorophyll a-binding protein (Fragme...  87.0    2e-19 
+  UniRef90_A0A0H4NWY2 Chloroplast soluble peridinin chlorophyll a...  85.9    1e-18 
+  UniRef90_A0A0H4NWY0 Peridinin chorophyll binding protein (Fragm...  75.5    1e-14 
+  UniRef90_P80483 Peridinin-chlorophyll a-binding protein 3 n=2 T...  78.2    1e-14 
+  UniRef90_B4ZFY4 Peridinin chlorophyll protein (Fragment) n=2 Ta...  73.9    4e-13 
+  UniRef90_A0A0H4NTL7 Chloroplast soluble peridinin chlorophyll a...  69.3    2e-12 
+  UniRef90_O76183 Peridinin-chlorophyll a protein, high-salt form...  69.3    4e-11 
+  UniRef90_S0DE72 Putative peridinin-chlorophyll a-binding protei...  65.9    6e-11 
+  UniRef90_Q9FEY0 Peridinin-chl a-protein (PCP) (Fragment) n=1 Ta...  62.8    6e-10 
+  UniRef90_A9YEC6 Chloroplast peridinin chlorophyll-a binding pro...  62.0    1e-09 
+
+
+> UniRef90_P80484 Peridinin-chlorophyll a-binding protein 1, chloroplastic 
+n=3 Tax=Amphidinium carterae TaxID=2961 RepID=PCP1_AMPCA
+Length=370
+
+ Score = 313 bits (802),  Expect = 1e-103, Method: Compositional matrix adjust.
+ Identities = 154/156 (99%), Positives = 156/156 (100%), Gaps = 0/156 (0%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK
+Sbjct  58   DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  117
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAAEAHHKAIGS+SGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP
+Sbjct  118  AAAEAHHKAIGSVSGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  177
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAAG  156
+            AYMKSLV+GADAEKAYEGFLAFKDVVKKSQVTSAAG
+Sbjct  178  AYMKSLVSGADAEKAYEGFLAFKDVVKKSQVTSAAG  213
+
+
+ Score = 118 bits (295),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 84/150 (56%), Positives = 108/150 (72%), Gaps = 1/150 (1%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+IG AA++L +ASY F KE+DW + ++++    +   ++LKAIDKMIVMGA AD   LK
+Sbjct  221  DKIGVAAQQLSEASYPFLKEIDWLSDVYMKPLPGVSAQQSLKAIDKMIVMGAQADGNALK  280
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAAEAHHKAIGSI    GVTS AD+  VNAALGRVIASVP++ VMDVY++++  TD  +P
+Sbjct  281  AAAEAHHKAIGSIDA-TGVTSAADYAAVNAALGRVIASVPKSTVMDVYNAMAGATDTSIP  339
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              M S VN  DA  A + F  FKDVV+ +Q
+Sbjct  340  LNMFSKVNPLDANAAAKAFYTFKDVVQAAQ  369
+
+
+> UniRef90_Q8GTI3 Peridinin chlorophyll-a binding protein apoprotein 
+(Fragment) n=7 Tax=Symbiodinium sp. RKT-203 TaxID=209683 
+RepID=Q8GTI3_9DINO
+Length=289
+
+ Score = 268 bits (686),  Expect = 2e-87, Method: Compositional matrix adjust.
+ Identities = 134/155 (86%), Positives = 142/155 (92%), Gaps = 0/155 (0%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            DEIGDAAKKLGDASY+FAKEVDWNNGIFLQAPGK QPL+ALKAIDKMI MGAAADPKLLK
+Sbjct  45   DEIGDAAKKLGDASYSFAKEVDWNNGIFLQAPGKFQPLKALKAIDKMIEMGAAADPKLLK  104
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+             AAEAHHKAIGSISGPNGVTSRADWD VNAALGRV+ASVP+  VM VYDSV  ITDPKVP
+Sbjct  105  EAAEAHHKAIGSISGPNGVTSRADWDAVNAALGRVVASVPKAKVMAVYDSVKDITDPKVP  164
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAA  155
+            AYMKSLVNG DAEKAY+ FL FKDVV K+QVT+A+
+Sbjct  165  AYMKSLVNGPDAEKAYQAFLEFKDVVAKNQVTTAS  199
+
+
+ Score = 72.8 bits (177),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 56/84 (67%), Positives = 62/84 (74%), Gaps = 3/84 (4%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQA-PGKLQPLEALKAIDKMIVMGAAADPKLL  59
+            D+IG AAK L DASY F K++DW + I+L+  PGK  P E LKAIDKMIVMGA  D  LL
+Sbjct  208  DKIGVAAKALSDASYPFIKDIDWLSDIYLKPLPGKTAP-ETLKAIDKMIVMGAKMDGNLL  266
+
+Query  60   KAAAEAHHKAIGSISGPNGVTSRA  83
+            KAAAEAHHKAIGSI    GVTS A
+Sbjct  267  KAAAEAHHKAIGSIDA-KGVTSTA  289
+
+
+> UniRef90_P51874 Peridinin-chlorophyll a-binding protein, chloroplastic 
+n=47 Tax=Symbiodinium TaxID=2949 RepID=PCP_SYMSP
+Length=365
+
+ Score = 268 bits (686),  Expect = 3e-86, Method: Compositional matrix adjust.
+ Identities = 133/155 (86%), Positives = 143/155 (92%), Gaps = 0/155 (0%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            DEIGDAAKKLGDASY+FAKEVDWNNGIFLQAPGK QPLEALKAIDKMI MGAAADPKLLK
+Sbjct  53   DEIGDAAKKLGDASYSFAKEVDWNNGIFLQAPGKFQPLEALKAIDKMIEMGAAADPKLLK  112
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+             AAEAHHKAIGSISGPNGVTSRADWD VNAA+GRV+ASVP+  VM VYDSV+ ITDP VP
+Sbjct  113  DAAEAHHKAIGSISGPNGVTSRADWDAVNAAIGRVVASVPKAKVMAVYDSVTAITDPGVP  172
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAA  155
+            AYMKSLVNG DAEKAY+GFL FKDVV+K+QV +A+
+Sbjct  173  AYMKSLVNGPDAEKAYQGFLEFKDVVEKNQVATAS  207
+
+
+ Score = 139 bits (351),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 91/151 (60%), Positives = 111/151 (74%), Gaps = 3/151 (2%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQA-PGKLQPLEALKAIDKMIVMGAAADPKLL  59
+            D+IG+AAK L DASY F K++DW + I+L+  PGK  P E LKAIDKMIVMGA  D  LL
+Sbjct  216  DKIGEAAKALSDASYPFIKDIDWLSDIYLKPLPGKTAP-ETLKAIDKMIVMGAKMDGNLL  274
+
+Query  60   KAAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKV  119
+            KAAAEAHHKAIGSI    GVTS AD++ VNAA+GR++ASVP+  VMDVY+S++ + D  V
+Sbjct  275  KAAAEAHHKAIGSIDA-TGVTSAADYEAVNAAIGRLVASVPKTTVMDVYNSMAGVVDSSV  333
+
+Query  120  PAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+            P  + S VN  DA  A +GF  FKDVV+ SQ
+Sbjct  334  PNNLFSKVNPLDAVAAAKGFYTFKDVVEASQ  364
+
+
+> UniRef90_G9I8I1 Chloroplast soluble peridinin-chlorophyll a-binding 
+protein n=127 Tax=Symbiodinium TaxID=2949 RepID=G9I8I1_9DINO
+Length=366
+
+ Score = 267 bits (682),  Expect = 1e-85, Method: Compositional matrix adjust.
+ Identities = 130/155 (84%), Positives = 143/155 (92%), Gaps = 0/155 (0%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+IGDAAKKLGDASY FAKEVDWNNG+FLQAPG  QPL+ALKAIDKMI MGAAADP+LLK
+Sbjct  54   DQIGDAAKKLGDASYDFAKEVDWNNGLFLQAPGSFQPLKALKAIDKMIEMGAAADPELLK  113
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+             AA+AHHKAIGSISGPNGVTSRADWD VNAALGRV+ASVP+  VMDVYD+V+ ITDPKVP
+Sbjct  114  KAADAHHKAIGSISGPNGVTSRADWDAVNAALGRVVASVPKQKVMDVYDAVTDITDPKVP  173
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAA  155
+            AYMKSLVNGADAEKAY+GFL FKDVV  +QVT+A+
+Sbjct  174  AYMKSLVNGADAEKAYQGFLEFKDVVAANQVTTAS  208
+
+
+ Score = 141 bits (355),  Expect = 4e-37, Method: Compositional matrix adjust.
+ Identities = 92/151 (61%), Positives = 109/151 (72%), Gaps = 3/151 (2%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQA-PGKLQPLEALKAIDKMIVMGAAADPKLL  59
+            D+IG AAK L DASY F K++DW + I+L+  PGK  P E LKAIDKMIVMG+  D  LL
+Sbjct  217  DKIGTAAKALSDASYPFIKDIDWLSDIYLKPLPGKTAP-ETLKAIDKMIVMGSKMDGNLL  275
+
+Query  60   KAAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKV  119
+            KAAAEAHHKAIGSI    GVTS  D++ V+AALGR++ASVP+  VMDVYDS++KI DP V
+Sbjct  276  KAAAEAHHKAIGSIDA-KGVTSPEDYEAVDAALGRIVASVPKQTVMDVYDSMAKIVDPSV  334
+
+Query  120  PAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+               M S VN  DA  A +GF  FKDVV+  Q
+Sbjct  335  TNNMFSTVNPLDALSAAKGFYTFKDVVEAVQ  365
+
+
+> UniRef90_O00941 Peridinin-chlorophyll a-binding protein PCP n=1 
+Tax=Lingulodinium polyedrum TaxID=160621 RepID=O00941_LINPO
+Length=375
+
+ Score = 267 bits (682),  Expect = 1e-85, Method: Compositional matrix adjust.
+ Identities = 141/155 (91%), Positives = 148/155 (95%), Gaps = 0/155 (0%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            DEIGDAAKKLGD+SYAFAKEVDWNNGIFLQAPGK QPLEALKAIDKMIVMG  ADPKLLK
+Sbjct  60   DEIGDAAKKLGDSSYAFAKEVDWNNGIFLQAPGKFQPLEALKAIDKMIVMGVQADPKLLK  119
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAA+AHHKAIGSISGPNGVTSRADWD+VNAALGRVIASVPE  VMDVY+SVS ITDP VP
+Sbjct  120  AAADAHHKAIGSISGPNGVTSRADWDSVNAALGRVIASVPEATVMDVYNSVSGITDPAVP  179
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAA  155
+            AYMKSLVNGADAEKAYEGFLAFKDVVK+SQV++AA
+Sbjct  180  AYMKSLVNGADAEKAYEGFLAFKDVVKRSQVSTAA  214
+
+
+ Score = 129 bits (324),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 84/152 (55%), Positives = 106/152 (70%), Gaps = 2/152 (1%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D IG+AAKKL + SY F K+++W + I+L+        +   AIDKMI+MGA AD  LLK
+Sbjct  224  DAIGEAAKKLSEQSYPFLKDINWLSDIYLKPLPDATISKKAIAIDKMIMMGAKADGNLLK  283
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAA+AHH+AIGSI   NGVTS AD+  VNAALGRV+ASVP+ MVMDVY+S++ +  P VP
+Sbjct  284  AAAQAHHQAIGSIDA-NGVTSLADYSAVNAALGRVVASVPKKMVMDVYNSMASLVAPTVP  342
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVK-KSQV  151
+              M + VN  DA  A + F  FKDVV+  SQV
+Sbjct  343  NNMFASVNPLDANAAAKAFYTFKDVVQAASQV  374
+
+
+> UniRef90_Q2TLN0 Chloroplast peridinin-chlorophyll a-binding protein 
+n=2 Tax=Alexandrium tamarense TaxID=2926 RepID=Q2TLN0_ALETA
+Length=368
+
+ Score = 259 bits (663),  Expect = 9e-83, Method: Compositional matrix adjust.
+ Identities = 138/154 (90%), Positives = 146/154 (95%), Gaps = 0/154 (0%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            DEIGDAAKKLGDASY+FAKEVDW NG+FLQAPG  QPLEALKAIDKMIVMGAAADPKLLK
+Sbjct  56   DEIGDAAKKLGDASYSFAKEVDWKNGLFLQAPGSFQPLEALKAIDKMIVMGAAADPKLLK  115
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAA AHHKAIGSISG NGVTS+ADWD+VNAALGRVIASVPE+MVMDVY+SV  ITDP+VP
+Sbjct  116  AAASAHHKAIGSISGVNGVTSKADWDSVNAALGRVIASVPESMVMDVYNSVKGITDPQVP  175
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSA  154
+            AYMKSLVNGADAEKAYEGFLAFKDVVKK+QV SA
+Sbjct  176  AYMKSLVNGADAEKAYEGFLAFKDVVKKNQVASA  209
+
+
+ Score = 126 bits (316),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 84/150 (56%), Positives = 102/150 (68%), Gaps = 1/150 (1%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D IG AAK L + SY F K+++W + I+L+        +ALKAIDKMIVMGAAAD   LK
+Sbjct  219  DNIGVAAKALSEQSYPFLKDINWLSDIYLKPLPGASADKALKAIDKMIVMGAAADGNALK  278
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAA AHH AIGSI    GVTS AD++ VNAALGRVIASVP++MVMDVY++ + +  P +P
+Sbjct  279  AAAAAHHTAIGSIDA-KGVTSAADYEAVNAALGRVIASVPKSMVMDVYNAFAGLVSPTIP  337
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              M   VN  DA  A + F  FKDVV  SQ
+Sbjct  338  NNMFQSVNALDANAAAKAFYTFKDVVASSQ  367
+
+
+> UniRef90_G9I8Q6 Chloroplast soluble peridinin-chlorophyll a-binding 
+protein n=1 Tax=Symbiodinium microadriaticum TaxID=2951 
+RepID=G9I8Q6_SYMMI
+Length=365
+
+ Score = 257 bits (656),  Expect = 7e-82, Method: Compositional matrix adjust.
+ Identities = 127/155 (82%), Positives = 138/155 (89%), Gaps = 0/155 (0%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            DEIGDA+KKLGDASY FAKEVDWNNGIFLQAPGK QPL+ALKAIDKMI MGAAADPKLL+
+Sbjct  53   DEIGDASKKLGDASYNFAKEVDWNNGIFLQAPGKFQPLKALKAIDKMIEMGAAADPKLLR  112
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAAEAHHKAIGSIS PNGVTSRADWD VNAALGRV+ASVP+  VM VYD+V  ITDPKVP
+Sbjct  113  AAAEAHHKAIGSISRPNGVTSRADWDEVNAALGRVVASVPKAKVMAVYDAVKDITDPKVP  172
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAA  155
+            AYMKSLVNG    + Y+GFL FKDVV K+QVT+A+
+Sbjct  173  AYMKSLVNGLMPRRPYQGFLEFKDVVAKNQVTAAS  207
+
+
+ Score = 143 bits (361),  Expect = 5e-38, Method: Compositional matrix adjust.
+ Identities = 93/151 (62%), Positives = 113/151 (75%), Gaps = 3/151 (2%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQA-PGKLQPLEALKAIDKMIVMGAAADPKLL  59
+            D+IG AAK+L DASY F K++DW + I+L+  PGK  P E LKAIDKMIVMG+  D  LL
+Sbjct  216  DKIGAAAKQLSDASYPFIKDIDWLSDIYLKPLPGKTAP-ETLKAIDKMIVMGSKMDGNLL  274
+
+Query  60   KAAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKV  119
+            KAAAEAHHKAIGS+    GVTS AD++ VNAALGR++ASVP++ VMDVY+S++KI DP V
+Sbjct  275  KAAAEAHHKAIGSVDS-KGVTSAADYEAVNAALGRLVASVPKDTVMDVYNSMAKIVDPTV  333
+
+Query  120  PAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+               M S VN  DA  A +GF  FKDVV+ SQ
+Sbjct  334  TNNMFSKVNPLDAVAAAKGFYTFKDVVQASQ  364
+
+
+> UniRef90_Q8GTH7 Peridinin chlorophyll-a binding protein apoprotein 
+(Fragment) n=7 Tax=unclassified Symbiodinium TaxID=279888 
+RepID=Q8GTH7_9DINO
+Length=267
+
+ Score = 177 bits (450),  Expect = 4e-52, Method: Compositional matrix adjust.
+ Identities = 88/109 (81%), Positives = 97/109 (89%), Gaps = 0/109 (0%)
+
+Query  47   MIVMGAAADPKLLKAAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMD  106
+            MI MGAAADP+LLK AA+AHHKAIGSISGPNGVT RADWD  NAALGRV+ASVP+  VMD
+Sbjct  1    MIEMGAAADPELLKKAADAHHKAIGSISGPNGVTFRADWDAKNAALGRVVASVPKQKVMD  60
+
+Query  107  VYDSVSKITDPKVPAYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAA  155
+            VYD+V  ITDPKVPAYMKSLVNGADAEKAY+GFL FKDVV  +QVT+A+
+Sbjct  61   VYDAVKDITDPKVPAYMKSLVNGADAEKAYQGFLEFKDVVAANQVTTAS  109
+
+
+ Score = 142 bits (357),  Expect = 3e-38, Method: Compositional matrix adjust.
+ Identities = 91/151 (60%), Positives = 111/151 (74%), Gaps = 3/151 (2%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQA-PGKLQPLEALKAIDKMIVMGAAADPKLL  59
+            D+IG AAK L DASY+F K++DW + ++L+  PGK  P E LKAIDKMIVMG+  D  LL
+Sbjct  118  DKIGTAAKALSDASYSFIKDIDWLSDVYLKPLPGKTAP-ETLKAIDKMIVMGSKMDGNLL  176
+
+Query  60   KAAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKV  119
+            KAAAEAHHKAIGSI    GVTS AD++ VNAALGR++ASVP+  VMDVY+S++K+ DP V
+Sbjct  177  KAAAEAHHKAIGSIDA-KGVTSPADYEAVNAALGRIVASVPKQTVMDVYNSMAKVVDPSV  235
+
+Query  120  PAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+               M S VN  DA  A +GF  FKDVV+  Q
+Sbjct  236  TNNMFSKVNPLDALSAAKGFYTFKDVVEAVQ  266
+
+
+> UniRef90_Q8H1K6 Peridinin chlorophyll-a binding protein apoprotein 
+(Fragment) n=1 Tax=Symbiodinium sp. RKT-203 TaxID=209683 
+RepID=Q8H1K6_9DINO
+Length=134
+
+ Score = 155 bits (392),  Expect = 5e-45, Method: Compositional matrix adjust.
+ Identities = 76/82 (93%), Positives = 79/82 (96%), Gaps = 0/82 (0%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            DEIGDAAKKLGDASY+FAKEVDW+NGIFLQAPGK QPL+ALKAIDKMI MGAAADPKLLK
+Sbjct  53   DEIGDAAKKLGDASYSFAKEVDWSNGIFLQAPGKFQPLKALKAIDKMIEMGAAADPKLLK  112
+
+Query  61   AAAEAHHKAIGSISGPNGVTSR  82
+             AAEAHHKAIGSISGPNGVTSR
+Sbjct  113  EAAEAHHKAIGSISGPNGVTSR  134
+
+
+> UniRef90_Q9FEY4 Peridinin-chl a protein n=2 Tax=Heterocapsa pygmaea 
+TaxID=35672 RepID=Q9FEY4_HETPY
+Length=201
+
+ Score = 133 bits (335),  Expect = 9e-36, Method: Compositional matrix adjust.
+ Identities = 83/151 (55%), Positives = 103/151 (68%), Gaps = 3/151 (2%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+I DAAKKL +ASY F KE+DW++ ++ + P    P + LKA+DKMIVMGAA D   LK
+Sbjct  52   DKIDDAAKKLSEASYPFLKEIDWSSDVYGKLP-TANPFQVLKAVDKMIVMGAAMDSAALK  110
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPK-V  119
+            A AEAHHKAIGSI    GVT+ AD++ VNAA+G ++AS  E+  MDVY+  +     K V
+Sbjct  111  AGAEAHHKAIGSIDA-KGVTTLADYEAVNAAIGHMVASAGESKTMDVYNVFAGFNLGKDV  169
+
+Query  120  PAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              YM S VN ADA  AY+ FL FKD VK SQ
+Sbjct  170  GPYMMSKVNAADASAAYKAFLEFKDAVKASQ  200
+
+
+> UniRef90_Q8GTH3 Peridinin chlorophyll-a binding protein apoprotein 
+(Fragment) n=5 Tax=Symbiodinium TaxID=2949 RepID=Q8GTH3_SYMPU
+Length=199
+
+ Score = 128 bits (321),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 86/143 (60%), Positives = 101/143 (71%), Gaps = 3/143 (2%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQA-PGKLQPLEALKAIDKMIVMGAAADPKLL  59
+            D+IG AAK L DASY F K++DW + I+L+  PGK  P   LKAIDKMIVMG+  D  LL
+Sbjct  59   DKIGAAAKALSDASYPFIKDIDWLSDIYLKPLPGKTAP-GTLKAIDKMIVMGSKMDGNLL  117
+
+Query  60   KAAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKV  119
+            KAAAEAHHKAIGSI    GVTS  D++ VNAALGR++ASVP+  VMDVYDS++KI D  V
+Sbjct  118  KAAAEAHHKAIGSIDA-KGVTSPEDYEAVNAALGRIVASVPKQTVMDVYDSMAKIVDSSV  176
+
+Query  120  PAYMKSLVNGADAEKAYEGFLAF  142
+               M S VN  DA  A +GF  F
+Sbjct  177  TNNMFSTVNPLDALSAAKGFYTF  199
+
+
+ Score = 82.0 bits (201),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 39/50 (78%), Positives = 44/50 (88%), Gaps = 0/50 (0%)
+
+Query  106  DVYDSVSKITDPKVPAYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAA  155
+            DVYD+V  ITDPK PAYMKSLVNGADAEKAY+GFL FKDVV  +QVT+A+
+Sbjct  1    DVYDAVKDITDPKAPAYMKSLVNGADAEKAYQGFLEFKDVVAANQVTTAS  50
+
+
+> UniRef90_G9I8R8 Chloroplast soluble peridinin-chlorophyll a-binding 
+protein n=11 Tax=Symbiodinium microadriaticum TaxID=2951 
+RepID=G9I8R8_SYMMI
+Length=203
+
+ Score = 121 bits (304),  Expect = 3e-31, Method: Compositional matrix adjust.
+ Identities = 69/151 (46%), Positives = 95/151 (63%), Gaps = 3/151 (2%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+I DAAK L + SY F KE+DW + ++ + P +   L+ LKAID M+ MGA+ DP  LK
+Sbjct  54   DKIDDAAKVLSEKSYPFLKEIDWTSDVYGKLPTQ-NALDVLKAIDTMLKMGASMDPAALK  112
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKIT-DPKV  119
+                AH KAI ++    GV + AD+  +NAA+G +I+SVP +  MDVY++ +K      V
+Sbjct  113  TGVLAHSKAIANMDS-KGVATLADYTAINAAIGHMISSVPASQTMDVYNAFNKFNLGNDV  171
+
+Query  120  PAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              YM S VN  DA+ AY+  + FKDVVK SQ
+Sbjct  172  GPYMMSKVNAGDAKAAYQALMDFKDVVKASQ  202
+
+
+> UniRef90_E1CBR8 Peridinin-chlorophyll protein n=1 Tax=Millepora 
+dichotoma TaxID=544484 RepID=E1CBR8_MILDI
+Length=202
+
+ Score = 111 bits (277),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 71/151 (47%), Positives = 100/151 (66%), Gaps = 3/151 (2%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+I DAAK L + SY F KE+DW + ++ + P +  PLE LKAI+ M+ MGA+ D   LK
+Sbjct  53   DKIDDAAKVLSEKSYPFLKEIDWTSDVYGKLPTQ-PPLEVLKAINTMLKMGASMDSAALK  111
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPK-V  119
+            + A AH +AI ++    GV + AD+  +NAA+G +IASVP +  MDVY++ +K +  K V
+Sbjct  112  SGALAHSQAIANMDS-KGVATLADYTAINAAIGHMIASVPASQTMDVYNAFNKFSLGKDV  170
+
+Query  120  PAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              YM S V+ ADA+ AY+  + FKDVVK SQ
+Sbjct  171  GPYMMSKVDAADAKAAYQALMDFKDVVKASQ  201
+
+
+> UniRef90_Q38691 Precursor of peridinin-chlorophylla-protein (PCP) 
+(Fragment) n=1 Tax=Amphidinium carterae TaxID=2961 RepID=Q38691_AMPCA
+Length=131
+
+ Score = 108 bits (271),  Expect = 6e-27, Method: Compositional matrix adjust.
+ Identities = 74/132 (56%), Positives = 95/132 (72%), Gaps = 2/132 (2%)
+
+Query  19   KEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLKAAAEAHHKAIGSISGPNG  78
+            KE+DW + ++++    +   ++LKAIDKMIVMGA AD   LKAAAEAHHKAIGSI    G
+Sbjct  1    KEIDWLSDVYMKPLPGVSAQQSLKAIDKMIVMGAQADGNALKAAAEAHHKAIGSIDS-TG  59
+
+Query  79   VTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVPAYMKSLVNGADAEKAYEG  138
+            VTS AD+  VNAALGRVIASVP++ VMDVY+S++ +TD  +P  M S VN  DA  A + 
+Sbjct  60   VTSVADYAAVNAALGRVIASVPKSTVMDVYNSMAGVTDTSIPLNMFSKVNPLDANAAAKV  119
+
+Query  139  FLAFKDVVKKSQ  150
+            +  FKDVV+ +Q
+Sbjct  120  Y-TFKDVVQAAQ  130
+
+
+> UniRef90_Q8GS40 Chloroplast soluble peridinin-chlorophyll a-binding 
+protein n=11 Tax=Symbiodinium pilosum TaxID=2952 RepID=Q8GS40_SYMPI
+Length=204
+
+ Score = 110 bits (274),  Expect = 9e-27, Method: Compositional matrix adjust.
+ Identities = 68/151 (45%), Positives = 96/151 (64%), Gaps = 3/151 (2%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+I DAAK L + SY F KE+DW + ++ + P +  PL+ + AID M+ MGAA DP  LK
+Sbjct  55   DKIDDAAKVLSEKSYPFLKEIDWTSDVYAKLPTQ-PPLKVMTAIDTMLKMGAAMDPAALK  113
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKIT-DPKV  119
+                AH +AI ++    GV + AD+  +N+A+G +I+SVP +  MDVY++ +K      V
+Sbjct  114  TGVLAHSQAIANMDS-KGVATLADYTAINSAIGHMISSVPASKTMDVYNAFAKFNLGSDV  172
+
+Query  120  PAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              YM S VN ADA+ AY+  + FKDVVK SQ
+Sbjct  173  GPYMMSKVNAADAQAAYKALMDFKDVVKASQ  203
+
+
+> UniRef90_G9I8P4 Chloroplast soluble peridinin-chlorophyll a-binding 
+protein n=5 Tax=Symbiodinium muscatinei TaxID=128924 
+RepID=G9I8P4_SYMMU
+Length=198
+
+ Score = 107 bits (266),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 70/151 (46%), Positives = 98/151 (65%), Gaps = 3/151 (2%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+I DAAK L + SY F KE+DW + ++ + P + +P+  ++AI+KM+VMGAA D + LK
+Sbjct  49   DKIDDAAKVLSEKSYPFLKEIDWTSDVYAKLPTQ-KPVAVMEAINKMLVMGAAMDSEALK  107
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKIT-DPKV  119
+                AH KAI  +     V +  D+  +N+A+G +IASVP +  MDVY++ +K +    V
+Sbjct  108  KGVLAHAKAIDGMDS-KLVATLDDYTAINSAIGHMIASVPASKTMDVYNAFAKFSLGSDV  166
+
+Query  120  PAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              YM S VN ADA+ AYE  LAFKDVVK SQ
+Sbjct  167  GPYMMSKVNAADAKAAYEALLAFKDVVKASQ  197
+
+
+> UniRef90_Q9FEY2 Peridinin-chl a protein (Fragment) n=1 Tax=Heterocapsa 
+pygmaea TaxID=35672 RepID=Q9FEY2_HETPY
+Length=107
+
+ Score = 95.5 bits (236),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 62/107 (58%), Positives = 73/107 (68%), Gaps = 2/107 (2%)
+
+Query  45   DKMIVMGAAADPKLLKAAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMV  104
+            DKMIVMGAA D   LKA AEAHHKAIGSI    GVT+ AD++ VNAA+G ++AS  E+  
+Sbjct  1    DKMIVMGAAMDSAALKAGAEAHHKAIGSID-AKGVTTLADYEAVNAAIGHMVASAGESKT  59
+
+Query  105  MDVYDSVSKITDPK-VPAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+            MDVY++ +     K V  YM S VN ADA  AY+ FL FKD VK SQ
+Sbjct  60   MDVYNAFAGFNLGKDVGPYMMSKVNAADASAAYKAFLEFKDAVKASQ  106
+
+
+> UniRef90_Q8GTI9 Peridinin chlorophyll-a binding protein apoprotein 
+(Fragment) n=1 Tax=Symbiodinium sp. RKT-203 TaxID=209683 
+RepID=Q8GTI9_9DINO
+Length=176
+
+ Score = 91.7 bits (226),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 65/98 (66%), Positives = 75/98 (77%), Gaps = 3/98 (3%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQA-PGKLQPLEALKAIDKMIVMGAAADPKLL  59
+            D+IG AAK L DASY F K++DW + I+L+  PGK  P E LKAIDKMIVMGA  D  LL
+Sbjct  59   DKIGVAAKALSDASYPFIKDIDWLSDIYLKPLPGKTAP-ETLKAIDKMIVMGAKMDGNLL  117
+
+Query  60   KAAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIA  97
+            KAAAEAHHKAIGSI    GVTS AD++ VNAALGR++A
+Sbjct  118  KAAAEAHHKAIGSIDA-KGVTSAADYEAVNAALGRLVA  154
+
+
+ Score = 78.6 bits (192),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 38/49 (78%), Positives = 42/49 (86%), Gaps = 0/49 (0%)
+
+Query  107  VYDSVSKITDPKVPAYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAA  155
+            VYDSV  ITDPKVPAYMKSLVNG DAE AY+ FL FKDVV K+QVT+A+
+Sbjct  2    VYDSVKGITDPKVPAYMKSLVNGPDAENAYKAFLEFKDVVAKNQVTTAS  50
+
+
+> UniRef90_P51889 Peridinin-chlorophyll a-binding protein (Fragment) 
+n=1 Tax=Alexandrium cohorticula TaxID=2928 RepID=PCP_ALECO
+Length=49
+
+ Score = 87.0 bits (214),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 43/49 (88%), Positives = 43/49 (88%), Gaps = 0/49 (0%)
+
+Query  1   DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIV  49
+           DEIGDAAKKLGDASYAFAKEVD NNGIFLQAPGK QPLEALK I K  V
+Sbjct  1   DEIGDAAKKLGDASYAFAKEVDCNNGIFLQAPGKFQPLEALKXIXKHXV  49
+
+
+> UniRef90_A0A0H4NWY2 Chloroplast soluble peridinin chlorophyll 
+a binding protein (Fragment) n=2 Tax=Warnowia sp. TaxID=1679438 
+RepID=A0A0H4NWY2_9DINO
+Length=96
+
+ Score = 85.9 bits (211),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 48/96 (50%), Positives = 62/96 (65%), Gaps = 2/96 (2%)
+
+Query  56   PKLLKAAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKIT  115
+            P  LK    AH KAIGSI    GV S AD++ +N+A+G +IASVP +  MDVY+S S I 
+Sbjct  1    PVALKKGVLAHSKAIGSIDA-KGVCSIADFEAINSAIGHMIASVPASKTMDVYNSFSAIV  59
+
+Query  116  DPK-VPAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              + VP Y+ S V  ++AE AY  F+ FKDVVK +Q
+Sbjct  60   PRQAVPEYLMSTVTPSNAEAAYRAFMGFKDVVKAAQ  95
+
+
+> UniRef90_A0A0H4NWY0 Peridinin chorophyll binding protein (Fragment) 
+n=1 Tax=Warnowia sp. TaxID=1679438 RepID=A0A0H4NWY0_9DINO
+Length=93
+
+ Score = 75.5 bits (184),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 37/94 (39%), Positives = 58/94 (62%), Gaps = 1/94 (1%)
+
+Query  8    KKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLKAAAEAHH  67
+            K L +ASY F +++ W +  +   P    P +    ++KM++MGA  D   LK   +AH 
+Sbjct  1    KSLSEASYPFLQDIPWFSEYYGSIPTA-NPFQLTYGVEKMLLMGARMDSLALKQGVDAHM  59
+
+Query  68   KAIGSISGPNGVTSRADWDNVNAALGRVIASVPE  101
+            KA+G+++   GV S AD++ +NAA+G +IASVPE
+Sbjct  60   KALGNVNNAKGVCSLADYEAINAAIGHMIASVPE  93
+
+
+> UniRef90_P80483 Peridinin-chlorophyll a-binding protein 3 n=2 
+Tax=Amphidinium carterae TaxID=2961 RepID=PCP3_AMPCA
+Length=323
+
+ Score = 78.2 bits (191),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 54/162 (33%), Positives = 82/162 (51%), Gaps = 13/162 (8%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGI----FLQAPGKLQPLEALKAIDKMIVMGAAADP  56
+            D I DA+KK  DA+Y  A++ DW        ++       P +A  A++K++  G   DP
+Sbjct  1    DGIADASKKFSDATYPIAEKFDWGGSSAVAKYIADASASNPRQAALAVEKLLETGLTMDP  60
+
+Query  57   KLLKAAAEAHHKAIGS-ISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKIT  115
+            KL++AA  AH KA+ + +S P  V S+ D+  VN AL R+IAS  +     +     +  
+Sbjct  61   KLVRAAVAAHSKALDTAVSNPKLVASKEDFAAVNEALARMIASADKQKFAAL-----RTA  115
+
+Query  116  DPKVPAYMKSLV---NGADAEKAYEGFLAFKDVVKKSQVTSA  154
+             P+      SL    NG +AEKAY+ F A    V+ + +  A
+Sbjct  116  FPESRELQSSLFAGNNGYEAEKAYDSFKALTSAVRDASINGA  157
+
+
+ Score = 45.1 bits (105),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 39/149 (26%), Positives = 65/149 (44%), Gaps = 8/149 (5%)
+
+Query  3    IGDAAKKLGDASYAFAKEVDWNNGI----FLQAPGKLQPLEALKAIDKMIVMGAAADPKL  58
+            +G AAKK  +A+Y   ++++W        +L       P      IDK + +    +  L
+Sbjct  177  VGRAAKKFSEATYPIMEKLNWVKSPEISKYLATASSKDPKMMAPGIDKTLEVALTMNQNL  236
+
+Query  59   LKAAAEAHHKAI-GSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDP  117
+            +  A  AH +AI G+++ P  V  R D+  VN AL ++I S        +  +     D 
+Sbjct  237  INNAVYAHVRAIKGALNTPGFVAERDDFARVNLALAKMIGSADPAKFKALLTAFPGNADL  296
+
+Query  118  KVPAYMKSLVNGADAEKAYEGFLAFKDVV  146
+            ++  +     N   A+ AYE F+A    V
+Sbjct  297  QMALFA---ANPEQAKAAYETFVALTSAV  322
+
+
+> UniRef90_B4ZFY4 Peridinin chlorophyll protein (Fragment) n=2 
+Tax=Amphidinium carterae TaxID=2961 RepID=B4ZFY4_AMPCA
+Length=293
+
+ Score = 73.9 bits (180),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 50/159 (31%), Positives = 83/159 (52%), Gaps = 7/159 (4%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGI----FLQAPGKLQPLEALKAIDKMIVMGAAADP  56
+            D I DA+KK  +A+Y  A++ DW        ++       P +A  A++K++ +G   DP
+Sbjct  56   DSIADASKKFSEATYPIAEKFDWGGSSAVAKYIADASASNPRQAALAVEKLLEVGLTMDP  115
+
+Query  57   KLLKAAAEAHHKAIGSI-SGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKIT  115
+            KL++AA EAH KA+ S  +    + S+ D+  VN AL R+IAS  +     +  +  +  
+Sbjct  116  KLVRAAVEAHSKALDSAKTNAKLMASKEDFAAVNEALARMIASADKQKFAALRTAFPESR  175
+
+Query  116  DPKVPAYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSA  154
+            + +   +  +  NG +AEKAYE F A    V+ + +  A
+Sbjct  176  ELQGKLFAGN--NGYEAEKAYESFKALTSAVRDASINGA  212
+
+
+> UniRef90_A0A0H4NTL7 Chloroplast soluble peridinin chlorophyll 
+a binding protein (Fragment) n=2 Tax=Warnowia sp. TaxID=1679438 
+RepID=A0A0H4NTL7_9DINO
+Length=96
+
+ Score = 69.3 bits (168),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 40/96 (42%), Positives = 55/96 (57%), Gaps = 2/96 (2%)
+
+Query  56   PKLLKAAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKIT  115
+            P  LK       +AI  I    GV S  D++ +N+A+G +IASVP    MD+Y++ S + 
+Sbjct  1    PIWLKKGFWHTARAIAGIDA-KGVCSIVDFEAINSAIGHMIASVPAATTMDLYNAFSAVV  59
+
+Query  116  -DPKVPAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              P  P Y+   V  ++AE AY+ FL FKDVVK SQ
+Sbjct  60   VKPDAPQYLMGTVTPSNAEAAYKAFLEFKDVVKASQ  95
+
+
+> UniRef90_O76183 Peridinin-chlorophyll a protein, high-salt form 
+n=1 Tax=Amphidinium carterae TaxID=2961 RepID=O76183_AMPCA
+Length=381
+
+ Score = 69.3 bits (168),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 48/159 (30%), Positives = 82/159 (52%), Gaps = 7/159 (4%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGI----FLQAPGKLQPLEALKAIDKMIVMGAAADP  56
+            D I DA+K+  DA+Y  A++ DW        ++       P +A  A++K++ +G   DP
+Sbjct  55   DGIADASKRFSDATYPIAEKFDWGGSSAIAKYIADASASNPRQAALAVEKLLEVGLTMDP  114
+
+Query  57   KLLKAAAEAHHKAIGSI-SGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKIT  115
+            KL++AA EAH KA+ S  +    + S+ D+  VN AL R+IAS  +     +  +  +  
+Sbjct  115  KLVRAAVEAHSKALDSAKTNAKLMASKEDFAAVNEALARMIASADKQKFAALRTAFPESR  174
+
+Query  116  DPKVPAYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSA  154
+            + +   +  +  N  +AEKAY+ F A    V+ + +  A
+Sbjct  175  ELQGKLFGGN--NAFEAEKAYDSFKALTSAVRDASINGA  211
+
+
+ Score = 45.1 bits (105),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 39/152 (26%), Positives = 67/152 (44%), Gaps = 7/152 (5%)
+
+Query  3    IGDAAKKLGDASYAFAKEVDWNN----GIFLQAPGKLQPLEALKAIDKMIVMGAAADPKL  58
+            +G AAKK  +A+Y    ++DW        +++      P      IDK + +    +   
+Sbjct  231  VGRAAKKFSEATYPIMDKLDWGKSPEISKYIETASAKNPKMMADGIDKTLEVALTMNQNA  290
+
+Query  59   LKAAAEAHHKAI-GSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDP  117
+            +  A  AH +AI G+++ P  V  R D+  VN AL ++IA+        +  +     D 
+Sbjct  291  INDAVFAHVRAIKGALNTPGLVAERDDFARVNLALAKMIATAHPAKFKALLTAFPGNADL  350
+
+Query  118  KVPAYMKSLVNGADAEKAYEGFLAFKDVVKKS  149
+            ++  +  +  N   A+ AYE F+A    V  S
+Sbjct  351  QMALFAAN--NPEQAKAAYETFVALTSAVASS  380
+
+
+> UniRef90_S0DE72 Putative peridinin-chlorophyll a-binding protein 
+n=2 Tax=termite gut metagenome TaxID=433724 RepID=S0DE72_9ZZZZ
+Length=113
+
+ Score = 65.9 bits (159),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 39/95 (41%), Positives = 54/95 (57%), Gaps = 1/95 (1%)
+
+Query  55   DPKLLKAAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKI  114
+            DP  LK  A AH KAIG++    GV    D   +N+A+G +I S  E+  M  +++   I
+Sbjct  2    DPAYLKEGALAHAKAIGNVDA-KGVLPLDDLIAINSAIGHMIKSSGESSTMGTFNAFKGI  60
+
+Query  115  TDPKVPAYMKSLVNGADAEKAYEGFLAFKDVVKKS  149
+                +P Y+ S VN  DA++AY+  L FKDVVK S
+Sbjct  61   LPDYIPFYLLSSVNPLDAKEAYDALLQFKDVVKAS  95
+
+
+> UniRef90_Q9FEY0 Peridinin-chl a-protein (PCP) (Fragment) n=1 
+Tax=Heterocapsa pygmaea TaxID=35672 RepID=Q9FEY0_HETPY
+Length=110
+
+ Score = 62.8 bits (151),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 32/55 (58%), Positives = 40/55 (73%), Gaps = 1/55 (2%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAAD  55
+            D+I DAAKKL +ASY F KE+DW+  ++ + P    P + LKAIDKMIVMGAA D
+Sbjct  53   DKIDDAAKKLSEASYPFLKEIDWSADVYGKLPTA-NPFQVLKAIDKMIVMGAAMD  106
+
+
+> UniRef90_A9YEC6 Chloroplast peridinin chlorophyll-a binding protein 
+apoprotein (Fragment) n=1 Tax=Symbiodinium sp. ex Stylophora 
+pistillata TaxID=304320 RepID=A9YEC6_9DINO
+Length=107
+
+ Score = 62.0 bits (149),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 46/74 (62%), Positives = 54/74 (73%), Gaps = 2/74 (3%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQ-APGKLQPLEALKAIDKMIVMGAAADPKLL  59
+            ++IG   K L D SY F K++DW + I+L+  PGK  P E LKAIDKMIVMG+  D  LL
+Sbjct  35   EKIGGXXKXLYDXSYPFIKDIDWLSDIYLKPLPGKTAP-ETLKAIDKMIVMGSKMDGNLL  93
+
+Query  60   KAAAEAHHKAIGSI  73
+            KAAAEAHHKAIGSI
+Sbjct  94   KAAAEAHHKAIGSI  107
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.129    0.363    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 442921864710
+Results from round 2
+
+
+Query= d1pprm1
+
+Length=156
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_Q8GTI3 Peridinin chlorophyll-a binding protein apoprot...  216     5e-67
+  UniRef90_G9I8I1 Chloroplast soluble peridinin-chlorophyll a-bin...  214     2e-65
+  UniRef90_P51874 Peridinin-chlorophyll a-binding protein, chloro...  213     9e-65
+  UniRef90_G9I8Q6 Chloroplast soluble peridinin-chlorophyll a-bin...  210     2e-63
+  UniRef90_P80484 Peridinin-chlorophyll a-binding protein 1, chlo...  197     2e-58
+  UniRef90_O00941 Peridinin-chlorophyll a-binding protein PCP n=1...  196     4e-58
+  UniRef90_Q2TLN0 Chloroplast peridinin-chlorophyll a-binding pro...  193     9e-57
+  UniRef90_G9I8R8 Chloroplast soluble peridinin-chlorophyll a-bin...  186     3e-56
+  UniRef90_Q9FEY4 Peridinin-chl a protein n=2 Tax=Heterocapsa pyg...  175     5e-52
+  UniRef90_Q8GS40 Chloroplast soluble peridinin-chlorophyll a-bin...  173     5e-51
+  UniRef90_E1CBR8 Peridinin-chlorophyll protein n=1 Tax=Millepora...  164     7e-48
+  UniRef90_G9I8P4 Chloroplast soluble peridinin-chlorophyll a-bin...  163     3e-47
+  UniRef90_Q8GTH7 Peridinin chlorophyll-a binding protein apoprot...  155     2e-43
+  UniRef90_Q8GTH3 Peridinin chlorophyll-a binding protein apoprot...  144     7e-40
+  UniRef90_B4ZFY4 Peridinin chlorophyll protein (Fragment) n=2 Ta...  141     5e-38
+  UniRef90_P80483 Peridinin-chlorophyll a-binding protein 3 n=2 T...  142     9e-38
+  UniRef90_A0A0H4NWY0 Peridinin chorophyll binding protein (Fragm...  131     4e-36
+  UniRef90_O76183 Peridinin-chlorophyll a protein, high-salt form...  138     6e-36
+  UniRef90_Q38691 Precursor of peridinin-chlorophylla-protein (PC...  130     2e-35
+  UniRef90_Q8H1K6 Peridinin chlorophyll-a binding protein apoprot...  124     7e-33
+  UniRef90_S0DE72 Putative peridinin-chlorophyll a-binding protei...  120     1e-31
+  UniRef90_A0A0H4NTL7 Chloroplast soluble peridinin chlorophyll a...  116     2e-30
+  UniRef90_A0A0H4NWY2 Chloroplast soluble peridinin chlorophyll a...  115     4e-30
+  UniRef90_Q9FEY2 Peridinin-chl a protein (Fragment) n=1 Tax=Hete...  112     1e-28
+  UniRef90_Q8GTI9 Peridinin chlorophyll-a binding protein apoprot...  105     2e-25
+  UniRef90_A9YEC6 Chloroplast peridinin chlorophyll-a binding pro...  80.6    2e-16
+  UniRef90_Q9FEY0 Peridinin-chl a-protein (PCP) (Fragment) n=1 Ta...  78.2    2e-15
+  UniRef90_P51889 Peridinin-chlorophyll a-binding protein (Fragme...  69.0    1e-12
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_B6SBJ7 Peridinin chlorophyll protein (Fragment) n=1 Ta...  52.4    2e-06
+
+
+> UniRef90_Q8GTI3 Peridinin chlorophyll-a binding protein apoprotein 
+(Fragment) n=7 Tax=Symbiodinium sp. RKT-203 TaxID=209683 
+RepID=Q8GTI3_9DINO
+Length=289
+
+ Score = 216 bits (551),  Expect = 5e-67, Method: Composition-based stats.
+ Identities = 134/156 (86%), Positives = 142/156 (91%), Gaps = 0/156 (0%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            DEIGDAAKKLGDASY+FAKEVDWNNGIFLQAPGK QPL+ALKAIDKMI MGAAADPKLLK
+Sbjct  45   DEIGDAAKKLGDASYSFAKEVDWNNGIFLQAPGKFQPLKALKAIDKMIEMGAAADPKLLK  104
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+             AAEAHHKAIGSISGPNGVTSRADWD VNAALGRV+ASVP+  VM VYDSV  ITDPKVP
+Sbjct  105  EAAEAHHKAIGSISGPNGVTSRADWDAVNAALGRVVASVPKAKVMAVYDSVKDITDPKVP  164
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAAG  156
+            AYMKSLVNG DAEKAY+ FL FKDVV K+QVT+A+ 
+Sbjct  165  AYMKSLVNGPDAEKAYQAFLEFKDVVAKNQVTTASA  200
+
+
+ Score = 83.3 bits (204),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 52/83 (63%), Positives = 58/83 (70%), Gaps = 1/83 (1%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+IG AAK L DASY F K++DW + I+L+        E LKAIDKMIVMGA  D  LLK
+Sbjct  208  DKIGVAAKALSDASYPFIKDIDWLSDIYLKPLPGKTAPETLKAIDKMIVMGAKMDGNLLK  267
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRA  83
+            AAAEAHHKAIGSI    GVTS A
+Sbjct  268  AAAEAHHKAIGSIDA-KGVTSTA  289
+
+
+> UniRef90_G9I8I1 Chloroplast soluble peridinin-chlorophyll a-binding 
+protein n=127 Tax=Symbiodinium TaxID=2949 RepID=G9I8I1_9DINO
+Length=366
+
+ Score = 214 bits (546),  Expect = 2e-65, Method: Composition-based stats.
+ Identities = 130/156 (83%), Positives = 143/156 (92%), Gaps = 0/156 (0%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+IGDAAKKLGDASY FAKEVDWNNG+FLQAPG  QPL+ALKAIDKMI MGAAADP+LLK
+Sbjct  54   DQIGDAAKKLGDASYDFAKEVDWNNGLFLQAPGSFQPLKALKAIDKMIEMGAAADPELLK  113
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+             AA+AHHKAIGSISGPNGVTSRADWD VNAALGRV+ASVP+  VMDVYD+V+ ITDPKVP
+Sbjct  114  KAADAHHKAIGSISGPNGVTSRADWDAVNAALGRVVASVPKQKVMDVYDAVTDITDPKVP  173
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAAG  156
+            AYMKSLVNGADAEKAY+GFL FKDVV  +QVT+A+ 
+Sbjct  174  AYMKSLVNGADAEKAYQGFLEFKDVVAANQVTTASA  209
+
+
+ Score = 157 bits (398),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 88/150 (59%), Positives = 105/150 (70%), Gaps = 1/150 (1%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+IG AAK L DASY F K++DW + I+L+        E LKAIDKMIVMG+  D  LLK
+Sbjct  217  DKIGTAAKALSDASYPFIKDIDWLSDIYLKPLPGKTAPETLKAIDKMIVMGSKMDGNLLK  276
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAAEAHHKAIGSI    GVTS  D++ V+AALGR++ASVP+  VMDVYDS++KI DP V 
+Sbjct  277  AAAEAHHKAIGSIDA-KGVTSPEDYEAVDAALGRIVASVPKQTVMDVYDSMAKIVDPSVT  335
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              M S VN  DA  A +GF  FKDVV+  Q
+Sbjct  336  NNMFSTVNPLDALSAAKGFYTFKDVVEAVQ  365
+
+
+> UniRef90_P51874 Peridinin-chlorophyll a-binding protein, chloroplastic 
+n=47 Tax=Symbiodinium TaxID=2949 RepID=PCP_SYMSP
+Length=365
+
+ Score = 213 bits (542),  Expect = 9e-65, Method: Composition-based stats.
+ Identities = 133/156 (85%), Positives = 143/156 (92%), Gaps = 0/156 (0%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            DEIGDAAKKLGDASY+FAKEVDWNNGIFLQAPGK QPLEALKAIDKMI MGAAADPKLLK
+Sbjct  53   DEIGDAAKKLGDASYSFAKEVDWNNGIFLQAPGKFQPLEALKAIDKMIEMGAAADPKLLK  112
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+             AAEAHHKAIGSISGPNGVTSRADWD VNAA+GRV+ASVP+  VM VYDSV+ ITDP VP
+Sbjct  113  DAAEAHHKAIGSISGPNGVTSRADWDAVNAAIGRVVASVPKAKVMAVYDSVTAITDPGVP  172
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAAG  156
+            AYMKSLVNG DAEKAY+GFL FKDVV+K+QV +A+ 
+Sbjct  173  AYMKSLVNGPDAEKAYQGFLEFKDVVEKNQVATASA  208
+
+
+ Score = 162 bits (409),  Expect = 4e-45, Method: Composition-based stats.
+ Identities = 87/150 (58%), Positives = 107/150 (71%), Gaps = 1/150 (1%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+IG+AAK L DASY F K++DW + I+L+        E LKAIDKMIVMGA  D  LLK
+Sbjct  216  DKIGEAAKALSDASYPFIKDIDWLSDIYLKPLPGKTAPETLKAIDKMIVMGAKMDGNLLK  275
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAAEAHHKAIGSI    GVTS AD++ VNAA+GR++ASVP+  VMDVY+S++ + D  VP
+Sbjct  276  AAAEAHHKAIGSIDA-TGVTSAADYEAVNAAIGRLVASVPKTTVMDVYNSMAGVVDSSVP  334
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              + S VN  DA  A +GF  FKDVV+ SQ
+Sbjct  335  NNLFSKVNPLDAVAAAKGFYTFKDVVEASQ  364
+
+
+> UniRef90_G9I8Q6 Chloroplast soluble peridinin-chlorophyll a-binding 
+protein n=1 Tax=Symbiodinium microadriaticum TaxID=2951 
+RepID=G9I8Q6_SYMMI
+Length=365
+
+ Score = 210 bits (534),  Expect = 2e-63, Method: Composition-based stats.
+ Identities = 127/156 (81%), Positives = 138/156 (88%), Gaps = 0/156 (0%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            DEIGDA+KKLGDASY FAKEVDWNNGIFLQAPGK QPL+ALKAIDKMI MGAAADPKLL+
+Sbjct  53   DEIGDASKKLGDASYNFAKEVDWNNGIFLQAPGKFQPLKALKAIDKMIEMGAAADPKLLR  112
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAAEAHHKAIGSIS PNGVTSRADWD VNAALGRV+ASVP+  VM VYD+V  ITDPKVP
+Sbjct  113  AAAEAHHKAIGSISRPNGVTSRADWDEVNAALGRVVASVPKAKVMAVYDAVKDITDPKVP  172
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAAG  156
+            AYMKSLVNG    + Y+GFL FKDVV K+QVT+A+ 
+Sbjct  173  AYMKSLVNGLMPRRPYQGFLEFKDVVAKNQVTAASA  208
+
+
+ Score = 164 bits (416),  Expect = 5e-46, Method: Composition-based stats.
+ Identities = 89/150 (59%), Positives = 109/150 (73%), Gaps = 1/150 (1%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+IG AAK+L DASY F K++DW + I+L+        E LKAIDKMIVMG+  D  LLK
+Sbjct  216  DKIGAAAKQLSDASYPFIKDIDWLSDIYLKPLPGKTAPETLKAIDKMIVMGSKMDGNLLK  275
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAAEAHHKAIGS+    GVTS AD++ VNAALGR++ASVP++ VMDVY+S++KI DP V 
+Sbjct  276  AAAEAHHKAIGSVDS-KGVTSAADYEAVNAALGRLVASVPKDTVMDVYNSMAKIVDPTVT  334
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              M S VN  DA  A +GF  FKDVV+ SQ
+Sbjct  335  NNMFSKVNPLDAVAAAKGFYTFKDVVQASQ  364
+
+
+> UniRef90_P80484 Peridinin-chlorophyll a-binding protein 1, chloroplastic 
+n=3 Tax=Amphidinium carterae TaxID=2961 RepID=PCP1_AMPCA
+Length=370
+
+ Score = 197 bits (500),  Expect = 2e-58, Method: Composition-based stats.
+ Identities = 154/156 (99%), Positives = 156/156 (100%), Gaps = 0/156 (0%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK
+Sbjct  58   DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  117
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAAEAHHKAIGS+SGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP
+Sbjct  118  AAAEAHHKAIGSVSGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  177
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAAG  156
+            AYMKSLV+GADAEKAYEGFLAFKDVVKKSQVTSAAG
+Sbjct  178  AYMKSLVSGADAEKAYEGFLAFKDVVKKSQVTSAAG  213
+
+
+ Score = 146 bits (368),  Expect = 4e-39, Method: Composition-based stats.
+ Identities = 84/150 (56%), Positives = 108/150 (72%), Gaps = 1/150 (1%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+IG AA++L +ASY F KE+DW + ++++    +   ++LKAIDKMIVMGA AD   LK
+Sbjct  221  DKIGVAAQQLSEASYPFLKEIDWLSDVYMKPLPGVSAQQSLKAIDKMIVMGAQADGNALK  280
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAAEAHHKAIGSI    GVTS AD+  VNAALGRVIASVP++ VMDVY++++  TD  +P
+Sbjct  281  AAAEAHHKAIGSIDA-TGVTSAADYAAVNAALGRVIASVPKSTVMDVYNAMAGATDTSIP  339
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              M S VN  DA  A + F  FKDVV+ +Q
+Sbjct  340  LNMFSKVNPLDANAAAKAFYTFKDVVQAAQ  369
+
+
+> UniRef90_O00941 Peridinin-chlorophyll a-binding protein PCP n=1 
+Tax=Lingulodinium polyedrum TaxID=160621 RepID=O00941_LINPO
+Length=375
+
+ Score = 196 bits (498),  Expect = 4e-58, Method: Composition-based stats.
+ Identities = 141/156 (90%), Positives = 148/156 (95%), Gaps = 0/156 (0%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            DEIGDAAKKLGD+SYAFAKEVDWNNGIFLQAPGK QPLEALKAIDKMIVMG  ADPKLLK
+Sbjct  60   DEIGDAAKKLGDSSYAFAKEVDWNNGIFLQAPGKFQPLEALKAIDKMIVMGVQADPKLLK  119
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAA+AHHKAIGSISGPNGVTSRADWD+VNAALGRVIASVPE  VMDVY+SVS ITDP VP
+Sbjct  120  AAADAHHKAIGSISGPNGVTSRADWDSVNAALGRVIASVPEATVMDVYNSVSGITDPAVP  179
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAAG  156
+            AYMKSLVNGADAEKAYEGFLAFKDVVK+SQV++AA 
+Sbjct  180  AYMKSLVNGADAEKAYEGFLAFKDVVKRSQVSTAAA  215
+
+
+ Score = 150 bits (378),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 81/150 (54%), Positives = 104/150 (69%), Gaps = 1/150 (1%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D IG+AAKKL + SY F K+++W + I+L+        +   AIDKMI+MGA AD  LLK
+Sbjct  224  DAIGEAAKKLSEQSYPFLKDINWLSDIYLKPLPDATISKKAIAIDKMIMMGAKADGNLLK  283
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAA+AHH+AIGSI   NGVTS AD+  VNAALGRV+ASVP+ MVMDVY+S++ +  P VP
+Sbjct  284  AAAQAHHQAIGSIDA-NGVTSLADYSAVNAALGRVVASVPKKMVMDVYNSMASLVAPTVP  342
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              M + VN  DA  A + F  FKDVV+ + 
+Sbjct  343  NNMFASVNPLDANAAAKAFYTFKDVVQAAS  372
+
+
+> UniRef90_Q2TLN0 Chloroplast peridinin-chlorophyll a-binding protein 
+n=2 Tax=Alexandrium tamarense TaxID=2926 RepID=Q2TLN0_ALETA
+Length=368
+
+ Score = 193 bits (489),  Expect = 9e-57, Method: Composition-based stats.
+ Identities = 138/154 (90%), Positives = 146/154 (95%), Gaps = 0/154 (0%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            DEIGDAAKKLGDASY+FAKEVDW NG+FLQAPG  QPLEALKAIDKMIVMGAAADPKLLK
+Sbjct  56   DEIGDAAKKLGDASYSFAKEVDWKNGLFLQAPGSFQPLEALKAIDKMIVMGAAADPKLLK  115
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAA AHHKAIGSISG NGVTS+ADWD+VNAALGRVIASVPE+MVMDVY+SV  ITDP+VP
+Sbjct  116  AAASAHHKAIGSISGVNGVTSKADWDSVNAALGRVIASVPESMVMDVYNSVKGITDPQVP  175
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSA  154
+            AYMKSLVNGADAEKAYEGFLAFKDVVKK+QV SA
+Sbjct  176  AYMKSLVNGADAEKAYEGFLAFKDVVKKNQVASA  209
+
+
+ Score = 145 bits (365),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 84/150 (56%), Positives = 102/150 (68%), Gaps = 1/150 (1%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D IG AAK L + SY F K+++W + I+L+        +ALKAIDKMIVMGAAAD   LK
+Sbjct  219  DNIGVAAKALSEQSYPFLKDINWLSDIYLKPLPGASADKALKAIDKMIVMGAAADGNALK  278
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAA AHH AIGSI    GVTS AD++ VNAALGRVIASVP++MVMDVY++ + +  P +P
+Sbjct  279  AAAAAHHTAIGSIDA-KGVTSAADYEAVNAALGRVIASVPKSMVMDVYNAFAGLVSPTIP  337
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              M   VN  DA  A + F  FKDVV  SQ
+Sbjct  338  NNMFQSVNALDANAAAKAFYTFKDVVASSQ  367
+
+
+> UniRef90_G9I8R8 Chloroplast soluble peridinin-chlorophyll a-binding 
+protein n=11 Tax=Symbiodinium microadriaticum TaxID=2951 
+RepID=G9I8R8_SYMMI
+Length=203
+
+ Score = 186 bits (473),  Expect = 3e-56, Method: Composition-based stats.
+ Identities = 69/151 (46%), Positives = 95/151 (63%), Gaps = 3/151 (2%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+I DAAK L + SY F KE+DW + ++ + P +   L+ LKAID M+ MGA+ DP  LK
+Sbjct  54   DKIDDAAKVLSEKSYPFLKEIDWTSDVYGKLPTQ-NALDVLKAIDTMLKMGASMDPAALK  112
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKIT-DPKV  119
+                AH KAI ++    GV + AD+  +NAA+G +I+SVP +  MDVY++ +K      V
+Sbjct  113  TGVLAHSKAIANMDS-KGVATLADYTAINAAIGHMISSVPASQTMDVYNAFNKFNLGNDV  171
+
+Query  120  PAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              YM S VN  DA+ AY+  + FKDVVK SQ
+Sbjct  172  GPYMMSKVNAGDAKAAYQALMDFKDVVKASQ  202
+
+
+> UniRef90_Q9FEY4 Peridinin-chl a protein n=2 Tax=Heterocapsa pygmaea 
+TaxID=35672 RepID=Q9FEY4_HETPY
+Length=201
+
+ Score = 175 bits (444),  Expect = 5e-52, Method: Composition-based stats.
+ Identities = 83/151 (55%), Positives = 103/151 (68%), Gaps = 3/151 (2%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+I DAAKKL +ASY F KE+DW++ ++ + P    P + LKA+DKMIVMGAA D   LK
+Sbjct  52   DKIDDAAKKLSEASYPFLKEIDWSSDVYGKLPTA-NPFQVLKAVDKMIVMGAAMDSAALK  110
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPK-V  119
+            A AEAHHKAIGSI    GVT+ AD++ VNAA+G ++AS  E+  MDVY+  +     K V
+Sbjct  111  AGAEAHHKAIGSIDA-KGVTTLADYEAVNAAIGHMVASAGESKTMDVYNVFAGFNLGKDV  169
+
+Query  120  PAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              YM S VN ADA  AY+ FL FKD VK SQ
+Sbjct  170  GPYMMSKVNAADASAAYKAFLEFKDAVKASQ  200
+
+
+> UniRef90_Q8GS40 Chloroplast soluble peridinin-chlorophyll a-binding 
+protein n=11 Tax=Symbiodinium pilosum TaxID=2952 RepID=Q8GS40_SYMPI
+Length=204
+
+ Score = 173 bits (437),  Expect = 5e-51, Method: Composition-based stats.
+ Identities = 68/151 (45%), Positives = 96/151 (64%), Gaps = 3/151 (2%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+I DAAK L + SY F KE+DW + ++ + P +  PL+ + AID M+ MGAA DP  LK
+Sbjct  55   DKIDDAAKVLSEKSYPFLKEIDWTSDVYAKLPTQ-PPLKVMTAIDTMLKMGAAMDPAALK  113
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKIT-DPKV  119
+                AH +AI ++    GV + AD+  +N+A+G +I+SVP +  MDVY++ +K      V
+Sbjct  114  TGVLAHSQAIANMDS-KGVATLADYTAINSAIGHMISSVPASKTMDVYNAFAKFNLGSDV  172
+
+Query  120  PAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              YM S VN ADA+ AY+  + FKDVVK SQ
+Sbjct  173  GPYMMSKVNAADAQAAYKALMDFKDVVKASQ  203
+
+
+> UniRef90_E1CBR8 Peridinin-chlorophyll protein n=1 Tax=Millepora 
+dichotoma TaxID=544484 RepID=E1CBR8_MILDI
+Length=202
+
+ Score = 164 bits (416),  Expect = 7e-48, Method: Composition-based stats.
+ Identities = 71/151 (47%), Positives = 100/151 (66%), Gaps = 3/151 (2%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+I DAAK L + SY F KE+DW + ++ + P +  PLE LKAI+ M+ MGA+ D   LK
+Sbjct  53   DKIDDAAKVLSEKSYPFLKEIDWTSDVYGKLPTQ-PPLEVLKAINTMLKMGASMDSAALK  111
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPK-V  119
+            + A AH +AI ++    GV + AD+  +NAA+G +IASVP +  MDVY++ +K +  K V
+Sbjct  112  SGALAHSQAIANMDS-KGVATLADYTAINAAIGHMIASVPASQTMDVYNAFNKFSLGKDV  170
+
+Query  120  PAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              YM S V+ ADA+ AY+  + FKDVVK SQ
+Sbjct  171  GPYMMSKVDAADAKAAYQALMDFKDVVKASQ  201
+
+
+> UniRef90_G9I8P4 Chloroplast soluble peridinin-chlorophyll a-binding 
+protein n=5 Tax=Symbiodinium muscatinei TaxID=128924 
+RepID=G9I8P4_SYMMU
+Length=198
+
+ Score = 163 bits (412),  Expect = 3e-47, Method: Composition-based stats.
+ Identities = 70/151 (46%), Positives = 98/151 (65%), Gaps = 3/151 (2%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+I DAAK L + SY F KE+DW + ++ + P + +P+  ++AI+KM+VMGAA D + LK
+Sbjct  49   DKIDDAAKVLSEKSYPFLKEIDWTSDVYAKLPTQ-KPVAVMEAINKMLVMGAAMDSEALK  107
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKIT-DPKV  119
+                AH KAI  +     V +  D+  +N+A+G +IASVP +  MDVY++ +K +    V
+Sbjct  108  KGVLAHAKAIDGMDS-KLVATLDDYTAINSAIGHMIASVPASKTMDVYNAFAKFSLGSDV  166
+
+Query  120  PAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              YM S VN ADA+ AYE  LAFKDVVK SQ
+Sbjct  167  GPYMMSKVNAADAKAAYEALLAFKDVVKASQ  197
+
+
+> UniRef90_Q8GTH7 Peridinin chlorophyll-a binding protein apoprotein 
+(Fragment) n=7 Tax=unclassified Symbiodinium TaxID=279888 
+RepID=Q8GTH7_9DINO
+Length=267
+
+ Score = 155 bits (392),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 87/150 (58%), Positives = 107/150 (71%), Gaps = 1/150 (1%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+IG AAK L DASY+F K++DW + ++L+        E LKAIDKMIVMG+  D  LLK
+Sbjct  118  DKIGTAAKALSDASYSFIKDIDWLSDVYLKPLPGKTAPETLKAIDKMIVMGSKMDGNLLK  177
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAAEAHHKAIGSI    GVTS AD++ VNAALGR++ASVP+  VMDVY+S++K+ DP V 
+Sbjct  178  AAAEAHHKAIGSIDA-KGVTSPADYEAVNAALGRIVASVPKQTVMDVYNSMAKVVDPSVT  236
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              M S VN  DA  A +GF  FKDVV+  Q
+Sbjct  237  NNMFSKVNPLDALSAAKGFYTFKDVVEAVQ  266
+
+
+ Score = 147 bits (370),  Expect = 3e-40, Method: Composition-based stats.
+ Identities = 88/110 (80%), Positives = 97/110 (88%), Gaps = 0/110 (0%)
+
+Query  47   MIVMGAAADPKLLKAAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMD  106
+            MI MGAAADP+LLK AA+AHHKAIGSISGPNGVT RADWD  NAALGRV+ASVP+  VMD
+Sbjct  1    MIEMGAAADPELLKKAADAHHKAIGSISGPNGVTFRADWDAKNAALGRVVASVPKQKVMD  60
+
+Query  107  VYDSVSKITDPKVPAYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAAG  156
+            VYD+V  ITDPKVPAYMKSLVNGADAEKAY+GFL FKDVV  +QVT+A+ 
+Sbjct  61   VYDAVKDITDPKVPAYMKSLVNGADAEKAYQGFLEFKDVVAANQVTTASA  110
+
+
+> UniRef90_Q8GTH3 Peridinin chlorophyll-a binding protein apoprotein 
+(Fragment) n=5 Tax=Symbiodinium TaxID=2949 RepID=Q8GTH3_SYMPU
+Length=199
+
+ Score = 144 bits (363),  Expect = 7e-40, Method: Composition-based stats.
+ Identities = 82/142 (58%), Positives = 97/142 (68%), Gaps = 1/142 (1%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+IG AAK L DASY F K++DW + I+L+          LKAIDKMIVMG+  D  LLK
+Sbjct  59   DKIGAAAKALSDASYPFIKDIDWLSDIYLKPLPGKTAPGTLKAIDKMIVMGSKMDGNLLK  118
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAAEAHHKAIGSI    GVTS  D++ VNAALGR++ASVP+  VMDVYDS++KI D  V 
+Sbjct  119  AAAEAHHKAIGSIDA-KGVTSPEDYEAVNAALGRIVASVPKQTVMDVYDSMAKIVDSSVT  177
+
+Query  121  AYMKSLVNGADAEKAYEGFLAF  142
+              M S VN  DA  A +GF  F
+Sbjct  178  NNMFSTVNPLDALSAAKGFYTF  199
+
+
+ Score = 69.8 bits (169),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 39/51 (76%), Positives = 44/51 (86%), Gaps = 0/51 (0%)
+
+Query  106  DVYDSVSKITDPKVPAYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAAG  156
+            DVYD+V  ITDPK PAYMKSLVNGADAEKAY+GFL FKDVV  +QVT+A+ 
+Sbjct  1    DVYDAVKDITDPKAPAYMKSLVNGADAEKAYQGFLEFKDVVAANQVTTASA  51
+
+
+> UniRef90_B4ZFY4 Peridinin chlorophyll protein (Fragment) n=2 
+Tax=Amphidinium carterae TaxID=2961 RepID=B4ZFY4_AMPCA
+Length=293
+
+ Score = 141 bits (356),  Expect = 5e-38, Method: Composition-based stats.
+ Identities = 50/159 (31%), Positives = 83/159 (52%), Gaps = 7/159 (4%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGI----FLQAPGKLQPLEALKAIDKMIVMGAAADP  56
+            D I DA+KK  +A+Y  A++ DW        ++       P +A  A++K++ +G   DP
+Sbjct  56   DSIADASKKFSEATYPIAEKFDWGGSSAVAKYIADASASNPRQAALAVEKLLEVGLTMDP  115
+
+Query  57   KLLKAAAEAHHKAIGSI-SGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKIT  115
+            KL++AA EAH KA+ S  +    + S+ D+  VN AL R+IAS  +     +  +  +  
+Sbjct  116  KLVRAAVEAHSKALDSAKTNAKLMASKEDFAAVNEALARMIASADKQKFAALRTAFPESR  175
+
+Query  116  DPKVPAYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSA  154
+            + +   +  +  NG +AEKAYE F A    V+ + +  A
+Sbjct  176  ELQGKLFAGN--NGYEAEKAYESFKALTSAVRDASINGA  212
+
+
+> UniRef90_P80483 Peridinin-chlorophyll a-binding protein 3 n=2 
+Tax=Amphidinium carterae TaxID=2961 RepID=PCP3_AMPCA
+Length=323
+
+ Score = 142 bits (357),  Expect = 9e-38, Method: Composition-based stats.
+ Identities = 51/161 (32%), Positives = 83/161 (52%), Gaps = 7/161 (4%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGI----FLQAPGKLQPLEALKAIDKMIVMGAAADP  56
+            D I DA+KK  DA+Y  A++ DW        ++       P +A  A++K++  G   DP
+Sbjct  1    DGIADASKKFSDATYPIAEKFDWGGSSAVAKYIADASASNPRQAALAVEKLLETGLTMDP  60
+
+Query  57   KLLKAAAEAHHKAIGS-ISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKIT  115
+            KL++AA  AH KA+ + +S P  V S+ D+  VN AL R+IAS  +     +  +  +  
+Sbjct  61   KLVRAAVAAHSKALDTAVSNPKLVASKEDFAAVNEALARMIASADKQKFAALRTAFPESR  120
+
+Query  116  DPKVPAYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAAG  156
+            + +   +  +  NG +AEKAY+ F A    V+ + +  A  
+Sbjct  121  ELQSSLFAGN--NGYEAEKAYDSFKALTSAVRDASINGANA  159
+
+
+ Score = 84.4 bits (207),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 39/149 (26%), Positives = 65/149 (44%), Gaps = 8/149 (5%)
+
+Query  3    IGDAAKKLGDASYAFAKEVDWNNG----IFLQAPGKLQPLEALKAIDKMIVMGAAADPKL  58
+            +G AAKK  +A+Y   ++++W        +L       P      IDK + +    +  L
+Sbjct  177  VGRAAKKFSEATYPIMEKLNWVKSPEISKYLATASSKDPKMMAPGIDKTLEVALTMNQNL  236
+
+Query  59   LKAAAEAHHKAI-GSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDP  117
+            +  A  AH +AI G+++ P  V  R D+  VN AL ++I S        +  +     D 
+Sbjct  237  INNAVYAHVRAIKGALNTPGFVAERDDFARVNLALAKMIGSADPAKFKALLTAFPGNADL  296
+
+Query  118  KVPAYMKSLVNGADAEKAYEGFLAFKDVV  146
+            ++  +     N   A+ AYE F+A    V
+Sbjct  297  QMALFA---ANPEQAKAAYETFVALTSAV  322
+
+
+> UniRef90_A0A0H4NWY0 Peridinin chorophyll binding protein (Fragment) 
+n=1 Tax=Warnowia sp. TaxID=1679438 RepID=A0A0H4NWY0_9DINO
+Length=93
+
+ Score = 131 bits (329),  Expect = 4e-36, Method: Composition-based stats.
+ Identities = 37/94 (39%), Positives = 58/94 (62%), Gaps = 1/94 (1%)
+
+Query  8    KKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLKAAAEAHH  67
+            K L +ASY F +++ W +  +   P    P +    ++KM++MGA  D   LK   +AH 
+Sbjct  1    KSLSEASYPFLQDIPWFSEYYGSIPTA-NPFQLTYGVEKMLLMGARMDSLALKQGVDAHM  59
+
+Query  68   KAIGSISGPNGVTSRADWDNVNAALGRVIASVPE  101
+            KA+G+++   GV S AD++ +NAA+G +IASVPE
+Sbjct  60   KALGNVNNAKGVCSLADYEAINAAIGHMIASVPE  93
+
+
+> UniRef90_O76183 Peridinin-chlorophyll a protein, high-salt form 
+n=1 Tax=Amphidinium carterae TaxID=2961 RepID=O76183_AMPCA
+Length=381
+
+ Score = 138 bits (347),  Expect = 6e-36, Method: Composition-based stats.
+ Identities = 48/159 (30%), Positives = 82/159 (52%), Gaps = 7/159 (4%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGI----FLQAPGKLQPLEALKAIDKMIVMGAAADP  56
+            D I DA+K+  DA+Y  A++ DW        ++       P +A  A++K++ +G   DP
+Sbjct  55   DGIADASKRFSDATYPIAEKFDWGGSSAIAKYIADASASNPRQAALAVEKLLEVGLTMDP  114
+
+Query  57   KLLKAAAEAHHKAIGSI-SGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKIT  115
+            KL++AA EAH KA+ S  +    + S+ D+  VN AL R+IAS  +     +  +  +  
+Sbjct  115  KLVRAAVEAHSKALDSAKTNAKLMASKEDFAAVNEALARMIASADKQKFAALRTAFPESR  174
+
+Query  116  DPKVPAYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSA  154
+            + +   +  +  N  +AEKAY+ F A    V+ + +  A
+Sbjct  175  ELQGKLFGGN--NAFEAEKAYDSFKALTSAVRDASINGA  211
+
+
+ Score = 90.2 bits (222),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 39/152 (26%), Positives = 67/152 (44%), Gaps = 7/152 (5%)
+
+Query  3    IGDAAKKLGDASYAFAKEVDWNNG----IFLQAPGKLQPLEALKAIDKMIVMGAAADPKL  58
+            +G AAKK  +A+Y    ++DW        +++      P      IDK + +    +   
+Sbjct  231  VGRAAKKFSEATYPIMDKLDWGKSPEISKYIETASAKNPKMMADGIDKTLEVALTMNQNA  290
+
+Query  59   LKAAAEAHHKAI-GSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDP  117
+            +  A  AH +AI G+++ P  V  R D+  VN AL ++IA+        +  +     D 
+Sbjct  291  INDAVFAHVRAIKGALNTPGLVAERDDFARVNLALAKMIATAHPAKFKALLTAFPGNADL  350
+
+Query  118  KVPAYMKSLVNGADAEKAYEGFLAFKDVVKKS  149
+            ++  +  +  N   A+ AYE F+A    V  S
+Sbjct  351  QMALFAAN--NPEQAKAAYETFVALTSAVASS  380
+
+
+> UniRef90_Q38691 Precursor of peridinin-chlorophylla-protein (PCP) 
+(Fragment) n=1 Tax=Amphidinium carterae TaxID=2961 RepID=Q38691_AMPCA
+Length=131
+
+ Score = 130 bits (327),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 74/132 (56%), Positives = 95/132 (72%), Gaps = 2/132 (2%)
+
+Query  19   KEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLKAAAEAHHKAIGSISGPNG  78
+            KE+DW + ++++    +   ++LKAIDKMIVMGA AD   LKAAAEAHHKAIGSI    G
+Sbjct  1    KEIDWLSDVYMKPLPGVSAQQSLKAIDKMIVMGAQADGNALKAAAEAHHKAIGSIDS-TG  59
+
+Query  79   VTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVPAYMKSLVNGADAEKAYEG  138
+            VTS AD+  VNAALGRVIASVP++ VMDVY+S++ +TD  +P  M S VN  DA  A + 
+Sbjct  60   VTSVADYAAVNAALGRVIASVPKSTVMDVYNSMAGVTDTSIPLNMFSKVNPLDANAAAKV  119
+
+Query  139  FLAFKDVVKKSQ  150
+            +  FKDVV+ +Q
+Sbjct  120  Y-TFKDVVQAAQ  130
+
+
+> UniRef90_Q8H1K6 Peridinin chlorophyll-a binding protein apoprotein 
+(Fragment) n=1 Tax=Symbiodinium sp. RKT-203 TaxID=209683 
+RepID=Q8H1K6_9DINO
+Length=134
+
+ Score = 124 bits (310),  Expect = 7e-33, Method: Composition-based stats.
+ Identities = 76/82 (93%), Positives = 79/82 (96%), Gaps = 0/82 (0%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            DEIGDAAKKLGDASY+FAKEVDW+NGIFLQAPGK QPL+ALKAIDKMI MGAAADPKLLK
+Sbjct  53   DEIGDAAKKLGDASYSFAKEVDWSNGIFLQAPGKFQPLKALKAIDKMIEMGAAADPKLLK  112
+
+Query  61   AAAEAHHKAIGSISGPNGVTSR  82
+             AAEAHHKAIGSISGPNGVTSR
+Sbjct  113  EAAEAHHKAIGSISGPNGVTSR  134
+
+
+> UniRef90_S0DE72 Putative peridinin-chlorophyll a-binding protein 
+n=2 Tax=termite gut metagenome TaxID=433724 RepID=S0DE72_9ZZZZ
+Length=113
+
+ Score = 120 bits (301),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 39/96 (41%), Positives = 54/96 (56%), Gaps = 1/96 (1%)
+
+Query  54   ADPKLLKAAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSK  113
+             DP  LK  A AH KAIG++    GV    D   +N+A+G +I S  E+  M  +++   
+Sbjct  1    MDPAYLKEGALAHAKAIGNVDA-KGVLPLDDLIAINSAIGHMIKSSGESSTMGTFNAFKG  59
+
+Query  114  ITDPKVPAYMKSLVNGADAEKAYEGFLAFKDVVKKS  149
+            I    +P Y+ S VN  DA++AY+  L FKDVVK S
+Sbjct  60   ILPDYIPFYLLSSVNPLDAKEAYDALLQFKDVVKAS  95
+
+
+> UniRef90_A0A0H4NTL7 Chloroplast soluble peridinin chlorophyll 
+a binding protein (Fragment) n=2 Tax=Warnowia sp. TaxID=1679438 
+RepID=A0A0H4NTL7_9DINO
+Length=96
+
+ Score = 116 bits (291),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 40/96 (42%), Positives = 55/96 (57%), Gaps = 2/96 (2%)
+
+Query  56   PKLLKAAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSK-I  114
+            P  LK       +AI  I    GV S  D++ +N+A+G +IASVP    MD+Y++ S  +
+Sbjct  1    PIWLKKGFWHTARAIAGIDA-KGVCSIVDFEAINSAIGHMIASVPAATTMDLYNAFSAVV  59
+
+Query  115  TDPKVPAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              P  P Y+   V  ++AE AY+ FL FKDVVK SQ
+Sbjct  60   VKPDAPQYLMGTVTPSNAEAAYKAFLEFKDVVKASQ  95
+
+
+> UniRef90_A0A0H4NWY2 Chloroplast soluble peridinin chlorophyll 
+a binding protein (Fragment) n=2 Tax=Warnowia sp. TaxID=1679438 
+RepID=A0A0H4NWY2_9DINO
+Length=96
+
+ Score = 115 bits (289),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 48/96 (50%), Positives = 62/96 (65%), Gaps = 2/96 (2%)
+
+Query  56   PKLLKAAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKIT  115
+            P  LK    AH KAIGSI    GV S AD++ +N+A+G +IASVP +  MDVY+S S I 
+Sbjct  1    PVALKKGVLAHSKAIGSIDA-KGVCSIADFEAINSAIGHMIASVPASKTMDVYNSFSAIV  59
+
+Query  116  DPK-VPAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              + VP Y+ S V  ++AE AY  F+ FKDVVK +Q
+Sbjct  60   PRQAVPEYLMSTVTPSNAEAAYRAFMGFKDVVKAAQ  95
+
+
+> UniRef90_Q9FEY2 Peridinin-chl a protein (Fragment) n=1 Tax=Heterocapsa 
+pygmaea TaxID=35672 RepID=Q9FEY2_HETPY
+Length=107
+
+ Score = 112 bits (280),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 62/107 (58%), Positives = 73/107 (68%), Gaps = 2/107 (2%)
+
+Query  45   DKMIVMGAAADPKLLKAAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMV  104
+            DKMIVMGAA D   LKA AEAHHKAIGSI    GVT+ AD++ VNAA+G ++AS  E+  
+Sbjct  1    DKMIVMGAAMDSAALKAGAEAHHKAIGSIDA-KGVTTLADYEAVNAAIGHMVASAGESKT  59
+
+Query  105  MDVYDSVSKITDPK-VPAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+            MDVY++ +     K V  YM S VN ADA  AY+ FL FKD VK SQ
+Sbjct  60   MDVYNAFAGFNLGKDVGPYMMSKVNAADASAAYKAFLEFKDAVKASQ  106
+
+
+> UniRef90_Q8GTI9 Peridinin chlorophyll-a binding protein apoprotein 
+(Fragment) n=1 Tax=Symbiodinium sp. RKT-203 TaxID=209683 
+RepID=Q8GTI9_9DINO
+Length=176
+
+ Score = 105 bits (263),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 61/97 (63%), Positives = 71/97 (73%), Gaps = 1/97 (1%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+IG AAK L DASY F K++DW + I+L+        E LKAIDKMIVMGA  D  LLK
+Sbjct  59   DKIGVAAKALSDASYPFIKDIDWLSDIYLKPLPGKTAPETLKAIDKMIVMGAKMDGNLLK  118
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIA  97
+            AAAEAHHKAIGSI    GVTS AD++ VNAALGR++A
+Sbjct  119  AAAEAHHKAIGSIDA-KGVTSAADYEAVNAALGRLVA  154
+
+
+ Score = 71.3 bits (173),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 38/51 (75%), Positives = 42/51 (82%), Gaps = 0/51 (0%)
+
+Query  106  DVYDSVSKITDPKVPAYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAAG  156
+             VYDSV  ITDPKVPAYMKSLVNG DAE AY+ FL FKDVV K+QVT+A+ 
+Sbjct  1    AVYDSVKGITDPKVPAYMKSLVNGPDAENAYKAFLEFKDVVAKNQVTTASA  51
+
+
+> UniRef90_A9YEC6 Chloroplast peridinin chlorophyll-a binding protein 
+apoprotein (Fragment) n=1 Tax=Symbiodinium sp. ex Stylophora 
+pistillata TaxID=304320 RepID=A9YEC6_9DINO
+Length=107
+
+ Score = 80.6 bits (197),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 46/74 (62%), Positives = 54/74 (73%), Gaps = 2/74 (3%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQA-PGKLQPLEALKAIDKMIVMGAAADPKLL  59
+            ++IG   K L D SY F K++DW + I+L+  PGK  P E LKAIDKMIVMG+  D  LL
+Sbjct  35   EKIGGXXKXLYDXSYPFIKDIDWLSDIYLKPLPGKTAP-ETLKAIDKMIVMGSKMDGNLL  93
+
+Query  60   KAAAEAHHKAIGSI  73
+            KAAAEAHHKAIGSI
+Sbjct  94   KAAAEAHHKAIGSI  107
+
+
+> UniRef90_Q9FEY0 Peridinin-chl a-protein (PCP) (Fragment) n=1 
+Tax=Heterocapsa pygmaea TaxID=35672 RepID=Q9FEY0_HETPY
+Length=110
+
+ Score = 78.2 bits (191),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 33/59 (56%), Positives = 41/59 (69%), Gaps = 1/59 (2%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLL  59
+            D+I DAAKKL +ASY F KE+DW+  ++ + P    P + LKAIDKMIVMGAA D   L
+Sbjct  53   DKIDDAAKKLSEASYPFLKEIDWSADVYGKLPTA-NPFQVLKAIDKMIVMGAAMDSAAL  110
+
+
+> UniRef90_P51889 Peridinin-chlorophyll a-binding protein (Fragment) 
+n=1 Tax=Alexandrium cohorticula TaxID=2928 RepID=PCP_ALECO
+Length=49
+
+ Score = 69.0 bits (167),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 43/49 (88%), Positives = 43/49 (88%), Gaps = 0/49 (0%)
+
+Query  1   DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIV  49
+           DEIGDAAKKLGDASYAFAKEVD NNGIFLQAPGK QPLEALK I K  V
+Sbjct  1   DEIGDAAKKLGDASYAFAKEVDCNNGIFLQAPGKFQPLEALKXIXKHXV  49
+
+
+> UniRef90_B6SBJ7 Peridinin chlorophyll protein (Fragment) n=1 
+Tax=Amphidinium carterae TaxID=2961 RepID=B6SBJ7_AMPCA
+Length=85
+
+ Score = 52.4 bits (124),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 24/85 (28%), Positives = 39/85 (46%), Gaps = 3/85 (4%)
+
+Query  66   HHKAI-GSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVPAYMK  124
+            H +AI G+++ P  V  R D+  VN AL ++I S        +  +     D ++  +  
+Sbjct  2    HVRAIKGALNTPGFVAERDDFARVNLALAKMIGSADPAKFKALLTAFPGNADLQMALFAA  61
+
+Query  125  SLVNGADAEKAYEGFLAFKDVVKKS  149
+            +  N   A+ AYE F+A    V  S
+Sbjct  62   N--NPEQAKAAYETFVALTSAVAAS  84
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.128    0.333    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0393    0.140     1.90     42.6     43.6 
+
+Effective search space used: 442921864710
+Results from round 3
+
+
+Query= d1pprm1
+
+Length=156
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_Q8GTI3 Peridinin chlorophyll-a binding protein apoprot...  217     3e-67
+  UniRef90_G9I8I1 Chloroplast soluble peridinin-chlorophyll a-bin...  214     3e-65
+  UniRef90_P51874 Peridinin-chlorophyll a-binding protein, chloro...  213     8e-65
+  UniRef90_G9I8Q6 Chloroplast soluble peridinin-chlorophyll a-bin...  211     7e-64
+  UniRef90_O00941 Peridinin-chlorophyll a-binding protein PCP n=1...  196     4e-58
+  UniRef90_P80484 Peridinin-chlorophyll a-binding protein 1, chlo...  194     2e-57
+  UniRef90_Q2TLN0 Chloroplast peridinin-chlorophyll a-binding pro...  193     6e-57
+  UniRef90_G9I8R8 Chloroplast soluble peridinin-chlorophyll a-bin...  187     2e-56
+  UniRef90_Q9FEY4 Peridinin-chl a protein n=2 Tax=Heterocapsa pyg...  175     6e-52
+  UniRef90_Q8GS40 Chloroplast soluble peridinin-chlorophyll a-bin...  173     5e-51
+  UniRef90_E1CBR8 Peridinin-chlorophyll protein n=1 Tax=Millepora...  164     1e-47
+  UniRef90_G9I8P4 Chloroplast soluble peridinin-chlorophyll a-bin...  163     2e-47
+  UniRef90_Q8GTH7 Peridinin chlorophyll-a binding protein apoprot...  164     1e-46
+  UniRef90_Q8GTH3 Peridinin chlorophyll-a binding protein apoprot...  151     1e-42
+  UniRef90_P80483 Peridinin-chlorophyll a-binding protein 3 n=2 T...  146     3e-39
+  UniRef90_B4ZFY4 Peridinin chlorophyll protein (Fragment) n=2 Ta...  145     3e-39
+  UniRef90_O76183 Peridinin-chlorophyll a protein, high-salt form...  140     9e-37
+  UniRef90_Q38691 Precursor of peridinin-chlorophylla-protein (PC...  134     1e-36
+  UniRef90_A0A0H4NWY0 Peridinin chorophyll binding protein (Fragm...  131     5e-36
+  UniRef90_Q8H1K6 Peridinin chlorophyll-a binding protein apoprot...  124     4e-33
+  UniRef90_S0DE72 Putative peridinin-chlorophyll a-binding protei...  123     7e-33
+  UniRef90_A0A0H4NTL7 Chloroplast soluble peridinin chlorophyll a...  115     6e-30
+  UniRef90_A0A0H4NWY2 Chloroplast soluble peridinin chlorophyll a...  114     1e-29
+  UniRef90_Q9FEY2 Peridinin-chl a protein (Fragment) n=1 Tax=Hete...  112     7e-29
+  UniRef90_Q8GTI9 Peridinin chlorophyll-a binding protein apoprot...  111     2e-27
+  UniRef90_A9YEC6 Chloroplast peridinin chlorophyll-a binding pro...  88.7    2e-19
+  UniRef90_Q9FEY0 Peridinin-chl a-protein (PCP) (Fragment) n=1 Ta...  77.5    3e-15
+  UniRef90_B6SBJ7 Peridinin chlorophyll protein (Fragment) n=1 Ta...  72.5    1e-13
+  UniRef90_P51889 Peridinin-chlorophyll a-binding protein (Fragme...  69.8    6e-13
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_Q8GTI3 Peridinin chlorophyll-a binding protein apoprotein 
+(Fragment) n=7 Tax=Symbiodinium sp. RKT-203 TaxID=209683 
+RepID=Q8GTI3_9DINO
+Length=289
+
+ Score = 217 bits (552),  Expect = 3e-67, Method: Composition-based stats.
+ Identities = 134/156 (86%), Positives = 142/156 (91%), Gaps = 0/156 (0%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            DEIGDAAKKLGDASY+FAKEVDWNNGIFLQAPGK QPL+ALKAIDKMI MGAAADPKLLK
+Sbjct  45   DEIGDAAKKLGDASYSFAKEVDWNNGIFLQAPGKFQPLKALKAIDKMIEMGAAADPKLLK  104
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+             AAEAHHKAIGSISGPNGVTSRADWD VNAALGRV+ASVP+  VM VYDSV  ITDPKVP
+Sbjct  105  EAAEAHHKAIGSISGPNGVTSRADWDAVNAALGRVVASVPKAKVMAVYDSVKDITDPKVP  164
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAAG  156
+            AYMKSLVNG DAEKAY+ FL FKDVV K+QVT+A+ 
+Sbjct  165  AYMKSLVNGPDAEKAYQAFLEFKDVVAKNQVTTASA  200
+
+
+ Score = 89.0 bits (219),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 52/83 (63%), Positives = 58/83 (70%), Gaps = 1/83 (1%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+IG AAK L DASY F K++DW + I+L+        E LKAIDKMIVMGA  D  LLK
+Sbjct  208  DKIGVAAKALSDASYPFIKDIDWLSDIYLKPLPGKTAPETLKAIDKMIVMGAKMDGNLLK  267
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRA  83
+            AAAEAHHKAIGSI    GVTS A
+Sbjct  268  AAAEAHHKAIGSIDA-KGVTSTA  289
+
+
+> UniRef90_G9I8I1 Chloroplast soluble peridinin-chlorophyll a-binding 
+protein n=127 Tax=Symbiodinium TaxID=2949 RepID=G9I8I1_9DINO
+Length=366
+
+ Score = 214 bits (545),  Expect = 3e-65, Method: Composition-based stats.
+ Identities = 130/156 (83%), Positives = 143/156 (92%), Gaps = 0/156 (0%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+IGDAAKKLGDASY FAKEVDWNNG+FLQAPG  QPL+ALKAIDKMI MGAAADP+LLK
+Sbjct  54   DQIGDAAKKLGDASYDFAKEVDWNNGLFLQAPGSFQPLKALKAIDKMIEMGAAADPELLK  113
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+             AA+AHHKAIGSISGPNGVTSRADWD VNAALGRV+ASVP+  VMDVYD+V+ ITDPKVP
+Sbjct  114  KAADAHHKAIGSISGPNGVTSRADWDAVNAALGRVVASVPKQKVMDVYDAVTDITDPKVP  173
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAAG  156
+            AYMKSLVNGADAEKAY+GFL FKDVV  +QVT+A+ 
+Sbjct  174  AYMKSLVNGADAEKAYQGFLEFKDVVAANQVTTASA  209
+
+
+ Score = 166 bits (421),  Expect = 9e-47, Method: Composition-based stats.
+ Identities = 88/150 (59%), Positives = 105/150 (70%), Gaps = 1/150 (1%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+IG AAK L DASY F K++DW + I+L+        E LKAIDKMIVMG+  D  LLK
+Sbjct  217  DKIGTAAKALSDASYPFIKDIDWLSDIYLKPLPGKTAPETLKAIDKMIVMGSKMDGNLLK  276
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAAEAHHKAIGSI    GVTS  D++ V+AALGR++ASVP+  VMDVYDS++KI DP V 
+Sbjct  277  AAAEAHHKAIGSIDA-KGVTSPEDYEAVDAALGRIVASVPKQTVMDVYDSMAKIVDPSVT  335
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              M S VN  DA  A +GF  FKDVV+  Q
+Sbjct  336  NNMFSTVNPLDALSAAKGFYTFKDVVEAVQ  365
+
+
+> UniRef90_P51874 Peridinin-chlorophyll a-binding protein, chloroplastic 
+n=47 Tax=Symbiodinium TaxID=2949 RepID=PCP_SYMSP
+Length=365
+
+ Score = 213 bits (543),  Expect = 8e-65, Method: Composition-based stats.
+ Identities = 133/156 (85%), Positives = 143/156 (92%), Gaps = 0/156 (0%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            DEIGDAAKKLGDASY+FAKEVDWNNGIFLQAPGK QPLEALKAIDKMI MGAAADPKLLK
+Sbjct  53   DEIGDAAKKLGDASYSFAKEVDWNNGIFLQAPGKFQPLEALKAIDKMIEMGAAADPKLLK  112
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+             AAEAHHKAIGSISGPNGVTSRADWD VNAA+GRV+ASVP+  VM VYDSV+ ITDP VP
+Sbjct  113  DAAEAHHKAIGSISGPNGVTSRADWDAVNAAIGRVVASVPKAKVMAVYDSVTAITDPGVP  172
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAAG  156
+            AYMKSLVNG DAEKAY+GFL FKDVV+K+QV +A+ 
+Sbjct  173  AYMKSLVNGPDAEKAYQGFLEFKDVVEKNQVATASA  208
+
+
+ Score = 171 bits (432),  Expect = 2e-48, Method: Composition-based stats.
+ Identities = 87/150 (58%), Positives = 107/150 (71%), Gaps = 1/150 (1%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+IG+AAK L DASY F K++DW + I+L+        E LKAIDKMIVMGA  D  LLK
+Sbjct  216  DKIGEAAKALSDASYPFIKDIDWLSDIYLKPLPGKTAPETLKAIDKMIVMGAKMDGNLLK  275
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAAEAHHKAIGSI    GVTS AD++ VNAA+GR++ASVP+  VMDVY+S++ + D  VP
+Sbjct  276  AAAEAHHKAIGSIDA-TGVTSAADYEAVNAAIGRLVASVPKTTVMDVYNSMAGVVDSSVP  334
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              + S VN  DA  A +GF  FKDVV+ SQ
+Sbjct  335  NNLFSKVNPLDAVAAAKGFYTFKDVVEASQ  364
+
+
+> UniRef90_G9I8Q6 Chloroplast soluble peridinin-chlorophyll a-binding 
+protein n=1 Tax=Symbiodinium microadriaticum TaxID=2951 
+RepID=G9I8Q6_SYMMI
+Length=365
+
+ Score = 211 bits (536),  Expect = 7e-64, Method: Composition-based stats.
+ Identities = 127/156 (81%), Positives = 138/156 (88%), Gaps = 0/156 (0%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            DEIGDA+KKLGDASY FAKEVDWNNGIFLQAPGK QPL+ALKAIDKMI MGAAADPKLL+
+Sbjct  53   DEIGDASKKLGDASYNFAKEVDWNNGIFLQAPGKFQPLKALKAIDKMIEMGAAADPKLLR  112
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAAEAHHKAIGSIS PNGVTSRADWD VNAALGRV+ASVP+  VM VYD+V  ITDPKVP
+Sbjct  113  AAAEAHHKAIGSISRPNGVTSRADWDEVNAALGRVVASVPKAKVMAVYDAVKDITDPKVP  172
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAAG  156
+            AYMKSLVNG    + Y+GFL FKDVV K+QVT+A+ 
+Sbjct  173  AYMKSLVNGLMPRRPYQGFLEFKDVVAKNQVTAASA  208
+
+
+ Score = 173 bits (438),  Expect = 3e-49, Method: Composition-based stats.
+ Identities = 89/150 (59%), Positives = 109/150 (73%), Gaps = 1/150 (1%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+IG AAK+L DASY F K++DW + I+L+        E LKAIDKMIVMG+  D  LLK
+Sbjct  216  DKIGAAAKQLSDASYPFIKDIDWLSDIYLKPLPGKTAPETLKAIDKMIVMGSKMDGNLLK  275
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAAEAHHKAIGS+    GVTS AD++ VNAALGR++ASVP++ VMDVY+S++KI DP V 
+Sbjct  276  AAAEAHHKAIGSVDS-KGVTSAADYEAVNAALGRLVASVPKDTVMDVYNSMAKIVDPTVT  334
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              M S VN  DA  A +GF  FKDVV+ SQ
+Sbjct  335  NNMFSKVNPLDAVAAAKGFYTFKDVVQASQ  364
+
+
+> UniRef90_O00941 Peridinin-chlorophyll a-binding protein PCP n=1 
+Tax=Lingulodinium polyedrum TaxID=160621 RepID=O00941_LINPO
+Length=375
+
+ Score = 196 bits (498),  Expect = 4e-58, Method: Composition-based stats.
+ Identities = 141/156 (90%), Positives = 148/156 (95%), Gaps = 0/156 (0%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            DEIGDAAKKLGD+SYAFAKEVDWNNGIFLQAPGK QPLEALKAIDKMIVMG  ADPKLLK
+Sbjct  60   DEIGDAAKKLGDSSYAFAKEVDWNNGIFLQAPGKFQPLEALKAIDKMIVMGVQADPKLLK  119
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAA+AHHKAIGSISGPNGVTSRADWD+VNAALGRVIASVPE  VMDVY+SVS ITDP VP
+Sbjct  120  AAADAHHKAIGSISGPNGVTSRADWDSVNAALGRVIASVPEATVMDVYNSVSGITDPAVP  179
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAAG  156
+            AYMKSLVNGADAEKAYEGFLAFKDVVK+SQV++AA 
+Sbjct  180  AYMKSLVNGADAEKAYEGFLAFKDVVKRSQVSTAAA  215
+
+
+ Score = 152 bits (385),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 81/150 (54%), Positives = 104/150 (69%), Gaps = 1/150 (1%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D IG+AAKKL + SY F K+++W + I+L+        +   AIDKMI+MGA AD  LLK
+Sbjct  224  DAIGEAAKKLSEQSYPFLKDINWLSDIYLKPLPDATISKKAIAIDKMIMMGAKADGNLLK  283
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAA+AHH+AIGSI   NGVTS AD+  VNAALGRV+ASVP+ MVMDVY+S++ +  P VP
+Sbjct  284  AAAQAHHQAIGSIDA-NGVTSLADYSAVNAALGRVVASVPKKMVMDVYNSMASLVAPTVP  342
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              M + VN  DA  A + F  FKDVV+ + 
+Sbjct  343  NNMFASVNPLDANAAAKAFYTFKDVVQAAS  372
+
+
+> UniRef90_P80484 Peridinin-chlorophyll a-binding protein 1, chloroplastic 
+n=3 Tax=Amphidinium carterae TaxID=2961 RepID=PCP1_AMPCA
+Length=370
+
+ Score = 194 bits (494),  Expect = 2e-57, Method: Composition-based stats.
+ Identities = 154/156 (99%), Positives = 156/156 (100%), Gaps = 0/156 (0%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK
+Sbjct  58   DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  117
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAAEAHHKAIGS+SGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP
+Sbjct  118  AAAEAHHKAIGSVSGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  177
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAAG  156
+            AYMKSLV+GADAEKAYEGFLAFKDVVKKSQVTSAAG
+Sbjct  178  AYMKSLVSGADAEKAYEGFLAFKDVVKKSQVTSAAG  213
+
+
+ Score = 150 bits (379),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 84/150 (56%), Positives = 108/150 (72%), Gaps = 1/150 (1%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+IG AA++L +ASY F KE+DW + ++++    +   ++LKAIDKMIVMGA AD   LK
+Sbjct  221  DKIGVAAQQLSEASYPFLKEIDWLSDVYMKPLPGVSAQQSLKAIDKMIVMGAQADGNALK  280
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAAEAHHKAIGSI    GVTS AD+  VNAALGRVIASVP++ VMDVY++++  TD  +P
+Sbjct  281  AAAEAHHKAIGSIDA-TGVTSAADYAAVNAALGRVIASVPKSTVMDVYNAMAGATDTSIP  339
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              M S VN  DA  A + F  FKDVV+ +Q
+Sbjct  340  LNMFSKVNPLDANAAAKAFYTFKDVVQAAQ  369
+
+
+> UniRef90_Q2TLN0 Chloroplast peridinin-chlorophyll a-binding protein 
+n=2 Tax=Alexandrium tamarense TaxID=2926 RepID=Q2TLN0_ALETA
+Length=368
+
+ Score = 193 bits (490),  Expect = 6e-57, Method: Composition-based stats.
+ Identities = 138/156 (88%), Positives = 146/156 (94%), Gaps = 0/156 (0%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            DEIGDAAKKLGDASY+FAKEVDW NG+FLQAPG  QPLEALKAIDKMIVMGAAADPKLLK
+Sbjct  56   DEIGDAAKKLGDASYSFAKEVDWKNGLFLQAPGSFQPLEALKAIDKMIVMGAAADPKLLK  115
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAA AHHKAIGSISG NGVTS+ADWD+VNAALGRVIASVPE+MVMDVY+SV  ITDP+VP
+Sbjct  116  AAASAHHKAIGSISGVNGVTSKADWDSVNAALGRVIASVPESMVMDVYNSVKGITDPQVP  175
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAAG  156
+            AYMKSLVNGADAEKAYEGFLAFKDVVKK+QV SA  
+Sbjct  176  AYMKSLVNGADAEKAYEGFLAFKDVVKKNQVASAGA  211
+
+
+ Score = 149 bits (376),  Expect = 4e-40, Method: Composition-based stats.
+ Identities = 84/150 (56%), Positives = 102/150 (68%), Gaps = 1/150 (1%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D IG AAK L + SY F K+++W + I+L+        +ALKAIDKMIVMGAAAD   LK
+Sbjct  219  DNIGVAAKALSEQSYPFLKDINWLSDIYLKPLPGASADKALKAIDKMIVMGAAADGNALK  278
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAA AHH AIGSI    GVTS AD++ VNAALGRVIASVP++MVMDVY++ + +  P +P
+Sbjct  279  AAAAAHHTAIGSIDA-KGVTSAADYEAVNAALGRVIASVPKSMVMDVYNAFAGLVSPTIP  337
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              M   VN  DA  A + F  FKDVV  SQ
+Sbjct  338  NNMFQSVNALDANAAAKAFYTFKDVVASSQ  367
+
+
+> UniRef90_G9I8R8 Chloroplast soluble peridinin-chlorophyll a-binding 
+protein n=11 Tax=Symbiodinium microadriaticum TaxID=2951 
+RepID=G9I8R8_SYMMI
+Length=203
+
+ Score = 187 bits (474),  Expect = 2e-56, Method: Composition-based stats.
+ Identities = 69/151 (46%), Positives = 95/151 (63%), Gaps = 3/151 (2%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+I DAAK L + SY F KE+DW + ++ + P +   L+ LKAID M+ MGA+ DP  LK
+Sbjct  54   DKIDDAAKVLSEKSYPFLKEIDWTSDVYGKLPTQ-NALDVLKAIDTMLKMGASMDPAALK  112
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKIT-DPKV  119
+                AH KAI ++    GV + AD+  +NAA+G +I+SVP +  MDVY++ +K      V
+Sbjct  113  TGVLAHSKAIANMDS-KGVATLADYTAINAAIGHMISSVPASQTMDVYNAFNKFNLGNDV  171
+
+Query  120  PAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              YM S VN  DA+ AY+  + FKDVVK SQ
+Sbjct  172  GPYMMSKVNAGDAKAAYQALMDFKDVVKASQ  202
+
+
+> UniRef90_Q9FEY4 Peridinin-chl a protein n=2 Tax=Heterocapsa pygmaea 
+TaxID=35672 RepID=Q9FEY4_HETPY
+Length=201
+
+ Score = 175 bits (443),  Expect = 6e-52, Method: Composition-based stats.
+ Identities = 83/151 (55%), Positives = 103/151 (68%), Gaps = 3/151 (2%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+I DAAKKL +ASY F KE+DW++ ++ + P    P + LKA+DKMIVMGAA D   LK
+Sbjct  52   DKIDDAAKKLSEASYPFLKEIDWSSDVYGKLPTA-NPFQVLKAVDKMIVMGAAMDSAALK  110
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPK-V  119
+            A AEAHHKAIGSI    GVT+ AD++ VNAA+G ++AS  E+  MDVY+  +     K V
+Sbjct  111  AGAEAHHKAIGSIDA-KGVTTLADYEAVNAAIGHMVASAGESKTMDVYNVFAGFNLGKDV  169
+
+Query  120  PAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              YM S VN ADA  AY+ FL FKD VK SQ
+Sbjct  170  GPYMMSKVNAADASAAYKAFLEFKDAVKASQ  200
+
+
+> UniRef90_Q8GS40 Chloroplast soluble peridinin-chlorophyll a-binding 
+protein n=11 Tax=Symbiodinium pilosum TaxID=2952 RepID=Q8GS40_SYMPI
+Length=204
+
+ Score = 173 bits (437),  Expect = 5e-51, Method: Composition-based stats.
+ Identities = 68/151 (45%), Positives = 96/151 (64%), Gaps = 3/151 (2%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+I DAAK L + SY F KE+DW + ++ + P +  PL+ + AID M+ MGAA DP  LK
+Sbjct  55   DKIDDAAKVLSEKSYPFLKEIDWTSDVYAKLPTQ-PPLKVMTAIDTMLKMGAAMDPAALK  113
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKIT-DPKV  119
+                AH +AI ++    GV + AD+  +N+A+G +I+SVP +  MDVY++ +K      V
+Sbjct  114  TGVLAHSQAIANMDS-KGVATLADYTAINSAIGHMISSVPASKTMDVYNAFAKFNLGSDV  172
+
+Query  120  PAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              YM S VN ADA+ AY+  + FKDVVK SQ
+Sbjct  173  GPYMMSKVNAADAQAAYKALMDFKDVVKASQ  203
+
+
+> UniRef90_E1CBR8 Peridinin-chlorophyll protein n=1 Tax=Millepora 
+dichotoma TaxID=544484 RepID=E1CBR8_MILDI
+Length=202
+
+ Score = 164 bits (415),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 71/151 (47%), Positives = 100/151 (66%), Gaps = 3/151 (2%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+I DAAK L + SY F KE+DW + ++ + P +  PLE LKAI+ M+ MGA+ D   LK
+Sbjct  53   DKIDDAAKVLSEKSYPFLKEIDWTSDVYGKLPTQ-PPLEVLKAINTMLKMGASMDSAALK  111
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPK-V  119
+            + A AH +AI ++    GV + AD+  +NAA+G +IASVP +  MDVY++ +K +  K V
+Sbjct  112  SGALAHSQAIANMDS-KGVATLADYTAINAAIGHMIASVPASQTMDVYNAFNKFSLGKDV  170
+
+Query  120  PAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              YM S V+ ADA+ AY+  + FKDVVK SQ
+Sbjct  171  GPYMMSKVDAADAKAAYQALMDFKDVVKASQ  201
+
+
+> UniRef90_G9I8P4 Chloroplast soluble peridinin-chlorophyll a-binding 
+protein n=5 Tax=Symbiodinium muscatinei TaxID=128924 
+RepID=G9I8P4_SYMMU
+Length=198
+
+ Score = 163 bits (413),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 70/151 (46%), Positives = 98/151 (65%), Gaps = 3/151 (2%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+I DAAK L + SY F KE+DW + ++ + P + +P+  ++AI+KM+VMGAA D + LK
+Sbjct  49   DKIDDAAKVLSEKSYPFLKEIDWTSDVYAKLPTQ-KPVAVMEAINKMLVMGAAMDSEALK  107
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKIT-DPKV  119
+                AH KAI  +     V +  D+  +N+A+G +IASVP +  MDVY++ +K +    V
+Sbjct  108  KGVLAHAKAIDGMDS-KLVATLDDYTAINSAIGHMIASVPASKTMDVYNAFAKFSLGSDV  166
+
+Query  120  PAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              YM S VN ADA+ AYE  LAFKDVVK SQ
+Sbjct  167  GPYMMSKVNAADAKAAYEALLAFKDVVKASQ  197
+
+
+> UniRef90_Q8GTH7 Peridinin chlorophyll-a binding protein apoprotein 
+(Fragment) n=7 Tax=unclassified Symbiodinium TaxID=279888 
+RepID=Q8GTH7_9DINO
+Length=267
+
+ Score = 164 bits (414),  Expect = 1e-46, Method: Composition-based stats.
+ Identities = 87/150 (58%), Positives = 107/150 (71%), Gaps = 1/150 (1%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+IG AAK L DASY+F K++DW + ++L+        E LKAIDKMIVMG+  D  LLK
+Sbjct  118  DKIGTAAKALSDASYSFIKDIDWLSDVYLKPLPGKTAPETLKAIDKMIVMGSKMDGNLLK  177
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAAEAHHKAIGSI    GVTS AD++ VNAALGR++ASVP+  VMDVY+S++K+ DP V 
+Sbjct  178  AAAEAHHKAIGSIDA-KGVTSPADYEAVNAALGRIVASVPKQTVMDVYNSMAKVVDPSVT  236
+
+Query  121  AYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              M S VN  DA  A +GF  FKDVV+  Q
+Sbjct  237  NNMFSKVNPLDALSAAKGFYTFKDVVEAVQ  266
+
+
+ Score = 144 bits (364),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 88/110 (80%), Positives = 97/110 (88%), Gaps = 0/110 (0%)
+
+Query  47   MIVMGAAADPKLLKAAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMD  106
+            MI MGAAADP+LLK AA+AHHKAIGSISGPNGVT RADWD  NAALGRV+ASVP+  VMD
+Sbjct  1    MIEMGAAADPELLKKAADAHHKAIGSISGPNGVTFRADWDAKNAALGRVVASVPKQKVMD  60
+
+Query  107  VYDSVSKITDPKVPAYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAAG  156
+            VYD+V  ITDPKVPAYMKSLVNGADAEKAY+GFL FKDVV  +QVT+A+ 
+Sbjct  61   VYDAVKDITDPKVPAYMKSLVNGADAEKAYQGFLEFKDVVAANQVTTASA  110
+
+
+> UniRef90_Q8GTH3 Peridinin chlorophyll-a binding protein apoprotein 
+(Fragment) n=5 Tax=Symbiodinium TaxID=2949 RepID=Q8GTH3_SYMPU
+Length=199
+
+ Score = 151 bits (382),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 82/142 (58%), Positives = 97/142 (68%), Gaps = 1/142 (1%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+IG AAK L DASY F K++DW + I+L+          LKAIDKMIVMG+  D  LLK
+Sbjct  59   DKIGAAAKALSDASYPFIKDIDWLSDIYLKPLPGKTAPGTLKAIDKMIVMGSKMDGNLLK  118
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVP  120
+            AAAEAHHKAIGSI    GVTS  D++ VNAALGR++ASVP+  VMDVYDS++KI D  V 
+Sbjct  119  AAAEAHHKAIGSIDA-KGVTSPEDYEAVNAALGRIVASVPKQTVMDVYDSMAKIVDSSVT  177
+
+Query  121  AYMKSLVNGADAEKAYEGFLAF  142
+              M S VN  DA  A +GF  F
+Sbjct  178  NNMFSTVNPLDALSAAKGFYTF  199
+
+
+ Score = 70.6 bits (171),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 39/51 (76%), Positives = 44/51 (86%), Gaps = 0/51 (0%)
+
+Query  106  DVYDSVSKITDPKVPAYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAAG  156
+            DVYD+V  ITDPK PAYMKSLVNGADAEKAY+GFL FKDVV  +QVT+A+ 
+Sbjct  1    DVYDAVKDITDPKAPAYMKSLVNGADAEKAYQGFLEFKDVVAANQVTTASA  51
+
+
+> UniRef90_P80483 Peridinin-chlorophyll a-binding protein 3 n=2 
+Tax=Amphidinium carterae TaxID=2961 RepID=PCP3_AMPCA
+Length=323
+
+ Score = 146 bits (367),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 51/161 (32%), Positives = 83/161 (52%), Gaps = 7/161 (4%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGI----FLQAPGKLQPLEALKAIDKMIVMGAAADP  56
+            D I DA+KK  DA+Y  A++ DW        ++       P +A  A++K++  G   DP
+Sbjct  1    DGIADASKKFSDATYPIAEKFDWGGSSAVAKYIADASASNPRQAALAVEKLLETGLTMDP  60
+
+Query  57   KLLKAAAEAHHKAIGS-ISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKIT  115
+            KL++AA  AH KA+ + +S P  V S+ D+  VN AL R+IAS  +     +  +  +  
+Sbjct  61   KLVRAAVAAHSKALDTAVSNPKLVASKEDFAAVNEALARMIASADKQKFAALRTAFPESR  120
+
+Query  116  DPKVPAYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAAG  156
+            + +   +  +  NG +AEKAY+ F A    V+ + +  A  
+Sbjct  121  ELQSSLFAGN--NGYEAEKAYDSFKALTSAVRDASINGANA  159
+
+
+ Score = 104 bits (259),  Expect = 9e-24, Method: Composition-based stats.
+ Identities = 39/149 (26%), Positives = 65/149 (44%), Gaps = 8/149 (5%)
+
+Query  3    IGDAAKKLGDASYAFAKEVDWNNG----IFLQAPGKLQPLEALKAIDKMIVMGAAADPKL  58
+            +G AAKK  +A+Y   ++++W        +L       P      IDK + +    +  L
+Sbjct  177  VGRAAKKFSEATYPIMEKLNWVKSPEISKYLATASSKDPKMMAPGIDKTLEVALTMNQNL  236
+
+Query  59   LKAAAEAHHKAI-GSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDP  117
+            +  A  AH +AI G+++ P  V  R D+  VN AL ++I S        +  +     D 
+Sbjct  237  INNAVYAHVRAIKGALNTPGFVAERDDFARVNLALAKMIGSADPAKFKALLTAFPGNADL  296
+
+Query  118  KVPAYMKSLVNGADAEKAYEGFLAFKDVV  146
+            ++  +     N   A+ AYE F+A    V
+Sbjct  297  QMALFAA---NPEQAKAAYETFVALTSAV  322
+
+
+> UniRef90_B4ZFY4 Peridinin chlorophyll protein (Fragment) n=2 
+Tax=Amphidinium carterae TaxID=2961 RepID=B4ZFY4_AMPCA
+Length=293
+
+ Score = 145 bits (365),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 50/161 (31%), Positives = 83/161 (52%), Gaps = 7/161 (4%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGI----FLQAPGKLQPLEALKAIDKMIVMGAAADP  56
+            D I DA+KK  +A+Y  A++ DW        ++       P +A  A++K++ +G   DP
+Sbjct  56   DSIADASKKFSEATYPIAEKFDWGGSSAVAKYIADASASNPRQAALAVEKLLEVGLTMDP  115
+
+Query  57   KLLKAAAEAHHKAIGSI-SGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKIT  115
+            KL++AA EAH KA+ S  +    + S+ D+  VN AL R+IAS  +     +  +  +  
+Sbjct  116  KLVRAAVEAHSKALDSAKTNAKLMASKEDFAAVNEALARMIASADKQKFAALRTAFPESR  175
+
+Query  116  DPKVPAYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAAG  156
+            + +   +  +  NG +AEKAYE F A    V+ + +  A  
+Sbjct  176  ELQGKLFAGN--NGYEAEKAYESFKALTSAVRDASINGAQA  214
+
+
+> UniRef90_O76183 Peridinin-chlorophyll a protein, high-salt form 
+n=1 Tax=Amphidinium carterae TaxID=2961 RepID=O76183_AMPCA
+Length=381
+
+ Score = 140 bits (353),  Expect = 9e-37, Method: Composition-based stats.
+ Identities = 48/161 (30%), Positives = 82/161 (51%), Gaps = 7/161 (4%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGI----FLQAPGKLQPLEALKAIDKMIVMGAAADP  56
+            D I DA+K+  DA+Y  A++ DW        ++       P +A  A++K++ +G   DP
+Sbjct  55   DGIADASKRFSDATYPIAEKFDWGGSSAIAKYIADASASNPRQAALAVEKLLEVGLTMDP  114
+
+Query  57   KLLKAAAEAHHKAIGSI-SGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKIT  115
+            KL++AA EAH KA+ S  +    + S+ D+  VN AL R+IAS  +     +  +  +  
+Sbjct  115  KLVRAAVEAHSKALDSAKTNAKLMASKEDFAAVNEALARMIASADKQKFAALRTAFPESR  174
+
+Query  116  DPKVPAYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAAG  156
+            + +   +  +  N  +AEKAY+ F A    V+ + +  A  
+Sbjct  175  ELQGKLFGGN--NAFEAEKAYDSFKALTSAVRDASINGAKA  213
+
+
+ Score = 109 bits (271),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 39/152 (26%), Positives = 67/152 (44%), Gaps = 7/152 (5%)
+
+Query  3    IGDAAKKLGDASYAFAKEVDWNNG----IFLQAPGKLQPLEALKAIDKMIVMGAAADPKL  58
+            +G AAKK  +A+Y    ++DW        +++      P      IDK + +    +   
+Sbjct  231  VGRAAKKFSEATYPIMDKLDWGKSPEISKYIETASAKNPKMMADGIDKTLEVALTMNQNA  290
+
+Query  59   LKAAAEAHHKAI-GSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDP  117
+            +  A  AH +AI G+++ P  V  R D+  VN AL ++IA+        +  +     D 
+Sbjct  291  INDAVFAHVRAIKGALNTPGLVAERDDFARVNLALAKMIATAHPAKFKALLTAFPGNADL  350
+
+Query  118  KVPAYMKSLVNGADAEKAYEGFLAFKDVVKKS  149
+            ++  +  +  N   A+ AYE F+A    V  S
+Sbjct  351  QMALFAAN--NPEQAKAAYETFVALTSAVASS  380
+
+
+> UniRef90_Q38691 Precursor of peridinin-chlorophylla-protein (PCP) 
+(Fragment) n=1 Tax=Amphidinium carterae TaxID=2961 RepID=Q38691_AMPCA
+Length=131
+
+ Score = 134 bits (336),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 74/132 (56%), Positives = 95/132 (72%), Gaps = 2/132 (2%)
+
+Query  19   KEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLKAAAEAHHKAIGSISGPNG  78
+            KE+DW + ++++    +   ++LKAIDKMIVMGA AD   LKAAAEAHHKAIGSI    G
+Sbjct  1    KEIDWLSDVYMKPLPGVSAQQSLKAIDKMIVMGAQADGNALKAAAEAHHKAIGSIDS-TG  59
+
+Query  79   VTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVPAYMKSLVNGADAEKAYEG  138
+            VTS AD+  VNAALGRVIASVP++ VMDVY+S++ +TD  +P  M S VN  DA  A + 
+Sbjct  60   VTSVADYAAVNAALGRVIASVPKSTVMDVYNSMAGVTDTSIPLNMFSKVNPLDANAAAKV  119
+
+Query  139  FLAFKDVVKKSQ  150
+            +  FKDVV+ +Q
+Sbjct  120  Y-TFKDVVQAAQ  130
+
+
+> UniRef90_A0A0H4NWY0 Peridinin chorophyll binding protein (Fragment) 
+n=1 Tax=Warnowia sp. TaxID=1679438 RepID=A0A0H4NWY0_9DINO
+Length=93
+
+ Score = 131 bits (328),  Expect = 5e-36, Method: Composition-based stats.
+ Identities = 37/94 (39%), Positives = 58/94 (62%), Gaps = 1/94 (1%)
+
+Query  8    KKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLKAAAEAHH  67
+            K L +ASY F +++ W +  +   P    P +    ++KM++MGA  D   LK   +AH 
+Sbjct  1    KSLSEASYPFLQDIPWFSEYYGSIPTA-NPFQLTYGVEKMLLMGARMDSLALKQGVDAHM  59
+
+Query  68   KAIGSISGPNGVTSRADWDNVNAALGRVIASVPE  101
+            KA+G+++   GV S AD++ +NAA+G +IASVPE
+Sbjct  60   KALGNVNNAKGVCSLADYEAINAAIGHMIASVPE  93
+
+
+> UniRef90_Q8H1K6 Peridinin chlorophyll-a binding protein apoprotein 
+(Fragment) n=1 Tax=Symbiodinium sp. RKT-203 TaxID=209683 
+RepID=Q8H1K6_9DINO
+Length=134
+
+ Score = 124 bits (312),  Expect = 4e-33, Method: Composition-based stats.
+ Identities = 76/82 (93%), Positives = 79/82 (96%), Gaps = 0/82 (0%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            DEIGDAAKKLGDASY+FAKEVDW+NGIFLQAPGK QPL+ALKAIDKMI MGAAADPKLLK
+Sbjct  53   DEIGDAAKKLGDASYSFAKEVDWSNGIFLQAPGKFQPLKALKAIDKMIEMGAAADPKLLK  112
+
+Query  61   AAAEAHHKAIGSISGPNGVTSR  82
+             AAEAHHKAIGSISGPNGVTSR
+Sbjct  113  EAAEAHHKAIGSISGPNGVTSR  134
+
+
+> UniRef90_S0DE72 Putative peridinin-chlorophyll a-binding protein 
+n=2 Tax=termite gut metagenome TaxID=433724 RepID=S0DE72_9ZZZZ
+Length=113
+
+ Score = 123 bits (309),  Expect = 7e-33, Method: Composition-based stats.
+ Identities = 39/96 (41%), Positives = 54/96 (56%), Gaps = 1/96 (1%)
+
+Query  54   ADPKLLKAAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSK  113
+             DP  LK  A AH KAIG++    GV    D   +N+A+G +I S  E+  M  +++   
+Sbjct  1    MDPAYLKEGALAHAKAIGNVDA-KGVLPLDDLIAINSAIGHMIKSSGESSTMGTFNAFKG  59
+
+Query  114  ITDPKVPAYMKSLVNGADAEKAYEGFLAFKDVVKKS  149
+            I    +P Y+ S VN  DA++AY+  L FKDVVK S
+Sbjct  60   ILPDYIPFYLLSSVNPLDAKEAYDALLQFKDVVKAS  95
+
+
+> UniRef90_A0A0H4NTL7 Chloroplast soluble peridinin chlorophyll 
+a binding protein (Fragment) n=2 Tax=Warnowia sp. TaxID=1679438 
+RepID=A0A0H4NTL7_9DINO
+Length=96
+
+ Score = 115 bits (288),  Expect = 6e-30, Method: Composition-based stats.
+ Identities = 40/96 (42%), Positives = 55/96 (57%), Gaps = 2/96 (2%)
+
+Query  56   PKLLKAAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSK-I  114
+            P  LK       +AI  I    GV S  D++ +N+A+G +IASVP    MD+Y++ S  +
+Sbjct  1    PIWLKKGFWHTARAIAGIDA-KGVCSIVDFEAINSAIGHMIASVPAATTMDLYNAFSAVV  59
+
+Query  115  TDPKVPAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              P  P Y+   V  ++AE AY+ FL FKDVVK SQ
+Sbjct  60   VKPDAPQYLMGTVTPSNAEAAYKAFLEFKDVVKASQ  95
+
+
+> UniRef90_A0A0H4NWY2 Chloroplast soluble peridinin chlorophyll 
+a binding protein (Fragment) n=2 Tax=Warnowia sp. TaxID=1679438 
+RepID=A0A0H4NWY2_9DINO
+Length=96
+
+ Score = 114 bits (286),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 48/96 (50%), Positives = 62/96 (65%), Gaps = 2/96 (2%)
+
+Query  56   PKLLKAAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKIT  115
+            P  LK    AH KAIGSI    GV S AD++ +N+A+G +IASVP +  MDVY+S S I 
+Sbjct  1    PVALKKGVLAHSKAIGSIDA-KGVCSIADFEAINSAIGHMIASVPASKTMDVYNSFSAIV  59
+
+Query  116  DPK-VPAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+              + VP Y+ S V  ++AE AY  F+ FKDVVK +Q
+Sbjct  60   PRQAVPEYLMSTVTPSNAEAAYRAFMGFKDVVKAAQ  95
+
+
+> UniRef90_Q9FEY2 Peridinin-chl a protein (Fragment) n=1 Tax=Heterocapsa 
+pygmaea TaxID=35672 RepID=Q9FEY2_HETPY
+Length=107
+
+ Score = 112 bits (281),  Expect = 7e-29, Method: Composition-based stats.
+ Identities = 62/107 (58%), Positives = 73/107 (68%), Gaps = 2/107 (2%)
+
+Query  45   DKMIVMGAAADPKLLKAAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIASVPENMV  104
+            DKMIVMGAA D   LKA AEAHHKAIGSI    GVT+ AD++ VNAA+G ++AS  E+  
+Sbjct  1    DKMIVMGAAMDSAALKAGAEAHHKAIGSIDA-KGVTTLADYEAVNAAIGHMVASAGESKT  59
+
+Query  105  MDVYDSVSKITDPK-VPAYMKSLVNGADAEKAYEGFLAFKDVVKKSQ  150
+            MDVY++ +     K V  YM S VN ADA  AY+ FL FKD VK SQ
+Sbjct  60   MDVYNAFAGFNLGKDVGPYMMSKVNAADASAAYKAFLEFKDAVKASQ  106
+
+
+> UniRef90_Q8GTI9 Peridinin chlorophyll-a binding protein apoprotein 
+(Fragment) n=1 Tax=Symbiodinium sp. RKT-203 TaxID=209683 
+RepID=Q8GTI9_9DINO
+Length=176
+
+ Score = 111 bits (277),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 61/97 (63%), Positives = 71/97 (73%), Gaps = 1/97 (1%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            D+IG AAK L DASY F K++DW + I+L+        E LKAIDKMIVMGA  D  LLK
+Sbjct  59   DKIGVAAKALSDASYPFIKDIDWLSDIYLKPLPGKTAPETLKAIDKMIVMGAKMDGNLLK  118
+
+Query  61   AAAEAHHKAIGSISGPNGVTSRADWDNVNAALGRVIA  97
+            AAAEAHHKAIGSI    GVTS AD++ VNAALGR++A
+Sbjct  119  AAAEAHHKAIGSIDA-KGVTSAADYEAVNAALGRLVA  154
+
+
+ Score = 73.2 bits (178),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 38/51 (75%), Positives = 42/51 (82%), Gaps = 0/51 (0%)
+
+Query  106  DVYDSVSKITDPKVPAYMKSLVNGADAEKAYEGFLAFKDVVKKSQVTSAAG  156
+             VYDSV  ITDPKVPAYMKSLVNG DAE AY+ FL FKDVV K+QVT+A+ 
+Sbjct  1    AVYDSVKGITDPKVPAYMKSLVNGPDAENAYKAFLEFKDVVAKNQVTTASA  51
+
+
+> UniRef90_A9YEC6 Chloroplast peridinin chlorophyll-a binding protein 
+apoprotein (Fragment) n=1 Tax=Symbiodinium sp. ex Stylophora 
+pistillata TaxID=304320 RepID=A9YEC6_9DINO
+Length=107
+
+ Score = 88.7 bits (218),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 42/73 (58%), Positives = 50/73 (68%), Gaps = 0/73 (0%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLLK  60
+            ++IG   K L D SY F K++DW + I+L+        E LKAIDKMIVMG+  D  LLK
+Sbjct  35   EKIGGXXKXLYDXSYPFIKDIDWLSDIYLKPLPGKTAPETLKAIDKMIVMGSKMDGNLLK  94
+
+Query  61   AAAEAHHKAIGSI  73
+            AAAEAHHKAIGSI
+Sbjct  95   AAAEAHHKAIGSI  107
+
+
+> UniRef90_Q9FEY0 Peridinin-chl a-protein (PCP) (Fragment) n=1 
+Tax=Heterocapsa pygmaea TaxID=35672 RepID=Q9FEY0_HETPY
+Length=110
+
+ Score = 77.5 bits (189),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 33/59 (56%), Positives = 41/59 (69%), Gaps = 1/59 (2%)
+
+Query  1    DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIVMGAAADPKLL  59
+            D+I DAAKKL +ASY F KE+DW+  ++ + P    P + LKAIDKMIVMGAA D   L
+Sbjct  53   DKIDDAAKKLSEASYPFLKEIDWSADVYGKLPTA-NPFQVLKAIDKMIVMGAAMDSAAL  110
+
+
+> UniRef90_B6SBJ7 Peridinin chlorophyll protein (Fragment) n=1 
+Tax=Amphidinium carterae TaxID=2961 RepID=B6SBJ7_AMPCA
+Length=85
+
+ Score = 72.5 bits (176),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 24/85 (28%), Positives = 39/85 (46%), Gaps = 3/85 (4%)
+
+Query  66   HHKAI-GSISGPNGVTSRADWDNVNAALGRVIASVPENMVMDVYDSVSKITDPKVPAYMK  124
+            H +AI G+++ P  V  R D+  VN AL ++I S        +  +     D ++  +  
+Sbjct  2    HVRAIKGALNTPGFVAERDDFARVNLALAKMIGSADPAKFKALLTAFPGNADLQMALFAA  61
+
+Query  125  SLVNGADAEKAYEGFLAFKDVVKKS  149
+            +  N   A+ AYE F+A    V  S
+Sbjct  62   N--NPEQAKAAYETFVALTSAVAAS  84
+
+
+> UniRef90_P51889 Peridinin-chlorophyll a-binding protein (Fragment) 
+n=1 Tax=Alexandrium cohorticula TaxID=2928 RepID=PCP_ALECO
+Length=49
+
+ Score = 69.8 bits (169),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 43/49 (88%), Positives = 43/49 (88%), Gaps = 0/49 (0%)
+
+Query  1   DEIGDAAKKLGDASYAFAKEVDWNNGIFLQAPGKLQPLEALKAIDKMIV  49
+           DEIGDAAKKLGDASYAFAKEVD NNGIFLQAPGK QPLEALK I K  V
+Sbjct  1   DEIGDAAKKLGDASYAFAKEVDCNNGIFLQAPGKFQPLEALKXIXKHXV  49
+
+
+
+Lambda      K        H        a         alpha
+   0.305    0.127    0.327    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0397    0.140     1.90     42.6     43.6 
+
+Effective search space used: 442921864710
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

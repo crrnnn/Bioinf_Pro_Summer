@@ -1,2 +1,5 @@
-# Bioinf_Pro_Summer
-Project in molecular Life science (KB8024/KB8025).
+# Bioinf_Pro_Summer  
+Project in molecular Life science (KB8024/KB8025).  
+  
+For DIARY please check WIKI.  
+

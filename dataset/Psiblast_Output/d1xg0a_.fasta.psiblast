@@ -1,0 +1,2427 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1xg0a_
+
+Length=76
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q00433 Phycoerythrin alpha-3 chain, chloroplastic n=4 ...  157     4e-47
+  UniRef90_A0A067YS87 Phycoerythrin alpha-subunit 1 n=1 Tax=Prote...  112     8e-30
+  UniRef90_L1IIS5 Phycoerythrin alpha subunit 19 n=3 Tax=Guillard...  107     1e-27
+  UniRef90_L1JQD4 Phycoerythrin alpha subunit 11 n=3 Tax=Guillard...  105     5e-27
+  UniRef90_A0A067YS95 Phycoerythrin alpha-subunit 1 n=1 Tax=Prote...  102     1e-25
+  UniRef90_A0A067YRY3 Phycoerythrin alpha-subunit 2 n=2 Tax=Prote...  88.6    1e-20
+  UniRef90_A0A067YS84 Phycoerythrin alpha-subunit 1-4 n=1 Tax=Rho...  87.0    2e-20
+  UniRef90_L1JTP2 Phycoerythrin alpha subunit 20 (Fragment) n=1 T...  88.6    3e-20
+  UniRef90_P30943 Phycoerythrin alpha-2 chain, chloroplastic n=4 ...  87.4    3e-20
+  UniRef90_A0A067YRY1 Phycoerythrin alpha-subunit 1-1 n=2 Tax=Rho...  81.6    1e-17
+  UniRef90_A0A067YTA4 Phycoerythrin alpha-subunit 1 n=1 Tax=Prote...  81.6    1e-17
+  UniRef90_L1JI35 Phycoerythrin alpha subunit 8 n=2 Tax=Guillardi...  79.0    2e-16
+  UniRef90_L1I892 Phycoerythrin alpha subunit 2 n=2 Tax=Guillardi...  77.0    8e-16
+  UniRef90_A0A067YS94 Phycoerythrin alpha-subunit 1-3 n=1 Tax=Rho...  75.5    3e-15
+  UniRef90_A0A067YTA0 Phycoerythrin alpha-subunit 2-1 n=1 Tax=Rho...  73.6    8e-15
+  UniRef90_L1J0L9 Phycoerythrin subunit 1 n=3 Tax=Guillardia thet...  73.6    8e-15
+  UniRef90_P30942 Phycoerythrin alpha-1 chain (Fragment) n=1 Tax=...  72.0    9e-15
+  UniRef90_L1IX61 Phycoerythrin alpha subunit 4 n=2 Tax=Guillardi...  68.2    1e-12
+  UniRef90_L1IL79 Phycoerythrin alpha subunit n=1 Tax=Guillardia ...  68.2    1e-12
+  UniRef90_L1J444 Phycoerythrin alpha subunit 10 n=1 Tax=Guillard...  68.9    1e-12
+  UniRef90_L1JDL0 Phycoerythrin alpha subunit 3 n=2 Tax=Guillardi...  66.6    3e-12
+  UniRef90_L1IYK2 Phycoerythrin alpha subunit 5 n=2 Tax=Guillardi...  66.6    4e-12
+  UniRef90_A0A067XP87 Phycoerythrin alpha subunit L2 n=2 Tax=Chro...  66.6    4e-12
+  UniRef90_A0A067YRY2 Phycoerythrin alpha-subunit 2-2 n=1 Tax=Rho...  63.2    6e-11
+  UniRef90_P23815 Phycocyanin-645 alpha-1 chain n=1 Tax=Chroomona...  60.8    3e-10
+  UniRef90_A0A067XP74 Phycoerythrin alpha subunit L3 n=1 Tax=Chro...  61.6    3e-10
+  UniRef90_U5T880 Phycocyanin645 alpha subunit n=3 Tax=Chroomonas...  61.2    5e-10
+  UniRef90_L1J044 Phycoerythrin alpha subunit 12 n=2 Tax=Guillard...  59.7    3e-09
+  UniRef90_A0A067XP77 Phycoerythrin alpha subunit S1 n=2 Tax=Chro...  56.2    3e-08
+  UniRef90_L1J5L2 Phycoerythrin alpha subunit n=1 Tax=Guillardia ...  55.5    5e-08
+  UniRef90_A0A067XP71 Phycoerythrin alpha subunit L2 n=1 Tax=Chro...  55.5    7e-08
+  UniRef90_A0A067YSI9 Phycoerythrin alpha-subunit 1 n=1 Tax=Prote...  55.5    7e-08
+  UniRef90_P23816 Phycocyanin-645 alpha-2 chain n=1 Tax=Chroomona...  52.4    4e-07
+  UniRef90_L1J381 Phycoerythrin alpha subunit 14 n=2 Tax=Guillard...  53.1    5e-07
+  UniRef90_A8KCY8 Phycoerythrin alpha subunit 10 (Fragment) n=1 T...  52.4    8e-07
+  UniRef90_A0A067XP68 Phycoerythrin alpha subunit S1 n=1 Tax=Chro...  51.6    1e-06
+  UniRef90_L1J598 Phycoerythrin alpha subunit 13 n=2 Tax=Guillard...  50.1    5e-06
+  UniRef90_A0A067YSJ4 Phycoerythrin alpha subunit n=1 Tax=Chroomo...  49.3    8e-06
+  UniRef90_U5T8W5 Phycocyanin645 alpha subunit n=3 Tax=Chroomonas...  48.9    1e-05
+  UniRef90_A0A067XP69 Phycoerythrin alpha subunit L1 n=1 Tax=Chro...  48.1    2e-05
+  UniRef90_L1I9A0 Phycoerythrin alpha subunit 15 n=1 Tax=Guillard...  48.1    3e-05
+  UniRef90_A8KCV5 Phycoerythrin alpha subunit 6 n=1 Tax=Guillardi...  44.3    4e-04
+  UniRef90_L1K1P5 Phycoerythrin alpha subunit n=1 Tax=Guillardia ...  43.5    0.001
+  UniRef90_U5TBU0 Phycocyanin645 alpha subunit n=1 Tax=Chroomonas...  42.7    0.002
+
+
+> UniRef90_Q00433 Phycoerythrin alpha-3 chain, chloroplastic n=4 
+Tax=Rhodomonas TaxID=37096 RepID=PHE3_RHDS2
+Length=128
+
+ Score = 157 bits (397),  Expect = 4e-47, Method: Compositional matrix adjust.
+ Identities = 76/76 (100%), Positives = 76/76 (100%), Gaps = 0/76 (0%)
+
+Query  1    AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+            AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE
+Sbjct  53   AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  112
+
+Query  61   FITFEKGIDGPFTSKN  76
+            FITFEKGIDGPFTSKN
+Sbjct  113  FITFEKGIDGPFTSKN  128
+
+
+> UniRef90_A0A067YS87 Phycoerythrin alpha-subunit 1 n=1 Tax=Proteomonas 
+sulcata TaxID=77928 RepID=A0A067YS87_9CRYP
+Length=125
+
+ Score = 112 bits (281),  Expect = 8e-30, Method: Compositional matrix adjust.
+ Identities = 59/75 (79%), Positives = 63/75 (84%), Gaps = 2/75 (3%)
+
+Query  2    MDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEF  61
+            MDKSAKAP ITIFDHRGCSRAPKES+  K+G QDDEM+VKVASTKVTVSE  AAKKLQEF
+Sbjct  51   MDKSAKAPAITIFDHRGCSRAPKESS-AKSGSQDDEMLVKVASTKVTVSEDVAAKKLQEF  109
+
+Query  62   ITF-EKGIDGPFTSK  75
+            I F EKG+DG    K
+Sbjct  110  IGFKEKGLDGSVIRK  124
+
+
+> UniRef90_L1IIS5 Phycoerythrin alpha subunit 19 n=3 Tax=Guillardia 
+theta TaxID=55529 RepID=L1IIS5_GUITH
+Length=130
+
+ Score = 107 bits (267),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 54/77 (70%), Positives = 62/77 (81%), Gaps = 2/77 (3%)
+
+Query  1    AMDKSAKAPQITIFDHRGCS-RAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            AMDKS +AP ITIFDHRGC+  A KE TG KA  QDDEM VKVAS K+ VSE DAA+KLQ
+Sbjct  51   AMDKSGRAPVITIFDHRGCTAHANKEYTGAKANSQDDEMCVKVASAKIAVSEGDAARKLQ  110
+
+Query  60   EFITFE-KGIDGPFTSK  75
+            EFI+++ KGIDGP+T K
+Sbjct  111  EFISYQAKGIDGPYTGK  127
+
+
+> UniRef90_L1JQD4 Phycoerythrin alpha subunit 11 n=3 Tax=Guillardia 
+theta TaxID=55529 RepID=L1JQD4_GUITH
+Length=133
+
+ Score = 105 bits (263),  Expect = 5e-27, Method: Compositional matrix adjust.
+ Identities = 52/73 (71%), Positives = 60/73 (82%), Gaps = 1/73 (1%)
+
+Query  2    MDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEF  61
+            MDKSA+AP+ITIFDHRGCSRAPKE  G KAG  DDEM VKVASTKV  S + A KKLQEF
+Sbjct  53   MDKSARAPEITIFDHRGCSRAPKEYAGAKAGTSDDEMCVKVASTKVEASLTLAEKKLQEF  112
+
+Query  62   ITFE-KGIDGPFT  73
+            ++++ KGIDG +T
+Sbjct  113  LSYQAKGIDGDYT  125
+
+
+> UniRef90_A0A067YS95 Phycoerythrin alpha-subunit 1 n=1 Tax=Proteomonas 
+sulcata TaxID=77928 RepID=A0A067YS95_9CRYP
+Length=129
+
+ Score = 102 bits (253),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 53/71 (75%), Positives = 56/71 (79%), Gaps = 2/71 (3%)
+
+Query  2    MDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEF  61
+            MDKSAKAP ITIFDHRGC RAPKE    K+G QDDEMMVKVAS  + VSE  AA KLQEF
+Sbjct  51   MDKSAKAPIITIFDHRGCPRAPKEGN-TKSGSQDDEMMVKVASATIKVSEDSAAAKLQEF  109
+
+Query  62   ITF-EKGIDGP  71
+            I F EKG+DGP
+Sbjct  110  IGFKEKGLDGP  120
+
+
+> UniRef90_A0A067YRY3 Phycoerythrin alpha-subunit 2 n=2 Tax=Proteomonas 
+sulcata TaxID=77928 RepID=A0A067YRY3_9CRYP
+Length=102
+
+ Score = 88.6 bits (218),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 43/63 (68%), Positives = 49/63 (78%), Gaps = 0/63 (0%)
+
+Query  1   AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+           AMDKSAKAP ITIFDHRGCSRAPKE TG KA GQDDEMMVK  S K+ VS+  A   L++
+Sbjct  36  AMDKSAKAPVITIFDHRGCSRAPKEYTGSKASGQDDEMMVKAQSVKIAVSDGVAESVLKD  95
+
+Query  61  FIT  63
+            ++
+Sbjct  96  SLS  98
+
+
+> UniRef90_A0A067YS84 Phycoerythrin alpha-subunit 1-4 n=1 Tax=Rhodomonas 
+minuta TaxID=1326779 RepID=A0A067YS84_9CRYP
+Length=79
+
+ Score = 87.0 bits (214),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 45/74 (61%), Positives = 55/74 (74%), Gaps = 2/74 (3%)
+
+Query  2   MDKSAKAPQITIFDHRGCS-RAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+           MDKSA+AP ITI DHRGC+    KE  G K+  QDDEM V V S KVTVSE ++AK LQ+
+Sbjct  1   MDKSARAPAITILDHRGCTAHENKEYKGDKSNDQDDEMCVVVRSNKVTVSEGESAKFLQQ  60
+
+Query  61  FITFE-KGIDGPFT  73
+            I+++ KGIDGP+T
+Sbjct  61  VISYQAKGIDGPYT  74
+
+
+> UniRef90_L1JTP2 Phycoerythrin alpha subunit 20 (Fragment) n=1 
+Tax=Guillardia theta CCMP2712 TaxID=905079 RepID=L1JTP2_GUITH
+Length=129
+
+ Score = 88.6 bits (218),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 42/63 (67%), Positives = 49/63 (78%), Gaps = 0/63 (0%)
+
+Query  1    AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+            +MDKSA+AP ITIFDHRGCSRAPKE TGG +  QDD+M VK  S K+ VSE  AAK LQE
+Sbjct  62   SMDKSARAPVITIFDHRGCSRAPKEYTGGLSNTQDDQMCVKAQSLKIEVSEQTAAKLLQE  121
+
+Query  61   FIT  63
+             ++
+Sbjct  122  NLS  124
+
+
+> UniRef90_P30943 Phycoerythrin alpha-2 chain, chloroplastic n=4 
+Tax=Rhodomonas TaxID=37096 RepID=PHE2_RHDS2
+Length=104
+
+ Score = 87.4 bits (215),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 42/54 (78%), Positives = 44/54 (81%), Gaps = 0/54 (0%)
+
+Query  1   AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDA  54
+           AMDKSAKAP ITIFDHRGCSRAPKE TG KAGG+DDEMMVK  S K+ VS   A
+Sbjct  38  AMDKSAKAPVITIFDHRGCSRAPKEYTGAKAGGKDDEMMVKAQSVKIEVSTGTA  91
+
+
+> UniRef90_A0A067YRY1 Phycoerythrin alpha-subunit 1-1 n=2 Tax=Rhodomonas 
+minuta TaxID=1326779 RepID=A0A067YRY1_9CRYP
+Length=130
+
+ Score = 81.6 bits (200),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 47/77 (61%), Positives = 56/77 (73%), Gaps = 3/77 (4%)
+
+Query  2    MDKSAKAPQITIFDHRGCSRA--PKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            MDKS +AP ITIFDHRGC+R    KE TG KAGG+DDEM VKV S K+  SE+ AA +L 
+Sbjct  53   MDKSGRAPVITIFDHRGCNRGGPNKEYTGAKAGGKDDEMCVKVQSVKIAASEARAAAQLA  112
+
+Query  60   EFITFE-KGIDGPFTSK  75
+            E I+ + KGIDG +T K
+Sbjct  113  ESISLKAKGIDGSYTGK  129
+
+
+> UniRef90_A0A067YTA4 Phycoerythrin alpha-subunit 1 n=1 Tax=Proteomonas 
+sulcata TaxID=77928 RepID=A0A067YTA4_9CRYP
+Length=141
+
+ Score = 81.6 bits (200),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 43/69 (62%), Positives = 50/69 (72%), Gaps = 2/69 (3%)
+
+Query  7    KAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFITF-E  65
+            KAP ITIFDHRGCSRAPKE    ++G QDDEM+VKV   +   SE++AAKKL EFI   E
+Sbjct  70   KAPAITIFDHRGCSRAPKEGN-TESGTQDDEMLVKVVMRRPKYSEAEAAKKLAEFIGMKE  128
+
+Query  66   KGIDGPFTS  74
+            KG+DG   S
+Sbjct  129  KGLDGDVVS  137
+
+
+> UniRef90_L1JI35 Phycoerythrin alpha subunit 8 n=2 Tax=Guillardia 
+theta TaxID=55529 RepID=L1JI35_GUITH
+Length=173
+
+ Score = 79.0 bits (193),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 40/70 (57%), Positives = 50/70 (71%), Gaps = 1/70 (1%)
+
+Query  4    KSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFIT  63
+            K + AP IT FDH+ C RAPKE  G  +G +DD   VKVA +K+TVSE++AA  LQEFI+
+Sbjct  56   KDSLAPVITTFDHQFCDRAPKEYVGPASGDEDDNRCVKVALSKITVSETEAAAALQEFIS  115
+
+Query  64   FE-KGIDGPF  72
+            +  KGIDG F
+Sbjct  116  YRAKGIDGDF  125
+
+
+> UniRef90_L1I892 Phycoerythrin alpha subunit 2 n=2 Tax=Guillardia 
+theta TaxID=55529 RepID=L1I892_GUITH
+Length=139
+
+ Score = 77.0 bits (188),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 36/65 (55%), Positives = 46/65 (71%), Gaps = 0/65 (0%)
+
+Query  2    MDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEF  61
+            M  +  AP++TIFDHRGC+RAPKE  GGK G QDDEM+V+V S KV   E++AAK L   
+Sbjct  73   MRANFYAPEVTIFDHRGCNRAPKEYKGGKTGDQDDEMLVRVKSVKVFCPEAEAAKVLAST  132
+
+Query  62   ITFEK  66
+            ++  K
+Sbjct  133  LSVLK  137
+
+
+> UniRef90_A0A067YS94 Phycoerythrin alpha-subunit 1-3 n=1 Tax=Rhodomonas 
+minuta TaxID=1326779 RepID=A0A067YS94_9CRYP
+Length=151
+
+ Score = 75.5 bits (184),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 41/73 (56%), Positives = 52/73 (71%), Gaps = 3/73 (4%)
+
+Query  3    DKSAKAPQITIFDHRGCSRA--PKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+            D+S +AP ITIFDHRGC+R    KE TG KAGG DDEM VKVA   + VS + +  +L+E
+Sbjct  55   DQSGRAPVITIFDHRGCNRGGPNKEYTGPKAGGIDDEMCVKVALPIIQVSGAQSTAQLRE  114
+
+Query  61   FITFE-KGIDGPF  72
+             I+F+ KGIDG +
+Sbjct  115  AISFKAKGIDGDY  127
+
+
+> UniRef90_A0A067YTA0 Phycoerythrin alpha-subunit 2-1 n=1 Tax=Rhodomonas 
+minuta TaxID=1326779 RepID=A0A067YTA0_9CRYP
+Length=103
+
+ Score = 73.6 bits (179),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 39/67 (58%), Positives = 48/67 (72%), Gaps = 1/67 (1%)
+
+Query  1    AMDKSAKAPQITIFDHRGCSRAPK-ESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            AMDK+A+AP IT+FDHRGCS     E TG KAG QDDEM+VKV S KVTV  + AA  L+
+Sbjct  35   AMDKTARAPIITVFDHRGCSAHKNVEYTGRKAGDQDDEMLVKVQSAKVTVDSNVAAAVLK  94
+
+Query  60   EFITFEK  66
+            + ++  K
+Sbjct  95   DSLSTLK  101
+
+
+> UniRef90_L1J0L9 Phycoerythrin subunit 1 n=3 Tax=Guillardia theta 
+TaxID=55529 RepID=L1J0L9_GUITH
+Length=103
+
+ Score = 73.6 bits (179),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 38/67 (57%), Positives = 46/67 (69%), Gaps = 1/67 (1%)
+
+Query  1    AMDKSAKAPQITIFDHRGCS-RAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            AMDKS +AP IT+FDHRGC+  A KE TG KA  QDDEM+VK  S K+ VS + A   LQ
+Sbjct  35   AMDKSGRAPVITVFDHRGCTAHANKEYTGAKANSQDDEMLVKAQSVKIEVSAATADSVLQ  94
+
+Query  60   EFITFEK  66
+            + I+  K
+Sbjct  95   QTISTLK  101
+
+
+> UniRef90_P30942 Phycoerythrin alpha-1 chain (Fragment) n=1 Tax=Rhodomonas 
+sp. (strain CS 24) TaxID=79257 RepID=PHE1_RHDS2
+Length=44
+
+ Score = 72.0 bits (175),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 35/43 (81%), Positives = 38/43 (88%), Gaps = 1/43 (2%)
+
+Query  1   AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVA  43
+           AMDKSAKAPQITIFDHRGCSRAPK  TGG A  +DD+MMVKV+
+Sbjct  1   AMDKSAKAPQITIFDHRGCSRAPKSETGGTA-TKDDQMMVKVS  42
+
+
+> UniRef90_L1IX61 Phycoerythrin alpha subunit 4 n=2 Tax=Guillardia 
+theta TaxID=55529 RepID=L1IX61_GUITH
+Length=106
+
+ Score = 68.2 bits (165),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 33/59 (56%), Positives = 39/59 (66%), Gaps = 0/59 (0%)
+
+Query  1   AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+           AMD+S  AP + IFDHRGCSR  KE TG K  G +DEM+VKV S  +   E+ AA  LQ
+Sbjct  39  AMDRSNTAPIVQIFDHRGCSRVAKEYTGKKCNGAEDEMLVKVQSKVIPAPEALAASVLQ  97
+
+
+> UniRef90_L1IL79 Phycoerythrin alpha subunit n=1 Tax=Guillardia 
+theta CCMP2712 TaxID=905079 RepID=L1IL79_GUITH
+Length=127
+
+ Score = 68.2 bits (165),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 33/63 (52%), Positives = 41/63 (65%), Gaps = 0/63 (0%)
+
+Query  2    MDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEF  61
+            M     AP IT+FDHRGC+RAPKE  G K+   +D M+VKV S K  V+ES AA  LQE 
+Sbjct  60   MPADGYAPVITVFDHRGCTRAPKEYNGPKSNDMEDGMLVKVESIKCKVTESYAASLLQEQ  119
+
+Query  62   ITF  64
+            + +
+Sbjct  120  LGY  122
+
+
+> UniRef90_L1J444 Phycoerythrin alpha subunit 10 n=1 Tax=Guillardia 
+theta CCMP2712 TaxID=905079 RepID=L1J444_GUITH
+Length=181
+
+ Score = 68.9 bits (167),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 32/56 (57%), Positives = 40/56 (71%), Gaps = 0/56 (0%)
+
+Query  7    KAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFI  62
+            +APQITIFDHRGCSRAPKE TG +AG  DDEM+VK+      V+   A + L++ I
+Sbjct  120  RAPQITIFDHRGCSRAPKEYTGKRAGTYDDEMLVKIDFKAAEVNSKLAQQVLEQTI  175
+
+
+ Score = 50.8 bits (120),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 28/66 (42%), Positives = 39/66 (59%), Gaps = 2/66 (3%)
+
+Query  6    AKAPQITIFDHRGC-SRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKL-QEFIT  63
+            A AP ITIFD+RGC     KE  G KAG ++DEM+VKVA+ K+     D   +  +E + 
+Sbjct  53   AFAPVITIFDNRGCKEHKNKEYNGPKAGDENDEMLVKVANQKIPFPTDDVVNEFRRENLA  112
+
+Query  64   FEKGID  69
+             +  +D
+Sbjct  113  IQGNLD  118
+
+
+> UniRef90_L1JDL0 Phycoerythrin alpha subunit 3 n=2 Tax=Guillardia 
+theta TaxID=55529 RepID=L1JDL0_GUITH
+Length=106
+
+ Score = 66.6 bits (161),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 31/63 (49%), Positives = 42/63 (67%), Gaps = 2/63 (3%)
+
+Query  2    MDKSAKAPQITIFDHRGCSRAPK--ESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            MDKS +AP +T+FDHRGC R  +  E  G  A  QDDEM+VKVA  KV ++E+ A   +Q
+Sbjct  39   MDKSNRAPVVTVFDHRGCQRGKRNTEYQGLPANSQDDEMLVKVAMQKVAINEAAATDLVQ  98
+
+Query  60   EFI  62
+            + +
+Sbjct  99   QLL  101
+
+
+> UniRef90_L1IYK2 Phycoerythrin alpha subunit 5 n=2 Tax=Guillardia 
+theta TaxID=55529 RepID=L1IYK2_GUITH
+Length=128
+
+ Score = 66.6 bits (161),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 35/59 (59%), Positives = 37/59 (63%), Gaps = 0/59 (0%)
+
+Query  2    MDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+            MDK A AP ITIFDHRGC R  KE  G KA   DD M+VKV    +TVS S AA  L E
+Sbjct  59   MDKKAIAPVITIFDHRGCDRITKEYQGRKANTYDDYMLVKVKGEVITVSTSTAASVLAE  117
+
+
+> UniRef90_A0A067XP87 Phycoerythrin alpha subunit L2 n=2 Tax=Chroomonas 
+sp. M1627 TaxID=478123 RepID=A0A067XP87_9CRYP
+Length=130
+
+ Score = 66.6 bits (161),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 33/62 (53%), Positives = 41/62 (66%), Gaps = 0/62 (0%)
+
+Query  1    AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+            A+ K  KAP ITIFD+RGC       +G KA G +D+  VK+    +TVSE+ AAKKLQE
+Sbjct  50   AIKKDQKAPIITIFDNRGCEVKKNNYSGAKANGMEDDQCVKLTMETITVSETTAAKKLQE  109
+
+Query  61   FI  62
+            FI
+Sbjct  110  FI  111
+
+
+> UniRef90_A0A067YRY2 Phycoerythrin alpha-subunit 2-2 n=1 Tax=Rhodomonas 
+minuta TaxID=1326779 RepID=A0A067YRY2_9CRYP
+Length=102
+
+ Score = 63.2 bits (152),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 34/67 (51%), Positives = 43/67 (64%), Gaps = 1/67 (1%)
+
+Query  1    AMDKSAKAPQITIFDHRGCSR-APKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            AMDKSA+AP ITIFDHRGCSR +  E  G   G QDDEM +KV + K+   +  A + L 
+Sbjct  35   AMDKSARAPIITIFDHRGCSRHSNTEYKGRLTGTQDDEMCIKVGTAKIIGEKGTAERVLA  94
+
+Query  60   EFITFEK  66
+            + +T  K
+Sbjct  95   DSLTTLK  101
+
+
+> UniRef90_P23815 Phycocyanin-645 alpha-1 chain n=1 Tax=Chroomonas 
+sp. TaxID=3029 RepID=PH61_CHRSP
+Length=70
+
+ Score = 60.8 bits (146),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 33/58 (57%), Positives = 39/58 (67%), Gaps = 1/58 (2%)
+
+Query  7   KAPQITIFDHRGC-SRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFIT  63
+           + P ITIFD RGC   A KE TG KAGG DDEM VKVA  K+ V+E  AA  L+E ++
+Sbjct  6   RTPVITIFDARGCKDHANKEYTGPKAGGADDEMCVKVAMQKIAVAEDAAALVLKECLS  63
+
+
+> UniRef90_A0A067XP74 Phycoerythrin alpha subunit L3 n=1 Tax=Chroomonas 
+sp. M1627 TaxID=478123 RepID=A0A067XP74_9CRYP
+Length=131
+
+ Score = 61.6 bits (148),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 30/56 (54%), Positives = 37/56 (66%), Gaps = 0/56 (0%)
+
+Query  7    KAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFI  62
+            KAP IT+FD+RGC       +G KAG  +DE  +K+    V VSE+ AAKKLQEFI
+Sbjct  57   KAPFITLFDNRGCEVKKDNYSGAKAGDMEDEQCIKLVMDSVVVSEATAAKKLQEFI  112
+
+
+> UniRef90_U5T880 Phycocyanin645 alpha subunit n=3 Tax=Chroomonas 
+TaxID=3028 RepID=U5T880_9CRYP
+Length=132
+
+ Score = 61.2 bits (147),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 31/62 (50%), Positives = 40/62 (65%), Gaps = 0/62 (0%)
+
+Query  1    AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+            A D   +AP + IFD RGC     + TG K+   +D+  VKV+  K+TVSE+ AAKKLQE
+Sbjct  52   ARDAQLRAPIVEIFDARGCDAKNAQYTGPKSNDMNDDQCVKVSMQKITVSEATAAKKLQE  111
+
+Query  61   FI  62
+            FI
+Sbjct  112  FI  113
+
+
+> UniRef90_L1J044 Phycoerythrin alpha subunit 12 n=2 Tax=Guillardia 
+theta TaxID=55529 RepID=L1J044_GUITH
+Length=159
+
+ Score = 59.7 bits (143),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 34/64 (53%), Positives = 39/64 (61%), Gaps = 5/64 (8%)
+
+Query  9    PQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKV-ASTKVTVSES--DAAKKLQEFI--T  63
+            P IT+FDHRGCSR+PKE  G K+G QDDEM VKV   T  T  +    A   L E I  T
+Sbjct  83   PVITVFDHRGCSRSPKEYVGDKSGDQDDEMCVKVQMKTPYTYPQYTRQATALLNEIIGVT  142
+
+Query  64   FEKG  67
+            + KG
+Sbjct  143  YTKG  146
+
+
+> UniRef90_A0A067XP77 Phycoerythrin alpha subunit S1 n=2 Tax=Chroomonas 
+sp. M1312 TaxID=179792 RepID=A0A067XP77_9CRYP
+Length=122
+
+ Score = 56.2 bits (134),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 32/63 (51%), Positives = 39/63 (62%), Gaps = 1/63 (2%)
+
+Query  1    AMDKSAKAPQITIFDHRGCS-RAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            A+ K  KAP ITIFD RGC   A KE TG KAGG DDE  VK+    + V++  AA  L+
+Sbjct  54   AIKKDQKAPVITIFDARGCKDHANKEYTGAKAGGMDDEQCVKLTMETIKVADDVAASVLR  113
+
+Query  60   EFI  62
+            E +
+Sbjct  114  EAL  116
+
+
+> UniRef90_L1J5L2 Phycoerythrin alpha subunit n=1 Tax=Guillardia 
+theta CCMP2712 TaxID=905079 RepID=L1J5L2_GUITH
+Length=119
+
+ Score = 55.5 bits (132),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 30/55 (55%), Positives = 35/55 (64%), Gaps = 2/55 (4%)
+
+Query  8   APQITIFDHRGCSR--APKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+           AP IT+FDHRGC R  A  E  G  A G +DEM+VKVA  KV +S   A K LQ+
+Sbjct  46  APIITVFDHRGCKRGKADSEYQGALANGPEDEMLVKVAYKKVPLSAGFADKVLQQ  100
+
+
+> UniRef90_A0A067XP71 Phycoerythrin alpha subunit L2 n=1 Tax=Chroomonas 
+sp. M1312 TaxID=179792 RepID=A0A067XP71_9CRYP
+Length=132
+
+ Score = 55.5 bits (132),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 28/56 (50%), Positives = 35/56 (63%), Gaps = 0/56 (0%)
+
+Query  7    KAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFI  62
+            KAP IT+FD+RGC       +G KA G +D+  +K+    V VSE  AAKKL EFI
+Sbjct  58   KAPFITLFDNRGCEVKKNNYSGPKANGAEDDQCIKLTMESVKVSEDTAAKKLGEFI  113
+
+
+> UniRef90_A0A067YSI9 Phycoerythrin alpha-subunit 1 n=1 Tax=Proteomonas 
+sulcata TaxID=77928 RepID=A0A067YSI9_9CRYP
+Length=187
+
+ Score = 55.5 bits (132),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 29/57 (51%), Positives = 34/57 (60%), Gaps = 2/57 (4%)
+
+Query  6    AKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSE--SDAAKKLQE  60
+            A+AP I  FDHRGCSR   E TG KAG  +DEM VKVA   + V     D  K +Q+
+Sbjct  94   ARAPWIIGFDHRGCSRPNVEYTGKKAGNDNDEMCVKVAMVNMNVYYEAEDMPKYIQQ  150
+
+
+> UniRef90_P23816 Phycocyanin-645 alpha-2 chain n=1 Tax=Chroomonas 
+sp. TaxID=3029 RepID=PH62_CHRSP
+Length=80
+
+ Score = 52.4 bits (124),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 29/66 (44%), Positives = 39/66 (59%), Gaps = 1/66 (2%)
+
+Query  7   KAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFITF-E  65
+           +AP + IFD RGC     + TG K+G  +D+  VKV+     VSE+ A KK QEF+ F E
+Sbjct  6   RAPYVEIFDARGCDAKNSQYTGPKSGDMNDDQCVKVSMAVPKVSEATAEKKRQEFLGFKE  65
+
+Query  66  KGIDGP  71
+             I+ P
+Sbjct  66  TAINVP  71
+
+
+> UniRef90_L1J381 Phycoerythrin alpha subunit 14 n=2 Tax=Guillardia 
+theta TaxID=55529 RepID=L1J381_GUITH
+Length=179
+
+ Score = 53.1 bits (126),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 28/57 (49%), Positives = 33/57 (58%), Gaps = 0/57 (0%)
+
+Query  8    APQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFITF  64
+            AP ITIFD RGC R   E  G KAG  DDEM+VKV    + V E  AA   +E + +
+Sbjct  109  APMITIFDARGCDRGGVEYKGPKAGTTDDEMLVKVELIGIKVPEYQAAAFTREQLGY  165
+
+
+> UniRef90_A8KCY8 Phycoerythrin alpha subunit 10 (Fragment) n=1 
+Tax=Guillardia theta TaxID=55529 RepID=A8KCY8_GUITH
+Length=122
+
+ Score = 52.4 bits (124),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 28/66 (42%), Positives = 40/66 (61%), Gaps = 2/66 (3%)
+
+Query  6    AKAPQITIFDHRGC-SRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKL-QEFIT  63
+            A AP ITIFD+RGC     KE  G KAG ++DEM+VKVA+ K++    D   +  +E + 
+Sbjct  53   AFAPVITIFDNRGCKEHKNKEYNGPKAGDENDEMLVKVANQKISFPTDDVVNEFRRENLA  112
+
+Query  64   FEKGID  69
+             +  +D
+Sbjct  113  IQGNLD  118
+
+
+> UniRef90_A0A067XP68 Phycoerythrin alpha subunit S1 n=1 Tax=Chroomonas 
+sp. M1627 TaxID=478123 RepID=A0A067XP68_9CRYP
+Length=122
+
+ Score = 51.6 bits (122),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 39/64 (61%), Gaps = 1/64 (2%)
+
+Query  1    AMDKSAKAPQITIFDHRGCS-RAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            A+ K  KAP +TIFD RGC   + KE TG KAGG +D+  VK+    + V +  AAK L 
+Sbjct  53   AIKKDQKAPVVTIFDARGCKDHSNKEYTGAKAGGMEDDQCVKLTMETIKVGDDVAAKVLG  112
+
+Query  60   EFIT  63
+            E ++
+Sbjct  113  ECLS  116
+
+
+> UniRef90_L1J598 Phycoerythrin alpha subunit 13 n=2 Tax=Guillardia 
+theta TaxID=55529 RepID=L1J598_GUITH
+Length=155
+
+ Score = 50.1 bits (118),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 23/41 (56%), Positives = 30/41 (73%), Gaps = 1/41 (2%)
+
+Query  8    APQITIFDHRGCS-RAPKESTGGKAGGQDDEMMVKVASTKV  47
+            AP IT+FDHRGC+    KE TG K+  ++DEM+VKV  TK+
+Sbjct  81   APVITVFDHRGCAEHVNKEYTGPKSNDENDEMLVKVKQTKL  121
+
+
+> UniRef90_A0A067YSJ4 Phycoerythrin alpha subunit n=1 Tax=Chroomonas 
+mesostigmatica TaxID=195065 RepID=A0A067YSJ4_9CRYP
+Length=122
+
+ Score = 49.3 bits (116),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 28/60 (47%), Positives = 38/60 (63%), Gaps = 2/60 (3%)
+
+Query  1    AMDKSAKAPQITIFDHRGC-SRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            A DK  +AP ITIFD RGC   A +E  G K+  ++DEM VKV   K+ V++ D AK ++
+Sbjct  52   AKDKYLRAPVITIFDARGCKEHANREYDGPKSNDENDEMCVKVRMEKIAVAD-DVAKAIK  110
+
+
+> UniRef90_U5T8W5 Phycocyanin645 alpha subunit n=3 Tax=Chroomonas 
+TaxID=3028 RepID=U5T8W5_9CRYP
+Length=122
+
+ Score = 48.9 bits (115),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 31/69 (45%), Positives = 41/69 (59%), Gaps = 2/69 (3%)
+
+Query  1    AMDKSAKAPQITIFDHRGC-SRAPKESTGGKAG-GQDDEMMVKVASTKVTVSESDAAKKL  58
+            A D   +AP +TIFD RGC   A KE T  KAG  ++DE  VKV  T + V++  AA  L
+Sbjct  52   AKDAQLRAPVVTIFDARGCKDHANKEYTDPKAGNAENDECCVKVQMTPIKVADDAAALVL  111
+
+Query  59   QEFITFEKG  67
+            +E ++  KG
+Sbjct  112  KECLSELKG  120
+
+
+> UniRef90_A0A067XP69 Phycoerythrin alpha subunit L1 n=1 Tax=Chroomonas 
+sp. M1312 TaxID=179792 RepID=A0A067XP69_9CRYP
+Length=154
+
+ Score = 48.1 bits (113),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 28/71 (39%), Positives = 40/71 (56%), Gaps = 3/71 (4%)
+
+Query  7    KAPQITIFDHRGCSRAPK--ESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFITF  64
+            +AP I + DHRGC    +  E  G K+  ++DEM + V +  + VSE+DA K  QEF+  
+Sbjct  71   RAPVILVLDHRGCESNSEHTEYKGEKSNDENDEMCIIVKNKLIKVSEADAEKLKQEFVGM  130
+
+Query  65   -EKGIDGPFTS  74
+             E  I+ P  S
+Sbjct  131  KETPINVPQIS  141
+
+
+> UniRef90_L1I9A0 Phycoerythrin alpha subunit 15 n=1 Tax=Guillardia 
+theta CCMP2712 TaxID=905079 RepID=L1I9A0_GUITH
+Length=176
+
+ Score = 48.1 bits (113),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 28/63 (44%), Positives = 36/63 (57%), Gaps = 8/63 (13%)
+
+Query  8    APQITIFDHRGCS-RAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFITFEK  66
+            AP ITIFDHRGC+    KE TG  +   +DEM+VKV S  VT+   D      +F+   K
+Sbjct  80   APVITIFDHRGCAEHQNKEYTGAPSNDYNDEMLVKVQS--VTLKRDDP-----KFLDMAK  132
+
+Query  67   GID  69
+             +D
+Sbjct  133  RVD  135
+
+
+> UniRef90_A8KCV5 Phycoerythrin alpha subunit 6 n=1 Tax=Guillardia 
+theta TaxID=55529 RepID=A8KCV5_GUITH
+Length=124
+
+ Score = 44.3 bits (103),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 22/57 (39%), Positives = 30/57 (53%), Gaps = 0/57 (0%)
+
+Query  8    APQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFITF  64
+            AP I + D RGC R   E TG K G +DD M V V +  +  + + AA  L +F  +
+Sbjct  60   APVIQVHDERGCLRPRAEYTGAKVGTEDDAMCVSVKAKAIPANTNLAASILSDFQIY  116
+
+
+> UniRef90_L1K1P5 Phycoerythrin alpha subunit n=1 Tax=Guillardia 
+theta CCMP2712 TaxID=905079 RepID=L1K1P5_GUITH
+Length=142
+
+ Score = 43.5 bits (101),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 22/46 (48%), Positives = 25/46 (54%), Gaps = 0/46 (0%)
+
+Query  2    MDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKV  47
+            M   +  P ITIFD RGC R   E  G  AG  +DEM VKV   K+
+Sbjct  66   MPADSYTPIITIFDARGCPRGAGEYEGSPAGDNNDEMAVKVVLRKL  111
+
+
+> UniRef90_U5TBU0 Phycocyanin645 alpha subunit n=1 Tax=Chroomonas 
+sp. CCMP270 TaxID=354589 RepID=U5TBU0_9CRYP
+Length=124
+
+ Score = 42.7 bits (99),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 26/57 (46%), Positives = 36/57 (63%), Gaps = 3/57 (5%)
+
+Query  5    SAKAPQITIFDHRGCS-RAPKESTGGKAG-GQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            S  AP ITIFD RGC+  A KE  G  +G  +DDE  VK+   K++V+E D A+ ++
+Sbjct  59   SLSAPVITIFDARGCTDHANKEYKGDWSGRAEDDECCVKIQMQKISVAE-DVARLVR  114
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.126    0.345    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 446384240725
+Results from round 2
+
+
+Query= d1xg0a_
+
+Length=76
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_Q00433 Phycoerythrin alpha-3 chain, chloroplastic n=4 ...  131     4e-37
+  UniRef90_L1IIS5 Phycoerythrin alpha subunit 19 n=3 Tax=Guillard...  127     2e-35
+  UniRef90_L1JQD4 Phycoerythrin alpha subunit 11 n=3 Tax=Guillard...  121     4e-33
+  UniRef90_L1JTP2 Phycoerythrin alpha subunit 20 (Fragment) n=1 T...  113     4e-30
+  UniRef90_A0A067YS84 Phycoerythrin alpha-subunit 1-4 n=1 Tax=Rho...  107     2e-28
+  UniRef90_A0A067YS87 Phycoerythrin alpha-subunit 1 n=1 Tax=Prote...  107     1e-27
+  UniRef90_L1JI35 Phycoerythrin alpha subunit 8 n=2 Tax=Guillardi...  107     3e-27
+  UniRef90_A0A067YRY1 Phycoerythrin alpha-subunit 1-1 n=2 Tax=Rho...  105     5e-27
+  UniRef90_A0A067YS94 Phycoerythrin alpha-subunit 1-3 n=1 Tax=Rho...  105     7e-27
+  UniRef90_A0A067YS95 Phycoerythrin alpha-subunit 1 n=1 Tax=Prote...  105     9e-27
+  UniRef90_L1J0L9 Phycoerythrin subunit 1 n=3 Tax=Guillardia thet...  104     1e-26
+  UniRef90_A0A067YRY3 Phycoerythrin alpha-subunit 2 n=2 Tax=Prote...  103     2e-26
+  UniRef90_U5T880 Phycocyanin645 alpha subunit n=3 Tax=Chroomonas...  103     5e-26
+  UniRef90_L1IL79 Phycoerythrin alpha subunit n=1 Tax=Guillardia ...  101     1e-25
+  UniRef90_A0A067XP87 Phycoerythrin alpha subunit L2 n=2 Tax=Chro...  100     4e-25
+  UniRef90_P30943 Phycoerythrin alpha-2 chain, chloroplastic n=4 ...  100     4e-25
+  UniRef90_A0A067YTA0 Phycoerythrin alpha-subunit 2-1 n=1 Tax=Rho...  98.9    1e-24
+  UniRef90_L1I892 Phycoerythrin alpha subunit 2 n=2 Tax=Guillardi...  97.7    8e-24
+  UniRef90_L1IYK2 Phycoerythrin alpha subunit 5 n=2 Tax=Guillardi...  97.0    1e-23
+  UniRef90_A0A067YTA4 Phycoerythrin alpha-subunit 1 n=1 Tax=Prote...  96.6    3e-23
+  UniRef90_L1IX61 Phycoerythrin alpha subunit 4 n=2 Tax=Guillardi...  95.4    3e-23
+  UniRef90_A0A067XP77 Phycoerythrin alpha subunit S1 n=2 Tax=Chro...  95.8    3e-23
+  UniRef90_A0A067YRY2 Phycoerythrin alpha-subunit 2-2 n=1 Tax=Rho...  95.0    4e-23
+  UniRef90_L1JDL0 Phycoerythrin alpha subunit 3 n=2 Tax=Guillardi...  94.3    7e-23
+  UniRef90_P23815 Phycocyanin-645 alpha-1 chain n=1 Tax=Chroomona...  92.3    2e-22
+  UniRef90_A0A067XP68 Phycoerythrin alpha subunit S1 n=1 Tax=Chro...  92.7    4e-22
+  UniRef90_A0A067YSJ4 Phycoerythrin alpha subunit n=1 Tax=Chroomo...  92.0    9e-22
+  UniRef90_P23816 Phycocyanin-645 alpha-2 chain n=1 Tax=Chroomona...  90.8    9e-22
+  UniRef90_A0A067XP69 Phycoerythrin alpha subunit L1 n=1 Tax=Chro...  91.6    2e-21
+  UniRef90_U5T8W5 Phycocyanin645 alpha subunit n=3 Tax=Chroomonas...  90.4    3e-21
+  UniRef90_L1J444 Phycoerythrin alpha subunit 10 n=1 Tax=Guillard...  91.2    6e-21
+  UniRef90_L1J381 Phycoerythrin alpha subunit 14 n=2 Tax=Guillard...  90.0    2e-20
+  UniRef90_A0A067XP74 Phycoerythrin alpha subunit L3 n=1 Tax=Chro...  87.7    4e-20
+  UniRef90_L1J044 Phycoerythrin alpha subunit 12 n=2 Tax=Guillard...  87.3    1e-19
+  UniRef90_A8KCY8 Phycoerythrin alpha subunit 10 (Fragment) n=1 T...  85.4    3e-19
+  UniRef90_A0A067XP71 Phycoerythrin alpha subunit L2 n=1 Tax=Chro...  84.6    7e-19
+  UniRef90_L1J5L2 Phycoerythrin alpha subunit n=1 Tax=Guillardia ...  82.3    4e-18
+  UniRef90_A0A067YSI9 Phycoerythrin alpha-subunit 1 n=1 Tax=Prote...  82.3    1e-17
+  UniRef90_U5TBU0 Phycocyanin645 alpha subunit n=1 Tax=Chroomonas...  80.8    2e-17
+  UniRef90_A8KCV5 Phycoerythrin alpha subunit 6 n=1 Tax=Guillardi...  78.9    1e-16
+  UniRef90_L1K1P5 Phycoerythrin alpha subunit n=1 Tax=Guillardia ...  78.9    1e-16
+  UniRef90_L1J598 Phycoerythrin alpha subunit 13 n=2 Tax=Guillard...  78.5    2e-16
+  UniRef90_L1I9A0 Phycoerythrin alpha subunit 15 n=1 Tax=Guillard...  73.9    2e-14
+  UniRef90_P30942 Phycoerythrin alpha-1 chain (Fragment) n=1 Tax=...  65.8    2e-12
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_L1JGF5 Phycoerythrin alpha subunit 6 n=1 Tax=Guillardi...  55.4    8e-08
+  UniRef90_U5T8F7 Phycoerythrin550 alpha subunit n=1 Tax=Hemiselm...  50.4    4e-06
+  UniRef90_U5TBJ3 Phycoerythrin550 alpha subunit n=2 Tax=Hemiselm...  49.6    7e-06
+  UniRef90_A0A067XP79 Phycoerythrin alpha subunit 1 n=1 Tax=Hemis...  43.4    9e-04
+  UniRef90_A0A075BTU2 Phycoerythrin alpha subunit n=2 Tax=Hemisel...  41.5    0.004
+
+
+> UniRef90_Q00433 Phycoerythrin alpha-3 chain, chloroplastic n=4 
+Tax=Rhodomonas TaxID=37096 RepID=PHE3_RHDS2
+Length=128
+
+ Score = 131 bits (330),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 76/76 (100%), Positives = 76/76 (100%), Gaps = 0/76 (0%)
+
+Query  1    AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+            AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE
+Sbjct  53   AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  112
+
+Query  61   FITFEKGIDGPFTSKN  76
+            FITFEKGIDGPFTSKN
+Sbjct  113  FITFEKGIDGPFTSKN  128
+
+
+> UniRef90_L1IIS5 Phycoerythrin alpha subunit 19 n=3 Tax=Guillardia 
+theta TaxID=55529 RepID=L1IIS5_GUITH
+Length=130
+
+ Score = 127 bits (320),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 54/77 (70%), Positives = 62/77 (81%), Gaps = 2/77 (3%)
+
+Query  1    AMDKSAKAPQITIFDHRGCS-RAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            AMDKS +AP ITIFDHRGC+  A KE TG KA  QDDEM VKVAS K+ VSE DAA+KLQ
+Sbjct  51   AMDKSGRAPVITIFDHRGCTAHANKEYTGAKANSQDDEMCVKVASAKIAVSEGDAARKLQ  110
+
+Query  60   EFITFE-KGIDGPFTSK  75
+            EFI+++ KGIDGP+T K
+Sbjct  111  EFISYQAKGIDGPYTGK  127
+
+
+> UniRef90_L1JQD4 Phycoerythrin alpha subunit 11 n=3 Tax=Guillardia 
+theta TaxID=55529 RepID=L1JQD4_GUITH
+Length=133
+
+ Score = 121 bits (304),  Expect = 4e-33, Method: Composition-based stats.
+ Identities = 52/74 (70%), Positives = 60/74 (81%), Gaps = 1/74 (1%)
+
+Query  2    MDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEF  61
+            MDKSA+AP+ITIFDHRGCSRAPKE  G KAG  DDEM VKVASTKV  S + A KKLQEF
+Sbjct  53   MDKSARAPEITIFDHRGCSRAPKEYAGAKAGTSDDEMCVKVASTKVEASLTLAEKKLQEF  112
+
+Query  62   ITFE-KGIDGPFTS  74
+            ++++ KGIDG +T 
+Sbjct  113  LSYQAKGIDGDYTG  126
+
+
+> UniRef90_L1JTP2 Phycoerythrin alpha subunit 20 (Fragment) n=1 
+Tax=Guillardia theta CCMP2712 TaxID=905079 RepID=L1JTP2_GUITH
+Length=129
+
+ Score = 113 bits (284),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 42/63 (67%), Positives = 49/63 (78%), Gaps = 0/63 (0%)
+
+Query  1    AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+            +MDKSA+AP ITIFDHRGCSRAPKE TGG +  QDD+M VK  S K+ VSE  AAK LQE
+Sbjct  62   SMDKSARAPVITIFDHRGCSRAPKEYTGGLSNTQDDQMCVKAQSLKIEVSEQTAAKLLQE  121
+
+Query  61   FIT  63
+             ++
+Sbjct  122  NLS  124
+
+
+> UniRef90_A0A067YS84 Phycoerythrin alpha-subunit 1-4 n=1 Tax=Rhodomonas 
+minuta TaxID=1326779 RepID=A0A067YS84_9CRYP
+Length=79
+
+ Score = 107 bits (268),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 45/75 (60%), Positives = 55/75 (73%), Gaps = 2/75 (3%)
+
+Query  2   MDKSAKAPQITIFDHRGCS-RAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+           MDKSA+AP ITI DHRGC+    KE  G K+  QDDEM V V S KVTVSE ++AK LQ+
+Sbjct  1   MDKSARAPAITILDHRGCTAHENKEYKGDKSNDQDDEMCVVVRSNKVTVSEGESAKFLQQ  60
+
+Query  61  FITFE-KGIDGPFTS  74
+            I+++ KGIDGP+T 
+Sbjct  61  VISYQAKGIDGPYTG  75
+
+
+> UniRef90_A0A067YS87 Phycoerythrin alpha-subunit 1 n=1 Tax=Proteomonas 
+sulcata TaxID=77928 RepID=A0A067YS87_9CRYP
+Length=125
+
+ Score = 107 bits (267),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 58/75 (77%), Positives = 62/75 (83%), Gaps = 2/75 (3%)
+
+Query  2    MDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEF  61
+            MDKSAKAP ITIFDHRGCSRAPKE +  K+G QDDEM+VKVASTKVTVSE  AAKKLQEF
+Sbjct  51   MDKSAKAPAITIFDHRGCSRAPKE-SSAKSGSQDDEMLVKVASTKVTVSEDVAAKKLQEF  109
+
+Query  62   ITF-EKGIDGPFTSK  75
+            I F EKG+DG    K
+Sbjct  110  IGFKEKGLDGSVIRK  124
+
+
+> UniRef90_L1JI35 Phycoerythrin alpha subunit 8 n=2 Tax=Guillardia 
+theta TaxID=55529 RepID=L1JI35_GUITH
+Length=173
+
+ Score = 107 bits (267),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 40/73 (55%), Positives = 50/73 (68%), Gaps = 1/73 (1%)
+
+Query  3    DKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFI  62
+             K + AP IT FDH+ C RAPKE  G  +G +DD   VKVA +K+TVSE++AA  LQEFI
+Sbjct  55   PKDSLAPVITTFDHQFCDRAPKEYVGPASGDEDDNRCVKVALSKITVSETEAAAALQEFI  114
+
+Query  63   TFE-KGIDGPFTS  74
+            ++  KGIDG F  
+Sbjct  115  SYRAKGIDGDFRG  127
+
+
+> UniRef90_A0A067YRY1 Phycoerythrin alpha-subunit 1-1 n=2 Tax=Rhodomonas 
+minuta TaxID=1326779 RepID=A0A067YRY1_9CRYP
+Length=130
+
+ Score = 105 bits (263),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 47/77 (61%), Positives = 56/77 (73%), Gaps = 3/77 (4%)
+
+Query  2    MDKSAKAPQITIFDHRGCSR--APKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            MDKS +AP ITIFDHRGC+R    KE TG KAGG+DDEM VKV S K+  SE+ AA +L 
+Sbjct  53   MDKSGRAPVITIFDHRGCNRGGPNKEYTGAKAGGKDDEMCVKVQSVKIAASEARAAAQLA  112
+
+Query  60   EFITFE-KGIDGPFTSK  75
+            E I+ + KGIDG +T K
+Sbjct  113  ESISLKAKGIDGSYTGK  129
+
+
+> UniRef90_A0A067YS94 Phycoerythrin alpha-subunit 1-3 n=1 Tax=Rhodomonas 
+minuta TaxID=1326779 RepID=A0A067YS94_9CRYP
+Length=151
+
+ Score = 105 bits (263),  Expect = 7e-27, Method: Composition-based stats.
+ Identities = 41/73 (56%), Positives = 52/73 (71%), Gaps = 3/73 (4%)
+
+Query  3    DKSAKAPQITIFDHRGCSR--APKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+            D+S +AP ITIFDHRGC+R    KE TG KAGG DDEM VKVA   + VS + +  +L+E
+Sbjct  55   DQSGRAPVITIFDHRGCNRGGPNKEYTGPKAGGIDDEMCVKVALPIIQVSGAQSTAQLRE  114
+
+Query  61   FITFE-KGIDGPF  72
+             I+F+ KGIDG +
+Sbjct  115  AISFKAKGIDGDY  127
+
+
+> UniRef90_A0A067YS95 Phycoerythrin alpha-subunit 1 n=1 Tax=Proteomonas 
+sulcata TaxID=77928 RepID=A0A067YS95_9CRYP
+Length=129
+
+ Score = 105 bits (261),  Expect = 9e-27, Method: Composition-based stats.
+ Identities = 53/71 (75%), Positives = 56/71 (79%), Gaps = 2/71 (3%)
+
+Query  2    MDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEF  61
+            MDKSAKAP ITIFDHRGC RAPKE    K+G QDDEMMVKVAS  + VSE  AA KLQEF
+Sbjct  51   MDKSAKAPIITIFDHRGCPRAPKEGN-TKSGSQDDEMMVKVASATIKVSEDSAAAKLQEF  109
+
+Query  62   ITF-EKGIDGP  71
+            I F EKG+DGP
+Sbjct  110  IGFKEKGLDGP  120
+
+
+> UniRef90_L1J0L9 Phycoerythrin subunit 1 n=3 Tax=Guillardia theta 
+TaxID=55529 RepID=L1J0L9_GUITH
+Length=103
+
+ Score = 104 bits (259),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 38/68 (56%), Positives = 46/68 (68%), Gaps = 1/68 (1%)
+
+Query  1    AMDKSAKAPQITIFDHRGCS-RAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            AMDKS +AP IT+FDHRGC+  A KE TG KA  QDDEM+VK  S K+ VS + A   LQ
+Sbjct  35   AMDKSGRAPVITVFDHRGCTAHANKEYTGAKANSQDDEMLVKAQSVKIEVSAATADSVLQ  94
+
+Query  60   EFITFEKG  67
+            + I+  K 
+Sbjct  95   QTISTLKR  102
+
+
+> UniRef90_A0A067YRY3 Phycoerythrin alpha-subunit 2 n=2 Tax=Proteomonas 
+sulcata TaxID=77928 RepID=A0A067YRY3_9CRYP
+Length=102
+
+ Score = 103 bits (257),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 43/64 (67%), Positives = 49/64 (77%), Gaps = 0/64 (0%)
+
+Query  1   AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+           AMDKSAKAP ITIFDHRGCSRAPKE TG KA GQDDEMMVK  S K+ VS+  A   L++
+Sbjct  36  AMDKSAKAPVITIFDHRGCSRAPKEYTGSKASGQDDEMMVKAQSVKIAVSDGVAESVLKD  95
+
+Query  61  FITF  64
+            ++ 
+Sbjct  96  SLSV  99
+
+
+> UniRef90_U5T880 Phycocyanin645 alpha subunit n=3 Tax=Chroomonas 
+TaxID=3028 RepID=U5T880_9CRYP
+Length=132
+
+ Score = 103 bits (256),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 34/75 (45%), Positives = 45/75 (60%), Gaps = 1/75 (1%)
+
+Query  1    AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+            A D   +AP + IFD RGC     + TG K+   +D+  VKV+  K+TVSE+ AAKKLQE
+Sbjct  52   ARDAQLRAPIVEIFDARGCDAKNAQYTGPKSNDMNDDQCVKVSMQKITVSEATAAKKLQE  111
+
+Query  61   FITFE-KGIDGPFTS  74
+            FI  +   I+ P  S
+Sbjct  112  FIGGKATAINVPIIS  126
+
+
+> UniRef90_L1IL79 Phycoerythrin alpha subunit n=1 Tax=Guillardia 
+theta CCMP2712 TaxID=905079 RepID=L1IL79_GUITH
+Length=127
+
+ Score = 101 bits (253),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 33/63 (52%), Positives = 41/63 (65%), Gaps = 0/63 (0%)
+
+Query  2    MDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEF  61
+            M     AP IT+FDHRGC+RAPKE  G K+   +D M+VKV S K  V+ES AA  LQE 
+Sbjct  60   MPADGYAPVITVFDHRGCTRAPKEYNGPKSNDMEDGMLVKVESIKCKVTESYAASLLQEQ  119
+
+Query  62   ITF  64
+            + +
+Sbjct  120  LGY  122
+
+
+> UniRef90_A0A067XP87 Phycoerythrin alpha subunit L2 n=2 Tax=Chroomonas 
+sp. M1627 TaxID=478123 RepID=A0A067XP87_9CRYP
+Length=130
+
+ Score = 100 bits (250),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 36/75 (48%), Positives = 46/75 (61%), Gaps = 1/75 (1%)
+
+Query  1    AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+            A+ K  KAP ITIFD+RGC       +G KA G +D+  VK+    +TVSE+ AAKKLQE
+Sbjct  50   AIKKDQKAPIITIFDNRGCEVKKNNYSGAKANGMEDDQCVKLTMETITVSETTAAKKLQE  109
+
+Query  61   FITFE-KGIDGPFTS  74
+            FI  +   I+ P  S
+Sbjct  110  FIGLKATAINVPQIS  124
+
+
+> UniRef90_P30943 Phycoerythrin alpha-2 chain, chloroplastic n=4 
+Tax=Rhodomonas TaxID=37096 RepID=PHE2_RHDS2
+Length=104
+
+ Score = 100 bits (248),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 43/63 (68%), Positives = 46/63 (73%), Gaps = 0/63 (0%)
+
+Query  1   AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+           AMDKSAKAP ITIFDHRGCSRAPKE TG KAGG+DDEMMVK  S K+ VS   A   L  
+Sbjct  38  AMDKSAKAPVITIFDHRGCSRAPKEYTGAKAGGKDDEMMVKAQSVKIEVSTGTAEGVLAT  97
+
+Query  61  FIT  63
+            + 
+Sbjct  98  SLA  100
+
+
+> UniRef90_A0A067YTA0 Phycoerythrin alpha-subunit 2-1 n=1 Tax=Rhodomonas 
+minuta TaxID=1326779 RepID=A0A067YTA0_9CRYP
+Length=103
+
+ Score = 98.9 bits (245),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 39/67 (58%), Positives = 48/67 (72%), Gaps = 1/67 (1%)
+
+Query  1    AMDKSAKAPQITIFDHRGCS-RAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            AMDK+A+AP IT+FDHRGCS     E TG KAG QDDEM+VKV S KVTV  + AA  L+
+Sbjct  35   AMDKTARAPIITVFDHRGCSAHKNVEYTGRKAGDQDDEMLVKVQSAKVTVDSNVAAAVLK  94
+
+Query  60   EFITFEK  66
+            + ++  K
+Sbjct  95   DSLSTLK  101
+
+
+> UniRef90_L1I892 Phycoerythrin alpha subunit 2 n=2 Tax=Guillardia 
+theta TaxID=55529 RepID=L1I892_GUITH
+Length=139
+
+ Score = 97.7 bits (242),  Expect = 8e-24, Method: Composition-based stats.
+ Identities = 36/65 (55%), Positives = 46/65 (71%), Gaps = 0/65 (0%)
+
+Query  2    MDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEF  61
+            M  +  AP++TIFDHRGC+RAPKE  GGK G QDDEM+V+V S KV   E++AAK L   
+Sbjct  73   MRANFYAPEVTIFDHRGCNRAPKEYKGGKTGDQDDEMLVRVKSVKVFCPEAEAAKVLAST  132
+
+Query  62   ITFEK  66
+            ++  K
+Sbjct  133  LSVLK  137
+
+
+> UniRef90_L1IYK2 Phycoerythrin alpha subunit 5 n=2 Tax=Guillardia 
+theta TaxID=55529 RepID=L1IYK2_GUITH
+Length=128
+
+ Score = 97.0 bits (240),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 35/64 (55%), Positives = 37/64 (58%), Gaps = 0/64 (0%)
+
+Query  2    MDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEF  61
+            MDK A AP ITIFDHRGC R  KE  G KA   DD M+VKV    +TVS S AA  L E 
+Sbjct  59   MDKKAIAPVITIFDHRGCDRITKEYQGRKANTYDDYMLVKVKGEVITVSTSTAASVLAET  118
+
+Query  62   ITFE  65
+                
+Sbjct  119  FGLL  122
+
+
+> UniRef90_A0A067YTA4 Phycoerythrin alpha-subunit 1 n=1 Tax=Proteomonas 
+sulcata TaxID=77928 RepID=A0A067YTA4_9CRYP
+Length=141
+
+ Score = 96.6 bits (239),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 44/74 (59%), Positives = 51/74 (69%), Gaps = 2/74 (3%)
+
+Query  2    MDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEF  61
+            M    KAP ITIFDHRGCSRAPKE    ++G QDDEM+VKV   +   SE++AAKKL EF
+Sbjct  65   MMAEGKAPAITIFDHRGCSRAPKEGN-TESGTQDDEMLVKVVMRRPKYSEAEAAKKLAEF  123
+
+Query  62   ITF-EKGIDGPFTS  74
+            I   EKG+DG   S
+Sbjct  124  IGMKEKGLDGDVVS  137
+
+
+> UniRef90_L1IX61 Phycoerythrin alpha subunit 4 n=2 Tax=Guillardia 
+theta TaxID=55529 RepID=L1IX61_GUITH
+Length=106
+
+ Score = 95.4 bits (236),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 34/67 (51%), Positives = 41/67 (61%), Gaps = 0/67 (0%)
+
+Query  1    AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+            AMD+S  AP + IFDHRGCSR  KE TG K  G +DEM+VKV S  +   E+ AA  LQ 
+Sbjct  39   AMDRSNTAPIVQIFDHRGCSRVAKEYTGKKCNGAEDEMLVKVQSKVIPAPEALAASVLQV  98
+
+Query  61   FITFEKG  67
+             +   K 
+Sbjct  99   TVGNLKR  105
+
+
+> UniRef90_A0A067XP77 Phycoerythrin alpha subunit S1 n=2 Tax=Chroomonas 
+sp. M1312 TaxID=179792 RepID=A0A067XP77_9CRYP
+Length=122
+
+ Score = 95.8 bits (237),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 33/67 (49%), Positives = 40/67 (60%), Gaps = 1/67 (1%)
+
+Query  1    AMDKSAKAPQITIFDHRGC-SRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            A+ K  KAP ITIFD RGC   A KE TG KAGG DDE  VK+    + V++  AA  L+
+Sbjct  54   AIKKDQKAPVITIFDARGCKDHANKEYTGAKAGGMDDEQCVKLTMETIKVADDVAASVLR  113
+
+Query  60   EFITFEK  66
+            E +   K
+Sbjct  114  EALGELK  120
+
+
+> UniRef90_A0A067YRY2 Phycoerythrin alpha-subunit 2-2 n=1 Tax=Rhodomonas 
+minuta TaxID=1326779 RepID=A0A067YRY2_9CRYP
+Length=102
+
+ Score = 95.0 bits (235),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 34/67 (51%), Positives = 43/67 (64%), Gaps = 1/67 (1%)
+
+Query  1    AMDKSAKAPQITIFDHRGCSR-APKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            AMDKSA+AP ITIFDHRGCSR +  E  G   G QDDEM +KV + K+   +  A + L 
+Sbjct  35   AMDKSARAPIITIFDHRGCSRHSNTEYKGRLTGTQDDEMCIKVGTAKIIGEKGTAERVLA  94
+
+Query  60   EFITFEK  66
+            + +T  K
+Sbjct  95   DSLTTLK  101
+
+
+> UniRef90_L1JDL0 Phycoerythrin alpha subunit 3 n=2 Tax=Guillardia 
+theta TaxID=55529 RepID=L1JDL0_GUITH
+Length=106
+
+ Score = 94.3 bits (233),  Expect = 7e-23, Method: Composition-based stats.
+ Identities = 32/67 (48%), Positives = 42/67 (63%), Gaps = 2/67 (3%)
+
+Query  2    MDKSAKAPQITIFDHRGCSRA--PKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            MDKS +AP +T+FDHRGC R     E  G  A  QDDEM+VKVA  KV ++E+ A   +Q
+Sbjct  39   MDKSNRAPVVTVFDHRGCQRGKRNTEYQGLPANSQDDEMLVKVAMQKVAINEAAATDLVQ  98
+
+Query  60   EFITFEK  66
+            + +   K
+Sbjct  99   QLLGTLK  105
+
+
+> UniRef90_P23815 Phycocyanin-645 alpha-1 chain n=1 Tax=Chroomonas 
+sp. TaxID=3029 RepID=PH61_CHRSP
+Length=70
+
+ Score = 92.3 bits (228),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 34/64 (53%), Positives = 40/64 (63%), Gaps = 1/64 (2%)
+
+Query  5   SAKAPQITIFDHRGC-SRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFIT  63
+             + P ITIFD RGC   A KE TG KAGG DDEM VKVA  K+ V+E  AA  L+E ++
+Sbjct  4   DLRTPVITIFDARGCKDHANKEYTGPKAGGADDEMCVKVAMQKIAVAEDAAALVLKECLS  63
+
+Query  64  FEKG  67
+             K 
+Sbjct  64  ELKA  67
+
+
+> UniRef90_A0A067XP68 Phycoerythrin alpha subunit S1 n=1 Tax=Chroomonas 
+sp. M1627 TaxID=478123 RepID=A0A067XP68_9CRYP
+Length=122
+
+ Score = 92.7 bits (229),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 30/67 (45%), Positives = 40/67 (60%), Gaps = 1/67 (1%)
+
+Query  1    AMDKSAKAPQITIFDHRGC-SRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            A+ K  KAP +TIFD RGC   + KE TG KAGG +D+  VK+    + V +  AAK L 
+Sbjct  53   AIKKDQKAPVVTIFDARGCKDHSNKEYTGAKAGGMEDDQCVKLTMETIKVGDDVAAKVLG  112
+
+Query  60   EFITFEK  66
+            E ++  K
+Sbjct  113  ECLSELK  119
+
+
+> UniRef90_A0A067YSJ4 Phycoerythrin alpha subunit n=1 Tax=Chroomonas 
+mesostigmatica TaxID=195065 RepID=A0A067YSJ4_9CRYP
+Length=122
+
+ Score = 92.0 bits (227),  Expect = 9e-22, Method: Composition-based stats.
+ Identities = 28/67 (42%), Positives = 38/67 (57%), Gaps = 1/67 (1%)
+
+Query  1    AMDKSAKAPQITIFDHRGC-SRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            A DK  +AP ITIFD RGC   A +E  G K+  ++DEM VKV   K+ V++  A     
+Sbjct  52   AKDKYLRAPVITIFDARGCKEHANREYDGPKSNDENDEMCVKVRMEKIAVADDVAKAIKL  111
+
+Query  60   EFITFEK  66
+            E ++  K
+Sbjct  112  ESLSELK  118
+
+
+> UniRef90_P23816 Phycocyanin-645 alpha-2 chain n=1 Tax=Chroomonas 
+sp. TaxID=3029 RepID=PH62_CHRSP
+Length=80
+
+ Score = 90.8 bits (224),  Expect = 9e-22, Method: Composition-based stats.
+ Identities = 29/71 (41%), Positives = 40/71 (56%), Gaps = 1/71 (1%)
+
+Query  5   SAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFITF  64
+             +AP + IFD RGC     + TG K+G  +D+  VKV+     VSE+ A KK QEF+ F
+Sbjct  4   DLRAPYVEIFDARGCDAKNSQYTGPKSGDMNDDQCVKVSMAVPKVSEATAEKKRQEFLGF  63
+
+Query  65  -EKGIDGPFTS  74
+            E  I+ P  +
+Sbjct  64  KETAINVPQIA  74
+
+
+> UniRef90_A0A067XP69 Phycoerythrin alpha subunit L1 n=1 Tax=Chroomonas 
+sp. M1312 TaxID=179792 RepID=A0A067XP69_9CRYP
+Length=154
+
+ Score = 91.6 bits (226),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 28/74 (38%), Positives = 40/74 (54%), Gaps = 3/74 (4%)
+
+Query  4    KSAKAPQITIFDHRGCSRAPK--ESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEF  61
+               +AP I + DHRGC    +  E  G K+  ++DEM + V +  + VSE+DA K  QEF
+Sbjct  68   ADLRAPVILVLDHRGCESNSEHTEYKGEKSNDENDEMCIIVKNKLIKVSEADAEKLKQEF  127
+
+Query  62   ITF-EKGIDGPFTS  74
+            +   E  I+ P  S
+Sbjct  128  VGMKETPINVPQIS  141
+
+
+> UniRef90_U5T8W5 Phycocyanin645 alpha subunit n=3 Tax=Chroomonas 
+TaxID=3028 RepID=U5T8W5_9CRYP
+Length=122
+
+ Score = 90.4 bits (223),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 31/69 (45%), Positives = 41/69 (59%), Gaps = 2/69 (3%)
+
+Query  1    AMDKSAKAPQITIFDHRGC-SRAPKESTGGKAGG-QDDEMMVKVASTKVTVSESDAAKKL  58
+            A D   +AP +TIFD RGC   A KE T  KAG  ++DE  VKV  T + V++  AA  L
+Sbjct  52   AKDAQLRAPVVTIFDARGCKDHANKEYTDPKAGNAENDECCVKVQMTPIKVADDAAALVL  111
+
+Query  59   QEFITFEKG  67
+            +E ++  KG
+Sbjct  112  KECLSELKG  120
+
+
+> UniRef90_L1J444 Phycoerythrin alpha subunit 10 n=1 Tax=Guillardia 
+theta CCMP2712 TaxID=905079 RepID=L1J444_GUITH
+Length=181
+
+ Score = 91.2 bits (225),  Expect = 6e-21, Method: Composition-based stats.
+ Identities = 33/63 (52%), Positives = 41/63 (65%), Gaps = 0/63 (0%)
+
+Query  5    SAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFITF  64
+              +APQITIFDHRGCSRAPKE TG +AG  DDEM+VK+      V+   A + L++ I  
+Sbjct  118  DLRAPQITIFDHRGCSRAPKEYTGKRAGTYDDEMLVKIDFKAAEVNSKLAQQVLEQTIGV  177
+
+Query  65   EKG  67
+             K 
+Sbjct  178  LKA  180
+
+
+ Score = 85.0 bits (209),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 28/66 (42%), Positives = 39/66 (59%), Gaps = 2/66 (3%)
+
+Query  6    AKAPQITIFDHRGC-SRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKL-QEFIT  63
+            A AP ITIFD+RGC     KE  G KAG ++DEM+VKVA+ K+     D   +  +E + 
+Sbjct  53   AFAPVITIFDNRGCKEHKNKEYNGPKAGDENDEMLVKVANQKIPFPTDDVVNEFRRENLA  112
+
+Query  64   FEKGID  69
+             +  +D
+Sbjct  113  IQGNLD  118
+
+
+> UniRef90_L1J381 Phycoerythrin alpha subunit 14 n=2 Tax=Guillardia 
+theta TaxID=55529 RepID=L1J381_GUITH
+Length=179
+
+ Score = 90.0 bits (222),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 29/64 (45%), Positives = 34/64 (53%), Gaps = 0/64 (0%)
+
+Query  1    AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+            A      AP ITIFD RGC R   E  G KAG  DDEM+VKV    + V E  AA   +E
+Sbjct  102  APKGKNFAPMITIFDARGCDRGGVEYKGPKAGTTDDEMLVKVELIGIKVPEYQAAAFTRE  161
+
+Query  61   FITF  64
+             + +
+Sbjct  162  QLGY  165
+
+
+> UniRef90_A0A067XP74 Phycoerythrin alpha subunit L3 n=1 Tax=Chroomonas 
+sp. M1627 TaxID=478123 RepID=A0A067XP74_9CRYP
+Length=131
+
+ Score = 87.7 bits (216),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 30/59 (51%), Positives = 38/59 (64%), Gaps = 0/59 (0%)
+
+Query  7    KAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFITFE  65
+            KAP IT+FD+RGC       +G KAG  +DE  +K+    V VSE+ AAKKLQEFI  +
+Sbjct  57   KAPFITLFDNRGCEVKKDNYSGAKAGDMEDEQCIKLVMDSVVVSEATAAKKLQEFIGVK  115
+
+
+> UniRef90_L1J044 Phycoerythrin alpha subunit 12 n=2 Tax=Guillardia 
+theta TaxID=55529 RepID=L1J044_GUITH
+Length=159
+
+ Score = 87.3 bits (215),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 31/64 (48%), Positives = 35/64 (55%), Gaps = 5/64 (8%)
+
+Query  9    PQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKV---TVSESDAAKKLQEFIT--  63
+            P IT+FDHRGCSR+PKE  G K+G QDDEM VKV              A   L E I   
+Sbjct  83   PVITVFDHRGCSRSPKEYVGDKSGDQDDEMCVKVQMKTPYTYPQYTRQATALLNEIIGVT  142
+
+Query  64   FEKG  67
+            + KG
+Sbjct  143  YTKG  146
+
+
+> UniRef90_A8KCY8 Phycoerythrin alpha subunit 10 (Fragment) n=1 
+Tax=Guillardia theta TaxID=55529 RepID=A8KCY8_GUITH
+Length=122
+
+ Score = 85.4 bits (210),  Expect = 3e-19, Method: Composition-based stats.
+ Identities = 28/66 (42%), Positives = 40/66 (61%), Gaps = 2/66 (3%)
+
+Query  6    AKAPQITIFDHRGC-SRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKL-QEFIT  63
+            A AP ITIFD+RGC     KE  G KAG ++DEM+VKVA+ K++    D   +  +E + 
+Sbjct  53   AFAPVITIFDNRGCKEHKNKEYNGPKAGDENDEMLVKVANQKISFPTDDVVNEFRRENLA  112
+
+Query  64   FEKGID  69
+             +  +D
+Sbjct  113  IQGNLD  118
+
+
+> UniRef90_A0A067XP71 Phycoerythrin alpha subunit L2 n=1 Tax=Chroomonas 
+sp. M1312 TaxID=179792 RepID=A0A067XP71_9CRYP
+Length=132
+
+ Score = 84.6 bits (208),  Expect = 7e-19, Method: Composition-based stats.
+ Identities = 28/59 (47%), Positives = 36/59 (61%), Gaps = 0/59 (0%)
+
+Query  7    KAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFITFE  65
+            KAP IT+FD+RGC       +G KA G +D+  +K+    V VSE  AAKKL EFI  +
+Sbjct  58   KAPFITLFDNRGCEVKKNNYSGPKANGAEDDQCIKLTMESVKVSEDTAAKKLGEFIGLK  116
+
+
+> UniRef90_L1J5L2 Phycoerythrin alpha subunit n=1 Tax=Guillardia 
+theta CCMP2712 TaxID=905079 RepID=L1J5L2_GUITH
+Length=119
+
+ Score = 82.3 bits (202),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 30/59 (51%), Positives = 36/59 (61%), Gaps = 2/59 (3%)
+
+Query  8    APQITIFDHRGCSR--APKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFITF  64
+            AP IT+FDHRGC R  A  E  G  A G +DEM+VKVA  KV +S   A K LQ+ +  
+Sbjct  46   APIITVFDHRGCKRGKADSEYQGALANGPEDEMLVKVAYKKVPLSAGFADKVLQQTLGT  104
+
+
+> UniRef90_A0A067YSI9 Phycoerythrin alpha-subunit 1 n=1 Tax=Proteomonas 
+sulcata TaxID=77928 RepID=A0A067YSI9_9CRYP
+Length=187
+
+ Score = 82.3 bits (202),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 29/58 (50%), Positives = 34/58 (59%), Gaps = 2/58 (3%)
+
+Query  5    SAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSE--SDAAKKLQE  60
+             A+AP I  FDHRGCSR   E TG KAG  +DEM VKVA   + V     D  K +Q+
+Sbjct  93   DARAPWIIGFDHRGCSRPNVEYTGKKAGNDNDEMCVKVAMVNMNVYYEAEDMPKYIQQ  150
+
+
+> UniRef90_U5TBU0 Phycocyanin645 alpha subunit n=1 Tax=Chroomonas 
+sp. CCMP270 TaxID=354589 RepID=U5TBU0_9CRYP
+Length=124
+
+ Score = 80.8 bits (198),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 27/64 (42%), Positives = 34/64 (53%), Gaps = 2/64 (3%)
+
+Query  5    SAKAPQITIFDHRGC-SRAPKESTGGKAG-GQDDEMMVKVASTKVTVSESDAAKKLQEFI  62
+            S  AP ITIFD RGC   A KE  G  +G  +DDE  VK+   K++V+E  A     E +
+Sbjct  59   SLSAPVITIFDARGCTDHANKEYKGDWSGRAEDDECCVKIQMQKISVAEDVARLVRLECL  118
+
+Query  63   TFEK  66
+               K
+Sbjct  119  NELK  122
+
+
+> UniRef90_A8KCV5 Phycoerythrin alpha subunit 6 n=1 Tax=Guillardia 
+theta TaxID=55529 RepID=A8KCV5_GUITH
+Length=124
+
+ Score = 78.9 bits (193),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 22/57 (39%), Positives = 30/57 (53%), Gaps = 0/57 (0%)
+
+Query  8    APQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFITF  64
+            AP I + D RGC R   E TG K G +DD M V V +  +  + + AA  L +F  +
+Sbjct  60   APVIQVHDERGCLRPRAEYTGAKVGTEDDAMCVSVKAKAIPANTNLAASILSDFQIY  116
+
+
+> UniRef90_L1K1P5 Phycoerythrin alpha subunit n=1 Tax=Guillardia 
+theta CCMP2712 TaxID=905079 RepID=L1K1P5_GUITH
+Length=142
+
+ Score = 78.9 bits (193),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 26/67 (39%), Positives = 31/67 (46%), Gaps = 1/67 (1%)
+
+Query  2    MDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEF  61
+            M   +  P ITIFD RGC R   E  G  AG  +DEM VKV   K+      A +   E 
+Sbjct  66   MPADSYTPIITIFDARGCPRGAGEYEGSPAGDNNDEMAVKVVLRKLEPDTGFAEQIKAET  125
+
+Query  62   IT-FEKG  67
+            +    KG
+Sbjct  126  LGLMSKG  132
+
+
+> UniRef90_L1J598 Phycoerythrin alpha subunit 13 n=2 Tax=Guillardia 
+theta TaxID=55529 RepID=L1J598_GUITH
+Length=155
+
+ Score = 78.5 bits (192),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 27/68 (40%), Positives = 36/68 (53%), Gaps = 5/68 (7%)
+
+Query  2    MDKSAKAPQITIFDHRGC-SRAPKESTGGKAGGQDDEMMVKVASTKVTVSE----SDAAK  56
+            M     AP IT+FDHRGC     KE TG K+  ++DEM+VKV  TK+   +      A +
+Sbjct  75   MKNKNFAPVITVFDHRGCAEHVNKEYTGPKSNDENDEMLVKVKQTKLRRDDPKFVELADR  134
+
+Query  57   KLQEFITF  64
+             +QE    
+Sbjct  135  IVQETKGT  142
+
+
+> UniRef90_L1I9A0 Phycoerythrin alpha subunit 15 n=1 Tax=Guillardia 
+theta CCMP2712 TaxID=905079 RepID=L1I9A0_GUITH
+Length=176
+
+ Score = 73.9 bits (180),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 25/63 (40%), Positives = 33/63 (52%), Gaps = 8/63 (13%)
+
+Query  8    APQITIFDHRGC-SRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFITFEK  66
+            AP ITIFDHRGC     KE TG  +   +DEM+VKV S  +   +        +F+   K
+Sbjct  80   APVITIFDHRGCAEHQNKEYTGAPSNDYNDEMLVKVQSVTLKRDDP-------KFLDMAK  132
+
+Query  67   GID  69
+             +D
+Sbjct  133  RVD  135
+
+
+> UniRef90_P30942 Phycoerythrin alpha-1 chain (Fragment) n=1 Tax=Rhodomonas 
+sp. (strain CS 24) TaxID=79257 RepID=PHE1_RHDS2
+Length=44
+
+ Score = 65.8 bits (159),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 35/43 (81%), Positives = 38/43 (88%), Gaps = 1/43 (2%)
+
+Query  1   AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVA  43
+           AMDKSAKAPQITIFDHRGCSRAPK  TGG A  +DD+MMVKV+
+Sbjct  1   AMDKSAKAPQITIFDHRGCSRAPKSETGGTA-TKDDQMMVKVS  42
+
+
+> UniRef90_L1JGF5 Phycoerythrin alpha subunit 6 n=1 Tax=Guillardia 
+theta CCMP2712 TaxID=905079 RepID=L1JGF5_GUITH
+Length=168
+
+ Score = 55.4 bits (132),  Expect = 8e-08, Method: Composition-based stats.
+ Identities = 14/43 (33%), Positives = 21/43 (49%), Gaps = 0/43 (0%)
+
+Query  22   APKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFITF  64
+               E TG K G +DD M V V +  +  + + AA  L +F  +
+Sbjct  118  PRAEYTGAKVGTEDDAMCVSVKAKAIPANTNLAASILSDFQIY  160
+
+
+> UniRef90_U5T8F7 Phycoerythrin550 alpha subunit n=1 Tax=Hemiselmis 
+andersenii TaxID=464988 RepID=U5T8F7_HEMAN
+Length=116
+
+ Score = 50.4 bits (119),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 23/71 (32%), Positives = 38/71 (54%), Gaps = 5/71 (7%)
+
+Query  1    AMDKSAKAPQITIFDHR-GCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            AM K++KAP +TIFD R GC       T  K G  ++ +MVK+   ++ +     A+ + 
+Sbjct  48   AMKKNSKAPCVTIFDERDGCGGP----TRAKTGAGEEGLMVKIQMQEIKLGRGAGAEYVS  103
+
+Query  60   EFITFEKGIDG  70
+             F  ++K + G
+Sbjct  104  IFTNYDKKLFG  114
+
+
+> UniRef90_U5TBJ3 Phycoerythrin550 alpha subunit n=2 Tax=Hemiselmis 
+andersenii TaxID=464988 RepID=U5TBJ3_HEMAN
+Length=109
+
+ Score = 49.6 bits (117),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 19/60 (32%), Positives = 30/60 (50%), Gaps = 6/60 (10%)
+
+Query  1    AMDKSAKAPQITIFDHR-GCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            AM K +KAP + +FD R GC  A     G +    DD   VKV+   + ++ ++A    +
+Sbjct  48   AMKKDSKAPCVEVFDERDGCKAA-----GTQKASGDDGFCVKVSMKAIKMNAAEATSVTK  102
+
+
+> UniRef90_A0A067XP79 Phycoerythrin alpha subunit 1 n=1 Tax=Hemiselmis 
+pacifica TaxID=478131 RepID=A0A067XP79_9CRYP
+Length=110
+
+ Score = 43.4 bits (101),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 20/57 (35%), Positives = 29/57 (51%), Gaps = 3/57 (5%)
+
+Query  2    MDKSAKAPQITIFDHR-GCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKK  57
+            M K +KAP + IFD R GC+ A    TG  +   +  ++VKV+  KV  +   A   
+Sbjct  49   MAKDSKAPVVEIFDERDGCTSAGS--TGKASDAGEKGLLVKVSMQKVGYNAIMAKSV  103
+
+
+> UniRef90_A0A075BTU2 Phycoerythrin alpha subunit n=2 Tax=Hemiselmis 
+virescens TaxID=77927 RepID=A0A075BTU2_9CRYP
+Length=109
+
+ Score = 41.5 bits (96),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 19/61 (31%), Positives = 26/61 (43%), Gaps = 12/61 (20%)
+
+Query  2    MDKSAKAPQITIFDHR-GCSRAPKESTGGKAGGQDD----EMMVKVASTKVTVSESDAAK  56
+            M   +KAP I +FD R GC        G  A    D     + VKV+  KV ++ + A  
+Sbjct  49   MATDSKAPLIELFDERDGC-------KGPAANKASDVGEPGLCVKVSMQKVAMNAAAAKS  101
+
+Query  57   K  57
+             
+Sbjct  102  V  102
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.142    0.439    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0445    0.140     1.90     42.6     43.6 
+
+Effective search space used: 446384240725
+Results from round 3
+
+
+Query= d1xg0a_
+
+Length=76
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_Q00433 Phycoerythrin alpha-3 chain, chloroplastic n=4 ...  126     5e-35
+  UniRef90_L1IIS5 Phycoerythrin alpha subunit 19 n=3 Tax=Guillard...  125     2e-34
+  UniRef90_L1JQD4 Phycoerythrin alpha subunit 11 n=3 Tax=Guillard...  117     1e-31
+  UniRef90_L1JTP2 Phycoerythrin alpha subunit 20 (Fragment) n=1 T...  112     2e-29
+  UniRef90_L1J0L9 Phycoerythrin subunit 1 n=3 Tax=Guillardia thet...  107     6e-28
+  UniRef90_A0A067YS84 Phycoerythrin alpha-subunit 1-4 n=1 Tax=Rho...  103     8e-27
+  UniRef90_A0A067YRY3 Phycoerythrin alpha-subunit 2 n=2 Tax=Prote...  104     1e-26
+  UniRef90_U5T880 Phycocyanin645 alpha subunit n=3 Tax=Chroomonas...  104     1e-26
+  UniRef90_A0A067YRY1 Phycoerythrin alpha-subunit 1-1 n=2 Tax=Rho...  104     2e-26
+  UniRef90_L1IL79 Phycoerythrin alpha subunit n=1 Tax=Guillardia ...  103     2e-26
+  UniRef90_A0A067YS87 Phycoerythrin alpha-subunit 1 n=1 Tax=Prote...  103     2e-26
+  UniRef90_A0A067YS95 Phycoerythrin alpha-subunit 1 n=1 Tax=Prote...  103     3e-26
+  UniRef90_L1JI35 Phycoerythrin alpha subunit 8 n=2 Tax=Guillardi...  104     3e-26
+  UniRef90_A0A067XP87 Phycoerythrin alpha subunit L2 n=2 Tax=Chro...  101     2e-25
+  UniRef90_P30943 Phycoerythrin alpha-2 chain, chloroplastic n=4 ...  100     3e-25
+  UniRef90_A0A067YS94 Phycoerythrin alpha-subunit 1-3 n=1 Tax=Rho...  101     3e-25
+  UniRef90_L1IX61 Phycoerythrin alpha subunit 4 n=2 Tax=Guillardi...  99.3    1e-24
+  UniRef90_A0A067YTA0 Phycoerythrin alpha-subunit 2-1 n=1 Tax=Rho...  98.9    1e-24
+  UniRef90_L1IYK2 Phycoerythrin alpha subunit 5 n=2 Tax=Guillardi...  98.5    3e-24
+  UniRef90_A0A067XP77 Phycoerythrin alpha subunit S1 n=2 Tax=Chro...  98.5    3e-24
+  UniRef90_L1I892 Phycoerythrin alpha subunit 2 n=2 Tax=Guillardi...  98.5    4e-24
+  UniRef90_L1JDL0 Phycoerythrin alpha subunit 3 n=2 Tax=Guillardi...  97.4    4e-24
+  UniRef90_A0A067YTA4 Phycoerythrin alpha-subunit 1 n=1 Tax=Prote...  97.7    8e-24
+  UniRef90_A0A067YRY2 Phycoerythrin alpha-subunit 2-2 n=1 Tax=Rho...  95.4    3e-23
+  UniRef90_A0A067XP68 Phycoerythrin alpha subunit S1 n=1 Tax=Chro...  95.4    4e-23
+  UniRef90_A0A067YSJ4 Phycoerythrin alpha subunit n=1 Tax=Chroomo...  95.0    6e-23
+  UniRef90_P23815 Phycocyanin-645 alpha-1 chain n=1 Tax=Chroomona...  93.5    7e-23
+  UniRef90_L1J444 Phycoerythrin alpha subunit 10 n=1 Tax=Guillard...  95.8    1e-22
+  UniRef90_P23816 Phycocyanin-645 alpha-2 chain n=1 Tax=Chroomona...  92.7    2e-22
+  UniRef90_U5T8W5 Phycocyanin645 alpha subunit n=3 Tax=Chroomonas...  90.8    2e-21
+  UniRef90_A0A067XP69 Phycoerythrin alpha subunit L1 n=1 Tax=Chro...  91.6    2e-21
+  UniRef90_L1J381 Phycoerythrin alpha subunit 14 n=2 Tax=Guillard...  91.2    7e-21
+  UniRef90_L1J044 Phycoerythrin alpha subunit 12 n=2 Tax=Guillard...  88.9    4e-20
+  UniRef90_U5TBU0 Phycocyanin645 alpha subunit n=1 Tax=Chroomonas...  86.6    1e-19
+  UniRef90_A0A067XP74 Phycoerythrin alpha subunit L3 n=1 Tax=Chro...  86.2    2e-19
+  UniRef90_L1J5L2 Phycoerythrin alpha subunit n=1 Tax=Guillardia ...  85.0    4e-19
+  UniRef90_L1K1P5 Phycoerythrin alpha subunit n=1 Tax=Guillardia ...  85.4    5e-19
+  UniRef90_L1J598 Phycoerythrin alpha subunit 13 n=2 Tax=Guillard...  84.3    1e-18
+  UniRef90_A0A067XP71 Phycoerythrin alpha subunit L2 n=1 Tax=Chro...  82.7    4e-18
+  UniRef90_A8KCY8 Phycoerythrin alpha subunit 10 (Fragment) n=1 T...  81.9    6e-18
+  UniRef90_A8KCV5 Phycoerythrin alpha subunit 6 n=1 Tax=Guillardi...  80.8    2e-17
+  UniRef90_A0A067YSI9 Phycoerythrin alpha-subunit 1 n=1 Tax=Prote...  81.6    3e-17
+  UniRef90_L1I9A0 Phycoerythrin alpha subunit 15 n=1 Tax=Guillard...  78.1    6e-16
+  UniRef90_U5T8F7 Phycoerythrin550 alpha subunit n=1 Tax=Hemiselm...  75.0    3e-15
+  UniRef90_P30942 Phycoerythrin alpha-1 chain (Fragment) n=1 Tax=...  66.5    1e-12
+  UniRef90_U5TBJ3 Phycoerythrin550 alpha subunit n=2 Tax=Hemiselm...  64.2    2e-11
+  UniRef90_A0A067XP79 Phycoerythrin alpha subunit 1 n=1 Tax=Hemis...  58.8    2e-09
+  UniRef90_L1JGF5 Phycoerythrin alpha subunit 6 n=1 Tax=Guillardi...  56.5    3e-08
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A075BTU2 Phycoerythrin alpha subunit n=2 Tax=Hemisel...  51.5    1e-06
+
+
+> UniRef90_Q00433 Phycoerythrin alpha-3 chain, chloroplastic n=4 
+Tax=Rhodomonas TaxID=37096 RepID=PHE3_RHDS2
+Length=128
+
+ Score = 126 bits (316),  Expect = 5e-35, Method: Composition-based stats.
+ Identities = 76/76 (100%), Positives = 76/76 (100%), Gaps = 0/76 (0%)
+
+Query  1    AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+            AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE
+Sbjct  53   AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  112
+
+Query  61   FITFEKGIDGPFTSKN  76
+            FITFEKGIDGPFTSKN
+Sbjct  113  FITFEKGIDGPFTSKN  128
+
+
+> UniRef90_L1IIS5 Phycoerythrin alpha subunit 19 n=3 Tax=Guillardia 
+theta TaxID=55529 RepID=L1IIS5_GUITH
+Length=130
+
+ Score = 125 bits (313),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 54/77 (70%), Positives = 62/77 (81%), Gaps = 2/77 (3%)
+
+Query  1    AMDKSAKAPQITIFDHRGCS-RAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            AMDKS +AP ITIFDHRGC+  A KE TG KA  QDDEM VKVAS K+ VSE DAA+KLQ
+Sbjct  51   AMDKSGRAPVITIFDHRGCTAHANKEYTGAKANSQDDEMCVKVASAKIAVSEGDAARKLQ  110
+
+Query  60   EFITFE-KGIDGPFTSK  75
+            EFI+++ KGIDGP+T K
+Sbjct  111  EFISYQAKGIDGPYTGK  127
+
+
+> UniRef90_L1JQD4 Phycoerythrin alpha subunit 11 n=3 Tax=Guillardia 
+theta TaxID=55529 RepID=L1JQD4_GUITH
+Length=133
+
+ Score = 117 bits (294),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 52/74 (70%), Positives = 60/74 (81%), Gaps = 1/74 (1%)
+
+Query  2    MDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEF  61
+            MDKSA+AP+ITIFDHRGCSRAPKE  G KAG  DDEM VKVASTKV  S + A KKLQEF
+Sbjct  53   MDKSARAPEITIFDHRGCSRAPKEYAGAKAGTSDDEMCVKVASTKVEASLTLAEKKLQEF  112
+
+Query  62   ITFE-KGIDGPFTS  74
+            ++++ KGIDG +T 
+Sbjct  113  LSYQAKGIDGDYTG  126
+
+
+> UniRef90_L1JTP2 Phycoerythrin alpha subunit 20 (Fragment) n=1 
+Tax=Guillardia theta CCMP2712 TaxID=905079 RepID=L1JTP2_GUITH
+Length=129
+
+ Score = 112 bits (280),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 42/63 (67%), Positives = 49/63 (78%), Gaps = 0/63 (0%)
+
+Query  1    AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+            +MDKSA+AP ITIFDHRGCSRAPKE TGG +  QDD+M VK  S K+ VSE  AAK LQE
+Sbjct  62   SMDKSARAPVITIFDHRGCSRAPKEYTGGLSNTQDDQMCVKAQSLKIEVSEQTAAKLLQE  121
+
+Query  61   FIT  63
+             ++
+Sbjct  122  NLS  124
+
+
+> UniRef90_L1J0L9 Phycoerythrin subunit 1 n=3 Tax=Guillardia theta 
+TaxID=55529 RepID=L1J0L9_GUITH
+Length=103
+
+ Score = 107 bits (267),  Expect = 6e-28, Method: Composition-based stats.
+ Identities = 38/68 (56%), Positives = 46/68 (68%), Gaps = 1/68 (1%)
+
+Query  1    AMDKSAKAPQITIFDHRGCS-RAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            AMDKS +AP IT+FDHRGC+  A KE TG KA  QDDEM+VK  S K+ VS + A   LQ
+Sbjct  35   AMDKSGRAPVITVFDHRGCTAHANKEYTGAKANSQDDEMLVKAQSVKIEVSAATADSVLQ  94
+
+Query  60   EFITFEKG  67
+            + I+  K 
+Sbjct  95   QTISTLKR  102
+
+
+> UniRef90_A0A067YS84 Phycoerythrin alpha-subunit 1-4 n=1 Tax=Rhodomonas 
+minuta TaxID=1326779 RepID=A0A067YS84_9CRYP
+Length=79
+
+ Score = 103 bits (258),  Expect = 8e-27, Method: Composition-based stats.
+ Identities = 45/75 (60%), Positives = 55/75 (73%), Gaps = 2/75 (3%)
+
+Query  2   MDKSAKAPQITIFDHRGCS-RAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+           MDKSA+AP ITI DHRGC+    KE  G K+  QDDEM V V S KVTVSE ++AK LQ+
+Sbjct  1   MDKSARAPAITILDHRGCTAHENKEYKGDKSNDQDDEMCVVVRSNKVTVSEGESAKFLQQ  60
+
+Query  61  FITFE-KGIDGPFTS  74
+            I+++ KGIDGP+T 
+Sbjct  61  VISYQAKGIDGPYTG  75
+
+
+> UniRef90_A0A067YRY3 Phycoerythrin alpha-subunit 2 n=2 Tax=Proteomonas 
+sulcata TaxID=77928 RepID=A0A067YRY3_9CRYP
+Length=102
+
+ Score = 104 bits (259),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 43/64 (67%), Positives = 49/64 (77%), Gaps = 0/64 (0%)
+
+Query  1   AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+           AMDKSAKAP ITIFDHRGCSRAPKE TG KA GQDDEMMVK  S K+ VS+  A   L++
+Sbjct  36  AMDKSAKAPVITIFDHRGCSRAPKEYTGSKASGQDDEMMVKAQSVKIAVSDGVAESVLKD  95
+
+Query  61  FITF  64
+            ++ 
+Sbjct  96  SLSV  99
+
+
+> UniRef90_U5T880 Phycocyanin645 alpha subunit n=3 Tax=Chroomonas 
+TaxID=3028 RepID=U5T880_9CRYP
+Length=132
+
+ Score = 104 bits (260),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 34/75 (45%), Positives = 45/75 (60%), Gaps = 1/75 (1%)
+
+Query  1    AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+            A D   +AP + IFD RGC     + TG K+   +D+  VKV+  K+TVSE+ AAKKLQE
+Sbjct  52   ARDAQLRAPIVEIFDARGCDAKNAQYTGPKSNDMNDDQCVKVSMQKITVSEATAAKKLQE  111
+
+Query  61   FITFE-KGIDGPFTS  74
+            FI  +   I+ P  S
+Sbjct  112  FIGGKATAINVPIIS  126
+
+
+> UniRef90_A0A067YRY1 Phycoerythrin alpha-subunit 1-1 n=2 Tax=Rhodomonas 
+minuta TaxID=1326779 RepID=A0A067YRY1_9CRYP
+Length=130
+
+ Score = 104 bits (260),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 47/77 (61%), Positives = 56/77 (73%), Gaps = 3/77 (4%)
+
+Query  2    MDKSAKAPQITIFDHRGCSR--APKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            MDKS +AP ITIFDHRGC+R    KE TG KAGG+DDEM VKV S K+  SE+ AA +L 
+Sbjct  53   MDKSGRAPVITIFDHRGCNRGGPNKEYTGAKAGGKDDEMCVKVQSVKIAASEARAAAQLA  112
+
+Query  60   EFITFE-KGIDGPFTSK  75
+            E I+ + KGIDG +T K
+Sbjct  113  ESISLKAKGIDGSYTGK  129
+
+
+> UniRef90_L1IL79 Phycoerythrin alpha subunit n=1 Tax=Guillardia 
+theta CCMP2712 TaxID=905079 RepID=L1IL79_GUITH
+Length=127
+
+ Score = 103 bits (258),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 33/63 (52%), Positives = 41/63 (65%), Gaps = 0/63 (0%)
+
+Query  2    MDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEF  61
+            M     AP IT+FDHRGC+RAPKE  G K+   +D M+VKV S K  V+ES AA  LQE 
+Sbjct  60   MPADGYAPVITVFDHRGCTRAPKEYNGPKSNDMEDGMLVKVESIKCKVTESYAASLLQEQ  119
+
+Query  62   ITF  64
+            + +
+Sbjct  120  LGY  122
+
+
+> UniRef90_A0A067YS87 Phycoerythrin alpha-subunit 1 n=1 Tax=Proteomonas 
+sulcata TaxID=77928 RepID=A0A067YS87_9CRYP
+Length=125
+
+ Score = 103 bits (258),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 58/75 (77%), Positives = 62/75 (83%), Gaps = 2/75 (3%)
+
+Query  2    MDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEF  61
+            MDKSAKAP ITIFDHRGCSRAPKE +  K+G QDDEM+VKVASTKVTVSE  AAKKLQEF
+Sbjct  51   MDKSAKAPAITIFDHRGCSRAPKE-SSAKSGSQDDEMLVKVASTKVTVSEDVAAKKLQEF  109
+
+Query  62   ITF-EKGIDGPFTSK  75
+            I F EKG+DG    K
+Sbjct  110  IGFKEKGLDGSVIRK  124
+
+
+> UniRef90_A0A067YS95 Phycoerythrin alpha-subunit 1 n=1 Tax=Proteomonas 
+sulcata TaxID=77928 RepID=A0A067YS95_9CRYP
+Length=129
+
+ Score = 103 bits (258),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 53/71 (75%), Positives = 56/71 (79%), Gaps = 2/71 (3%)
+
+Query  2    MDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEF  61
+            MDKSAKAP ITIFDHRGC RAPKE    K+G QDDEMMVKVAS  + VSE  AA KLQEF
+Sbjct  51   MDKSAKAPIITIFDHRGCPRAPKEGN-TKSGSQDDEMMVKVASATIKVSEDSAAAKLQEF  109
+
+Query  62   ITF-EKGIDGP  71
+            I F EKG+DGP
+Sbjct  110  IGFKEKGLDGP  120
+
+
+> UniRef90_L1JI35 Phycoerythrin alpha subunit 8 n=2 Tax=Guillardia 
+theta TaxID=55529 RepID=L1JI35_GUITH
+Length=173
+
+ Score = 104 bits (260),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 40/73 (55%), Positives = 50/73 (68%), Gaps = 1/73 (1%)
+
+Query  3    DKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFI  62
+             K + AP IT FDH+ C RAPKE  G  +G +DD   VKVA +K+TVSE++AA  LQEFI
+Sbjct  55   PKDSLAPVITTFDHQFCDRAPKEYVGPASGDEDDNRCVKVALSKITVSETEAAAALQEFI  114
+
+Query  63   TFE-KGIDGPFTS  74
+            ++  KGIDG F  
+Sbjct  115  SYRAKGIDGDFRG  127
+
+
+> UniRef90_A0A067XP87 Phycoerythrin alpha subunit L2 n=2 Tax=Chroomonas 
+sp. M1627 TaxID=478123 RepID=A0A067XP87_9CRYP
+Length=130
+
+ Score = 101 bits (253),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 36/75 (48%), Positives = 46/75 (61%), Gaps = 1/75 (1%)
+
+Query  1    AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+            A+ K  KAP ITIFD+RGC       +G KA G +D+  VK+    +TVSE+ AAKKLQE
+Sbjct  50   AIKKDQKAPIITIFDNRGCEVKKNNYSGAKANGMEDDQCVKLTMETITVSETTAAKKLQE  109
+
+Query  61   FITFE-KGIDGPFTS  74
+            FI  +   I+ P  S
+Sbjct  110  FIGLKATAINVPQIS  124
+
+
+> UniRef90_P30943 Phycoerythrin alpha-2 chain, chloroplastic n=4 
+Tax=Rhodomonas TaxID=37096 RepID=PHE2_RHDS2
+Length=104
+
+ Score = 100 bits (250),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 43/67 (64%), Positives = 46/67 (69%), Gaps = 0/67 (0%)
+
+Query  1    AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+            AMDKSAKAP ITIFDHRGCSRAPKE TG KAGG+DDEMMVK  S K+ VS   A   L  
+Sbjct  38   AMDKSAKAPVITIFDHRGCSRAPKEYTGAKAGGKDDEMMVKAQSVKIEVSTGTAEGVLAT  97
+
+Query  61   FITFEKG  67
+             +     
+Sbjct  98   SLAKMTK  104
+
+
+> UniRef90_A0A067YS94 Phycoerythrin alpha-subunit 1-3 n=1 Tax=Rhodomonas 
+minuta TaxID=1326779 RepID=A0A067YS94_9CRYP
+Length=151
+
+ Score = 101 bits (252),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 41/73 (56%), Positives = 52/73 (71%), Gaps = 3/73 (4%)
+
+Query  3    DKSAKAPQITIFDHRGCSR--APKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+            D+S +AP ITIFDHRGC+R    KE TG KAGG DDEM VKVA   + VS + +  +L+E
+Sbjct  55   DQSGRAPVITIFDHRGCNRGGPNKEYTGPKAGGIDDEMCVKVALPIIQVSGAQSTAQLRE  114
+
+Query  61   FITFE-KGIDGPF  72
+             I+F+ KGIDG +
+Sbjct  115  AISFKAKGIDGDY  127
+
+
+> UniRef90_L1IX61 Phycoerythrin alpha subunit 4 n=2 Tax=Guillardia 
+theta TaxID=55529 RepID=L1IX61_GUITH
+Length=106
+
+ Score = 99.3 bits (246),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 34/67 (51%), Positives = 41/67 (61%), Gaps = 0/67 (0%)
+
+Query  1    AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+            AMD+S  AP + IFDHRGCSR  KE TG K  G +DEM+VKV S  +   E+ AA  LQ 
+Sbjct  39   AMDRSNTAPIVQIFDHRGCSRVAKEYTGKKCNGAEDEMLVKVQSKVIPAPEALAASVLQV  98
+
+Query  61   FITFEKG  67
+             +   K 
+Sbjct  99   TVGNLKR  105
+
+
+> UniRef90_A0A067YTA0 Phycoerythrin alpha-subunit 2-1 n=1 Tax=Rhodomonas 
+minuta TaxID=1326779 RepID=A0A067YTA0_9CRYP
+Length=103
+
+ Score = 98.9 bits (245),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 39/68 (57%), Positives = 48/68 (71%), Gaps = 1/68 (1%)
+
+Query  1    AMDKSAKAPQITIFDHRGCS-RAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            AMDK+A+AP IT+FDHRGCS     E TG KAG QDDEM+VKV S KVTV  + AA  L+
+Sbjct  35   AMDKTARAPIITVFDHRGCSAHKNVEYTGRKAGDQDDEMLVKVQSAKVTVDSNVAAAVLK  94
+
+Query  60   EFITFEKG  67
+            + ++  K 
+Sbjct  95   DSLSTLKK  102
+
+
+> UniRef90_L1IYK2 Phycoerythrin alpha subunit 5 n=2 Tax=Guillardia 
+theta TaxID=55529 RepID=L1IYK2_GUITH
+Length=128
+
+ Score = 98.5 bits (244),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 35/64 (55%), Positives = 37/64 (58%), Gaps = 0/64 (0%)
+
+Query  2    MDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEF  61
+            MDK A AP ITIFDHRGC R  KE  G KA   DD M+VKV    +TVS S AA  L E 
+Sbjct  59   MDKKAIAPVITIFDHRGCDRITKEYQGRKANTYDDYMLVKVKGEVITVSTSTAASVLAET  118
+
+Query  62   ITFE  65
+                
+Sbjct  119  FGLL  122
+
+
+> UniRef90_A0A067XP77 Phycoerythrin alpha subunit S1 n=2 Tax=Chroomonas 
+sp. M1312 TaxID=179792 RepID=A0A067XP77_9CRYP
+Length=122
+
+ Score = 98.5 bits (244),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 33/67 (49%), Positives = 40/67 (60%), Gaps = 1/67 (1%)
+
+Query  1    AMDKSAKAPQITIFDHRGC-SRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            A+ K  KAP ITIFD RGC   A KE TG KAGG DDE  VK+    + V++  AA  L+
+Sbjct  54   AIKKDQKAPVITIFDARGCKDHANKEYTGAKAGGMDDEQCVKLTMETIKVADDVAASVLR  113
+
+Query  60   EFITFEK  66
+            E +   K
+Sbjct  114  EALGELK  120
+
+
+> UniRef90_L1I892 Phycoerythrin alpha subunit 2 n=2 Tax=Guillardia 
+theta TaxID=55529 RepID=L1I892_GUITH
+Length=139
+
+ Score = 98.5 bits (244),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 36/66 (55%), Positives = 46/66 (70%), Gaps = 0/66 (0%)
+
+Query  2    MDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEF  61
+            M  +  AP++TIFDHRGC+RAPKE  GGK G QDDEM+V+V S KV   E++AAK L   
+Sbjct  73   MRANFYAPEVTIFDHRGCNRAPKEYKGGKTGDQDDEMLVRVKSVKVFCPEAEAAKVLAST  132
+
+Query  62   ITFEKG  67
+            ++  K 
+Sbjct  133  LSVLKK  138
+
+
+> UniRef90_L1JDL0 Phycoerythrin alpha subunit 3 n=2 Tax=Guillardia 
+theta TaxID=55529 RepID=L1JDL0_GUITH
+Length=106
+
+ Score = 97.4 bits (241),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 32/68 (47%), Positives = 42/68 (62%), Gaps = 2/68 (3%)
+
+Query  2    MDKSAKAPQITIFDHRGCSRA--PKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            MDKS +AP +T+FDHRGC R     E  G  A  QDDEM+VKVA  KV ++E+ A   +Q
+Sbjct  39   MDKSNRAPVVTVFDHRGCQRGKRNTEYQGLPANSQDDEMLVKVAMQKVAINEAAATDLVQ  98
+
+Query  60   EFITFEKG  67
+            + +   K 
+Sbjct  99   QLLGTLKK  106
+
+
+> UniRef90_A0A067YTA4 Phycoerythrin alpha-subunit 1 n=1 Tax=Proteomonas 
+sulcata TaxID=77928 RepID=A0A067YTA4_9CRYP
+Length=141
+
+ Score = 97.7 bits (242),  Expect = 8e-24, Method: Composition-based stats.
+ Identities = 44/74 (59%), Positives = 51/74 (69%), Gaps = 2/74 (3%)
+
+Query  2    MDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEF  61
+            M    KAP ITIFDHRGCSRAPKE    ++G QDDEM+VKV   +   SE++AAKKL EF
+Sbjct  65   MMAEGKAPAITIFDHRGCSRAPKEGN-TESGTQDDEMLVKVVMRRPKYSEAEAAKKLAEF  123
+
+Query  62   ITF-EKGIDGPFTS  74
+            I   EKG+DG   S
+Sbjct  124  IGMKEKGLDGDVVS  137
+
+
+> UniRef90_A0A067YRY2 Phycoerythrin alpha-subunit 2-2 n=1 Tax=Rhodomonas 
+minuta TaxID=1326779 RepID=A0A067YRY2_9CRYP
+Length=102
+
+ Score = 95.4 bits (236),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 34/68 (50%), Positives = 43/68 (63%), Gaps = 1/68 (1%)
+
+Query  1    AMDKSAKAPQITIFDHRGCSR-APKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            AMDKSA+AP ITIFDHRGCSR +  E  G   G QDDEM +KV + K+   +  A + L 
+Sbjct  35   AMDKSARAPIITIFDHRGCSRHSNTEYKGRLTGTQDDEMCIKVGTAKIIGEKGTAERVLA  94
+
+Query  60   EFITFEKG  67
+            + +T  K 
+Sbjct  95   DSLTTLKK  102
+
+
+> UniRef90_A0A067XP68 Phycoerythrin alpha subunit S1 n=1 Tax=Chroomonas 
+sp. M1627 TaxID=478123 RepID=A0A067XP68_9CRYP
+Length=122
+
+ Score = 95.4 bits (236),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 30/67 (45%), Positives = 40/67 (60%), Gaps = 1/67 (1%)
+
+Query  1    AMDKSAKAPQITIFDHRGC-SRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            A+ K  KAP +TIFD RGC   + KE TG KAGG +D+  VK+    + V +  AAK L 
+Sbjct  53   AIKKDQKAPVVTIFDARGCKDHSNKEYTGAKAGGMEDDQCVKLTMETIKVGDDVAAKVLG  112
+
+Query  60   EFITFEK  66
+            E ++  K
+Sbjct  113  ECLSELK  119
+
+
+> UniRef90_A0A067YSJ4 Phycoerythrin alpha subunit n=1 Tax=Chroomonas 
+mesostigmatica TaxID=195065 RepID=A0A067YSJ4_9CRYP
+Length=122
+
+ Score = 95.0 bits (235),  Expect = 6e-23, Method: Composition-based stats.
+ Identities = 28/68 (41%), Positives = 38/68 (56%), Gaps = 1/68 (1%)
+
+Query  1    AMDKSAKAPQITIFDHRGC-SRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            A DK  +AP ITIFD RGC   A +E  G K+  ++DEM VKV   K+ V++  A     
+Sbjct  52   AKDKYLRAPVITIFDARGCKEHANREYDGPKSNDENDEMCVKVRMEKIAVADDVAKAIKL  111
+
+Query  60   EFITFEKG  67
+            E ++  K 
+Sbjct  112  ESLSELKK  119
+
+
+> UniRef90_P23815 Phycocyanin-645 alpha-1 chain n=1 Tax=Chroomonas 
+sp. TaxID=3029 RepID=PH61_CHRSP
+Length=70
+
+ Score = 93.5 bits (231),  Expect = 7e-23, Method: Composition-based stats.
+ Identities = 34/64 (53%), Positives = 40/64 (63%), Gaps = 1/64 (2%)
+
+Query  5   SAKAPQITIFDHRGC-SRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFIT  63
+             + P ITIFD RGC   A KE TG KAGG DDEM VKVA  K+ V+E  AA  L+E ++
+Sbjct  4   DLRTPVITIFDARGCKDHANKEYTGPKAGGADDEMCVKVAMQKIAVAEDAAALVLKECLS  63
+
+Query  64  FEKG  67
+             K 
+Sbjct  64  ELKA  67
+
+
+> UniRef90_L1J444 Phycoerythrin alpha subunit 10 n=1 Tax=Guillardia 
+theta CCMP2712 TaxID=905079 RepID=L1J444_GUITH
+Length=181
+
+ Score = 95.8 bits (237),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 33/63 (52%), Positives = 41/63 (65%), Gaps = 0/63 (0%)
+
+Query  5    SAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFITF  64
+              +APQITIFDHRGCSRAPKE TG +AG  DDEM+VK+      V+   A + L++ I  
+Sbjct  118  DLRAPQITIFDHRGCSRAPKEYTGKRAGTYDDEMLVKIDFKAAEVNSKLAQQVLEQTIGV  177
+
+Query  65   EKG  67
+             K 
+Sbjct  178  LKA  180
+
+
+ Score = 81.9 bits (201),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 28/66 (42%), Positives = 39/66 (59%), Gaps = 2/66 (3%)
+
+Query  6    AKAPQITIFDHRGC-SRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAA-KKLQEFIT  63
+            A AP ITIFD+RGC     KE  G KAG ++DEM+VKVA+ K+     D   +  +E + 
+Sbjct  53   AFAPVITIFDNRGCKEHKNKEYNGPKAGDENDEMLVKVANQKIPFPTDDVVNEFRRENLA  112
+
+Query  64   FEKGID  69
+             +  +D
+Sbjct  113  IQGNLD  118
+
+
+> UniRef90_P23816 Phycocyanin-645 alpha-2 chain n=1 Tax=Chroomonas 
+sp. TaxID=3029 RepID=PH62_CHRSP
+Length=80
+
+ Score = 92.7 bits (229),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 29/71 (41%), Positives = 40/71 (56%), Gaps = 1/71 (1%)
+
+Query  5   SAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFITF  64
+             +AP + IFD RGC     + TG K+G  +D+  VKV+     VSE+ A KK QEF+ F
+Sbjct  4   DLRAPYVEIFDARGCDAKNSQYTGPKSGDMNDDQCVKVSMAVPKVSEATAEKKRQEFLGF  63
+
+Query  65  -EKGIDGPFTS  74
+            E  I+ P  +
+Sbjct  64  KETAINVPQIA  74
+
+
+> UniRef90_U5T8W5 Phycocyanin645 alpha subunit n=3 Tax=Chroomonas 
+TaxID=3028 RepID=U5T8W5_9CRYP
+Length=122
+
+ Score = 90.8 bits (224),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 31/69 (45%), Positives = 41/69 (59%), Gaps = 2/69 (3%)
+
+Query  1    AMDKSAKAPQITIFDHRGC-SRAPKESTGGKAG-GQDDEMMVKVASTKVTVSESDAAKKL  58
+            A D   +AP +TIFD RGC   A KE T  KAG  ++DE  VKV  T + V++  AA  L
+Sbjct  52   AKDAQLRAPVVTIFDARGCKDHANKEYTDPKAGNAENDECCVKVQMTPIKVADDAAALVL  111
+
+Query  59   QEFITFEKG  67
+            +E ++  KG
+Sbjct  112  KECLSELKG  120
+
+
+> UniRef90_A0A067XP69 Phycoerythrin alpha subunit L1 n=1 Tax=Chroomonas 
+sp. M1312 TaxID=179792 RepID=A0A067XP69_9CRYP
+Length=154
+
+ Score = 91.6 bits (226),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 28/74 (38%), Positives = 40/74 (54%), Gaps = 3/74 (4%)
+
+Query  4    KSAKAPQITIFDHRGCSRAPK--ESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEF  61
+               +AP I + DHRGC    +  E  G K+  ++DEM + V +  + VSE+DA K  QEF
+Sbjct  68   ADLRAPVILVLDHRGCESNSEHTEYKGEKSNDENDEMCIIVKNKLIKVSEADAEKLKQEF  127
+
+Query  62   ITF-EKGIDGPFTS  74
+            +   E  I+ P  S
+Sbjct  128  VGMKETPINVPQIS  141
+
+
+> UniRef90_L1J381 Phycoerythrin alpha subunit 14 n=2 Tax=Guillardia 
+theta TaxID=55529 RepID=L1J381_GUITH
+Length=179
+
+ Score = 91.2 bits (225),  Expect = 7e-21, Method: Composition-based stats.
+ Identities = 29/64 (45%), Positives = 34/64 (53%), Gaps = 0/64 (0%)
+
+Query  1    AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+            A      AP ITIFD RGC R   E  G KAG  DDEM+VKV    + V E  AA   +E
+Sbjct  102  APKGKNFAPMITIFDARGCDRGGVEYKGPKAGTTDDEMLVKVELIGIKVPEYQAAAFTRE  161
+
+Query  61   FITF  64
+             + +
+Sbjct  162  QLGY  165
+
+
+> UniRef90_L1J044 Phycoerythrin alpha subunit 12 n=2 Tax=Guillardia 
+theta TaxID=55529 RepID=L1J044_GUITH
+Length=159
+
+ Score = 88.9 bits (219),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 31/64 (48%), Positives = 35/64 (55%), Gaps = 5/64 (8%)
+
+Query  9    PQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKV---TVSESDAAKKLQEFIT--  63
+            P IT+FDHRGCSR+PKE  G K+G QDDEM VKV              A   L E I   
+Sbjct  83   PVITVFDHRGCSRSPKEYVGDKSGDQDDEMCVKVQMKTPYTYPQYTRQATALLNEIIGVT  142
+
+Query  64   FEKG  67
+            + KG
+Sbjct  143  YTKG  146
+
+
+> UniRef90_U5TBU0 Phycocyanin645 alpha subunit n=1 Tax=Chroomonas 
+sp. CCMP270 TaxID=354589 RepID=U5TBU0_9CRYP
+Length=124
+
+ Score = 86.6 bits (213),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 27/64 (42%), Positives = 34/64 (53%), Gaps = 2/64 (3%)
+
+Query  5    SAKAPQITIFDHRGC-SRAPKESTGGKAG-GQDDEMMVKVASTKVTVSESDAAKKLQEFI  62
+            S  AP ITIFD RGC   A KE  G  +G  +DDE  VK+   K++V+E  A     E +
+Sbjct  59   SLSAPVITIFDARGCTDHANKEYKGDWSGRAEDDECCVKIQMQKISVAEDVARLVRLECL  118
+
+Query  63   TFEK  66
+               K
+Sbjct  119  NELK  122
+
+
+> UniRef90_A0A067XP74 Phycoerythrin alpha subunit L3 n=1 Tax=Chroomonas 
+sp. M1627 TaxID=478123 RepID=A0A067XP74_9CRYP
+Length=131
+
+ Score = 86.2 bits (212),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 30/61 (49%), Positives = 39/61 (64%), Gaps = 0/61 (0%)
+
+Query  5    SAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFITF  64
+            + KAP IT+FD+RGC       +G KAG  +DE  +K+    V VSE+ AAKKLQEFI  
+Sbjct  55   NIKAPFITLFDNRGCEVKKDNYSGAKAGDMEDEQCIKLVMDSVVVSEATAAKKLQEFIGV  114
+
+Query  65   E  65
+            +
+Sbjct  115  K  115
+
+
+> UniRef90_L1J5L2 Phycoerythrin alpha subunit n=1 Tax=Guillardia 
+theta CCMP2712 TaxID=905079 RepID=L1J5L2_GUITH
+Length=119
+
+ Score = 85.0 bits (209),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 30/59 (51%), Positives = 36/59 (61%), Gaps = 2/59 (3%)
+
+Query  8    APQITIFDHRGCSR--APKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFITF  64
+            AP IT+FDHRGC R  A  E  G  A G +DEM+VKVA  KV +S   A K LQ+ +  
+Sbjct  46   APIITVFDHRGCKRGKADSEYQGALANGPEDEMLVKVAYKKVPLSAGFADKVLQQTLGT  104
+
+
+> UniRef90_L1K1P5 Phycoerythrin alpha subunit n=1 Tax=Guillardia 
+theta CCMP2712 TaxID=905079 RepID=L1K1P5_GUITH
+Length=142
+
+ Score = 85.4 bits (210),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 26/67 (39%), Positives = 31/67 (46%), Gaps = 1/67 (1%)
+
+Query  2    MDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEF  61
+            M   +  P ITIFD RGC R   E  G  AG  +DEM VKV   K+      A +   E 
+Sbjct  66   MPADSYTPIITIFDARGCPRGAGEYEGSPAGDNNDEMAVKVVLRKLEPDTGFAEQIKAET  125
+
+Query  62   IT-FEKG  67
+            +    KG
+Sbjct  126  LGLMSKG  132
+
+
+> UniRef90_L1J598 Phycoerythrin alpha subunit 13 n=2 Tax=Guillardia 
+theta TaxID=55529 RepID=L1J598_GUITH
+Length=155
+
+ Score = 84.3 bits (207),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 27/68 (40%), Positives = 36/68 (53%), Gaps = 5/68 (7%)
+
+Query  2    MDKSAKAPQITIFDHRGC-SRAPKESTGGKAGGQDDEMMVKVASTKVTVSE----SDAAK  56
+            M     AP IT+FDHRGC     KE TG K+  ++DEM+VKV  TK+   +      A +
+Sbjct  75   MKNKNFAPVITVFDHRGCAEHVNKEYTGPKSNDENDEMLVKVKQTKLRRDDPKFVELADR  134
+
+Query  57   KLQEFITF  64
+             +QE    
+Sbjct  135  IVQETKGT  142
+
+
+> UniRef90_A0A067XP71 Phycoerythrin alpha subunit L2 n=1 Tax=Chroomonas 
+sp. M1312 TaxID=179792 RepID=A0A067XP71_9CRYP
+Length=132
+
+ Score = 82.7 bits (203),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 28/59 (47%), Positives = 36/59 (61%), Gaps = 0/59 (0%)
+
+Query  7    KAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFITFE  65
+            KAP IT+FD+RGC       +G KA G +D+  +K+    V VSE  AAKKL EFI  +
+Sbjct  58   KAPFITLFDNRGCEVKKNNYSGPKANGAEDDQCIKLTMESVKVSEDTAAKKLGEFIGLK  116
+
+
+> UniRef90_A8KCY8 Phycoerythrin alpha subunit 10 (Fragment) n=1 
+Tax=Guillardia theta TaxID=55529 RepID=A8KCY8_GUITH
+Length=122
+
+ Score = 81.9 bits (201),  Expect = 6e-18, Method: Composition-based stats.
+ Identities = 28/66 (42%), Positives = 40/66 (61%), Gaps = 2/66 (3%)
+
+Query  6    AKAPQITIFDHRGC-SRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAA-KKLQEFIT  63
+            A AP ITIFD+RGC     KE  G KAG ++DEM+VKVA+ K++    D   +  +E + 
+Sbjct  53   AFAPVITIFDNRGCKEHKNKEYNGPKAGDENDEMLVKVANQKISFPTDDVVNEFRRENLA  112
+
+Query  64   FEKGID  69
+             +  +D
+Sbjct  113  IQGNLD  118
+
+
+> UniRef90_A8KCV5 Phycoerythrin alpha subunit 6 n=1 Tax=Guillardia 
+theta TaxID=55529 RepID=A8KCV5_GUITH
+Length=124
+
+ Score = 80.8 bits (198),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 22/57 (39%), Positives = 30/57 (53%), Gaps = 0/57 (0%)
+
+Query  8    APQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFITF  64
+            AP I + D RGC R   E TG K G +DD M V V +  +  + + AA  L +F  +
+Sbjct  60   APVIQVHDERGCLRPRAEYTGAKVGTEDDAMCVSVKAKAIPANTNLAASILSDFQIY  116
+
+
+> UniRef90_A0A067YSI9 Phycoerythrin alpha-subunit 1 n=1 Tax=Proteomonas 
+sulcata TaxID=77928 RepID=A0A067YSI9_9CRYP
+Length=187
+
+ Score = 81.6 bits (200),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 29/58 (50%), Positives = 34/58 (59%), Gaps = 2/58 (3%)
+
+Query  5    SAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVASTKVTVS--ESDAAKKLQE  60
+             A+AP I  FDHRGCSR   E TG KAG  +DEM VKVA   + V     D  K +Q+
+Sbjct  93   DARAPWIIGFDHRGCSRPNVEYTGKKAGNDNDEMCVKVAMVNMNVYYEAEDMPKYIQQ  150
+
+
+> UniRef90_L1I9A0 Phycoerythrin alpha subunit 15 n=1 Tax=Guillardia 
+theta CCMP2712 TaxID=905079 RepID=L1I9A0_GUITH
+Length=176
+
+ Score = 78.1 bits (191),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 25/63 (40%), Positives = 33/63 (52%), Gaps = 8/63 (13%)
+
+Query  8    APQITIFDHRGC-SRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFITFEK  66
+            AP ITIFDHRGC     KE TG  +   +DEM+VKV S  +   +        +F+   K
+Sbjct  80   APVITIFDHRGCAEHQNKEYTGAPSNDYNDEMLVKVQSVTLKRDDP-------KFLDMAK  132
+
+Query  67   GID  69
+             +D
+Sbjct  133  RVD  135
+
+
+> UniRef90_U5T8F7 Phycoerythrin550 alpha subunit n=1 Tax=Hemiselmis 
+andersenii TaxID=464988 RepID=U5T8F7_HEMAN
+Length=116
+
+ Score = 75.0 bits (183),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 23/71 (32%), Positives = 38/71 (54%), Gaps = 5/71 (7%)
+
+Query  1    AMDKSAKAPQITIFDHR-GCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            AM K++KAP +TIFD R GC       T  K G  ++ +MVK+   ++ +     A+ + 
+Sbjct  48   AMKKNSKAPCVTIFDERDGCGGP----TRAKTGAGEEGLMVKIQMQEIKLGRGAGAEYVS  103
+
+Query  60   EFITFEKGIDG  70
+             F  ++K + G
+Sbjct  104  IFTNYDKKLFG  114
+
+
+> UniRef90_P30942 Phycoerythrin alpha-1 chain (Fragment) n=1 Tax=Rhodomonas 
+sp. (strain CS 24) TaxID=79257 RepID=PHE1_RHDS2
+Length=44
+
+ Score = 66.5 bits (161),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 35/43 (81%), Positives = 38/43 (88%), Gaps = 1/43 (2%)
+
+Query  1   AMDKSAKAPQITIFDHRGCSRAPKESTGGKAGGQDDEMMVKVA  43
+           AMDKSAKAPQITIFDHRGCSRAPK  TGG A  +DD+MMVKV+
+Sbjct  1   AMDKSAKAPQITIFDHRGCSRAPKSETGGTA-TKDDQMMVKVS  42
+
+
+> UniRef90_U5TBJ3 Phycoerythrin550 alpha subunit n=2 Tax=Hemiselmis 
+andersenii TaxID=464988 RepID=U5TBJ3_HEMAN
+Length=109
+
+ Score = 64.2 bits (155),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 19/60 (32%), Positives = 30/60 (50%), Gaps = 6/60 (10%)
+
+Query  1    AMDKSAKAPQITIFDHR-GCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQ  59
+            AM K +KAP + +FD R GC  A     G +    DD   VKV+   + ++ ++A    +
+Sbjct  48   AMKKDSKAPCVEVFDERDGCKAA-----GTQKASGDDGFCVKVSMKAIKMNAAEATSVTK  102
+
+
+> UniRef90_A0A067XP79 Phycoerythrin alpha subunit 1 n=1 Tax=Hemiselmis 
+pacifica TaxID=478131 RepID=A0A067XP79_9CRYP
+Length=110
+
+ Score = 58.8 bits (141),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 20/63 (32%), Positives = 31/63 (49%), Gaps = 3/63 (5%)
+
+Query  2    MDKSAKAPQITIFDHR-GCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQE  60
+            M K +KAP + IFD R GC+ A    TG  +   +  ++VKV+  KV  +   A      
+Sbjct  49   MAKDSKAPVVEIFDERDGCTSAGS--TGKASDAGEKGLLVKVSMQKVGYNAIMAKSVAAS  106
+
+Query  61   FIT  63
+            ++ 
+Sbjct  107  YMN  109
+
+
+> UniRef90_L1JGF5 Phycoerythrin alpha subunit 6 n=1 Tax=Guillardia 
+theta CCMP2712 TaxID=905079 RepID=L1JGF5_GUITH
+Length=168
+
+ Score = 56.5 bits (135),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 14/43 (33%), Positives = 21/43 (49%), Gaps = 0/43 (0%)
+
+Query  22   APKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKKLQEFITF  64
+               E TG K G +DD M V V +  +  + + AA  L +F  +
+Sbjct  118  PRAEYTGAKVGTEDDAMCVSVKAKAIPANTNLAASILSDFQIY  160
+
+
+> UniRef90_A0A075BTU2 Phycoerythrin alpha subunit n=2 Tax=Hemiselmis 
+virescens TaxID=77927 RepID=A0A075BTU2_9CRYP
+Length=109
+
+ Score = 51.5 bits (122),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 16/57 (28%), Positives = 25/57 (44%), Gaps = 4/57 (7%)
+
+Query  2    MDKSAKAPQITIFDHR-GCSRAPKESTGGKAGGQDDEMMVKVASTKVTVSESDAAKK  57
+            M   +KAP I +FD R GC           +   +  + VKV+  KV ++ + A   
+Sbjct  49   MATDSKAPLIELFDERDGCKGPAAN---KASDVGEPGLCVKVSMQKVAMNAAAAKSV  102
+
+
+
+Lambda      K        H        a         alpha
+   0.304    0.142    0.428    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0441    0.140     1.90     42.6     43.6 
+
+Effective search space used: 446384240725
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

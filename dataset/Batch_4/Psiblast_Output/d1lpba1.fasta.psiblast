@@ -1,0 +1,4582 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1lpba1
+
+Length=39
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P02703 Colipase n=2 Tax=Sus scrofa TaxID=9823 RepID=CO...  80.5    5e-18
+  UniRef90_UPI0006525A0F PREDICTED: colipase n=1 Tax=Dipodomys or...  68.9    1e-13
+  UniRef90_G1L125 Uncharacterized protein n=3 Tax=Ailuropoda mela...  65.9    1e-12
+  UniRef90_P42889 Colipase n=1 Tax=Myocastor coypus TaxID=10157 R...  65.9    2e-12
+  UniRef90_UPI0002C2E62B PREDICTED: colipase n=1 Tax=Tursiops tru...  65.5    4e-12
+  UniRef90_UPI0002BCD374 PREDICTED: colipase isoform X1 n=4 Tax=C...  64.7    6e-12
+  UniRef90_UPI00038F1819 PREDICTED: colipase n=1 Tax=Chinchilla l...  64.3    6e-12
+  UniRef90_UPI0002C556B0 PREDICTED: colipase isoform X1 n=2 Tax=C...  64.3    7e-12
+  UniRef90_UPI0003341199 PREDICTED: colipase n=1 Tax=Octodon degu...  63.9    9e-12
+  UniRef90_UPI0000E4035C PREDICTED: colipase isoform X1 n=1 Tax=E...  63.9    9e-12
+  UniRef90_G5BEW5 Colipase n=2 Tax=Heterocephalus glaber TaxID=10...  63.9    9e-12
+  UniRef90_UPI000333261E PREDICTED: colipase n=1 Tax=Jaculus jacu...  63.5    1e-11
+  UniRef90_P42890 Colipase n=3 Tax=Oryctolagus cuniculus TaxID=99...  63.5    1e-11
+  UniRef90_G3TP15 Uncharacterized protein n=1 Tax=Loxodonta afric...  63.2    2e-11
+  UniRef90_UPI000576B523 PREDICTED: colipase isoform X1 n=2 Tax=B...  63.5    4e-11
+  UniRef90_UPI0004ED4F78 PREDICTED: colipase-like n=1 Tax=Nannosp...  62.8    4e-11
+  UniRef90_M3XXF0 Uncharacterized protein n=4 Tax=Boreoeutheria T...  62.0    6e-11
+  UniRef90_H0VQD7 Uncharacterized protein n=1 Tax=Cavia porcellus...  60.1    2e-10
+  UniRef90_UPI0001777C96 PREDICTED: colipase n=1 Tax=Ochotona pri...  59.7    3e-10
+  UniRef90_UPI0004446E8B PREDICTED: colipase n=1 Tax=Erinaceus eu...  60.1    3e-10
+  UniRef90_G3HZU4 Colipase n=2 Tax=Cricetinae TaxID=10026 RepID=G...  59.7    4e-10
+  UniRef90_A0A1A6HZT5 Uncharacterized protein n=3 Tax=Cricetidae ...  59.3    5e-10
+  UniRef90_S9YJI4 Colipase n=3 Tax=Camelidae TaxID=9835 RepID=S9Y...  59.3    5e-10
+  UniRef90_P17084 Colipase n=4 Tax=Murinae TaxID=39107 RepID=COL_RAT  59.3    5e-10
+  UniRef90_H0X164 Uncharacterized protein n=3 Tax=Strepsirrhini T...  59.3    5e-10
+  UniRef90_UPI000331924E PREDICTED: colipase n=1 Tax=Sorex araneu...  59.3    5e-10
+  UniRef90_UPI0008DB84E2 UPI0008DB84E2 related cluster n=1 Tax=un...  59.3    6e-10
+  UniRef90_D5FQ08 Colipase (Fragment) n=1 Tax=Meleagris gallopavo...  58.9    6e-10
+  UniRef90_P04118 Colipase n=6 Tax=Hominoidea TaxID=314295 RepID=...  58.9    6e-10
+  UniRef90_G1MPW1 Uncharacterized protein n=5 Tax=Phasianidae Tax...  58.9    7e-10
+  UniRef90_UPI0003346FEB PREDICTED: colipase isoform X1 n=3 Tax=L...  58.9    7e-10
+  UniRef90_UPI00027F7BE4 PREDICTED: colipase isoform X1 n=1 Tax=S...  58.5    9e-10
+  UniRef90_A0JNQ7 Colipase n=7 Tax=Bovidae TaxID=9895 RepID=COL_B...  58.5    9e-10
+  UniRef90_UPI0003F0649D PREDICTED: colipase isoform X1 n=1 Tax=E...  58.5    1e-09
+  UniRef90_UPI00063EE30A PREDICTED: colipase isoform X1 n=1 Tax=P...  58.2    1e-09
+  UniRef90_A0A091CY25 Colipase n=1 Tax=Fukomys damarensis TaxID=8...  57.8    2e-09
+  UniRef90_UPI0002C442FD PREDICTED: colipase isoform X1 n=1 Tax=T...  57.8    2e-09
+  UniRef90_F7HYJ9 Uncharacterized protein n=3 Tax=Platyrrhini Tax...  57.8    2e-09
+  UniRef90_U3I780 Uncharacterized protein n=3 Tax=Anas platyrhync...  57.0    2e-09
+  UniRef90_UPI00045D8750 PREDICTED: colipase n=1 Tax=Orycteropus ...  57.4    3e-09
+  UniRef90_UPI0006715410 PREDICTED: colipase n=1 Tax=Anser cygnoi...  57.0    4e-09
+  UniRef90_L5KYN5 Colipase n=3 Tax=Pteropus TaxID=9401 RepID=L5KY...  57.0    4e-09
+  UniRef90_UPI0003F14D85 PREDICTED: colipase isoform X1 n=1 Tax=C...  57.0    4e-09
+  UniRef90_UPI000777DCE1 UPI000777DCE1 related cluster n=1 Tax=un...  57.0    4e-09
+  UniRef90_UPI0003832688 PREDICTED: colipase n=1 Tax=Melopsittacu...  57.0    4e-09
+  UniRef90_P02705 Colipase B (Fragment) n=4 Tax=Equus caballus Ta...  56.6    5e-09
+  UniRef90_Q91XL7 Colipase n=2 Tax=Marmotini TaxID=337730 RepID=C...  56.6    5e-09
+  UniRef90_UPI00052A12D1 PREDICTED: colipase n=1 Tax=Colius stria...  56.2    7e-09
+  UniRef90_UPI00093FA5EF UPI00093FA5EF related cluster n=2 Tax=un...  56.2    8e-09
+  UniRef90_UPI0004D0ADED PREDICTED: colipase isoform X1 n=1 Tax=G...  55.8    9e-09
+  UniRef90_UPI00084D94AE UPI00084D94AE related cluster n=1 Tax=un...  55.8    1e-08
+  UniRef90_P19090 Colipase n=2 Tax=Carnivora TaxID=33554 RepID=CO...  55.5    1e-08
+  UniRef90_F6SG32 Putative uncharacterized protein n=8 Tax=Cercop...  55.5    2e-08
+  UniRef90_A0A087QPW8 Colipase (Fragment) n=2 Tax=Aptenodytes for...  54.3    2e-08
+  UniRef90_UPI00071974A7 PREDICTED: colipase n=1 Tax=Ceratotheriu...  54.7    3e-08
+  UniRef90_K4FSK1 Colipase pancreatic n=8 Tax=Callorhinchus milii...  54.7    4e-08
+  UniRef90_A0A091V378 Colipase (Fragment) n=2 Tax=Nipponia nippon...  54.3    4e-08
+  UniRef90_UPI000812D497 UPI000812D497 related cluster n=1 Tax=un...  54.3    4e-08
+  UniRef90_UPI0005D0B62B PREDICTED: colipase n=2 Tax=Accipitrinae...  54.3    4e-08
+  UniRef90_A0A151N8E0 Colipase n=4 Tax=Alligator TaxID=8495 RepID...  53.9    5e-08
+  UniRef90_A0A093GMX5 Colipase (Fragment) n=2 Tax=Picoides pubesc...  53.9    5e-08
+  UniRef90_A0A093S114 Colipase (Fragment) n=3 Tax=Manacus vitelli...  53.5    6e-08
+  UniRef90_UPI000386F384 PREDICTED: colipase n=2 Tax=Falco TaxID=...  53.9    6e-08
+  UniRef90_UPI00039456FB PREDICTED: colipase n=1 Tax=Zonotrichia ...  53.5    7e-08
+  UniRef90_M7BK03 Colipase n=2 Tax=Durocryptodira TaxID=1579337 R...  53.5    8e-08
+  UniRef90_UPI00071C5389 PREDICTED: colipase n=1 Tax=Calidris pug...  53.5    9e-08
+  UniRef90_A0A091PQA9 Colipase (Fragment) n=2 Tax=Leptosomus disc...  52.8    9e-08
+  UniRef90_UPI0006B20054 PREDICTED: colipase isoform X1 n=2 Tax=T...  53.1    1e-07
+  UniRef90_A9JSD6 Colipase n=1 Tax=Xenopus tropicalis TaxID=8364 ...  53.1    1e-07
+  UniRef90_A0A091GCK4 Colipase (Fragment) n=2 Tax=Cuculus canorus...  52.8    1e-07
+  UniRef90_UPI0005325D4C PREDICTED: LOW QUALITY PROTEIN: colipase...  52.8    1e-07
+  UniRef90_UPI000328C53E PREDICTED: colipase n=1 Tax=Dasypus nove...  52.4    2e-07
+  UniRef90_K7FFP4 Uncharacterized protein n=2 Tax=Pelodiscus sine...  52.4    2e-07
+  UniRef90_P11148 Colipase (Fragment) n=1 Tax=Gallus gallus TaxID...  50.8    3e-07
+  UniRef90_UPI0004549FF9 PREDICTED: colipase isoform X3 n=1 Tax=C...  52.0    3e-07
+  UniRef90_F6X7L4 Uncharacterized protein n=2 Tax=Metatheria TaxI...  51.6    4e-07
+  UniRef90_UPI00085445E1 UPI00085445E1 related cluster n=1 Tax=un...  51.2    5e-07
+  UniRef90_UPI000440A4FD PREDICTED: colipase n=1 Tax=Astyanax mex...  51.2    5e-07
+  UniRef90_UPI0004F0D099 PREDICTED: colipase n=1 Tax=Acanthisitta...  51.2    6e-07
+  UniRef90_P11149 Colipase (Fragment) n=1 Tax=Squalus acanthias T...  49.7    7e-07
+  UniRef90_UPI00071A5801 PREDICTED: colipase-like n=1 Tax=Sturnus...  50.4    9e-07
+  UniRef90_UPI00053F8271 PREDICTED: colipase isoform X2 n=1 Tax=F...  49.7    1e-06
+  UniRef90_W5KK00 Uncharacterized protein n=2 Tax=Astyanax mexica...  49.7    2e-06
+  UniRef90_UPI000775869F UPI000775869F related cluster n=1 Tax=un...  49.3    2e-06
+  UniRef90_UPI000203A8C8 PREDICTED: colipase n=1 Tax=Anolis carol...  49.3    3e-06
+  UniRef90_U3JLU0 Uncharacterized protein n=2 Tax=Ficedula albico...  48.9    3e-06
+  UniRef90_A0A091GRY8 Colipase (Fragment) n=2 Tax=Buceros rhinoce...  48.5    4e-06
+  UniRef90_UPI0006360F42 UPI0006360F42 related cluster n=1 Tax=un...  48.5    4e-06
+  UniRef90_UPI0004F40E61 PREDICTED: colipase isoform X2 n=1 Tax=P...  47.8    7e-06
+  UniRef90_A0A087WZW1 Colipase n=3 Tax=Hominoidea TaxID=314295 Re...  47.8    8e-06
+  UniRef90_UPI00081462AA UPI00081462AA related cluster n=1 Tax=un...  47.8    1e-05
+  UniRef90_UPI000803663B UPI000803663B related cluster n=1 Tax=un...  47.4    1e-05
+  UniRef90_E3TF71 Colipase n=1 Tax=Ictalurus punctatus TaxID=7998...  47.0    2e-05
+  UniRef90_A0A096NHQ2 Uncharacterized protein n=3 Tax=Cercopithec...  45.8    4e-05
+  UniRef90_UPI00057680E0 PREDICTED: colipase n=1 Tax=Esox lucius ...  45.8    4e-05
+  UniRef90_S7NIW4 Colipase n=4 Tax=Vespertilionidae TaxID=9431 Re...  45.8    5e-05
+  UniRef90_A0A091ICN8 Colipase (Fragment) n=2 Tax=Calypte anna Ta...  45.1    5e-05
+  UniRef90_UPI0004F4F622 PREDICTED: colipase n=1 Tax=Pygoscelis a...  45.4    6e-05
+  UniRef90_UPI0005F3D93C PREDICTED: colipase isoform X1 n=2 Tax=C...  45.1    7e-05
+  UniRef90_UPI00051EE72B PREDICTED: colipase n=1 Tax=Egretta garz...  45.1    8e-05
+  UniRef90_W5MZ84 Uncharacterized protein n=1 Tax=Lepisosteus ocu...  44.7    1e-04
+  UniRef90_A0A1D5RKG0 Uncharacterized protein n=2 Tax=Cercopithec...  44.3    1e-04
+  UniRef90_UPI0008142E2F UPI0008142E2F related cluster n=1 Tax=un...  44.3    2e-04
+  UniRef90_A0A093QVS1 Colipase (Fragment) n=1 Tax=Pygoscelis adel...  43.9    2e-04
+  UniRef90_A0A091EEX6 Colipase (Fragment) n=3 Tax=Passeriformes T...  44.3    2e-04
+  UniRef90_UPI0004418DA2 PREDICTED: colipase n=1 Tax=Python bivit...  43.9    2e-04
+  UniRef90_H0YTV1 Uncharacterized protein (Fragment) n=2 Tax=Taen...  42.7    5e-04
+  UniRef90_UPI0003C1547D PREDICTED: colipase n=1 Tax=Latimeria ch...  41.2    0.002
+  UniRef90_R7VN27 Colipase (Fragment) n=2 Tax=Columba livia TaxID...  41.2    0.002
+  UniRef90_UPI000395720B PREDICTED: LOW QUALITY PROTEIN: colipase...  40.8    0.003
+  UniRef90_H9GRD8 Uncharacterized protein n=1 Tax=Anolis caroline...  39.7    0.005
+  UniRef90_UPI00074FC9FF PREDICTED: colipase-like n=1 Tax=Gekko j...  39.7    0.006
+
+
+> UniRef90_P02703 Colipase n=2 Tax=Sus scrofa TaxID=9823 RepID=COL_PIG
+Length=112
+
+ Score = 80.5 bits (197),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 39/39 (100%), Positives = 39/39 (100%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR
+Sbjct  23  GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  61
+
+
+> UniRef90_UPI0006525A0F PREDICTED: colipase n=1 Tax=Dipodomys 
+ordii TaxID=10020 RepID=UPI0006525A0F
+Length=113
+
+ Score = 68.9 bits (167),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 32/39 (82%), Positives = 35/39 (90%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           GIIINLDEGELCLNSAQCKS CCQH+T+L L+RC  KAR
+Sbjct  24  GIIINLDEGELCLNSAQCKSGCCQHNTVLGLARCTQKAR  62
+
+
+> UniRef90_G1L125 Uncharacterized protein n=3 Tax=Ailuropoda melanoleuca 
+TaxID=9646 RepID=G1L125_AILME
+Length=99
+
+ Score = 65.9 bits (159),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 32/39 (82%), Positives = 36/39 (92%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           GIIINL++GELCLNSAQCKS+CCQ DT LSL+RCA KAR
+Sbjct  23  GIIINLEDGELCLNSAQCKSSCCQRDTGLSLARCASKAR  61
+
+
+> UniRef90_P42889 Colipase n=1 Tax=Myocastor coypus TaxID=10157 
+RepID=COL_MYOCO
+Length=111
+
+ Score = 65.9 bits (159),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 31/39 (79%), Positives = 34/39 (87%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           G+IINLD GELCLNSAQCKS CCQHD+ L L+RCA KAR
+Sbjct  23  GLIINLDNGELCLNSAQCKSQCCQHDSPLGLARCADKAR  61
+
+
+> UniRef90_UPI0002C2E62B PREDICTED: colipase n=1 Tax=Tursiops truncatus 
+TaxID=9739 RepID=UPI0002C2E62B
+Length=141
+
+ Score = 65.5 bits (158),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 31/39 (79%), Positives = 34/39 (87%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           GIIINL+EGELCLNSAQC+S CC  DT LSL+RCA KAR
+Sbjct  23  GIIINLEEGELCLNSAQCRSKCCHRDTGLSLARCAPKAR  61
+
+
+> UniRef90_UPI0002BCD374 PREDICTED: colipase isoform X1 n=4 Tax=Cetacea 
+TaxID=9721 RepID=UPI0002BCD374
+Length=112
+
+ Score = 64.7 bits (156),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 31/39 (79%), Positives = 34/39 (87%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           GIIINL+EGELCLNSAQC+S CC  DT LSL+RCA KAR
+Sbjct  23  GIIINLEEGELCLNSAQCRSKCCHRDTGLSLARCAPKAR  61
+
+
+> UniRef90_UPI00038F1819 PREDICTED: colipase n=1 Tax=Chinchilla 
+lanigera TaxID=34839 RepID=UPI00038F1819
+Length=111
+
+ Score = 64.3 bits (155),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 29/39 (74%), Positives = 34/39 (87%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           GIIINL++GELC+NS QCKS CCQHD+ LSL+RC  KAR
+Sbjct  23  GIIINLEDGELCVNSGQCKSKCCQHDSPLSLARCVQKAR  61
+
+
+> UniRef90_UPI0002C556B0 PREDICTED: colipase isoform X1 n=2 Tax=Caniformia 
+TaxID=379584 RepID=UPI0002C556B0
+Length=112
+
+ Score = 64.3 bits (155),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 30/38 (79%), Positives = 34/38 (89%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL+ GELC NSAQCKS CC+HDT+LSL+RCA KA
+Sbjct  23  GIIINLENGELCANSAQCKSKCCRHDTLLSLARCAPKA  60
+
+
+> UniRef90_UPI0003341199 PREDICTED: colipase n=1 Tax=Octodon degus 
+TaxID=10160 RepID=UPI0003341199
+Length=111
+
+ Score = 63.9 bits (154),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 29/38 (76%), Positives = 33/38 (87%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GII+NLD GELC+NSAQCKS CCQHD  L+L+RCA KA
+Sbjct  23  GIIVNLDNGELCMNSAQCKSKCCQHDNPLALARCADKA  60
+
+
+> UniRef90_UPI0000E4035C PREDICTED: colipase isoform X1 n=1 Tax=Echinops 
+telfairi TaxID=9371 RepID=UPI0000E4035C
+Length=114
+
+ Score = 63.9 bits (154),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 29/38 (76%), Positives = 33/38 (87%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GI INL+EGELCLNSAQCKS CC HD++LSL+RC  KA
+Sbjct  25  GIFINLEEGELCLNSAQCKSRCCHHDSVLSLARCMPKA  62
+
+
+> UniRef90_G5BEW5 Colipase n=2 Tax=Heterocephalus glaber TaxID=10181 
+RepID=G5BEW5_HETGA
+Length=111
+
+ Score = 63.9 bits (154),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 29/38 (76%), Positives = 35/38 (92%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+IINL++GELCLNSAQCKS CCQHD++LSL+RC  KA
+Sbjct  23  GLIINLEDGELCLNSAQCKSKCCQHDSLLSLARCTHKA  60
+
+
+> UniRef90_UPI000333261E PREDICTED: colipase n=1 Tax=Jaculus jaculus 
+TaxID=51337 RepID=UPI000333261E
+Length=115
+
+ Score = 63.5 bits (153),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 26/39 (67%), Positives = 35/39 (90%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           G+I+NL++GE+C+NSAQCKS+CCQH TIL ++RC  KAR
+Sbjct  23  GLIVNLEDGEICMNSAQCKSSCCQHSTILGVARCTYKAR  61
+
+
+> UniRef90_P42890 Colipase n=3 Tax=Oryctolagus cuniculus TaxID=9986 
+RepID=COL_RABIT
+Length=107
+
+ Score = 63.5 bits (153),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 29/38 (76%), Positives = 33/38 (87%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GI+INL+EGELCLNSAQCKS CC H + LSL+RCA KA
+Sbjct  23  GIVINLEEGELCLNSAQCKSGCCHHSSALSLARCAPKA  60
+
+
+> UniRef90_G3TP15 Uncharacterized protein n=1 Tax=Loxodonta africana 
+TaxID=9785 RepID=G3TP15_LOXAF
+Length=113
+
+ Score = 63.2 bits (152),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 29/39 (74%), Positives = 32/39 (82%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           GIIINL+ GELC+NS QCKS CC HD+ LSLSRC  KAR
+Sbjct  24  GIIINLENGELCVNSYQCKSQCCHHDSALSLSRCTAKAR  62
+
+
+> UniRef90_UPI000576B523 PREDICTED: colipase isoform X1 n=2 Tax=Bovinae 
+TaxID=27592 RepID=UPI000576B523
+Length=220
+
+ Score = 63.5 bits (153),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 29/38 (76%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINLDEGELCLNSAQC S CC  +  LSL+RCA KA
+Sbjct  23  GIIINLDEGELCLNSAQCTSKCCHREDGLSLARCAPKA  60
+
+
+> UniRef90_UPI0004ED4F78 PREDICTED: colipase-like n=1 Tax=Nannospalax 
+galili TaxID=1026970 RepID=UPI0004ED4F78
+Length=155
+
+ Score = 62.8 bits (151),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 27/39 (69%), Positives = 34/39 (87%), Gaps = 0/39 (0%)
+
+Query  1    GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+            GI+INL++GE+CLNSAQCKS CCQH+TIL + RC  K+R
+Sbjct  66   GIVINLEDGEICLNSAQCKSGCCQHNTILGILRCTAKSR  104
+
+
+> UniRef90_M3XXF0 Uncharacterized protein n=4 Tax=Boreoeutheria 
+TaxID=1437010 RepID=M3XXF0_MUSPF
+Length=112
+
+ Score = 62.0 bits (149),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 30/38 (79%), Positives = 33/38 (87%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL++GELCLNSAQCKS CC  DT LSL+RCA KA
+Sbjct  23  GIIINLEDGELCLNSAQCKSKCCHRDTGLSLARCAPKA  60
+
+
+> UniRef90_H0VQD7 Uncharacterized protein n=1 Tax=Cavia porcellus 
+TaxID=10141 RepID=H0VQD7_CAVPO
+Length=111
+
+ Score = 60.1 bits (144),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 26/38 (68%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+  NLD+GELCLNS QCKS CCQ DT+L+L+RC  KA
+Sbjct  23  GLFFNLDDGELCLNSGQCKSQCCQQDTLLALARCTRKA  60
+
+
+> UniRef90_UPI0001777C96 PREDICTED: colipase n=1 Tax=Ochotona princeps 
+TaxID=9978 RepID=UPI0001777C96
+Length=106
+
+ Score = 59.7 bits (143),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 29/38 (76%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL+ GELCLNSAQCKS CCQH + LSL+RC  KA
+Sbjct  22  GIIINLENGELCLNSAQCKSGCCQHSSALSLARCEDKA  59
+
+
+> UniRef90_UPI0004446E8B PREDICTED: colipase n=1 Tax=Erinaceus 
+europaeus TaxID=9365 RepID=UPI0004446E8B
+Length=114
+
+ Score = 60.1 bits (144),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 28/38 (74%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GI INLDEGELCLNSAQCKS+CC   T +SL+RCA K+
+Sbjct  24  GIFINLDEGELCLNSAQCKSHCCHRPTGMSLARCAPKS  61
+
+
+> UniRef90_G3HZU4 Colipase n=2 Tax=Cricetinae TaxID=10026 RepID=G3HZU4_CRIGR
+Length=113
+
+ Score = 59.7 bits (143),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 24/38 (63%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+ +NLD+GE+C+NS QCKS CCQHDTIL ++RC  +A
+Sbjct  24  GLFVNLDDGEICMNSMQCKSKCCQHDTILGIARCTHQA  61
+
+
+> UniRef90_A0A1A6HZT5 Uncharacterized protein n=3 Tax=Cricetidae 
+TaxID=337677 RepID=A0A1A6HZT5_NEOLE
+Length=113
+
+ Score = 59.3 bits (142),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 25/39 (64%), Positives = 32/39 (82%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           G+  NLD+GE+C+NS QC+S CCQHDTIL ++RC  KAR
+Sbjct  24  GLFTNLDDGEICVNSLQCQSKCCQHDTILGIARCTHKAR  62
+
+
+> UniRef90_S9YJI4 Colipase n=3 Tax=Camelidae TaxID=9835 RepID=S9YJI4_CAMFR
+Length=112
+
+ Score = 59.3 bits (142),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 29/38 (76%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINLD GELCLNS QCKS CC  +T LSL+RCA KA
+Sbjct  23  GIIINLDAGELCLNSVQCKSKCCHRETGLSLARCAPKA  60
+
+
+> UniRef90_P17084 Colipase n=4 Tax=Murinae TaxID=39107 RepID=COL_RAT
+Length=112
+
+ Score = 59.3 bits (142),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 25/38 (66%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+ INL++GE+C+NS QCKS CCQHDTIL ++RC  KA
+Sbjct  23  GLFINLEDGEICVNSMQCKSRCCQHDTILGIARCTHKA  60
+
+
+> UniRef90_H0X164 Uncharacterized protein n=3 Tax=Strepsirrhini 
+TaxID=376911 RepID=H0X164_OTOGA
+Length=112
+
+ Score = 59.3 bits (142),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 29/38 (76%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIII+LDEGELCLNSAQCKS CC   + LSL+RCA KA
+Sbjct  23  GIIISLDEGELCLNSAQCKSKCCHRTSGLSLARCAPKA  60
+
+
+> UniRef90_UPI000331924E PREDICTED: colipase n=1 Tax=Sorex araneus 
+TaxID=42254 RepID=UPI000331924E
+Length=113
+
+ Score = 59.3 bits (142),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 28/38 (74%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GII+NLDEGELC+NSAQCKS CC   + LSL+RCA KA
+Sbjct  23  GIIMNLDEGELCMNSAQCKSKCCHRTSGLSLARCAPKA  60
+
+
+> UniRef90_UPI0008DB84E2 UPI0008DB84E2 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008DB84E2
+Length=117
+
+ Score = 59.3 bits (142),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 27/38 (71%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I+NLD GELCL S QCKS CC HD IL L+RCA KA
+Sbjct  31  GLIMNLDTGELCLQSVQCKSGCCHHDHILGLTRCAPKA  68
+
+
+> UniRef90_D5FQ08 Colipase (Fragment) n=1 Tax=Meleagris gallopavo 
+TaxID=9103 RepID=D5FQ08_MELGA
+Length=91
+
+ Score = 58.9 bits (141),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 27/38 (71%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELC+ SAQCKS CCQ D+ LSL+RC+LKA
+Sbjct  1   GLIFNLDTGELCVQSAQCKSGCCQRDSGLSLARCSLKA  38
+
+
+> UniRef90_P04118 Colipase n=6 Tax=Hominoidea TaxID=314295 RepID=COL_HUMAN
+Length=112
+
+ Score = 58.9 bits (141),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 27/38 (71%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL+ GELC+NSAQCKSNCCQH + L L+RC   A
+Sbjct  23  GIIINLENGELCMNSAQCKSNCCQHSSALGLARCTSMA  60
+
+
+> UniRef90_G1MPW1 Uncharacterized protein n=5 Tax=Phasianidae TaxID=9005 
+RepID=G1MPW1_MELGA
+Length=114
+
+ Score = 58.9 bits (141),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 27/38 (71%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELC+ SAQCKS CCQ D+ LSL+RC+LKA
+Sbjct  25  GLIFNLDTGELCVQSAQCKSGCCQRDSGLSLARCSLKA  62
+
+
+> UniRef90_UPI0003346FEB PREDICTED: colipase isoform X1 n=3 Tax=Laurasiatheria 
+TaxID=314145 RepID=UPI0003346FEB
+Length=114
+
+ Score = 58.9 bits (141),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 28/37 (76%), Positives = 31/37 (84%), Gaps = 0/37 (0%)
+
+Query  2   IIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           II+NL+EGELCLNS QCKS CC  DT LSL+RCA KA
+Sbjct  25  IIVNLEEGELCLNSMQCKSRCCHRDTGLSLARCAPKA  61
+
+
+> UniRef90_UPI00027F7BE4 PREDICTED: colipase isoform X1 n=1 Tax=Saimiri 
+boliviensis boliviensis TaxID=39432 RepID=UPI00027F7BE4
+Length=112
+
+ Score = 58.5 bits (140),  Expect = 9e-10, Method: Compositional matrix adjust.
+ Identities = 26/35 (74%), Positives = 30/35 (86%), Gaps = 0/35 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCA  35
+           GIIINL+EGELC+NSAQCKS CC H + L L+RCA
+Sbjct  23  GIIINLEEGELCMNSAQCKSKCCHHSSALGLARCA  57
+
+
+> UniRef90_A0JNQ7 Colipase n=7 Tax=Bovidae TaxID=9895 RepID=COL_BOVIN
+Length=112
+
+ Score = 58.5 bits (140),  Expect = 9e-10, Method: Compositional matrix adjust.
+ Identities = 29/38 (76%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINLDEGELCLNSAQC S CC  +  LSL+RCA KA
+Sbjct  23  GIIINLDEGELCLNSAQCTSKCCHREDGLSLARCAPKA  60
+
+
+> UniRef90_UPI0003F0649D PREDICTED: colipase isoform X1 n=1 Tax=Elephantulus 
+edwardii TaxID=28737 RepID=UPI0003F0649D
+Length=113
+
+ Score = 58.5 bits (140),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 26/38 (68%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+++NL+EGELCLNS QCKS CC  DT LSL+RC  KA
+Sbjct  24  GLVVNLEEGELCLNSVQCKSKCCHRDTGLSLARCMPKA  61
+
+
+> UniRef90_UPI00063EE30A PREDICTED: colipase isoform X1 n=1 Tax=Propithecus 
+coquereli TaxID=379532 RepID=UPI00063EE30A
+Length=112
+
+ Score = 58.2 bits (139),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 27/38 (71%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G++INLD+GELCLNS QCKSNCC   + LSL+RCA KA
+Sbjct  23  GLLINLDQGELCLNSIQCKSNCCHRTSGLSLARCAYKA  60
+
+
+> UniRef90_A0A091CY25 Colipase n=1 Tax=Fukomys damarensis TaxID=885580 
+RepID=A0A091CY25_FUKDA
+Length=110
+
+ Score = 57.8 bits (138),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 26/38 (68%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G +INL++GELCLNS QCKS CCQHD+ L L+RC  KA
+Sbjct  22  GFVINLEDGELCLNSIQCKSKCCQHDSALGLARCIHKA  59
+
+
+> UniRef90_UPI0002C442FD PREDICTED: colipase isoform X1 n=1 Tax=Trichechus 
+manatus latirostris TaxID=127582 RepID=UPI0002C442FD
+Length=112
+
+ Score = 57.8 bits (138),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 27/38 (71%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIII+L++GELCLNS QCKS CC H T LSL+RCA K+
+Sbjct  24  GIIISLEDGELCLNSYQCKSRCCHHSTGLSLARCAPKS  61
+
+
+> UniRef90_F7HYJ9 Uncharacterized protein n=3 Tax=Platyrrhini TaxID=9479 
+RepID=F7HYJ9_CALJA
+Length=112
+
+ Score = 57.8 bits (138),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 25/35 (71%), Positives = 31/35 (89%), Gaps = 0/35 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCA  35
+           G++I+L+EGELCLNSAQCKS CC H + LSL+RCA
+Sbjct  23  GLVIHLEEGELCLNSAQCKSKCCHHTSALSLARCA  57
+
+
+> UniRef90_U3I780 Uncharacterized protein n=3 Tax=Anas platyrhynchos 
+TaxID=8839 RepID=U3I780_ANAPL
+Length=67
+
+ Score = 57.0 bits (136),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 27/38 (71%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS CCQ D+ LSL+RC  KA
+Sbjct  21  GLIFNLDTGELCLQSAQCKSGCCQRDSGLSLARCVPKA  58
+
+
+> UniRef90_UPI00045D8750 PREDICTED: colipase n=1 Tax=Orycteropus 
+afer afer TaxID=1230840 RepID=UPI00045D8750
+Length=113
+
+ Score = 57.4 bits (137),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 28/38 (74%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIII LD+GELCLNS QCKS CC  DT LSL+RC  KA
+Sbjct  24  GIIIQLDDGELCLNSIQCKSKCCHRDTGLSLARCMPKA  61
+
+
+> UniRef90_UPI0006715410 PREDICTED: colipase n=1 Tax=Anser cygnoides 
+domesticus TaxID=381198 RepID=UPI0006715410
+Length=118
+
+ Score = 57.0 bits (136),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 26/38 (68%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS CCQH++ L+L+RC  KA
+Sbjct  27  GLIFNLDTGELCLQSAQCKSGCCQHNSGLNLARCVPKA  64
+
+
+> UniRef90_L5KYN5 Colipase n=3 Tax=Pteropus TaxID=9401 RepID=L5KYN5_PTEAL
+Length=110
+
+ Score = 57.0 bits (136),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 28/38 (74%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINLDEGELCLNS QCKS CC   + LSL+RCA +A
+Sbjct  23  GIIINLDEGELCLNSIQCKSRCCHRTSGLSLARCAPEA  60
+
+
+> UniRef90_UPI0003F14D85 PREDICTED: colipase isoform X1 n=1 Tax=Chrysochloris 
+asiatica TaxID=185453 RepID=UPI0003F14D85
+Length=113
+
+ Score = 57.0 bits (136),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 26/38 (68%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GI INL++GELC+NS QCKS CC  DT LSL+RC  KA
+Sbjct  24  GIFINLEDGELCMNSVQCKSKCCHRDTGLSLARCVPKA  61
+
+
+> UniRef90_UPI000777DCE1 UPI000777DCE1 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000777DCE1
+Length=115
+
+ Score = 57.0 bits (136),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 27/38 (71%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELC+ SAQCKS CCQ DT LSL+RC+ KA
+Sbjct  25  GLIFNLDIGELCVQSAQCKSGCCQRDTGLSLARCSQKA  62
+
+
+> UniRef90_UPI0003832688 PREDICTED: colipase n=1 Tax=Melopsittacus 
+undulatus TaxID=13146 RepID=UPI0003832688
+Length=118
+
+ Score = 57.0 bits (136),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 26/38 (68%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G++ NLD GELCL SAQCKS+CC  D+ LSL+RCA KA
+Sbjct  27  GLVFNLDTGELCLQSAQCKSHCCHRDSGLSLARCAPKA  64
+
+
+> UniRef90_P02705 Colipase B (Fragment) n=4 Tax=Equus caballus 
+TaxID=9796 RepID=COLB_HORSE
+Length=108
+
+ Score = 56.6 bits (135),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 25/38 (66%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+IINL+ GE+C+NSAQCKS CC  ++ LSL+RCA KA
+Sbjct  19  GVIINLEAGEICMNSAQCKSECCHRESSLSLARCAAKA  56
+
+
+> UniRef90_Q91XL7 Colipase n=2 Tax=Marmotini TaxID=337730 RepID=COL_ICTTR
+Length=111
+
+ Score = 56.6 bits (135),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 24/38 (63%), Positives = 33/38 (87%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GI+INL++GE+C+NSAQCKS+CCQH + L ++RC  KA
+Sbjct  22  GILINLEDGEICMNSAQCKSSCCQHFSPLGVARCTRKA  59
+
+
+> UniRef90_UPI00052A12D1 PREDICTED: colipase n=1 Tax=Colius striatus 
+TaxID=57412 RepID=UPI00052A12D1
+Length=118
+
+ Score = 56.2 bits (134),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 25/38 (66%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I+NLD GELCL S QCKS CC+H+ +LSL+RC  KA
+Sbjct  27  GLIVNLDTGELCLKSFQCKSGCCRHEGLLSLARCTPKA  64
+
+
+> UniRef90_UPI00093FA5EF UPI00093FA5EF related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI00093FA5EF
+Length=112
+
+ Score = 56.2 bits (134),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 27/38 (71%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIII+L++GELCLNSAQCKS CC   + LSL+RCA KA
+Sbjct  23  GIIISLEDGELCLNSAQCKSKCCHRTSGLSLARCAPKA  60
+
+
+> UniRef90_UPI0004D0ADED PREDICTED: colipase isoform X1 n=1 Tax=Galeopterus 
+variegatus TaxID=482537 RepID=UPI0004D0ADED
+Length=112
+
+ Score = 55.8 bits (133),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 23/39 (59%), Positives = 31/39 (79%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           G++INL+EGE+CLN  QCKS CCQH + +S++RCA   R
+Sbjct  23  GLVINLEEGEICLNKIQCKSGCCQHTSAISVARCAPMVR  61
+
+
+> UniRef90_UPI00084D94AE UPI00084D94AE related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00084D94AE
+Length=117
+
+ Score = 55.8 bits (133),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 27/38 (71%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+IINLD GELCL S QCKS CC  D+ LSL+RCA KA
+Sbjct  28  GLIINLDTGELCLQSLQCKSGCCYRDSGLSLARCAPKA  65
+
+
+> UniRef90_P19090 Colipase n=2 Tax=Carnivora TaxID=33554 RepID=COL_CANLF
+Length=112
+
+ Score = 55.5 bits (132),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 27/38 (71%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIII+L++GELCLNS QCKS CC   T LSL+RCA KA
+Sbjct  23  GIIIHLEDGELCLNSVQCKSKCCHRATGLSLARCAPKA  60
+
+
+> UniRef90_F6SG32 Putative uncharacterized protein n=8 Tax=Cercopithecidae 
+TaxID=9527 RepID=F6SG32_MACMU
+Length=131
+
+ Score = 55.5 bits (132),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 25/34 (74%), Positives = 28/34 (82%), Gaps = 0/34 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRC  34
+           GIIINL+ GELC+NSAQCKS CCQH   L L+RC
+Sbjct  23  GIIINLENGELCMNSAQCKSQCCQHTGALDLARC  56
+
+
+> UniRef90_A0A087QPW8 Colipase (Fragment) n=2 Tax=Aptenodytes forsteri 
+TaxID=9233 RepID=A0A087QPW8_APTFO
+Length=81
+
+ Score = 54.3 bits (129),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 26/38 (68%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS CC   + LSL+RCA KA
+Sbjct  19  GLIFNLDTGELCLQSAQCKSGCCHRGSGLSLARCAPKA  56
+
+
+> UniRef90_UPI00071974A7 PREDICTED: colipase n=1 Tax=Ceratotherium 
+simum simum TaxID=73337 RepID=UPI00071974A7
+Length=107
+
+ Score = 54.7 bits (130),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 26/38 (68%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G IINL+ GELCLNSAQCKS CCQ  +  SL+RCA +A
+Sbjct  23  GTIINLEAGELCLNSAQCKSECCQRTSGTSLARCAARA  60
+
+
+> UniRef90_K4FSK1 Colipase pancreatic n=8 Tax=Callorhinchus milii 
+TaxID=7868 RepID=K4FSK1_CALMI
+Length=130
+
+ Score = 54.7 bits (130),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 25/38 (66%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+ +NLD GELC+ S QCKS+CCQ DT LSLSRC  K 
+Sbjct  34  GLFLNLDNGELCIGSFQCKSDCCQRDTALSLSRCFSKG  71
+
+
+> UniRef90_A0A091V378 Colipase (Fragment) n=2 Tax=Nipponia nippon 
+TaxID=128390 RepID=A0A091V378_NIPNI
+Length=99
+
+ Score = 54.3 bits (129),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 26/38 (68%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS CC   + LSL+RCA KA
+Sbjct  21  GLIFNLDTGELCLQSAQCKSGCCYRGSGLSLARCAPKA  58
+
+
+> UniRef90_UPI000812D497 UPI000812D497 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000812D497
+Length=116
+
+ Score = 54.3 bits (129),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 26/38 (68%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+II LDEGELCLNS QCKS CC  ++ LSL+RCA +A
+Sbjct  23  GLIILLDEGELCLNSVQCKSRCCHRESGLSLARCAPEA  60
+
+
+> UniRef90_UPI0005D0B62B PREDICTED: colipase n=2 Tax=Accipitrinae 
+TaxID=8955 RepID=UPI0005D0B62B
+Length=118
+
+ Score = 54.3 bits (129),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 26/38 (68%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS CC   + LSL+RCA KA
+Sbjct  27  GLIFNLDTGELCLQSAQCKSGCCHRHSGLSLARCAPKA  64
+
+
+> UniRef90_A0A151N8E0 Colipase n=4 Tax=Alligator TaxID=8495 RepID=A0A151N8E0_ALLMI
+Length=112
+
+ Score = 53.9 bits (128),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 26/38 (68%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKSNCC   + LSL+RC  KA
+Sbjct  23  GLIFNLDNGELCLQSAQCKSNCCHRTSGLSLARCTNKA  60
+
+
+> UniRef90_A0A093GMX5 Colipase (Fragment) n=2 Tax=Picoides pubescens 
+TaxID=118200 RepID=A0A093GMX5_PICPB
+Length=97
+
+ Score = 53.9 bits (128),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 26/38 (68%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS CC   + LSL+RCA KA
+Sbjct  19  GLIFNLDVGELCLQSAQCKSGCCHRSSGLSLARCAPKA  56
+
+
+> UniRef90_A0A093S114 Colipase (Fragment) n=3 Tax=Manacus vitellinus 
+TaxID=328815 RepID=A0A093S114_9PASS
+Length=97
+
+ Score = 53.5 bits (127),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 25/38 (66%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NL+ GELCL SAQCKS CC  D+ LS++RCA KA
+Sbjct  19  GLIFNLEIGELCLQSAQCKSGCCHRDSGLSMARCAPKA  56
+
+
+> UniRef90_UPI000386F384 PREDICTED: colipase n=2 Tax=Falco TaxID=8952 
+RepID=UPI000386F384
+Length=116
+
+ Score = 53.9 bits (128),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 26/38 (68%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS CC     LSL+RCA KA
+Sbjct  25  GLIFNLDTGELCLQSAQCKSGCCHRTGGLSLARCAPKA  62
+
+
+> UniRef90_UPI00039456FB PREDICTED: colipase n=1 Tax=Zonotrichia 
+albicollis TaxID=44394 RepID=UPI00039456FB
+Length=116
+
+ Score = 53.5 bits (127),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 26/38 (68%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS CC     LSL+RCA KA
+Sbjct  27  GLIFNLDTGELCLQSAQCKSGCCHRTDGLSLARCAPKA  64
+
+
+> UniRef90_M7BK03 Colipase n=2 Tax=Durocryptodira TaxID=1579337 
+RepID=M7BK03_CHEMY
+Length=113
+
+ Score = 53.5 bits (127),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 25/38 (66%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS+CC    +LSL+RCA +A
+Sbjct  24  GLIFNLDNGELCLQSAQCKSSCCHRTDMLSLARCANRA  61
+
+
+> UniRef90_UPI00071C5389 PREDICTED: colipase n=1 Tax=Calidris pugnax 
+TaxID=198806 RepID=UPI00071C5389
+Length=135
+
+ Score = 53.5 bits (127),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 25/38 (66%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS CC   + LSL+RCA +A
+Sbjct  27  GLIFNLDTGELCLQSAQCKSGCCHRGSGLSLARCAPRA  64
+
+
+> UniRef90_A0A091PQA9 Colipase (Fragment) n=2 Tax=Leptosomus discolor 
+TaxID=188344 RepID=A0A091PQA9_LEPDC
+Length=80
+
+ Score = 52.8 bits (125),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 25/38 (66%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL S QCKS CC   + LSL+RCA KA
+Sbjct  19  GLIFNLDTGELCLQSTQCKSGCCHRTSGLSLARCAPKA  56
+
+
+> UniRef90_UPI0006B20054 PREDICTED: colipase isoform X1 n=2 Tax=Thamnophis 
+sirtalis TaxID=35019 RepID=UPI0006B20054
+Length=123
+
+ Score = 53.1 bits (126),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 26/38 (68%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+ INL+ GELCLNS QCKS+CC   T LSL+RCA KA
+Sbjct  23  GLFINLENGELCLNSHQCKSHCCHRTTGLSLARCANKA  60
+
+
+> UniRef90_A9JSD6 Colipase n=1 Tax=Xenopus tropicalis TaxID=8364 
+RepID=COL_XENTR
+Length=117
+
+ Score = 53.1 bits (126),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 24/38 (63%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL +AQCKS CC  ++ +SL+RCA KA
+Sbjct  28  GLIFNLDNGELCLQTAQCKSGCCHRNSGVSLARCAPKA  65
+
+
+> UniRef90_A0A091GCK4 Colipase (Fragment) n=2 Tax=Cuculus canorus 
+TaxID=55661 RepID=A0A091GCK4_9AVES
+Length=99
+
+ Score = 52.8 bits (125),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 24/38 (63%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELC+ SAQCKS CC  +  LS++RCA KA
+Sbjct  21  GLIFNLDTGELCMQSAQCKSGCCHRNGGLSMARCAPKA  58
+
+
+> UniRef90_UPI0005325D4C PREDICTED: LOW QUALITY PROTEIN: colipase-like 
+n=1 Tax=Balearica regulorum gibbericeps TaxID=100784 
+RepID=UPI0005325D4C
+Length=117
+
+ Score = 52.8 bits (125),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 25/38 (66%), Positives = 27/38 (71%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCK  CC  D  LSL+RC  KA
+Sbjct  27  GLIFNLDTGELCLQSAQCKDGCCHRDGGLSLARCVPKA  64
+
+
+> UniRef90_UPI000328C53E PREDICTED: colipase n=1 Tax=Dasypus novemcinctus 
+TaxID=9361 RepID=UPI000328C53E
+Length=112
+
+ Score = 52.4 bits (124),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 25/38 (66%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GII+ L+EGELCLNS QCKS CC   + LSL+RC  KA
+Sbjct  23  GIILGLEEGELCLNSYQCKSRCCHRSSGLSLARCMPKA  60
+
+
+> UniRef90_K7FFP4 Uncharacterized protein n=2 Tax=Pelodiscus sinensis 
+TaxID=13735 RepID=K7FFP4_PELSI
+Length=109
+
+ Score = 52.4 bits (124),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 25/38 (66%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS+CC   + LSL+RCA +A
+Sbjct  20  GLIFNLDNGELCLQSAQCKSSCCHRTSGLSLARCANQA  57
+
+
+> UniRef90_P11148 Colipase (Fragment) n=1 Tax=Gallus gallus TaxID=9031 
+RepID=COL_CHICK
+Length=34
+
+ Score = 50.8 bits (120),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 24/34 (71%), Positives = 27/34 (79%), Gaps = 0/34 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRC  34
+           G+I NLD GELCL SAQCKS CCQ D+ LSL+ C
+Sbjct  1   GLIFNLDTGELCLQSAQCKSECCQEDSGLSLAXC  34
+
+
+> UniRef90_UPI0004549FF9 PREDICTED: colipase isoform X3 n=1 Tax=Cricetulus 
+griseus TaxID=10029 RepID=UPI0004549FF9
+Length=122
+
+ Score = 52.0 bits (123),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 21/32 (66%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  7   DEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           D+GE+C+NS QCKS CCQHDTIL ++RC  +A
+Sbjct  36  DDGEICMNSMQCKSKCCQHDTILGIARCTHQA  67
+
+
+> UniRef90_F6X7L4 Uncharacterized protein n=2 Tax=Metatheria TaxID=9263 
+RepID=F6X7L4_MONDO
+Length=112
+
+ Score = 51.6 bits (122),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 25/38 (66%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+II+LD GELC+NS QCKS CC   + LSL+RCA KA
+Sbjct  23  GLIIHLDNGELCVNSLQCKSKCCHRTSGLSLARCADKA  60
+
+
+> UniRef90_UPI00085445E1 UPI00085445E1 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00085445E1
+Length=109
+
+ Score = 51.2 bits (121),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 25/35 (71%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCA  35
+           G+IINLD GELCL S QCKSNCC     LSL+RCA
+Sbjct  22  GLIINLDTGELCLQSIQCKSNCCHRKDGLSLARCA  56
+
+
+> UniRef90_UPI000440A4FD PREDICTED: colipase n=1 Tax=Astyanax mexicanus 
+TaxID=7994 RepID=UPI000440A4FD
+Length=128
+
+ Score = 51.2 bits (121),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 25/38 (66%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL  GELCL S QCKS+CC   + LSL+RCA +A
+Sbjct  40  GIIINLKNGELCLFSVQCKSSCCHRPSGLSLARCAPRA  77
+
+
+> UniRef90_UPI0004F0D099 PREDICTED: colipase n=1 Tax=Acanthisitta 
+chloris TaxID=57068 RepID=UPI0004F0D099
+Length=116
+
+ Score = 51.2 bits (121),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 25/38 (66%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NL+ GELCL SAQCKS CC   + LSL+RCA KA
+Sbjct  27  GLIFNLEIGELCLQSAQCKSGCCHRVSGLSLARCAPKA  64
+
+
+> UniRef90_P11149 Colipase (Fragment) n=1 Tax=Squalus acanthias 
+TaxID=7797 RepID=COL_SQUAC
+Length=39
+
+ Score = 49.7 bits (117),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 22/35 (63%), Positives = 28/35 (80%), Gaps = 0/35 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCA  35
+           G+ +NL  GELC+ S QCKS+CCQ +T LSL+RCA
+Sbjct  5   GLFLNLSAGELCVGSFQCKSSCCQRETGLSLARCA  39
+
+
+> UniRef90_UPI00071A5801 PREDICTED: colipase-like n=1 Tax=Sturnus 
+vulgaris TaxID=9172 RepID=UPI00071A5801
+Length=118
+
+ Score = 50.4 bits (119),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 24/38 (63%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NL+ GELC+ SAQCKS CC   + LSL+RCA KA
+Sbjct  27  GLIFNLEIGELCMQSAQCKSGCCHRTSGLSLARCASKA  64
+
+
+> UniRef90_UPI00053F8271 PREDICTED: colipase isoform X2 n=1 Tax=Fukomys 
+damarensis TaxID=885580 RepID=UPI00053F8271
+Length=95
+
+ Score = 49.7 bits (117),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 22/33 (67%), Positives = 27/33 (82%), Gaps = 0/33 (0%)
+
+Query  6   LDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           +++GELCLNS QCKS CCQHD+ L L+RC  KA
+Sbjct  12  MEDGELCLNSIQCKSKCCQHDSALGLARCIHKA  44
+
+
+> UniRef90_W5KK00 Uncharacterized protein n=2 Tax=Astyanax mexicanus 
+TaxID=7994 RepID=W5KK00_ASTMX
+Length=117
+
+ Score = 49.7 bits (117),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 24/38 (63%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL+ GELC  S QCKS+CC     LSL+RCA +A
+Sbjct  29  GIIINLNNGELCAISGQCKSSCCHRPDALSLARCAPRA  66
+
+
+> UniRef90_UPI000775869F UPI000775869F related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000775869F
+Length=107
+
+ Score = 49.3 bits (116),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 25/38 (66%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+ +NLD GELCL S QCKS CC   T LSL+RCA KA
+Sbjct  23  GLNLNLDNGELCLQSIQCKSRCCHRKTGLSLARCADKA  60
+
+
+> UniRef90_UPI000203A8C8 PREDICTED: colipase n=1 Tax=Anolis carolinensis 
+TaxID=28377 RepID=UPI000203A8C8
+Length=111
+
+ Score = 49.3 bits (116),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 23/38 (61%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELC+ S QCKS CC   + LSL+RC+ KA
+Sbjct  23  GLIFNLDNGELCMQSLQCKSGCCHRTSGLSLARCSDKA  60
+
+
+> UniRef90_U3JLU0 Uncharacterized protein n=2 Tax=Ficedula albicollis 
+TaxID=59894 RepID=U3JLU0_FICAL
+Length=116
+
+ Score = 48.9 bits (115),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 24/38 (63%), Positives = 27/38 (71%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G++INL+ GELCL S QCKS CC     LSL RCA KA
+Sbjct  27  GLVINLEIGELCLQSIQCKSGCCHRANGLSLPRCAAKA  64
+
+
+> UniRef90_A0A091GRY8 Colipase (Fragment) n=2 Tax=Buceros rhinoceros 
+silvestris TaxID=175836 RepID=A0A091GRY8_BUCRH
+Length=82
+
+ Score = 48.5 bits (114),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 22/38 (58%), Positives = 27/38 (71%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I+NLD GELC+ S QCKS CC     LS++RC  KA
+Sbjct  20  GLILNLDTGELCMQSFQCKSGCCHRTGGLSMARCRPKA  57
+
+
+> UniRef90_UPI0006360F42 UPI0006360F42 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0006360F42
+Length=115
+
+ Score = 48.5 bits (114),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 23/38 (61%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+IINLD GELC+ S QCKS+CC     LSL+RCA ++
+Sbjct  24  GLIINLDNGELCVVSMQCKSSCCHRQDGLSLARCAPRS  61
+
+
+> UniRef90_UPI0004F40E61 PREDICTED: colipase isoform X2 n=1 Tax=Pongo 
+abelii TaxID=9601 RepID=UPI0004F40E61
+Length=102
+
+ Score = 47.8 bits (112),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 21/32 (66%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  7   DEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           + GELC+NSAQCKSNCCQH + L L+RC   A
+Sbjct  19  ENGELCMNSAQCKSNCCQHSSALGLARCTSMA  50
+
+
+> UniRef90_A0A087WZW1 Colipase n=3 Tax=Hominoidea TaxID=314295 
+RepID=A0A087WZW1_HUMAN
+Length=98
+
+ Score = 47.8 bits (112),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 21/32 (66%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  7   DEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           + GELC+NSAQCKSNCCQH + L L+RC   A
+Sbjct  15  ENGELCMNSAQCKSNCCQHSSALGLARCTSMA  46
+
+
+> UniRef90_UPI00081462AA UPI00081462AA related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00081462AA
+Length=143
+
+ Score = 47.8 bits (112),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 23/38 (61%), Positives = 27/38 (71%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL  GELCL S QCKS+CC   + + L RCA +A
+Sbjct  55  GIIINLKNGELCLFSVQCKSSCCHRSSGIDLFRCAPRA  92
+
+
+> UniRef90_UPI000803663B UPI000803663B related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000803663B
+Length=136
+
+ Score = 47.4 bits (111),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 23/38 (61%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL+ GELC  S QCKS+CC   + L L+RCA +A
+Sbjct  50  GIIINLNNGELCAISLQCKSSCCHRRSALDLARCAPRA  87
+
+
+> UniRef90_E3TF71 Colipase n=1 Tax=Ictalurus punctatus TaxID=7998 
+RepID=E3TF71_ICTPU
+Length=113
+
+ Score = 47.0 bits (110),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 22/38 (58%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GII NL+ GELC  S QCKS+CC+  + L L+RCA +A
+Sbjct  27  GIITNLNNGELCAVSLQCKSSCCKRKSTLGLARCAPRA  64
+
+
+> UniRef90_A0A096NHQ2 Uncharacterized protein n=3 Tax=Cercopithecinae 
+TaxID=9528 RepID=A0A096NHQ2_PAPAN
+Length=121
+
+ Score = 45.8 bits (107),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 21/33 (64%), Positives = 24/33 (73%), Gaps = 0/33 (0%)
+
+Query  7   DEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           + GELC+NSAQCKS CCQH   L L+RC   AR
+Sbjct  19  ENGELCMNSAQCKSQCCQHTGALDLARCIPLAR  51
+
+
+> UniRef90_UPI00057680E0 PREDICTED: colipase n=1 Tax=Esox lucius 
+TaxID=8010 RepID=UPI00057680E0
+Length=120
+
+ Score = 45.8 bits (107),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 21/35 (60%), Positives = 26/35 (74%), Gaps = 0/35 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCA  35
+           GII+NL  GE+C  S QCKS+CCQ +T  S+ RCA
+Sbjct  28  GIILNLKNGEICAVSMQCKSSCCQRNTGTSIPRCA  62
+
+
+> UniRef90_S7NIW4 Colipase n=4 Tax=Vespertilionidae TaxID=9431 
+RepID=S7NIW4_MYOBR
+Length=112
+
+ Score = 45.8 bits (107),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 22/38 (58%), Positives = 25/38 (66%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GII+NL  G   L  AQCKS CC   + LSL+RCA KA
+Sbjct  23  GIIVNLSSGSAWLREAQCKSKCCHRTSGLSLARCAPKA  60
+
+
+> UniRef90_A0A091ICN8 Colipase (Fragment) n=2 Tax=Calypte anna 
+TaxID=9244 RepID=A0A091ICN8_CALAN
+Length=76
+
+ Score = 45.1 bits (105),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  7   DEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           D GELCL SAQCKS+CC   + LSL+RCA KA
+Sbjct  1   DTGELCLQSAQCKSSCCHRTSGLSLARCAPKA  32
+
+
+> UniRef90_UPI0004F4F622 PREDICTED: colipase n=1 Tax=Pygoscelis 
+adeliae TaxID=9238 RepID=UPI0004F4F622
+Length=119
+
+ Score = 45.4 bits (106),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 22/39 (56%), Positives = 24/39 (62%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           G+I NLD GELCL SAQCKS CC   + LS  R     R
+Sbjct  27  GLIFNLDTGELCLQSAQCKSGCCHRGSGLSPQRYGHVPR  65
+
+
+> UniRef90_UPI0005F3D93C PREDICTED: colipase isoform X1 n=2 Tax=Cercopithecinae 
+TaxID=9528 RepID=UPI0005F3D93C
+Length=115
+
+ Score = 45.1 bits (105),  Expect = 7e-05, Method: Compositional matrix adjust.
+ Identities = 19/29 (66%), Positives = 23/29 (79%), Gaps = 0/29 (0%)
+
+Query  6   LDEGELCLNSAQCKSNCCQHDTILSLSRC  34
+           ++ GELC+NSAQCKS CCQH   L L+RC
+Sbjct  12  MENGELCMNSAQCKSQCCQHTGALDLARC  40
+
+
+> UniRef90_UPI00051EE72B PREDICTED: colipase n=1 Tax=Egretta garzetta 
+TaxID=188379 RepID=UPI00051EE72B
+Length=122
+
+ Score = 45.1 bits (105),  Expect = 8e-05, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  7   DEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           D GELCL SAQC+S CC  D+ LSL+RCA KA
+Sbjct  38  DTGELCLQSAQCQSCCCHRDSGLSLARCAPKA  69
+
+
+> UniRef90_W5MZ84 Uncharacterized protein n=1 Tax=Lepisosteus oculatus 
+TaxID=7918 RepID=W5MZ84_LEPOC
+Length=121
+
+ Score = 44.7 bits (104),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 22/38 (58%), Positives = 26/38 (68%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD  ELC  S QCKS+CC     LSL+RCA +A
+Sbjct  24  GLITNLDNNELCFISMQCKSSCCHRRDGLSLARCAPRA  61
+
+
+> UniRef90_A0A1D5RKG0 Uncharacterized protein n=2 Tax=Cercopithecidae 
+TaxID=9527 RepID=A0A1D5RKG0_MACMU
+Length=94
+
+ Score = 44.3 bits (103),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 21/33 (64%), Positives = 25/33 (76%), Gaps = 1/33 (3%)
+
+Query  3   IINLDE-GELCLNSAQCKSNCCQHDTILSLSRC  34
+           ++ L E GELC+NSAQCKS CCQH   L L+RC
+Sbjct  10  VLGLQENGELCMNSAQCKSQCCQHTGALDLARC  42
+
+
+> UniRef90_UPI0008142E2F UPI0008142E2F related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008142E2F
+Length=137
+
+ Score = 44.3 bits (103),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 21/35 (60%), Positives = 26/35 (74%), Gaps = 0/35 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCA  35
+           GI INL  GELC  S+QCKS+CC   + +SL+RCA
+Sbjct  49  GIFINLANGELCAISSQCKSSCCHRVSAISLARCA  83
+
+
+> UniRef90_A0A093QVS1 Colipase (Fragment) n=1 Tax=Pygoscelis adeliae 
+TaxID=9238 RepID=A0A093QVS1_PYGAD
+Length=86
+
+ Score = 43.9 bits (102),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 20/30 (67%), Positives = 22/30 (73%), Gaps = 0/30 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILS  30
+           G+I NLD GELCL SAQCKS CC   + LS
+Sbjct  19  GLIFNLDTGELCLQSAQCKSGCCHRGSGLS  48
+
+
+> UniRef90_A0A091EEX6 Colipase (Fragment) n=3 Tax=Passeriformes 
+TaxID=9126 RepID=A0A091EEX6_CORBR
+Length=98
+
+ Score = 44.3 bits (103),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 24/39 (62%), Positives = 29/39 (74%), Gaps = 1/39 (3%)
+
+Query  1   GIIINLDEGELCLNSAQCKSN-CCQHDTILSLSRCALKA  38
+           G+I NL+ GELCL SAQCKS+ CC     LSL+RCA +A
+Sbjct  19  GLIFNLEIGELCLQSAQCKSSACCHRVNGLSLARCAPQA  57
+
+
+> UniRef90_UPI0004418DA2 PREDICTED: colipase n=1 Tax=Python bivittatus 
+TaxID=176946 RepID=UPI0004418DA2
+Length=114
+
+ Score = 43.9 bits (102),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 21/38 (55%), Positives = 25/38 (66%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G++ NL  GELCL+S QC S CC     LS +RCA KA
+Sbjct  23  GLVWNLKNGELCLHSQQCNSRCCHRTDGLSFARCADKA  60
+
+
+> UniRef90_H0YTV1 Uncharacterized protein (Fragment) n=2 Tax=Taeniopygia 
+guttata TaxID=59729 RepID=H0YTV1_TAEGU
+Length=80
+
+ Score = 42.7 bits (99),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 20/32 (63%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  7   DEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           D GELC+ S QCKS CC  D  LSL+RCA +A
+Sbjct  1   DIGELCMQSVQCKSGCCHRDRGLSLARCAPRA  32
+
+
+> UniRef90_UPI0003C1547D PREDICTED: colipase n=1 Tax=Latimeria 
+chalumnae TaxID=7897 RepID=UPI0003C1547D
+Length=81
+
+ Score = 41.2 bits (95),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 20/33 (61%), Positives = 21/33 (64%), Gaps = 0/33 (0%)
+
+Query  3   IINLDEGELCLNSAQCKSNCCQHDTILSLSRCA  35
+            INLD GELCL   QCKS CC     L L+RCA
+Sbjct  29  FINLDNGELCLEGIQCKSGCCFRRNGLDLARCA  61
+
+
+> UniRef90_R7VN27 Colipase (Fragment) n=2 Tax=Columba livia TaxID=8932 
+RepID=R7VN27_COLLI
+Length=81
+
+ Score = 41.2 bits (95),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 20/30 (67%), Positives = 22/30 (73%), Gaps = 0/30 (0%)
+
+Query  9   GELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GELCL SAQC+S CC     LSL+RCA KA
+Sbjct  1   GELCLQSAQCESGCCHRQDGLSLARCAPKA  30
+
+
+> UniRef90_UPI000395720B PREDICTED: LOW QUALITY PROTEIN: colipase 
+n=1 Tax=Geospiza fortis TaxID=48883 RepID=UPI000395720B
+Length=115
+
+ Score = 40.8 bits (94),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 17/23 (74%), Positives = 19/23 (83%), Gaps = 0/23 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCC  23
+           G++ NLD GELCL SAQCKS CC
+Sbjct  27  GLVFNLDTGELCLQSAQCKSGCC  49
+
+
+> UniRef90_H9GRD8 Uncharacterized protein n=1 Tax=Anolis carolinensis 
+TaxID=28377 RepID=H9GRD8_ANOCA
+Length=48
+
+ Score = 39.7 bits (91),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 19/32 (59%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  7   DEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           D GELC+ S QCKS CC   + LSL+RC+ KA
+Sbjct  8   DNGELCMQSLQCKSGCCHRTSGLSLARCSDKA  39
+
+
+> UniRef90_UPI00074FC9FF PREDICTED: colipase-like n=1 Tax=Gekko 
+japonicus TaxID=146911 RepID=UPI00074FC9FF
+Length=96
+
+ Score = 39.7 bits (91),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 19/33 (58%), Positives = 23/33 (70%), Gaps = 0/33 (0%)
+
+Query  6   LDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           +D GELCL S QC+S CC     LS++RCA KA
+Sbjct  6   IDNGELCLQSFQCRSKCCHRVNGLSMARCANKA  38
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.135    0.428    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 446731374570
+Results from round 2
+
+
+Query= d1lpba1
+
+Length=39
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_UPI000576B523 PREDICTED: colipase isoform X1 n=2 Tax=B...  80.5    2e-17
+  UniRef90_UPI0002C2E62B PREDICTED: colipase n=1 Tax=Tursiops tru...  77.5    1e-16
+  UniRef90_UPI00084D94AE UPI00084D94AE related cluster n=1 Tax=un...  72.1    7e-15
+  UniRef90_UPI0002BCD374 PREDICTED: colipase isoform X1 n=4 Tax=C...  70.5    3e-14
+  UniRef90_UPI0003F0649D PREDICTED: colipase isoform X1 n=1 Tax=E...  70.5    3e-14
+  UniRef90_M3XXF0 Uncharacterized protein n=4 Tax=Boreoeutheria T...  70.1    3e-14
+  UniRef90_A9JSD6 Colipase n=1 Tax=Xenopus tropicalis TaxID=8364 ...  70.1    4e-14
+  UniRef90_UPI00045D8750 PREDICTED: colipase n=1 Tax=Orycteropus ...  69.8    6e-14
+  UniRef90_S9YJI4 Colipase n=3 Tax=Camelidae TaxID=9835 RepID=S9Y...  69.4    7e-14
+  UniRef90_H0X164 Uncharacterized protein n=3 Tax=Strepsirrhini T...  69.4    7e-14
+  UniRef90_UPI000386F384 PREDICTED: colipase n=2 Tax=Falco TaxID=...  69.4    8e-14
+  UniRef90_UPI0003F14D85 PREDICTED: colipase isoform X1 n=1 Tax=C...  69.4    8e-14
+  UniRef90_UPI00071C5389 PREDICTED: colipase n=1 Tax=Calidris pug...  69.4    1e-13
+  UniRef90_UPI000331924E PREDICTED: colipase n=1 Tax=Sorex araneu...  69.0    1e-13
+  UniRef90_UPI00039456FB PREDICTED: colipase n=1 Tax=Zonotrichia ...  68.6    1e-13
+  UniRef90_UPI0003832688 PREDICTED: colipase n=1 Tax=Melopsittacu...  68.6    2e-13
+  UniRef90_F6X7L4 Uncharacterized protein n=2 Tax=Metatheria TaxI...  68.2    2e-13
+  UniRef90_UPI0006B20054 PREDICTED: colipase isoform X1 n=2 Tax=T...  68.2    3e-13
+  UniRef90_UPI00093FA5EF UPI00093FA5EF related cluster n=2 Tax=un...  67.8    3e-13
+  UniRef90_UPI0004F0D099 PREDICTED: colipase n=1 Tax=Acanthisitta...  67.8    3e-13
+  UniRef90_A0A093S114 Colipase (Fragment) n=3 Tax=Manacus vitelli...  67.5    3e-13
+  UniRef90_P42889 Colipase n=1 Tax=Myocastor coypus TaxID=10157 R...  67.8    3e-13
+  UniRef90_UPI0005D0B62B PREDICTED: colipase n=2 Tax=Accipitrinae...  67.8    4e-13
+  UniRef90_A0JNQ7 Colipase n=7 Tax=Bovidae TaxID=9895 RepID=COL_B...  67.5    4e-13
+  UniRef90_UPI0003346FEB PREDICTED: colipase isoform X1 n=3 Tax=L...  67.5    4e-13
+  UniRef90_L5KYN5 Colipase n=3 Tax=Pteropus TaxID=9401 RepID=L5KY...  67.5    4e-13
+  UniRef90_G1L125 Uncharacterized protein n=3 Tax=Ailuropoda mela...  67.1    5e-13
+  UniRef90_UPI0005325D4C PREDICTED: LOW QUALITY PROTEIN: colipase...  67.5    5e-13
+  UniRef90_P42890 Colipase n=3 Tax=Oryctolagus cuniculus TaxID=99...  67.1    5e-13
+  UniRef90_UPI000203A8C8 PREDICTED: colipase n=1 Tax=Anolis carol...  67.1    6e-13
+  UniRef90_P02703 Colipase n=2 Tax=Sus scrofa TaxID=9823 RepID=CO...  67.1    6e-13
+  UniRef90_G3TP15 Uncharacterized protein n=1 Tax=Loxodonta afric...  67.1    6e-13
+  UniRef90_UPI0002C442FD PREDICTED: colipase isoform X1 n=1 Tax=T...  67.1    6e-13
+  UniRef90_UPI0000E4035C PREDICTED: colipase isoform X1 n=1 Tax=E...  67.1    7e-13
+  UniRef90_UPI0004446E8B PREDICTED: colipase n=1 Tax=Erinaceus eu...  66.7    8e-13
+  UniRef90_UPI00085445E1 UPI00085445E1 related cluster n=1 Tax=un...  66.7    9e-13
+  UniRef90_UPI00063EE30A PREDICTED: colipase isoform X1 n=1 Tax=P...  66.3    1e-12
+  UniRef90_UPI000812D497 UPI000812D497 related cluster n=1 Tax=un...  66.3    1e-12
+  UniRef90_F6SG32 Putative uncharacterized protein n=8 Tax=Cercop...  66.7    1e-12
+  UniRef90_A0A151N8E0 Colipase n=4 Tax=Alligator TaxID=8495 RepID...  66.3    1e-12
+  UniRef90_W5KK00 Uncharacterized protein n=2 Tax=Astyanax mexica...  66.3    1e-12
+  UniRef90_A0A091GCK4 Colipase (Fragment) n=2 Tax=Cuculus canorus...  65.9    1e-12
+  UniRef90_UPI000440A4FD PREDICTED: colipase n=1 Tax=Astyanax mex...  66.3    1e-12
+  UniRef90_A0A093GMX5 Colipase (Fragment) n=2 Tax=Picoides pubesc...  65.9    1e-12
+  UniRef90_UPI00027F7BE4 PREDICTED: colipase isoform X1 n=1 Tax=S...  65.9    2e-12
+  UniRef90_P19090 Colipase n=2 Tax=Carnivora TaxID=33554 RepID=CO...  65.9    2e-12
+  UniRef90_UPI0006525A0F PREDICTED: colipase n=1 Tax=Dipodomys or...  65.9    2e-12
+  UniRef90_UPI00071A5801 PREDICTED: colipase-like n=1 Tax=Sturnus...  65.9    2e-12
+  UniRef90_UPI0006715410 PREDICTED: colipase n=1 Tax=Anser cygnoi...  65.9    2e-12
+  UniRef90_A0A091V378 Colipase (Fragment) n=2 Tax=Nipponia nippon...  65.5    2e-12
+  UniRef90_UPI0003341199 PREDICTED: colipase n=1 Tax=Octodon degu...  65.5    3e-12
+  UniRef90_UPI00038F1819 PREDICTED: colipase n=1 Tax=Chinchilla l...  65.1    3e-12
+  UniRef90_UPI0006360F42 UPI0006360F42 related cluster n=1 Tax=un...  65.1    3e-12
+  UniRef90_UPI00081462AA UPI00081462AA related cluster n=1 Tax=un...  65.5    3e-12
+  UniRef90_A0A087QPW8 Colipase (Fragment) n=2 Tax=Aptenodytes for...  64.4    3e-12
+  UniRef90_K7FFP4 Uncharacterized protein n=2 Tax=Pelodiscus sine...  65.1    4e-12
+  UniRef90_UPI0002C556B0 PREDICTED: colipase isoform X1 n=2 Tax=C...  64.8    4e-12
+  UniRef90_UPI0008DB84E2 UPI0008DB84E2 related cluster n=1 Tax=un...  64.8    5e-12
+  UniRef90_A0A091PQA9 Colipase (Fragment) n=2 Tax=Leptosomus disc...  64.0    5e-12
+  UniRef90_G1MPW1 Uncharacterized protein n=5 Tax=Phasianidae Tax...  64.4    6e-12
+  UniRef90_G5BEW5 Colipase n=2 Tax=Heterocephalus glaber TaxID=10...  64.4    7e-12
+  UniRef90_U3I780 Uncharacterized protein n=3 Tax=Anas platyrhync...  62.8    1e-11
+  UniRef90_W5MZ84 Uncharacterized protein n=1 Tax=Lepisosteus ocu...  63.6    1e-11
+  UniRef90_M7BK03 Colipase n=2 Tax=Durocryptodira TaxID=1579337 R...  63.6    1e-11
+  UniRef90_D5FQ08 Colipase (Fragment) n=1 Tax=Meleagris gallopavo...  63.2    1e-11
+  UniRef90_UPI000775869F UPI000775869F related cluster n=1 Tax=un...  63.2    1e-11
+  UniRef90_UPI000777DCE1 UPI000777DCE1 related cluster n=1 Tax=un...  63.2    2e-11
+  UniRef90_F7HYJ9 Uncharacterized protein n=3 Tax=Platyrrhini Tax...  63.2    2e-11
+  UniRef90_UPI000328C53E PREDICTED: colipase n=1 Tax=Dasypus nove...  62.8    2e-11
+  UniRef90_P04118 Colipase n=6 Tax=Hominoidea TaxID=314295 RepID=...  62.8    2e-11
+  UniRef90_UPI0004ED4F78 PREDICTED: colipase-like n=1 Tax=Nannosp...  63.6    2e-11
+  UniRef90_UPI0001777C96 PREDICTED: colipase n=1 Tax=Ochotona pri...  62.8    2e-11
+  UniRef90_UPI000803663B UPI000803663B related cluster n=1 Tax=un...  62.8    3e-11
+  UniRef90_UPI000333261E PREDICTED: colipase n=1 Tax=Jaculus jacu...  62.4    4e-11
+  UniRef90_UPI0004D0ADED PREDICTED: colipase isoform X1 n=1 Tax=G...  62.1    4e-11
+  UniRef90_A0A091GRY8 Colipase (Fragment) n=2 Tax=Buceros rhinoce...  61.7    4e-11
+  UniRef90_G3HZU4 Colipase n=2 Tax=Cricetinae TaxID=10026 RepID=G...  62.1    5e-11
+  UniRef90_P02705 Colipase B (Fragment) n=4 Tax=Equus caballus Ta...  62.1    5e-11
+  UniRef90_S7NIW4 Colipase n=4 Tax=Vespertilionidae TaxID=9431 Re...  62.1    5e-11
+  UniRef90_A0A091CY25 Colipase n=1 Tax=Fukomys damarensis TaxID=8...  61.7    6e-11
+  UniRef90_U3JLU0 Uncharacterized protein n=2 Tax=Ficedula albico...  61.7    7e-11
+  UniRef90_UPI0008142E2F UPI0008142E2F related cluster n=1 Tax=un...  62.1    7e-11
+  UniRef90_P17084 Colipase n=4 Tax=Murinae TaxID=39107 RepID=COL_RAT  61.3    8e-11
+  UniRef90_UPI0004418DA2 PREDICTED: colipase n=1 Tax=Python bivit...  61.3    1e-10
+  UniRef90_H0VQD7 Uncharacterized protein n=1 Tax=Cavia porcellus...  60.9    1e-10
+  UniRef90_UPI00052A12D1 PREDICTED: colipase n=1 Tax=Colius stria...  60.5    2e-10
+  UniRef90_A0A1A6HZT5 Uncharacterized protein n=3 Tax=Cricetidae ...  60.5    2e-10
+  UniRef90_UPI00071974A7 PREDICTED: colipase n=1 Tax=Ceratotheriu...  60.1    3e-10
+  UniRef90_K4FSK1 Colipase pancreatic n=8 Tax=Callorhinchus milii...  60.1    3e-10
+  UniRef90_UPI0004F4F622 PREDICTED: colipase n=1 Tax=Pygoscelis a...  59.7    4e-10
+  UniRef90_Q91XL7 Colipase n=2 Tax=Marmotini TaxID=337730 RepID=C...  59.0    6e-10
+  UniRef90_A0A091EEX6 Colipase (Fragment) n=3 Tax=Passeriformes T...  58.6    7e-10
+  UniRef90_E3TF71 Colipase n=1 Tax=Ictalurus punctatus TaxID=7998...  57.8    2e-09
+  UniRef90_A0A091ICN8 Colipase (Fragment) n=2 Tax=Calypte anna Ta...  56.3    4e-09
+  UniRef90_UPI00057680E0 PREDICTED: colipase n=1 Tax=Esox lucius ...  56.3    6e-09
+  UniRef90_A0A096NHQ2 Uncharacterized protein n=3 Tax=Cercopithec...  56.3    8e-09
+  UniRef90_UPI00051EE72B PREDICTED: colipase n=1 Tax=Egretta garz...  55.9    9e-09
+  UniRef90_UPI0005F3D93C PREDICTED: colipase isoform X1 n=2 Tax=C...  55.5    2e-08
+  UniRef90_UPI0004549FF9 PREDICTED: colipase isoform X3 n=1 Tax=C...  54.7    2e-08
+  UniRef90_H0YTV1 Uncharacterized protein (Fragment) n=2 Tax=Taen...  54.0    3e-08
+  UniRef90_UPI00053F8271 PREDICTED: colipase isoform X2 n=1 Tax=F...  54.0    4e-08
+  UniRef90_A0A093QVS1 Colipase (Fragment) n=1 Tax=Pygoscelis adel...  53.6    5e-08
+  UniRef90_UPI0003C1547D PREDICTED: colipase n=1 Tax=Latimeria ch...  53.2    7e-08
+  UniRef90_A0A1D5RKG0 Uncharacterized protein n=2 Tax=Cercopithec...  53.2    9e-08
+  UniRef90_R7VN27 Colipase (Fragment) n=2 Tax=Columba livia TaxID...  52.8    9e-08
+  UniRef90_A0A087WZW1 Colipase n=3 Tax=Hominoidea TaxID=314295 Re...  51.7    3e-07
+  UniRef90_UPI0004F40E61 PREDICTED: colipase isoform X2 n=1 Tax=P...  51.3    4e-07
+  UniRef90_P11149 Colipase (Fragment) n=1 Tax=Squalus acanthias T...  50.1    5e-07
+  UniRef90_P11148 Colipase (Fragment) n=1 Tax=Gallus gallus TaxID...  49.0    1e-06
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI00074FC9FF PREDICTED: colipase-like n=1 Tax=Gekko j...  52.4    1e-07
+  UniRef90_H9GRD8 Uncharacterized protein n=1 Tax=Anolis caroline...  50.9    3e-07
+  UniRef90_UPI000523E20B PREDICTED: colipase n=1 Tax=Chaetura pel...  46.3    4e-05
+  UniRef90_UPI0009010FB6 UPI0009010FB6 related cluster n=1 Tax=un...  45.9    4e-05
+  UniRef90_UPI000395720B PREDICTED: LOW QUALITY PROTEIN: colipase...  44.0    2e-04
+  UniRef90_L5M641 Colipase n=1 Tax=Myotis davidii TaxID=225400 Re...  44.0    3e-04
+  UniRef90_UPI0004F03328 PREDICTED: colipase n=1 Tax=Merops nubic...  42.4    6e-04
+  UniRef90_UPI0005356EF8 PREDICTED: LOW QUALITY PROTEIN: colipase...  43.6    0.001
+
+
+> UniRef90_UPI000576B523 PREDICTED: colipase isoform X1 n=2 Tax=Bovinae 
+TaxID=27592 RepID=UPI000576B523
+Length=220
+
+ Score = 80.5 bits (198),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 29/38 (76%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINLDEGELCLNSAQC S CC  +  LSL+RCA KA
+Sbjct  23  GIIINLDEGELCLNSAQCTSKCCHREDGLSLARCAPKA  60
+
+
+> UniRef90_UPI0002C2E62B PREDICTED: colipase n=1 Tax=Tursiops truncatus 
+TaxID=9739 RepID=UPI0002C2E62B
+Length=141
+
+ Score = 77.5 bits (190),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 31/39 (79%), Positives = 34/39 (87%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           GIIINL+EGELCLNSAQC+S CC  DT LSL+RCA KAR
+Sbjct  23  GIIINLEEGELCLNSAQCRSKCCHRDTGLSLARCAPKAR  61
+
+
+> UniRef90_UPI00084D94AE UPI00084D94AE related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00084D94AE
+Length=117
+
+ Score = 72.1 bits (176),  Expect = 7e-15, Method: Composition-based stats.
+ Identities = 27/38 (71%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+IINLD GELCL S QCKS CC  D+ LSL+RCA KA
+Sbjct  28  GLIINLDTGELCLQSLQCKSGCCYRDSGLSLARCAPKA  65
+
+
+> UniRef90_UPI0002BCD374 PREDICTED: colipase isoform X1 n=4 Tax=Cetacea 
+TaxID=9721 RepID=UPI0002BCD374
+Length=112
+
+ Score = 70.5 bits (172),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 31/39 (79%), Positives = 34/39 (87%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           GIIINL+EGELCLNSAQC+S CC  DT LSL+RCA KAR
+Sbjct  23  GIIINLEEGELCLNSAQCRSKCCHRDTGLSLARCAPKAR  61
+
+
+> UniRef90_UPI0003F0649D PREDICTED: colipase isoform X1 n=1 Tax=Elephantulus 
+edwardii TaxID=28737 RepID=UPI0003F0649D
+Length=113
+
+ Score = 70.5 bits (172),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+++NL+EGELCLNS QCKS CC  DT LSL+RC  KA
+Sbjct  24  GLVVNLEEGELCLNSVQCKSKCCHRDTGLSLARCMPKA  61
+
+
+> UniRef90_M3XXF0 Uncharacterized protein n=4 Tax=Boreoeutheria 
+TaxID=1437010 RepID=M3XXF0_MUSPF
+Length=112
+
+ Score = 70.1 bits (171),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 30/38 (79%), Positives = 33/38 (87%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL++GELCLNSAQCKS CC  DT LSL+RCA KA
+Sbjct  23  GIIINLEDGELCLNSAQCKSKCCHRDTGLSLARCAPKA  60
+
+
+> UniRef90_A9JSD6 Colipase n=1 Tax=Xenopus tropicalis TaxID=8364 
+RepID=COL_XENTR
+Length=117
+
+ Score = 70.1 bits (171),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 24/38 (63%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL +AQCKS CC  ++ +SL+RCA KA
+Sbjct  28  GLIFNLDNGELCLQTAQCKSGCCHRNSGVSLARCAPKA  65
+
+
+> UniRef90_UPI00045D8750 PREDICTED: colipase n=1 Tax=Orycteropus 
+afer afer TaxID=1230840 RepID=UPI00045D8750
+Length=113
+
+ Score = 69.8 bits (170),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 28/38 (74%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIII LD+GELCLNS QCKS CC  DT LSL+RC  KA
+Sbjct  24  GIIIQLDDGELCLNSIQCKSKCCHRDTGLSLARCMPKA  61
+
+
+> UniRef90_S9YJI4 Colipase n=3 Tax=Camelidae TaxID=9835 RepID=S9YJI4_CAMFR
+Length=112
+
+ Score = 69.4 bits (169),  Expect = 7e-14, Method: Composition-based stats.
+ Identities = 29/38 (76%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINLD GELCLNS QCKS CC  +T LSL+RCA KA
+Sbjct  23  GIIINLDAGELCLNSVQCKSKCCHRETGLSLARCAPKA  60
+
+
+> UniRef90_H0X164 Uncharacterized protein n=3 Tax=Strepsirrhini 
+TaxID=376911 RepID=H0X164_OTOGA
+Length=112
+
+ Score = 69.4 bits (169),  Expect = 7e-14, Method: Composition-based stats.
+ Identities = 29/38 (76%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIII+LDEGELCLNSAQCKS CC   + LSL+RCA KA
+Sbjct  23  GIIISLDEGELCLNSAQCKSKCCHRTSGLSLARCAPKA  60
+
+
+> UniRef90_UPI000386F384 PREDICTED: colipase n=2 Tax=Falco TaxID=8952 
+RepID=UPI000386F384
+Length=116
+
+ Score = 69.4 bits (169),  Expect = 8e-14, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS CC     LSL+RCA KA
+Sbjct  25  GLIFNLDTGELCLQSAQCKSGCCHRTGGLSLARCAPKA  62
+
+
+> UniRef90_UPI0003F14D85 PREDICTED: colipase isoform X1 n=1 Tax=Chrysochloris 
+asiatica TaxID=185453 RepID=UPI0003F14D85
+Length=113
+
+ Score = 69.4 bits (169),  Expect = 8e-14, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GI INL++GELC+NS QCKS CC  DT LSL+RC  KA
+Sbjct  24  GIFINLEDGELCMNSVQCKSKCCHRDTGLSLARCVPKA  61
+
+
+> UniRef90_UPI00071C5389 PREDICTED: colipase n=1 Tax=Calidris pugnax 
+TaxID=198806 RepID=UPI00071C5389
+Length=135
+
+ Score = 69.4 bits (169),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS CC   + LSL+RCA +A
+Sbjct  27  GLIFNLDTGELCLQSAQCKSGCCHRGSGLSLARCAPRA  64
+
+
+> UniRef90_UPI000331924E PREDICTED: colipase n=1 Tax=Sorex araneus 
+TaxID=42254 RepID=UPI000331924E
+Length=113
+
+ Score = 69.0 bits (168),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 28/38 (74%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GII+NLDEGELC+NSAQCKS CC   + LSL+RCA KA
+Sbjct  23  GIIMNLDEGELCMNSAQCKSKCCHRTSGLSLARCAPKA  60
+
+
+> UniRef90_UPI00039456FB PREDICTED: colipase n=1 Tax=Zonotrichia 
+albicollis TaxID=44394 RepID=UPI00039456FB
+Length=116
+
+ Score = 68.6 bits (167),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS CC     LSL+RCA KA
+Sbjct  27  GLIFNLDTGELCLQSAQCKSGCCHRTDGLSLARCAPKA  64
+
+
+> UniRef90_UPI0003832688 PREDICTED: colipase n=1 Tax=Melopsittacus 
+undulatus TaxID=13146 RepID=UPI0003832688
+Length=118
+
+ Score = 68.6 bits (167),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G++ NLD GELCL SAQCKS+CC  D+ LSL+RCA KA
+Sbjct  27  GLVFNLDTGELCLQSAQCKSHCCHRDSGLSLARCAPKA  64
+
+
+> UniRef90_F6X7L4 Uncharacterized protein n=2 Tax=Metatheria TaxID=9263 
+RepID=F6X7L4_MONDO
+Length=112
+
+ Score = 68.2 bits (166),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+II+LD GELC+NS QCKS CC   + LSL+RCA KA
+Sbjct  23  GLIIHLDNGELCVNSLQCKSKCCHRTSGLSLARCADKA  60
+
+
+> UniRef90_UPI0006B20054 PREDICTED: colipase isoform X1 n=2 Tax=Thamnophis 
+sirtalis TaxID=35019 RepID=UPI0006B20054
+Length=123
+
+ Score = 68.2 bits (166),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+ INL+ GELCLNS QCKS+CC   T LSL+RCA KA
+Sbjct  23  GLFINLENGELCLNSHQCKSHCCHRTTGLSLARCANKA  60
+
+
+> UniRef90_UPI00093FA5EF UPI00093FA5EF related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI00093FA5EF
+Length=112
+
+ Score = 67.8 bits (165),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 27/38 (71%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIII+L++GELCLNSAQCKS CC   + LSL+RCA KA
+Sbjct  23  GIIISLEDGELCLNSAQCKSKCCHRTSGLSLARCAPKA  60
+
+
+> UniRef90_UPI0004F0D099 PREDICTED: colipase n=1 Tax=Acanthisitta 
+chloris TaxID=57068 RepID=UPI0004F0D099
+Length=116
+
+ Score = 67.8 bits (165),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NL+ GELCL SAQCKS CC   + LSL+RCA KA
+Sbjct  27  GLIFNLEIGELCLQSAQCKSGCCHRVSGLSLARCAPKA  64
+
+
+> UniRef90_A0A093S114 Colipase (Fragment) n=3 Tax=Manacus vitellinus 
+TaxID=328815 RepID=A0A093S114_9PASS
+Length=97
+
+ Score = 67.5 bits (164),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NL+ GELCL SAQCKS CC  D+ LS++RCA KA
+Sbjct  19  GLIFNLEIGELCLQSAQCKSGCCHRDSGLSMARCAPKA  56
+
+
+> UniRef90_P42889 Colipase n=1 Tax=Myocastor coypus TaxID=10157 
+RepID=COL_MYOCO
+Length=111
+
+ Score = 67.8 bits (165),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 31/39 (79%), Positives = 34/39 (87%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           G+IINLD GELCLNSAQCKS CCQHD+ L L+RCA KAR
+Sbjct  23  GLIINLDNGELCLNSAQCKSQCCQHDSPLGLARCADKAR  61
+
+
+> UniRef90_UPI0005D0B62B PREDICTED: colipase n=2 Tax=Accipitrinae 
+TaxID=8955 RepID=UPI0005D0B62B
+Length=118
+
+ Score = 67.8 bits (165),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS CC   + LSL+RCA KA
+Sbjct  27  GLIFNLDTGELCLQSAQCKSGCCHRHSGLSLARCAPKA  64
+
+
+> UniRef90_A0JNQ7 Colipase n=7 Tax=Bovidae TaxID=9895 RepID=COL_BOVIN
+Length=112
+
+ Score = 67.5 bits (164),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 29/38 (76%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINLDEGELCLNSAQC S CC  +  LSL+RCA KA
+Sbjct  23  GIIINLDEGELCLNSAQCTSKCCHREDGLSLARCAPKA  60
+
+
+> UniRef90_UPI0003346FEB PREDICTED: colipase isoform X1 n=3 Tax=Laurasiatheria 
+TaxID=314145 RepID=UPI0003346FEB
+Length=114
+
+ Score = 67.5 bits (164),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 28/37 (76%), Positives = 31/37 (84%), Gaps = 0/37 (0%)
+
+Query  2   IIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           II+NL+EGELCLNS QCKS CC  DT LSL+RCA KA
+Sbjct  25  IIVNLEEGELCLNSMQCKSRCCHRDTGLSLARCAPKA  61
+
+
+> UniRef90_L5KYN5 Colipase n=3 Tax=Pteropus TaxID=9401 RepID=L5KYN5_PTEAL
+Length=110
+
+ Score = 67.5 bits (164),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 28/38 (74%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINLDEGELCLNS QCKS CC   + LSL+RCA +A
+Sbjct  23  GIIINLDEGELCLNSIQCKSRCCHRTSGLSLARCAPEA  60
+
+
+> UniRef90_G1L125 Uncharacterized protein n=3 Tax=Ailuropoda melanoleuca 
+TaxID=9646 RepID=G1L125_AILME
+Length=99
+
+ Score = 67.1 bits (163),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 32/39 (82%), Positives = 36/39 (92%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           GIIINL++GELCLNSAQCKS+CCQ DT LSL+RCA KAR
+Sbjct  23  GIIINLEDGELCLNSAQCKSSCCQRDTGLSLARCASKAR  61
+
+
+> UniRef90_UPI0005325D4C PREDICTED: LOW QUALITY PROTEIN: colipase-like 
+n=1 Tax=Balearica regulorum gibbericeps TaxID=100784 
+RepID=UPI0005325D4C
+Length=117
+
+ Score = 67.5 bits (164),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 27/38 (71%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCK  CC  D  LSL+RC  KA
+Sbjct  27  GLIFNLDTGELCLQSAQCKDGCCHRDGGLSLARCVPKA  64
+
+
+> UniRef90_P42890 Colipase n=3 Tax=Oryctolagus cuniculus TaxID=9986 
+RepID=COL_RABIT
+Length=107
+
+ Score = 67.1 bits (163),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 29/38 (76%), Positives = 33/38 (87%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GI+INL+EGELCLNSAQCKS CC H + LSL+RCA KA
+Sbjct  23  GIVINLEEGELCLNSAQCKSGCCHHSSALSLARCAPKA  60
+
+
+> UniRef90_UPI000203A8C8 PREDICTED: colipase n=1 Tax=Anolis carolinensis 
+TaxID=28377 RepID=UPI000203A8C8
+Length=111
+
+ Score = 67.1 bits (163),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 23/38 (61%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELC+ S QCKS CC   + LSL+RC+ KA
+Sbjct  23  GLIFNLDNGELCMQSLQCKSGCCHRTSGLSLARCSDKA  60
+
+
+> UniRef90_P02703 Colipase n=2 Tax=Sus scrofa TaxID=9823 RepID=COL_PIG
+Length=112
+
+ Score = 67.1 bits (163),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 39/39 (100%), Positives = 39/39 (100%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR
+Sbjct  23  GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  61
+
+
+> UniRef90_G3TP15 Uncharacterized protein n=1 Tax=Loxodonta africana 
+TaxID=9785 RepID=G3TP15_LOXAF
+Length=113
+
+ Score = 67.1 bits (163),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 29/39 (74%), Positives = 32/39 (82%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           GIIINL+ GELC+NS QCKS CC HD+ LSLSRC  KAR
+Sbjct  24  GIIINLENGELCVNSYQCKSQCCHHDSALSLSRCTAKAR  62
+
+
+> UniRef90_UPI0002C442FD PREDICTED: colipase isoform X1 n=1 Tax=Trichechus 
+manatus latirostris TaxID=127582 RepID=UPI0002C442FD
+Length=112
+
+ Score = 67.1 bits (163),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 27/38 (71%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIII+L++GELCLNS QCKS CC H T LSL+RCA K+
+Sbjct  24  GIIISLEDGELCLNSYQCKSRCCHHSTGLSLARCAPKS  61
+
+
+> UniRef90_UPI0000E4035C PREDICTED: colipase isoform X1 n=1 Tax=Echinops 
+telfairi TaxID=9371 RepID=UPI0000E4035C
+Length=114
+
+ Score = 67.1 bits (163),  Expect = 7e-13, Method: Composition-based stats.
+ Identities = 29/38 (76%), Positives = 33/38 (87%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GI INL+EGELCLNSAQCKS CC HD++LSL+RC  KA
+Sbjct  25  GIFINLEEGELCLNSAQCKSRCCHHDSVLSLARCMPKA  62
+
+
+> UniRef90_UPI0004446E8B PREDICTED: colipase n=1 Tax=Erinaceus 
+europaeus TaxID=9365 RepID=UPI0004446E8B
+Length=114
+
+ Score = 66.7 bits (162),  Expect = 8e-13, Method: Composition-based stats.
+ Identities = 28/38 (74%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GI INLDEGELCLNSAQCKS+CC   T +SL+RCA K+
+Sbjct  24  GIFINLDEGELCLNSAQCKSHCCHRPTGMSLARCAPKS  61
+
+
+> UniRef90_UPI00085445E1 UPI00085445E1 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00085445E1
+Length=109
+
+ Score = 66.7 bits (162),  Expect = 9e-13, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+IINLD GELCL S QCKSNCC     LSL+RCA  A
+Sbjct  22  GLIINLDTGELCLQSIQCKSNCCHRKDGLSLARCAPLA  59
+
+
+> UniRef90_UPI00063EE30A PREDICTED: colipase isoform X1 n=1 Tax=Propithecus 
+coquereli TaxID=379532 RepID=UPI00063EE30A
+Length=112
+
+ Score = 66.3 bits (161),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 27/38 (71%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G++INLD+GELCLNS QCKSNCC   + LSL+RCA KA
+Sbjct  23  GLLINLDQGELCLNSIQCKSNCCHRTSGLSLARCAYKA  60
+
+
+> UniRef90_UPI000812D497 UPI000812D497 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000812D497
+Length=116
+
+ Score = 66.3 bits (161),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+II LDEGELCLNS QCKS CC  ++ LSL+RCA +A
+Sbjct  23  GLIILLDEGELCLNSVQCKSRCCHRESGLSLARCAPEA  60
+
+
+> UniRef90_F6SG32 Putative uncharacterized protein n=8 Tax=Cercopithecidae 
+TaxID=9527 RepID=F6SG32_MACMU
+Length=131
+
+ Score = 66.7 bits (162),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL+ GELC+NSAQCKS CCQH   L L+RC   A
+Sbjct  23  GIIINLENGELCMNSAQCKSQCCQHTGALDLARCIPLA  60
+
+
+> UniRef90_A0A151N8E0 Colipase n=4 Tax=Alligator TaxID=8495 RepID=A0A151N8E0_ALLMI
+Length=112
+
+ Score = 66.3 bits (161),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKSNCC   + LSL+RC  KA
+Sbjct  23  GLIFNLDNGELCLQSAQCKSNCCHRTSGLSLARCTNKA  60
+
+
+> UniRef90_W5KK00 Uncharacterized protein n=2 Tax=Astyanax mexicanus 
+TaxID=7994 RepID=W5KK00_ASTMX
+Length=117
+
+ Score = 66.3 bits (161),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 24/38 (63%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL+ GELC  S QCKS+CC     LSL+RCA +A
+Sbjct  29  GIIINLNNGELCAISGQCKSSCCHRPDALSLARCAPRA  66
+
+
+> UniRef90_A0A091GCK4 Colipase (Fragment) n=2 Tax=Cuculus canorus 
+TaxID=55661 RepID=A0A091GCK4_9AVES
+Length=99
+
+ Score = 65.9 bits (160),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 24/38 (63%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELC+ SAQCKS CC  +  LS++RCA KA
+Sbjct  21  GLIFNLDTGELCMQSAQCKSGCCHRNGGLSMARCAPKA  58
+
+
+> UniRef90_UPI000440A4FD PREDICTED: colipase n=1 Tax=Astyanax mexicanus 
+TaxID=7994 RepID=UPI000440A4FD
+Length=128
+
+ Score = 66.3 bits (161),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL  GELCL S QCKS+CC   + LSL+RCA +A
+Sbjct  40  GIIINLKNGELCLFSVQCKSSCCHRPSGLSLARCAPRA  77
+
+
+> UniRef90_A0A093GMX5 Colipase (Fragment) n=2 Tax=Picoides pubescens 
+TaxID=118200 RepID=A0A093GMX5_PICPB
+Length=97
+
+ Score = 65.9 bits (160),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS CC   + LSL+RCA KA
+Sbjct  19  GLIFNLDVGELCLQSAQCKSGCCHRSSGLSLARCAPKA  56
+
+
+> UniRef90_UPI00027F7BE4 PREDICTED: colipase isoform X1 n=1 Tax=Saimiri 
+boliviensis boliviensis TaxID=39432 RepID=UPI00027F7BE4
+Length=112
+
+ Score = 65.9 bits (160),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 27/38 (71%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL+EGELC+NSAQCKS CC H + L L+RCA  A
+Sbjct  23  GIIINLEEGELCMNSAQCKSKCCHHSSALGLARCAPLA  60
+
+
+> UniRef90_P19090 Colipase n=2 Tax=Carnivora TaxID=33554 RepID=COL_CANLF
+Length=112
+
+ Score = 65.9 bits (160),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 27/38 (71%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIII+L++GELCLNS QCKS CC   T LSL+RCA KA
+Sbjct  23  GIIIHLEDGELCLNSVQCKSKCCHRATGLSLARCAPKA  60
+
+
+> UniRef90_UPI0006525A0F PREDICTED: colipase n=1 Tax=Dipodomys 
+ordii TaxID=10020 RepID=UPI0006525A0F
+Length=113
+
+ Score = 65.9 bits (160),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 32/39 (82%), Positives = 35/39 (90%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           GIIINLDEGELCLNSAQCKS CCQH+T+L L+RC  KAR
+Sbjct  24  GIIINLDEGELCLNSAQCKSGCCQHNTVLGLARCTQKAR  62
+
+
+> UniRef90_UPI00071A5801 PREDICTED: colipase-like n=1 Tax=Sturnus 
+vulgaris TaxID=9172 RepID=UPI00071A5801
+Length=118
+
+ Score = 65.9 bits (160),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 24/38 (63%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NL+ GELC+ SAQCKS CC   + LSL+RCA KA
+Sbjct  27  GLIFNLEIGELCMQSAQCKSGCCHRTSGLSLARCASKA  64
+
+
+> UniRef90_UPI0006715410 PREDICTED: colipase n=1 Tax=Anser cygnoides 
+domesticus TaxID=381198 RepID=UPI0006715410
+Length=118
+
+ Score = 65.9 bits (160),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS CCQH++ L+L+RC  KA
+Sbjct  27  GLIFNLDTGELCLQSAQCKSGCCQHNSGLNLARCVPKA  64
+
+
+> UniRef90_A0A091V378 Colipase (Fragment) n=2 Tax=Nipponia nippon 
+TaxID=128390 RepID=A0A091V378_NIPNI
+Length=99
+
+ Score = 65.5 bits (159),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS CC   + LSL+RCA KA
+Sbjct  21  GLIFNLDTGELCLQSAQCKSGCCYRGSGLSLARCAPKA  58
+
+
+> UniRef90_UPI0003341199 PREDICTED: colipase n=1 Tax=Octodon degus 
+TaxID=10160 RepID=UPI0003341199
+Length=111
+
+ Score = 65.5 bits (159),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 29/38 (76%), Positives = 33/38 (87%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GII+NLD GELC+NSAQCKS CCQHD  L+L+RCA KA
+Sbjct  23  GIIVNLDNGELCMNSAQCKSKCCQHDNPLALARCADKA  60
+
+
+> UniRef90_UPI00038F1819 PREDICTED: colipase n=1 Tax=Chinchilla 
+lanigera TaxID=34839 RepID=UPI00038F1819
+Length=111
+
+ Score = 65.1 bits (158),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 29/39 (74%), Positives = 34/39 (87%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           GIIINL++GELC+NS QCKS CCQHD+ LSL+RC  KAR
+Sbjct  23  GIIINLEDGELCVNSGQCKSKCCQHDSPLSLARCVQKAR  61
+
+
+> UniRef90_UPI0006360F42 UPI0006360F42 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0006360F42
+Length=115
+
+ Score = 65.1 bits (158),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 23/38 (61%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+IINLD GELC+ S QCKS+CC     LSL+RCA ++
+Sbjct  24  GLIINLDNGELCVVSMQCKSSCCHRQDGLSLARCAPRS  61
+
+
+> UniRef90_UPI00081462AA UPI00081462AA related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00081462AA
+Length=143
+
+ Score = 65.5 bits (159),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 23/38 (61%), Positives = 27/38 (71%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL  GELCL S QCKS+CC   + + L RCA +A
+Sbjct  55  GIIINLKNGELCLFSVQCKSSCCHRSSGIDLFRCAPRA  92
+
+
+> UniRef90_A0A087QPW8 Colipase (Fragment) n=2 Tax=Aptenodytes forsteri 
+TaxID=9233 RepID=A0A087QPW8_APTFO
+Length=81
+
+ Score = 64.4 bits (156),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS CC   + LSL+RCA KA
+Sbjct  19  GLIFNLDTGELCLQSAQCKSGCCHRGSGLSLARCAPKA  56
+
+
+> UniRef90_K7FFP4 Uncharacterized protein n=2 Tax=Pelodiscus sinensis 
+TaxID=13735 RepID=K7FFP4_PELSI
+Length=109
+
+ Score = 65.1 bits (158),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS+CC   + LSL+RCA +A
+Sbjct  20  GLIFNLDNGELCLQSAQCKSSCCHRTSGLSLARCANQA  57
+
+
+> UniRef90_UPI0002C556B0 PREDICTED: colipase isoform X1 n=2 Tax=Caniformia 
+TaxID=379584 RepID=UPI0002C556B0
+Length=112
+
+ Score = 64.8 bits (157),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 30/38 (79%), Positives = 34/38 (89%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL+ GELC NSAQCKS CC+HDT+LSL+RCA KA
+Sbjct  23  GIIINLENGELCANSAQCKSKCCRHDTLLSLARCAPKA  60
+
+
+> UniRef90_UPI0008DB84E2 UPI0008DB84E2 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008DB84E2
+Length=117
+
+ Score = 64.8 bits (157),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 27/38 (71%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I+NLD GELCL S QCKS CC HD IL L+RCA KA
+Sbjct  31  GLIMNLDTGELCLQSVQCKSGCCHHDHILGLTRCAPKA  68
+
+
+> UniRef90_A0A091PQA9 Colipase (Fragment) n=2 Tax=Leptosomus discolor 
+TaxID=188344 RepID=A0A091PQA9_LEPDC
+Length=80
+
+ Score = 64.0 bits (155),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL S QCKS CC   + LSL+RCA KA
+Sbjct  19  GLIFNLDTGELCLQSTQCKSGCCHRTSGLSLARCAPKA  56
+
+
+> UniRef90_G1MPW1 Uncharacterized protein n=5 Tax=Phasianidae TaxID=9005 
+RepID=G1MPW1_MELGA
+Length=114
+
+ Score = 64.4 bits (156),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 27/38 (71%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELC+ SAQCKS CCQ D+ LSL+RC+LKA
+Sbjct  25  GLIFNLDTGELCVQSAQCKSGCCQRDSGLSLARCSLKA  62
+
+
+> UniRef90_G5BEW5 Colipase n=2 Tax=Heterocephalus glaber TaxID=10181 
+RepID=G5BEW5_HETGA
+Length=111
+
+ Score = 64.4 bits (156),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 29/38 (76%), Positives = 35/38 (92%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+IINL++GELCLNSAQCKS CCQHD++LSL+RC  KA
+Sbjct  23  GLIINLEDGELCLNSAQCKSKCCQHDSLLSLARCTHKA  60
+
+
+> UniRef90_U3I780 Uncharacterized protein n=3 Tax=Anas platyrhynchos 
+TaxID=8839 RepID=U3I780_ANAPL
+Length=67
+
+ Score = 62.8 bits (152),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 27/38 (71%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS CCQ D+ LSL+RC  KA
+Sbjct  21  GLIFNLDTGELCLQSAQCKSGCCQRDSGLSLARCVPKA  58
+
+
+> UniRef90_W5MZ84 Uncharacterized protein n=1 Tax=Lepisosteus oculatus 
+TaxID=7918 RepID=W5MZ84_LEPOC
+Length=121
+
+ Score = 63.6 bits (154),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 22/38 (58%), Positives = 26/38 (68%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD  ELC  S QCKS+CC     LSL+RCA +A
+Sbjct  24  GLITNLDNNELCFISMQCKSSCCHRRDGLSLARCAPRA  61
+
+
+> UniRef90_M7BK03 Colipase n=2 Tax=Durocryptodira TaxID=1579337 
+RepID=M7BK03_CHEMY
+Length=113
+
+ Score = 63.6 bits (154),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS+CC    +LSL+RCA +A
+Sbjct  24  GLIFNLDNGELCLQSAQCKSSCCHRTDMLSLARCANRA  61
+
+
+> UniRef90_D5FQ08 Colipase (Fragment) n=1 Tax=Meleagris gallopavo 
+TaxID=9103 RepID=D5FQ08_MELGA
+Length=91
+
+ Score = 63.2 bits (153),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 27/38 (71%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELC+ SAQCKS CCQ D+ LSL+RC+LKA
+Sbjct  1   GLIFNLDTGELCVQSAQCKSGCCQRDSGLSLARCSLKA  38
+
+
+> UniRef90_UPI000775869F UPI000775869F related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000775869F
+Length=107
+
+ Score = 63.2 bits (153),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+ +NLD GELCL S QCKS CC   T LSL+RCA KA
+Sbjct  23  GLNLNLDNGELCLQSIQCKSRCCHRKTGLSLARCADKA  60
+
+
+> UniRef90_UPI000777DCE1 UPI000777DCE1 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000777DCE1
+Length=115
+
+ Score = 63.2 bits (153),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 27/38 (71%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELC+ SAQCKS CCQ DT LSL+RC+ KA
+Sbjct  25  GLIFNLDIGELCVQSAQCKSGCCQRDTGLSLARCSQKA  62
+
+
+> UniRef90_F7HYJ9 Uncharacterized protein n=3 Tax=Platyrrhini TaxID=9479 
+RepID=F7HYJ9_CALJA
+Length=112
+
+ Score = 63.2 bits (153),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G++I+L+EGELCLNSAQCKS CC H + LSL+RCA  A
+Sbjct  23  GLVIHLEEGELCLNSAQCKSKCCHHTSALSLARCAPLA  60
+
+
+> UniRef90_UPI000328C53E PREDICTED: colipase n=1 Tax=Dasypus novemcinctus 
+TaxID=9361 RepID=UPI000328C53E
+Length=112
+
+ Score = 62.8 bits (152),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GII+ L+EGELCLNS QCKS CC   + LSL+RC  KA
+Sbjct  23  GIILGLEEGELCLNSYQCKSRCCHRSSGLSLARCMPKA  60
+
+
+> UniRef90_P04118 Colipase n=6 Tax=Hominoidea TaxID=314295 RepID=COL_HUMAN
+Length=112
+
+ Score = 62.8 bits (152),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 27/38 (71%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL+ GELC+NSAQCKSNCCQH + L L+RC   A
+Sbjct  23  GIIINLENGELCMNSAQCKSNCCQHSSALGLARCTSMA  60
+
+
+> UniRef90_UPI0004ED4F78 PREDICTED: colipase-like n=1 Tax=Nannospalax 
+galili TaxID=1026970 RepID=UPI0004ED4F78
+Length=155
+
+ Score = 63.6 bits (154),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 27/39 (69%), Positives = 34/39 (87%), Gaps = 0/39 (0%)
+
+Query  1    GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+            GI+INL++GE+CLNSAQCKS CCQH+TIL + RC  K+R
+Sbjct  66   GIVINLEDGEICLNSAQCKSGCCQHNTILGILRCTAKSR  104
+
+
+> UniRef90_UPI0001777C96 PREDICTED: colipase n=1 Tax=Ochotona princeps 
+TaxID=9978 RepID=UPI0001777C96
+Length=106
+
+ Score = 62.8 bits (152),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 29/38 (76%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL+ GELCLNSAQCKS CCQH + LSL+RC  KA
+Sbjct  22  GIIINLENGELCLNSAQCKSGCCQHSSALSLARCEDKA  59
+
+
+> UniRef90_UPI000803663B UPI000803663B related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000803663B
+Length=136
+
+ Score = 62.8 bits (152),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 23/38 (61%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL+ GELC  S QCKS+CC   + L L+RCA +A
+Sbjct  50  GIIINLNNGELCAISLQCKSSCCHRRSALDLARCAPRA  87
+
+
+> UniRef90_UPI000333261E PREDICTED: colipase n=1 Tax=Jaculus jaculus 
+TaxID=51337 RepID=UPI000333261E
+Length=115
+
+ Score = 62.4 bits (151),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 26/39 (67%), Positives = 35/39 (90%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           G+I+NL++GE+C+NSAQCKS+CCQH TIL ++RC  KAR
+Sbjct  23  GLIVNLEDGEICMNSAQCKSSCCQHSTILGVARCTYKAR  61
+
+
+> UniRef90_UPI0004D0ADED PREDICTED: colipase isoform X1 n=1 Tax=Galeopterus 
+variegatus TaxID=482537 RepID=UPI0004D0ADED
+Length=112
+
+ Score = 62.1 bits (150),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 23/39 (59%), Positives = 31/39 (79%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           G++INL+EGE+CLN  QCKS CCQH + +S++RCA   R
+Sbjct  23  GLVINLEEGEICLNKIQCKSGCCQHTSAISVARCAPMVR  61
+
+
+> UniRef90_A0A091GRY8 Colipase (Fragment) n=2 Tax=Buceros rhinoceros 
+silvestris TaxID=175836 RepID=A0A091GRY8_BUCRH
+Length=82
+
+ Score = 61.7 bits (149),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 22/38 (58%), Positives = 27/38 (71%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I+NLD GELC+ S QCKS CC     LS++RC  KA
+Sbjct  20  GLILNLDTGELCMQSFQCKSGCCHRTGGLSMARCRPKA  57
+
+
+> UniRef90_G3HZU4 Colipase n=2 Tax=Cricetinae TaxID=10026 RepID=G3HZU4_CRIGR
+Length=113
+
+ Score = 62.1 bits (150),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 24/38 (63%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+ +NLD+GE+C+NS QCKS CCQHDTIL ++RC  +A
+Sbjct  24  GLFVNLDDGEICMNSMQCKSKCCQHDTILGIARCTHQA  61
+
+
+> UniRef90_P02705 Colipase B (Fragment) n=4 Tax=Equus caballus 
+TaxID=9796 RepID=COLB_HORSE
+Length=108
+
+ Score = 62.1 bits (150),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+IINL+ GE+C+NSAQCKS CC  ++ LSL+RCA KA
+Sbjct  19  GVIINLEAGEICMNSAQCKSECCHRESSLSLARCAAKA  56
+
+
+> UniRef90_S7NIW4 Colipase n=4 Tax=Vespertilionidae TaxID=9431 
+RepID=S7NIW4_MYOBR
+Length=112
+
+ Score = 62.1 bits (150),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 22/38 (58%), Positives = 25/38 (66%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GII+NL  G   L  AQCKS CC   + LSL+RCA KA
+Sbjct  23  GIIVNLSSGSAWLREAQCKSKCCHRTSGLSLARCAPKA  60
+
+
+> UniRef90_A0A091CY25 Colipase n=1 Tax=Fukomys damarensis TaxID=885580 
+RepID=A0A091CY25_FUKDA
+Length=110
+
+ Score = 61.7 bits (149),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G +INL++GELCLNS QCKS CCQHD+ L L+RC  KA
+Sbjct  22  GFVINLEDGELCLNSIQCKSKCCQHDSALGLARCIHKA  59
+
+
+> UniRef90_U3JLU0 Uncharacterized protein n=2 Tax=Ficedula albicollis 
+TaxID=59894 RepID=U3JLU0_FICAL
+Length=116
+
+ Score = 61.7 bits (149),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 24/38 (63%), Positives = 27/38 (71%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G++INL+ GELCL S QCKS CC     LSL RCA KA
+Sbjct  27  GLVINLEIGELCLQSIQCKSGCCHRANGLSLPRCAAKA  64
+
+
+> UniRef90_UPI0008142E2F UPI0008142E2F related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008142E2F
+Length=137
+
+ Score = 62.1 bits (150),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 22/38 (58%), Positives = 27/38 (71%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GI INL  GELC  S+QCKS+CC   + +SL+RCA  A
+Sbjct  49  GIFINLANGELCAISSQCKSSCCHRVSAISLARCAPLA  86
+
+
+> UniRef90_P17084 Colipase n=4 Tax=Murinae TaxID=39107 RepID=COL_RAT
+Length=112
+
+ Score = 61.3 bits (148),  Expect = 8e-11, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+ INL++GE+C+NS QCKS CCQHDTIL ++RC  KA
+Sbjct  23  GLFINLEDGEICVNSMQCKSRCCQHDTILGIARCTHKA  60
+
+
+> UniRef90_UPI0004418DA2 PREDICTED: colipase n=1 Tax=Python bivittatus 
+TaxID=176946 RepID=UPI0004418DA2
+Length=114
+
+ Score = 61.3 bits (148),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 21/38 (55%), Positives = 25/38 (66%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G++ NL  GELCL+S QC S CC     LS +RCA KA
+Sbjct  23  GLVWNLKNGELCLHSQQCNSRCCHRTDGLSFARCADKA  60
+
+
+> UniRef90_H0VQD7 Uncharacterized protein n=1 Tax=Cavia porcellus 
+TaxID=10141 RepID=H0VQD7_CAVPO
+Length=111
+
+ Score = 60.9 bits (147),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+  NLD+GELCLNS QCKS CCQ DT+L+L+RC  KA
+Sbjct  23  GLFFNLDDGELCLNSGQCKSQCCQQDTLLALARCTRKA  60
+
+
+> UniRef90_UPI00052A12D1 PREDICTED: colipase n=1 Tax=Colius striatus 
+TaxID=57412 RepID=UPI00052A12D1
+Length=118
+
+ Score = 60.5 bits (146),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I+NLD GELCL S QCKS CC+H+ +LSL+RC  KA
+Sbjct  27  GLIVNLDTGELCLKSFQCKSGCCRHEGLLSLARCTPKA  64
+
+
+> UniRef90_A0A1A6HZT5 Uncharacterized protein n=3 Tax=Cricetidae 
+TaxID=337677 RepID=A0A1A6HZT5_NEOLE
+Length=113
+
+ Score = 60.5 bits (146),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 25/39 (64%), Positives = 32/39 (82%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           G+  NLD+GE+C+NS QC+S CCQHDTIL ++RC  KAR
+Sbjct  24  GLFTNLDDGEICVNSLQCQSKCCQHDTILGIARCTHKAR  62
+
+
+> UniRef90_UPI00071974A7 PREDICTED: colipase n=1 Tax=Ceratotherium 
+simum simum TaxID=73337 RepID=UPI00071974A7
+Length=107
+
+ Score = 60.1 bits (145),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G IINL+ GELCLNSAQCKS CCQ  +  SL+RCA +A
+Sbjct  23  GTIINLEAGELCLNSAQCKSECCQRTSGTSLARCAARA  60
+
+
+> UniRef90_K4FSK1 Colipase pancreatic n=8 Tax=Callorhinchus milii 
+TaxID=7868 RepID=K4FSK1_CALMI
+Length=130
+
+ Score = 60.1 bits (145),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 25/37 (68%), Positives = 29/37 (78%), Gaps = 0/37 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALK  37
+           G+ +NLD GELC+ S QCKS+CCQ DT LSLSRC  K
+Sbjct  34  GLFLNLDNGELCIGSFQCKSDCCQRDTALSLSRCFSK  70
+
+
+> UniRef90_UPI0004F4F622 PREDICTED: colipase n=1 Tax=Pygoscelis 
+adeliae TaxID=9238 RepID=UPI0004F4F622
+Length=119
+
+ Score = 59.7 bits (144),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 22/39 (56%), Positives = 24/39 (62%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           G+I NLD GELCL SAQCKS CC   + LS  R     R
+Sbjct  27  GLIFNLDTGELCLQSAQCKSGCCHRGSGLSPQRYGHVPR  65
+
+
+> UniRef90_Q91XL7 Colipase n=2 Tax=Marmotini TaxID=337730 RepID=COL_ICTTR
+Length=111
+
+ Score = 59.0 bits (142),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 24/38 (63%), Positives = 33/38 (87%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GI+INL++GE+C+NSAQCKS+CCQH + L ++RC  KA
+Sbjct  22  GILINLEDGEICMNSAQCKSSCCQHFSPLGVARCTRKA  59
+
+
+> UniRef90_A0A091EEX6 Colipase (Fragment) n=3 Tax=Passeriformes 
+TaxID=9126 RepID=A0A091EEX6_CORBR
+Length=98
+
+ Score = 58.6 bits (141),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 24/39 (62%), Positives = 29/39 (74%), Gaps = 1/39 (3%)
+
+Query  1   GIIINLDEGELCLNSAQCKSN-CCQHDTILSLSRCALKA  38
+           G+I NL+ GELCL SAQCKS+ CC     LSL+RCA +A
+Sbjct  19  GLIFNLEIGELCLQSAQCKSSACCHRVNGLSLARCAPQA  57
+
+
+> UniRef90_E3TF71 Colipase n=1 Tax=Ictalurus punctatus TaxID=7998 
+RepID=E3TF71_ICTPU
+Length=113
+
+ Score = 57.8 bits (139),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 22/38 (58%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GII NL+ GELC  S QCKS+CC+  + L L+RCA +A
+Sbjct  27  GIITNLNNGELCAVSLQCKSSCCKRKSTLGLARCAPRA  64
+
+
+> UniRef90_A0A091ICN8 Colipase (Fragment) n=2 Tax=Calypte anna 
+TaxID=9244 RepID=A0A091ICN8_CALAN
+Length=76
+
+ Score = 56.3 bits (135),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 22/32 (69%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  7   DEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           D GELCL SAQCKS+CC   + LSL+RCA KA
+Sbjct  1   DTGELCLQSAQCKSSCCHRTSGLSLARCAPKA  32
+
+
+> UniRef90_UPI00057680E0 PREDICTED: colipase n=1 Tax=Esox lucius 
+TaxID=8010 RepID=UPI00057680E0
+Length=120
+
+ Score = 56.3 bits (135),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 21/36 (58%), Positives = 26/36 (72%), Gaps = 0/36 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCAL  36
+           GII+NL  GE+C  S QCKS+CCQ +T  S+ RCA 
+Sbjct  28  GIILNLKNGEICAVSMQCKSSCCQRNTGTSIPRCAP  63
+
+
+> UniRef90_A0A096NHQ2 Uncharacterized protein n=3 Tax=Cercopithecinae 
+TaxID=9528 RepID=A0A096NHQ2_PAPAN
+Length=121
+
+ Score = 56.3 bits (135),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 21/33 (64%), Positives = 24/33 (73%), Gaps = 0/33 (0%)
+
+Query  7   DEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           + GELC+NSAQCKS CCQH   L L+RC   AR
+Sbjct  19  ENGELCMNSAQCKSQCCQHTGALDLARCIPLAR  51
+
+
+> UniRef90_UPI00051EE72B PREDICTED: colipase n=1 Tax=Egretta garzetta 
+TaxID=188379 RepID=UPI00051EE72B
+Length=122
+
+ Score = 55.9 bits (134),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 22/32 (69%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  7   DEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           D GELCL SAQC+S CC  D+ LSL+RCA KA
+Sbjct  38  DTGELCLQSAQCQSCCCHRDSGLSLARCAPKA  69
+
+
+> UniRef90_UPI0005F3D93C PREDICTED: colipase isoform X1 n=2 Tax=Cercopithecinae 
+TaxID=9528 RepID=UPI0005F3D93C
+Length=115
+
+ Score = 55.5 bits (133),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 20/33 (61%), Positives = 24/33 (73%), Gaps = 0/33 (0%)
+
+Query  6   LDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           ++ GELC+NSAQCKS CCQH   L L+RC   A
+Sbjct  12  MENGELCMNSAQCKSQCCQHTGALDLARCIPLA  44
+
+
+> UniRef90_UPI0004549FF9 PREDICTED: colipase isoform X3 n=1 Tax=Cricetulus 
+griseus TaxID=10029 RepID=UPI0004549FF9
+Length=122
+
+ Score = 54.7 bits (131),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 21/32 (66%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  7   DEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           D+GE+C+NS QCKS CCQHDTIL ++RC  +A
+Sbjct  36  DDGEICMNSMQCKSKCCQHDTILGIARCTHQA  67
+
+
+> UniRef90_H0YTV1 Uncharacterized protein (Fragment) n=2 Tax=Taeniopygia 
+guttata TaxID=59729 RepID=H0YTV1_TAEGU
+Length=80
+
+ Score = 54.0 bits (129),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 20/32 (63%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  7   DEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           D GELC+ S QCKS CC  D  LSL+RCA +A
+Sbjct  1   DIGELCMQSVQCKSGCCHRDRGLSLARCAPRA  32
+
+
+> UniRef90_UPI00053F8271 PREDICTED: colipase isoform X2 n=1 Tax=Fukomys 
+damarensis TaxID=885580 RepID=UPI00053F8271
+Length=95
+
+ Score = 54.0 bits (129),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 22/33 (67%), Positives = 27/33 (82%), Gaps = 0/33 (0%)
+
+Query  6   LDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           +++GELCLNS QCKS CCQHD+ L L+RC  KA
+Sbjct  12  MEDGELCLNSIQCKSKCCQHDSALGLARCIHKA  44
+
+
+> UniRef90_A0A093QVS1 Colipase (Fragment) n=1 Tax=Pygoscelis adeliae 
+TaxID=9238 RepID=A0A093QVS1_PYGAD
+Length=86
+
+ Score = 53.6 bits (128),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 20/30 (67%), Positives = 22/30 (73%), Gaps = 0/30 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILS  30
+           G+I NLD GELCL SAQCKS CC   + LS
+Sbjct  19  GLIFNLDTGELCLQSAQCKSGCCHRGSGLS  48
+
+
+> UniRef90_UPI0003C1547D PREDICTED: colipase n=1 Tax=Latimeria 
+chalumnae TaxID=7897 RepID=UPI0003C1547D
+Length=81
+
+ Score = 53.2 bits (127),  Expect = 7e-08, Method: Composition-based stats.
+ Identities = 20/33 (61%), Positives = 21/33 (64%), Gaps = 0/33 (0%)
+
+Query  3   IINLDEGELCLNSAQCKSNCCQHDTILSLSRCA  35
+            INLD GELCL   QCKS CC     L L+RCA
+Sbjct  29  FINLDNGELCLEGIQCKSGCCFRRNGLDLARCA  61
+
+
+> UniRef90_A0A1D5RKG0 Uncharacterized protein n=2 Tax=Cercopithecidae 
+TaxID=9527 RepID=A0A1D5RKG0_MACMU
+Length=94
+
+ Score = 53.2 bits (127),  Expect = 9e-08, Method: Composition-based stats.
+ Identities = 20/32 (63%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  7   DEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           + GELC+NSAQCKS CCQH   L L+RC   A
+Sbjct  15  ENGELCMNSAQCKSQCCQHTGALDLARCIPLA  46
+
+
+> UniRef90_R7VN27 Colipase (Fragment) n=2 Tax=Columba livia TaxID=8932 
+RepID=R7VN27_COLLI
+Length=81
+
+ Score = 52.8 bits (126),  Expect = 9e-08, Method: Composition-based stats.
+ Identities = 20/30 (67%), Positives = 22/30 (73%), Gaps = 0/30 (0%)
+
+Query  9   GELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GELCL SAQC+S CC     LSL+RCA KA
+Sbjct  1   GELCLQSAQCESGCCHRQDGLSLARCAPKA  30
+
+
+> UniRef90_UPI00074FC9FF PREDICTED: colipase-like n=1 Tax=Gekko 
+japonicus TaxID=146911 RepID=UPI00074FC9FF
+Length=96
+
+ Score = 52.4 bits (125),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 19/33 (58%), Positives = 23/33 (70%), Gaps = 0/33 (0%)
+
+Query  6   LDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           +D GELCL S QC+S CC     LS++RCA KA
+Sbjct  6   IDNGELCLQSFQCRSKCCHRVNGLSMARCANKA  38
+
+
+> UniRef90_A0A087WZW1 Colipase n=3 Tax=Hominoidea TaxID=314295 
+RepID=A0A087WZW1_HUMAN
+Length=98
+
+ Score = 51.7 bits (123),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 21/32 (66%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  7   DEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           + GELC+NSAQCKSNCCQH + L L+RC   A
+Sbjct  15  ENGELCMNSAQCKSNCCQHSSALGLARCTSMA  46
+
+
+> UniRef90_H9GRD8 Uncharacterized protein n=1 Tax=Anolis carolinensis 
+TaxID=28377 RepID=H9GRD8_ANOCA
+Length=48
+
+ Score = 50.9 bits (121),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 19/37 (51%), Positives = 25/37 (68%), Gaps = 0/37 (0%)
+
+Query  2   IIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           + +  D GELC+ S QCKS CC   + LSL+RC+ KA
+Sbjct  3   LFLLQDNGELCMQSLQCKSGCCHRTSGLSLARCSDKA  39
+
+
+> UniRef90_UPI0004F40E61 PREDICTED: colipase isoform X2 n=1 Tax=Pongo 
+abelii TaxID=9601 RepID=UPI0004F40E61
+Length=102
+
+ Score = 51.3 bits (122),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 21/32 (66%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  7   DEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           + GELC+NSAQCKSNCCQH + L L+RC   A
+Sbjct  19  ENGELCMNSAQCKSNCCQHSSALGLARCTSMA  50
+
+
+> UniRef90_P11149 Colipase (Fragment) n=1 Tax=Squalus acanthias 
+TaxID=7797 RepID=COL_SQUAC
+Length=39
+
+ Score = 50.1 bits (119),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 22/35 (63%), Positives = 28/35 (80%), Gaps = 0/35 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCA  35
+           G+ +NL  GELC+ S QCKS+CCQ +T LSL+RCA
+Sbjct  5   GLFLNLSAGELCVGSFQCKSSCCQRETGLSLARCA  39
+
+
+> UniRef90_P11148 Colipase (Fragment) n=1 Tax=Gallus gallus TaxID=9031 
+RepID=COL_CHICK
+Length=34
+
+ Score = 49.0 bits (116),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 24/34 (71%), Positives = 27/34 (79%), Gaps = 0/34 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRC  34
+           G+I NLD GELCL SAQCKS CCQ D+ LSL+ C
+Sbjct  1   GLIFNLDTGELCLQSAQCKSECCQEDSGLSLAXC  34
+
+
+> UniRef90_UPI000523E20B PREDICTED: colipase n=1 Tax=Chaetura pelagica 
+TaxID=8897 RepID=UPI000523E20B
+Length=163
+
+ Score = 46.3 bits (109),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 17/38 (45%), Positives = 23/38 (61%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NL  G     SA+C+S  C   + LSL+RCA +A
+Sbjct  28  GLIFNLVRGTGDAESARCRSGGCHRKSGLSLARCAPRA  65
+
+
+> UniRef90_UPI0009010FB6 UPI0009010FB6 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009010FB6
+Length=123
+
+ Score = 45.9 bits (108),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 22/43 (51%), Positives = 27/43 (63%), Gaps = 5/43 (12%)
+
+Query  1   GIIINLDEGELCLNSAQCKS-----NCCQHDTILSLSRCALKA  38
+           G+I NL+ GELCL SAQCKS           + LSL+RCA +A
+Sbjct  27  GLIFNLEIGELCLQSAQCKSGCCXXGAAAAASTLSLARCAPQA  69
+
+
+> UniRef90_UPI000395720B PREDICTED: LOW QUALITY PROTEIN: colipase 
+n=1 Tax=Geospiza fortis TaxID=48883 RepID=UPI000395720B
+Length=115
+
+ Score = 44.0 bits (103),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 17/23 (74%), Positives = 19/23 (83%), Gaps = 0/23 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCC  23
+           G++ NLD GELCL SAQCKS CC
+Sbjct  27  GLVFNLDTGELCLQSAQCKSGCC  49
+
+
+> UniRef90_L5M641 Colipase n=1 Tax=Myotis davidii TaxID=225400 
+RepID=L5M641_MYODS
+Length=163
+
+ Score = 44.0 bits (103),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 12/20 (60%), Positives = 14/20 (70%), Gaps = 0/20 (0%)
+
+Query  19  KSNCCQHDTILSLSRCALKA  38
+           KS CC   + LSL+RCA KA
+Sbjct  55  KSKCCHRTSGLSLARCAPKA  74
+
+
+> UniRef90_UPI0004F03328 PREDICTED: colipase n=1 Tax=Merops nubicus 
+TaxID=57421 RepID=UPI0004F03328
+Length=128
+
+ Score = 42.4 bits (99),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 17/38 (45%), Positives = 21/38 (55%), Gaps = 8/38 (21%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I+NL        S  CKS  C     LSL+RCA+KA
+Sbjct  27  GLILNL--------SIHCKSGFCHRKNGLSLARCAMKA  56
+
+
+> UniRef90_UPI0005356EF8 PREDICTED: LOW QUALITY PROTEIN: colipase 
+n=2 Tax=Corvus cornix cornix TaxID=932674 RepID=UPI0005356EF8
+Length=287
+
+ Score = 43.6 bits (102),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 20/37 (54%), Positives = 24/37 (65%), Gaps = 5/37 (14%)
+
+Query  7    DEGELCLNSAQCKS-----NCCQHDTILSLSRCALKA  38
+            + GELCL SAQCKS      CC+    LSL+RCA +A
+Sbjct  197  EIGELCLQSAQCKSGCCXXGCCRRVNGLSLARCAPQA  233
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.168    0.712    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0513    0.140     1.90     42.6     43.6 
+
+Effective search space used: 446731374570
+Results from round 3
+
+
+Query= d1lpba1
+
+Length=39
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_UPI000576B523 PREDICTED: colipase isoform X1 n=2 Tax=B...  71.8    4e-14
+  UniRef90_UPI0002C2E62B PREDICTED: colipase n=1 Tax=Tursiops tru...  69.9    8e-14
+  UniRef90_UPI00084D94AE UPI00084D94AE related cluster n=1 Tax=un...  66.8    8e-13
+  UniRef90_A9JSD6 Colipase n=1 Tax=Xenopus tropicalis TaxID=8364 ...  65.2    3e-12
+  UniRef90_UPI0002BCD374 PREDICTED: colipase isoform X1 n=4 Tax=C...  64.1    9e-12
+  UniRef90_UPI000386F384 PREDICTED: colipase n=2 Tax=Falco TaxID=...  64.1    1e-11
+  UniRef90_UPI0003F0649D PREDICTED: colipase isoform X1 n=1 Tax=E...  63.7    1e-11
+  UniRef90_UPI0004F0D099 PREDICTED: colipase n=1 Tax=Acanthisitta...  63.7    1e-11
+  UniRef90_M3XXF0 Uncharacterized protein n=4 Tax=Boreoeutheria T...  63.7    1e-11
+  UniRef90_UPI00071C5389 PREDICTED: colipase n=1 Tax=Calidris pug...  64.1    1e-11
+  UniRef90_A0A093S114 Colipase (Fragment) n=3 Tax=Manacus vitelli...  63.3    1e-11
+  UniRef90_UPI00039456FB PREDICTED: colipase n=1 Tax=Zonotrichia ...  63.3    2e-11
+  UniRef90_S9YJI4 Colipase n=3 Tax=Camelidae TaxID=9835 RepID=S9Y...  62.9    2e-11
+  UniRef90_UPI0005325D4C PREDICTED: LOW QUALITY PROTEIN: colipase...  62.9    2e-11
+  UniRef90_UPI0003F14D85 PREDICTED: colipase isoform X1 n=1 Tax=C...  62.9    2e-11
+  UniRef90_UPI00045D8750 PREDICTED: colipase n=1 Tax=Orycteropus ...  62.9    3e-11
+  UniRef90_UPI0003832688 PREDICTED: colipase n=1 Tax=Melopsittacu...  62.9    3e-11
+  UniRef90_UPI0005D0B62B PREDICTED: colipase n=2 Tax=Accipitrinae...  62.5    3e-11
+  UniRef90_UPI000331924E PREDICTED: colipase n=1 Tax=Sorex araneu...  61.8    6e-11
+  UniRef90_H0X164 Uncharacterized protein n=3 Tax=Strepsirrhini T...  61.8    6e-11
+  UniRef90_UPI00085445E1 UPI00085445E1 related cluster n=1 Tax=un...  61.4    8e-11
+  UniRef90_UPI000203A8C8 PREDICTED: colipase n=1 Tax=Anolis carol...  61.4    8e-11
+  UniRef90_F6X7L4 Uncharacterized protein n=2 Tax=Metatheria TaxI...  61.4    8e-11
+  UniRef90_A0A093GMX5 Colipase (Fragment) n=2 Tax=Picoides pubesc...  61.0    8e-11
+  UniRef90_A0JNQ7 Colipase n=7 Tax=Bovidae TaxID=9895 RepID=COL_B...  61.4    9e-11
+  UniRef90_P42889 Colipase n=1 Tax=Myocastor coypus TaxID=10157 R...  61.4    9e-11
+  UniRef90_UPI0006B20054 PREDICTED: colipase isoform X1 n=2 Tax=T...  61.4    9e-11
+  UniRef90_P42890 Colipase n=3 Tax=Oryctolagus cuniculus TaxID=99...  61.0    1e-10
+  UniRef90_L5KYN5 Colipase n=3 Tax=Pteropus TaxID=9401 RepID=L5KY...  61.0    1e-10
+  UniRef90_UPI0003346FEB PREDICTED: colipase isoform X1 n=3 Tax=L...  61.0    1e-10
+  UniRef90_UPI00093FA5EF UPI00093FA5EF related cluster n=2 Tax=un...  61.0    1e-10
+  UniRef90_A0A091GCK4 Colipase (Fragment) n=2 Tax=Cuculus canorus...  60.6    1e-10
+  UniRef90_A0A151N8E0 Colipase n=4 Tax=Alligator TaxID=8495 RepID...  60.6    1e-10
+  UniRef90_UPI0000E4035C PREDICTED: colipase isoform X1 n=1 Tax=E...  60.6    2e-10
+  UniRef90_A0A091V378 Colipase (Fragment) n=2 Tax=Nipponia nippon...  60.6    2e-10
+  UniRef90_UPI00071A5801 PREDICTED: colipase-like n=1 Tax=Sturnus...  60.6    2e-10
+  UniRef90_UPI000812D497 UPI000812D497 related cluster n=1 Tax=un...  60.6    2e-10
+  UniRef90_UPI0002C442FD PREDICTED: colipase isoform X1 n=1 Tax=T...  60.6    2e-10
+  UniRef90_UPI0006715410 PREDICTED: colipase n=1 Tax=Anser cygnoi...  60.6    2e-10
+  UniRef90_P02703 Colipase n=2 Tax=Sus scrofa TaxID=9823 RepID=CO...  60.2    2e-10
+  UniRef90_G3TP15 Uncharacterized protein n=1 Tax=Loxodonta afric...  60.2    2e-10
+  UniRef90_G1L125 Uncharacterized protein n=3 Tax=Ailuropoda mela...  60.2    2e-10
+  UniRef90_UPI00063EE30A PREDICTED: colipase isoform X1 n=1 Tax=P...  60.2    2e-10
+  UniRef90_UPI0008DB84E2 UPI0008DB84E2 related cluster n=1 Tax=un...  60.2    3e-10
+  UniRef90_G1MPW1 Uncharacterized protein n=5 Tax=Phasianidae Tax...  59.8    3e-10
+  UniRef90_UPI0004446E8B PREDICTED: colipase n=1 Tax=Erinaceus eu...  59.8    3e-10
+  UniRef90_A0A087QPW8 Colipase (Fragment) n=2 Tax=Aptenodytes for...  59.1    3e-10
+  UniRef90_UPI000440A4FD PREDICTED: colipase n=1 Tax=Astyanax mex...  59.8    4e-10
+  UniRef90_W5KK00 Uncharacterized protein n=2 Tax=Astyanax mexica...  59.8    4e-10
+  UniRef90_P19090 Colipase n=2 Tax=Carnivora TaxID=33554 RepID=CO...  59.5    4e-10
+  UniRef90_A0A091PQA9 Colipase (Fragment) n=2 Tax=Leptosomus disc...  58.7    5e-10
+  UniRef90_UPI0006525A0F PREDICTED: colipase n=1 Tax=Dipodomys or...  59.5    5e-10
+  UniRef90_K7FFP4 Uncharacterized protein n=2 Tax=Pelodiscus sine...  59.1    5e-10
+  UniRef90_UPI00038F1819 PREDICTED: colipase n=1 Tax=Chinchilla l...  59.1    6e-10
+  UniRef90_UPI0003341199 PREDICTED: colipase n=1 Tax=Octodon degu...  58.7    7e-10
+  UniRef90_D5FQ08 Colipase (Fragment) n=1 Tax=Meleagris gallopavo...  58.3    8e-10
+  UniRef90_UPI00027F7BE4 PREDICTED: colipase isoform X1 n=1 Tax=S...  58.7    8e-10
+  UniRef90_UPI0006360F42 UPI0006360F42 related cluster n=1 Tax=un...  58.7    9e-10
+  UniRef90_UPI000777DCE1 UPI000777DCE1 related cluster n=1 Tax=un...  58.7    9e-10
+  UniRef90_F6SG32 Putative uncharacterized protein n=8 Tax=Cercop...  58.7    1e-09
+  UniRef90_UPI00081462AA UPI00081462AA related cluster n=1 Tax=un...  59.1    1e-09
+  UniRef90_UPI0002C556B0 PREDICTED: colipase isoform X1 n=2 Tax=C...  58.3    1e-09
+  UniRef90_UPI000775869F UPI000775869F related cluster n=1 Tax=un...  58.3    1e-09
+  UniRef90_U3I780 Uncharacterized protein n=3 Tax=Anas platyrhync...  57.5    1e-09
+  UniRef90_G5BEW5 Colipase n=2 Tax=Heterocephalus glaber TaxID=10...  58.3    1e-09
+  UniRef90_M7BK03 Colipase n=2 Tax=Durocryptodira TaxID=1579337 R...  57.5    2e-09
+  UniRef90_U3JLU0 Uncharacterized protein n=2 Tax=Ficedula albico...  57.5    2e-09
+  UniRef90_UPI0001777C96 PREDICTED: colipase n=1 Tax=Ochotona pri...  57.5    3e-09
+  UniRef90_W5MZ84 Uncharacterized protein n=1 Tax=Lepisosteus ocu...  57.5    3e-09
+  UniRef90_UPI000328C53E PREDICTED: colipase n=1 Tax=Dasypus nove...  57.1    3e-09
+  UniRef90_UPI0004ED4F78 PREDICTED: colipase-like n=1 Tax=Nannosp...  57.5    4e-09
+  UniRef90_UPI0004418DA2 PREDICTED: colipase n=1 Tax=Python bivit...  56.8    5e-09
+  UniRef90_A0A091GRY8 Colipase (Fragment) n=2 Tax=Buceros rhinoce...  56.0    5e-09
+  UniRef90_S7NIW4 Colipase n=4 Tax=Vespertilionidae TaxID=9431 Re...  56.4    5e-09
+  UniRef90_UPI0004D0ADED PREDICTED: colipase isoform X1 n=1 Tax=G...  56.4    6e-09
+  UniRef90_F7HYJ9 Uncharacterized protein n=3 Tax=Platyrrhini Tax...  56.4    7e-09
+  UniRef90_UPI000333261E PREDICTED: colipase n=1 Tax=Jaculus jacu...  56.4    7e-09
+  UniRef90_UPI0008142E2F UPI0008142E2F related cluster n=1 Tax=un...  56.4    7e-09
+  UniRef90_UPI000803663B UPI000803663B related cluster n=1 Tax=un...  56.4    8e-09
+  UniRef90_G3HZU4 Colipase n=2 Tax=Cricetinae TaxID=10026 RepID=G...  56.0    8e-09
+  UniRef90_A0A091CY25 Colipase n=1 Tax=Fukomys damarensis TaxID=8...  56.0    9e-09
+  UniRef90_P02705 Colipase B (Fragment) n=4 Tax=Equus caballus Ta...  56.0    9e-09
+  UniRef90_P04118 Colipase n=6 Tax=Hominoidea TaxID=314295 RepID=...  56.0    1e-08
+  UniRef90_UPI00052A12D1 PREDICTED: colipase n=1 Tax=Colius stria...  55.6    1e-08
+  UniRef90_UPI0004F4F622 PREDICTED: colipase n=1 Tax=Pygoscelis a...  55.6    1e-08
+  UniRef90_P17084 Colipase n=4 Tax=Murinae TaxID=39107 RepID=COL_RAT  55.2    1e-08
+  UniRef90_H0VQD7 Uncharacterized protein n=1 Tax=Cavia porcellus...  55.2    2e-08
+  UniRef90_A0A1A6HZT5 Uncharacterized protein n=3 Tax=Cricetidae ...  55.2    2e-08
+  UniRef90_K4FSK1 Colipase pancreatic n=8 Tax=Callorhinchus milii...  55.2    2e-08
+  UniRef90_A0A091EEX6 Colipase (Fragment) n=3 Tax=Passeriformes T...  54.1    4e-08
+  UniRef90_UPI00071974A7 PREDICTED: colipase n=1 Tax=Ceratotheriu...  53.7    6e-08
+  UniRef90_E3TF71 Colipase n=1 Tax=Ictalurus punctatus TaxID=7998...  52.9    1e-07
+  UniRef90_UPI000523E20B PREDICTED: colipase n=1 Tax=Chaetura pel...  52.9    1e-07
+  UniRef90_Q91XL7 Colipase n=2 Tax=Marmotini TaxID=337730 RepID=C...  52.5    2e-07
+  UniRef90_UPI00051EE72B PREDICTED: colipase n=1 Tax=Egretta garz...  51.8    3e-07
+  UniRef90_UPI00057680E0 PREDICTED: colipase n=1 Tax=Esox lucius ...  51.0    5e-07
+  UniRef90_A0A091ICN8 Colipase (Fragment) n=2 Tax=Calypte anna Ta...  50.6    6e-07
+  UniRef90_H0YTV1 Uncharacterized protein (Fragment) n=2 Tax=Taen...  49.4    1e-06
+  UniRef90_A0A096NHQ2 Uncharacterized protein n=3 Tax=Cercopithec...  49.4    2e-06
+  UniRef90_R7VN27 Colipase (Fragment) n=2 Tax=Columba livia TaxID...  48.7    3e-06
+  UniRef90_UPI0004549FF9 PREDICTED: colipase isoform X3 n=1 Tax=C...  49.1    3e-06
+  UniRef90_A0A093QVS1 Colipase (Fragment) n=1 Tax=Pygoscelis adel...  48.7    3e-06
+  UniRef90_UPI00053F8271 PREDICTED: colipase isoform X2 n=1 Tax=F...  48.7    4e-06
+  UniRef90_UPI0005F3D93C PREDICTED: colipase isoform X1 n=2 Tax=C...  48.7    4e-06
+  UniRef90_UPI00074FC9FF PREDICTED: colipase-like n=1 Tax=Gekko j...  48.3    5e-06
+  UniRef90_UPI0003C1547D PREDICTED: colipase n=1 Tax=Latimeria ch...  47.9    5e-06
+  UniRef90_A0A1D5RKG0 Uncharacterized protein n=2 Tax=Cercopithec...  47.1    1e-05
+  UniRef90_H9GRD8 Uncharacterized protein n=1 Tax=Anolis caroline...  46.4    1e-05
+  UniRef90_A0A087WZW1 Colipase n=3 Tax=Hominoidea TaxID=314295 Re...  46.0    4e-05
+  UniRef90_P11149 Colipase (Fragment) n=1 Tax=Squalus acanthias T...  44.8    5e-05
+  UniRef90_UPI0004F40E61 PREDICTED: colipase isoform X2 n=1 Tax=P...  45.6    5e-05
+  UniRef90_P11148 Colipase (Fragment) n=1 Tax=Gallus gallus TaxID...  44.8    5e-05
+  UniRef90_UPI0004F03328 PREDICTED: colipase n=1 Tax=Merops nubic...  44.0    2e-04
+  UniRef90_UPI0009010FB6 UPI0009010FB6 related cluster n=1 Tax=un...  43.7    2e-04
+  UniRef90_UPI000395720B PREDICTED: LOW QUALITY PROTEIN: colipase...  40.2    0.004
+  UniRef90_L5M641 Colipase n=1 Tax=Myotis davidii TaxID=225400 Re...  40.6    0.006
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A093BI14 Colipase (Fragment) n=1 Tax=Chaetura pelagi...  39.8    0.005
+
+
+> UniRef90_UPI000576B523 PREDICTED: colipase isoform X1 n=2 Tax=Bovinae 
+TaxID=27592 RepID=UPI000576B523
+Length=220
+
+ Score = 71.8 bits (175),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 29/38 (76%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINLDEGELCLNSAQC S CC  +  LSL+RCA KA
+Sbjct  23  GIIINLDEGELCLNSAQCTSKCCHREDGLSLARCAPKA  60
+
+
+> UniRef90_UPI0002C2E62B PREDICTED: colipase n=1 Tax=Tursiops truncatus 
+TaxID=9739 RepID=UPI0002C2E62B
+Length=141
+
+ Score = 69.9 bits (170),  Expect = 8e-14, Method: Composition-based stats.
+ Identities = 31/39 (79%), Positives = 34/39 (87%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           GIIINL+EGELCLNSAQC+S CC  DT LSL+RCA KAR
+Sbjct  23  GIIINLEEGELCLNSAQCRSKCCHRDTGLSLARCAPKAR  61
+
+
+> UniRef90_UPI00084D94AE UPI00084D94AE related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00084D94AE
+Length=117
+
+ Score = 66.8 bits (162),  Expect = 8e-13, Method: Composition-based stats.
+ Identities = 27/38 (71%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+IINLD GELCL S QCKS CC  D+ LSL+RCA KA
+Sbjct  28  GLIINLDTGELCLQSLQCKSGCCYRDSGLSLARCAPKA  65
+
+
+> UniRef90_A9JSD6 Colipase n=1 Tax=Xenopus tropicalis TaxID=8364 
+RepID=COL_XENTR
+Length=117
+
+ Score = 65.2 bits (158),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 24/38 (63%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL +AQCKS CC  ++ +SL+RCA KA
+Sbjct  28  GLIFNLDNGELCLQTAQCKSGCCHRNSGVSLARCAPKA  65
+
+
+> UniRef90_UPI0002BCD374 PREDICTED: colipase isoform X1 n=4 Tax=Cetacea 
+TaxID=9721 RepID=UPI0002BCD374
+Length=112
+
+ Score = 64.1 bits (155),  Expect = 9e-12, Method: Composition-based stats.
+ Identities = 31/39 (79%), Positives = 34/39 (87%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           GIIINL+EGELCLNSAQC+S CC  DT LSL+RCA KAR
+Sbjct  23  GIIINLEEGELCLNSAQCRSKCCHRDTGLSLARCAPKAR  61
+
+
+> UniRef90_UPI000386F384 PREDICTED: colipase n=2 Tax=Falco TaxID=8952 
+RepID=UPI000386F384
+Length=116
+
+ Score = 64.1 bits (155),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS CC     LSL+RCA KA
+Sbjct  25  GLIFNLDTGELCLQSAQCKSGCCHRTGGLSLARCAPKA  62
+
+
+> UniRef90_UPI0003F0649D PREDICTED: colipase isoform X1 n=1 Tax=Elephantulus 
+edwardii TaxID=28737 RepID=UPI0003F0649D
+Length=113
+
+ Score = 63.7 bits (154),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+++NL+EGELCLNS QCKS CC  DT LSL+RC  KA
+Sbjct  24  GLVVNLEEGELCLNSVQCKSKCCHRDTGLSLARCMPKA  61
+
+
+> UniRef90_UPI0004F0D099 PREDICTED: colipase n=1 Tax=Acanthisitta 
+chloris TaxID=57068 RepID=UPI0004F0D099
+Length=116
+
+ Score = 63.7 bits (154),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NL+ GELCL SAQCKS CC   + LSL+RCA KA
+Sbjct  27  GLIFNLEIGELCLQSAQCKSGCCHRVSGLSLARCAPKA  64
+
+
+> UniRef90_M3XXF0 Uncharacterized protein n=4 Tax=Boreoeutheria 
+TaxID=1437010 RepID=M3XXF0_MUSPF
+Length=112
+
+ Score = 63.7 bits (154),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 30/38 (79%), Positives = 33/38 (87%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL++GELCLNSAQCKS CC  DT LSL+RCA KA
+Sbjct  23  GIIINLEDGELCLNSAQCKSKCCHRDTGLSLARCAPKA  60
+
+
+> UniRef90_UPI00071C5389 PREDICTED: colipase n=1 Tax=Calidris pugnax 
+TaxID=198806 RepID=UPI00071C5389
+Length=135
+
+ Score = 64.1 bits (155),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS CC   + LSL+RCA +A
+Sbjct  27  GLIFNLDTGELCLQSAQCKSGCCHRGSGLSLARCAPRA  64
+
+
+> UniRef90_A0A093S114 Colipase (Fragment) n=3 Tax=Manacus vitellinus 
+TaxID=328815 RepID=A0A093S114_9PASS
+Length=97
+
+ Score = 63.3 bits (153),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NL+ GELCL SAQCKS CC  D+ LS++RCA KA
+Sbjct  19  GLIFNLEIGELCLQSAQCKSGCCHRDSGLSMARCAPKA  56
+
+
+> UniRef90_UPI00039456FB PREDICTED: colipase n=1 Tax=Zonotrichia 
+albicollis TaxID=44394 RepID=UPI00039456FB
+Length=116
+
+ Score = 63.3 bits (153),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS CC     LSL+RCA KA
+Sbjct  27  GLIFNLDTGELCLQSAQCKSGCCHRTDGLSLARCAPKA  64
+
+
+> UniRef90_S9YJI4 Colipase n=3 Tax=Camelidae TaxID=9835 RepID=S9YJI4_CAMFR
+Length=112
+
+ Score = 62.9 bits (152),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 29/38 (76%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINLD GELCLNS QCKS CC  +T LSL+RCA KA
+Sbjct  23  GIIINLDAGELCLNSVQCKSKCCHRETGLSLARCAPKA  60
+
+
+> UniRef90_UPI0005325D4C PREDICTED: LOW QUALITY PROTEIN: colipase-like 
+n=1 Tax=Balearica regulorum gibbericeps TaxID=100784 
+RepID=UPI0005325D4C
+Length=117
+
+ Score = 62.9 bits (152),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 27/38 (71%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCK  CC  D  LSL+RC  KA
+Sbjct  27  GLIFNLDTGELCLQSAQCKDGCCHRDGGLSLARCVPKA  64
+
+
+> UniRef90_UPI0003F14D85 PREDICTED: colipase isoform X1 n=1 Tax=Chrysochloris 
+asiatica TaxID=185453 RepID=UPI0003F14D85
+Length=113
+
+ Score = 62.9 bits (152),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GI INL++GELC+NS QCKS CC  DT LSL+RC  KA
+Sbjct  24  GIFINLEDGELCMNSVQCKSKCCHRDTGLSLARCVPKA  61
+
+
+> UniRef90_UPI00045D8750 PREDICTED: colipase n=1 Tax=Orycteropus 
+afer afer TaxID=1230840 RepID=UPI00045D8750
+Length=113
+
+ Score = 62.9 bits (152),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 28/38 (74%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIII LD+GELCLNS QCKS CC  DT LSL+RC  KA
+Sbjct  24  GIIIQLDDGELCLNSIQCKSKCCHRDTGLSLARCMPKA  61
+
+
+> UniRef90_UPI0003832688 PREDICTED: colipase n=1 Tax=Melopsittacus 
+undulatus TaxID=13146 RepID=UPI0003832688
+Length=118
+
+ Score = 62.9 bits (152),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G++ NLD GELCL SAQCKS+CC  D+ LSL+RCA KA
+Sbjct  27  GLVFNLDTGELCLQSAQCKSHCCHRDSGLSLARCAPKA  64
+
+
+> UniRef90_UPI0005D0B62B PREDICTED: colipase n=2 Tax=Accipitrinae 
+TaxID=8955 RepID=UPI0005D0B62B
+Length=118
+
+ Score = 62.5 bits (151),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS CC   + LSL+RCA KA
+Sbjct  27  GLIFNLDTGELCLQSAQCKSGCCHRHSGLSLARCAPKA  64
+
+
+> UniRef90_UPI000331924E PREDICTED: colipase n=1 Tax=Sorex araneus 
+TaxID=42254 RepID=UPI000331924E
+Length=113
+
+ Score = 61.8 bits (149),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 28/38 (74%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GII+NLDEGELC+NSAQCKS CC   + LSL+RCA KA
+Sbjct  23  GIIMNLDEGELCMNSAQCKSKCCHRTSGLSLARCAPKA  60
+
+
+> UniRef90_H0X164 Uncharacterized protein n=3 Tax=Strepsirrhini 
+TaxID=376911 RepID=H0X164_OTOGA
+Length=112
+
+ Score = 61.8 bits (149),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 29/38 (76%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIII+LDEGELCLNSAQCKS CC   + LSL+RCA KA
+Sbjct  23  GIIISLDEGELCLNSAQCKSKCCHRTSGLSLARCAPKA  60
+
+
+> UniRef90_UPI00085445E1 UPI00085445E1 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00085445E1
+Length=109
+
+ Score = 61.4 bits (148),  Expect = 8e-11, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+IINLD GELCL S QCKSNCC     LSL+RCA  A
+Sbjct  22  GLIINLDTGELCLQSIQCKSNCCHRKDGLSLARCAPLA  59
+
+
+> UniRef90_UPI000203A8C8 PREDICTED: colipase n=1 Tax=Anolis carolinensis 
+TaxID=28377 RepID=UPI000203A8C8
+Length=111
+
+ Score = 61.4 bits (148),  Expect = 8e-11, Method: Composition-based stats.
+ Identities = 23/38 (61%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELC+ S QCKS CC   + LSL+RC+ KA
+Sbjct  23  GLIFNLDNGELCMQSLQCKSGCCHRTSGLSLARCSDKA  60
+
+
+> UniRef90_F6X7L4 Uncharacterized protein n=2 Tax=Metatheria TaxID=9263 
+RepID=F6X7L4_MONDO
+Length=112
+
+ Score = 61.4 bits (148),  Expect = 8e-11, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+II+LD GELC+NS QCKS CC   + LSL+RCA KA
+Sbjct  23  GLIIHLDNGELCVNSLQCKSKCCHRTSGLSLARCADKA  60
+
+
+> UniRef90_A0A093GMX5 Colipase (Fragment) n=2 Tax=Picoides pubescens 
+TaxID=118200 RepID=A0A093GMX5_PICPB
+Length=97
+
+ Score = 61.0 bits (147),  Expect = 8e-11, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS CC   + LSL+RCA KA
+Sbjct  19  GLIFNLDVGELCLQSAQCKSGCCHRSSGLSLARCAPKA  56
+
+
+> UniRef90_A0JNQ7 Colipase n=7 Tax=Bovidae TaxID=9895 RepID=COL_BOVIN
+Length=112
+
+ Score = 61.4 bits (148),  Expect = 9e-11, Method: Composition-based stats.
+ Identities = 29/38 (76%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINLDEGELCLNSAQC S CC  +  LSL+RCA KA
+Sbjct  23  GIIINLDEGELCLNSAQCTSKCCHREDGLSLARCAPKA  60
+
+
+> UniRef90_P42889 Colipase n=1 Tax=Myocastor coypus TaxID=10157 
+RepID=COL_MYOCO
+Length=111
+
+ Score = 61.4 bits (148),  Expect = 9e-11, Method: Composition-based stats.
+ Identities = 31/39 (79%), Positives = 34/39 (87%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           G+IINLD GELCLNSAQCKS CCQHD+ L L+RCA KAR
+Sbjct  23  GLIINLDNGELCLNSAQCKSQCCQHDSPLGLARCADKAR  61
+
+
+> UniRef90_UPI0006B20054 PREDICTED: colipase isoform X1 n=2 Tax=Thamnophis 
+sirtalis TaxID=35019 RepID=UPI0006B20054
+Length=123
+
+ Score = 61.4 bits (148),  Expect = 9e-11, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+ INL+ GELCLNS QCKS+CC   T LSL+RCA KA
+Sbjct  23  GLFINLENGELCLNSHQCKSHCCHRTTGLSLARCANKA  60
+
+
+> UniRef90_P42890 Colipase n=3 Tax=Oryctolagus cuniculus TaxID=9986 
+RepID=COL_RABIT
+Length=107
+
+ Score = 61.0 bits (147),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 29/38 (76%), Positives = 33/38 (87%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GI+INL+EGELCLNSAQCKS CC H + LSL+RCA KA
+Sbjct  23  GIVINLEEGELCLNSAQCKSGCCHHSSALSLARCAPKA  60
+
+
+> UniRef90_L5KYN5 Colipase n=3 Tax=Pteropus TaxID=9401 RepID=L5KYN5_PTEAL
+Length=110
+
+ Score = 61.0 bits (147),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 28/38 (74%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINLDEGELCLNS QCKS CC   + LSL+RCA +A
+Sbjct  23  GIIINLDEGELCLNSIQCKSRCCHRTSGLSLARCAPEA  60
+
+
+> UniRef90_UPI0003346FEB PREDICTED: colipase isoform X1 n=3 Tax=Laurasiatheria 
+TaxID=314145 RepID=UPI0003346FEB
+Length=114
+
+ Score = 61.0 bits (147),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 28/37 (76%), Positives = 31/37 (84%), Gaps = 0/37 (0%)
+
+Query  2   IIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           II+NL+EGELCLNS QCKS CC  DT LSL+RCA KA
+Sbjct  25  IIVNLEEGELCLNSMQCKSRCCHRDTGLSLARCAPKA  61
+
+
+> UniRef90_UPI00093FA5EF UPI00093FA5EF related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI00093FA5EF
+Length=112
+
+ Score = 61.0 bits (147),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 27/38 (71%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIII+L++GELCLNSAQCKS CC   + LSL+RCA KA
+Sbjct  23  GIIISLEDGELCLNSAQCKSKCCHRTSGLSLARCAPKA  60
+
+
+> UniRef90_A0A091GCK4 Colipase (Fragment) n=2 Tax=Cuculus canorus 
+TaxID=55661 RepID=A0A091GCK4_9AVES
+Length=99
+
+ Score = 60.6 bits (146),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 24/38 (63%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELC+ SAQCKS CC  +  LS++RCA KA
+Sbjct  21  GLIFNLDTGELCMQSAQCKSGCCHRNGGLSMARCAPKA  58
+
+
+> UniRef90_A0A151N8E0 Colipase n=4 Tax=Alligator TaxID=8495 RepID=A0A151N8E0_ALLMI
+Length=112
+
+ Score = 60.6 bits (146),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKSNCC   + LSL+RC  KA
+Sbjct  23  GLIFNLDNGELCLQSAQCKSNCCHRTSGLSLARCTNKA  60
+
+
+> UniRef90_UPI0000E4035C PREDICTED: colipase isoform X1 n=1 Tax=Echinops 
+telfairi TaxID=9371 RepID=UPI0000E4035C
+Length=114
+
+ Score = 60.6 bits (146),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 29/38 (76%), Positives = 33/38 (87%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GI INL+EGELCLNSAQCKS CC HD++LSL+RC  KA
+Sbjct  25  GIFINLEEGELCLNSAQCKSRCCHHDSVLSLARCMPKA  62
+
+
+> UniRef90_A0A091V378 Colipase (Fragment) n=2 Tax=Nipponia nippon 
+TaxID=128390 RepID=A0A091V378_NIPNI
+Length=99
+
+ Score = 60.6 bits (146),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS CC   + LSL+RCA KA
+Sbjct  21  GLIFNLDTGELCLQSAQCKSGCCYRGSGLSLARCAPKA  58
+
+
+> UniRef90_UPI00071A5801 PREDICTED: colipase-like n=1 Tax=Sturnus 
+vulgaris TaxID=9172 RepID=UPI00071A5801
+Length=118
+
+ Score = 60.6 bits (146),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 24/38 (63%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NL+ GELC+ SAQCKS CC   + LSL+RCA KA
+Sbjct  27  GLIFNLEIGELCMQSAQCKSGCCHRTSGLSLARCASKA  64
+
+
+> UniRef90_UPI000812D497 UPI000812D497 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000812D497
+Length=116
+
+ Score = 60.6 bits (146),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+II LDEGELCLNS QCKS CC  ++ LSL+RCA +A
+Sbjct  23  GLIILLDEGELCLNSVQCKSRCCHRESGLSLARCAPEA  60
+
+
+> UniRef90_UPI0002C442FD PREDICTED: colipase isoform X1 n=1 Tax=Trichechus 
+manatus latirostris TaxID=127582 RepID=UPI0002C442FD
+Length=112
+
+ Score = 60.6 bits (146),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 27/38 (71%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIII+L++GELCLNS QCKS CC H T LSL+RCA K+
+Sbjct  24  GIIISLEDGELCLNSYQCKSRCCHHSTGLSLARCAPKS  61
+
+
+> UniRef90_UPI0006715410 PREDICTED: colipase n=1 Tax=Anser cygnoides 
+domesticus TaxID=381198 RepID=UPI0006715410
+Length=118
+
+ Score = 60.6 bits (146),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS CCQH++ L+L+RC  KA
+Sbjct  27  GLIFNLDTGELCLQSAQCKSGCCQHNSGLNLARCVPKA  64
+
+
+> UniRef90_P02703 Colipase n=2 Tax=Sus scrofa TaxID=9823 RepID=COL_PIG
+Length=112
+
+ Score = 60.2 bits (145),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 39/39 (100%), Positives = 39/39 (100%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR
+Sbjct  23  GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  61
+
+
+> UniRef90_G3TP15 Uncharacterized protein n=1 Tax=Loxodonta africana 
+TaxID=9785 RepID=G3TP15_LOXAF
+Length=113
+
+ Score = 60.2 bits (145),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 29/39 (74%), Positives = 32/39 (82%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           GIIINL+ GELC+NS QCKS CC HD+ LSLSRC  KAR
+Sbjct  24  GIIINLENGELCVNSYQCKSQCCHHDSALSLSRCTAKAR  62
+
+
+> UniRef90_G1L125 Uncharacterized protein n=3 Tax=Ailuropoda melanoleuca 
+TaxID=9646 RepID=G1L125_AILME
+Length=99
+
+ Score = 60.2 bits (145),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 32/39 (82%), Positives = 36/39 (92%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           GIIINL++GELCLNSAQCKS+CCQ DT LSL+RCA KAR
+Sbjct  23  GIIINLEDGELCLNSAQCKSSCCQRDTGLSLARCASKAR  61
+
+
+> UniRef90_UPI00063EE30A PREDICTED: colipase isoform X1 n=1 Tax=Propithecus 
+coquereli TaxID=379532 RepID=UPI00063EE30A
+Length=112
+
+ Score = 60.2 bits (145),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 27/38 (71%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G++INLD+GELCLNS QCKSNCC   + LSL+RCA KA
+Sbjct  23  GLLINLDQGELCLNSIQCKSNCCHRTSGLSLARCAYKA  60
+
+
+> UniRef90_UPI0008DB84E2 UPI0008DB84E2 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008DB84E2
+Length=117
+
+ Score = 60.2 bits (145),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 27/38 (71%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I+NLD GELCL S QCKS CC HD IL L+RCA KA
+Sbjct  31  GLIMNLDTGELCLQSVQCKSGCCHHDHILGLTRCAPKA  68
+
+
+> UniRef90_G1MPW1 Uncharacterized protein n=5 Tax=Phasianidae TaxID=9005 
+RepID=G1MPW1_MELGA
+Length=114
+
+ Score = 59.8 bits (144),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 27/38 (71%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELC+ SAQCKS CCQ D+ LSL+RC+LKA
+Sbjct  25  GLIFNLDTGELCVQSAQCKSGCCQRDSGLSLARCSLKA  62
+
+
+> UniRef90_UPI0004446E8B PREDICTED: colipase n=1 Tax=Erinaceus 
+europaeus TaxID=9365 RepID=UPI0004446E8B
+Length=114
+
+ Score = 59.8 bits (144),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 28/38 (74%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GI INLDEGELCLNSAQCKS+CC   T +SL+RCA K+
+Sbjct  24  GIFINLDEGELCLNSAQCKSHCCHRPTGMSLARCAPKS  61
+
+
+> UniRef90_A0A087QPW8 Colipase (Fragment) n=2 Tax=Aptenodytes forsteri 
+TaxID=9233 RepID=A0A087QPW8_APTFO
+Length=81
+
+ Score = 59.1 bits (142),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS CC   + LSL+RCA KA
+Sbjct  19  GLIFNLDTGELCLQSAQCKSGCCHRGSGLSLARCAPKA  56
+
+
+> UniRef90_UPI000440A4FD PREDICTED: colipase n=1 Tax=Astyanax mexicanus 
+TaxID=7994 RepID=UPI000440A4FD
+Length=128
+
+ Score = 59.8 bits (144),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL  GELCL S QCKS+CC   + LSL+RCA +A
+Sbjct  40  GIIINLKNGELCLFSVQCKSSCCHRPSGLSLARCAPRA  77
+
+
+> UniRef90_W5KK00 Uncharacterized protein n=2 Tax=Astyanax mexicanus 
+TaxID=7994 RepID=W5KK00_ASTMX
+Length=117
+
+ Score = 59.8 bits (144),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 24/38 (63%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL+ GELC  S QCKS+CC     LSL+RCA +A
+Sbjct  29  GIIINLNNGELCAISGQCKSSCCHRPDALSLARCAPRA  66
+
+
+> UniRef90_P19090 Colipase n=2 Tax=Carnivora TaxID=33554 RepID=COL_CANLF
+Length=112
+
+ Score = 59.5 bits (143),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 27/38 (71%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIII+L++GELCLNS QCKS CC   T LSL+RCA KA
+Sbjct  23  GIIIHLEDGELCLNSVQCKSKCCHRATGLSLARCAPKA  60
+
+
+> UniRef90_A0A091PQA9 Colipase (Fragment) n=2 Tax=Leptosomus discolor 
+TaxID=188344 RepID=A0A091PQA9_LEPDC
+Length=80
+
+ Score = 58.7 bits (141),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL S QCKS CC   + LSL+RCA KA
+Sbjct  19  GLIFNLDTGELCLQSTQCKSGCCHRTSGLSLARCAPKA  56
+
+
+> UniRef90_UPI0006525A0F PREDICTED: colipase n=1 Tax=Dipodomys 
+ordii TaxID=10020 RepID=UPI0006525A0F
+Length=113
+
+ Score = 59.5 bits (143),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 32/39 (82%), Positives = 35/39 (90%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           GIIINLDEGELCLNSAQCKS CCQH+T+L L+RC  KAR
+Sbjct  24  GIIINLDEGELCLNSAQCKSGCCQHNTVLGLARCTQKAR  62
+
+
+> UniRef90_K7FFP4 Uncharacterized protein n=2 Tax=Pelodiscus sinensis 
+TaxID=13735 RepID=K7FFP4_PELSI
+Length=109
+
+ Score = 59.1 bits (142),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS+CC   + LSL+RCA +A
+Sbjct  20  GLIFNLDNGELCLQSAQCKSSCCHRTSGLSLARCANQA  57
+
+
+> UniRef90_UPI00038F1819 PREDICTED: colipase n=1 Tax=Chinchilla 
+lanigera TaxID=34839 RepID=UPI00038F1819
+Length=111
+
+ Score = 59.1 bits (142),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 29/39 (74%), Positives = 34/39 (87%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           GIIINL++GELC+NS QCKS CCQHD+ LSL+RC  KAR
+Sbjct  23  GIIINLEDGELCVNSGQCKSKCCQHDSPLSLARCVQKAR  61
+
+
+> UniRef90_UPI0003341199 PREDICTED: colipase n=1 Tax=Octodon degus 
+TaxID=10160 RepID=UPI0003341199
+Length=111
+
+ Score = 58.7 bits (141),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 29/38 (76%), Positives = 33/38 (87%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GII+NLD GELC+NSAQCKS CCQHD  L+L+RCA KA
+Sbjct  23  GIIVNLDNGELCMNSAQCKSKCCQHDNPLALARCADKA  60
+
+
+> UniRef90_D5FQ08 Colipase (Fragment) n=1 Tax=Meleagris gallopavo 
+TaxID=9103 RepID=D5FQ08_MELGA
+Length=91
+
+ Score = 58.3 bits (140),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 27/38 (71%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELC+ SAQCKS CCQ D+ LSL+RC+LKA
+Sbjct  1   GLIFNLDTGELCVQSAQCKSGCCQRDSGLSLARCSLKA  38
+
+
+> UniRef90_UPI00027F7BE4 PREDICTED: colipase isoform X1 n=1 Tax=Saimiri 
+boliviensis boliviensis TaxID=39432 RepID=UPI00027F7BE4
+Length=112
+
+ Score = 58.7 bits (141),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 27/38 (71%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL+EGELC+NSAQCKS CC H + L L+RCA  A
+Sbjct  23  GIIINLEEGELCMNSAQCKSKCCHHSSALGLARCAPLA  60
+
+
+> UniRef90_UPI0006360F42 UPI0006360F42 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0006360F42
+Length=115
+
+ Score = 58.7 bits (141),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 23/38 (61%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+IINLD GELC+ S QCKS+CC     LSL+RCA ++
+Sbjct  24  GLIINLDNGELCVVSMQCKSSCCHRQDGLSLARCAPRS  61
+
+
+> UniRef90_UPI000777DCE1 UPI000777DCE1 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000777DCE1
+Length=115
+
+ Score = 58.7 bits (141),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 27/38 (71%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELC+ SAQCKS CCQ DT LSL+RC+ KA
+Sbjct  25  GLIFNLDIGELCVQSAQCKSGCCQRDTGLSLARCSQKA  62
+
+
+> UniRef90_F6SG32 Putative uncharacterized protein n=8 Tax=Cercopithecidae 
+TaxID=9527 RepID=F6SG32_MACMU
+Length=131
+
+ Score = 58.7 bits (141),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL+ GELC+NSAQCKS CCQH   L L+RC   A
+Sbjct  23  GIIINLENGELCMNSAQCKSQCCQHTGALDLARCIPLA  60
+
+
+> UniRef90_UPI00081462AA UPI00081462AA related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00081462AA
+Length=143
+
+ Score = 59.1 bits (142),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 23/38 (61%), Positives = 27/38 (71%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL  GELCL S QCKS+CC   + + L RCA +A
+Sbjct  55  GIIINLKNGELCLFSVQCKSSCCHRSSGIDLFRCAPRA  92
+
+
+> UniRef90_UPI0002C556B0 PREDICTED: colipase isoform X1 n=2 Tax=Caniformia 
+TaxID=379584 RepID=UPI0002C556B0
+Length=112
+
+ Score = 58.3 bits (140),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 30/38 (79%), Positives = 34/38 (89%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL+ GELC NSAQCKS CC+HDT+LSL+RCA KA
+Sbjct  23  GIIINLENGELCANSAQCKSKCCRHDTLLSLARCAPKA  60
+
+
+> UniRef90_UPI000775869F UPI000775869F related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000775869F
+Length=107
+
+ Score = 58.3 bits (140),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+ +NLD GELCL S QCKS CC   T LSL+RCA KA
+Sbjct  23  GLNLNLDNGELCLQSIQCKSRCCHRKTGLSLARCADKA  60
+
+
+> UniRef90_U3I780 Uncharacterized protein n=3 Tax=Anas platyrhynchos 
+TaxID=8839 RepID=U3I780_ANAPL
+Length=67
+
+ Score = 57.5 bits (138),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 27/38 (71%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS CCQ D+ LSL+RC  KA
+Sbjct  21  GLIFNLDTGELCLQSAQCKSGCCQRDSGLSLARCVPKA  58
+
+
+> UniRef90_G5BEW5 Colipase n=2 Tax=Heterocephalus glaber TaxID=10181 
+RepID=G5BEW5_HETGA
+Length=111
+
+ Score = 58.3 bits (140),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 29/38 (76%), Positives = 35/38 (92%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+IINL++GELCLNSAQCKS CCQHD++LSL+RC  KA
+Sbjct  23  GLIINLEDGELCLNSAQCKSKCCQHDSLLSLARCTHKA  60
+
+
+> UniRef90_M7BK03 Colipase n=2 Tax=Durocryptodira TaxID=1579337 
+RepID=M7BK03_CHEMY
+Length=113
+
+ Score = 57.5 bits (138),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD GELCL SAQCKS+CC    +LSL+RCA +A
+Sbjct  24  GLIFNLDNGELCLQSAQCKSSCCHRTDMLSLARCANRA  61
+
+
+> UniRef90_U3JLU0 Uncharacterized protein n=2 Tax=Ficedula albicollis 
+TaxID=59894 RepID=U3JLU0_FICAL
+Length=116
+
+ Score = 57.5 bits (138),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 24/38 (63%), Positives = 27/38 (71%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G++INL+ GELCL S QCKS CC     LSL RCA KA
+Sbjct  27  GLVINLEIGELCLQSIQCKSGCCHRANGLSLPRCAAKA  64
+
+
+> UniRef90_UPI0001777C96 PREDICTED: colipase n=1 Tax=Ochotona princeps 
+TaxID=9978 RepID=UPI0001777C96
+Length=106
+
+ Score = 57.5 bits (138),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 29/38 (76%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL+ GELCLNSAQCKS CCQH + LSL+RC  KA
+Sbjct  22  GIIINLENGELCLNSAQCKSGCCQHSSALSLARCEDKA  59
+
+
+> UniRef90_W5MZ84 Uncharacterized protein n=1 Tax=Lepisosteus oculatus 
+TaxID=7918 RepID=W5MZ84_LEPOC
+Length=121
+
+ Score = 57.5 bits (138),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 22/38 (58%), Positives = 26/38 (68%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NLD  ELC  S QCKS+CC     LSL+RCA +A
+Sbjct  24  GLITNLDNNELCFISMQCKSSCCHRRDGLSLARCAPRA  61
+
+
+> UniRef90_UPI000328C53E PREDICTED: colipase n=1 Tax=Dasypus novemcinctus 
+TaxID=9361 RepID=UPI000328C53E
+Length=112
+
+ Score = 57.1 bits (137),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GII+ L+EGELCLNS QCKS CC   + LSL+RC  KA
+Sbjct  23  GIILGLEEGELCLNSYQCKSRCCHRSSGLSLARCMPKA  60
+
+
+> UniRef90_UPI0004ED4F78 PREDICTED: colipase-like n=1 Tax=Nannospalax 
+galili TaxID=1026970 RepID=UPI0004ED4F78
+Length=155
+
+ Score = 57.5 bits (138),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 27/39 (69%), Positives = 34/39 (87%), Gaps = 0/39 (0%)
+
+Query  1    GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+            GI+INL++GE+CLNSAQCKS CCQH+TIL + RC  K+R
+Sbjct  66   GIVINLEDGEICLNSAQCKSGCCQHNTILGILRCTAKSR  104
+
+
+> UniRef90_UPI0004418DA2 PREDICTED: colipase n=1 Tax=Python bivittatus 
+TaxID=176946 RepID=UPI0004418DA2
+Length=114
+
+ Score = 56.8 bits (136),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 21/38 (55%), Positives = 25/38 (66%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G++ NL  GELCL+S QC S CC     LS +RCA KA
+Sbjct  23  GLVWNLKNGELCLHSQQCNSRCCHRTDGLSFARCADKA  60
+
+
+> UniRef90_A0A091GRY8 Colipase (Fragment) n=2 Tax=Buceros rhinoceros 
+silvestris TaxID=175836 RepID=A0A091GRY8_BUCRH
+Length=82
+
+ Score = 56.0 bits (134),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 22/38 (58%), Positives = 27/38 (71%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I+NLD GELC+ S QCKS CC     LS++RC  KA
+Sbjct  20  GLILNLDTGELCMQSFQCKSGCCHRTGGLSMARCRPKA  57
+
+
+> UniRef90_S7NIW4 Colipase n=4 Tax=Vespertilionidae TaxID=9431 
+RepID=S7NIW4_MYOBR
+Length=112
+
+ Score = 56.4 bits (135),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 22/38 (58%), Positives = 25/38 (66%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GII+NL  G   L  AQCKS CC   + LSL+RCA KA
+Sbjct  23  GIIVNLSSGSAWLREAQCKSKCCHRTSGLSLARCAPKA  60
+
+
+> UniRef90_UPI0004D0ADED PREDICTED: colipase isoform X1 n=1 Tax=Galeopterus 
+variegatus TaxID=482537 RepID=UPI0004D0ADED
+Length=112
+
+ Score = 56.4 bits (135),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 23/39 (59%), Positives = 31/39 (79%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           G++INL+EGE+CLN  QCKS CCQH + +S++RCA   R
+Sbjct  23  GLVINLEEGEICLNKIQCKSGCCQHTSAISVARCAPMVR  61
+
+
+> UniRef90_F7HYJ9 Uncharacterized protein n=3 Tax=Platyrrhini TaxID=9479 
+RepID=F7HYJ9_CALJA
+Length=112
+
+ Score = 56.4 bits (135),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G++I+L+EGELCLNSAQCKS CC H + LSL+RCA  A
+Sbjct  23  GLVIHLEEGELCLNSAQCKSKCCHHTSALSLARCAPLA  60
+
+
+> UniRef90_UPI000333261E PREDICTED: colipase n=1 Tax=Jaculus jaculus 
+TaxID=51337 RepID=UPI000333261E
+Length=115
+
+ Score = 56.4 bits (135),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 26/39 (67%), Positives = 35/39 (90%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           G+I+NL++GE+C+NSAQCKS+CCQH TIL ++RC  KAR
+Sbjct  23  GLIVNLEDGEICMNSAQCKSSCCQHSTILGVARCTYKAR  61
+
+
+> UniRef90_UPI0008142E2F UPI0008142E2F related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008142E2F
+Length=137
+
+ Score = 56.4 bits (135),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 22/38 (58%), Positives = 27/38 (71%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GI INL  GELC  S+QCKS+CC   + +SL+RCA  A
+Sbjct  49  GIFINLANGELCAISSQCKSSCCHRVSAISLARCAPLA  86
+
+
+> UniRef90_UPI000803663B UPI000803663B related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000803663B
+Length=136
+
+ Score = 56.4 bits (135),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 23/38 (61%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL+ GELC  S QCKS+CC   + L L+RCA +A
+Sbjct  50  GIIINLNNGELCAISLQCKSSCCHRRSALDLARCAPRA  87
+
+
+> UniRef90_G3HZU4 Colipase n=2 Tax=Cricetinae TaxID=10026 RepID=G3HZU4_CRIGR
+Length=113
+
+ Score = 56.0 bits (134),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 24/38 (63%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+ +NLD+GE+C+NS QCKS CCQHDTIL ++RC  +A
+Sbjct  24  GLFVNLDDGEICMNSMQCKSKCCQHDTILGIARCTHQA  61
+
+
+> UniRef90_A0A091CY25 Colipase n=1 Tax=Fukomys damarensis TaxID=885580 
+RepID=A0A091CY25_FUKDA
+Length=110
+
+ Score = 56.0 bits (134),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G +INL++GELCLNS QCKS CCQHD+ L L+RC  KA
+Sbjct  22  GFVINLEDGELCLNSIQCKSKCCQHDSALGLARCIHKA  59
+
+
+> UniRef90_P02705 Colipase B (Fragment) n=4 Tax=Equus caballus 
+TaxID=9796 RepID=COLB_HORSE
+Length=108
+
+ Score = 56.0 bits (134),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+IINL+ GE+C+NSAQCKS CC  ++ LSL+RCA KA
+Sbjct  19  GVIINLEAGEICMNSAQCKSECCHRESSLSLARCAAKA  56
+
+
+> UniRef90_P04118 Colipase n=6 Tax=Hominoidea TaxID=314295 RepID=COL_HUMAN
+Length=112
+
+ Score = 56.0 bits (134),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 27/38 (71%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GIIINL+ GELC+NSAQCKSNCCQH + L L+RC   A
+Sbjct  23  GIIINLENGELCMNSAQCKSNCCQHSSALGLARCTSMA  60
+
+
+> UniRef90_UPI00052A12D1 PREDICTED: colipase n=1 Tax=Colius striatus 
+TaxID=57412 RepID=UPI00052A12D1
+Length=118
+
+ Score = 55.6 bits (133),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I+NLD GELCL S QCKS CC+H+ +LSL+RC  KA
+Sbjct  27  GLIVNLDTGELCLKSFQCKSGCCRHEGLLSLARCTPKA  64
+
+
+> UniRef90_UPI0004F4F622 PREDICTED: colipase n=1 Tax=Pygoscelis 
+adeliae TaxID=9238 RepID=UPI0004F4F622
+Length=119
+
+ Score = 55.6 bits (133),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 22/39 (56%), Positives = 24/39 (62%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           G+I NLD GELCL SAQCKS CC   + LS  R     R
+Sbjct  27  GLIFNLDTGELCLQSAQCKSGCCHRGSGLSPQRYGHVPR  65
+
+
+> UniRef90_P17084 Colipase n=4 Tax=Murinae TaxID=39107 RepID=COL_RAT
+Length=112
+
+ Score = 55.2 bits (132),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 25/38 (66%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+ INL++GE+C+NS QCKS CCQHDTIL ++RC  KA
+Sbjct  23  GLFINLEDGEICVNSMQCKSRCCQHDTILGIARCTHKA  60
+
+
+> UniRef90_H0VQD7 Uncharacterized protein n=1 Tax=Cavia porcellus 
+TaxID=10141 RepID=H0VQD7_CAVPO
+Length=111
+
+ Score = 55.2 bits (132),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+  NLD+GELCLNS QCKS CCQ DT+L+L+RC  KA
+Sbjct  23  GLFFNLDDGELCLNSGQCKSQCCQQDTLLALARCTRKA  60
+
+
+> UniRef90_A0A1A6HZT5 Uncharacterized protein n=3 Tax=Cricetidae 
+TaxID=337677 RepID=A0A1A6HZT5_NEOLE
+Length=113
+
+ Score = 55.2 bits (132),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 25/39 (64%), Positives = 32/39 (82%), Gaps = 0/39 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           G+  NLD+GE+C+NS QC+S CCQHDTIL ++RC  KAR
+Sbjct  24  GLFTNLDDGEICVNSLQCQSKCCQHDTILGIARCTHKAR  62
+
+
+> UniRef90_K4FSK1 Colipase pancreatic n=8 Tax=Callorhinchus milii 
+TaxID=7868 RepID=K4FSK1_CALMI
+Length=130
+
+ Score = 55.2 bits (132),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 25/37 (68%), Positives = 29/37 (78%), Gaps = 0/37 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALK  37
+           G+ +NLD GELC+ S QCKS+CCQ DT LSLSRC  K
+Sbjct  34  GLFLNLDNGELCIGSFQCKSDCCQRDTALSLSRCFSK  70
+
+
+> UniRef90_A0A091EEX6 Colipase (Fragment) n=3 Tax=Passeriformes 
+TaxID=9126 RepID=A0A091EEX6_CORBR
+Length=98
+
+ Score = 54.1 bits (129),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 24/39 (62%), Positives = 29/39 (74%), Gaps = 1/39 (3%)
+
+Query  1   GIIINLDEGELCLNSAQCKSN-CCQHDTILSLSRCALKA  38
+           G+I NL+ GELCL SAQCKS+ CC     LSL+RCA +A
+Sbjct  19  GLIFNLEIGELCLQSAQCKSSACCHRVNGLSLARCAPQA  57
+
+
+> UniRef90_UPI00071974A7 PREDICTED: colipase n=1 Tax=Ceratotherium 
+simum simum TaxID=73337 RepID=UPI00071974A7
+Length=107
+
+ Score = 53.7 bits (128),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 26/38 (68%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G IINL+ GELCLNSAQCKS CCQ  +  SL+RCA +A
+Sbjct  23  GTIINLEAGELCLNSAQCKSECCQRTSGTSLARCAARA  60
+
+
+> UniRef90_E3TF71 Colipase n=1 Tax=Ictalurus punctatus TaxID=7998 
+RepID=E3TF71_ICTPU
+Length=113
+
+ Score = 52.9 bits (126),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 22/38 (58%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GII NL+ GELC  S QCKS+CC+  + L L+RCA +A
+Sbjct  27  GIITNLNNGELCAVSLQCKSSCCKRKSTLGLARCAPRA  64
+
+
+> UniRef90_UPI000523E20B PREDICTED: colipase n=1 Tax=Chaetura pelagica 
+TaxID=8897 RepID=UPI000523E20B
+Length=163
+
+ Score = 52.9 bits (126),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 17/38 (45%), Positives = 23/38 (61%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NL  G     SA+C+S  C   + LSL+RCA +A
+Sbjct  28  GLIFNLVRGTGDAESARCRSGGCHRKSGLSLARCAPRA  65
+
+
+> UniRef90_Q91XL7 Colipase n=2 Tax=Marmotini TaxID=337730 RepID=COL_ICTTR
+Length=111
+
+ Score = 52.5 bits (125),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 24/38 (63%), Positives = 33/38 (87%), Gaps = 0/38 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GI+INL++GE+C+NSAQCKS+CCQH + L ++RC  KA
+Sbjct  22  GILINLEDGEICMNSAQCKSSCCQHFSPLGVARCTRKA  59
+
+
+> UniRef90_UPI00051EE72B PREDICTED: colipase n=1 Tax=Egretta garzetta 
+TaxID=188379 RepID=UPI00051EE72B
+Length=122
+
+ Score = 51.8 bits (123),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 22/32 (69%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  7   DEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           D GELCL SAQC+S CC  D+ LSL+RCA KA
+Sbjct  38  DTGELCLQSAQCQSCCCHRDSGLSLARCAPKA  69
+
+
+> UniRef90_UPI00057680E0 PREDICTED: colipase n=1 Tax=Esox lucius 
+TaxID=8010 RepID=UPI00057680E0
+Length=120
+
+ Score = 51.0 bits (121),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 21/36 (58%), Positives = 26/36 (72%), Gaps = 0/36 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCAL  36
+           GII+NL  GE+C  S QCKS+CCQ +T  S+ RCA 
+Sbjct  28  GIILNLKNGEICAVSMQCKSSCCQRNTGTSIPRCAP  63
+
+
+> UniRef90_A0A091ICN8 Colipase (Fragment) n=2 Tax=Calypte anna 
+TaxID=9244 RepID=A0A091ICN8_CALAN
+Length=76
+
+ Score = 50.6 bits (120),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 22/32 (69%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  7   DEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           D GELCL SAQCKS+CC   + LSL+RCA KA
+Sbjct  1   DTGELCLQSAQCKSSCCHRTSGLSLARCAPKA  32
+
+
+> UniRef90_H0YTV1 Uncharacterized protein (Fragment) n=2 Tax=Taeniopygia 
+guttata TaxID=59729 RepID=H0YTV1_TAEGU
+Length=80
+
+ Score = 49.4 bits (117),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 20/32 (63%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  7   DEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           D GELC+ S QCKS CC  D  LSL+RCA +A
+Sbjct  1   DIGELCMQSVQCKSGCCHRDRGLSLARCAPRA  32
+
+
+> UniRef90_A0A096NHQ2 Uncharacterized protein n=3 Tax=Cercopithecinae 
+TaxID=9528 RepID=A0A096NHQ2_PAPAN
+Length=121
+
+ Score = 49.4 bits (117),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 21/33 (64%), Positives = 24/33 (73%), Gaps = 0/33 (0%)
+
+Query  7   DEGELCLNSAQCKSNCCQHDTILSLSRCALKAR  39
+           + GELC+NSAQCKS CCQH   L L+RC   AR
+Sbjct  19  ENGELCMNSAQCKSQCCQHTGALDLARCIPLAR  51
+
+
+> UniRef90_R7VN27 Colipase (Fragment) n=2 Tax=Columba livia TaxID=8932 
+RepID=R7VN27_COLLI
+Length=81
+
+ Score = 48.7 bits (115),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 20/30 (67%), Positives = 22/30 (73%), Gaps = 0/30 (0%)
+
+Query  9   GELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           GELCL SAQC+S CC     LSL+RCA KA
+Sbjct  1   GELCLQSAQCESGCCHRQDGLSLARCAPKA  30
+
+
+> UniRef90_UPI0004549FF9 PREDICTED: colipase isoform X3 n=1 Tax=Cricetulus 
+griseus TaxID=10029 RepID=UPI0004549FF9
+Length=122
+
+ Score = 49.1 bits (116),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 21/32 (66%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  7   DEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           D+GE+C+NS QCKS CCQHDTIL ++RC  +A
+Sbjct  36  DDGEICMNSMQCKSKCCQHDTILGIARCTHQA  67
+
+
+> UniRef90_A0A093QVS1 Colipase (Fragment) n=1 Tax=Pygoscelis adeliae 
+TaxID=9238 RepID=A0A093QVS1_PYGAD
+Length=86
+
+ Score = 48.7 bits (115),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 20/32 (63%), Positives = 22/32 (69%), Gaps = 0/32 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLS  32
+           G+I NLD GELCL SAQCKS CC   + LS  
+Sbjct  19  GLIFNLDTGELCLQSAQCKSGCCHRGSGLSPQ  50
+
+
+> UniRef90_UPI00053F8271 PREDICTED: colipase isoform X2 n=1 Tax=Fukomys 
+damarensis TaxID=885580 RepID=UPI00053F8271
+Length=95
+
+ Score = 48.7 bits (115),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 22/33 (67%), Positives = 27/33 (82%), Gaps = 0/33 (0%)
+
+Query  6   LDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           +++GELCLNS QCKS CCQHD+ L L+RC  KA
+Sbjct  12  MEDGELCLNSIQCKSKCCQHDSALGLARCIHKA  44
+
+
+> UniRef90_UPI0005F3D93C PREDICTED: colipase isoform X1 n=2 Tax=Cercopithecinae 
+TaxID=9528 RepID=UPI0005F3D93C
+Length=115
+
+ Score = 48.7 bits (115),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 20/33 (61%), Positives = 24/33 (73%), Gaps = 0/33 (0%)
+
+Query  6   LDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           ++ GELC+NSAQCKS CCQH   L L+RC   A
+Sbjct  12  MENGELCMNSAQCKSQCCQHTGALDLARCIPLA  44
+
+
+> UniRef90_UPI00074FC9FF PREDICTED: colipase-like n=1 Tax=Gekko 
+japonicus TaxID=146911 RepID=UPI00074FC9FF
+Length=96
+
+ Score = 48.3 bits (114),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 19/33 (58%), Positives = 23/33 (70%), Gaps = 0/33 (0%)
+
+Query  6   LDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           +D GELCL S QC+S CC     LS++RCA KA
+Sbjct  6   IDNGELCLQSFQCRSKCCHRVNGLSMARCANKA  38
+
+
+> UniRef90_UPI0003C1547D PREDICTED: colipase n=1 Tax=Latimeria 
+chalumnae TaxID=7897 RepID=UPI0003C1547D
+Length=81
+
+ Score = 47.9 bits (113),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 20/33 (61%), Positives = 21/33 (64%), Gaps = 0/33 (0%)
+
+Query  3   IINLDEGELCLNSAQCKSNCCQHDTILSLSRCA  35
+            INLD GELCL   QCKS CC     L L+RCA
+Sbjct  29  FINLDNGELCLEGIQCKSGCCFRRNGLDLARCA  61
+
+
+> UniRef90_A0A1D5RKG0 Uncharacterized protein n=2 Tax=Cercopithecidae 
+TaxID=9527 RepID=A0A1D5RKG0_MACMU
+Length=94
+
+ Score = 47.1 bits (111),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 20/32 (63%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  7   DEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           + GELC+NSAQCKS CCQH   L L+RC   A
+Sbjct  15  ENGELCMNSAQCKSQCCQHTGALDLARCIPLA  46
+
+
+> UniRef90_H9GRD8 Uncharacterized protein n=1 Tax=Anolis carolinensis 
+TaxID=28377 RepID=H9GRD8_ANOCA
+Length=48
+
+ Score = 46.4 bits (109),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 19/37 (51%), Positives = 25/37 (68%), Gaps = 0/37 (0%)
+
+Query  2   IIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           + +  D GELC+ S QCKS CC   + LSL+RC+ KA
+Sbjct  3   LFLLQDNGELCMQSLQCKSGCCHRTSGLSLARCSDKA  39
+
+
+> UniRef90_A0A087WZW1 Colipase n=3 Tax=Hominoidea TaxID=314295 
+RepID=A0A087WZW1_HUMAN
+Length=98
+
+ Score = 46.0 bits (108),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 21/32 (66%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  7   DEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           + GELC+NSAQCKSNCCQH + L L+RC   A
+Sbjct  15  ENGELCMNSAQCKSNCCQHSSALGLARCTSMA  46
+
+
+> UniRef90_P11149 Colipase (Fragment) n=1 Tax=Squalus acanthias 
+TaxID=7797 RepID=COL_SQUAC
+Length=39
+
+ Score = 44.8 bits (105),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 22/35 (63%), Positives = 28/35 (80%), Gaps = 0/35 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCA  35
+           G+ +NL  GELC+ S QCKS+CCQ +T LSL+RCA
+Sbjct  5   GLFLNLSAGELCVGSFQCKSSCCQRETGLSLARCA  39
+
+
+> UniRef90_UPI0004F40E61 PREDICTED: colipase isoform X2 n=1 Tax=Pongo 
+abelii TaxID=9601 RepID=UPI0004F40E61
+Length=102
+
+ Score = 45.6 bits (107),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 21/32 (66%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  7   DEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           + GELC+NSAQCKSNCCQH + L L+RC   A
+Sbjct  19  ENGELCMNSAQCKSNCCQHSSALGLARCTSMA  50
+
+
+> UniRef90_P11148 Colipase (Fragment) n=1 Tax=Gallus gallus TaxID=9031 
+RepID=COL_CHICK
+Length=34
+
+ Score = 44.8 bits (105),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 24/34 (71%), Positives = 27/34 (79%), Gaps = 0/34 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRC  34
+           G+I NLD GELCL SAQCKS CCQ D+ LSL+ C
+Sbjct  1   GLIFNLDTGELCLQSAQCKSECCQEDSGLSLAXC  34
+
+
+> UniRef90_UPI0004F03328 PREDICTED: colipase n=1 Tax=Merops nubicus 
+TaxID=57421 RepID=UPI0004F03328
+Length=128
+
+ Score = 44.0 bits (103),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 17/38 (45%), Positives = 21/38 (55%), Gaps = 8/38 (21%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I+NL        S  CKS  C     LSL+RCA+KA
+Sbjct  27  GLILNL--------SIHCKSGFCHRKNGLSLARCAMKA  56
+
+
+> UniRef90_UPI0009010FB6 UPI0009010FB6 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009010FB6
+Length=123
+
+ Score = 43.7 bits (102),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 22/43 (51%), Positives = 27/43 (63%), Gaps = 5/43 (12%)
+
+Query  1   GIIINLDEGELCLNSAQCKS-----NCCQHDTILSLSRCALKA  38
+           G+I NL+ GELCL SAQCKS           + LSL+RCA +A
+Sbjct  27  GLIFNLEIGELCLQSAQCKSGCCXXGAAAAASTLSLARCAPQA  69
+
+
+> UniRef90_UPI000395720B PREDICTED: LOW QUALITY PROTEIN: colipase 
+n=1 Tax=Geospiza fortis TaxID=48883 RepID=UPI000395720B
+Length=115
+
+ Score = 40.2 bits (93),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 17/23 (74%), Positives = 19/23 (83%), Gaps = 0/23 (0%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCC  23
+           G++ NLD GELCL SAQCKS CC
+Sbjct  27  GLVFNLDTGELCLQSAQCKSGCC  49
+
+
+> UniRef90_A0A093BI14 Colipase (Fragment) n=1 Tax=Chaetura pelagica 
+TaxID=8897 RepID=A0A093BI14_CHAPE
+Length=79
+
+ Score = 39.8 bits (92),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 14/38 (37%), Positives = 18/38 (47%), Gaps = 5/38 (13%)
+
+Query  1   GIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKA  38
+           G+I NL  G     S       C   + LSL+RCA +A
+Sbjct  22  GLIFNLVRGTGDAES-----GGCHRKSGLSLARCAPRA  54
+
+
+> UniRef90_L5M641 Colipase n=1 Tax=Myotis davidii TaxID=225400 
+RepID=L5M641_MYODS
+Length=163
+
+ Score = 40.6 bits (94),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 12/20 (60%), Positives = 14/20 (70%), Gaps = 0/20 (0%)
+
+Query  19  KSNCCQHDTILSLSRCALKA  38
+           KS CC   + LSL+RCA KA
+Sbjct  55  KSKCCHRTSGLSLARCAPKA  74
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.158    0.596    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0479    0.140     1.90     42.6     43.6 
+
+Effective search space used: 446731374570
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

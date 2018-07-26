@@ -1,0 +1,1704 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1g3pa1
+
+Length=65
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_A0A0N8P2C2 Attachment protein (Fragment) n=2 Tax=Prote...  142     1e-39
+  UniRef90_P03661 Attachment protein G3P n=17 Tax=root TaxID=1 Re...  141     3e-38
+  UniRef90_UPI000530B303 attachment protein n=7 Tax=Enterobacteri...  112     1e-27
+  UniRef90_UPI00046677C8 attachment protein n=2 Tax=Franconibacte...  53.5    1e-06
+  UniRef90_A0A125X449 Phage Coat Protein A family protein n=9 Tax...  53.5    1e-06
+  UniRef90_A0A0M2KIR4 Attachment protein n=1 Tax=Hafnia alvei Tax...  50.8    1e-05
+  UniRef90_F4N6M2 Attachment protein G3P n=15 Tax=Enterobacterale...  50.4    2e-05
+  UniRef90_A0A0V1YPM3 Attachment protein n=32 Tax=Enterobacterale...  50.4    2e-05
+  UniRef90_O80297 Attachment protein G3P n=6 Tax=root TaxID=1 Rep...  48.9    6e-05
+  UniRef90_UPI00094264C2 UPI00094264C2 related cluster n=3 Tax=un...  47.4    2e-04
+  UniRef90_A0A127L4Q3 Coat protein A n=2 Tax=Enterobacter sp. FY-...  47.8    2e-04
+  UniRef90_UPI000945C5DD UPI000945C5DD related cluster n=3 Tax=un...  47.4    2e-04
+  UniRef90_UPI000943A86F UPI000943A86F related cluster n=1 Tax=un...  47.4    2e-04
+  UniRef90_UPI0009435698 UPI0009435698 related cluster n=2 Tax=un...  47.0    2e-04
+  UniRef90_UPI00079BC034 UPI00079BC034 related cluster n=2 Tax=un...  47.0    3e-04
+  UniRef90_UPI000944FAD5 UPI000944FAD5 related cluster n=1 Tax=un...  47.0    3e-04
+  UniRef90_UPI0008FEF1BF UPI0008FEF1BF related cluster n=2 Tax=un...  45.4    0.001
+  UniRef90_P03663 Attachment protein G3P n=3 Tax=Inovirus TaxID=1...  44.3    0.002
+  UniRef90_UPI000944AA8B UPI000944AA8B related cluster n=3 Tax=un...  43.9    0.003
+  UniRef90_UPI0009442A0F UPI0009442A0F related cluster n=1 Tax=un...  42.7    0.007
+
+
+> UniRef90_A0A0N8P2C2 Attachment protein (Fragment) n=2 Tax=Proteobacteria 
+TaxID=1224 RepID=A0A0N8P2C2_9PROT
+Length=272
+
+ Score = 142 bits (357),  Expect = 1e-39, Method: Compositional matrix adjust.
+ Identities = 65/65 (100%), Positives = 65/65 (100%), Gaps = 0/65 (0%)
+
+Query  1   AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI  60
+           AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI
+Sbjct  19  AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI  78
+
+Query  61  GLAIP  65
+           GLAIP
+Sbjct  79  GLAIP  83
+
+
+> UniRef90_P03661 Attachment protein G3P n=17 Tax=root TaxID=1 
+RepID=G3P_BPFD
+Length=424
+
+ Score = 141 bits (355),  Expect = 3e-38, Method: Compositional matrix adjust.
+ Identities = 64/65 (98%), Positives = 64/65 (98%), Gaps = 0/65 (0%)
+
+Query  1   AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI  60
+           AETVESCLAK HTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI
+Sbjct  19  AETVESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI  78
+
+Query  61  GLAIP  65
+           GLAIP
+Sbjct  79  GLAIP  83
+
+
+> UniRef90_UPI000530B303 attachment protein n=7 Tax=Enterobacteriaceae 
+TaxID=543 RepID=UPI000530B303
+Length=426
+
+ Score = 112 bits (279),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 51/65 (78%), Positives = 53/65 (82%), Gaps = 0/65 (0%)
+
+Query  1   AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI  60
+           A T   C+AK   E S TNVWKDD+TLDRYANYEGCLWNATGVVVCTGDE QCYGTW PI
+Sbjct  17  AATDSECIAKPEFEASMTNVWKDDQTLDRYANYEGCLWNATGVVVCTGDENQCYGTWKPI  76
+
+Query  61  GLAIP  65
+           G AIP
+Sbjct  77  GAAIP  81
+
+
+> UniRef90_UPI00046677C8 attachment protein n=2 Tax=Franconibacter 
+helveticus TaxID=357240 RepID=UPI00046677C8
+Length=404
+
+ Score = 53.5 bits (127),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 26/57 (46%), Positives = 33/57 (58%), Gaps = 2/57 (4%)
+
+Query  5    ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIG  61
+            E C  K   +  F NV+ D  + +RY NY+GC + ATGV+VC  D T C  TW P G
+Sbjct  130  EVCQTKQPEDGVFNNVFSD--SGNRYINYDGCEYEATGVIVCQSDGTVCAATWKPTG  184
+
+
+> UniRef90_A0A125X449 Phage Coat Protein A family protein n=9 Tax=Escherichia 
+coli TaxID=562 RepID=A0A125X449_ECOLX
+Length=414
+
+ Score = 53.5 bits (127),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 28/57 (49%), Positives = 31/57 (54%), Gaps = 2/57 (4%)
+
+Query  5    ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIG  61
+            E C AK   E  F NV+  D   DRY  Y GC + ATGV+VC  D T C  TW P G
+Sbjct  137  EICEAKPPEEGVFNNVYSYDG--DRYIYYNGCEYEATGVIVCQSDSTVCAATWKPTG  191
+
+
+> UniRef90_A0A0M2KIR4 Attachment protein n=1 Tax=Hafnia alvei TaxID=569 
+RepID=A0A0M2KIR4_HAFAL
+Length=415
+
+ Score = 50.8 bits (120),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 26/57 (46%), Positives = 31/57 (54%), Gaps = 2/57 (4%)
+
+Query  5    ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIG  61
+            E C AK      F NV+ D  + DRY  Y GC + ATGV+VC  D + C  TW P G
+Sbjct  137  EICEAKPPENGVFNNVYSD--SGDRYIYYNGCEYEATGVIVCQSDGSVCAATWKPTG  191
+
+
+> UniRef90_F4N6M2 Attachment protein G3P n=15 Tax=Enterobacterales 
+TaxID=91347 RepID=F4N6M2_YEREN
+Length=413
+
+ Score = 50.4 bits (119),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 28/57 (49%), Positives = 30/57 (53%), Gaps = 2/57 (4%)
+
+Query  5    ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIG  61
+            E C AK   E  F NV  D     RY  Y GC + ATGV+VC GD T C  TW P G
+Sbjct  137  EICEAKPPEEGVFNNV--DSYDGGRYIYYNGCEYEATGVIVCQGDGTVCAATWKPTG  191
+
+
+> UniRef90_A0A0V1YPM3 Attachment protein n=32 Tax=Enterobacterales 
+TaxID=91347 RepID=A0A0V1YPM3_SALET
+Length=421
+
+ Score = 50.4 bits (119),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 28/57 (49%), Positives = 30/57 (53%), Gaps = 2/57 (4%)
+
+Query  5    ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIG  61
+            E C AK   E  F NV  D     RY  Y GC + ATGV+VC GD T C  TW P G
+Sbjct  137  EICEAKPPEEGVFNNV--DSYDGGRYIYYNGCEYEATGVIVCQGDGTVCAATWKPTG  191
+
+
+> UniRef90_O80297 Attachment protein G3P n=6 Tax=root TaxID=1 RepID=G3P_BPIF1
+Length=460
+
+ Score = 48.9 bits (115),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 22/63 (35%), Positives = 37/63 (59%), Gaps = 2/63 (3%)
+
+Query  1   AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI  60
+           A T   CL+K   + + +NVWK+  +  RYAN+E C++  +G+ +   ++T C G W P+
+Sbjct  17  ATTDAECLSKPAFDGTLSNVWKEGDS--RYANFENCIYELSGIGIGYDNDTSCNGHWTPV  74
+
+Query  61  GLA  63
+             A
+Sbjct  75  RAA  77
+
+
+> UniRef90_UPI00094264C2 UPI00094264C2 related cluster n=3 Tax=unknown 
+TaxID= RepID=UPI00094264C2
+Length=383
+
+ Score = 47.4 bits (111),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 24/60 (40%), Positives = 35/60 (58%), Gaps = 3/60 (5%)
+
+Query  3    TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG-VVVCTGDETQCYGTWVPI  60
+            T E CL++    N S + V+ DDK  ++Y    GC++ ATG V+ C+ D T C  TW P+
+Sbjct  46   TEEVCLSRPEISNTSLSGVYMDDKG-NKYVTIHGCIYEATGDVISCSNDSTHCSATWKPL  104
+
+
+> UniRef90_A0A127L4Q3 Coat protein A n=2 Tax=Enterobacter sp. FY-07 
+TaxID=1692238 RepID=A0A127L4Q3_9ENTR
+Length=547
+
+ Score = 47.8 bits (112),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 23/55 (42%), Positives = 31/55 (56%), Gaps = 6/55 (11%)
+
+Query  7    CLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIG  61
+            C AK   +N+F NV +       +  Y+GC + ATGV+VC  D+T C  TW P G
+Sbjct  274  CKAKPSIQNTFNNVSEG------FIYYQGCEYEATGVIVCRNDKTVCSATWKPTG  322
+
+
+> UniRef90_UPI000945C5DD UPI000945C5DD related cluster n=3 Tax=unknown 
+TaxID= RepID=UPI000945C5DD
+Length=410
+
+ Score = 47.4 bits (111),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 24/60 (40%), Positives = 35/60 (58%), Gaps = 3/60 (5%)
+
+Query  3    TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG-VVVCTGDETQCYGTWVPI  60
+            T E CL++    N S + V+ DDK  ++Y    GC++ ATG V+ C+ D T C  TW P+
+Sbjct  46   TEEVCLSRPEISNTSLSGVYMDDKG-NKYVTIHGCIYEATGDVISCSNDSTHCSATWKPL  104
+
+
+> UniRef90_UPI000943A86F UPI000943A86F related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000943A86F
+Length=442
+
+ Score = 47.4 bits (111),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 24/60 (40%), Positives = 35/60 (58%), Gaps = 3/60 (5%)
+
+Query  3    TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG-VVVCTGDETQCYGTWVPI  60
+            T E CL++    N S + V+ DDK  ++Y    GC++ ATG V+ C+ D T C  TW P+
+Sbjct  46   TEEVCLSRPEISNTSLSGVYMDDKG-NKYVTIHGCIYEATGDVISCSNDSTHCSATWKPL  104
+
+
+> UniRef90_UPI0009435698 UPI0009435698 related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI0009435698
+Length=374
+
+ Score = 47.0 bits (110),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 24/60 (40%), Positives = 35/60 (58%), Gaps = 3/60 (5%)
+
+Query  3    TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG-VVVCTGDETQCYGTWVPI  60
+            T E CL++    N S + V+ DDK  ++Y    GC++ ATG V+ C+ D T C  TW P+
+Sbjct  46   TEEVCLSRPEISNTSLSGVYMDDKG-NKYVTIHGCIYEATGDVISCSNDSTHCSATWKPL  104
+
+
+> UniRef90_UPI00079BC034 UPI00079BC034 related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI00079BC034
+Length=410
+
+ Score = 47.0 bits (110),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 24/55 (44%), Positives = 30/55 (55%), Gaps = 6/55 (11%)
+
+Query  7    CLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIG  61
+            C AK   +N F NV       + Y  Y+GC + ATGV+VC  D+T C  TW P G
+Sbjct  140  CKAKPTIDNVFNNV------SEGYIYYQGCEYEATGVIVCQNDKTICAATWKPTG  188
+
+
+> UniRef90_UPI000944FAD5 UPI000944FAD5 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000944FAD5
+Length=446
+
+ Score = 47.0 bits (110),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 24/60 (40%), Positives = 35/60 (58%), Gaps = 3/60 (5%)
+
+Query  3    TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG-VVVCTGDETQCYGTWVPI  60
+            T E CL++    N S + V+ DDK  ++Y    GC++ ATG V+ C+ D T C  TW P+
+Sbjct  46   TEEVCLSRPEISNTSLSGVYMDDKG-NKYVTIHGCIYEATGDVISCSNDSTHCSATWKPL  104
+
+
+> UniRef90_UPI0008FEF1BF UPI0008FEF1BF related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI0008FEF1BF
+Length=467
+
+ Score = 45.4 bits (106),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 23/60 (38%), Positives = 34/60 (57%), Gaps = 3/60 (5%)
+
+Query  3    TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATGV-VVCTGDETQCYGTWVPI  60
+            T E CL++    N S + V+KDDK  ++Y    GC++ ATGV ++C      C  TW P+
+Sbjct  46   TEEVCLSRPELSNVSLSGVYKDDKG-NKYVTIHGCIYEATGVAIICPDGTDSCTATWKPV  104
+
+
+> UniRef90_P03663 Attachment protein G3P n=3 Tax=Inovirus TaxID=10861 
+RepID=G3P_BPIKE
+Length=434
+
+ Score = 44.3 bits (103),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 26/58 (45%), Positives = 31/58 (53%), Gaps = 2/58 (3%)
+
+Query  5    ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIG  61
+            E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G
+Sbjct  137  EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG  193
+
+
+> UniRef90_UPI000944AA8B UPI000944AA8B related cluster n=3 Tax=unknown 
+TaxID= RepID=UPI000944AA8B
+Length=418
+
+ Score = 43.9 bits (102),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 22/59 (37%), Positives = 33/59 (56%), Gaps = 2/59 (3%)
+
+Query  3    TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI  60
+            T E CL++    N S +  +KDD+  ++Y    GC++ ATGVV+C      C  TW P+
+Sbjct  46   TEEVCLSRPELSNVSLSGFYKDDEG-NQYVTIHGCIYKATGVVICPDGTDSCTATWKPV  103
+
+
+> UniRef90_UPI0009442A0F UPI0009442A0F related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009442A0F
+Length=396
+
+ Score = 42.7 bits (99),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 23/60 (38%), Positives = 34/60 (57%), Gaps = 3/60 (5%)
+
+Query  3   TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATGV-VVCTGDETQCYGTWVPI  60
+           T E CL++    N S + V+KDDK  ++Y    GC++ ATGV ++C      C  TW P+
+Sbjct  28  TEEVCLSRPELSNVSLSGVYKDDKG-NKYVTIHGCIYEATGVAIICPDGTDSCTATWKPV  86
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.132    0.445    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 445728047100
+Results from round 2
+
+
+Query= d1g3pa1
+
+Length=65
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P03661 Attachment protein G3P n=17 Tax=root TaxID=1 Re...  111     1e-27
+  UniRef90_UPI000530B303 attachment protein n=7 Tax=Enterobacteri...  109     6e-27
+  UniRef90_A0A0N8P2C2 Attachment protein (Fragment) n=2 Tax=Prote...  105     9e-26
+  UniRef90_A0A125X449 Phage Coat Protein A family protein n=9 Tax...  93.3    6e-21
+  UniRef90_F4N6M2 Attachment protein G3P n=15 Tax=Enterobacterale...  93.3    6e-21
+  UniRef90_A0A0M2KIR4 Attachment protein n=1 Tax=Hafnia alvei Tax...  92.9    9e-21
+  UniRef90_A0A0V1YPM3 Attachment protein n=32 Tax=Enterobacterale...  91.8    2e-20
+  UniRef90_UPI00046677C8 attachment protein n=2 Tax=Franconibacte...  91.4    3e-20
+  UniRef90_O80297 Attachment protein G3P n=6 Tax=root TaxID=1 Rep...  87.5    1e-18
+  UniRef90_A0A127L4Q3 Coat protein A n=2 Tax=Enterobacter sp. FY-...  82.9    9e-17
+  UniRef90_UPI00094264C2 UPI00094264C2 related cluster n=3 Tax=un...  81.0    2e-16
+  UniRef90_UPI00079BC034 UPI00079BC034 related cluster n=2 Tax=un...  81.0    2e-16
+  UniRef90_UPI000945C5DD UPI000945C5DD related cluster n=3 Tax=un...  81.0    2e-16
+  UniRef90_UPI000943A86F UPI000943A86F related cluster n=1 Tax=un...  81.0    3e-16
+  UniRef90_UPI0008FEF1BF UPI0008FEF1BF related cluster n=2 Tax=un...  81.0    4e-16
+  UniRef90_UPI0009435698 UPI0009435698 related cluster n=2 Tax=un...  79.1    8e-16
+  UniRef90_UPI000944FAD5 UPI000944FAD5 related cluster n=1 Tax=un...  79.1    1e-15
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_P03663 Attachment protein G3P n=3 Tax=Inovirus TaxID=1...  83.3    4e-17
+  UniRef90_UPI0009442A0F UPI0009442A0F related cluster n=1 Tax=un...  80.2    3e-16
+  UniRef90_UPI000944AA8B UPI000944AA8B related cluster n=3 Tax=un...  77.5    4e-15
+  UniRef90_UPI00094458DA UPI00094458DA related cluster n=1 Tax=un...  72.9    3e-13
+  UniRef90_UPI00092D3CD3 UPI00092D3CD3 related cluster n=2 Tax=Es...  71.4    3e-13
+  UniRef90_UPI000906F89E UPI000906F89E related cluster n=4 Tax=Es...  70.6    8e-13
+  UniRef90_UPI0004D8DE42 UPI0004D8DE42 related cluster n=1 Tax=un...  70.2    9e-13
+  UniRef90_UPI00092F4705 UPI00092F4705 related cluster n=1 Tax=un...  70.2    1e-12
+  UniRef90_UPI0004533441 UPI0004533441 related cluster n=3 Tax=Es...  70.6    1e-12
+  UniRef90_UPI00092D6A19 UPI00092D6A19 related cluster n=1 Tax=un...  69.8    2e-12
+  UniRef90_A0A069XB47 Phage Coat Protein A family protein n=4 Tax...  69.0    6e-12
+  UniRef90_UPI00092D411A UPI00092D411A related cluster n=2 Tax=Es...  68.7    6e-12
+  UniRef90_UPI000698B22B hypothetical protein n=2 Tax=Escherichia...  68.3    9e-12
+  UniRef90_UPI0006902EFE hypothetical protein n=2 Tax=Escherichia...  68.3    1e-11
+  UniRef90_A0A0K6A050 Phage Coat Protein A n=2 Tax=Escherichia co...  67.9    1e-11
+  UniRef90_UPI0005095159 hypothetical protein n=1 Tax=Arsenophonu...  64.4    3e-10
+  UniRef90_A0A1C7CS99 Uncharacterized protein n=2 Tax=Escherichia...  61.7    6e-10
+  UniRef90_A7ZLV9 Uncharacterized protein n=10 Tax=Escherichia co...  59.0    2e-08
+  UniRef90_D2U3R6 Putative uncharacterized protein n=1 Tax=Arseno...  57.9    2e-08
+  UniRef90_UPI0003F71DD9 hypothetical protein n=1 Tax=Arsenophonu...  57.9    4e-08
+  UniRef90_UPI0006A5A816 phage coat protein n=2 Tax=Escherichia c...  51.7    7e-06
+  UniRef90_UPI0002CA205B phage Coat protein A family protein n=1 ...  50.6    1e-05
+  UniRef90_UPI00041B6D45 hypothetical protein n=1 Tax=Arsenophonu...  48.6    9e-05
+  UniRef90_UPI0007E9F5E2 UPI0007E9F5E2 related cluster n=1 Tax=un...  47.5    1e-04
+  UniRef90_K8VZ46 Uncharacterized protein n=1 Tax=Providencia sne...  46.3    5e-04
+
+
+> UniRef90_P03661 Attachment protein G3P n=17 Tax=root TaxID=1 
+RepID=G3P_BPFD
+Length=424
+
+ Score = 111 bits (278),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 64/65 (98%), Positives = 64/65 (98%), Gaps = 0/65 (0%)
+
+Query  1   AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI  60
+           AETVESCLAK HTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI
+Sbjct  19  AETVESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI  78
+
+Query  61  GLAIP  65
+           GLAIP
+Sbjct  79  GLAIP  83
+
+
+> UniRef90_UPI000530B303 attachment protein n=7 Tax=Enterobacteriaceae 
+TaxID=543 RepID=UPI000530B303
+Length=426
+
+ Score = 109 bits (273),  Expect = 6e-27, Method: Composition-based stats.
+ Identities = 51/65 (78%), Positives = 53/65 (82%), Gaps = 0/65 (0%)
+
+Query  1   AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI  60
+           A T   C+AK   E S TNVWKDD+TLDRYANYEGCLWNATGVVVCTGDE QCYGTW PI
+Sbjct  17  AATDSECIAKPEFEASMTNVWKDDQTLDRYANYEGCLWNATGVVVCTGDENQCYGTWKPI  76
+
+Query  61  GLAIP  65
+           G AIP
+Sbjct  77  GAAIP  81
+
+
+> UniRef90_A0A0N8P2C2 Attachment protein (Fragment) n=2 Tax=Proteobacteria 
+TaxID=1224 RepID=A0A0N8P2C2_9PROT
+Length=272
+
+ Score = 105 bits (261),  Expect = 9e-26, Method: Composition-based stats.
+ Identities = 65/65 (100%), Positives = 65/65 (100%), Gaps = 0/65 (0%)
+
+Query  1   AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI  60
+           AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI
+Sbjct  19  AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI  78
+
+Query  61  GLAIP  65
+           GLAIP
+Sbjct  79  GLAIP  83
+
+
+> UniRef90_A0A125X449 Phage Coat Protein A family protein n=9 Tax=Escherichia 
+coli TaxID=562 RepID=A0A125X449_ECOLX
+Length=414
+
+ Score = 93.3 bits (230),  Expect = 6e-21, Method: Composition-based stats.
+ Identities = 28/60 (47%), Positives = 31/60 (52%), Gaps = 2/60 (3%)
+
+Query  2    ETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIG  61
+               E C AK   E  F NV+  D   DRY  Y GC + ATGV+VC  D T C  TW P G
+Sbjct  134  TPEEICEAKPPEEGVFNNVYSYD--GDRYIYYNGCEYEATGVIVCQSDSTVCAATWKPTG  191
+
+
+> UniRef90_F4N6M2 Attachment protein G3P n=15 Tax=Enterobacterales 
+TaxID=91347 RepID=F4N6M2_YEREN
+Length=413
+
+ Score = 93.3 bits (230),  Expect = 6e-21, Method: Composition-based stats.
+ Identities = 28/61 (46%), Positives = 30/61 (49%), Gaps = 2/61 (3%)
+
+Query  2    ETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIG  61
+               E C AK   E  F NV  D     RY  Y GC + ATGV+VC GD T C  TW P G
+Sbjct  134  TPEEICEAKPPEEGVFNNV--DSYDGGRYIYYNGCEYEATGVIVCQGDGTVCAATWKPTG  191
+
+Query  62   L  62
+             
+Sbjct  192  A  192
+
+
+> UniRef90_A0A0M2KIR4 Attachment protein n=1 Tax=Hafnia alvei TaxID=569 
+RepID=A0A0M2KIR4_HAFAL
+Length=415
+
+ Score = 92.9 bits (229),  Expect = 9e-21, Method: Composition-based stats.
+ Identities = 26/60 (43%), Positives = 31/60 (52%), Gaps = 2/60 (3%)
+
+Query  2    ETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIG  61
+               E C AK      F NV+ D  + DRY  Y GC + ATGV+VC  D + C  TW P G
+Sbjct  134  TPEEICEAKPPENGVFNNVYSD--SGDRYIYYNGCEYEATGVIVCQSDGSVCAATWKPTG  191
+
+
+> UniRef90_A0A0V1YPM3 Attachment protein n=32 Tax=Enterobacterales 
+TaxID=91347 RepID=A0A0V1YPM3_SALET
+Length=421
+
+ Score = 91.8 bits (226),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 28/60 (47%), Positives = 30/60 (50%), Gaps = 2/60 (3%)
+
+Query  2    ETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIG  61
+               E C AK   E  F NV  D     RY  Y GC + ATGV+VC GD T C  TW P G
+Sbjct  134  TPEEICEAKPPEEGVFNNV--DSYDGGRYIYYNGCEYEATGVIVCQGDGTVCAATWKPTG  191
+
+
+> UniRef90_UPI00046677C8 attachment protein n=2 Tax=Franconibacter 
+helveticus TaxID=357240 RepID=UPI00046677C8
+Length=404
+
+ Score = 91.4 bits (225),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 26/60 (43%), Positives = 33/60 (55%), Gaps = 2/60 (3%)
+
+Query  2    ETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIG  61
+               E C  K   +  F NV+ D  + +RY NY+GC + ATGV+VC  D T C  TW P G
+Sbjct  127  TPEEVCQTKQPEDGVFNNVFSD--SGNRYINYDGCEYEATGVIVCQSDGTVCAATWKPTG  184
+
+
+> UniRef90_O80297 Attachment protein G3P n=6 Tax=root TaxID=1 RepID=G3P_BPIF1
+Length=460
+
+ Score = 87.5 bits (215),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 22/63 (35%), Positives = 37/63 (59%), Gaps = 2/63 (3%)
+
+Query  1   AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI  60
+           A T   CL+K   + + +NVWK+  +  RYAN+E C++  +G+ +   ++T C G W P+
+Sbjct  17  ATTDAECLSKPAFDGTLSNVWKEGDS--RYANFENCIYELSGIGIGYDNDTSCNGHWTPV  74
+
+Query  61  GLA  63
+             A
+Sbjct  75  RAA  77
+
+
+> UniRef90_P03663 Attachment protein G3P n=3 Tax=Inovirus TaxID=10861 
+RepID=G3P_BPIKE
+Length=434
+
+ Score = 83.3 bits (204),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 26/61 (43%), Positives = 31/61 (51%), Gaps = 2/61 (3%)
+
+Query  2    ETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPI  60
+               E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P 
+Sbjct  134  TPEEICEAKPPIDGVFNNVFKGDEGGF-YINYNGCEYEATGVTVCQNDGTVCSSSAWKPT  192
+
+Query  61   G  61
+            G
+Sbjct  193  G  193
+
+
+> UniRef90_A0A127L4Q3 Coat protein A n=2 Tax=Enterobacter sp. FY-07 
+TaxID=1692238 RepID=A0A127L4Q3_9ENTR
+Length=547
+
+ Score = 82.9 bits (203),  Expect = 9e-17, Method: Composition-based stats.
+ Identities = 23/60 (38%), Positives = 32/60 (53%), Gaps = 6/60 (10%)
+
+Query  2    ETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIG  61
+               + C AK   +N+F NV       + +  Y+GC + ATGV+VC  D+T C  TW P G
+Sbjct  269  TPEQICKAKPSIQNTFNNV------SEGFIYYQGCEYEATGVIVCRNDKTVCSATWKPTG  322
+
+
+> UniRef90_UPI00094264C2 UPI00094264C2 related cluster n=3 Tax=unknown 
+TaxID= RepID=UPI00094264C2
+Length=383
+
+ Score = 81.0 bits (198),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 24/60 (40%), Positives = 35/60 (58%), Gaps = 3/60 (5%)
+
+Query  3    TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG-VVVCTGDETQCYGTWVPI  60
+            T E CL++    N S + V+ DDK  ++Y    GC++ ATG V+ C+ D T C  TW P+
+Sbjct  46   TEEVCLSRPEISNTSLSGVYMDDKG-NKYVTIHGCIYEATGDVISCSNDSTHCSATWKPL  104
+
+
+> UniRef90_UPI00079BC034 UPI00079BC034 related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI00079BC034
+Length=410
+
+ Score = 81.0 bits (198),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 24/60 (40%), Positives = 31/60 (52%), Gaps = 6/60 (10%)
+
+Query  2    ETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIG  61
+               + C AK   +N F NV       + Y  Y+GC + ATGV+VC  D+T C  TW P G
+Sbjct  135  TPEQICKAKPTIDNVFNNV------SEGYIYYQGCEYEATGVIVCQNDKTICAATWKPTG  188
+
+
+> UniRef90_UPI000945C5DD UPI000945C5DD related cluster n=3 Tax=unknown 
+TaxID= RepID=UPI000945C5DD
+Length=410
+
+ Score = 81.0 bits (198),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 24/60 (40%), Positives = 35/60 (58%), Gaps = 3/60 (5%)
+
+Query  3    TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG-VVVCTGDETQCYGTWVPI  60
+            T E CL++    N S + V+ DDK  ++Y    GC++ ATG V+ C+ D T C  TW P+
+Sbjct  46   TEEVCLSRPEISNTSLSGVYMDDKG-NKYVTIHGCIYEATGDVISCSNDSTHCSATWKPL  104
+
+
+> UniRef90_UPI000943A86F UPI000943A86F related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000943A86F
+Length=442
+
+ Score = 81.0 bits (198),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 24/60 (40%), Positives = 35/60 (58%), Gaps = 3/60 (5%)
+
+Query  3    TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG-VVVCTGDETQCYGTWVPI  60
+            T E CL++    N S + V+ DDK  ++Y    GC++ ATG V+ C+ D T C  TW P+
+Sbjct  46   TEEVCLSRPEISNTSLSGVYMDDKG-NKYVTIHGCIYEATGDVISCSNDSTHCSATWKPL  104
+
+
+> UniRef90_UPI0009442A0F UPI0009442A0F related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009442A0F
+Length=396
+
+ Score = 80.2 bits (196),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 23/60 (38%), Positives = 34/60 (57%), Gaps = 3/60 (5%)
+
+Query  3   TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATGV-VVCTGDETQCYGTWVPI  60
+           T E CL++    N S + V+KDDK  ++Y    GC++ ATGV ++C      C  TW P+
+Sbjct  28  TEEVCLSRPELSNVSLSGVYKDDKG-NKYVTIHGCIYEATGVAIICPDGTDSCTATWKPV  86
+
+
+> UniRef90_UPI0008FEF1BF UPI0008FEF1BF related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI0008FEF1BF
+Length=467
+
+ Score = 81.0 bits (198),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 23/60 (38%), Positives = 34/60 (57%), Gaps = 3/60 (5%)
+
+Query  3    TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATGV-VVCTGDETQCYGTWVPI  60
+            T E CL++    N S + V+KDDK  ++Y    GC++ ATGV ++C      C  TW P+
+Sbjct  46   TEEVCLSRPELSNVSLSGVYKDDKG-NKYVTIHGCIYEATGVAIICPDGTDSCTATWKPV  104
+
+
+> UniRef90_UPI0009435698 UPI0009435698 related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI0009435698
+Length=374
+
+ Score = 79.1 bits (193),  Expect = 8e-16, Method: Composition-based stats.
+ Identities = 24/60 (40%), Positives = 35/60 (58%), Gaps = 3/60 (5%)
+
+Query  3    TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG-VVVCTGDETQCYGTWVPI  60
+            T E CL++    N S + V+ DDK  ++Y    GC++ ATG V+ C+ D T C  TW P+
+Sbjct  46   TEEVCLSRPEISNTSLSGVYMDDK-GNKYVTIHGCIYEATGDVISCSNDSTHCSATWKPL  104
+
+
+> UniRef90_UPI000944FAD5 UPI000944FAD5 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000944FAD5
+Length=446
+
+ Score = 79.1 bits (193),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 24/60 (40%), Positives = 35/60 (58%), Gaps = 3/60 (5%)
+
+Query  3    TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG-VVVCTGDETQCYGTWVPI  60
+            T E CL++    N S + V+ DDK  ++Y    GC++ ATG V+ C+ D T C  TW P+
+Sbjct  46   TEEVCLSRPEISNTSLSGVYMDDK-GNKYVTIHGCIYEATGDVISCSNDSTHCSATWKPL  104
+
+
+> UniRef90_UPI000944AA8B UPI000944AA8B related cluster n=3 Tax=unknown 
+TaxID= RepID=UPI000944AA8B
+Length=418
+
+ Score = 77.5 bits (189),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 22/59 (37%), Positives = 33/59 (56%), Gaps = 2/59 (3%)
+
+Query  3    TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI  60
+            T E CL++    N S +  +KDD+  ++Y    GC++ ATGVV+C      C  TW P+
+Sbjct  46   TEEVCLSRPELSNVSLSGFYKDDEG-NQYVTIHGCIYKATGVVICPDGTDSCTATWKPV  103
+
+
+> UniRef90_UPI00094458DA UPI00094458DA related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00094458DA
+Length=474
+
+ Score = 72.9 bits (177),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 20/59 (34%), Positives = 32/59 (54%), Gaps = 2/59 (3%)
+
+Query  3    TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI  60
+            T E CL++    N S +  +KD++  ++Y    GC++ ATGVV+C      C   W P+
+Sbjct  46   TEEVCLSRPELSNVSLSGSYKDNEG-NQYVTIHGCIYKATGVVICPDGTDSCTANWKPV  103
+
+
+> UniRef90_UPI00092D3CD3 UPI00092D3CD3 related cluster n=2 Tax=Escherichia 
+coli TaxID=562 RepID=UPI00092D3CD3
+Length=313
+
+ Score = 71.4 bits (173),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 21/61 (34%), Positives = 32/61 (52%), Gaps = 4/61 (7%)
+
+Query  3   TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG--VVVCTGDETQCYGTWVP  59
+           T E CL++   +  +F  V+K D    RY N +GC++ ATG   +    D+T C   W P
+Sbjct  10  TDEICLSRPVLDGMTFPGVYKGDDGT-RYVNVQGCIYEATGNPFICNPDDDTVCTANWKP  68
+
+Query  60  I  60
+           +
+Sbjct  69  V  69
+
+
+> UniRef90_UPI000906F89E UPI000906F89E related cluster n=4 Tax=Escherichia 
+coli TaxID=562 RepID=UPI000906F89E
+Length=342
+
+ Score = 70.6 bits (171),  Expect = 8e-13, Method: Composition-based stats.
+ Identities = 21/61 (34%), Positives = 35/61 (57%), Gaps = 4/61 (7%)
+
+Query  3   TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG--VVVCTGDETQCYGTWVP  59
+           T E CL++   +  +F++V+K D    RY N +GC++ ATG  ++    D+T C   W P
+Sbjct  10  TDEICLSRPVLDGMTFSDVYKGDDGT-RYVNVQGCIYEATGNPLICNPDDDTVCTADWKP  68
+
+Query  60  I  60
+           +
+Sbjct  69  V  69
+
+
+> UniRef90_UPI0004D8DE42 UPI0004D8DE42 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0004D8DE42
+Length=332
+
+ Score = 70.2 bits (170),  Expect = 9e-13, Method: Composition-based stats.
+ Identities = 21/61 (34%), Positives = 35/61 (57%), Gaps = 4/61 (7%)
+
+Query  3   TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG--VVVCTGDETQCYGTWVP  59
+           T E CL++   +  +F++V+K D    RY N +GC++ ATG  ++    D+T C   W P
+Sbjct  10  TDEICLSRPVLDGMTFSDVYKGDDGT-RYVNVQGCIYEATGNPLICNPDDDTVCTADWKP  68
+
+Query  60  I  60
+           +
+Sbjct  69  V  69
+
+
+> UniRef90_UPI00092F4705 UPI00092F4705 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00092F4705
+Length=319
+
+ Score = 70.2 bits (170),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 21/61 (34%), Positives = 32/61 (52%), Gaps = 4/61 (7%)
+
+Query  3   TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG--VVVCTGDETQCYGTWVP  59
+           T E CL++   +  +F  V+K D    RY N +GC++ ATG   +    D+T C   W P
+Sbjct  10  TDEICLSRPVLDGMTFPGVYKGDDGT-RYVNVQGCIYEATGNPFICNPDDDTVCTANWKP  68
+
+Query  60  I  60
+           +
+Sbjct  69  V  69
+
+
+> UniRef90_UPI0004533441 UPI0004533441 related cluster n=3 Tax=Escherichia 
+coli TaxID=562 RepID=UPI0004533441
+Length=407
+
+ Score = 70.6 bits (171),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 21/61 (34%), Positives = 35/61 (57%), Gaps = 4/61 (7%)
+
+Query  3   TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG--VVVCTGDETQCYGTWVP  59
+           T E CL++   +  +F++V+K D    RY N +GC++ ATG  ++    D+T C   W P
+Sbjct  10  TDEICLSRPVLDGMTFSDVYKGDDGT-RYVNVQGCIYEATGNPLICNPDDDTVCTADWKP  68
+
+Query  60  I  60
+           +
+Sbjct  69  V  69
+
+
+> UniRef90_UPI00092D6A19 UPI00092D6A19 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00092D6A19
+Length=347
+
+ Score = 69.8 bits (169),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 21/61 (34%), Positives = 32/61 (52%), Gaps = 4/61 (7%)
+
+Query  3   TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG--VVVCTGDETQCYGTWVP  59
+           T E CL++   +  +F  V+K D    RY N +GC++ ATG   +    D+T C   W P
+Sbjct  10  TDEICLSRPVLDGMTFPGVYKGDDGT-RYVNVQGCIYEATGNPFICNPDDDTVCTANWKP  68
+
+Query  60  I  60
+           +
+Sbjct  69  V  69
+
+
+> UniRef90_A0A069XB47 Phage Coat Protein A family protein n=4 Tax=Escherichia 
+coli TaxID=562 RepID=A0A069XB47_ECOLX
+Length=445
+
+ Score = 69.0 bits (167),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 21/61 (34%), Positives = 32/61 (52%), Gaps = 4/61 (7%)
+
+Query  3    TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG--VVVCTGDETQCYGTWVP  59
+            T E CL++   +  +F  V+K D    RY N +GC++ ATG   +    D+T C   W P
+Sbjct  132  TDEICLSRPVLDGMTFPGVYKGDDGT-RYVNVQGCIYEATGNPFICNPDDDTVCTANWKP  190
+
+Query  60   I  60
+            +
+Sbjct  191  V  191
+
+
+> UniRef90_UPI00092D411A UPI00092D411A related cluster n=2 Tax=Escherichia 
+coli TaxID=562 RepID=UPI00092D411A
+Length=421
+
+ Score = 68.7 bits (166),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 21/61 (34%), Positives = 32/61 (52%), Gaps = 4/61 (7%)
+
+Query  3    TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG--VVVCTGDETQCYGTWVP  59
+            T E CL++   +  +F  V+K D    RY N +GC++ ATG   +    D+T C   W P
+Sbjct  132  TDEICLSRPVLDGMTFPGVYKGDDGT-RYVNVQGCIYEATGNPFICNPDDDTVCTANWKP  190
+
+Query  60   I  60
+            +
+Sbjct  191  V  191
+
+
+> UniRef90_UPI000698B22B hypothetical protein n=2 Tax=Escherichia 
+coli TaxID=562 RepID=UPI000698B22B
+Length=425
+
+ Score = 68.3 bits (165),  Expect = 9e-12, Method: Composition-based stats.
+ Identities = 21/61 (34%), Positives = 35/61 (57%), Gaps = 4/61 (7%)
+
+Query  3    TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG--VVVCTGDETQCYGTWVP  59
+            T E CL++   +  +F++V+K D    RY N +GC++ ATG  ++    D+T C   W P
+Sbjct  132  TDEICLSRPVLDGMTFSDVYKGDDGT-RYVNVQGCIYEATGNPLICNPDDDTVCTADWKP  190
+
+Query  60   I  60
+            +
+Sbjct  191  V  191
+
+
+> UniRef90_UPI0006902EFE hypothetical protein n=2 Tax=Escherichia 
+coli TaxID=562 RepID=UPI0006902EFE
+Length=451
+
+ Score = 68.3 bits (165),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 21/61 (34%), Positives = 35/61 (57%), Gaps = 4/61 (7%)
+
+Query  3    TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG--VVVCTGDETQCYGTWVP  59
+            T E CL++   +  +F++V+K D    RY N +GC++ ATG  ++    D+T C   W P
+Sbjct  132  TDEICLSRPVLDGMTFSDVYKGDDGT-RYVNVQGCIYEATGNPLICNPDDDTVCTADWKP  190
+
+Query  60   I  60
+            +
+Sbjct  191  V  191
+
+
+> UniRef90_A0A0K6A050 Phage Coat Protein A n=2 Tax=Escherichia 
+coli TaxID=562 RepID=A0A0K6A050_ECOLX
+Length=441
+
+ Score = 67.9 bits (164),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 21/61 (34%), Positives = 32/61 (52%), Gaps = 4/61 (7%)
+
+Query  3    TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG--VVVCTGDETQCYGTWVP  59
+            T E CL++   +  +F  V+K D    RY N +GC++ ATG   +    D+T C   W P
+Sbjct  132  TDEICLSRPVLDGMTFPGVYKGDDGT-RYVNVQGCIYEATGNPFICNPDDDTVCTANWKP  190
+
+Query  60   I  60
+            +
+Sbjct  191  V  191
+
+
+> UniRef90_UPI0005095159 hypothetical protein n=1 Tax=Arsenophonus 
+endosymbiont of Nilaparvata lugens TaxID=1247023 RepID=UPI0005095159
+Length=516
+
+ Score = 64.4 bits (155),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 19/63 (30%), Positives = 27/63 (43%), Gaps = 4/63 (6%)
+
+Query  1    AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATG-VVVCTGDETQCYGT-WV  58
+            +   E C  K     S + V     + +RY   +GC + ATG V++C      C  T W 
+Sbjct  168  STPEEICKKKPPLSGSQSGVRS--ISGERYIYVDGCEYIATGDVLICFDKSDICNATSWK  225
+
+Query  59   PIG  61
+            P G
+Sbjct  226  PTG  228
+
+
+> UniRef90_A0A1C7CS99 Uncharacterized protein n=2 Tax=Escherichia 
+coli TaxID=562 RepID=A0A1C7CS99_ECOLX
+Length=255
+
+ Score = 61.7 bits (148),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 15/38 (39%), Positives = 22/38 (58%), Gaps = 1/38 (3%)
+
+Query  24  DKTLDRYANYEGCLWNATG-VVVCTGDETQCYGTWVPI  60
+           D   ++Y    GC++ ATG V+ C+ D T C  TW P+
+Sbjct  2   DDKGNKYVTIHGCIYEATGDVISCSNDSTHCSATWKPL  39
+
+
+> UniRef90_A7ZLV9 Uncharacterized protein n=10 Tax=Escherichia 
+coli TaxID=562 RepID=A7ZLV9_ECO24
+Length=442
+
+ Score = 59.0 bits (141),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 18/64 (28%), Positives = 34/64 (53%), Gaps = 2/64 (3%)
+
+Query  2   ETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIG  61
+           E+ E+C+++   + S +  ++ D T   YA  +GC++ ATGV+V +         W+P+ 
+Sbjct  30  ESDEACISRPALQGSLSGAFRSDNTW--YAVVDGCIYMATGVIVGSETGDVAATNWIPVA  87
+
+Query  62  LAIP  65
+              P
+Sbjct  88  AYEP  91
+
+
+> UniRef90_D2U3R6 Putative uncharacterized protein n=1 Tax=Arsenophonus 
+nasoniae TaxID=638 RepID=D2U3R6_9GAMM
+Length=288
+
+ Score = 57.9 bits (138),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 22/61 (36%), Positives = 31/61 (51%), Gaps = 3/61 (5%)
+
+Query  4   VESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIGLA  63
+            + CLAK     +++N +K     D Y N+EGC + A GV+V  GD T     W P G  
+Sbjct  24  EKDCLAKPIEAKTYSNTYK--IGSDYYVNFEGCQYIAKGVIVGGGDGTI-AADWKPTGKV  80
+
+Query  64  I  64
+           +
+Sbjct  81  V  81
+
+
+> UniRef90_UPI0003F71DD9 hypothetical protein n=1 Tax=Arsenophonus 
+nasoniae TaxID=638 RepID=UPI0003F71DD9
+Length=365
+
+ Score = 57.9 bits (138),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 22/61 (36%), Positives = 31/61 (51%), Gaps = 3/61 (5%)
+
+Query  4    VESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIGLA  63
+             + CLAK     +++N +K     D Y N+EGC + A GV+V  GD T     W P G  
+Sbjct  101  EKDCLAKPIEAKTYSNTYK--IGSDYYVNFEGCQYIAKGVIVGGGDGTI-AADWKPTGKV  157
+
+Query  64   I  64
+            +
+Sbjct  158  V  158
+
+
+> UniRef90_UPI0006A5A816 phage coat protein n=2 Tax=Escherichia 
+coli TaxID=562 RepID=UPI0006A5A816
+Length=431
+
+ Score = 51.7 bits (122),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 17/65 (26%), Positives = 32/65 (49%), Gaps = 3/65 (5%)
+
+Query  2   ETVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI  60
+           E  E+C+++   +  + +  ++ D T   YA  +GC++ ATG V+   D       W+P+
+Sbjct  30  EADETCISRPALQGVTLSGAFRSDNTW--YAVLDGCIYEATGDVIVGSDSGTVLAYWIPV  87
+
+Query  61  GLAIP  65
+               P
+Sbjct  88  AAYEP  92
+
+
+> UniRef90_UPI0002CA205B phage Coat protein A family protein n=1 
+Tax=Escherichia coli TaxID=562 RepID=UPI0002CA205B
+Length=344
+
+ Score = 50.6 bits (119),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 17/65 (26%), Positives = 32/65 (49%), Gaps = 4/65 (6%)
+
+Query  2   ETVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI  60
+           E  E C+++   +  + +  ++ D T   YA  +GC++ ATGV+V +         W+P+
+Sbjct  30  EADEVCISRPALQGVTLSGAFRSDNTW--YAVLDGCIYRATGVIVGSETGDV-AADWIPV  86
+
+Query  61  GLAIP  65
+               P
+Sbjct  87  AAYEP  91
+
+
+> UniRef90_UPI00041B6D45 hypothetical protein n=1 Tax=Arsenophonus 
+nasoniae TaxID=638 RepID=UPI00041B6D45
+Length=542
+
+ Score = 48.6 bits (114),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 19/64 (30%), Positives = 27/64 (42%), Gaps = 4/64 (6%)
+
+Query  2    ETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATG-VVVCTGDETQCYGTWVPI  60
+               E C+ KS    SF   +      + YAN +GC + A   V++C      CY  W P 
+Sbjct  165  TPEEVCMNKSSISGSF---YTKKVGSNYYANVDGCEYIANDDVLLCGEKSGTCYAKWNPT  221
+
+Query  61   GLAI  64
+            G  +
+Sbjct  222  GKTV  225
+
+
+> UniRef90_UPI0007E9F5E2 UPI0007E9F5E2 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007E9F5E2
+Length=244
+
+ Score = 47.5 bits (111),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 19/65 (29%), Positives = 30/65 (46%), Gaps = 3/65 (5%)
+
+Query  2   ETVESCLAKSHTE-NSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI  60
+           E  E C+++      +    W+ D T   YA  +GC++ ATG V+  GD       W+P+
+Sbjct  26  EADEVCISRPALNFVTLFGAWRSDNTW--YAILDGCIYEATGNVIVGGDSGTVSANWIPV  83
+
+Query  61  GLAIP  65
+               P
+Sbjct  84  AAYEP  88
+
+
+> UniRef90_K8VZ46 Uncharacterized protein n=1 Tax=Providencia sneebia 
+DSM 19967 TaxID=1141660 RepID=K8VZ46_9GAMM
+Length=476
+
+ Score = 46.3 bits (108),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 18/62 (29%), Positives = 30/62 (48%), Gaps = 2/62 (3%)
+
+Query  4    VESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIGLA  63
+               C ++   +N   +  + D + +  ANYEGC + +T + V  GD       W P+G+A
+Sbjct  155  ENYCKSQPVLKNYSFSPARKDSSGNYVANYEGCKYESTSIGVIVGDRI--AADWRPVGVA  212
+
+Query  64   IP  65
+             P
+Sbjct  213  DP  214
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.125    0.398    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0383    0.140     1.90     42.6     43.6 
+
+Effective search space used: 445728047100
+Results from round 3
+
+
+Query= d1g3pa1
+
+Length=65
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P03661 Attachment protein G3P n=17 Tax=root TaxID=1 Re...  97.9    1e-22
+  UniRef90_UPI000530B303 attachment protein n=7 Tax=Enterobacteri...  96.7    4e-22
+  UniRef90_A0A0N8P2C2 Attachment protein (Fragment) n=2 Tax=Prote...  92.1    6e-21
+  UniRef90_A0A125X449 Phage Coat Protein A family protein n=9 Tax...  90.6    6e-20
+  UniRef90_UPI00046677C8 attachment protein n=2 Tax=Franconibacte...  90.6    6e-20
+  UniRef90_A0A0M2KIR4 Attachment protein n=1 Tax=Hafnia alvei Tax...  90.2    9e-20
+  UniRef90_F4N6M2 Attachment protein G3P n=15 Tax=Enterobacterale...  89.8    1e-19
+  UniRef90_A0A0V1YPM3 Attachment protein n=32 Tax=Enterobacterale...  88.3    6e-19
+  UniRef90_P03663 Attachment protein G3P n=3 Tax=Inovirus TaxID=1...  85.9    4e-18
+  UniRef90_A7ZLV9 Uncharacterized protein n=10 Tax=Escherichia co...  84.4    2e-17
+  UniRef90_UPI00092D3CD3 UPI00092D3CD3 related cluster n=2 Tax=Es...  81.7    5e-17
+  UniRef90_A0A127L4Q3 Coat protein A n=2 Tax=Enterobacter sp. FY-...  83.2    8e-17
+  UniRef90_UPI00092F4705 UPI00092F4705 related cluster n=1 Tax=un...  80.9    1e-16
+  UniRef90_UPI000906F89E UPI000906F89E related cluster n=4 Tax=Es...  80.5    1e-16
+  UniRef90_UPI0009442A0F UPI0009442A0F related cluster n=1 Tax=un...  80.5    3e-16
+  UniRef90_UPI00092D6A19 UPI00092D6A19 related cluster n=1 Tax=un...  79.8    3e-16
+  UniRef90_UPI000944AA8B UPI000944AA8B related cluster n=3 Tax=un...  80.9    3e-16
+  UniRef90_UPI0004D8DE42 UPI0004D8DE42 related cluster n=1 Tax=un...  79.8    3e-16
+  UniRef90_UPI0004533441 UPI0004533441 related cluster n=3 Tax=Es...  80.5    3e-16
+  UniRef90_UPI0008FEF1BF UPI0008FEF1BF related cluster n=2 Tax=un...  80.9    3e-16
+  UniRef90_O80297 Attachment protein G3P n=6 Tax=root TaxID=1 Rep...  80.2    5e-16
+  UniRef90_UPI00079BC034 UPI00079BC034 related cluster n=2 Tax=un...  79.8    7e-16
+  UniRef90_UPI00094264C2 UPI00094264C2 related cluster n=3 Tax=un...  79.0    1e-15
+  UniRef90_UPI000945C5DD UPI000945C5DD related cluster n=3 Tax=un...  79.0    1e-15
+  UniRef90_UPI00092D411A UPI00092D411A related cluster n=2 Tax=Es...  79.0    1e-15
+  UniRef90_A0A069XB47 Phage Coat Protein A family protein n=4 Tax...  79.0    1e-15
+  UniRef90_A0A0K6A050 Phage Coat Protein A n=2 Tax=Escherichia co...  79.0    2e-15
+  UniRef90_UPI0006A5A816 phage coat protein n=2 Tax=Escherichia c...  79.0    2e-15
+  UniRef90_UPI000943A86F UPI000943A86F related cluster n=1 Tax=un...  79.0    2e-15
+  UniRef90_UPI000698B22B hypothetical protein n=2 Tax=Escherichia...  77.9    3e-15
+  UniRef90_UPI0006902EFE hypothetical protein n=2 Tax=Escherichia...  77.9    3e-15
+  UniRef90_UPI0009435698 UPI0009435698 related cluster n=2 Tax=un...  76.3    8e-15
+  UniRef90_UPI000944FAD5 UPI000944FAD5 related cluster n=1 Tax=un...  76.3    1e-14
+  UniRef90_UPI00094458DA UPI00094458DA related cluster n=1 Tax=un...  76.3    1e-14
+  UniRef90_UPI0002CA205B phage Coat protein A family protein n=1 ...  75.2    2e-14
+  UniRef90_UPI0007E9F5E2 UPI0007E9F5E2 related cluster n=1 Tax=un...  73.2    3e-14
+  UniRef90_UPI0005095159 hypothetical protein n=1 Tax=Arsenophonu...  74.8    6e-14
+  UniRef90_D2U3R6 Putative uncharacterized protein n=1 Tax=Arseno...  69.8    1e-12
+  UniRef90_UPI00041B6D45 hypothetical protein n=1 Tax=Arsenophonu...  70.9    2e-12
+  UniRef90_UPI0003F71DD9 hypothetical protein n=1 Tax=Arsenophonu...  69.8    2e-12
+  UniRef90_K8VZ46 Uncharacterized protein n=1 Tax=Providencia sne...  69.4    4e-12
+  UniRef90_A0A1C7CS99 Uncharacterized protein n=2 Tax=Escherichia...  61.3    9e-10
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_P03661 Attachment protein G3P n=17 Tax=root TaxID=1 
+RepID=G3P_BPFD
+Length=424
+
+ Score = 97.9 bits (242),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 64/65 (98%), Positives = 64/65 (98%), Gaps = 0/65 (0%)
+
+Query  1   AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI  60
+           AETVESCLAK HTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI
+Sbjct  19  AETVESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI  78
+
+Query  61  GLAIP  65
+           GLAIP
+Sbjct  79  GLAIP  83
+
+
+> UniRef90_UPI000530B303 attachment protein n=7 Tax=Enterobacteriaceae 
+TaxID=543 RepID=UPI000530B303
+Length=426
+
+ Score = 96.7 bits (239),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 51/65 (78%), Positives = 53/65 (82%), Gaps = 0/65 (0%)
+
+Query  1   AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI  60
+           A T   C+AK   E S TNVWKDD+TLDRYANYEGCLWNATGVVVCTGDE QCYGTW PI
+Sbjct  17  AATDSECIAKPEFEASMTNVWKDDQTLDRYANYEGCLWNATGVVVCTGDENQCYGTWKPI  76
+
+Query  61  GLAIP  65
+           G AIP
+Sbjct  77  GAAIP  81
+
+
+> UniRef90_A0A0N8P2C2 Attachment protein (Fragment) n=2 Tax=Proteobacteria 
+TaxID=1224 RepID=A0A0N8P2C2_9PROT
+Length=272
+
+ Score = 92.1 bits (227),  Expect = 6e-21, Method: Composition-based stats.
+ Identities = 65/65 (100%), Positives = 65/65 (100%), Gaps = 0/65 (0%)
+
+Query  1   AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI  60
+           AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI
+Sbjct  19  AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI  78
+
+Query  61  GLAIP  65
+           GLAIP
+Sbjct  79  GLAIP  83
+
+
+> UniRef90_A0A125X449 Phage Coat Protein A family protein n=9 Tax=Escherichia 
+coli TaxID=562 RepID=A0A125X449_ECOLX
+Length=414
+
+ Score = 90.6 bits (223),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 28/62 (45%), Positives = 31/62 (50%), Gaps = 2/62 (3%)
+
+Query  2    ETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIG  61
+               E C AK   E  F NV+  D   DRY  Y GC + ATGV+VC  D T C  TW P G
+Sbjct  134  TPEEICEAKPPEEGVFNNVYSYD--GDRYIYYNGCEYEATGVIVCQSDSTVCAATWKPTG  191
+
+Query  62   LA  63
+              
+Sbjct  192  TV  193
+
+
+> UniRef90_UPI00046677C8 attachment protein n=2 Tax=Franconibacter 
+helveticus TaxID=357240 RepID=UPI00046677C8
+Length=404
+
+ Score = 90.6 bits (223),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 26/60 (43%), Positives = 33/60 (55%), Gaps = 2/60 (3%)
+
+Query  2    ETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIG  61
+               E C  K   +  F NV+ D  + +RY NY+GC + ATGV+VC  D T C  TW P G
+Sbjct  127  TPEEVCQTKQPEDGVFNNVFSD--SGNRYINYDGCEYEATGVIVCQSDGTVCAATWKPTG  184
+
+
+> UniRef90_A0A0M2KIR4 Attachment protein n=1 Tax=Hafnia alvei TaxID=569 
+RepID=A0A0M2KIR4_HAFAL
+Length=415
+
+ Score = 90.2 bits (222),  Expect = 9e-20, Method: Composition-based stats.
+ Identities = 28/65 (43%), Positives = 34/65 (52%), Gaps = 3/65 (5%)
+
+Query  2    ETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIG  61
+               E C AK      F NV+ D  + DRY  Y GC + ATGV+VC  D + C  TW P G
+Sbjct  134  TPEEICEAKPPENGVFNNVYSD--SGDRYIYYNGCEYEATGVIVCQSDGSVCAATWKPTG  191
+
+Query  62   -LAIP  65
+             +A P
+Sbjct  192  TVADP  196
+
+
+> UniRef90_F4N6M2 Attachment protein G3P n=15 Tax=Enterobacterales 
+TaxID=91347 RepID=F4N6M2_YEREN
+Length=413
+
+ Score = 89.8 bits (221),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 28/62 (45%), Positives = 30/62 (48%), Gaps = 2/62 (3%)
+
+Query  2    ETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIG  61
+               E C AK   E  F NV  D     RY  Y GC + ATGV+VC GD T C  TW P G
+Sbjct  134  TPEEICEAKPPEEGVFNNV--DSYDGGRYIYYNGCEYEATGVIVCQGDGTVCAATWKPTG  191
+
+Query  62   LA  63
+              
+Sbjct  192  AV  193
+
+
+> UniRef90_A0A0V1YPM3 Attachment protein n=32 Tax=Enterobacterales 
+TaxID=91347 RepID=A0A0V1YPM3_SALET
+Length=421
+
+ Score = 88.3 bits (217),  Expect = 6e-19, Method: Composition-based stats.
+ Identities = 30/65 (46%), Positives = 33/65 (51%), Gaps = 3/65 (5%)
+
+Query  2    ETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIG  61
+               E C AK   E  F NV  D     RY  Y GC + ATGV+VC GD T C  TW P G
+Sbjct  134  TPEEICEAKPPEEGVFNNV--DSYDGGRYIYYNGCEYEATGVIVCQGDGTVCAATWKPTG  191
+
+Query  62   -LAIP  65
+             +A P
+Sbjct  192  TVADP  196
+
+
+> UniRef90_P03663 Attachment protein G3P n=3 Tax=Inovirus TaxID=10861 
+RepID=G3P_BPIKE
+Length=434
+
+ Score = 85.9 bits (211),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 27/65 (42%), Positives = 33/65 (51%), Gaps = 3/65 (5%)
+
+Query  2    ETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPI  60
+               E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P 
+Sbjct  134  TPEEICEAKPPIDGVFNNVFKGDEGG-FYINYNGCEYEATGVTVCQNDGTVCSSSAWKPT  192
+
+Query  61   GLAIP  65
+            G  +P
+Sbjct  193  G-YVP  196
+
+
+> UniRef90_A7ZLV9 Uncharacterized protein n=10 Tax=Escherichia 
+coli TaxID=562 RepID=A7ZLV9_ECO24
+Length=442
+
+ Score = 84.4 bits (207),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 18/65 (28%), Positives = 34/65 (52%), Gaps = 2/65 (3%)
+
+Query  1   AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI  60
+            E+ E+C+++   + S +  ++ D T   YA  +GC++ ATGV+V +         W+P+
+Sbjct  29  TESDEACISRPALQGSLSGAFRSDNTW--YAVVDGCIYMATGVIVGSETGDVAATNWIPV  86
+
+Query  61  GLAIP  65
+               P
+Sbjct  87  AAYEP  91
+
+
+> UniRef90_UPI00092D3CD3 UPI00092D3CD3 related cluster n=2 Tax=Escherichia 
+coli TaxID=562 RepID=UPI00092D3CD3
+Length=313
+
+ Score = 81.7 bits (200),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 21/63 (33%), Positives = 33/63 (52%), Gaps = 4/63 (6%)
+
+Query  3   TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG--VVVCTGDETQCYGTWVP  59
+           T E CL++   +  +F  V+K D    RY N +GC++ ATG   +    D+T C   W P
+Sbjct  10  TDEICLSRPVLDGMTFPGVYKGDDGT-RYVNVQGCIYEATGNPFICNPDDDTVCTANWKP  68
+
+Query  60  IGL  62
+           + +
+Sbjct  69  VAV  71
+
+
+> UniRef90_A0A127L4Q3 Coat protein A n=2 Tax=Enterobacter sp. FY-07 
+TaxID=1692238 RepID=A0A127L4Q3_9ENTR
+Length=547
+
+ Score = 83.2 bits (204),  Expect = 8e-17, Method: Composition-based stats.
+ Identities = 23/62 (37%), Positives = 32/62 (52%), Gaps = 6/62 (10%)
+
+Query  2    ETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIG  61
+               + C AK   +N+F NV       + +  Y+GC + ATGV+VC  D+T C  TW P G
+Sbjct  269  TPEQICKAKPSIQNTFNNV------SEGFIYYQGCEYEATGVIVCRNDKTVCSATWKPTG  322
+
+Query  62   LA  63
+              
+Sbjct  323  TV  324
+
+
+> UniRef90_UPI00092F4705 UPI00092F4705 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00092F4705
+Length=319
+
+ Score = 80.9 bits (198),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 21/63 (33%), Positives = 33/63 (52%), Gaps = 4/63 (6%)
+
+Query  3   TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG--VVVCTGDETQCYGTWVP  59
+           T E CL++   +  +F  V+K D    RY N +GC++ ATG   +    D+T C   W P
+Sbjct  10  TDEICLSRPVLDGMTFPGVYKGDDGT-RYVNVQGCIYEATGNPFICNPDDDTVCTANWKP  68
+
+Query  60  IGL  62
+           + +
+Sbjct  69  VAV  71
+
+
+> UniRef90_UPI000906F89E UPI000906F89E related cluster n=4 Tax=Escherichia 
+coli TaxID=562 RepID=UPI000906F89E
+Length=342
+
+ Score = 80.5 bits (197),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 21/63 (33%), Positives = 36/63 (57%), Gaps = 4/63 (6%)
+
+Query  3   TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG--VVVCTGDETQCYGTWVP  59
+           T E CL++   +  +F++V+K D    RY N +GC++ ATG  ++    D+T C   W P
+Sbjct  10  TDEICLSRPVLDGMTFSDVYKGDDGT-RYVNVQGCIYEATGNPLICNPDDDTVCTADWKP  68
+
+Query  60  IGL  62
+           + +
+Sbjct  69  VAV  71
+
+
+> UniRef90_UPI0009442A0F UPI0009442A0F related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009442A0F
+Length=396
+
+ Score = 80.5 bits (197),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 23/60 (38%), Positives = 34/60 (57%), Gaps = 3/60 (5%)
+
+Query  3   TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATGV-VVCTGDETQCYGTWVPI  60
+           T E CL++    N S + V+KDDK  ++Y    GC++ ATGV ++C      C  TW P+
+Sbjct  28  TEEVCLSRPELSNVSLSGVYKDDKG-NKYVTIHGCIYEATGVAIICPDGTDSCTATWKPV  86
+
+
+> UniRef90_UPI00092D6A19 UPI00092D6A19 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00092D6A19
+Length=347
+
+ Score = 79.8 bits (195),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 21/63 (33%), Positives = 33/63 (52%), Gaps = 4/63 (6%)
+
+Query  3   TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG--VVVCTGDETQCYGTWVP  59
+           T E CL++   +  +F  V+K D    RY N +GC++ ATG   +    D+T C   W P
+Sbjct  10  TDEICLSRPVLDGMTFPGVYKGDDGT-RYVNVQGCIYEATGNPFICNPDDDTVCTANWKP  68
+
+Query  60  IGL  62
+           + +
+Sbjct  69  VAV  71
+
+
+> UniRef90_UPI000944AA8B UPI000944AA8B related cluster n=3 Tax=unknown 
+TaxID= RepID=UPI000944AA8B
+Length=418
+
+ Score = 80.9 bits (198),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 19/58 (33%), Positives = 29/58 (50%), Gaps = 0/58 (0%)
+
+Query  3    TVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI  60
+            T E CL++    N   + +  D   ++Y    GC++ ATGVV+C      C  TW P+
+Sbjct  46   TEEVCLSRPELSNVSLSGFYKDDEGNQYVTIHGCIYKATGVVICPDGTDSCTATWKPV  103
+
+
+> UniRef90_UPI0004D8DE42 UPI0004D8DE42 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0004D8DE42
+Length=332
+
+ Score = 79.8 bits (195),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 21/63 (33%), Positives = 36/63 (57%), Gaps = 4/63 (6%)
+
+Query  3   TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG--VVVCTGDETQCYGTWVP  59
+           T E CL++   +  +F++V+K D    RY N +GC++ ATG  ++    D+T C   W P
+Sbjct  10  TDEICLSRPVLDGMTFSDVYKGDDGT-RYVNVQGCIYEATGNPLICNPDDDTVCTADWKP  68
+
+Query  60  IGL  62
+           + +
+Sbjct  69  VAV  71
+
+
+> UniRef90_UPI0004533441 UPI0004533441 related cluster n=3 Tax=Escherichia 
+coli TaxID=562 RepID=UPI0004533441
+Length=407
+
+ Score = 80.5 bits (197),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 21/63 (33%), Positives = 36/63 (57%), Gaps = 4/63 (6%)
+
+Query  3   TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG--VVVCTGDETQCYGTWVP  59
+           T E CL++   +  +F++V+K D    RY N +GC++ ATG  ++    D+T C   W P
+Sbjct  10  TDEICLSRPVLDGMTFSDVYKGDDGT-RYVNVQGCIYEATGNPLICNPDDDTVCTADWKP  68
+
+Query  60  IGL  62
+           + +
+Sbjct  69  VAV  71
+
+
+> UniRef90_UPI0008FEF1BF UPI0008FEF1BF related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI0008FEF1BF
+Length=467
+
+ Score = 80.9 bits (198),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 23/60 (38%), Positives = 34/60 (57%), Gaps = 3/60 (5%)
+
+Query  3    TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATGV-VVCTGDETQCYGTWVPI  60
+            T E CL++    N S + V+KDDK  ++Y    GC++ ATGV ++C      C  TW P+
+Sbjct  46   TEEVCLSRPELSNVSLSGVYKDDKG-NKYVTIHGCIYEATGVAIICPDGTDSCTATWKPV  104
+
+
+> UniRef90_O80297 Attachment protein G3P n=6 Tax=root TaxID=1 RepID=G3P_BPIF1
+Length=460
+
+ Score = 80.2 bits (196),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 22/63 (35%), Positives = 37/63 (59%), Gaps = 2/63 (3%)
+
+Query  1   AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI  60
+           A T   CL+K   + + +NVWK+  +  RYAN+E C++  +G+ +   ++T C G W P+
+Sbjct  17  ATTDAECLSKPAFDGTLSNVWKEGDS--RYANFENCIYELSGIGIGYDNDTSCNGHWTPV  74
+
+Query  61  GLA  63
+             A
+Sbjct  75  RAA  77
+
+
+> UniRef90_UPI00079BC034 UPI00079BC034 related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI00079BC034
+Length=410
+
+ Score = 79.8 bits (195),  Expect = 7e-16, Method: Composition-based stats.
+ Identities = 24/62 (39%), Positives = 31/62 (50%), Gaps = 6/62 (10%)
+
+Query  2    ETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIG  61
+               + C AK   +N F NV       + Y  Y+GC + ATGV+VC  D+T C  TW P G
+Sbjct  135  TPEQICKAKPTIDNVFNNV------SEGYIYYQGCEYEATGVIVCQNDKTICAATWKPTG  188
+
+Query  62   LA  63
+              
+Sbjct  189  TV  190
+
+
+> UniRef90_UPI00094264C2 UPI00094264C2 related cluster n=3 Tax=unknown 
+TaxID= RepID=UPI00094264C2
+Length=383
+
+ Score = 79.0 bits (193),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 23/60 (38%), Positives = 35/60 (58%), Gaps = 3/60 (5%)
+
+Query  3    TVESCLAKSHTENS-FTNVWKDDKTLDRYANYEGCLWNATG-VVVCTGDETQCYGTWVPI  60
+            T E CL++    N+  + V+ DDK  ++Y    GC++ ATG V+ C+ D T C  TW P+
+Sbjct  46   TEEVCLSRPEISNTSLSGVYMDDKG-NKYVTIHGCIYEATGDVISCSNDSTHCSATWKPL  104
+
+
+> UniRef90_UPI000945C5DD UPI000945C5DD related cluster n=3 Tax=unknown 
+TaxID= RepID=UPI000945C5DD
+Length=410
+
+ Score = 79.0 bits (193),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 23/60 (38%), Positives = 35/60 (58%), Gaps = 3/60 (5%)
+
+Query  3    TVESCLAKSHTENS-FTNVWKDDKTLDRYANYEGCLWNATG-VVVCTGDETQCYGTWVPI  60
+            T E CL++    N+  + V+ DDK  ++Y    GC++ ATG V+ C+ D T C  TW P+
+Sbjct  46   TEEVCLSRPEISNTSLSGVYMDDKG-NKYVTIHGCIYEATGDVISCSNDSTHCSATWKPL  104
+
+
+> UniRef90_UPI00092D411A UPI00092D411A related cluster n=2 Tax=Escherichia 
+coli TaxID=562 RepID=UPI00092D411A
+Length=421
+
+ Score = 79.0 bits (193),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 21/63 (33%), Positives = 33/63 (52%), Gaps = 4/63 (6%)
+
+Query  3    TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG--VVVCTGDETQCYGTWVP  59
+            T E CL++   +  +F  V+K D    RY N +GC++ ATG   +    D+T C   W P
+Sbjct  132  TDEICLSRPVLDGMTFPGVYKGDDGT-RYVNVQGCIYEATGNPFICNPDDDTVCTANWKP  190
+
+Query  60   IGL  62
+            + +
+Sbjct  191  VAV  193
+
+
+> UniRef90_A0A069XB47 Phage Coat Protein A family protein n=4 Tax=Escherichia 
+coli TaxID=562 RepID=A0A069XB47_ECOLX
+Length=445
+
+ Score = 79.0 bits (193),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 21/63 (33%), Positives = 33/63 (52%), Gaps = 4/63 (6%)
+
+Query  3    TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG--VVVCTGDETQCYGTWVP  59
+            T E CL++   +  +F  V+K D    RY N +GC++ ATG   +    D+T C   W P
+Sbjct  132  TDEICLSRPVLDGMTFPGVYKGDDGT-RYVNVQGCIYEATGNPFICNPDDDTVCTANWKP  190
+
+Query  60   IGL  62
+            + +
+Sbjct  191  VAV  193
+
+
+> UniRef90_A0A0K6A050 Phage Coat Protein A n=2 Tax=Escherichia 
+coli TaxID=562 RepID=A0A0K6A050_ECOLX
+Length=441
+
+ Score = 79.0 bits (193),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 21/63 (33%), Positives = 33/63 (52%), Gaps = 4/63 (6%)
+
+Query  3    TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG--VVVCTGDETQCYGTWVP  59
+            T E CL++   +  +F  V+K D    RY N +GC++ ATG   +    D+T C   W P
+Sbjct  132  TDEICLSRPVLDGMTFPGVYKGDDGT-RYVNVQGCIYEATGNPFICNPDDDTVCTANWKP  190
+
+Query  60   IGL  62
+            + +
+Sbjct  191  VAV  193
+
+
+> UniRef90_UPI0006A5A816 phage coat protein n=2 Tax=Escherichia 
+coli TaxID=562 RepID=UPI0006A5A816
+Length=431
+
+ Score = 79.0 bits (193),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 17/66 (26%), Positives = 32/66 (48%), Gaps = 3/66 (5%)
+
+Query  1   AETVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVP  59
+            E  E+C+++   +  + +  ++ D T   YA  +GC++ ATG V+   D       W+P
+Sbjct  29  TEADETCISRPALQGVTLSGAFRSDNTW--YAVLDGCIYEATGDVIVGSDSGTVLAYWIP  86
+
+Query  60  IGLAIP  65
+           +    P
+Sbjct  87  VAAYEP  92
+
+
+> UniRef90_UPI000943A86F UPI000943A86F related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000943A86F
+Length=442
+
+ Score = 79.0 bits (193),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 23/60 (38%), Positives = 35/60 (58%), Gaps = 3/60 (5%)
+
+Query  3    TVESCLAKSHTENS-FTNVWKDDKTLDRYANYEGCLWNATG-VVVCTGDETQCYGTWVPI  60
+            T E CL++    N+  + V+ DDK  ++Y    GC++ ATG V+ C+ D T C  TW P+
+Sbjct  46   TEEVCLSRPEISNTSLSGVYMDDKG-NKYVTIHGCIYEATGDVISCSNDSTHCSATWKPL  104
+
+
+> UniRef90_UPI000698B22B hypothetical protein n=2 Tax=Escherichia 
+coli TaxID=562 RepID=UPI000698B22B
+Length=425
+
+ Score = 77.9 bits (190),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 21/63 (33%), Positives = 36/63 (57%), Gaps = 4/63 (6%)
+
+Query  3    TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG--VVVCTGDETQCYGTWVP  59
+            T E CL++   +  +F++V+K D    RY N +GC++ ATG  ++    D+T C   W P
+Sbjct  132  TDEICLSRPVLDGMTFSDVYKGDDGT-RYVNVQGCIYEATGNPLICNPDDDTVCTADWKP  190
+
+Query  60   IGL  62
+            + +
+Sbjct  191  VAV  193
+
+
+> UniRef90_UPI0006902EFE hypothetical protein n=2 Tax=Escherichia 
+coli TaxID=562 RepID=UPI0006902EFE
+Length=451
+
+ Score = 77.9 bits (190),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 21/63 (33%), Positives = 36/63 (57%), Gaps = 4/63 (6%)
+
+Query  3    TVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATG--VVVCTGDETQCYGTWVP  59
+            T E CL++   +  +F++V+K D    RY N +GC++ ATG  ++    D+T C   W P
+Sbjct  132  TDEICLSRPVLDGMTFSDVYKGDDGT-RYVNVQGCIYEATGNPLICNPDDDTVCTADWKP  190
+
+Query  60   IGL  62
+            + +
+Sbjct  191  VAV  193
+
+
+> UniRef90_UPI0009435698 UPI0009435698 related cluster n=2 Tax=unknown 
+TaxID= RepID=UPI0009435698
+Length=374
+
+ Score = 76.3 bits (186),  Expect = 8e-15, Method: Composition-based stats.
+ Identities = 23/60 (38%), Positives = 35/60 (58%), Gaps = 3/60 (5%)
+
+Query  3    TVESCLAKSHTENS-FTNVWKDDKTLDRYANYEGCLWNATG-VVVCTGDETQCYGTWVPI  60
+            T E CL++    N+  + V+ DDK  ++Y    GC++ ATG V+ C+ D T C  TW P+
+Sbjct  46   TEEVCLSRPEISNTSLSGVYMDDKG-NKYVTIHGCIYEATGDVISCSNDSTHCSATWKPL  104
+
+
+> UniRef90_UPI000944FAD5 UPI000944FAD5 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000944FAD5
+Length=446
+
+ Score = 76.3 bits (186),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 23/60 (38%), Positives = 35/60 (58%), Gaps = 3/60 (5%)
+
+Query  3    TVESCLAKSHTENS-FTNVWKDDKTLDRYANYEGCLWNATG-VVVCTGDETQCYGTWVPI  60
+            T E CL++    N+  + V+ DDK  ++Y    GC++ ATG V+ C+ D T C  TW P+
+Sbjct  46   TEEVCLSRPEISNTSLSGVYMDDKG-NKYVTIHGCIYEATGDVISCSNDSTHCSATWKPL  104
+
+
+> UniRef90_UPI00094458DA UPI00094458DA related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00094458DA
+Length=474
+
+ Score = 76.3 bits (186),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 18/58 (31%), Positives = 27/58 (47%), Gaps = 0/58 (0%)
+
+Query  3    TVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPI  60
+            T E CL++    N   +    D   ++Y    GC++ ATGVV+C      C   W P+
+Sbjct  46   TEEVCLSRPELSNVSLSGSYKDNEGNQYVTIHGCIYKATGVVICPDGTDSCTANWKPV  103
+
+
+> UniRef90_UPI0002CA205B phage Coat protein A family protein n=1 
+Tax=Escherichia coli TaxID=562 RepID=UPI0002CA205B
+Length=344
+
+ Score = 75.2 bits (183),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 17/66 (26%), Positives = 32/66 (48%), Gaps = 4/66 (6%)
+
+Query  1   AETVESCLAKSHTEN-SFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVP  59
+            E  E C+++   +  + +  ++ D T   YA  +GC++ ATGV+V +         W+P
+Sbjct  29  TEADEVCISRPALQGVTLSGAFRSDNTW--YAVLDGCIYRATGVIVGSETGDV-AADWIP  85
+
+Query  60  IGLAIP  65
+           +    P
+Sbjct  86  VAAYEP  91
+
+
+> UniRef90_UPI0007E9F5E2 UPI0007E9F5E2 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0007E9F5E2
+Length=244
+
+ Score = 73.2 bits (178),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 19/66 (29%), Positives = 30/66 (45%), Gaps = 3/66 (5%)
+
+Query  1   AETVESCLAKSHTE-NSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVP  59
+            E  E C+++      +    W+ D T   YA  +GC++ ATG V+  GD       W+P
+Sbjct  25  TEADEVCISRPALNFVTLFGAWRSDNTW--YAILDGCIYEATGNVIVGGDSGTVSANWIP  82
+
+Query  60  IGLAIP  65
+           +    P
+Sbjct  83  VAAYEP  88
+
+
+> UniRef90_UPI0005095159 hypothetical protein n=1 Tax=Arsenophonus 
+endosymbiont of Nilaparvata lugens TaxID=1247023 RepID=UPI0005095159
+Length=516
+
+ Score = 74.8 bits (182),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 19/63 (30%), Positives = 27/63 (43%), Gaps = 4/63 (6%)
+
+Query  1    AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATG-VVVCTGDETQCYGT-WV  58
+            +   E C  K     S + V     + +RY   +GC + ATG V++C      C  T W 
+Sbjct  168  STPEEICKKKPPLSGSQSGVRS--ISGERYIYVDGCEYIATGDVLICFDKSDICNATSWK  225
+
+Query  59   PIG  61
+            P G
+Sbjct  226  PTG  228
+
+
+> UniRef90_D2U3R6 Putative uncharacterized protein n=1 Tax=Arsenophonus 
+nasoniae TaxID=638 RepID=D2U3R6_9GAMM
+Length=288
+
+ Score = 69.8 bits (169),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 22/61 (36%), Positives = 31/61 (51%), Gaps = 3/61 (5%)
+
+Query  4   VESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIGLA  63
+            + CLAK     +++N +K     D Y N+EGC + A GV+V  GD T     W P G  
+Sbjct  24  EKDCLAKPIEAKTYSNTYK--IGSDYYVNFEGCQYIAKGVIVGGGDGTI-AADWKPTGKV  80
+
+Query  64  I  64
+           +
+Sbjct  81  V  81
+
+
+> UniRef90_UPI00041B6D45 hypothetical protein n=1 Tax=Arsenophonus 
+nasoniae TaxID=638 RepID=UPI00041B6D45
+Length=542
+
+ Score = 70.9 bits (172),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 19/64 (30%), Positives = 27/64 (42%), Gaps = 4/64 (6%)
+
+Query  2    ETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNAT-GVVVCTGDETQCYGTWVPI  60
+               E C+ KS    SF   +      + YAN +GC + A   V++C      CY  W P 
+Sbjct  165  TPEEVCMNKSSISGSF---YTKKVGSNYYANVDGCEYIANDDVLLCGEKSGTCYAKWNPT  221
+
+Query  61   GLAI  64
+            G  +
+Sbjct  222  GKTV  225
+
+
+> UniRef90_UPI0003F71DD9 hypothetical protein n=1 Tax=Arsenophonus 
+nasoniae TaxID=638 RepID=UPI0003F71DD9
+Length=365
+
+ Score = 69.8 bits (169),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 22/61 (36%), Positives = 31/61 (51%), Gaps = 3/61 (5%)
+
+Query  4    VESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIGLA  63
+             + CLAK     +++N +K     D Y N+EGC + A GV+V  GD T     W P G  
+Sbjct  101  EKDCLAKPIEAKTYSNTYK--IGSDYYVNFEGCQYIAKGVIVGGGDGTI-AADWKPTGKV  157
+
+Query  64   I  64
+            +
+Sbjct  158  V  158
+
+
+> UniRef90_K8VZ46 Uncharacterized protein n=1 Tax=Providencia sneebia 
+DSM 19967 TaxID=1141660 RepID=K8VZ46_9GAMM
+Length=476
+
+ Score = 69.4 bits (168),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 18/62 (29%), Positives = 30/62 (48%), Gaps = 2/62 (3%)
+
+Query  4    VESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGTWVPIGLA  63
+               C ++   +N   +  + D + +  ANYEGC + +T + V  GD       W P+G+A
+Sbjct  155  ENYCKSQPVLKNYSFSPARKDSSGNYVANYEGCKYESTSIGVIVGDRI--AADWRPVGVA  212
+
+Query  64   IP  65
+             P
+Sbjct  213  DP  214
+
+
+> UniRef90_A0A1C7CS99 Uncharacterized protein n=2 Tax=Escherichia 
+coli TaxID=562 RepID=A0A1C7CS99_ECOLX
+Length=255
+
+ Score = 61.3 bits (147),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 15/38 (39%), Positives = 22/38 (58%), Gaps = 1/38 (3%)
+
+Query  24  DKTLDRYANYEGCLWNATG-VVVCTGDETQCYGTWVPI  60
+           D   ++Y    GC++ ATG V+ C+ D T C  TW P+
+Sbjct  2   DDKGNKYVTIHGCIYEATGDVISCSNDSTHCSATWKPL  39
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.129    0.398    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0379    0.140     1.90     42.6     43.6 
+
+Effective search space used: 445728047100
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

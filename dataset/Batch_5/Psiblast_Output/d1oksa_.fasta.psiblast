@@ -1,0 +1,693 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1oksa_
+
+Length=53
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P35974 Phosphoprotein n=355 Tax=Measles virus TaxID=11...  100     3e-23
+  UniRef90_Q9YZA0 P n=4 Tax=Rinderpest virus TaxID=11241 RepID=Q9...  75.9    2e-14
+  UniRef90_Q03335 Phosphoprotein n=3 Tax=Rinderpest virus TaxID=1...  75.9    2e-14
+  UniRef90_F7IX88 P protein n=1 Tax=Rinderpest virus TaxID=11241 ...  74.3    6e-14
+  UniRef90_Q91QS4 Phosphoprotein n=34 Tax=Peste-des-petits-rumina...  63.5    4e-10
+  UniRef90_A0A076V8D2 Phosphoprotein n=13 Tax=Peste-des-petits-ru...  63.2    5e-10
+  UniRef90_A0A0D4D8I0 Phosphoprotein n=2 Tax=Peste-des-petits-rum...  62.8    7e-10
+  UniRef90_A0A088DBX0 Phosphoprotein n=9 Tax=Peste-des-petits-rum...  62.4    1e-09
+  UniRef90_Q66415 Structural protein n=10 Tax=Cetacean morbillivi...  55.8    2e-07
+  UniRef90_A0A141R8A9 Phosphoprotein n=2 Tax=Feline morbillivirus...  45.8    6e-04
+  UniRef90_A0A140G8Z5 Phosphoprotein n=7 Tax=Feline morbillivirus...  45.4    6e-04
+  UniRef90_A0A097ZJ45 Phosphoprotein n=2 Tax=Feline morbillivirus...  44.3    0.002
+  UniRef90_P35939 Phosphoprotein n=6 Tax=Phocine distemper virus ...  43.9    0.002
+  UniRef90_D1MWR6 Phosphoprotein n=7 Tax=Canine distemper virus T...  43.1    0.005
+  UniRef90_P06940 Phosphoprotein n=129 Tax=Canine distemper virus...  42.7    0.006
+
+
+> UniRef90_P35974 Phosphoprotein n=355 Tax=Measles virus TaxID=11234 
+RepID=PHOSP_MEASA
+Length=507
+
+ Score = 100 bits (248),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 48/49 (98%), Positives = 49/49 (100%), Gaps = 0/49 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKIIMK  49
+            ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQML+KIIMK
+Sbjct  459  ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLMKIIMK  507
+
+
+> UniRef90_Q9YZA0 P n=4 Tax=Rinderpest virus TaxID=11241 RepID=Q9YZA0_9MONO
+Length=507
+
+ Score = 75.9 bits (185),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 37/47 (79%), Positives = 41/47 (87%), Gaps = 0/47 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKII  47
+            ASRSVIRSIIKSS L EDRK YLM LL+DI+G+ DLA+FHQML KII
+Sbjct  459  ASRSVIRSIIKSSHLGEDRKNYLMGLLNDIQGSKDLAQFHQMLAKII  505
+
+
+> UniRef90_Q03335 Phosphoprotein n=3 Tax=Rinderpest virus TaxID=11241 
+RepID=PHOSP_RINDR
+Length=507
+
+ Score = 75.9 bits (185),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 37/47 (79%), Positives = 43/47 (91%), Gaps = 0/47 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKII  47
+            ASRSVIRSIIKSS L EDRK YLM+LL+DI+G+ DLA+FHQMLVKI+
+Sbjct  459  ASRSVIRSIIKSSHLGEDRKDYLMSLLNDIQGSKDLAQFHQMLVKIL  505
+
+
+> UniRef90_F7IX88 P protein n=1 Tax=Rinderpest virus TaxID=11241 
+RepID=F7IX88_9MONO
+Length=507
+
+ Score = 74.3 bits (181),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 36/47 (77%), Positives = 41/47 (87%), Gaps = 0/47 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKII  47
+            ASRSVIRSIIK+S L EDRK YLM LL+DI+G+ DLA+FHQML KII
+Sbjct  459  ASRSVIRSIIKASHLGEDRKNYLMGLLNDIQGSKDLAQFHQMLAKII  505
+
+
+> UniRef90_Q91QS4 Phosphoprotein n=34 Tax=Peste-des-petits-ruminants 
+virus TaxID=31604 RepID=Q91QS4_PPRV
+Length=509
+
+ Score = 63.5 bits (153),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 30/50 (60%), Positives = 39/50 (78%), Gaps = 0/50 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKIIMKH  50
+            +SRSVIRSIIKSS+L  D K YL+ LL+D+KG+ DL +FH+ML  I+ K 
+Sbjct  459  SSRSVIRSIIKSSKLNIDHKDYLLDLLNDVKGSKDLKEFHKMLTAILAKQ  508
+
+
+> UniRef90_A0A076V8D2 Phosphoprotein n=13 Tax=Peste-des-petits-ruminants 
+virus TaxID=31604 RepID=A0A076V8D2_PPRV
+Length=509
+
+ Score = 63.2 bits (152),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 30/50 (60%), Positives = 39/50 (78%), Gaps = 0/50 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKIIMKH  50
+            +SRSVIRSIIKSS+L  D K YL+ LL+D+KG+ DL +FH+ML  I+ K 
+Sbjct  459  SSRSVIRSIIKSSKLNIDHKDYLLDLLNDVKGSKDLKEFHKMLTAILAKQ  508
+
+
+> UniRef90_A0A0D4D8I0 Phosphoprotein n=2 Tax=Peste-des-petits-ruminants 
+virus TaxID=31604 RepID=A0A0D4D8I0_PPRV
+Length=509
+
+ Score = 62.8 bits (151),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 30/50 (60%), Positives = 39/50 (78%), Gaps = 0/50 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKIIMKH  50
+            +SRSVIRSIIKSS+L  D K YL+ LL+D+KG+ DL +FH+ML  I+ K 
+Sbjct  459  SSRSVIRSIIKSSKLNIDHKDYLLDLLNDVKGSKDLKEFHKMLTTILAKQ  508
+
+
+> UniRef90_A0A088DBX0 Phosphoprotein n=9 Tax=Peste-des-petits-ruminants 
+virus TaxID=31604 RepID=A0A088DBX0_PPRV
+Length=509
+
+ Score = 62.4 bits (150),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 30/50 (60%), Positives = 39/50 (78%), Gaps = 0/50 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKIIMKH  50
+            +SRSVIRSIIKSS+L  D K YL+ LL+D+KG+ DL +FH+ML  I+ K 
+Sbjct  459  SSRSVIRSIIKSSKLNIDHKDYLLDLLNDVKGSKDLKEFHKMLTAILAKQ  508
+
+
+> UniRef90_Q66415 Structural protein n=10 Tax=Cetacean morbillivirus 
+TaxID=36410 RepID=Q66415_9MONO
+Length=506
+
+ Score = 55.8 bits (133),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 26/46 (57%), Positives = 36/46 (78%), Gaps = 0/46 (0%)
+
+Query  2    SRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKII  47
+            SRSV+RS+IKSS LE + KR ++ LL+D+K   DL +F+QM+ KII
+Sbjct  460  SRSVLRSMIKSSNLESEHKRSMIGLLNDVKSGKDLGEFYQMVKKII  505
+
+
+> UniRef90_A0A141R8A9 Phosphoprotein n=2 Tax=Feline morbillivirus 
+TaxID=1170234 RepID=A0A141R8A9_9MONO
+Length=491
+
+ Score = 45.8 bits (107),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 21/47 (45%), Positives = 36/47 (77%), Gaps = 0/47 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKII  47
+            AS S IRSII+SS L++D K  L+T+L  I+GA+++ +F++ ++ +I
+Sbjct  441  ASTSTIRSIIRSSNLDQDLKTKLLTILSQIRGADNIREFYEKVMILI  487
+
+
+> UniRef90_A0A140G8Z5 Phosphoprotein n=7 Tax=Feline morbillivirus 
+TaxID=1170234 RepID=A0A140G8Z5_9MONO
+Length=491
+
+ Score = 45.4 bits (106),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 21/47 (45%), Positives = 35/47 (74%), Gaps = 0/47 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKII  47
+            AS S IRSII+SS L++D K  L+T+L  I+G N++ +F++ ++ +I
+Sbjct  441  ASISTIRSIIRSSNLDQDLKTKLLTILSQIRGTNNIKEFYEKVMILI  487
+
+
+> UniRef90_A0A097ZJ45 Phosphoprotein n=2 Tax=Feline morbillivirus 
+TaxID=1170234 RepID=A0A097ZJ45_9MONO
+Length=491
+
+ Score = 44.3 bits (103),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 20/47 (43%), Positives = 35/47 (74%), Gaps = 0/47 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKII  47
+            AS S IRSII+SS L++D K  L+T+L  I+G +++ +F++ ++ +I
+Sbjct  441  ASTSTIRSIIRSSNLDQDLKTKLLTILSQIRGIDNIKEFYEKVMILI  487
+
+
+> UniRef90_P35939 Phosphoprotein n=6 Tax=Phocine distemper virus 
+TaxID=11240 RepID=PHOSP_PHODV
+Length=507
+
+ Score = 43.9 bits (102),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 18/45 (40%), Positives = 36/45 (80%), Gaps = 0/45 (0%)
+
+Query  2    SRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKI  46
+            S++VI S+I+SS++++  K+ +++LL +IKG ++L +F+QM+  I
+Sbjct  460  SKAVIASLIRSSKVDQSHKQNMLSLLKNIKGDDNLNEFYQMIKSI  504
+
+
+> UniRef90_D1MWR6 Phosphoprotein n=7 Tax=Canine distemper virus 
+TaxID=11232 RepID=D1MWR6_9MONO
+Length=507
+
+ Score = 43.1 bits (100),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 18/45 (40%), Positives = 34/45 (76%), Gaps = 0/45 (0%)
+
+Query  2    SRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKI  46
+            S++V+ S+I+SSR+++  K  ++ LL +IKG ++L +F+QM+  I
+Sbjct  460  SKAVLASLIRSSRVDQSHKHNMLALLKNIKGDDNLNEFYQMIKSI  504
+
+
+> UniRef90_P06940 Phosphoprotein n=129 Tax=Canine distemper virus 
+TaxID=11232 RepID=PHOSP_CDVO
+Length=507
+
+ Score = 42.7 bits (99),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 18/45 (40%), Positives = 34/45 (76%), Gaps = 0/45 (0%)
+
+Query  2    SRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKI  46
+            S++V+ S+I+SSR+++  K  ++ LL +IKG ++L +F+QM+  I
+Sbjct  460  SKAVLASLIRSSRVDQSHKHNMLALLKNIKGDDNLNEFYQMVKSI  504
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.136    0.376    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 445440262635
+Results from round 2
+
+
+Query= d1oksa_
+
+Length=53
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P35974 Phosphoprotein n=355 Tax=Measles virus TaxID=11...  85.8    4e-18
+  UniRef90_Q9YZA0 P n=4 Tax=Rinderpest virus TaxID=11241 RepID=Q9...  77.7    3e-15
+  UniRef90_F7IX88 P protein n=1 Tax=Rinderpest virus TaxID=11241 ...  75.8    2e-14
+  UniRef90_Q03335 Phosphoprotein n=3 Tax=Rinderpest virus TaxID=1...  75.8    2e-14
+  UniRef90_Q91QS4 Phosphoprotein n=34 Tax=Peste-des-petits-rumina...  74.3    5e-14
+  UniRef90_A0A076V8D2 Phosphoprotein n=13 Tax=Peste-des-petits-ru...  74.3    7e-14
+  UniRef90_A0A088DBX0 Phosphoprotein n=9 Tax=Peste-des-petits-rum...  73.5    1e-13
+  UniRef90_A0A0D4D8I0 Phosphoprotein n=2 Tax=Peste-des-petits-rum...  73.5    1e-13
+  UniRef90_Q66415 Structural protein n=10 Tax=Cetacean morbillivi...  68.9    5e-12
+  UniRef90_A0A140G8Z5 Phosphoprotein n=7 Tax=Feline morbillivirus...  67.0    2e-11
+  UniRef90_A0A141R8A9 Phosphoprotein n=2 Tax=Feline morbillivirus...  66.6    3e-11
+  UniRef90_A0A097ZJ45 Phosphoprotein n=2 Tax=Feline morbillivirus...  66.2    4e-11
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_P35939 Phosphoprotein n=6 Tax=Phocine distemper virus ...  51.2    7e-06
+  UniRef90_P06940 Phosphoprotein n=129 Tax=Canine distemper virus...  50.8    1e-05
+  UniRef90_D1MWR6 Phosphoprotein n=7 Tax=Canine distemper virus T...  50.0    2e-05
+
+
+> UniRef90_P35974 Phosphoprotein n=355 Tax=Measles virus TaxID=11234 
+RepID=PHOSP_MEASA
+Length=507
+
+ Score = 85.8 bits (211),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 48/49 (98%), Positives = 49/49 (100%), Gaps = 0/49 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKIIMK  49
+            ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQML+KIIMK
+Sbjct  459  ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLMKIIMK  507
+
+
+> UniRef90_Q9YZA0 P n=4 Tax=Rinderpest virus TaxID=11241 RepID=Q9YZA0_9MONO
+Length=507
+
+ Score = 77.7 bits (190),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 37/47 (79%), Positives = 41/47 (87%), Gaps = 0/47 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKII  47
+            ASRSVIRSIIKSS L EDRK YLM LL+DI+G+ DLA+FHQML KII
+Sbjct  459  ASRSVIRSIIKSSHLGEDRKNYLMGLLNDIQGSKDLAQFHQMLAKII  505
+
+
+> UniRef90_F7IX88 P protein n=1 Tax=Rinderpest virus TaxID=11241 
+RepID=F7IX88_9MONO
+Length=507
+
+ Score = 75.8 bits (185),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 36/47 (77%), Positives = 41/47 (87%), Gaps = 0/47 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKII  47
+            ASRSVIRSIIK+S L EDRK YLM LL+DI+G+ DLA+FHQML KII
+Sbjct  459  ASRSVIRSIIKASHLGEDRKNYLMGLLNDIQGSKDLAQFHQMLAKII  505
+
+
+> UniRef90_Q03335 Phosphoprotein n=3 Tax=Rinderpest virus TaxID=11241 
+RepID=PHOSP_RINDR
+Length=507
+
+ Score = 75.8 bits (185),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 37/47 (79%), Positives = 43/47 (91%), Gaps = 0/47 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKII  47
+            ASRSVIRSIIKSS L EDRK YLM+LL+DI+G+ DLA+FHQMLVKI+
+Sbjct  459  ASRSVIRSIIKSSHLGEDRKDYLMSLLNDIQGSKDLAQFHQMLVKIL  505
+
+
+> UniRef90_Q91QS4 Phosphoprotein n=34 Tax=Peste-des-petits-ruminants 
+virus TaxID=31604 RepID=Q91QS4_PPRV
+Length=509
+
+ Score = 74.3 bits (181),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 30/50 (60%), Positives = 39/50 (78%), Gaps = 0/50 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKIIMKH  50
+            +SRSVIRSIIKSS+L  D K YL+ LL+D+KG+ DL +FH+ML  I+ K 
+Sbjct  459  SSRSVIRSIIKSSKLNIDHKDYLLDLLNDVKGSKDLKEFHKMLTAILAKQ  508
+
+
+> UniRef90_A0A076V8D2 Phosphoprotein n=13 Tax=Peste-des-petits-ruminants 
+virus TaxID=31604 RepID=A0A076V8D2_PPRV
+Length=509
+
+ Score = 74.3 bits (181),  Expect = 7e-14, Method: Composition-based stats.
+ Identities = 30/50 (60%), Positives = 39/50 (78%), Gaps = 0/50 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKIIMKH  50
+            +SRSVIRSIIKSS+L  D K YL+ LL+D+KG+ DL +FH+ML  I+ K 
+Sbjct  459  SSRSVIRSIIKSSKLNIDHKDYLLDLLNDVKGSKDLKEFHKMLTAILAKQ  508
+
+
+> UniRef90_A0A088DBX0 Phosphoprotein n=9 Tax=Peste-des-petits-ruminants 
+virus TaxID=31604 RepID=A0A088DBX0_PPRV
+Length=509
+
+ Score = 73.5 bits (179),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 30/50 (60%), Positives = 39/50 (78%), Gaps = 0/50 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKIIMKH  50
+            +SRSVIRSIIKSS+L  D K YL+ LL+D+KG+ DL +FH+ML  I+ K 
+Sbjct  459  SSRSVIRSIIKSSKLNIDHKDYLLDLLNDVKGSKDLKEFHKMLTAILAKQ  508
+
+
+> UniRef90_A0A0D4D8I0 Phosphoprotein n=2 Tax=Peste-des-petits-ruminants 
+virus TaxID=31604 RepID=A0A0D4D8I0_PPRV
+Length=509
+
+ Score = 73.5 bits (179),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 30/50 (60%), Positives = 39/50 (78%), Gaps = 0/50 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKIIMKH  50
+            +SRSVIRSIIKSS+L  D K YL+ LL+D+KG+ DL +FH+ML  I+ K 
+Sbjct  459  SSRSVIRSIIKSSKLNIDHKDYLLDLLNDVKGSKDLKEFHKMLTTILAKQ  508
+
+
+> UniRef90_Q66415 Structural protein n=10 Tax=Cetacean morbillivirus 
+TaxID=36410 RepID=Q66415_9MONO
+Length=506
+
+ Score = 68.9 bits (167),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 26/46 (57%), Positives = 36/46 (78%), Gaps = 0/46 (0%)
+
+Query  2    SRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKII  47
+            SRSV+RS+IKSS LE + KR ++ LL+D+K   DL +F+QM+ KII
+Sbjct  460  SRSVLRSMIKSSNLESEHKRSMIGLLNDVKSGKDLGEFYQMVKKII  505
+
+
+> UniRef90_A0A140G8Z5 Phosphoprotein n=7 Tax=Feline morbillivirus 
+TaxID=1170234 RepID=A0A140G8Z5_9MONO
+Length=491
+
+ Score = 67.0 bits (162),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 21/47 (45%), Positives = 35/47 (74%), Gaps = 0/47 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKII  47
+            AS S IRSII+SS L++D K  L+T+L  I+G N++ +F++ ++ +I
+Sbjct  441  ASISTIRSIIRSSNLDQDLKTKLLTILSQIRGTNNIKEFYEKVMILI  487
+
+
+> UniRef90_A0A141R8A9 Phosphoprotein n=2 Tax=Feline morbillivirus 
+TaxID=1170234 RepID=A0A141R8A9_9MONO
+Length=491
+
+ Score = 66.6 bits (161),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 21/47 (45%), Positives = 36/47 (77%), Gaps = 0/47 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKII  47
+            AS S IRSII+SS L++D K  L+T+L  I+GA+++ +F++ ++ +I
+Sbjct  441  ASTSTIRSIIRSSNLDQDLKTKLLTILSQIRGADNIREFYEKVMILI  487
+
+
+> UniRef90_A0A097ZJ45 Phosphoprotein n=2 Tax=Feline morbillivirus 
+TaxID=1170234 RepID=A0A097ZJ45_9MONO
+Length=491
+
+ Score = 66.2 bits (160),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 20/47 (43%), Positives = 35/47 (74%), Gaps = 0/47 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKII  47
+            AS S IRSII+SS L++D K  L+T+L  I+G +++ +F++ ++ +I
+Sbjct  441  ASTSTIRSIIRSSNLDQDLKTKLLTILSQIRGIDNIKEFYEKVMILI  487
+
+
+> UniRef90_P35939 Phosphoprotein n=6 Tax=Phocine distemper virus 
+TaxID=11240 RepID=PHOSP_PHODV
+Length=507
+
+ Score = 51.2 bits (121),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 18/45 (40%), Positives = 36/45 (80%), Gaps = 0/45 (0%)
+
+Query  2    SRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKI  46
+            S++VI S+I+SS++++  K+ +++LL +IKG ++L +F+QM+  I
+Sbjct  460  SKAVIASLIRSSKVDQSHKQNMLSLLKNIKGDDNLNEFYQMIKSI  504
+
+
+> UniRef90_P06940 Phosphoprotein n=129 Tax=Canine distemper virus 
+TaxID=11232 RepID=PHOSP_CDVO
+Length=507
+
+ Score = 50.8 bits (120),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 18/45 (40%), Positives = 34/45 (76%), Gaps = 0/45 (0%)
+
+Query  2    SRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKI  46
+            S++V+ S+I+SSR+++  K  ++ LL +IKG ++L +F+QM+  I
+Sbjct  460  SKAVLASLIRSSRVDQSHKHNMLALLKNIKGDDNLNEFYQMVKSI  504
+
+
+> UniRef90_D1MWR6 Phosphoprotein n=7 Tax=Canine distemper virus 
+TaxID=11232 RepID=D1MWR6_9MONO
+Length=507
+
+ Score = 50.0 bits (118),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 18/45 (40%), Positives = 34/45 (76%), Gaps = 0/45 (0%)
+
+Query  2    SRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKI  46
+            S++V+ S+I+SSR+++  K  ++ LL +IKG ++L +F+QM+  I
+Sbjct  460  SKAVLASLIRSSRVDQSHKHNMLALLKNIKGDDNLNEFYQMIKSI  504
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.139    0.355    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0426    0.140     1.90     42.6     43.6 
+
+Effective search space used: 445440262635
+Results from round 3
+
+
+Query= d1oksa_
+
+Length=53
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P35974 Phosphoprotein n=355 Tax=Measles virus TaxID=11...  83.1    4e-17
+  UniRef90_Q9YZA0 P n=4 Tax=Rinderpest virus TaxID=11241 RepID=Q9...  73.9    8e-14
+  UniRef90_Q91QS4 Phosphoprotein n=34 Tax=Peste-des-petits-rumina...  71.9    4e-13
+  UniRef90_Q03335 Phosphoprotein n=3 Tax=Rinderpest virus TaxID=1...  71.9    4e-13
+  UniRef90_F7IX88 P protein n=1 Tax=Rinderpest virus TaxID=11241 ...  71.9    4e-13
+  UniRef90_A0A076V8D2 Phosphoprotein n=13 Tax=Peste-des-petits-ru...  71.5    5e-13
+  UniRef90_A0A088DBX0 Phosphoprotein n=9 Tax=Peste-des-petits-rum...  71.2    8e-13
+  UniRef90_A0A0D4D8I0 Phosphoprotein n=2 Tax=Peste-des-petits-rum...  71.2    8e-13
+  UniRef90_Q66415 Structural protein n=10 Tax=Cetacean morbillivi...  67.7    1e-11
+  UniRef90_P06940 Phosphoprotein n=129 Tax=Canine distemper virus...  66.9    2e-11
+  UniRef90_P35939 Phosphoprotein n=6 Tax=Phocine distemper virus ...  66.5    4e-11
+  UniRef90_D1MWR6 Phosphoprotein n=7 Tax=Canine distemper virus T...  66.2    4e-11
+  UniRef90_A0A141R8A9 Phosphoprotein n=2 Tax=Feline morbillivirus...  63.8    2e-10
+  UniRef90_A0A097ZJ45 Phosphoprotein n=2 Tax=Feline morbillivirus...  63.8    2e-10
+  UniRef90_A0A140G8Z5 Phosphoprotein n=7 Tax=Feline morbillivirus...  63.8    3e-10
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_P35974 Phosphoprotein n=355 Tax=Measles virus TaxID=11234 
+RepID=PHOSP_MEASA
+Length=507
+
+ Score = 83.1 bits (204),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 48/49 (98%), Positives = 49/49 (100%), Gaps = 0/49 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKIIMK  49
+            ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQML+KIIMK
+Sbjct  459  ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLMKIIMK  507
+
+
+> UniRef90_Q9YZA0 P n=4 Tax=Rinderpest virus TaxID=11241 RepID=Q9YZA0_9MONO
+Length=507
+
+ Score = 73.9 bits (180),  Expect = 8e-14, Method: Composition-based stats.
+ Identities = 37/47 (79%), Positives = 41/47 (87%), Gaps = 0/47 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKII  47
+            ASRSVIRSIIKSS L EDRK YLM LL+DI+G+ DLA+FHQML KII
+Sbjct  459  ASRSVIRSIIKSSHLGEDRKNYLMGLLNDIQGSKDLAQFHQMLAKII  505
+
+
+> UniRef90_Q91QS4 Phosphoprotein n=34 Tax=Peste-des-petits-ruminants 
+virus TaxID=31604 RepID=Q91QS4_PPRV
+Length=509
+
+ Score = 71.9 bits (175),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 30/50 (60%), Positives = 39/50 (78%), Gaps = 0/50 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKIIMKH  50
+            +SRSVIRSIIKSS+L  D K YL+ LL+D+KG+ DL +FH+ML  I+ K 
+Sbjct  459  SSRSVIRSIIKSSKLNIDHKDYLLDLLNDVKGSKDLKEFHKMLTAILAKQ  508
+
+
+> UniRef90_Q03335 Phosphoprotein n=3 Tax=Rinderpest virus TaxID=11241 
+RepID=PHOSP_RINDR
+Length=507
+
+ Score = 71.9 bits (175),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 37/47 (79%), Positives = 43/47 (91%), Gaps = 0/47 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKII  47
+            ASRSVIRSIIKSS L EDRK YLM+LL+DI+G+ DLA+FHQMLVKI+
+Sbjct  459  ASRSVIRSIIKSSHLGEDRKDYLMSLLNDIQGSKDLAQFHQMLVKIL  505
+
+
+> UniRef90_F7IX88 P protein n=1 Tax=Rinderpest virus TaxID=11241 
+RepID=F7IX88_9MONO
+Length=507
+
+ Score = 71.9 bits (175),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 36/47 (77%), Positives = 41/47 (87%), Gaps = 0/47 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKII  47
+            ASRSVIRSIIK+S L EDRK YLM LL+DI+G+ DLA+FHQML KII
+Sbjct  459  ASRSVIRSIIKASHLGEDRKNYLMGLLNDIQGSKDLAQFHQMLAKII  505
+
+
+> UniRef90_A0A076V8D2 Phosphoprotein n=13 Tax=Peste-des-petits-ruminants 
+virus TaxID=31604 RepID=A0A076V8D2_PPRV
+Length=509
+
+ Score = 71.5 bits (174),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 30/50 (60%), Positives = 39/50 (78%), Gaps = 0/50 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKIIMKH  50
+            +SRSVIRSIIKSS+L  D K YL+ LL+D+KG+ DL +FH+ML  I+ K 
+Sbjct  459  SSRSVIRSIIKSSKLNIDHKDYLLDLLNDVKGSKDLKEFHKMLTAILAKQ  508
+
+
+> UniRef90_A0A088DBX0 Phosphoprotein n=9 Tax=Peste-des-petits-ruminants 
+virus TaxID=31604 RepID=A0A088DBX0_PPRV
+Length=509
+
+ Score = 71.2 bits (173),  Expect = 8e-13, Method: Composition-based stats.
+ Identities = 30/50 (60%), Positives = 39/50 (78%), Gaps = 0/50 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKIIMKH  50
+            +SRSVIRSIIKSS+L  D K YL+ LL+D+KG+ DL +FH+ML  I+ K 
+Sbjct  459  SSRSVIRSIIKSSKLNIDHKDYLLDLLNDVKGSKDLKEFHKMLTAILAKQ  508
+
+
+> UniRef90_A0A0D4D8I0 Phosphoprotein n=2 Tax=Peste-des-petits-ruminants 
+virus TaxID=31604 RepID=A0A0D4D8I0_PPRV
+Length=509
+
+ Score = 71.2 bits (173),  Expect = 8e-13, Method: Composition-based stats.
+ Identities = 30/50 (60%), Positives = 39/50 (78%), Gaps = 0/50 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKIIMKH  50
+            +SRSVIRSIIKSS+L  D K YL+ LL+D+KG+ DL +FH+ML  I+ K 
+Sbjct  459  SSRSVIRSIIKSSKLNIDHKDYLLDLLNDVKGSKDLKEFHKMLTTILAKQ  508
+
+
+> UniRef90_Q66415 Structural protein n=10 Tax=Cetacean morbillivirus 
+TaxID=36410 RepID=Q66415_9MONO
+Length=506
+
+ Score = 67.7 bits (164),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 26/46 (57%), Positives = 36/46 (78%), Gaps = 0/46 (0%)
+
+Query  2    SRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKII  47
+            SRSV+RS+IKSS LE + KR ++ LL+D+K   DL +F+QM+ KII
+Sbjct  460  SRSVLRSMIKSSNLESEHKRSMIGLLNDVKSGKDLGEFYQMVKKII  505
+
+
+> UniRef90_P06940 Phosphoprotein n=129 Tax=Canine distemper virus 
+TaxID=11232 RepID=PHOSP_CDVO
+Length=507
+
+ Score = 66.9 bits (162),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 18/45 (40%), Positives = 34/45 (76%), Gaps = 0/45 (0%)
+
+Query  2    SRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKI  46
+            S++V+ S+I+SSR+++  K  ++ LL +IKG ++L +F+QM+  I
+Sbjct  460  SKAVLASLIRSSRVDQSHKHNMLALLKNIKGDDNLNEFYQMVKSI  504
+
+
+> UniRef90_P35939 Phosphoprotein n=6 Tax=Phocine distemper virus 
+TaxID=11240 RepID=PHOSP_PHODV
+Length=507
+
+ Score = 66.5 bits (161),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 18/45 (40%), Positives = 36/45 (80%), Gaps = 0/45 (0%)
+
+Query  2    SRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKI  46
+            S++VI S+I+SS++++  K+ +++LL +IKG ++L +F+QM+  I
+Sbjct  460  SKAVIASLIRSSKVDQSHKQNMLSLLKNIKGDDNLNEFYQMIKSI  504
+
+
+> UniRef90_D1MWR6 Phosphoprotein n=7 Tax=Canine distemper virus 
+TaxID=11232 RepID=D1MWR6_9MONO
+Length=507
+
+ Score = 66.2 bits (160),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 18/45 (40%), Positives = 34/45 (76%), Gaps = 0/45 (0%)
+
+Query  2    SRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKI  46
+            S++V+ S+I+SSR+++  K  ++ LL +IKG ++L +F+QM+  I
+Sbjct  460  SKAVLASLIRSSRVDQSHKHNMLALLKNIKGDDNLNEFYQMIKSI  504
+
+
+> UniRef90_A0A141R8A9 Phosphoprotein n=2 Tax=Feline morbillivirus 
+TaxID=1170234 RepID=A0A141R8A9_9MONO
+Length=491
+
+ Score = 63.8 bits (154),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 21/47 (45%), Positives = 36/47 (77%), Gaps = 0/47 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKII  47
+            AS S IRSII+SS L++D K  L+T+L  I+GA+++ +F++ ++ +I
+Sbjct  441  ASTSTIRSIIRSSNLDQDLKTKLLTILSQIRGADNIREFYEKVMILI  487
+
+
+> UniRef90_A0A097ZJ45 Phosphoprotein n=2 Tax=Feline morbillivirus 
+TaxID=1170234 RepID=A0A097ZJ45_9MONO
+Length=491
+
+ Score = 63.8 bits (154),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 20/47 (43%), Positives = 35/47 (74%), Gaps = 0/47 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKII  47
+            AS S IRSII+SS L++D K  L+T+L  I+G +++ +F++ ++ +I
+Sbjct  441  ASTSTIRSIIRSSNLDQDLKTKLLTILSQIRGIDNIKEFYEKVMILI  487
+
+
+> UniRef90_A0A140G8Z5 Phosphoprotein n=7 Tax=Feline morbillivirus 
+TaxID=1170234 RepID=A0A140G8Z5_9MONO
+Length=491
+
+ Score = 63.8 bits (154),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 21/47 (45%), Positives = 35/47 (74%), Gaps = 0/47 (0%)
+
+Query  1    ASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLVKII  47
+            AS S IRSII+SS L++D K  L+T+L  I+G N++ +F++ ++ +I
+Sbjct  441  ASISTIRSIIRSSNLDQDLKTKLLTILSQIRGTNNIKEFYEKVMILI  487
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.143    0.360    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0435    0.140     1.90     42.6     43.6 
+
+Effective search space used: 445440262635
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

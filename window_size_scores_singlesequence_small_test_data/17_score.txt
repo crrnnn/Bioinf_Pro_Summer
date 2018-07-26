@@ -1,0 +1,22 @@
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1878
+obj = -2698.469273, rho = -1.038439
+nSV = 2999, nBSV = 2862
+..
+Warning: using -h 0 may be faster
+*.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 3076
+obj = -4503.348514, rho = -1.887792
+nSV = 5217, nBSV = 5100
+..*
+optimization finished, #iter = 2594
+obj = -2831.553543, rho = 0.090442
+nSV = 3032, nBSV = 2839
+Total nSV = 6946
+289
+[LibSVM]0.6195834950200492
+0.5848837209302326

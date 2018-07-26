@@ -1,0 +1,1348 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1vcla3
+
+Length=149
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q868M7 Hemolytic lectin CEL-III n=6 Tax=Cucumaria echi...  299     2e-97
+  UniRef90_A0A1C9FQM5 Chrysaoralin n=2 Tax=Chrysaora quinquecirrh...  190     4e-55
+  UniRef90_B7T137 Putative uncharacterized protein n=2 Tax=Acropo...  175     3e-49
+  UniRef90_B7T136 Putative uncharacterized protein n=1 Tax=Acropo...  171     7e-48
+  UniRef90_UPI00077A1B1B UPI00077A1B1B related cluster n=1 Tax=un...  151     2e-40
+
+
+> UniRef90_Q868M7 Hemolytic lectin CEL-III n=6 Tax=Cucumaria echinata 
+TaxID=40245 RepID=Q868M7_CUCEC
+Length=442
+
+ Score = 299 bits (766),  Expect = 2e-97, Method: Compositional matrix adjust.
+ Identities = 147/149 (99%), Positives = 149/149 (100%), Gaps = 0/149 (0%)
+
+Query  1    DDWEVPTATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKATVSV  60
+            DDWEVPTATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKA+VSV
+Sbjct  294  DDWEVPTATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKASVSV  353
+
+Query  61   KVTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQI  120
+            KVTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQI
+Sbjct  354  KVTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQI  413
+
+Query  121  VKCTRSNTAPGCAPFTKCANEDCTFCTDI  149
+            +KCTRSNTAPGCAPFTKCANEDCTFCTDI
+Sbjct  414  IKCTRSNTAPGCAPFTKCANEDCTFCTDI  442
+
+
+> UniRef90_A0A1C9FQM5 Chrysaoralin n=2 Tax=Chrysaora quinquecirrha 
+TaxID=6148 RepID=A0A1C9FQM5_CHRQI
+Length=454
+
+ Score = 190 bits (482),  Expect = 4e-55, Method: Compositional matrix adjust.
+ Identities = 89/149 (60%), Positives = 111/149 (74%), Gaps = 0/149 (0%)
+
+Query  1    DDWEVPTATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKATVSV  60
+            D W  P A W MVGC+QNGKVSQ +SNT+S+SST+T  V VEV +++E  ++FAKATVS 
+Sbjct  306  DKWTAPNAVWVMVGCNQNGKVSQWLSNTVSYSSTITHTVTVEVGASMEADLVFAKATVST  365
+
+Query  61   KVTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQI  120
+            KV+ SLS AWT SQSGTT I +TC+ YD+ E FT GCMWQL ++T  V SG LL W+PQI
+Sbjct  366  KVSTSLSTAWTKSQSGTTRIVFTCEYYDNQEAFTGGCMWQLRVDTKHVNSGRLLTWSPQI  425
+
+Query  121  VKCTRSNTAPGCAPFTKCANEDCTFCTDI  149
+             +CT SNT P C PFTKC ++ C+ C +I
+Sbjct  426  TRCTTSNTQPRCPPFTKCVDKACSLCQEI  454
+
+
+> UniRef90_B7T137 Putative uncharacterized protein n=2 Tax=Acropora 
+millepora TaxID=45264 RepID=B7T137_ACRMI
+Length=481
+
+ Score = 175 bits (444),  Expect = 3e-49, Method: Compositional matrix adjust.
+ Identities = 79/148 (53%), Positives = 104/148 (70%), Gaps = 0/148 (0%)
+
+Query  2    DWEVPTATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKATVSVK  61
+            DW  PTA W++VGC+QNGKV+Q+ISN IS+S+T +   AVE++S IE   +F   ++S  
+Sbjct  311  DWVTPTAEWDLVGCNQNGKVTQEISNQISYSTTTSESAAVEIASAIETKTLFGSVSLSAS  370
+
+Query  62   VTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIV  121
+               SLSK WT SQS TT IT+TC+NYDS + F RGCMWQL + T E  + + + W PQIV
+Sbjct  371  AAYSLSKEWTRSQSQTTKITFTCENYDSGKPFVRGCMWQLEVTTKEQHAENEMRWTPQIV  430
+
+Query  122  KCTRSNTAPGCAPFTKCANEDCTFCTDI  149
+            KCTR+   P C PFT+C +EDCT C ++
+Sbjct  431  KCTRNQEEPKCPPFTRCLDEDCTQCEEL  458
+
+
+> UniRef90_B7T136 Putative uncharacterized protein n=1 Tax=Acropora 
+millepora TaxID=45264 RepID=B7T136_ACRMI
+Length=476
+
+ Score = 171 bits (434),  Expect = 7e-48, Method: Compositional matrix adjust.
+ Identities = 77/148 (52%), Positives = 104/148 (70%), Gaps = 0/148 (0%)
+
+Query  2    DWEVPTATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKATVSVK  61
+            DW  PTA W+MVGC+QNG+V+Q+ISN IS+S+T +    VE+++ IE   +F   ++S  
+Sbjct  311  DWLTPTADWHMVGCNQNGQVTQEISNEISYSTTESETSTVEITAAIEAETLFGSVSLSAS  370
+
+Query  62   VTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIV  121
+             + SLSK WT SQS T AIT+TC+NYDS + F RGCMWQL + T E  + + + W PQIV
+Sbjct  371  TSYSLSKEWTRSQSQTRAITFTCENYDSGKPFVRGCMWQLEVTTKERHAENAMRWTPQIV  430
+
+Query  122  KCTRSNTAPGCAPFTKCANEDCTFCTDI  149
+            KCTR+   P C PFT+C +EDCT C ++
+Sbjct  431  KCTRNQGQPKCPPFTRCMDEDCTRCEEL  458
+
+
+> UniRef90_UPI00077A1B1B UPI00077A1B1B related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00077A1B1B
+Length=476
+
+ Score = 151 bits (382),  Expect = 2e-40, Method: Compositional matrix adjust.
+ Identities = 75/148 (51%), Positives = 98/148 (66%), Gaps = 0/148 (0%)
+
+Query  2    DWEVPTATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKATVSVK  61
+            +W  PTA W+MVGC+QNGKV+Q+ISN I +S T +     E+++ IE    F   ++S  
+Sbjct  311  NWVTPTADWDMVGCNQNGKVTQRISNKIQYSKTKSDTSTNEITAAIEAKTKFVGGSISRS  370
+
+Query  62   VTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIV  121
+             ++SLSK W  SQS T  IT+TC+NYDS E F RGCMWQL + T E  S + + W P IV
+Sbjct  371  ESSSLSKEWKRSQSQTNMITFTCENYDSGEPFVRGCMWQLQVTTKERHSENEMTWTPLIV  430
+
+Query  122  KCTRSNTAPGCAPFTKCANEDCTFCTDI  149
+            KCTR+   P C PFT+C +EDCT C +I
+Sbjct  431  KCTRNLEKPRCPPFTRCMDEDCTRCEEI  458
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.125    0.389    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 442949859525
+Results from round 2
+
+
+Query= d1vcla3
+
+Length=149
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_B7T136 Putative uncharacterized protein n=1 Tax=Acropo...  272     1e-86
+  UniRef90_B7T137 Putative uncharacterized protein n=2 Tax=Acropo...  268     9e-85
+  UniRef90_Q868M7 Hemolytic lectin CEL-III n=6 Tax=Cucumaria echi...  264     1e-83
+  UniRef90_A0A1C9FQM5 Chrysaoralin n=2 Tax=Chrysaora quinquecirrh...  255     6e-80
+  UniRef90_UPI00077A1B1B UPI00077A1B1B related cluster n=1 Tax=un...  250     5e-78
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_J9EX40 Uncharacterized protein n=3 Tax=Oxytricha trifa...  53.7    7e-06
+  UniRef90_J9HTJ0 Uncharacterized protein n=2 Tax=Oxytricha trifa...  52.9    2e-05
+  UniRef90_UPI000698A2E3 PREDICTED: uncharacterized protein LOC10...  52.5    2e-05
+  UniRef90_J9IEF7 Uncharacterized protein n=1 Tax=Oxytricha trifa...  50.6    8e-05
+  UniRef90_A0A078A185 Uncharacterized protein n=1 Tax=Stylonychia...  48.7    4e-04
+  UniRef90_A0A078AFI1 Uncharacterized protein n=1 Tax=Stylonychia...  47.1    0.001
+
+
+> UniRef90_B7T136 Putative uncharacterized protein n=1 Tax=Acropora 
+millepora TaxID=45264 RepID=B7T136_ACRMI
+Length=476
+
+ Score = 272 bits (696),  Expect = 1e-86, Method: Composition-based stats.
+ Identities = 77/148 (52%), Positives = 104/148 (70%), Gaps = 0/148 (0%)
+
+Query  2    DWEVPTATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKATVSVK  61
+            DW  PTA W+MVGC+QNG+V+Q+ISN IS+S+T +    VE+++ IE   +F   ++S  
+Sbjct  311  DWLTPTADWHMVGCNQNGQVTQEISNEISYSTTESETSTVEITAAIEAETLFGSVSLSAS  370
+
+Query  62   VTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIV  121
+             + SLSK WT SQS T AIT+TC+NYDS + F RGCMWQL + T E  + + + W PQIV
+Sbjct  371  TSYSLSKEWTRSQSQTRAITFTCENYDSGKPFVRGCMWQLEVTTKERHAENAMRWTPQIV  430
+
+Query  122  KCTRSNTAPGCAPFTKCANEDCTFCTDI  149
+            KCTR+   P C PFT+C +EDCT C ++
+Sbjct  431  KCTRNQGQPKCPPFTRCMDEDCTRCEEL  458
+
+
+> UniRef90_B7T137 Putative uncharacterized protein n=2 Tax=Acropora 
+millepora TaxID=45264 RepID=B7T137_ACRMI
+Length=481
+
+ Score = 268 bits (684),  Expect = 9e-85, Method: Composition-based stats.
+ Identities = 79/148 (53%), Positives = 104/148 (70%), Gaps = 0/148 (0%)
+
+Query  2    DWEVPTATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKATVSVK  61
+            DW  PTA W++VGC+QNGKV+Q+ISN IS+S+T +   AVE++S IE   +F   ++S  
+Sbjct  311  DWVTPTAEWDLVGCNQNGKVTQEISNQISYSTTTSESAAVEIASAIETKTLFGSVSLSAS  370
+
+Query  62   VTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIV  121
+               SLSK WT SQS TT IT+TC+NYDS + F RGCMWQL + T E  + + + W PQIV
+Sbjct  371  AAYSLSKEWTRSQSQTTKITFTCENYDSGKPFVRGCMWQLEVTTKEQHAENEMRWTPQIV  430
+
+Query  122  KCTRSNTAPGCAPFTKCANEDCTFCTDI  149
+            KCTR+   P C PFT+C +EDCT C ++
+Sbjct  431  KCTRNQEEPKCPPFTRCLDEDCTQCEEL  458
+
+
+> UniRef90_Q868M7 Hemolytic lectin CEL-III n=6 Tax=Cucumaria echinata 
+TaxID=40245 RepID=Q868M7_CUCEC
+Length=442
+
+ Score = 264 bits (674),  Expect = 1e-83, Method: Composition-based stats.
+ Identities = 147/149 (99%), Positives = 149/149 (100%), Gaps = 0/149 (0%)
+
+Query  1    DDWEVPTATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKATVSV  60
+            DDWEVPTATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKA+VSV
+Sbjct  294  DDWEVPTATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKASVSV  353
+
+Query  61   KVTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQI  120
+            KVTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQI
+Sbjct  354  KVTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQI  413
+
+Query  121  VKCTRSNTAPGCAPFTKCANEDCTFCTDI  149
+            +KCTRSNTAPGCAPFTKCANEDCTFCTDI
+Sbjct  414  IKCTRSNTAPGCAPFTKCANEDCTFCTDI  442
+
+
+> UniRef90_A0A1C9FQM5 Chrysaoralin n=2 Tax=Chrysaora quinquecirrha 
+TaxID=6148 RepID=A0A1C9FQM5_CHRQI
+Length=454
+
+ Score = 255 bits (650),  Expect = 6e-80, Method: Composition-based stats.
+ Identities = 89/149 (60%), Positives = 111/149 (74%), Gaps = 0/149 (0%)
+
+Query  1    DDWEVPTATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKATVSV  60
+            D W  P A W MVGC+QNGKVSQ +SNT+S+SST+T  V VEV +++E  ++FAKATVS 
+Sbjct  306  DKWTAPNAVWVMVGCNQNGKVSQWLSNTVSYSSTITHTVTVEVGASMEADLVFAKATVST  365
+
+Query  61   KVTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQI  120
+            KV+ SLS AWT SQSGTT I +TC+ YD+ E FT GCMWQL ++T  V SG LL W+PQI
+Sbjct  366  KVSTSLSTAWTKSQSGTTRIVFTCEYYDNQEAFTGGCMWQLRVDTKHVNSGRLLTWSPQI  425
+
+Query  121  VKCTRSNTAPGCAPFTKCANEDCTFCTDI  149
+             +CT SNT P C PFTKC ++ C+ C +I
+Sbjct  426  TRCTTSNTQPRCPPFTKCVDKACSLCQEI  454
+
+
+> UniRef90_UPI00077A1B1B UPI00077A1B1B related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00077A1B1B
+Length=476
+
+ Score = 250 bits (638),  Expect = 5e-78, Method: Composition-based stats.
+ Identities = 75/148 (51%), Positives = 98/148 (66%), Gaps = 0/148 (0%)
+
+Query  2    DWEVPTATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKATVSVK  61
+            +W  PTA W+MVGC+QNGKV+Q+ISN I +S T +     E+++ IE    F   ++S  
+Sbjct  311  NWVTPTADWDMVGCNQNGKVTQRISNKIQYSKTKSDTSTNEITAAIEAKTKFVGGSISRS  370
+
+Query  62   VTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIV  121
+             ++SLSK W  SQS T  IT+TC+NYDS E F RGCMWQL + T E  S + + W P IV
+Sbjct  371  ESSSLSKEWKRSQSQTNMITFTCENYDSGEPFVRGCMWQLQVTTKERHSENEMTWTPLIV  430
+
+Query  122  KCTRSNTAPGCAPFTKCANEDCTFCTDI  149
+            KCTR+   P C PFT+C +EDCT C +I
+Sbjct  431  KCTRNLEKPRCPPFTRCMDEDCTRCEEI  458
+
+
+> UniRef90_J9EX40 Uncharacterized protein n=3 Tax=Oxytricha trifallax 
+TaxID=1172189 RepID=J9EX40_9SPIT
+Length=419
+
+ Score = 53.7 bits (127),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 43/149 (29%), Positives = 67/149 (45%), Gaps = 18/149 (12%)
+
+Query  10   WNMVGCDQNGKVSQQISNTISFSSTVTAGVAV--EVSSTIEKGVIFAKA----TVSVKVT  63
+            W  V    +G ++  I    S  +       V  E ++TIE G  F  A    T+S  V+
+Sbjct  265  WERVS-SGSGTLTHSIEKGWSKDTVQKEESTVLEEFTATIESGFSFMGAYEKTTLSNHVS  323
+
+Query  64   ASLSKAWTNS--QSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIV  121
+             ++ K+   S  QS  T  T +CDN + D       ++Q  + +T+    D+ V +   +
+Sbjct  324  VNIFKSSQRSIHQSKITIDTVSCDNKNGDLV----ALYQWTLTSTQDGENDVYVQDSNFI  379
+
+Query  122  KCT---RSNTAPGCAPFTKCANEDCTFCT  147
+             C     SN+ P C P T CA+ +CT CT
+Sbjct  380  -CRYGLNSNSGPEC-PLTMCADAECTKCT  406
+
+
+> UniRef90_J9HTJ0 Uncharacterized protein n=2 Tax=Oxytricha trifallax 
+TaxID=1172189 RepID=J9HTJ0_9SPIT
+Length=419
+
+ Score = 52.9 bits (125),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 40/149 (27%), Positives = 66/149 (44%), Gaps = 18/149 (12%)
+
+Query  10   WNMVGCDQNGKVSQQISNTISFSSTVTAGVAV--EVSSTIEKGVIFAKAT----VSVKVT  63
+            W  V    +G ++  I    S          V  E ++T+E G  F  A+    +S  V+
+Sbjct  265  WERVS-SGSGLLTHSIEKGWSKDIVQKEESTVLEEFTATMEAGFEFMGASEKTTLSNHVS  323
+
+Query  64   ASLSKAWTNS--QSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIV  121
+            A++ K+   S  QS  +  + TC+N + D       ++Q  + T +    D+ V +   +
+Sbjct  324  ANIFKSSQRSIHQSKISIDSVTCENKNGDLV----ALYQWTLTTYKDGEDDVYVQDSNFI  379
+
+Query  122  KCT---RSNTAPGCAPFTKCANEDCTFCT  147
+             C     SN+ P C P T CA+ +CT CT
+Sbjct  380  -CRYGLNSNSGPEC-PLTMCADAECTKCT  406
+
+
+> UniRef90_UPI000698A2E3 PREDICTED: uncharacterized protein LOC106166988 
+n=1 Tax=Lingula unguis TaxID=7574 RepID=UPI000698A2E3
+Length=342
+
+ Score = 52.5 bits (124),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 32/132 (24%), Positives = 50/132 (38%), Gaps = 17/132 (13%)
+
+Query  8    ATWNMVGC-DQNGKVSQQISNTISFSSTVTAGVAV--EVSSTIEKGVIFAKATVSVKVTA  64
+              W  + C    G  S   +    +S T ++ +    E++  + K VI A  T S   + 
+Sbjct  219  GDWVKISCWGHVGPGSLSYTFKAGYSKTESSTLTNSWEMTIEVAKKVITASVTYSGSYST  278
+
+Query  65   SLSKAWTNSQSGTTAITYTCDNYDSDEEFTRG--CMWQLAIETTEVKSGDLLVWNPQIVK  122
+            S    WT  +  T  +T T            G  C+WQ      +    D  V+ P I++
+Sbjct  279  SYESQWTQEREITRTVTVT----------VAGTICLWQWQYVFEQFN--DKYVFKPMIMQ  326
+
+Query  123  CTRSNTAPGCAP  134
+             TRS+  P   P
+Sbjct  327  ETRSDVKPTNIP  338
+
+
+> UniRef90_J9IEF7 Uncharacterized protein n=1 Tax=Oxytricha trifallax 
+TaxID=1172189 RepID=J9IEF7_9SPIT
+Length=419
+
+ Score = 50.6 bits (119),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 38/122 (31%), Positives = 58/122 (48%), Gaps = 15/122 (12%)
+
+Query  35   VTAGVAVEVSSTIEKGVIFAKA----TVSVKVTASLSKAWTNS--QSGTTAITYTCDNYD  88
+              + V  E ++T+E G  F  A    T+S  V+ ++ K+   S  QS  T  T TCDN +
+Sbjct  291  EESTVLEEFTATMESGFNFMGAYEKTTLSNHVSINIFKSSQRSIHQSKITIDTVTCDNKN  350
+
+Query  89   SDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIVKCT---RSNTAPGCAPFTKCANEDCTF  145
+             D       ++Q  +  T+    D+ V +   + C     SN+ P C P T CA+ +CT 
+Sbjct  351  GDLV----ALYQWTLTGTQEGENDIYVQDSNFI-CRYGLNSNSGPDC-PLTMCADAECTK  404
+
+Query  146  CT  147
+            CT
+Sbjct  405  CT  406
+
+
+> UniRef90_A0A078A185 Uncharacterized protein n=1 Tax=Stylonychia 
+lemnae TaxID=5949 RepID=A0A078A185_STYLE
+Length=407
+
+ Score = 48.7 bits (114),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 30/136 (22%), Positives = 61/136 (45%), Gaps = 16/136 (12%)
+
+Query  22   SQQISNTISFSSTVTAGVAV--EVSSTIE------KGVIFAKATVSVKVTASLSKA--WT  71
+            + QIS ++  +S ++       E+ +++         +I  KA++S  V  ++S++   T
+Sbjct  273  TDQISASVETTSGISTTKTNSQEIQASLSLGFEVGSELIGQKASISGTVAKAVSRSVDST  332
+
+Query  72   NSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIVKCTRSNTAPG  131
+             SQSGT  I   C N     +  +  +WQ  +   +     + + + + + C   + +P 
+Sbjct  333  LSQSGTYKIQAQCSN----PQRVKMSLWQWRMSGIKNGVEVMDMKDNEFI-CKTGDQSPR  387
+
+Query  132  CAPFTKCANEDCTFCT  147
+            C P   C + +CT C 
+Sbjct  388  C-PVGFCQDNECTICK  402
+
+
+> UniRef90_A0A078AFI1 Uncharacterized protein n=1 Tax=Stylonychia 
+lemnae TaxID=5949 RepID=A0A078AFI1_STYLE
+Length=460
+
+ Score = 47.1 bits (110),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 40/149 (27%), Positives = 63/149 (42%), Gaps = 6/149 (4%)
+
+Query  5    VPTATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIF---AKATVSVK  61
+             PT  W MVG  +N   S +    ++  +  T      VS +IE+   F    +++VS+ 
+Sbjct  290  APTGYWEMVGSGENIVHSFERGVQMTDGTETTTSDTHTVSISIEQSFSFFKIGESSVSMG  349
+
+Query  62   VTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIV  121
+               S S A T  +  T  +T  C +    +      +WQ  ++ T         WN    
+Sbjct  350  YEYSRSVASTVRKDITKHVTTGCSSTCMTDGSRIVYVWQWMMKGTNDWGAVDESWNLFTC  409
+
+Query  122  K--CTRSNTAPGCAPFTKCANEDCTFCTD  148
+               C    T+P C P TKCA+++C  CT+
+Sbjct  410  NFVCRYEPTSPRC-PLTKCADKECNTCTN  437
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.120    0.379    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0376    0.140     1.90     42.6     43.6 
+
+Effective search space used: 442949859525
+Results from round 3
+
+
+Query= d1vcla3
+
+Length=149
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_B7T136 Putative uncharacterized protein n=1 Tax=Acropo...  215     2e-64
+  UniRef90_Q868M7 Hemolytic lectin CEL-III n=6 Tax=Cucumaria echi...  207     1e-61
+  UniRef90_B7T137 Putative uncharacterized protein n=2 Tax=Acropo...  207     2e-61
+  UniRef90_A0A1C9FQM5 Chrysaoralin n=2 Tax=Chrysaora quinquecirrh...  198     5e-58
+  UniRef90_UPI00077A1B1B UPI00077A1B1B related cluster n=1 Tax=un...  196     4e-57
+  UniRef90_A0A078AFI1 Uncharacterized protein n=1 Tax=Stylonychia...  140     1e-36
+  UniRef90_J9EX40 Uncharacterized protein n=3 Tax=Oxytricha trifa...  139     4e-36
+  UniRef90_J9HTJ0 Uncharacterized protein n=2 Tax=Oxytricha trifa...  139     4e-36
+  UniRef90_J9IEF7 Uncharacterized protein n=1 Tax=Oxytricha trifa...  127     7e-32
+  UniRef90_UPI000698A2E3 PREDICTED: uncharacterized protein LOC10...  114     2e-27
+  UniRef90_A0A078A185 Uncharacterized protein n=1 Tax=Stylonychia...  115     2e-27
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_J9IUL9 Uncharacterized protein n=1 Tax=Oxytricha trifa...  118     1e-28
+  UniRef90_J9I4T7 Uncharacterized protein n=3 Tax=Oxytricha trifa...  99.6    6e-22
+  UniRef90_A0A078ASJ4 Uncharacterized protein n=1 Tax=Stylonychia...  96.9    5e-21
+  UniRef90_A0A078AQU4 Uncharacterized protein n=1 Tax=Stylonychia...  93.4    9e-20
+  UniRef90_J9I7S4 Development-specific protein S n=1 Tax=Oxytrich...  93.1    1e-19
+  UniRef90_J9J1X2 Uncharacterized protein n=1 Tax=Oxytricha trifa...  85.7    3e-17
+  UniRef90_A0A077ZTD8 Uncharacterized protein n=1 Tax=Stylonychia...  83.0    5e-16
+  UniRef90_A0A078B5T4 Uncharacterized protein n=1 Tax=Stylonychia...  83.0    5e-16
+  UniRef90_J9J2G5 Uncharacterized protein n=1 Tax=Oxytricha trifa...  80.4    6e-15
+  UniRef90_J9J4W0 Development-specific protein S n=1 Tax=Oxytrich...  74.6    6e-13
+  UniRef90_A0A078BD77 Uncharacterized protein n=1 Tax=Stylonychia...  69.6    6e-12
+  UniRef90_A0A078AV68 Uncharacterized protein n=1 Tax=Stylonychia...  68.8    8e-12
+  UniRef90_A0A077ZSE6 Uncharacterized protein n=1 Tax=Stylonychia...  66.9    4e-11
+  UniRef90_J9HT25 Uncharacterized protein n=1 Tax=Oxytricha trifa...  64.9    1e-09
+  UniRef90_A0A0G4FNJ7 Uncharacterized protein n=1 Tax=Chromera ve...  64.2    3e-09
+  UniRef90_UPI000695FBA5 PREDICTED: uncharacterized protein LOC10...  62.6    5e-09
+  UniRef90_A0A078AIU3 Uncharacterized protein n=1 Tax=Stylonychia...  62.2    1e-08
+  UniRef90_A0A078AAQ0 Uncharacterized protein n=1 Tax=Stylonychia...  61.9    1e-08
+  UniRef90_J9IMI9 Development-specific protein S n=1 Tax=Oxytrich...  60.3    5e-08
+  UniRef90_J9IRX3 Uncharacterized protein n=1 Tax=Oxytricha trifa...  58.8    2e-07
+  UniRef90_A0A078ABI8 Development-specific protein s n=1 Tax=Styl...  57.6    3e-07
+  UniRef90_UPI0006971590 PREDICTED: uncharacterized protein LOC10...  57.6    3e-07
+  UniRef90_J9J4G6 Uncharacterized protein n=1 Tax=Oxytricha trifa...  56.9    8e-07
+  UniRef90_J9ISV3 Uncharacterized protein n=1 Tax=Oxytricha trifa...  56.1    1e-06
+  UniRef90_J9I3D3 Uncharacterized protein n=2 Tax=Oxytricha trifa...  56.1    1e-06
+  UniRef90_A0A0B3S9Q7 Alpha-L-rhamnosidase A n=4 Tax=Rhodobactera...  54.5    4e-06
+  UniRef90_A0A077ZW39 Uncharacterized protein n=1 Tax=Stylonychia...  53.4    8e-06
+  UniRef90_UPI00069680D6 PREDICTED: uncharacterized protein LOC10...  52.6    1e-05
+  UniRef90_A0A0G4HSB5 Uncharacterized protein n=1 Tax=Chromera ve...  49.5    6e-05
+  UniRef90_UPI00069679C2 PREDICTED: uncharacterized protein LOC10...  49.9    1e-04
+  UniRef90_A0A0W7WG58 Uncharacterized protein n=1 Tax=Ponticoccus...  49.5    2e-04
+  UniRef90_A0A0W7WKJ9 Uncharacterized protein n=1 Tax=Ponticoccus...  46.1    0.003
+
+
+> UniRef90_B7T136 Putative uncharacterized protein n=1 Tax=Acropora 
+millepora TaxID=45264 RepID=B7T136_ACRMI
+Length=476
+
+ Score = 215 bits (546),  Expect = 2e-64, Method: Composition-based stats.
+ Identities = 77/148 (52%), Positives = 104/148 (70%), Gaps = 0/148 (0%)
+
+Query  2    DWEVPTATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKATVSVK  61
+            DW  PTA W+MVGC+QNG+V+Q+ISN IS+S+T +    VE+++ IE   +F   ++S  
+Sbjct  311  DWLTPTADWHMVGCNQNGQVTQEISNEISYSTTESETSTVEITAAIEAETLFGSVSLSAS  370
+
+Query  62   VTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIV  121
+             + SLSK WT SQS T AIT+TC+NYDS + F RGCMWQL + T E  + + + W PQIV
+Sbjct  371  TSYSLSKEWTRSQSQTRAITFTCENYDSGKPFVRGCMWQLEVTTKERHAENAMRWTPQIV  430
+
+Query  122  KCTRSNTAPGCAPFTKCANEDCTFCTDI  149
+            KCTR+   P C PFT+C +EDCT C ++
+Sbjct  431  KCTRNQGQPKCPPFTRCMDEDCTRCEEL  458
+
+
+> UniRef90_Q868M7 Hemolytic lectin CEL-III n=6 Tax=Cucumaria echinata 
+TaxID=40245 RepID=Q868M7_CUCEC
+Length=442
+
+ Score = 207 bits (526),  Expect = 1e-61, Method: Composition-based stats.
+ Identities = 147/149 (99%), Positives = 149/149 (100%), Gaps = 0/149 (0%)
+
+Query  1    DDWEVPTATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKATVSV  60
+            DDWEVPTATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKA+VSV
+Sbjct  294  DDWEVPTATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKASVSV  353
+
+Query  61   KVTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQI  120
+            KVTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQI
+Sbjct  354  KVTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQI  413
+
+Query  121  VKCTRSNTAPGCAPFTKCANEDCTFCTDI  149
+            +KCTRSNTAPGCAPFTKCANEDCTFCTDI
+Sbjct  414  IKCTRSNTAPGCAPFTKCANEDCTFCTDI  442
+
+
+> UniRef90_B7T137 Putative uncharacterized protein n=2 Tax=Acropora 
+millepora TaxID=45264 RepID=B7T137_ACRMI
+Length=481
+
+ Score = 207 bits (526),  Expect = 2e-61, Method: Composition-based stats.
+ Identities = 79/148 (53%), Positives = 104/148 (70%), Gaps = 0/148 (0%)
+
+Query  2    DWEVPTATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKATVSVK  61
+            DW  PTA W++VGC+QNGKV+Q+ISN IS+S+T +   AVE++S IE   +F   ++S  
+Sbjct  311  DWVTPTAEWDLVGCNQNGKVTQEISNQISYSTTTSESAAVEIASAIETKTLFGSVSLSAS  370
+
+Query  62   VTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIV  121
+               SLSK WT SQS TT IT+TC+NYDS + F RGCMWQL + T E  + + + W PQIV
+Sbjct  371  AAYSLSKEWTRSQSQTTKITFTCENYDSGKPFVRGCMWQLEVTTKEQHAENEMRWTPQIV  430
+
+Query  122  KCTRSNTAPGCAPFTKCANEDCTFCTDI  149
+            KCTR+   P C PFT+C +EDCT C ++
+Sbjct  431  KCTRNQEEPKCPPFTRCLDEDCTQCEEL  458
+
+
+> UniRef90_A0A1C9FQM5 Chrysaoralin n=2 Tax=Chrysaora quinquecirrha 
+TaxID=6148 RepID=A0A1C9FQM5_CHRQI
+Length=454
+
+ Score = 198 bits (502),  Expect = 5e-58, Method: Composition-based stats.
+ Identities = 89/149 (60%), Positives = 111/149 (74%), Gaps = 0/149 (0%)
+
+Query  1    DDWEVPTATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKATVSV  60
+            D W  P A W MVGC+QNGKVSQ +SNT+S+SST+T  V VEV +++E  ++FAKATVS 
+Sbjct  306  DKWTAPNAVWVMVGCNQNGKVSQWLSNTVSYSSTITHTVTVEVGASMEADLVFAKATVST  365
+
+Query  61   KVTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQI  120
+            KV+ SLS AWT SQSGTT I +TC+ YD+ E FT GCMWQL ++T  V SG LL W+PQI
+Sbjct  366  KVSTSLSTAWTKSQSGTTRIVFTCEYYDNQEAFTGGCMWQLRVDTKHVNSGRLLTWSPQI  425
+
+Query  121  VKCTRSNTAPGCAPFTKCANEDCTFCTDI  149
+             +CT SNT P C PFTKC ++ C+ C +I
+Sbjct  426  TRCTTSNTQPRCPPFTKCVDKACSLCQEI  454
+
+
+> UniRef90_UPI00077A1B1B UPI00077A1B1B related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00077A1B1B
+Length=476
+
+ Score = 196 bits (497),  Expect = 4e-57, Method: Composition-based stats.
+ Identities = 75/148 (51%), Positives = 98/148 (66%), Gaps = 0/148 (0%)
+
+Query  2    DWEVPTATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKATVSVK  61
+            +W  PTA W+MVGC+QNGKV+Q+ISN I +S T +     E+++ IE    F   ++S  
+Sbjct  311  NWVTPTADWDMVGCNQNGKVTQRISNKIQYSKTKSDTSTNEITAAIEAKTKFVGGSISRS  370
+
+Query  62   VTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIV  121
+             ++SLSK W  SQS T  IT+TC+NYDS E F RGCMWQL + T E  S + + W P IV
+Sbjct  371  ESSSLSKEWKRSQSQTNMITFTCENYDSGEPFVRGCMWQLQVTTKERHSENEMTWTPLIV  430
+
+Query  122  KCTRSNTAPGCAPFTKCANEDCTFCTDI  149
+            KCTR+   P C PFT+C +EDCT C +I
+Sbjct  431  KCTRNLEKPRCPPFTRCMDEDCTRCEEI  458
+
+
+> UniRef90_A0A078AFI1 Uncharacterized protein n=1 Tax=Stylonychia 
+lemnae TaxID=5949 RepID=A0A078AFI1_STYLE
+Length=460
+
+ Score = 140 bits (353),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 40/149 (27%), Positives = 63/149 (42%), Gaps = 6/149 (4%)
+
+Query  5    VPTATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIF---AKATVSVK  61
+             PT  W MVG  +N   S +    ++  +  T      VS +IE+   F    +++VS+ 
+Sbjct  290  APTGYWEMVGSGENIVHSFERGVQMTDGTETTTSDTHTVSISIEQSFSFFKIGESSVSMG  349
+
+Query  62   VTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIV  121
+               S S A T  +  T  +T  C +    +      +WQ  ++ T         WN    
+Sbjct  350  YEYSRSVASTVRKDITKHVTTGCSSTCMTDGSRIVYVWQWMMKGTNDWGAVDESWNLFTC  409
+
+Query  122  K--CTRSNTAPGCAPFTKCANEDCTFCTD  148
+               C    T+P C P TKCA+++C  CT+
+Sbjct  410  NFVCRYEPTSPRC-PLTKCADKECNTCTN  437
+
+
+> UniRef90_J9EX40 Uncharacterized protein n=3 Tax=Oxytricha trifallax 
+TaxID=1172189 RepID=J9EX40_9SPIT
+Length=419
+
+ Score = 139 bits (349),  Expect = 4e-36, Method: Composition-based stats.
+ Identities = 43/149 (29%), Positives = 67/149 (45%), Gaps = 18/149 (12%)
+
+Query  10   WNMVGCDQNGKVSQQISNTISFSSTVTAGVAV--EVSSTIEKGVIFAKA----TVSVKVT  63
+            W  V    +G ++  I    S  +       V  E ++TIE G  F  A    T+S  V+
+Sbjct  265  WERVSSG-SGTLTHSIEKGWSKDTVQKEESTVLEEFTATIESGFSFMGAYEKTTLSNHVS  323
+
+Query  64   ASLSKAWTNS--QSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIV  121
+             ++ K+   S  QS  T  T +CDN + D       ++Q  + +T+    D+ V +   +
+Sbjct  324  VNIFKSSQRSIHQSKITIDTVSCDNKNGDLV----ALYQWTLTSTQDGENDVYVQDSNFI  379
+
+Query  122  KCT---RSNTAPGCAPFTKCANEDCTFCT  147
+             C     SN+ P C P T CA+ +CT CT
+Sbjct  380  -CRYGLNSNSGPEC-PLTMCADAECTKCT  406
+
+
+> UniRef90_J9HTJ0 Uncharacterized protein n=2 Tax=Oxytricha trifallax 
+TaxID=1172189 RepID=J9HTJ0_9SPIT
+Length=419
+
+ Score = 139 bits (349),  Expect = 4e-36, Method: Composition-based stats.
+ Identities = 40/149 (27%), Positives = 66/149 (44%), Gaps = 18/149 (12%)
+
+Query  10   WNMVGCDQNGKVSQQISNTISFSSTVTAGVAV--EVSSTIEKGVIFAKAT----VSVKVT  63
+            W  V    +G ++  I    S          V  E ++T+E G  F  A+    +S  V+
+Sbjct  265  WERVSSG-SGLLTHSIEKGWSKDIVQKEESTVLEEFTATMEAGFEFMGASEKTTLSNHVS  323
+
+Query  64   ASLSKAWTNS--QSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIV  121
+            A++ K+   S  QS  +  + TC+N + D       ++Q  + T +    D+ V +   +
+Sbjct  324  ANIFKSSQRSIHQSKISIDSVTCENKNGDLV----ALYQWTLTTYKDGEDDVYVQDSNFI  379
+
+Query  122  KCT---RSNTAPGCAPFTKCANEDCTFCT  147
+             C     SN+ P C P T CA+ +CT CT
+Sbjct  380  -CRYGLNSNSGPEC-PLTMCADAECTKCT  406
+
+
+> UniRef90_J9IEF7 Uncharacterized protein n=1 Tax=Oxytricha trifallax 
+TaxID=1172189 RepID=J9IEF7_9SPIT
+Length=419
+
+ Score = 127 bits (319),  Expect = 7e-32, Method: Composition-based stats.
+ Identities = 43/149 (29%), Positives = 63/149 (42%), Gaps = 18/149 (12%)
+
+Query  10   WNMVGCDQNGKVSQQISNTISFSSTVTAGVAV--EVSSTIEKGVIFAKA----TVSVKVT  63
+            W  V       +S  I    S          V  E ++T+E G  F  A    T+S  V+
+Sbjct  265  WERVSSGSG-SLSHSIEKGWSKDIVQKEESTVLEEFTATMESGFNFMGAYEKTTLSNHVS  323
+
+Query  64   ASLSKAWTNS--QSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIV  121
+             ++ K+   S  QS  T  T TCDN + D       ++Q  +  T+    D+ V +   +
+Sbjct  324  INIFKSSQRSIHQSKITIDTVTCDNKNGDLV----ALYQWTLTGTQEGENDIYVQDSNFI  379
+
+Query  122  KCT---RSNTAPGCAPFTKCANEDCTFCT  147
+             C     SN+ P C P T CA+ +CT CT
+Sbjct  380  -CRYGLNSNSGPDC-PLTMCADAECTKCT  406
+
+
+> UniRef90_J9IUL9 Uncharacterized protein n=1 Tax=Oxytricha trifallax 
+TaxID=1172189 RepID=J9IUL9_9SPIT
+Length=414
+
+ Score = 118 bits (295),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 39/149 (26%), Positives = 60/149 (40%), Gaps = 18/149 (12%)
+
+Query  10   WNMVGCDQNGKVSQQISNTISFSSTVTAGVAV--EVSSTIEKGVIFAKA----TVSVKVT  63
+            W  V    +G ++  I    S          V  E ++T E G  F  A    T++  ++
+Sbjct  260  WERVSSG-SGTITHVIQKGWSKDIVQKDEKTVLEEFTATAEAGFNFMGAYEKTTLTNHIS  318
+
+Query  64   ASLSKAWTNS--QSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIV  121
+             ++  +   S  QS  T  T  CDN     E     ++Q  +  T+    D+ + +   +
+Sbjct  319  LNIFSSCQRSIHQSKITTDTVVCDN----PERQLVALYQWTLTGTQDGENDIYIQDANYI  374
+
+Query  122  KCT---RSNTAPGCAPFTKCANEDCTFCT  147
+             C     SNT P C P T CA+  CT CT
+Sbjct  375  -CRYGLNSNTGPAC-PLTMCADAQCTQCT  401
+
+
+> UniRef90_UPI000698A2E3 PREDICTED: uncharacterized protein LOC106166988 
+n=1 Tax=Lingula unguis TaxID=7574 RepID=UPI000698A2E3
+Length=342
+
+ Score = 114 bits (284),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 31/130 (24%), Positives = 49/130 (38%), Gaps = 13/130 (10%)
+
+Query  8    ATWNMVGC-DQNGKVSQQISNTISFSSTVTAGVAV--EVSSTIEKGVIFAKATVSVKVTA  64
+              W  + C    G  S   +    +S T ++ +    E++  + K VI A  T S   + 
+Sbjct  219  GDWVKISCWGHVGPGSLSYTFKAGYSKTESSTLTNSWEMTIEVAKKVITASVTYSGSYST  278
+
+Query  65   SLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIVKCT  124
+            S    WT  +  T  +T T             C+WQ      +    D  V+ P I++ T
+Sbjct  279  SYESQWTQEREITRTVTVTVAGT--------ICLWQWQYVFEQFN--DKYVFKPMIMQET  328
+
+Query  125  RSNTAPGCAP  134
+            RS+  P   P
+Sbjct  329  RSDVKPTNIP  338
+
+
+> UniRef90_A0A078A185 Uncharacterized protein n=1 Tax=Stylonychia 
+lemnae TaxID=5949 RepID=A0A078A185_STYLE
+Length=407
+
+ Score = 115 bits (286),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 33/151 (22%), Positives = 64/151 (42%), Gaps = 21/151 (14%)
+
+Query  7    TATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAV--EVSSTIE------KGVIFAKATV  58
+            T  W  V        + QIS ++  +S ++       E+ +++         +I  KA++
+Sbjct  263  TGYWYKV-----IASTDQISASVETTSGISTTKTNSQEIQASLSLGFEVGSELIGQKASI  317
+
+Query  59   SVKVTASLSKA--WTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVW  116
+            S  V  ++S++   T SQSGT  I   C N     +  +  +WQ  +   +     + + 
+Sbjct  318  SGTVAKAVSRSVDSTLSQSGTYKIQAQCSN----PQRVKMSLWQWRMSGIKNGVEVMDMK  373
+
+Query  117  NPQIVKCTRSNTAPGCAPFTKCANEDCTFCT  147
+            + + + C   + +P C P   C + +CT C 
+Sbjct  374  DNEFI-CKTGDQSPRC-PVGFCQDNECTICK  402
+
+
+> UniRef90_J9I4T7 Uncharacterized protein n=3 Tax=Oxytricha trifallax 
+TaxID=1172189 RepID=J9I4T7_9SPIT
+Length=417
+
+ Score = 99.6 bits (246),  Expect = 6e-22, Method: Composition-based stats.
+ Identities = 42/150 (28%), Positives = 62/150 (41%), Gaps = 18/150 (12%)
+
+Query  10   WNMVGCDQNGKVSQQISNTISFSSTVTAGVAV--EVSSTIEKGVIFAKA----TVSVKVT  63
+            W  V    +G ++  I    S          V  E +S +E G  F  A    T++  V+
+Sbjct  267  WTRVTSG-SGPITYTIQTGWSKDEVKKDEKTVLEEFTSVLEAGWSFMGAYAKTTLTNHVS  325
+
+Query  64   ASLSKAWTNS--QSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIV  121
+             ++ K+   S  QS    I  TCDN + D       ++Q  ++       D+ V +   +
+Sbjct  326  VNIFKSVEQSLHQSQLQTIAVTCDNPERDLV----ALYQWTLQGQTNGQDDVFVRDSNYI  381
+
+Query  122  KCTRS---NTAPGCAPFTKCANEDCTFCTD  148
+             C      N+AP C P T CAN  CT CTD
+Sbjct  382  -CRYGLNANSAPAC-PLTMCANGQCTECTD  409
+
+
+> UniRef90_A0A078ASJ4 Uncharacterized protein n=1 Tax=Stylonychia 
+lemnae TaxID=5949 RepID=A0A078ASJ4_STYLE
+Length=407
+
+ Score = 96.9 bits (239),  Expect = 5e-21, Method: Composition-based stats.
+ Identities = 34/155 (22%), Positives = 62/155 (40%), Gaps = 17/155 (11%)
+
+Query  1    DDWEVPTATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAK-----  55
+            D     + +W  V    N  +S Q+  T    +T T     E+S+++  G          
+Sbjct  257  DTPITISGSWEKV-VSSNDAISIQVEETAGIDTTKTNSQ--EISTSLTAGFEVGGDAVGY  313
+
+Query  56   -ATVSVKVTASLSKA--WTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGD  112
+              ++S  V  ++SK+   T S+SG   I  TC N        +  +WQ  +   +     
+Sbjct  314  KYSISATVGTAISKSVASTLSKSGKFTIQATCSN----PSRVKMTLWQWRMTGVKNNQLV  369
+
+Query  113  LLVWNPQIVKCTRSNTAPGCAPFTKCANEDCTFCT  147
+            + + + + + C     AP C P   C +++C +C 
+Sbjct  370  MDMKDNEFI-CKTGEQAPRC-PVGFCQDDECNYCK  402
+
+
+> UniRef90_A0A078AQU4 Uncharacterized protein n=1 Tax=Stylonychia 
+lemnae TaxID=5949 RepID=A0A078AQU4_STYLE
+Length=407
+
+ Score = 93.4 bits (230),  Expect = 9e-20, Method: Composition-based stats.
+ Identities = 31/146 (21%), Positives = 58/146 (40%), Gaps = 11/146 (8%)
+
+Query  7    TATWNMV-GCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIE--KGVIFAKATVSVKV-  62
+            T  W+ V   +    VS + +  I  + T +  +   ++   E    ++  K +VS  V 
+Sbjct  263  TGNWDKVISSNDAISVSVEETAGIDTTKTNSQEINASLTQGFEVGSDLVGYKYSVSATVG  322
+
+Query  63   -TASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIV  121
+               S S + T S+SGT  I   C N     +  +  +WQ  +   +     + + + + +
+Sbjct  323  TAVSHSVSSTLSKSGTVKIEAQCSN----PQRVKITLWQWRMTGVKNDELVMNMKDNEFI  378
+
+Query  122  KCTRSNTAPGCAPFTKCANEDCTFCT  147
+             C     +P C P   C + +C  C 
+Sbjct  379  -CKTGEESPRC-PVGFCQDAECNTCK  402
+
+
+> UniRef90_J9I7S4 Development-specific protein S n=1 Tax=Oxytricha 
+trifallax TaxID=1172189 RepID=J9I7S4_9SPIT
+Length=421
+
+ Score = 93.1 bits (229),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 35/152 (23%), Positives = 64/152 (42%), Gaps = 18/152 (12%)
+
+Query  7    TATWNMVGCDQNGKVSQQISNTISF--SSTVTAGVAVEVSSTIEKGVIFAK----ATVSV  60
+               W  V    NG +++ I    S   S T    V    +++ E+G  F       T+S 
+Sbjct  270  NTYWERV-ISSNGPITETIEVGWSKEESKTDETTVTNSFTTSAEEGYSFMGSSSKVTLSY  328
+
+Query  61   KVTASLSKAWTNSQSGTTAI--TYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNP  118
+             ++ S+  + T S S +  I  T +C+N +++       ++Q  +    +   ++ V + 
+Sbjct  329  TLSTSIRNSVTQSLSISKRIQKTVSCNNPNNELVT----LYQWVLNGERIGEPNIKVDDS  384
+
+Query  119  QIVKCTRS---NTAPGCAPFTKCANEDCTFCT  147
+              + C      N++P C P T CA+  C  CT
+Sbjct  385  NFI-CRYGVNANSSPAC-PLTMCADSQCNTCT  414
+
+
+> UniRef90_J9J1X2 Uncharacterized protein n=1 Tax=Oxytricha trifallax 
+TaxID=1172189 RepID=J9J1X2_9SPIT
+Length=345
+
+ Score = 85.7 bits (210),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 36/152 (24%), Positives = 70/152 (46%), Gaps = 18/152 (12%)
+
+Query  7    TATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAV--EVSSTIEKGVIFAK----ATVSV  60
+               W  V    NG +++ I    S   + T  V V    +++ E+G  F      A++S 
+Sbjct  194  NTFWERV-ISSNGPITETIEVGWSKEDSKTDEVTVSQSFTASAEEGYTFMGSSGKASLSY  252
+
+Query  61   KVTASLSKAWTNSQSGTTAI--TYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNP  118
+             +++S+ +A T+S S +  +  T +C+N +++       ++Q  ++   +    +LV + 
+Sbjct  253  TLSSSIRQAVTSSLSISKRVSKTVSCNNPNNELVT----LYQWVLDGQRIGQPSILVDDS  308
+
+Query  119  QIVKCTRS---NTAPGCAPFTKCANEDCTFCT  147
+              + C      N++P C P T CA+  C  CT
+Sbjct  309  NFI-CRYGVNANSSPAC-PLTMCADSQCNTCT  338
+
+
+> UniRef90_A0A077ZTD8 Uncharacterized protein n=1 Tax=Stylonychia 
+lemnae TaxID=5949 RepID=A0A077ZTD8_STYLE
+Length=406
+
+ Score = 83.0 bits (203),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 30/151 (20%), Positives = 61/151 (40%), Gaps = 23/151 (15%)
+
+Query  8    ATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVE--VSSTIEKGVIFAK------ATVS  59
+              W  V        + +I+ +I  +S +   +  E  +S++I  G  F         +VS
+Sbjct  261  GYWEKVLSS-----NDEITTSIEQTSGIDKSLTNENELSTSITTGFEFGGDAIGYKVSVS  315
+
+Query  60   VKVTASL--SKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWN  117
+              V  ++  + + T S S T  I   C N ++     +  +WQ ++   +     + + +
+Sbjct  316  ATVGTAVRDTVSQTLSSSKTRKIEAKCSNPNN----VKITLWQWSMTGKKNGELVMDLTD  371
+
+Query  118  PQIVKCTRSNTAPGCAPFTKCANED--CTFC  146
+             + + C + +  P C P   C ++D  C  C
+Sbjct  372  NEFI-CKKGSKPPKC-PVGFCDDDDPQCEIC  400
+
+
+> UniRef90_A0A078B5T4 Uncharacterized protein n=1 Tax=Stylonychia 
+lemnae TaxID=5949 RepID=A0A078B5T4_STYLE
+Length=402
+
+ Score = 83.0 bits (203),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 33/149 (22%), Positives = 60/149 (40%), Gaps = 19/149 (13%)
+
+Query  8    ATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFA------KATVSVK  61
+              W+ V    N +++  I  T     + +     E+S+++  G  F       KA+VS  
+Sbjct  257  GFWDKV-LSSNDEITTSIEQTSGIDKSKSNE--NEISTSLTSGFEFGSDVLGYKASVSAT  313
+
+Query  62   VTASL--SKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQ  119
+            V  S+  + + T S + T  I   C N D      +  +WQ ++   +     + + + +
+Sbjct  314  VGTSVKDTISQTLSSTKTRRIEVKCSNPDQ----VKMTLWQWSMTGKKNGELVMELTDNE  369
+
+Query  120  IVKCTRSNTAPGCAPFTKCANED--CTFC  146
+             + C + +  P C P   C N D  C  C
+Sbjct  370  FI-CKKGSKPPKC-PVGFCNNNDPQCETC  396
+
+
+> UniRef90_J9J2G5 Uncharacterized protein n=1 Tax=Oxytricha trifallax 
+TaxID=1172189 RepID=J9J2G5_9SPIT
+Length=400
+
+ Score = 80.4 bits (196),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 30/135 (22%), Positives = 52/135 (39%), Gaps = 17/135 (13%)
+
+Query  10   WNMVGCDQNGKVSQQISNTISFSSTVTAGVAV--EVSSTIEKGVIFAKA----TVSVKVT  63
+            W  V    +G ++  I    S          V  E +S +E G  F  A    T++  ++
+Sbjct  267  WTRVTSG-SGPITYTIQTGWSKDVVKKDEKTVLEEFTSVLEAGWSFMGAYAKTTLTNHIS  325
+
+Query  64   ASLSKAWTNS--QSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIV  121
+             ++ K+   S  QS    I  TCDN + D       ++Q  ++       D+ + +   +
+Sbjct  326  VNIYKSVEQSLHQSQLQTIAVTCDNPERDLV----ALYQWTLQGRTNGQDDVFLRDSNYI  381
+
+Query  122  KCTRS---NTAPGCA  133
+             C      N+AP C 
+Sbjct  382  -CRYGLNANSAPACP  395
+
+
+> UniRef90_J9J4W0 Development-specific protein S n=1 Tax=Oxytricha 
+trifallax TaxID=1172189 RepID=J9J4W0_9SPIT
+Length=425
+
+ Score = 74.6 bits (181),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 33/155 (21%), Positives = 58/155 (37%), Gaps = 22/155 (14%)
+
+Query  7    TATWNMVGCDQNGKVSQQISNTIS--FSSTVTAGVAVEVSSTIEKGVIFAKATV------  58
+               W  V   QNG + + I    S   S      V    +++  KG IF   +       
+Sbjct  274  NVYWERVA-SQNGPIVKTIEVGWSNEESQIDQNTVKNSFTASANKGYIFKGQSSKFSLSK  332
+
+Query  59   --SVKVTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVW  116
+              S  +  S+ +A   S+     +T  C N +++       ++Q  +    V    + V 
+Sbjct  333  DQSGSIRDSVMQALQTSKKI--HMTARCSNLNNESV----SLYQWVLVGEGVGESSIHVR  386
+
+Query  117  NPQIVKCTRS---NTAPGCAPFTKCANEDCTFCTD  148
+            +   + C      N++P C P T CA+  C+ C +
+Sbjct  387  DSSYI-CRYGVNANSSPAC-PLTMCADSQCSTCIE  419
+
+
+> UniRef90_A0A078BD77 Uncharacterized protein n=1 Tax=Stylonychia 
+lemnae TaxID=5949 RepID=A0A078BD77_STYLE
+Length=198
+
+ Score = 69.6 bits (168),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 27/145 (19%), Positives = 59/145 (41%), Gaps = 11/145 (8%)
+
+Query  8    ATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKATVSVKVTASLS  67
+              W  +    N +++  I  T     + T     E+S+++  G  F   T+    + S S
+Sbjct  53   GYWVKI-LSSNDEITTSIEQTSGIDKSQTTE--NELSASMTAGFQFGSDTLGSTTSVSTS  109
+
+Query  68   KAW----TNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIVKC  123
+                   T SQ+ +++ T   +   ++    +  +WQ ++   +     + + + + + C
+Sbjct  110  VGTAIRDTVSQTLSSSKTRKIEAKCTNPNKVKITLWQWSMTGKKNGELVMELTDNEFI-C  168
+
+Query  124  TRSNTAPGCAPFTKCANED--CTFC  146
+             + +T P C P   C ++D  C  C
+Sbjct  169  KKGSTPPKC-PVGFCDDKDPQCETC  192
+
+
+> UniRef90_A0A078AV68 Uncharacterized protein n=1 Tax=Stylonychia 
+lemnae TaxID=5949 RepID=A0A078AV68_STYLE
+Length=164
+
+ Score = 68.8 bits (166),  Expect = 8e-12, Method: Composition-based stats.
+ Identities = 28/146 (19%), Positives = 55/146 (38%), Gaps = 13/146 (9%)
+
+Query  8    ATWNMV-GCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKATVSVKVTASL  66
+              W  V   +     S + ++ I  S T       E+S++I  G  F         + S 
+Sbjct  19   GYWEKVLSSNDEITTSLEQTSGIDKSKTTE----NEISASITAGFTFGGDAYGGTASVSA  74
+
+Query  67   SKAW----TNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIVK  122
+            S       T SQ+  ++ T   +   S+ +  +  +WQ ++   +     + + + + + 
+Sbjct  75   SAGTAVRDTVSQTLNSSKTRRIEAKCSNPDKVKMTLWQWSMTAKKNGELVMDLTDNEFI-  133
+
+Query  123  CTRSNTAPGCAPFTKCANED--CTFC  146
+            C + +  P C P   C + D  C  C
+Sbjct  134  CKKGSKPPKC-PVGFCDDNDPQCETC  158
+
+
+> UniRef90_A0A077ZSE6 Uncharacterized protein n=1 Tax=Stylonychia 
+lemnae TaxID=5949 RepID=A0A077ZSE6_STYLE
+Length=164
+
+ Score = 66.9 bits (161),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 27/142 (19%), Positives = 57/142 (40%), Gaps = 5/142 (4%)
+
+Query  8    ATWNMV-GCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKATVSVKVTASL  66
+              W  V   +     S + ++ I  S T    ++  +++  E G        SV  TA  
+Sbjct  19   GYWQKVLSSNDEITTSLEQTSGIDKSKTTENEISASITAGFELGGDIYGYKASVSATAGT  78
+
+Query  67   SKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIVKCTRS  126
+            +   T SQ+ +++ T T +   ++ +  +  +WQ ++   +     + +   + + C + 
+Sbjct  79   AVKDTVSQTLSSSNTRTIEAKCTNPDKVKMTLWQWSMTGKKNGELVMDLTENEFI-CKKG  137
+
+Query  127  NTAPGCAPFTKCANED--CTFC  146
+            +  P C P   C + D  C  C
+Sbjct  138  SKPPKC-PVGFCNDNDPQCETC  158
+
+
+> UniRef90_J9HT25 Uncharacterized protein n=1 Tax=Oxytricha trifallax 
+TaxID=1172189 RepID=J9HT25_9SPIT
+Length=431
+
+ Score = 64.9 bits (156),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 30/165 (18%), Positives = 54/165 (33%), Gaps = 26/165 (16%)
+
+Query  1    DDWEVPTATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAV-------------EVSSTI  47
+            D + V    W  V       ++  I      S      + +             +  +  
+Sbjct  265  DIFAVIVGKWERVVSTNFAPINTTIYRGWDQSEVQIPELTLFKLFKNIAWGNSFQFQAEF  324
+
+Query  48   EKGVIFAKATVSVKVTASLSKAWTNS--QSGTTAITYTCDNYDSDEEFTRGCMWQLAIET  105
+            EK  +     ++   +  +  A   S  +S  + +  TC  Y+S        ++Q     
+Sbjct  325  EKTTL-----LTRPASVKIFDATIRSLKESKISEVQVTCP-YNSKANQDNIALYQWTFTV  378
+
+Query  106  TEVKSGDLLVWNPQIVKCTRSN---TAPGCAPFTKCANEDCTFCT  147
+                  D  V++   + C   +   + P C P T CAN DC+ CT
+Sbjct  379  KIDGLEDFYVYDANYM-CRYRDFAWSPPAC-PLTYCANSDCSSCT  421
+
+
+> UniRef90_A0A0G4FNJ7 Uncharacterized protein n=1 Tax=Chromera 
+velia CCMP2878 TaxID=1169474 RepID=A0A0G4FNJ7_9ALVE
+Length=440
+
+ Score = 64.2 bits (154),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 33/155 (21%), Positives = 59/155 (38%), Gaps = 14/155 (9%)
+
+Query  2    DWEVPTATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKATVSVK  61
+            ++E     WNMV   Q G +    + +++ +S+ T     E S+ I++   F  A V+  
+Sbjct  287  EFEETAGYWNMVRSHQGGNLEFTYTVSVTQTSSSTTTQLQEWSAGIKQSFKFLGAEVTGS  346
+
+Query  62   V--TASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWN--  117
+                 + S   T + + + A   TC             +WQ  +   +       V +  
+Sbjct  347  YKEAVTRSITDTVTSTESKAFKTTCTALPDGRP---VALWQWVVAARQTGDARPEVESWP  403
+
+Query  118  ----PQIVKCTRSNTAPGCAPFTKC--ANEDCTFC  146
+                 Q  +C  ++  P C P  KC  ++ DC  C
+Sbjct  404  YQAASQNTRCGPADPEPRC-PLNKCDPSDIDCQKC  437
+
+
+> UniRef90_UPI000695FBA5 PREDICTED: uncharacterized protein LOC106151985 
+n=1 Tax=Lingula unguis TaxID=7574 RepID=UPI000695FBA5
+Length=303
+
+ Score = 62.6 bits (150),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 30/133 (23%), Positives = 53/133 (40%), Gaps = 12/133 (9%)
+
+Query  8    ATWNMVGC---DQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKATVSVKVTA  64
+              W  V C      G +   ++   S +S+ +     E+S  + KG++ A AT     T 
+Sbjct  179  GEWQKVSCWYNVHVGSLKFTMTIGTSKTSSSSLTNTWELSVGVAKGIVEASATYGGSFTT  238
+
+Query  65   SLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIVKCT  124
+            +  + W    +    IT T       +E++  C+WQ   E  +    D   +    ++ T
+Sbjct  239  TDEQQWKAESTIERTITVT-------KEYSTLCLWQWVYEFEQFN--DGFRFRSFTIRET  289
+
+Query  125  RSNTAPGCAPFTK  137
+            RS+  P   P +K
+Sbjct  290  RSDAKPTEIPGSK  302
+
+
+> UniRef90_A0A078AIU3 Uncharacterized protein n=1 Tax=Stylonychia 
+lemnae TaxID=5949 RepID=A0A078AIU3_STYLE
+Length=409
+
+ Score = 62.2 bits (149),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 31/149 (21%), Positives = 50/149 (34%), Gaps = 14/149 (9%)
+
+Query  7    TATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGV-----IFAKATVSVK  61
+            TA W  +       +   +   +   +T  +      S ++         +     VSV 
+Sbjct  267  TARWVPLDSSWGNALKVSVLQGLQLDTTKVSSTTFSASLSLGYKYTKGDPVTGSHEVSVS  326
+
+Query  62   VTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIV  121
+             TA      + S S   A   T +   + +   +  MWQ  ++      G L      I 
+Sbjct  327  ATAGFELQNSISNSIQKATQVTAEKNCAAKGDVKVTMWQFQLQA----EGALYGAENYI-  381
+
+Query  122  KCTRSN---TAPGCAPFTKCANEDCTFCT  147
+             C   +    AP C  F KCA+ +CT C 
+Sbjct  382  -CRYGDNASVAPQCISFIKCADSECTKCK  409
+
+
+> UniRef90_A0A078AAQ0 Uncharacterized protein n=1 Tax=Stylonychia 
+lemnae TaxID=5949 RepID=A0A078AAQ0_STYLE
+Length=410
+
+ Score = 61.9 bits (148),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 28/146 (19%), Positives = 50/146 (34%), Gaps = 10/146 (7%)
+
+Query  7    TATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGV-----IFAKATVSVK  61
+            TA W  +       ++  +   +   +T  +      S ++         +  +   SV 
+Sbjct  268  TARWVTLDSSWGNPLNVSVMQGLKLDTTKVSSTTFSASLSLGYKYTNGNPVTGQQEFSVS  327
+
+Query  62   VTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIV  121
+             T       + S S   A   T +   + +   +  MWQ  +       G L      I 
+Sbjct  328  ATVGFELQNSISSSIKKATQVTAEKICAAKGDQKVTMWQFQLSA----EGALYGAENFIC  383
+
+Query  122  KC-TRSNTAPGCAPFTKCANEDCTFC  146
+            K    ++ AP C  + KCA+ +CT C
+Sbjct  384  KYGDNADLAPSCISYMKCADAECTRC  409
+
+
+> UniRef90_J9IMI9 Development-specific protein S n=1 Tax=Oxytricha 
+trifallax TaxID=1172189 RepID=J9IMI9_9SPIT
+Length=387
+
+ Score = 60.3 bits (144),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 30/152 (20%), Positives = 58/152 (38%), Gaps = 18/152 (12%)
+
+Query  8    ATWNMVGCDQNGKVSQQISNT--ISFSSTVTAGVAVEVSSTIEKGVIFAKATVSVKVTAS  65
+              W +     NG +S+ I     +   +   + V      + E G  FA A     +T  
+Sbjct  238  GQWELAAYG-NGLLSRSIEVGTTVQDQTIHESIVKDSFVVSAEAGYEFAGAYAKTSMTTE  296
+
+Query  66   LSKAWTN------SQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQ  119
+             S+   +       ++  T  T+TC+N D         ++Q +++++      +   N +
+Sbjct  297  TSRTIRDFCMKYYEKTTKTTTTFTCENKDGQLVG----LYQWSMKSSA-GDQAIAGINTE  351
+
+Query  120  IVKCTRS---NTAPGCAPFTKCANEDCTFCTD  148
+               C      N+ P C P T+C + +C  C +
+Sbjct  352  FYLCRYGIDANSQPHC-PLTQCRDANCNECIN  382
+
+
+> UniRef90_J9IRX3 Uncharacterized protein n=1 Tax=Oxytricha trifallax 
+TaxID=1172189 RepID=J9IRX3_9SPIT
+Length=424
+
+ Score = 58.8 bits (140),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 26/151 (17%), Positives = 51/151 (34%), Gaps = 14/151 (9%)
+
+Query  8    ATWNMVGCDQNGKVSQQISNTISFSSTV--TAGVAVEV-SSTIEKGVIFAK-----ATVS  59
+              W  V       ++  +S       T    + +     +   ++G  F         ++
+Sbjct  265  GKWERVMSTTYAPINTTVSMGWDSIETQIPESNLLNLFRTEAWQQGFQFQTEFEKTTNMT  324
+
+Query  60   VKVTASLSKAW--TNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWN  117
+            +  +  L  A   T  QS  T +  +C   D+        ++Q   +       +  +++
+Sbjct  325  IPASVKLFDASILTLKQSQITQVQASCP-ADAKLSQNTIALYQWTYKVQIDGKEEFQIYD  383
+
+Query  118  PQIVKCTRSNTA--PGCAPFTKCANEDCTFC  146
+               V C  +NTA  P   P   C + DC+ C
+Sbjct  384  ANFV-CKYNNTASYPPACPLLYCGDADCSNC  413
+
+
+> UniRef90_A0A078ABI8 Development-specific protein s n=1 Tax=Stylonychia 
+lemnae TaxID=5949 RepID=A0A078ABI8_STYLE
+Length=299
+
+ Score = 57.6 bits (137),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 33/147 (22%), Positives = 55/147 (37%), Gaps = 17/147 (12%)
+
+Query  8    ATWNMVGCDQNGKVSQQISNTISFSSTVTAGVA--VEVSSTIEKGVIFAKATVSVKVTAS  65
+              W       NGK+S Q++  I+  ++ T        + +    GV F  +   + VTAS
+Sbjct  67   GEWVKRFSTSNGKISSQLTIGITQETSETKSKTFGASLEAAASSGVSFLGSGAEITVTAS  126
+
+Query  66   L------SKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQ  119
+                       +   S TT  T  CD         +  +WQ  +  T+     LL ++ +
+Sbjct  127  ASASMASEITSSLGTSRTTQSTVECDQASG----RQSSLWQWRLRGTK-GDKVLLSYDSE  181
+
+Query  120  IVKCTRSN---TAPGCAPFTKCANEDC  143
+               C   +   T P C P   C++ +C
+Sbjct  182  DYVCKYGSDYLTPPKC-PLGSCSDTEC  207
+
+
+> UniRef90_UPI0006971590 PREDICTED: uncharacterized protein LOC106161987 
+n=1 Tax=Lingula unguis TaxID=7574 RepID=UPI0006971590
+Length=303
+
+ Score = 57.6 bits (137),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 30/134 (22%), Positives = 48/134 (36%), Gaps = 12/134 (9%)
+
+Query  7    TATWNMVGCDQN---GKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKATVSVKVT  63
+            + +W  + C  N   G++   +    S SS+ T   A EVS +     I   A  S   +
+Sbjct  178  SGSWKKITCWANVHKGQLKYSVKVGTSISSSSTTTHAWEVSFSAAFSFISVSAKYSGSFS  237
+
+Query  64   ASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIVKC  123
+            ++  + W    +    I     N D D      C+WQ      +    D   +    ++ 
+Sbjct  238  STYEEQWHTESTIERTI-----NIDQDGGTV--CIWQWVYTFEQF--EDTFTFKAFTLRE  288
+
+Query  124  TRSNTAPGCAPFTK  137
+            TRS   P   P  K
+Sbjct  289  TRSEAVPTEIPVGK  302
+
+
+> UniRef90_J9J4G6 Uncharacterized protein n=1 Tax=Oxytricha trifallax 
+TaxID=1172189 RepID=J9J4G6_9SPIT
+Length=429
+
+ Score = 56.9 bits (135),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 26/149 (17%), Positives = 44/149 (30%), Gaps = 12/149 (8%)
+
+Query  8    ATWNMVGCDQNGKVSQQISNTISFSSTV--TAGVAVEVSSTIEKGV-----IFAKATVSV  60
+              W  V     G +   I               +     +  E G+      F + +   
+Sbjct  269  GKWERVTSSNTGPLITTIQRGWDQKEVNIPEDTLLNLFKTQAELGIYIFQRQFDRISSMT  328
+
+Query  61   KVTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQI  120
+               +      T     ++ I+ T  + D         ++Q   + + V   D  V++   
+Sbjct  329  TYASIRIFDSTIESLKSSKISETDASCDIKSGQDYIALYQWTYKVSIVGQEDFYVYDTNQ  388
+
+Query  121  VKCTRSNTA---PGCAPFTKCANEDCTFC  146
+            + C     A   P CA    CA  DCT C
+Sbjct  389  I-CRYGELAKNPPSCA-LNYCATFDCTTC  415
+
+
+> UniRef90_J9ISV3 Uncharacterized protein n=1 Tax=Oxytricha trifallax 
+TaxID=1172189 RepID=J9ISV3_9SPIT
+Length=420
+
+ Score = 56.1 bits (133),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 28/153 (18%), Positives = 42/153 (27%), Gaps = 18/153 (12%)
+
+Query  8    ATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEK-------GVIFAKAT---  57
+              W  V     G ++  I               +      E           F K T   
+Sbjct  263  GKWERVTSANIGPLNTTIQRGWDQKEVKVPEDTLLKLFRTEAWKEAYSFQTEFDKTTLMT  322
+
+Query  58   VSVKVTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWN  117
+            +   V A  S   +  QS    I   C      +      ++Q   +       +  V++
+Sbjct  323  IPASVKAFDSTIKSVKQSKIIDIQANCAIKQGQD---NIALYQWTYKVQIEGLDEFYVYD  379
+
+Query  118  PQIVKCTRSN---TAPGCAPFTKCANEDCTFCT  147
+               + C  S    + P C P   CA  DCT C 
+Sbjct  380  ANYM-CRYSAFAWSPPAC-PLNYCATSDCTTCK  410
+
+
+> UniRef90_J9I3D3 Uncharacterized protein n=2 Tax=Oxytricha trifallax 
+TaxID=1172189 RepID=J9I3D3_9SPIT
+Length=424
+
+ Score = 56.1 bits (133),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 28/153 (18%), Positives = 51/153 (33%), Gaps = 14/153 (9%)
+
+Query  8    ATWNMVGCDQNGKVSQQISNTISFSSTV--TAGVAVEV-SSTIEKGVIFAK-----ATVS  59
+              W  V       ++  +S       T    + +     +   ++G  F         ++
+Sbjct  265  GKWERVMSTTYAPINTTVSMGWDSIETQIPESNLLNLFRTEAWQEGFKFQTEFEKTTNMT  324
+
+Query  60   VKVTASLSKAW--TNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWN  117
+            +  +  L  A   T  QS  T +  +C   D         ++Q   +       +  +++
+Sbjct  325  IPPSVKLFDASILTLKQSQITQVQASCP-ADPKLSQNTIALYQWTYKVQIDGKEEFQIYD  383
+
+Query  118  PQIVKCTRSNTA--PGCAPFTKCANEDCTFCTD  148
+               V C  +NTA  P   P   CA+ DC  C D
+Sbjct  384  TNFV-CKYNNTASYPPACPLLYCADADCQNCLD  415
+
+
+> UniRef90_A0A0B3S9Q7 Alpha-L-rhamnosidase A n=4 Tax=Rhodobacteraceae 
+TaxID=31989 RepID=A0A0B3S9Q7_9RHOB
+Length=414
+
+ Score = 54.5 bits (129),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 40/157 (25%), Positives = 63/157 (40%), Gaps = 21/157 (13%)
+
+Query  8    ATWNMV-GCDQ-NGKVSQQISNTISFSS--------TVTAGVAVEVSSTIEKGVIFAKAT  57
+              W  V  CD  N  +S +IS   + ++         +T   ++E   TI    + A A+
+Sbjct  255  GRWEKVISCDGKNCPISHEISVGTTKTNSWTTTQQWGITVTESMEAGLTILGTGVKASAS  314
+
+Query  58   VSVKVTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIET----TEVKSGDL  113
+            +S    AS +     S+S T   T TC   D   E++   +WQ +  T     E  + D 
+Sbjct  315  ISQSYAASFAFTSALSKSVTQNYTATC---DPSGEYSSRALWQFSTGTGETCLESGTCDG  371
+
+Query  114  LVWNPQIVKCTRSN---TAPGCAPFTKCANEDCTFCT  147
+              +  + +    +      P C P   CA+E CT CT
+Sbjct  372  ATFTAEYLCVGDAPGDYVGPACIP-GYCADELCTVCT  407
+
+
+> UniRef90_A0A077ZW39 Uncharacterized protein n=1 Tax=Stylonychia 
+lemnae TaxID=5949 RepID=A0A077ZW39_STYLE
+Length=278
+
+ Score = 53.4 bits (126),  Expect = 8e-06, Method: Composition-based stats.
+ Identities = 27/147 (18%), Positives = 51/147 (35%), Gaps = 10/147 (7%)
+
+Query  7    TATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGV-----IFAKATVSVK  61
+            TA W  +       +   +   +   +T  +      S T+         +      SV+
+Sbjct  136  TARWVALDSSWGNALKVSVLQGLQIDNTKVSTQTFSASLTLGYKYTTGNPVTGSHEFSVE  195
+
+Query  62   VTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIV  121
+             T       + S S   A   T +    D++  +  M+Q  +       G +      I 
+Sbjct  196  ATVGFQLENSISNSIQKATQVTTEKNCPDKDGGKITMYQFQLSA----EGAVYGAENYIC  251
+
+Query  122  KC-TRSNTAPGCAPFTKCANEDCTFCT  147
+            +    +++AP C  + KCA+ +CT C 
+Sbjct  252  RYGANADSAPSCVSYLKCADSECTKCK  278
+
+
+> UniRef90_UPI00069680D6 PREDICTED: uncharacterized protein LOC106157182 
+n=1 Tax=Lingula unguis TaxID=7574 RepID=UPI00069680D6
+Length=303
+
+ Score = 52.6 bits (124),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 29/134 (22%), Positives = 51/134 (38%), Gaps = 12/134 (9%)
+
+Query  7    TATWNMVGC---DQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKATVSVKVT  63
+            + +W  V C      G++   +    S SS+ T   A EVS ++   +I +    S   +
+Sbjct  178  SGSWKKVTCWADVHKGELKYSVKVGTSKSSSSTTTHAWEVSFSVAFLIIQSSTKYSGSFS  237
+
+Query  64   ASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIVKC  123
+            ++  + W    +    I         D++    C+WQ      +    D   +    ++ 
+Sbjct  238  STYQEQWHTESTIERTIKI-------DQDGGTVCIWQWIYTFDQF--QDTFTFRSFTLRE  288
+
+Query  124  TRSNTAPGCAPFTK  137
+            TRS TAP   P  K
+Sbjct  289  TRSETAPTQVPMGK  302
+
+
+> UniRef90_A0A0G4HSB5 Uncharacterized protein n=1 Tax=Chromera 
+velia CCMP2878 TaxID=1169474 RepID=A0A0G4HSB5_9ALVE
+Length=177
+
+ Score = 49.5 bits (116),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 30/140 (21%), Positives = 58/140 (41%), Gaps = 15/140 (11%)
+
+Query  19   GKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKATVSVKVTASLSKA--WTNSQSG  76
+            G ++   + T++ +S+ T     E S+ I++   F    ++     S++++   T + + 
+Sbjct  42   GDLTFTYTMTVTKTSSSTTTQLQEWSAGIKRSFSFLGVEITGGYKESVTESITETVTSTE  101
+
+Query  77   TTAITYTCDNYDSDEEFTRGCMWQLAI---ETTEVKSGDLLVW-----NPQIVKCTRSNT  128
+            T   T TC             +WQ  +   E T+ +S  +  W      P  + C  ++ 
+Sbjct  102  TKTFTTTCKARADGRP---VALWQWVVAAREATDAQSDMVETWLYQAATPNTM-CGPADP  157
+
+Query  129  APGCAPFTKCANEDCTFCTD  148
+             P C P  KC + DC  C +
+Sbjct  158  PPRC-PLNKCTDADCQKCLN  176
+
+
+> UniRef90_UPI00069679C2 PREDICTED: uncharacterized protein LOC106170912 
+n=2 Tax=Lingula unguis TaxID=7574 RepID=UPI00069679C2
+Length=303
+
+ Score = 49.9 bits (117),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 28/134 (21%), Positives = 46/134 (34%), Gaps = 12/134 (9%)
+
+Query  7    TATWNMVGC---DQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFAKATVSVKVT  63
+            +  W  + C      G++   +    S SS+ T   A EVS +    +I A A  S   +
+Sbjct  178  SGFWEKITCWLNVHKGELMYSVKVGTSTSSSSTTTHAWEVSFSAAYKIISASAKYSGSFS  237
+
+Query  64   ASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKSGDLLVWNPQIVKC  123
+            ++  + W    +              +EE    C+WQ      +    D   +    +  
+Sbjct  238  STYQQQWHTETTIERR-------IRIEEEGGTVCIWQWVYTFDQF--QDKFTFKALTLLE  288
+
+Query  124  TRSNTAPGCAPFTK  137
+            TRS   P   P  K
+Sbjct  289  TRSEARPTRIPVGK  302
+
+
+> UniRef90_A0A0W7WG58 Uncharacterized protein n=1 Tax=Ponticoccus 
+sp. SJ5A-1 TaxID=1685382 RepID=A0A0W7WG58_9RHOB
+Length=340
+
+ Score = 49.5 bits (116),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 30/143 (21%), Positives = 59/143 (41%), Gaps = 7/143 (5%)
+
+Query  7    TATWNMVGCDQNGKVSQQISNTISFSSTVTAG----VAVEVSSTIEKGVIFAKATVSVKV  62
+            +  W +V      K +  ++ ++S +  VT      +A+E    +E  +    AT S+K+
+Sbjct  180  SGNWFLVDQHAGPKQTFNLTESLSTARGVTETRAWSLAIERGFEVETNLGGGSATNSLKI  239
+
+Query  63   TASLSKAWTNSQS--GTTAITYTCDNYDSDEEFTRGCMWQLAI-ETTEVKSGDLLVWNPQ  119
+            TA+  ++   S++   T A ++T D Y +D +     MWQ  +   +       +  +  
+Sbjct  240  TATHEESTAISRTSQRTEARSFTKDCYSTDGQAANLAMWQWTVGIPSRFGGESRMQTSAT  299
+
+Query  120  IVKCTRSNTAPGCAPFTKCANED  142
+            +     +   P C P     N D
+Sbjct  300  VCTVNAAAAGPRCRPGCFDLNAD  322
+
+
+> UniRef90_A0A0W7WKJ9 Uncharacterized protein n=1 Tax=Ponticoccus 
+sp. SJ5A-1 TaxID=1685382 RepID=A0A0W7WKJ9_9RHOB
+Length=383
+
+ Score = 46.1 bits (107),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 21/144 (15%), Positives = 48/144 (33%), Gaps = 16/144 (11%)
+
+Query  4    EVPTATWNMVGCDQNGKVSQQISNTISFSSTVTAGVAVEVSSTIEKGVIFA---------  54
+            E P  TW    C        +I  +++   + +   +  V++++   V            
+Sbjct  153  ETPRGTWER-ACSGAQSCESRIERSLTIGRSESEEWSNSVTASLSIAVESGVEAPLPKGG  211
+
+Query  55   ----KATVSVKVTASLSKAWTNSQSGTTAITYTCDNYDSDEEFTRGCMWQLAIETTEVKS  110
+                K TV+  +     +A +  ++     T  C       ++    +WQ  + T+    
+Sbjct  212  SLSNKTTVTAGLETGHVEASSIVRTRQNGFTDVCATKTDTTQYNIHTVWQWVVTTSVEGE  271
+
+Query  111  GDLLVWNPQIVKCTRSNTAPGCAP  134
+              ++      + CT ++  P   P
+Sbjct  272  PVVI--KTCQIACTATDARPFYLP  293
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.113    0.321    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0346    0.140     1.90     42.6     43.6 
+
+Effective search space used: 442949859525
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

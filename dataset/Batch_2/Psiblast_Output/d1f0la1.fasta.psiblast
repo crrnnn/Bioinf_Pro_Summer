@@ -1,0 +1,195 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1f0la1
+
+Length=155
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P00588 Diphtheria toxin n=30 Tax=root TaxID=1 RepID=DT...  325     4e-106
+  UniRef90_F1ALY2 Diphtheria toxin (Fragment) n=2 Tax=Corynebacte...  97.8    2e-21 
+  UniRef90_K6UNZ7 Uncharacterized protein n=2 Tax=Austwickia TaxI...  54.7    2e-06 
+
+
+> UniRef90_P00588 Diphtheria toxin n=30 Tax=root TaxID=1 RepID=DTX_CORBE
+Length=567
+
+ Score = 325 bits (834),  Expect = 4e-106, Method: Compositional matrix adjust.
+ Identities = 155/155 (100%), Positives = 155/155 (100%), Gaps = 0/155 (0%)
+
+Query  1    SPGHKTQPFLHDGYAVSWNTVEDSIIRTGFQGESGHDIKITAENTPLPIAGVLLPTIPGK  60
+            SPGHKTQPFLHDGYAVSWNTVEDSIIRTGFQGESGHDIKITAENTPLPIAGVLLPTIPGK
+Sbjct  413  SPGHKTQPFLHDGYAVSWNTVEDSIIRTGFQGESGHDIKITAENTPLPIAGVLLPTIPGK  472
+
+Query  61   LDVNKSKTHISVNGRKIRMRCRAIDGDVTFCRPKSPVYVGNGVHANLHVAFHRSSSEKIH  120
+            LDVNKSKTHISVNGRKIRMRCRAIDGDVTFCRPKSPVYVGNGVHANLHVAFHRSSSEKIH
+Sbjct  473  LDVNKSKTHISVNGRKIRMRCRAIDGDVTFCRPKSPVYVGNGVHANLHVAFHRSSSEKIH  532
+
+Query  121  SNEISSDSIGVLGYQKTVDHTKVNSKLSLFFEIKS  155
+            SNEISSDSIGVLGYQKTVDHTKVNSKLSLFFEIKS
+Sbjct  533  SNEISSDSIGVLGYQKTVDHTKVNSKLSLFFEIKS  567
+
+
+> UniRef90_F1ALY2 Diphtheria toxin (Fragment) n=2 Tax=Corynebacterium 
+ulcerans TaxID=65058 RepID=F1ALY2_CORUL
+Length=291
+
+ Score = 97.8 bits (242),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 43/44 (98%), Positives = 44/44 (100%), Gaps = 0/44 (0%)
+
+Query  1    SPGHKTQPFLHDGYAVSWNTVEDSIIRTGFQGESGHDIKITAEN  44
+            SPGHKTQPFLHDGYAVSWNTVEDSII+TGFQGESGHDIKITAEN
+Sbjct  248  SPGHKTQPFLHDGYAVSWNTVEDSIIQTGFQGESGHDIKITAEN  291
+
+
+> UniRef90_K6UNZ7 Uncharacterized protein n=2 Tax=Austwickia TaxID=1184606 
+RepID=K6UNZ7_9MICO
+Length=266
+
+ Score = 54.7 bits (130),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 36/151 (24%), Positives = 71/151 (47%), Gaps = 5/151 (3%)
+
+Query  7    QPFLHDGYAVSWNTVEDSIIRTGF-QGESGHDIKITAEN-TPLPIAGVLLPTIPGKLDVN  64
+            +P +  G    W T ED+ +  G   G     I ++AE    +P     +      L +N
+Sbjct  115  RPAVSLGLRAGWKTEEDAKLHIGSPYGMKFQRIVLSAEEGKEIPFVRAAVAVDSKFLKIN  174
+
+Query  65   KSKTHISVNGRKIRMRCRAIDGDVTFCRPKSPVYVGNGVHANLHVAFHRSSSEKIHSNEI  124
+              ++ +  NG K  M C   +G++ FCRP  P+++ +   A LH+++  +  E   +  I
+Sbjct  175  GPRSFVVQNGIKTPMACFETEGNLAFCRPSRPIFLSSSSPATLHLSYVTNEHE---NGTI  231
+
+Query  125  SSDSIGVLGYQKTVDHTKVNSKLSLFFEIKS  155
+             + ++ +LG +   +     +K+SL +++ S
+Sbjct  232  KNPTVDILGQRIVENKVITANKVSLVYKVDS  262
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.398    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 444921800150
+Results from round 2
+
+
+Query= d1f0la1
+
+Length=155
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P00588 Diphtheria toxin n=30 Tax=root TaxID=1 RepID=DT...  269     3e-84
+  UniRef90_K6UNZ7 Uncharacterized protein n=2 Tax=Austwickia TaxI...  225     1e-70
+  UniRef90_F1ALY2 Diphtheria toxin (Fragment) n=2 Tax=Corynebacte...  87.5    7e-18
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_P00588 Diphtheria toxin n=30 Tax=root TaxID=1 RepID=DTX_CORBE
+Length=567
+
+ Score = 269 bits (687),  Expect = 3e-84, Method: Composition-based stats.
+ Identities = 155/155 (100%), Positives = 155/155 (100%), Gaps = 0/155 (0%)
+
+Query  1    SPGHKTQPFLHDGYAVSWNTVEDSIIRTGFQGESGHDIKITAENTPLPIAGVLLPTIPGK  60
+            SPGHKTQPFLHDGYAVSWNTVEDSIIRTGFQGESGHDIKITAENTPLPIAGVLLPTIPGK
+Sbjct  413  SPGHKTQPFLHDGYAVSWNTVEDSIIRTGFQGESGHDIKITAENTPLPIAGVLLPTIPGK  472
+
+Query  61   LDVNKSKTHISVNGRKIRMRCRAIDGDVTFCRPKSPVYVGNGVHANLHVAFHRSSSEKIH  120
+            LDVNKSKTHISVNGRKIRMRCRAIDGDVTFCRPKSPVYVGNGVHANLHVAFHRSSSEKIH
+Sbjct  473  LDVNKSKTHISVNGRKIRMRCRAIDGDVTFCRPKSPVYVGNGVHANLHVAFHRSSSEKIH  532
+
+Query  121  SNEISSDSIGVLGYQKTVDHTKVNSKLSLFFEIKS  155
+            SNEISSDSIGVLGYQKTVDHTKVNSKLSLFFEIKS
+Sbjct  533  SNEISSDSIGVLGYQKTVDHTKVNSKLSLFFEIKS  567
+
+
+> UniRef90_K6UNZ7 Uncharacterized protein n=2 Tax=Austwickia TaxID=1184606 
+RepID=K6UNZ7_9MICO
+Length=266
+
+ Score = 225 bits (573),  Expect = 1e-70, Method: Composition-based stats.
+ Identities = 36/151 (24%), Positives = 71/151 (47%), Gaps = 5/151 (3%)
+
+Query  7    QPFLHDGYAVSWNTVEDSIIRTGF-QGESGHDIKITAEN-TPLPIAGVLLPTIPGKLDVN  64
+            +P +  G    W T ED+ +  G   G     I ++AE    +P     +      L +N
+Sbjct  115  RPAVSLGLRAGWKTEEDAKLHIGSPYGMKFQRIVLSAEEGKEIPFVRAAVAVDSKFLKIN  174
+
+Query  65   KSKTHISVNGRKIRMRCRAIDGDVTFCRPKSPVYVGNGVHANLHVAFHRSSSEKIHSNEI  124
+              ++ +  NG K  M C   +G++ FCRP  P+++ +   A LH+++  +  E   +  I
+Sbjct  175  GPRSFVVQNGIKTPMACFETEGNLAFCRPSRPIFLSSSSPATLHLSYVTNEHE---NGTI  231
+
+Query  125  SSDSIGVLGYQKTVDHTKVNSKLSLFFEIKS  155
+             + ++ +LG +   +     +K+SL +++ S
+Sbjct  232  KNPTVDILGQRIVENKVITANKVSLVYKVDS  262
+
+
+> UniRef90_F1ALY2 Diphtheria toxin (Fragment) n=2 Tax=Corynebacterium 
+ulcerans TaxID=65058 RepID=F1ALY2_CORUL
+Length=291
+
+ Score = 87.5 bits (215),  Expect = 7e-18, Method: Composition-based stats.
+ Identities = 43/44 (98%), Positives = 44/44 (100%), Gaps = 0/44 (0%)
+
+Query  1    SPGHKTQPFLHDGYAVSWNTVEDSIIRTGFQGESGHDIKITAEN  44
+            SPGHKTQPFLHDGYAVSWNTVEDSII+TGFQGESGHDIKITAEN
+Sbjct  248  SPGHKTQPFLHDGYAVSWNTVEDSIIQTGFQGESGHDIKITAEN  291
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.128    0.345    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0383    0.140     1.90     42.6     43.6 
+
+Effective search space used: 444921800150
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

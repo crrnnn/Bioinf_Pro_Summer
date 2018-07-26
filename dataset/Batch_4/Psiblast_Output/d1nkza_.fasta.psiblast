@@ -1,0 +1,3366 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1nkza_
+
+Length=53
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P26789 Light-harvesting protein B-800/850 alpha chain ...  105     3e-28
+  UniRef90_P35091 Light-harvesting protein B-800/850 alpha chain ...  97.8    4e-25
+  UniRef90_Q9S314 LH2alpha8 n=1 Tax=Rhodoblastus acidophilus TaxI...  97.8    5e-25
+  UniRef90_Q9S318 LH2alpha6 n=1 Tax=Rhodoblastus acidophilus TaxI...  95.9    2e-24
+  UniRef90_P35090 Light-harvesting protein B-800/820 alpha chain ...  90.1    4e-22
+  UniRef90_Q52648 Puc1A n=1 Tax=Rhodoblastus acidophilus TaxID=10...  88.6    2e-21
+  UniRef90_Q2J0G6 Antenna complex, alpha/beta subunit n=3 Tax=Rho...  84.7    7e-20
+  UniRef90_P35102 Light-harvesting protein B-800-850 alpha chain ...  81.6    9e-19
+  UniRef90_A0A0D7EY78 Light-harvesting protein B:800-850 subunit ...  80.9    2e-18
+  UniRef90_Q07S39 Antenna complex, alpha/beta subunit n=4 Tax=Rho...  80.5    3e-18
+  UniRef90_UPI000348C7D1 light-harvesting protein B:800-850 subun...  80.1    4e-18
+  UniRef90_Q137A1 Antenna complex, alpha/beta subunit n=2 Tax=Rho...  79.7    5e-18
+  UniRef90_UPI0003FA2111 light-harvesting protein B:800-850 subun...  79.3    7e-18
+  UniRef90_Q07HW7 Antenna complex, alpha/beta subunit n=1 Tax=Rho...  78.6    1e-17
+  UniRef90_P35089 Light-harvesting protein B-800/820 alpha chain ...  78.6    1e-17
+  UniRef90_A0A0D7E353 Light-harvesting protein B:800-850 subunit ...  78.2    2e-17
+  UniRef90_P35105 Light-harvesting protein B-800-850 alpha chain ...  78.2    2e-17
+  UniRef90_UPI000485B455 light-harvesting protein B:800-850 subun...  77.4    4e-17
+  UniRef90_A0A0D7ETT3 Light-harvesting protein B:800-850 subunit ...  77.4    5e-17
+  UniRef90_Q07N34 Antenna complex, alpha/beta subunit n=2 Tax=Rho...  77.0    6e-17
+  UniRef90_E6VK68 Antenna complex alpha/beta subunit n=2 Tax=Rhod...  76.6    7e-17
+  UniRef90_UPI00034D7B53 light-harvesting protein B:800-850 subun...  75.9    2e-16
+  UniRef90_Q21CU1 Antenna complex, alpha/beta subunit n=1 Tax=Rho...  75.5    2e-16
+  UniRef90_Q07NX5 Antenna complex, alpha/beta subunit n=1 Tax=Rho...  75.1    4e-16
+  UniRef90_Q20ZW8 Antenna complex, alpha/beta subunit n=1 Tax=Rho...  74.3    8e-16
+  UniRef90_Q20ZW4 Antenna complex, alpha/beta subunit n=1 Tax=Rho...  73.6    1e-15
+  UniRef90_UPI00041CFC83 light-harvesting protein B:800-850 subun...  73.6    1e-15
+  UniRef90_Q07MR6 Antenna complex, alpha/beta subunit n=1 Tax=Rho...  73.2    2e-15
+  UniRef90_H0SQW0 Light harvesting protein B-800-850, alpha chain...  74.3    4e-15
+  UniRef90_Q07UU9 Antenna complex, alpha/beta subunit n=1 Tax=Rho...  71.2    9e-15
+  UniRef90_A4A7C7 Antenna complex alpha/beta subunit n=2 Tax=Gamm...  70.5    1e-14
+  UniRef90_A0A0N0KJY0 Light-harvesting protein n=1 Tax=Rhodopseud...  68.9    7e-14
+  UniRef90_A0A0N1C527 Light-harvesting protein n=1 Tax=Rhodopseud...  67.8    2e-13
+  UniRef90_A5EGA6 Light harvesting protein B-800-850, alpha chain...  69.3    2e-13
+  UniRef90_E3I3Y5 Antenna complex alpha/beta subunit n=2 Tax=Rhod...  67.4    3e-13
+  UniRef90_Q137W0 Antenna complex, alpha/beta subunit n=2 Tax=Rho...  66.2    7e-13
+  UniRef90_A0A0N0JM15 Uncharacterized protein n=1 Tax=beta proteo...  66.6    8e-13
+  UniRef90_A0A0N1AE62 Light-harvesting protein n=1 Tax=beta prote...  66.2    1e-12
+  UniRef90_P35104 Light-harvesting protein B-800-850 alpha chain ...  65.1    2e-12
+  UniRef90_A0A0N1C872 Light-harvesting protein n=1 Tax=Rhodopseud...  64.7    3e-12
+  UniRef90_Q07TZ8 Antenna complex, alpha/beta subunit n=2 Tax=Rho...  64.3    5e-12
+  UniRef90_A0A0L6TBM1 Uncharacterized protein n=1 Tax=Methylibium...  64.3    5e-12
+  UniRef90_Q137W6 Antenna complex, alpha/beta subunit n=2 Tax=Rho...  64.3    6e-12
+  UniRef90_A0A037UPQ2 Light-harvesting protein B:800-850 subunit ...  64.3    6e-12
+  UniRef90_P77799 Light-harvesting protein B-800/850 alpha chain ...  64.3    6e-12
+  UniRef90_A0A095WWK3 Light-harvesting LHII, alpha subunit A n=1 ...  62.0    2e-11
+  UniRef90_P35103 Light-harvesting protein B-800-850 alpha chain ...  62.4    3e-11
+  UniRef90_P07367 Light-harvesting protein B-800/850 alpha chain ...  61.6    6e-11
+  UniRef90_Q3J144 Light-harvesting protein B-800/850 alpha chain ...  58.2    8e-10
+  UniRef90_UPI000416E448 light-harvesting protein B:800-850 subun...  58.2    1e-09
+  UniRef90_UPI00030E9C69 hypothetical protein n=1 Tax=Sandarakino...  58.2    2e-09
+  UniRef90_A0A0N1B941 Light-harvesting protein n=1 Tax=alpha prot...  55.8    7e-09
+  UniRef90_A0A142LJ91 Light-harvesting protein B:800-850 subunit ...  55.1    2e-08
+  UniRef90_H0T3Q9 Light harvesting protein B-800-850, alpha chain...  55.8    2e-08
+  UniRef90_A4WX08 Antenna complex, alpha/beta subunit n=1 Tax=Rho...  55.1    1e-07
+  UniRef90_E3I7A7 Antenna complex alpha/beta subunit n=1 Tax=Rhod...  52.8    1e-07
+  UniRef90_Q3J684 Light-harvesting complex alpha subunit n=5 Tax=...  54.7    2e-07
+  UniRef90_W8RNR1 Light-harvesting LHII, alpha subunit A n=1 Tax=...  51.6    5e-07
+  UniRef90_E3I7A9 Antenna complex alpha/beta subunit n=1 Tax=Rhod...  50.8    6e-07
+  UniRef90_A0A0P1EYF7 Uncharacterized protein n=2 Tax=Thalassobac...  51.6    7e-07
+  UniRef90_C8RXU0 Antenna complex alpha/beta subunit n=1 Tax=Rhod...  50.8    7e-07
+  UniRef90_A9DA09 Antenna complex alpha/beta subunit n=1 Tax=Hoef...  51.2    9e-07
+  UniRef90_UPI0009297710 UPI0009297710 related cluster n=1 Tax=un...  50.1    1e-06
+  UniRef90_Q28S13 Peripheral light harvesting complex subunit n=1...  50.4    2e-06
+  UniRef90_A0A1F4HJ11 Uncharacterized protein n=1 Tax=Burkholderi...  50.1    2e-06
+  UniRef90_UPI0008271E00 UPI0008271E00 related cluster n=1 Tax=un...  49.7    3e-06
+  UniRef90_UPI000925F0A4 UPI000925F0A4 related cluster n=1 Tax=un...  49.3    4e-06
+  UniRef90_A0A0P7XNQ3 Light-harvesting protein B-800-850 alpha ch...  48.9    6e-06
+  UniRef90_A0A0P0LBZ2 Light-harvesting protein B-800-850 alpha ch...  48.1    6e-06
+  UniRef90_A0A1B6YYW9 Uncharacterized protein n=1 Tax=Jannaschia ...  47.8    1e-05
+  UniRef90_A0A1D7NPD6 Uncharacterized protein n=2 Tax=Porphyrobac...  47.4    2e-05
+  UniRef90_A0A1A7BI07 Light harvesting protein B-800-850, alpha c...  46.6    3e-05
+  UniRef90_B6B232 Light-harvesting protein B-800/850, alpha chain...  47.0    3e-05
+  UniRef90_P95655 Light-harvesting protein B-800/850 alpha chain ...  45.8    4e-05
+  UniRef90_Q58PN7 Putative light-harvesting protein b-800/850 alp...  42.0    0.001
+  UniRef90_A0A0P0ME01 Light-harvesting protein B-800/850 alpha ch...  41.6    0.002
+  UniRef90_A1WWW3 Antenna complex, alpha/beta subunit n=1 Tax=Hal...  41.2    0.002
+
+
+> UniRef90_P26789 Light-harvesting protein B-800/850 alpha chain 
+n=3 Tax=Rhodoblastus acidophilus TaxID=1074 RepID=LHA4_RHOAC
+Length=53
+
+ Score = 105 bits (262),  Expect = 3e-28, Method: Compositional matrix adjust.
+ Identities = 53/53 (100%), Positives = 53/53 (100%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA
+Sbjct  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+
+
+> UniRef90_P35091 Light-harvesting protein B-800/850 alpha chain 
+n=2 Tax=Rhodoblastus acidophilus TaxID=1074 RepID=LHA3_RHOAC
+Length=53
+
+ Score = 97.8 bits (242),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 46/53 (87%), Positives = 51/53 (96%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQGKIWTVVNP++G+P LLGSVTVIAILVH A+LSHTTWFPAYWQGG+KKAA
+Sbjct  1   MNQGKIWTVVNPSVGLPLLLGSVTVIAILVHAAVLSHTTWFPAYWQGGLKKAA  53
+
+
+> UniRef90_Q9S314 LH2alpha8 n=1 Tax=Rhodoblastus acidophilus TaxID=1074 
+RepID=Q9S314_RHOAC
+Length=61
+
+ Score = 97.8 bits (242),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 47/53 (89%), Positives = 52/53 (98%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQGKIWTVVNPA+GIPALLGSVTVIAILVHLA+L++TTWF AYWQGG+KKAA
+Sbjct  1   MNQGKIWTVVNPAVGIPALLGSVTVIAILVHLALLNNTTWFKAYWQGGLKKAA  53
+
+
+> UniRef90_Q9S318 LH2alpha6 n=1 Tax=Rhodoblastus acidophilus TaxID=1074 
+RepID=Q9S318_RHOAC
+Length=60
+
+ Score = 95.9 bits (237),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 47/53 (89%), Positives = 50/53 (94%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQGKIWTVVNP+IG+P LLGSVTVIAILVH+AILSHTTWFPAYWQGG K AA
+Sbjct  1   MNQGKIWTVVNPSIGLPLLLGSVTVIAILVHVAILSHTTWFPAYWQGGKKVAA  53
+
+
+> UniRef90_P35090 Light-harvesting protein B-800/820 alpha chain 
+n=3 Tax=Rhodoblastus acidophilus TaxID=1074 RepID=LHA2_RHOAC
+Length=53
+
+ Score = 90.1 bits (222),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 41/53 (77%), Positives = 49/53 (92%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQGKIWTVVNPA+G+P LLGSV + A+LVHLA+L+HTTWFPA+ QGG+KKAA
+Sbjct  1   MNQGKIWTVVNPAVGLPLLLGSVAITALLVHLAVLTHTTWFPAFTQGGLKKAA  53
+
+
+> UniRef90_Q52648 Puc1A n=1 Tax=Rhodoblastus acidophilus TaxID=1074 
+RepID=Q52648_RHOAC
+Length=60
+
+ Score = 88.6 bits (218),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 42/53 (79%), Positives = 48/53 (91%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQGKIWTVV+PA+GIP LLGSV V A+LVHLAIL +TTWFPA+ QGG+KKAA
+Sbjct  1   MNQGKIWTVVDPAVGIPLLLGSVAVTALLVHLAILQNTTWFPAFMQGGLKKAA  53
+
+
+> UniRef90_Q2J0G6 Antenna complex, alpha/beta subunit n=3 Tax=Rhodopseudomonas 
+TaxID=1073 RepID=Q2J0G6_RHOP2
+Length=67
+
+ Score = 84.7 bits (208),  Expect = 7e-20, Method: Compositional matrix adjust.
+ Identities = 38/48 (79%), Positives = 43/48 (90%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MNQG+IWTVVNP +G+P LLGSVTVIAILVH A+LS+T WFP YWQGG
+Sbjct  1   MNQGRIWTVVNPTVGLPLLLGSVTVIAILVHFAVLSNTAWFPKYWQGG  48
+
+
+> UniRef90_P35102 Light-harvesting protein B-800-850 alpha chain 
+B n=3 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=LHA2_RHOPA
+Length=66
+
+ Score = 81.6 bits (200),  Expect = 9e-19, Method: Compositional matrix adjust.
+ Identities = 37/47 (79%), Positives = 42/47 (89%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQG+IWTVVNP +G+P LLGSVTVIAILVH A+LS+TTWFP YW G
+Sbjct  1   MNQGRIWTVVNPGVGLPLLLGSVTVIAILVHYAVLSNTTWFPKYWNG  47
+
+
+> UniRef90_A0A0D7EY78 Light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=A0A0D7EY78_RHOPL
+Length=62
+
+ Score = 80.9 bits (198),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 36/47 (77%), Positives = 41/47 (87%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQG+IWTVV P +G+P LLGSVTVIAILVH A++SHTTWFP YW G
+Sbjct  1   MNQGRIWTVVKPTVGLPLLLGSVTVIAILVHYALISHTTWFPKYWNG  47
+
+
+> UniRef90_Q07S39 Antenna complex, alpha/beta subunit n=4 Tax=Rhodopseudomonas 
+TaxID=1073 RepID=Q07S39_RHOP5
+Length=59
+
+ Score = 80.5 bits (197),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 37/47 (79%), Positives = 41/47 (87%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQG IWTVV P +G+P LLGSVTVIAILVHLA+LS+TTWFP YW G
+Sbjct  1   MNQGSIWTVVKPTVGLPLLLGSVTVIAILVHLALLSNTTWFPKYWNG  47
+
+
+> UniRef90_UPI000348C7D1 light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Rhodopseudomonas sp. B29 TaxID=95607 RepID=UPI000348C7D1
+Length=59
+
+ Score = 80.1 bits (196),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 36/47 (77%), Positives = 41/47 (87%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQG+IWTVV+P +G+P LLGSV VIAILVH A+LSHTTWFP YW G
+Sbjct  1   MNQGRIWTVVSPTVGLPLLLGSVAVIAILVHAAVLSHTTWFPKYWNG  47
+
+
+> UniRef90_Q137A1 Antenna complex, alpha/beta subunit n=2 Tax=Rhodopseudomonas 
+palustris TaxID=1076 RepID=Q137A1_RHOPS
+Length=59
+
+ Score = 79.7 bits (195),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 36/47 (77%), Positives = 42/47 (89%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQG+IWTVV+P +G+P LLGSVTVIAILVH A+LS+TTWFP YW G
+Sbjct  1   MNQGRIWTVVSPTVGLPLLLGSVTVIAILVHAAVLSNTTWFPKYWNG  47
+
+
+> UniRef90_UPI0003FA2111 light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=UPI0003FA2111
+Length=59
+
+ Score = 79.3 bits (194),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 35/47 (74%), Positives = 43/47 (91%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQG+IWTVV P++G+P LLGSVTVIAILVHLA++++TTWFP YW G
+Sbjct  1   MNQGRIWTVVKPSVGLPLLLGSVTVIAILVHLALVNNTTWFPKYWNG  47
+
+
+> UniRef90_Q07HW7 Antenna complex, alpha/beta subunit n=1 Tax=Rhodopseudomonas 
+palustris (strain BisA53) TaxID=316055 RepID=Q07HW7_RHOP5
+Length=59
+
+ Score = 78.6 bits (192),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 36/47 (77%), Positives = 40/47 (85%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQG IWTVV P +G+P LLGSVTVIAILVH A+LS+TTWFP YW G
+Sbjct  1   MNQGSIWTVVKPGVGLPLLLGSVTVIAILVHYAVLSNTTWFPKYWNG  47
+
+
+> UniRef90_P35089 Light-harvesting protein B-800/820 alpha chain 
+n=1 Tax=Rhodoblastus acidophilus TaxID=1074 RepID=LHA1_RHOAC
+Length=53
+
+ Score = 78.6 bits (192),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 36/53 (68%), Positives = 45/53 (85%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQGKIWTVV PA G+P +LG+V + A+LVH A+L+HTTW+ A+ QGGVKKAA
+Sbjct  1   MNQGKIWTVVPPAFGLPLMLGAVAITALLVHAAVLTHTTWYAAFLQGGVKKAA  53
+
+
+> UniRef90_A0A0D7E353 Light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=A0A0D7E353_RHOPL
+Length=59
+
+ Score = 78.2 bits (191),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 34/47 (72%), Positives = 41/47 (87%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQG+IWTVV P +G+P LLGSVT+IAILVH A++S+TTWFP YW G
+Sbjct  1   MNQGRIWTVVKPTVGLPLLLGSVTIIAILVHFALISNTTWFPKYWNG  47
+
+
+> UniRef90_P35105 Light-harvesting protein B-800-850 alpha chain 
+E n=5 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=LHA5_RHOPA
+Length=59
+
+ Score = 78.2 bits (191),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 35/47 (74%), Positives = 40/47 (85%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQG+IWTVV P +G+P LLGSVTVIAILVH A+LS+TTWF  YW G
+Sbjct  1   MNQGRIWTVVKPTVGLPLLLGSVTVIAILVHFAVLSNTTWFSKYWNG  47
+
+
+> UniRef90_UPI000485B455 light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=UPI000485B455
+Length=67
+
+ Score = 77.4 bits (189),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 34/47 (72%), Positives = 41/47 (87%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQG+IWTVVNP +G+P  LGSV VIAILVHLA++++TTWFP YW G
+Sbjct  1   MNQGRIWTVVNPGVGLPLFLGSVAVIAILVHLALVNNTTWFPKYWNG  47
+
+
+> UniRef90_A0A0D7ETT3 Light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=A0A0D7ETT3_RHOPL
+Length=73
+
+ Score = 77.4 bits (189),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 34/47 (72%), Positives = 42/47 (89%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQG+IWTVV+P +G+P LLGSVTVIAILVH A+L++T+WFP YW G
+Sbjct  1   MNQGRIWTVVHPTVGLPLLLGSVTVIAILVHFALLTNTSWFPKYWNG  47
+
+
+> UniRef90_Q07N34 Antenna complex, alpha/beta subunit n=2 Tax=Rhodopseudomonas 
+palustris TaxID=1076 RepID=Q07N34_RHOP5
+Length=59
+
+ Score = 77.0 bits (188),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 36/47 (77%), Positives = 40/47 (85%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQG IWTVV P +G+P LLGSVTVIAILVHLA+LS+TTWF  YW G
+Sbjct  1   MNQGSIWTVVKPTVGLPLLLGSVTVIAILVHLALLSNTTWFGKYWNG  47
+
+
+> UniRef90_E6VK68 Antenna complex alpha/beta subunit n=2 Tax=Rhodopseudomonas 
+palustris TaxID=1076 RepID=E6VK68_RHOPX
+Length=59
+
+ Score = 76.6 bits (187),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 33/47 (70%), Positives = 41/47 (87%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQ +IWTVV P++G+P LLGSVTVIAILVH A++++TTWFP YW G
+Sbjct  1   MNQARIWTVVKPSVGLPLLLGSVTVIAILVHFALITNTTWFPKYWNG  47
+
+
+> UniRef90_UPI00034D7B53 light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Rhodopseudomonas sp. B29 TaxID=95607 RepID=UPI00034D7B53
+Length=67
+
+ Score = 75.9 bits (185),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 33/48 (69%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MNQG+IWTVVNP +G+P LLGSV  IAILVH A+L +T+WF  YW GG
+Sbjct  1   MNQGRIWTVVNPTVGLPLLLGSVATIAILVHFAVLENTSWFAKYWNGG  48
+
+
+> UniRef90_Q21CU1 Antenna complex, alpha/beta subunit n=1 Tax=Rhodopseudomonas 
+palustris (strain BisB18) TaxID=316056 RepID=Q21CU1_RHOPB
+Length=67
+
+ Score = 75.5 bits (184),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 33/47 (70%), Positives = 39/47 (83%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQ ++WTVVNP +G+P LLGSVTVIAILVH A+L +TTWF  YW G
+Sbjct  1   MNQARVWTVVNPTVGLPLLLGSVTVIAILVHFAVLENTTWFSGYWNG  47
+
+
+> UniRef90_Q07NX5 Antenna complex, alpha/beta subunit n=1 Tax=Rhodopseudomonas 
+palustris (strain BisA53) TaxID=316055 RepID=Q07NX5_RHOP5
+Length=70
+
+ Score = 75.1 bits (183),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 35/52 (67%), Positives = 41/52 (79%), Gaps = 0/52 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKA  52
+           MNQG IWTVV+P +G+P LLG+VTVIA+LVH A+LS TTWF AYW G    A
+Sbjct  1   MNQGTIWTVVHPTVGLPLLLGTVTVIALLVHYAVLSKTTWFSAYWNGNASVA  52
+
+
+> UniRef90_Q20ZW8 Antenna complex, alpha/beta subunit n=1 Tax=Rhodopseudomonas 
+palustris (strain BisB18) TaxID=316056 RepID=Q20ZW8_RHOPB
+Length=65
+
+ Score = 74.3 bits (181),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 33/53 (62%), Positives = 44/53 (83%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQG+IWTVVNP++G+P LLGSV V  +LVH A+LS+TTW+PA++ G V  +A
+Sbjct  1   MNQGRIWTVVNPSVGLPLLLGSVAVTVLLVHSAVLSNTTWYPAFFSGKVAVSA  53
+
+
+> UniRef90_Q20ZW4 Antenna complex, alpha/beta subunit n=1 Tax=Rhodopseudomonas 
+palustris (strain BisB18) TaxID=316056 RepID=Q20ZW4_RHOPB
+Length=59
+
+ Score = 73.6 bits (179),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 33/47 (70%), Positives = 38/47 (81%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQGKIWTVV P++G+P LLGSV  I ILVH AIL+HTTWFP +  G
+Sbjct  1   MNQGKIWTVVKPSVGLPLLLGSVATIVILVHFAILTHTTWFPKFMNG  47
+
+
+> UniRef90_UPI00041CFC83 light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=UPI00041CFC83
+Length=59
+
+ Score = 73.6 bits (179),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 33/47 (70%), Positives = 38/47 (81%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQG+IWTVV P +G+P LLGSV VIAILVH A++S TTWF  YW G
+Sbjct  1   MNQGRIWTVVKPTVGLPLLLGSVAVIAILVHAALISKTTWFSKYWNG  47
+
+
+> UniRef90_Q07MR6 Antenna complex, alpha/beta subunit n=1 Tax=Rhodopseudomonas 
+palustris (strain BisA53) TaxID=316055 RepID=Q07MR6_RHOP5
+Length=59
+
+ Score = 73.2 bits (178),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 34/47 (72%), Positives = 37/47 (79%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQG IWTVV P +G+P LLGSV VIAILVH A+LS TTWF  YW G
+Sbjct  1   MNQGSIWTVVKPTVGLPLLLGSVCVIAILVHAAVLSKTTWFGKYWNG  47
+
+
+> UniRef90_H0SQW0 Light harvesting protein B-800-850, alpha chain 
+n=2 Tax=Bradyrhizobium sp. ORS 375 TaxID=566679 RepID=H0SQW0_9BRAD
+Length=146
+
+ Score = 74.3 bits (181),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 31/53 (58%), Positives = 39/53 (74%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQG+IW VVNP +G+P  LGSV + ++ VH  +LSHTTW  AYW+GG  K A
+Sbjct  20  MNQGRIWCVVNPTVGLPLFLGSVALTSLCVHYTVLSHTTWMGAYWEGGKSKKA  72
+
+
+> UniRef90_Q07UU9 Antenna complex, alpha/beta subunit n=1 Tax=Rhodopseudomonas 
+palustris (strain BisA53) TaxID=316055 RepID=Q07UU9_RHOP5
+Length=65
+
+ Score = 71.2 bits (173),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 31/49 (63%), Positives = 40/49 (82%), Gaps = 0/49 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGV  49
+           MNQG +WTVV P++G+P LLGSV + A+LVH A+L++TTWF  Y QGGV
+Sbjct  1   MNQGTLWTVVKPSVGLPLLLGSVAITALLVHFAVLNNTTWFAKYMQGGV  49
+
+
+> UniRef90_A4A7C7 Antenna complex alpha/beta subunit n=2 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A4A7C7_9GAMM
+Length=47
+
+ Score = 70.5 bits (171),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 32/47 (68%), Positives = 38/47 (81%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MN GK+WTVVNP +GIP +LG V VIA+ VH AIL++TTWF AYW G
+Sbjct  1   MNNGKLWTVVNPTVGIPLMLGGVAVIALTVHFAILNNTTWFAAYWGG  47
+
+
+> UniRef90_A0A0N0KJY0 Light-harvesting protein n=1 Tax=Rhodopseudomonas 
+sp. AAP120 TaxID=1523430 RepID=A0A0N0KJY0_9BRAD
+Length=60
+
+ Score = 68.9 bits (167),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 30/46 (65%), Positives = 35/46 (76%), Gaps = 0/46 (0%)
+
+Query  2   NQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           NQ +IWTVV P +G+P  LGSV VIAILVH A+L+HTTW   YW G
+Sbjct  3   NQARIWTVVKPTVGLPLFLGSVAVIAILVHFAVLTHTTWVSKYWNG  48
+
+
+> UniRef90_A0A0N1C527 Light-harvesting protein n=1 Tax=Rhodopseudomonas 
+sp. AAP120 TaxID=1523430 RepID=A0A0N1C527_9BRAD
+Length=59
+
+ Score = 67.8 bits (164),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 30/47 (64%), Positives = 36/47 (77%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQG+IWTVV P +G+P LLGSV VI ILVH A+L+HTTW   +  G
+Sbjct  1   MNQGRIWTVVKPTVGLPLLLGSVAVIVILVHFAVLTHTTWVAKFMNG  47
+
+
+> UniRef90_A5EGA6 Light harvesting protein B-800-850, alpha chain 
+n=1 Tax=Bradyrhizobium sp. (strain BTAi1 / ATCC BAA-1182) 
+TaxID=288000 RepID=A5EGA6_BRASB
+Length=127
+
+ Score = 69.3 bits (168),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 28/53 (53%), Positives = 39/53 (74%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQG+IW VVNP +G+P  LGSV + ++ VH  +L+HTTW  A+++GG  K A
+Sbjct  1   MNQGRIWCVVNPTVGLPLFLGSVALTSLCVHYTVLTHTTWMGAFFEGGKSKKA  53
+
+
+> UniRef90_E3I3Y5 Antenna complex alpha/beta subunit n=2 Tax=Rhodomicrobium 
+TaxID=1068 RepID=E3I3Y5_RHOVT
+Length=61
+
+ Score = 67.4 bits (163),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/52 (58%), Positives = 39/52 (75%), Gaps = 0/52 (0%)
+
+Query  2   NQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+            Q  IW VV P +G+P LLG+VT+IA+LVH +++ HT WFPAYW+GG K  A
+Sbjct  6   GQHGIWLVVPPKVGLPLLLGTVTLIAVLVHASLIGHTKWFPAYWEGGAKTVA  57
+
+
+> UniRef90_Q137W0 Antenna complex, alpha/beta subunit n=2 Tax=Rhodopseudomonas 
+palustris TaxID=1076 RepID=Q137W0_RHOPS
+Length=59
+
+ Score = 66.2 bits (160),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 28/47 (60%), Positives = 36/47 (77%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQG+IWTVV P +G+P LLGSV V+ +LVH A+L+HTTW   +  G
+Sbjct  1   MNQGRIWTVVKPTVGLPLLLGSVAVMVVLVHFAVLTHTTWVAKFMNG  47
+
+
+> UniRef90_A0A0N0JM15 Uncharacterized protein n=1 Tax=beta proteobacterium 
+AAP51 TaxID=1523421 RepID=A0A0N0JM15_9PROT
+Length=78
+
+ Score = 66.6 bits (161),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 29/48 (60%), Positives = 35/48 (73%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MNQGKIW VVNP IG+P  LG+V V ++ VH  +L+ TTW P Y QGG
+Sbjct  1   MNQGKIWRVVNPTIGVPIFLGTVVVASLFVHYQLLTKTTWVPTYLQGG  48
+
+
+> UniRef90_A0A0N1AE62 Light-harvesting protein n=1 Tax=beta proteobacterium 
+AAP65 TaxID=1523424 RepID=A0A0N1AE62_9PROT
+Length=75
+
+ Score = 66.2 bits (160),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 27/48 (56%), Positives = 35/48 (73%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MNQGK+W VVNP IG+P  LG+V + ++ VH  +L  T W PAY+QGG
+Sbjct  1   MNQGKVWRVVNPTIGVPLFLGAVALTSLFVHYQLLKTTQWLPAYYQGG  48
+
+
+> UniRef90_P35104 Light-harvesting protein B-800-850 alpha chain 
+D n=2 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=LHA4_RHOPA
+Length=59
+
+ Score = 65.1 bits (157),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 27/47 (57%), Positives = 35/47 (74%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQG+IWTVV P +G+P LLGSV ++  LVH A+L+HTTW   +  G
+Sbjct  1   MNQGRIWTVVKPTVGLPLLLGSVAIMVFLVHFAVLTHTTWVAKFMNG  47
+
+
+> UniRef90_A0A0N1C872 Light-harvesting protein n=1 Tax=Rhodopseudomonas 
+sp. AAP120 TaxID=1523430 RepID=A0A0N1C872_9BRAD
+Length=64
+
+ Score = 64.7 bits (156),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 29/47 (62%), Positives = 34/47 (72%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQG+IWTVVNP +G+P LLGSV  IA  VH A+L  TTW  A+  G
+Sbjct  1   MNQGRIWTVVNPTVGLPLLLGSVAAIAFAVHFAVLESTTWVSAFMNG  47
+
+
+> UniRef90_Q07TZ8 Antenna complex, alpha/beta subunit n=2 Tax=Rhodopseudomonas 
+palustris (strain BisA53) TaxID=316055 RepID=Q07TZ8_RHOP5
+Length=59
+
+ Score = 64.3 bits (155),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 26/47 (55%), Positives = 35/47 (74%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQG +WTVV P +G+P L G+V + A+LVH A+L+HTTWF  +  G
+Sbjct  1   MNQGTLWTVVKPTVGLPLLFGAVAITALLVHFAVLTHTTWFAKFMNG  47
+
+
+> UniRef90_A0A0L6TBM1 Uncharacterized protein n=1 Tax=Methylibium 
+sp. NZG TaxID=1686064 RepID=A0A0L6TBM1_9BURK
+Length=69
+
+ Score = 64.3 bits (155),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 31/55 (56%), Positives = 40/55 (73%), Gaps = 2/55 (4%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG--VKKAA  53
+           M  GK+W VV P++GIP  LG+V V +  VH A+L+HTTW P Y++GG  VKKAA
+Sbjct  1   MIYGKLWLVVKPSVGIPLFLGAVAVSSFAVHYALLTHTTWLPKYYEGGAAVKKAA  55
+
+
+> UniRef90_Q137W6 Antenna complex, alpha/beta subunit n=2 Tax=Rhodopseudomonas 
+palustris TaxID=1076 RepID=Q137W6_RHOPS
+Length=65
+
+ Score = 64.3 bits (155),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 28/47 (60%), Positives = 35/47 (74%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQGK+WTVVNP +G+P LLG V  +A LVH A+L +TTW  A+  G
+Sbjct  1   MNQGKLWTVVNPTVGLPLLLGGVATMAFLVHYAVLENTTWVSAFMNG  47
+
+
+> UniRef90_A0A037UPQ2 Light-harvesting protein B:800-850 subunit 
+alpha n=2 Tax=Rhodomicrobium TaxID=1068 RepID=A0A037UPQ2_9RHIZ
+Length=65
+
+ Score = 64.3 bits (155),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 28/52 (54%), Positives = 36/52 (69%), Gaps = 0/52 (0%)
+
+Query  2   NQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+            Q  IW VV P +G+P LLG+VT+IA+LVH +++ HT WFP YW G   K A
+Sbjct  6   GQAGIWLVVPPKVGLPLLLGTVTLIAVLVHASLIGHTKWFPKYWDGAAAKTA  57
+
+
+> UniRef90_P77799 Light-harvesting protein B-800/850 alpha chain 
+n=3 Tax=Rubrivivax TaxID=28067 RepID=LHA2_RUBGE
+Length=71
+
+ Score = 64.3 bits (155),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 27/50 (54%), Positives = 36/50 (72%), Gaps = 0/50 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVK  50
+           MNQGK+W VV P +G+P  LG+V V A+++H  +L+ T WF AYW GG K
+Sbjct  1   MNQGKVWRVVKPTVGVPVYLGAVAVTALILHGGLLAKTDWFGAYWNGGKK  50
+
+
+> UniRef90_A0A095WWK3 Light-harvesting LHII, alpha subunit A n=1 
+Tax=Pseudohaliea rubra DSM 19751 TaxID=1265313 RepID=A0A095WWK3_9GAMM
+Length=48
+
+ Score = 62.0 bits (149),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 26/47 (55%), Positives = 38/47 (81%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQG+IW VVNP IG+P  LGSV +I++LVH A+L++T++  A++ G
+Sbjct  1   MNQGRIWCVVNPTIGLPLFLGSVAIISMLVHHAVLNNTSYMAAFFAG  47
+
+
+> UniRef90_P35103 Light-harvesting protein B-800-850 alpha chain 
+C n=2 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=LHA3_RHOPL
+Length=65
+
+ Score = 62.4 bits (150),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 27/47 (57%), Positives = 35/47 (74%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQG+IWTVV+P +G+P LLGSV  IA  VH A+L +T+W  A+  G
+Sbjct  1   MNQGRIWTVVSPTVGLPLLLGSVAAIAFAVHFAVLENTSWVAAFMNG  47
+
+
+> UniRef90_P07367 Light-harvesting protein B-800/850 alpha chain 
+n=4 Tax=Rhodobacter capsulatus TaxID=1061 RepID=LHA2_RHOCA
+Length=60
+
+ Score = 61.6 bits (148),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 27/48 (56%), Positives = 35/48 (73%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MN  KIWTVV P+ GIP +LG+V V A++VH  +L++TTWF  YW G 
+Sbjct  1   MNNAKIWTVVKPSTGIPLILGAVAVAALIVHAGLLTNTTWFANYWNGN  48
+
+
+> UniRef90_Q3J144 Light-harvesting protein B-800/850 alpha chain 
+n=7 Tax=Rhodobacter TaxID=1060 RepID=LHA2_RHOS4
+Length=54
+
+ Score = 58.2 bits (139),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 24/53 (45%), Positives = 35/53 (66%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           M  GKIW VV P +G+P  L +  + ++++H A+L+ TTW PAY+QG    AA
+Sbjct  1   MTNGKIWLVVKPTVGVPLFLSAAVIASVVIHAAVLTTTTWLPAYYQGSAAVAA  53
+
+
+> UniRef90_UPI000416E448 light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Sandarakinorhabdus limnophila TaxID=210512 
+RepID=UPI000416E448
+Length=89
+
+ Score = 58.2 bits (139),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 27/49 (55%), Positives = 37/49 (76%), Gaps = 1/49 (2%)
+
+Query  1   MNQGKIWTVVNPAIGIP-ALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MN+G+IW  VNP++G+P   L  V  +A  +HLAIL++TTWF A+WQGG
+Sbjct  1   MNEGRIWLYVNPSVGLPLFFLVWVAGVAFSIHLAILTNTTWFAAFWQGG  49
+
+
+> UniRef90_UPI00030E9C69 hypothetical protein n=1 Tax=Sandarakinorhabdus 
+sp. AAP62 TaxID=1248916 RepID=UPI00030E9C69
+Length=89
+
+ Score = 58.2 bits (139),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 23/47 (49%), Positives = 36/47 (77%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MN+G+IW  V+P++GIP    +V  +A+LVH +IL +T+WF +YW+G
+Sbjct  1   MNEGRIWLYVSPSVGIPLFFIAVATVALLVHASILVNTSWFGSYWEG  47
+
+
+> UniRef90_A0A0N1B941 Light-harvesting protein n=1 Tax=alpha proteobacterium 
+AAP81b TaxID=1523432 RepID=A0A0N1B941_9PROT
+Length=56
+
+ Score = 55.8 bits (133),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 23/53 (43%), Positives = 35/53 (66%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           M +G+IW  V+P +G+P    +    ++LVH +ILS+TTW  ++WQGG   AA
+Sbjct  1   MKEGRIWLYVSPTVGLPLFFLAFITASLLVHASILSNTTWMASFWQGGAATAA  53
+
+
+> UniRef90_A0A142LJ91 Light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Betaproteobacteria bacterium UKL13-2 TaxID=1690485 
+RepID=A0A142LJ91_9PROT
+Length=76
+
+ Score = 55.1 bits (131),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 24/50 (48%), Positives = 32/50 (64%), Gaps = 0/50 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVK  50
+           M  GK+W VV P +GIP     + V A+ VH AIL ++ WFPA+ +GG K
+Sbjct  1   MTNGKMWLVVKPTVGIPVFFAGIVVAALSVHTAILLNSDWFPAFLKGGQK  50
+
+
+> UniRef90_H0T3Q9 Light harvesting protein B-800-850, alpha chain 
+n=2 Tax=Bradyrhizobium sp. STM 3809 TaxID=551936 RepID=H0T3Q9_9BRAD
+Length=119
+
+ Score = 55.8 bits (133),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 24/45 (53%), Positives = 32/45 (71%), Gaps = 0/45 (0%)
+
+Query  9   VVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           +V+P +G+P  LGSV + ++ VH  ILSHTTW  AYW+GG  K A
+Sbjct  1   MVHPTVGLPLFLGSVALTSLCVHYTILSHTTWMGAYWEGGKSKKA  45
+
+
+> UniRef90_A4WX08 Antenna complex, alpha/beta subunit n=1 Tax=Rhodobacter 
+sphaeroides (strain ATCC 17025 / ATH 2.4.3) TaxID=349102 
+RepID=A4WX08_RHOS5
+Length=239
+
+ Score = 55.1 bits (131),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 24/51 (47%), Positives = 33/51 (65%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MN  K+W  VNP +GIP LLGSV + ++ VH A+L+ T W   Y+QG   +
+Sbjct  1   MNNSKMWLTVNPNLGIPLLLGSVALGSVAVHAAVLTTTPWIADYYQGSAPR  51
+
+
+> UniRef90_E3I7A7 Antenna complex alpha/beta subunit n=1 Tax=Rhodomicrobium 
+vannielii (strain ATCC 17100 / ATH 3.1.1 / DSM 
+162 / LMG 4299) TaxID=648757 RepID=E3I7A7_RHOVT
+Length=67
+
+ Score = 52.8 bits (125),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 25/52 (48%), Positives = 33/52 (63%), Gaps = 0/52 (0%)
+
+Query  2   NQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+            Q  IW  V P++GIP  LG+V +IA++VHL +L HTT    Y+ G   KAA
+Sbjct  6   GQAAIWLYVRPSLGIPHFLGAVAIIALVVHLGVLGHTTLLKKYFGGEKLKAA  57
+
+
+> UniRef90_Q3J684 Light-harvesting complex alpha subunit n=5 Tax=Rhodobacter 
+TaxID=1060 RepID=Q3J684_RHOS4
+Length=263
+
+ Score = 54.7 bits (130),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 24/47 (51%), Positives = 33/47 (70%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MN  K+W  VNP +G+P LLGSV V +++VH A+L+ T W   Y+QG
+Sbjct  1   MNNSKMWLTVNPNLGVPLLLGSVAVASLVVHGAVLTTTPWIANYYQG  47
+
+
+> UniRef90_W8RNR1 Light-harvesting LHII, alpha subunit A n=1 Tax=Roseibacterium 
+elongatum DSM 19469 TaxID=1294273 RepID=W8RNR1_9RHOB
+Length=95
+
+ Score = 51.6 bits (122),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 22/47 (47%), Positives = 31/47 (66%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MN  K+W VV P +GIP  LG+V V +  VH+A++S T+W+  Y  G
+Sbjct  1   MNNAKLWLVVKPTVGIPVFLGAVAVGSFAVHVAVVSQTSWYNDYLTG  47
+
+
+> UniRef90_E3I7A9 Antenna complex alpha/beta subunit n=1 Tax=Rhodomicrobium 
+vannielii (strain ATCC 17100 / ATH 3.1.1 / DSM 
+162 / LMG 4299) TaxID=648757 RepID=E3I7A9_RHOVT
+Length=64
+
+ Score = 50.8 bits (120),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 25/50 (50%), Positives = 32/50 (64%), Gaps = 0/50 (0%)
+
+Query  3   QGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKA  52
+           Q KIW VV P +G+  LLG V   A+LVH  +L++T WFP Y +G  K A
+Sbjct  7   QAKIWLVVKPEVGLLWLLGGVAFTAVLVHAVLLANTKWFPNYIEGKAKVA  56
+
+
+> UniRef90_A0A0P1EYF7 Uncharacterized protein n=2 Tax=Thalassobacter 
+TaxID=266808 RepID=A0A0P1EYF7_9RHOB
+Length=115
+
+ Score = 51.6 bits (122),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 21/47 (45%), Positives = 33/47 (70%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MN  K+W VV+P++G+P  LG+V V +  VH+A+LS+T+W   +  G
+Sbjct  1   MNNAKMWLVVSPSVGVPLFLGAVAVGSFAVHVAVLSNTSWVSDFLSG  47
+
+
+> UniRef90_C8RXU0 Antenna complex alpha/beta subunit n=1 Tax=Rhodobacter 
+sp. SW2 TaxID=371731 RepID=C8RXU0_9RHOB
+Length=67
+
+ Score = 50.8 bits (120),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 20/47 (43%), Positives = 30/47 (64%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           M  GK+W VV P +GIPA L  V + ++ VH+ + ++TTW   Y+ G
+Sbjct  1   MTYGKVWLVVKPTVGIPAFLAGVAIASVFVHVMLFNNTTWLAPYYSG  47
+
+
+> UniRef90_A9DA09 Antenna complex alpha/beta subunit n=1 Tax=Hoeflea 
+phototrophica (strain DSM 17068 / NCIMB 14078 / DFL-43) 
+TaxID=411684 RepID=A9DA09_HOEPD
+Length=113
+
+ Score = 51.2 bits (121),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 21/48 (44%), Positives = 31/48 (65%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MN  K+W VV P +G+P  L +V V +  VH+++L +TTW P +  GG
+Sbjct  1   MNNAKMWLVVKPTVGVPLFLTAVAVGSFAVHVSVLRNTTWLPQFLSGG  48
+
+
+> UniRef90_UPI0009297710 UPI0009297710 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009297710
+Length=62
+
+ Score = 50.1 bits (118),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 22/53 (42%), Positives = 31/53 (58%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MN  K+W VV P +GIP  L +V + + LVH  ++  T W   Y  GG ++AA
+Sbjct  1   MNNAKLWLVVKPTVGIPIFLSAVAISSFLVHAGLVVTTDWISDYHNGGAEEAA  53
+
+
+> UniRef90_Q28S13 Peripheral light harvesting complex subunit n=1 
+Tax=Jannaschia sp. (strain CCS1) TaxID=290400 RepID=Q28S13_JANSC
+Length=107
+
+ Score = 50.4 bits (119),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 22/47 (47%), Positives = 29/47 (62%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MN  KIW VV P +G+P  L +V V +  VH+A+LS T W+  Y  G
+Sbjct  1   MNNSKIWLVVKPTVGVPLFLSAVAVGSFAVHIAVLSKTNWYEDYLVG  47
+
+
+> UniRef90_A0A1F4HJ11 Uncharacterized protein n=1 Tax=Burkholderiales 
+bacterium RIFCSPHIGHO2_12_FULL_69_20 TaxID=1797561 RepID=A0A1F4HJ11_9BURK
+Length=84
+
+ Score = 50.1 bits (118),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 21/39 (54%), Positives = 29/39 (74%), Gaps = 0/39 (0%)
+
+Query  9   VVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           +V P +G+P  LG VTVIA+ VH A+L+ T W+PAY+ G
+Sbjct  1   MVKPTVGLPLFLGGVTVIALAVHAAVLTTTAWYPAYYSG  39
+
+
+> UniRef90_UPI0008271E00 UPI0008271E00 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008271E00
+Length=112
+
+ Score = 49.7 bits (117),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 18/49 (37%), Positives = 30/49 (61%), Gaps = 0/49 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGV  49
+           MN  K+W VV P +G+P  L +V V +   H+A++ ++ W P ++ G V
+Sbjct  1   MNNAKLWLVVKPTVGVPLFLTAVAVSSFATHVAVMKYSKWLPEFYAGAV  49
+
+
+> UniRef90_UPI000925F0A4 UPI000925F0A4 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000925F0A4
+Length=109
+
+ Score = 49.3 bits (116),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 20/47 (43%), Positives = 31/47 (66%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MN  K+W VV+P +G+P  LG+V V +  VHL ++ +T+W   + QG
+Sbjct  1   MNNAKMWLVVSPTVGVPLFLGAVAVGSFAVHLQVVKNTSWVADFLQG  47
+
+
+> UniRef90_A0A0P7XNQ3 Light-harvesting protein B-800-850 alpha 
+chain n=1 Tax=Rhodobacteraceae bacterium HLUCCO18 TaxID=1666917 
+RepID=A0A0P7XNQ3_9RHOB
+Length=112
+
+ Score = 48.9 bits (115),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 21/47 (45%), Positives = 30/47 (64%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MN  K+W VV P +GIP  L +V V +  VH+A+LS+T+W   +  G
+Sbjct  1   MNNAKMWLVVKPTVGIPLFLSAVAVGSFSVHVAVLSNTSWVADFLSG  47
+
+
+> UniRef90_A0A0P0LBZ2 Light-harvesting protein B-800-850 alpha 
+chain D n=3 Tax=Limnohabitans TaxID=665874 RepID=A0A0P0LBZ2_9BURK
+Length=64
+
+ Score = 48.1 bits (113),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 20/50 (40%), Positives = 32/50 (64%), Gaps = 0/50 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVK  50
+           M   K+W VV P++GIP  + +V + +  VHLA+ ++TTW  ++  GG K
+Sbjct  1   MIYSKMWCVVKPSVGIPVFIAAVAISSFSVHLALTTNTTWVKSFLNGGTK  50
+
+
+> UniRef90_A0A1B6YYW9 Uncharacterized protein n=1 Tax=Jannaschia 
+sp. EhC01 TaxID=1849359 RepID=A0A1B6YYW9_9RHOB
+Length=108
+
+ Score = 47.8 bits (112),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 20/47 (43%), Positives = 30/47 (64%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MN  KIW VV P +G+P  L +V V +  VH+A++S+T+W   +  G
+Sbjct  1   MNNSKIWLVVKPTVGVPLFLSAVAVGSFAVHVAVVSNTSWVSDFLSG  47
+
+
+> UniRef90_A0A1D7NPD6 Uncharacterized protein n=2 Tax=Porphyrobacter 
+sp. LM 6 TaxID=1896196 RepID=A0A1D7NPD6_9SPHN
+Length=87
+
+ Score = 47.4 bits (111),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 19/52 (37%), Positives = 33/52 (63%), Gaps = 0/52 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKA  52
+           M +G+I+  V+P + +P +   + + ++ VH  ILS+TTWF  +WQG   +A
+Sbjct  2   MKEGRIFLYVSPNVLLPIMFLVMVLTSLAVHYNILSNTTWFADFWQGSASEA  53
+
+
+> UniRef90_A0A1A7BI07 Light harvesting protein B-800-850, alpha 
+chain n=1 Tax=Porphyrobacter dokdonensis DSW-74 TaxID=1300349 
+RepID=A0A1A7BI07_9SPHN
+Length=60
+
+ Score = 46.6 bits (109),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 19/47 (40%), Positives = 32/47 (68%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           M +G+I+  V+P + IP +   + + ++ VH +ILS+TTWF  +WQG
+Sbjct  1   MKEGRIFLYVSPNVIIPIMFLVLVLTSLAVHYSILSNTTWFSDFWQG  47
+
+
+> UniRef90_B6B232 Light-harvesting protein B-800/850, alpha chain 
+n=1 Tax=Rhodobacteraceae bacterium HTCC2083 TaxID=314270 
+RepID=B6B232_9RHOB
+Length=117
+
+ Score = 47.0 bits (110),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 19/47 (40%), Positives = 30/47 (64%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MN  K+W VV+P +G P  LG++ V +  VHL ++ +T+W   + QG
+Sbjct  1   MNNAKMWLVVSPTVGAPLFLGAIAVGSFAVHLQVVKNTSWVADFLQG  47
+
+
+> UniRef90_P95655 Light-harvesting protein B-800/850 alpha chain 
+n=3 Tax=Rhodovulum sulfidophilum TaxID=35806 RepID=LHA2_RHOSU
+Length=63
+
+ Score = 45.8 bits (107),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 20/53 (38%), Positives = 30/53 (57%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MN  K+W VV P +GIP  L +  + + LVHL ++  T W   Y+ G  + A+
+Sbjct  1   MNNAKMWLVVKPTVGIPLFLVACAIASFLVHLMLVLTTGWMGDYYSGSFEAAS  53
+
+
+> UniRef90_Q58PN7 Putative light-harvesting protein b-800/850 alpha 
+chain-related protein n=1 Tax=uncultured proteobacterium 
+DelRiverFos06H03 TaxID=311783 RepID=Q58PN7_9PROT
+Length=65
+
+ Score = 42.0 bits (97),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 18/48 (38%), Positives = 28/48 (58%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           M   K+W VV P++GIP  + +V + +  VHLA+  +TTW   +  G 
+Sbjct  1   MIYAKMWCVVKPSVGIPVFIAAVAISSFSVHLALTMNTTWVKNFLNGS  48
+
+
+> UniRef90_A0A0P0ME01 Light-harvesting protein B-800/850 alpha 
+chain n=2 Tax=Limnohabitans TaxID=665874 RepID=A0A0P0ME01_9BURK
+Length=66
+
+ Score = 41.6 bits (96),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 18/44 (41%), Positives = 28/44 (64%), Gaps = 0/44 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAY  44
+           M   K+WTVV P++GIP  + +V + +  VHLA+  +TTW   +
+Sbjct  1   MIYAKMWTVVKPSVGIPVFIAAVAIASFSVHLALTLNTTWVKGF  44
+
+
+> UniRef90_A1WWW3 Antenna complex, alpha/beta subunit n=1 Tax=Halorhodospira 
+halophila (strain DSM 244 / SL1) TaxID=349124 
+RepID=A1WWW3_HALHL
+Length=71
+
+ Score = 41.2 bits (95),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 27/48 (56%), Positives = 40/48 (83%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MNQ +IW VV P++G+P LLG V +IA+LVH AIL++T+W+P+Y++G 
+Sbjct  1   MNQARIWLVVKPSVGLPLLLGVVLLIALLVHGAILTNTSWYPSYFEGN  48
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.136    0.450    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 445440262635
+Results from round 2
+
+
+Query= d1nkza_
+
+Length=53
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_H0SQW0 Light harvesting protein B-800-850, alpha chain...  87.6    3e-20
+  UniRef90_A5EGA6 Light harvesting protein B-800-850, alpha chain...  86.4    6e-20
+  UniRef90_Q9S318 LH2alpha6 n=1 Tax=Rhodoblastus acidophilus TaxI...  81.0    1e-18
+  UniRef90_P35091 Light-harvesting protein B-800/850 alpha chain ...  80.7    2e-18
+  UniRef90_P26789 Light-harvesting protein B-800/850 alpha chain ...  78.7    1e-17
+  UniRef90_A0A0D7E353 Light-harvesting protein B:800-850 subunit ...  78.7    1e-17
+  UniRef90_Q52648 Puc1A n=1 Tax=Rhodoblastus acidophilus TaxID=10...  78.7    1e-17
+  UniRef90_Q9S314 LH2alpha8 n=1 Tax=Rhodoblastus acidophilus TaxI...  78.7    1e-17
+  UniRef90_A0A0D7EY78 Light-harvesting protein B:800-850 subunit ...  78.7    1e-17
+  UniRef90_P35105 Light-harvesting protein B-800-850 alpha chain ...  78.0    3e-17
+  UniRef90_P35090 Light-harvesting protein B-800/820 alpha chain ...  77.6    3e-17
+  UniRef90_UPI000348C7D1 light-harvesting protein B:800-850 subun...  77.2    5e-17
+  UniRef90_A0A0P7XNQ3 Light-harvesting protein B-800-850 alpha ch...  78.3    6e-17
+  UniRef90_Q2J0G6 Antenna complex, alpha/beta subunit n=3 Tax=Rho...  77.2    6e-17
+  UniRef90_UPI00034D7B53 light-harvesting protein B:800-850 subun...  76.8    9e-17
+  UniRef90_E6VK68 Antenna complex alpha/beta subunit n=2 Tax=Rhod...  76.4    9e-17
+  UniRef90_A0A0D7ETT3 Light-harvesting protein B:800-850 subunit ...  76.4    1e-16
+  UniRef90_Q07S39 Antenna complex, alpha/beta subunit n=4 Tax=Rho...  76.0    1e-16
+  UniRef90_UPI000485B455 light-harvesting protein B:800-850 subun...  76.0    2e-16
+  UniRef90_A9DA09 Antenna complex alpha/beta subunit n=1 Tax=Hoef...  76.8    2e-16
+  UniRef90_UPI00041CFC83 light-harvesting protein B:800-850 subun...  75.6    2e-16
+  UniRef90_P35102 Light-harvesting protein B-800-850 alpha chain ...  75.6    2e-16
+  UniRef90_UPI0009297710 UPI0009297710 related cluster n=1 Tax=un...  75.3    3e-16
+  UniRef90_UPI0003FA2111 light-harvesting protein B:800-850 subun...  74.9    3e-16
+  UniRef90_Q20ZW4 Antenna complex, alpha/beta subunit n=1 Tax=Rho...  74.9    4e-16
+  UniRef90_A0A0L6TBM1 Uncharacterized protein n=1 Tax=Methylibium...  74.9    4e-16
+  UniRef90_Q07N34 Antenna complex, alpha/beta subunit n=2 Tax=Rho...  74.5    5e-16
+  UniRef90_Q07MR6 Antenna complex, alpha/beta subunit n=1 Tax=Rho...  74.5    6e-16
+  UniRef90_A0A0P1EYF7 Uncharacterized protein n=2 Tax=Thalassobac...  75.6    6e-16
+  UniRef90_Q137A1 Antenna complex, alpha/beta subunit n=2 Tax=Rho...  74.1    6e-16
+  UniRef90_Q07UU9 Antenna complex, alpha/beta subunit n=1 Tax=Rho...  74.5    7e-16
+  UniRef90_P35089 Light-harvesting protein B-800/820 alpha chain ...  73.3    1e-15
+  UniRef90_UPI000925F0A4 UPI000925F0A4 related cluster n=1 Tax=un...  74.5    1e-15
+  UniRef90_A0A0N0KJY0 Light-harvesting protein n=1 Tax=Rhodopseud...  73.3    1e-15
+  UniRef90_Q28S13 Peripheral light harvesting complex subunit n=1...  74.1    2e-15
+  UniRef90_Q07HW7 Antenna complex, alpha/beta subunit n=1 Tax=Rho...  73.0    2e-15
+  UniRef90_A0A095WWK3 Light-harvesting LHII, alpha subunit A n=1 ...  72.2    3e-15
+  UniRef90_A0A0N1AE62 Light-harvesting protein n=1 Tax=beta prote...  73.0    3e-15
+  UniRef90_A0A1B6YYW9 Uncharacterized protein n=1 Tax=Jannaschia ...  73.7    3e-15
+  UniRef90_P35104 Light-harvesting protein B-800-850 alpha chain ...  72.6    3e-15
+  UniRef90_Q07TZ8 Antenna complex, alpha/beta subunit n=2 Tax=Rho...  72.2    4e-15
+  UniRef90_B6B232 Light-harvesting protein B-800/850, alpha chain...  73.3    4e-15
+  UniRef90_Q20ZW8 Antenna complex, alpha/beta subunit n=1 Tax=Rho...  72.2    5e-15
+  UniRef90_A0A0N1B941 Light-harvesting protein n=1 Tax=alpha prot...  71.4    8e-15
+  UniRef90_Q07NX5 Antenna complex, alpha/beta subunit n=1 Tax=Rho...  71.4    9e-15
+  UniRef90_Q137W6 Antenna complex, alpha/beta subunit n=2 Tax=Rho...  71.0    1e-14
+  UniRef90_W8RNR1 Light-harvesting LHII, alpha subunit A n=1 Tax=...  71.8    1e-14
+  UniRef90_Q21CU1 Antenna complex, alpha/beta subunit n=1 Tax=Rho...  70.6    2e-14
+  UniRef90_A0A0N0JM15 Uncharacterized protein n=1 Tax=beta proteo...  70.6    2e-14
+  UniRef90_P35103 Light-harvesting protein B-800-850 alpha chain ...  70.3    2e-14
+  UniRef90_Q137W0 Antenna complex, alpha/beta subunit n=2 Tax=Rho...  70.3    3e-14
+  UniRef90_A0A0N1C872 Light-harvesting protein n=1 Tax=Rhodopseud...  70.3    3e-14
+  UniRef90_A0A0N1C527 Light-harvesting protein n=1 Tax=Rhodopseud...  69.9    3e-14
+  UniRef90_P77799 Light-harvesting protein B-800/850 alpha chain ...  70.3    3e-14
+  UniRef90_A4A7C7 Antenna complex alpha/beta subunit n=2 Tax=Gamm...  69.1    5e-14
+  UniRef90_UPI00030E9C69 hypothetical protein n=1 Tax=Sandarakino...  69.5    9e-14
+  UniRef90_UPI0008271E00 UPI0008271E00 related cluster n=1 Tax=un...  69.9    1e-13
+  UniRef90_A4WX08 Antenna complex, alpha/beta subunit n=1 Tax=Rho...  70.6    2e-13
+  UniRef90_A0A037UPQ2 Light-harvesting protein B:800-850 subunit ...  67.9    2e-13
+  UniRef90_E3I3Y5 Antenna complex alpha/beta subunit n=2 Tax=Rhod...  67.6    2e-13
+  UniRef90_P07367 Light-harvesting protein B-800/850 alpha chain ...  67.2    4e-13
+  UniRef90_P95655 Light-harvesting protein B-800/850 alpha chain ...  67.2    4e-13
+  UniRef90_A0A142LJ91 Light-harvesting protein B:800-850 subunit ...  66.8    6e-13
+  UniRef90_H0T3Q9 Light harvesting protein B-800-850, alpha chain...  67.9    6e-13
+  UniRef90_A0A0P0LBZ2 Light-harvesting protein B-800-850 alpha ch...  66.4    7e-13
+  UniRef90_Q3J144 Light-harvesting protein B-800/850 alpha chain ...  66.0    9e-13
+  UniRef90_E3I7A9 Antenna complex alpha/beta subunit n=1 Tax=Rhod...  65.6    2e-12
+  UniRef90_E3I7A7 Antenna complex alpha/beta subunit n=1 Tax=Rhod...  65.6    2e-12
+  UniRef90_UPI000416E448 light-harvesting protein B:800-850 subun...  66.0    2e-12
+  UniRef90_Q3J684 Light-harvesting complex alpha subunit n=5 Tax=...  67.2    4e-12
+  UniRef90_A0A1D7NPD6 Uncharacterized protein n=2 Tax=Porphyrobac...  64.5    7e-12
+  UniRef90_A0A1A7BI07 Light harvesting protein B-800-850, alpha c...  63.7    8e-12
+  UniRef90_Q58PN7 Putative light-harvesting protein b-800/850 alp...  63.3    1e-11
+  UniRef90_C8RXU0 Antenna complex alpha/beta subunit n=1 Tax=Rhod...  61.0    9e-11
+  UniRef90_A0A0P0ME01 Light-harvesting protein B-800/850 alpha ch...  57.2    3e-09
+  UniRef90_A0A1F4HJ11 Uncharacterized protein n=1 Tax=Burkholderi...  54.8    2e-08
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI00091C4A96 UPI00091C4A96 related cluster n=1 Tax=un...  60.2    1e-10
+  UniRef90_UPI00091F44B0 UPI00091F44B0 related cluster n=1 Tax=un...  57.2    5e-09
+  UniRef90_Q162R8 Light-harvesting protein B-800/850, alpha chain...  56.0    1e-08
+  UniRef90_F7ZDG7 Light-harvesting protein B-800/850 alpha chain ...  56.0    2e-08
+  UniRef90_A8LJM9 Putative light-harvesting protein B-800/850 alp...  55.2    3e-08
+  UniRef90_A1WWW3 Antenna complex, alpha/beta subunit n=1 Tax=Hal...  51.0    6e-07
+  UniRef90_UPI00091A4825 UPI00091A4825 related cluster n=1 Tax=un...  47.5    1e-05
+  UniRef90_P80107 Light-harvesting protein B800/850/890 alpha-3 c...  44.1    2e-04
+  UniRef90_P80586 Light-harvesting polypeptide B-800/860 alpha ch...  39.8    0.007
+
+
+> UniRef90_H0SQW0 Light harvesting protein B-800-850, alpha chain 
+n=2 Tax=Bradyrhizobium sp. ORS 375 TaxID=566679 RepID=H0SQW0_9BRAD
+Length=146
+
+ Score = 87.6 bits (216),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 31/53 (58%), Positives = 39/53 (74%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQG+IW VVNP +G+P  LGSV + ++ VH  +LSHTTW  AYW+GG  K A
+Sbjct  20  MNQGRIWCVVNPTVGLPLFLGSVALTSLCVHYTVLSHTTWMGAYWEGGKSKKA  72
+
+
+> UniRef90_A5EGA6 Light harvesting protein B-800-850, alpha chain 
+n=1 Tax=Bradyrhizobium sp. (strain BTAi1 / ATCC BAA-1182) 
+TaxID=288000 RepID=A5EGA6_BRASB
+Length=127
+
+ Score = 86.4 bits (213),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 28/53 (53%), Positives = 39/53 (74%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQG+IW VVNP +G+P  LGSV + ++ VH  +L+HTTW  A+++GG  K A
+Sbjct  1   MNQGRIWCVVNPTVGLPLFLGSVALTSLCVHYTVLTHTTWMGAFFEGGKSKKA  53
+
+
+> UniRef90_Q9S318 LH2alpha6 n=1 Tax=Rhodoblastus acidophilus TaxID=1074 
+RepID=Q9S318_RHOAC
+Length=60
+
+ Score = 81.0 bits (199),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 47/53 (89%), Positives = 50/53 (94%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQGKIWTVVNP+IG+P LLGSVTVIAILVH+AILSHTTWFPAYWQGG K AA
+Sbjct  1   MNQGKIWTVVNPSIGLPLLLGSVTVIAILVHVAILSHTTWFPAYWQGGKKVAA  53
+
+
+> UniRef90_P35091 Light-harvesting protein B-800/850 alpha chain 
+n=2 Tax=Rhodoblastus acidophilus TaxID=1074 RepID=LHA3_RHOAC
+Length=53
+
+ Score = 80.7 bits (198),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 46/53 (87%), Positives = 51/53 (96%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQGKIWTVVNP++G+P LLGSVTVIAILVH A+LSHTTWFPAYWQGG+KKAA
+Sbjct  1   MNQGKIWTVVNPSVGLPLLLGSVTVIAILVHAAVLSHTTWFPAYWQGGLKKAA  53
+
+
+> UniRef90_P26789 Light-harvesting protein B-800/850 alpha chain 
+n=3 Tax=Rhodoblastus acidophilus TaxID=1074 RepID=LHA4_RHOAC
+Length=53
+
+ Score = 78.7 bits (193),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 53/53 (100%), Positives = 53/53 (100%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA
+Sbjct  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+
+
+> UniRef90_A0A0D7E353 Light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=A0A0D7E353_RHOPL
+Length=59
+
+ Score = 78.7 bits (193),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 34/51 (67%), Positives = 41/51 (80%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQG+IWTVV P +G+P LLGSVT+IAILVH A++S+TTWFP YW G    
+Sbjct  1   MNQGRIWTVVKPTVGLPLLLGSVTIIAILVHFALISNTTWFPKYWNGKTAA  51
+
+
+> UniRef90_Q52648 Puc1A n=1 Tax=Rhodoblastus acidophilus TaxID=1074 
+RepID=Q52648_RHOAC
+Length=60
+
+ Score = 78.7 bits (193),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 42/53 (79%), Positives = 48/53 (91%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQGKIWTVV+PA+GIP LLGSV V A+LVHLAIL +TTWFPA+ QGG+KKAA
+Sbjct  1   MNQGKIWTVVDPAVGIPLLLGSVAVTALLVHLAILQNTTWFPAFMQGGLKKAA  53
+
+
+> UniRef90_Q9S314 LH2alpha8 n=1 Tax=Rhodoblastus acidophilus TaxID=1074 
+RepID=Q9S314_RHOAC
+Length=61
+
+ Score = 78.7 bits (193),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 47/53 (89%), Positives = 52/53 (98%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQGKIWTVVNPA+GIPALLGSVTVIAILVHLA+L++TTWF AYWQGG+KKAA
+Sbjct  1   MNQGKIWTVVNPAVGIPALLGSVTVIAILVHLALLNNTTWFKAYWQGGLKKAA  53
+
+
+> UniRef90_A0A0D7EY78 Light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=A0A0D7EY78_RHOPL
+Length=62
+
+ Score = 78.7 bits (193),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 36/50 (72%), Positives = 41/50 (82%), Gaps = 0/50 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVK  50
+           MNQG+IWTVV P +G+P LLGSVTVIAILVH A++SHTTWFP YW G   
+Sbjct  1   MNQGRIWTVVKPTVGLPLLLGSVTVIAILVHYALISHTTWFPKYWNGKTA  50
+
+
+> UniRef90_P35105 Light-harvesting protein B-800-850 alpha chain 
+E n=5 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=LHA5_RHOPA
+Length=59
+
+ Score = 78.0 bits (191),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 35/51 (69%), Positives = 40/51 (78%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQG+IWTVV P +G+P LLGSVTVIAILVH A+LS+TTWF  YW G    
+Sbjct  1   MNQGRIWTVVKPTVGLPLLLGSVTVIAILVHFAVLSNTTWFSKYWNGKAAA  51
+
+
+> UniRef90_P35090 Light-harvesting protein B-800/820 alpha chain 
+n=3 Tax=Rhodoblastus acidophilus TaxID=1074 RepID=LHA2_RHOAC
+Length=53
+
+ Score = 77.6 bits (190),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 41/53 (77%), Positives = 49/53 (92%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQGKIWTVVNPA+G+P LLGSV + A+LVHLA+L+HTTWFPA+ QGG+KKAA
+Sbjct  1   MNQGKIWTVVNPAVGLPLLLGSVAITALLVHLAVLTHTTWFPAFTQGGLKKAA  53
+
+
+> UniRef90_UPI000348C7D1 light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Rhodopseudomonas sp. B29 TaxID=95607 RepID=UPI000348C7D1
+Length=59
+
+ Score = 77.2 bits (189),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 36/51 (71%), Positives = 41/51 (80%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQG+IWTVV+P +G+P LLGSV VIAILVH A+LSHTTWFP YW G    
+Sbjct  1   MNQGRIWTVVSPTVGLPLLLGSVAVIAILVHAAVLSHTTWFPKYWNGKTAA  51
+
+
+> UniRef90_A0A0P7XNQ3 Light-harvesting protein B-800-850 alpha 
+chain n=1 Tax=Rhodobacteraceae bacterium HLUCCO18 TaxID=1666917 
+RepID=A0A0P7XNQ3_9RHOB
+Length=112
+
+ Score = 78.3 bits (192),  Expect = 6e-17, Method: Composition-based stats.
+ Identities = 21/47 (45%), Positives = 30/47 (64%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MN  K+W VV P +GIP  L +V V +  VH+A+LS+T+W   +  G
+Sbjct  1   MNNAKMWLVVKPTVGIPLFLSAVAVGSFSVHVAVLSNTSWVADFLSG  47
+
+
+> UniRef90_Q2J0G6 Antenna complex, alpha/beta subunit n=3 Tax=Rhodopseudomonas 
+TaxID=1073 RepID=Q2J0G6_RHOP2
+Length=67
+
+ Score = 77.2 bits (189),  Expect = 6e-17, Method: Composition-based stats.
+ Identities = 38/49 (78%), Positives = 43/49 (88%), Gaps = 0/49 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGV  49
+           MNQG+IWTVVNP +G+P LLGSVTVIAILVH A+LS+T WFP YWQGG 
+Sbjct  1   MNQGRIWTVVNPTVGLPLLLGSVTVIAILVHFAVLSNTAWFPKYWQGGT  49
+
+
+> UniRef90_UPI00034D7B53 light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Rhodopseudomonas sp. B29 TaxID=95607 RepID=UPI00034D7B53
+Length=67
+
+ Score = 76.8 bits (188),  Expect = 9e-17, Method: Composition-based stats.
+ Identities = 33/49 (67%), Positives = 39/49 (80%), Gaps = 0/49 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGV  49
+           MNQG+IWTVVNP +G+P LLGSV  IAILVH A+L +T+WF  YW GG 
+Sbjct  1   MNQGRIWTVVNPTVGLPLLLGSVATIAILVHFAVLENTSWFAKYWNGGT  49
+
+
+> UniRef90_E6VK68 Antenna complex alpha/beta subunit n=2 Tax=Rhodopseudomonas 
+palustris TaxID=1076 RepID=E6VK68_RHOPX
+Length=59
+
+ Score = 76.4 bits (187),  Expect = 9e-17, Method: Composition-based stats.
+ Identities = 33/50 (66%), Positives = 41/50 (82%), Gaps = 0/50 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVK  50
+           MNQ +IWTVV P++G+P LLGSVTVIAILVH A++++TTWFP YW G   
+Sbjct  1   MNQARIWTVVKPSVGLPLLLGSVTVIAILVHFALITNTTWFPKYWNGKTA  50
+
+
+> UniRef90_A0A0D7ETT3 Light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=A0A0D7ETT3_RHOPL
+Length=73
+
+ Score = 76.4 bits (187),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 34/48 (71%), Positives = 42/48 (88%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MNQG+IWTVV+P +G+P LLGSVTVIAILVH A+L++T+WFP YW G 
+Sbjct  1   MNQGRIWTVVHPTVGLPLLLGSVTVIAILVHFALLTNTSWFPKYWNGK  48
+
+
+> UniRef90_Q07S39 Antenna complex, alpha/beta subunit n=4 Tax=Rhodopseudomonas 
+TaxID=1073 RepID=Q07S39_RHOP5
+Length=59
+
+ Score = 76.0 bits (186),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 37/51 (73%), Positives = 41/51 (80%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQG IWTVV P +G+P LLGSVTVIAILVHLA+LS+TTWFP YW G    
+Sbjct  1   MNQGSIWTVVKPTVGLPLLLGSVTVIAILVHLALLSNTTWFPKYWNGKTAA  51
+
+
+> UniRef90_UPI000485B455 light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=UPI000485B455
+Length=67
+
+ Score = 76.0 bits (186),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 34/47 (72%), Positives = 41/47 (87%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQG+IWTVVNP +G+P  LGSV VIAILVHLA++++TTWFP YW G
+Sbjct  1   MNQGRIWTVVNPGVGLPLFLGSVAVIAILVHLALVNNTTWFPKYWNG  47
+
+
+> UniRef90_A9DA09 Antenna complex alpha/beta subunit n=1 Tax=Hoeflea 
+phototrophica (strain DSM 17068 / NCIMB 14078 / DFL-43) 
+TaxID=411684 RepID=A9DA09_HOEPD
+Length=113
+
+ Score = 76.8 bits (188),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 21/50 (42%), Positives = 31/50 (62%), Gaps = 0/50 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVK  50
+           MN  K+W VV P +G+P  L +V V +  VH+++L +TTW P +  GG  
+Sbjct  1   MNNAKMWLVVKPTVGVPLFLTAVAVGSFAVHVSVLRNTTWLPQFLSGGAA  50
+
+
+> UniRef90_UPI00041CFC83 light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=UPI00041CFC83
+Length=59
+
+ Score = 75.6 bits (185),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 33/51 (65%), Positives = 38/51 (75%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQG+IWTVV P +G+P LLGSV VIAILVH A++S TTWF  YW G    
+Sbjct  1   MNQGRIWTVVKPTVGLPLLLGSVAVIAILVHAALISKTTWFSKYWNGKAAA  51
+
+
+> UniRef90_P35102 Light-harvesting protein B-800-850 alpha chain 
+B n=3 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=LHA2_RHOPA
+Length=66
+
+ Score = 75.6 bits (185),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 37/49 (76%), Positives = 42/49 (86%), Gaps = 0/49 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGV  49
+           MNQG+IWTVVNP +G+P LLGSVTVIAILVH A+LS+TTWFP YW G  
+Sbjct  1   MNQGRIWTVVNPGVGLPLLLGSVTVIAILVHYAVLSNTTWFPKYWNGAT  49
+
+
+> UniRef90_UPI0009297710 UPI0009297710 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009297710
+Length=62
+
+ Score = 75.3 bits (184),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 22/53 (42%), Positives = 31/53 (58%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MN  K+W VV P +GIP  L +V + + LVH  ++  T W   Y  GG ++AA
+Sbjct  1   MNNAKLWLVVKPTVGIPIFLSAVAISSFLVHAGLVVTTDWISDYHNGGAEEAA  53
+
+
+> UniRef90_UPI0003FA2111 light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=UPI0003FA2111
+Length=59
+
+ Score = 74.9 bits (183),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 35/51 (69%), Positives = 43/51 (84%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQG+IWTVV P++G+P LLGSVTVIAILVHLA++++TTWFP YW G    
+Sbjct  1   MNQGRIWTVVKPSVGLPLLLGSVTVIAILVHLALVNNTTWFPKYWNGKAAA  51
+
+
+> UniRef90_Q20ZW4 Antenna complex, alpha/beta subunit n=1 Tax=Rhodopseudomonas 
+palustris (strain BisB18) TaxID=316056 RepID=Q20ZW4_RHOPB
+Length=59
+
+ Score = 74.9 bits (183),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 33/51 (65%), Positives = 38/51 (75%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQGKIWTVV P++G+P LLGSV  I ILVH AIL+HTTWFP +  G    
+Sbjct  1   MNQGKIWTVVKPSVGLPLLLGSVATIVILVHFAILTHTTWFPKFMNGKTAA  51
+
+
+> UniRef90_A0A0L6TBM1 Uncharacterized protein n=1 Tax=Methylibium 
+sp. NZG TaxID=1686064 RepID=A0A0L6TBM1_9BURK
+Length=69
+
+ Score = 74.9 bits (183),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 26/52 (50%), Positives = 35/52 (67%), Gaps = 0/52 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKA  52
+           M  GK+W VV P++GIP  LG+V V +  VH A+L+HTTW P Y++GG    
+Sbjct  1   MIYGKLWLVVKPSVGIPLFLGAVAVSSFAVHYALLTHTTWLPKYYEGGAAVK  52
+
+
+> UniRef90_Q07N34 Antenna complex, alpha/beta subunit n=2 Tax=Rhodopseudomonas 
+palustris TaxID=1076 RepID=Q07N34_RHOP5
+Length=59
+
+ Score = 74.5 bits (182),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 36/51 (71%), Positives = 40/51 (78%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQG IWTVV P +G+P LLGSVTVIAILVHLA+LS+TTWF  YW G    
+Sbjct  1   MNQGSIWTVVKPTVGLPLLLGSVTVIAILVHLALLSNTTWFGKYWNGKAAA  51
+
+
+> UniRef90_Q07MR6 Antenna complex, alpha/beta subunit n=1 Tax=Rhodopseudomonas 
+palustris (strain BisA53) TaxID=316055 RepID=Q07MR6_RHOP5
+Length=59
+
+ Score = 74.5 bits (182),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 34/51 (67%), Positives = 37/51 (73%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQG IWTVV P +G+P LLGSV VIAILVH A+LS TTWF  YW G    
+Sbjct  1   MNQGSIWTVVKPTVGLPLLLGSVCVIAILVHAAVLSKTTWFGKYWNGKAAA  51
+
+
+> UniRef90_A0A0P1EYF7 Uncharacterized protein n=2 Tax=Thalassobacter 
+TaxID=266808 RepID=A0A0P1EYF7_9RHOB
+Length=115
+
+ Score = 75.6 bits (185),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 21/47 (45%), Positives = 33/47 (70%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MN  K+W VV+P++G+P  LG+V V +  VH+A+LS+T+W   +  G
+Sbjct  1   MNNAKMWLVVSPSVGVPLFLGAVAVGSFAVHVAVLSNTSWVSDFLSG  47
+
+
+> UniRef90_Q137A1 Antenna complex, alpha/beta subunit n=2 Tax=Rhodopseudomonas 
+palustris TaxID=1076 RepID=Q137A1_RHOPS
+Length=59
+
+ Score = 74.1 bits (181),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 36/51 (71%), Positives = 42/51 (82%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQG+IWTVV+P +G+P LLGSVTVIAILVH A+LS+TTWFP YW G    
+Sbjct  1   MNQGRIWTVVSPTVGLPLLLGSVTVIAILVHAAVLSNTTWFPKYWNGKTAA  51
+
+
+> UniRef90_Q07UU9 Antenna complex, alpha/beta subunit n=1 Tax=Rhodopseudomonas 
+palustris (strain BisA53) TaxID=316055 RepID=Q07UU9_RHOP5
+Length=65
+
+ Score = 74.5 bits (182),  Expect = 7e-16, Method: Composition-based stats.
+ Identities = 31/50 (62%), Positives = 40/50 (80%), Gaps = 0/50 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVK  50
+           MNQG +WTVV P++G+P LLGSV + A+LVH A+L++TTWF  Y QGGV 
+Sbjct  1   MNQGTLWTVVKPSVGLPLLLGSVAITALLVHFAVLNNTTWFAKYMQGGVS  50
+
+
+> UniRef90_P35089 Light-harvesting protein B-800/820 alpha chain 
+n=1 Tax=Rhodoblastus acidophilus TaxID=1074 RepID=LHA1_RHOAC
+Length=53
+
+ Score = 73.3 bits (179),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 36/53 (68%), Positives = 45/53 (85%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQGKIWTVV PA G+P +LG+V + A+LVH A+L+HTTW+ A+ QGGVKKAA
+Sbjct  1   MNQGKIWTVVPPAFGLPLMLGAVAITALLVHAAVLTHTTWYAAFLQGGVKKAA  53
+
+
+> UniRef90_UPI000925F0A4 UPI000925F0A4 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000925F0A4
+Length=109
+
+ Score = 74.5 bits (182),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 20/47 (43%), Positives = 31/47 (66%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MN  K+W VV+P +G+P  LG+V V +  VHL ++ +T+W   + QG
+Sbjct  1   MNNAKMWLVVSPTVGVPLFLGAVAVGSFAVHLQVVKNTSWVADFLQG  47
+
+
+> UniRef90_A0A0N0KJY0 Light-harvesting protein n=1 Tax=Rhodopseudomonas 
+sp. AAP120 TaxID=1523430 RepID=A0A0N0KJY0_9BRAD
+Length=60
+
+ Score = 73.3 bits (179),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 30/50 (60%), Positives = 35/50 (70%), Gaps = 0/50 (0%)
+
+Query  2   NQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           NQ +IWTVV P +G+P  LGSV VIAILVH A+L+HTTW   YW G    
+Sbjct  3   NQARIWTVVKPTVGLPLFLGSVAVIAILVHFAVLTHTTWVSKYWNGKAAA  52
+
+
+> UniRef90_Q28S13 Peripheral light harvesting complex subunit n=1 
+Tax=Jannaschia sp. (strain CCS1) TaxID=290400 RepID=Q28S13_JANSC
+Length=107
+
+ Score = 74.1 bits (181),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 22/47 (47%), Positives = 29/47 (62%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MN  KIW VV P +G+P  L +V V +  VH+A+LS T W+  Y  G
+Sbjct  1   MNNSKIWLVVKPTVGVPLFLSAVAVGSFAVHIAVLSKTNWYEDYLVG  47
+
+
+> UniRef90_Q07HW7 Antenna complex, alpha/beta subunit n=1 Tax=Rhodopseudomonas 
+palustris (strain BisA53) TaxID=316055 RepID=Q07HW7_RHOP5
+Length=59
+
+ Score = 73.0 bits (178),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 36/51 (71%), Positives = 40/51 (78%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQG IWTVV P +G+P LLGSVTVIAILVH A+LS+TTWFP YW G    
+Sbjct  1   MNQGSIWTVVKPGVGLPLLLGSVTVIAILVHYAVLSNTTWFPKYWNGKAAA  51
+
+
+> UniRef90_A0A095WWK3 Light-harvesting LHII, alpha subunit A n=1 
+Tax=Pseudohaliea rubra DSM 19751 TaxID=1265313 RepID=A0A095WWK3_9GAMM
+Length=48
+
+ Score = 72.2 bits (176),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 26/48 (54%), Positives = 38/48 (79%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MNQG+IW VVNP IG+P  LGSV +I++LVH A+L++T++  A++ G 
+Sbjct  1   MNQGRIWCVVNPTIGLPLFLGSVAIISMLVHHAVLNNTSYMAAFFAGS  48
+
+
+> UniRef90_A0A0N1AE62 Light-harvesting protein n=1 Tax=beta proteobacterium 
+AAP65 TaxID=1523424 RepID=A0A0N1AE62_9PROT
+Length=75
+
+ Score = 73.0 bits (178),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 27/48 (56%), Positives = 35/48 (73%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MNQGK+W VVNP IG+P  LG+V + ++ VH  +L  T W PAY+QGG
+Sbjct  1   MNQGKVWRVVNPTIGVPLFLGAVALTSLFVHYQLLKTTQWLPAYYQGG  48
+
+
+> UniRef90_A0A1B6YYW9 Uncharacterized protein n=1 Tax=Jannaschia 
+sp. EhC01 TaxID=1849359 RepID=A0A1B6YYW9_9RHOB
+Length=108
+
+ Score = 73.7 bits (180),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 20/47 (43%), Positives = 30/47 (64%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MN  KIW VV P +G+P  L +V V +  VH+A++S+T+W   +  G
+Sbjct  1   MNNSKIWLVVKPTVGVPLFLSAVAVGSFAVHVAVVSNTSWVSDFLSG  47
+
+
+> UniRef90_P35104 Light-harvesting protein B-800-850 alpha chain 
+D n=2 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=LHA4_RHOPA
+Length=59
+
+ Score = 72.6 bits (177),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 27/51 (53%), Positives = 35/51 (69%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQG+IWTVV P +G+P LLGSV ++  LVH A+L+HTTW   +  G    
+Sbjct  1   MNQGRIWTVVKPTVGLPLLLGSVAIMVFLVHFAVLTHTTWVAKFMNGKAAA  51
+
+
+> UniRef90_Q07TZ8 Antenna complex, alpha/beta subunit n=2 Tax=Rhodopseudomonas 
+palustris (strain BisA53) TaxID=316055 RepID=Q07TZ8_RHOP5
+Length=59
+
+ Score = 72.2 bits (176),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 26/51 (51%), Positives = 35/51 (69%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQG +WTVV P +G+P L G+V + A+LVH A+L+HTTWF  +  G    
+Sbjct  1   MNQGTLWTVVKPTVGLPLLFGAVAITALLVHFAVLTHTTWFAKFMNGKTAA  51
+
+
+> UniRef90_B6B232 Light-harvesting protein B-800/850, alpha chain 
+n=1 Tax=Rhodobacteraceae bacterium HTCC2083 TaxID=314270 
+RepID=B6B232_9RHOB
+Length=117
+
+ Score = 73.3 bits (179),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 19/47 (40%), Positives = 30/47 (64%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MN  K+W VV+P +G P  LG++ V +  VHL ++ +T+W   + QG
+Sbjct  1   MNNAKMWLVVSPTVGAPLFLGAIAVGSFAVHLQVVKNTSWVADFLQG  47
+
+
+> UniRef90_Q20ZW8 Antenna complex, alpha/beta subunit n=1 Tax=Rhodopseudomonas 
+palustris (strain BisB18) TaxID=316056 RepID=Q20ZW8_RHOPB
+Length=65
+
+ Score = 72.2 bits (176),  Expect = 5e-15, Method: Composition-based stats.
+ Identities = 33/53 (62%), Positives = 44/53 (83%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQG+IWTVVNP++G+P LLGSV V  +LVH A+LS+TTW+PA++ G V  +A
+Sbjct  1   MNQGRIWTVVNPSVGLPLLLGSVAVTVLLVHSAVLSNTTWYPAFFSGKVAVSA  53
+
+
+> UniRef90_A0A0N1B941 Light-harvesting protein n=1 Tax=alpha proteobacterium 
+AAP81b TaxID=1523432 RepID=A0A0N1B941_9PROT
+Length=56
+
+ Score = 71.4 bits (174),  Expect = 8e-15, Method: Composition-based stats.
+ Identities = 23/53 (43%), Positives = 35/53 (66%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           M +G+IW  V+P +G+P    +    ++LVH +ILS+TTW  ++WQGG   AA
+Sbjct  1   MKEGRIWLYVSPTVGLPLFFLAFITASLLVHASILSNTTWMASFWQGGAATAA  53
+
+
+> UniRef90_Q07NX5 Antenna complex, alpha/beta subunit n=1 Tax=Rhodopseudomonas 
+palustris (strain BisA53) TaxID=316055 RepID=Q07NX5_RHOP5
+Length=70
+
+ Score = 71.4 bits (174),  Expect = 9e-15, Method: Composition-based stats.
+ Identities = 35/52 (67%), Positives = 41/52 (79%), Gaps = 0/52 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKA  52
+           MNQG IWTVV+P +G+P LLG+VTVIA+LVH A+LS TTWF AYW G    A
+Sbjct  1   MNQGTIWTVVHPTVGLPLLLGTVTVIALLVHYAVLSKTTWFSAYWNGNASVA  52
+
+
+> UniRef90_Q137W6 Antenna complex, alpha/beta subunit n=2 Tax=Rhodopseudomonas 
+palustris TaxID=1076 RepID=Q137W6_RHOPS
+Length=65
+
+ Score = 71.0 bits (173),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 28/48 (58%), Positives = 35/48 (73%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MNQGK+WTVVNP +G+P LLG V  +A LVH A+L +TTW  A+  G 
+Sbjct  1   MNQGKLWTVVNPTVGLPLLLGGVATMAFLVHYAVLENTTWVSAFMNGK  48
+
+
+> UniRef90_W8RNR1 Light-harvesting LHII, alpha subunit A n=1 Tax=Roseibacterium 
+elongatum DSM 19469 TaxID=1294273 RepID=W8RNR1_9RHOB
+Length=95
+
+ Score = 71.8 bits (175),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 22/47 (47%), Positives = 31/47 (66%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MN  K+W VV P +GIP  LG+V V +  VH+A++S T+W+  Y  G
+Sbjct  1   MNNAKLWLVVKPTVGIPVFLGAVAVGSFAVHVAVVSQTSWYNDYLTG  47
+
+
+> UniRef90_Q21CU1 Antenna complex, alpha/beta subunit n=1 Tax=Rhodopseudomonas 
+palustris (strain BisB18) TaxID=316056 RepID=Q21CU1_RHOPB
+Length=67
+
+ Score = 70.6 bits (172),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 33/47 (70%), Positives = 39/47 (83%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQ ++WTVVNP +G+P LLGSVTVIAILVH A+L +TTWF  YW G
+Sbjct  1   MNQARVWTVVNPTVGLPLLLGSVTVIAILVHFAVLENTTWFSGYWNG  47
+
+
+> UniRef90_A0A0N0JM15 Uncharacterized protein n=1 Tax=beta proteobacterium 
+AAP51 TaxID=1523421 RepID=A0A0N0JM15_9PROT
+Length=78
+
+ Score = 70.6 bits (172),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 29/49 (59%), Positives = 35/49 (71%), Gaps = 0/49 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGV  49
+           MNQGKIW VVNP IG+P  LG+V V ++ VH  +L+ TTW P Y QGG 
+Sbjct  1   MNQGKIWRVVNPTIGVPIFLGTVVVASLFVHYQLLTKTTWVPTYLQGGT  49
+
+
+> UniRef90_P35103 Light-harvesting protein B-800-850 alpha chain 
+C n=2 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=LHA3_RHOPL
+Length=65
+
+ Score = 70.3 bits (171),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 27/48 (56%), Positives = 35/48 (73%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MNQG+IWTVV+P +G+P LLGSV  IA  VH A+L +T+W  A+  G 
+Sbjct  1   MNQGRIWTVVSPTVGLPLLLGSVAAIAFAVHFAVLENTSWVAAFMNGK  48
+
+
+> UniRef90_Q137W0 Antenna complex, alpha/beta subunit n=2 Tax=Rhodopseudomonas 
+palustris TaxID=1076 RepID=Q137W0_RHOPS
+Length=59
+
+ Score = 70.3 bits (171),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 28/51 (55%), Positives = 36/51 (71%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQG+IWTVV P +G+P LLGSV V+ +LVH A+L+HTTW   +  G    
+Sbjct  1   MNQGRIWTVVKPTVGLPLLLGSVAVMVVLVHFAVLTHTTWVAKFMNGKTAA  51
+
+
+> UniRef90_A0A0N1C872 Light-harvesting protein n=1 Tax=Rhodopseudomonas 
+sp. AAP120 TaxID=1523430 RepID=A0A0N1C872_9BRAD
+Length=64
+
+ Score = 70.3 bits (171),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 29/48 (60%), Positives = 34/48 (71%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MNQG+IWTVVNP +G+P LLGSV  IA  VH A+L  TTW  A+  G 
+Sbjct  1   MNQGRIWTVVNPTVGLPLLLGSVAAIAFAVHFAVLESTTWVSAFMNGK  48
+
+
+> UniRef90_A0A0N1C527 Light-harvesting protein n=1 Tax=Rhodopseudomonas 
+sp. AAP120 TaxID=1523430 RepID=A0A0N1C527_9BRAD
+Length=59
+
+ Score = 69.9 bits (170),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 30/50 (60%), Positives = 36/50 (72%), Gaps = 0/50 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVK  50
+           MNQG+IWTVV P +G+P LLGSV VI ILVH A+L+HTTW   +  G   
+Sbjct  1   MNQGRIWTVVKPTVGLPLLLGSVAVIVILVHFAVLTHTTWVAKFMNGKTA  50
+
+
+> UniRef90_P77799 Light-harvesting protein B-800/850 alpha chain 
+n=3 Tax=Rubrivivax TaxID=28067 RepID=LHA2_RUBGE
+Length=71
+
+ Score = 70.3 bits (171),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 27/50 (54%), Positives = 36/50 (72%), Gaps = 0/50 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVK  50
+           MNQGK+W VV P +G+P  LG+V V A+++H  +L+ T WF AYW GG K
+Sbjct  1   MNQGKVWRVVKPTVGVPVYLGAVAVTALILHGGLLAKTDWFGAYWNGGKK  50
+
+
+> UniRef90_A4A7C7 Antenna complex alpha/beta subunit n=2 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A4A7C7_9GAMM
+Length=47
+
+ Score = 69.1 bits (168),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 32/47 (68%), Positives = 38/47 (81%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MN GK+WTVVNP +GIP +LG V VIA+ VH AIL++TTWF AYW G
+Sbjct  1   MNNGKLWTVVNPTVGIPLMLGGVAVIALTVHFAILNNTTWFAAYWGG  47
+
+
+> UniRef90_UPI00030E9C69 hypothetical protein n=1 Tax=Sandarakinorhabdus 
+sp. AAP62 TaxID=1248916 RepID=UPI00030E9C69
+Length=89
+
+ Score = 69.5 bits (169),  Expect = 9e-14, Method: Composition-based stats.
+ Identities = 23/48 (48%), Positives = 36/48 (75%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MN+G+IW  V+P++GIP    +V  +A+LVH +IL +T+WF +YW+G 
+Sbjct  1   MNEGRIWLYVSPSVGIPLFFIAVATVALLVHASILVNTSWFGSYWEGS  48
+
+
+> UniRef90_UPI0008271E00 UPI0008271E00 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008271E00
+Length=112
+
+ Score = 69.9 bits (170),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 18/49 (37%), Positives = 30/49 (61%), Gaps = 0/49 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGV  49
+           MN  K+W VV P +G+P  L +V V +   H+A++ ++ W P ++ G V
+Sbjct  1   MNNAKLWLVVKPTVGVPLFLTAVAVSSFATHVAVMKYSKWLPEFYAGAV  49
+
+
+> UniRef90_A4WX08 Antenna complex, alpha/beta subunit n=1 Tax=Rhodobacter 
+sphaeroides (strain ATCC 17025 / ATH 2.4.3) TaxID=349102 
+RepID=A4WX08_RHOS5
+Length=239
+
+ Score = 70.6 bits (172),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 24/51 (47%), Positives = 33/51 (65%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MN  K+W  VNP +GIP LLGSV + ++ VH A+L+ T W   Y+QG   +
+Sbjct  1   MNNSKMWLTVNPNLGIPLLLGSVALGSVAVHAAVLTTTPWIADYYQGSAPR  51
+
+
+> UniRef90_A0A037UPQ2 Light-harvesting protein B:800-850 subunit 
+alpha n=2 Tax=Rhodomicrobium TaxID=1068 RepID=A0A037UPQ2_9RHIZ
+Length=65
+
+ Score = 67.9 bits (165),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 28/52 (54%), Positives = 36/52 (69%), Gaps = 0/52 (0%)
+
+Query  2   NQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+            Q  IW VV P +G+P LLG+VT+IA+LVH +++ HT WFP YW G   K A
+Sbjct  6   GQAGIWLVVPPKVGLPLLLGTVTLIAVLVHASLIGHTKWFPKYWDGAAAKTA  57
+
+
+> UniRef90_E3I3Y5 Antenna complex alpha/beta subunit n=2 Tax=Rhodomicrobium 
+TaxID=1068 RepID=E3I3Y5_RHOVT
+Length=61
+
+ Score = 67.6 bits (164),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 30/52 (58%), Positives = 39/52 (75%), Gaps = 0/52 (0%)
+
+Query  2   NQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+            Q  IW VV P +G+P LLG+VT+IA+LVH +++ HT WFPAYW+GG K  A
+Sbjct  6   GQHGIWLVVPPKVGLPLLLGTVTLIAVLVHASLIGHTKWFPAYWEGGAKTVA  57
+
+
+> UniRef90_P07367 Light-harvesting protein B-800/850 alpha chain 
+n=4 Tax=Rhodobacter capsulatus TaxID=1061 RepID=LHA2_RHOCA
+Length=60
+
+ Score = 67.2 bits (163),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 27/48 (56%), Positives = 35/48 (73%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MN  KIWTVV P+ GIP +LG+V V A++VH  +L++TTWF  YW G 
+Sbjct  1   MNNAKIWTVVKPSTGIPLILGAVAVAALIVHAGLLTNTTWFANYWNGN  48
+
+
+> UniRef90_P95655 Light-harvesting protein B-800/850 alpha chain 
+n=3 Tax=Rhodovulum sulfidophilum TaxID=35806 RepID=LHA2_RHOSU
+Length=63
+
+ Score = 67.2 bits (163),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 20/53 (38%), Positives = 30/53 (57%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MN  K+W VV P +GIP  L +  + + LVHL ++  T W   Y+ G  + A+
+Sbjct  1   MNNAKMWLVVKPTVGIPLFLVACAIASFLVHLMLVLTTGWMGDYYSGSFEAAS  53
+
+
+> UniRef90_A0A142LJ91 Light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Betaproteobacteria bacterium UKL13-2 TaxID=1690485 
+RepID=A0A142LJ91_9PROT
+Length=76
+
+ Score = 66.8 bits (162),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 24/50 (48%), Positives = 32/50 (64%), Gaps = 0/50 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVK  50
+           M  GK+W VV P +GIP     + V A+ VH AIL ++ WFPA+ +GG K
+Sbjct  1   MTNGKMWLVVKPTVGIPVFFAGIVVAALSVHTAILLNSDWFPAFLKGGQK  50
+
+
+> UniRef90_H0T3Q9 Light harvesting protein B-800-850, alpha chain 
+n=2 Tax=Bradyrhizobium sp. STM 3809 TaxID=551936 RepID=H0T3Q9_9BRAD
+Length=119
+
+ Score = 67.9 bits (165),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 24/45 (53%), Positives = 32/45 (71%), Gaps = 0/45 (0%)
+
+Query  9   VVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           +V+P +G+P  LGSV + ++ VH  ILSHTTW  AYW+GG  K A
+Sbjct  1   MVHPTVGLPLFLGSVALTSLCVHYTILSHTTWMGAYWEGGKSKKA  45
+
+
+> UniRef90_A0A0P0LBZ2 Light-harvesting protein B-800-850 alpha 
+chain D n=3 Tax=Limnohabitans TaxID=665874 RepID=A0A0P0LBZ2_9BURK
+Length=64
+
+ Score = 66.4 bits (161),  Expect = 7e-13, Method: Composition-based stats.
+ Identities = 20/50 (40%), Positives = 32/50 (64%), Gaps = 0/50 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVK  50
+           M   K+W VV P++GIP  + +V + +  VHLA+ ++TTW  ++  GG K
+Sbjct  1   MIYSKMWCVVKPSVGIPVFIAAVAISSFSVHLALTTNTTWVKSFLNGGTK  50
+
+
+> UniRef90_Q3J144 Light-harvesting protein B-800/850 alpha chain 
+n=7 Tax=Rhodobacter TaxID=1060 RepID=LHA2_RHOS4
+Length=54
+
+ Score = 66.0 bits (160),  Expect = 9e-13, Method: Composition-based stats.
+ Identities = 24/53 (45%), Positives = 35/53 (66%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           M  GKIW VV P +G+P  L +  + ++++H A+L+ TTW PAY+QG    AA
+Sbjct  1   MTNGKIWLVVKPTVGVPLFLSAAVIASVVIHAAVLTTTTWLPAYYQGSAAVAA  53
+
+
+> UniRef90_E3I7A9 Antenna complex alpha/beta subunit n=1 Tax=Rhodomicrobium 
+vannielii (strain ATCC 17100 / ATH 3.1.1 / DSM 
+162 / LMG 4299) TaxID=648757 RepID=E3I7A9_RHOVT
+Length=64
+
+ Score = 65.6 bits (159),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 25/51 (49%), Positives = 32/51 (63%), Gaps = 0/51 (0%)
+
+Query  2   NQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKA  52
+            Q KIW VV P +G+  LLG V   A+LVH  +L++T WFP Y +G  K A
+Sbjct  6   GQAKIWLVVKPEVGLLWLLGGVAFTAVLVHAVLLANTKWFPNYIEGKAKVA  56
+
+
+> UniRef90_E3I7A7 Antenna complex alpha/beta subunit n=1 Tax=Rhodomicrobium 
+vannielii (strain ATCC 17100 / ATH 3.1.1 / DSM 
+162 / LMG 4299) TaxID=648757 RepID=E3I7A7_RHOVT
+Length=67
+
+ Score = 65.6 bits (159),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 25/52 (48%), Positives = 33/52 (63%), Gaps = 0/52 (0%)
+
+Query  2   NQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+            Q  IW  V P++GIP  LG+V +IA++VHL +L HTT    Y+ G   KAA
+Sbjct  6   GQAAIWLYVRPSLGIPHFLGAVAIIALVVHLGVLGHTTLLKKYFGGEKLKAA  57
+
+
+> UniRef90_UPI000416E448 light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Sandarakinorhabdus limnophila TaxID=210512 
+RepID=UPI000416E448
+Length=89
+
+ Score = 66.0 bits (160),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 27/49 (55%), Positives = 37/49 (76%), Gaps = 1/49 (2%)
+
+Query  1   MNQGKIWTVVNPAIGIPAL-LGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MN+G+IW  VNP++G+P   L  V  +A  +HLAIL++TTWF A+WQGG
+Sbjct  1   MNEGRIWLYVNPSVGLPLFFLVWVAGVAFSIHLAILTNTTWFAAFWQGG  49
+
+
+> UniRef90_Q3J684 Light-harvesting complex alpha subunit n=5 Tax=Rhodobacter 
+TaxID=1060 RepID=Q3J684_RHOS4
+Length=263
+
+ Score = 67.2 bits (163),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 24/48 (50%), Positives = 33/48 (69%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MN  K+W  VNP +G+P LLGSV V +++VH A+L+ T W   Y+QG 
+Sbjct  1   MNNSKMWLTVNPNLGVPLLLGSVAVASLVVHGAVLTTTPWIANYYQGS  48
+
+
+> UniRef90_A0A1D7NPD6 Uncharacterized protein n=2 Tax=Porphyrobacter 
+sp. LM 6 TaxID=1896196 RepID=A0A1D7NPD6_9SPHN
+Length=87
+
+ Score = 64.5 bits (156),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 19/52 (37%), Positives = 33/52 (63%), Gaps = 0/52 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKA  52
+           M +G+I+  V+P + +P +   + + ++ VH  ILS+TTWF  +WQG   +A
+Sbjct  2   MKEGRIFLYVSPNVLLPIMFLVMVLTSLAVHYNILSNTTWFADFWQGSASEA  53
+
+
+> UniRef90_A0A1A7BI07 Light harvesting protein B-800-850, alpha 
+chain n=1 Tax=Porphyrobacter dokdonensis DSW-74 TaxID=1300349 
+RepID=A0A1A7BI07_9SPHN
+Length=60
+
+ Score = 63.7 bits (154),  Expect = 8e-12, Method: Composition-based stats.
+ Identities = 19/47 (40%), Positives = 32/47 (68%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           M +G+I+  V+P + IP +   + + ++ VH +ILS+TTWF  +WQG
+Sbjct  1   MKEGRIFLYVSPNVIIPIMFLVLVLTSLAVHYSILSNTTWFSDFWQG  47
+
+
+> UniRef90_Q58PN7 Putative light-harvesting protein b-800/850 alpha 
+chain-related protein n=1 Tax=uncultured proteobacterium 
+DelRiverFos06H03 TaxID=311783 RepID=Q58PN7_9PROT
+Length=65
+
+ Score = 63.3 bits (153),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 18/48 (38%), Positives = 28/48 (58%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           M   K+W VV P++GIP  + +V + +  VHLA+  +TTW   +  G 
+Sbjct  1   MIYAKMWCVVKPSVGIPVFIAAVAISSFSVHLALTMNTTWVKNFLNGS  48
+
+
+> UniRef90_C8RXU0 Antenna complex alpha/beta subunit n=1 Tax=Rhodobacter 
+sp. SW2 TaxID=371731 RepID=C8RXU0_9RHOB
+Length=67
+
+ Score = 61.0 bits (147),  Expect = 9e-11, Method: Composition-based stats.
+ Identities = 20/48 (42%), Positives = 30/48 (63%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           M  GK+W VV P +GIPA L  V + ++ VH+ + ++TTW   Y+ G 
+Sbjct  1   MTYGKVWLVVKPTVGIPAFLAGVAIASVFVHVMLFNNTTWLAPYYSGA  48
+
+
+> UniRef90_UPI00091C4A96 UPI00091C4A96 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00091C4A96
+Length=60
+
+ Score = 60.2 bits (145),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 15/47 (32%), Positives = 31/47 (66%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           M +G+I+  V+P + IP +   + + ++ VH ++L++TTW   ++QG
+Sbjct  1   MKEGRIFLYVSPNVIIPIMFLVLVLTSLGVHYSVLTNTTWMSDFFQG  47
+
+
+> UniRef90_A0A0P0ME01 Light-harvesting protein B-800/850 alpha 
+chain n=2 Tax=Limnohabitans TaxID=665874 RepID=A0A0P0ME01_9BURK
+Length=66
+
+ Score = 57.2 bits (137),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 18/46 (39%), Positives = 28/46 (61%), Gaps = 0/46 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQ  46
+           M   K+WTVV P++GIP  + +V + +  VHLA+  +TTW   +  
+Sbjct  1   MIYAKMWTVVKPSVGIPVFIAAVAIASFSVHLALTLNTTWVKGFLN  46
+
+
+> UniRef90_UPI00091F44B0 UPI00091F44B0 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00091F44B0
+Length=106
+
+ Score = 57.2 bits (137),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 22/47 (47%), Positives = 32/47 (68%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MN  K+W VV PA+G+P  LG+V V +  VH+A+LS+T+W   +  G
+Sbjct  1   MNNAKMWLVVPPAVGVPVFLGAVAVGSFAVHVAVLSNTSWVSDFLSG  47
+
+
+> UniRef90_Q162R8 Light-harvesting protein B-800/850, alpha chain 
+n=1 Tax=Roseobacter denitrificans (strain ATCC 33942 / OCh 
+114) TaxID=375451 RepID=Q162R8_ROSDO
+Length=118
+
+ Score = 56.0 bits (134),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 21/48 (44%), Positives = 33/48 (69%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MN  K+W VV+P++G+P  LG+V V +  VH+A+LS+T+W   +  G 
+Sbjct  1   MNNAKMWLVVSPSVGVPVFLGAVAVGSFAVHVAVLSNTSWVSDFLSGN  48
+
+
+> UniRef90_F7ZDG7 Light-harvesting protein B-800/850 alpha chain 
+n=1 Tax=Roseobacter litoralis (strain ATCC 49566 / DSM 6996 
+/ JCM 21268 / NBRC 15278 / OCh 149) TaxID=391595 RepID=F7ZDG7_ROSLO
+Length=118
+
+ Score = 56.0 bits (134),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 22/48 (46%), Positives = 33/48 (69%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MN  K+W VV+P++G+P  LG+V V +  VH+A+LS+TTW   +  G 
+Sbjct  1   MNNAKMWLVVSPSVGVPVFLGAVAVGSFAVHVAVLSNTTWVSDFLSGN  48
+
+
+> UniRef90_A0A1F4HJ11 Uncharacterized protein n=1 Tax=Burkholderiales 
+bacterium RIFCSPHIGHO2_12_FULL_69_20 TaxID=1797561 RepID=A0A1F4HJ11_9BURK
+Length=84
+
+ Score = 54.8 bits (131),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 21/40 (53%), Positives = 29/40 (73%), Gaps = 0/40 (0%)
+
+Query  9   VVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           +V P +G+P  LG VTVIA+ VH A+L+ T W+PAY+ G 
+Sbjct  1   MVKPTVGLPLFLGGVTVIALAVHAAVLTTTAWYPAYYSGK  40
+
+
+> UniRef90_A8LJM9 Putative light-harvesting protein B-800/850 alpha 
+chain n=1 Tax=Dinoroseobacter shibae (strain DSM 16493 
+/ NCIMB 14021 / DFL 12) TaxID=398580 RepID=A8LJM9_DINSH
+Length=113
+
+ Score = 55.2 bits (132),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 22/48 (46%), Positives = 32/48 (67%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MN  K+W VV PA+G+P  LG+V V +  VH+A+LS+T+W   +  G 
+Sbjct  1   MNNAKMWLVVPPAVGVPVFLGAVAVGSFAVHVAVLSNTSWVSDFLSGN  48
+
+
+> UniRef90_A1WWW3 Antenna complex, alpha/beta subunit n=1 Tax=Halorhodospira 
+halophila (strain DSM 244 / SL1) TaxID=349124 
+RepID=A1WWW3_HALHL
+Length=71
+
+ Score = 51.0 bits (121),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 27/51 (53%), Positives = 40/51 (78%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQ +IW VV P++G+P LLG V +IA+LVH AIL++T+W+P+Y++G    
+Sbjct  1   MNQARIWLVVKPSVGLPLLLGVVLLIALLVHGAILTNTSWYPSYFEGNAAA  51
+
+
+> UniRef90_UPI00091A4825 UPI00091A4825 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00091A4825
+Length=75
+
+ Score = 47.5 bits (112),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 13/38 (34%), Positives = 23/38 (61%), Gaps = 0/38 (0%)
+
+Query  12  PAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGV  49
+           P + +P +   + + ++ VH AIL +TTWF  ++QG  
+Sbjct  4   PNVILPIMFLILVLTSLTVHFAILINTTWFGDFFQGSA  41
+
+
+> UniRef90_P80107 Light-harvesting protein B800/850/890 alpha-3 
+chain (Fragment) n=1 Tax=Halorhodospira halophila (strain DSM 
+244 / SL1) TaxID=349124 RepID=LHA3_HALHL
+Length=49
+
+ Score = 44.1 bits (103),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 27/48 (56%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MNQ +IW VV P++G+P LLG V +IA+LVH AIL++T+W+P Y++G 
+Sbjct  1   MNQARIWLVVKPSVGLPLLLGVVLLIALLVHGAILTNTSWYPTYFEGN  48
+
+
+> UniRef90_P80586 Light-harvesting polypeptide B-800/860 alpha 
+chain n=1 Tax=Rhodocyclus tenuis TaxID=1066 RepID=LHA_RHOTE
+Length=69
+
+ Score = 39.8 bits (92),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 14/47 (30%), Positives = 25/47 (53%), Gaps = 3/47 (6%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSH---TTWFPAY  44
+           M  GKIW VV P +G+P  +    ++A+L+H  +       +W+  +
+Sbjct  1   MTNGKIWLVVKPTVGLPIGMLFAALLAVLIHGLLFVDGRLKSWWSEF  47
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.156    0.548    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0483    0.140     1.90     42.6     43.6 
+
+Effective search space used: 445440262635
+Results from round 3
+
+
+Query= d1nkza_
+
+Length=53
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_H0SQW0 Light harvesting protein B-800-850, alpha chain...  87.2    5e-20
+  UniRef90_A5EGA6 Light harvesting protein B-800-850, alpha chain...  86.0    8e-20
+  UniRef90_A0A0D7E353 Light-harvesting protein B:800-850 subunit ...  81.0    1e-18
+  UniRef90_Q9S318 LH2alpha6 n=1 Tax=Rhodoblastus acidophilus TaxI...  80.6    2e-18
+  UniRef90_A0A0D7EY78 Light-harvesting protein B:800-850 subunit ...  80.2    3e-18
+  UniRef90_P35091 Light-harvesting protein B-800/850 alpha chain ...  79.9    4e-18
+  UniRef90_P35105 Light-harvesting protein B-800-850 alpha chain ...  79.9    4e-18
+  UniRef90_UPI000348C7D1 light-harvesting protein B:800-850 subun...  79.1    8e-18
+  UniRef90_E6VK68 Antenna complex alpha/beta subunit n=2 Tax=Rhod...  78.3    2e-17
+  UniRef90_Q07S39 Antenna complex, alpha/beta subunit n=4 Tax=Rho...  78.3    2e-17
+  UniRef90_P26789 Light-harvesting protein B-800/850 alpha chain ...  77.5    3e-17
+  UniRef90_Q52648 Puc1A n=1 Tax=Rhodoblastus acidophilus TaxID=10...  77.5    3e-17
+  UniRef90_Q9S314 LH2alpha8 n=1 Tax=Rhodoblastus acidophilus TaxI...  77.5    4e-17
+  UniRef90_Q2J0G6 Antenna complex, alpha/beta subunit n=3 Tax=Rho...  77.5    4e-17
+  UniRef90_UPI00041CFC83 light-harvesting protein B:800-850 subun...  77.2    4e-17
+  UniRef90_A0A0P7XNQ3 Light-harvesting protein B-800-850 alpha ch...  78.7    4e-17
+  UniRef90_Q20ZW4 Antenna complex, alpha/beta subunit n=1 Tax=Rho...  77.2    5e-17
+  UniRef90_UPI0003FA2111 light-harvesting protein B:800-850 subun...  77.2    5e-17
+  UniRef90_A0A0D7ETT3 Light-harvesting protein B:800-850 subunit ...  77.2    5e-17
+  UniRef90_P35090 Light-harvesting protein B-800/820 alpha chain ...  76.8    6e-17
+  UniRef90_UPI00034D7B53 light-harvesting protein B:800-850 subun...  77.2    6e-17
+  UniRef90_A9DA09 Antenna complex alpha/beta subunit n=1 Tax=Hoef...  77.9    8e-17
+  UniRef90_Q137A1 Antenna complex, alpha/beta subunit n=2 Tax=Rho...  76.4    9e-17
+  UniRef90_Q07MR6 Antenna complex, alpha/beta subunit n=1 Tax=Rho...  76.4    9e-17
+  UniRef90_P35102 Light-harvesting protein B-800-850 alpha chain ...  76.4    9e-17
+  UniRef90_Q07N34 Antenna complex, alpha/beta subunit n=2 Tax=Rho...  76.4    1e-16
+  UniRef90_UPI000485B455 light-harvesting protein B:800-850 subun...  76.4    1e-16
+  UniRef90_UPI0009297710 UPI0009297710 related cluster n=1 Tax=un...  75.2    3e-16
+  UniRef90_A0A0L6TBM1 Uncharacterized protein n=1 Tax=Methylibium...  75.6    3e-16
+  UniRef90_A0A0N0KJY0 Light-harvesting protein n=1 Tax=Rhodopseud...  75.2    3e-16
+  UniRef90_A0A0P1EYF7 Uncharacterized protein n=2 Tax=Thalassobac...  76.4    3e-16
+  UniRef90_Q07HW7 Antenna complex, alpha/beta subunit n=1 Tax=Rho...  74.5    4e-16
+  UniRef90_Q07TZ8 Antenna complex, alpha/beta subunit n=2 Tax=Rho...  74.5    5e-16
+  UniRef90_P35104 Light-harvesting protein B-800-850 alpha chain ...  74.1    7e-16
+  UniRef90_Q07UU9 Antenna complex, alpha/beta subunit n=1 Tax=Rho...  74.1    7e-16
+  UniRef90_UPI000925F0A4 UPI000925F0A4 related cluster n=1 Tax=un...  74.8    1e-15
+  UniRef90_Q28S13 Peripheral light harvesting complex subunit n=1...  74.8    1e-15
+  UniRef90_Q20ZW8 Antenna complex, alpha/beta subunit n=1 Tax=Rho...  73.3    2e-15
+  UniRef90_A0A095WWK3 Light-harvesting LHII, alpha subunit A n=1 ...  72.9    2e-15
+  UniRef90_A0A1B6YYW9 Uncharacterized protein n=1 Tax=Jannaschia ...  74.1    2e-15
+  UniRef90_P35089 Light-harvesting protein B-800/820 alpha chain ...  72.5    2e-15
+  UniRef90_B6B232 Light-harvesting protein B-800/850, alpha chain...  74.1    3e-15
+  UniRef90_A0A0N1AE62 Light-harvesting protein n=1 Tax=beta prote...  72.5    4e-15
+  UniRef90_Q137W0 Antenna complex, alpha/beta subunit n=2 Tax=Rho...  72.2    4e-15
+  UniRef90_Q137W6 Antenna complex, alpha/beta subunit n=2 Tax=Rho...  72.2    5e-15
+  UniRef90_A0A0N1B941 Light-harvesting protein n=1 Tax=alpha prot...  71.8    6e-15
+  UniRef90_W8RNR1 Light-harvesting LHII, alpha subunit A n=1 Tax=...  72.5    6e-15
+  UniRef90_Q07NX5 Antenna complex, alpha/beta subunit n=1 Tax=Rho...  71.8    7e-15
+  UniRef90_A0A0N1C527 Light-harvesting protein n=1 Tax=Rhodopseud...  71.4    9e-15
+  UniRef90_P35103 Light-harvesting protein B-800-850 alpha chain ...  71.0    1e-14
+  UniRef90_Q21CU1 Antenna complex, alpha/beta subunit n=1 Tax=Rho...  71.0    1e-14
+  UniRef90_A0A0N0JM15 Uncharacterized protein n=1 Tax=beta proteo...  71.4    1e-14
+  UniRef90_A0A0N1C872 Light-harvesting protein n=1 Tax=Rhodopseud...  71.0    1e-14
+  UniRef90_P77799 Light-harvesting protein B-800/850 alpha chain ...  69.8    4e-14
+  UniRef90_A4A7C7 Antenna complex alpha/beta subunit n=2 Tax=Gamm...  69.5    4e-14
+  UniRef90_UPI00030E9C69 hypothetical protein n=1 Tax=Sandarakino...  70.2    5e-14
+  UniRef90_UPI0008271E00 UPI0008271E00 related cluster n=1 Tax=un...  70.2    7e-14
+  UniRef90_A0A037UPQ2 Light-harvesting protein B:800-850 subunit ...  68.7    1e-13
+  UniRef90_A4WX08 Antenna complex, alpha/beta subunit n=1 Tax=Rho...  70.6    2e-13
+  UniRef90_P95655 Light-harvesting protein B-800/850 alpha chain ...  67.9    2e-13
+  UniRef90_E3I3Y5 Antenna complex alpha/beta subunit n=2 Tax=Rhod...  67.5    2e-13
+  UniRef90_P07367 Light-harvesting protein B-800/850 alpha chain ...  67.1    3e-13
+  UniRef90_E3I7A9 Antenna complex alpha/beta subunit n=1 Tax=Rhod...  67.1    4e-13
+  UniRef90_A0A0P0LBZ2 Light-harvesting protein B-800-850 alpha ch...  66.8    5e-13
+  UniRef90_A0A142LJ91 Light-harvesting protein B:800-850 subunit ...  67.1    5e-13
+  UniRef90_Q3J144 Light-harvesting protein B-800/850 alpha chain ...  66.4    6e-13
+  UniRef90_H0T3Q9 Light harvesting protein B-800-850, alpha chain...  67.1    1e-12
+  UniRef90_A0A1A7BI07 Light harvesting protein B-800-850, alpha c...  65.6    1e-12
+  UniRef90_E3I7A7 Antenna complex alpha/beta subunit n=1 Tax=Rhod...  65.2    2e-12
+  UniRef90_UPI000416E448 light-harvesting protein B:800-850 subun...  65.6    2e-12
+  UniRef90_A0A1D7NPD6 Uncharacterized protein n=2 Tax=Porphyrobac...  65.6    3e-12
+  UniRef90_Q3J684 Light-harvesting complex alpha subunit n=5 Tax=...  67.1    3e-12
+  UniRef90_Q58PN7 Putative light-harvesting protein b-800/850 alp...  64.1    6e-12
+  UniRef90_UPI00091C4A96 UPI00091C4A96 related cluster n=1 Tax=un...  63.3    1e-11
+  UniRef90_C8RXU0 Antenna complex alpha/beta subunit n=1 Tax=Rhod...  61.4    7e-11
+  UniRef90_A0A0P0ME01 Light-harvesting protein B-800/850 alpha ch...  57.5    2e-09
+  UniRef90_UPI00091F44B0 UPI00091F44B0 related cluster n=1 Tax=un...  57.5    3e-09
+  UniRef90_Q162R8 Light-harvesting protein B-800/850, alpha chain...  56.7    9e-09
+  UniRef90_F7ZDG7 Light-harvesting protein B-800/850 alpha chain ...  56.4    1e-08
+  UniRef90_A0A1F4HJ11 Uncharacterized protein n=1 Tax=Burkholderi...  55.6    2e-08
+  UniRef90_A8LJM9 Putative light-harvesting protein B-800/850 alp...  56.0    2e-08
+  UniRef90_A1WWW3 Antenna complex, alpha/beta subunit n=1 Tax=Hal...  53.7    6e-08
+  UniRef90_UPI00091A4825 UPI00091A4825 related cluster n=1 Tax=un...  50.6    8e-07
+  UniRef90_P80107 Light-harvesting protein B800/850/890 alpha-3 c...  45.6    5e-05
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_P80586 Light-harvesting polypeptide B-800/860 alpha ch...  40.6    0.004
+
+
+> UniRef90_H0SQW0 Light harvesting protein B-800-850, alpha chain 
+n=2 Tax=Bradyrhizobium sp. ORS 375 TaxID=566679 RepID=H0SQW0_9BRAD
+Length=146
+
+ Score = 87.2 bits (215),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 31/53 (58%), Positives = 39/53 (74%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQG+IW VVNP +G+P  LGSV + ++ VH  +LSHTTW  AYW+GG  K A
+Sbjct  20  MNQGRIWCVVNPTVGLPLFLGSVALTSLCVHYTVLSHTTWMGAYWEGGKSKKA  72
+
+
+> UniRef90_A5EGA6 Light harvesting protein B-800-850, alpha chain 
+n=1 Tax=Bradyrhizobium sp. (strain BTAi1 / ATCC BAA-1182) 
+TaxID=288000 RepID=A5EGA6_BRASB
+Length=127
+
+ Score = 86.0 bits (212),  Expect = 8e-20, Method: Composition-based stats.
+ Identities = 28/53 (53%), Positives = 39/53 (74%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQG+IW VVNP +G+P  LGSV + ++ VH  +L+HTTW  A+++GG  K A
+Sbjct  1   MNQGRIWCVVNPTVGLPLFLGSVALTSLCVHYTVLTHTTWMGAFFEGGKSKKA  53
+
+
+> UniRef90_A0A0D7E353 Light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=A0A0D7E353_RHOPL
+Length=59
+
+ Score = 81.0 bits (199),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 34/51 (67%), Positives = 41/51 (80%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQG+IWTVV P +G+P LLGSVT+IAILVH A++S+TTWFP YW G    
+Sbjct  1   MNQGRIWTVVKPTVGLPLLLGSVTIIAILVHFALISNTTWFPKYWNGKTAA  51
+
+
+> UniRef90_Q9S318 LH2alpha6 n=1 Tax=Rhodoblastus acidophilus TaxID=1074 
+RepID=Q9S318_RHOAC
+Length=60
+
+ Score = 80.6 bits (198),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 47/53 (89%), Positives = 50/53 (94%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQGKIWTVVNP+IG+P LLGSVTVIAILVH+AILSHTTWFPAYWQGG K AA
+Sbjct  1   MNQGKIWTVVNPSIGLPLLLGSVTVIAILVHVAILSHTTWFPAYWQGGKKVAA  53
+
+
+> UniRef90_A0A0D7EY78 Light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=A0A0D7EY78_RHOPL
+Length=62
+
+ Score = 80.2 bits (197),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 36/50 (72%), Positives = 41/50 (82%), Gaps = 0/50 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVK  50
+           MNQG+IWTVV P +G+P LLGSVTVIAILVH A++SHTTWFP YW G   
+Sbjct  1   MNQGRIWTVVKPTVGLPLLLGSVTVIAILVHYALISHTTWFPKYWNGKTA  50
+
+
+> UniRef90_P35091 Light-harvesting protein B-800/850 alpha chain 
+n=2 Tax=Rhodoblastus acidophilus TaxID=1074 RepID=LHA3_RHOAC
+Length=53
+
+ Score = 79.9 bits (196),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 46/53 (87%), Positives = 51/53 (96%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQGKIWTVVNP++G+P LLGSVTVIAILVH A+LSHTTWFPAYWQGG+KKAA
+Sbjct  1   MNQGKIWTVVNPSVGLPLLLGSVTVIAILVHAAVLSHTTWFPAYWQGGLKKAA  53
+
+
+> UniRef90_P35105 Light-harvesting protein B-800-850 alpha chain 
+E n=5 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=LHA5_RHOPA
+Length=59
+
+ Score = 79.9 bits (196),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 35/51 (69%), Positives = 40/51 (78%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQG+IWTVV P +G+P LLGSVTVIAILVH A+LS+TTWF  YW G    
+Sbjct  1   MNQGRIWTVVKPTVGLPLLLGSVTVIAILVHFAVLSNTTWFSKYWNGKAAA  51
+
+
+> UniRef90_UPI000348C7D1 light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Rhodopseudomonas sp. B29 TaxID=95607 RepID=UPI000348C7D1
+Length=59
+
+ Score = 79.1 bits (194),  Expect = 8e-18, Method: Composition-based stats.
+ Identities = 36/51 (71%), Positives = 41/51 (80%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQG+IWTVV+P +G+P LLGSV VIAILVH A+LSHTTWFP YW G    
+Sbjct  1   MNQGRIWTVVSPTVGLPLLLGSVAVIAILVHAAVLSHTTWFPKYWNGKTAA  51
+
+
+> UniRef90_E6VK68 Antenna complex alpha/beta subunit n=2 Tax=Rhodopseudomonas 
+palustris TaxID=1076 RepID=E6VK68_RHOPX
+Length=59
+
+ Score = 78.3 bits (192),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 33/50 (66%), Positives = 41/50 (82%), Gaps = 0/50 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVK  50
+           MNQ +IWTVV P++G+P LLGSVTVIAILVH A++++TTWFP YW G   
+Sbjct  1   MNQARIWTVVKPSVGLPLLLGSVTVIAILVHFALITNTTWFPKYWNGKTA  50
+
+
+> UniRef90_Q07S39 Antenna complex, alpha/beta subunit n=4 Tax=Rhodopseudomonas 
+TaxID=1073 RepID=Q07S39_RHOP5
+Length=59
+
+ Score = 78.3 bits (192),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 37/51 (73%), Positives = 41/51 (80%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQG IWTVV P +G+P LLGSVTVIAILVHLA+LS+TTWFP YW G    
+Sbjct  1   MNQGSIWTVVKPTVGLPLLLGSVTVIAILVHLALLSNTTWFPKYWNGKTAA  51
+
+
+> UniRef90_P26789 Light-harvesting protein B-800/850 alpha chain 
+n=3 Tax=Rhodoblastus acidophilus TaxID=1074 RepID=LHA4_RHOAC
+Length=53
+
+ Score = 77.5 bits (190),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 53/53 (100%), Positives = 53/53 (100%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA
+Sbjct  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+
+
+> UniRef90_Q52648 Puc1A n=1 Tax=Rhodoblastus acidophilus TaxID=1074 
+RepID=Q52648_RHOAC
+Length=60
+
+ Score = 77.5 bits (190),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 42/53 (79%), Positives = 48/53 (91%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQGKIWTVV+PA+GIP LLGSV V A+LVHLAIL +TTWFPA+ QGG+KKAA
+Sbjct  1   MNQGKIWTVVDPAVGIPLLLGSVAVTALLVHLAILQNTTWFPAFMQGGLKKAA  53
+
+
+> UniRef90_Q9S314 LH2alpha8 n=1 Tax=Rhodoblastus acidophilus TaxID=1074 
+RepID=Q9S314_RHOAC
+Length=61
+
+ Score = 77.5 bits (190),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 47/53 (89%), Positives = 52/53 (98%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQGKIWTVVNPA+GIPALLGSVTVIAILVHLA+L++TTWF AYWQGG+KKAA
+Sbjct  1   MNQGKIWTVVNPAVGIPALLGSVTVIAILVHLALLNNTTWFKAYWQGGLKKAA  53
+
+
+> UniRef90_Q2J0G6 Antenna complex, alpha/beta subunit n=3 Tax=Rhodopseudomonas 
+TaxID=1073 RepID=Q2J0G6_RHOP2
+Length=67
+
+ Score = 77.5 bits (190),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 38/49 (78%), Positives = 43/49 (88%), Gaps = 0/49 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGV  49
+           MNQG+IWTVVNP +G+P LLGSVTVIAILVH A+LS+T WFP YWQGG 
+Sbjct  1   MNQGRIWTVVNPTVGLPLLLGSVTVIAILVHFAVLSNTAWFPKYWQGGT  49
+
+
+> UniRef90_UPI00041CFC83 light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=UPI00041CFC83
+Length=59
+
+ Score = 77.2 bits (189),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 33/51 (65%), Positives = 38/51 (75%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQG+IWTVV P +G+P LLGSV VIAILVH A++S TTWF  YW G    
+Sbjct  1   MNQGRIWTVVKPTVGLPLLLGSVAVIAILVHAALISKTTWFSKYWNGKAAA  51
+
+
+> UniRef90_A0A0P7XNQ3 Light-harvesting protein B-800-850 alpha 
+chain n=1 Tax=Rhodobacteraceae bacterium HLUCCO18 TaxID=1666917 
+RepID=A0A0P7XNQ3_9RHOB
+Length=112
+
+ Score = 78.7 bits (193),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 21/47 (45%), Positives = 30/47 (64%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MN  K+W VV P +GIP  L +V V +  VH+A+LS+T+W   +  G
+Sbjct  1   MNNAKMWLVVKPTVGIPLFLSAVAVGSFSVHVAVLSNTSWVADFLSG  47
+
+
+> UniRef90_Q20ZW4 Antenna complex, alpha/beta subunit n=1 Tax=Rhodopseudomonas 
+palustris (strain BisB18) TaxID=316056 RepID=Q20ZW4_RHOPB
+Length=59
+
+ Score = 77.2 bits (189),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 33/51 (65%), Positives = 38/51 (75%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQGKIWTVV P++G+P LLGSV  I ILVH AIL+HTTWFP +  G    
+Sbjct  1   MNQGKIWTVVKPSVGLPLLLGSVATIVILVHFAILTHTTWFPKFMNGKTAA  51
+
+
+> UniRef90_UPI0003FA2111 light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=UPI0003FA2111
+Length=59
+
+ Score = 77.2 bits (189),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 35/51 (69%), Positives = 43/51 (84%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQG+IWTVV P++G+P LLGSVTVIAILVHLA++++TTWFP YW G    
+Sbjct  1   MNQGRIWTVVKPSVGLPLLLGSVTVIAILVHLALVNNTTWFPKYWNGKAAA  51
+
+
+> UniRef90_A0A0D7ETT3 Light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=A0A0D7ETT3_RHOPL
+Length=73
+
+ Score = 77.2 bits (189),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 34/48 (71%), Positives = 42/48 (88%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MNQG+IWTVV+P +G+P LLGSVTVIAILVH A+L++T+WFP YW G 
+Sbjct  1   MNQGRIWTVVHPTVGLPLLLGSVTVIAILVHFALLTNTSWFPKYWNGK  48
+
+
+> UniRef90_P35090 Light-harvesting protein B-800/820 alpha chain 
+n=3 Tax=Rhodoblastus acidophilus TaxID=1074 RepID=LHA2_RHOAC
+Length=53
+
+ Score = 76.8 bits (188),  Expect = 6e-17, Method: Composition-based stats.
+ Identities = 41/53 (77%), Positives = 49/53 (92%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQGKIWTVVNPA+G+P LLGSV + A+LVHLA+L+HTTWFPA+ QGG+KKAA
+Sbjct  1   MNQGKIWTVVNPAVGLPLLLGSVAITALLVHLAVLTHTTWFPAFTQGGLKKAA  53
+
+
+> UniRef90_UPI00034D7B53 light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Rhodopseudomonas sp. B29 TaxID=95607 RepID=UPI00034D7B53
+Length=67
+
+ Score = 77.2 bits (189),  Expect = 6e-17, Method: Composition-based stats.
+ Identities = 33/49 (67%), Positives = 39/49 (80%), Gaps = 0/49 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGV  49
+           MNQG+IWTVVNP +G+P LLGSV  IAILVH A+L +T+WF  YW GG 
+Sbjct  1   MNQGRIWTVVNPTVGLPLLLGSVATIAILVHFAVLENTSWFAKYWNGGT  49
+
+
+> UniRef90_A9DA09 Antenna complex alpha/beta subunit n=1 Tax=Hoeflea 
+phototrophica (strain DSM 17068 / NCIMB 14078 / DFL-43) 
+TaxID=411684 RepID=A9DA09_HOEPD
+Length=113
+
+ Score = 77.9 bits (191),  Expect = 8e-17, Method: Composition-based stats.
+ Identities = 21/50 (42%), Positives = 31/50 (62%), Gaps = 0/50 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVK  50
+           MN  K+W VV P +G+P  L +V V +  VH+++L +TTW P +  GG  
+Sbjct  1   MNNAKMWLVVKPTVGVPLFLTAVAVGSFAVHVSVLRNTTWLPQFLSGGAA  50
+
+
+> UniRef90_Q137A1 Antenna complex, alpha/beta subunit n=2 Tax=Rhodopseudomonas 
+palustris TaxID=1076 RepID=Q137A1_RHOPS
+Length=59
+
+ Score = 76.4 bits (187),  Expect = 9e-17, Method: Composition-based stats.
+ Identities = 36/51 (71%), Positives = 42/51 (82%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQG+IWTVV+P +G+P LLGSVTVIAILVH A+LS+TTWFP YW G    
+Sbjct  1   MNQGRIWTVVSPTVGLPLLLGSVTVIAILVHAAVLSNTTWFPKYWNGKTAA  51
+
+
+> UniRef90_Q07MR6 Antenna complex, alpha/beta subunit n=1 Tax=Rhodopseudomonas 
+palustris (strain BisA53) TaxID=316055 RepID=Q07MR6_RHOP5
+Length=59
+
+ Score = 76.4 bits (187),  Expect = 9e-17, Method: Composition-based stats.
+ Identities = 34/51 (67%), Positives = 37/51 (73%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQG IWTVV P +G+P LLGSV VIAILVH A+LS TTWF  YW G    
+Sbjct  1   MNQGSIWTVVKPTVGLPLLLGSVCVIAILVHAAVLSKTTWFGKYWNGKAAA  51
+
+
+> UniRef90_P35102 Light-harvesting protein B-800-850 alpha chain 
+B n=3 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=LHA2_RHOPA
+Length=66
+
+ Score = 76.4 bits (187),  Expect = 9e-17, Method: Composition-based stats.
+ Identities = 37/49 (76%), Positives = 42/49 (86%), Gaps = 0/49 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGV  49
+           MNQG+IWTVVNP +G+P LLGSVTVIAILVH A+LS+TTWFP YW G  
+Sbjct  1   MNQGRIWTVVNPGVGLPLLLGSVTVIAILVHYAVLSNTTWFPKYWNGAT  49
+
+
+> UniRef90_Q07N34 Antenna complex, alpha/beta subunit n=2 Tax=Rhodopseudomonas 
+palustris TaxID=1076 RepID=Q07N34_RHOP5
+Length=59
+
+ Score = 76.4 bits (187),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 36/51 (71%), Positives = 40/51 (78%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQG IWTVV P +G+P LLGSVTVIAILVHLA+LS+TTWF  YW G    
+Sbjct  1   MNQGSIWTVVKPTVGLPLLLGSVTVIAILVHLALLSNTTWFGKYWNGKAAA  51
+
+
+> UniRef90_UPI000485B455 light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=UPI000485B455
+Length=67
+
+ Score = 76.4 bits (187),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 34/47 (72%), Positives = 41/47 (87%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQG+IWTVVNP +G+P  LGSV VIAILVHLA++++TTWFP YW G
+Sbjct  1   MNQGRIWTVVNPGVGLPLFLGSVAVIAILVHLALVNNTTWFPKYWNG  47
+
+
+> UniRef90_UPI0009297710 UPI0009297710 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0009297710
+Length=62
+
+ Score = 75.2 bits (184),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 22/53 (42%), Positives = 31/53 (58%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MN  K+W VV P +GIP  L +V + + LVH  ++  T W   Y  GG ++AA
+Sbjct  1   MNNAKLWLVVKPTVGIPIFLSAVAISSFLVHAGLVVTTDWISDYHNGGAEEAA  53
+
+
+> UniRef90_A0A0L6TBM1 Uncharacterized protein n=1 Tax=Methylibium 
+sp. NZG TaxID=1686064 RepID=A0A0L6TBM1_9BURK
+Length=69
+
+ Score = 75.6 bits (185),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 26/52 (50%), Positives = 35/52 (67%), Gaps = 0/52 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKA  52
+           M  GK+W VV P++GIP  LG+V V +  VH A+L+HTTW P Y++GG    
+Sbjct  1   MIYGKLWLVVKPSVGIPLFLGAVAVSSFAVHYALLTHTTWLPKYYEGGAAVK  52
+
+
+> UniRef90_A0A0N0KJY0 Light-harvesting protein n=1 Tax=Rhodopseudomonas 
+sp. AAP120 TaxID=1523430 RepID=A0A0N0KJY0_9BRAD
+Length=60
+
+ Score = 75.2 bits (184),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 30/50 (60%), Positives = 35/50 (70%), Gaps = 0/50 (0%)
+
+Query  2   NQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           NQ +IWTVV P +G+P  LGSV VIAILVH A+L+HTTW   YW G    
+Sbjct  3   NQARIWTVVKPTVGLPLFLGSVAVIAILVHFAVLTHTTWVSKYWNGKAAA  52
+
+
+> UniRef90_A0A0P1EYF7 Uncharacterized protein n=2 Tax=Thalassobacter 
+TaxID=266808 RepID=A0A0P1EYF7_9RHOB
+Length=115
+
+ Score = 76.4 bits (187),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 21/47 (45%), Positives = 33/47 (70%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MN  K+W VV+P++G+P  LG+V V +  VH+A+LS+T+W   +  G
+Sbjct  1   MNNAKMWLVVSPSVGVPLFLGAVAVGSFAVHVAVLSNTSWVSDFLSG  47
+
+
+> UniRef90_Q07HW7 Antenna complex, alpha/beta subunit n=1 Tax=Rhodopseudomonas 
+palustris (strain BisA53) TaxID=316055 RepID=Q07HW7_RHOP5
+Length=59
+
+ Score = 74.5 bits (182),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 36/51 (71%), Positives = 40/51 (78%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQG IWTVV P +G+P LLGSVTVIAILVH A+LS+TTWFP YW G    
+Sbjct  1   MNQGSIWTVVKPGVGLPLLLGSVTVIAILVHYAVLSNTTWFPKYWNGKAAA  51
+
+
+> UniRef90_Q07TZ8 Antenna complex, alpha/beta subunit n=2 Tax=Rhodopseudomonas 
+palustris (strain BisA53) TaxID=316055 RepID=Q07TZ8_RHOP5
+Length=59
+
+ Score = 74.5 bits (182),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 26/51 (51%), Positives = 35/51 (69%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQG +WTVV P +G+P L G+V + A+LVH A+L+HTTWF  +  G    
+Sbjct  1   MNQGTLWTVVKPTVGLPLLFGAVAITALLVHFAVLTHTTWFAKFMNGKTAA  51
+
+
+> UniRef90_P35104 Light-harvesting protein B-800-850 alpha chain 
+D n=2 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=LHA4_RHOPA
+Length=59
+
+ Score = 74.1 bits (181),  Expect = 7e-16, Method: Composition-based stats.
+ Identities = 27/51 (53%), Positives = 35/51 (69%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQG+IWTVV P +G+P LLGSV ++  LVH A+L+HTTW   +  G    
+Sbjct  1   MNQGRIWTVVKPTVGLPLLLGSVAIMVFLVHFAVLTHTTWVAKFMNGKAAA  51
+
+
+> UniRef90_Q07UU9 Antenna complex, alpha/beta subunit n=1 Tax=Rhodopseudomonas 
+palustris (strain BisA53) TaxID=316055 RepID=Q07UU9_RHOP5
+Length=65
+
+ Score = 74.1 bits (181),  Expect = 7e-16, Method: Composition-based stats.
+ Identities = 31/50 (62%), Positives = 40/50 (80%), Gaps = 0/50 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVK  50
+           MNQG +WTVV P++G+P LLGSV + A+LVH A+L++TTWF  Y QGGV 
+Sbjct  1   MNQGTLWTVVKPSVGLPLLLGSVAITALLVHFAVLNNTTWFAKYMQGGVS  50
+
+
+> UniRef90_UPI000925F0A4 UPI000925F0A4 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000925F0A4
+Length=109
+
+ Score = 74.8 bits (183),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 20/47 (43%), Positives = 31/47 (66%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MN  K+W VV+P +G+P  LG+V V +  VHL ++ +T+W   + QG
+Sbjct  1   MNNAKMWLVVSPTVGVPLFLGAVAVGSFAVHLQVVKNTSWVADFLQG  47
+
+
+> UniRef90_Q28S13 Peripheral light harvesting complex subunit n=1 
+Tax=Jannaschia sp. (strain CCS1) TaxID=290400 RepID=Q28S13_JANSC
+Length=107
+
+ Score = 74.8 bits (183),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 22/49 (45%), Positives = 29/49 (59%), Gaps = 0/49 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGV  49
+           MN  KIW VV P +G+P  L +V V +  VH+A+LS T W+  Y  G  
+Sbjct  1   MNNSKIWLVVKPTVGVPLFLSAVAVGSFAVHIAVLSKTNWYEDYLVGDT  49
+
+
+> UniRef90_Q20ZW8 Antenna complex, alpha/beta subunit n=1 Tax=Rhodopseudomonas 
+palustris (strain BisB18) TaxID=316056 RepID=Q20ZW8_RHOPB
+Length=65
+
+ Score = 73.3 bits (179),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 33/53 (62%), Positives = 44/53 (83%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQG+IWTVVNP++G+P LLGSV V  +LVH A+LS+TTW+PA++ G V  +A
+Sbjct  1   MNQGRIWTVVNPSVGLPLLLGSVAVTVLLVHSAVLSNTTWYPAFFSGKVAVSA  53
+
+
+> UniRef90_A0A095WWK3 Light-harvesting LHII, alpha subunit A n=1 
+Tax=Pseudohaliea rubra DSM 19751 TaxID=1265313 RepID=A0A095WWK3_9GAMM
+Length=48
+
+ Score = 72.9 bits (178),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 26/48 (54%), Positives = 38/48 (79%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MNQG+IW VVNP IG+P  LGSV +I++LVH A+L++T++  A++ G 
+Sbjct  1   MNQGRIWCVVNPTIGLPLFLGSVAIISMLVHHAVLNNTSYMAAFFAGS  48
+
+
+> UniRef90_A0A1B6YYW9 Uncharacterized protein n=1 Tax=Jannaschia 
+sp. EhC01 TaxID=1849359 RepID=A0A1B6YYW9_9RHOB
+Length=108
+
+ Score = 74.1 bits (181),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 20/47 (43%), Positives = 30/47 (64%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MN  KIW VV P +G+P  L +V V +  VH+A++S+T+W   +  G
+Sbjct  1   MNNSKIWLVVKPTVGVPLFLSAVAVGSFAVHVAVVSNTSWVSDFLSG  47
+
+
+> UniRef90_P35089 Light-harvesting protein B-800/820 alpha chain 
+n=1 Tax=Rhodoblastus acidophilus TaxID=1074 RepID=LHA1_RHOAC
+Length=53
+
+ Score = 72.5 bits (177),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 36/53 (68%), Positives = 45/53 (85%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQGKIWTVV PA G+P +LG+V + A+LVH A+L+HTTW+ A+ QGGVKKAA
+Sbjct  1   MNQGKIWTVVPPAFGLPLMLGAVAITALLVHAAVLTHTTWYAAFLQGGVKKAA  53
+
+
+> UniRef90_B6B232 Light-harvesting protein B-800/850, alpha chain 
+n=1 Tax=Rhodobacteraceae bacterium HTCC2083 TaxID=314270 
+RepID=B6B232_9RHOB
+Length=117
+
+ Score = 74.1 bits (181),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 19/47 (40%), Positives = 30/47 (64%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MN  K+W VV+P +G P  LG++ V +  VHL ++ +T+W   + QG
+Sbjct  1   MNNAKMWLVVSPTVGAPLFLGAIAVGSFAVHLQVVKNTSWVADFLQG  47
+
+
+> UniRef90_A0A0N1AE62 Light-harvesting protein n=1 Tax=beta proteobacterium 
+AAP65 TaxID=1523424 RepID=A0A0N1AE62_9PROT
+Length=75
+
+ Score = 72.5 bits (177),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 27/48 (56%), Positives = 35/48 (73%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MNQGK+W VVNP IG+P  LG+V + ++ VH  +L  T W PAY+QGG
+Sbjct  1   MNQGKVWRVVNPTIGVPLFLGAVALTSLFVHYQLLKTTQWLPAYYQGG  48
+
+
+> UniRef90_Q137W0 Antenna complex, alpha/beta subunit n=2 Tax=Rhodopseudomonas 
+palustris TaxID=1076 RepID=Q137W0_RHOPS
+Length=59
+
+ Score = 72.2 bits (176),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 28/51 (55%), Positives = 36/51 (71%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQG+IWTVV P +G+P LLGSV V+ +LVH A+L+HTTW   +  G    
+Sbjct  1   MNQGRIWTVVKPTVGLPLLLGSVAVMVVLVHFAVLTHTTWVAKFMNGKTAA  51
+
+
+> UniRef90_Q137W6 Antenna complex, alpha/beta subunit n=2 Tax=Rhodopseudomonas 
+palustris TaxID=1076 RepID=Q137W6_RHOPS
+Length=65
+
+ Score = 72.2 bits (176),  Expect = 5e-15, Method: Composition-based stats.
+ Identities = 28/49 (57%), Positives = 35/49 (71%), Gaps = 0/49 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGV  49
+           MNQGK+WTVVNP +G+P LLG V  +A LVH A+L +TTW  A+  G  
+Sbjct  1   MNQGKLWTVVNPTVGLPLLLGGVATMAFLVHYAVLENTTWVSAFMNGKS  49
+
+
+> UniRef90_A0A0N1B941 Light-harvesting protein n=1 Tax=alpha proteobacterium 
+AAP81b TaxID=1523432 RepID=A0A0N1B941_9PROT
+Length=56
+
+ Score = 71.8 bits (175),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 23/53 (43%), Positives = 35/53 (66%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           M +G+IW  V+P +G+P    +    ++LVH +ILS+TTW  ++WQGG   AA
+Sbjct  1   MKEGRIWLYVSPTVGLPLFFLAFITASLLVHASILSNTTWMASFWQGGAATAA  53
+
+
+> UniRef90_W8RNR1 Light-harvesting LHII, alpha subunit A n=1 Tax=Roseibacterium 
+elongatum DSM 19469 TaxID=1294273 RepID=W8RNR1_9RHOB
+Length=95
+
+ Score = 72.5 bits (177),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 22/47 (47%), Positives = 31/47 (66%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MN  K+W VV P +GIP  LG+V V +  VH+A++S T+W+  Y  G
+Sbjct  1   MNNAKLWLVVKPTVGIPVFLGAVAVGSFAVHVAVVSQTSWYNDYLTG  47
+
+
+> UniRef90_Q07NX5 Antenna complex, alpha/beta subunit n=1 Tax=Rhodopseudomonas 
+palustris (strain BisA53) TaxID=316055 RepID=Q07NX5_RHOP5
+Length=70
+
+ Score = 71.8 bits (175),  Expect = 7e-15, Method: Composition-based stats.
+ Identities = 35/52 (67%), Positives = 41/52 (79%), Gaps = 0/52 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKA  52
+           MNQG IWTVV+P +G+P LLG+VTVIA+LVH A+LS TTWF AYW G    A
+Sbjct  1   MNQGTIWTVVHPTVGLPLLLGTVTVIALLVHYAVLSKTTWFSAYWNGNASVA  52
+
+
+> UniRef90_A0A0N1C527 Light-harvesting protein n=1 Tax=Rhodopseudomonas 
+sp. AAP120 TaxID=1523430 RepID=A0A0N1C527_9BRAD
+Length=59
+
+ Score = 71.4 bits (174),  Expect = 9e-15, Method: Composition-based stats.
+ Identities = 30/50 (60%), Positives = 36/50 (72%), Gaps = 0/50 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVK  50
+           MNQG+IWTVV P +G+P LLGSV VI ILVH A+L+HTTW   +  G   
+Sbjct  1   MNQGRIWTVVKPTVGLPLLLGSVAVIVILVHFAVLTHTTWVAKFMNGKTA  50
+
+
+> UniRef90_P35103 Light-harvesting protein B-800-850 alpha chain 
+C n=2 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=LHA3_RHOPL
+Length=65
+
+ Score = 71.0 bits (173),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 27/49 (55%), Positives = 35/49 (71%), Gaps = 0/49 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGV  49
+           MNQG+IWTVV+P +G+P LLGSV  IA  VH A+L +T+W  A+  G  
+Sbjct  1   MNQGRIWTVVSPTVGLPLLLGSVAAIAFAVHFAVLENTSWVAAFMNGKS  49
+
+
+> UniRef90_Q21CU1 Antenna complex, alpha/beta subunit n=1 Tax=Rhodopseudomonas 
+palustris (strain BisB18) TaxID=316056 RepID=Q21CU1_RHOPB
+Length=67
+
+ Score = 71.0 bits (173),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 33/47 (70%), Positives = 39/47 (83%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MNQ ++WTVVNP +G+P LLGSVTVIAILVH A+L +TTWF  YW G
+Sbjct  1   MNQARVWTVVNPTVGLPLLLGSVTVIAILVHFAVLENTTWFSGYWNG  47
+
+
+> UniRef90_A0A0N0JM15 Uncharacterized protein n=1 Tax=beta proteobacterium 
+AAP51 TaxID=1523421 RepID=A0A0N0JM15_9PROT
+Length=78
+
+ Score = 71.4 bits (174),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 29/49 (59%), Positives = 35/49 (71%), Gaps = 0/49 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGV  49
+           MNQGKIW VVNP IG+P  LG+V V ++ VH  +L+ TTW P Y QGG 
+Sbjct  1   MNQGKIWRVVNPTIGVPIFLGTVVVASLFVHYQLLTKTTWVPTYLQGGT  49
+
+
+> UniRef90_A0A0N1C872 Light-harvesting protein n=1 Tax=Rhodopseudomonas 
+sp. AAP120 TaxID=1523430 RepID=A0A0N1C872_9BRAD
+Length=64
+
+ Score = 71.0 bits (173),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 29/53 (55%), Positives = 35/53 (66%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MNQG+IWTVVNP +G+P LLGSV  IA  VH A+L  TTW  A+  G     +
+Sbjct  1   MNQGRIWTVVNPTVGLPLLLGSVAAIAFAVHFAVLESTTWVSAFMNGKPVATS  53
+
+
+> UniRef90_P77799 Light-harvesting protein B-800/850 alpha chain 
+n=3 Tax=Rubrivivax TaxID=28067 RepID=LHA2_RUBGE
+Length=71
+
+ Score = 69.8 bits (170),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 27/50 (54%), Positives = 36/50 (72%), Gaps = 0/50 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVK  50
+           MNQGK+W VV P +G+P  LG+V V A+++H  +L+ T WF AYW GG K
+Sbjct  1   MNQGKVWRVVKPTVGVPVYLGAVAVTALILHGGLLAKTDWFGAYWNGGKK  50
+
+
+> UniRef90_A4A7C7 Antenna complex alpha/beta subunit n=2 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A4A7C7_9GAMM
+Length=47
+
+ Score = 69.5 bits (169),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 32/47 (68%), Positives = 38/47 (81%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MN GK+WTVVNP +GIP +LG V VIA+ VH AIL++TTWF AYW G
+Sbjct  1   MNNGKLWTVVNPTVGIPLMLGGVAVIALTVHFAILNNTTWFAAYWGG  47
+
+
+> UniRef90_UPI00030E9C69 hypothetical protein n=1 Tax=Sandarakinorhabdus 
+sp. AAP62 TaxID=1248916 RepID=UPI00030E9C69
+Length=89
+
+ Score = 70.2 bits (171),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 23/48 (48%), Positives = 36/48 (75%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MN+G+IW  V+P++GIP    +V  +A+LVH +IL +T+WF +YW+G 
+Sbjct  1   MNEGRIWLYVSPSVGIPLFFIAVATVALLVHASILVNTSWFGSYWEGS  48
+
+
+> UniRef90_UPI0008271E00 UPI0008271E00 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI0008271E00
+Length=112
+
+ Score = 70.2 bits (171),  Expect = 7e-14, Method: Composition-based stats.
+ Identities = 18/49 (37%), Positives = 30/49 (61%), Gaps = 0/49 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGV  49
+           MN  K+W VV P +G+P  L +V V +   H+A++ ++ W P ++ G V
+Sbjct  1   MNNAKLWLVVKPTVGVPLFLTAVAVSSFATHVAVMKYSKWLPEFYAGAV  49
+
+
+> UniRef90_A0A037UPQ2 Light-harvesting protein B:800-850 subunit 
+alpha n=2 Tax=Rhodomicrobium TaxID=1068 RepID=A0A037UPQ2_9RHIZ
+Length=65
+
+ Score = 68.7 bits (167),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 28/52 (54%), Positives = 36/52 (69%), Gaps = 0/52 (0%)
+
+Query  2   NQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+            Q  IW VV P +G+P LLG+VT+IA+LVH +++ HT WFP YW G   K A
+Sbjct  6   GQAGIWLVVPPKVGLPLLLGTVTLIAVLVHASLIGHTKWFPKYWDGAAAKTA  57
+
+
+> UniRef90_A4WX08 Antenna complex, alpha/beta subunit n=1 Tax=Rhodobacter 
+sphaeroides (strain ATCC 17025 / ATH 2.4.3) TaxID=349102 
+RepID=A4WX08_RHOS5
+Length=239
+
+ Score = 70.6 bits (172),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 24/51 (47%), Positives = 33/51 (65%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MN  K+W  VNP +GIP LLGSV + ++ VH A+L+ T W   Y+QG   +
+Sbjct  1   MNNSKMWLTVNPNLGIPLLLGSVALGSVAVHAAVLTTTPWIADYYQGSAPR  51
+
+
+> UniRef90_P95655 Light-harvesting protein B-800/850 alpha chain 
+n=3 Tax=Rhodovulum sulfidophilum TaxID=35806 RepID=LHA2_RHOSU
+Length=63
+
+ Score = 67.9 bits (165),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 20/53 (38%), Positives = 30/53 (57%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           MN  K+W VV P +GIP  L +  + + LVHL ++  T W   Y+ G  + A+
+Sbjct  1   MNNAKMWLVVKPTVGIPLFLVACAIASFLVHLMLVLTTGWMGDYYSGSFEAAS  53
+
+
+> UniRef90_E3I3Y5 Antenna complex alpha/beta subunit n=2 Tax=Rhodomicrobium 
+TaxID=1068 RepID=E3I3Y5_RHOVT
+Length=61
+
+ Score = 67.5 bits (164),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 30/52 (58%), Positives = 39/52 (75%), Gaps = 0/52 (0%)
+
+Query  2   NQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+            Q  IW VV P +G+P LLG+VT+IA+LVH +++ HT WFPAYW+GG K  A
+Sbjct  6   GQHGIWLVVPPKVGLPLLLGTVTLIAVLVHASLIGHTKWFPAYWEGGAKTVA  57
+
+
+> UniRef90_P07367 Light-harvesting protein B-800/850 alpha chain 
+n=4 Tax=Rhodobacter capsulatus TaxID=1061 RepID=LHA2_RHOCA
+Length=60
+
+ Score = 67.1 bits (163),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 27/48 (56%), Positives = 35/48 (73%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MN  KIWTVV P+ GIP +LG+V V A++VH  +L++TTWF  YW G 
+Sbjct  1   MNNAKIWTVVKPSTGIPLILGAVAVAALIVHAGLLTNTTWFANYWNGN  48
+
+
+> UniRef90_E3I7A9 Antenna complex alpha/beta subunit n=1 Tax=Rhodomicrobium 
+vannielii (strain ATCC 17100 / ATH 3.1.1 / DSM 
+162 / LMG 4299) TaxID=648757 RepID=E3I7A9_RHOVT
+Length=64
+
+ Score = 67.1 bits (163),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 25/51 (49%), Positives = 32/51 (63%), Gaps = 0/51 (0%)
+
+Query  2   NQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKA  52
+            Q KIW VV P +G+  LLG V   A+LVH  +L++T WFP Y +G  K A
+Sbjct  6   GQAKIWLVVKPEVGLLWLLGGVAFTAVLVHAVLLANTKWFPNYIEGKAKVA  56
+
+
+> UniRef90_A0A0P0LBZ2 Light-harvesting protein B-800-850 alpha 
+chain D n=3 Tax=Limnohabitans TaxID=665874 RepID=A0A0P0LBZ2_9BURK
+Length=64
+
+ Score = 66.8 bits (162),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 20/50 (40%), Positives = 32/50 (64%), Gaps = 0/50 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVK  50
+           M   K+W VV P++GIP  + +V + +  VHLA+ ++TTW  ++  GG K
+Sbjct  1   MIYSKMWCVVKPSVGIPVFIAAVAISSFSVHLALTTNTTWVKSFLNGGTK  50
+
+
+> UniRef90_A0A142LJ91 Light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Betaproteobacteria bacterium UKL13-2 TaxID=1690485 
+RepID=A0A142LJ91_9PROT
+Length=76
+
+ Score = 67.1 bits (163),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 24/50 (48%), Positives = 32/50 (64%), Gaps = 0/50 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVK  50
+           M  GK+W VV P +GIP     + V A+ VH AIL ++ WFPA+ +GG K
+Sbjct  1   MTNGKMWLVVKPTVGIPVFFAGIVVAALSVHTAILLNSDWFPAFLKGGQK  50
+
+
+> UniRef90_Q3J144 Light-harvesting protein B-800/850 alpha chain 
+n=7 Tax=Rhodobacter TaxID=1060 RepID=LHA2_RHOS4
+Length=54
+
+ Score = 66.4 bits (161),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 24/53 (45%), Positives = 35/53 (66%), Gaps = 0/53 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           M  GKIW VV P +G+P  L +  + ++++H A+L+ TTW PAY+QG    AA
+Sbjct  1   MTNGKIWLVVKPTVGVPLFLSAAVIASVVIHAAVLTTTTWLPAYYQGSAAVAA  53
+
+
+> UniRef90_H0T3Q9 Light harvesting protein B-800-850, alpha chain 
+n=2 Tax=Bradyrhizobium sp. STM 3809 TaxID=551936 RepID=H0T3Q9_9BRAD
+Length=119
+
+ Score = 67.1 bits (163),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 24/45 (53%), Positives = 32/45 (71%), Gaps = 0/45 (0%)
+
+Query  9   VVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+           +V+P +G+P  LGSV + ++ VH  ILSHTTW  AYW+GG  K A
+Sbjct  1   MVHPTVGLPLFLGSVALTSLCVHYTILSHTTWMGAYWEGGKSKKA  45
+
+
+> UniRef90_A0A1A7BI07 Light harvesting protein B-800-850, alpha 
+chain n=1 Tax=Porphyrobacter dokdonensis DSW-74 TaxID=1300349 
+RepID=A0A1A7BI07_9SPHN
+Length=60
+
+ Score = 65.6 bits (159),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 19/47 (40%), Positives = 32/47 (68%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           M +G+I+  V+P + IP +   + + ++ VH +ILS+TTWF  +WQG
+Sbjct  1   MKEGRIFLYVSPNVIIPIMFLVLVLTSLAVHYSILSNTTWFSDFWQG  47
+
+
+> UniRef90_E3I7A7 Antenna complex alpha/beta subunit n=1 Tax=Rhodomicrobium 
+vannielii (strain ATCC 17100 / ATH 3.1.1 / DSM 
+162 / LMG 4299) TaxID=648757 RepID=E3I7A7_RHOVT
+Length=67
+
+ Score = 65.2 bits (158),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 25/52 (48%), Positives = 33/52 (63%), Gaps = 0/52 (0%)
+
+Query  2   NQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA  53
+            Q  IW  V P++GIP  LG+V +IA++VHL +L HTT    Y+ G   KAA
+Sbjct  6   GQAAIWLYVRPSLGIPHFLGAVAIIALVVHLGVLGHTTLLKKYFGGEKLKAA  57
+
+
+> UniRef90_UPI000416E448 light-harvesting protein B:800-850 subunit 
+alpha n=1 Tax=Sandarakinorhabdus limnophila TaxID=210512 
+RepID=UPI000416E448
+Length=89
+
+ Score = 65.6 bits (159),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 27/49 (55%), Positives = 37/49 (76%), Gaps = 1/49 (2%)
+
+Query  1   MNQGKIWTVVNPAIGIPAL-LGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MN+G+IW  VNP++G+P   L  V  +A  +HLAIL++TTWF A+WQGG
+Sbjct  1   MNEGRIWLYVNPSVGLPLFFLVWVAGVAFSIHLAILTNTTWFAAFWQGG  49
+
+
+> UniRef90_A0A1D7NPD6 Uncharacterized protein n=2 Tax=Porphyrobacter 
+sp. LM 6 TaxID=1896196 RepID=A0A1D7NPD6_9SPHN
+Length=87
+
+ Score = 65.6 bits (159),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 19/52 (37%), Positives = 33/52 (63%), Gaps = 0/52 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKA  52
+           M +G+I+  V+P + +P +   + + ++ VH  ILS+TTWF  +WQG   +A
+Sbjct  2   MKEGRIFLYVSPNVLLPIMFLVMVLTSLAVHYNILSNTTWFADFWQGSASEA  53
+
+
+> UniRef90_Q3J684 Light-harvesting complex alpha subunit n=5 Tax=Rhodobacter 
+TaxID=1060 RepID=Q3J684_RHOS4
+Length=263
+
+ Score = 67.1 bits (163),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 24/48 (50%), Positives = 33/48 (69%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MN  K+W  VNP +G+P LLGSV V +++VH A+L+ T W   Y+QG 
+Sbjct  1   MNNSKMWLTVNPNLGVPLLLGSVAVASLVVHGAVLTTTPWIANYYQGS  48
+
+
+> UniRef90_Q58PN7 Putative light-harvesting protein b-800/850 alpha 
+chain-related protein n=1 Tax=uncultured proteobacterium 
+DelRiverFos06H03 TaxID=311783 RepID=Q58PN7_9PROT
+Length=65
+
+ Score = 64.1 bits (155),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 18/48 (38%), Positives = 28/48 (58%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           M   K+W VV P++GIP  + +V + +  VHLA+  +TTW   +  G 
+Sbjct  1   MIYAKMWCVVKPSVGIPVFIAAVAISSFSVHLALTMNTTWVKNFLNGS  48
+
+
+> UniRef90_UPI00091C4A96 UPI00091C4A96 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00091C4A96
+Length=60
+
+ Score = 63.3 bits (153),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 15/47 (32%), Positives = 31/47 (66%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           M +G+I+  V+P + IP +   + + ++ VH ++L++TTW   ++QG
+Sbjct  1   MKEGRIFLYVSPNVIIPIMFLVLVLTSLGVHYSVLTNTTWMSDFFQG  47
+
+
+> UniRef90_C8RXU0 Antenna complex alpha/beta subunit n=1 Tax=Rhodobacter 
+sp. SW2 TaxID=371731 RepID=C8RXU0_9RHOB
+Length=67
+
+ Score = 61.4 bits (148),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 20/49 (41%), Positives = 30/49 (61%), Gaps = 0/49 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGV  49
+           M  GK+W VV P +GIPA L  V + ++ VH+ + ++TTW   Y+ G  
+Sbjct  1   MTYGKVWLVVKPTVGIPAFLAGVAIASVFVHVMLFNNTTWLAPYYSGAS  49
+
+
+> UniRef90_A0A0P0ME01 Light-harvesting protein B-800/850 alpha 
+chain n=2 Tax=Limnohabitans TaxID=665874 RepID=A0A0P0ME01_9BURK
+Length=66
+
+ Score = 57.5 bits (138),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 18/46 (39%), Positives = 28/46 (61%), Gaps = 0/46 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQ  46
+           M   K+WTVV P++GIP  + +V + +  VHLA+  +TTW   +  
+Sbjct  1   MIYAKMWTVVKPSVGIPVFIAAVAIASFSVHLALTLNTTWVKGFLN  46
+
+
+> UniRef90_UPI00091F44B0 UPI00091F44B0 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00091F44B0
+Length=106
+
+ Score = 57.5 bits (138),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 22/47 (47%), Positives = 32/47 (68%), Gaps = 0/47 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQG  47
+           MN  K+W VV PA+G+P  LG+V V +  VH+A+LS+T+W   +  G
+Sbjct  1   MNNAKMWLVVPPAVGVPVFLGAVAVGSFAVHVAVLSNTSWVSDFLSG  47
+
+
+> UniRef90_Q162R8 Light-harvesting protein B-800/850, alpha chain 
+n=1 Tax=Roseobacter denitrificans (strain ATCC 33942 / OCh 
+114) TaxID=375451 RepID=Q162R8_ROSDO
+Length=118
+
+ Score = 56.7 bits (136),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 21/48 (44%), Positives = 33/48 (69%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MN  K+W VV+P++G+P  LG+V V +  VH+A+LS+T+W   +  G 
+Sbjct  1   MNNAKMWLVVSPSVGVPVFLGAVAVGSFAVHVAVLSNTSWVSDFLSGN  48
+
+
+> UniRef90_F7ZDG7 Light-harvesting protein B-800/850 alpha chain 
+n=1 Tax=Roseobacter litoralis (strain ATCC 49566 / DSM 6996 
+/ JCM 21268 / NBRC 15278 / OCh 149) TaxID=391595 RepID=F7ZDG7_ROSLO
+Length=118
+
+ Score = 56.4 bits (135),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 22/48 (46%), Positives = 33/48 (69%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MN  K+W VV+P++G+P  LG+V V +  VH+A+LS+TTW   +  G 
+Sbjct  1   MNNAKMWLVVSPSVGVPVFLGAVAVGSFAVHVAVLSNTTWVSDFLSGN  48
+
+
+> UniRef90_A0A1F4HJ11 Uncharacterized protein n=1 Tax=Burkholderiales 
+bacterium RIFCSPHIGHO2_12_FULL_69_20 TaxID=1797561 RepID=A0A1F4HJ11_9BURK
+Length=84
+
+ Score = 55.6 bits (133),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 21/40 (53%), Positives = 29/40 (73%), Gaps = 0/40 (0%)
+
+Query  9   VVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           +V P +G+P  LG VTVIA+ VH A+L+ T W+PAY+ G 
+Sbjct  1   MVKPTVGLPLFLGGVTVIALAVHAAVLTTTAWYPAYYSGK  40
+
+
+> UniRef90_A8LJM9 Putative light-harvesting protein B-800/850 alpha 
+chain n=1 Tax=Dinoroseobacter shibae (strain DSM 16493 
+/ NCIMB 14021 / DFL 12) TaxID=398580 RepID=A8LJM9_DINSH
+Length=113
+
+ Score = 56.0 bits (134),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 22/48 (46%), Positives = 32/48 (67%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MN  K+W VV PA+G+P  LG+V V +  VH+A+LS+T+W   +  G 
+Sbjct  1   MNNAKMWLVVPPAVGVPVFLGAVAVGSFAVHVAVLSNTSWVSDFLSGN  48
+
+
+> UniRef90_A1WWW3 Antenna complex, alpha/beta subunit n=1 Tax=Halorhodospira 
+halophila (strain DSM 244 / SL1) TaxID=349124 
+RepID=A1WWW3_HALHL
+Length=71
+
+ Score = 53.7 bits (128),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 27/51 (53%), Positives = 40/51 (78%), Gaps = 0/51 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKK  51
+           MNQ +IW VV P++G+P LLG V +IA+LVH AIL++T+W+P+Y++G    
+Sbjct  1   MNQARIWLVVKPSVGLPLLLGVVLLIALLVHGAILTNTSWYPSYFEGNAAA  51
+
+
+> UniRef90_UPI00091A4825 UPI00091A4825 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00091A4825
+Length=75
+
+ Score = 50.6 bits (120),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 13/38 (34%), Positives = 23/38 (61%), Gaps = 0/38 (0%)
+
+Query  12  PAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGV  49
+           P + +P +   + + ++ VH AIL +TTWF  ++QG  
+Sbjct  4   PNVILPIMFLILVLTSLTVHFAILINTTWFGDFFQGSA  41
+
+
+> UniRef90_P80107 Light-harvesting protein B800/850/890 alpha-3 
+chain (Fragment) n=1 Tax=Halorhodospira halophila (strain DSM 
+244 / SL1) TaxID=349124 RepID=LHA3_HALHL
+Length=49
+
+ Score = 45.6 bits (107),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 27/48 (56%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGG  48
+           MNQ +IW VV P++G+P LLG V +IA+LVH AIL++T+W+P Y++G 
+Sbjct  1   MNQARIWLVVKPSVGLPLLLGVVLLIALLVHGAILTNTSWYPTYFEGN  48
+
+
+> UniRef90_P80586 Light-harvesting polypeptide B-800/860 alpha 
+chain n=1 Tax=Rhodocyclus tenuis TaxID=1066 RepID=LHA_RHOTE
+Length=69
+
+ Score = 40.6 bits (94),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 14/47 (30%), Positives = 25/47 (53%), Gaps = 3/47 (6%)
+
+Query  1   MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSH---TTWFPAY  44
+           M  GKIW VV P +G+P  +    ++A+L+H  +       +W+  +
+Sbjct  1   MTNGKIWLVVKPTVGLPIGMLFAALLAVLIHGLLFVDGRLKSWWSEF  47
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.159    0.557    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0489    0.140     1.90     42.6     43.6 
+
+Effective search space used: 445440262635
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

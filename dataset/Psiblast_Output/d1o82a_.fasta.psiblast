@@ -1,0 +1,961 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1o82a_
+
+Length=70
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q47765 AS-48 protein n=2 Tax=Enterococcus faecalis Tax...  134     2e-38
+  UniRef90_A0A0H1S913 Bacteriocin class IId cyclical uberolysin-l...  111     2e-29
+  UniRef90_W2EF47 Uncharacterized protein n=3 Tax=Paenibacillus l...  105     2e-27
+  UniRef90_UPI00086F68E9 UPI00086F68E9 related cluster n=1 Tax=un...  96.3    1e-23
+  UniRef90_UPI00056CD89E hypothetical protein n=1 Tax=Micrococcus...  88.2    2e-20
+  UniRef90_UPI00070F68BD hypothetical protein n=1 Tax=Clostridium...  82.0    2e-18
+  UniRef90_UPI0004DF74D7 hypothetical protein n=1 Tax=Geobacillus...  80.5    2e-17
+  UniRef90_A0A077J5A4 Uncharacterized protein n=1 Tax=Bacillus sp...  68.6    5e-13
+  UniRef90_K2NQX8 Uncharacterized protein n=1 Tax=Bacillus xiamen...  66.6    3e-12
+  UniRef90_UPI0005B79488 hypothetical protein n=1 Tax=Clavibacter...  66.2    4e-12
+  UniRef90_A0A0M4FLZ6 Circularin A/uberolysin family circular bac...  51.6    1e-06
+  UniRef90_A0A0K6MP84 Bacteriocin class IId cyclical uberolysin-l...  48.9    7e-06
+  UniRef90_A0A0M4FWL5 Circularin A/uberolysin family circular bac...  47.4    3e-05
+  UniRef90_J8N306 Circularin A/uberolysin family circular bacteri...  45.8    2e-04
+  UniRef90_J7T2M1 Circularin A/uberolysin family circular bacteri...  43.9    4e-04
+  UniRef90_A0A0Z8F6H1 Circular bacteriocin, circularin A/uberolys...  43.5    5e-04
+
+
+> UniRef90_Q47765 AS-48 protein n=2 Tax=Enterococcus faecalis TaxID=1351 
+RepID=Q47765_ENTFL
+Length=105
+
+ Score = 134 bits (337),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK
+Sbjct  36   MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  95
+
+Query  61   KKGKRAVIAW  70
+            KKGKRAVIAW
+Sbjct  96   KKGKRAVIAW  105
+
+
+> UniRef90_A0A0H1S913 Bacteriocin class IId cyclical uberolysin-like 
+protein n=14 Tax=Bacilli TaxID=91061 RepID=A0A0H1S913_BACPU
+Length=108
+
+ Score = 111 bits (277),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 56/70 (80%), Positives = 64/70 (91%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            +AKEFGIP +VA  VLNVVEAGG VTTIVSILTAVGSGGLSL+AAAG+E+I+ YLK EIK
+Sbjct  39   LAKEFGIPGSVAAVVLNVVEAGGAVTTIVSILTAVGSGGLSLIAAAGKETIRQYLKNEIK  98
+
+Query  61   KKGKRAVIAW  70
+            KKG++AVIAW
+Sbjct  99   KKGRKAVIAW  108
+
+
+> UniRef90_W2EF47 Uncharacterized protein n=3 Tax=Paenibacillus 
+larvae TaxID=1464 RepID=W2EF47_9BACL
+Length=108
+
+ Score = 105 bits (263),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 52/70 (74%), Positives = 63/70 (90%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            +AKEFGIPA++A  VLN+V AGG VTTIVSIL AVGSGGLSLLAAAG+E+I+ +LKK+I+
+Sbjct  39   LAKEFGIPASIAAVVLNIVNAGGAVTTIVSILLAVGSGGLSLLAAAGKETIRQFLKKKIQ  98
+
+Query  61   KKGKRAVIAW  70
+            +KGKRA IAW
+Sbjct  99   EKGKRATIAW  108
+
+
+> UniRef90_UPI00086F68E9 UPI00086F68E9 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00086F68E9
+Length=108
+
+ Score = 96.3 bits (238),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 57/70 (81%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            +AKEFGIP  VA TVLN+VEAGGW TTI+SILTAVGSGGLSL+AAAG+ESIK YLKK+IK
+Sbjct  39   LAKEFGIPGGVAATVLNIVEAGGWATTILSILTAVGSGGLSLIAAAGKESIKVYLKKQIK  98
+
+Query  61   KKGKRAVIAW  70
+            KKG++AVIAW
+Sbjct  99   KKGRKAVIAW  108
+
+
+> UniRef90_UPI00056CD89E hypothetical protein n=1 Tax=Micrococcus 
+luteus TaxID=1270 RepID=UPI00056CD89E
+Length=110
+
+ Score = 88.2 bits (217),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 44/70 (63%), Positives = 59/70 (84%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            +AKEFGIP  VA TV+ + EAGG   TIV IL A+G+GGLSL+AAAG+E+I+ YL+K+I+
+Sbjct  41   LAKEFGIPGGVASTVVWLAEAGGAAATIVGILAALGTGGLSLIAAAGKETIRQYLRKKIQ  100
+
+Query  61   KKGKRAVIAW  70
+            +KG++AVIAW
+Sbjct  101  EKGRKAVIAW  110
+
+
+> UniRef90_UPI00070F68BD hypothetical protein n=1 Tax=Clostridium 
+sordellii TaxID=1505 RepID=UPI00070F68BD
+Length=80
+
+ Score = 82.0 bits (201),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 41/70 (59%), Positives = 55/70 (79%), Gaps = 0/70 (0%)
+
+Query  1   MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+           + KEFGIPAA A  +L  ++AG    TIV  LT + SGGLSL+ AAGR++IKAYL++EI+
+Sbjct  11  LVKEFGIPAAGASGLLWYLDAGSSAATIVGFLTGLASGGLSLIYAAGRQTIKAYLRREIR  70
+
+Query  61  KKGKRAVIAW  70
+           K+G++AVIAW
+Sbjct  71  KRGRKAVIAW  80
+
+
+> UniRef90_UPI0004DF74D7 hypothetical protein n=1 Tax=Geobacillus 
+vulcani TaxID=135517 RepID=UPI0004DF74D7
+Length=106
+
+ Score = 80.5 bits (197),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 41/70 (59%), Positives = 54/70 (77%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            +AKEFG+PA  A  +L  ++A   VT IVS LTA+G+GGLSL+AAAG   IK YLK+E++
+Sbjct  37   LAKEFGVPAWAAAWILTALDASTTVTAIVSFLTALGTGGLSLIAAAGTMGIKKYLKEELE  96
+
+Query  61   KKGKRAVIAW  70
+            K+GK+A IAW
+Sbjct  97   KRGKQAFIAW  106
+
+
+> UniRef90_A0A077J5A4 Uncharacterized protein n=1 Tax=Bacillus 
+sp. X1(2014) TaxID=1565991 RepID=A0A077J5A4_9BACI
+Length=105
+
+ Score = 68.6 bits (166),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 33/70 (47%), Positives = 50/70 (71%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            +AKEFG+P+AV   V   ++ G   + I+ +LT   SGGL L+AAAGRE++KA+L  E++
+Sbjct  36   LAKEFGVPSAVGSVVAWYLDLGAAASIIIGLLTGFLSGGLGLIAAAGRETLKAFLLAELR  95
+
+Query  61   KKGKRAVIAW  70
+            K+G +A +AW
+Sbjct  96   KRGTKAFVAW  105
+
+
+> UniRef90_K2NQX8 Uncharacterized protein n=1 Tax=Bacillus xiamenensis 
+TaxID=1178537 RepID=K2NQX8_9BACI
+Length=105
+
+ Score = 66.6 bits (161),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 32/70 (46%), Positives = 49/70 (70%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            + KEFGIP+AV  T+   +  G   + I+ IL+   +GGL L+A AGR+++  YLK+E++
+Sbjct  36   LTKEFGIPSAVGSTLTWYLGMGATASVIIGILSGFLTGGLGLIANAGRQALTLYLKEELR  95
+
+Query  61   KKGKRAVIAW  70
+            K+GK+A IAW
+Sbjct  96   KRGKKAFIAW  105
+
+
+> UniRef90_UPI0005B79488 hypothetical protein n=1 Tax=Clavibacter 
+michiganensis TaxID=28447 RepID=UPI0005B79488
+Length=105
+
+ Score = 66.2 bits (160),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 46/70 (66%), Positives = 57/70 (81%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            +A++FGIP+AV GT+LN+  AGG   TIV IL  +GSGGL LLAAAGRE+IK +L  EIK
+Sbjct  36   LAQQFGIPSAVGGTILNLATAGGTAATIVGILVGLGSGGLGLLAAAGRETIKQFLLNEIK  95
+
+Query  61   KKGKRAVIAW  70
+            KKG++AVIAW
+Sbjct  96   KKGRKAVIAW  105
+
+
+> UniRef90_A0A0M4FLZ6 Circularin A/uberolysin family circular bacteriocin 
+n=1 Tax=Bacillus gobiensis TaxID=1441095 RepID=A0A0M4FLZ6_9BACI
+Length=107
+
+ Score = 51.6 bits (122),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 26/70 (37%), Positives = 45/70 (64%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            + KEF +    A  V   ++   W  ++V+++ A+G+GG SL+AAAG   +K YLK  ++
+Sbjct  38   LVKEFDLSYVAAAQVFAWLDVISWGVSLVALIGALGTGGASLIAAAGTMGVKKYLKDMVE  97
+
+Query  61   KKGKRAVIAW  70
+            +KGK+A I++
+Sbjct  98   EKGKQAAISY  107
+
+
+> UniRef90_A0A0K6MP84 Bacteriocin class IId cyclical uberolysin-like 
+protein n=1 Tax=Bacillus subtilis TaxID=1423 RepID=A0A0K6MP84_BACIU
+Length=85
+
+ Score = 48.9 bits (115),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 26/70 (37%), Positives = 44/70 (63%), Gaps = 0/70 (0%)
+
+Query  1   MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+           + KEF +    A  V   ++   W  ++V+++ ++G+GG SL+AAAG + I+ YL    K
+Sbjct  16  LVKEFTLSTVAAAQVFAWLDYISWGVSLVALIGSLGTGGASLVAAAGAQGIRKYLTDLAK  75
+
+Query  61  KKGKRAVIAW  70
+           +KGK+A IA+
+Sbjct  76  EKGKKAAIAY  85
+
+
+> UniRef90_A0A0M4FWL5 Circularin A/uberolysin family circular bacteriocin 
+n=1 Tax=Bacillus gobiensis TaxID=1441095 RepID=A0A0M4FWL5_9BACI
+Length=107
+
+ Score = 47.4 bits (111),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 25/68 (37%), Positives = 42/68 (62%), Gaps = 0/68 (0%)
+
+Query  3    KEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIKKK  62
+            KEF +    A  +   ++   W  ++++++ A+G+GG SL+AAAG   +K YLK   ++K
+Sbjct  40   KEFKLSYVAASQIFVWLDVISWGVSLLALIAALGTGGSSLIAAAGSMGVKKYLKDMAEEK  99
+
+Query  63   GKRAVIAW  70
+            GK A IA+
+Sbjct  100  GKDAAIAY  107
+
+
+> UniRef90_J8N306 Circularin A/uberolysin family circular bacteriocin 
+n=1 Tax=Bacillus cereus VD200 TaxID=1053244 RepID=J8N306_BACCE
+Length=180
+
+ Score = 45.8 bits (107),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 32/66 (48%), Positives = 48/66 (73%), Gaps = 0/66 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            + KEFGIPA  AGT+   ++AG  V+ +VS +  +GSGGL L+AAAG+ ++K +LKK+  
+Sbjct  38   LLKEFGIPAWAAGTISWYLDAGTAVSILVSFVAGIGSGGLGLIAAAGKSALKVFLKKKRD  97
+
+Query  61   KKGKRA  66
+            + GK+A
+Sbjct  98   EMGKKA  103
+
+
+> UniRef90_J7T2M1 Circularin A/uberolysin family circular bacteriocin 
+n=2 Tax=Bacillus cereus TaxID=1396 RepID=J7T2M1_BACCE
+Length=107
+
+ Score = 43.9 bits (102),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 26/70 (37%), Positives = 43/70 (61%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            + KEF IP +VA   L  ++       +   + A+G+GG SL+AAAG + +K +LK   +
+Sbjct  38   LVKEFNIPTSVASAALGYLDVISNAVALAGAIAALGTGGASLIAAAGAQGVKVFLKTMWR  97
+
+Query  61   KKGKRAVIAW  70
+            +KG++A IA+
+Sbjct  98   EKGRKATIAY  107
+
+
+> UniRef90_A0A0Z8F6H1 Circular bacteriocin, circularin A/uberolysin 
+family n=1 Tax=Streptococcus suis TaxID=1307 RepID=A0A0Z8F6H1_STRSU
+Length=75
+
+ Score = 43.5 bits (101),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 24/67 (36%), Positives = 40/67 (60%), Gaps = 0/67 (0%)
+
+Query  1   MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+           +A   G+P+AVA TV+NV+   G   TI+ I++++ SGG + L   G    KA +++  K
+Sbjct  7   VAAALGVPSAVASTVVNVILGAGTAVTILGIISSIASGGATTLLTVGWAGFKATVQRLAK  66
+
+Query  61  KKGKRAV  67
+           +   RA+
+Sbjct  67  QSMARAI  73
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.132    0.371    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 438359863900
+Results from round 2
+
+
+Query= d1o82a_
+
+Length=70
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A0H1S913 Bacteriocin class IId cyclical uberolysin-l...  75.4    1e-15
+  UniRef90_UPI00070F68BD hypothetical protein n=1 Tax=Clostridium...  71.9    2e-14
+  UniRef90_UPI0004DF74D7 hypothetical protein n=1 Tax=Geobacillus...  71.9    3e-14
+  UniRef90_K2NQX8 Uncharacterized protein n=1 Tax=Bacillus xiamen...  71.2    6e-14
+  UniRef90_UPI00056CD89E hypothetical protein n=1 Tax=Micrococcus...  70.8    6e-14
+  UniRef90_A0A0M4FLZ6 Circularin A/uberolysin family circular bac...  69.6    2e-13
+  UniRef90_W2EF47 Uncharacterized protein n=3 Tax=Paenibacillus l...  69.2    2e-13
+  UniRef90_A0A0M4FWL5 Circularin A/uberolysin family circular bac...  68.5    5e-13
+  UniRef90_A0A077J5A4 Uncharacterized protein n=1 Tax=Bacillus sp...  64.6    1e-11
+  UniRef90_J8N306 Circularin A/uberolysin family circular bacteri...  64.6    3e-11
+  UniRef90_Q47765 AS-48 protein n=2 Tax=Enterococcus faecalis Tax...  61.9    1e-10
+  UniRef90_A0A0K6MP84 Bacteriocin class IId cyclical uberolysin-l...  60.8    3e-10
+  UniRef90_J7T2M1 Circularin A/uberolysin family circular bacteri...  60.0    8e-10
+  UniRef90_UPI00086F68E9 UPI00086F68E9 related cluster n=1 Tax=un...  58.8    2e-09
+  UniRef90_UPI0005B79488 hypothetical protein n=1 Tax=Clavibacter...  48.1    2e-05
+  UniRef90_A0A0Z8F6H1 Circular bacteriocin, circularin A/uberolys...  41.9    0.002
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_N1LPY4 Uncharacterized protein n=11 Tax=Bacillus TaxID...  47.3    4e-05
+
+
+> UniRef90_A0A0H1S913 Bacteriocin class IId cyclical uberolysin-like 
+protein n=14 Tax=Bacilli TaxID=91061 RepID=A0A0H1S913_BACPU
+Length=108
+
+ Score = 75.4 bits (184),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 56/70 (80%), Positives = 64/70 (91%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            +AKEFGIP +VA  VLNVVEAGG VTTIVSILTAVGSGGLSL+AAAG+E+I+ YLK EIK
+Sbjct  39   LAKEFGIPGSVAAVVLNVVEAGGAVTTIVSILTAVGSGGLSLIAAAGKETIRQYLKNEIK  98
+
+Query  61   KKGKRAVIAW  70
+            KKG++AVIAW
+Sbjct  99   KKGRKAVIAW  108
+
+
+> UniRef90_UPI00070F68BD hypothetical protein n=1 Tax=Clostridium 
+sordellii TaxID=1505 RepID=UPI00070F68BD
+Length=80
+
+ Score = 71.9 bits (175),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 41/70 (59%), Positives = 55/70 (79%), Gaps = 0/70 (0%)
+
+Query  1   MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+           + KEFGIPAA A  +L  ++AG    TIV  LT + SGGLSL+ AAGR++IKAYL++EI+
+Sbjct  11  LVKEFGIPAAGASGLLWYLDAGSSAATIVGFLTGLASGGLSLIYAAGRQTIKAYLRREIR  70
+
+Query  61  KKGKRAVIAW  70
+           K+G++AVIAW
+Sbjct  71  KRGRKAVIAW  80
+
+
+> UniRef90_UPI0004DF74D7 hypothetical protein n=1 Tax=Geobacillus 
+vulcani TaxID=135517 RepID=UPI0004DF74D7
+Length=106
+
+ Score = 71.9 bits (175),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 41/70 (59%), Positives = 54/70 (77%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            +AKEFG+PA  A  +L  ++A   VT IVS LTA+G+GGLSL+AAAG   IK YLK+E++
+Sbjct  37   LAKEFGVPAWAAAWILTALDASTTVTAIVSFLTALGTGGLSLIAAAGTMGIKKYLKEELE  96
+
+Query  61   KKGKRAVIAW  70
+            K+GK+A IAW
+Sbjct  97   KRGKQAFIAW  106
+
+
+> UniRef90_K2NQX8 Uncharacterized protein n=1 Tax=Bacillus xiamenensis 
+TaxID=1178537 RepID=K2NQX8_9BACI
+Length=105
+
+ Score = 71.2 bits (173),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 32/70 (46%), Positives = 49/70 (70%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            + KEFGIP+AV  T+   +  G   + I+ IL+   +GGL L+A AGR+++  YLK+E++
+Sbjct  36   LTKEFGIPSAVGSTLTWYLGMGATASVIIGILSGFLTGGLGLIANAGRQALTLYLKEELR  95
+
+Query  61   KKGKRAVIAW  70
+            K+GK+A IAW
+Sbjct  96   KRGKKAFIAW  105
+
+
+> UniRef90_UPI00056CD89E hypothetical protein n=1 Tax=Micrococcus 
+luteus TaxID=1270 RepID=UPI00056CD89E
+Length=110
+
+ Score = 70.8 bits (172),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 44/70 (63%), Positives = 59/70 (84%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            +AKEFGIP  VA TV+ + EAGG   TIV IL A+G+GGLSL+AAAG+E+I+ YL+K+I+
+Sbjct  41   LAKEFGIPGGVASTVVWLAEAGGAAATIVGILAALGTGGLSLIAAAGKETIRQYLRKKIQ  100
+
+Query  61   KKGKRAVIAW  70
+            +KG++AVIAW
+Sbjct  101  EKGRKAVIAW  110
+
+
+> UniRef90_A0A0M4FLZ6 Circularin A/uberolysin family circular bacteriocin 
+n=1 Tax=Bacillus gobiensis TaxID=1441095 RepID=A0A0M4FLZ6_9BACI
+Length=107
+
+ Score = 69.6 bits (169),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 26/70 (37%), Positives = 45/70 (64%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            + KEF +    A  V   ++   W  ++V+++ A+G+GG SL+AAAG   +K YLK  ++
+Sbjct  38   LVKEFDLSYVAAAQVFAWLDVISWGVSLVALIGALGTGGASLIAAAGTMGVKKYLKDMVE  97
+
+Query  61   KKGKRAVIAW  70
+            +KGK+A I++
+Sbjct  98   EKGKQAAISY  107
+
+
+> UniRef90_W2EF47 Uncharacterized protein n=3 Tax=Paenibacillus 
+larvae TaxID=1464 RepID=W2EF47_9BACL
+Length=108
+
+ Score = 69.2 bits (168),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 52/70 (74%), Positives = 63/70 (90%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            +AKEFGIPA++A  VLN+V AGG VTTIVSIL AVGSGGLSLLAAAG+E+I+ +LKK+I+
+Sbjct  39   LAKEFGIPASIAAVVLNIVNAGGAVTTIVSILLAVGSGGLSLLAAAGKETIRQFLKKKIQ  98
+
+Query  61   KKGKRAVIAW  70
+            +KGKRA IAW
+Sbjct  99   EKGKRATIAW  108
+
+
+> UniRef90_A0A0M4FWL5 Circularin A/uberolysin family circular bacteriocin 
+n=1 Tax=Bacillus gobiensis TaxID=1441095 RepID=A0A0M4FWL5_9BACI
+Length=107
+
+ Score = 68.5 bits (166),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 25/70 (36%), Positives = 43/70 (61%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            + KEF +    A  +   ++   W  ++++++ A+G+GG SL+AAAG   +K YLK   +
+Sbjct  38   IVKEFKLSYVAASQIFVWLDVISWGVSLLALIAALGTGGSSLIAAAGSMGVKKYLKDMAE  97
+
+Query  61   KKGKRAVIAW  70
+            +KGK A IA+
+Sbjct  98   EKGKDAAIAY  107
+
+
+> UniRef90_A0A077J5A4 Uncharacterized protein n=1 Tax=Bacillus 
+sp. X1(2014) TaxID=1565991 RepID=A0A077J5A4_9BACI
+Length=105
+
+ Score = 64.6 bits (156),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 33/70 (47%), Positives = 50/70 (71%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            +AKEFG+P+AV   V   ++ G   + I+ +LT   SGGL L+AAAGRE++KA+L  E++
+Sbjct  36   LAKEFGVPSAVGSVVAWYLDLGAAASIIIGLLTGFLSGGLGLIAAAGRETLKAFLLAELR  95
+
+Query  61   KKGKRAVIAW  70
+            K+G +A +AW
+Sbjct  96   KRGTKAFVAW  105
+
+
+> UniRef90_J8N306 Circularin A/uberolysin family circular bacteriocin 
+n=1 Tax=Bacillus cereus VD200 TaxID=1053244 RepID=J8N306_BACCE
+Length=180
+
+ Score = 64.6 bits (156),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 32/66 (48%), Positives = 48/66 (73%), Gaps = 0/66 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            + KEFGIPA  AGT+   ++AG  V+ +VS +  +GSGGL L+AAAG+ ++K +LKK+  
+Sbjct  38   LLKEFGIPAWAAGTISWYLDAGTAVSILVSFVAGIGSGGLGLIAAAGKSALKVFLKKKRD  97
+
+Query  61   KKGKRA  66
+            + GK+A
+Sbjct  98   EMGKKA  103
+
+
+> UniRef90_Q47765 AS-48 protein n=2 Tax=Enterococcus faecalis TaxID=1351 
+RepID=Q47765_ENTFL
+Length=105
+
+ Score = 61.9 bits (149),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK
+Sbjct  36   MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  95
+
+Query  61   KKGKRAVIAW  70
+            KKGKRAVIAW
+Sbjct  96   KKGKRAVIAW  105
+
+
+> UniRef90_A0A0K6MP84 Bacteriocin class IId cyclical uberolysin-like 
+protein n=1 Tax=Bacillus subtilis TaxID=1423 RepID=A0A0K6MP84_BACIU
+Length=85
+
+ Score = 60.8 bits (146),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 26/70 (37%), Positives = 44/70 (63%), Gaps = 0/70 (0%)
+
+Query  1   MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+           + KEF +    A  V   ++   W  ++V+++ ++G+GG SL+AAAG + I+ YL    K
+Sbjct  16  LVKEFTLSTVAAAQVFAWLDYISWGVSLVALIGSLGTGGASLVAAAGAQGIRKYLTDLAK  75
+
+Query  61  KKGKRAVIAW  70
+           +KGK+A IA+
+Sbjct  76  EKGKKAAIAY  85
+
+
+> UniRef90_J7T2M1 Circularin A/uberolysin family circular bacteriocin 
+n=2 Tax=Bacillus cereus TaxID=1396 RepID=J7T2M1_BACCE
+Length=107
+
+ Score = 60.0 bits (144),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 26/70 (37%), Positives = 43/70 (61%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            + KEF IP +VA   L  ++       +   + A+G+GG SL+AAAG + +K +LK   +
+Sbjct  38   LVKEFNIPTSVASAALGYLDVISNAVALAGAIAALGTGGASLIAAAGAQGVKVFLKTMWR  97
+
+Query  61   KKGKRAVIAW  70
+            +KG++A IA+
+Sbjct  98   EKGRKATIAY  107
+
+
+> UniRef90_UPI00086F68E9 UPI00086F68E9 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00086F68E9
+Length=108
+
+ Score = 58.8 bits (141),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 57/70 (81%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            +AKEFGIP  VA TVLN+VEAGGW TTI+SILTAVGSGGLSL+AAAG+ESIK YLKK+IK
+Sbjct  39   LAKEFGIPGGVAATVLNIVEAGGWATTILSILTAVGSGGLSLIAAAGKESIKVYLKKQIK  98
+
+Query  61   KKGKRAVIAW  70
+            KKG++AVIAW
+Sbjct  99   KKGRKAVIAW  108
+
+
+> UniRef90_UPI0005B79488 hypothetical protein n=1 Tax=Clavibacter 
+michiganensis TaxID=28447 RepID=UPI0005B79488
+Length=105
+
+ Score = 48.1 bits (113),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 46/70 (66%), Positives = 57/70 (81%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            +A++FGIP+AV GT+LN+  AGG   TIV IL  +GSGGL LLAAAGRE+IK +L  EIK
+Sbjct  36   LAQQFGIPSAVGGTILNLATAGGTAATIVGILVGLGSGGLGLLAAAGRETIKQFLLNEIK  95
+
+Query  61   KKGKRAVIAW  70
+            KKG++AVIAW
+Sbjct  96   KKGRKAVIAW  105
+
+
+> UniRef90_N1LPY4 Uncharacterized protein n=11 Tax=Bacillus TaxID=55087 
+RepID=N1LPY4_9BACI
+Length=107
+
+ Score = 47.3 bits (111),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 25/70 (36%), Positives = 44/70 (63%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            + KEF +    A  V   ++   W  ++V+++ ++G+GG +L+AAAG + I+ YL    K
+Sbjct  38   LVKEFNLSTVAAAQVFAWLDYISWGVSLVALIGSLGTGGAALVAAAGAQGIRKYLTDLAK  97
+
+Query  61   KKGKRAVIAW  70
+            +KGK+A IA+
+Sbjct  98   EKGKKAAIAY  107
+
+
+> UniRef90_A0A0Z8F6H1 Circular bacteriocin, circularin A/uberolysin 
+family n=1 Tax=Streptococcus suis TaxID=1307 RepID=A0A0Z8F6H1_STRSU
+Length=75
+
+ Score = 41.9 bits (97),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 24/67 (36%), Positives = 40/67 (60%), Gaps = 0/67 (0%)
+
+Query  1   MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+           +A   G+P+AVA TV+NV+   G   TI+ I++++ SGG + L   G    KA +++  K
+Sbjct  7   VAAALGVPSAVASTVVNVILGAGTAVTILGIISSIASGGATTLLTVGWAGFKATVQRLAK  66
+
+Query  61  KKGKRAV  67
+           +   RA+
+Sbjct  67  QSMARAI  73
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.141    0.359    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0432    0.140     1.90     42.6     43.6 
+
+Effective search space used: 438359863900
+Results from round 3
+
+
+Query= d1o82a_
+
+Length=70
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A0H1S913 Bacteriocin class IId cyclical uberolysin-l...  74.6    2e-15
+  UniRef90_UPI00070F68BD hypothetical protein n=1 Tax=Clostridium...  71.2    3e-14
+  UniRef90_UPI0004DF74D7 hypothetical protein n=1 Tax=Geobacillus...  71.2    5e-14
+  UniRef90_K2NQX8 Uncharacterized protein n=1 Tax=Bacillus xiamen...  70.8    8e-14
+  UniRef90_UPI00056CD89E hypothetical protein n=1 Tax=Micrococcus...  70.4    1e-13
+  UniRef90_A0A0M4FLZ6 Circularin A/uberolysin family circular bac...  68.9    3e-13
+  UniRef90_W2EF47 Uncharacterized protein n=3 Tax=Paenibacillus l...  68.9    4e-13
+  UniRef90_A0A0M4FWL5 Circularin A/uberolysin family circular bac...  68.5    6e-13
+  UniRef90_A0A077J5A4 Uncharacterized protein n=1 Tax=Bacillus sp...  64.2    2e-11
+  UniRef90_J8N306 Circularin A/uberolysin family circular bacteri...  64.6    4e-11
+  UniRef90_Q47765 AS-48 protein n=2 Tax=Enterococcus faecalis Tax...  61.5    2e-10
+  UniRef90_A0A0K6MP84 Bacteriocin class IId cyclical uberolysin-l...  60.4    4e-10
+  UniRef90_J7T2M1 Circularin A/uberolysin family circular bacteri...  59.6    1e-09
+  UniRef90_UPI00086F68E9 UPI00086F68E9 related cluster n=1 Tax=un...  58.5    3e-09
+  UniRef90_UPI0005B79488 hypothetical protein n=1 Tax=Clavibacter...  47.7    2e-05
+  UniRef90_N1LPY4 Uncharacterized protein n=11 Tax=Bacillus TaxID...  46.9    5e-05
+  UniRef90_A0A0Z8F6H1 Circular bacteriocin, circularin A/uberolys...  41.5    0.002
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_A0A0H1S913 Bacteriocin class IId cyclical uberolysin-like 
+protein n=14 Tax=Bacilli TaxID=91061 RepID=A0A0H1S913_BACPU
+Length=108
+
+ Score = 74.6 bits (182),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 56/70 (80%), Positives = 64/70 (91%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            +AKEFGIP +VA  VLNVVEAGG VTTIVSILTAVGSGGLSL+AAAG+E+I+ YLK EIK
+Sbjct  39   LAKEFGIPGSVAAVVLNVVEAGGAVTTIVSILTAVGSGGLSLIAAAGKETIRQYLKNEIK  98
+
+Query  61   KKGKRAVIAW  70
+            KKG++AVIAW
+Sbjct  99   KKGRKAVIAW  108
+
+
+> UniRef90_UPI00070F68BD hypothetical protein n=1 Tax=Clostridium 
+sordellii TaxID=1505 RepID=UPI00070F68BD
+Length=80
+
+ Score = 71.2 bits (173),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 41/70 (59%), Positives = 55/70 (79%), Gaps = 0/70 (0%)
+
+Query  1   MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+           + KEFGIPAA A  +L  ++AG    TIV  LT + SGGLSL+ AAGR++IKAYL++EI+
+Sbjct  11  LVKEFGIPAAGASGLLWYLDAGSSAATIVGFLTGLASGGLSLIYAAGRQTIKAYLRREIR  70
+
+Query  61  KKGKRAVIAW  70
+           K+G++AVIAW
+Sbjct  71  KRGRKAVIAW  80
+
+
+> UniRef90_UPI0004DF74D7 hypothetical protein n=1 Tax=Geobacillus 
+vulcani TaxID=135517 RepID=UPI0004DF74D7
+Length=106
+
+ Score = 71.2 bits (173),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 41/70 (59%), Positives = 54/70 (77%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            +AKEFG+PA  A  +L  ++A   VT IVS LTA+G+GGLSL+AAAG   IK YLK+E++
+Sbjct  37   LAKEFGVPAWAAAWILTALDASTTVTAIVSFLTALGTGGLSLIAAAGTMGIKKYLKEELE  96
+
+Query  61   KKGKRAVIAW  70
+            K+GK+A IAW
+Sbjct  97   KRGKQAFIAW  106
+
+
+> UniRef90_K2NQX8 Uncharacterized protein n=1 Tax=Bacillus xiamenensis 
+TaxID=1178537 RepID=K2NQX8_9BACI
+Length=105
+
+ Score = 70.8 bits (172),  Expect = 8e-14, Method: Composition-based stats.
+ Identities = 32/70 (46%), Positives = 49/70 (70%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            + KEFGIP+AV  T+   +  G   + I+ IL+   +GGL L+A AGR+++  YLK+E++
+Sbjct  36   LTKEFGIPSAVGSTLTWYLGMGATASVIIGILSGFLTGGLGLIANAGRQALTLYLKEELR  95
+
+Query  61   KKGKRAVIAW  70
+            K+GK+A IAW
+Sbjct  96   KRGKKAFIAW  105
+
+
+> UniRef90_UPI00056CD89E hypothetical protein n=1 Tax=Micrococcus 
+luteus TaxID=1270 RepID=UPI00056CD89E
+Length=110
+
+ Score = 70.4 bits (171),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 44/70 (63%), Positives = 59/70 (84%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            +AKEFGIP  VA TV+ + EAGG   TIV IL A+G+GGLSL+AAAG+E+I+ YL+K+I+
+Sbjct  41   LAKEFGIPGGVASTVVWLAEAGGAAATIVGILAALGTGGLSLIAAAGKETIRQYLRKKIQ  100
+
+Query  61   KKGKRAVIAW  70
+            +KG++AVIAW
+Sbjct  101  EKGRKAVIAW  110
+
+
+> UniRef90_A0A0M4FLZ6 Circularin A/uberolysin family circular bacteriocin 
+n=1 Tax=Bacillus gobiensis TaxID=1441095 RepID=A0A0M4FLZ6_9BACI
+Length=107
+
+ Score = 68.9 bits (167),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 26/70 (37%), Positives = 45/70 (64%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            + KEF +    A  V   ++   W  ++V+++ A+G+GG SL+AAAG   +K YLK  ++
+Sbjct  38   LVKEFDLSYVAAAQVFAWLDVISWGVSLVALIGALGTGGASLIAAAGTMGVKKYLKDMVE  97
+
+Query  61   KKGKRAVIAW  70
+            +KGK+A I++
+Sbjct  98   EKGKQAAISY  107
+
+
+> UniRef90_W2EF47 Uncharacterized protein n=3 Tax=Paenibacillus 
+larvae TaxID=1464 RepID=W2EF47_9BACL
+Length=108
+
+ Score = 68.9 bits (167),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 52/70 (74%), Positives = 63/70 (90%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            +AKEFGIPA++A  VLN+V AGG VTTIVSIL AVGSGGLSLLAAAG+E+I+ +LKK+I+
+Sbjct  39   LAKEFGIPASIAAVVLNIVNAGGAVTTIVSILLAVGSGGLSLLAAAGKETIRQFLKKKIQ  98
+
+Query  61   KKGKRAVIAW  70
+            +KGKRA IAW
+Sbjct  99   EKGKRATIAW  108
+
+
+> UniRef90_A0A0M4FWL5 Circularin A/uberolysin family circular bacteriocin 
+n=1 Tax=Bacillus gobiensis TaxID=1441095 RepID=A0A0M4FWL5_9BACI
+Length=107
+
+ Score = 68.5 bits (166),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 25/70 (36%), Positives = 43/70 (61%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            + KEF +    A  +   ++   W  ++++++ A+G+GG SL+AAAG   +K YLK   +
+Sbjct  38   IVKEFKLSYVAASQIFVWLDVISWGVSLLALIAALGTGGSSLIAAAGSMGVKKYLKDMAE  97
+
+Query  61   KKGKRAVIAW  70
+            +KGK A IA+
+Sbjct  98   EKGKDAAIAY  107
+
+
+> UniRef90_A0A077J5A4 Uncharacterized protein n=1 Tax=Bacillus 
+sp. X1(2014) TaxID=1565991 RepID=A0A077J5A4_9BACI
+Length=105
+
+ Score = 64.2 bits (155),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 33/70 (47%), Positives = 50/70 (71%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            +AKEFG+P+AV   V   ++ G   + I+ +LT   SGGL L+AAAGRE++KA+L  E++
+Sbjct  36   LAKEFGVPSAVGSVVAWYLDLGAAASIIIGLLTGFLSGGLGLIAAAGRETLKAFLLAELR  95
+
+Query  61   KKGKRAVIAW  70
+            K+G +A +AW
+Sbjct  96   KRGTKAFVAW  105
+
+
+> UniRef90_J8N306 Circularin A/uberolysin family circular bacteriocin 
+n=1 Tax=Bacillus cereus VD200 TaxID=1053244 RepID=J8N306_BACCE
+Length=180
+
+ Score = 64.6 bits (156),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 32/66 (48%), Positives = 48/66 (73%), Gaps = 0/66 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            + KEFGIPA  AGT+   ++AG  V+ +VS +  +GSGGL L+AAAG+ ++K +LKK+  
+Sbjct  38   LLKEFGIPAWAAGTISWYLDAGTAVSILVSFVAGIGSGGLGLIAAAGKSALKVFLKKKRD  97
+
+Query  61   KKGKRA  66
+            + GK+A
+Sbjct  98   EMGKKA  103
+
+
+> UniRef90_Q47765 AS-48 protein n=2 Tax=Enterococcus faecalis TaxID=1351 
+RepID=Q47765_ENTFL
+Length=105
+
+ Score = 61.5 bits (148),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK
+Sbjct  36   MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  95
+
+Query  61   KKGKRAVIAW  70
+            KKGKRAVIAW
+Sbjct  96   KKGKRAVIAW  105
+
+
+> UniRef90_A0A0K6MP84 Bacteriocin class IId cyclical uberolysin-like 
+protein n=1 Tax=Bacillus subtilis TaxID=1423 RepID=A0A0K6MP84_BACIU
+Length=85
+
+ Score = 60.4 bits (145),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 26/70 (37%), Positives = 44/70 (63%), Gaps = 0/70 (0%)
+
+Query  1   MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+           + KEF +    A  V   ++   W  ++V+++ ++G+GG SL+AAAG + I+ YL    K
+Sbjct  16  LVKEFTLSTVAAAQVFAWLDYISWGVSLVALIGSLGTGGASLVAAAGAQGIRKYLTDLAK  75
+
+Query  61  KKGKRAVIAW  70
+           +KGK+A IA+
+Sbjct  76  EKGKKAAIAY  85
+
+
+> UniRef90_J7T2M1 Circularin A/uberolysin family circular bacteriocin 
+n=2 Tax=Bacillus cereus TaxID=1396 RepID=J7T2M1_BACCE
+Length=107
+
+ Score = 59.6 bits (143),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 26/70 (37%), Positives = 43/70 (61%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            + KEF IP +VA   L  ++       +   + A+G+GG SL+AAAG + +K +LK   +
+Sbjct  38   LVKEFNIPTSVASAALGYLDVISNAVALAGAIAALGTGGASLIAAAGAQGVKVFLKTMWR  97
+
+Query  61   KKGKRAVIAW  70
+            +KG++A IA+
+Sbjct  98   EKGRKATIAY  107
+
+
+> UniRef90_UPI00086F68E9 UPI00086F68E9 related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI00086F68E9
+Length=108
+
+ Score = 58.5 bits (140),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 57/70 (81%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            +AKEFGIP  VA TVLN+VEAGGW TTI+SILTAVGSGGLSL+AAAG+ESIK YLKK+IK
+Sbjct  39   LAKEFGIPGGVAATVLNIVEAGGWATTILSILTAVGSGGLSLIAAAGKESIKVYLKKQIK  98
+
+Query  61   KKGKRAVIAW  70
+            KKG++AVIAW
+Sbjct  99   KKGRKAVIAW  108
+
+
+> UniRef90_UPI0005B79488 hypothetical protein n=1 Tax=Clavibacter 
+michiganensis TaxID=28447 RepID=UPI0005B79488
+Length=105
+
+ Score = 47.7 bits (112),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 46/70 (66%), Positives = 57/70 (81%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            +A++FGIP+AV GT+LN+  AGG   TIV IL  +GSGGL LLAAAGRE+IK +L  EIK
+Sbjct  36   LAQQFGIPSAVGGTILNLATAGGTAATIVGILVGLGSGGLGLLAAAGRETIKQFLLNEIK  95
+
+Query  61   KKGKRAVIAW  70
+            KKG++AVIAW
+Sbjct  96   KKGRKAVIAW  105
+
+
+> UniRef90_N1LPY4 Uncharacterized protein n=11 Tax=Bacillus TaxID=55087 
+RepID=N1LPY4_9BACI
+Length=107
+
+ Score = 46.9 bits (110),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 25/70 (36%), Positives = 44/70 (63%), Gaps = 0/70 (0%)
+
+Query  1    MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+            + KEF +    A  V   ++   W  ++V+++ ++G+GG +L+AAAG + I+ YL    K
+Sbjct  38   LVKEFNLSTVAAAQVFAWLDYISWGVSLVALIGSLGTGGAALVAAAGAQGIRKYLTDLAK  97
+
+Query  61   KKGKRAVIAW  70
+            +KGK+A IA+
+Sbjct  98   EKGKKAAIAY  107
+
+
+> UniRef90_A0A0Z8F6H1 Circular bacteriocin, circularin A/uberolysin 
+family n=1 Tax=Streptococcus suis TaxID=1307 RepID=A0A0Z8F6H1_STRSU
+Length=75
+
+ Score = 41.5 bits (96),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 24/67 (36%), Positives = 40/67 (60%), Gaps = 0/67 (0%)
+
+Query  1   MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIK  60
+           +A   G+P+AVA TV+NV+   G   TI+ I++++ SGG + L   G    KA +++  K
+Sbjct  7   VAAALGVPSAVASTVVNVILGAGTAVTILGIISSIASGGATTLLTVGWAGFKATVQRLAK  66
+
+Query  61  KKGKRAV  67
+           +   RA+
+Sbjct  67  QSMARAI  73
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.141    0.360    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0430    0.140     1.90     42.6     43.6 
+
+Effective search space used: 438359863900
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

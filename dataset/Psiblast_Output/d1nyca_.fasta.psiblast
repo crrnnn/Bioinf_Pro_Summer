@@ -1,0 +1,270 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1nyca_
+
+Length=111
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q9EYW6 Staphostatin B n=58 Tax=Bacteria TaxID=2 RepID=...  222     3e-72
+  UniRef90_A0A077UTI2 Staphostatin B n=9 Tax=Staphylococcus TaxID...  175     6e-54
+  UniRef90_Q8KLJ0 Cysteine protease n=9 Tax=Bacteria TaxID=2 RepI...  123     1e-33
+  UniRef90_UPI00066A7589 cysteine protease n=1 Tax=Staphylococcus...  123     2e-33
+  UniRef90_A0A0M2NRX5 Staphostatin B n=4 Tax=Staphylococcus TaxID...  116     9e-31
+
+
+> UniRef90_Q9EYW6 Staphostatin B n=58 Tax=Bacteria TaxID=2 RepID=SSPC_STAA8
+Length=109
+
+ Score = 222 bits (565),  Expect = 3e-72, Method: Compositional matrix adjust.
+ Identities = 108/109 (99%), Positives = 108/109 (99%), Gaps = 0/109 (0%)
+
+Query  3    MYQLQFINLVYDTTKLTHLEQTNINLFIGNWSNHQLQKSICIRHGDDTSHNQYHILFIDT  62
+            MYQLQFINLVYDTTKLTHLEQTNINLFIGNWSNHQLQKSICIRHGDDTSHNQYHILFIDT
+Sbjct  1    MYQLQFINLVYDTTKLTHLEQTNINLFIGNWSNHQLQKSICIRHGDDTSHNQYHILFIDT  60
+
+Query  63   AHQRIKFSSFDNEEIIYILDYDDTQHILMQTSSKQGIGTSRPIVYERLV  111
+            AHQRIKFSS DNEEIIYILDYDDTQHILMQTSSKQGIGTSRPIVYERLV
+Sbjct  61   AHQRIKFSSIDNEEIIYILDYDDTQHILMQTSSKQGIGTSRPIVYERLV  109
+
+
+> UniRef90_A0A077UTI2 Staphostatin B n=9 Tax=Staphylococcus TaxID=1279 
+RepID=A0A077UTI2_STAAU
+Length=109
+
+ Score = 175 bits (444),  Expect = 6e-54, Method: Compositional matrix adjust.
+ Identities = 84/109 (77%), Positives = 94/109 (86%), Gaps = 0/109 (0%)
+
+Query  3    MYQLQFINLVYDTTKLTHLEQTNINLFIGNWSNHQLQKSICIRHGDDTSHNQYHILFIDT  62
+            MYQLQFIN +YD T LTHLE  NINLFIGNWSNHQLQK+I IRHGD+T+ NQ  ILFIDT
+Sbjct  1    MYQLQFINFIYDKTNLTHLELNNINLFIGNWSNHQLQKTISIRHGDNTTQNQCRILFIDT  60
+
+Query  63   AHQRIKFSSFDNEEIIYILDYDDTQHILMQTSSKQGIGTSRPIVYERLV  111
+             HQRIKFS    ++IIYILDYDD+QHILMQTSS+ GIGTSRPI+YERL+
+Sbjct  61   THQRIKFSPLHQDQIIYILDYDDSQHILMQTSSQDGIGTSRPILYERLI  109
+
+
+> UniRef90_Q8KLJ0 Cysteine protease n=9 Tax=Bacteria TaxID=2 RepID=Q8KLJ0_STAWA
+Length=108
+
+ Score = 123 bits (309),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 63/108 (58%), Positives = 77/108 (71%), Gaps = 0/108 (0%)
+
+Query  3    MYQLQFINLVYDTTKLTHLEQTNINLFIGNWSNHQLQKSICIRHGDDTSHNQYHILFIDT  62
+            MYQL FI++  D   LT  +Q  I+LFIGNW N   QKSI IR G DT+HNQY IL IDT
+Sbjct  1    MYQLHFIHINDDALTLTKSKQDTIHLFIGNWINPSAQKSISIRTGVDTNHNQYQILQIDT  60
+
+Query  63   AHQRIKFSSFDNEEIIYILDYDDTQHILMQTSSKQGIGTSRPIVYERL  110
+             HQRIK +S ++ +++YILDY+DT HI +QTS K   GTSRPI YE+ 
+Sbjct  61   EHQRIKLTSEEDPQLMYILDYEDTNHIFIQTSVKNSYGTSRPIRYEKF  108
+
+
+> UniRef90_UPI00066A7589 cysteine protease n=1 Tax=Staphylococcus 
+warneri TaxID=1292 RepID=UPI00066A7589
+Length=108
+
+ Score = 123 bits (308),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 62/108 (57%), Positives = 77/108 (71%), Gaps = 0/108 (0%)
+
+Query  3    MYQLQFINLVYDTTKLTHLEQTNINLFIGNWSNHQLQKSICIRHGDDTSHNQYHILFIDT  62
+            MYQLQFI++  D   LT  +Q  I+LF+GNW N   QKS+ I  G DTSHNQY IL IDT
+Sbjct  1    MYQLQFIHINDDALTLTKSQQDTIHLFLGNWINPAAQKSMSIHFGVDTSHNQYQILLIDT  60
+
+Query  63   AHQRIKFSSFDNEEIIYILDYDDTQHILMQTSSKQGIGTSRPIVYERL  110
+             HQRIK +S  + +++YILDY+DT HI +QTS K   GTSRPI YE++
+Sbjct  61   EHQRIKLTSEVDPQLMYILDYEDTNHIFIQTSVKDSYGTSRPIRYEKI  108
+
+
+> UniRef90_A0A0M2NRX5 Staphostatin B n=4 Tax=Staphylococcus TaxID=1279 
+RepID=A0A0M2NRX5_9STAP
+Length=107
+
+ Score = 116 bits (290),  Expect = 9e-31, Method: Compositional matrix adjust.
+ Identities = 61/107 (57%), Positives = 73/107 (68%), Gaps = 0/107 (0%)
+
+Query  3    MYQLQFINLVYDTTKLTHLEQTNINLFIGNWSNHQLQKSICIRHGDDTSHNQYHILFIDT  62
+            MYQLQFINL Y+ + LT  +   I  F+GNW N  LQKSI IR+   T  NQY I+ ID+
+Sbjct  1    MYQLQFINLDYNPSTLTKEQLNLIQQFLGNWKNQSLQKSISIRYERHTHLNQYQIIQIDS  60
+
+Query  63   AHQRIKFSSFDNEEIIYILDYDDTQHILMQTSSKQGIGTSRPIVYER  109
+             HQRIK    DN++IIY LDY+D QHIL+QTS     GTSRPI YE+
+Sbjct  61   NHQRIKILPEDNQQIIYTLDYEDAQHILIQTSIHHSYGTSRPIRYEK  107
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.406    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 438668923680
+Results from round 2
+
+
+Query= d1nyca_
+
+Length=111
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_Q9EYW6 Staphostatin B n=58 Tax=Bacteria TaxID=2 RepID=...  159     2e-47
+  UniRef90_UPI00066A7589 cysteine protease n=1 Tax=Staphylococcus...  154     2e-45
+  UniRef90_Q8KLJ0 Cysteine protease n=9 Tax=Bacteria TaxID=2 RepI...  153     3e-45
+  UniRef90_A0A077UTI2 Staphostatin B n=9 Tax=Staphylococcus TaxID...  150     4e-44
+  UniRef90_A0A0M2NRX5 Staphostatin B n=4 Tax=Staphylococcus TaxID...  135     2e-38
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A133QT84 Staphostatin B n=4 Tax=Staphylococcus simul...  41.5    0.009
+
+
+> UniRef90_Q9EYW6 Staphostatin B n=58 Tax=Bacteria TaxID=2 RepID=SSPC_STAA8
+Length=109
+
+ Score = 159 bits (401),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 108/109 (99%), Positives = 108/109 (99%), Gaps = 0/109 (0%)
+
+Query  3    MYQLQFINLVYDTTKLTHLEQTNINLFIGNWSNHQLQKSICIRHGDDTSHNQYHILFIDT  62
+            MYQLQFINLVYDTTKLTHLEQTNINLFIGNWSNHQLQKSICIRHGDDTSHNQYHILFIDT
+Sbjct  1    MYQLQFINLVYDTTKLTHLEQTNINLFIGNWSNHQLQKSICIRHGDDTSHNQYHILFIDT  60
+
+Query  63   AHQRIKFSSFDNEEIIYILDYDDTQHILMQTSSKQGIGTSRPIVYERLV  111
+            AHQRIKFSS DNEEIIYILDYDDTQHILMQTSSKQGIGTSRPIVYERLV
+Sbjct  61   AHQRIKFSSIDNEEIIYILDYDDTQHILMQTSSKQGIGTSRPIVYERLV  109
+
+
+> UniRef90_UPI00066A7589 cysteine protease n=1 Tax=Staphylococcus 
+warneri TaxID=1292 RepID=UPI00066A7589
+Length=108
+
+ Score = 154 bits (388),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 62/108 (57%), Positives = 77/108 (71%), Gaps = 0/108 (0%)
+
+Query  3    MYQLQFINLVYDTTKLTHLEQTNINLFIGNWSNHQLQKSICIRHGDDTSHNQYHILFIDT  62
+            MYQLQFI++  D   LT  +Q  I+LF+GNW N   QKS+ I  G DTSHNQY IL IDT
+Sbjct  1    MYQLQFIHINDDALTLTKSQQDTIHLFLGNWINPAAQKSMSIHFGVDTSHNQYQILLIDT  60
+
+Query  63   AHQRIKFSSFDNEEIIYILDYDDTQHILMQTSSKQGIGTSRPIVYERL  110
+             HQRIK +S  + +++YILDY+DT HI +QTS K   GTSRPI YE++
+Sbjct  61   EHQRIKLTSEVDPQLMYILDYEDTNHIFIQTSVKDSYGTSRPIRYEKI  108
+
+
+> UniRef90_Q8KLJ0 Cysteine protease n=9 Tax=Bacteria TaxID=2 RepID=Q8KLJ0_STAWA
+Length=108
+
+ Score = 153 bits (387),  Expect = 3e-45, Method: Composition-based stats.
+ Identities = 63/108 (58%), Positives = 77/108 (71%), Gaps = 0/108 (0%)
+
+Query  3    MYQLQFINLVYDTTKLTHLEQTNINLFIGNWSNHQLQKSICIRHGDDTSHNQYHILFIDT  62
+            MYQL FI++  D   LT  +Q  I+LFIGNW N   QKSI IR G DT+HNQY IL IDT
+Sbjct  1    MYQLHFIHINDDALTLTKSKQDTIHLFIGNWINPSAQKSISIRTGVDTNHNQYQILQIDT  60
+
+Query  63   AHQRIKFSSFDNEEIIYILDYDDTQHILMQTSSKQGIGTSRPIVYERL  110
+             HQRIK +S ++ +++YILDY+DT HI +QTS K   GTSRPI YE+ 
+Sbjct  61   EHQRIKLTSEEDPQLMYILDYEDTNHIFIQTSVKNSYGTSRPIRYEKF  108
+
+
+> UniRef90_A0A077UTI2 Staphostatin B n=9 Tax=Staphylococcus TaxID=1279 
+RepID=A0A077UTI2_STAAU
+Length=109
+
+ Score = 150 bits (379),  Expect = 4e-44, Method: Composition-based stats.
+ Identities = 84/109 (77%), Positives = 94/109 (86%), Gaps = 0/109 (0%)
+
+Query  3    MYQLQFINLVYDTTKLTHLEQTNINLFIGNWSNHQLQKSICIRHGDDTSHNQYHILFIDT  62
+            MYQLQFIN +YD T LTHLE  NINLFIGNWSNHQLQK+I IRHGD+T+ NQ  ILFIDT
+Sbjct  1    MYQLQFINFIYDKTNLTHLELNNINLFIGNWSNHQLQKTISIRHGDNTTQNQCRILFIDT  60
+
+Query  63   AHQRIKFSSFDNEEIIYILDYDDTQHILMQTSSKQGIGTSRPIVYERLV  111
+             HQRIKFS    ++IIYILDYDD+QHILMQTSS+ GIGTSRPI+YERL+
+Sbjct  61   THQRIKFSPLHQDQIIYILDYDDSQHILMQTSSQDGIGTSRPILYERLI  109
+
+
+> UniRef90_A0A0M2NRX5 Staphostatin B n=4 Tax=Staphylococcus TaxID=1279 
+RepID=A0A0M2NRX5_9STAP
+Length=107
+
+ Score = 135 bits (341),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 61/107 (57%), Positives = 73/107 (68%), Gaps = 0/107 (0%)
+
+Query  3    MYQLQFINLVYDTTKLTHLEQTNINLFIGNWSNHQLQKSICIRHGDDTSHNQYHILFIDT  62
+            MYQLQFINL Y+ + LT  +   I  F+GNW N  LQKSI IR+   T  NQY I+ ID+
+Sbjct  1    MYQLQFINLDYNPSTLTKEQLNLIQQFLGNWKNQSLQKSISIRYERHTHLNQYQIIQIDS  60
+
+Query  63   AHQRIKFSSFDNEEIIYILDYDDTQHILMQTSSKQGIGTSRPIVYER  109
+             HQRIK    DN++IIY LDY+D QHIL+QTS     GTSRPI YE+
+Sbjct  61   NHQRIKILPEDNQQIIYTLDYEDAQHILIQTSIHHSYGTSRPIRYEK  107
+
+
+> UniRef90_A0A133QT84 Staphostatin B n=4 Tax=Staphylococcus simulans 
+TaxID=1286 RepID=A0A133QT84_STASI
+Length=109
+
+ Score = 41.5 bits (96),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 25/96 (26%), Positives = 42/96 (44%), Gaps = 3/96 (3%)
+
+Query  17   KLTHLEQTNINLFIGNWSNHQLQKSICIR---HGDDTSHNQYHILFIDTAHQRIKFSSFD  73
+             L+  E+T +N F G W +     S+ IR       T  + Y I  I T    I  +   
+Sbjct  13   SLSDSEETLLNHFQGEWLSQDDTLSLDIRILYSIPSTLEDVYEIKSISTTDDEIALTPTS  72
+
+Query  74   NEEIIYILDYDDTQHILMQTSSKQGIGTSRPIVYER  109
+            + + +  L   D QH+  Q  +   +G+S+P + E+
+Sbjct  73   DSDFVICLKKKDLQHVSYQVINADRMGSSQPYILEK  108
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.138    0.384    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0425    0.140     1.90     42.6     43.6 
+
+Effective search space used: 438668923680
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

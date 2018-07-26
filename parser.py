@@ -3,6 +3,7 @@ import more_itertools as mit
 import itertools as it
 from sklearn import svm
 from sklearn.preprocessing import OneHotEncoder
+import sys 
 #from sklearn.feature_extraction import DictVectorizer
 ## Function that takes a sequence as an input and creates an input vector to sklearn ##
 
@@ -19,12 +20,13 @@ mydict={}
 # mydict2= {}
 
 
-filereader = open('small_test_data.txt','r')
+filereader = open('jpred1.3line.txt','r')
 text = filereader.read().splitlines()
 
 
 for i in range (0, len(text), 3):
     mydict[text[i].lstrip ('>')] = [list(text[i+1]), list(text[i+2])]
+ 
     #print (list(text[i+1]))
     # mydict1 [text[i].lstrip ('>')] = list(text[i+1])
     # mydict2 [text[i].lstrip ('>')] = text[i+2]
@@ -94,7 +96,7 @@ for i,j in enumerate (states_list):
 #print (states_dict)
 
 encode = OneHotEncoder(n_values=len(aa_list))
-#%%
+
 for i in mydict:
     for j in range (len(mydict [i][0])):
         mydict[i][0][j] = aa_dict[mydict[i][0][j]]
@@ -112,8 +114,9 @@ for i in mydict:
 
 # sliding window
 ### window size of 19 or 21 gives the best results accourding to http://biomine.cs.vcu.edu/papers/CIBCB2006-1.pdf
-       
-window_size = 19
+
+window_size = int(sys.argv[1])      
+#window_size = 19
 pad = [np.zeros(shape=21)]
 padding = pad * int((window_size-1)/2)
 
@@ -139,7 +142,7 @@ for i in mydict:
 for i in mydict:
     
 
-    window_temp = list(mit.windowed(mydict[i][0], 19))
+    window_temp = list(mit.windowed(mydict[i][0], window_size))
     window_temp = [list(mit.flatten(i)) for i in window_temp]
     mydict[i][0] = window_temp
     
@@ -149,6 +152,7 @@ for i in mydict:
 print(len(mydict[i][0]))
 
 #############################################################################
+##http://scikit-learn.org/stable/modules/cross_validation.html
 
 from sklearn.svm import SVC
 from sklearn.model_selection import train_test_split
@@ -167,21 +171,146 @@ model = SVC(verbose=True)
 
 model.fit(train_X, train_Y)
 
-model.score
+results = open ('result_' + str(window_size) + '.txt', 'w') 
+results.write ('Single sequence' + '\n' + str(model.score(train_X, train_Y)) + '\n' + str(model.score(test_X, test_Y)) + '\n\n\n' )
+print(model.score(train_X, train_Y))
 
-model.score()
+print(model.score(test_X, test_Y))
 
-model.score(train_X, train_Y)
+#%%
+########sigmoid fucntion###############
+##########################
+from math import e
+def sigmoid(x):
+    function = 1/(1+e**(-x))
+    return function
+###### PSSM ######
+### https://academic.oup.com/nar/article/36/suppl_2/W197/2506071
 
-model.score(test_X, test_Y)
+def pssm (prot):
+    
+ 
+    filereader = open('dataset/PSSM/' + prot +'.fasta.pssm','r')
+    text = filereader.read().splitlines()
+    subs_list=[]
+    freq_list=[]
+    
+    
+    for i in range (3,len(text),1):
+        if len(text[i]) == 0:
+            break   
+        
+        int_subs_list = [int(j) for j in text[i].split()[2:42]]
+    
+        subs_list.append([sigmoid(k) for k in int_subs_list[0:20]])
+        
+        freq_list.append(int_subs_list[20:40])
+        
+        
+    return [subs_list, freq_list]#list(subs_list), list(freq_list)
 
 
+##################################
+
+pssm_dict = {}
+
+for i in mydict:
+    pssm_dict[i] = pssm(i)
+
+ 
+# sliding window for pssm
+
+window_size_p = int(sys.argv[1])     
+#window_size = 19
+pad_pssm = [np.zeros(shape=20)]
+padding_pssm = pad_pssm * int((window_size_p-1)/2)
 
 
+#%%
+from sklearn.svm import SVC
+from sklearn.model_selection import train_test_split
 
-# if __name__=="__main__":
-#  print (parser('jpred1.3line.txt'))
+for i in pssm_dict:
+    padded_pssm_temp = padding_pssm
+    padded_pssm_temp = padded_pssm_temp + pssm_dict[i][0]
+    padded_pssm_temp = padded_pssm_temp + padding_pssm
+    
+    pssm_dict[i][0] = padded_pssm_temp
 
+
+for i in pssm_dict:
+    padded_pssm_temp2 = padding_pssm
+    padded_pssm_temp2 = padded_pssm_temp2 + pssm_dict[i][1]
+    padded_pssm_temp2 = padded_pssm_temp2 + padding_pssm
+    
+    pssm_dict[i][1] = padded_pssm_temp2
+
+
+for i in pssm_dict:
+    
+
+    window_pssm_temp = list(mit.windowed(pssm_dict[i][0], window_size_p))
+    window_pssm_temp = [list(mit.flatten(i)) for i in window_pssm_temp]
+    pssm_dict[i][0] = window_pssm_temp   
+    
+ 
+    window_pssm_temp2 = list(mit.windowed(pssm_dict[i][1], window_size_p))
+    window_pssm_temp2 = [list(mit.flatten(i)) for i in window_pssm_temp2]
+    pssm_dict[i][1] = window_pssm_temp2      
+    
+    
+    
+    
+    
+A = []
+B = []
+C = []
+
+for i in pssm_dict:
+    
+    A.extend(pssm_dict[i][0])
+    B.extend(pssm_dict[i][1])
+   
+for i in mydict:
+    C.extend(mydict[i][1])
+    
+    
+#%% 
+    
+train_A, test_A, train_C, test_C = train_test_split(A, C, train_size = 0.9 , shuffle=True)
+
+
+model = SVC(verbose=True)
+
+model.fit(train_A, train_C)
+
+print(model.score(train_A, train_C))
+
+print(model.score(test_A, test_C))
+    
+
+results.write ('Multiple sequence substitution matrix' + '\n' + str(model.score(train_A, train_C)) + '\n' + str(model.score(test_A, test_C)) + '\n\n\n') 
+#%%   
+    
+train_B, test_B, train_D, test_D = train_test_split(B, C, train_size = 0.9 , shuffle=True)
+
+
+model = SVC(verbose=True)
+
+model.fit(train_B, train_D)
+
+print(model.score(train_B, train_D))
+
+print(model.score(test_B, test_D))    
+    
+
+results.write ('Single sequence frequency matrix' + '\n' + str(model.score(train_B, train_D)) + '\n' + str(model.score(test_B, test_D)) + '\n\n\n')    
+    
+    
+    
+    
+    
+    
 
 
 # if __name__=="__main__":

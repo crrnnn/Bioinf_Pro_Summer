@@ -1,0 +1,944 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           52,629,880 sequences; 17,866,164,385 total letters
+
+Results from round 1
+
+
+Query= d1hufa_
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P15273 Tyrosine-protein phosphatase YopH n=43 Tax=Yers...  244     3e-76
+  UniRef90_UPI000946CD0E UPI000946CD0E related cluster n=1 Tax=un...  151     1e-43
+  UniRef90_Q27RI1 AopH n=4 Tax=Aeromonas salmonicida TaxID=645 Re...  153     1e-41
+  UniRef90_A0A0T6ULJ2 Tyrosine protein phosphatase n=4 Tax=Aeromo...  151     6e-41
+  UniRef90_K5UZR0 Tyrosine-protein phosphatase yopH (Fragment) n=...  140     1e-36
+  UniRef90_A8TCD3 Protein-tyrosine phosphatase Yop effector (Frag...  132     2e-36
+  UniRef90_A0A0H2MQ19 Uncharacterized protein n=3 Tax=Vibrionacea...  125     1e-31
+  UniRef90_A0A0W7U3H0 Tyrosine protein phosphatase n=3 Tax=Aeromo...  95.5    1e-20
+  UniRef90_A0A1C2KXC0 Uncharacterized protein n=3 Tax=Aeromonas h...  66.2    3e-10
+  UniRef90_A0A1C7PJA3 Uncharacterized protein n=3 Tax=Aeromonas T...  62.8    5e-09
+  UniRef90_Q01254 Yop proteins translocation protein M n=23 Tax=Y...  58.9    1e-08
+  UniRef90_UPI000678F18F hypothetical protein n=1 Tax=Aeromonas a...  60.1    4e-08
+  UniRef90_Q93KQ4 Regulatory protein YscM2 n=9 Tax=Yersinia enter...  53.1    1e-06
+
+
+> UniRef90_P15273 Tyrosine-protein phosphatase YopH n=43 Tax=Yersinia 
+TaxID=444888 RepID=YOPH_YEREN
+Length=468
+
+ Score = 244 bits (623),  Expect = 3e-76, Method: Compositional matrix adjust.
+ Identities = 121/123 (98%), Positives = 123/123 (100%), Gaps = 0/123 (0%)
+
+Query  1    LSLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSH  60
+            LSLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSH
+Sbjct  3    LSLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSH  62
+
+Query  61   VANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALR  120
+            VAN+VLTQEDTAKLLQSTVKHNLNNY+LRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALR
+Sbjct  63   VANIVLTQEDTAKLLQSTVKHNLNNYELRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALR  122
+
+Query  121  QES  123
+            QES
+Sbjct  123  QES  125
+
+
+> UniRef90_UPI000946CD0E UPI000946CD0E related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000946CD0E
+Length=171
+
+ Score = 151 bits (382),  Expect = 1e-43, Method: Compositional matrix adjust.
+ Identities = 72/122 (59%), Positives = 97/122 (80%), Gaps = 0/122 (0%)
+
+Query  1    LSLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSH  60
+            L++  LH+QV+RLV+Q+ G+ TGKLRG VAAN E  FQGLT+ +GAR++EK FA+ VL H
+Sbjct  9    LAIHSLHQQVTRLVEQQHGEVTGKLRGGVAANTEGRFQGLTVTNGARDTEKAFAREVLHH  68
+
+Query  61   VANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALR  120
+            V  + L Q D A+L +STV+ N NN++LRS+G+G S LV LRSDQ+TL+DAK LL+AA+R
+Sbjct  69   VQEIALNQNDVAELHKSTVRFNQNNFELRSLGHGQSQLVGLRSDQLTLRDAKTLLDAAMR  128
+
+Query  121  QE  122
+            Q+
+Sbjct  129  QQ  130
+
+
+> UniRef90_Q27RI1 AopH n=4 Tax=Aeromonas salmonicida TaxID=645 
+RepID=Q27RI1_AERS4
+Length=463
+
+ Score = 153 bits (387),  Expect = 1e-41, Method: Compositional matrix adjust.
+ Identities = 71/122 (58%), Positives = 98/122 (80%), Gaps = 0/122 (0%)
+
+Query  1    LSLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSH  60
+            L++  LH+QVSRL +Q++G+  GKLRGNVAAN+E +FQGLT+ +GAR++EK FAQ VL H
+Sbjct  3    LTIQTLHQQVSRLAEQQNGELIGKLRGNVAANREGSFQGLTVTNGARDTEKAFAQEVLRH  62
+
+Query  61   VANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALR  120
+            V ++ L Q+D A L +S ++ N NN++LRS+GN  S LV LRSDQ+TL+DAK LL+AA+R
+Sbjct  63   VQDIALNQDDVAALHKSAIRFNHNNFELRSIGNSQSQLVGLRSDQLTLKDAKTLLDAAMR  122
+
+Query  121  QE  122
+            Q+
+Sbjct  123  QQ  124
+
+
+> UniRef90_A0A0T6ULJ2 Tyrosine protein phosphatase n=4 Tax=Aeromonas 
+TaxID=642 RepID=A0A0T6ULJ2_9GAMM
+Length=463
+
+ Score = 151 bits (382),  Expect = 6e-41, Method: Compositional matrix adjust.
+ Identities = 72/122 (59%), Positives = 97/122 (80%), Gaps = 0/122 (0%)
+
+Query  1    LSLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSH  60
+            L++  LH+QV+RLV+Q+ G+ TGKLRG VAAN E  FQGLT+ +GAR++E+ FA+ VL H
+Sbjct  3    LAIHSLHQQVTRLVEQQHGEVTGKLRGGVAANTEGRFQGLTVTNGARDTEQAFAREVLHH  62
+
+Query  61   VANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALR  120
+            V  + L Q D A+L +STV+ N NN++LRS+GNG S LV LRSDQ+TL+DAK LL+AA+R
+Sbjct  63   VQEIALNQNDVAELHKSTVRFNQNNFELRSLGNGQSQLVGLRSDQLTLRDAKTLLDAAMR  122
+
+Query  121  QE  122
+            Q+
+Sbjct  123  QQ  124
+
+
+> UniRef90_K5UZR0 Tyrosine-protein phosphatase yopH (Fragment) 
+n=1 Tax=Vibrio sp. HENC-02 TaxID=992011 RepID=K5UZR0_9VIBR
+Length=471
+
+ Score = 140 bits (352),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 69/123 (56%), Positives = 92/123 (75%), Gaps = 1/123 (1%)
+
+Query  1    LSLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSH  60
+            LS+ +LH QV+ L QQ + + TGK RGNVA NKE +FQGLTIA+GA+ESEK FA  VL H
+Sbjct  11   LSIQNLHSQVTLLAQQ-NAESTGKFRGNVAVNKEGSFQGLTIANGAKESEKSFANEVLKH  69
+
+Query  61   VANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALR  120
+              N+ L  +D A+L +S  + N NN++LR +G G S LV LRSDQ+TL+DAK+LL+A +R
+Sbjct  70   ALNITLNHDDQAELFKSVDRFNQNNFNLRVIGQGESRLVGLRSDQLTLKDAKILLDAVIR  129
+
+Query  121  QES  123
+            Q++
+Sbjct  130  QQN  132
+
+
+> UniRef90_A8TCD3 Protein-tyrosine phosphatase Yop effector (Fragment) 
+n=1 Tax=Vibrio sp. AND4 TaxID=314289 RepID=A8TCD3_9VIBR
+Length=152
+
+ Score = 132 bits (333),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 64/122 (52%), Positives = 86/122 (70%), Gaps = 1/122 (1%)
+
+Query  1    LSLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSH  60
+            LS+  LH QV+ L Q E+GD TGKLRG VAAN + +FQGLT+++GARE+EK FA  +L H
+Sbjct  3    LSIQQLHTQVTHLAQ-ENGDATGKLRGAVAANTQGSFQGLTVSNGARETEKAFAMDILKH  61
+
+Query  61   VANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALR  120
+             +N++L   D A+L   + +   NN+ L  VG G S  V L+SDQ+TL+DAK+LLEAA+R
+Sbjct  62   TSNIILNSYDQAELFSGSARLGKNNFVLEQVGGGQSRFVGLKSDQLTLRDAKILLEAAMR  121
+
+Query  121  QE  122
+              
+Sbjct  122  PP  123
+
+
+> UniRef90_A0A0H2MQ19 Uncharacterized protein n=3 Tax=Vibrionaceae 
+TaxID=641 RepID=A0A0H2MQ19_9VIBR
+Length=405
+
+ Score = 125 bits (315),  Expect = 1e-31, Method: Compositional matrix adjust.
+ Identities = 63/123 (51%), Positives = 85/123 (69%), Gaps = 1/123 (1%)
+
+Query  1    LSLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSH  60
+            LS+  LH QV++L +  +GD TGKL+GNVA N E  FQGL ++SGAR++EK FA  VL H
+Sbjct  3    LSIQQLHTQVTKLAEH-NGDATGKLKGNVAPNTEGRFQGLKVSSGARDTEKTFATEVLKH  61
+
+Query  61   VANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALR  120
+             +NV+L + + A+L  S  +   NN+ L     G S  V L SDQ+TL+DAKVLLEAA+R
+Sbjct  62   ASNVILNKNEQAELFNSASRFGKNNFVLHQATGGESRFVGLNSDQLTLRDAKVLLEAAMR  121
+
+Query  121  QES  123
+            Q++
+Sbjct  122  QQA  124
+
+
+> UniRef90_A0A0W7U3H0 Tyrosine protein phosphatase n=3 Tax=Aeromonas 
+schubertii TaxID=652 RepID=A0A0W7U3H0_9GAMM
+Length=445
+
+ Score = 95.5 bits (236),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 56/123 (46%), Positives = 85/123 (69%), Gaps = 4/123 (3%)
+
+Query  1    LSLSDLHRQVSRLVQQESGDCTGKLRGN-VAANKETTFQGLTIASGARESEKVFAQTVLS  59
+            LSL  LH +V++L Q  +G+ TGK + + +AA+KE +FQGLT++SGAR +E+ FAQ VL 
+Sbjct  3    LSLQALHSKVTQLAQ-NNGELTGKFKNDSLAAHKEGSFQGLTVSSGARPTERAFAQEVLK  61
+
+Query  60   HVANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAAL  119
+            H+ +V L   +   L + + ++  +N++L   G G   L  L SDQ+TL+DAK+LL+AAL
+Sbjct  62   HLQHVSLNDGEVRGLTEGS-RYAQSNFELHYDGKGVQ-LRGLHSDQLTLKDAKILLDAAL  119
+
+Query  120  RQE  122
+            RQ+
+Sbjct  120  RQQ  122
+
+
+> UniRef90_A0A1C2KXC0 Uncharacterized protein n=3 Tax=Aeromonas 
+hydrophila TaxID=644 RepID=A0A1C2KXC0_AERHY
+Length=473
+
+ Score = 66.2 bits (160),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 39/85 (46%), Positives = 53/85 (62%), Gaps = 6/85 (7%)
+
+Query  38   QGLT-IASGARESEKVFAQTVLSHVANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNS  96
+            QG T   +G    E+ FAQTVL  V N+ L Q++ A LL      ++ N+ L+    GN+
+Sbjct  29   QGHTNTGTGISSQERTFAQTVLEQVRNISLNQQEVAGLLP-----HIANFKLQQETGGNA  83
+
+Query  97   VLVSLRSDQMTLQDAKVLLEAALRQ  121
+            VL  LRSDQ++L DAK+LL+AA RQ
+Sbjct  84   VLAGLRSDQLSLADAKLLLDAAARQ  108
+
+
+> UniRef90_A0A1C7PJA3 Uncharacterized protein n=3 Tax=Aeromonas 
+TaxID=642 RepID=A0A1C7PJA3_9GAMM
+Length=473
+
+ Score = 62.8 bits (151),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 35/80 (44%), Positives = 48/80 (60%), Gaps = 5/80 (6%)
+
+Query  42   IASGARESEKVFAQTVLSHVANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSL  101
+            I +GA   E  FA  VL  V N+ L  ++ A LL      ++ N+ L+    GN+VL  L
+Sbjct  34   IGAGASSQEHAFASAVLEQVRNISLNHQEVAGLLP-----HIANFKLQQDTGGNAVLAGL  88
+
+Query  102  RSDQMTLQDAKVLLEAALRQ  121
+            RSDQ++L DAK+LL+AA RQ
+Sbjct  89   RSDQLSLADAKLLLDAASRQ  108
+
+
+> UniRef90_Q01254 Yop proteins translocation protein M n=23 Tax=Yersinia 
+TaxID=444888 RepID=YSCM_YEREN
+Length=115
+
+ Score = 58.9 bits (141),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 31/75 (41%), Positives = 48/75 (64%), Gaps = 5/75 (7%)
+
+Query  49   SEKVFAQTVLSHVANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTL  108
+            +EK FA  VL HV N  L++ D A LL       ++N +L+    G  ++  LR++Q++L
+Sbjct  42   AEKAFASEVLEHVKNTALSRHDIACLLP-----RVSNLELKQGKAGEVIVTGLRTEQLSL  96
+
+Query  109  QDAKVLLEAALRQES  123
+             DAK+LLEAA+RQ++
+Sbjct  97   SDAKLLLEAAMRQDT  111
+
+
+> UniRef90_UPI000678F18F hypothetical protein n=1 Tax=Aeromonas 
+allosaccharophila TaxID=656 RepID=UPI000678F18F
+Length=473
+
+ Score = 60.1 bits (144),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 32/77 (42%), Positives = 46/77 (60%), Gaps = 5/77 (6%)
+
+Query  45   GARESEKVFAQTVLSHVANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSD  104
+            GA   E+ FA  V   V N+ L Q++ A LL      ++ ++ L     GN++L  LRSD
+Sbjct  37   GASSQERAFAHAVFEQVRNISLNQQEVAGLLP-----HIASFTLHQDKGGNAILAGLRSD  91
+
+Query  105  QMTLQDAKVLLEAALRQ  121
+            Q++L DAK+LL+AA RQ
+Sbjct  92   QLSLADAKLLLDAAARQ  108
+
+
+> UniRef90_Q93KQ4 Regulatory protein YscM2 n=9 Tax=Yersinia enterocolitica 
+TaxID=630 RepID=Q93KQ4_YEREN
+Length=116
+
+ Score = 53.1 bits (126),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 28/72 (39%), Positives = 43/72 (60%), Gaps = 5/72 (7%)
+
+Query  50   EKVFAQTVLSHVANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQ  109
+            E+ FA  VL H  N +L ++D AKLL        +N++L     G  +L  LR +Q++L+
+Sbjct  46   ERRFAYAVLEHAKNTILNRQDVAKLLPRA-----SNFELSQGKKGEVILKGLRVEQLSLE  100
+
+Query  110  DAKVLLEAALRQ  121
+            DAK+LL+A  R+
+Sbjct  101  DAKLLLDAVTRK  112
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.124    0.321    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 448191572210
+Results from round 2
+
+
+Query= d1hufa_
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A8TCD3 Protein-tyrosine phosphatase Yop effector (Frag...  186     3e-57
+  UniRef90_UPI000946CD0E UPI000946CD0E related cluster n=1 Tax=un...  186     5e-57
+  UniRef90_A0A0H2MQ19 Uncharacterized protein n=3 Tax=Vibrionacea...  189     2e-55
+  UniRef90_P15273 Tyrosine-protein phosphatase YopH n=43 Tax=Yers...  188     7e-55
+  UniRef90_A0A0T6ULJ2 Tyrosine protein phosphatase n=4 Tax=Aeromo...  186     6e-54
+  UniRef90_Q27RI1 AopH n=4 Tax=Aeromonas salmonicida TaxID=645 Re...  183     6e-53
+  UniRef90_K5UZR0 Tyrosine-protein phosphatase yopH (Fragment) n=...  183     1e-52
+  UniRef90_A0A0W7U3H0 Tyrosine protein phosphatase n=3 Tax=Aeromo...  157     4e-43
+  UniRef90_A0A1C7PJA3 Uncharacterized protein n=3 Tax=Aeromonas T...  114     2e-27
+  UniRef90_A0A1C2KXC0 Uncharacterized protein n=3 Tax=Aeromonas h...  112     7e-27
+  UniRef90_UPI000678F18F hypothetical protein n=1 Tax=Aeromonas a...  110     5e-26
+  UniRef90_Q93KQ4 Regulatory protein YscM2 n=9 Tax=Yersinia enter...  93.2    1e-21
+  UniRef90_Q01254 Yop proteins translocation protein M n=23 Tax=Y...  86.7    4e-19
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI0005781D28 preprotein translocase M, partial n=1 Ta...  55.5    1e-07
+
+
+> UniRef90_A8TCD3 Protein-tyrosine phosphatase Yop effector (Fragment) 
+n=1 Tax=Vibrio sp. AND4 TaxID=314289 RepID=A8TCD3_9VIBR
+Length=152
+
+ Score = 186 bits (471),  Expect = 3e-57, Method: Composition-based stats.
+ Identities = 64/122 (52%), Positives = 86/122 (70%), Gaps = 1/122 (1%)
+
+Query  1    LSLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSH  60
+            LS+  LH QV+ L Q E+GD TGKLRG VAAN + +FQGLT+++GARE+EK FA  +L H
+Sbjct  3    LSIQQLHTQVTHLAQ-ENGDATGKLRGAVAANTQGSFQGLTVSNGARETEKAFAMDILKH  61
+
+Query  61   VANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALR  120
+             +N++L   D A+L   + +   NN+ L  VG G S  V L+SDQ+TL+DAK+LLEAA+R
+Sbjct  62   TSNIILNSYDQAELFSGSARLGKNNFVLEQVGGGQSRFVGLKSDQLTLRDAKILLEAAMR  121
+
+Query  121  QE  122
+              
+Sbjct  122  PP  123
+
+
+> UniRef90_UPI000946CD0E UPI000946CD0E related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000946CD0E
+Length=171
+
+ Score = 186 bits (471),  Expect = 5e-57, Method: Composition-based stats.
+ Identities = 72/122 (59%), Positives = 97/122 (80%), Gaps = 0/122 (0%)
+
+Query  1    LSLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSH  60
+            L++  LH+QV+RLV+Q+ G+ TGKLRG VAAN E  FQGLT+ +GAR++EK FA+ VL H
+Sbjct  9    LAIHSLHQQVTRLVEQQHGEVTGKLRGGVAANTEGRFQGLTVTNGARDTEKAFAREVLHH  68
+
+Query  61   VANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALR  120
+            V  + L Q D A+L +STV+ N NN++LRS+G+G S LV LRSDQ+TL+DAK LL+AA+R
+Sbjct  69   VQEIALNQNDVAELHKSTVRFNQNNFELRSLGHGQSQLVGLRSDQLTLRDAKTLLDAAMR  128
+
+Query  121  QE  122
+            Q+
+Sbjct  129  QQ  130
+
+
+> UniRef90_A0A0H2MQ19 Uncharacterized protein n=3 Tax=Vibrionaceae 
+TaxID=641 RepID=A0A0H2MQ19_9VIBR
+Length=405
+
+ Score = 189 bits (479),  Expect = 2e-55, Method: Composition-based stats.
+ Identities = 63/123 (51%), Positives = 85/123 (69%), Gaps = 1/123 (1%)
+
+Query  1    LSLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSH  60
+            LS+  LH QV++L +  +GD TGKL+GNVA N E  FQGL ++SGAR++EK FA  VL H
+Sbjct  3    LSIQQLHTQVTKLAEH-NGDATGKLKGNVAPNTEGRFQGLKVSSGARDTEKTFATEVLKH  61
+
+Query  61   VANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALR  120
+             +NV+L + + A+L  S  +   NN+ L     G S  V L SDQ+TL+DAKVLLEAA+R
+Sbjct  62   ASNVILNKNEQAELFNSASRFGKNNFVLHQATGGESRFVGLNSDQLTLRDAKVLLEAAMR  121
+
+Query  121  QES  123
+            Q++
+Sbjct  122  QQA  124
+
+
+> UniRef90_P15273 Tyrosine-protein phosphatase YopH n=43 Tax=Yersinia 
+TaxID=444888 RepID=YOPH_YEREN
+Length=468
+
+ Score = 188 bits (478),  Expect = 7e-55, Method: Composition-based stats.
+ Identities = 121/123 (98%), Positives = 123/123 (100%), Gaps = 0/123 (0%)
+
+Query  1    LSLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSH  60
+            LSLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSH
+Sbjct  3    LSLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSH  62
+
+Query  61   VANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALR  120
+            VAN+VLTQEDTAKLLQSTVKHNLNNY+LRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALR
+Sbjct  63   VANIVLTQEDTAKLLQSTVKHNLNNYELRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALR  122
+
+Query  121  QES  123
+            QES
+Sbjct  123  QES  125
+
+
+> UniRef90_A0A0T6ULJ2 Tyrosine protein phosphatase n=4 Tax=Aeromonas 
+TaxID=642 RepID=A0A0T6ULJ2_9GAMM
+Length=463
+
+ Score = 186 bits (472),  Expect = 6e-54, Method: Composition-based stats.
+ Identities = 72/122 (59%), Positives = 97/122 (80%), Gaps = 0/122 (0%)
+
+Query  1    LSLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSH  60
+            L++  LH+QV+RLV+Q+ G+ TGKLRG VAAN E  FQGLT+ +GAR++E+ FA+ VL H
+Sbjct  3    LAIHSLHQQVTRLVEQQHGEVTGKLRGGVAANTEGRFQGLTVTNGARDTEQAFAREVLHH  62
+
+Query  61   VANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALR  120
+            V  + L Q D A+L +STV+ N NN++LRS+GNG S LV LRSDQ+TL+DAK LL+AA+R
+Sbjct  63   VQEIALNQNDVAELHKSTVRFNQNNFELRSLGNGQSQLVGLRSDQLTLRDAKTLLDAAMR  122
+
+Query  121  QE  122
+            Q+
+Sbjct  123  QQ  124
+
+
+> UniRef90_Q27RI1 AopH n=4 Tax=Aeromonas salmonicida TaxID=645 
+RepID=Q27RI1_AERS4
+Length=463
+
+ Score = 183 bits (465),  Expect = 6e-53, Method: Composition-based stats.
+ Identities = 71/122 (58%), Positives = 98/122 (80%), Gaps = 0/122 (0%)
+
+Query  1    LSLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSH  60
+            L++  LH+QVSRL +Q++G+  GKLRGNVAAN+E +FQGLT+ +GAR++EK FAQ VL H
+Sbjct  3    LTIQTLHQQVSRLAEQQNGELIGKLRGNVAANREGSFQGLTVTNGARDTEKAFAQEVLRH  62
+
+Query  61   VANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALR  120
+            V ++ L Q+D A L +S ++ N NN++LRS+GN  S LV LRSDQ+TL+DAK LL+AA+R
+Sbjct  63   VQDIALNQDDVAALHKSAIRFNHNNFELRSIGNSQSQLVGLRSDQLTLKDAKTLLDAAMR  122
+
+Query  121  QE  122
+            Q+
+Sbjct  123  QQ  124
+
+
+> UniRef90_K5UZR0 Tyrosine-protein phosphatase yopH (Fragment) 
+n=1 Tax=Vibrio sp. HENC-02 TaxID=992011 RepID=K5UZR0_9VIBR
+Length=471
+
+ Score = 183 bits (464),  Expect = 1e-52, Method: Composition-based stats.
+ Identities = 69/123 (56%), Positives = 92/123 (75%), Gaps = 1/123 (1%)
+
+Query  1    LSLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSH  60
+            LS+ +LH QV+ L QQ + + TGK RGNVA NKE +FQGLTIA+GA+ESEK FA  VL H
+Sbjct  11   LSIQNLHSQVTLLAQQ-NAESTGKFRGNVAVNKEGSFQGLTIANGAKESEKSFANEVLKH  69
+
+Query  61   VANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALR  120
+              N+ L  +D A+L +S  + N NN++LR +G G S LV LRSDQ+TL+DAK+LL+A +R
+Sbjct  70   ALNITLNHDDQAELFKSVDRFNQNNFNLRVIGQGESRLVGLRSDQLTLKDAKILLDAVIR  129
+
+Query  121  QES  123
+            Q++
+Sbjct  130  QQN  132
+
+
+> UniRef90_A0A0W7U3H0 Tyrosine protein phosphatase n=3 Tax=Aeromonas 
+schubertii TaxID=652 RepID=A0A0W7U3H0_9GAMM
+Length=445
+
+ Score = 157 bits (396),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 56/123 (46%), Positives = 85/123 (69%), Gaps = 4/123 (3%)
+
+Query  1    LSLSDLHRQVSRLVQQESGDCTGKLRGN-VAANKETTFQGLTIASGARESEKVFAQTVLS  59
+            LSL  LH +V++L Q  +G+ TGK + + +AA+KE +FQGLT++SGAR +E+ FAQ VL 
+Sbjct  3    LSLQALHSKVTQLAQ-NNGELTGKFKNDSLAAHKEGSFQGLTVSSGARPTERAFAQEVLK  61
+
+Query  60   HVANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAAL  119
+            H+ +V L   +   L + + ++  +N++L   G G   L  L SDQ+TL+DAK+LL+AAL
+Sbjct  62   HLQHVSLNDGEVRGLTEGS-RYAQSNFELHYDGKG-VQLRGLHSDQLTLKDAKILLDAAL  119
+
+Query  120  RQE  122
+            RQ+
+Sbjct  120  RQQ  122
+
+
+> UniRef90_A0A1C7PJA3 Uncharacterized protein n=3 Tax=Aeromonas 
+TaxID=642 RepID=A0A1C7PJA3_9GAMM
+Length=473
+
+ Score = 114 bits (285),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 42/122 (34%), Positives = 62/122 (51%), Gaps = 15/122 (12%)
+
+Query  1    LSLSDLHRQVSR-LVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLS  59
+            + +  L   V++ + Q    D  G+L  +   N         I +GA   E  FA  VL 
+Sbjct  1    MQIQALQTLVNQQISQLGHADQAGRLGNSGRGN---------IGAGASSQEHAFASAVLE  51
+
+Query  60   HVANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAAL  119
+             V N+ L  ++ A LL      ++ N+ L+    GN+VL  LRSDQ++L DAK+LL+AA 
+Sbjct  52   QVRNISLNHQEVAGLLP-----HIANFKLQQDTGGNAVLAGLRSDQLSLADAKLLLDAAS  106
+
+Query  120  RQ  121
+            RQ
+Sbjct  107  RQ  108
+
+
+> UniRef90_A0A1C2KXC0 Uncharacterized protein n=3 Tax=Aeromonas 
+hydrophila TaxID=644 RepID=A0A1C2KXC0_AERHY
+Length=473
+
+ Score = 112 bits (281),  Expect = 7e-27, Method: Composition-based stats.
+ Identities = 45/123 (37%), Positives = 65/123 (53%), Gaps = 17/123 (14%)
+
+Query  1    LSLSDLHRQVSR-LVQQESGDCTGKLRGNVAANKETTFQGLT-IASGARESEKVFAQTVL  58
+            + +  L   V++ + Q    D  G+L            QG T   +G    E+ FAQTVL
+Sbjct  1    MQIHALQSLVNQQINQLGHADQAGRLGN----------QGHTNTGTGISSQERTFAQTVL  50
+
+Query  59   SHVANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAA  118
+              V N+ L Q++ A LL      ++ N+ L+    GN+VL  LRSDQ++L DAK+LL+AA
+Sbjct  51   EQVRNISLNQQEVAGLLP-----HIANFKLQQETGGNAVLAGLRSDQLSLADAKLLLDAA  105
+
+Query  119  LRQ  121
+             RQ
+Sbjct  106  ARQ  108
+
+
+> UniRef90_UPI000678F18F hypothetical protein n=1 Tax=Aeromonas 
+allosaccharophila TaxID=656 RepID=UPI000678F18F
+Length=473
+
+ Score = 110 bits (274),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 39/122 (32%), Positives = 61/122 (50%), Gaps = 15/122 (12%)
+
+Query  1    LSLSDLHRQVSR-LVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLS  59
+            + +  L   V++ + Q    +  G+L    AA         +   GA   E+ FA  V  
+Sbjct  1    MQIHALQTLVNQQINQLGHAEQAGRLANQGAA---------SAGVGASSQERAFAHAVFE  51
+
+Query  60   HVANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAAL  119
+             V N+ L Q++ A LL      ++ ++ L     GN++L  LRSDQ++L DAK+LL+AA 
+Sbjct  52   QVRNISLNQQEVAGLLP-----HIASFTLHQDKGGNAILAGLRSDQLSLADAKLLLDAAA  106
+
+Query  120  RQ  121
+            RQ
+Sbjct  107  RQ  108
+
+
+> UniRef90_Q93KQ4 Regulatory protein YscM2 n=9 Tax=Yersinia enterocolitica 
+TaxID=630 RepID=Q93KQ4_YEREN
+Length=116
+
+ Score = 93.2 bits (230),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 36/122 (30%), Positives = 66/122 (54%), Gaps = 15/122 (12%)
+
+Query  1    LSLSDLHRQVS-RLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLS  59
+            + ++DL   +S ++ +   G+  G+L+  +   ++ + Q +T        E+ FA  VL 
+Sbjct  5    MKINDLKSLISMQIAEFGGGEKIGRLKSTL---QQVSTQAIT------SDERRFAYAVLE  55
+
+Query  60   HVANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAAL  119
+            H  N +L ++D AKLL        +N++L     G  +L  LR +Q++L+DAK+LL+A  
+Sbjct  56   HAKNTILNRQDVAKLLPRA-----SNFELSQGKKGEVILKGLRVEQLSLEDAKLLLDAVT  110
+
+Query  120  RQ  121
+            R+
+Sbjct  111  RK  112
+
+
+> UniRef90_Q01254 Yop proteins translocation protein M n=23 Tax=Yersinia 
+TaxID=444888 RepID=YSCM_YEREN
+Length=115
+
+ Score = 86.7 bits (213),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 40/122 (33%), Positives = 62/122 (51%), Gaps = 15/122 (12%)
+
+Query  2    SLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSHV  61
+            +L  L  Q  ++ Q   G   G+L        E + Q          +EK FA  VL HV
+Sbjct  5    TLQSLINQ--QITQVGHGGQAGRLT-ETNPLTENSHQ-------ISTAEKAFASEVLEHV  54
+
+Query  62   ANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALRQ  121
+             N  L++ D A LL       ++N +L+    G  ++  LR++Q++L DAK+LLEAA+RQ
+Sbjct  55   KNTALSRHDIACLLP-----RVSNLELKQGKAGEVIVTGLRTEQLSLSDAKLLLEAAMRQ  109
+
+Query  122  ES  123
+            ++
+Sbjct  110  DT  111
+
+
+> UniRef90_UPI0005781D28 preprotein translocase M, partial n=1 
+Tax=Yersinia pestis TaxID=632 RepID=UPI0005781D28
+Length=89
+
+ Score = 55.5 bits (132),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 26/100 (26%), Positives = 40/100 (40%), Gaps = 15/100 (15%)
+
+Query  2    SLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSHV  61
+            +L  L  Q  ++ Q   G   G+L        E + Q          +EK FA  VL HV
+Sbjct  5    TLQSLINQ--QITQVGHGGQAGRLT-ETNPLTENSHQ-------ISTAEKAFANEVLEHV  54
+
+Query  62   ANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSL  101
+             N  L++ D A LL       ++N +L+    G  ++   
+Sbjct  55   KNTALSRHDIACLLP-----RVSNLELKQGKAGEVIVTGF  89
+
+
+
+Lambda      K        H        a         alpha
+   0.303    0.132    0.328    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0405    0.140     1.90     42.6     43.6 
+
+Effective search space used: 448191572210
+Results from round 3
+
+
+Query= d1hufa_
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_UPI000946CD0E UPI000946CD0E related cluster n=1 Tax=un...  172     1e-51
+  UniRef90_A8TCD3 Protein-tyrosine phosphatase Yop effector (Frag...  170     4e-51
+  UniRef90_A0A0H2MQ19 Uncharacterized protein n=3 Tax=Vibrionacea...  176     9e-51
+  UniRef90_P15273 Tyrosine-protein phosphatase YopH n=43 Tax=Yers...  172     1e-48
+  UniRef90_A0A0T6ULJ2 Tyrosine protein phosphatase n=4 Tax=Aeromo...  172     1e-48
+  UniRef90_Q27RI1 AopH n=4 Tax=Aeromonas salmonicida TaxID=645 Re...  168     3e-47
+  UniRef90_K5UZR0 Tyrosine-protein phosphatase yopH (Fragment) n=...  168     4e-47
+  UniRef90_A0A0W7U3H0 Tyrosine protein phosphatase n=3 Tax=Aeromo...  145     8e-39
+  UniRef90_A0A1C7PJA3 Uncharacterized protein n=3 Tax=Aeromonas T...  138     4e-36
+  UniRef90_A0A1C2KXC0 Uncharacterized protein n=3 Tax=Aeromonas h...  136     3e-35
+  UniRef90_UPI000678F18F hypothetical protein n=1 Tax=Aeromonas a...  135     4e-35
+  UniRef90_Q01254 Yop proteins translocation protein M n=23 Tax=Y...  113     2e-29
+  UniRef90_Q93KQ4 Regulatory protein YscM2 n=9 Tax=Yersinia enter...  111     1e-28
+  UniRef90_UPI0005781D28 preprotein translocase M, partial n=1 Ta...  84.9    1e-18
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef90_UPI000946CD0E UPI000946CD0E related cluster n=1 Tax=unknown 
+TaxID= RepID=UPI000946CD0E
+Length=171
+
+ Score = 172 bits (435),  Expect = 1e-51, Method: Composition-based stats.
+ Identities = 72/122 (59%), Positives = 97/122 (80%), Gaps = 0/122 (0%)
+
+Query  1    LSLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSH  60
+            L++  LH+QV+RLV+Q+ G+ TGKLRG VAAN E  FQGLT+ +GAR++EK FA+ VL H
+Sbjct  9    LAIHSLHQQVTRLVEQQHGEVTGKLRGGVAANTEGRFQGLTVTNGARDTEKAFAREVLHH  68
+
+Query  61   VANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALR  120
+            V  + L Q D A+L +STV+ N NN++LRS+G+G S LV LRSDQ+TL+DAK LL+AA+R
+Sbjct  69   VQEIALNQNDVAELHKSTVRFNQNNFELRSLGHGQSQLVGLRSDQLTLRDAKTLLDAAMR  128
+
+Query  121  QE  122
+            Q+
+Sbjct  129  QQ  130
+
+
+> UniRef90_A8TCD3 Protein-tyrosine phosphatase Yop effector (Fragment) 
+n=1 Tax=Vibrio sp. AND4 TaxID=314289 RepID=A8TCD3_9VIBR
+Length=152
+
+ Score = 170 bits (430),  Expect = 4e-51, Method: Composition-based stats.
+ Identities = 64/122 (52%), Positives = 86/122 (70%), Gaps = 1/122 (1%)
+
+Query  1    LSLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSH  60
+            LS+  LH QV+ L Q E+GD TGKLRG VAAN + +FQGLT+++GARE+EK FA  +L H
+Sbjct  3    LSIQQLHTQVTHLAQ-ENGDATGKLRGAVAANTQGSFQGLTVSNGARETEKAFAMDILKH  61
+
+Query  61   VANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALR  120
+             +N++L   D A+L   + +   NN+ L  VG G S  V L+SDQ+TL+DAK+LLEAA+R
+Sbjct  62   TSNIILNSYDQAELFSGSARLGKNNFVLEQVGGGQSRFVGLKSDQLTLRDAKILLEAAMR  121
+
+Query  121  QE  122
+              
+Sbjct  122  PP  123
+
+
+> UniRef90_A0A0H2MQ19 Uncharacterized protein n=3 Tax=Vibrionaceae 
+TaxID=641 RepID=A0A0H2MQ19_9VIBR
+Length=405
+
+ Score = 176 bits (447),  Expect = 9e-51, Method: Composition-based stats.
+ Identities = 63/123 (51%), Positives = 85/123 (69%), Gaps = 1/123 (1%)
+
+Query  1    LSLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSH  60
+            LS+  LH QV++L +  +GD TGKL+GNVA N E  FQGL ++SGAR++EK FA  VL H
+Sbjct  3    LSIQQLHTQVTKLAEH-NGDATGKLKGNVAPNTEGRFQGLKVSSGARDTEKTFATEVLKH  61
+
+Query  61   VANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALR  120
+             +NV+L + + A+L  S  +   NN+ L     G S  V L SDQ+TL+DAKVLLEAA+R
+Sbjct  62   ASNVILNKNEQAELFNSASRFGKNNFVLHQATGGESRFVGLNSDQLTLRDAKVLLEAAMR  121
+
+Query  121  QES  123
+            Q++
+Sbjct  122  QQA  124
+
+
+> UniRef90_P15273 Tyrosine-protein phosphatase YopH n=43 Tax=Yersinia 
+TaxID=444888 RepID=YOPH_YEREN
+Length=468
+
+ Score = 172 bits (436),  Expect = 1e-48, Method: Composition-based stats.
+ Identities = 121/123 (98%), Positives = 123/123 (100%), Gaps = 0/123 (0%)
+
+Query  1    LSLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSH  60
+            LSLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSH
+Sbjct  3    LSLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSH  62
+
+Query  61   VANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALR  120
+            VAN+VLTQEDTAKLLQSTVKHNLNNY+LRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALR
+Sbjct  63   VANIVLTQEDTAKLLQSTVKHNLNNYELRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALR  122
+
+Query  121  QES  123
+            QES
+Sbjct  123  QES  125
+
+
+> UniRef90_A0A0T6ULJ2 Tyrosine protein phosphatase n=4 Tax=Aeromonas 
+TaxID=642 RepID=A0A0T6ULJ2_9GAMM
+Length=463
+
+ Score = 172 bits (435),  Expect = 1e-48, Method: Composition-based stats.
+ Identities = 72/122 (59%), Positives = 97/122 (80%), Gaps = 0/122 (0%)
+
+Query  1    LSLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSH  60
+            L++  LH+QV+RLV+Q+ G+ TGKLRG VAAN E  FQGLT+ +GAR++E+ FA+ VL H
+Sbjct  3    LAIHSLHQQVTRLVEQQHGEVTGKLRGGVAANTEGRFQGLTVTNGARDTEQAFAREVLHH  62
+
+Query  61   VANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALR  120
+            V  + L Q D A+L +STV+ N NN++LRS+GNG S LV LRSDQ+TL+DAK LL+AA+R
+Sbjct  63   VQEIALNQNDVAELHKSTVRFNQNNFELRSLGNGQSQLVGLRSDQLTLRDAKTLLDAAMR  122
+
+Query  121  QE  122
+            Q+
+Sbjct  123  QQ  124
+
+
+> UniRef90_Q27RI1 AopH n=4 Tax=Aeromonas salmonicida TaxID=645 
+RepID=Q27RI1_AERS4
+Length=463
+
+ Score = 168 bits (425),  Expect = 3e-47, Method: Composition-based stats.
+ Identities = 71/122 (58%), Positives = 98/122 (80%), Gaps = 0/122 (0%)
+
+Query  1    LSLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSH  60
+            L++  LH+QVSRL +Q++G+  GKLRGNVAAN+E +FQGLT+ +GAR++EK FAQ VL H
+Sbjct  3    LTIQTLHQQVSRLAEQQNGELIGKLRGNVAANREGSFQGLTVTNGARDTEKAFAQEVLRH  62
+
+Query  61   VANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALR  120
+            V ++ L Q+D A L +S ++ N NN++LRS+GN  S LV LRSDQ+TL+DAK LL+AA+R
+Sbjct  63   VQDIALNQDDVAALHKSAIRFNHNNFELRSIGNSQSQLVGLRSDQLTLKDAKTLLDAAMR  122
+
+Query  121  QE  122
+            Q+
+Sbjct  123  QQ  124
+
+
+> UniRef90_K5UZR0 Tyrosine-protein phosphatase yopH (Fragment) 
+n=1 Tax=Vibrio sp. HENC-02 TaxID=992011 RepID=K5UZR0_9VIBR
+Length=471
+
+ Score = 168 bits (425),  Expect = 4e-47, Method: Composition-based stats.
+ Identities = 69/123 (56%), Positives = 92/123 (75%), Gaps = 1/123 (1%)
+
+Query  1    LSLSDLHRQVSRLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLSH  60
+            LS+ +LH QV+ L QQ + + TGK RGNVA NKE +FQGLTIA+GA+ESEK FA  VL H
+Sbjct  11   LSIQNLHSQVTLLAQQ-NAESTGKFRGNVAVNKEGSFQGLTIANGAKESEKSFANEVLKH  69
+
+Query  61   VANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALR  120
+              N+ L  +D A+L +S  + N NN++LR +G G S LV LRSDQ+TL+DAK+LL+A +R
+Sbjct  70   ALNITLNHDDQAELFKSVDRFNQNNFNLRVIGQGESRLVGLRSDQLTLKDAKILLDAVIR  129
+
+Query  121  QES  123
+            Q++
+Sbjct  130  QQN  132
+
+
+> UniRef90_A0A0W7U3H0 Tyrosine protein phosphatase n=3 Tax=Aeromonas 
+schubertii TaxID=652 RepID=A0A0W7U3H0_9GAMM
+Length=445
+
+ Score = 145 bits (366),  Expect = 8e-39, Method: Composition-based stats.
+ Identities = 56/123 (46%), Positives = 85/123 (69%), Gaps = 4/123 (3%)
+
+Query  1    LSLSDLHRQVSRLVQQESGDCTGKLRGN-VAANKETTFQGLTIASGARESEKVFAQTVLS  59
+            LSL  LH +V++L Q  +G+ TGK + + +AA+KE +FQGLT++SGAR +E+ FAQ VL 
+Sbjct  3    LSLQALHSKVTQLAQ-NNGELTGKFKNDSLAAHKEGSFQGLTVSSGARPTERAFAQEVLK  61
+
+Query  60   HVANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAAL  119
+            H+ +V L   +   L + + ++  +N++L   G G   L  L SDQ+TL+DAK+LL+AAL
+Sbjct  62   HLQHVSLNDGEVRGLTEGS-RYAQSNFELHYDGKG-VQLRGLHSDQLTLKDAKILLDAAL  119
+
+Query  120  RQE  122
+            RQ+
+Sbjct  120  RQQ  122
+
+
+> UniRef90_A0A1C7PJA3 Uncharacterized protein n=3 Tax=Aeromonas 
+TaxID=642 RepID=A0A1C7PJA3_9GAMM
+Length=473
+
+ Score = 138 bits (347),  Expect = 4e-36, Method: Composition-based stats.
+ Identities = 42/122 (34%), Positives = 62/122 (51%), Gaps = 15/122 (12%)
+
+Query  1    LSLSDLHRQVSR-LVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLS  59
+            + +  L   V++ + Q    D  G+L  +   N         I +GA   E  FA  VL 
+Sbjct  1    MQIQALQTLVNQQISQLGHADQAGRLGNSGRGN---------IGAGASSQEHAFASAVLE  51
+
+Query  60   HVANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAAL  119
+             V N+ L  ++ A LL      ++ N+ L+    GN+VL  LRSDQ++L DAK+LL+AA 
+Sbjct  52   QVRNISLNHQEVAGLLP-----HIANFKLQQDTGGNAVLAGLRSDQLSLADAKLLLDAAS  106
+
+Query  120  RQ  121
+            RQ
+Sbjct  107  RQ  108
+
+
+> UniRef90_A0A1C2KXC0 Uncharacterized protein n=3 Tax=Aeromonas 
+hydrophila TaxID=644 RepID=A0A1C2KXC0_AERHY
+Length=473
+
+ Score = 136 bits (341),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 43/122 (35%), Positives = 63/122 (52%), Gaps = 15/122 (12%)
+
+Query  1    LSLSDLHRQVSR-LVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLS  59
+            + +  L   V++ + Q    D  G+L      N           +G    E+ FAQTVL 
+Sbjct  1    MQIHALQSLVNQQINQLGHADQAGRLGNQGHTNT---------GTGISSQERTFAQTVLE  51
+
+Query  60   HVANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAAL  119
+             V N+ L Q++ A LL      ++ N+ L+    GN+VL  LRSDQ++L DAK+LL+AA 
+Sbjct  52   QVRNISLNQQEVAGLLP-----HIANFKLQQETGGNAVLAGLRSDQLSLADAKLLLDAAA  106
+
+Query  120  RQ  121
+            RQ
+Sbjct  107  RQ  108
+
+
+> UniRef90_UPI000678F18F hypothetical protein n=1 Tax=Aeromonas 
+allosaccharophila TaxID=656 RepID=UPI000678F18F
+Length=473
+
+ Score = 135 bits (340),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 39/122 (32%), Positives = 61/122 (50%), Gaps = 15/122 (12%)
+
+Query  1    LSLSDLHRQVSR-LVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLS  59
+            + +  L   V++ + Q    +  G+L    AA         +   GA   E+ FA  V  
+Sbjct  1    MQIHALQTLVNQQINQLGHAEQAGRLANQGAA---------SAGVGASSQERAFAHAVFE  51
+
+Query  60   HVANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAAL  119
+             V N+ L Q++ A LL      ++ ++ L     GN++L  LRSDQ++L DAK+LL+AA 
+Sbjct  52   QVRNISLNQQEVAGLLP-----HIASFTLHQDKGGNAILAGLRSDQLSLADAKLLLDAAA  106
+
+Query  120  RQ  121
+            RQ
+Sbjct  107  RQ  108
+
+
+> UniRef90_Q01254 Yop proteins translocation protein M n=23 Tax=Yersinia 
+TaxID=444888 RepID=YSCM_YEREN
+Length=115
+
+ Score = 113 bits (283),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 38/124 (31%), Positives = 64/124 (52%), Gaps = 14/124 (11%)
+
+Query  1    LSLSDLHRQVSR-LVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLS  59
+            + ++ L   +++ + Q   G   G+L        E + Q          +EK FA  VL 
+Sbjct  1    MKINTLQSLINQQITQVGHGGQAGRLT-ETNPLTENSHQ-------ISTAEKAFASEVLE  52
+
+Query  60   HVANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAAL  119
+            HV N  L++ D A LL       ++N +L+    G  ++  LR++Q++L DAK+LLEAA+
+Sbjct  53   HVKNTALSRHDIACLLP-----RVSNLELKQGKAGEVIVTGLRTEQLSLSDAKLLLEAAM  107
+
+Query  120  RQES  123
+            RQ++
+Sbjct  108  RQDT  111
+
+
+> UniRef90_Q93KQ4 Regulatory protein YscM2 n=9 Tax=Yersinia enterocolitica 
+TaxID=630 RepID=Q93KQ4_YEREN
+Length=116
+
+ Score = 111 bits (277),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 36/122 (30%), Positives = 66/122 (54%), Gaps = 15/122 (12%)
+
+Query  1    LSLSDLHRQVS-RLVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLS  59
+            + ++DL   +S ++ +   G+  G+L+  +   ++ + Q +T        E+ FA  VL 
+Sbjct  5    MKINDLKSLISMQIAEFGGGEKIGRLKSTL---QQVSTQAIT------SDERRFAYAVLE  55
+
+Query  60   HVANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAAL  119
+            H  N +L ++D AKLL        +N++L     G  +L  LR +Q++L+DAK+LL+A  
+Sbjct  56   HAKNTILNRQDVAKLLPRA-----SNFELSQGKKGEVILKGLRVEQLSLEDAKLLLDAVT  110
+
+Query  120  RQ  121
+            R+
+Sbjct  111  RK  112
+
+
+> UniRef90_UPI0005781D28 preprotein translocase M, partial n=1 
+Tax=Yersinia pestis TaxID=632 RepID=UPI0005781D28
+Length=89
+
+ Score = 84.9 bits (208),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 24/102 (24%), Positives = 42/102 (41%), Gaps = 14/102 (14%)
+
+Query  1    LSLSDLHRQVSR-LVQQESGDCTGKLRGNVAANKETTFQGLTIASGARESEKVFAQTVLS  59
+            + ++ L   +++ + Q   G   G+L        E + Q          +EK FA  VL 
+Sbjct  1    MKINTLQSLINQQITQVGHGGQAGRLT-ETNPLTENSHQ-------ISTAEKAFANEVLE  52
+
+Query  60   HVANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSL  101
+            HV N  L++ D A LL       ++N +L+    G  ++   
+Sbjct  53   HVKNTALSRHDIACLLP-----RVSNLELKQGKAGEVIVTGF  89
+
+
+
+Lambda      K        H        a         alpha
+   0.300    0.123    0.289    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0381    0.140     1.90     42.6     43.6 
+
+Effective search space used: 448191572210
+
+Search has CONVERGED!
+
+
+  Database: uniref90
+    Posted date:  Feb 27, 2017  10:12 AM
+  Number of letters in database: 17,866,164,385
+  Number of sequences in database:  52,629,880
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
