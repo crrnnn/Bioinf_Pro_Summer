@@ -1,0 +1,15 @@
+Single sequence
+0.6462523546852957
+0.6353200547362019
+
+
+Multiple sequence substitution matrix
+0.775521409685676
+0.7691956819218488
+
+
+Single sequence frequency matrix
+0.9979726476377121
+0.41835183214231414
+
+
