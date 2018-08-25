@@ -1,0 +1,5 @@
+Multiple sequence substitution matrix
+0.6067358782237015
+0.6131214839592519
+
+

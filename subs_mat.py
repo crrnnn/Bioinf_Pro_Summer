@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Aug  3 00:10:31 2018
+
+@author: ceromi
+"""
+
 import numpy as np
 import more_itertools as mit
 import itertools as it
@@ -20,7 +28,7 @@ mydict={}
 # mydict2= {}
 
 
-filereader = open('small_test_data.txt','r')
+filereader = open('jpred1.3line.txt','r')
 text = filereader.read().splitlines()
 
 
@@ -115,8 +123,8 @@ for i in mydict:
 # sliding window
 ### window size of 19 or 21 gives the best results accourding to http://biomine.cs.vcu.edu/papers/CIBCB2006-1.pdf
 
-#window_size = int(sys.argv[1])      
-window_size = 19
+window_size = int(sys.argv[1])      
+#window_size = 19
 pad = [np.zeros(shape=21)]
 padding = pad * int((window_size-1)/2)
 
@@ -162,15 +170,15 @@ from sklearn.metrics import classification_report
 
 #kernella= sys.argv[2] 
 
-X = []
-Y = []
-
-for i in mydict:
-    X.extend(mydict[i][0])
-    Y.extend(mydict[i][1])
-
-
-train_X, test_X, train_Y, test_Y = train_test_split(X, Y, train_size = 0.9 , shuffle=True)
+#X = []
+#Y = []
+#
+#for i in mydict:
+#    X.extend(mydict[i][0])
+#    Y.extend(mydict[i][1])
+#
+#
+#train_X, test_X, train_Y, test_Y = train_test_split(X, Y, train_size = 0.9 , shuffle=True)
 #%%
 #
 #model = SVC(verbose=True)
@@ -199,7 +207,6 @@ train_X, test_X, train_Y, test_Y = train_test_split(X, Y, train_size = 0.9 , shu
 #
 #
 #for score in scores:
-#    print ('Grid-Search with 5k-fold Cross Validation // Single sequence matrix // Window size: ' + str(window_size) )
 #    print("# Tuning hyper-parameters for %s" % score)
 #    print('here1')
 #    scoring = score + '_macro'
@@ -229,34 +236,7 @@ train_X, test_X, train_Y, test_Y = train_test_split(X, Y, train_size = 0.9 , shu
 #    y_true, y_pred = test_Y, clf.predict(test_X)
 #    print(classification_report(y_true, y_pred))
 #    print('done')
-
-
-##########################################################
-#####Random Forest#####
-from sklearn.ensemble import RandomForestClassifier
-#from sklearn.datasets import make_classification
-
-##with default parameters
-#X, Y = make_classification()
-
-##                          (n_estimators=10, criterion=’gini’, max_depth=None, min_samples_split=2, min_samples_leaf=1, 
-#                           min_weight_fraction_leaf=0.0, max_features=’auto’, max_leaf_nodes=None, m
-#                           in_impurity_decrease=0.0, min_impurity_split=None, bootstrap=True, oob_score=False, 
-#                           n_jobs=1, random_state=None, verbose=0, warm_start=False, class_weight=None)
-
-clf = RandomForestClassifier()
-clf.fit(train_X, train_Y)
-
-score_train_X_Y = clf.score(train_X, train_Y)
-print(score_train_X_Y)
 #
-score_test_X_Y = clf.score(test_X, test_Y)
-print(score_test_X_Y)
-#
-#print(clf.feature_importances_)
-#
-#print(clf.predict([[0, 0, 0, 0]]))
-
 
 
 
@@ -269,104 +249,104 @@ print(score_test_X_Y)
 #%%
 ########sigmoid fucntion###############
 ##########################
-#from math import e
-#def sigmoid(x):
-#    function = 1/(1+e**(-x))
-#    return function
+from math import e
+def sigmoid(x):
+    function = 1/(1+e**(-x))
+    return function
 ###### PSSM ######
 ### https://academic.oup.com/nar/article/36/suppl_2/W197/2506071
-#
-#def pssm (prot):
-#    
-# 
-#    filereader = open('dataset/PSSM/' + prot +'.fasta.pssm','r')
-#    text = filereader.read().splitlines()
-#    subs_list=[]
-#    freq_list=[]
-#    
-#    
-#    for i in range (3,len(text),1):
-#        if len(text[i]) == 0:
-#            break   
-#        
-#        int_subs_list = [int(j) for j in text[i].split()[2:42]]
-#    
-#        subs_list.append([sigmoid(k) for k in int_subs_list[0:20]])
-#        
-#        freq_list.append(int_subs_list[20:40])
-#        
-#        
-#    return [subs_list, freq_list]#list(subs_list), list(freq_list)
-#
-#
-###################################
-#
-#pssm_dict = {}
-#
-#for i in mydict:
-#    pssm_dict[i] = pssm(i)
-#
-# 
-## sliding window for pssm
-#
-#window_size_p = int(sys.argv[1])     
-##window_size = 19
-#pad_pssm = [np.zeros(shape=20)]
-#padding_pssm = pad_pssm * int((window_size_p-1)/2)
-#
-#
-##%%
-#from sklearn.svm import SVC
-#from sklearn.model_selection import train_test_split
-#
-#for i in pssm_dict:
-#    padded_pssm_temp = padding_pssm
-#    padded_pssm_temp = padded_pssm_temp + pssm_dict[i][0]
-#    padded_pssm_temp = padded_pssm_temp + padding_pssm
-#    
-#    pssm_dict[i][0] = padded_pssm_temp
-#
-#
-#for i in pssm_dict:
-#    padded_pssm_temp2 = padding_pssm
-#    padded_pssm_temp2 = padded_pssm_temp2 + pssm_dict[i][1]
-#    padded_pssm_temp2 = padded_pssm_temp2 + padding_pssm
-#    
-#    pssm_dict[i][1] = padded_pssm_temp2
-#
-#
-#for i in pssm_dict:
-#    
-#
-#    window_pssm_temp = list(mit.windowed(pssm_dict[i][0], window_size_p))
-#    window_pssm_temp = [list(mit.flatten(i)) for i in window_pssm_temp]
-#    pssm_dict[i][0] = window_pssm_temp   
-#    
-# 
-#    window_pssm_temp2 = list(mit.windowed(pssm_dict[i][1], window_size_p))
-#    window_pssm_temp2 = [list(mit.flatten(i)) for i in window_pssm_temp2]
-#    pssm_dict[i][1] = window_pssm_temp2      
-#    
-#    
-#    
-#    
-#    
-#A = []
-#B = []
-#C = []
-#
-#for i in pssm_dict:
-#    
-#    A.extend(pssm_dict[i][0])
-#    B.extend(pssm_dict[i][1])
-#   
-#for i in mydict:
-#    C.extend(mydict[i][1])
-#    
+
+def pssm (prot):
+    
+ 
+    filereader = open('dataset/PSSM/' + prot +'.fasta.pssm','r')
+    text = filereader.read().splitlines()
+    subs_list=[]
+    freq_list=[]
+    
+    
+    for i in range (3,len(text),1):
+        if len(text[i]) == 0:
+            break   
+        
+        int_subs_list = [int(j) for j in text[i].split()[2:42]]
+    
+        subs_list.append([sigmoid(k) for k in int_subs_list[0:20]])
+        
+        freq_list.append(int_subs_list[20:40])
+        
+        
+    return [subs_list, freq_list]#list(subs_list), list(freq_list)
+
+
+##################################
+
+pssm_dict = {}
+
+for i in mydict:
+    pssm_dict[i] = pssm(i)
+
+ 
+# sliding window for pssm
+
+window_size_p = int(sys.argv[1])     
+#window_size = 19
+pad_pssm = [np.zeros(shape=20)]
+padding_pssm = pad_pssm * int((window_size_p-1)/2)
+
+
+#%%
+from sklearn.svm import SVC
+from sklearn.model_selection import train_test_split
+
+for i in pssm_dict:
+    padded_pssm_temp = padding_pssm
+    padded_pssm_temp = padded_pssm_temp + pssm_dict[i][0]
+    padded_pssm_temp = padded_pssm_temp + padding_pssm
+    
+    pssm_dict[i][0] = padded_pssm_temp
+
+
+for i in pssm_dict:
+    padded_pssm_temp2 = padding_pssm
+    padded_pssm_temp2 = padded_pssm_temp2 + pssm_dict[i][1]
+    padded_pssm_temp2 = padded_pssm_temp2 + padding_pssm
+    
+    pssm_dict[i][1] = padded_pssm_temp2
+
+
+for i in pssm_dict:
+    
+
+    window_pssm_temp = list(mit.windowed(pssm_dict[i][0], window_size_p))
+    window_pssm_temp = [list(mit.flatten(i)) for i in window_pssm_temp]
+    pssm_dict[i][0] = window_pssm_temp   
+    
+ 
+    window_pssm_temp2 = list(mit.windowed(pssm_dict[i][1], window_size_p))
+    window_pssm_temp2 = [list(mit.flatten(i)) for i in window_pssm_temp2]
+    pssm_dict[i][1] = window_pssm_temp2      
+    
+    
+    
+    
+    
+A = []
+B = []
+C = []
+
+for i in pssm_dict:
+    
+    A.extend(pssm_dict[i][0])
+    B.extend(pssm_dict[i][1])
+   
+for i in mydict:
+    C.extend(mydict[i][1])
+    
     
 #%% 
     
-#train_A, test_A, train_C, test_C = train_test_split(A, C, train_size = 0.9 , shuffle=True)
+train_A, test_A, train_C, test_C = train_test_split(A, C, train_size = 0.9 , shuffle=True)
 #
 #
 #model = SVC(kernel= kernella, verbose=True)
@@ -385,6 +365,58 @@ print(score_test_X_Y)
 #results.write ('Multiple sequence substitution matrix' + '\n' + str(score_train_A_C) + '\n' + str(score_test_A_C) + '\n\n\n') 
 ##%%   
 #    
+C_range = np.logspace(-2, 5, 8)
+gamma_range = np.logspace(-5, 2, 8)
+ 
+param_grid = [{'kernel': ['rbf'], 'gamma': gamma_range, 'C': C_range},
+                    {'kernel': ['linear'], 'C': C_range},
+                    {'kernel': ['poly'], 'gamma': gamma_range},
+                    {'kernel': ['sigmoid'], 'gamma': gamma_range}
+                    ]
+
+scores = ['precision', 'recall']
+
+
+for score in scores:
+    print ('Grid-Search with 5k-fold Cross Validation // Multiple sequence substitution matrix // Window size: ' + str(window_size_p) )
+    print ()
+    print("# Tuning hyper-parameters for %s" % score)
+    #print('here1')
+    scoring = score + '_macro'
+    clf = GridSearchCV(SVC(), param_grid, cv=5,
+                       scoring='%s_macro' % score, verbose=True,  n_jobs=-1)
+    #print ('here2')
+    clf.fit(train_A, train_C)
+    #print ('here3')
+    print("Best parameters set found on development set:")
+    print()
+    print(clf.best_params_)
+    #print('here4')
+    print("Grid scores on development set:")
+    print()
+    means = clf.cv_results_['mean_test_score']
+    stds = clf.cv_results_['std_test_score']
+    for mean, std, params in zip(means, stds, clf.cv_results_['params']):
+        print("%0.3f (+/-%0.03f) for %r"
+              % (mean, std * 2, params))
+    #print('here5')
+
+    print("Detailed classification report:")
+    print()
+    print("The model is trained on the full development set.")
+    print("The scores are computed on the full evaluation set.")
+    print()
+    y_true, y_pred = test_C, clf.predict(test_A)
+    print(classification_report(y_true, y_pred))
+    print('done')
+
+    
+    
+    
+    
+    
+    
+    
 #train_B, test_B, train_D, test_D = train_test_split(B, C, train_size = 0.9 , shuffle=True)
 #
 #

@@ -1,0 +1,30 @@
+Single sequence
+train score: 0.5073891625615764
+test score: 0.6521739130434783
+5k cross-validation score: [0.5106383  0.52173913 0.53333333 0.52272727 0.52272727]
+prediction: [2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]
+
+
+F1-score: 0.5148741418764302
+
+
+Multiple sequence substitution matrix
+train score: 0.5172413793103449
+test score: 0.5652173913043478
+5k cross-validation score: [0.5106383  0.52173913 0.53333333 0.52272727 0.52272727]
+prediction: [2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]
+
+
+F1-score: 0.40821256038647347
+
+
+Frequency matrix
+train score: 1.0
+test score: 0.7391304347826086
+5k cross-validation score: [0.5106383  0.52173913 0.53333333 0.52272727 0.52272727]
+prediction: [2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]
+
+
+F1-score: 0.6282608695652173
+
+
