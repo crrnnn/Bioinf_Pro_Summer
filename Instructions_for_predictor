@@ -1,0 +1,15 @@
+Instructions for the predictor:
+
+
+1. Download predictor.py
+2. Download the model RFC_final_optimized_7.pkl from https://drive.google.com/file/d/1lxaqNuR4iw5b4eiLaNMHY0h-AlhtGmbO/view?usp=sharing to the same location as predictor.py
+3. Be sure that you have the Uniref90 database ready for PSI-BLAST
+4. Please check line 44 in the predictor.py to have the correct location for Uniref90 database
+5. Enter your protein file in fasta format as argument 1 in the script
+  eg. $pyhton predictor.py input-file
+
+6. Press enter!
+
+
+Enjoy your prediction :)
+
